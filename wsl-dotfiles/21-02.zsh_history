@@ -1,0 +1,1524 @@
+: 1575132176:0;setopt -?
+: 1575132182:0;setopt --help
+: 1575132186:0;setopt 
+: 1575132214:0;setopt >zsh.setopt
+: 1575132451:0;# ted .zsh_hi je jiny sor
+: 1575138489:0;guguyuyututut
+: 1575138495:0;echo guguyuyututut
+: 1575138586:0;sfjfjdsfkds
+: 1575138612:0;history
+: 1575197915:0;which sh
+: 1575197942:0;ls -l /bin/sh
+: 1575197956:0;#dash
+: 1575200819:0;pip list
+: 1575200846:0;pip --help
+: 1575201002:0;pip --verbose
+: 1575201016:0;pip --verbose install
+: 1575201032:0;pip help install
+: 1575201205:0;pip --verbose
+: 1575201262:0;pip download jupyterlab
+: 1575201515:0;sudo pip install jupyterlab --system
+: 1575201599:0;sudo --help
+: 1575201643:0;###sudo pip install jupyterlab --system
+: 1575201655:0;sudo -H pip install jupyterlab --system
+: 1575201797:0;jupyter lab
+: 1575205854:0;linuxfromscratch.org/version-check.sh
+: 1575213182:0;pwd
+: 1575213187:0;git init
+: 1575213300:0;git remote add origin https://github.com/actes/newbie-attempts--dotfiles-at-s18.git
+: 1575213333:0;git pull -v
+: 1575213621:0;git push -u origin master
+: 1575213643:0;ll
+: 1575213690:0;git pull 
+: 1575213748:0;git pull origin master
+: 1575213754:0;ll
+: 1575213775:0;history
+: 1575213834:0;git add .zsh_history
+: 1575213853:0;git commit -m 'update'
+: 1575213920:0;git push -u origin master
+: 1575281565:0;echo ==== http://www.linuxfromscratch.org/lfs/view/stable/chapter02/hostreqs.html 
+: 1575281606:0;echo '==== http://www.linuxfromscratch.org/lfs/view/stable/chapter02/hostreqs.html \
+'
+: 1575281618:0;history
+: 1575281771:0;sudo apt-get install bison m4 makeinfo
+: 1575282638:0;sudo apt-get install bison m4 texinfo
+: 1575286002:0;sudo mv -v /bin/sh /bin/sh.be4-lfs
+: 1575286057:0;sudo ln -sv /bin/bash /bin/sh
+: 1575286076:0;history
+: 1575286109:0;linuxfromscratch.org/version-check.sh
+: 1575286272:0;export LFS=/mnt/lfs
+: 1575286323:0;sudo mkdir -pv $LFS 
+: 1575286332:0;ls /mnt
+: 1575286343:0;ls $LFS
+: 1575286386:0;mc
+: 1575286939:0;echo export LFS=/mnt/lfs 
+: 1575286950:0;history
+: 1575287203:0;echo cp -v  --backup=numbered  --update    --target-directory ~  ~/.bashrc
+: 1575287265:0;mkdir ~/backu
+: 1575287278:0;cp -v  --backup=numbered  --update    --target-directory ~/backu  ~/.bashrc
+: 1575287295:0;history
+: 1575287329:0;echo export LFS=/mnt/lfs >>~/.bashrc
+: 1575287336:0;cp -v  --backup=numbered  --update    --target-directory ~/backu  ~/.bashrc
+: 1575287368:0;tail ~/.bashrc
+: 1575288010:0;git add .zsh_history
+: 1575288023:0;git commit -m 'update'
+: 1575288036:0;git push -u origin master
+: 1575288082:0;git add
+: 1575288106:0;git add --help
+: 1575288968:0;git status
+: 1575289034:0;git commit --help
+: 1575291407:0;git add --dry-run .*hist*
+: 1575291436:0;git add  .*hist*
+: 1575291450:0;git add --dry-run .*zsh*
+: 1575291553:0;git add --dry-run .gitconfig
+: 1575291562:0;git add  .gitconfig
+: 1575291575:0;git add  .zshrc
+: 1575291602:0;git show
+: 1575291713:0;git add  .zshrc.pre-oh-my-zsh
+: 1575291724:0;git add  .zsh_history
+: 1575291743:0;git commit --help
+: 1575291774:0;git commit --dry-run -a
+: 1575291812:0;git commit --dry-run -a -m update
+: 1575291819:0;git add  .zsh_history
+: 1575291836:0;git commit  -a -m update
+: 1575291868:0;git push -u origin master
+: 1575292247:0;set|grep marti
+: 1575292288:0;set|grep --count  marti
+: 1575292302:0;set|grep --count  lfs
+: 1575292317:0;set|grep lfs
+: 1575292337:0;history
+: 1575292341:0;fc
+: 1575292349:0;history
+: 1575292353:0;fc
+: 1575292356:0;history
+: 1575292364:0;sudo
+: 1575292386:0;sudo --help
+: 1575292468:0;sudo --shell
+: 1575292477:0;history
+: 1575292479:0;sudo --shell
+: 1575292550:0;ls -l .*his*
+: 1575292583:0;sudo --login
+: 1575292667:0;sudo --shell
+: 1575292695:0;ls -l .*his*
+: 1575292737:0;sudo --set-home
+: 1575292776:0;sudo bash
+: 1575292796:0;ls -l .*his*
+: 1575292824:0;sudo --set-home 
+: 1575292840:0;sudo --shell  --set-home 
+: 1575292903:0;#sudo --shell  --set-home bash
+: 1575292905:0;ls -l .*his*
+: 1575292910:0;sudo --shell  --set-home bash
+: 1575292933:0;sudo  --set-home bash
+: 1575293002:0;ls -l .*his*
+: 1575293008:0;ls -la
+: 1575293026:0;history
+: 1575293048:0;man sudo
+: 1575293186:0;sudo --shell  --set-home 
+: 1575293316:0;ls -l .*his*
+: 1575293322:0;history
+: 1575293394:0;sudo sh -c 'echo sf'
+: 1575293429:0;sudo sh -c 'echo sf >>1'
+: 1575293433:0;ll
+: 1575293449:0;history
+: 1575293663:0;sudo cat /root/.bashrc
+: 1575293687:0;sudo cat /root/.bashrc | tee 2
+: 1575293688:0;ll
+: 1575293696:0;history
+: 1575293707:0;sudo cat /root/.bashrc | tee root.bashrc
+: 1575293711:0;history
+: 1575293776:0;cp -v  --backup=numbered  --update    --target-directory ~/backu  ~/root.bashrc
+: 1575293843:0;echo export LFS=/mnt/lfs >>~/root.bashrc\
+
+: 1575293855:0;cp -v  --backup=numbered  --update    --target-directory ~/backu  ~/root.bashrc
+: 1575293915:0;history
+: 1575293969:0;history|grep git
+: 1575293980:0;git commit  -a -m update
+: 1575293990:0;git status
+: 1575294015:0;history|grep git
+: 1575294026:0;git push -u origin master
+: 1575294094:0;history
+: 1575294105:0;sudo --shell  --set-home 
+: 1575294287:0;history|grep /sh
+: 1575294360:0;sudo cp -iv /root/.bashrc    /root/.bashrc.be4-lfs
+: 1575294514:0;echo sudo sh -c ' cat /home/martin/root.bashrc  >root.bashrc.aftr-lfs  '
+: 1575294525:0;sudo sh -c ' cat /home/martin/root.bashrc   '
+: 1575294535:0;sudo sh -c ' cat /home/martin/root.bashrc  >root.bashrc.aftr-lfs  '
+: 1575294548:0;history
+: 1575294577:0;echo fsfsudo cp -iv /root/.bashrc    /root/.bashrc.be4-lfs
+: 1575294597:0;sudo sh -c ' cat /home/martin/root.bashrc  >/root/.bashrc.aftr-lfs  '
+: 1575294618:0;sudo ll /root 
+: 1575294624:0;sudo ls -la /root 
+: 1575294631:0;ll
+: 1575294647:0;sudo ls -la /root 
+: 1575294682:0;sudo cp -iv /root/.bashrc.aftr-lfs    /root/.bashrc
+: 1575294693:0;sudo ls -la /root 
+: 1575294740:0;history
+: 1575294747:0;history|grep git
+: 1575294783:0;git commit  -a -m update ;  git push -u origin master
+: 1575294971:0;tail ~/root.bashrc
+: 1575294985:0;git commit  -a -m update ;  git push -u origin master
+: 1575297065:0;history|grep sud
+: 1575297074:0;sudo --shell  --set-home 
+: 1575297147:0;sudo --login
+: 1575297180:0;sudo -i
+: 1575297187:0;sudo -H
+: 1575297191:0;sudo -H bash
+: 1575297228:0;echo $_
+: 1575297243:0;ls
+: 1575297247:0;echo $_
+: 1575297271:0;history
+: 1575297287:0;git commit  -a -m update ;  git push -u origin master
+: 1575362630:0;sudo mkdir -v $LFS/sources\
+
+: 1575362681:0;sudo chmod -v a+w $LFS/sources #
+: 1575363085:0;cat >wget-list <<EOF\
+http://ftp.gnu.org/gnu/coreutils/coreutils-8.31.tar.xz\
+EOF
+: 1575363094:0;history
+: 1575363106:0;cat wget-list
+: 1575363125:0;wget --input-file=wget-list --continue --directory-prefix=$LFS/sources
+: 1575363715:0;sudo mkdir -v $LFS/sources      $LFS/tools\
+\
+
+: 1575364026:0;echo ln -sv $LFS/tools /\
+
+: 1575364030:0;ln --help
+: 1575364066:0;sudo ln -sv $LFS/tools /\
+
+: 1575364331:0;chmod -v a+wt $LFS/sources
+: 1575364342:0;sudo chmod -v a+wt $LFS/sources
+: 1575364969:0;sudo chown -v martin:martin $LFS/tools
+: 1575364986:0;sudo chown -v martin:martin $LFS/sources
+: 1575368796:0;umask
+: 1575369995:0;history
+: 1575370019:0;wget  --continue --directory-prefix=$LFS/sources http://ftp.gnu.org/gnu/binutils/binutils-2.32.tar.xz
+: 1575370132:0;mc
+: 1575370149:0;cd linuxfromscratch.org
+: 1575370151:0;ll
+: 1575370215:0;cd
+: 1575370230:0;git add .bashrc
+: 1575370242:0;git commit  -a -m update ;  git push -u origin master
+: 1575370323:0;sudo adduser lfs
+: 1575370383:0;sudo --help
+: 1575370398:0;sudo --user=lfs
+: 1575370416:0;sudo --user=lfs -i
+: 1575370486:0;history
+: 1575370512:0;sudo chown -v lfs:lfs $LFS/sources
+: 1575370523:0;sudo chown -v lfs:lfs $LFS/tools
+: 1575370570:0;sudo --user=lfs -i
+: 1575371698:0;wget  --continue --directory-prefix=$LFS/sources http://ftp.gnu.org/gnu/binutils/binutils-2.32.tar.xz
+: 1575371708:0;sudo --user=lfs -i
+: 1575371886:0;cd linuxfromscratch.org
+: 1575371979:0;cat >>lfs-histo <<EOF\
+lfs@s18:/mnt/lfs/sources$ history \
+    1  ll\
+    2  mv .bashrc 1.bashr\
+    3  cat > ~/.bashrc << "EOF"\
+    4  set +h\
+    5  umask 022\
+    6  LFS=/mnt/lfs\
+    7  LC_ALL=POSIX\
+    8  LFS_TGT=$(uname -m)-lfs-linux-gnu\
+    9  PATH=/tools/bin:/bin:/usr/bin\
+   10  export LFS LC_ALL LFS_TGT PATH\
+   11  EOF\
+   12  set|less\
+   13  mc\
+   14  mc\
+   15  cd /mnt/lfs/sources/\
+   16  ll\
+   17  ls -l\
+   18  xz\
+   19  xz binutils-2.32.tar.xz\
+   20  xz --decompress binutils-2.32.tar.xz\
+   21  ls -l\
+   22  tar xvf binutils-2.32.tar.xz\
+   23  ls -l\
+   24  rm binutils-2.32.tar \
+   25  tar xvf binutils-2.32.tar.xz\
+   26  ls -l\
+   27  cd /mnt/lfs/sources/\
+   28  tar xvf binutils-2.32.tar.xz\
+   29  history \
+EOF
+: 1575371992:0;hist
+: 1575371996:0;history
+: 1575372042:0;git commit  -a -m update ;  git push -u origin master
+: 1575373332:0;cd /mnt/lfs/sources/
+: 1575373339:0;pwd
+: 1575373354:0;ll
+: 1575373384:0;mkdir -v build
+: 1575373394:0;cd       build\
+
+: 1575373467:0;cd
+: 1575373473:0;cd /mnt/lfs/sources/
+: 1575373478:0;cd binutils-2.32
+: 1575373481:0;mkdir -v build
+: 1575373508:0;ls -ld .
+: 1575373513:0;ls -ld ..
+: 1575373537:0;cd ../..
+: 1575373539:0;ll
+: 1575374890:0;wget  --continue --directory-prefix=$LFS/sources https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.2.8.tar.xz
+: 1575376148:0;cd
+: 1575376153:0;cd linuxfromscratch.org
+: 1575376213:0;cp -vi ~/../lfs/.bash_history ~/linuxfromscratch.org
+: 1575376225:0;cp -vi ~/../lfs/.bashrc ~/linuxfromscratch.org
+: 1575376244:0;ll  ~/../lfs/
+: 1575376251:0;ls -la  ~/../lfs/
+: 1575376270:0;ls -la
+: 1575376333:0;git add .bash_history .bashrc version-check.sh 
+: 1575376354:0;git commit  -a -m update ;  git push -u origin master
+: 1575376481:0;history | grep echo
+: 1575389934:0;sudo mkdir -pv $LFS/{dev,proc,sys,run}
+: 1575390012:0;sudo mknod -m 600 $LFS/dev/console c 5 1
+: 1575390025:0;sudo mknod -m 666 $LFS/dev/null c 1 3
+: 1575390099:0;sudo mount -v --bind /dev $LFS/dev
+: 1575390149:0;sudo mount -vt devpts devpts $LFS/dev/pts -o gid=5,mode=620
+: 1575390159:0;sudo mount -vt proc proc $LFS/proc
+: 1575390170:0;sudo mount -vt sysfs sysfs $LFS/sys
+: 1575390180:0;sudo mount -vt tmpfs tmpfs $LFS/run
+: 1575390232:0;if [ -h $LFS/dev/shm ]; then\
+  mkdir -pv $LFS/$(readlink $LFS/dev/shm)\
+fi
+: 1575390249:0;[ -h $LFS/dev/shm ]
+: 1575390257:0;echo [ -h $LFS/dev/shm ]
+: 1575390266:0;echo [[ -h $LFS/dev/shm ]]
+: 1575390282:0;test  -h $LFS/dev/shm
+: 1575390303:0;if [ -h $LFS/dev/shm ]; then\
+ echo mkdir -pv $LFS/$(readlink $LFS/dev/shm)\
+fi
+: 1575537259:0;echo '==== http://clfs.org/view/clfs-embedded/x86/introduction/hostreqs.html '
+: 1575537322:0;mkdir clfs.org
+: 1575537327:0;cd clfs.org
+: 1575537347:0;cat > version-check.sh << "EOF"\
+#!/bin/bash\
+\
+# Simple script to list version numbers of critical development tools\
+set -e\
+bash --version | head -n1 | cut -d" " -f2-4\
+echo -n "Binutils: "; ld --version | head -n1 | cut -d" " -f3-\
+bzip2 --version 2>&1 < /dev/null | head -n1 | cut -d" " -f1,6-\
+echo -n "Coreutils: "; chown --version | head -n1 | cut -d")" -f2\
+diff --version | head -n1\
+find --version | head -n1\
+gawk --version | head -n1\
+gcc --version | head -n1\
+ldd $(which ${SHELL}) | grep libc.so | cut -d ' ' -f 3 | ${SHELL} | head -n 1 \\
+| cut -d ' ' -f 1-10\
+grep --version | head -n1\
+gzip --version | head -n1\
+m4 --version | head -n1\
+make --version | head -n1\
+echo "#include <ncurses.h>" | gcc -E - > /dev/null\
+patch --version | head -n1\
+sed --version | head -n1\
+sudo -V | head -n1\
+tar --version | head -n1\
+makeinfo --version | head -n1\
+\
+EOF
+: 1575537357:0;cat version-check.sh
+: 1575537393:0;bash version-check.sh
+: 1575537437:0;sudo apt-get install ncurses
+: 1575537450:0;sudo apt-get install curses
+: 1575537467:0;apt-cache search ncurses
+: 1575537551:0;sudo apt-get install libncurses5
+: 1575537731:0;sudo apt-get install libncurses5-dev
+: 1575537767:0;cat > version-check.sh << "EOF"\
+#!/bin/bash\
+\
+# Simple script to list version numbers of critical development tools\
+###set -e\
+bash --version | head -n1 | cut -d" " -f2-4\
+echo -n "Binutils: "; ld --version | head -n1 | cut -d" " -f3-\
+bzip2 --version 2>&1 < /dev/null | head -n1 | cut -d" " -f1,6-\
+echo -n "Coreutils: "; chown --version | head -n1 | cut -d")" -f2\
+diff --version | head -n1\
+find --version | head -n1\
+gawk --version | head -n1\
+gcc --version | head -n1\
+ldd $(which ${SHELL}) | grep libc.so | cut -d ' ' -f 3 | ${SHELL} | head -n 1 \\
+| cut -d ' ' -f 1-10\
+grep --version | head -n1\
+gzip --version | head -n1\
+m4 --version | head -n1\
+make --version | head -n1\
+echo "#include <ncurses.h>" | gcc -E - > /dev/null\
+patch --version | head -n1\
+sed --version | head -n1\
+sudo -V | head -n1\
+tar --version | head -n1\
+makeinfo --version | head -n1\
+\
+EOF
+: 1575537774:0;bash version-check.sh
+: 1575537818:0;ll
+: 1575537828:0;add version-check.sh
+: 1575537837:0;git add version-check.sh
+: 1575537856:0;git commit  -a -m update ;  git push -u origin master
+: 1575538235:0;sudo mkdir -p /mnt/clfs
+: 1575538246:0;export CLFS=/mnt/clfs
+: 1575538257:0;sudo chmod 777 ${CLFS}
+: 1575538265:0;mkdir -v ${CLFS}/sources
+: 1575538387:0;sudo groupadd clfs
+: 1575538395:0;sudo useradd -s /bin/bash -g clfs -m -k /dev/null clfs
+: 1575538421:0;sudo passwd clfs
+: 1575538456:0;sudo chown -Rv clfs ${CLFS}
+: 1575542174:0;cd $CLFS
+: 1575542205:0;wget  --continue --directory-prefix=$CLFS/sources http://www.kernel.org/pub/linux/kernel/v4.x/linux-4.9.22.tar.xz
+: 1575542291:0;ll
+: 1575542298:0;cd sources
+: 1575542299:0;ll
+: 1575542319:0;history | grep tar
+: 1575542565:0;wget  --continue --directory-prefix=$CLFS/sources http://ftp.gnu.org/gnu/binutils/binutils-2.27.tar.bz2
+: 1575543000:0;cd
+: 1575543038:0;history | grep ..
+: 1575543045:0;history | grep '..'
+: 1575543055:0;history | grep -F '..'
+: 1575543065:0;history | grep '[.][.]'
+: 1575543114:0;cp -vi ~/../clfs/.bashrc ~/clfs.org
+: 1575543133:0;cp -vi ~/../clfs/.bash_history ~/clfs.org
+: 1575543181:0;cp -vi ~/../clfs/.bash_profile ~/clfs.org
+: 1575543256:0;cd ~/clfs.org
+: 1575543273:0;git add .bash_history .bash_profile .bashrc
+: 1575543284:0;git commit  -a -m update ;  git push -u origin master
+: 1575543466:0;mc
+: 1575547318:0;wget  --continue --directory-prefix=$CLFS/sources http://gcc.gnu.org/pub/gcc/releases/gcc-6.2.0/gcc-6.2.0.tar.bz2
+: 1575547536:0;wget  --continue --directory-prefix=$CLFS/sources http://ftp.gnu.org/gnu/gmp/gmp-6.1.1.tar.bz2
+: 1575547611:0;wget  --continue --directory-prefix=$CLFS/sources http://ftp.gnu.org/gnu/mpc/mpc-1.0.3.tar.gz
+: 1575547641:0;wget  --continue --directory-prefix=$CLFS/sources http://ftp.gnu.org/gnu/mpfr/mpfr-3.1.4.tar.bz2
+: 1575547775:0;cp -vi ~/../clfs/.bash_history ~/clfs.org
+: 1575547785:0;git commit  -a -m update ;  git push -u origin master
+: 1575567071:0;cp -vi ~/../clfs/.bash_history ~/clfs.org
+: 1575642532:0;cd
+: 1575643080:0;git commit  -a -m update ;  git push -u origin master
+: 1575643124:0;echo '==== https://github.com/ivandavidov/minimal '
+: 1575643140:0;sudo apt install wget make gawk gcc bc bison flex xorriso libelf-dev libssl-dev
+: 1575644768:0;cd minimal-linux-script
+: 1575644770:0;ll
+: 1575644788:0;./minimal.sh
+: 1575649390:0;mc
+: 1575652298:0;echo sudo apt install qemu
+: 1575652312:0;apt search qemu-system
+: 1575652323:0;apt search qemu-system-x86
+: 1575652351:0;apt show qemu-system-x86
+: 1575652393:0;apt show qemu-system
+: 1575652423:0;sudo apt install qemu-system-x86
+: 1575652721:0;mc
+: 1575652765:0;cd minimal-linux-script
+: 1575652774:0;./qemu64.sh
+: 1575652819:0;qemu-system-x86_64 -m 128M -cdrom minimal_linux_live.iso -boot d 
+: 1575652825:0;qemu-system-x86_64 -m 128M -cdrom minimal_linux_live.iso 
+: 1575652843:0;cd minimal-linux-script
+: 1575652860:0;qemu-system-x86_64 
+: 1575652864:0;qemu-system-x86_64 -?
+: 1575652868:0;qemu-system-x86_64 --help
+: 1575652909:0;qemu-system-x86_64 -m 128M -cdrom minimal_linux_live.iso -boot d -vga none 
+: 1575653007:0;qemu-system-x86_64 -m 128M -cdrom minimal_linux_live.iso -boot d  -nographic 
+: 1575653466:0;sudo apt install qemu-kvm 
+: 1575653487:0;qemu-system-x86_64 -m 128M -cdrom minimal_linux_live.iso -boot d  -nographic 
+: 1575653500:0;cd minimal-linux-script
+: 1575653502:0;qemu-system-x86_64 -m 128M -cdrom minimal_linux_live.iso -boot d  -nographic 
+: 1575719452:0;mc
+: 1575719478:0;cd landley.net--aboriginal
+: 1575719504:0;tar xvf system-image-i586.tar.gz
+: 1575719508:0;mc
+: 1575719544:0;ll
+: 1575719549:0;cd system-image-i586
+: 1575719561:0;./run-emulator.sh
+: 1575719770:0;cd landley.net--aboriginal
+: 1575719772:0;cd system-image-i586
+: 1575719774:0;mc
+: 1575720038:0;cat myrun-emulator.sh
+: 1575720055:0;qemu-system-i386  -serial mon:stdio     -cpu pentium -nographic -no-reboot -kernel linux -initrd rootfs.cpio.gz -append "panic=1 console=ttyS0 HOST=i586 $KERNEL_EXTRA" $QEMU_EXTRA 
+: 1575720202:0;qemu-system-i386 -curses  -serial mon:stdio     -cpu pentium -nographic -no-reboot -kernel linux -initrd rootfs.cpio.gz -append "panic=1 console=ttyS0 HOST=i586 $KERNEL_EXTRA" $QEMU_EXTRA 
+: 1575721143:0;cd landley.net--aboriginal
+: 1575721146:0;cd system-image-i586
+: 1575721190:0;qemu-system-i386 -curses  -serial mon:stdio     -cpu pentium -nographic -no-reboot -kernel linux -initrd rootfs.cpio.gz -append "panic=1 console=ttyS0 HOST=i586 $KERNEL_EXTRA" $QEMU_EXTRA 
+: 1575721206:0;qemu-system-i386   -serial mon:stdio     -cpu pentium -nographic -no-reboot -kernel linux -initrd rootfs.cpio.gz -append "panic=1 console=ttyS0 HOST=i586 $KERNEL_EXTRA" $QEMU_EXTRA 
+: 1575721217:0;qemu-system-i386        -cpu pentium -nographic -no-reboot -kernel linux -initrd rootfs.cpio.gz -append "panic=1 console=ttyS0 HOST=i586 $KERNEL_EXTRA" $QEMU_EXTRA 
+: 1575721239:0;qemu-system-i386   -nographic -no-reboot -kernel linux -initrd rootfs.cpio.gz -append "panic=1 console=ttyS0 HOST=i586 $KERNEL_EXTRA" $QEMU_EXTRA 
+: 1575721367:0;qemu-system-i386   -serial mon:stdio   -nographic -no-reboot -kernel linux -initrd rootfs.cpio.gz -append "panic=1 console=ttyS0 HOST=i586 $KERNEL_EXTRA" $QEMU_EXTRA 
+: 1575721388:0;qemu-system-i386 -curses  -serial mon:stdio     -cpu pentium -nographic -no-reboot -kernel linux -initrd rootfs.cpio.gz -append "panic=1 console=ttyS0 HOST=i586 $KERNEL_EXTRA" $QEMU_EXTRA 
+: 1575721398:0;qemu-system-i386 -curses  -serial mon:stdio    -nographic -no-reboot -kernel linux -initrd rootfs.cpio.gz -append "panic=1 console=ttyS0 HOST=i586 $KERNEL_EXTRA" $QEMU_EXTRA 
+: 1575721472:0;qemu-system-i386   -nographic -no-reboot -kernel linux -initrd rootfs.cpio.gz -append "panic=1 console=ttyS0 HOST=i586 $KERNEL_EXTRA" $QEMU_EXTRA 
+: 1575721613:0;history
+: 1575721635:0;cd ..
+: 1575721645:0;tar xvf system-image-i486.tar.gz
+: 1575721664:0;cd system-image-i486
+: 1575721684:0;qemu-system-i386   -nographic -no-reboot -kernel linux -initrd rootfs.cpio.gz -append "panic=1 console=ttyS0 HOST=jmenoooi586 $KERNEL_EXTRA" $QEMU_EXTRA 
+: 1575721768:0;git commit  -a -m update ;  git push -u origin master
+: 1575722029:0;qemu-system-i386   -nographic -no-reboot -kernel linux -initrd rootfs.cpio.gz -append "panic=1 console=ttyS0 HOST=jmenoooi586 $KERNEL_EXTRA" $QEMU_EXTRA 
+: 1575728588:0;qemu -cpu help
+: 1575728610:0;qemu-system-i386 -cpu help
+: 1575728741:0;history
+: 1575728768:0;qemu-system-i386   -nographic -no-reboot -kernel linux -initrd rootfs.cpio.gz -append "panic=1 console=ttyS0 HOST=jmenoooi586 $KERNEL_EXTRA" $QEMU_EXTRA -cpu pentium
+: 1575728848:0;qemu-system-i386   -nographic -no-reboot -kernel linux -initrd rootfs.cpio.gz -append "panic=1 console=ttyS0 HOST=jmenoooi586 $KERNEL_EXTRA" $QEMU_EXTRA -cpu 586
+: 1575728853:0;qemu-system-i386   -nographic -no-reboot -kernel linux -initrd rootfs.cpio.gz -append "panic=1 console=ttyS0 HOST=jmenoooi586 $KERNEL_EXTRA" $QEMU_EXTRA -cpu 486
+: 1575729201:0;env
+: 1575729238:0;env -i
+: 1575729244:0;env -i sh
+: 1575797023:0;cd busybox-rh
+: 1575797025:0;ll
+: 1575797054:0;bunzip2 rh-9-shrike.img.bz2
+: 1575797196:0;history | grep qemu
+: 1575797215:0;	cd
+: 1575797221:0;cd busybox-rh
+: 1575797223:0;ll
+: 1575797255:0;qemu-system-i386 rh-9-shrike.img
+: 1575797304:0;qemu-system-i386 rh-9-shrike.img -nographic
+: 1575797357:0;history | grep qemu
+: 1575797461:0;qemu-system-i386 rh-9-shrike.img -nographic -append "panic=1 console=ttyS0 HOST=jmenoooi586 $KERNEL_EXTRA" $QEMU_EXTRA
+: 1575797542:0;	mc
+: 1576402894:0;git add .config/mc/ini
+: 1576402914:0;git commit  -a -m update ;  git push -u origin master
+: 1576403399:0;mc
+: 1576403751:0;git commit  -a -m update ;  git push -u origin master
+: 1576515447:0;git commit  -a 
+: 1576515498:0;git status
+: 1576515520:0;git show
+: 1576515553:0;git push -u origin master
+: 1576855148:0;git clone https://api.glitch.com/git/pika-web-example
+: 1576855153:0;mc
+: 1576859163:0;npm i json5
+: 1576859247:0;mc
+: 1576859837:0;cd browser-require-attempts
+: 1576859844:0;npm init
+: 1576860044:0;npm i json5
+: 1576860072:0;mc
+: 1576860194:0;git add package.json
+: 1576860198:0;git add package-lock.json
+: 1576860214:0;git show
+: 1576860257:0;git status
+: 1576860290:0;cd ..
+: 1576860291:0;git status
+: 1576860314:0;git commit  -a -m update ;  git push -u origin master
+: 1576860733:0;mc
+: 1576861203:0;cd browser-require-attempts
+: 1576861208:0;history
+: 1576861228:0;npm i json5 --save
+: 1576861246:0;mc
+: 1576861606:0;tac ~/.node_repl_history  ;    node
+: 1576861711:0;git status
+: 1576861728:0;git commit  -a -m update ;  git push -u origin master
+: 1576865449:0;mc
+: 1576865600:0;npm i --global serve
+: 1576865683:0;mc
+: 1576865712:0;npm i  serve
+: 1576865757:0;npm i  @pika/web
+: 1576866347:0;cd browser-require-attempts
+: 1576866370:0;npm i  @pika/web --save-dev
+: 1576866402:0;mc
+: 1576924579:0;npm ls
+: 1576924585:0;npm ls -g
+: 1576928579:0;history
+: 1576928595:0;tac ~/.node_repl_history  ;    node
+: 1576928687:0;cat >>index.js
+: 1576928710:0;mc
+: 1576928880:0;pika
+: 1576928910:0;npx @pika/web
+: 1576928928:0;mc
+: 1576929485:0;git add index.html index.js script.js
+: 1576929491:0;git commit  -a -m update ;  git push -u origin master
+: 1576929591:0;cd browser-require-attempts
+: 1576929609:0;history
+: 1576929636:0;npx serve
+: 1576929728:0;cd browser-require-attempts
+: 1576929729:0;npx serve
+: 1576929770:0;npx --help
+: 1576929821:0;npx serve &
+: 1576929926:0;cat index.js
+: 1576929929:0;cat script.js
+: 1576929938:0;cat index.js >>script.js
+: 1576929944:0;mc
+: 1576930230:0;git commit  -a -m update ;  git push -u origin master
+: 1576933570:0;yarn
+: 1576933627:0;mc
+: 1576933663:0;cd
+: 1576933680:0;which yarn
+: 1576933730:0;yarn global add serve
+: 1576933769:0;mc
+: 1576935245:0;history
+: 1576935266:0;sudo npm i --global serve
+: 1576935324:0;cd browser-require-attempts
+: 1576935342:0;serve &
+: 1576935408:0;./node_modules/.bin/mkdirp --help
+: 1576935434:0;mkdirp --help
+: 1576935441:0;yarn mkdirp --help
+: 1576935488:0;history
+: 1576935509:0;npx serve &
+: 1576935814:0;./node_modules/.bin/mkdirp --help
+: 1576935819:0;history
+: 1576935823:0;yarn mkdirp --help
+: 1576935834:0;cd browser-require-attempts
+: 1576935837:0;yarn mkdirp --help
+: 1576935843:0;time yarn mkdirp --help
+: 1576935857:0;time ./node_modules/.bin/mkdirp --help
+: 1576935934:0;npm bin
+: 1576935938:0;cd
+: 1576935939:0;npm bin
+: 1576935957:0;cd browser-require-attempts
+: 1576935970:0;npm run mkdirp --help
+: 1576935995:0;npm run-script mkdirp --help
+: 1576936609:0;git commit  -a -m update ;  git push -u origin master
+: 1576936930:0;./node_modules/.bin/pika --help
+: 1576936936:0;./node_modules/.bin/pika-web --help
+: 1576939181:0;mc
+: 1576939410:0;cd
+: 1576939415:0;history
+: 1576939475:0;cd mkdirp-p
+: 1576939504:0;#npm i mkdirp --save
+: 1576939508:0;npm init
+: 1576939549:0;npm i mkdirp --save
+: 1576939566:0;npm ls
+: 1576939575:0;cd ..
+: 1576939582:0;cd browser-require-attempts
+: 1576939585:0;npm ls
+: 1576939615:0;mc
+: 1576939658:0;cd
+: 1576939661:0;history
+: 1576939677:0;cd browserfs-p
+: 1576939683:0;npm init
+: 1576939701:0;npm i browserfs --save
+: 1576939719:0;npm ls
+: 1576939765:0;./node_modules/.bin/pika-web --help
+: 1576939772:0;~/node_modules/.bin/pika-web --help
+: 1576939786:0;~/node_modules/.bin/pika-web 
+: 1576939813:0;mc
+: 1576939868:0;cd ~/mkdirp-p
+: 1576939877:0;~/node_modules/.bin/pika-web 
+: 1576939892:0;mc
+: 1576939927:0;cd ~/browser-require-attempts
+: 1576939932:0;~/node_modules/.bin/pika-web 
+: 1576939941:0;mc
+: 1576940320:0;cd
+: 1576940330:0;sudo npm install --global rollup
+: 1576940456:0;cd browser-require-attempts
+: 1576940481:0;rollup
+: 1576945524:0;rollup main.js --format iife --name "myBundle" --file bundle.js
+: 1576945533:0;ll
+: 1576945548:0;cat index.js
+: 1576945564:0;rollup index.js --format iife --name "myBundle" --file bundle.js
+: 1576945576:0;mc
+: 1576945667:0;rollup index.js --format iife --name "myBundle" --file bundle-iife.js
+: 1576945674:0;cat bundle-iife.js
+: 1576945692:0;rollup index.js --format amd --name "myBundle" --file bundle-amd.js
+: 1576945703:0;rollup index.js --format umd --name "myBundle" --file bundle-umd.js
+: 1576945727:0;rollup index.js --format esm --name "myBundle" --file bundle-esm.js
+: 1576945737:0;rollup index.js --format cjs --name "myBundle" --file bundle-cjs.js
+: 1576945739:0;mc
+: 1576946040:0;fil=script.js
+: 1576946059:0;rollup $fil --format iife --name "myBundle" --file bundle-iife.js
+: 1576946072:0;mc
+: 1576946121:0;rollup $fil  --format cjs --name "myBundle" --file bundle-cjs.js
+: 1576946133:0;#rollup $fil  --format cjs --name "myBundle" --file bundle-cjs.js
+: 1576946150:0;rollup $fil  --format amd --name "myBundle" --file bundle-amd.js
+: 1576946163:0;rollup $fil  --format umd --name "myBundle" --file bundle-umd.js
+: 1576946181:0;rollup $fil  --format esm --name "myBundle" --file bundle-esm.js
+: 1576946183:0;mc
+: 1576947399:0;cd roll-1
+: 1576947410:0;tac ~/.node_repl_history  ;    node
+: 1576947534:0;mc
+: 1576947622:0;history
+: 1576947641:0;cd ..
+: 1576947648:0;fil=a3script.js
+: 1576947658:0;rollup $fil --format iife --name "myBundle" --file bundle-iife.js
+: 1576947695:0;mc
+: 1576947718:0;rollup $fil --format iife --name "myBundle" --file bundle-iife.js
+: 1576947760:0;mc
+: 1576947773:0;rollup $fil --format iife --name "myBundle" --file bundle-iife.js
+: 1576947794:0;mc
+: 1576947821:0;#rollup $fil  --format cjs --name "myBundle" --file bundle-cjs.js
+: 1576947829:0;rollup $fil  --format cjs --name "myBundle" --file bundle-cjs.js
+: 1576947847:0;rollup index.js --format amd --name "myBundle" --file bundle-amd.js
+: 1576947859:0;rollup $fil --format amd --name "myBundle" --file bundle-amd.js
+: 1576947874:0;rollup $fil --format umd --name "myBundle" --file bundle-umd.js
+: 1576947876:0;mc
+: 1576947938:0;git commit  -a -m update ;  git push -u origin master
+: 1576948014:0;npx help --config
+: 1576948039:0;npx --help --config
+: 1576948058:0;man npx
+: 1576948109:0;rollup
+: 1577012620:0;cd
+: 1577012636:0;git clone https://github.com/streamich/memfs-webpack
+: 1577012661:0;cd memfs-webpack
+: 1577012671:0;npm install
+: 1577012749:0;ls -l  /snap/bin/node
+: 1577012833:0;npm ls |less
+: 1577012880:0;npm ls --help
+: 1577012899:0;npm  --help ls
+: 1577012903:0;man npm
+: 1577012948:0;npm ls --depth 1
+: 1577012952:0;npm ls --depth 0
+: 1577013007:0;npm ls --depth 1
+: 1577013029:0;npm ls --depth 2
+: 1577013058:0;mc
+: 1577013299:0;cd memfs-webpack
+: 1577013310:0;npm run start
+: 1577013571:0;mc
+: 1577013615:0;cd memfs-webpack
+: 1577013621:0;mc
+: 1577013897:0;ps 
+: 1577013902:0;ps -u martin
+: 1577013918:0;ps -ef|grep ser
+: 1577013932:0;ps -ef|grep npm
+: 1577013936:0;ps -ef|grep web
+: 1577013951:0;pstree
+: 1577211179:0;cd git-pokusy
+: 1577211210:0;openssl -?
+: 1577211216:0;openssl --help
+: 1577211234:0;openssl zlib -d -in 0f15d3ae14a52ebd82da4181e44a7320747de9
+: 1577211245:0;openssl help
+: 1577211264:0;openssl help|grep zlib
+: 1577211276:0;openssl help 2>&1|grep zlib
+: 1577211282:0;openssl help 2>&1|grep cf
+: 1577211284:0;openssl help 2>&1|grep cfb
+: 1577211296:0;openssl help 2>&1|grep zl
+: 1577211298:0;openssl help 2>&1|grep z
+: 1577211301:0;openssl help 2>&1|grep l
+: 1577211303:0;openssl help 2>&1|grep li
+: 1577211426:0;openssl  enc -z -none -d   -in 0f15d3ae14a52ebd82da4181e44a7320747de9
+: 1577211594:0;python
+: 1577211690:0;sudo apt install qpdf
+: 1577211824:0;sudo apt install --help
+: 1577211932:0;sudo apt install qpdf
+: 1577211954:0;man apt
+: 1577211976:0;man apt-get
+: 1577212111:0;sudo apt-get install --fix-broken --reinstall qpdf
+: 1577212173:0;git commit  -a -m update ;  git push -u origin master
+: 1577212219:0;zlib-flate -uncompress < FILE
+: 1577212224:0;cd git-pokusy
+: 1577212231:0;zlib-flate -uncompress <0f15d3ae14a52ebd82da4181e44a7320747de9
+: 1577212243:0;zlib-flate -uncompress <15a956202b368a158ca812f419cc971c0fe7be
+: 1577212277:0;for i in * ; do ; echo $i; done
+: 1577212303:0;for i in * ; do ; zlib-flate -uncompress <$i  ; done
+: 1577212311:0;for i in * ; do ; zlib-flate -uncompress <$i  ; done |less
+: 1577212784:0;git commit  -a -m update ;  git push -u origin master
+: 1577450675:0;history
+: 1577450697:0;mc
+: 1577620379:0;fish
+: 1577621539:0;history
+: 1577621548:0;history|less
+: 1577794584:0;journalctl -b
+: 1577794603:0;journalctl -b|grep cloud
+: 1577794619:0;dmesg|grep cloud
+: 1577794641:0;journalctl -b|grep -i cloud
+: 1577794755:0;journalctl -b|grep -i --context=2   cloud
+: 1577794801:0;mc
+: 1577794834:0;pwd
+: 1577794839:0;ll m*
+: 1577794846:0;mkdir mn
+: 1577794863:0;sudo mount /dev/sr0 $HOME/mn
+: 1577794879:0;mc
+: 1577794920:0;history
+: 1577795014:0;mc
+: 1577795734:0;less /run/cloud-init/ds-identify.log
+: 1577795774:0;mc
+: 1577797829:0;less /run/cloud-init/ds-identify.log
+: 1577797893:0;less /var/log/cloud-init.log
+: 1577797899:0;less /var/log/cloud-init-output.log
+: 1577805158:0;echo '============https://www.cyberciti.biz/faq/unix-linux-chroot-command-examples-usage-syntax/'
+: 1577805184:0;J=$HOME/jail
+: 1577805204:0;mkdir -p $J
+: 1577805216:0;mkdir -p $J/{bin,lib64,lib}
+: 1577805224:0;cd $J
+: 1577805238:0;cp -v /bin/{bash,ls} $J/bin
+: 1577805254:0;ldd /bin/bash
+: 1577805336:0;cp -v /lib64/libtinfo.so.5 /lib64/libdl.so.2 /lib64/libc.so.6 /lib64/ld-linux-x86-64.so.2 $J/lib64/
+: 1577805399:0;cp -v /lib/x86_64-linux-gnu/libtinfo.so.5 /lib64/libdl.so.2 /lib64/libc.so.6 /lib64/ld-linux-x86-64.so.2 $J/lib64/
+: 1577805431:0;cp -v /lib/x86_64-linux-gnu/libdl.so.2 /lib64/libc.so.6  $J/lib64/
+: 1577805439:0;cp -v /lib/x86_64-linux-gnu/libc.so.6  $J/lib64/
+: 1577806061:0;sudo chroot $J /bin/bash
+: 1577806094:0;set
+: 1577806100:0;env
+: 1577806110:0;env|grep -i ld
+: 1577806117:0;env|grep -i lib
+: 1577806156:0;history
+: 1577806219:0;mkdir -p $J/{bin,lib64,lib,lib/x86_64-linux-gnu}
+: 1577806233:0;ldd /bin/bash
+: 1577806283:0;cp -v /lib/x86_64-linux-gnu/libtinfo.so.5  $J/lib/x86_64-linux-gnu
+: 1577806304:0;cp -v /lib/x86_64-linux-gnu/libdl.so.2  $J/lib/x86_64-linux-gnu
+: 1577806319:0;cp -v /lib/x86_64-linux-gnu/libc.so.6  $J/lib/x86_64-linux-gnu
+: 1577806331:0;du -a 
+: 1577806354:0;sudo chroot $J /bin/bash
+: 1577806724:0;history
+: 1577806733:0;du -a 
+: 1577806905:0;git commit  -a -m 'chroot' ;  git push -u origin master
+: 1577880973:0;mc
+: 1577888686:0;git commit  -a -m 'sudoers.d' ;  git push -u origin master
+: 1577889518:0;mkdir -p downloads/ububase
+: 1577889524:0;cd  downloads/ububase
+: 1577955823:0;wget http://cdimage.ubuntu.com/ubuntu-base/releases/bionic/release/ubuntu-base-18.04.3-base-amd64.tar.gz
+: 1577955843:0;sha256sum ubuntu-base-18.04.3-base-amd64.tar.gz
+: 1577955939:0;sudo apt install schroot
+: 1577956725:0;gzip -d ubuntu-base-18.04.3-base-amd64.tar.gz
+: 1577957440:0;history
+: 1577959783:0;tar xvf ubuntu-base-18.04.3-base-amd64.tar
+: 1577959839:0;cat /etc/resolv.conf
+: 1577959929:0;l
+: 1577959941:0;du -m
+: 1577959958:0;l
+: 1577959966:0;history
+: 1577960018:0;sudo chroot . /bin/bash
+: 1577960090:0;ll
+: 1577960094:0;l
+: 1577960102:0;history
+: 1577960272:0;mc
+: 1577963916:0;sudo apt update
+: 1577963961:0;sudo apt install apt-transport-https ca-certificates curl software-properties-common
+: 1577964109:0;curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+: 1577964146:0;sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+: 1577964197:0;sudo apt update
+: 1577964231:0;apt-cache policy docker-ce
+: 1577964342:0;sudo apt install docker-ce
+: 1577964489:0;echo '====' https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04
+: 1577964504:0;sudo systemctl status docker
+: 1577964670:0;history
+: 1577965532:0;git checkout -b violet
+: 1577965577:0;history|less
+: 1577965655:0;git commit  -a -m 'ububase,docker' ;  git push -u origin violet
+: 1577965924:0;sudo usermod -aG docker ${USER}
+: 1577965949:0;su - ${USER}
+: 1577966002:0;id -nG
+: 1577966945:0;docker
+: 1577966988:0;docker version
+: 1577967043:0;docker
+: 1577967413:0;docker info
+: 1577967538:0;du -m /var/lib/docker
+: 1577967543:0;sudo du -m /var/lib/docker
+: 1577967556:0;df -m
+: 1577967615:0;df -m >>df-m
+: 1577967644:0;cat df-m
+: 1577967650:0;history
+: 1577967710:0;docker run hello-world\
+
+: 1577974232:0;docker pull ubuntu:18.04
+: 1577974290:0;docker images
+: 1577974340:0;docker run -it ubuntu
+: 1577974380:0;docker images
+: 1577974444:0;docker ps
+: 1577974459:0;docker ps -a
+: 1577974626:0;history
+: 1577974745:0;docker ps -a
+: 1577974759:0;docker start goofy_stonebraker
+: 1577974792:0;docker ps
+: 1577974813:0;docker
+: 1577974861:0;docker stop goofy_stonebraker
+: 1577974872:0;docker ps
+: 1577974878:0;docker start --help
+: 1577974890:0;docker run --help
+: 1577974993:0;history
+: 1577975001:0;docker run -it ubuntu
+: 1577975066:0;docker ps
+: 1577975070:0;docker ps -a
+: 1577976379:0;docker image ls 
+: 1577976498:0;docker image history 
+: 1577976522:0;docker system df
+: 1577976574:0;docker system 
+: 1577976579:0;docker system info
+: 1578139903:0;history qemu
+: 1578139910:0;history |grep qemu
+: 1578139957:0;history |grep -i abori
+: 1578139980:0;history |less
+: 1578140009:0;mc
+: 1578140097:0;history |grep -i hist_
+: 1578140099:0;history |grep -i hist
+: 1578140114:0;HIST_STAMPS=dd.mm.yyyy
+: 1578140120:0;history |grep -i hist
+: 1578140129:0;set
+: 1578140151:0;set|grep -i hist
+: 1578140175:0;export HIST_STAMPS=dd.mm.yyyy
+: 1578140186:0;HIST_STAMPS=dd.mm.yyyy history
+: 1578140192:0;mc
+: 1578140307:0;history |grep -i hist
+: 1578140322:0;history 
+: 1578140336:0;history |less
+: 1578142164:0;qemu --version
+: 1578142195:0;qemu-system-i386 --version
+: 1578142638:0;mc
+: 1578142786:0;history
+: 1578142802:0;history |grep emu
+: 1578142810:0;history |grep emu|less
+: 1578144849:0;cd openwrt
+: 1578144886:0;qemu-system-i386   -nographic -no-reboot -kernel linux -initrd rootfs.cpio.gz -append "panic=1 console=ttyS0 HOST=jmenoooi586 $KERNEL_EXTRA" $QEMU_EXTRA 
+: 1578144916:0;qemu-system-i386   -nographic -no-reboot    -hda openwrt-18.06.5-x86-legacy-combined-ext4.img              -append "panic=1 console=ttyS0 HOST=jmenoooi586 $KERNEL_EXTRA" $QEMU_EXTRA 
+: 1578144937:0;qemu-system-i386   -nographic -no-reboot    -hda openwrt-18.06.5-x86-legacy-combined-ext4.img        $QEMU_EXTRA 
+: 1578145598:0;echo         $QEMU_EXTRA 
+: 1578145699:0;history
+: 1578146220:0;qemu-system-i386 --help
+: 1578146225:0;qemu-system-i386 --help|less
+: 1578146350:0;qemu-system-i386 -machine help
+: 1578146500:0;qemu-system-i386 --help|less
+: 1578150638:0;qemu-system-i386   -nographic -no-reboot  -m 128 -net none  openwrt-18.06.5-x86-legacy-combined-ext4.img        $QEMU_EXTRA 
+: 1578153755:0;history
+: 1578153769:0;qemu-system-i386 --help|grep -i nat
+: 1578154376:0;qemu-system-i386 -nic model=help
+: 1578154386:0;qemu-system-i386  -net -nic model=help
+: 1578154441:0;qemu-system-i386 -nic user,model=help
+: 1578154466:0;qemu-system-i386 -netdev model=help
+: 1578154474:0;qemu-system-i386 -netdev id=a1,model=help
+: 1578154624:0;qemu-system-i386   -net nic,model=?
+: 1578154629:0;qemu-system-i386   -net nic,model='?'
+: 1578154995:0;history
+: 1578155015:0;qemu-system-i386   -nographic -no-reboot  -m 128   openwrt-18.06.5-x86-legacy-combined-ext4.img        $QEMU_EXTRA 
+: 1578156865:0;cd openwrt
+: 1578156866:0;qemu-system-i386   -nographic -no-reboot  -m 128   openwrt-18.06.5-x86-legacy-combined-ext4.img        $QEMU_EXTRA 
+: 1578157172:0;qemu-system-i386   -nographic   -m 128   openwrt-18.06.5-x86-legacy-combined-ext4.img        $QEMU_EXTRA 
+: 1578310660:0;mc
+: 1578312808:0;cd mi
+: 1578312812:0;cd 
+: 1578312816:0;cd minimal-linux-script
+: 1578312844:0;make busybox install
+: 1578312858:0;cd busybox-1.30.1
+: 1578312859:0;make busybox install
+: 1578312905:0;mc
+: 1578314831:0;cd
+: 1578314844:0;history|grep docke
+: 1578314861:0;docker run -it busybox
+: 1578319658:0;apt install  --simulate busybox-static
+: 1578319680:0;apt install  --simulate busybox-initramfs
+: 1578320302:0;apt download busybox-static
+: 1578320314:0;mc
+: 1578321377:0;cd apt-download
+: 1578321414:0;ar x busybox-static_1%3a1.27.2-2ubuntu3.2_amd64.deb
+: 1578321417:0;mc
+: 1578322622:0;history
+: 1578324589:0;apt download busybox-initramfs
+: 1578324598:0;mc
+: 1578327070:0;man dpkg-deb 
+: 1578327476:0;gzip --keep -d data.tar.xz
+: 1578327591:0;l
+: 1578327606:0;tar xvf data.tar.xz
+: 1578327647:0;mc
+: 1578327796:0;xz --keep -d data.tar.xz
+: 1578327798:0;l
+: 1578327974:0;mc
+: 1578328282:0;history
+: 1578328289:0;history|less
+: 1578328456:0;sudo chroot ~/minimal-linux-script/busybox-1.30.1/_install /initmy
+: 1578328460:0;mc
+: 1578328470:0;sudo chroot ~/minimal-linux-script/busybox-1.30.1/_install /initmy
+: 1578328883:0;man chroot
+: 1578328976:0;cd  ~/minimal-linux-script/busybox-1.30.1/_install   && sudo chroot . ./initmy
+: 1578328993:0;cd  ~/minimal-linux-script/busybox-1.30.1/_install   && sudo chroot . initmy
+: 1578328999:0;mc
+: 1578329037:0;history
+: 1578329066:0;sudo chroot ~/minimal-linux-script/busybox-1.30.1/_install.1 /initmy
+: 1578329119:0;ps -ef
+: 1578329149:0;mc
+: 1578329253:0;history
+: 1578329266:0;sudo chroot ~/minimal-linux-script/busybox-1.30.1/_install.1 /initmy
+: 1578329317:0;mc
+: 1578329396:0;sudo chroot ~/minimal-linux-script/busybox-1.30.1/_install.1 /initmy
+: 1578329426:0;sudo chroot ~/minimal-linux-script/busybox-1.30.1/_install.1 initmy
+: 1578329442:0;sudo chroot ~/minimal-linux-script/busybox-1.30.1/_install.1 /initmy
+: 1578329493:0;history
+: 1578329656:0;mc
+: 1578329718:0;sudo chroot ~/apt-download/ /bin/busybox
+: 1578329727:0;sudo chroot ~/apt-download/ /bin/busybox -i
+: 1578329739:0;sudo chroot ~/apt-download/ /bin/busybox busybox
+: 1578329747:0;sudo chroot ~/apt-download/ /bin/busybox ls /
+: 1578329759:0;sudo chroot ~/apt-download/ /bin/busybox sh
+: 1578329826:0;sudo chroot ~/apt-download/ /bin/busybox du -x /
+: 1578330253:0;sudo chroot ~/minimal-linux-script/busybox-1.30.1/_install.1 /initmy
+: 1578411618:0;mc
+: 1578486752:0;cd minimal-linux-script/mycopy
+: 1578486753:0;ll
+: 1578486768:0;grep -i ext4 .config
+: 1578486799:0;grep -i 9p .config
+: 1578486839:0;mc
+: 1578486961:0;cd ..
+: 1578486965:0;mc
+: 1578487056:0;history
+: 1578487060:0;history|grep kern
+: 1578487540:0;history|grep tar
+: 1578487557:0;cd minimal-linux-script
+: 1578487578:0;tar xvf kernel.tar.xz  -C kernel
+: 1578487593:0;mkdir kernel
+: 1578487597:0;cd kernel
+: 1578487608:0;tar xvf ../kernel.tar.xz  
+: 1578487629:0;make defconfig\
+
+: 1578487635:0;l
+: 1578487639:0;cd linux-5.0.2
+: 1578487642:0;make defconfig\
+
+: 1578487689:0;make help
+: 1578487699:0;make menuconfig
+: 1578488607:0;mc
+: 1578488701:0;cd ..
+: 1578488710:0;cd -
+: 1578488712:0;pwd
+: 1578488726:0;rm -rf *
+: 1578488740:0;df -m
+: 1578488757:0;mc
+: 1578494361:0;cd
+: 1578494371:0;history|grep docke
+: 1578494386:0;docker run -it ubuntu
+: 1578495402:0;history|grep chroo
+: 1578495422:0;mc
+: 1578495477:0;sudo chroot ~/downloads/ububase
+: 1578495667:0;mc
+: 1578495681:0;sudo chroot ~/downloads/ububase
+: 1578739152:0;docker info
+: 1578746590:0;mc
+: 1578847380:0;lsinitramfs --h
+: 1578847385:0;lsinitramfs -l
+: 1578847398:0;cd downloads
+: 1578847400:0;lsinitramfs -l
+: 1578847404:0;lsinitramfs initrd.img-4.15.0-74-generic
+: 1578847425:0;file `which lsinitramfs`
+: 1578847431:0;cat  `which lsinitramfs`
+: 1578847451:0;unmkinitramfs --h
+: 1578847467:0;unmkinitramfs -v initrd.img-4.15.0-74-generic ini
+: 1578847476:0;mc
+: 1578848076:0;lsmod|grep e10
+: 1578848096:0;lsmod|less
+: 1578848123:0;lsmod|grep -i net
+: 1578848170:0;history
+: 1578848413:0;mc
+: 1578849288:0;lspci
+: 1578849300:0;lspci |grep 100
+: 1578849319:0;cat /proc/pci
+: 1578849348:0;lspci |grep -i net
+: 1578849358:0;mc
+: 1578849383:0;find /proc -name '*pci*'
+: 1578849389:0;find /proc -name '*pci*' 2>2
+: 1578849393:0;mc
+: 1578849533:0;od initrd.img-4.15.0-72-generic.txt|less
+: 1578849557:0;hexdump initrd.img-4.15.0-72-generic.txt|less
+: 1578849565:0;xxd  initrd.img-4.15.0-72-generic.txt|less
+: 1578849638:0;less  initrd.img-4.15.0-72-generic.txt
+: 1578849702:0;mc
+: 1578853619:0;ifconfig -a
+: 1578905958:0;ls -l /dev/ttyS0
+: 1578909143:0;mc
+: 1578916122:0;history
+: 1578916188:0;sudo chroot ~/downloads/ububase
+: 1578916480:0;man dpkg
+: 1578916608:0;mc
+: 1578916697:0;cd downloads
+: 1578916705:0;grep ackag status
+: 1578916719:0;grep ^Packag status
+: 1578916741:0;grep ^Packag status|wc
+: 1578916791:0;grep ^Packag status >89
+: 1578916832:0;grep -E '^Packag|^Prior' status 
+: 1578916848:0;grep -E '^Packag|^Prior' status >prior
+: 1578916851:0;mc
+: 1578916883:0;grep -E '^Prior' status |sort|uniq -c
+: 1578920492:0;history |tail -n 30
+: 1578921155:0;dpkg-query --h
+: 1578921157:0;dpkg-query --help
+: 1578921228:0;man dpkg-query
+: 1578921356:0;dpkg-query --showformat='${Package}\t${Version}\n' --show
+: 1578921379:0;dpkg-query --showformat='${Package}\t${Priority}\n' --show
+: 1578921402:0;dpkg-query --showformat='${Package}\t${Priority}\n' --show|grep requir
+: 1578921407:0;dpkg-query --showformat='${Package}\t${Priority}\n' --show|grep requir|wc
+: 1578921422:0;dpkg-query --showformat='${Package}\t${Priority}\n' --show|grep importan|wc
+: 1578921439:0;dpkg-query --showformat='${Package}\t${Priority}\n' --show|grep standar|wc
+: 1578921450:0;dpkg-query --showformat='${Package}\t${Priority}\n' --show|grep optiona|wc
+: 1578921493:0;history |tail -n 30
+: 1578921505:0;sudo chroot ~/downloads/ububase
+: 1578921585:0;dpkg-query --showformat='${Package}\t${Priority}\n' --show|grep requir >requi
+: 1578921588:0;mc
+: 1578921656:0;sort requi >s
+: 1578921660:0;cd downloads
+: 1578921661:0;sort requi >s
+: 1578921670:0;comm --h
+: 1578921707:0;comm -23 ../s s
+: 1578921730:0;comm -13 ../s s
+: 1578921754:0;comm -23 ../s s >comm-23
+: 1578921767:0;history |tail -n 30
+: 1578921872:0;comm -23 ../s s
+: 1578923625:0;mc
+: 1578923707:0;history|grep jupy
+: 1578923727:0;jupyter lab
+: 1578923793:0;jupyter lab --h
+: 1578923806:0;jupyter lab --no-browser
+: 1578923926:0;history
+: 1578924802:0;mawk '/^Architecture: / { arch = $2; } /^Package: / { package = $2; } /^Priority: required/ { print package " (" arch ")"; }' < /var/lib/dpkg/status
+: 1578924835:0;mawk '/^Architecture: / { arch = $2; } /^Package: / { package = $2; } /^Priority: required/ { print package; }' < /var/lib/dpkg/status
+: 1578924857:0;history
+: 1578924927:0;find -name '*.ipyn*'
+: 1578926396:0;history
+: 1578926439:0;grep ssenti < /var/lib/dpkg/status
+: 1578926447:0;history|tail
+: 1578926523:0;echo mawk ' /^Package: / { package = $2; }              /^Package: / { package = $2; }              /^Priority: required/ { print package; }' < /var/lib/dpkg/status
+: 1578926703:0;echo mawk ' /^Package: / { package = $2; }   /^Priority: required/   { p= $2; }       /^Essential: yes/   { print package p ; }' < /var/lib/dpkg/status\
+
+: 1578926712:0;mawk ' /^Package: / { package = $2; }   /^Priority: required/   { p= $2; }       /^Essential: yes/   { print package p ; }' < /var/lib/dpkg/status\
+
+: 1578926729:0;mawk ' /^Package: / { package = $2; }   /^Priority: required/   { p= $2; }       /^Essential: yes/   { print package " " p ; }' < /var/lib/dpkg/status\
+
+: 1578926746:0;mawk ' /^Package: / { package = $2; }   /^Priority: required/   { p= $2; }       /^Essential: yes/   { print package " " p ; }' < /var/lib/dpkg/status|wc\
+
+: 1578926764:0;mawk ' /^Package: / { package = $2; }   /^Priority: required/   { p= $2; }       /^Essential: yes/   { print package " " p ; }' < ~/downloads/ububase/var/lib/dpkg/status|wc\
+
+: 1578927622:0;history|tail
+: 1578930881:0;socat
+: 1579007583:0;tty
+: 1579007586:0;ps l
+: 1579007827:0;stty -a
+: 1579008437:0;(sleep 5; echo hello, world) &
+: 1579013368:0;mc
+: 1579013417:0;newgrp tty
+: 1579013461:0;sudo -i
+: 1579013560:0;sudo less -f /dev/vcs1
+: 1579018289:0;mkdir pipes
+: 1579018293:0;cd pipes
+: 1579018303:0;mknod --he
+: 1579018338:0;man mknod
+: 1579018361:0;mknod p oin
+: 1579018375:0;man mknod
+: 1579018407:0;mknod oin p
+: 1579018409:0;ll
+: 1579018425:0;mknod oout p
+: 1579018426:0;ll
+: 1579018452:0;tr a b <oout >oin &
+: 1579018470:0;echo abbds >oout
+: 1579018481:0;cat oin
+: 1579018563:0;tr a b <oout >oin &
+: 1579018569:0;echo abbds >oout &
+: 1579018588:0;cat oin
+: 1579018594:0;tr a b <oout >oin &
+: 1579018597:0;echo abbds >oout &
+: 1579018603:0;cat oin &
+: 1579018679:0;tr a b <oout >oin &
+: 1579018696:0;(echo abbds; echo aaa) >oout 
+: 1579018699:0;cat oin &
+: 1579272671:0;history|grep dock
+: 1579272686:0;docker run -it ubuntu
+: 1579272981:0;sudo apt-get --no-act install sysvinit-utils
+: 1579273157:0;sudo apt-get --no-act install 
+: 1579281497:0;git commit  -a -m 'hist' ;  git push -u origin violet
+: 1579622728:0;ping 10.0.2.2
+: 1580059047:0;apt-cache search qemu
+: 1580059057:0;dpkg --h
+: 1580059064:0;dpkg --help
+: 1580059116:0;dpkg --listfiles qemu-system-common
+: 1580059132:0;dpkg --listfiles qemu-system-common qemu-block-extra:amd64
+: 1580059142:0;dpkg --listfiles qemu-system-common qemu-block-extra:amd64|grep -i 9p
+: 1580059169:0;dpkg --listfiles qemu-system-common qemu-block-extra:amd64   qemu-kvm qemu-system-x86 qemu-utils                    |grep -i 9p
+: 1580059194:0;find / -name '*9p*' 
+: 1580059214:0;find / -name '*9p*' 2>2
+: 1580059261:0;find / -name '*9p*.ko' 2>2
+: 1580060059:0;history
+: 1580060114:0;dpkg --listfiles linux-modules-4.15.0-72-generic
+: 1580060122:0;dpkg --listfiles linux-modules-4.15.0-72-generic|grep 9p
+: 1580129745:0;history
+: 1580129761:0;sudo mkdir -p /mnt/ram
+: 1580129799:0;sudo mount -vt  ramfs ramfs /mnt/ram/
+: 1580129806:0;free -m
+: 1580129828:0;cd /mnt/ram
+: 1580129861:0;sudo mkdir -p /mnt/ram/w
+: 1580129899:0;sudo chown -Rv martin:martin /mnt/ram/w
+: 1580129907:0;mc
+: 1580129926:0;history
+: 1580130030:0;free -m
+: 1580130649:0;cd
+: 1580130670:0;free -m |tee -a free-m
+: 1580130722:0;cd /mnt/ram/w
+: 1580130723:0;ll
+: 1580130732:0;./poky-glibc-x86_64-core-image-sato-core2-32-qemux86-toolchain-3.0.1.sh --help
+: 1580130742:0;ll
+: 1580130756:0;chmod u+x poky-glibc-x86_64-core-image-sato-core2-32-qemux86-toolchain-3.0.1.sh
+: 1580130760:0;./poky-glibc-x86_64-core-image-sato-core2-32-qemux86-toolchain-3.0.1.sh --help
+: 1580130787:0;mkdir p
+: 1580130868:0;echo ./poky-glibc-x86_64-core-image-sato-core2-32-qemux86-toolchain-3.0.1.sh -d p -S -R
+: 1580131024:0;history
+: 1580131046:0;sudo mount -vt  ramfs ramfs /mnt/ram/
+: 1580131062:0;sudo mkdir -p /mnt/ram/w
+: 1580131066:0;sudo chown -Rv martin:martin /mnt/ram/w
+: 1580131076:0;free -m |tee -a free-m
+: 1580131159:0;history
+: 1580131214:0;free -m |tee -a free-m
+: 1580131283:0;cd /mnt/ram/w
+: 1580131287:0;chmod u+x poky-glibc-x86_64-core-image-sato-core2-32-qemux86-toolchain-3.0.1.sh
+: 1580131302:0;mkdir p
+: 1580131311:0;./poky-glibc-x86_64-core-image-sato-core2-32-qemux86-toolchain-3.0.1.sh --help
+: 1580131328:0;./poky-glibc-x86_64-core-image-sato-core2-32-qemux86-toolchain-3.0.1.sh -d p -S -R -D -l
+: 1580131340:0;./poky-glibc-x86_64-core-image-sato-core2-32-qemux86-toolchain-3.0.1.sh -d p -S -R -D -l|less
+: 1580131406:0;./poky-glibc-x86_64-core-image-sato-core2-32-qemux86-toolchain-3.0.1.sh -d p -S -R -D -l >list
+: 1580131413:0;free -m |tee -a free-m
+: 1580131445:0;mc
+: 1580203587:0;sudo apt install zstd 
+: 1580203682:0;mc
+: 1580203706:0;cd arch-i486
+: 1580203796:0;unzstd --keep linux-5.4.13.arch1-1.0-i486.pkg.tar.zst
+: 1580203803:0;mc
+: 1580212845:0;sudo apt install binwalk 
+: 1580213008:0;cd archis
+: 1580213009:0;ll
+: 1580213016:0;binwalk bzImage
+: 1580213022:0;ll
+: 1580213032:0;history
+: 1580213046:0;binwalk --extract  bzImage
+: 1580213052:0;mc
+: 1580213106:0;binwalk --extract  _bzImage.extracted/3E80
+: 1580213120:0;mc
+: 1580214116:0;ll
+: 1580214141:0;binwalk --extract  vmlinuz-linux
+: 1580214158:0;binwalk --extract  _vmlinuz-linux.extracted/4708
+: 1580214235:0;binwalk --extract  bzimage
+: 1580214249:0;binwalk --extract  _bzimage.extracted/3E62
+: 1580214294:0;binwalk --extract bzImage.hum
+: 1580214304:0;binwalk --extract _bzImage.hum.extracted/3E80
+: 1580214366:0;mc
+: 1580218783:0;ll
+: 1580218787:0;mc
+: 1580218827:0;history|grep qem
+: 1580218884:0;qemu-system-i386   -nographic   -m 128   openwrt-18.06.5-x86-legacy-combined-ext4.img 
+: 1580218893:0;qemu-system-i386   -nographic   -m 128  openwrt/openwrt-18.06.5-x86-legacy-combined-ext4.img 
+: 1580219015:0;qemu-system-i386   -nographic   -m 128   -cdrom iso/linux3.iso 
+: 1580219254:0;qemu-system-i386   -nographic   -m 128   -cdrom iso/linux4.iso
+: 1580219994:0;history
+: 1580220006:0;history|grep qem|grep ini
+: 1580220013:0;history|grep qem|grep initr
+: 1580220320:0;qemu-system-i386   -nographic   -m 128   -kernel arch-v86/vmlinuz-linux -initrd arch-v86/initramfs-linux.img -append "ignore_loglevel"
+: 1580220444:0;qemu-system-i386   -nographic   -m 128   -kernel arch-v86/vmlinuz-linux -initrd arch-v86/initramfs-linux.img -append "ignore_loglevel console=ttyS0"
+: 1580221021:0;qemu-system-i386   -nographic   -m 128   -kernel arch-v86/vmlinuz-linux -initrd arch-v86/initramfs-linux-fallback.img -append "ignore_loglevel console=ttyS0"
+: 1580221130:0;qemu-system-i386   -nographic   -m 128   -kernel arch-v86/vmlinuz-linux -initrd arch-v86/initramfs-linux-fallback.img -append "ignore_loglevel console=ttyS0" -hda openwrt/openwrt-18.06.5-x86-legacy-combined-ext4.img
+: 1580221173:0;qemu-system-i386   -nographic   -m 128   -kernel arch-v86/vmlinuz-linux -initrd arch-v86/initramfs-linux-fallback.img -append "ignore_loglevel console=ttyS0 root=/dev/hda1  " -hda openwrt/openwrt-18.06.5-x86-legacy-combined-ext4.img
+: 1580222970:0;history
+: 1580223060:0;qemu -boot d 
+: 1580223074:0;history
+: 1580223128:0;qemu-system-i386   -nographic   -m 128   -cdrom iso/linux4.iso -boot d   -hda openwrt/openwrt-18.06.5-x86-legacy-combined-ext4.img
+: 1580310495:0;ls
+: 1580310973:0;mc
+: 1580400012:0;history
+: 1580400022:0;qemu-system-i386   -nographic   -m 128  openwrt/openwrt-18.06.5-x86-legacy-combined-ext4.img 
+: 1580400392:0;qemu-system-i386   -nographic   -m 128   -cdrom iso/linux3.iso 
+: 1580400468:0;qemu-system-i386   -nographic   -m 128   -cdrom iso/linux4.iso
+: 1580549776:0;history|grep was
+: 1580822179:0;history|grep dock
+: 1580822215:0;sudo systemctl status docker
+: 1580822265:0;docker info
+: 1580822289:0;du -m /var/lib/docker
+: 1580822302:0;sudo du -m /var/lib/docker
+: 1580822309:0;history|grep dock
+: 1580822340:0;docker images
+: 1580822357:0;docker ps -a
+: 1580822382:0;docker image ls
+: 1580822391:0;docker image history
+: 1580822402:0;docker system df
+: 1580822429:0;docker system
+: 1580822439:0;docker system info
+: 1580822730:0;docker pull wasienv/wasienv
+: 1580824473:0;sudo du -m --threshold=10m /var/lib/docker
+: 1580825135:0;sudo du -m --threshold=2m /var/lib/docker
+: 1580825309:0;sudo -i mc  /var/lib/docker
+: 1580825706:0;docker system df
+: 1580825799:0;docker image ls
+: 1580825856:0;docker ps -a
+: 1580826853:0;mkdir adocker
+: 1580826857:0;cd adocker
+: 1580826865:0;mount
+: 1580826869:0;mount >0.m
+: 1580826895:0;df -m
+: 1580826903:0;df -m >0.df
+: 1580826910:0;history
+: 1580826919:0;docker system df
+: 1580826928:0;docker system df >0.d.s.df
+: 1580826945:0;sudo du -ms  /var/lib/docker
+: 1580826966:0;sudo du -ms  /var/lib/docker |tee >0.du-ms
+: 1580826968:0;l
+: 1580826975:0;cat *
+: 1580826996:0;history|grep dock
+: 1580827075:0;docker run -it wasienv
+: 1580827086:0;docker run -it wasienv/wasienv
+: 1580828825:0;cd adocker
+: 1580828829:0;history
+: 1580828832:0;l
+: 1580828847:0;mount >1.m
+: 1580828863:0;df -m >1.df
+: 1580828871:0;docker system df >1.d.s.df
+: 1580828884:0;sudo du -ms  /var/lib/docker |tee >1.du-ms
+: 1580828921:0;history
+: 1580828931:0;cd adocker
+: 1580828940:0;diff 0.df 1.df
+: 1580828983:0;diff 0.d.s.df 1.d.s.df
+: 1580829035:0;diff 0.du-ms 1.du-ms
+: 1580829057:0;sudo du -ms  /var/lib/docker |tee >2.du-ms
+: 1580829073:0;diff 0.du-ms 2.du-ms
+: 1580829113:0;docker system df >2.d.s.df
+: 1580829124:0;diff 0.d.s.df 2.d.s.df
+: 1580829215:0;diff 0.m 1.m
+: 1580829489:0;docker run -it wasienv/wasienv
+: 1580829677:0;sudo -i mc  /var/lib/docker
+: 1580830514:0;apt show dive
+: 1580830670:0;wget https://github.com/wagoodman/dive/releases/download/v0.9.1/dive_0.9.1_linux_amd64.deb\
+
+: 1580830690:0;sudo apt install ./dive_0.9.1_linux_amd64.deb
+: 1580830730:0;dive
+: 1580830733:0;dive --h
+: 1580830757:0;docker image ls
+: 1580830769:0;dive wasienv
+: 1580830784:0;dive wasienv/wasienv
+: 1580830805:0;dive --h
+: 1580830849:0;docker ps -a
+: 1580830883:0;dive focused_feistel
+: 1580830973:0;dive wasienv/wasienv
+: 1580831888:0;docker run --rm -it -v \\
+/var/run/docker.sock:/var/run/docker.sock \\
+-v /yourpath:/.config/jesseduffield/lazydocker \\
+lazyteam/lazydocker
+: 1580832144:0;history
+: 1580832182:0;sudo du -ms  /var/lib/docker |tee >3.du-ms
+: 1580832198:0;sudo du -ms  /var/lib/docker |tee 3.du-ms
+: 1580832255:0;sudo du -ms  /var/lib/docker |tee 4.du-ms
+: 1580832280:0;docker run --rm -it -v \\
+/var/run/docker.sock:/var/run/docker.sock \\
+-v /yourpath:/.config/jesseduffield/lazydocker \\
+lazyteam/lazydocker
+: 1580832319:0;pwd
+: 1580832323:0;mc
+: 1580832432:0;cd adocker
+: 1580832443:0;sudo du -msx  /var/lib/docker |tee 5.du-msx
+: 1580832776:0;docker run --rm -it -v \\
+/var/run/docker.sock:/var/run/docker.sock \\
+-v /yourpath:/.config/jesseduffield/lazydocker \\
+lazyteam/lazydocker
+: 1580834610:0;sudo -i mc  /var/lib/docker
+: 1580834723:0;cd adocker
+: 1580834729:0;history|grep dock
+: 1580834750:0;sudo du -m --threshold=10m /var/lib/docker
+: 1580834765:0;sudo du -m --threshold=10m /var/lib/docker|grep tmp
+: 1580834775:0;sudo -i mc  /var/lib/docker
+: 1580834826:0;sudo du -m --threshold=10m /var/lib/docker
+: 1580897224:0;bash -x
+: 1580897243:0;bash -x >bash-x
+: 1580897257:0;l
+: 1580897269:0;bash -x 2>bash-x
+: 1580897308:0;l
+: 1580897314:0;mc
+: 1580897337:0;bash -x -i 2>bash-x
+: 1580897350:0;l
+: 1580897367:0;mc
+: 1580902999:0;bash -v
+: 1580903037:0;history
+: 1580903073:0;bash -v -i 2>bash-v-i
+: 1580903093:0;mc
+: 1580906745:0;l
+: 1580906762:0;set|grep -i hist
+: 1580910838:0;less /etc/profile
+: 1580910913:0;mc
+: 1580912051:0;cd
+: 1580912070:0;ls .profile
+: 1580912076:0;cat .profile
+: 1580912151:0;mc
+: 1580912173:0;cat .bashrc|grep -i pat
+: 1580912277:0;cd adocker
+: 1580912278:0;l
+: 1580912309:0;history
+: 1580912340:0;zsh -v -i 2>zsh-v-i
+: 1580912348:0;zsh -x -i 2>zsh-x-i
+: 1580912350:0;mc
+: 1580912552:0;grep -i hist zsh-v-i
+: 1580912577:0;grep -i hist zsh-x-i
+: 1580912587:0;grep HIST zsh-x-i
+: 1580912663:0;grep HIST zsh-v-i
+: 1580912754:0;grep HIST zsh-x-i
+: 1580913433:0;set|grep -i hist
+: 1580915728:0;history
+: 1580915736:0;grep HIST zsh-v-i
+: 1580915739:0;cd adocker
+: 1580915739:0;grep HIST zsh-v-i
+: 1580915753:0;grep HIST zsh-x-i
+: 1580915817:0;mc
+: 1580915905:0;history
+: 1580915910:0;set|grep -i hist
+: 1580916287:0;cd
+: 1580916314:0;echo git clone --depth=1 https://github.com/martin12333/bash-it.git ~/.bash_it
+: 1580919201:0;history
+: 1580919239:0;cd adocker
+: 1580919241:0;l
+: 1580919247:0;mkdir bash-it
+: 1580919248:0;cd bash-it
+: 1580919250:0;l
+: 1580919253:0;history
+: 1580919261:0;bash -v -i 2>bash-v-i
+: 1580919279:0;bash -x -i 2>bash-x-i
+: 1580919317:0;grep HIST bash-x-i
+: 1580919321:0;grep HIST bash-v-i
+: 1580919403:0;mc
+: 1580920535:0;history
+: 1580920582:0;set|grep -i hist
+: 1580920622:0;mc
+: 1580920658:0;setopt 
+: 1580920675:0;setopt |grep his
+: 1581100034:0;apt search fzf
+: 1581100057:0;apt show fzf
+: 1581243798:0;ls -l /dev/ttyS0
+: 1581243861:0;cat .zshrc|grep bind
+: 1581243870:0;cd adocker
+: 1581243902:0;grep bind bash-it/bash-v-i
+: 1581243916:0;grep bind bash-it/bash-x-i
+: 1581243926:0;grep bind zsh-v-i
+: 1581243932:0;grep bind zsh-x
+: 1581243934:0;grep bind zsh-x-i
+: 1581243960:0;grep bindk zsh-x-i
+: 1581244009:0;grep ' bindk' zsh-x-i
+: 1581244047:0;grep ' bindk' zsh-x-i|grep his
+: 1581244883:0;history
+: 1581244891:0;cd adocker
+: 1581244898:0;cd bash-it
+: 1581244912:0;bash -x -i 2>bash-x-i-his
+: 1581244925:0;bash -v -i 2>bash-v-i-hi
+: 1581244946:0;cd ..
+: 1581244954:0;grep bind bash-it/bash-x-i-his
+: 1581244981:0;grep bind bash-it/bash-v-i-hi
+: 1581245013:0;mc
+: 1581245157:0;history|grep opt
+: 1581245161:0;setopt
+: 1581245227:0;omz_history
+: 1581245520:0;echo $terminfo
+: 1581245523:0;46R62;9;c
+: 1581245538:0;echo $terminfo >fdfgfd
+: 1581245540:0;mc
+: 1581245571:0;history
+: 1581245594:0;grep ' bindk' zsh-x-i|grep his
+: 1581245598:0;cd adocker
+: 1581245599:0;grep ' bindk' zsh-x-i|grep his
+: 1581245648:0;cat -v
+: 1581606620:0;git commit  -a -m 'hist' ;  git push -u origin violet
+: 1594573329:0;history
+: 1594573349:0;ll
+: 1594573405:0;ls -la
+: 1594574064:0;mc
+: 1594574185:0;setopt
+: 1594574223:0;setopt |grep his
+: 1594574233:0;set|grep -i hist
+: 1594574353:0;mc
+: 1594575375:0;alias
+: 1594819791:0;history
+: 1594820845:0;cd ~/grdr20/PyMartinCA/beta/JUPYTER/output
+: 1594820880:0;awk '$7<1.6 && $12>250' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12, $7)}'
+: 1594820990:0;awk '$12>250' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12, $7)}'
+: 1594821141:0;awk '$12>50' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12, $7)}'
+: 1594821191:0;awk '$7<1.6 && $12>250' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12, $7)}'
+: 1594821289:0;awk '$12>250' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12, $7)}'
+: 1594825369:0;history >zsh_history.sh
+: 1594825708:0;mc
+: 1594828850:0;history >zsh_history.sh
+: 1594828854:0;awk '$12>250' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12, $7)}'
+: 1594828921:0;awk '$7<1.6 && $12>250' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12, $7)}'
+: 1594829633:0;awk '$12>250' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12, $7)}'
+: 1594829922:0;awk '$7<1.6 && $12>250' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12, $7)}'
+: 1594830259:0;awk '$7<1.6 && $12>250' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12, $7)}'| sort -n -k 4
+: 1594830383:0;awk '$7<1.6 && $12>500' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12, $7)}'| sort -n -k 4
+: 1594830388:0;awk '$7<1.6 && $12>500' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12, $7)}'| sort 
+: 1594983432:0;mc
+: 1594983774:0;free -m 
+: 1594983939:0;mc
+: 1594986602:0;free -m 
+: 1594987748:0;mc
+: 1594988413:0;free -m 
+: 1594988415:0;top
+: 1594988958:0;mc
+: 1594989618:0;free -m 
+: 1594989689:0;top -b -n 1 | grep pyt
+: 1594989728:0;free -m 
+: 1594990408:0;mc
+: 1594991239:0;nl p100520.csv-old
+: 1594991258:0;nl p100520.csv-old|grep '7c8 '
+: 1594991336:0;nl p100520.csv-old|grep 'y6n7c8 '
+: 1594991352:0;nl p100520.csv
+: 1594991372:0;mc
+: 1594991437:0;free -m 
+: 1594991441:0;top -b -n 1 | grep pyt
+: 1594991451:0;free -m 
+: 1594991794:0;mc
+: 1594992504:0;history >zsh_history.sh
+: 1594992555:0;history |grep sort
+: 1594992577:0;bash
+: 1594994762:0;mc
+: 1602775582:0;history |grep dock
+: 1602775616:0;mc
+: 1602775684:0;cd /var/snap/docker
+: 1602775694:0;sudo -i mc  /var/lib/docker
+: 1602775724:0;sudo -i mc  /var/snap/docker
+: 1602778398:0;history |grep docker
+: 1602778407:0;history |grep '^docker'
+: 1602778413:0;history |grep ' docker'
+: 1602778561:0;docker info
+: 1602778617:0;sudo usermod -aG docker ${USER}
+: 1602778981:0;cat /etc/group|grep doc
+: 1602778982:0;cat /etc/group|grep do
+: 1602779022:0;ll /var/run/docker.sock
+: 1602779234:0;sudo groupadd docker
+: 1602779240:0;sudo usermod -aG docker ${USER}
+: 1602779490:0;cat /etc/group|grep do
+: 1602779496:0;ll /var/run/docker.sock
+: 1602779507:0;docker info
+: 1602779944:0;sudo docker info
+: 1602780120:0;docker container
+: 1602780216:0;df -m >>1.df
+: 1602780219:0;df -m
+: 1602780373:0;top
+: 1602780404:0;df -m
+: 1602780438:0;sudo ls /var/snap/docker
+: 1602780476:0;sudo du -sm  /var/snap/docker
+: 1602780482:0;sudo du -sm  /var/snap/docker/*
+: 1602780487:0;sudo du -sm  /var/snap/docker/common
+: 1602780489:0;sudo du -sm  /var/snap/docker/common/*
+: 1602780496:0;sudo du -sm  /var/snap/docker/common/var-lib-docker/*
+: 1602780498:0;sudo du -sm  /var/snap/docker/common/var-lib-docker/
+: 1602780519:0;sudo du -m  /var/snap/docker/common/var-lib-docker/ |sort -n
+: 1602780550:0;sudo du -sm  /var/snap/docker
+: 1602780564:0;df -m
+: 1602780793:0;top
+: 1602781078:0;mc
+: 1602781125:0;df -m
+: 1602781788:0;id --help
+: 1602781797:0;id
+: 1602781832:0;newgrp docker
+: 1602781847:0;id
+: 1602781927:0;docker info
+: 1602782034:0;sudo docker info
+: 1602782252:0;df -m
+: 1602782672:0;sudo docker container ls
+: 1602782706:0;sudo docker history
+: 1602782737:0;sudo docker image
+: 1602782741:0;sudo docker images
+: 1602782771:0;sudo docker image
+: 1602782772:0;sudo docker image ls
+: 1602782797:0;sudo docker list
+: 1602782824:0;sudo docker ps
+: 1602782842:0;sudo docker system
+: 1602782845:0;sudo docker system df
+: 1602782963:0;sudo docker stats
+: 1602782998:0;sudo docker top
+: 1602783011:0;sudo docker top great_napier
+: 1602784412:0;df -m
+: 1602784428:0;sudo du -sm  /var/snap/docker
+: 1602784453:0;sudo docker container ls
+: 1602784469:0;sudo docker image ls
+: 1602784483:0;sudo docker info
+: 1602784530:0;sudo docker ps
+: 1602784539:0;sudo docker system df
+: 1602869681:0;sudo du -sm  /var/snap/docker
+: 1602869728:0;docker info
+: 1602869747:0;sudo docker system df
+: 1602869921:0;docker ps -a
+: 1602869923:0;docker ps 
+: 1602870140:0;docker ps --all
+: 1602870336:0;docker start -ai great_napier
+: 1602948262:0;docker run --help
+: 1602948443:0;docker run -it -p 8889:8889 gibianski/ihaskell
+: 1602948609:0;docker run -it -p 8889:8889 gibiansky/ihaskell
+: 1602948793:0;docker ps --all
+: 1602948838:0;docker run --help
+: 1602948848:0;man docker-run
+: 1602948850:0;man docker
+: 1602949046:0;docker system df
+: 1602949088:0;docker run -it -p 8889:8888 gibiansky/ihaskell
+: 1602949703:0;history
+: 1602951085:0;docker start -ai great_napier
+: 1614443657:0;man chsh
+: 1614444071:0;history
+: 1614444141:0;set|grep -i hist
+: 1614444159:0;history
+: 1614444198:0;bash
+: 1614444336:0;history;  cp -v ~/.zsh_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/21-02.zsh_history
+: 1614444541:0;bash
+: 1614444690:0;history;  cp -v ~/.zsh_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/21-02.zsh_history
