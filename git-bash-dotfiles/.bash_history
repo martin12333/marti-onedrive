@@ -130,3 +130,16 @@ git config --get-all core.autocrlf
 git config --get-all --system core.autocrlf 
 git config --get-all core.autocrlf --system
 history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/2021-03.bash_history
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
+git config --global core.autocrlf input
+git config --get-all core.autocrlf 
+git config --list 
+git config --list --show-origin 
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
+git config --get-all --global core.autocrlf 
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
+git config --list --show-origin 
+git config --list --show-origin |grep -i cre
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
