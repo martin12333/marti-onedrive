@@ -198,3 +198,6 @@ ll
 git add  ConsoleHost_history.txt 
 git add --force --verbose   ConsoleHost_history.txt 
 history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
+git commit -v -a -m hist
+git push 
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
