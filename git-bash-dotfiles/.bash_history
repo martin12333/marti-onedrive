@@ -172,3 +172,29 @@ echo git checkout -b main2
 cd -
 git checkout -b main2
 history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
+echo '----------------------'
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
+cd OneDrive/AI/
+git add --dry-run *.ipynb
+git add  *.ipynb
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
+git commit -v -a -m init
+ls -la
+ls -laR
+ls -laR >ls-laR.txt
+git add  ls-laR.txt 
+git commit -v -a -m ls
+git push –u origin main
+git push 
+pwd
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
+ls d:
+ls D:
+ls D:/
+ls D:\\
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
+cd ../ps-mylen-mar/
+ll
+git add  ConsoleHost_history.txt 
+git add --force --verbose   ConsoleHost_history.txt 
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
