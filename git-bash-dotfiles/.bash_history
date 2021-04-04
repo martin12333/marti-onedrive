@@ -214,3 +214,15 @@ git ls-files
 cd ..
 git ls-files
 history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
+cd OneDrive/
+cd Dokumenty/
+ll
+git add --force --verbose   us1.klc 
+git commit -v -a -m klc
+git commit -v -a -m klc2
+git commit -v -a -m klc3
+cd a-msklc/
+git add --force --verbose   us1.klc 
+git commit -v -a -m klc0
+git commit -v -a -m klc11
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
