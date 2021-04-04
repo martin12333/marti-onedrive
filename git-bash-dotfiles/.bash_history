@@ -201,3 +201,16 @@ history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dot
 git commit -v -a -m hist
 git push 
 history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
+git commit -v -a -m readme
+git push 
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
+cd
+git ls-files
+git status
+git commit -v -a -m hist
+git push 
+cd -
+git ls-files
+cd ..
+git ls-files
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
