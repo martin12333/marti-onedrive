@@ -226,3 +226,55 @@ git add --force --verbose   us1.klc
 git commit -v -a -m klc0
 git commit -v -a -m klc11
 history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
+git add --force --verbose   polprog1.klc 
+git commit -v -a -m klc-pol2
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
+pwd
+d:
+cd /d
+ls
+cd umarti/
+ll
+cd bliss-book-gh-pages
+git init
+git remote add origin https://github.com/martin12333/bliss-book.git
+git remote add origin https://github.com/martin12333/bliss-book.git
+git remote add upstream https://github.com/owencm/bliss-book.git
+git fetch origin gh-pages
+git status 
+git checkout gh-pages 
+git status 
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
+ll
+lasdkjlkadjakjds
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
+git fetch upstream  gh-pages
+git status 
+head -n 20 index.html 
+git pull upstream  gh-pages
+head -n 20 index.html 
+head -n 25 index.html 
+git push --dry-run 
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
+git push --dry-run 
+git push 
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
+cd
+cd d
+cd /d
+cd umarti/
+cd 5000\ FILES\ SOME\ GIT\ GUI\ FAIL\ ZSH/bliss-book-gh-pages
+git list --all
+git branch --all
+git log
+git log|less
+git log --help
+cd
+pwd
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
+cd /d
+ll
+cd GIT-bk04/
+ll
+git clone  https://github.com/martin12333/newbie-attempts--dotfiles-at-s18.git
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
