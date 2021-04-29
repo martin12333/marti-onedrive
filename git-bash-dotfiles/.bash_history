@@ -278,3 +278,22 @@ cd GIT-bk04/
 ll
 git clone  https://github.com/martin12333/newbie-attempts--dotfiles-at-s18.git
 history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
+cd OneDrive/
+git commit -v -a -m hist
+git push
+git commit -v -a -m hist
+git push
+pwd
+find /c/Users/marti -size +300m -ls
+find /c/Users/marti -size +300M -ls
+find /c -size +300M -ls | tee ~/find1
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
+cd OneDrive/
+git add --force --verbose   .vscode/settings.json 
+#git commit -v -a -m bkup && #git push
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
+history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history | grep -i push
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history | grep -i push
+fhfhg
+ls
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history | grep -i push
