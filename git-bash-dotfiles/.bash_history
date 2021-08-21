@@ -407,3 +407,12 @@ cd OneDrive/hpmor/
 git clone https://github.com/martin12333/hpmor-wiki.git
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history 
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history 
+history 
+cd OneDrive/
+git commit -v -a -m warning-chsh-radeji-nesudo
+git push 
+which bash
+cmd
+git add wsl-dotfiles/.bash_history 
+git add -f -vvv wsl-dotfiles/.bash_history 
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history 
