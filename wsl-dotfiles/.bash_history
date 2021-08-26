@@ -281,3 +281,22 @@ history
 zsh
 history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-08.bash_history 
 history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+npm
+npm config list
+npm config list -l
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+npm config list -l
+npm config list -l|grep pref
+npm config list -l|grep prefi
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+npm bin -g
+mc
+_.VERSION
+mc
+cd textutils1
+code .
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+ps
+ps -u martin
+echo $PATH
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
