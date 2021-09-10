@@ -300,3 +300,34 @@ ps
 ps -u martin
 echo $PATH
 history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+pip list
+pip3 list
+node
+mc
+zsh
+./code
+code .
+pwd
+env
+cd
+pwd
+code .
+zsh
+history|grep code
+code .
+env
+mc
+zsh
+zsh
+                            ls *ode*
+echo '`!@#$%^&*(_)-=[]{}:",./\fggf;'
+read -c 1 x
+read -N 1 x
+read -N 1 x ; echo "$x"
+read -N 1 x ; echo "$x"|od
+read -N 1 x ; echo "$x"|od -x
+while read -N 1 x ;do; echo "$x"|od -x ; done
+while read -N 1 x ;do echo "$x"|od -x ; done
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+while read -N 1 x ;do echo "$x"|od -x ; done
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
