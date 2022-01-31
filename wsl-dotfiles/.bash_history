@@ -331,3 +331,17 @@ while read -N 1 x ;do echo "$x"|od -x ; done
 history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
 while read -N 1 x ;do echo "$x"|od -x ; done
 history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+mc
+zsh
+mc
+zsh
+zsh
+ll
+cat >NEKT-SORY-MOHOU-BYT-ROOT
+npm install -g livescript
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+    mc
+mc
+gzip -d *.gz
+cd
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
