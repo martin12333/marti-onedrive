@@ -561,3 +561,37 @@ git add  -v -f resources/*
 git commit -v -a -m tweaks
 git push -u 
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep . #clon
+cd
+#git commit -v -a -m bkup
+cd OneDrive/
+git commit -v -a -m bkup
+git push -u 
+cd docker-214/
+git add  -v  --dry-run  jup-notebook-mn
+git add  -v    jup-notebook-mn
+git commit -v -a -m bkup
+git push -u 
+#git add  -v  --dry-run  jup-notebook-mn
+cd homedockw/
+git add  -v  --dry-run  .bash_logout .bashrc .profile 
+git add  -v    .bash_logout .bashrc .profile 
+git commit -v -a -m 'skel dotfiles 3'
+git commit -v -a -m 'wsl dotfiles 1'
+git push -u 
+git commit -v -a -m 'jovy dotfiles 1'
+git push -u 
+git add  -v  --dry-run  jovyan
+git add  -v  --dry-run  jo.tar 
+git add  -vv   jo.tar 
+cd ..
+git add  -v  --dry-run  wsl-jup-notebook-mn
+git add  -v   wsl-jup-notebook-mn
+git commit -v -a -m bkup
+git push -u 
+git add  -v   homedockw/jovyan/.bash_history 
+git commit -v -a -m bkup
+git push -u 
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep . #clon
+git commit -v -a -m bkup
+git push -u 
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep . #clon

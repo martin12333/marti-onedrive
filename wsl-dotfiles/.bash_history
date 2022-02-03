@@ -345,3 +345,29 @@ mc
 gzip -d *.gz
 cd
 history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+ll *liv*
+ll *li*
+echo *li*
+ll -d *li*
+zsh
+lsc
+lsc --h
+history|grep lsc
+zsh
+mc
+sage
+ghci
+zsh
+mc
+zsh
+mc
+zsh
+CD
+pwd
+CD
+ll
+ps -ef
+zsh
+zsh
+zsh
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
