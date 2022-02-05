@@ -1,100 +1,3 @@
-git clone  https://github.com/martin12333/marti-onedrive
-ll marti-onedrive/
-history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
-echo git checkout -b main2
-cd -
-git checkout -b main2
-history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
-echo '----------------------'
-history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
-cd OneDrive/AI/
-git add --dry-run *.ipynb
-git add  *.ipynb
-history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
-git commit -v -a -m init
-ls -la
-ls -laR
-ls -laR >ls-laR.txt
-git add  ls-laR.txt 
-git commit -v -a -m ls
-git push –u origin main
-git push 
-pwd
-history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
-ls d:
-ls D:
-ls D:/
-ls D:\\
-history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
-cd ../ps-mylen-mar/
-ll
-git add  ConsoleHost_history.txt 
-git add --force --verbose   ConsoleHost_history.txt 
-history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
-git commit -v -a -m hist
-git push 
-history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
-git commit -v -a -m readme
-git push 
-history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
-cd
-git ls-files
-git status
-git commit -v -a -m hist
-git push 
-cd -
-git ls-files
-cd ..
-git ls-files
-history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
-cd OneDrive/
-cd Dokumenty/
-ll
-git add --force --verbose   us1.klc 
-git commit -v -a -m klc
-git commit -v -a -m klc2
-git commit -v -a -m klc3
-cd a-msklc/
-git add --force --verbose   us1.klc 
-git commit -v -a -m klc0
-git commit -v -a -m klc11
-history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
-git add --force --verbose   polprog1.klc 
-git commit -v -a -m klc-pol2
-history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
-pwd
-d:
-cd /d
-ls
-cd umarti/
-ll
-cd bliss-book-gh-pages
-git init
-git remote add origin https://github.com/martin12333/bliss-book.git
-git remote add origin https://github.com/martin12333/bliss-book.git
-git remote add upstream https://github.com/owencm/bliss-book.git
-git fetch origin gh-pages
-git status 
-git checkout gh-pages 
-git status 
-history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
-ll
-lasdkjlkadjakjds
-history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
-git fetch upstream  gh-pages
-git status 
-head -n 20 index.html 
-git pull upstream  gh-pages
-head -n 20 index.html 
-head -n 25 index.html 
-git push --dry-run 
-history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
-git push --dry-run 
-git push 
-history -a; history;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history
-cd
-cd d
-cd /d
 cd umarti/
 cd 5000\ FILES\ SOME\ GIT\ GUI\ FAIL\ ZSH/bliss-book-gh-pages
 git list --all
@@ -593,5 +496,15 @@ git commit -v -a -m bkup
 git push -u 
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep . #clon
 git commit -v -a -m bkup
+git push -u 
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep . #clon
+cd ~/OneDrive/docker-214/
+git commit -v -a -m bkup
+git push -u 
+cd ..
+git commit -v -a -m bkup
+git push -u 
+cd ~/OneDrive/docker-214/
+git commit -v -a -m bkup-vsc
 git push -u 
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep . #clon

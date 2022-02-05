@@ -371,3 +371,38 @@ zsh
 zsh
 zsh
 history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+history|grep jup
+history|grep -i jup
+history|grep -i ipy
+mc
+zsh
+tar xvf jo.tar
+docker system df
+docker container 
+docker container  ls
+docker top
+docker top test1 
+docker stats 
+
+docker container  ls
+docker container  
+docker 
+mc
+vmstat 1
+zsh
+cd
+cd OneDrive/docker-214/wsl-jup-notebook-mn/
+ll
+zsh
+mc
+`
+zsh
+ps -ef
+ll
+zsh
+conda install jupyter
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+jupyter notebook
+cd
+jupyter notebook
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
