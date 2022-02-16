@@ -406,3 +406,65 @@ jupyter notebook
 cd
 jupyter notebook
 history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+less Miniconda3-latest-Linux-x86_64.sh
+df
+mount
+mount|grep run
+mount|grep tmp
+df
+df -m
+ls *cond*
+ls *cond* .con*
+ls *cond* .cond*
+diff *cond* .cond*
+cat .bash_history 
+ll
+cat *
+ll
+bash
+ls -l .*
+ls -ld .*
+mc
+mc -b
+set|grep -i hist
+mc -b
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+ll
+notepad.exe ConsoleHost_history.txt
+mc
+. ~/bcloudREADONLY/mn.bashrc 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+code ~/acloudSUBDIR/.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+zsh
+zsh
+mc
+bash
+man shuf
+zsh
+mc
+zsh
+grep ' bok ' auth.log
+zsh
+mc
+mc
+zsh
+history 
+zsh
+mc
+ll
+zsh
+mc
+cd
+zsh
+mc
+zsh
+echo  `cat ~/bcloudREADONLY/alma.txt`
+echo  `cat ~/bcloudREADONLY /alma.txt`
+echo  `cat ~/bcloudREADONLY/alma.txt`
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+echo  `cat ~/bcloudREADONLY/alma.txt`
+#ssh  `cat ~/bcloudREADONLY/alma.txt`
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+ssh  `cat ~/bcloudREADONLY/alma.txt`
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
