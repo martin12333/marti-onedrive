@@ -1,21 +1,3 @@
-git push -u
-history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history | grep -i push
-cd
-pwd
-#git commit -v -a -m bkup && git push -u
-#git commit -v -a -m bkup && git push -u
-history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history | grep -i push
-git commit -v -a -m bkup && git push -u
-history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history | grep -i push
-echo fdsfddg
-history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history | grep -i push
-git ls-files
-cd OneDrive/
-git ls-files
-cd AI/
-git ls-files
-ll
-cd
 cd OneDrive/
 find . -name '*.sh' -ls
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history | grep -i push
@@ -500,4 +482,24 @@ cd OneDrive/
 git ls-files
 cd OneDrive/
 git add acro-sett/acro-sett-FOR-GIT-ADD-BKUP.zip 
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep . #clon
+git add acro-sett/acro-sett-FOR-GIT-ADD-BKUP.zip 
+git add -f -vv acro-sett/acro-sett-FOR-GIT-ADD-BKUP.zip 
+git commit -v -a -m acro0
+git push -u 
+cd
+pwd
+git commit -v -a -m bkup
+git push -u 
+cd OneDrive/
+git commit -v -a -m acro222
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep . #clon
+ll git add -f -vv acro-sett/acro-sett-FOR-GIT-ADD-BKUP.zip 
+ll  acro-sett/acro-sett-FOR-GIT-ADD-BKUP.zip 
+git push -u 
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep . #clon
+cd OneDrive/
+#git commit -v -a -m wsl.conf
+git add  -v  wsl-dotfiles/wsl.conf 
+git add  -v -f  wsl-dotfiles/wsl.conf 
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep . #clon
