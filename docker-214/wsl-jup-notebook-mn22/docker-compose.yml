@@ -1,0 +1,55 @@
+version: '3.3'
+services:
+    base-notebook:
+        #container_name: notebook-mn
+        container_name: cmyjup2 #jupyter-mn
+
+        user: root
+        # because sudo
+
+        ports:  #host:cont, ''because base 60
+            - '12891:12891'
+            #- '12891:8888'
+            - '12291:22'
+
+
+        environment:
+            GRANT_SUDO: "yes"
+            #DOCKER_STACKS_JUPYTER_CMD: notebook
+            ####DOCKER_STACKS_JUPYTER_CMD: gfdfdgfdgdgdgdgf
+            ####JUPYTER_PORT: 12891
+            #NOTEBOOK_ARGS: "--log-level=DEBUG"
+            #NOTEBOOK_ARGS: "--log-level=DEBUG --port=12891"
+            NOTEBOOK_ARGS: "--port=12891"
+
+
+        volumes:
+            #- '/home/dockw:/home/jovyan/2work'
+            - '/home/dockw:/home'
+
+            #- '/C/Users/marti/OneDrive/docker-214:/home/jovyan/myclouddrive'
+            #####- '/mnt/C/Users/marti/OneDrive/docker-214:/home/jovyan/myclouddrive'
+            #- '/mnt/c/Users/marti/OneDrive/docker-214:/home/jovyan/myclouddrive'
+            #- '/mnt/c/Users/marti/OneDrive/docker-214:/amyclouddrive'
+            - '/mnt/c/Users/marti/OneDrive/docker-214:/home/jovyan/acloudSUBDIR'
+
+            #- '/C/Users/marti/docker-214big:/home/jovyan/docker-214big'
+            ###- '/mnt/c/Users/marti/docker-214big:/cdrive'
+            - '/mnt/c/Users/marti/docker-214big:/cdrivemy'
+            #####- '/C/Users/marti/docker-214:/c-users'
+
+            #- 'namedvol1:/home/jovyan/namedvol1'
+            - 'namedvol1:/namedvol1'
+            #- 'namedvol1:/home/jovyan/work'
+
+
+        #image: jupyter/base-notebook:2022-01-31
+        image: myjup2
+
+#docker pull jupyter/base-notebook:2022-01-31
+#####: 1643733822:0;docker pull jupyter/base-notebook:ubuntu-20.04
+
+volumes:
+  namedvol1:
+    external: true
+
