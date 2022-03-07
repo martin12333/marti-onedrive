@@ -468,3 +468,44 @@ echo  `cat ~/bcloudREADONLY/alma.txt`
 history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
 ssh  `cat ~/bcloudREADONLY/alma.txt`
 history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+ssh  `cat ~/bcloudREADONLY/alma.txt`
+mc
+ssh  `cat ~/bcloudREADONLY/alma.txt`
+mc
+zsh
+ssh  `cat ~/bcloudREADONLY/alma.txt`
+ll
+zsh
+mc
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+zsh
+man nm
+man ar
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history ;history |grep marti
+apt-file
+cd
+cd ; jupyter notebook
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history ;history |grep marti
+isoinfo
+pwd >pwd.txt
+zsh
+mc
+zsh
+mc
+zsh
+env
+env|grep -i disp
+xfig 
+ps
+xfig &
+ps
+ps -e
+ps -f
+pkill xfig
+ps -f
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history ;history |grep marti
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history ;history |grep .
+mc
+zsh
+ls sysna*
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history ;history |grep .
