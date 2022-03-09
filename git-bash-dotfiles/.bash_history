@@ -1,43 +1,3 @@
-ll /d/umarti/1
-history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history
-history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history
-cd
-cd OneDrive/
-git commit -v -a -m bkup && git push -u
-cd
-cd AppData/Roaming/Code/User/
-ll
-git add --force --verbose   keybindings.json settings.json
-echo git commit -v -a -m warning-crlf
-history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history
-git ls-files
-cd
-git ls-files
-git commit -v -a -m warning-crlf
-git push -u
-history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history
-git commit -v -a -m warning-editortextfocus
-git push -u
-history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history
-git commit -v -a -m pridal-do-git
-history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history
-git commit -v -a -m pridal-do-git
-history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history
-cd OneDrive/a,complangs-215/
-git clone  https://github.com/martin12333/hyperpolyglot-CSV.git
-git clone  https://github.com/martin12333/hyperpolyglot-CSV.git
-git clone  https://github.com/martin12333/hyperpolyglot-CSV.git
-history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history
-history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history
-echo strrange ... git clone 2 spaces failed ???? git clone 1 space OK ???
-history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history
-cd hyperpolyglot-CSV
-ll
-git add hyperpolyglot-CSV\ -\ lisp.csv
-git commit -v -a -m Wisp
-git push
-git commit -v -a -m Wisp-updated
-git push
 cd
 cd OneDrive/rosettaCode/
 git clone https://github.com/martin12333/rosettacode.git
@@ -506,4 +466,38 @@ history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.ba
 ll
 gpg --export --armor -vvv --output 4
 gpg --verify SHA256SUMS.gpg SHA256SUMS
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep gpg #clon
+cd OneDrive/
+git commit -v -a -m bkup
+git push -u
+cd docker-214/
+git commit -vvv -a -m bkup
+git push -u
+cd
+cd OneDrive/
+cd docker-214/
+git ls-files
+cd
+cd OneDrive/
+git add -vv docker-214/homedockw/jovyan/.bash_history 
+git add -f -vv docker-214/homedockw/jovyan/.bash_history 
+git add -f -vv docker-214/wsl-jup-notebook-mn22/docker-compose.yml 
+git ls-files
+git commit -vvv -a -m bkup
+git add -f -vv docker-214/wsl-jup-notebook-mn22/docker-compose.yml 
+git add  -vv docker-214/wsl-jup-notebook-mn22/docker-compose.yml 
+git add  -vv -f docker-214/wsl-jup-notebook-mn22/docker-compose.yml 
+git commit -vvv -a -m bkup
+cd OneDrive/
+git add  -vv -f docker-214/wsl-jup-notebook-mn22/docker-compose.yml 
+git add -f -vv docker-214/homedockw/jovyan/.bash_history 
+git ls-files
+git add -f -vv docker-214/homedockw/jovyan/.bash_history 
+git add  -vv -f docker-214/wsl-jup-notebook-mn22/docker-compose.yml 
+git ls-files
+git commit -vvv -a -m zarem-dock.git
+git push -u
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep gpg #clon
+cd OneDrive/
+git add  -vv -f mila/CHost_history.txt 
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep gpg #clon
