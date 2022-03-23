@@ -1,0 +1,11 @@
+Path=C:\Program Files (x86)\Intel\ComposerXE-2011\redist\intel64\mkl                     C:\Program Files (x86)\Intel\ComposerXE-2011\redist\ia32\mkl                     C:\Program Files (x86)\Intel\ComposerXE-2011\redist\intel64\mpirt                     C:\Program Files (x86)\Intel\ComposerXE-2011\redist\intel64\compiler                     C:\Program Files (x86)\Intel\ComposerXE-2011\redist\ia32\mpirt                     C:\Program Files (x86)\Intel\ComposerXE-2011\redist\ia32\compiler                     C:\Program Files (x86)\Intel\ComposerXE-2011\compiler\lib                     C:\Program Files (x86)\Common Files\Microsoft Shared\VSA\9.0\VsaEnv 
+
+                    C:\Windows\system32                     C:\Windows                     C:\Windows\System32\Wbem     
+
+                C:\Windows\System32\WindowsPowerShell\v1.0\                     
+
+C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin                     C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+
+                     C:\WINDOWS\system32                     C:\WINDOWS                     C:\WINDOWS\System32\Wbem                     C:\WINDOWS\System32\WindowsPowerShell\v1.0\    
+
+                 C:\WINDOWS\System32\OpenSSH\                     C:\Program Files\PuTTY\                     C:\Program Files (x86)\Wolfram Research\WolframScript\                     C:\Program Files\gnuplot\bin                     C:\Program Files\Wolfram Research\WolframScript\                     C:\Program Files\Calibre2\                     C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler                     C:\Users\Jirka\AppData\Local\Microsoft\WindowsApps                     

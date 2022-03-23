@@ -1,0 +1,11 @@
+BootCurrent: 0009
+Timeout: 1 seconds
+BootOrder: 0008,0009,0006,0007,0001,0000,0004,0005
+Boot0000* Acronis loader
+Boot0001* Windows Boot Manager
+Boot0004* Generic Usb Device
+Boot0005* CD/DVD Device
+Boot0006  UEFI: PXE IPV4 Intel(R) Ethernet Connection (7) I219-V
+Boot0007  UEFI: PXE IPV6 Intel(R) Ethernet Connection (7) I219-V
+Boot0008* UEFI: General USB Flash Disk 1100, Partition 1
+Boot0009* UEFI: SanDisk, Partition 1

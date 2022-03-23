@@ -1,0 +1,15 @@
+error trace:
+ efivarfs.c:258 efivarfs_get_variable(): open(/sys/firmware/efi/efivars/BootNext-8be4df61-93ca-11d2-aa0d-00e098032b8c): No such file or directory
+ lib.c:139 efi_get_variable(): ops->get_variable failed: No such file or directory
+dp-acpi.c:170 _format_acpi_dn(): formatting ACPI HID 0x0a0341d0
+dp-acpi.c:170 _format_acpi_dn(): formatting ACPI HID 0x0a0341d0
+dp-acpi.c:170 _format_acpi_dn(): formatting ACPI HID 0x0a0341d0
+dp-acpi.c:170 _format_acpi_dn(): formatting ACPI HID 0x0a0341d0
+dp-acpi.c:170 _format_acpi_dn(): formatting ACPI HID 0x0a0341d0
+dp-acpi.c:170 _format_acpi_dn(): formatting ACPI HID 0x0a0341d0
+error trace:
+ efivarfs.c:258 efivarfs_get_variable(): open(/sys/firmware/efi/efivars/MirrorCurrent-7b9be2e0-e28a-4197-ad3e-32f062f9462c): No such file or directory
+ lib.c:139 efi_get_variable(): ops->get_variable failed: No such file or directory
+error trace:
+ efivarfs.c:258 efivarfs_get_variable(): open(/sys/firmware/efi/efivars/MirrorRequest-7b9be2e0-e28a-4197-ad3e-32f062f9462c): No such file or directory
+ lib.c:139 efi_get_variable(): ops->get_variable failed: No such file or directory

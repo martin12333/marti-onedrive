@@ -1,0 +1,185 @@
+
+Firmware Boot Manager
+---------------------
+identifier              {fwbootmgr}
+displayorder            {a7900a53-a3f9-11ec-ac7c-806e6f6e6963}
+                        {ab180eb1-a5ac-11ec-b654-806e6f6e6963}
+                        {ec6c1959-a2bf-11ea-aa62-806e6f6e6963}
+                        {ec6c195a-a2bf-11ea-aa62-806e6f6e6963}
+                        {74f2532e-556a-11ea-bd28-806e6f6e6963}
+                        {bootmgr}
+                        {6e76d21c-48a3-11eb-80f2-806e6f6e6963}
+                        {74f2532d-556a-11ea-bd28-806e6f6e6963}
+timeout                 1
+
+Windows Boot Manager
+--------------------
+identifier              {bootmgr}
+device                  partition=S:
+path                    \EFI\MICROSOFT\BOOT\BOOTMGFW.EFI
+description             Windows Boot Manager
+locale                  en-us
+inherit                 {globalsettings}
+default                 {default}
+resumeobject            {2fb72549-a5b1-11ec-b02a-f875a4096043}
+displayorder            {default}
+bootsequence            {default}
+toolsdisplayorder       {memdiag}
+timeout                 0
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {6e76d21c-48a3-11eb-80f2-806e6f6e6963}
+device                  partition=S:
+path                    \EFI\ACRONIS\ASRM.EFI
+description             Acronis loader
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {74f2532d-556a-11ea-bd28-806e6f6e6963}
+description             Generic Usb Device
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {74f2532e-556a-11ea-bd28-806e6f6e6963}
+description             CD/DVD Device
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {a7900a53-a3f9-11ec-ac7c-806e6f6e6963}
+device                  partition=H:
+description             UEFI: KingstonDataTraveler 3.01.01, Partition 1
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {ab180eb1-a5ac-11ec-b654-806e6f6e6963}
+device                  partition=\Device\HarddiskVolume1
+description             UEFI: SanDisk, Partition 1
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {ec6c1959-a2bf-11ea-aa62-806e6f6e6963}
+description             UEFI: PXE IPV4 Intel(R) Ethernet Connection (7) I219-V
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {ec6c195a-a2bf-11ea-aa62-806e6f6e6963}
+description             UEFI: PXE IPV6 Intel(R) Ethernet Connection (7) I219-V
+
+Windows Boot Loader
+-------------------
+identifier              {1e94dae0-ccfd-11ea-aa6d-0433c26b0a75}
+device                  ramdisk=[E:]\Recovery\WindowsRE\Winre.wim,{1e94dae1-ccfd-11ea-aa6d-0433c26b0a75}
+path                    \windows\system32\winload.efi
+description             Windows Recovery Environment
+locale                  en-US
+inherit                 {bootloadersettings}
+displaymessage          Recovery
+osdevice                ramdisk=[E:]\Recovery\WindowsRE\Winre.wim,{1e94dae1-ccfd-11ea-aa6d-0433c26b0a75}
+systemroot              \windows
+nx                      OptIn
+bootmenupolicy          Standard
+winpe                   Yes
+
+Windows Boot Loader
+-------------------
+identifier              {default}
+device                  partition=C:
+path                    \windows\system32\winload.efi
+description             Windows 10
+locale                  en-us
+inherit                 {bootloadersettings}
+isolatedcontext         Yes
+allowedinmemorysettings 0x15000075
+osdevice                partition=C:
+systemroot              \windows
+resumeobject            {2fb72549-a5b1-11ec-b02a-f875a4096043}
+nx                      OptIn
+bootmenupolicy          Standard
+
+Resume from Hibernate
+---------------------
+identifier              {1e94dadd-ccfd-11ea-aa6d-0433c26b0a75}
+device                  partition=C:
+path                    \WINDOWS\system32\winresume.efi
+description             Windows Resume Application
+locale                  en-US
+inherit                 {resumeloadersettings}
+recoverysequence        {1e94dae0-ccfd-11ea-aa6d-0433c26b0a75}
+recoveryenabled         Yes
+isolatedcontext         Yes
+allowedinmemorysettings 0x15000075
+filedevice              partition=C:
+filepath                \hiberfil.sys
+bootmenupolicy          Standard
+debugoptionenabled      No
+
+Resume from Hibernate
+---------------------
+identifier              {2fb72549-a5b1-11ec-b02a-f875a4096043}
+device                  partition=C:
+path                    \windows\system32\winresume.efi
+description             Windows Resume Application
+locale                  en-us
+inherit                 {resumeloadersettings}
+isolatedcontext         Yes
+allowedinmemorysettings 0x15000075
+filepath                \hiberfil.sys
+bootmenupolicy          Standard
+debugoptionenabled      No
+
+Windows Memory Tester
+---------------------
+identifier              {memdiag}
+device                  partition=S:
+path                    \EFI\Microsoft\Boot\memtest.efi
+description             Windows Memory Diagnostic
+locale                  en-us
+inherit                 {globalsettings}
+badmemoryaccess         Yes
+
+EMS Settings
+------------
+identifier              {emssettings}
+bootems                 No
+
+Debugger Settings
+-----------------
+identifier              {dbgsettings}
+debugtype               Local
+
+RAM Defects
+-----------
+identifier              {badmemory}
+
+Global Settings
+---------------
+identifier              {globalsettings}
+inherit                 {dbgsettings}
+                        {emssettings}
+                        {badmemory}
+
+Boot Loader Settings
+--------------------
+identifier              {bootloadersettings}
+inherit                 {globalsettings}
+                        {hypervisorsettings}
+
+Hypervisor Settings
+-------------------
+identifier              {hypervisorsettings}
+hypervisordebugtype     Serial
+hypervisordebugport     1
+hypervisorbaudrate      115200
+
+Resume Loader Settings
+----------------------
+identifier              {resumeloadersettings}
+inherit                 {globalsettings}
+
+Device options
+--------------
+identifier              {1e94dae1-ccfd-11ea-aa6d-0433c26b0a75}
+description             Windows Recovery
+ramdisksdidevice        partition=E:
+ramdisksdipath          \Recovery\WindowsRE\boot.sdi

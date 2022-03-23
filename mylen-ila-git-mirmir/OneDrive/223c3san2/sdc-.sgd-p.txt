@@ -1,0 +1,15 @@
+Disk /dev/sdc: 120176640 sectors, 57.3 GiB
+Model: Ultra           
+Sector size (logical/physical): 512/512 bytes
+Disk identifier (GUID): C13484A6-810C-4D37-BF69-99C3B7FEB360
+Partition table holds up to 128 entries
+Main partition table begins at sector 2 and ends at sector 33
+First usable sector is 34, last usable sector is 120176606
+Partitions will be aligned on 2048-sector boundaries
+Total free space is 24518622 sectors (11.7 GiB)
+
+Number  Start (sector)    End (sector)  Size       Code  Name
+   1            2048        16386047   7.8 GiB     0700  Basic data partition
+   2        28674048       104450047   36.1 GiB    0700  Basic data partition
+   3       118775808       120176606   684.0 MiB   8300  
+   4        16386048        18483199   1024.0 MiB  8300  casper-rw

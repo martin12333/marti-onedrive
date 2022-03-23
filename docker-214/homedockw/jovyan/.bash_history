@@ -124,3 +124,18 @@ qemu-system-x86_64 -help
 qemu-system-x86_64 -drive
 qemu-system-x86_64 -drive help
 history -a ; cat ~/.bash_history | tee ~/acloudSUBDIR/homedockw/jovyan/.bash_history  |nl | grep -i . #
+history -a ; cat ~/.bash_history | tee ~/acloudSUBDIR/homedockw/jovyan/.bash_history  |nl | grep -i qe
+qemu-system-x86_64 
+qemu-system-x86_64  -nographic
+history -a ; cat ~/.bash_history | tee ~/acloudSUBDIR/homedockw/jovyan/.bash_history  |nl | grep -i qe
+history -a ; cat ~/.bash_history | tee ~/acloudSUBDIR/homedockw/jovyan/.bash_history  |nl | grep -i qe|less
+history -a ; cat ~/.bash_history | tee ~/acloudSUBDIR/homedockw/jovyan/.bash_history  |nl | grep -i qe|more
+ll
+ll qemu/
+history -a ; cat ~/.bash_history | tee ~/acloudSUBDIR/homedockw/jovyan/.bash_history  |nl | grep -i .|more
+ll acloudSUBDIR/qemu/
+pwd
+history -a ; cat ~/.bash_history | tee ~/acloudSUBDIR/homedockw/jovyan/.bash_history  |nl | grep -i .|more
+ll acloudSUBDIR/qemu/
+mc
+history -a ; cat ~/.bash_history | tee ~/acloudSUBDIR/homedockw/jovyan/.bash_history  |nl | grep -i .|more

@@ -1,0 +1,13 @@
+Could not read variable 'BootNext': No such file or directory
+BootCurrent: 0008
+Timeout: 1 seconds
+BootOrder: 0008,0006,0007,0000,0004,0005,0001
+Boot0000* Acronis loader	VenHw(99e275e7-75a0-4b37-a2e6-c5385e6c00cb)ASRM
+Boot0001* Windows Boot Manager	HD(1,GPT,9c0c9fdf-5d62-4c8f-99d8-e106646aeafb,0x800,0x82000)/File(\EFI\MICROSOFT\BOOT\BOOTMGFW.EFI)WINDOWS.........x...B.C.D.O.B.J.E.C.T.=.{.9.d.e.a.8.6.2.c.-.5.c.d.d.-.4.e.7.0.-.a.c.c.1.-.f.3.2.b.3.4.4.d.4.7.9.5.}....................
+Boot0004* Generic Usb Device	VenHw(99e275e7-75a0-4b37-a2e6-c5385e6c00cb)
+Boot0005* CD/DVD Device	VenHw(99e275e7-75a0-4b37-a2e6-c5385e6c00cb)
+Boot0006  UEFI: PXE IPV4 Intel(R) Ethernet Connection (7) I219-V	PciRoot(0x0)/Pci(0x1f,0x6)/MAC(f875a4096043,0)/IPv4(0.0.0.00.0.0.0,0,0)..BO
+Boot0007  UEFI: PXE IPV6 Intel(R) Ethernet Connection (7) I219-V	PciRoot(0x0)/Pci(0x1f,0x6)/MAC(f875a4096043,0)/IPv6([::]:<->[::]:,0,0)..BO
+Boot0008* UEFI: SanDisk, Partition 1	PciRoot(0x0)/Pci(0x14,0x0)/USB(17,0)/HD(1,GPT,88456e4d-c6a6-445f-bb4b-1080f50c7da3,0x800,0xe74000)..BO
+Could not read variable 'MirrorCurrent': No such file or directory
+Could not read variable 'MirrorRequest': No such file or directory

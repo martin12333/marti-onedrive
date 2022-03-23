@@ -1,0 +1,22 @@
+Windows is hibernated, refused to mount.
+Falling back to read-only mount because the NTFS partition is in an
+unsafe state. Please resume and shutdown Windows fully (no hibernation
+or fast restarting.)
+Could not mount read-write, trying read-only
+passwd: password expiry information changed.
+ln: /root/lib/systemd/system/cdrom.mount: File exists
+Using CD-ROM mount point /cdrom/
+Identifying... [d7b3a4b94ac22e71b0af4d699914b054-2]
+Scanning disc for index files...
+Found 2 package indexes, 0 source indexes, 0 translation indexes and 1 signatures
+Found label 'Ubuntu-Server 20.04.3 LTS _Focal Fossa_ - Release amd64 (20210824)'
+This disc is called: 
+'Ubuntu-Server 20.04.3 LTS _Focal Fossa_ - Release amd64 (20210824)'
+Copying package lists...gpgv: Signature made Tue Aug 24 09:09:01 2021 UTC
+gpgv:                using RSA key 843938DF228D22F7B3742BC0D94AA3F0EFE21092
+gpgv: Good signature from "Ubuntu CD Image Automatic Signing Key (2012) <cdimage@ubuntu.com>"
+Reading Package Indexes... 0%Reading Package Indexes... Done
+Writing new source list
+Source list entries for this disc are:
+deb cdrom:[Ubuntu-Server 20.04.3 LTS _Focal Fossa_ - Release amd64 (20210824)]/ focal main restricted
+Repeat this process for the rest of the CDs in your set.

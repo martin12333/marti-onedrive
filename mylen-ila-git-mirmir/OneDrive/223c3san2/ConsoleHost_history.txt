@@ -1,0 +1,73 @@
+ls
+ls *.exe
+ls *.ps1
+history
+echo $env:ALLUSERSPROFILE
+echo $env:
+ls $env:
+$env:
+$env:Path
+cmd
+PSConsoleHostReadLine
+history -?
+cmd
+diskmgmt.msc
+diskmgmt.exe
+cmd /c dir x:\*.dat
+cmd /c dir x:\*.dat /a /s /b
+cmd /c dir x:\n*.dat /a /s /b
+explorer.exe
+Get-ComputerInfo
+get-disks
+Get-Process
+Get-PSDrive
+xcopy d:\*.cmd f:\
+copy D:\cmd-pak-myset2.cmd d:\bk2.cmd
+xcopy D:\Windows\System32\config\systemprofile\ f:\ /s
+xcopy D:\Windows\System32\config\systemprofile f:\ /s
+xcopy D:\Windows\System32\config\systemprofile\*.* f:\ /s
+xcopy d:\*.txt f:\
+$env:Path
+conhost.exe /?
+conhost.exe 
+c:\Program Files\PowerShell\7\
+sfc /?
+exit
+exit
+$env:Path
+$env:SystemDrive
+$env:SystemRoot
+sfc /?
+sfc /scannow
+history
+cat D:\Windows\System32\config\systemprofile\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+cat D:\Windows\System32\config\systemprofile\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt| tee d:
+cat D:\Windows\System32\config\systemprofile\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt| tee D:\ConsoleHost_history.txt
+xcopy d:\*.txt f:\
+xcopy d:\*.ini f:\
+cat D:\Windows\System32\config\systemprofile\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt| tee D:\ConsoleHost_history.txt
+wpeinit
+tracert
+tracert seznam.cz
+cat D:\Windows\System32\config\systemprofile\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt| tee D:\ConsoleHost_history.txt
+dism /image:c:\ 
+dism /image:c:\ /?
+dism /image:c:\ /cleanup-image  /?
+dism /image:c:\ /cleanup-image  /checkhealth
+dism /image:c:\ /cleanup-image  /scanhealth
+dism /image:c:\ /cleanup-image  /?
+dism /image:c:\ /cleanup-image  /revertpendingactions
+cat D:\Windows\System32\config\systemprofile\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt| tee D:\ConsoleHost_history.txt
+cat D:\Windows\System32\config\systemprofile\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt| tee D:\ConsoleHost_history.txt|tee F:\ConsoleHost_history.txt
+exit
+dism /image:c:\ /cleanup-image  /checkhealth
+dism /image:c:\ /cleanup-image  /scanhealth
+dism /image:c:\ /cleanup-image  /restorehealth
+sfc /scannow
+cat D:\Windows\System32\config\systemprofile\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt| tee D:\ConsoleHost_history.txt|tee F:\ConsoleHost_history.txt
+dism /image:c:\ /cleanup-image  /?
+dism /image:c:\ /?
+dism /image:c:\ /get-reservedstoragestate
+dism  /get-reservedstoragestate
+dism /online  /get-reservedstoragestate
+cat D:\Windows\System32\config\systemprofile\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt| tee D:\ConsoleHost_history.txt|tee F:\ConsoleHost_history.txt
