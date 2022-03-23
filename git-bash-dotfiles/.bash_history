@@ -512,3 +512,10 @@ du
 du |sort -n
 du -a |sort -n
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+git add -vv --dry-run .
+git add -vv --dry-run .|less
+git add -vv  .
+cd ..
+git commit -vvv -a -m  'mylen-ila-git-mirmir'
+git push -u
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
