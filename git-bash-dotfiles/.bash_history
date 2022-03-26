@@ -519,3 +519,27 @@ cd ..
 git commit -vvv -a -m  'mylen-ila-git-mirmir'
 git push -u
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+git commit -vvv -a -m  bkup
+git push -u
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+meld
+cd OneDrive/mylen-ila-git-mirmir
+git pull -v
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+ll
+cd /d/umarti/
+ll
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep du-a
+sexp-conv.exe --h
+sexp-conv.exe --he
+iconv.exe --h
+iconv.exe -l
+iconv.exe -l|grep 16
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep du-a
+cd docker-214big/qemu/
+du
+du -am
+cd
+cd OneDrive/mylen-ila-git-mirmir
+git add -vv  OneDrive/223c09/
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep du-a

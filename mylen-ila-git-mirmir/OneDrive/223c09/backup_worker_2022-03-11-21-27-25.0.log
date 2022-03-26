@@ -1,0 +1,183 @@
+2022-03-11T21:27:25:403+01:00 17268 I00000000: Pid: 20156 >>> --id=10001 --action=browse --agent="Acronis True Image 2021 25.6.1.35860 Win" --archive="D:\\Users\\milanlocal\\ssd-recov.tibx" 
+2022-03-11T21:27:25:434+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: opening archive path="\\?\D:\Users\milanlocal\\ssd-recov.tibx" in readonly mode;
+2022-03-11T21:27:25:434+01:00 3372 I00000000: Pid: 20156 type=log; level=err; message=io: failed to open '\\?\D:\Users\milanlocal\ssd-recov.tibx' (win_err=-2);
+2022-03-11T21:27:25:435+01:00 3372 I00000000: Pid: 20156 type=log; level=err; message=io#1: failed to open "\\?\D:\Users\milanlocal\\ssd-recov.tibx" (pcs_err=-8);
+2022-03-11T21:27:25:435+01:00 3372 I00000000: Pid: 20156 type=log; level=err; message=ar#1: failed to open archive path="\\?\D:\Users\milanlocal\\ssd-recov.tibx" mode=readonly uuid=00000000000000000000000000000000, err=-5022 (File not found);
+2022-03-11T21:27:25:435+01:00 3372 I00000000: Pid: 20156 type=log; level=err; message=unable to open archive file (err -5022);
+2022-03-11T21:27:25:435+01:00 3372 I00000000: Pid: 20156 type=retcode; value=5022; id=10001;
+2022-03-11T21:27:25:437+01:00 17268 I00000000: Pid: 20156 >>> --id=1 --action=backup --action=cleanup --action=metainfo --disk-backup --agent="Acronis True Image 2021 25.6.1.35860 Win" --archive="D:\\Users\\milanlocal\\ssd-recov.tibx" --source="\\local\\hd_ev\\vol_guid(8A8A27F348CE171B35ADB48A13E75118)" --machine-id="034DAC64-CDDD-4488-A094-7CD9B7A51554" --resource-id="C0A5528A-5556-4868-A702-07DAF18EB84E" --vss-mode="vss" --backup-scheme="full" --keep-versions=1 
+2022-03-11T21:27:25:594+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: opening archive path="\\?\D:\Users\milanlocal\\ssd-recov.tibx" in append mode (create);
+2022-03-11T21:27:25:595+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: opened archive path="\\?\D:\Users\milanlocal\\ssd-recov.tibx" mode=append reopen=0:0 (commit_seq=0, reuse_seq=0, file_size=0, uuid=8407e7a52083d136942ab1a20aa01f60);
+2022-03-11T21:27:25:595+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: set dedup on;
+2022-03-11T21:27:25:595+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: set meta agent_version='Acronis True Image 2021 25.6.1.35860 Win';
+2022-03-11T21:27:25:595+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: set meta type='disk';
+2022-03-11T21:27:25:595+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: set meta agent_machine_id='034DAC64-CDDD-4488-A094-7CD9B7A51554';
+2022-03-11T21:27:25:595+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: set meta resource_id='C0A5528A-5556-4868-A702-07DAF18EB84E';
+2022-03-11T21:27:25:613+01:00 3372 I00000000: Pid: 20156 id=1; progress=0
+2022-03-11T21:27:25:617+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: chain: last=none current=none total=0;
+2022-03-11T21:27:25:617+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: chain: unused=0 MB (-1.#J%) deallocated=0 MB (-1.#J%);
+2022-03-11T21:27:25:617+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=archive cache:  total (0/0MB) == active (0/0MB) + inactive (0/0MB) + decommit (0/0MB) + locked (0/0MB) + priv (0MB) <= limit (63MB);
+2022-03-11T21:27:25:617+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=archive cache: locked (0/0MB) == user (0/0MB) + rd (0/0MB) + wr (0/0MB), error (0/0MB);
+2022-03-11T21:27:25:617+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=archive cache: pool free (0/0MB) decommitted (0/0MB);
+2022-03-11T21:27:25:617+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=archive cache: page decommit not supported;
+2022-03-11T21:27:25:617+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: archive_slice_start_chain_ex(type=full);
+2022-03-11T21:27:25:617+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: archive_slice_create(sid=1,type=full,user_type=full,features=0,uuid=00000000000000000000000000000000,ctime=0);
+2022-03-11T21:27:25:622+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: archive_slice_create(sid=2,type=inc,user_type=full,features=0,uuid=00000000000000000000000000000000,ctime=0);
+2022-03-11T21:27:25:655+01:00 3372 I00000000: Pid: 20156 type=snapshot; path=1-6; snapshot_path=; last=1; id=1;
+2022-03-11T21:27:25:822+01:00 3372 I00000000: Pid: 20156 id=1; progress=1
+2022-03-11T21:27:25:832+01:00 3372 I00000000: Pid: 20156 id=1; progress=2
+2022-03-11T21:27:25:841+01:00 3372 I00000000: Pid: 20156 id=1; progress=3
+2022-03-11T21:27:25:862+01:00 3372 I00000000: Pid: 20156 id=1; progress=4
+2022-03-11T21:27:25:896+01:00 3372 I00000000: Pid: 20156 id=1; progress=5
+2022-03-11T21:27:25:913+01:00 3372 I00000000: Pid: 20156 id=1; progress=6
+2022-03-11T21:27:25:929+01:00 3372 I00000000: Pid: 20156 id=1; progress=7
+2022-03-11T21:27:25:946+01:00 3372 I00000000: Pid: 20156 id=1; progress=8
+2022-03-11T21:27:25:980+01:00 3372 I00000000: Pid: 20156 id=1; progress=9
+2022-03-11T21:27:25:996+01:00 3372 I00000000: Pid: 20156 id=1; progress=10
+2022-03-11T21:27:26:013+01:00 3372 I00000000: Pid: 20156 id=1; progress=11
+2022-03-11T21:27:26:030+01:00 3372 I00000000: Pid: 20156 id=1; progress=12
+2022-03-11T21:27:26:063+01:00 3372 I00000000: Pid: 20156 id=1; progress=13
+2022-03-11T21:27:26:076+01:00 3372 I00000000: Pid: 20156 id=1; progress=14
+2022-03-11T21:27:26:095+01:00 3372 I00000000: Pid: 20156 id=1; progress=15
+2022-03-11T21:27:26:113+01:00 3372 I00000000: Pid: 20156 id=1; progress=16
+2022-03-11T21:27:26:145+01:00 3372 I00000000: Pid: 20156 id=1; progress=17
+2022-03-11T21:27:26:162+01:00 3372 I00000000: Pid: 20156 id=1; progress=18
+2022-03-11T21:27:26:180+01:00 3372 I00000000: Pid: 20156 id=1; progress=19
+2022-03-11T21:27:26:197+01:00 3372 I00000000: Pid: 20156 id=1; progress=20
+2022-03-11T21:27:26:229+01:00 3372 I00000000: Pid: 20156 id=1; progress=21
+2022-03-11T21:27:26:246+01:00 3372 I00000000: Pid: 20156 id=1; progress=22
+2022-03-11T21:27:26:262+01:00 3372 I00000000: Pid: 20156 id=1; progress=23
+2022-03-11T21:27:26:280+01:00 3372 I00000000: Pid: 20156 id=1; progress=24
+2022-03-11T21:27:26:313+01:00 3372 I00000000: Pid: 20156 id=1; progress=25
+2022-03-11T21:27:26:331+01:00 3372 I00000000: Pid: 20156 id=1; progress=26
+2022-03-11T21:27:26:347+01:00 3372 I00000000: Pid: 20156 id=1; progress=27
+2022-03-11T21:27:26:363+01:00 3372 I00000000: Pid: 20156 id=1; progress=28
+2022-03-11T21:27:26:397+01:00 3372 I00000000: Pid: 20156 id=1; progress=29
+2022-03-11T21:27:26:413+01:00 3372 I00000000: Pid: 20156 id=1; progress=30
+2022-03-11T21:27:26:430+01:00 3372 I00000000: Pid: 20156 id=1; progress=31
+2022-03-11T21:27:26:448+01:00 3372 I00000000: Pid: 20156 id=1; progress=32
+2022-03-11T21:27:26:481+01:00 3372 I00000000: Pid: 20156 id=1; progress=33
+2022-03-11T21:27:26:499+01:00 3372 I00000000: Pid: 20156 id=1; progress=34
+2022-03-11T21:27:26:516+01:00 3372 I00000000: Pid: 20156 id=1; progress=35
+2022-03-11T21:27:26:533+01:00 3372 I00000000: Pid: 20156 id=1; progress=36
+2022-03-11T21:27:26:567+01:00 3372 I00000000: Pid: 20156 id=1; progress=37
+2022-03-11T21:27:26:583+01:00 3372 I00000000: Pid: 20156 id=1; progress=38
+2022-03-11T21:27:26:599+01:00 3372 I00000000: Pid: 20156 id=1; progress=39
+2022-03-11T21:27:26:617+01:00 3372 I00000000: Pid: 20156 id=1; progress=40
+2022-03-11T21:27:26:651+01:00 3372 I00000000: Pid: 20156 id=1; progress=41
+2022-03-11T21:27:26:666+01:00 3372 I00000000: Pid: 20156 id=1; progress=42
+2022-03-11T21:27:26:682+01:00 3372 I00000000: Pid: 20156 id=1; progress=43
+2022-03-11T21:27:26:699+01:00 3372 I00000000: Pid: 20156 id=1; progress=44
+2022-03-11T21:27:26:715+01:00 3372 I00000000: Pid: 20156 id=1; progress=45
+2022-03-11T21:27:26:748+01:00 3372 I00000000: Pid: 20156 id=1; progress=46
+2022-03-11T21:27:26:761+01:00 3372 I00000000: Pid: 20156 id=1; progress=47
+2022-03-11T21:27:26:780+01:00 3372 I00000000: Pid: 20156 id=1; progress=48
+2022-03-11T21:27:26:796+01:00 3372 I00000000: Pid: 20156 id=1; progress=49
+2022-03-11T21:27:26:830+01:00 3372 I00000000: Pid: 20156 id=1; progress=50
+2022-03-11T21:27:26:846+01:00 3372 I00000000: Pid: 20156 id=1; progress=51
+2022-03-11T21:27:26:864+01:00 3372 I00000000: Pid: 20156 id=1; progress=52
+2022-03-11T21:27:26:882+01:00 3372 I00000000: Pid: 20156 id=1; progress=53
+2022-03-11T21:27:26:915+01:00 3372 I00000000: Pid: 20156 id=1; progress=54
+2022-03-11T21:27:26:933+01:00 3372 I00000000: Pid: 20156 id=1; progress=55
+2022-03-11T21:27:26:950+01:00 3372 I00000000: Pid: 20156 id=1; progress=56
+2022-03-11T21:27:26:966+01:00 3372 I00000000: Pid: 20156 id=1; progress=57
+2022-03-11T21:27:27:001+01:00 3372 I00000000: Pid: 20156 id=1; progress=58
+2022-03-11T21:27:27:018+01:00 3372 I00000000: Pid: 20156 id=1; progress=59
+2022-03-11T21:27:27:034+01:00 3372 I00000000: Pid: 20156 id=1; progress=60
+2022-03-11T21:27:27:051+01:00 3372 I00000000: Pid: 20156 id=1; progress=61
+2022-03-11T21:27:27:086+01:00 3372 I00000000: Pid: 20156 id=1; progress=62
+2022-03-11T21:27:27:099+01:00 3372 I00000000: Pid: 20156 id=1; progress=63
+2022-03-11T21:27:27:119+01:00 3372 I00000000: Pid: 20156 id=1; progress=64
+2022-03-11T21:27:27:142+01:00 3372 I00000000: Pid: 20156 id=1; progress=65
+2022-03-11T21:27:27:185+01:00 3372 I00000000: Pid: 20156 id=1; progress=66
+2022-03-11T21:27:27:203+01:00 3372 I00000000: Pid: 20156 id=1; progress=67
+2022-03-11T21:27:27:218+01:00 3372 I00000000: Pid: 20156 id=1; progress=68
+2022-03-11T21:27:27:243+01:00 3372 I00000000: Pid: 20156 id=1; progress=69
+2022-03-11T21:27:27:262+01:00 3372 I00000000: Pid: 20156 id=1; progress=70
+2022-03-11T21:27:27:282+01:00 3372 I00000000: Pid: 20156 id=1; progress=71
+2022-03-11T21:27:27:299+01:00 3372 I00000000: Pid: 20156 id=1; progress=72
+2022-03-11T21:27:27:311+01:00 3372 I00000000: Pid: 20156 id=1; progress=73
+2022-03-11T21:27:27:348+01:00 3372 I00000000: Pid: 20156 id=1; progress=74
+2022-03-11T21:27:27:365+01:00 3372 I00000000: Pid: 20156 id=1; progress=75
+2022-03-11T21:27:27:382+01:00 3372 I00000000: Pid: 20156 id=1; progress=76
+2022-03-11T21:27:27:398+01:00 3372 I00000000: Pid: 20156 id=1; progress=77
+2022-03-11T21:27:27:435+01:00 3372 I00000000: Pid: 20156 id=1; progress=78
+2022-03-11T21:27:27:457+01:00 3372 I00000000: Pid: 20156 id=1; progress=79
+2022-03-11T21:27:27:474+01:00 3372 I00000000: Pid: 20156 id=1; progress=80
+2022-03-11T21:27:27:486+01:00 3372 I00000000: Pid: 20156 id=1; progress=81
+2022-03-11T21:27:27:522+01:00 3372 I00000000: Pid: 20156 id=1; progress=82
+2022-03-11T21:27:27:538+01:00 3372 I00000000: Pid: 20156 id=1; progress=83
+2022-03-11T21:27:27:555+01:00 3372 I00000000: Pid: 20156 id=1; progress=84
+2022-03-11T21:27:27:571+01:00 3372 I00000000: Pid: 20156 id=1; progress=85
+2022-03-11T21:27:27:605+01:00 3372 I00000000: Pid: 20156 id=1; progress=86
+2022-03-11T21:27:27:621+01:00 3372 I00000000: Pid: 20156 id=1; progress=87
+2022-03-11T21:27:27:638+01:00 3372 I00000000: Pid: 20156 id=1; progress=88
+2022-03-11T21:27:27:655+01:00 3372 I00000000: Pid: 20156 id=1; progress=89
+2022-03-11T21:27:27:672+01:00 3372 I00000000: Pid: 20156 id=1; progress=90
+2022-03-11T21:27:27:704+01:00 3372 I00000000: Pid: 20156 id=1; progress=91
+2022-03-11T21:27:27:722+01:00 3372 I00000000: Pid: 20156 id=1; progress=92
+2022-03-11T21:27:27:739+01:00 3372 I00000000: Pid: 20156 id=1; progress=93
+2022-03-11T21:27:27:757+01:00 3372 I00000000: Pid: 20156 id=1; progress=94
+2022-03-11T21:27:27:789+01:00 3372 I00000000: Pid: 20156 id=1; progress=95
+2022-03-11T21:27:27:805+01:00 3372 I00000000: Pid: 20156 id=1; progress=96
+2022-03-11T21:27:27:823+01:00 3372 I00000000: Pid: 20156 id=1; progress=97
+2022-03-11T21:27:27:834+01:00 3372 I00000000: Pid: 20156 id=1; progress=98
+2022-03-11T21:27:27:873+01:00 3372 I00000000: Pid: 20156 id=1; progress=99
+2022-03-11T21:27:27:881+01:00 3372 I00000000: Pid: 20156 id=1; progress=100
+2022-03-11T21:27:27:883+01:00 3372 I00000000: Pid: 20156 type=log; level=err; message=ar#1: archive_item_del_stream(name="part/a7e20254f4935bd008110f663928f066",item=6,stream=4) failed: no such stream;
+2022-03-11T21:27:27:884+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: archive_slice_finish(sid=2);
+2022-03-11T21:27:27:901+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: punch_hole: not enough unused space 0/489 MB (0.03%);
+2022-03-11T21:27:27:902+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: punch_hole: not enough unused space 0/489 MB (0.03%);
+2022-03-11T21:27:27:902+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: finish: unused=0 MB (0.03%) deallocated=0 MB (0.00%);
+2022-03-11T21:27:27:902+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=archive cache:  total (16378/63MB) == active (79/0MB) + inactive (16299/63MB) + decommit (0/0MB) + locked (0/0MB) + priv (0MB) <= limit (63MB);
+2022-03-11T21:27:27:902+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=archive cache: locked (0/0MB) == user (0/0MB) + rd (0/0MB) + wr (0/0MB), error (0/0MB);
+2022-03-11T21:27:27:902+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=archive cache: pool free (4614/18MB) decommitted (0/0MB);
+2022-03-11T21:27:27:902+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=archive cache: page decommit not supported;
+2022-03-11T21:27:27:902+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: archive closing;
+2022-03-11T21:27:27:903+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=io#1: total req: 130 (rd: 0 wr: 126 sync: 4), pgreq: 125332 (rd: 0 wr: 125332) sync: 10.1 ms;
+2022-03-11T21:27:27:903+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=io#1: pg cache hit=0 ra_hit=0 ra_pages=0 ra=0.00%;
+2022-03-11T21:27:27:903+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: umap allocations: 1964 times, 0ms total, 0ms max, 0ms average;
+2022-03-11T21:27:27:903+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: commits: 4 times, 20ms total, 15ms max, 5ms average;
+2022-03-11T21:27:27:903+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: wait stats: wr 0 rd 0 compr 0 decompr 0 (ms);
+2022-03-11T21:27:27:903+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=lsm#1: dmap writes: 10 pgs;
+2022-03-11T21:27:27:903+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=lsm#1: dmap merges: 1 times, 0ms total, 0ms max, 0ms average;
+2022-03-11T21:27:27:903+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=lsm#1: segment_map writes: 19 pgs;
+2022-03-11T21:27:27:903+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=lsm#1: segment_map merges: 1 times, 0ms total, 0ms max, 0ms average;
+2022-03-11T21:27:27:903+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=lsm#1: dedup_map writes: 6 pgs;
+2022-03-11T21:27:27:903+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=lsm#1: dedup_map merges: 1 times, 0ms total, 0ms max, 0ms average;
+2022-03-11T21:27:27:903+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: seg=513.04 MB avg=265.09 KB user=510.64 MB ratio=98.98% pad=6559184 (1.28%);
+2022-03-11T21:27:27:903+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: archive close (commit_seq=3, reuse_seq=3, file_size=513359872, uuid=8407e7a52083d136942ab1a20aa01f60);
+2022-03-11T21:27:27:904+01:00 3372 I00000000: Pid: 20156 type=stat; total_nr=0; total_sz=0; pics_nr=0; pics_sz=0; music_nr=0; music_sz=0; video_nr=0; video_sz=0; docs_nr=0; docs_sz=0; sys_nr=0; sys_sz=0; others_nr=0; others_sz=0; id=1;
+2022-03-11T21:27:27:905+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: opening archive path="\\?\D:\Users\milanlocal\\ssd-recov.tibx" in append mode (create);
+2022-03-11T21:27:27:912+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: ci page found at 513355776;
+2022-03-11T21:27:27:912+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: opened archive path="\\?\D:\Users\milanlocal\\ssd-recov.tibx" mode=append reopen=0:0 (commit_seq=3, reuse_seq=3, file_size=513359872, uuid=8407e7a52083d136942ab1a20aa01f60);
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=cleanup; slices_deleted=0; cleaned_up=0; new_size=513036288; id=1;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=metainfo; name=DISPLAY_NAME; value=; id=1;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=metainfo; name=AGENT_MACHINE_ID; value=034DAC64-CDDD-4488-A094-7CD9B7A51554; id=1;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=metainfo; name=AGENT_VERSION; value=Acronis True Image 2021 25.6.1.35860 Win; id=1;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=metainfo; name=RESOURCE_ID; value=C0A5528A-5556-4868-A702-07DAF18EB84E; id=1;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=metainfo; name=RESOURCE_TYPE; value=; id=1;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=metainfo; name=BACKUP_TYPE; value=disk; id=1;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=metainfo; name=ARCHIVE_CTIME; value=1647030445596 (11-03-22 20:27:25); id=1;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=metainfo; name=ARCHIVE_ENCRYPTION; value=none; id=1;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=metainfo; name=ARCHIVE_SIZE; value=513359872; id=1;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=metainfo; name=LAST_SLICE_MTIME; value=1647030445623 (11-03-22 20:27:25); id=1;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=metainfo; name=LAST_SLICE_UUID; value=a759d1d73b9cfb6e459cb4f0d84e9ec3; id=1;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=metainfo; name=SLICE_DESCRIPTION; value=; id=1;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=metainfo; name=SLICE_NUM; value=0; id=1;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=metainfo; name=SLICE_UUID; value=a759d1d73b9cfb6e459cb4f0d84e9ec3; id=1;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=metainfo; name=SLICE_TYPE; value=1; id=1;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=metainfo; name=SLICE_INT_ID; value=2; id=1;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=metainfo; name=SLICE_PREV_F_ID; value=1; id=1;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=metainfo; name=SLICE_BASE_F_ID; value=0; id=1;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=metainfo; name=SLICE_CTIME; value=1647030445623 (11-03-22 20:27:25); id=1;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=metainfo; name=SLICE_FTIME; value=1647030447887 (11-03-22 20:27:27); id=1;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=metainfo; name=SLICE_DATA_SIZE; value=513036288; id=1;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=metainfo; name=SLICE_COUNT; value=1; id=1;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: archive closing;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=io#1: total req: 0 (rd: 0 wr: 0 sync: 0), pgreq: 0 (rd: 0 wr: 0) sync: 0.0 ms;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=io#1: pg cache hit=2 ra_hit=0 ra_pages=0 ra=0.00%;
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: wait stats: wr 0 rd 0 compr 0 decompr 0 (ms);
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=log; level=inf; message=ar#1: archive close (commit_seq=3, reuse_seq=3, file_size=513359872, uuid=8407e7a52083d136942ab1a20aa01f60);
+2022-03-11T21:27:27:913+01:00 3372 I00000000: Pid: 20156 type=retcode; value=0; id=1;
+2022-03-11T21:27:27:913+01:00 17268 I00000000: Pid: 20156 >>> exit

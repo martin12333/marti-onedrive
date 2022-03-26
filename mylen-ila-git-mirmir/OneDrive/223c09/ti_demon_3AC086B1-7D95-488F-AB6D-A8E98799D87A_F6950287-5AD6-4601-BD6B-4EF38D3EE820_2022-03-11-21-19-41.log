@@ -1,0 +1,34 @@
+2022-03-11T21:19:41:332+01:00 12884 I00000000: -----
+2022-03-11T21:19:41:332+01:00 12884 I00000000: ATI Demon started. Version: 25.6.1.35860.
+2022-03-11T21:19:41:379+01:00 12884 I00640002: Operation  started manually.
+2022-03-11T21:19:41:461+01:00 12884 I013C0000: Operation: Conversion
+2022-03-11T21:19:41:464+01:00 12884 I0064000B: Priority changed to Low.
+2022-03-11T21:19:41:525+01:00 12884 I000B03FC: <bold>Convert Acronis Backup to Windows Backup</bold><endl/><tabpoint value=30><indent value=4>From file:	<indent value=10><textcolor value="navyblue">"D:\Users\milanlocal\efi-recov.tibx"</textcolor></indent><indent value=4><endl/>To file:	<indent value=10><textcolor value="navyblue">"D:\Users\milanlocal\efi-recov.vhdx"</textcolor></indent><indent value=4><endl/></indent><endl/>
+2022-03-11T21:19:41:541+01:00 12884 I000101F8: Pending operation 53 started: 'Clearing disk'.
+2022-03-11T21:19:41:561+01:00 12884 I000101F8: Pending operation 14 started: 'Copying and merging partitions'.
+2022-03-11T21:19:41:695+01:00 12884 I000101F8: Pending operation 14 started: 'Copying and merging partitions'.
+2022-03-11T21:19:44:451+01:00 12884 I000101F8: Pending operation 62 started: 'Copying MBR'.
+2022-03-11T21:19:44:722+01:00 12884 I00390000: Detected GRUB 2 EFI loader on disk '\local\hd_gpt(C13484A64D37810CC39969BF60B3FEB7)'. Activated on volume '\local\hd_ev\vol_guid(430CD4414D011F08E8EC90AADB1217A7)'.
+2022-03-11T21:19:44:755+01:00 12884 I001D0000: Fixing operating system bootability.
+2022-03-11T21:19:44:755+01:00 12884 I001D01F4: Error 0x1d01f4: Disk '\comp_emu(microsoft_computer_1)\hd_emu(353)' has invalid BIOS number 0. 128 will be used instead.
+| trace level: information
+| line: 0xb43bbf466f1c1b48
+| file: c:\jenkins_agent\workspace\ati-main-win\1173\core\restore_aw\bootability\disk_numbers.cpp:194
+| function: `anonymous-namespace'::DiskNumbersMapperImpl::FillDiskNumbers
+| line: 0xb43bbf466f1c1b48, c:\jenkins_agent\workspace\ati-main-win\1173\core\restore_aw\bootability\disk_numbers.cpp:194, `anonymous-namespace'::DiskNumbersMapperImpl::FillDiskNumbers
+| $module: ti_demon_vs_35860
+2022-03-11T21:19:44:757+01:00 12884 I001D0000: The operating system bootability has been fixed.
+2022-03-11T21:19:44:760+01:00 12884 I001D0000: Fixing operating system bootability.
+2022-03-11T21:19:44:760+01:00 12884 I001D0000: Updating boot caches on volume '\comp_emu(microsoft_computer_1)\hd_ev\vol_guid(B27016DA4980EAE6725E1DA000A28339)'.
+2022-03-11T21:19:44:760+01:00 12884 I001D0000: Updating boot caches on volume '\comp_emu(microsoft_computer_1)\hd_ev\vol_guid(28F2CB4D41CCB6C9833063AC504FCC38)'.
+2022-03-11T21:19:44:760+01:00 12884 I001D0000: The operating system bootability has been fixed.
+2022-03-11T21:19:44:790+01:00 12884 E00000108: Error 0x108: Invalid activity info
+| trace level: error
+| line: 0x27048e25b7ef551f
+| file: c:\jenkins_agent\workspace\ati-main-win\1173\products\imager\activity\impl\activity_storage_impl.cpp:765
+| function: Home::`anonymous-namespace'::ActivityCreatorImpl::Flush
+| line: 0x27048e25b7ef551f, c:\jenkins_agent\workspace\ati-main-win\1173\products\imager\activity\impl\activity_storage_impl.cpp:765, Home::`anonymous-namespace'::ActivityCreatorImpl::Flush
+| $module: ti_demon_vs_35860
+2022-03-11T21:19:44:793+01:00 12884 I001D0000: Starting Acronis Universal Restore
+2022-03-11T21:19:44:796+01:00 12884 I001D0000: Acronis Universal Restore has finished.
+2022-03-11T21:19:44:832+01:00 12884 I013C0006: Operation has succeeded.

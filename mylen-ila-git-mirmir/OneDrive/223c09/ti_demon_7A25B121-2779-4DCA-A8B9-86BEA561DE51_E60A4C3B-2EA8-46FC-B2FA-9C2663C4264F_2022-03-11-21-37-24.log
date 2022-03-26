@@ -1,0 +1,11 @@
+2022-03-11T21:37:24:407+01:00 18376 I00000000: -----
+2022-03-11T21:37:24:407+01:00 18376 I00000000: ATI Demon started. Version: 25.6.1.35860.
+2022-03-11T21:37:24:704+01:00 18376 I00640002: Operation ssd-recov started manually.
+2022-03-11T21:37:24:911+01:00 18376 I013C0000: Operation: Recovery
+2022-03-11T21:37:24:911+01:00 18376 I0064000B: Priority changed to Low.
+2022-03-11T21:39:38:925+01:00 18376 W000B03EB: Computer restart is required
+Note that the operation will be canceled if you choose not to restart your computer now.
+: ⎂Restart/⎂Cancel
+2022-03-11T21:41:03:994+01:00 18376 I000B03EB: Computer restart is required
+Note that the operation will be canceled if you choose not to restart your computer now.
+: ⎂Restart/⎂Cancel: User response: ⎂Restart
