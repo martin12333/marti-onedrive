@@ -543,3 +543,41 @@ cd
 cd OneDrive/mylen-ila-git-mirmir
 git add -vv  OneDrive/223c09/
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep du-a
+cd OneDrive/
+git clone https://github.com/martin12333/Acronis-SystemReport.git
+cd Acronis-SystemReport/
+git add -vv --dry-run .
+git add -vv  .
+git commit -vvv -a -m 206
+git commit -vvv -a -m 210
+git gui
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep du-a
+git commit -vvv -a -m 223c
+git push -u
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep du-a
+cd ~/OneDrive/mylen-ila-git-mirmir
+git add -vv --dry-run .
+pwd
+git ls-files
+git ls-files|grep -i gpg
+cd OneDrive/
+git ls-files|grep -i gpg
+git ls-files
+git status
+git status|grep -i gpg
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep du-a
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+git add -vv --dry-run .
+cd AAABKUP-sums20/
+git add -vv --dry-run .
+git add -vv --dry-run old-releases.ubuntu.com-focal/
+git add -vv -f --dry-run old-releases.ubuntu.com-focal/
+cd ..
+git add -vv -f --dry-run .
+cd ..
+git add -vv -f --dry-run .
+cd -
+cd AAABKUP-sums20/
+git add -vv -f --dry-run .
+git add -vv -f  .
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .

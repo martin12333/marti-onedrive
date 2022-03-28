@@ -509,3 +509,72 @@ mc
 zsh
 ls sysna*
 history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history ;history |grep .
+mc
+env|grep -i disp
+zsh
+mc
+OA
+zsh
+file SyncEngine-2022-03-02.2050.20824.60.aodl 
+file --list SyncEngine-2022-03-02.2050.20824.60.aodl 
+file --list SyncEngine-2022-03-02.2050.20824.60.aodl |less
+file --mime SyncEngine-2022-03-02.2050.20824.60.aodl 
+file --un SyncEngine-2022-03-02.2050.20824.60.aodl 
+file --uncompress SyncEngine-2022-03-02.2050.20824.60.aodl 
+zsh
+mc
+zsh
+mc
+netstat
+zsh
+strings 
+strings  --h
+strings  trusted.gpg
+strings  trusted.gpg >stri
+zsh
+zsh
+mc
+zsh
+ls ~/acloudSUBDIR/qemu/
+zsh
+zsh
+mc
+ls 
+mc -b
+ls alma-222-je\ shared\ onedrive\ donot\ rename /mnt/d/Users/milanlocal/AAA-mylen-ila-git-mirror/OneDrive/
+ls /mnt/c/Users/marti/.vscode
+ls argv.json
+ls extensions argv.json 
+ls -ld sjhuangx.vscode-scheme-0.4.0 ritwickdey.liveserver-5.7.5 ms-vscode.powershell-2021.12.0 
+ls /mnt/c/Users/milan_rxtipwr/OneDrive
+ls Microsoft\ Edge\ Collections
+mc -b
+mc 
+mc -b
+zsh
+mc
+ls 
+ls SHA256SUMS.gpg 
+ls -l SHA256SUMS.gpg 
+df
+ll
+zsh
+du -m
+du -am
+mc
+zsh
+mc
+info grub
+zsh
+zsh
+xxdump
+xxd -r ue*
+xxd -r -p ue*
+zsh
+file -kr *
+file -kr * >~/1
+file -kr *
+file -kr * >~/1
+mc
+zsh
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history ;history |grep .
