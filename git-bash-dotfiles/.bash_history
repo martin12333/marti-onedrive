@@ -581,3 +581,7 @@ cd AAABKUP-sums20/
 git add -vv -f --dry-run .
 git add -vv -f  .
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+git commit -vvv -a -m sums
+git push -u
+cd ..
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
