@@ -585,3 +585,18 @@ git commit -vvv -a -m sums
 git push -u
 cd ..
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+git add -vv -f --dry-run .
+git add -vv -f --dry-run .
+git add -vv -f  .
+git commit -vvv -a -m 4q
+git push -u
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+which isoburn
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep grep
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep du
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep du-a
+grep -i vhdx /d/umarti/du-ak--c-d-renamed.txt 
+grep -i vhdx /d/umarti/du-ak--c-d-renamed.txt |less
+grep -i vhd /d/umarti/du-ak--c-d-renamed.txt |less
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep du-a

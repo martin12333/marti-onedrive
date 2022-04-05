@@ -578,3 +578,16 @@ file -kr * >~/1
 mc
 zsh
 history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history ;history |grep .
+zsh
+hardinfo
+zsh
+mc
+df -m
+mount
+mount|grep 9p
+ls /init
+ls -l /init
+ls /mnt/
+ls /mnt/*
+mc
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history ;history |grep .
