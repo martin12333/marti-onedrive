@@ -1128,3 +1128,182 @@ echo '---------------hist3'
 echo '---------------hist3'
 echo '---------------hist3'
 echo '---------------hist3'
+lsblk
+cgdisk
+cgdisk /dev/sda
+lsblk
+blkid
+cgdisk /dev/sda
+sync --h
+sync 
+man -k sync
+sg_sync --h
+sg_sync -v
+sg_sync -v /dev/sda
+cgdisk /dev/sda
+gdisk /dev/sda
+mkfs.ext4 /dev/sda1
+e2label /dev/sda1
+e2label /dev/sda1 casper-rw
+e2label /dev/sda1
+df
+lsblk
+mkdir /a!
+mkdir /a1
+mount /dev/sda1 /a1
+history 
+history -a
+df -m
+ls /sys/firmware/efi/efivars/B*
+ls -l /sys/firmware/efi/efivars/B*
+cat /sys/firmware/efi/efivars/B*
+history -a
+history 
+history 
+lsblk
+df
+df -m
+apt update
+apt install efibootmgr
+pkill python~
+pkill python3
+history -a
+top
+pkill python3
+top
+pkill -9 python3
+top
+df
+                                              mc
+df -m
+history 
+efibootmgr 
+efibootmgr -v
+history -a; history
+lsblk 
+blkid
+history 
+ll
+cd root/
+ll
+blkid 
+lsblk 
+df -m
+history 
+lsblk 
+df -m
+apt search efi
+history 
+efibootmgr -v
+history 
+ll
+history 
+ll
+cd root/
+ll
+df -m
+apt search efi
+efibootmgr -v
+lsblk 
+cgdisk /dev/sdd
+mkfs.ext4 /dev/sdd1
+
+e2label /dev/sdd1 casper-rw
+lsblk
+blkid
+mkdir /d1
+mount /dev/sdd1 /d1
+history -a; history
+blkid
+lsblk
+mkdir /dee
+mount /dev/sdb2 /dee
+history -a; history
+lsblk
+blkid
+mkdir /c1
+mount /dev/sdc1  /c1
+ls ~
+ls
+ls ~/.*
+df -m
+history 
+history -a; history
+blkid
+lsblk
+ls -ld /c1/*
+ls -ld /c1/*/*
+ll /dee
+history -a; history
+cd /dee/
+tar cvf /c1/dee.tar
+tar cvf /c1/dee.tar .
+mkdir -p /d1/upper/root/
+cd /d1/upper/root/
+tar xvf /c1/dee.tar 
+ll
+history -a; history
+ll
+ls -laR
+ll /root
+ll /dee
+ll
+history -a; history
+cd /d1/upper/root/
+#cp
+#cp -iv /root/.bash_history /dee
+#cat  /root/.bash_history  >> .bash_history
+ll /root
+ll /dee
+ll
+#cat  /root/.bash_history  >> /dee/.bash_history
+history -a; history
+df -m
+apt search efi
+efibootmgr
+env|grep -i hist
+set|grep -i hist
+env
+set|grep -i hist
+history -a; history
+####ten cp dee byl blbe
+echo jhjh ####ten cp dee byl blbe
+history -a; history
+echo jhjh ####ten cp dee tam nemel byt
+history -a; history
+cd /root/
+ll
+ll|less
+history -a; history
+setfont /usr/share/consolefonts/Uni3-Terminus32x16.psf.gz 
+echo '---------------hist'
+history -a; history
+mkdir /dee
+mount /dev/sdb2 /dee
+history -a; cat ~/.bash_history | tee /dee/.bash_history|tee /223c2/.bash_history|nl |grep efi
+ll
+history -a; cat ~/.bash_history | tee /dee/.bash_history|tee /223c2/.bash_history|nl |grep efi
+ll
+history -a; cat ~/.bash_history | tee /dee/.bash_history|tee /223c2/.bash_history|nl |grep efi
+ll
+cat -v .bash_history
+history -a; cat ~/.bash_history | tee /dee/.bash_history|tee /223c2/.bash_history|nl |grep efi
+ll
+mkdir /223c7
+history -a; cat ~/.bash_history | tee /dee/.bash_history|tee /223c7/.bash_history|nl |grep efi
+history -a; cat ~/.bash_history | tee /dee/.bash_history|tee /223c7/.bash_history|nl |grep grep
+ll
+env
+env|grep -i hom
+set|grep -i hom
+set|grep -i use
+set|less
+set|grep -i roo
+ls ~
+ll ~
+date
+history -a; cat ~/.bash_history | tee /dee/.bash_history|tee /223c7/.bash_history|nl |grep grep
+ll ~
+history -a; cat ~/.bash_history | tee /dee/.bash_history|tee /223c7/.bash_history|nl |grep .
+history -a; cat /root/.bash_history | tee /dee/.bash_history|tee /223c7/.bash_history|nl |grep .
+history -a; cat /root/.bash_history | tee /dee/.bash_history|tee /223c7/.bash_history|nl |grep buuuug
