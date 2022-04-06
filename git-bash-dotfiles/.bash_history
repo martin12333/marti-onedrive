@@ -672,3 +672,12 @@ git ls-files
 git commit -vvv -a -m gitign
 git push -u
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep du-a
+cd ~/OneDrive/
+cd Acronis-SystemReport/
+git commit -vvv -a -m gitign
+git push -u
+cd -
+git commit -vvv -a -m gitign
+git show
+git push -u
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep du-a
