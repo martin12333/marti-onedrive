@@ -1,0 +1,89 @@
+00000000-00000fff : Reserved
+00001000-0009efff : System RAM
+0009f000-000fffff : Reserved
+  000a0000-000bffff : PCI Bus 0000:00
+  00000000-00000000 : PCI Bus 0000:00
+  00000000-00000000 : PCI Bus 0000:00
+  00000000-00000000 : PCI Bus 0000:00
+  000e0000-000effff : PCI Bus 0000:00
+  000f0000-000fffff : System ROM
+00100000-8999b017 : System RAM
+8999b018-899abe57 : System RAM
+899abe58-916f3fff : System RAM
+916f4000-9173cfff : Reserved
+9173d000-93710fff : System RAM
+93711000-93711fff : Reserved
+93712000-9379bfff : System RAM
+9379c000-9379cfff : Reserved
+9379d000-953b5fff : System RAM
+953b6000-96ea2fff : Reserved
+96ea3000-96f54fff : ACPI Tables
+96f55000-973b6fff : ACPI Non-volatile Storage
+973b7000-97c0efff : Reserved
+97c0f000-97c0ffff : System RAM
+97c10000-9f7fffff : Reserved
+  99800000-9f7fffff : Graphics Stolen Memory
+9f800000-efffffff : PCI Bus 0000:00
+  a0000000-afffffff : 0000:00:02.0
+  b0000000-b0ffffff : 0000:00:02.0
+  b1000000-b10fffff : 0000:00:1f.3
+    b1000000-b10fffff : Audio DSP
+  b1100000-b11fffff : PCI Bus 0000:01
+    b1100000-b1101fff : 0000:01:00.0
+      b1100000-b1101fff : iwlwifi
+  b1200000-b121ffff : 0000:00:1f.6
+    b1200000-b121ffff : e1000e
+  b1220000-b122ffff : 0000:00:14.0
+    b1220000-b122ffff : xhci-hcd
+  b1230000-b1233fff : 0000:00:1f.3
+    b1230000-b1233fff : Audio DSP
+  b1234000-b1235fff : 0000:00:17.0
+    b1234000-b1235fff : ahci
+  b1236000-b1237fff : 0000:00:14.2
+  b1238000-b12380ff : 0000:00:1f.4
+  b1239000-b12397ff : 0000:00:17.0
+    b1239000-b12397ff : ahci
+  b123a000-b123a0ff : 0000:00:17.0
+    b123a000-b123a0ff : ahci
+  b123b000-b123bfff : 0000:00:16.0
+    b123b000-b123bfff : mei_me
+  b123c000-b123cfff : 0000:00:14.2
+  b123d000-b123dfff : 0000:00:08.0
+f0000000-f7ffffff : PCI MMCONFIG 0000 [bus 00-7f]
+  f0000000-f7ffffff : Reserved
+    f0000000-f7ffffff : pnp 00:05
+fc800000-fe7fffff : PCI Bus 0000:00
+  fd000000-fd69ffff : pnp 00:06
+  fd6a0000-fd6affff : pnp 00:08
+  fd6b0000-fd6bffff : pnp 00:08
+  fd6c0000-fd6cffff : pnp 00:06
+  fd6d0000-fd6dffff : pnp 00:08
+  fd6e0000-fd6effff : pnp 00:08
+  fd6f0000-fdffffff : pnp 00:06
+  fe000000-fe010fff : Reserved
+    fe010000-fe010fff : 0000:00:1f.5
+  fe200000-fe7fffff : pnp 00:06
+fec00000-fec00fff : Reserved
+  fec00000-fec003ff : IOAPIC 0
+fed00000-fed03fff : Reserved
+  fed00000-fed003ff : HPET 0
+    fed00000-fed003ff : PNP0103:00
+fed10000-fed17fff : pnp 00:05
+fed18000-fed18fff : pnp 00:05
+fed19000-fed19fff : pnp 00:05
+fed20000-fed3ffff : pnp 00:05
+fed40000-fed44fff : MSFT0101:00
+  fed40000-fed44fff : MSFT0101:00 MSFT0101:00
+fed45000-fed8ffff : pnp 00:05
+fed90000-fed90fff : dmar0
+fed91000-fed91fff : dmar1
+fee00000-fee00fff : Local APIC
+  fee00000-fee00fff : Reserved
+ff000000-ffffffff : Reserved
+  ff000000-ffffffff : pnp 00:06
+100000000-25e7fffff : System RAM
+  104c00000-105c026a6 : Kernel code
+  105e00000-106361fff : Kernel rodata
+  106400000-106771a3f : Kernel data
+  106a74000-106ffffff : Kernel bss
+25e800000-25fffffff : RAM buffer

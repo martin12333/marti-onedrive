@@ -637,3 +637,22 @@ git status
 git commit -vvv -a -m gitign
 git push -u
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep du-a
+cd OneDrive/
+cd hyperv-ubu-serv-20/
+ll
+git status
+git show
+git add -vv -f  
+ll
+git add -vv -f  casper-new1.tibx 
+git commit -vvv -a -m casper-new
+git push -u
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep du-a
+cd ..
+cd ~/OneDrive/mylen-ila-git-mirmir
+cd OneDrive/
+cd 223c7/
+git add --dry-run -vv   .
+git add  -vv   .
+#git commit -vvv -a -m 223c7
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep du-a
