@@ -62,13 +62,19 @@ alm*/
 
 !*.txt
 
-########### 33052621.....
-*.crash
-lshw*
-msinfo*
-
 
 !*.log
+
+
+##planypoplach id
+########### 33052621.....
+##*.crash
+##lshw*
+##msinfo*
+
+!*.crash
+!lshw*
+!msinfo*
 
 
 
