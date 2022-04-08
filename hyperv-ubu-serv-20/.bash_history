@@ -1307,3 +1307,25 @@ ll ~
 history -a; cat ~/.bash_history | tee /dee/.bash_history|tee /223c7/.bash_history|nl |grep .
 history -a; cat /root/.bash_history | tee /dee/.bash_history|tee /223c7/.bash_history|nl |grep .
 history -a; cat /root/.bash_history | tee /dee/.bash_history|tee /223c7/.bash_history|nl |grep buuuug
+cp -iv /root/.bash_history /dee/2248
+cp -iv /dee/.bash_history  /root/.bash_history 
+history -a; history|tail 
+cat /dee/2248/.bash_history 
+echo '-------------------------------------'
+setfont /usr/share/consolefonts/Uni3-Terminus28x14.psf.gz 
+history -a; history|tail 
+cat /dee/2248/.bash_history 
+history -a; cat /root/.bash_history | tee /dee/.bash_history|tee /223c7/.bash_history|nl |grep buuuug
+history -a; cat /root/.bash_history | tee /dee/.bash_history|tee /223c7/.bash_history|nl |grep dee
+history -a; cat /root/.bash_history | tee /dee/.bash_history|tee /223c7/.bash_history |grep dee
+history -a; cat /root/.bash_history | tee /dee/.bash_history|tee /223c7/.bash_history|nl |grep --text dee
+mkdir /223c7
+mkdir /dee
+history -a; cat /root/.bash_history | tee /dee/.bash_history|tee /223c7/.bash_history|nl |grep --text dee
+cat /dee/2248/.bash_history 
+mount /dev/sdc2 /dee
+history -a; cat /root/.bash_history | tee /dee/.bash_history|tee /223c7/.bash_history|nl |grep --text dee
+cat /dee/2248/.bash_history 
+#cp -iv /root/.bash_history /dee/224
+cp -iv /b2/.inputrc .
+history -a; cat /root/.bash_history | tee /dee/.bash_history|tee /223c7/.bash_history|nl |grep --text dee
