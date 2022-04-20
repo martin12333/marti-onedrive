@@ -686,3 +686,23 @@ git commit -vvv -a -m wmic
 git show
 git push -u
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep du-a
+cd ~/OneDrive/hyperv-ubu-serv-20/
+ll
+git add -vv -f  casper-new.zip 
+git commit -vvv -a -m bkup
+git push -u
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep du-a
+cd /d/umarti/down21/extract-vmlinux/
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep du-a
+dd bs=1 count=8998912 if=ldiag/linux.efi of=vmlinuz skip=48128
+#dd bs=256 count=35152 if=ldiag/linux.efi of=vmlinuz skip=188
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep du-a
+#dd bs=256 count=35152 if=ldiag/linux.efi of=vmlinuz skip=188
+dd bs=256 count=35152 if=ldiag/linux.efi of=vmlinuz skip=188
+dd bs=256 count=150180 if=ldiag/linux.efi of=ldiag/initrd skip=35340
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep du-a
+cd /d/umarti/down21/extract-vmlinux/
+cd acrolnx/
+ll
+cpio -tv <ramdisk_merged64.dat.cpio 
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep du-a

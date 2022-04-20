@@ -591,3 +591,85 @@ ls /mnt/
 ls /mnt/*
 mc
 history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history ;history |grep .
+ll
+zsh
+mc
+zsh
+df
+mc
+mc -b
+zsh
+df
+du
+vmstat 1
+top
+mc
+zsh
+mc
+uname -a
+mc
+dmesg 
+lsblk
+blkid
+zsh
+mc
+dmesg 
+lsblk
+dmesg |grep sdc
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history ;history |grep .
+df -m
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history ;history |grep .
+zsh
+mc
+zsh
+ll
+sudo tar cvf dev.tar dev
+mc
+sudo -i mc
+mc
+zsh
+mc
+zsh
+mc
+zsh
+zsh
+mc
+echo $((56*6))
+echo $((56*0x16))
+echo $((10*0x16))
+echo $((10*0x10))
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history ;history |grep .
+zsh
+binwalk --extract kernel
+binwalk --extract K*
+binwalk --extract vm*
+binwalk --extract *
+binwalk --extract v*
+binwalk --extract ker*
+binwalk --extract v*
+binwalk --extract V*
+binwalk --verbose ke*
+binwalk --extract ini*
+binwalk --extract I*
+pkill mc
+mc
+pkill mc
+mc
+zsh
+mc
+ll
+chmod u+w *
+ll
+chmod u-x *
+ll
+zsh
+ll
+chmod u+w *
+ll
+chmod u+w *
+ll
+du 
+mc
+echo qemu-system-x86_64   $(grep -v '^[#]' ~/OneDrive/qemu-system/53-ubu.opt.sh)
+echo qemu-system-x86_64   `grep -v '^[#]' ~/OneDrive/qemu-system/53-ubu.opt.sh`
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history ;history |grep .
