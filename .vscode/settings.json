@@ -1,25 +1,3 @@
 {
-    "files.eol": "\n",
-    "files.trimTrailingWhitespace": true,
-	"terminal.integrated.rightClickBehavior": "default",
-
-    "editor.quickSuggestions": {
-        "other": true,
-        "comments": true, // false,
-        "strings": true, //false
-    },
-
-
-
-
-    "editor.wordWrap": "on",
-    "spellright.language": [
-        "cs",
-        "en"
-    ],
-    "spellright.documentTypes": [
-        "markdown",
-        "latex"
-    ],
 
 }

@@ -673,3 +673,19 @@ mc
 echo qemu-system-x86_64   $(grep -v '^[#]' ~/OneDrive/qemu-system/53-ubu.opt.sh)
 echo qemu-system-x86_64   `grep -v '^[#]' ~/OneDrive/qemu-system/53-ubu.opt.sh`
 history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history ;history |grep .
+zsh
+mc
+zsh
+mc
+mc -b
+zsh
+ls
+evim
+apt-file
+evim
+zsh
+screen --h
+screen -list
+ll /run/utmp
+ll /var/run/utmp
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history ;history |grep .
