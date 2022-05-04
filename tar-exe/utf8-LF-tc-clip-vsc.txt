@@ -1,3 +1,4 @@
 c:\Users\marti\AppData\Roaming\Code\User\settings.json
 c:\Users\marti\AppData\Roaming\Code\User\keybindings.json
 C:\Users\marti\AppData\Roaming\GHISLER\wincmd.ini
+C:\Users\marti\pokus-bkup.txt
