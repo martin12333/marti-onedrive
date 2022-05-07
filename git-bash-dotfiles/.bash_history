@@ -989,3 +989,46 @@ set|grep -i sourc
 set|grep -i original_path|tr ':' '\n'|grep -i sour
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+cd OneDrive/
+git commit -vvv -a -m bku
+git push -u
+cd
+git commit -vvv -a -m bku
+git push -u
+cd OneDrive/
+git ls-files
+git ls-files|grep '[.]js'
+git ls-files|grep '[.]ts'
+cd
+git ls-files|grep '[.]ts'
+git ls-files|grep '[.]js'
+git ls-files|grep 'poku'
+cd OneDrive/
+git ls-files|grep 'poku'
+cd scriptbox-scripts--all/
+git ls-files|grep '[.]js'
+git ls-files|grep '[.]ts'
+git ls-files|grep '[.]ts'
+cd ..
+git ls-files|grep '[.]ts'
+git commit -vvv -a -m bku
+cd
+cd scriptbox
+ll
+ls -la
+ll src
+cd
+cd OneDrive/
+git commit -vvv -a -m bku
+cd
+cd scriptbox
+git status
+git commit -vvv -a -m experim
+git show
+cd
+git ls-files
+tig
+tig
+cd ../milan_rxtipwr/
+tig
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30

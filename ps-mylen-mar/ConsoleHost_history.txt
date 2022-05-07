@@ -2052,3 +2052,28 @@ cd ..
 C:\pf\Git\cmd\git.exe add -v  C:\Users\marti\AppData\Roaming\GHISLER\wincmd.ini
 C:\pf\Git\cmd\git.exe add -fv  C:\Users\marti\AppData\Roaming\GHISLER\wincmd.ini
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   
+cd .\OneDrive\
+C:\pf\Git\cmd\git.exe add -fv  "C:\Users\marti\OneDrive\scriptbox-master-1dr-also-nemaster\src\extension.ts"
+cd
+cmd /c dir .git /s
+cmd /c dir .git /s /b
+cd .\OneDrive\
+cmd /c dir .git /s /b
+cmd /c dir .git /s /b /a
+cd
+cmd /c dir .git /s /b /a
+cd ..\milan_rxtipwr\
+cmd /c dir .git /s /b /a
+cd D:\Users\milanlocal\
+cmd /c dir .git /s /b /a
+cd -
+C:\pf\Git\cmd\git.exe ls-files
+cd -
+d:
+cd .\AAA-mylen-ila-git-mirror\
+C:\pf\Git\cmd\git.exe ls-files
+C:\pf\Git\cmd\git.exe ls-files|more
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   
+cd 
+cmd /c dir .git /s /b /a
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   
