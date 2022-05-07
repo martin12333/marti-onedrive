@@ -2048,3 +2048,7 @@ C:\pf\Git\cmd\git.exe add -v -n .\git-bash-dotfiles\c-PF-git\etc\gitconfig
 C:\pf\Git\cmd\git.exe add -v  .\git-bash-dotfiles\c-PF-git\etc\gitconfig
 C:\pf\Git\cmd\git.exe add -v  .\git-bash-dotfiles\c-PF-git\etc\install-options.txt
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   
+cd ..
+C:\pf\Git\cmd\git.exe add -v  C:\Users\marti\AppData\Roaming\GHISLER\wincmd.ini
+C:\pf\Git\cmd\git.exe add -fv  C:\Users\marti\AppData\Roaming\GHISLER\wincmd.ini
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   
