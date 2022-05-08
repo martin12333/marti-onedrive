@@ -2077,3 +2077,6 @@ cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\Cons
 cd 
 cmd /c dir .git /s /b /a
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   
+cd .\OneDrive\
+C:\pf\Git\cmd\git.exe add -fv  "C:\Users\marti\OneDrive\ps-mylen-mar\mystartup.ps1"
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   

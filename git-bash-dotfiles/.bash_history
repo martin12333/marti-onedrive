@@ -1032,3 +1032,39 @@ tig
 cd ../milan_rxtipwr/
 tig
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+cd OneDrive/
+git ls-files|grep ps1
+git ls-files|grep ps1
+cd
+cd OneDrive/
+git ls-files|grep ps1
+git status
+git status|less
+git commit -vvv -a -m ps1
+git ls-files|grep sh
+git ls-files|grep [.]sh
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+git ls-files
+cd ..
+git ls-files
+file `git ls-files`
+cd OneDrive/
+file `git ls-files`
+file `git ls-files`|grep --context 1 -i utf-16
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+dirs
+dir
+dir --h
+dir --hel
+cd OneDrive/
+git push -u
+cd .config/
+touch.exe this-DIR-IS-TARGET-OF-mklink
+git add -vv -f this-DIR-IS-TARGET-OF-mklink 
+cd ..
+cd scriptbox
+cd scriptbox-scripts--selected/
+ll
+touch.exe this-DIR-IS-TARGET-OF-mklink
+git add -vv -f this-DIR-IS-TARGET-OF-mklink 
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
