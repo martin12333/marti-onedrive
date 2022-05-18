@@ -1236,3 +1236,9 @@ git pull -v -u -f origin main
 git push -v -u -f origin main
 git commit -vvv -a -m 'if(x)'
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+cd OneDrive/
+git commit -vvv -a -m bkup
+git push -u
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+git clone https://github.com/martin12333/hyperpolyglot
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
