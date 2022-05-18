@@ -2,3 +2,6 @@ c:\Users\marti\AppData\Roaming\Code\User\settings.json
 c:\Users\marti\AppData\Roaming\Code\User\keybindings.json
 C:\Users\marti\AppData\Roaming\GHISLER\wincmd.ini
 C:\Users\marti\pokus-bkup.txt
+C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\Visual~1.txt
+C:\Users\marti\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+zeby-neslo-stat-na-sory-onedr-bez-net

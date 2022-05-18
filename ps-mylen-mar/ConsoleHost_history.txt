@@ -1329,7 +1329,7 @@ cmd /c mklink /j ~/acloudSUBDIR dsfdggfdgdgfd
 #cmd /c mklink /j ~/acloudSUBDIR dsfdggfdgdgfd
 cd ~
 cd ~; #cmd /c mklink /j acloudSUBDIR dsfdggfdgdgfd
-cd ~; cmd /c mklink 
+cd ~; cmd /c mklink
 cd ~; cmd /c mklink /j acloudSUBDIR  C:\Users\marti\OneDrive\ps-mylen-mar
 ls a*
 cmd /c dir
@@ -1341,7 +1341,7 @@ cmd /c dir c:\
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt | tee C:\Users\marti\OneDrive\ps-mylen-mar\OLD\ConsoleHost_history-$(Get-Date -format "yy-MM-dd")   | findstr mklink
 cmd /c dir a*
 cmd /c dir c:\ /a
-cmd /c dir c:\ 
+cmd /c dir c:\
 cmd /c dir c:\ /a
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt | tee C:\Users\marti\OneDrive\ps-mylen-mar\OLD\ConsoleHost_history-$(Get-Date -format "yy-MM-dd")   | findstr mklink
 cat .\acloudSUBDIR\ConsoleHost_history.txt
@@ -1356,33 +1356,33 @@ cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\Cons
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr tee
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr Get-Date
 d:
-diskpart.exe 
+diskpart.exe
 e:
-diskpart.exe 
+diskpart.exe
 exit
-diskpart.exe 
+diskpart.exe
 d:
-diskpart.exe 
+diskpart.exe
 wmic diskdrive list brief
-wmic diskdrive list 
+wmic diskdrive list
 wmic /help
-wmic 
+wmic
 diskpart /?
 diskpart.exe /?
-wmic 
+wmic
 Get-Disk /?
-Get-Disk 
-$x=Get-Disk 
+Get-Disk
+$x=Get-Disk
 $x[0]
 $x[0].Size
 $x[1].Size
-Get-Partition 
+Get-Partition
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr Get-
-wmic 
-Get-Partition 
+wmic
+Get-Partition
 (Get-Partition ).Size
-Get-Disk 
-$x=Get-Disk 
+Get-Disk
+$x=Get-Disk
 $x.GetType()
 $x[1].GetType()
 $x[1]
@@ -1421,7 +1421,7 @@ cmd /c dir /ad
 cmd /c dir /ad /s
 cmd /c dir /ad /s /b
 c:
-cmd /c dir j: /ad /s /b 
+cmd /c dir j: /ad /s /b
 cmd /c dir j: /ad /s /b |tee dir-j-ad-s-b.txt
 map
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr wsl
@@ -1447,13 +1447,13 @@ $x.UniqueId
 $x.DiskNumber
 Get-Partition
 Get-Volume
-net 
+net
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr disk
 wmic diskdrive list brief
 wmic diskdrive list
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr disk
 diskpart.exe /?
-diskpart.exe 
+diskpart.exe
 mount
 mount --h
 Mount-DiskImage
@@ -1473,7 +1473,7 @@ Gwmi Win32_diskdrive|Format-List *|findstr -i drive0
 Gwmi Win32_diskdrive|Format-List *|findstr  drive0
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr ormat..is
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i form
-Gwmi Win32_diskdrive|Format-List 
+Gwmi Win32_diskdrive|Format-List
 Gwmi Win32_diskdrive
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i form
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i nets
@@ -1488,7 +1488,7 @@ NETSTAT.EXE -a | findstr -i 8888
 NETSTAT.EXE -a | findstr -i 88
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i 8888
 NETSTAT.EXE -a -n
-NETSTAT.EXE -a 
+NETSTAT.EXE -a
 NETSTAT.EXE -a -n
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i net
 NETSTAT.EXE -an | findstr -i 88
@@ -1535,7 +1535,7 @@ cmd /c "C:\Program Files (x86)\Acronis\TrueImageHome\SystemReport.exe" --help
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i bcd
 bcdedit.exe /enum /?
 bcdedit.exe /enum firmware
-bcdedit.exe /enum 
+bcdedit.exe /enum
 bcdedit.exe /enum /?
 bcdedit.exe /enum bootapp
 bcdedit.exe /enum /?
@@ -1545,7 +1545,7 @@ bcdedit.exe /enum osloader
 bcdedit.exe /enum /?
 bcdedit.exe /enum inherit
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
-bcdedit.exe /enum 
+bcdedit.exe /enum
 bcdedit.exe /enum osloader
 bcdedit.exe /enum bootapp
 bcdedit.exe /enum all|more
@@ -1641,20 +1641,20 @@ wsl --shutdown
 wsl --list --all --verbose
 wsl --help
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i wsl
-wsl --mount --vhd 'C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd' --partition 1 
-wsl --unmount --vhd 'C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd' --partition 1 
-wsl --unmount --vhd '\\?\C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd' --partition 1 
-wsl --unmount --vhd 'C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd' 
-wsl --unmount --vhd '\\?\C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd' 
-wsl --unmount  '\\?\C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd' 
-wsl --unmount  '\\.\C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd' 
-wsl --unmount  'C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd' 
+wsl --mount --vhd 'C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd' --partition 1
+wsl --unmount --vhd 'C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd' --partition 1
+wsl --unmount --vhd '\\?\C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd' --partition 1
+wsl --unmount --vhd 'C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd'
+wsl --unmount --vhd '\\?\C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd'
+wsl --unmount  '\\?\C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd'
+wsl --unmount  '\\.\C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd'
+wsl --unmount  'C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd'
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i wsl
-cmd /c wsl --unmount  'C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd' 
-cmd /c wsl --unmount  "'C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd'" 
-cmd /c wsl --unmount  "'\\?\C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd'" 
-cmd /c wsl --unmount  "'\\.\C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd'" 
-cd   "'\\.\C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd'" 
+cmd /c wsl --unmount  'C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd'
+cmd /c wsl --unmount  "'C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd'"
+cmd /c wsl --unmount  "'\\?\C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd'"
+cmd /c wsl --unmount  "'\\.\C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd'"
+cd   "'\\.\C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd'"
 cd   '\\.\C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd'
 cd   'C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd'
 cd   'C:\Users\Public\Documents\Hyper-V\Virtual hard disks\'
@@ -1685,9 +1685,9 @@ cmd
 wsl --unmount  casp-z-acro1-to-wsl.vhd
 cmd /c wsl --unmount  casp-z-acro1-to-wsl.vhd
 wsl --list --all --verbose
-wsl --mount --vhd 'C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd' --partition 1 
+wsl --mount --vhd 'C:\Users\Public\Documents\Hyper-V\Virtual hard disks\casp-z-acro1-to-wsl.vhd' --partition 1
 wsl --unmount  casp-z-acro1-to-wsl.vhd
-wsl --mount --vhd casp-z-acro1-to-wsl.vhd --partition 1 
+wsl --mount --vhd casp-z-acro1-to-wsl.vhd --partition 1
 wsl --unmount  casp-z-acro1-to-wsl.vhd
 wsl --mount --vhd casp-z-acro1-to-wsl.vhd --partition 1 --name casp
 wsl --list --all --verbose
@@ -1701,8 +1701,8 @@ d:
 wsl --list --all --verbose
 wsl --mount --vhd '.\sda-ubu-to-flash.vhdx' --partition 3 --name d20
 wsl --unmount --vhd '.\sda-ubu-to-flash.vhdx' --partition 3 --name d20
-wsl --unmount --vhd '.\sda-ubu-to-flash.vhdx' 
-wsl --unmount '.\sda-ubu-to-flash.vhdx' 
+wsl --unmount --vhd '.\sda-ubu-to-flash.vhdx'
+wsl --unmount '.\sda-ubu-to-flash.vhdx'
 wsl --mount \\.\PHYSICALDRIVE2 --bare
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i wsl
 4+6
@@ -1717,9 +1717,9 @@ cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\Cons
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i wsl
 cmd /c dir c:\*.iso /a /s /b
 cmd /c dir c:\sys*.vhd* /a /s /b
-wsl --mount --vhd D:\system.vhd 
-wsl --unmount  D:\system.vhd 
-wsl --unmount  \\?\D:\system.vhd 
+wsl --mount --vhd D:\system.vhd
+wsl --unmount  D:\system.vhd
+wsl --unmount  \\?\D:\system.vhd
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i wsl
 WMIADAP.exe /?
 vds.exe /?
@@ -1769,9 +1769,9 @@ cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\Cons
 .\emacs.exe --h
 .\runemacs.exe --h
 .\runemacs.exe --help
-.\runemacs.exe 
+.\runemacs.exe
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
-.\emacs.exe 
+.\emacs.exe
 .\emacs.exe --h
 .\emacs.exe -nbc
 D:\instu\emacs-27.2-x86_64\bin\emacs.exe -nbc
@@ -1955,7 +1955,7 @@ wsl --help
 wsl --help|less
 wsl --help|more
 wsl --help | more
-wsl --help 
+wsl --help
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i wsl
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i 'wsl '
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i 'wsl -'
@@ -1978,7 +1978,7 @@ cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\Cons
 wsl -d Ubuntu-20.04 -e ps -ef
 wsl -d Ubuntu-20.04 -e ps -e
 wsl -d Ubuntu-20.04 -e ps -f
-wsl -d Ubuntu-20.04 -e ps 
+wsl -d Ubuntu-20.04 -e ps
 wsl -d Ubuntu-20.04 -- ps -ef
 wsl -d Ubuntu-20.04 --exec ps -ef
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i git
@@ -1988,33 +1988,33 @@ cmd /c set|findstr -i git
 #github.bat
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i bash
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | tail
-cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt
 git
 where.exe bash.exe
 .\ziptool.exe --h
-C:\pf\Git\cmd\git.exe config --list --show-origin 
-cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   
+C:\pf\Git\cmd\git.exe config --list --show-origin
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt
 $env:HOME
-cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   
-C:\pf\Git\cmd\git.exe config --list --show-origin 
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt
+C:\pf\Git\cmd\git.exe config --list --show-origin
 C:\pf\Git\cmd\bash.exe -c 'git config --list --show-origin '
 C:\pf\Git\bin\bash.exe -c 'git config --list --show-origin '
-cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt
 C:\pf\Git\usr\bin\env.exe -v 'git config --list --show-origin '
-C:\pf\Git\usr\bin\env.exe -v git config --list --show-origin 
+C:\pf\Git\usr\bin\env.exe -v git config --list --show-origin
 C:\pf\Git\usr\bin\env.exe -v git
 C:\pf\Git\usr\bin\env.exe -v bash
 C:\pf\Git\usr\bin\env.exe -v env
 C:\pf\Git\usr\bin\env.exe -v env.exe
 C:\pf\Git\usr\bin\env.exe -v git.exe
-cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt
 C:\pf\Git\bin\bash.exe -c 'env '
 C:\pf\Git\bin\bash.exe -c 'env '|findstr -i hom
 C:\pf\Git\bin\bash.exe -c 'env.exe '|findstr -i hom
-cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt
 C:\pf\Git\bin\bash.exe -c 'env -v git'
 C:\pf\Git\usr\bin\env.exe -v a b c
-cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt
 C:\pf\Git\bin\bash.exe -c 'env '|findstr -i path
 C:\pf\Git\usr/bin/env |findstr -i path
 C:\pf\Git\usr/bin/env |findstr -i hom
@@ -2025,13 +2025,13 @@ C:\pf\Git\usr/bin/env |sort
 C:\pf\Git\usr/bin/env |sort>env
 C:\pf\Git\usr/bin/env |sort >env
 C:\pf\Git\bin\bash.exe -c 'env ' |sort  >bash-c-env
-cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt
 cmd /c set
 cmd /c set|sort
 cmd /c set|sort>set
 cmd /c set|sort >set
-cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   
-C:\pf\Git\cmd\git.exe config --list --show-origin 
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt
+C:\pf\Git\cmd\git.exe config --list --show-origin
 C:\pf\Git\cmd\git.exe ls-files
 cd .\OneDrive\
 C:\pf\Git\cmd\git.exe ls-files
@@ -2043,15 +2043,15 @@ C:\pf\Git\cmd\git.exe add -v  .\.config\git\git-prompt.sh
 C:\pf\Git\cmd\git.exe ls-files
 C:\pf\Git\cmd\git.exe ls-files|findstr -i sh
 C:\pf\Git\cmd\git.exe ls-files|findstr -i pro
-cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt
 C:\pf\Git\cmd\git.exe add -v -n .\git-bash-dotfiles\c-PF-git\etc\gitconfig
 C:\pf\Git\cmd\git.exe add -v  .\git-bash-dotfiles\c-PF-git\etc\gitconfig
 C:\pf\Git\cmd\git.exe add -v  .\git-bash-dotfiles\c-PF-git\etc\install-options.txt
-cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt
 cd ..
 C:\pf\Git\cmd\git.exe add -v  C:\Users\marti\AppData\Roaming\GHISLER\wincmd.ini
 C:\pf\Git\cmd\git.exe add -fv  C:\Users\marti\AppData\Roaming\GHISLER\wincmd.ini
-cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt
 cd .\OneDrive\
 C:\pf\Git\cmd\git.exe add -fv  "C:\Users\marti\OneDrive\scriptbox-master-1dr-also-nemaster\src\extension.ts"
 cd
@@ -2073,10 +2073,443 @@ d:
 cd .\AAA-mylen-ila-git-mirror\
 C:\pf\Git\cmd\git.exe ls-files
 C:\pf\Git\cmd\git.exe ls-files|more
-cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   
-cd 
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt
+cd
 cmd /c dir .git /s /b /a
-cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt
 cd .\OneDrive\
 C:\pf\Git\cmd\git.exe add -fv  "C:\Users\marti\OneDrive\ps-mylen-mar\mystartup.ps1"
-cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   |findstr -i mkli
+#cmd /c mklink /d snippets C:\Users\marti\OneDrive\roam-code-us-snipp\
+d:
+cd .\umarti\
+cmd /c mklink /d xxxx  D:\umarti\dowNLOADS--SYMLINKED
+d:
+cd .\umarti\
+cmd /c mklink /d xxxx  D:\umarti\dowNLOADS--SYMLINKED
+cmd /c dir
+ren .\xxxx\ yyyyy
+cmd /c dir
+ren  yyyyy downloads----------------DOW-link
+cmd /c dir
+c:
+cmd /c mklink /j xxxx  AppData
+cd ..
+dir
+cmd /c mklink /d xxxx  D:\Users\milanlocal
+ren .\xxxx\ deeUsersMilan------------Milan-link
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   |findstr -i mkli
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   |findstr -i mklifdkjfds
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   |findstr -i mklifdkjfdsjhhg
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   |findstr -i icacls
+icacls  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt #| tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt
+icacls    C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   |findstr -i icacls
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   |findstr -i icaclshgfhgjhg
+icacls    C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt
+cd .\OneDrive\
+cd
+cd .\OneDrive\
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   |findstr -i dir
+cmd /c dir /ad /s
+cd ..
+cmd /c dir .\OneDrive\ /ad /s >1
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   |findstr -i dir
+$PSDefaultParameterValues
+$OutputEncoding
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   |findstr -i dir
+cd .\OneDrive\
+cmd /c dir . /ad /s
+cmd /c dir . /ad /s |findstr DIR
+cmd /c dir . /ad /s >~/1
+cd ..
+cmd /c dir . /ad /s >~/1
+tree.com
+cmd /c tree >~/1
+cmd /c dir c:\ /ad /s >~/1
+cmd /c dir d:\ /ad /s >~/1
+cmd /c dir c:\ d:\  /s >~/1
+cmd /c dir c:\ d:\ /ad /b  /s >~/dir-b-ad
+cmd /c dir c:\ d:\  /b  /s >~/dir-b
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | tail
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt
+cd .\OneDrive\
+cmd /c dir *.bat  /s
+cmd /c dir *.ps1  /s
+cmd /c dir *.bat  /s
+cmd /c dir *.cmd  /s
+doskey.exe /h
+doskey.exe /?
+cd ..
+dir node_modules /s /b
+cmd /c dir node_modules /s /b
+doskey.exe /h
+cmd /c dir node_modules /s /b /ad
+cd .\node_modules\
+cmd /c dir node_modules /s /b /ad
+$PSSessionApplicationName
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt
+ls
+conhost
+ls
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i path
+$env:Path
+Get-PSReadLineOption
+(Get-PSReadLineOption).HistorySavePath
+ls (Get-PSReadLineOption).HistorySavePath
+help *psre*
+help *psrea*
+Get-Command *psrea*
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i path
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i ps
+help  psreadline
+help  Get-PSReadLineOption
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i mkli
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i mklin
+cmd /c mklink /d c:\gib  C:\pf\Git\usr\bin
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i mklin
+dir C:\gib\
+C:\gib\file.exe --h
+C:\gib\file.exe
+C:\gib\file.exe -
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i mklin
+C:\gib\file.exe .\.azure\
+C:\gib\file.exe --v
+C:\gib\file.exe --verb
+C:\gib\file.exe --h
+C:\gib\file.exe --deb
+C:\gib\grep.exe
+C:\gib\grep.exe a
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i mklin
+where.exe echo
+where.exe echo env
+mv env env2
+where.exe echo env
+where.exe echo env grep
+where.exe echo env grep file
+where.exe echo env grep file nl
+where.exe echo env grep file nl tail
+where.exe echo env grep file nl tail uniq
+where.exe echo env grep file nl tail uniq sort
+where.exe echo env grep file nl tail uniq sort tr
+env
+dir >17
+dir c:\ >17
+dir C:\Users\marti\OneDrive\ >17
+cmd /c dir C:\Users\marti\OneDrive\ >17c
+dir C:\Users\marti\OneDrive\ >15
+cmd /c dir C:\Users\marti\OneDrive\ >15c
+cmd
+cmd /c dir /?
+cmd /c dir /x
+cmd /c dir .\OneDrive\tar-exe\c\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\Visual~1.txt
+cmd /c dir .\OneDrive\tar-exe\c\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\Visual~1.txt /x
+cat .\OneDrive\tar-exe\c\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\Visual~1.txt
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+C:\gib\file.exe --hel
+C:\gib\file.exe -m C:\pf\Git\usr\share\misc\magic.mgc
+C:\gib\file.exe -m C:\pf\Git\usr\share\misc\magic.mgc 15
+ls c:/gib/..
+ls c:/gib/./..
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+cat 15
+cat 15 >c15
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+/gib/echo --h
+/gib/echo --help
+cd .\OneDrive\
+mkdir AAAA-spust-linked
+cmd /c mklink /d c:\spu  C:\Users\marti\OneDrive\AAAA-spust-linked
+ls \spu
+mkdir \spu\pokus
+ls \spu
+$env:Path
+$env:Path| \gib\tr ':' ' '
+$env:Path| \gib\tr ';' ' '
+$env:Path| \gib\tr ';' '\n'
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+$env:Path| \gib\tr ';' '\n'
+$env:Path.Length
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+update-help
+update-help psreadline
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+$PROFILE
+$HOME
+${^}
+$args
+$WSMan:
+dir $WSMan:
+dir $WSMan
+$WSMan
+$_
+$OFS
+$PSModuleAutoLoadingPreference
+$ConsoleFileName
+$PROFILE
+help profile
+help about*
+help *about*
+help *profile*
+$PROFILE
+($PROFILE).AllUsersAllHosts
+$PROFILE.AllUsersAllHosts
+$PROFILE.AllUsersCurrentHost
+$PROFILE|select *
+$PROFILE|Format-List
+$PROFILE|Format-List *
+$PROFILE|Format-List * -Force
+$PROFILE.CurrentUserCurrentHost
+$ShellId
+$ShellId
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+$env:Path
+$env:Path+=C:\gib;
+$env:Path+='C:\gib;'
+$env:Path
+arch.exe
+du
+echo.exe
+echo.exe gdgfdgfdg
+where.exe echo
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+where.exe echo
+echo.exe gdgfdgfdg
+where.exe du
+where.exe find
+Get-Alias
+help write
+Get-Alias
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+$env:Path| tr ':' ' '
+$env:Path| tr ';' '\n'
+$env:Path| tr ';' '\n'|nl
+$env:Path| tr ';' '\n'|nl|tail
+$env:Path| tr ';' '\n'|less
+Get-Alias|less
+cmd /c dir C:\pf\Git\usr\bin\*.dll
+cmd /c dir C:\pf\Git\mingw64\bin\*.dll
+cmd /c dir C:\pf\Git\usr\bin\*.dll|less
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+$PROFILE.CurrentUserCurrentHost
+$PROFILE.Length
+dir .\OneDrive\Dokumenty\
+dir .\OneDrive\Dokumenty\w*
+dir .\OneDrive\Dokumenty\po*
+dir .\OneDrive\Dokumenty\PowerShell\
+dir /
+cmd /c dir .\OneDrive\Dokumenty\PowerShell\
+cmd /c dir .\OneDrive\Dokumenty\PowerShell\Help\
+du .\OneDrive\Dokumenty\PowerShell\Help\
+help boot
+help Get-SecureBootUEFI
+help boot
+help boot|grep -i ue
+help boot|grep -i uef
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+help arch
+help Compress-Archive
+$x=1,2,5
+$x
+$x[2]
+help Compress-Archive
+ls a b
+ls a* b*
+ls a* , b*
+ls a* ,b*
+ls a*,b*
+ls a g,b*
+ls a-g,b*
+echo a g,b*
+echo a g,2,3-5
+ls a g,b*
+$x=a g,b*
+$x= a g,b*
+$x= ls a g,b*
+$x= ls ls g,b*
+$x= ls ls g,b
+$x= ls ls ls,b
+$x= ls ls ls,ls
+$x= ls  ls,ls
+$x= ls ls,ls ls
+$x= ls ls2,ls3 ls4
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+help Compress-Archive
+@{a=b,c`
+d=e`
+}
+@{a='b','c'`
+d='e'`
+}
+@{a=b,c`
+d=e`
+}
+@{a='b','c',15`
+d='e'`
+}
+@{a='b','c',15`
+a='e'`
+}
+{a='b','c',15`
+a='e'`
+}
+{a,'b','c',15`
+a='e'`
+}
+{a 14,'b','c',15`
+a='e'`
+}
+help array
+[1,12]
+echo.exe --help
+ls.exe -latr
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+Get-ExecutionPolicy -List
+.\OneDrive\vscode-zsh-bash-gitbash-pwsh\a.ps1
+echo $$
+update-help psreadline
+update-help
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+Get-ExecutionPolicy -List
+.\OneDrive\vscode-zsh-bash-gitbash-pwsh\a.ps1
+ls|Get-Member
+ls .\OneDrive\
+ls
+(ls).LinkType
+cd .\OneDrive\
+(ls).LinkType
+ls
+(ls).LinkType
+(ls re*).LinkType
+(ls re*)
+(ls re*).Attributes
+(ls re*).LinkType
+(ls re*).Target
+(ls re*).Attributes
+((ls re*).Attributes)
+((ls re*).Attributes).GetType()
+((ls re*).Attributes)[0]
+((ls re*).Attributes).GetTypeCode()
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+Get-PSDrive
+dir temp:
+Get-PSDrive
+dir wsman:
+help wsman
+help about_wsman
+Get-ExecutionPolicy -List
+set-ExecutionPolicy -WhatIf -ExecutionPolicy Undefined
+set-ExecutionPolicy -WhatIf -ExecutionPolicy Undefined  -Scope CurrentUser
+set-ExecutionPolicy  -ExecutionPolicy Undefined  -Scope CurrentUser
+Get-ExecutionPolicy -List
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+Get-ExecutionPolicy -List
+set-ExecutionPolicy  -ExecutionPolicy Undefined  -Scope LocalMachine
+Get-ExecutionPolicy -List
+set-ExecutionPolicy  -ExecutionPolicy Undefined  -Scope LocalMachine
+set-ExecutionPolicy  -ExecutionPolicy Undefined  -Scope LocalMachine -Verbose
+Get-ExecutionPolicy -List
+set-ExecutionPolicy  -ExecutionPolicy Undefined  -Scope CurrentUser
+Get-ExecutionPolicy -List
+set-ExecutionPolicy  -ExecutionPolicy Undefined  -Scope LocalMachine -Verbose
+Get-ExecutionPolicy -List
+set-ExecutionPolicy  -ExecutionPolicy RemoteSigned  -Scope LocalMachine -Verbose
+Get-ExecutionPolicy -List
+set-ExecutionPolicy  -ExecutionPolicy AllSigned  -Scope LocalMachine -Verbose
+help set-ExecutionPolicy  -ExecutionPolicy AllSigned  -Scope LocalMachine -Verbose
+help set-ExecutionPolicy  
+Get-ExecutionPolicy -List
+help set-ExecutionPolicy  
+help best
+help best-pract
+help bestpract
+Get-ExecutionPolicy -List
+ls 5
+Get-ExecutionPolicy -List
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+Get-ExecutionPolicy -List
+.\OneDrive\vscode-zsh-bash-gitbash-pwsh\a.ps1
+help set-ExecutionPolicy  
+help ExecutionPolicy  
+help ExecutionPolic
+help ExecutionPolicies
+help about_ExecutionPolicies
+help about-ExecutionPolicies
+Get-ExecutionPolicy -List
+Get-ExecutionPolicy 
+help about-ExecutionPolicies
+Get-ExecutionPolicy
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i ps-
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i ps-mylen-mar/
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i ps-mylen-mar..
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i ps-mylen-mar..*mys
+C:\Users\marti\OneDrive\ps-mylen-mar\mystartup.ps1
+help about_ExecutionPolicies
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i ps-mylen-mar..*mys
+C:\Users\marti\OneDrive\ps-mylen-mar\mystartup.ps1
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i exe
+help set-ExecutionPolicy  -ExecutionPolicy AllSigned  -Scope LocalMachine -Verbose
+Get-ExecutionPolicy
+Get-ExecutionPolicy -List
+set-ExecutionPolicy  -ExecutionPolicy RemoteSigned  -Scope CurrentUser -Verbose
+Get-ExecutionPolicy -List
+Get-ExecutionPolicy 
+Get-ExecutionPolicy -List
+$PSHOME
+set-ExecutionPolicy  -ExecutionPolicy Undefined  -Scope CurrentUser -Verbose
+Get-ExecutionPolicy 
+Get-ExecutionPolicy -List
+$PSHOME
+$pspro
+$pspro
+$psprofile
+$PROFILE
+Get-ExecutionPolicy -List
+Get-ExecutionPolicy 
+set-ExecutionPolicy  -ExecutionPolicy RemoteSigned  -Scope CurrentUser -Verbose
+Get-ExecutionPolicy 
+Get-ExecutionPolicy -List
+echo priv-escal
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i e
+$ExecutionContext.SessionState.LanguageMode
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i e
+$psprofile
+$profile
+$PSVersionTable
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i e
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+Get-ExecutionPolicy -List
+C:\pf\PowerShell\
+C:\pf\PowerShell\7\pwsh.exe
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+$env:path
+dir C:\Windows\System32\WindowsPowerShell\
+dir C:\Windows\System32\WindowsPowerShell\v1.0\
+cat *.config
+cat C:\Windows\System32\WindowsPowerShell\v1.0\*.config
+$PSVersionTable
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+cd .\OneDrive\
+cmd /c dir C:\Users\ /al
+apm -v
+Get-ExecutionPolicy
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+Get-Command -Module PSReadLine
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+$pshome
+$HOME
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i pro
+$PROFILE
+$PROFILE.AllUsers*`
+
+$PROFILE| Get-Member AllUsers*`
+
+$PROFILE| Get-Member *Users*`
+
+$PROFILE| Get-Member *User*`
+
+$PROFILE| Get-Member *User
+$psp
+$PSHOME
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i p

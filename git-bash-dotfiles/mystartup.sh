@@ -1,4 +1,5 @@
 #set -x
+# zaremovat set -x
 
 echo '.sh'
 

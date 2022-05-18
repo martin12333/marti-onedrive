@@ -1068,3 +1068,171 @@ ll
 touch.exe this-DIR-IS-TARGET-OF-mklink
 git add -vv -f this-DIR-IS-TARGET-OF-mklink 
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+git commit -vvv -a -m mklink
+git push -u
+git diigo
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+cd
+git commit -vvv -a -m bk8
+git push -u
+git diigo
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+diigo
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+#diigo
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+pwd
+file /bin/sh
+file /bin/git
+file /cmd/git
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+recode-sr-latin.exe --h
+locale.exe --h
+iconv.exe --h
+locale.exe 
+file 1
+file 2
+cat 1
+cat 1|grep DIR
+cat 1|grep DIR|cut -c 25,
+cat 1|grep DIR|cut -c 25-
+cat 1|grep DIR|cut -c 35-
+cat 1|grep DIR|cut -c 37-
+cat 1|grep DIR|cut -c 37-|sort -u
+cat 1|grep DIR|cut -c 37-|sort -u|wc
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+uco
+uconv
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+cat dir-ad|grep DIR|cut -c 37-|sort -u|wc
+cat dir-ad|grep DIR|cut -c 37-|sort |uniq -c|sort -n
+cat dir-ad|grep DIR|cut -c 37-|grep 'f\r'
+cat dir-ad|grep DIR|cut -c 37-|grep -E 'f\r'
+cat dir-ad|grep DIR|cut -c 37-|grep -EP 'f\r'
+cat dir-ad|grep DIR|cut -c 37-|grep -P 'f\r'
+cat dir-ad|grep DIR|cut -c 37-|grep -P 'f\r'|less
+cat dir-ad|grep DIR|cut -c 37-|grep -P 'f\r'|sort|uniq -c
+cat dir-ad|grep DIR|cut -c 37-|grep -P 'f\r'|sort|uniq -c|sort -r
+cat dir-ad|grep DIR|cut -c 37-|grep -P 'f\r'|sort|uniq -c|sort -n
+cat dir-ad|cut -c 37-|grep -P 'f\r'|sort|uniq -c|sort -n
+cat dir-ad|cut -c 37-|grep -P 'f\r' --context 3 |less
+cat dir-ad|cut -c 37-|grep -P '^f\r' --context 3 |less
+cat dir-ad|cut -c 37-|grep -P '^lib\r' --context 3 |less
+cat dir-ad|cut -c 37-|grep -P 'dir\r' --context 3 |less
+cat dir-ad|cut -c 37-|grep -P 'x-dir\r' --context 3 |less
+cat dir-ad|cut -c 37-|grep -P 'bin\r' --context 3 |less
+cat dir-ad|cut -c 37-|grep -P 'emp\r' --context 3 |less
+cat dir-ad|cut -c 37-|grep -P 'aths\r' --context 3 |less
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+cat dir-ad|grep DIR|cut -c 37-|sort |uniq -c|sort -n
+cat dir-ad|cut -c 37-|grep -P 'Data\r' --context 3 |less
+cat dir-ad|cut -c 37-|grep -P 'ppData\r' --context 3 |less
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+cat dir-c-d.txt|cut -c 37-|sort |uniq -c|sort -n
+cat dir-c-d.txt|grep -i loda
+cat dir-c-d.txt|cut -c 37-|grep -i loda
+cat dir-c-d.txt|cut -c 37-|grep -i loda|sort|uniq -c
+cat dir-c-d.txt|cut -c 37-|grep -i loda|sort|uniq -c|sort -n
+cat dir-ad dir-addd >dir-ad-c-d
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+cat dir-ad-c-d|cut -c 37-|grep -i loda|sort|uniq -c|sort -n
+cat dir-ad-c-d|cut -c 37-|sort|uniq -c|sort -n|less
+cat dir-ad-c-d|cut -c 37-|sort|uniq -c|sort -n|grep -i git
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+cat dir-ad-c-d|cut -c 37-|sort|uniq -c|sort -n|less
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+cat dir-b|grep -P 'ps1\r'|sort|uniq -c|sort -n
+cat dir-b|grep -P -o '\w*.ps1\r'|sort|uniq -c|sort -n
+cat dir-b|grep -P -o '.ps1\r'|sort|uniq -c|sort -n
+cat dir-b|grep -P -o '.cmd\r'|sort|uniq -c|sort -n
+cat dir-b|grep -P -o '.bat\r'|sort|uniq -c|sort -n
+cat dir-b|grep -P -o '.sh\r'|sort|uniq -c|sort -n
+cat dir-b|grep -P -o '..sh\r'|sort|uniq -c|sort -n
+cat dir-b|grep -P -o '...sh\r'|sort|uniq -c|sort -n
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+cat dir-b|grep -P -o '.ps1\r'|sort|uniq -c|sort -n
+cat dir-b|grep -P -o '.cmd\r'|sort|uniq -c|sort -n
+cat dir-b|grep -P -o '.bat\r'|sort|uniq -c|sort -n
+cat dir-b|grep -P -o '.sh\r'|sort|uniq -c|sort -n
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+cat dir-c-d.txt|cut -c 37-|grep -i loda|sort|uniq -c|sort -n
+cat dir-c-d.txt|cut -c 37-|sort|uniq -c|sort -n
+cat dir-c-d.txt|cut -c 37-|sort|uniq -c|sort -n|grep -i dll
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+cat dir-b|grep -P 'github\r'|less
+cat dir-b|grep -P '[.]git\r'|less
+cat dir-b|grep -P '[.]aaa\r'|less
+cat dir-b|grep -P 'aaa\r'|less
+cat dir-b|grep -P 'w-w64\r'|less
+cat dir-b|grep -P 'w_w64\r'|less
+cat dir-b|grep -P 'w.w64\r'|less
+cat dir-b|grep -i mingw|grep -P 'w64\r'|less
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+cat dir-b|grep -P -o '.ps1\r'|less
+cat dir-b|grep -P  '.ps1\r'|less
+cat dir-b|grep -P  '[.]sh\r'|less
+cat dir-b|grep -P  '[.]cmd\r'|less
+cat dir-b|grep -P  '[.]bat\r'|less
+cat dir-b|grep -P  '[.]bat\r'|less
+cat dir-b|grep -P  '[.]cmd\r'|less
+cat dir-b|grep -P  '[.]sh\r'|less
+cat dir-b|grep -P  '.ps1\r'|less
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+pwsh
+cat env
+cat env2
+cat >env
+env
+./env
+file 17
+file 17
+file 17
+file 17c
+file 15
+file 15c
+file 11
+du -ak OneDrive/tar-exe/
+ls -lR OneDrive/tar-exe/
+ls -lR OneDrive/tar-exe/
+ls -lR OneDrive/tar-exe/c/Users/marti/AppData/Roaming/Microsoft/Windows/PowerShell/PSReadLine/
+ls -lR OneDrive/tar-exe/c/Users/marti/AppData/Roaming/Microsoft/Windows/PowerShell/PSReadLine/Visual~1.txt 
+cat OneDrive/tar-exe/c/Users/marti/AppData/Roaming/Microsoft/Windows/PowerShell/PSReadLine/Visual~1.txt 
+file c15
+file 15
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+echo $PATH
+ll bin
+which --all git
+which --all bash
+which --all git.exe
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+echo $PATH|tr ':' '\n'
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+echo $PATH|tr ':' '\n'
+ls /usr/lo
+ls /usr/local
+echo $PATH|tr ':' '\n'
+ls /bin/
+ls /usr/bin
+echo $PATH|tr ':' '\n'
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+echo $PATH|tr ':' '\n'
+set|grep -i bashr
+set|grep -i bash
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |tail -n 30
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep git
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep 'git '
+cd OneDrive/dictionary-search-on-word-selection/
+git init
+git remote add origin https://github.com/martin12333/dictionary-search-on-word-selection.git
+git pull
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep 'git '|grep pul
+git pull -v origin main
+git clone https://github.com/martin12333/dictionary-search-on-word-selection.git
+git ls-files
+git add -vv -f *
+git commit -vvv -a -m bkup
+git pull -v -u -f origin main
+git push -v -u -f origin main
+git commit -vvv -a -m 'if(x)'
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
