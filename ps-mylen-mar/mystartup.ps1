@@ -2,6 +2,8 @@
 #  -ExecutionPolicy Bypass -File
 # C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe
 
+#zeby-neslo-stat-na-sory-onedr-bez-net
+
 # roam-ms-wi-sta-p-startup
 
 # C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup

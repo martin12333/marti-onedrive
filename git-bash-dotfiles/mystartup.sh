@@ -1,6 +1,8 @@
 #set -x
 # zaremovat set -x
 
+#zeby-neslo-stat-na-sory-onedr-bez-net
+
 echo '.sh'
 
 set
