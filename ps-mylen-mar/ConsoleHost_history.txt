@@ -2513,3 +2513,38 @@ $PROFILE| Get-Member *User
 $psp
 $PSHOME
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i p
+wsl --list --all --verbose
+ls
+js
+dotnet-interactive.exe --help
+dotnet.exe --help
+ls \\wsl$\
+ls \\wsl$\Ubuntu-20.04
+cmd /c dir \\wsl$\Ubuntu-20.04
+cmd /c dir \\wsl$\Ubuntu-20.0*
+ls \\wsl$\Ubuntu-20.0*
+cmd /c dir \\wsl$\
+ls \\wsl$\
+ls \\wsl$
+cmd /c dir \\wsl$
+cmd /c dir \\
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i p
+wsl --list --all --verbose
+wsl --shutdown
+wsl --list --all --verbose
+ls w:
+wsl --list --all --verbose
+wsl --shutdown
+wsl --list --all --verbose
+wsl --shutdown
+wsl --list --all --verbose
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i p
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i git
+cmd /c dir .git /s /b /a
+cmd /c dir .git /s /b 
+cd .\OneDrive\
+cmd /c dir .git /s /b 
+cmd /c dir .git /s /b /a
+cd ..
+cmd /c dir .git /s /b /a
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i g

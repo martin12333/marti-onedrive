@@ -25,7 +25,7 @@ do
    #--help   \
 
    #   date
-   sleep 60s  #25s
+   sleep    180s  # probably steals focus?     60s  #25s
 
 done
 

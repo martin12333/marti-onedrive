@@ -1245,3 +1245,87 @@ history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.ba
 cd OneDrive/dictionary-search-on-word-selection/
 git push -u
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+cd OneDrive/a,complangs-215-hyperpoly/Hyperpolyglot-CSV
+ll
+git add -vv -f Hyperpolyglot-CSV\ -\ shell.csv 
+git ls-files
+ls -la
+git commit -vvv -a -m bkup
+git push -u
+git pull -v -u  origin main
+git pull -v   origin main
+git commit -vvv -a -m bkup
+git push -u
+git add -vv -f Hyperpolyglot-CSV\ -\ scripting1\,2.csv 
+git commit -vvv -a -m bkup
+git push -u
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+cygpath --help
+cygpath '\\wsl$\'
+ls '\\wsl$\'
+ls `cygpath '\\wsl$\' `
+ls //wsl$/U*
+ls //wsl$/Ubuntu-20.04
+ls `cygpath '\\wsl$\Ubuntu-20.04' `
+cygpath '\\wsl$\Ubuntu-20.04' 
+mount
+ls //
+ls '//'
+ls -la //wsl$/Ubuntu-20.04
+ls -la //wsl\$/Ubuntu-20.04/home/martin/.*gu*
+ls -la //wsl\$/Ubuntu-20.04/home/martin/.*hi*
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+ls //wsl$/Ubuntu-20.04
+ls //wsl$/Ubuntu-20.0*
+ls //wsl\$/Ubuntu-20.0*
+ls //wsl\$/
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+ls -1 //wsl\$/Ubuntu-20.04/home/martin/.*hi*
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep cp
+cp  --archive --backup=numbered    --parents --strip-trailing-slashes --target-directory=$HOME/OneDrive/tar-exe/ --update --verbose `cygpath.exe -f ~/OneDrive/tar-exe/utf8-LF-tc-clip-vsc.txt  ` -vv
+ls -1 //wsl\$/Ubuntu-20.04/home/martin/.*hi*
+cp  --archive --backup=numbered    --parents --strip-trailing-slashes --target-directory=$HOME/OneDrive/tar-exe/ --update --verbose `cygpath.exe -f ~/OneDrive/tar-exe/utf8-LF-tc-clip-vsc.txt  ` -vv
+cygpath '//wsl$\Ubuntu-20.04' 
+cygpath '//wsl$/Ubuntu-20.04' 
+cp  --archive --backup=numbered    --parents --strip-trailing-slashes --target-directory=$HOME/OneDrive/tar-exe/ --update --verbose `cygpath.exe -f ~/OneDrive/tar-exe/utf8-LF-tc-clip-vsc.txt  ` -vv
+cd //wsl$/Ubuntu-20.04
+ls
+cp  --archive --backup=numbered    --parents --strip-trailing-slashes --target-directory=$HOME/OneDrive/tar-exe/ --update -vv home/martin/.bash_history 
+cd //wsl$/
+cd //wsl.local/Ubuntu-20.04
+cd //wsl.localhost/Ubuntu-20.04
+cp  --archive --backup=numbered    --parents --strip-trailing-slashes --target-directory=$HOME/OneDrive/tar-exe/ --update --verbose `cygpath.exe -f ~/OneDrive/tar-exe/utf8-LF-tc-clip-vsc.txt  ` -vv
+cp  --archive --backup=numbered    --parents --strip-trailing-slashes --target-directory=$HOME/OneDrive/tar-exe/ --update --verbose `cygpath.exe -f ~/OneDrive/tar-exe/utf8-LF-tc-clip-vsc.txt  ` -vv
+cd //wsl.localhost/
+cd /w
+ls
+ls -1 /w/home/martin/.*hi*
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep c
+cd /d/umarti/
+ll
+ll */git*
+ll */GIT*
+cd dowNLOADS--SYMLINKED/
+cd reflog-pokus/
+git show
+git status
+git reflog 
+git reflog 
+git reflog 
+git log
+git reflog show 
+git reflog show FETCH_HEAD 
+git reflog show HEAD 
+git reflog show ORIG_HEAD 
+git reflog show main2 
+git reflog show origin/main
+git reflog show origin/main1
+git reflog show origin/main2
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+git log --merges 
+git log --all
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+git reflog show --all
+git reflog show --merges
+git log --all
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
