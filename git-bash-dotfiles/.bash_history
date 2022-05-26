@@ -1329,3 +1329,36 @@ git reflog show --all
 git reflog show --merges
 git log --all
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+mkdir github-pr-experim
+git clone https://github.com/Martin-Milan-org/hyperpolyglot.git
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+cd git-pr-experim-mmorg-hyperpolyglot/
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+ll
+git branch --list  --all -vv
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep remote
+git remote add upstream https://github.com/clarkgrubb/hyperpolyglot.git
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep fetc
+git fetch upstream pull/<pull-request-id>/head:<local-branch-name>
+git fetch upstream pull/34/head:master-pr-34
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep fetc
+git fetch upstream pull/27/head:master-pr-27
+git fetch upstream pull/66/head:master-pr-66
+git push 
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep f
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+cd
+git clone https://github.com/code-rosettas/hyperpolyglot.git
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep fghfg
+cd hyperpolyglot/
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+git remote add upstream https://github.com/clarkgrubb/hyperpolyglot.git
+git fetch upstream pull/27/head:upstream-pull-request-27
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+git push -u origin master 
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+git fetch upstream pull/66/head:upstream-pull-request-66
+git push -u origin master 
+git fetch upstream pull/34/head:upstream-pull-request-34
+history -a
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
