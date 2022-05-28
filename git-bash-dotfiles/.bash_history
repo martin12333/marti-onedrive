@@ -1362,3 +1362,56 @@ git push -u origin master
 git fetch upstream pull/34/head:upstream-pull-request-34
 history -a
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+cd hyperpolyglot/
+git mergetool --help
+git gui
+git merge --help
+git merge --dry-run
+gitq
+gitk
+code .
+git mergetool --gui 
+git merge --abort 
+git merge --help
+git merge -vvv upstream-pull-request-34 
+history -a
+#git merge --strategy=resolve -vvv 
+git merge --abort 
+git merge --strategy=resolve -vvv upstream-pull-request-34 
+git diff
+git diff
+git diff
+git merge --abort 
+history -a
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+git gui
+git merge --abort 
+history -a
+git rebase --help
+history -a
+git gui
+git gui
+history -a
+mv -iv hyperpolyglot fujhyperpolyglot
+git clone https://github.com/code-rosettas/hyperpolyglot.git
+du -m hyperpolyglot/
+git fetch upstream pull/34/head:upstream-pull-request-34
+git remote add upstream https://github.com/clarkgrubb/hyperpolyglot.git
+git fetch upstream pull/34/head:upstream-pull-request-34
+git branch --list  --all -vv
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep git
+git gui
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+pwd
+git branch --list  --all -vv
+git commit -vvv -a -m bkup
+git push -u origin mylen-mar 
+cd hyperpolyglot/
+cd
+git branch --list  --all -vv
+git gui
+git commit -vvv -a -m bkup
+cd hyperpolyglot/
+git remote add upstream https://github.com/clarkgrubb/hyperpolyglot.git
+git branch --list  --all -vv
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
