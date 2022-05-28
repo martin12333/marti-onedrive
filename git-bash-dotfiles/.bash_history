@@ -1415,3 +1415,12 @@ cd hyperpolyglot/
 git remote add upstream https://github.com/clarkgrubb/hyperpolyglot.git
 git branch --list  --all -vv
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+git fetch upstream pull/34/head:upstream-pull-request-34
+git gui
+wsl
+which wsl
+cd
+cd OneDrive/
+git commit -vvv -a -m hyperpoly-make
+git push 
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
