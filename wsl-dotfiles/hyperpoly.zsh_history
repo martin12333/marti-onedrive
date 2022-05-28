@@ -1,0 +1,436 @@
+cd
+git clone https://github.com/code-rosettas/hyperpolyglot.git
+		git clone git@github.com:martin12333/hyperpolyglot.git
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep 'bash -c'
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep git
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep apt
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep make
+		mc
+cd hyperpolyglot
+git clone git@github.com:clarkgrubb/wikidot-to-html.git
+		mc
+which python3
+which pip3
+		erb
+sudo apt install ruby
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep make
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep .
+		make
+		mc
+		echo 'hyperpoly-------'
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep .
+		cd hyperpolyglot
+		make skeleton.db
+		sudo apt install ruby-sqlite3
+		sudo apt update
+		sudo apt install ruby-sqlite3
+		make skeleton.db
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep .
+		mc
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep sqli
+		sqlite3 --h
+		sqlite3 --help
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep sqli
+		ls ~/acloudSUBDIR
+		mc
+		cd
+		cd OneDrive/dr4/MYNOTES-MYNOTES/
+		mc
+		cd
+		tac ~/.sqlite_history
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep sqli
+		cd ~/OneDrive/csv-group-by-sqlite-216
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep sqli
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep s
+		sqlite3
+		sqlite3; cp -v ~/.sqlite_history ~/acloudSUBDIR
+		sqlite=3;cat ~/.sqlite_history  ;sqlite3; cp -v ~/.sqlite_history ~/acloudSUBDIR
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep sqli
+		sqlite=3;cat ~/.sqlite_history; cd ~/OneDrive/csv-group-by-sqlite-216  ;sqlite3 ; cp -v ~/.sqlite_history ~/acloudSUBDIR
+		sqlite=3;cat ~/.sqlite_history; cd ~/OneDrive/csv-group-by-sqlite-216  ;sqlite3 skeleton.db ; cp -v ~/.sqlite_history ~/acloudSUBDIR
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep sqli
+		sqlite=3;cat ~/.sqlite_history; cd ~/OneDrive/csv-group-by-sqlite-216  ;sqlite3 skeleton.db ; cp -v ~/.sqlite_history ~/acloudSUBDIR; cat ~/.sqlite_history|grep sep
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep sqli
+		sqlite=3;cat ~/.sqlite_history; cd ~/OneDrive/csv-group-by-sqlite-216  ;sqlite3 skeleton.db ; cp -v ~/.sqlite_history ~/acloudSUBDIR; cat ~/.sqlite_history|grep mod
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep sqli
+		sqlite=3;cat ~/.sqlite_history; cd ~/OneDrive/csv-group-by-sqlite-216  ;sqlite3 pokus.sqlite ; cp -v ~/.sqlite_history ~/acloudSUBDIR; cat ~/.sqlite_history|grep mod
+		sqlite3 --help
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep sqli
+		sqlite=3;cat ~/.sqlite_history; cd ~/OneDrive/csv-group-by-sqlite-216  ;sqlite3  -header   pokus.sqlite ; cp -v ~/.sqlite_history ~/acloudSUBDIR; cat ~/.sqlite_history|grep mod
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep sqli
+		sqlite=3;cat ~/.sqlite_history; cd ~/OneDrive/csv-group-by-sqlite-216  ;sqlite3  -header   pokus.sqlite ; cp -v ~/.sqlite_history ~/acloudSUBDIR; cat ~/.sqlite_history|grep mod
+		sqlite=3;cat ~/.sqlite_history; cd ~/OneDrive/csv-group-by-sqlite-216  ;sqlite3  -header -csv  pokus.sqlite ; cp -v ~/.sqlite_history ~/acloudSUBDIR; cat ~/.sqlite_history|grep mod
+		sqlite=3;cat ~/.sqlite_history; cd ~/OneDrive/csv-group-by-sqlite-216  ;sqlite3 -header -csv skeleton.db ; cp -v ~/.sqlite_history ~/acloudSUBDIR; cat ~/.sqlite_history|grep mod
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep sqli
+		mc
+		cd ~/OneDrive/hyperpolyglot
+		git clone https://github.com/clarkgrubb/wikidot-to-html.git
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep .
+		cp -v --backup=numbered wikidot-to-html/src/wikidot_to_html.py bin/wikidot_to_html.py
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep .
+		cd ~/old-hyperpolyglot
+		ll markup
+		make --dry-run check.scripting1
+		./bin/table.rb --columns=1,2,3,4,5,6 --file markup/scripting1 --database skeleton.db
+		./bin/table.rb --columns=1,2,3,4,5,6 --file markup/scripting --database skeleton.db
+		./bin/table.rb --columns=1,2,3,4,5,6 --file markup/scripting --database skeleton.db|wc
+		./bin/table.rb --columns=1,2,3,4,5,6 --file markup/scripting --database skeleton.db|less
+		./bin/table.rb --columns=1,2,3,4,5,6 --file markup/scripting --database skeleton.db >1 2>2
+		cd ~/OneDrive/hyperpolyglot
+		./bin/table.rb --columns=1,2,3,4,5,6 --file markup/scripting --database skeleton.db >1 2>2
+		cd ~/old-hyperpolyglot
+		./bin/table.rb --columns=1,2,3,4,5,6 --file markup/scripting2 --database skeleton.db >1 2>&1|wc
+		./bin/table.rb --columns=1,2,3,4,5,6 --file markup/scripting --database skeleton.db >1 2>&1|wc
+		./bin/table.rb --columns=1,2,3,4,5,6 --file markup/scripting --database skeleton.db >1 2>&1|less
+		./bin/table.rb --columns=1,2,3,4,5,6 --file markup/scripting --database skeleton.db >1 2>&1 >1 |less
+		./bin/table.rb --columns=1,2,3,4,5,6 --file markup/scripting --database skeleton.db >1 2>&1 >1 |grep -i erro
+		./bin/table.rb --columns=1,2,3,4,5,6 --file markup/scripting --database skeleton.db >1 2>&1 >1 |grep -i erro|wc
+		./bin/table.rb --columns=1,2,3,4,5,6 --file markup/scripting --database skeleton.db >1 2>&1 >1 |grep -i '\[erro|wc\
+./bin/table.rb --columns=1,2,3,4,5,6 --file markup/scripting --database skeleton.db >1 2>&1 >1 |grep -i erro'|wc
+		./bin/table.rb --columns=1,2,3,4,5,6 --file markup/scripting --database skeleton.db >1 2>&1 >1 |grep -i '\[erro'|wc\
+./bin/table.rb --columns=1,2,3,4,5,6 --file markup/scripting --database skeleton.db >1 2>&1 >1 |grep -i erro'|wc
+		./bin/table.rb --columns=1,2,3,4,5,6 --file markup/scripting --database skeleton.db >1 2>&1 >1 |grep -i '\[erro'|wc
+		./bin/table.rb --columns=1,2,3,4,5,6 --file markup/scripting2 --database skeleton.db >1 2>&1 >1 |grep -i '\[erro'|wc
+		./bin/table.rb --columns=1,2,3,4,5,6 --file markup/shell --database skeleton.db >1 2>&1 >1 |grep -i '\[erro'|wc
+		cd ~/OneDrive/hyperpolyglot
+		cd ~/OneDrive/hyperpolyglot/rename
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep .
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep skele
+		make --dry-run skeleton.db
+		cd ..
+		make --dry-run skeleton.db
+		cd -
+		#./bin/table.rb --parse-skeleton skeleton.txt --database skeleton.db
+		cd -
+		./bin/table.rb --parse-skeleton re skeleton.txt --database skeleton.db
+		./bin/table.rb --parse-skeleton reskeleton.txt --database skeleton1.db
+		ll *db
+		./bin/table.rb --parse-skeleton skeleton.txt --database skeleton0.db
+		rm -iv skeleton.db
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep skele
+		./bin/table.rb --parse-skeleton rename/skeleton.txt --database skeleton2.db
+		./bin/table.rb --parse-skeleton rename/scripting --database skeleton2.db
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep skele
+		./bin/table.rb --columns=1,2,3,4,5,6 --file markup/shell --database skeleton0.db
+		./bin/table.rb --columns=1,2,3,4,5 --file markup/shell --database skeleton0.db
+		./bin/table.rb --columns=1,2,3,4 --file markup/shell --database skeleton0.db
+		./bin/table.rb --columns=1,2,3 --file markup/shell --database skeleton0.db |head
+		./bin/table.rb --columns=1,2,3 --file markup/shell --database skeleton0.db |less
+		./bin/table.rb --columns=1,2 --file markup/shell --database skeleton0.db |less
+		./bin/table.rb --columns=1 --file markup/shell --database skeleton0.db |less
+		./bin/table.rb --columns=2 --file markup/shell --database skeleton0.db |less
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep skele
+		./bin/table.rb --columns=1 --file markup/c --database skeleton.db >1 2>&1 >1 |grep -i '\[erro'|wc
+		./bin/table.rb --columns=1 --file markup/c --database skeleton.db >1 2>&1 >1 |grep -i '\[erro'
+		ll ske*
+		./bin/table.rb --parse-skeleton skeleton.txt --database skeleton.db
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep skele
+		./bin/table.rb --columns=1 --file markup/c --database skeleton.db >1 2>&1 >1 |grep -i '\[erro'
+		./bin/table.rb --columns=1 --file markup/c --database skeleton.db >1 2>&1 >1 |grep -i '\[erro'|wc
+		./bin/table.rb --columns=1 --file markup/cpp --database skeleton.db >1 2>&1 >1 |grep -i '\[erro'|wc
+		./bin/table.rb --columns=1 --file markup/lisp --database skeleton.db >1 2>&1 >1 |grep -i '\[erro'|wc
+		./bin/table.rb --columns=1 --file markup/scripting --database skeleton.db >1 2>&1 >1 |grep -i '\[erro'|wc
+		./bin/table.rb --columns=1 --file markup/scripting --database skeleton.db >1 2>&1 >1 |grep -i '\[erro'
+		./bin/table.rb --columns=1,2 --file markup/scripting --database skeleton.db >1 2>&1 >1 |grep -i '\[erro'
+		./bin/table.rb --columns=1,2,3 --file markup/scripting --database skeleton.db >1 2>&1 >1 |grep -i '\[erro'
+		./bin/table.rb --columns=1,2,3,4,5,6 --file markup/scripting --database skeleton.db >1 2>&1 >1 |grep -i '\[erro'
+		./bin/table.rb --columns=1,2,3,4,5,6 --file markup/scripting --database skeleton.db >1 2>&1 >1 |grep -i '\[erro'|wc
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep skele
+		./bin/table.rb --columns=1 --file markup/shell --database skeleton.db |less
+		cd markup
+		cd ~/down21
+		cd ..
+		ll |less
+		mc
+		cd ~/dowd-umarti--DOWNLOADS-------------
+		ll
+		cd ~/dowd-umarti--DOWNLOADS-------------/downloads----------------DOW-link
+		ll
+		ls -latr
+		sort hyperpolyglot-skeleton\ -\ e.title.tsv >sort
+		uniq --all-repeated sort
+		man sort
+		man uniq
+		uniq --all-repeated sort
+		uniq --repeated
+		uniq --repeated sort
+		uniq --repeated sort|wc
+		uniq --all-repeated sort|wc
+		sort hyperpolyglot-skeleton\ -\ e.anchor.tsv >sort
+		uniq --repeated sort
+		mc
+		cd -
+		cd
+		cd ~/OneDrive/hyperpolyglot/markup
+		grep '^[|][|]\[' scripting|wc
+		grep '^[|][|]' scripting|wc
+		grep '^[|]' scripting|wc
+		grep '^' scripting|wc
+		grep '^[|][|]\[' scripting|cut -d '|' -f 3
+		grep '^[|][|]\[' scripting|cut -d '|' -f 3|cut -c 1-3|sort -u
+		grep '^[|][|]\[' scripting|cut -d '|' -f 3|cut -c 1-5|sort -u
+		grep '^[|][|]\[' scripting|cut -d '|' -f 3| grep -v note
+		grep '^[|][|]\[' scripting|cut -d '|' -f 3| tr -s ' []#'
+		grep '^[|][|]\[' scripting|cut -d '|' -f 3| tr -s ' []#' ' '
+		grep '^[|][|]\[' scripting|cut -d '|' -f 3| tr -s ' []#' ' ' | cut -d ' ' -f 2
+		grep '^[|][|]\[' scripting|cut -d '|' -f 3| tr -s ' []#' ' ' | cut -d ' ' -f 2|less
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep skele
+		cat *|grep '^[|][|]\[' |cut -d '|' -f 3      | tr -s ' []#' ' ' | cut -d ' ' -f 2|less
+		cat *|grep '^[|][|]\[' |cut -d '|' -f 3      | tr -s ' []#' ' ' | cut -d ' ' -f 2| sort -u|wc
+		cat *|grep '^[|][|]\[' |cut -d '|' -f 3      | tr -s ' []#' ' ' | cut -d ' ' -f 2| sort -u|less
+		cat *|grep '^[|][|]\[' |cut -d '|' -f 3      | tr -s ' []#' ' ' | cut -d ' ' -f 2| sort -u|uniq --repeated
+		cat *|grep '^[|][|]\[' |cut -d '|' -f 3      | tr -s ' []#' ' ' | cut -d ' ' -f 2| sort -u|uniq --repeated # Oops -u uniq
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep skele
+		cat *|grep '^[|][|]\[' |cut -d '|' -f 3      | tr -s ' []#' ' ' | cut -d ' ' -f 2| sort -u|uniq --repeated # Oops -u uniq
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep skele
+		grep '^[|][|]\[' scripting|cut -d '|' -f 3| tr -s ' []#' ' ' | cut -d ' ' -f 2|less
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep g
+		grep '^[|][|]\[' scripting|cut -d '|' -f 3| tr -s ' []#' ' ' | cut -d ' ' -f 2|sort|uniq --repeated
+		for x in * ; do ;  echo $x|grep '^[|][|]\[' scripting|cut -d '|' -f 3| tr -s ' []#' ' ' | cut -d ' ' -f 2|sort|uniq --repeated \
+done
+		for x in * ; do ;  grep '^[|][|]\[' $x|cut -d '|' -f 3| tr -s ' []#' ' ' | cut -d ' ' -f 2|sort|uniq --repeated \
+done
+		for x in * ; do ;  grep '^[|][|]\[' $x|cut -d '|' -f 3| tr -s ' []#' ' ' | cut -d ' ' -f 2|sort|uniq --all-repeated\
+done
+		for x in * ; do ;  grep '^[|][|]\[\[' $x|cut -d '|' -f 3| tr -s ' []#' ' ' | cut -d ' ' -f 2|sort|uniq --all-repeated\
+done
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | tail
+		for x in * ; do ; echo; echo $x;  grep '^[|][|]\[\[' $x|cut -d '|' -f 3| tr -s ' []#' ' ' | cut -d ' ' -f 2|sort|uniq --all-repeated\
+done
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | tail
+		for x in * ; do ; echo; echo $x;  grep '^[|][|]\[\[' $x|cut -d '|' -f 3| tr -s ' []#' ' ' | cut -d ' ' -f 2|sort|uniq --all-repeated\
+done
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | tail
+		grep '^[|][|]\[' scripting scripting2  |cut -d '|' -f 3| tr -s ' []#' ' ' | cut -d ' ' -f 2|sort|uniq --repeated
+		cat scripting scripting2  |grep '^[|][|]\['   |cut -d '|' -f 3| tr -s ' []#' ' ' | cut -d ' ' -f 2|sort|uniq --repeated
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | tail
+		cd ~/OneDrive/hyperpoly-master/json
+		grep '^  \"' posix-shell.json   |cut -d ' ' -f 3 | tr -s ' []#' ' ' | cut -d ' ' -f 2
+		grep '^  \"' posix-shell.json   |cut -d ' ' -f 3 | tr -s ' []#"' ' ' | cut -d ' ' -f 2
+		grep '^  \"' posix-shell.json   |cut -d ' ' -f 3 | tr -s ' []#"' ' ' | cut -d ' ' -f 2|wc
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | tail
+		grep '^  \"' posix-shell.json   |cut -d ' ' -f 3 | tr -s ' []#"' ' ' | cut -d ' ' -f 2|sort|uniq --all-repeated
+		grep '^  \"' posix-shell.json   |cut -d ' ' -f 3 | tr -s ' []#"' ' ' | cut -d ' ' -f 2|sort|uniq
+		for x in * ; do ; grep '^  \"' posix-shell.json   |cut -d ' ' -f 3 | tr -s ' []#"' ' ' | cut -d ' ' -f 2|sort|uniq --all-repeated ; done
+		for x in * ; do ; grep '^  \"' $x   |cut -d ' ' -f 3 | tr -s ' []#"' ' ' | cut -d ' ' -f 2|sort|uniq --all-repeated ; done
+		for x in * ; do ; echo;echo $x;grep '^  \"' $x   |cut -d ' ' -f 3 | tr -s ' []#"' ' ' | cut -d ' ' -f 2|sort|uniq --all-repeated ; done
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | tail
+		cat *| grep '^  \"' $x   |cut -d ' ' -f 3 | tr -s ' []#"' ' ' | cut -d ' ' -f 2|sort -u
+		cat *| grep '^  \"' $x   |cut -d ' ' -f 3 | tr -s ' []#"' ' ' | cut -d ' ' -f 2|sort -u|wc
+		ll
+		cat *| grep '^  \"'  |cut -d ' ' -f 3 | tr -s ' []#"' ' ' | cut -d ' ' -f 2|sort -u|wc
+		cat *| grep '^  \"'  |cut -d ' ' -f 3 | tr -s ' []#"' ' ' | cut -d ' ' -f 2|sort -u
+		cat *| grep '^  \"'  |cut -d ' ' -f 3 | tr -s ' []#"' ' ' | cut -d ' ' -f 2|sort -u >~/json1351
+		cat *| grep '^  \"'  |cut -d ' ' -f 3 | tr -s ' []#"' ' ' | cut -d ' ' -f 2|sort -u|wc
+		cat *|grep '^[|][|]\[' |cut -d '|' -f 3      | tr -s ' []#' ' ' | cut -d ' ' -f 2| sort -u|wc
+		cd
+		cd ~/OneDrive/hyperpolyglot/markup
+		cat *|grep '^[|][|]\[' |cut -d '|' -f 3      | tr -s ' []#' ' ' | cut -d ' ' -f 2| sort -u|wc
+		cat *|grep '^[|][|]\[' |cut -d '|' -f 3      | tr -s ' []#' ' ' | cut -d ' ' -f 2| sort -u >~/markup2200
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | tail
+		mc
+		cd
+		cp markup2200 markup.anchors
+		cp json1351 json.anchors
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep comm
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep 'comm '
+		comm -2 markup.anchors json.anchors
+		man comm
+		comm -13 markup.anchors json.anchors
+		comm -13 markup.anchors json.anchors|wc
+		comm -3  markup.anchors json.anchors |less
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep 'comm '
+		comm -3  markup.anchors json.anchors |less
+		mc
+		comm -3  markup.anchors skel.anchors |less
+		comm -13  markup.anchors skel.anchors |less
+		comm -13  markup.anchors skel.anchors |wc
+		comm -23  markup.anchors skel.anchors |wc
+		comm -12  markup.anchors skel.anchors |wc
+		comm -12  markup.anchors skel.anchors |cat -v
+		comm -13  markup.anchors skel.anchors |cat -v
+		comm   markup.anchors skel.anchors |cat -v
+		tr -d '\r' <skel.anchors
+		tr -d '\r' <skel.anchors >skel-lf.anchors
+		comm   markup.anchors skel-lf.anchors |cat -v
+		comm   markup.anchors skel-lf.anchors
+		comm -12  markup.anchors skel-lf.anchors
+		comm -13  markup.anchors skel-lf.anchors
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep 'comm '
+		comm -12  markup.anchors skel-lf.anchors |wc
+		comm -13  markup.anchors skel-lf.anchors |wc
+		comm -23  markup.anchors skel-lf.anchors |wc
+		comm   markup.anchors skel-lf.anchors |wc
+		comm   markup.anchors skel-lf.anchors |less
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | tail
+		sort -u   markup.anchors skel-lf.anchors |wc
+		comm   markup.anchors skel-lf.anchors |wc
+		sort -u   markup.anchors skel-lf.anchors json.anchors
+		sort -u   markup.anchors skel-lf.anchors json.anchors|wc
+		sort -u   markup.anchors skel-lf.anchors |wc
+		sort -u   markup.anchors  json.anchors|wc
+		sort -u   skel-lf.anchors json.anchors|wc
+		wc   markup.anchors skel-lf.anchors json.anchors
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | tail
+		comm -12  markup.anchors skel-lf.anchors
+		comm -12  markup.anchors skel-lf.anchors |wc
+		comm -12  markup.anchors skel-lf.anchors >comm-12-mark-skel
+		comm -12  markup.anchors json.anchors >comm-12-mark-json
+		wc comm-12-mark-json
+		comm -12  json.anchors skel-lf.anchors |wc
+		sort -u co*
+		sort -u co*|wc
+		comm -12 comm-12*|wc
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | tail
+		comm -13  markup.anchors skel-lf.anchors |wc
+		comm -13  markup.anchors skel-lf.anchors
+		comm -13  markup.anchors skel-lf.anchors |less
+		comm -3  markup.anchors skel-lf.anchors
+		comm -3  markup.anchors skel-lf.anchors |less
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | tail
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep wisp
+		ls *wisp*
+		ls -ld *wisp*
+		cd wisp-1.0.5
+		rlwrap guile -L . --language=wisp # in the wisp-folder
+		cd wisp-1.0.5
+		cd
+		cd wisp-1.0.5
+		rlwrap guile -L . --language=wisp # in the wisp-folder
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep w
+		ipython3
+		cd ~/OneDrive/a,complangs-215-hyperpoly
+		ipython3 inner-func-1.py
+		ipython3
+		cat --help
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep configu
+		mc
+		cd wisp-1.0.5
+		rlwrap ./wisp
+		rlwrap wisp
+		./wisp
+		wget https://www.draketo.de/software/wisp-1.0.5.tar.gz
+		wget https://www.draketo.de/software/wisp-1.0.7.tar.gz
+		wget https://www.draketo.de/software/wisp-1.0.7.tar.gz ; \\
+		 cd wisp-1.0.7/
+		./configure
+		grep check Makefile
+		make check
+		wisp
+		./wisp
+		rlwrap ./wisp
+		rlwrap guile -L . --language=wisp # in the wisp-folder
+		make check
+		examples/newbase60.w 123
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep make
+		make --dry-run
+		make --dry-run check
+		less configure
+		rlwrap guile -L . --language=wisp # in the wisp-folder
+		man git-reflog
+		man git-log
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep make
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep m
+		man git-merge
+		man git-rebase
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep make
+		cd ~/marti/hyperpolyglot
+		make skeleton.db
+		make --dry-run check.scripting1
+		make --dry-run check
+		make --dry-run
+		make --dry-run --help
+		make -p
+		make --dry-run --help
+		make --print-data-base|less
+		ll
+		make --dry-run master/shell.html
+		make --dry-run shell.html
+		make --dry-run markup/shell
+		make --dry-run build/shell.html
+		make  build/shell.html
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep cp
+		cp -v --backup=numbered wikidot-to-html/src/wikidot_to_html.py bin/wikidot_to_html.py
+		pwd
+		make  build/shell.html
+		make --dry-run build
+		make --dry-run builds
+		make  builds
+		make --keep-going builds
+		cd ~/marti/hyperpolyglot
+		make --keep-going builds
+		echo '------- git commit ... hyperpoly-make   ------'
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep cp
+		cat .zsh_history | nl | sed -n 'p'  | head
+		cat .zsh_history | nl | sed -n '/echo/p'  | head
+		cat .zsh_history | nl | sed -n '/echo/,$p'  | head
+		cat .zsh_history | nl | sed -n '/echo/-1,$p'  | head
+		cat .zsh_history | nl | sed -n '/hype/,$p'  | head
+		cat .zsh_history | nl | sed -n '/hyper/,$p'  | head
+		cat .zsh_history | nl | sed -n '/5960/,$p'  | head
+		cat .zsh_history | nl | sed -n '/5960 /,$p'  | head
+		cat .zsh_history | nl | sed -n '/5960\t/,$p'  | head
+		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep sed
+		cat .zsh_history | nl | sed -n '/5960 /,$p'  | head
+		cat .zsh_history | nl | sed -n '/hyper/,$p'  | tail
+		cat .zsh_history | nl | sed -n '/hyper/,$p'  | wc
+		cat .zsh_history | nl | sed -n '/echo/p'  | head
+		cat .zsh_history | nl | sed -n '/echo .-/p'  | head
+		cat .zsh_history | nl | sed -n '/echo .---/p'  | head
+		history1234567=1; cat ~/.zsh_history ; echo '---                    ---' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep sed
+		cd
+		history1234567=1; cat ~/.zsh_history ; echo '---                    ---' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep sed
+		cat .zsh_history | nl | sed -n '/;echo .---/p'  | head
+		cat .zsh_history | nl | sed -n '/;echo .===/p'  | head
+		history1234567=1; cat ~/.zsh_history ; echo '---                    ---' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep .
+		cat .zsh_history | nl | sed -n '/hyper/,$p'  | wc
+		cat .zsh_history   | sed -n '/hyper/,$p'  | wc
+		cat .zsh_history   | sed -n '/hyper/,$p'  >1 # hyperpoly.zsh_history
+		mv -iv 1  hyperpoly.zsh_history
+		echo '======= part 225r ======='
+		cat .zsh_history   | sed -n '/hyper/,$p'  >1 # hyperpoly.zsh_history
+		mv -iv 1  hyperpoly.zsh_history
+		cp -iv hyperpoly.zsh_history ~/acloudSUBDIR
+		history1234567=1; cat ~/.zsh_history ; echo '---                    ---' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep hyper
+		history1234567=1; cat ~/.zsh_history ; echo '---                    ---' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep '[:]'
+		history
+		history|grep [:]
+		history|grep '[:]'
+		history|grep '[:]'|grep sed
+		history1234567=1; cat ~/.zsh_history ; echo '---                    ---' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep seed
+		history1234567=1; cat ~/.zsh_history ; echo '---                    ---' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep sed
+		sed  --regexp-extended 's/.*[;]//'  hyperpoly.zsh_history
+		sed  --regexp-extended 's/.*[;]/\t/'  hyperpoly.zsh_history
+		history1234567=1; cat ~/.zsh_history ; echo '---                    ---' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep sed
+		history
+		history1234567=1; cat ~/.zsh_history ; echo '---                    ---' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep sed
+		sed --in-place  --regexp-extended 's/.*[;]/\t/'  hyperpoly.zsh_history
+		cat hyperpoly.zsh_history
+		cp -iv hyperpoly.zsh_history ~/acloudSUBDIR
+		echo '======= part 225s ======='
+		history1234567=1; cat ~/.zsh_history ; echo '---                    ---' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep .
+		cat .zsh_history   | sed -n '/hyper/,$p'  >1 # hyperpoly.zsh_history
+		mv -iv 1  hyperpoly.zsh_history
+		sed --in-place  --regexp-extended 's/.*[;]/\t/'  hyperpoly.zsh_history
+		cp -iv hyperpoly.zsh_history ~/acloudSUBDIR
+		echo '======= part 225s2 ======='
+		cat .zsh_history   | sed -n '/hyper/,$p'  >1 # hyperpoly.zsh_history
+		mv -iv 1  hyperpoly.zsh_history
+		sed --in-place  --regexp-extended 's/.*[;]/\t/'  hyperpoly.zsh_history
+		cp -iv hyperpoly.zsh_history ~/acloudSUBDIR
+		history1234567=1; cat ~/.zsh_history ; echo '---                    ---' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep .
+		cat .zsh_history   | sed -n '/hyper/,$p'  >1 # hyperpoly.zsh_history
+		cp -iv 1  hyperpoly.zsh_history
+		sed --in-place  --regexp-extended 's/.*[;]/\t\t/'  hyperpoly.zsh_history
+		cp -iv hyperpoly.zsh_history ~/acloudSUBDIR
+		history1234567=1; cat ~/.zsh_history ; echo '---                    ---' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep .
+		echo '======= part 225s3 ======='
+		history1234567=1; cat ~/.zsh_history ; echo '---                    ---' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep '===='
+		cat .zsh_history   | sed -n '/hyper/,$p'  >1 # hyperpoly.zsh_history
+		cp -iv 1  hyperpoly.zsh_history
+		sed   --regexp-extended 's/^[^;]*[;]/\t\t/' 1 >2
+		tail 2
+		head 2
+		cat 2| tee hyperpoly.zsh_history
+		echo '======= part 225s4 ======='
+		cat .zsh_history   | sed -n '/hyper/,$p'  >1 # hyperpoly.zsh_history
