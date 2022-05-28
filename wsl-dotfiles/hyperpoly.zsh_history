@@ -356,14 +356,14 @@ done
 		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep cp
 		cp -v --backup=numbered wikidot-to-html/src/wikidot_to_html.py bin/wikidot_to_html.py
 		pwd
-		make  build/shell.html
+make  build/shell.html
 		make --dry-run build
-		make --dry-run builds
+make --dry-run builds
 		make  builds
 		make --keep-going builds
-		cd ~/marti/hyperpolyglot
-		make --keep-going builds
-		echo '------- git commit ... hyperpoly-make   ------'
+cd ~/marti/hyperpolyglot
+make --keep-going builds
+echo '------- git commit ... hyperpoly-make   ------'
 		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep cp
 		cat .zsh_history | nl | sed -n 'p'  | head
 		cat .zsh_history | nl | sed -n '/echo/p'  | head
@@ -426,15 +426,18 @@ done
 		cat .zsh_history   | sed -n '/hyper/,$p'  >1 # hyperpoly.zsh_history
 		cp -iv 1  hyperpoly.zsh_history
 		sed --in-place  --regexp-extended 's/.*[;]/\t\t/'  hyperpoly.zsh_history
-		cp -iv hyperpoly.zsh_history ~/acloudSUBDIR
+cp -iv hyperpoly.zsh_history ~/acloudSUBDIR
 		history1234567=1; cat ~/.zsh_history ; echo '---                    ---' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep .
-		echo '======= part 225s3 ======='
+echo '======= part 225s3 ======='
 		history1234567=1; cat ~/.zsh_history ; echo '---                    ---' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep '===='
-		cat .zsh_history   | sed -n '/hyper/,$p'  >1 # hyperpoly.zsh_history
-		cp -iv 1  hyperpoly.zsh_history
-		sed   --regexp-extended 's/^[^;]*[;]/\t\t/' 1 >2
+cat .zsh_history   | sed -n '/hyper/,$p'  >1 # hyperpoly.zsh_history
+		###cp -iv 1  hyperpoly.zsh_history
+sed   --regexp-extended 's/^[^;]*[;]/\t\t/' 1 >2
 		tail 2
 		head 2
-		cat 2| tee hyperpoly.zsh_history
-		echo '======= part 225s4 ======='
+cat 2| tee hyperpoly.zsh_history
+
+cp -iv hyperpoly.zsh_history ~/acloudSUBDIR
+
+echo '======= part 225s4 ======='
 		cat .zsh_history   | sed -n '/hyper/,$p'  >1 # hyperpoly.zsh_history
