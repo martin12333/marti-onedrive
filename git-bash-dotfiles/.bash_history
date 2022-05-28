@@ -1446,3 +1446,9 @@ cp -iv ~/hyperpoly.history ~/acloudSUBDIR
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
 cat ~/.bash_history   | sed -n '/hyperpolyglot[.]/,$p'  |sed   --regexp-extended                    's/^/\t\t/'   | tee ~/hyperpoly.history|less
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+cd OneDrive/
+git add -vv -f wsl-dotfiles/hyperpoly.zsh_history 
+git add -vv -f ps-mylen-mar/hyperpoly.history 
+git commit -vvv -a -m bk
+git push
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .

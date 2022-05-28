@@ -1,3 +1,6 @@
+## in git-bash in Windows
+
+
 		git clone https://github.com/Martin-Milan-org/hyperpolyglot.git
 		history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
 		cd git-pr-experim-mmorg-hyperpolyglot/
@@ -61,10 +64,15 @@
 		git gui
 		history -a
 		mv -iv hyperpolyglot fujhyperpolyglot
-		git clone https://github.com/code-rosettas/hyperpolyglot.git
+cd
+
+git clone https://github.com/code-rosettas/hyperpolyglot.git
+
+cd hyperpolyglot/
+
 		du -m hyperpolyglot/
 		git fetch upstream pull/34/head:upstream-pull-request-34
-		git remote add upstream https://github.com/clarkgrubb/hyperpolyglot.git
+git remote add upstream https://github.com/clarkgrubb/hyperpolyglot.git
 		git fetch upstream pull/34/head:upstream-pull-request-34
 		git branch --list  --all -vv
 		history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep git
@@ -79,11 +87,14 @@
 		git branch --list  --all -vv
 		git gui
 		git commit -vvv -a -m bkup
-		cd hyperpolyglot/
-		git remote add upstream https://github.com/clarkgrubb/hyperpolyglot.git
+
+cd
+cd hyperpolyglot/
+git remote add upstream https://github.com/clarkgrubb/hyperpolyglot.git
+
 		git branch --list  --all -vv
 		history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
-		git fetch upstream pull/34/head:upstream-pull-request-34
+git fetch upstream pull/34/head:upstream-pull-request-34
 		git gui
 		wsl
 		which wsl
@@ -95,6 +106,8 @@
 		git commit -vvv -a -m bk
 		git commit -vvv -a -m bk
 		git push
+
+
 		cat ~/.bash_history   | sed -n '/hyper/,$p'  |sed   --regexp-extended                    's/^[^;]*[;]/\t\t/'    | tee ~/hyperpoly.history
 		cp -iv ~/hyperpoly.zsh_history ~/acloudSUBDIR
 		cat ~/.bash_history   | sed -n '/hyper/,$p'  |sed   --regexp-extended                    's/^[^;]*[;]/\t\t/'    | tee ~/hyperpoly.history
@@ -105,6 +118,6 @@
 		cat ~/.bash_history |nl  | sed -n '/hyperpolyglot[.]/,$p'  |sed   --regexp-extended                    's/^[^;]*[;]/\t\t/'    | tee ~/hyperpoly.history|less
 		cat ~/.bash_history |nl  | sed -n '/hyperpolyglot[.]/,$p'  | tee ~/hyperpoly.history|less
 		cat ~/.bash_history |nl  | sed -n '/hyperpolyglot[.]/,$p'  | tee ~/hyperpoly.history|less
-		cat ~/.bash_history   | sed -n '/hyperpolyglot[.]/,$p'  |sed   --regexp-extended                    's/^/\t\t/'   | tee ~/hyperpoly.history|less
+cat ~/.bash_history   | sed -n '/hyperpolyglot[.]/,$p'  |sed   --regexp-extended                    's/^/\t\t/'   | tee ~/hyperpoly.history|less
 		cp -iv ~/hyperpoly.history ~/acloudSUBDIR
 		history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .

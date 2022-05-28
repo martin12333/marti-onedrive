@@ -1,18 +1,22 @@
-cd
-git clone https://github.com/code-rosettas/hyperpolyglot.git
-		git clone git@github.com:martin12333/hyperpolyglot.git
+
+## in Ubuntu 20.04
+
+		##git clone git@github.com:martin12333/hyperpolyglot.git
 		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep 'bash -c'
 		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep git
 		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep apt
 		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep make
 		mc
+
+cd ...
 cd hyperpolyglot
-git clone git@github.com:clarkgrubb/wikidot-to-html.git
+git clone https://github.com/clarkgrubb/wikidot-to-html.git
+		#git clone git@github.com:clarkgrubb/wikidot-to-html.git
 		mc
-which python3
-which pip3
+		which python3
+		which pip3
 		erb
-sudo apt install ruby
+sudo apt install ruby make python3
 		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep make
 		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep .
 		make
@@ -20,7 +24,7 @@ sudo apt install ruby
 		echo 'hyperpoly-------'
 		history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep .
 		cd hyperpolyglot
-		make skeleton.db
+make skeleton.db
 		sudo apt install ruby-sqlite3
 		sudo apt update
 		sudo apt install ruby-sqlite3
