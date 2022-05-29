@@ -19,6 +19,7 @@ git clone https://github.com/clarkgrubb/wikidot-to-html.git
 		# which pip3
 		# erb
 
+sudo apt update
 sudo apt install ruby make python3
 		# history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep make
 		# history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep .
@@ -30,8 +31,7 @@ sudo apt install ruby make python3
 
 make skeleton.db
 		# sudo apt install ruby-sqlite3
-		# sudo apt update
-		# sudo apt install ruby-sqlite3
+sudo apt install ruby-sqlite3
 		# make skeleton.db
 		# history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep .
 		# mc
@@ -47,7 +47,7 @@ make skeleton.db
 		# cd
 		# tac ~/.sqlite_history
 		# history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep sqli
-		# cd ~/OneDrive/csv-group-by-sqlite-216
+cd ~/OneDrive/csv-group-by-sqlite-216
 		# history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep sqli
 		# history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep s
 		# sqlite3
@@ -68,13 +68,13 @@ make skeleton.db
 		# history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep sqli
 		# sqlite=3;cat ~/.sqlite_history; cd ~/OneDrive/csv-group-by-sqlite-216  ;sqlite3  -header   pokus.sqlite ; cp -v ~/.sqlite_history ~/acloudSUBDIR; cat ~/.sqlite_history|grep mod
 		# sqlite=3;cat ~/.sqlite_history; cd ~/OneDrive/csv-group-by-sqlite-216  ;sqlite3  -header -csv  pokus.sqlite ; cp -v ~/.sqlite_history ~/acloudSUBDIR; cat ~/.sqlite_history|grep mod
-		# sqlite=3;cat ~/.sqlite_history; cd ~/OneDrive/csv-group-by-sqlite-216  ;sqlite3 -header -csv skeleton.db ; cp -v ~/.sqlite_history ~/acloudSUBDIR; cat ~/.sqlite_history|grep mod
+sqlite=3;cat ~/.sqlite_history; cd ~/OneDrive/csv-group-by-sqlite-216  ;sqlite3 -header -csv skeleton.db ; cp -v ~/.sqlite_history ~/acloudSUBDIR; cat ~/.sqlite_history|grep mod
 		# history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep sqli
 		# mc
-		# cd ~/OneDrive/hyperpolyglot
+cd ~/OneDrive/hyperpolyglot
 		# git clone https://github.com/clarkgrubb/wikidot-to-html.git
 		# history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep .
-		# cp -v --backup=numbered wikidot-to-html/src/wikidot_to_html.py bin/wikidot_to_html.py
+cp -v --backup=numbered wikidot-to-html/src/wikidot_to_html.py bin/wikidot_to_html.py
 		# history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep .
 		# cd ~/old-hyperpolyglot
 		# ll markup
@@ -142,7 +142,7 @@ make skeleton.db
 		# ./bin/table.rb --columns=1,2 --file markup/scripting --database skeleton.db >1 2>&1 >1 |grep -i '\[erro'
 		# ./bin/table.rb --columns=1,2,3 --file markup/scripting --database skeleton.db >1 2>&1 >1 |grep -i '\[erro'
 		# ./bin/table.rb --columns=1,2,3,4,5,6 --file markup/scripting --database skeleton.db >1 2>&1 >1 |grep -i '\[erro'
-		# ./bin/table.rb --columns=1,2,3,4,5,6 --file markup/scripting --database skeleton.db >1 2>&1 >1 |grep -i '\[erro'|wc
+./bin/table.rb --columns=1,2,3,4,5,6 --file markup/scripting --database skeleton.db >1 2>&1 >1 |grep -i '\[erro'|wc
 		# history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep skele
 		# ./bin/table.rb --columns=1 --file markup/shell --database skeleton.db |less
 		# cd markup
@@ -155,7 +155,7 @@ make skeleton.db
 		# cd ~/dowd-umarti--DOWNLOADS-------------/downloads----------------DOW-link
 		# ll
 		# ls -latr
-		# sort hyperpolyglot-skeleton\ -\ e.title.tsv >sort
+sort hyperpolyglot-skeleton\ -\ e.title.tsv >sort
 		# uniq --all-repeated sort
 		# man sort
 		# man uniq
@@ -169,7 +169,7 @@ make skeleton.db
 		# mc
 		# cd -
 		# cd
-		# cd ~/OneDrive/hyperpolyglot/markup
+cd ~/OneDrive/hyperpolyglot/markup
 		# grep '^[|][|]\[' scripting|wc
 		# grep '^[|][|]' scripting|wc
 		# grep '^[|]' scripting|wc
@@ -238,8 +238,8 @@ make skeleton.db
 		# history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | tail
 		# mc
 		# cd
-		# cp markup2200 markup.anchors
-		# cp json1351 json.anchors
+cp markup2200 markup.anchors
+cp json1351 json.anchors
 		# history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep comm
 		# history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep 'comm '
 		# comm -2 markup.anchors json.anchors
@@ -294,10 +294,10 @@ make skeleton.db
 		# comm -13  markup.anchors skel-lf.anchors
 		# comm -13  markup.anchors skel-lf.anchors |less
 		# comm -3  markup.anchors skel-lf.anchors
-		# comm -3  markup.anchors skel-lf.anchors |less
+comm -3  markup.anchors skel-lf.anchors |less
 		# history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | tail
 		# history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep wisp
-		# ls *wisp*
+ls *wisp*
 		# ls -ld *wisp*
 		# cd wisp-1.0.5
 		# rlwrap guile -L . --language=wisp # in the wisp-folder
@@ -334,7 +334,7 @@ make skeleton.db
 		# make --dry-run
 		# make --dry-run check
 		# less configure
-		# rlwrap guile -L . --language=wisp # in the wisp-folder
+rlwrap guile -L . --language=wisp # in the wisp-folder
 		# man git-reflog
 		# man git-log
 		# history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep make
@@ -347,18 +347,18 @@ make skeleton.db
 		# make --dry-run check.scripting1
 		# make --dry-run check
 		# make --dry-run
-		# make --dry-run --help
+make --dry-run --help
 		# make -p
 		# make --dry-run --help
-		# make --print-data-base|less
+make --print-data-base|less
 		# ll
 		# make --dry-run master/shell.html
 		# make --dry-run shell.html
 		# make --dry-run markup/shell
-		# make --dry-run build/shell.html
-		# make  build/shell.html
+make --dry-run build/shell.html
+make  build/shell.html
 		# history1234567=1; cat ~/.zsh_history ; echo '------------------' ; cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep cp
-		# cp -v --backup=numbered wikidot-to-html/src/wikidot_to_html.py bin/wikidot_to_html.py
+cp -v --backup=numbered wikidot-to-html/src/wikidot_to_html.py bin/wikidot_to_html.py
 		# pwd
 make  build/shell.html
 		# make --dry-run build
