@@ -2548,3 +2548,16 @@ cmd /c dir .git /s /b /a
 cd ..
 cmd /c dir .git /s /b /a
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i g
+ls
+$y=Get-Content .\OneDrive\tar-exe\utf8-LF-tc-clip-vsc.txt
+$y
+$y[2]
+$y[20]
+$y[11]
+$y[0]
+$y.Length
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i copy
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i cp
+foreach($x in $y){echo "$x"}
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i while
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i tru

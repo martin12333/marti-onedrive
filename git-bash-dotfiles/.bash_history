@@ -1481,3 +1481,5 @@ git gui
 cd
 git commit -vvv -a -m git-gui-config
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+wsl
+cmd

@@ -5,7 +5,7 @@ c:\Users\marti\AppData\Roaming\Code\User\settings.json
 c:\Users\marti\AppData\Roaming\Code\User\keybindings.json
 C:\Users\marti\AppData\Roaming\GHISLER\wincmd.ini
 C:\Users\marti\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-C:\Users\marti\pokus-bkup.txt
+C:\Users\marti\hyperpolyglot\build\hyperpolyglot.css
 /w/home/martin/.bash_history
 /w/home/martin/.guile_history
 /w/home/martin/.lsc_history
@@ -14,3 +14,4 @@ C:\Users\marti\pokus-bkup.txt
 /w/home/martin/.sbcl_history
 /w/home/martin/.sqlite_history
 /w/home/martin/.zsh_history
+C:\Users\marti\pokus-bkup.txt
