@@ -9,11 +9,15 @@
 # C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 
 
-echo 'ps1'
+echo mymyrsync
 
-sleep 60
 
-pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymycron.ps1
+
+###pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
+
+Get-Date
+
+
 
 #bash
 #C:\Pf\Git\git-bash.exe C:\Users\marti\OneDrive\git-bash-dotfiles\mystartup.sh
@@ -25,9 +29,9 @@ pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mym
 ##C:\Pf\Git\bin\bash.exe C:\Users\marti\OneDrive\git-bash-dotfiles\mystartup.sh
 #C:\Pf\Git\bin\bash.exe
 
-echo po bash
+echo posjfdkfd
 
-cmd /c pause
+#cmd /c pause
 
 
 ##rem set PROMPT= a.cmd...

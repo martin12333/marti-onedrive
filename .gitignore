@@ -58,6 +58,7 @@ alm*/
 !*.sh
 !*istory*
 !*.cmd
+!*.ps1
 
 
 !*.txt

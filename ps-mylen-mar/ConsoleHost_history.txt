@@ -2561,3 +2561,9 @@ cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\Cons
 foreach($x in $y){echo "$x"}
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i while
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i tru
+1 -eq 1
+True
+$True
+sleep 5
+cd .\OneDrive\
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i t

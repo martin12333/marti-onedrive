@@ -5,6 +5,8 @@
 
 echo '.sh'
 
+sleep 20
+
 #set
 
 

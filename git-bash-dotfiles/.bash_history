@@ -1483,3 +1483,10 @@ git commit -vvv -a -m git-gui-config
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
 wsl
 cmd
+cd OneDrive/
+cd ps-mylen-mar
+git add -vv -f mymycron.ps1 mymyrsync.ps1 
+cd -
+cd git-bash-dotfiles
+git add -vv -f mymycron.sh mymyrsync.sh 
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
