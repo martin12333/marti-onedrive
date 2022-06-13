@@ -1500,3 +1500,9 @@ cd ps-mylen-mar
 git ls-files
 git push
 history -a
+cd OneDrive/
+git add -vv -f AAAAps-jilen/ConsoleHost_history.txt 
+git add -vv -f AAAAps-jilen/icacls2.txt 
+git commit -vvv -a -m ps-jilen-icacls
+history -a
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .

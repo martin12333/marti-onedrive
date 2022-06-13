@@ -2579,3 +2579,36 @@ $x.Length
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i acl
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i ^icacl
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i ^cacl
+code  C:\Users\milan_rxtipwr\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt 
+icacls .
+icacls f:\
+icacls
+d;
+d:
+mkdir CACLS-TEST
+icacls.exe .\CACLS-TEST\
+#icacls.exe .\CACLS-TEST\ /grant sfkjskf
+mkdir CACLS-TEST/prase
+net localgroup users
+icacls.exe .\CACLS-TEST\ /grant marti:f
+icacls.exe .\CACLS-TEST\
+history
+icacls.exe .\CACLS-TEST\ /grant 'marti:oi,ci,f'
+icacls.exe .\CACLS-TEST\ /grant 'marti:oicif'
+icacls.exe .\CACLS-TEST\ /grant 'marti:oi ci f'
+icacls.exe .\CACLS-TEST\ /grant 'marti:(oi)(ci)(f)'
+icacls.exe .\CACLS-TEST\
+icacls.exe .\CACLS-TEST\ /grant 'marti:(i)(oi)(ci)(f)'
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i dfgdfgdgdfg
+icacls.exe .\CACLS-TEST\ /ksadj 'marti:(i)(oi)(ci)(f)'
+d:
+icacls.exe .\CACLS-TEST\ /deny 'Eda:(oi)(ci)(w)'
+icacls.exe .\CACLS-TEST\ 
+icacls.exe .\CACLS-TEST\prase\
+icacls.exe .\CACLS-TEST\ /deny 'Eda:(oi)(ci)(w,d)'
+icacls.exe .\CACLS-TEST\prase\
+icacls.exe .\CACLS-TEST\ /deny 'Eda:(oi)(ci)(w,d,wdac)'
+icacls.exe .\CACLS-TEST\ /deny 'Eda:(oi)(ci)(w,d,wdac,wo,dc)'
+icacls.exe .\CACLS-TEST\prase\
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i dfgdfgdgdfg
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
