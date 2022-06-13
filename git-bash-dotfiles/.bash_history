@@ -1490,3 +1490,13 @@ cd -
 cd git-bash-dotfiles
 git add -vv -f mymycron.sh mymyrsync.sh 
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+ls
+git commit -vvv -a -m bkup-scripts
+git ls-files
+ll .git
+cd ..
+git ls-files
+cd ps-mylen-mar
+git ls-files
+git push
+history -a

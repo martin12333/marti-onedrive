@@ -2567,3 +2567,15 @@ $True
 sleep 5
 cd .\OneDrive\
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i t
+Get-Clipboard
+Get-Clipboard -Raw
+Get-Clipboard -Verbose
+Get-Clipboard -Debug
+Get-Clipboard -OutBuffer $x
+help Get-Clipboard
+help about_CommonParameters
+Get-Clipboard -OutVariable x
+$x.Length
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i acl
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i ^icacl
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i ^cacl
