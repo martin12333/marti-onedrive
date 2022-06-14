@@ -2612,3 +2612,125 @@ icacls.exe .\CACLS-TEST\ /deny 'Eda:(oi)(ci)(w,d,wdac,wo,dc)'
 icacls.exe .\CACLS-TEST\prase\
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i dfgdfgdgdfg
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+icacls.exe k:\
+icacls.exe K:\eda\
+icacls.exe K:\milan\
+cd .\OneDrive\AAAAps-jilen\
+icacls.exe k:\ >.\icacls-k.txt
+dir k:\
+dir k:\ /s /a
+cmd /c dir k:\ /s /a
+D:
+cd .\umarti\
+dir
+cmd /c dir k:\ /s /a >dir-k-s-a.txt
+cd .\umarti\
+d:
+cd .\umarti\
+dir
+cmd /c dir
+dir
+icacls c:\
+icacls 
+icacls c:\
+cd C:\ProgramData\
+icacls.exe ".\Application Data\" /l
+cd
+icacls.exe ".\Application Data\" /l
+icacls 
+icacls .
+icacls ..
+icacls C:\Windows\Tasks\
+icacls C:\Windows\
+icacls d:\
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i cacls
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i cd
+icacls D:\umarti\
+d:
+dir
+cmd /c dir /a
+dir /
+icacls D:\CACLS-TEST\
+cacls D:\CACLS-TEST\
+cacls.exe
+cacls D:\CACLS-TEST\
+cacls D:\CACLS-TEST
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i deny
+icacls.exe .\CACLS-TEST\ /deny 'Eda:(oi)(ci)(w,de,wdac,wo,dc)'
+cd /
+icacls.exe .\CACLS-TEST\ /deny 'Eda:(oi)(ci)(w,de,wdac,wo,dc)'
+cacls D:\CACLS-TEST
+icacls
+icacls.exe .\CACLS-TEST\ /deny 'Eda:(oi)(ci)(gw,de,wdac,wo,dc)'
+cacls D:\CACLS-TEST
+icacls.exe .\CACLS-TEST\ /deny 'Eda:(oi)(ci)(wd,de,wdac,wo,dc)'
+cacls D:\CACLS-TEST
+icacls.exe .\CACLS-TEST\ /remove Eda
+cacls D:\CACLS-TEST
+icacls.exe .\CACLS-TEST\ /deny 'Eda:(oi)(ci)(wd,de,wdac,wo,dc)'
+cacls D:\CACLS-TEST
+icacls D:\CACLS-TEST
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i sfsfsdfdfsfs
+net localgroup users
+net localgroup everyone
+net localgroup administrators
+icacls 'C:\Users\All Users\'
+cmd /c dir 'C:\Users\'
+cmd /c dir 'C:\Users\' /a
+icacls 'C:\Users\Public\'
+cacls 'C:\Users\Public\'
+cacls 'C:\Users\Public'
+c:
+cd ..\Public\
+mkdir experi/prase
+cd .\experi\
+cd
+cd -
+cd
+cmd /c dir /?
+cmd /c dir /od
+cmd /c dir /od .\OneDrive\
+cd -
+icacls.exe .
+icacls.exe . >>C:\Users\marti\OneDrive\AAAAps-jilen\icacls-experi-226e.txt
+cat C:\Users\marti\OneDrive\AAAAps-jilen\icacls-experi-226e.txt
+cacls.exe . >>C:\Users\marti\OneDrive\AAAAps-jilen\cacls-experi-226e.txt
+cat C:\Users\marti\OneDrive\AAAAps-jilen\cacls-experi-226e.txt
+mkdir AA-MILAN-MENIL-ACL-PRAVA
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+mkdir steam/AA-MILAN-MENIL-ACL-PRAVA
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i den
+icacls.exe . /deny 'Eda:(oi)(ci)(wd,de,wdac,wo,dc)'
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i gran
+icacls.exe .\steam\ /grant 'users:(oi)(ci)(f)'
+icacls.exe . .\steam\
+icacls.exe . 
+icacls.exe  .\steam\
+cacls.exe . >>C:\Users\marti\OneDrive\AAAAps-jilen\cacls-experi-226e.txt
+icacls.exe . >>C:\Users\marti\OneDrive\AAAAps-jilen\icacls-experi-226e.txt
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+net localgroup 
+net localgroup /?
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i net
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i 'net '
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i 'net .'
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i 'net.'
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i 'net[^s]'
+net view
+net use
+cd
+cmd /c dir /od .\OneDrive\
+cat '.\OneDrive\AAAAps-jilen\'
+cat '.\OneDrive\AAAAps-jilen\ConsoleHost_history.txt'
+cat '.\OneDrive\AAAAps-jilen\ConsoleHost_history.txt'|findstr net
+net localgroup nonadmins1 /add
+net localgroup nonadmins1 Eda /add
+cd ..\Public\
+mkdir grpexperi/prase
+cd .\grpexperi\
+mkdir steam/AA-MILAN-MENIL-ACL-PRAVA
+icacls.exe . /deny 'nonadmins1:(oi)(ci)(wd,de,wdac,wo,dc)'
+icacls.exe .\steam\ /grant 'users:(oi)(ci)(f)'
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+net localgroup nonadmins1 
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .

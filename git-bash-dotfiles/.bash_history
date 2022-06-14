@@ -1506,3 +1506,5 @@ git add -vv -f AAAAps-jilen/icacls2.txt
 git commit -vvv -a -m ps-jilen-icacls
 history -a
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
+git commit -vvv -a -m icacls-deny
+history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
