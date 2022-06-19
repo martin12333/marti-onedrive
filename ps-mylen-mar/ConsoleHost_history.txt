@@ -2734,3 +2734,47 @@ icacls.exe .\steam\ /grant 'users:(oi)(ci)(f)'
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
 net localgroup nonadmins1 
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+cd .\Documents\
+ll
+ls
+cat >sdfds
+echo >sdfds
+ls
+cd 
+cd .\OneDrive\Dokumenty\
+echo >sdfds
+wmic diskdrive list
+wmic diskdrive list brief
+wmic
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i wmi
+wmic /?
+wmic volu
+wmic volume
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i wmi
+Gwmi Win32_volume
+Gwmi Win32_volume|findstr -i devi
+Gwmi Win32_volume|findstr -i 3
+Gwmi Win32_volume|findstr -i 3|findstr -i volu
+Gwmi Win32_volume|findstr -i 3|findstr -i volume3
+Gwmi Win32_volume|findstr -i 3
+diskpart
+mountvol
+mountvol /l
+Winobj.exe /?
+cmd /c mklink /d ujo  C:\Users\marti\OneDrive\.emacs.d
+cmd /c mklink /j ujo  C:\Users\marti\OneDrive\.emacs.d
+cd ..\milan_rxtipwr\OneDrive\
+icacls.exe .\FLASH-FAT32-EFI-TAINTED-BY-MARTIN\
+cacls.exe .\FLASH-FAT32-EFI-TAINTED-BY-MARTIN\
+cacls.exe .\FLASH-FAT32-EFI-TAINTED-BY-MARTIN
+Get-Acl .\FLASH-FAT32-EFI-TAINTED-BY-MARTIN
+rm  .\FLASH-FAT32-EFI-TAINTED-BY-MARTIN
+cd ..\milan_rxtipwr\OneDrive\
+rm  .\FLASH-FAT32-EFI-TAINTED-BY-MARTIN
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i .
+where ssh
+where sshd
+certutil.exe /?
+certutil.exe -hashfile /?
+certutil.exe -hashfile .\.bash_history sha256
+cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i sha
