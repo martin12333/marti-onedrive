@@ -14,7 +14,7 @@ do
 
 
    #   date
-   sleep  180 #360s #  180s  # probably steals focus?     60s  #25s
+   sleep  60 #180 #360s #  180s  # probably steals focus?     60s  #25s
 
 done
 

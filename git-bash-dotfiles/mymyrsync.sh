@@ -3,12 +3,12 @@
 
 #zeby-neslo-stat-na-sory-onedr-bez-net
 
-#echo rsyn
+echo rsyn.sh
 
 #set
 
 
-dotfi=" .bash_history .guile_history .lsc_history .node_repl_history .python_history .sbcl_history .sqlite_history .zsh_history "
+dotfi=" .bash_history .bash_eternal_history  .guile_history .lsc_history .node_repl_history .python_history .sbcl_history .sqlite_history .zsh_history "
 
 echo "$dotfi"
 
