@@ -1,3 +1,4 @@
+D:\umarti\powershell_eternal_history.txt
 C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\Visual~1.txt
 c:\Users\marti\AppData\Roaming\Code\User\settings.json
