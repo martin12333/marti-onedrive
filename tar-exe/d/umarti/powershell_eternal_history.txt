@@ -3084,3 +3084,154 @@ echo '==========eternal'
 echo '==========eternal'
 Get-PSReadLineOption
 $MaximumHistoryCount
+get-PSReadLineOption
+$MaximumHistoryCount
+get-PSReadLineOption
+dfdsfsfd
+$a='ab ssss'
+$a.Split()
+$a.Split().Count
+$a.Split().Length
+$a='abdcsd ssss'
+$a.Split().Length
+$a.Split().Count
+$a.Split()[0]
+$a.Split()[0].Length
+$a.Split()[0].EnumerateRunes()
+$a.Split()[0].EnumerateRunes().plane
+$a.Split()[0].EnumerateRunes().value
+$a.Split().EnumerateRunes().value
+$a.Split().value
+$a.Split().val
+$a.Split().val()
+$a.Split().value()
+$a.Split()[0].value()
+$a.Split().EndsWith('s')
+help array
+history1324564=1 ; cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr  -i .
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i .
+$a.Split()[0].Length
+$a.Split().Length
+$a.Split().ForEach(  Length)
+$a.Split().ForEach(Length)
+$a.Split().ForEach('Length')
+$a.Split().ForEach(  Length )
+$a.Split().ForEach  Length 
+$a.Split().ForEach('toupper')
+$a.Split().toupper
+$a.Split().toupper()
+$a|Get-Member
+$a.Split().char(1)
+$a.Split().chars(1)
+$a='jak jsem se dozvedel'
+$a.Split().chars(1)
+$a.Split().Substring(1)
+$a.Split().Split('e')
+$a.Split().Split('e').Length
+Get-Process
+(Get-Process).__NounName
+(Get-Process).CommandLine
+(Get-Process).CommandLine|findstr.exe -i git
+(Get-Process).FileName
+(Get-Process).FileName()
+(Get-Process).InternalName
+(Get-Process).InternalName()
+(Get-Process)
+(Get-Process).CommandLine
+(Get-Process).MainWindowTitle
+(Get-Process).Name
+(Get-Process).OriginalFilename
+(Get-Process).ToString()
+(Get-Process).StandardOutput
+(Get-Process).Path
+(Get-Process).ProcessName
+(Get-Process).Path
+(Get-Process).Path|findstr.exe -i git
+Get-Process| select Path
+Get-Process| select Name
+Get-Process| select CommandLine
+$b=(Get-Process| select CommandLine)
+$b
+$c=$a.split()
+$a='jak jsem se dozvedel'
+$c=$a.split()
+$c
+$c|select toupper
+$a.Split().Split('e').Length
+$a.Split().Split('e')
+$a.Split()
+$a.Split().Replace('e','eeeee')
+foreach($x in $c){$x}
+foreach($x in $c){$x+'sf'}
+foreach($x in $c){$x+'---'}
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i .
+@(Get-Partition)
+(Get-Partition)
+(Get-Partition).Size
+Get-BcdEntry
+(get-drIVE).`
+
+(Get-PhysicalDisk)`
+
+(Get-PhysicalDisk).size
+(Get-PhysicalDisk).`
+
+(Get-Disk).size
+(Get-Disk)
+(Get-Disk).Path
+(Get-Partition).Path
+(Get-Partition).PartitionNumber
+(Get-Volume).Path
+(Get-Volume).UniqueId
+ls|select Attributes
+(ls).Length
+(ls)[0].Length
+(ls)[50].Length
+(ls)[150].Length
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i fore
+get-winevent -listlog * | foreach-object { echo $_.logname }
+(get-winevent -listlog * ).logname 
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i fore
+$y=1..5
+$y
+foreach($x in $y){$x+'---'}
+foreach($x in $y){$x*2}
+$a=foreach($x in $y){$x*2}
+$a
+$a=foreach($x in $y){echo $x}
+$a
+$a=foreach($x in $y){echo $x$x}
+$a
+$a=foreach($x in $y){echo $x*2}
+$a
+$a=foreach($x in $y){echo ($x*2)}
+$a
+$a=foreach($x in $y){echo $x; echo $x}
+$a
+$a=foreach($x in $y){echo $x;  $x}
+foreach($x in $y){echo $x;  $x}
+foreach($x in $y){echo $x;  $x+5}
+foreach($x in $y){echo $x;  $x+5; $x}
+$a=foreach($x in $y){echo $x;  $x+5; $x}
+$a
+foreach($x in 1..7){echo $x;  $x+5; $x}
+$a.Length
+foreach($x in 1..7){echo $x;  `
+`
+$x-9`
+}
+foreach($x in 1..7){echo $x;  `
+$x`
+$x-9`
+}
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i fore
+5..9 |foreach {echo $_;  `
+$x`
+$x-9`
+}
+5..9 |foreach {echo $_;  `
+$x`
+$_-9`
+}
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i fore
+(5)
