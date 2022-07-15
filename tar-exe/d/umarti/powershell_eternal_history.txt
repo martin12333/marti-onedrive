@@ -3235,3 +3235,37 @@ $_-9`
 }
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i fore
 (5)
+cd .\boilerplate-mochachai\
+npm i
+npm start
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i .
+code --version
+code --help
+code --version --verbose
+cd .\OneDrive\
+cd .\javascript-js-224\
+npm i @types/node
+cd ..\codewars\
+npm i @types/node
+where.exe conda
+python.exe
+python3.exe
+py
+python.exe
+Get-ChildItem Env: | Select Name | Export-Csv -Path C:/Users/marti/AppData/Local/Temp/tmp-14252EvGyiRW3Tcxwtxt -NoTypeInformation
+conda activate base
+& D:/conda/python.exe c:/Users/marti/OneDrive/codewars/a.py
+& D:/conda/python.exe
+conda activate base
+& D:/conda/python.exe
+cmd
+
+code .
+code .\js-workspace.code-workspace
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i mki
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i mkli
+#cmd /c mklink /j ujo  C:\Users\marti\OneDrive\.emacs.d
+cd
+cmd /c mklink /j ujo  C:\Users\marti\OneDrive\roam-ms-wi-sta-p-startup\
+ls ujo
+cmd /c mklink /j onedr  C:\Users\marti\OneDrive\roam-ms-wi-sta-p-startup\

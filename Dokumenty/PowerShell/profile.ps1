@@ -13,7 +13,10 @@ echo C:\Users\marti\OneDrive\Dokumenty\PowerShell\profile.ps1
 #export HISTFILESIZE=27120
 Set-PSReadLineOption -MaximumHistoryCount 32000
 #OBSOL??
-get-PSReadLineOption
+#get-PSReadLineOption
+
+
+
 
 #export HISTSIZE=27120
 $MaximumHistoryCount = 32767
