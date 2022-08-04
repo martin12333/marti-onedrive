@@ -1,0 +1,25 @@
+{
+    "name": "mmon1",
+    "displayName": "mmon1",
+    "description": "",
+    "version": "1.0.1",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "mmon1",
+            "aliases": ["mmon1", "mmon1"],
+            "extensions": [".mmon1"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "mmon1",
+            "scopeName": "source.mmon1",
+            "path": "./syntaxes/mmon1.tmLanguage.json"
+        }]
+    }
+}
