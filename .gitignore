@@ -54,11 +54,19 @@ alm*/
 
 !.*
 !*.cfg
+!*.json
 
 !*.sh
 !*istory*
 !*.cmd
+
 !*.ps1
+!*.py
+!*.js
+!*.lua
+!*.hs
+
+
 
 
 !*.txt
