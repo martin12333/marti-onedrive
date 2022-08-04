@@ -13,6 +13,11 @@ echo 'ps1'
 
 sleep 60
 
+echo C:\Program Files\Docker\Docker
+& 'C:\Program Files\Docker\Docker\Docker Desktop.exe'
+
+sleep 60
+
 pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymycron.ps1
 
 #bash

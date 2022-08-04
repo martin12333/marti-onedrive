@@ -3269,3 +3269,127 @@ cd
 cmd /c mklink /j ujo  C:\Users\marti\OneDrive\roam-ms-wi-sta-p-startup\
 ls ujo
 cmd /c mklink /j onedr  C:\Users\marti\OneDrive\roam-ms-wi-sta-p-startup\
+jupyter nbextension list
+jupyter kernelspec list
+conda activate base
+Winobj.exe /?
+procdump.exe /?
+procdump.exe /? -? -e
+procdump.exe  -? -e
+python.exe
+ipython
+python.exe
+ipython
+python.exe
+conda activate base
+& D:/conda/python.exe
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i .
+os
+node
+idle.exe
+where.exe winrm
+$a=where.exe winrm
+$a
+cat $a
+conda activate base
+cd ..\jupyter-notebooks\
+npm i @types/node
+ls
+wsl
+conda activate base
+node
+cd ..\jupyter-notebooks\
+conda activate base
+. "c:\Users\marti\OneDrive\jupyter-notebooks\PowerShell0.ps1"
+c:\Users\marti\OneDrive\jupyter-notebooks\PowerShell0.ps1
+. "c:\Users\marti\OneDrive\jupyter-notebooks\PowerShell0.ps1"
+conda activate base
+& D:/conda/python.exe Untitled-1
+& D:/conda/python.exe c:/Users/marti/OneDrive/codewars/first_non_consecutive.py
+c:\Users\marti\OneDrive\codewars\fx.js
+& D:/conda/python.exe c:/Users/marti/OneDrive/codewars/first_non_consecutive.py
+node debug
+conda activate base
+node inspect
+node
+node --help
+node --inspect
+conda activate base
+c:\Users\marti\OneDrive\codewars\fx.js
+conda activate base
+c:\Users\marti\OneDrive\codewars\fx.js
+conda activate base
+ & 'D:\conda\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '61911' '--' 'c:\Users\marti\OneDrive\codewars\first_non_consecutive.py' 
+ghfh c:; cd 'c:\Users\marti\OneDrive\codewars'; & 'D:\conda\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '62350' '--' 'c:\Users\marti\OneDrive\codewars\first_non_consecutive.py' 
+ c:; cd 'c:\Users\marti\OneDrive\codewars'; & 'D:\conda\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '63081' '--' 'c:\Users\marti\OneDrive\codewars\first_non_consecutive.py' 
+$env:Path
+conda activate base
+. "c:\Users\marti\OneDrive\jupyter-notebooks\PowerShell0.ps1"
+python -m pdb
+python --help
+pwsh --help
+wsl
+idle.exe
+conda activate base
+cmd /c dir /a
+cmd /c dir /a *--*
+dir .\AppData\
+dir .\AppData*
+cmd /c dir /a *--*
+cmd /c dir /a |findstr -i junc
+cmd /c dir /a |findstr -i sym
+cmd /c dir /a *--*
+dir .\AppData*
+dir .\AppData\
+dir .\AppData*
+cmd /c dir /a 
+cmd /c dir /a /s .\OneDrive\ |findstr -i junc
+cmd /c dir /a /s .\OneDrive\ |findstr -i sym
+cmd /c dir /a /s .\OneDrive\ |findstr -i '<junc'
+cmd /c dir /a /s .\OneDrive\ |findstr -i '<sym'
+cmd /c dir /a /s .\OneDrive\ |findstr -i '<syml'
+cmd /c dir /a /s .\OneDrive\ |findstr -i syml
+cmd /c dir /a /s shm
+cd .\OneDrive\
+cmd /c dir /a /s shm
+cd ..
+cmd /c dir /a /s . |findstr -i syml
+cmd /c dir /a /s . |findstr -i '<syml'
+cmd /c dir /ad /s . |findstr -i syml
+cmd /c dir /a /s . |findstr -i '<syml'
+cmd /c dir /a /s . |findstr -i '<junc'
+dir .\AppData*
+dir .\AppData
+dir app*
+cmd /c dir /a 
+dir .\snippets\
+conda activate base
+wsl --list --all --verbose
+wsl --shutdown
+wsl --list --all --verbose
+wsl
+cd
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i yo
+yo code
+sdfhskdf
+vscode .\experim-new-langu-supp\
+code .\experim-new-langu-supp\
+cmd /c mklink /j .\experim-new-langu-supp--junct\    C:\Users\marti\OneDrive\experim-new-langu-supp
+dir .\experim-new-langu-supp--junct\
+dir .\experim-new-langu-supp\
+code .\js-workspace.code-workspace
+cd .\OneDrive\
+code .\js-workspace.code-workspace
+cd .\javascript-js-224\
+code .\js-workspace.code-workspace
+cd
+cd .\OneDrive\javascript-js-224\
+history
+dir .\experim-new-langu-supp--junct\
+dir .\experim-new-langu-supp\
+history
+cd ~\OneDrive\
+yo code
+cmd /c mklink /j .\mmon1    C:\Users\marti\OneDrive\mmon1
+dir .\mmon1\
+dir .\mmon1
