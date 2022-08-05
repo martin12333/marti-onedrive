@@ -5,9 +5,13 @@
 F5 run and debug
 safety measures to not run this entire file
 probably unnecessary
+)
+stops at parsererror at quit()
+
 node --inspect
 .exit
 quit()
+
 exit
 debugger;
 breakpoint()
