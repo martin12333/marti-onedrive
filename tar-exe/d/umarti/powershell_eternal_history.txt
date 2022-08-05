@@ -3395,3 +3395,8 @@ dir .\mmon1\
 dir .\mmon1
 dir roo*
 mkdir ROOT
+node --inspect
+conda activate base
+ & 'D:\conda\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '55608' '--' 'c:\Users\marti\OneDrive\codewars\f5.py' 
+ c:; cd 'c:\Users\marti\OneDrive\codewars'; & 'D:\conda\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '56498' '--' 'c:\Users\marti\OneDrive\codewars\f5.py' 
+. "c:\Users\marti\OneDrive\codewars\f7,f8.ps1"

@@ -10,6 +10,19 @@ python3
 #fail multiline ipython3
 #rlwrap -a -t dumb -r -H ~/lua_history -f . lua5.3
 
+#%%
+
+F5 run and debug
+safety measures to not run this entire file
+probably unnecessary
+node --inspect
+.exit
+quit()
+debugger;
+breakpoint()
+console.log(456)
+
+
 
 #%%
 

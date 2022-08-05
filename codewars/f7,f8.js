@@ -1,23 +1,27 @@
 node --inspect
 node --help
-.exit
 .help
 //###node debug
 ls
 zsh
 node
 
+F5 run and debug
+safety measures to not run this entire file
+probably unnecessary
+node --inspect
+.exit
 debugger;
-// ok f5 hodilo host nikoli spusteni celeho tohoto soru
 
-//###i
+console.log(456)
+
+//###ipython3
 //#python3
-//#rlwrap -a -t dumb -r -H ~/lua_history -f . lua5.3
 
 ctrl-end
 
-//#%%
-//%%
+// # %%
+// %%
 
 //#region
 fs
