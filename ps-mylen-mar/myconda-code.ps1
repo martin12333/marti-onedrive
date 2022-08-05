@@ -1,5 +1,7 @@
 #C:\pf\PowerShell\7\pwsh.exe -ExecutionPolicy ByPass  -NoExit -File     C:\Users\marti\OneDrive\ps-mylen-mar\myconda-code.ps1
 
+#C:\Users\marti\OneDrive\javascript-js-224
+#C:\Users\marti\OneDrive
 
 #zeby-neslo-stat-na-sory-onedr-bez-net
 
@@ -20,9 +22,12 @@ echo 'todo: code . '
 
 sleep 20
 
-echo code js-workspace.code-workspace
+#echo code js-workspace.code-workspace
+echo code
 
-code js-workspace.code-workspace
+#code js-workspace.code-workspace
+code .
+
 
 #pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymycron.ps1
 
