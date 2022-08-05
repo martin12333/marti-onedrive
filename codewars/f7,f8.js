@@ -1,16 +1,14 @@
 node --inspect
-
 node --help
 .exit
 .help
-###node debug
-
-
+//###node debug
 ls
 zsh
 node
 
-// ok f5 hodilo host
+debugger;
+// ok f5 hodilo host nikoli spusteni celeho tohoto soru
 
 //###i
 //#python3
@@ -40,10 +38,38 @@ os1.totalmem()
 y=12
 
 Object.keys(globalThis)
-help
+
+for (var k in  globalThis) {
+    console.log(k)
+}
+
+//help
+
+////////////////////////////////////////////////////experim.js ... kam jsem to psal ...  zeby do console ?
+
+//#page-content > table:nth-child(3) > tbody > tr:nth-child(4) > th
+
+y=document.querySelectorAll("th")
+
+y.forEach(x=>console.log(x))
+
+x.appendChild(new Text('my-experim'))
+x.appendChild(new Text(' @@@'))
+//grammar and execution @@@
+
+y.array.forEach(element => {
+
+});
+//document.querySelector("#page-content >             table:nth-child(3) > tbody > tr:nth-child(4) > th")
+
+//           *[@id="page-content"]                 /table[1]/tbody/tr[4]/th
+//html/body/div[3]/div/div/div[2]/div/        div[2]                 /table[1]/tbody/tr[4]/th
+
+//////////////////////////////////////////////////////////////////
+
 
 function rehgfhgf(params) {
-	return
+	return 1
 }
 
 //#endregion
@@ -68,7 +94,7 @@ while (condition) {
 defi
 
 for (const iterator of object) {
-    
+
 }
 
 

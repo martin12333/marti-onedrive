@@ -3393,3 +3393,5 @@ yo code
 cmd /c mklink /j .\mmon1    C:\Users\marti\OneDrive\mmon1
 dir .\mmon1\
 dir .\mmon1
+dir roo*
+mkdir ROOT
