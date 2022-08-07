@@ -3401,3 +3401,21 @@ conda activate base
  c:; cd 'c:\Users\marti\OneDrive\codewars'; & 'D:\conda\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '56498' '--' 'c:\Users\marti\OneDrive\codewars\f5.py' 
 . "c:\Users\marti\OneDrive\codewars\f7,f8.ps1"
 . "c:\Users\marti\OneDrive\codewars\f7,f8.ps1"
+docker.exe top
+docker.exe system
+docker.exe system info
+docker.exe system info|findstr -i mem
+docker ps
+docker.exe system info|findstr -i mem
+docker ps
+wsl --list --all --verbose
+wsl --shutdown
+wsl --list --all --verbose
+wsl
+cd
+dir *hype*
+wsl --list --all --verbose
+cat .wsl*
+wsl --list --all --verbose
+wsl --shutdown
+wsl --list --all --verbose

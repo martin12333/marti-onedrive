@@ -2,7 +2,6 @@ node --inspect
 node --help
 .help
 //###node debug
-ls
 zsh
 node
 
