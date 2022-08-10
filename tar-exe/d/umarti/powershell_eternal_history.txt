@@ -3419,3 +3419,114 @@ cat .wsl*
 wsl --list --all --verbose
 wsl --shutdown
 wsl --list --all --verbose
+# wsl --list --running
+wsl --list --running
+wsl --list --all --verbose
+# wsl --list --all --verbose
+wsl --shutdown
+# wsl --list --all --verbose
+wsl --list --running
+wsl
+wsl --list --all --verbose
+wsl --shutdown
+wsl --list --all --verbose
+wsl
+wsl --list --all --verbose
+wsl --shutdown
+wsl --list --all --verbose
+wsl
+wsl --shutdown
+wsl
+wsl --help
+wsl --help|findstr -i user
+wsl --help|findstr -i u
+wsl --help|findstr -i roo
+wsl --help|findstr -i us
+wsl --help|findstr -i u
+wsl --user root
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i hist
+wsl --help|findstr -i u.s
+wsl --help|findstr -i u.s.e
+wsl --help|findstr -i u.s.e.r
+findstr --help
+findstr /h
+wsl --help|oss|findstr -i u.s.e.r
+wsl --help|sls user
+wsl --help|sls u.s.e.r
+powershell
+help encoding
+wsl --help|sls -Encoding=unicode u.s.e.r
+wsl --help|sls -Encoding unicode u.s.e.r
+wsl --help|sls -Encoding utf8 u.s.e.r
+wsl --help|sls -Encoding utf32 u.s.e.r
+help lksl
+help sls
+wsl --help|sls -Encoding bigendianutf32 u.s.e.r
+wsl --help|sls -Encoding utf8 u.s.e.r |sls us
+wsl --help|sls -Encoding utf8 u.s.e.r |sls u
+wsl --help|sls -Encoding utf8 u.s.e.r |sls u.s
+help oss
+help commonparameters
+help encoding
+wsl
+wsl --shutdown
+wsl --list --running
+wsl
+wsl --list --running
+wsl --shutdown
+wsl --list --running
+wsl
+wsl --shutdown
+wsl --list --running
+wsl
+help anonymous function
+help anonymous_function
+help function
+help functions_adv
+help functions_advanced
+help about_functions_advanced
+help about_functions
+help about_Script_Blocks
+$a={1+5;8*9}
+$a
+&$a
+&$a[1]
+(&$a)[1]
+$a={1+5;return 4 ;8*9}
+&$a
+& $a
+$a={1+5;ls;return 4 ;8*9}
+& $a
+$y=& $a
+$y.Length
+$y.Count
+type $y
+Get-TypeData $y
+Get-TypeData 
+Get-TypeData
+$y.GetType(`
+)
+node
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i functi
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i '[}]'
+foreach($x in 1..7){echo $x;  `
+$x`
+$x-9`
+}
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i .
+function pokus1 {``
+param ($x) ``
+echo "$x"``
+$x.GetType()``
+}
+$x={1+pokus1(2*3)}
+$x={pokus1(2*3)}
+$x
+&$x
+(&$x).gettype()
+(&$x)[0]
+(&$x)[1]
+{'dfds'+pokus1(2*3)}
+{'dfds'+(pokus1(2*3))}
+&{'dfds'+(pokus1(2*3))}
+cat .git
