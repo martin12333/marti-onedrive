@@ -3530,3 +3530,34 @@ $x
 {'dfds'+(pokus1(2*3))}
 &{'dfds'+(pokus1(2*3))}
 cat .git
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i roo
+wsl --help
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i wsl
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i 'wsl -d'
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i 'wsl [-]d'
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i w.s.l
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i wsl|findstr '-d'
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i -- 'wsl [-]d'
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i wsl|findstr 'd '
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i wsl|findstr '.d '
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i -- 'wsl .d'
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i -- 'wsl .d do'
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | find   '"wsl .d do"'
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | find   '"wsl -d do"'
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | find   '"bash -c"'
+wsl bash -c echo "'PATH'"
+wsl bash -c 'echo "'PATH'"'
+wsl bash -c 'echo "'$PATH'"'
+wsl bash -c 'echo $PATH'
+wsl -- bash -c 'echo $PATH'
+wsl -- /bin/bash -c 'echo $PATH'
+wsl -- /bin/bash -c -x 'sync'
+wsl -- /bin/bash -c -v 'sync'
+wsl -- /bin/bash -c -vx 'sync'
+wsl -- /bin/bash -c -vx 'sync; echo 1'
+wsl -- /bin/bash -c -vx 'free -m;sync; echo 1'
+wsl -- /bin/bash -c -vx 'free -m;sync; echo 1 |  tee /proc/sys/vm/drop_caches '
+wsl -- /bin/bash -c -vx 'free -m;sync; echo 1 |  tee /proc/sys/vm/drop_caches ; free -m'
+wsl --user root -- /bin/bash -c -vx 'free -m;sync; echo 1 |  tee /proc/sys/vm/drop_caches ; free -m'
+wsl --user root -- /bin/bash -c -vx 'free -m;sync;sleep 5; echo 1 |  tee /proc/sys/vm/drop_caches ; free -m'
+wsl --user root -- /bin/bash -c -vx 'free -m;sync;sleep 5; echo 3 |  tee /proc/sys/vm/drop_caches ; free -m'
