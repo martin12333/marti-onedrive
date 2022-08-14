@@ -3561,3 +3561,30 @@ wsl -- /bin/bash -c -vx 'free -m;sync; echo 1 |  tee /proc/sys/vm/drop_caches ; 
 wsl --user root -- /bin/bash -c -vx 'free -m;sync; echo 1 |  tee /proc/sys/vm/drop_caches ; free -m'
 wsl --user root -- /bin/bash -c -vx 'free -m;sync;sleep 5; echo 1 |  tee /proc/sys/vm/drop_caches ; free -m'
 wsl --user root -- /bin/bash -c -vx 'free -m;sync;sleep 5; echo 3 |  tee /proc/sys/vm/drop_caches ; free -m'
+help memory
+Get-Process
+Get-Process|Sort-Object WS
+Get-Process|Sum
+help sum
+Get-Process|Measure-Object WS -sum
+Get-Process|Measure-Object WorkingSet -sum
+Get-Process|Measure-Object WorkingSet64 -sum
+Get-Process|Measure-Object WorkingSet64
+Get-Process|Measure-Object WorkingSet64 -Maximum
+Get-Process|Measure-Object Ws -Maximum
+(Get-Process).ws
+(Get-Process).ws|sort
+(Get-Process).ws|sort -Descending
+(Get-Process).ws|sort -Descending|ForEach-Object {$_}
+(Get-Process).ws|sort -Descending|ForEach-Object {$a+=$_}
+$a
+(Get-Process).ws|sort -Descending|ForEach-Object {$a+=$_;$a}
+$a=0
+(Get-Process).ws|sort -Descending|ForEach-Object {$a+=$_;$a}
+Get-Process|Measure-Object Ws -Maximum
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i .
+wsl
+wsl --user root -- /bin/bash -c -vx 'free -m;sync;sleep 5; echo 3 |  tee /proc/sys/vm/drop_caches ; free -m'
+wsl
+conda install bs4
+conda install html5lib

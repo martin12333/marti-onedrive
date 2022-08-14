@@ -14,7 +14,7 @@ echo 'ps1'
 sleep 60
 
 echo C:\Program Files\Docker\Docker
-& 'C:\Program Files\Docker\Docker\Docker Desktop.exe'
+#& 'C:\Program Files\Docker\Docker\Docker Desktop.exe'
 
 sleep 60
 
