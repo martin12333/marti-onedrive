@@ -4,19 +4,16 @@ zsh
 #cd ~/by-hg-wisp
 cd ~/wisp-1.0.7
 guile -L . --language=wisp
+* 3 6
+
+ctrl-end
+
 
 guile
 only in scheme not wisp
 ,pp (quote (+ 5 5))
 ,pp  (+ 5 5)
 
-
-wisp fail
-,pp
-(+ 5 5)
-,pp  :
-+ 5 5
-,pp
 
 
 ,h
@@ -37,8 +34,15 @@ only in scheme not wisp
 ,pp  (+ 5 5)
 
 
+wisp fail
+,pp
+(+ 5 5)
+,pp  :
++ 5 5
+,pp
 
-,show 5
+
+;;;;;,show 5
 
 
     {
@@ -47,12 +51,10 @@ only in scheme not wisp
             "when": "editorTextFocus "}
     ,
 
-* 3 6
 
 
 
 ;;ctrl-pagedown
-ctrl-end
 
 
 
