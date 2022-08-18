@@ -14,4 +14,6 @@ C:\Users\marti\hyperpolyglot\build\hyperpolyglot.css
 /w/home/martin/.sbcl_history
 /w/home/martin/.sqlite_history
 /w/home/martin/.zsh_history
+/w/home/martin/.emacs.d/init.el
+/w/home/martin/.emacs.d/custom.el
 C:\Users\marti\pokus-bkup.txt

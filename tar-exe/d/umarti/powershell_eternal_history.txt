@@ -3589,3 +3589,7 @@ wsl
 conda install bs4
 conda install html5lib
 wsl
+ls
+node
+$PSVersionTable
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i .
