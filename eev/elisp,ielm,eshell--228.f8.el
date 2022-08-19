@@ -1,5 +1,9 @@
 M-x eev-begi
 
+
+
+C-h k
+
 C-w
 M-w
 C-y
@@ -9,6 +13,8 @@ C-x C-s
 
 C-s
 
+https://hyperpolyglot.org/text-mode-editors#lisp-interaction
+https://hyperpolyglot.org/lisp#emacs-buffers
 
 
  (eepitch-eshell)
@@ -77,7 +83,7 @@ echo $(cadr myvar)
 
 
 echo -n sdfjsfsfd >/dev/eshell
-echo sdfjsfsfd 
+echo sdfjsfsfd
 echo --help
 
 
@@ -102,7 +108,7 @@ length xx
 
 -------------
 
- echo $Info-virtual-files 
+ echo $Info-virtual-files
 (("\\`\\*Finder.*\\*\\'"
   (find-file . Info-finder-find-file)
   (find-node . Info-finder-find-node))
@@ -112,9 +118,9 @@ length xx
 
  echo $kill-ring
 
- 
 
-#####cat /dev/kill 
+
+#####cat /dev/kill
 -----------------
 
 /dev/clip
@@ -165,6 +171,10 @@ echo $x
  (eepitch-ielm)
 
 
+
+
+^x ^e
+
 ; free
 a
 b
@@ -176,7 +186,7 @@ z
 i
 n
 j
-	
+
 
 (require 'cl)
 (loop for x being the symbols
@@ -206,7 +216,7 @@ echo $x
          (save-current-buffer
            (set-buffer #<buffer *scratch*>  )
 	   (setq x  (buffer-string) )
-           
+
 	   )
 	 )
 
@@ -635,3 +645,26 @@ quote
 
 
 
+
+
+
+
+
+
+	
+
+C-x C-e runs the command eval-last-sexp (found in global-map), which
+is an interactive compiled Lisp function in ‘elisp-mode.el’.
+
+Evaluate sexp before point; print value in the echo area.
+Interactively, with a non ‘-’ prefix argument, print output into
+current buffer.
+
+Normally, this function truncates long output according to the
+value of the variables ‘eval-expression-print-length’ and
+‘eval-expression-print-level’.  With a prefix argument of zero,
+however, there is no such truncation.
+Integer values are printed in several formats (decimal, octal,
+and hexadecimal).  When the prefix argument is -1 or the value
+doesn’t exceed ‘eval-expression-print-maximum-character’, an
+integer value is also printed as a character of that codepoint.

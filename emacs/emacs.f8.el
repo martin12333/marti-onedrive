@@ -13,6 +13,13 @@ C-x C-s
 
 C-s
 
+https://hyperpolyglot.org/text-mode-editors#lisp-interaction
+https://hyperpolyglot.org/lisp#emacs-buffers
+
+
+
+D:\instu\emacs-27.2-x86_64\bin
+C:\Users\marti\onedrive
 
 
  (eepitch-eshell)
@@ -78,6 +85,11 @@ sdfsdfds
 - its [[http://angg.twu.net/eev-intros/find-eev-intro.html][sandboxed tutorials]],
 
 - its homepage: [[http://angg.twu.net/#eev]] .
+
+
+
+
+
 
 
 
