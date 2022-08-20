@@ -3613,3 +3613,30 @@ C:\pf\Git\bin\bash.exe -c 'git config --list --show-origin '|Measure-Object
 C:\pf\Git\bin\bash.exe
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i bash|findstr -i git
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i 'pf\git'
+C:\pf\Git\cmd\git.exe ls-files
+C:\pf\Git\cmd\git.exe 
+C:\pf\Git\bin\bash.exe
+C:\pf\Git\cmd\git.exe commit -v -a -m bk-from-ps-alter
+C:\pf\Git\cmd\git.exe push
+$env:Path.Length
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i pf
+mklink /d C:\pff "C:\Program Files"
+cmd /c mklink /d C:\pff "C:\Program Files"
+cmd /c mklink /j C:\pff "C:\Program Files"
+cmd /c mklink /?
+icacls.exe  .\steam\
+icacls.exe  c:\pf
+icacls.exe  'C:\Program Files\'
+cacls.exe  'C:\Program Files\'
+cacls.exe  
+cacls.exe  'C:\Program Files'
+cacls.exe  'C:\Pf'
+cacls /?
+cacls.exe  'C:\Pf' /L
+cacls.exe  'C:\Program Files' /L
+icacls.exe
+icacls.exe  'C:\Program Files' /L
+icacls.exe  'C:\Pf' /L
+icacls.exe  'C:\' /L
+cacls.exe  'C:\' /L
+cacls.exe  'C:\' 
