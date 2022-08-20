@@ -1,5 +1,7 @@
 ; F10 menu if non-gui
 
+<menu-bar> <options> <menu-set-font> runs the command menu-set-font
+
 M-x ... Esc-x ... mc
 
 M-x eev-begi
@@ -17,6 +19,9 @@ https://hyperpolyglot.org/text-mode-editors#lisp-interaction
 https://hyperpolyglot.org/lisp#emacs-buffers
 
 
+
+
+https://static.fsf.org/nosvn/faif-2.0.pdf#page=93
 
 D:\instu\emacs-27.2-x86_64\bin
 C:\Users\marti\onedrive

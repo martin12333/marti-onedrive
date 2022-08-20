@@ -1,15 +1,14 @@
-M-x eev-begi
+;M-x eev-begi
+c-x c-e after
+(eev-beginner)
 
-
+init.el
 
 C-h k
 
-C-w
-M-w
-C-y
+C-w M-w C-y
 
 C-x C-s
-
 
 C-s
 
@@ -91,6 +90,8 @@ echo --help
  buffer-size
 current-buffer
 (current-buffer)
+
+
 
 echo 19
 echo $y
@@ -668,3 +669,14 @@ Integer values are printed in several formats (decimal, octal,
 and hexadecimal).  When the prefix argument is -1 or the value
 doesn’t exceed ‘eval-expression-print-maximum-character’, an
 integer value is also printed as a character of that codepoint.
+
+
+(
+ current-buffer
+
+ )
+
+
+
+m-e
+c-x c-e from distance

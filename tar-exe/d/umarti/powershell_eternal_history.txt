@@ -3593,3 +3593,21 @@ ls
 node
 $PSVersionTable
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i .
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i bash
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i bash|findstr -i exe
+where.exe bash.exe
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i bash|findstr -i git
+C:\gib\file.exe -m C:\pf\Git\usr\share\misc\magic.mgc 15
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i bash
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i gib
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i bash|findstr -i git
+C:\pf\Git\cmd\git.exe config --list --show-origin
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i bash|findstr -i git
+C:\pf\Git\cmd\git.exe config --list --show-origin
+C:\pf\Git\cmd\git.exe config --list --show-origin|Measure-Object
+C:\pf\Git\bin\bash.exe -c 'git config --list --show-origin '
+C:\pf\Git\bin\bash.exe -c 'git config --list --show-origin '|Measure-Object
+C:\pf\Git\cmd\bash.exe -c 'git config --list --show-origin '|Measure-Object
+C:\pf\Git\git-bash.exe -c 'git config --list --show-origin '|Measure-Object
+C:\pf\Git\bin\bash.exe -c 'git config --list --show-origin '|Measure-Object
+C:\pf\Git\bin\bash.exe
