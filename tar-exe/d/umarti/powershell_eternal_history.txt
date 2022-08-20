@@ -3611,3 +3611,5 @@ C:\pf\Git\cmd\bash.exe -c 'git config --list --show-origin '|Measure-Object
 C:\pf\Git\git-bash.exe -c 'git config --list --show-origin '|Measure-Object
 C:\pf\Git\bin\bash.exe -c 'git config --list --show-origin '|Measure-Object
 C:\pf\Git\bin\bash.exe
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i bash|findstr -i git
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i 'pf\git'
