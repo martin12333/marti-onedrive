@@ -2,6 +2,9 @@
 
 <menu-bar> <options> <menu-set-font> runs the command menu-set-font
 
+(kbd "C-+") 'text-scale-increase)
+
+
 M-x ... Esc-x ... mc
 
 M-x eev-begi
@@ -43,15 +46,15 @@ C:\Users\marti\onedrive
 (describe-variable)
 
 
-(global-set-key (kbd "C-+") 'text-scale-increase)
 
 #
 
 TAB
 
 
-Savehist mode enabled
-Mark set
+
+
+
 
 
 
