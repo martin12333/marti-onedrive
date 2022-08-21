@@ -3649,3 +3649,6 @@ $env:HOMEPATH
 $env:HOME
 ls
 C:\pf\Git\bin\bash.exe
+ls
+git ls-files
+C:\pf\Git\bin\bash.exe

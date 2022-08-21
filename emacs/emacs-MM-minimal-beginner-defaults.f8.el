@@ -12,11 +12,7 @@ ls
 
 C:\pf\Git\bin\bash.exe
 
-	git add -vv --dry-run '*f8.*'
-	git add -vv  '*f8.*'
-	git add -vv --dry-run '*f8.*'
-
-	git commit -v -a -m f8
+	git commit -v -a -m bkup
 	git push
 	exit
 #
@@ -60,9 +56,9 @@ C:\Users\marti\OneDrive\.emacs.d\custom.el
 <menu-bar> <options> <menu-set-font> runs the command menu-set-font
 
 C:\Users\marti\OneDrive\.emacs.d\init.el
+(savehist-mode 1)
 
 todo
-(savehist-mode 1)
 ? (prefer-coding-system 'utf-8)
 
 
