@@ -7,14 +7,19 @@ cmd /c mklink ...  #.emacs.d
 
  (eepitch-shell)
 pwsh
+# THIS PWSH CAN ALSO BE RUN FROM E.G. VSCODE
 ls
+
 C:\pf\Git\bin\bash.exe
-git add -vv --dry-run '*f8.*'
-git add -vv  '*f8.*'
-git add -vv --dry-run '*f8.*'
-git commit -v -a -m f8
 
+	git add -vv --dry-run '*f8.*'
+	git add -vv  '*f8.*'
+	git add -vv --dry-run '*f8.*'
 
+	git commit -v -a -m f8
+	git push
+	exit
+#
 
 #######;;;;;;;;;;;;;;;;;;;Set the value of environment variable HOME to ALMOOOOOST  the same value as the environment variable HOMEPATH.
 
@@ -35,6 +40,9 @@ ls $env:HOMEPATH\AppData\Roaming\.emacs.d
 ls $env:HOMEPATH\AppData\Roaming\.emacs.d\auto-save-list
 ls $env:HOMEPATH\AppData\Roaming\.emac*\*\*
 ls $env:HOMEPATH\AppData\Roaming\.emac*\*
+
+
+# END OF PWSH
 
 
 
