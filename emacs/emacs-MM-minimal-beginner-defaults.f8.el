@@ -21,10 +21,9 @@ C:\pf\Git\bin\bash.exe
 	exit
 #
 
-#######;;;;;;;;;;;;;;;;;;;Set the value of environment variable HOME to ALMOOOOOST  the same value as the environment variable HOMEPATH.
 
 $env:HOMEPATH
-#\Users\marti
+#      \Users\marti
 $env:HOME
 #C:\Users\marti
 
@@ -73,5 +72,30 @@ todo
 
 
 
+
+
+
+
+
+
+
+
+ (eepitch-shell)
+pwsh
+
+# ;;; recommended somewhere on the web; my EDIT: ALMOOOOOST   :
+# ;;; Set the value of environment variable HOME to ALMOOOOOST  the same value as the environment variable HOMEPATH.
+
+$env:HOMEPATH
+#      \Users\marti
+$env:HOME
+#C:\Users\marti
+
+
+
+
+
+
  (eepitch-shell)
  (eepitch-kill)
+
