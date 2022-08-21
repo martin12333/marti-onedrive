@@ -3640,3 +3640,5 @@ icacls.exe  'C:\Pf' /L
 icacls.exe  'C:\' /L
 cacls.exe  'C:\' /L
 cacls.exe  'C:\' 
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i git
+C:\pf\Git\bin\bash.exe

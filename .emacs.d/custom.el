@@ -7,6 +7,8 @@
    ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
  '(blink-cursor-mode nil)
  '(custom-enabled-themes '(wheatgrass))
+ '(desktop-save t)
+ '(desktop-save-mode t)
  '(package-selected-packages '(eev))
  '(show-paren-mode t))
 (custom-set-faces
