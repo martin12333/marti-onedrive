@@ -3652,3 +3652,5 @@ C:\pf\Git\bin\bash.exe
 ls
 git ls-files
 C:\pf\Git\bin\bash.exe
+exit
+wsl

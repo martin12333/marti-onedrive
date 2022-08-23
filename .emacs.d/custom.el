@@ -9,7 +9,8 @@
  '(custom-enabled-themes '(wheatgrass))
  '(desktop-save t)
  '(desktop-save-mode t)
- '(package-selected-packages '(eev))
+ '(package-selected-packages '(company counsel swiper ivy eev))
+ '(save-place-mode t)
  '(show-paren-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

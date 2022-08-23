@@ -680,3 +680,4 @@ integer value is also printed as a character of that codepoint.
 
 m-e
 c-x c-e from distance
+eval-last-sexp ~
