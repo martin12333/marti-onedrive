@@ -5,8 +5,11 @@
  ;; If there is more than one, they won't work right.
  '(ansi-color-names-vector
    ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
+ '(auto-save-interval 30)
+ '(auto-save-visited-mode t)
  '(blink-cursor-mode nil)
  '(custom-enabled-themes '(wheatgrass))
+ '(delete-auto-save-files nil)
  '(desktop-save t)
  '(desktop-save-mode t)
  '(package-selected-packages '(company counsel swiper ivy eev))

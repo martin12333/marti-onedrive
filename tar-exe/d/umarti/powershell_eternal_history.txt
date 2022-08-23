@@ -3654,3 +3654,5 @@ git ls-files
 C:\pf\Git\bin\bash.exe
 exit
 wsl
+git commit -v -a -m nelpa  # f8
+C:\pf\Git\bin\bash.exe
