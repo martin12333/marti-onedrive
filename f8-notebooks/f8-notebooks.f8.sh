@@ -30,7 +30,7 @@ C:\pf\Git\bin\bash.exe
 	git add -vv  '*f8.*'
 	git add -vv --dry-run '*f8.*'
 
-	git commit -v -a -m css #auto-save #nelpa  # f8
+	git commit -v -a -m bkup #css #auto-save #nelpa  # f8
 	git push
 	exit
 #

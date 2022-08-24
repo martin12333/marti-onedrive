@@ -32,7 +32,22 @@ https://hyperpolyglot.org/lisp#emacs-buffers
 
 
 
-c:/Users/marti/AppData/Local/Temp/
+# (find-evardescr ')
+# (find-evariable 'company-backends)
+
+
+
+M-/
+hyper
+hyper
+marti
+c:/Users/marti/AppData/Local/Temp
+
+
+iqss
+;; use ivy instead of ido (ido-mode nil) (ivy-mode 1) (counsel-mode 1) (require 'ivy-hydra) ;; make sure we wrap in the minibuffer (setq ivy-truncate-lines nil) ;; more obvious separator for yank-pop (setq counsel-yank-pop-separator " -%<-%<-%<-%<-%<-%<-%<-%<-%<-%<-%<-%< ")
+
+
 
 
 
@@ -47,7 +62,9 @@ https://static.fsf.org/nosvn/faif-2.0.pdf#page=93
 D:\instu\emacs-27.2-x86_64\bin C:\Users\marti\onedrive
 
 
- (eepitch-eshell)  (eepitch-kill)  (eepitch-eshell)
+ (eepitch-eshell)
+ (eepitch-kill)
+ (eepitch-eshell)
 
 
 ;; Sacha
