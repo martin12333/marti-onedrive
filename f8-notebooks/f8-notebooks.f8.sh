@@ -14,11 +14,23 @@ C:\pf\Git\bin\bash.exe
 	git ls-files|grep [.]el
 	git ls-files|grep f8[.]
 
+	git add --help
+
+	cd hyperpolyglot----*
+	cd ..
+
+	#git status
+
+	git add -vv --dry-run --interactive *.css
+	git add -vv --interactive *.css
+	git add -vv --dry-run --interactive *.css
+
+
 	git add -vv --dry-run '*f8.*'
 	git add -vv  '*f8.*'
 	git add -vv --dry-run '*f8.*'
 
-	git commit -v -a -m auto-save #nelpa  # f8
+	git commit -v -a -m css #auto-save #nelpa  # f8
 	git push
 	exit
 #
