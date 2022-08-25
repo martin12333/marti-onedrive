@@ -12,6 +12,7 @@
 
 (ivy-mode 1)
 
+(counsel-mode 1)
 
 
 ;NonGNU Emacs Lisp Package Archive
