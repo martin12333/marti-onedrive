@@ -40,7 +40,9 @@ C:\pf\Git\bin\bash.exe
 	git push
 
 	# https://github.com/martin12333/marti-onedrive
-
+	# w: failed
+	# forgot to git add
+	#
 	exit
 C:\pf\Git\bin\bash.exe
 #
