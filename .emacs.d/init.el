@@ -12,9 +12,11 @@
 
 (ivy-mode 1)
 (counsel-mode 1)
+(global-set-key (kbd "C-s") 'swiper-isearch)
 ;describe-bindings
 ;diff 228o
 
+; I AM UNABLE TO FIND WHAT MADE THIS KEYBINDING:
 ;<mouse-2>	mouse-yank-primary
 
 ;<remap> <load-library>		counsel-load-library

@@ -32,7 +32,11 @@ C:\pf\Git\bin\bash.exe
 
 	git commit -v -a -m ivy #bkup #css #auto-save #nelpa  # f8
 	git push
+
+	# https://github.com/martin12333/marti-onedrive
+
 	exit
+
 #
 
 

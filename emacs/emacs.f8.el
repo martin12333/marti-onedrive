@@ -41,6 +41,20 @@ esc-tab
  (eepitch-ielm)
 ido-mode
 
+ (eepitch-shell)
+node --interactive
+node --help|findstr -i buff
+.exit
+
+
+
+(global-set-key (kbd "C-s") 'swiper-isearch)
+(define-key swiper-map (kbd "C-l") 'my-toggle-truncate-lines)
+(global-set-key (kbd "<end>") 'move-end-of-line)
+(global-set-key (kbd "C-h b") 'counsel-descbinds)
+(global-set-key (kbd "C-c i") 'ivy-resume)
+
+
 (find-)
 hyper
 hyper
@@ -70,6 +84,7 @@ D:\instu\emacs-27.2-x86_64\bin C:\Users\marti\onedrive
  (eepitch-eshell)
  (eepitch-kill)
  (eepitch-eshell)
+
 
 
 ;; Sacha
