@@ -3658,3 +3658,4 @@ git commit -v -a -m nelpa  # f8
 C:\pf\Git\bin\bash.exe
 wsl
 wsl
+C:\pf\Git\bin\bash.exe
