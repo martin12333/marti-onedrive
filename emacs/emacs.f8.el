@@ -48,6 +48,7 @@ node --help|findstr -i buff
 
 
 
+; just checking, comparing syntax ... ok
 (global-set-key (kbd "C-s") 'swiper-isearch)
 (define-key swiper-map (kbd "C-l") 'my-toggle-truncate-lines)
 (global-set-key (kbd "<end>") 'move-end-of-line)
