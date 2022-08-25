@@ -11,8 +11,15 @@
 (savehist-mode 1)
 
 (ivy-mode 1)
-
 (counsel-mode 1)
+;describe-bindings
+;diff 228o
+
+;<mouse-2>	mouse-yank-primary
+
+;<remap> <load-library>		counsel-load-library
+;<remap> <yank-pop>		counsel-yank-pop
+
 
 
 ;NonGNU Emacs Lisp Package Archive
