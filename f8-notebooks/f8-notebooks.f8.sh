@@ -30,13 +30,13 @@ C:\pf\Git\bin\bash.exe
 	git add -vv  '*f8.*'
 	git add -vv --dry-run '*f8.*'
 
-	git commit -v -a -m  before-refactor   #ivy #bkup #css #auto-save #nelpa  # f8
+	git commit -v -a -m  cpio #before-refactor   #ivy #bkup #css #auto-save #nelpa  # f8
 	git push
 
 	# https://github.com/martin12333/marti-onedrive
 
 	exit
-
+C:\pf\Git\bin\bash.exe
 #
 
 
@@ -46,11 +46,13 @@ exit
 
 
 
+wsl
+	zsh
+
+	find . -type f -size -100k -size +100c -mtime -3   |cpio --verbose --warning=all --create --format=crc >/mnt/d/umarti/cpio/228
 
 
-
-
-
+#
 
 
 
