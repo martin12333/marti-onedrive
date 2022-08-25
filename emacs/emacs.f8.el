@@ -7,13 +7,12 @@
 
 M-x ... Esc-x ... mc
 
-M-x eev-begi
+(eev-beginner)
 
 
 (info)
 C-h i
 f1 i
-
 
 C-w S-del
 home C-k
@@ -22,7 +21,6 @@ M-w C-ins
 C-y S-ins
 
 C-x C-s
-
 
 C-s
 
@@ -38,9 +36,16 @@ https://hyperpolyglot.org/lisp#emacs-buffers
 
 
 M-/
+esc-tab
+
+ (eepitch-ielm)
+ido-mode
+
+(find-)
 hyper
 hyper
 marti
+
 c:/Users/marti/AppData/Local/Temp
 
 
@@ -107,58 +112,14 @@ sdfsdfds
 
 
 
-- "[[http://angg.twu.net/emacsconf2019.html][How to record executable
-- notes with eev - and how to play them
-  back]]": my talk at the EmacsConf 2019. Executable notes are mostly
-  made of
-  [[http://angg.twu.net/eev-intros/find-eev-quick-intro.html#3][sexp
-  hyperlinks]] and
-  [[http://angg.twu.net/eev-intros/find-eev-quick-intro.html#6][eepitch
-  blocks]]. This talk has a quick explanation of sexp hyperlinks at
-  [[http://angg.twu.net/LATEX/2019emacsconf.pdf#page=5][slides 5 and
-  6]], a mention in
-  [[http://angg.twu.net/LATEX/2019emacsconf.pdf#page=8][slide 8]] of
-  my 20+ years of executable notes in [[http://angg.twu.net/e/]], and
-  a very nice demo of playing back non-trivial executable notes in the
-  video starting at
-  [[http://www.youtube.com/watch?v=86yiRG8YJD0#t=13m10s][13:10]]; the
-  demo of eepitch starts at
-  [[http://www.youtube.com/watch?v=86yiRG8YJD0#t=15m11s][15:11]],
-
-- "[[http://angg.twu.net/emacsconf2020.html][On why most of the best
-- features in eev look like 5-minute hacks]]":
-  my talk at the EmacsConf 2020. It is mostly about design decisions;
-  for example, starting at
-  [[http://www.youtube.com/watch?v=hOAqBc42Gg8#t=30m40s][30:40]] it
-  explains why eev implements a variant of
-  [[http://www.gnu.org/software/emacs/manual/html_node/emacs/Key-Help.html][M-x
-  describe-key]] that it much more hacker-friendly than the standard
-  one. At
-  [[http://www.youtube.com/watch?v=hOAqBc42Gg8#t=21m02s][21:02]] it
-  shows how I use M-j to teach Emacs and eev to total beginners, and
-  at [[https://www.youtube.com/watch?v=hOAqBc42Gg8#t=18m47s][18:47]]
-  it explains the design decisions behind M-j.
-
-- "[[http://www.youtube.com/watch?v=kxBjiUo88_U][How to install eev
-- with M-x list-packages and how to navigate its
-  tutorials]]". This is a video tutorial accessible to total beginners
-  - with an approach that is the exact opposite of
-  "[[http://angg.twu.net/LATEX/2019emacsconf.pdf#page=10][users should
-  not be forced to see Lisp]]".
-
-- its [[http://angg.twu.net/eev-intros/find-eev-intro.html][sandboxed
-- tutorials]],
-
-- its homepage: [[http://angg.twu.net/#eev]] .
 
 
 
 
+(message "my debug ... end of init.el"  )
 
 
 
-
-my debug ... end of init.el
 
 <f2> <f1> is undefined <f2> RET (translated from <f2> <return>) is
 undefined <f5> is undefined <f6> is undefined <f7> is undefined <f8>
@@ -194,3 +155,96 @@ C-g		keyboard-quit
 
 C-z		suspend-frame
 C-v		scroll-up-command
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#####
+#
+# company
+# 2022mar15
+#
+#####
+
+# «company»  (to ".company")
+# https://www.reddit.com/r/emacs/comments/td0nth/sample_usage_of_cape_completion_at_point/
+# (find-epackage-links 'company "company" t)
+# (find-epackage       'company)
+# (code-c-d "company" "~/.emacs.d/elpa/company-20220328.155/")
+# (find-companyfile "")
+# (find-companyfile "company.el")
+# (find-companyfile "company.el" "company-backends")
+# (require 'company)
+# (find-evardescr 'company-backends)
+# (find-evariable 'company-backends)
+
+
+
+#####
+#
+# ivy-mode
+# 2019aug21
+#
+#####
+
+# «ivy-mode» (to ".ivy-mode")
+# https://github.com/abo-abo/swiper
+# https://oremacs.com/swiper/ Ivy User Manual
+# https://github.com/abo-abo/swiper/blob/master/ivy.el#L28-L37
+
+# (find-epackage-links 'ivy "ivy" t)
+# (find-epackage       'ivy)
+# (code-c-d "ivy" "~/.emacs.d/elpa/ivy-0.13.4/")
+# (find-ivyfile "")
+# (find-ivyfile "ivy.el" "ivy-read")
+
+;; This package provides `ivy-read' as an alternative to
+;; `completing-read' and similar functions.
+;;
+;; There's no intricate code to determine the best candidate.
+;; Instead, the user can navigate to it with `ivy-next-line' and
+;; `ivy-previous-line'.
+;;
+;; The matching is done by splitting the input text by spaces and
+;; re-building it into a regex.
+;; So "for example" is transformed into "\\(for\\).*\\(example\\)".
+
+<bjc> but counsel/ivy/helm/etc have `M-x' overrides that make them
+      fancier/more useful, and maybe that's what's getting in the
+      way
+
+# (ivy-mode 1)
+# (ivy-mode 0)
+
+
+
+
+
+
+#####
+#
+# counsel
+# 2022apr05
+#
+#####
+
+# «counsel»  (to ".counsel")
+# (find-epackage-links 'counsel "counsel" t)
+# (find-epackage       'counsel)
+# (code-c-d "counsel" "~/.emacs.d/elpa/counsel-20220402.953/")
+# (find-counselfile "")
+
+
+
+
+
