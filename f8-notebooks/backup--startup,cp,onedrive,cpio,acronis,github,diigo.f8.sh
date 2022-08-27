@@ -1,4 +1,8 @@
+# startup -> C:\Users\marti\OneDrive\git-bash-dotfiles\mymyrsync.sh
 
+## dotfi=" .bash_history .bash_eternal_history  .guile_history .lsc_history .node_repl_history .python_history .sbcl_history .sqlite_history .zsh_history "
+
+# C:\Users\marti\OneDrive\tar-exe\utf8-LF-tc-clip-vsc.txt
 
 
  (eepitch-shell)
@@ -10,7 +14,7 @@ C:\pf\Git\bin\bash.exe
 
 	ls -latr c:/Users/marti/AppData/Local/Temp/
 
-
+	git ls-files
 	git ls-files|grep [.]el
 	git ls-files|grep f8[.]
 
@@ -24,7 +28,7 @@ C:\pf\Git\bin\bash.exe
 	### interactive . not seeing pwd
 	### ^c enter enter
 	git add -vv --dry-run --interactive *.css
-	git add -vv --interactive '*zsh_history*'
+	git add -vv --interactive '*.json' #'*zsh_history*'
 	4
 	1
 

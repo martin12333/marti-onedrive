@@ -1,0 +1,203 @@
+{
+
+    // f1 default settings
+
+    // nejdriv nejvic nebezpecne
+
+    "extensions.autoUpdate": false,
+    "extensions.autoCheckUpdates": false,
+
+    //"terminal.integrated.rightClickBehavior": "default",
+    "terminal.integrated.rightClickBehavior": "selectWord",
+    // 224
+    // Controls how terminal reacts to right click.
+	//  - default: Show the context menu.
+	//  - copyPaste: Copy when there is a selection, otherwise paste.
+	//  - paste: Paste on right click.
+	//  - selectWord: Select the word under the cursor and show the context menu.
+	//  - nothing: Do nothing and pass event to terminal.
+
+
+    "workbench.colorCustomizations": {
+        "editorError.foreground":   "#ff000018", // "#ff000088",
+        "editorWarning.foreground": "#ffe600f8",
+        "editorInfo.foreground":    "#00ff00f8"
+    },
+
+
+	// Insert spaces when pressing `Tab`. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
+	"editor.insertSpaces": false,   // true,
+
+    "[python]": {
+
+        "editor.detectIndentation": false,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+
+    },
+
+
+
+    //warning: CRLF will be replaced by LF in AppData/Roaming/Code/User/settings.json.
+    // uz jsem to pridal do git
+
+    "files.eol": "\n",
+    "files.trimTrailingWhitespace": true,
+    "files.autoSave": "afterDelay",
+    "git.path": "C:/Program Files/Git/cmd/git.exe",
+    "files.associations": {
+        "*.w": "scheme",
+        "*.sbcl_history": "clojure",
+        "*.opt2": "shellscript",
+        ".zsh_history": "shellscript",
+        "*.zsh_history": "shellscript",
+        "*.hist*": "shellscript",
+        ".sqlite_history": "sql",
+        "*.opt0": "shellscript",
+        ".wslconfig": "properties"
+    },
+
+
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.cursorBlinking": "solid",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "C:\\WINDOWS\\System32\\wsl.exe (migrated)": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "args": []
+        },
+        "Windows PowerShell": {
+            "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        }
+    },
+    "javascript.suggest.completeFunctionCalls": true,
+    "python.autoComplete.addBrackets": true,
+    "powershell.promptToUpdatePowerShell": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/*.olean": true,
+        "**/node_modules": true,
+        "out": false
+    },
+    "spellright.documentTypes": [
+
+        "markdown",
+        "latex",
+        //"plaintext"
+    ],
+    "spellright.ignoreFiles": [
+
+        "**/.gitignore",
+        "**/.spellignore"
+    ],
+    "spellright.ignoreRegExps": [
+
+    ],
+    "spellright.ignoreRegExpsByClass": {
+
+    },
+
+    "spellright.language": [
+        "en",
+        "cs",
+    ],
+
+    "spellright.languageContext": {
+
+    },
+    "spellright.recheckOnSave": false,
+    "markdown.extension.toc.updateOnSave": false,
+    "markdown.extension.toc.omittedFromToc": {
+
+    },
+
+    "editor.wordWrap": "on",
+
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true, // false,
+        "strings": true, //false
+    },
+
+    "[markdown]": {
+
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions":  {
+            "other": true,
+            "comments": true, // false,
+            "strings": true, //false
+        },
+    },
+    "python.analysis.completeFunctionParens": true,
+    "githubPullRequests.createOnPublishBranch": "never",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    // ??
+
+    "bashIde.globPattern": "**/*@(.sh|.inc|.bash|.command|.hist)",
+    "bashIde.highlightParsingErrors": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.commandPalette.preserveInput": true,
+    /////////"git.enableSmartCommit": true
+
+
+	// Controls the font family of the terminal, this defaults to `editor.fontFamily`'s value.
+	//"terminal.integrated.fontFamily": "'cascadia mono','cascadia code'",
+	"terminal.integrated.fontFamily": "consolas,'cascadia mono','cascadia code'",
+
+    // emacs Courier New
+
+    "editor.fontFamily": "'segoe ui',calibri,'Lucida sans','Lucida sans unicode',Arial,'microsoft sans serif',Consolas, 'Courier New', monospace",
+    "diffEditor.ignoreTrimWhitespace": false,
+
+    //"terminal.integrated.automationProfile.osx": {    },
+
+    "tabnine.experimentalAutoImports": true,
+    "python.condaPath": "D:\\conda\\Library\\bin\\conda.bat",
+    "python.defaultInterpreterPath": "D:\\conda\\python.exe",
+    "python.languageServer": "Pylance",
+    "window.zoomLevel": 2,
+
+
+    "powershell.integratedConsole.showOnStartup": false,
+
+
+    // db
+    // ## pgm --help -help -h -e -l -p -- :;.,$&O01lI"''`--
+    // Capital-i Illustr ss01
+    // omlouvám se za opožděné přání všeho nejlepšího k narozeninám ... (chtěl jsem to říct ten den, kdy jste u nás byli na návštěvě, ale večer už nějak nebyla příležitost)
+    // The significance of withdrawal symptoms Withdrawal symptoms are not inconsequential – they indicate the nervous system is becoming destabilized,24,56,57 accounting for the variety and variability of symptoms.27 According to established pharmacological principles, chronic application of any psychotropic brings about neurophysiological processes: adaption, tolerance, and potential dependence with withdrawal upon reduction of the
+
+
+    // unknown configuration setting: languages
+
+    // onedr
+
+}
