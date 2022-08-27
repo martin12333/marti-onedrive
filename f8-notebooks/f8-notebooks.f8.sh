@@ -36,7 +36,7 @@ C:\pf\Git\bin\bash.exe
 	git add -vv  '*f8.*'
 	git add -vv --dry-run '*f8.*'
 
-	git commit -v -a -m  zsh #missing cpio #before-refactor   #ivy #bkup #css #auto-save #nelpa  # f8
+	git commit -v -a -m  bkup #zsh #missing cpio #before-refactor   #ivy #bkup #css #auto-save #nelpa  # f8
 	git push
 
 	# https://github.com/martin12333/marti-onedrive
@@ -58,6 +58,9 @@ wsl
 	zsh
 
 	find . -type f -size -100k -size +100c -mtime -3   |cpio --verbose --warning=all --create --format=crc >/mnt/d/umarti/cpio/228
+
+
+	find . -type f -size -2000k -size +100c -mtime -1   |cpio --verbose --warning=all --create --format=crc >/mnt/d/umarti/cpio/228p-2000k
 
 
 #

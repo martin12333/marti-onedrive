@@ -8,6 +8,7 @@
  '(auto-save-interval 30)
  '(auto-save-visited-mode t)
  '(blink-cursor-mode nil)
+ '(cua-mode t nil (cua-base))
  '(custom-enabled-themes '(wheatgrass))
  '(delete-auto-save-files nil)
  '(desktop-save t)

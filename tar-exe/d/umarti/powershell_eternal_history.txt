@@ -3659,3 +3659,4 @@ C:\pf\Git\bin\bash.exe
 wsl
 wsl
 C:\pf\Git\bin\bash.exe
+wsl
