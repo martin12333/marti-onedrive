@@ -28,7 +28,7 @@ C:\pf\Git\bin\bash.exe
 	### interactive . not seeing pwd
 	### ^c enter enter
 	git add -vv --dry-run --interactive *.css
-	git add -vv --interactive '*.json' #'*zsh_history*'
+	git add -vv --interactive '*.ini' #'*.json' #'*zsh_history*'
 	4
 	1
 
