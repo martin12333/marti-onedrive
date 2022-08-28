@@ -188,6 +188,7 @@
 
 
     "powershell.integratedConsole.showOnStartup": false,
+    "redhat.telemetry.enabled": true,
 
 
     // db

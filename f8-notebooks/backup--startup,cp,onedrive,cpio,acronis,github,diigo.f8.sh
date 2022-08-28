@@ -20,7 +20,7 @@ C:\pf\Git\bin\bash.exe
 
 	git add --help
 
-	cd hyperpolyglot----*
+	cd hyperpolyglot----P*
 	cd ..
 	cd tar-exe
 	cd jupyter-notebooks
@@ -29,10 +29,11 @@ C:\pf\Git\bin\bash.exe
 	### interactive . not seeing pwd
 	### ^c enter enter
 	git add -vv --dry-run --interactive *.css
-	git add -vv --interactive '*.ipynb' # '*.ini' #'*.json' #'*zsh_history*'
+	git add -vv --interactive * # '*.ipynb' # '*.ini' #'*.json' #'*zsh_history*'
 	4
 	1
 	2
+	3
 
 	7
 	git add -vv --dry-run --interactive *.css
