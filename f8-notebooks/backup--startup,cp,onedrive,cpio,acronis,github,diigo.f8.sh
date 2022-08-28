@@ -42,7 +42,7 @@ C:\pf\Git\bin\bash.exe
 	git add -vv  '*f8.*'
 	git add -vv --dry-run '*f8.*'
 
-	git commit -v -a -m  refactor  #bkup #zsh #missing cpio #before-refactor   #ivy #bkup #css #auto-save #nelpa  # f8
+	git commit -v -a -m pandas # refactor  #bkup #zsh #missing cpio #before-refactor   #ivy #bkup #css #auto-save #nelpa  # f8
 	git push
 
 	# https://github.com/martin12333/marti-onedrive
