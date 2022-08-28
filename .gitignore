@@ -18,3 +18,4 @@
 #OLD*/
 OLD*
 *.git/
+.ipynb_checkpoints/

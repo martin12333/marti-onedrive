@@ -3661,3 +3661,6 @@ wsl
 C:\pf\Git\bin\bash.exe
 wsl
 C:\pf\Git\bin\bash.exe
+!dir
+conda activate base
+C:\pf\Git\bin\bash.exe

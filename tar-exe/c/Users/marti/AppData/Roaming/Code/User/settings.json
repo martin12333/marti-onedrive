@@ -54,7 +54,8 @@
         "*.hist*": "shellscript",
         ".sqlite_history": "sql",
         "*.opt0": "shellscript",
-        ".wslconfig": "properties"
+        ".wslconfig": "properties",
+        "*.sw": "clojure"
     },
 
 
