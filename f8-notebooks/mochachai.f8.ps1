@@ -4,6 +4,11 @@ exit
 
 cd ~/boilerplate-mochachai/
 
+
+npm i
+
+
+
 npm start
 
 
@@ -15,12 +20,14 @@ C:\pf\Git\bin\bash.exe
 	cd
 	cd boilerplate-mochachai/
 
-	code .
+	###code .
 
 	git commit -vvv -a -m first4
 
 	git push
 
+	git diff
+	 
 
 exit
 

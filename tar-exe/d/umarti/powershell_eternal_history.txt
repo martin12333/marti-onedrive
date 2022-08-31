@@ -3674,3 +3674,6 @@ cd ~/boilerplate-mochachai/
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i moch
 git add -vv --dry-run '*f8.*'
 C:\pf\Git\bin\bash.exe
+cd ~/boilerplate-mochachai/
+npm start
+cd ~\boilerplate-mochachai\
