@@ -3664,3 +3664,5 @@ C:\pf\Git\bin\bash.exe
 !dir
 conda activate base
 C:\pf\Git\bin\bash.exe
+idle.exe
+spyder.exe
