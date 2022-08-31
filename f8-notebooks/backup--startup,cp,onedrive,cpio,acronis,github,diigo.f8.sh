@@ -12,6 +12,8 @@ ls
 
 C:\pf\Git\bin\bash.exe
 
+	cd ~/OneDrive
+
 	ls -latr c:/Users/marti/AppData/Local/Temp/
 
 	git ls-files
@@ -43,7 +45,7 @@ C:\pf\Git\bin\bash.exe
 	git add -vv  '*f8.*'
 	git add -vv --dry-run '*f8.*'
 
-	git commit -v -a -m sett #pandas # refactor  #bkup #zsh #missing cpio #before-refactor   #ivy #bkup #css #auto-save #nelpa  # f8
+	git commit -v -a -m chai  #sett #pandas # refactor  #bkup #zsh #missing cpio #before-refactor   #ivy #bkup #css #auto-save #nelpa  # f8
 	git push
 
 	# https://github.com/martin12333/marti-onedrive
