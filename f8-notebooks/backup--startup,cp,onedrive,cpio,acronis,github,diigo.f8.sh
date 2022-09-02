@@ -71,10 +71,13 @@ exit
 wsl
 	zsh
 
+	find . -type f -size -2000k -size +1000k  -mtime -1 #-ls
+
+
 	find . -type f -size -100k -size +100c -mtime -3   |cpio --verbose --warning=all --create --format=crc >/mnt/d/umarti/cpio/228
 
 
-	find . -type f -size -2000k -size +100c -mtime -1   |cpio --verbose --warning=all --create --format=crc >/mnt/d/umarti/cpio/228p-2000k
+	find . -type f -size -2000k -size +100c -mtime -1   |cpio --verbose  --create --format=crc >/mnt/d/umarti/cpio/2292-2000k.cpio
 
 
 #
