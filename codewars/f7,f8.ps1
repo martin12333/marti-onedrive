@@ -1,21 +1,14 @@
 
-
-
-
-F5 run and debug
-safety measures to not run this entire file
-probably unnecessary
+f8-notebook
+do-not run this file as a whole
 )
-stops at parsererror at quit()
+exit
+
+safety measures to not run this entire file by F5 run and debug
+probably unnecessary?
+stops at parsererror at )
 
 node --inspect
-.exit
-quit()
-
-exit
-debugger;
-breakpoint()
-console.log(456)
 
 
 

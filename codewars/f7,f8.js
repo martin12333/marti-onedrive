@@ -1,21 +1,24 @@
+node
+
+f8-notebook
+do-not run this file as a whole
+debugger;
+.exit
+
 node --inspect
 node --help
 .help
-//###node debug
+
 zsh
 node
 
-F5 run and debug
-safety measures to not run this entire file
-probably unnecessary
-node --inspect
+
+safety measures to not run this entire file by F5 run and debug
+probably unnecessary?
 .exit
 debugger;
 
-console.log(456)
 
-//###ipython3
-//#python3
 
 ctrl-end
 

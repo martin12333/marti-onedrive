@@ -3678,3 +3678,18 @@ cd ~/boilerplate-mochachai/
 npm start
 cd ~\boilerplate-mochachai\
 C:\pf\Git\bin\bash.exe
+conda activate base
+python
+node --inspect
+node
+node --inspect
+conda activate base
+ & 'D:\conda\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '57290' '--' 'c:\Users\marti\OneDrive\codewars\f7,f8.py' 
+python
+f8-notebook
+do-not run this file as a whole
+exit
+exit
+. "c:\Users\marti\OneDrive\codewars\f7,f8.ps1"
+. "c:\Users\marti\OneDrive\codewars\f7,f8.ps1"
+)

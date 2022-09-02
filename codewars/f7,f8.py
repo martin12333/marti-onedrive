@@ -1,5 +1,10 @@
 #%%
 python
+f8-notebook
+do-not run this file as a whole
+breakpoint()
+#quit()
+#%%
 
 #####
 ##python -m pdb
@@ -12,12 +17,11 @@ python3
 
 #%%
 
-F5 run and debug
-safety measures to not run this entire file
-probably unnecessary
+safety measures to not run this entire file by F5 run and debug
+probably unnecessary?
 node --inspect
 .exit
-quit()
+#quit()
 debugger;
 breakpoint()
 console.log(456)
