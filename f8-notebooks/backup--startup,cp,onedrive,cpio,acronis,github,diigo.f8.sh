@@ -14,7 +14,6 @@ C:\pf\Git\bin\bash.exe
 
 	cd ~/OneDrive
 
-	git show --name-only
 
 	ls -latr c:/Users/marti/AppData/Local/Temp/
 
@@ -50,6 +49,9 @@ C:\pf\Git\bin\bash.exe
 
 	git commit -v -a -m bk #chai  #sett #pandas # refactor  #bkup #zsh #missing cpio #before-refactor   #ivy #bkup #css #auto-save #nelpa  # f8
 	git push
+
+	git show --name-only
+
 
 	# https://github.com/martin12333/marti-onedrive
 	# w: failed

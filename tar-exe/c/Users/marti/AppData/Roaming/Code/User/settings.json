@@ -186,12 +186,12 @@
     "tabnine.experimentalAutoImports": true,
     "python.condaPath": "D:\\conda\\Library\\bin\\conda.bat",
     "python.defaultInterpreterPath": "D:\\conda\\python.exe",
-    "python.languageServer": "Pylance",
-    "window.zoomLevel": 2,
+	"python.languageServer": "Pylance",
 
 
     "powershell.integratedConsole.showOnStartup": false,
-    "redhat.telemetry.enabled": true,
+	"redhat.telemetry.enabled": true,
+	"window.zoomLevel": 2,
 
 
     // db
