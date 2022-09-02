@@ -3693,3 +3693,4 @@ exit
 . "c:\Users\marti\OneDrive\codewars\f7,f8.ps1"
 . "c:\Users\marti\OneDrive\codewars\f7,f8.ps1"
 )
+C:\pf\Git\bin\bash.exe
