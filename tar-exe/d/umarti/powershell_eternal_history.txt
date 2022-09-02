@@ -3677,3 +3677,4 @@ C:\pf\Git\bin\bash.exe
 cd ~/boilerplate-mochachai/
 npm start
 cd ~\boilerplate-mochachai\
+C:\pf\Git\bin\bash.exe

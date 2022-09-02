@@ -99,16 +99,16 @@
     "python.autoComplete.addBrackets": true,
     "powershell.promptToUpdatePowerShell": false,
     "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/Thumbs.db": true,
-        "**/*.olean": true,
-        "**/node_modules": true,
-        "out": false
-    },
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true,
+		"**/*.olean": true,
+		"**/node_modules": true,
+		"out": false
+	},
     "spellright.documentTypes": [
 
         "markdown",
