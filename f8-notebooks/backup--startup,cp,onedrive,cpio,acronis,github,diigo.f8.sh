@@ -52,6 +52,7 @@ C:\pf\Git\bin\bash.exe
 
 	git show --name-only
 
+	git gui
 
 	# https://github.com/martin12333/marti-onedrive
 	# w: failed
