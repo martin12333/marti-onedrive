@@ -33,7 +33,7 @@ C:\pf\Git\bin\bash.exe
 	### interactive . not seeing pwd
 	### ^c enter enter
 	git add -vv --dry-run --interactive *.css
-	git add -vv --interactive  '*.ipynb' # * # '*.ini' #'*.json' #'*zsh_history*'
+	git add -vv --interactive  '*sprea*iss*' # '*.ipynb' # * # '*.ini' #'*.json' #'*zsh_history*'
 	4
 	1
 	2
@@ -43,7 +43,7 @@ C:\pf\Git\bin\bash.exe
 	git add -vv --dry-run --interactive *.css
 
 
-	git add -vv --dry-run '*f8.*'
+	git add -vv --dry-run '*sprea*iss*' #    '*f8.*'
 	git add -vv  '*f8.*'
 	git add -vv --dry-run '*f8.*'
 
