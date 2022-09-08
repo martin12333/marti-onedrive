@@ -49,8 +49,9 @@ C:\pf\Git\bin\bash.exe
 
 
 	/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
-	git commit -v -a -m bk #chai  #sett #pandas # refactor  #bkup #zsh #missing cpio #before-refactor   #ivy #bkup #css #auto-save #nelpa  # f8
+	git commit -v -a -m bk #chai
 	git push
+	#sett #pandas # refactor  #bkup #zsh #missing cpio #before-refactor   #ivy #bkup #css #auto-save #nelpa  # f8
 
 	git show --name-only
 
