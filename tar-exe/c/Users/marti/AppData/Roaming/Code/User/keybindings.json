@@ -1,9 +1,7 @@
 // Place your key bindings in this file to override the defaults
 [
 
-    // if bugfix here !!!!!!!!!! then also update at  https://www.reddit.com/r/whitespaceLisp/comments/mu5gms/an_ideal_keyboard_layout_for_programming/gv3udve/
-
-    // uz jsem to pridal do git
+    //  !!!!!!!!!! if bugfix here, then also update at  https://www.reddit.com/r/whitespaceLisp/comments/mu5gms/an_ideal_keyboard_layout_for_programming/gv3udve/
 
     {
         "key": "f8",
@@ -11,17 +9,14 @@
             "when": "editorTextFocus"
     },
 
-
-
     { "key": "f7",
       "command":  "cursorPageDownSelect",   //"cursorBottomSelect",
       "when": "textInputFocus" },
 
+    // EDIT bugfix: the part "when": "editorTextFocus" is really needed, otherwise awful behavior in ctrl-f
 
 
     //{ "key": "y",           "command": "type", "args": { "text": "z" }, "when": "editorTextFocus" },
-    // EDIT bugfix: the part "when": "editorTextFocus" is really needed, otherwise awful behavior in ctrl-f
-    // ano "when": "editorTextFocus " jinak pokazi sor pri zadavani  hledani po ^f ... a v teminalu stejne doesn't work !!
 
     //// $e#tina czeshtina čeština ů§"¨"¨
     //// { "key": "3",           "command": "type", "args": { "text": "#" }, "when": "editorTextFocus" },
@@ -38,7 +33,6 @@
 
     //{ "key": "numpad_decimal",           "command": "type", "args": { "text": ";" }, "when": "editorTextFocus" },
 
-
-
+    // ano "when": "editorTextFocus " jinak pokazi sor pri zadavani  hledani po ^f ... a v teminalu stejne doesn't work !!
 
 ]
