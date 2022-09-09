@@ -1,20 +1,46 @@
+exit
 wsl
 zsh
-#ls -ld ~/*wis*
-#cd ~/by-hg-wisp
 cd ~/wisp-1.0.7
 guile -L . --language=wisp
 * 3 6
+;ctrl-d
 
-ctrl-end
+
+
+
+
+#fail
+	./configure --datarootdir=$HOME/.local
+
+	export GUILE_LOAD_COMPILED_PATH=${HOME}/.local/lib/guile/2.2/site-ccache{GUILE_LOAD_COMPILED_PATH:+:}${GUILE_LOAD_COMPILED_PATH}
+	export GUILE_LOAD_PATH=${HOME}/.local/share/guile/site/2.2/${GUILE_LOAD_PATH:+:}${GUILE_LOAD_PATH}
+
+	history| grep make
+	make --dry-run install
+	make  install #fail
+	guile -c '(import (language wisp spec))' #fail
+#
+
+echo $GUILE_LOAD_PATH
+
+guile
+%load-path
+
+#ls -ld ~/*wis*
+#cd ~/by-hg-wisp
+
+;ctrl-end
+
+
+
 
 
 guile
+comma ,commands work
 only in scheme not wisp
 ,pp (quote (+ 5 5))
 ,pp  (+ 5 5)
-
-
 
 ,h
 ,apropos display
@@ -28,11 +54,6 @@ only in scheme not wisp
 
 ;;;;;;;;pp 88
 ;;;;;;;;pp (quote (+ 5 5))
-;;;;
-only in scheme not wisp
-,pp (quote (+ 5 5))
-,pp  (+ 5 5)
-
 
 wisp fail
 ,pp
@@ -40,21 +61,19 @@ wisp fail
 ,pp  :
 + 5 5
 ,pp
-
-
-;;;;;,show 5
-
-
-    {
-        "key": "f8",
-          "command": "workbench.action.terminal.runSelectedText",
-            "when": "editorTextFocus "}
-    ,
+;
 
 
 
+{
+	"key": "f8",
+		"command": "workbench.action.terminal.runSelectedText",
+		"when": "editorTextFocus "}
+,
 
-;;ctrl-pagedown
+
+
+
 
 
 
