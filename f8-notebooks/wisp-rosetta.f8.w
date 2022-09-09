@@ -6,13 +6,37 @@ guile -L . --language=wisp
 * 3 6
 ;ctrl-d
 
+. %load-path
 
+use-modules (sugar)
+;ctrl-d
+
+
+guile
+%load-path
+(use-modules (sugar))
+
+;; note: auto-compilation is enabled, set GUILE_AUTO_COMPILE=0
+;;;       or pass the --no-auto-compile argument to disable.
+;;; compiling /home/martin/OneDrive/readable-path/readable/trunk/sugar.scm
+;;; sugar.scm:251:14: warning: possibly wrong number of arguments to `eval'
+;;; compiled /home/martin/.cache/guile/ccache/3.0-LE-8-4.2/mnt/c/Users/marti/OneDrive/readable-path/readable/trunk/sugar.scm.go
+
+* 9 6
+
+(sugar-disable)
+(sugar-enable)
+
+echo $GUILE_LOAD_PATH
+export GUILE_LOAD_PATH=${HOME}/OneDrive/readable-path/readable/trunk${GUILE_LOAD_PATH:+:}${GUILE_LOAD_PATH}
+echo $GUILE_LOAD_PATH
 
 
 
 #fail
 	./configure --datarootdir=$HOME/.local
 
+	### 2.2 -> 3.0
 	export GUILE_LOAD_COMPILED_PATH=${HOME}/.local/lib/guile/2.2/site-ccache{GUILE_LOAD_COMPILED_PATH:+:}${GUILE_LOAD_COMPILED_PATH}
 	export GUILE_LOAD_PATH=${HOME}/.local/share/guile/site/2.2/${GUILE_LOAD_PATH:+:}${GUILE_LOAD_PATH}
 
