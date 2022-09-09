@@ -106,3 +106,18 @@ guile
          "command": "workbench.action.terminal.runSelectedText",
            "when": "editorTextFocus "})
 "")
+
+
+(read)
+'(
+( "a",  w, ,b c,d)
+;( "jlkjjla":  w, ,b c,d)
+;;;;;( "jlkjjla".   b c)
+;( "jlkjjla".  w, ,b c,d)
+;;;;;( "jlkjjla".  w ,b )
+;;;( "jlkjjla".  w ,read )
+;( "jlkjjla"  w, , , ' ' ,b )
+;;;( "jlkjjla".  w ,(+ 2 5) )
+'( "jlkjjla".  w ,(+ 2 5) )
+
+)
