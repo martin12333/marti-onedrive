@@ -3705,3 +3705,11 @@ wsl
 C:\pf\Git\bin\bash.exe
 wsl
 C:\pf\Git\bin\bash.exe
+node
+conda activate base
+cd Jevko
+node --experimental-repl-await
+cd ~onedrive
+cd ~/onedrive
+cd Jevko/parsejevko.js
+node --experimental-repl-await
