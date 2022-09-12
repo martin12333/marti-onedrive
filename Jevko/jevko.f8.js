@@ -1,4 +1,4 @@
-f8-notebook
+(f8_notebook file format)
 (do-not run this file as a whole)
 
 // How to try parseJevko in node repl

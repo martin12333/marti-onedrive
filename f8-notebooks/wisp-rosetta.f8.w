@@ -1,5 +1,5 @@
-f8-notebook
-do-not run this file as a whole
+(f8_notebook file format)
+(do-not run this file as a whole)
 
 exit
 wsl
