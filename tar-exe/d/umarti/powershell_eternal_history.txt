@@ -3717,3 +3717,6 @@ cd ~/onedrive/Jevko/parsejevko.js
 conda activate base
 node --experimental-repl-await
 C:\pf\Git\bin\bash.exe
+conda activate base
+cd ~/onedrive/Jevko/parsejevko.js
+node --experimental-repl-await

@@ -1,7 +1,7 @@
 #%%
 python
 
-(f8_notebook file format)
+(mm_f8_doc file pseudo-format)
 (do-not run this file as a whole)
 breakpoint()
 #quit()
