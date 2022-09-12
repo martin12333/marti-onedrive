@@ -1,4 +1,9 @@
 (mm_f8_doc file pseudo-format)
+
+// (selected lines from this file can be run in a terminal ... e.g. by F8 runSelectedText  )
+
+
+
 (do-not run this file as a whole)
 
 // How to try parseJevko in node repl
