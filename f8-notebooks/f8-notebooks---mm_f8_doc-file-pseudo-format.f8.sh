@@ -3,6 +3,24 @@
 (do-not run this file as a whole)
 exit
 
+
+pwsh
+C:\pf\Git\bin\bash.exe
+	cd ~/OneDrive
+
+	git ls-files
+	git ls-files|grep [.]ipynb
+	git ls-files|grep f8[.]
+
+	git add -vv --dry-run '*f8.*'
+	git add -vv  '*f8.*'
+	git add -vv --dry-run '*sprea*iss*' #    '*f8.*'
+
+exit
+
+
+
+########################
 # keybindings.json
 
     {
@@ -19,7 +37,7 @@ exit
       "command":  "cursorPageDownSelect",   //"cursorBottomSelect",
       "when": "textInputFocus" },
 
-
+###################
 # default was
 
 { "key": "f8",
