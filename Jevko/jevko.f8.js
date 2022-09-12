@@ -1,33 +1,31 @@
-cd ~/onedrive
+f8-notebook
+(do-not run this file as a whole)
 
-cd Jevko/parsejevko.js
+// How to try parseJevko in node repl
 
-node --help|findstr await
-Welcome to Node.js v14.4.0.
-
+cd ~/onedrive/Jevko/parsejevko.js
 node --experimental-repl-await
+// Welcome to Node.js v14.4.0.
+// node --help|findstr await
+
 
 parsejevko_js = await import('./mod.js');
 
 parseJevko=parsejevko_js.parseJevko
 
-x=parseJevko(`hello [world]`)
+x=parseJevko(`hello [world]`);    JSON.stringify(x,null,2)
 
-JSON.stringify(x,null,2)
+x=parseJevko(`a[b]c`);  JSON.stringify(x,null,2)
 
-
-
-Type ".help" for more information.
-
-
-fail
-let myModule;
-import("./mod.js").then(module => { myModule = module });
-
-myModule.foo();
+//x=parseJevko(`a[b]c`);
 
 
 
+////failed:
+////let myModule;
+////import("./mod.js").then(module => { myModule = module });
+////myModule.foo();
+
+//Type ".help" for more information.
 .exit
-
 exit

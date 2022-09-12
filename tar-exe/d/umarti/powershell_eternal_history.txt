@@ -3713,3 +3713,6 @@ cd ~onedrive
 cd ~/onedrive
 cd Jevko/parsejevko.js
 node --experimental-repl-await
+cd ~/onedrive/Jevko/parsejevko.js
+conda activate base
+node --experimental-repl-await
