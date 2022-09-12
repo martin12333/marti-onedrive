@@ -3,11 +3,16 @@
 // (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
 
-// How to try parseJevko in node repl
+// How to try parseJevko in a node repl
 
 cd ~/onedrive/Jevko/parsejevko.js
+
+node
+// node 16+ probably has repl-await by default
+
 node --experimental-repl-await
 // Welcome to Node.js v14.4.0.
+
 // node --help|findstr await
 
 
