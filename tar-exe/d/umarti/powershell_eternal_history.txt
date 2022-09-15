@@ -3720,3 +3720,15 @@ C:\pf\Git\bin\bash.exe
 conda activate base
 cd ~/onedrive/Jevko/parsejevko.js
 node --experimental-repl-await
+wsl
+where.exe vcruntime140.dll
+dir C:\Windows\System32\vcruntime140.dll
+dir C:\Windows\System32\vcruntime140*
+cd .\rebol\
+copy C:\Windows\System32\vcruntime140*
+dir
+wsl
+ls
+cd ~/make-a-lisp
+cd ~/onedrive/make-a-lisp
+node

@@ -49,17 +49,19 @@
     "files.autoSave": "afterDelay",
     "git.path": "C:/Program Files/Git/cmd/git.exe",
     "files.associations": {
-        "*.w": "scheme",
-        "*.sbcl_history": "clojure",
-        "*.opt2": "shellscript",
-        ".zsh_history": "shellscript",
-        "*.zsh_history": "shellscript",
-        "*.hist*": "shellscript",
-        ".sqlite_history": "sql",
-        "*.opt0": "shellscript",
-        ".wslconfig": "properties",
-        "*.sw": "clojure"
-    },
+		"*.w": "scheme",
+		"*.sbcl_history": "clojure",
+		"*.opt2": "shellscript",
+		".zsh_history": "shellscript",
+		"*.zsh_history": "shellscript",
+		"*.hist*": "shellscript",
+		".sqlite_history": "sql",
+		"*.opt0": "shellscript",
+		".wslconfig": "properties",
+		"*.sw": "clojure",
+		"*.art": "clojure",
+		"*.r": "clojure"
+	},
 
 
     "[json]": {
