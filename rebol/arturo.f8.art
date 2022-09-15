@@ -1,0 +1,19 @@
+
+C:\Users\WDAGUtilityAccount\Desktop>arturo-mini-windows-latest\arturo.exe --no-color
+Arturo
+(c) 2019-2022 Yanis Zafirópulos
+
+# v/0.9.80 @ 2022-09-14T22:57:13+02:00
+# arch: amd64/windows
+
+# Type help to get a list of all available functions with a short description
+# Type lookup "something" to lookup a specific function by name/description or type
+# Type info 'symbol for info about a specific symbol or built-in function
+
+# For multi-line input, just add a blank space at the end of a line
+# Use TAB for auto-completion, UP for navigating history
+
+# Launching interactive console - rock on! 🤘
+
+$>
+

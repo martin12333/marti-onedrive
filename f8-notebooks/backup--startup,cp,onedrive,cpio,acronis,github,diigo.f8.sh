@@ -49,8 +49,8 @@ C:\pf\Git\bin\bash.exe
 
 
 	git add -vv --dry-run '*sprea*iss*' #    '*f8.*'
-	git add -vv  '*f8.*'
-	git add -vv --dry-run '*f8.*'
+	git add -vv  '*.f8.*'
+	git add -vv --dry-run '*.f8.*'
 
 
 	/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
