@@ -1,6 +1,12 @@
 http://hostilefork.com/media/shared/replpad-js/
 https://metaeducation.s3.amazonaws.com/index.html
 
+>> print 4 print 1
+
+** Syntax Error: Invalid word -- ,
+
+>> x: [~ ` ! g! f@b # #3 #d $2 %f "1%" ^ d&d * %*.a (x) _ + - = r2 [1] {d} r3 a: 'b o'c "d" | r4 < . g. .s. ... / y/n g? >              1.10 1.  ]
+
 
 
 C:\Users\WDAGUtilityAccount\Desktop>rebol-view-278-3-1.exe
@@ -21,6 +27,22 @@ REBOL is a trademark of REBOL Technologies. WWW.REBOL.COM
 4
 1
 >>
+
+
+>> x: [ ~ `  ! go! f@b # #3 #df $2 %fi 100 "%" ^ d&d  xx  * %*.a (aaa ) _ + - = row2 [] {d}  row3 a: 'bout o'cloc "d"   | row4 , < . .> /  ?              1. 1.10  ]
+** Syntax Error: Invalid word -- ,
+** Near: (line 1) x: [ ~ `  ! go! f@b # #3 #df $2 %fi 100 "%" ^ d&d  xx  * %*.a (aaa ) _ + - = row2 [] {d}  row3 a: 'bout o'cloc "d"   | row4 , < . .> /  ?              1. 1.10  ]
+
+
+>>
+>> x: [~ ` ! g! f@b # #3 #d $2 %f "1%" ^ d&d * %*.a (x) _ + - = r2 [1] {d} r3 a: 'b o'c "d" | r4 < . g. .s. ... / y/n g? >              1.10 1.  ]
+== [~ ` ! g! f@b # #3 #d $2.00 %f "1%" ^ d&d * %*.a (x) _ + - = r2 [1] "d" r3 a: 'b o'c "d" | r4 < . g. .s. ... / y/n g? > 1.1 1.0]
+>>
+>>
+
+
+
+
 
 
 
