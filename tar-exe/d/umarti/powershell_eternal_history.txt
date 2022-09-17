@@ -3733,3 +3733,6 @@ cd ~/make-a-lisp
 cd ~/onedrive/make-a-lisp
 node
 C:\pf\Git\bin\bash.exe
+wsl
+git show --name-only
+C:\pf\Git\bin\bash.exe
