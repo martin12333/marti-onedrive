@@ -5,6 +5,53 @@ $> [s,d df, ,a , ,  ds]
 [0;90m=> [s d df a ds][0m
 
 
+
+code: {
+    ((data "quoted data" 123 4.5)
+     (data (!@# (4.5) "(more" "data)")))
+}
+
+s: first to :block code
+inspect.muted s
+
+print as.code s
+
+
+[ :inline
+    [ :inline
+        data :word
+        quoted data :string
+        123 :integer
+        4.5 :floating
+    ]
+    [ :inline
+        data :word
+        [ :inline
+            ! :symbol
+            @ :symbol
+            # :symbol
+            [ :inline
+                4.5 :floating
+            ]
+            (more :string
+            data) :string
+        ]
+    ]
+]
+
+
+
+((data "quoted data" 123 4.5) (data (! @ # (4.5) "(more" "data)")))
+
+
+
+
+
+
+
+
+
+
 Arturo
 (c) 2019-2022 Yanis Zafirópulos
 
