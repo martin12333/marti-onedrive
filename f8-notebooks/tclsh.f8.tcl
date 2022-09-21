@@ -75,6 +75,8 @@ lindex a\ b\\\ c\\\ d\\\\\\\ e\\\\\\\ f\\\\\\\ g 1
 puts a\ b\\\ c\\\ d\\\\\\\ e\\\\\\\ f\\\\\\\ g
 
 
+llength aaa
+
 llength {set b [list $one "$two $three" ]}
 puts {set b [list $one "$two $three" ]}
 
