@@ -84,3 +84,5 @@ tcl::unsupported::representation 1
  tcl::unsupported::representation { {1 2 3}}
 
 
+package ifneeded csv [package require csv]
+
