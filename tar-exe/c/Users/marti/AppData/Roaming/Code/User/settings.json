@@ -60,7 +60,8 @@
 		".wslconfig": "properties",
 		"*.sw": "clojure",
 		"*.art": "clojure",
-		"*.r": "clojure"
+		"*.r": "clojure",
+		"*.tcl": "shellscript"
 	},
 
 
