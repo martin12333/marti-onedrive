@@ -2,6 +2,7 @@ https://observablehq.com/@martin12333/hello-clojure-small-interpreter
 
 Hello, Clojure small interpreter
 
+JS
 
 sci = require("@borkdude/sci")
 
