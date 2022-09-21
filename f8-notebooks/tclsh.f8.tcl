@@ -3,7 +3,12 @@ zsh
 ####tclsh ... conda
 /usr/bin/tclsh
 
-expr 8 * 7
+which -a tclsh
+	/home/martin/miniconda3/bin/tclsh
+	/usr/bin/tclsh
+	/bin/tclsh
+#
+
 
 
 sudo apt install tcl
@@ -11,9 +16,42 @@ sudo apt install tcllib
 apt show tcl-sugar
 apt show tcl-tclex
 
-apt download tcllib
+#apt download tcllib
+#dpkg -l |grep tcl
+set|grep -i tc
+
+
+
+
+
+expr 8 * 7
 
 info tclversion
+
+puts $tcl_pkgPath
+puts $auto_path
+
+package --help
+package names
+
+
+package require json
+
+package require Tcl 8.6
+package require json::write
+###pkg_mkIndex
+
+
+package require uuid
+package require csv
+
+
+set x [puts $tcl_pkgPath]
+#ls -l /home/martin/miniconda3/lib|grep tcl
+
+
+
+
 
 set x { b c { a d { f g } } e }
 set x {b c {a d {f g {h i}} } e }
@@ -46,31 +84,3 @@ tcl::unsupported::representation 1
  tcl::unsupported::representation { {1 2 3}}
 
 
-####package require json 1.3.3
-package require json
-
-package require Tcl 8.6
-package require json::write
-###pkg_mkIndex
-
-dpkg -l |grep tcl
-
- package require uuid
-package require csv
-
-package --help
-package names
-puts $tcl_pkgPath
-puts $auto_path
-set x [puts $tcl_pkgPath]
-ls -l /home/martin/miniconda3/lib|grep tcl
-
-set|grep -i tc
-
-which -a tclsh
-
- OneDrive which -a tclsh
-/home/martin/miniconda3/bin/tclsh
-/usr/bin/tclsh
-/bin/tclsh
-➜  OneDrive
