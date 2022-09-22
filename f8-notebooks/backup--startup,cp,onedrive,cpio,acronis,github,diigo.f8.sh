@@ -83,7 +83,8 @@ wsl
 
 	find . -type f -size -100k -size +100c -mtime -3   |cpio --verbose --warning=all --create --format=crc >/mnt/d/umarti/cpio/228
 
-	find . -type f -size -2000k -size +100c -mtime -1   |cpio --verbose  --create --format=crc >/mnt/d/umarti/cpio/229h-2000k.cpio
+	find . -type f -size -2000k -size +100c -mtime -1   |cpio --verbose  --create --format=crc >/mnt/d/umarti/cpio/229m-2000k.cpio
+# scr shot 200k..800k
 
 
 #
