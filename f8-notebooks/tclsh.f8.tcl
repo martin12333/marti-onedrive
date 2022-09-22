@@ -198,8 +198,8 @@ set x 1
 gluea
 b}
 
-./echo2.sh $x --opt "a r g" {*}{
---opt "a2 r2 g2"
+./echo2.sh $x --opt "a r g" {*}{qqq
+#--opt "a2 r2 g2"
 a
 b}
 
