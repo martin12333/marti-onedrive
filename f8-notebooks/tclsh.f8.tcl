@@ -21,6 +21,12 @@ apt show tcl-tclex
 set|grep -i tc
 
 
+#########failed
+help
+info --help
+info args info
+info commands string
+man man
 
 
 
@@ -69,6 +75,13 @@ set x {b c {a d {f g {h i}} } e }
 ###set x a{b c {a d {f g } } e }
 ###set x {b c{a d {f g } } e }
 ###set x { b c { a d{ f g } } e }
+
+set x {a
+
+b}
+
+foreach y $x {  	puts  "* $y"  }
+
 
 set x a
 set x {a}
@@ -186,7 +199,9 @@ cat ./echo2.sh a b
 for x in "$@"
 ####for x in $*
 do
-echo $x
+###echo $x
+	echo "* $x"
+
 done
 
 ./echo2.sh a b
@@ -206,7 +221,8 @@ b}
 
 
 
-
+set x $testtree
+foreach y $x {  	puts  "* $y"  }
 
 
 
@@ -247,9 +263,11 @@ proc absolutePath {tree index} {
 #------------ Testing:
 set testtree {{} bin {usr bin {local bin lib}}}
 puts [traverse $testtree]
+
 foreach i [traverse $testtree] {
    puts $i:[lindex $testtree $i],[join [absolutePath $testtree $i] /]
 }
+
 set testtree [addSubtree $testtree {2 0} lib]
 set testtree [addSubtree $testtree {2 3} tcl8.4]
 puts {added /usr/lib}
