@@ -74,6 +74,15 @@ ls -l /home/martin/miniconda3/lib | grep tcl
 ####ambiguous command name "a": after append apply array auto_execok auto_import auto_load auto_load_index auto_qualify
 #### selection run
 
+
+
+
+
+https://wiki.tcl-lang.org/page/list
+
+
+
+
 #set x { b c { a d { f g } } e }
 set x {b c {a d {f g {h i}} } e }
 ###set x a{b c {a d {f g } } e }
