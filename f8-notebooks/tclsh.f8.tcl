@@ -316,3 +316,15 @@ set d1 [json::json2dict $jsonStr]
 set d2 [json::json2prettydict $jsonStr]
 
 
+
+
+
+set a(b) c
+###puts $a
+#can't read "a": variable is array'
+
+puts $a(b)
+#######foreach {x y} $a {}
+
+###dict create $a
+dict create a b c d
