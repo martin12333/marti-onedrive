@@ -25,12 +25,7 @@ apt show tcl-tclex
 set|grep -i tc
 
 
-#########failed
-help
-info --help
-info args info
-info commands string
-man man
+##info --help
 
 
 
