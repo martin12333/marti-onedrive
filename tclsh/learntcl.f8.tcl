@@ -1,5 +1,15 @@
+(mm_f8_doc file pseudo-format)
 
-#! /bin/env tclsh
+# (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
+
+wsl
+zsh
+####tclsh ... conda
+/usr/bin/tclsh
+
+
+
+########### #! /bin/env tclsh
 
 ###############################################################################
 ## 1. Guidelines
@@ -59,7 +69,7 @@ set action pu
 
 # , the following three commands are equivalent:
 puts $greeting
-${action}ts $greeting 
+${action}ts $greeting
 [set action]ts $greeting
 
 
@@ -298,7 +308,7 @@ if {3 > 4} {
 }
 
 
-# Loops are implemented as routines.  The first and third arguments to 
+# Loops are implemented as routines.  The first and third arguments to
 # "for" are treated as scripts, while the second argument is treated as
 # an expression:
 set res 0
@@ -388,7 +398,7 @@ try {
 
 set replacement {Archibald Sorbisol}
 set command {set name $replacement}
-set command [subst $command] 
+set command [subst $command]
 try {
     eval $command ;# The same error as before:  too many arguments to "set" in \
         {set name Archibald Sorbisol}
@@ -473,15 +483,15 @@ proc countdown count {
 }
 coroutine countdown1 countdown 3
 coroutine countdown2 countdown 5
-puts [countdown1] ;# -> 2 
-puts [countdown2] ;# -> 4 
-puts [countdown1] ;# -> 1 
-puts [countdown1] ;# -> 0 
+puts [countdown1] ;# -> 2
+puts [countdown2] ;# -> 4
+puts [countdown1] ;# -> 1
+puts [countdown1] ;# -> 0
 catch {
     puts [coundown1] ;# -> invalid command name "countdown1"
-} cres copts 
+} cres copts
 puts $cres
-puts [countdown2] ;# -> 3 
+puts [countdown2] ;# -> 3
 
 
 # Coroutine stacks can yield control to each other:
