@@ -324,6 +324,14 @@ set a(b) c
 #can't read "a": variable is array'
 
 puts $a(b)
+puts a(b)
+split a(b) ""
+split a{b} ""
+split a"b"'' ""
+split {#`~'a[b]',./;:} ""
+split #`~!@#$%^&*()_-""'a',./\;: ""
+split |\\""'a',.<>/? ""
+
 #######foreach {x y} $a {}
 
 ###dict create $a
