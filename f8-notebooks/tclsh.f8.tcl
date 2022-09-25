@@ -458,3 +458,33 @@ set x [subst -nobackslash $lines]
 subst  $lines
 
 foreach y $x {  	puts  "* $y"  }
+
+set x " {*}{
+	a b
+	c d
+} "
+
+proc mytclecho x {
+	foreach y $x {  	puts  "* $y"  }
+}
+
+proc mytclecho2 {x x2} {
+	foreach y $x {  	puts  "* $y"  }
+}
+
+mytclecho2 45 " {*}{
+	a b
+	c d
+} "
+
+
+mytclecho2  {*}{
+	a b
+	c d
+}
+
+mytclecho2  {*}{
+{	a b}
+	{c d}
+}
+
