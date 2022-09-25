@@ -26,8 +26,7 @@ set|grep -i tc
 
 
 ##info --help
-
-
+info commands
 
 expr 8 * 7
 
@@ -51,6 +50,10 @@ package require json::write
 
 package require uuid
 package require csv
+
+
+foreach y $x {  	puts  "* $y"  }
+
 
 
 set x [puts $tcl_pkgPath]
@@ -336,3 +339,122 @@ split |\\""'a',.<>/? ""
 
 ###dict create $a
 dict create a b c d
+
+puts $tcl_wordchars
+puts { a-b c-d }
+set x { a-b c-d }
+foreach y $x {  	puts  "* $y"  }
+
+
+
+ proc SillyPoem2 {} {
+    return [join [lrange [split [info body SillyPoem2] \n] 2 end] \n]
+    - Silly Poem Revisited -
+           by R.Suchenwirth and M. Sofer written 2004-05-25
+    Hey Doc
+    this is a real proc
+    should you ever call it
+    you'll get a shock...'
+ }
+
+
+proc SillyPoem {author R.Suchenwirth written 2002-05-17} {
+    Hey Doc
+    this isn't a real proc
+    should you ever call it
+    you'll get a shock...
+}
+
+
+ info args SillyPoem ;# returns the list
+ info body SillyPoem ;# returns the string
+
+
+
+set count(occurrence) 1      ;# Set element "occurrence" in the
+                             ;# array "count" to 1
+
+parray count                 ;# Quick and dirty print of all array
+                             ;# elements and their values
+
+array names count            ;# Get a list of all array elements
+
+
+
+
+set contents [string map {
+    . { }
+    ; { }
+    : { }
+    ' { }
+    ! { }
+    ? { }
+    , { }
+    \" { }
+} $contents[set contents {}]]
+
+'
+
+The purpose of set contents {} is to make the value unshared to that Tcl doesn't have to make a copy of it before modfying it.'
+
+
+
+
+
+Here's a proc called lines that might do what you're looking for—
+
+proc lines {lines} {
+    foreach item [uplevel [list subst -nobackslash $lines]] {
+        lappend list $item
+    }
+    return $list
+}
+Here's a demonstration of its use—'
+
+set another_pet fish;
+
+set pets [lines {
+    cat
+    [string range hotdog 3 end]
+    elephant
+    $another_pet
+    "african pygmy hedgehog"
+    snapping\ turtle
+    "\"henry\" the bengali tiger"
+}]
+
+puts $pets
+It outputs, as desired,
+
+cat dog elephant fish {african pygmy hedgehog} {snapping turtle} {"henry" the bengali tiger}
+An Ideone is here if you'd like to play around'
+
+
+   foreach item [uplevel [list subst -nobackslash $lines]] {
+        lappend list $item
+    }
+
+
+set lines {
+    cat
+    [string range hotdog 3 end]
+    elephant
+    $another_pet
+    "african pygmy hedgehog"
+    snapping\ turtle
+    "\"henry\" the bengali tiger"
+}
+
+puts $lines
+llength $lines
+llength $x
+puts $x
+
+set another_pet fish;
+
+
+list subst -nobackslash $lines
+set x [subst -nobackslash $lines]
+subst  $lines
+
+foreach y $x {  	puts  "* $y"  }

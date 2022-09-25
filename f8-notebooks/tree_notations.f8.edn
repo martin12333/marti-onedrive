@@ -1,0 +1,599 @@
+various tree_notations
+"training set" of examples
+
+
+first name [John]
+last name [Smith]
+is alive [true]
+age [27]
+address [
+  street address [21 2nd Street]
+  city [New York]
+  state [NY]
+  postal code [10021-3100]
+]
+phone numbers [
+  [
+    type [home]
+    number [212 555-1234]
+  ]
+  [
+    type [office]
+    number [646 555-4567]
+  ]
+]
+children []
+spouse []
+
+
+
+
+
+proc SillyPoem {author R.Suchenwirth written 2002-05-17} {
+    Hey Doc
+    this isn't a real proc
+    should you ever call it
+    you'll get a shock...
+}
+
+
+
+
+ !html
+      head
+        meta/charset=utf-8
+        title: KAKU send
+        [JScript includes ui]
+        [JScript wrap $js]
+      body
+        % foreach x {1 2 3 4}
+          p.toggles
+            button#on$x: On $x
+            button#off$x: Off $x
+        p#group
+          label: Group:
+          % foreach x {I II III IV}
+            input#g$x/type=radio/name=g/value=$x
+            label/for=g$x: $x
+        p
+          label: House Code:
+          select
+          % foreach x {A B C D E F G H I J K L M N O P}
+            option/value=$x: $x
+
+
+proc do_html {}
+    global info cmds objs this desc sect
+html
+    head
+        meta http-equiv=Content-type {content=text/html; charset=utf-8} - ""
+        title - $info(name) $info(version)
+        style type=text/css +
+            <!-- var {color:#44a} pre {background-color:#eef} -->
+    body
+        do_sect name
+            p - [b $info(name) - $info(title)]
+        do_sect synopsis
+            p ! $info(preamble)
+            foreach {type name} $info(calls)
+                do_call $type $name
+                br -
+        do_sect description
+            do_text $desc(~)
+            dl
+                foreach {type name} $info(calls)
+                    dt
+                        do_call $type $name
+                    dd
+                        do_text $desc($name)
+        foreach name $::info(sections)
+            do_sect $name
+                do_text $sect($name)
+        if {$info(examples) ne ""}
+            do_sect examples
+                foreach {x y} $info(examples)
+                    set x [string trim $x]
+                    if {$x ne ""}
+                        do_text $x
+                    regsub {^\n} $y {} y
+                    set y [string trimright $y]
+                    if {$y ne ""}
+                        pre width=81n - "&nbsp; [esc $y]"
+        foreach x {author copyright bugs website see-also keywords}
+            if {$info($x) ne ""}
+                do_sect [string map {- " "} $x]
+                    set y $info($x)
+                    switch $x
+                        author    { p - Written by $y. }
+                        copyright { p - Copyright {&copy;} $y }
+                        keywords  { p - [join $y ", "] }
+                        website   { p - See [a href=$y $y]. }
+                        default   { p - $y }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    atoms {
+        {
+            hydrogen {
+                {symbol H}
+                {{atomic weight} 1.008}
+            }
+        }
+
+        {
+            helium {
+                {symbol He}
+                {{atomic weight} 4.002}
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    name,value,color
+      World
+       Asia
+        China,1409517397
+        India,1339180127
+        Indonesia,263991379
+
+
+
+
+
+
+
+
+
+noon
+
+dictionaries
+two or more spaces mark the end of a dictionary key, therefore ...
+
+keys and list items can have single spaces in them but ...
+
+unescaped dictionary keys can't contain consecutive spaces:
+
+
+
+one key makes an object
+this is
+an   object
+the above as json: {"this is": null, "an": "object"}while
+
+this is
+not an object
+is equivalent to ["this is", "not an object"]
+
+
+    scopeName   source.noon
+    name        noon
+    fileTypes
+                noon
+    patterns
+                .
+                    match       ^\s*(#)(.*)$
+                    captures
+                        1
+                            name    punctuation.comment.noon
+                        2
+                            name    comment.noon
+                .
+                    match       ^\s*(\.)\s*$
+                    captures
+                        1
+                            name    punctuation.array.noon
+                .
+                    match       ^\s*([\|])([^\|]*)([\|])
+                    captures
+                        1
+                            name    punctuation.key.escape.noon
+                        2
+                            name    entity.key.noon
+                        3
+                            name    punctuation.key.escape.noon
+                .
+                    match       ^\s*([\|])([^\|]*)$
+                    captures
+                        1
+                            name    punctuation.key.escape.noon
+                        2
+                            name    entity.key.noon
+                .
+                    match       ^\s*((\S|\s(?!\s))+)
+                    captures
+                        1
+                            name    entity.key.noon
+                .
+                    match       \s+(\.+)\s+(\S+)
+                    captures
+                        1
+                            name    punctuation.dense.noon
+                        2
+                            name    key.dense.noon
+                .
+                    match       (\|)(.+)(\|)
+                    captures
+                        1
+                            name    punctuation.value.escape.noon
+                        3
+                            name    punctuation.value.escape.noon
+                .
+                    match       (\|\|)
+                    captures
+                        1
+                            name    punctuation.value.escape.noon
+                .
+                    match       (\|)(.+)
+                    captures
+                        1
+                            name    punctuation.value.escape.noon
+                .
+                    match   (#[0-9a-f][0-9a-f][0-9a-f]([0-9a-f][0-9a-f][0-9a-f])?)
+                    name    constant.color.noon
+                .
+                    match   \b([1-9]+[0-9]*|0)(\b|$)
+                    name    constant.integer.noon
+                .
+                    match   \b(true|false|null)\b
+                    name    constant.language.noon
+                .
+                    match   ([\[\]\{\}\(\)])
+                    name    punctuation.bracket.noon
+                .
+                    match   ([\.\/]+)
+                    captures
+                        1
+                            name    punctuation.dot.noon
+                .
+                    match   ([\-\\])
+                    captures
+                        1
+                            name    punctuation.dim.noon
+                .
+                    match   ((\s[\^])|[\$])
+                    captures
+                        1
+                            name    punctuation.regex.noon
+
+
+
+
+    name                noon
+    version             4.6.0
+    description         no ordinary object notation
+    keywords
+                        noon
+                        object
+                        notation
+    author              monsterkodi
+    license             Unlicense
+    scripts
+                        build   ./node_modules/.bin/kode -Ho js kode/*.kode
+                        test    ./node_modules/.bin/kode -t kode/*.kode test/test.kode
+                        watch   ./node_modules/.bin/kode -wt test/test.kode kode/*.kode
+    files
+                        bin/noon
+                        js/*.js
+    main                js/main.js
+    bin
+                        noon  ./bin/noon
+    repository          github:monsterkodi/noon
+    dependencies
+                        karg    monsterkodi/karg
+                        klor    monsterkodi/klor
+    devDependencies
+                        kode  monsterkodi/kode
+
+
+
+
+
+ example of a file that contains a few addresses:
+
+    # Contact information for our officers
+
+    Katheryn McDaniel:
+        position: president
+        address:
+            > 138 Almond Street
+            > Topeka, Kansas 20697
+        phone:
+            cell: 1-210-555-5297
+            home: 1-210-555-8470
+                # Katheryn prefers that we always call her on her cell phone.
+        email: KateMcD@aol.com
+        additional roles:
+            - board member
+
+
+
+
+
+    me "Uhm…"
+    midori #:mood 'smiling "Yes?"
+    narrator "That smile is where my problems start, but certainly not
+    where they end."
+    narrator "If only I could muster up some courage and be done with it."
+    if : history confess?
+        narrator "But I decided, that I would."
+        script
+        narrator "Not that I ever could."
+        narrator "Nonono, this ends now!"
+    narrator "I will ask her right here right now!"
+    midori #:mood 'normal "Will I…?"
+
+
+
+
+
+
+
+
+
+
+
+    define-public which
+        package
+        name "which"
+        version "2.20"
+        source
+            origin
+                method url-fetch
+                uri (string-append "mirror://gnu/which/which-"
+                                    version ".tar.gz")
+                sha256
+                    base32
+                        . "1y2p50zadb36izzh2zw4dm5hvdiydqf3qa88l8kav20dcmfbc5yl"
+        build-system gnu-build-system
+        home-page "https://gnu.org/software/which/"
+        synopsis "Find full path of shell commands"
+        description
+            . "which is a program that prints the full paths of executables on a
+    system."
+        license gpl3+
+
+
+
+
+
+
+
+
+
+(ordered roughly by the number of noise characters, descending)
+
+# [ {  "key": "f8" "command": "runSelectedText"}, // JSON
+
+&#x200B;
+
+# [ {  key: 'f8', command: 'runSelectedText'}, // JSON5
+
+[https://toolkit.site/format.html](https://toolkit.site/format.html)
+
+# [ {  key: f8, command: runSelectedText}, // HJSON
+
+[https://hjson.github.io/try.html](https://hjson.github.io/try.html)
+
+# [ {  key: f8, command: runSelectedText}, # inline YAML
+
+&#x200B;
+
+# # YAML
+
+    - 
+      key: f8 
+      command: runSelectedText
+
+[https://toolkit.site/format.html](https://toolkit.site/format.html)
+
+# [ { :key f8 :command runSelectedText} ; standard? EDN
+
+# [ { key: f8 command: runSelectedText} ; "loose?" EDN
+
+[pschwarz.bicycle.io/json-to-edn/](http://pschwarz.bicycle.io/json-to-edn/)
+
+\------------------------------------------------------------------------------------------------
+
+can a notation without colons be readable?
+
+# [ [key f8 does runSelectedText] ; "loose?" EDN
+
+[pschwarz.bicycle.io/json-to-edn/](http://pschwarz.bicycle.io/json-to-edn/)
+
+# #TreeNotation
+
+    -
+     key f8
+     does runSelectedText
+
+https://jtree.treenotation.org/sandbox/
+
+
+# ; Wisp (whitespace Lisp), (1 of possibilities)
+
+      key f8 does runSelectedText
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+stages:
+- stage: Bedrock_Init_Validation
+  jobs:
+  - job: Bedrock_Init_Validate
+    steps:
+    - checkout: self
+      persistCredentials: true
+      clean: true
+    - template: bedrock-integration-test-whitelist.yml
+    - task: ShellScript@2
+      displayName: Validate GitOps pipeline
+      inputs:
+        scriptPath: gitops/azure-devops/build.sh
+      env:
+        VERIFY_ONLY: 1
+        HLD_PATH: git://github.com/Microsoft/fabrikate-production-cluster-demo.git
+    - template: bedrock-test-init.yml
+    - bash: |
+        # Fail if any of these files have warnings
+        find . -path ./gopath -prune -o -path ./get_helm.sh -prune -o -type f \( -name "*.sh" -o -name "*.bash" -o -name "*.ksh" \) -print |
+          while IFS="" read -r file
+          do
+            shellcheck "$file"
+          done
+      displayName: 'Run Shell Linting (ShellCheck)'
+    - script: |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OGDL
+
+    eth0
+        physical 'Ethernet', HWaddr 00:10:5A:F1:79:41
+        ip 192.168.106.201, bcast 192.168.106.255, mask 255.255.255.0
+        flags ( UP, BROADCAST, RUNNING, MULTICAST )
+        MTU 1500, Metric 1
+        rx ( packets 20123, bytes 6333249, errors 0, dropped 0, overruns 0, frame 0 )
+        tx ( packets 3528, bytes 439192, errors 0, dropped 0, overruns 0, frame 0 )
+        collisions 0, txqueuele 100
+        interrupt 11, base_address 0xdc00
+
+
+
+And here's the same information formatted for YAML. Notice especially the flags entry - YAML allows this to be explicitly designated as an ordered list instead of a 'map':
+
+eth0:
+  physical: 'Ethernet'
+  HWaddr: 00:10:5A:F1:79:41
+  ip: 192.168.106.201
+  bcast: 192.168.106.255
+  mask: 255.255.255.0
+  flags: [ UP, BROADCAST, RUNNING, MULTICAST ]
+  MTU: 1500
+  Metric: 1
+  rx: { packets: 20123, bytes: 6333249, errors: 0, dropped: 0, overruns: 0, frame: 0 }
+  tx: { packets: 3528, bytes: 439192, errors: 0, dropped: 0, overruns: 0, frame: 0 }
+  collisions: 0
+  txqueuele: 100
+  interrupt: 11
+  base_address: 0xdc00
+You can see that YAML's two data types allow more structure, but didn't add very much in this situation. ODGL is much more terse, which is nice, as you won't have to scroll your terminal quite as much. Also the OGDL gpath cmdline tool is simple:
+gpath eth0.flags ifconfig.ogdl
+the YAML parser is a little harder to call from the cmdline:
+
+ruby -r yaml -e "puts YAML.load(File.read('ifconfig.yaml'))['eth0']['flags'].join(10.chr)"
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is a simple context-free grammar for a tiny subset of English written as an S-expression (Gazdar/Melish, Natural Language Processing in Lisp), where S=sentence, NP=Noun Phrase, VP=Verb Phrase, V=Verb:
+
+(((S) (NP VP))
+ ((VP) (V))
+ ((VP) (V NP))
+ ((V) died)
+ ((V) employed)
+ ((NP) nurses)
+ ((NP) patients)
+ ((NP) Medicenter)
+ ((NP) "Dr Chan"))
+
+
