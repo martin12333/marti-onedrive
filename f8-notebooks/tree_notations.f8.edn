@@ -2,6 +2,11 @@ various tree_notations
 "training set" of examples
 
 
+
+Let's define the term notation to mean what is currently in the documentation as "non-standard string literal". The word notation is used by SGML and other standards for this concept.
+
+
+
 first name [John]
 last name [Smith]
 is alive [true]

@@ -488,3 +488,6 @@ mytclecho2  {*}{
 	{c d}
 }
 
+
+
+proc atomic? {list} {string equal $list [lindex $list 0]}
