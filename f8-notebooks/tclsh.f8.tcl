@@ -54,7 +54,13 @@ package require csv
 
 foreach y $x {  	puts  "* $y"  }
 
+foreach y $x {  	puts  "* $y [split $y ""]"  }
 
+set x { 0 a  \  \\   {   }  \}  \{     \\{ \\}   \\\{ \\\}  \\\\{ \\\\}   b  }
+
+#  0 a  \  \\   {   }  \}  \{     \\{ \\}   \\\{ \\\}  \\\\{ \\\\}   b
+
+split $x ""
 
 set x [puts $tcl_pkgPath]
 set x [lindex $tcl_pkgPath 2]
@@ -491,3 +497,14 @@ mytclecho2  {*}{
 
 
 proc atomic? {list} {string equal $list [lindex $list 0]}
+
+
+
+return \"[string map [list \\ \\\\ \" \\" \n \\n / \\/ \b \\b \r \\r \t \\t] $value]\"
+
+
+proc json_string {s} {
+    return \"[string map [list \\ \\\\ \" \\\"] $s]\"
+}
+
+

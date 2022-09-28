@@ -3,7 +3,48 @@ various tree_notations
 
 
 
-Let's define the term notation to mean what is currently in the documentation as "non-standard string literal". The word notation is used by SGML and other standards for this concept.
+
+
+
+
+
+
+
+
+
+
+
+
+
+;; dryad
+
+    Rooted Breeze :eerie
+        My slumber breaks
+        my mind awakes
+        who are you strangers
+        in my home?
+
+    Old One
+        How do you answer?
+        Juli is ,(describe-ability-score (game-state state) 'juli 'explain)
+            . at explaining
+        and ,(describe-ability-score (game-state state) 'juli 'fast-talk)
+            . at fast-talk.
+    Choose
+        : explain your situation to appease the dryad
+          ,(explain-your-home state)
+        : fast-talk the dryad to get her to leave and risk her anger
+          ,(fast-talk-the-dryad state)
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -29,6 +70,22 @@ phone numbers [
 ]
 children []
 spouse []
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -174,6 +231,25 @@ html
 
 
 
+
+
+//// julia
+////Let's define the term notation to mean what is currently in the documentation as "non-standard string literal". The word notation is used by SGML and other standards for this concept.
+
+//mpare the rx macro in Emacs, which allows you to write
+
+(rx bol
+    (eval this-file-name)
+    space
+    "[" (group
+		 (one-or-more digit)) ":" (group (one-or-more digit)) "]"
+    space
+    (group (zero-or-more anything))
+    eol)
+instead of
+
+"^blog\\.org[[:space:]]\\[\\([[:digit:]]+\\):\\([[:digit:]]+\\)][[:space:]]\\(\\(?:.\\|\\)*\\)$"
+//Code became so much more maintainable after we switched to rx in julia-emacs.
 
 
 
@@ -600,5 +676,12 @@ This is a simple context-free grammar for a tiny subset of English written as an
  ((NP) patients)
  ((NP) Medicenter)
  ((NP) "Dr Chan"))
+
+
+
+
+
+
+
 
 
