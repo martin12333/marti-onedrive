@@ -19,6 +19,7 @@ sudo apt install tcl
 sudo apt install tcllib
 apt show tcl-sugar
 apt show tcl-tclex
+apt show tcl-tclreadline
 
 #apt download tcllib
 #dpkg -l |grep tcl
@@ -502,9 +503,66 @@ proc atomic? {list} {string equal $list [lindex $list 0]}
 
 return \"[string map [list \\ \\\\ \" \\" \n \\n / \\/ \b \\b \r \\r \t \\t] $value]\"
 
+puts [list \\ \\\\ \" \\" \n \\n / \\/ \b \\b \r \\r \t \\t]
 
 proc json_string {s} {
     return \"[string map [list \\ \\\\ \" \\\"] $s]\"
 }
+
+"
+
+
+
+
+
+
+
+% package names
+logger rcs counter math::rationalfunctions TclOO tie::std::dsource zipfile::mkzip math::roman tclDESjr interp::delegate::method soundex tcl::chan::memchan debug doctools::msgcat::idx::de tcl::chan::null page::analysis::peg::reachable fileutil::magic::filetype ldap uri::urn page::reader::treeser pt::tclparam::configuration::nx simulation::random tie::std::array tcl::transform::adler32 pt::peg zipfile::encode page::gen::peg::canon uevent debug::timestamp doctools::config json::write doctools::msgcat textutil pt::peg::to::peg ident cmdline term::ansi::code::attr doctools::toc::export::json grammar::peg::interp doctools::idx::import::docidx rest tcl::chan::random tcl::chan::halfpipe generator term::interact::menu grammar::peg pt::peg::export::container doctools::msgcat::idx::en page::writer::tree pt::peg::container grammar::me::tcl doctools::idx::export::docidx fileutil::magic::rt html grammar::aycock::runtime simulation::montecarlo uevent::onidle valtype::verhoeff S3 textutil::patch tcl::transform::counter base32 ip page::gen::peg::ser tcl::transform::limitsize textutil::adjust SASL page::transform::realizable tcl::transform::base64 pt::cparam::configuration::critcl transfer::transmitter pop3d nameserv::auto doctools::msgcat::idx::fr doctools::idx::export::html crc16 math::calculus::symdiff tcl::transform::core doctools::toc::import::doctoc asn doctools::paths textutil::trim tie::std::growfile stringprep::data page::writer::hb tcl::transform::rot math::decimal struct::list try doctools::toc::export::doctoc fileutil::multi::op math::quasirandom pop3 dicttool transfer::connect grammar::fa::dacceptor doctools::idx::structure md4 valtype::isbn crc32 fileutil::multi md5 page::parse::pegser page::util::peg struct::map md5crypt grammar::me::cpu practcl tcl::randomseed page::writer::tpc interp tcl::chan::textwindow docstrip::util tepam::doc_gen math::constants page::gen::peg::cpkg base64 treeql page::writer::null bench::out::text jpeg blowfish doctools::toc::import::json page::util::norm::lemon page::parse::peghb struct::matrix term::receive uuencode map::slippy::fetcher term::ansi::ctrl::unix tcl::chan::std math::statistics tcl::chan::fifo struct::tree imap4 tcltest pt::peg::to::cparam doctools::idx::export::nroff logger::utils valtype::creditcard::visa struct::set doctools::idx::parse uuid doctools::toc::parse doctools::msgcat::idx::c pt::peg::interp pt::peg::to::container fileutil::paths autoproxy struct::pool comm string::token report doctools::idx::export::wiki htmlparse page::gen::peg::mecpu math::complexnumbers cron fileutil::magic::cgen base32::core math::interpolate valtype::creditcard::amex nameserv::common page::util::norm::peg math::geometry processman page::writer::me textutil::wcswidth nameserv::server tcl::chan::zero pt::rde::oo pt::rde::nx stringprep struct::graph::op doctools::idx::import tie::std::log javascript Tk inifile http textutil::repeat tcl::transform::zlib control SASL::NTLM tcl::transform::otp pt::tclparam::configuration::snit lazyset valtype::imei dtplite pt::peg::op doctools::toc::import page::transform::reachable nettool::available_ports mapproj pt::pgen switched page::reader::lemon page::util::flow pt::peg::to::tclparam stooop snit struct::stack uri pt::peg::export::json doctools::msgcat::toc::de sha256 tcl::chan::events page::reader::ser map::slippy::cache textutil::split oo::option pt::peg::import page::reader::peg pluginmgr struct math::special paths math::bignum doctools::toc::export::text string::token::shell tcl::chan::facade log tcl::chan::variable tcl::chan::fifo2 page::transform::mecpu Tcl ripemd128 smtp doctools::tcl::parse unicode::data term::ansi::send ftpd pt::cparam::configuration::tea map::geocode::nominatim math::fourier pt::peg::from::json opt yaml doctools::msgcat::toc::en transfer::copy namespacex doctools::toc::export::nroff bibtex fileutil::traverse grammar::me::util doctools oauth tiff oo::meta math::calculus map::slippy throw math::polynomials valtype::luhn5 textutil::expander term::ansi::code::macros grammar::fa::dexec page::config::peg tar odie::processman oo::dialect nntp doctools::msgcat::toc::fr valtype::creditcard::discover page::gen::peg::hb clock::rfc2822 math json units bench::in page::writer::ser tcl::chan::cat math::fuzzy page::writer::peg math::linearalgebra transfer::data::source valtype::luhn ripemd160 coroutine page::util::quote hook ftp::geturl pt::peg::import::json ncgi lambda page::reader::hb clock::iso8601 fileutil::magic::cfront http::wget doctools::idx::export::json pki tcl::chan::string platform coroutine::auto irc valtype::creditcard::mastercard term::receive::bind doctools::toc::export::html valtype::common page::compiler::peg::mecpu otp debug::heartbeat resolv multiplexer page::analysis::peg::minimize struct::graph pt::rde des struct::skiplist tcl::transform::crc32 pop3d::udb doctools::idx::export tclDES nmea zlib doctools::msgcat::toc::c doctools::changelog tcl::transform::hex term::send char term::ansi::code::ctrl doctools::toc::export pop3d::dbox doctools::cvs valtype::usnpi base32::hex math::numtheory aes nameserv math::trig page::writer::mecpu png yencode websocket oo::util term pt::pe::op picoirc spf struct::disjointset pt::peg::to::json pt::peg::export zipfile::decode page::writer::identity pt::pe term::ansi::code unicode smtpd interp::delegate::proc rc4 page::gen::peg::me doctools::toc math::exact xsxp Markdown httpd page::analysis::peg::realizable doctools::idx::import::json defer tool textutil::tabify math::optimize time doctools::toc::export::wiki msgcat wip ldapx tie ftp valtype::iban huddle::json grammar::aycock tcl::transform::spacer math::bigfloat simulation::annealing doctools::text grammar::aycock::debug tcl::transform::identity doctools::nroff::man_macros grammar::fa pt::peg::export::peg pt::parse::peg csv pt::peg::from::peg huddle doctools::toc::structure textutil::string tepam tcl::chan::nullzero mime page::gen::tree::text pt::ast Expect profiler pt::peg::container::peg bench::out::csv text::write tcl::transform::observe transfer::receiver grammar::me::cpu::core debug::caller fileutil fileutil::decode nameserv::cluster configuration BLT logger::appender cksum grammar::me::cpu::gasm SASL::XGoogleToken ascii85 cache::async struct::queue pt::util transfer::data::destination page::parse::lemon tie::std::file grammar::fa::op sum struct::record bench pt::peg::to::param tcl::tommath math::PCA udpcluster pt::peg::import::peg bee page::parse::peg nettool dns SASL::SCRAM pt::tclparam::configuration::tcloo tie::std::rarray page::pluginmgr page::analysis::peg::emodes doctools::html valtype::gs1::ean13 docstrip struct::prioqueue doctools::idx clay term::interact::pager transfer::copy::queue doctools::html::cssdefaults sha1 tcl::chan::core doctools::idx::export::text math::machineparameters gpx
+
+
+#####
+#
+#
+#####
+
+
+
+proc show {args} { foreach str $args {puts -nonewline " <$str>"}; puts "" }
+
+
+
+proc show {args} { foreach str $args {puts -nonewline " <$str>"}; puts "" }
+proc yes {} { puts yes }
+proc no {} { puts no }
+
+yes
+eval yes
+show hello
+eval show hello
+eval show "hello world"
+eval show hello world
+show hello world
+
+
+
+#####
+#
+# The chapter "6. Lists" of Ousterhout's book
+# 2021nov02
+#
+#####
+
+
+
+
+
+
+
+
+
+
+
+
 
 

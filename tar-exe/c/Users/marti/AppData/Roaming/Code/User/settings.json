@@ -61,7 +61,7 @@
 		"*.sw": "clojure",
 		"*.art": "clojure",
 		"*.r": "clojure",
-		"*.tcl": "shellscript"
+		"*.tcl": "perl6"
 	},
 
 

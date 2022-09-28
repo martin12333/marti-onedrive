@@ -3747,3 +3747,5 @@ C:\pf\Git\bin\bash.exe
 wsl
 C:\pf\Git\bin\bash.exe
 wsl
+git add -vv --dry-run '*.f8.*'
+C:\pf\Git\bin\bash.exe
