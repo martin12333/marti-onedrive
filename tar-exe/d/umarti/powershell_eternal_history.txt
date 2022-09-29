@@ -3770,3 +3770,12 @@ history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i 
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i 'wsl -d'
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | find   '"wsl -d "'
 wsl -d Ubuntu-22.04
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i drive | findstr -vi one
+wmic volume
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i drive | findstr -vi one
+wmic volume list
+wmic volume list brief
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i drive | findstr -vi one
+wmic diskdrive list brief
+Get-PSDrive
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i drive | findstr -vi one

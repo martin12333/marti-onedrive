@@ -1,3 +1,7 @@
+wsl -d Ubuntu-22.04
+
+
+
 
 ## f1 backspace
 # .wslconfig
@@ -8,10 +12,15 @@ wsl --list --all --verbose
 w:
 ls
 c:
+u:
+Get-PSDrive
+
+
+
 
 wsl -d Ubuntu-22.04
-uname -a
-cat /etc/lsb_rele
+#uname -a
+###cat /etc/lsb_rele
 cat /etc/lsb-release
 
 
@@ -31,6 +40,8 @@ wsl -d Ubuntu-20.04 --exec ps -ef
 
 
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i drive | findstr -vi one
+Get-PSDrive
+
 
 
 ## u20 to  u22
@@ -43,3 +54,7 @@ ms store ..... open
 sudo apt update
 
 sudo apt install mc zsh zsh-doc
+
+#df -m
+
+
