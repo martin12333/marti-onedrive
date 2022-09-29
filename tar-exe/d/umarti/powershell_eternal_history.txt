@@ -3760,3 +3760,13 @@ mountvol w:\ /l
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i drive
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i drive | findstr -v one
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i drive | findstr -vi one
+w:
+ls
+c:
+wsl --list --all --verbose
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i wsl
+pwsh
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i wsl
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i 'wsl -d'
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | find   '"wsl -d "'
+wsl -d Ubuntu-22.04
