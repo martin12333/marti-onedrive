@@ -3752,3 +3752,11 @@ C:\pf\Git\bin\bash.exe
 wsl --list --all --verbose
 C:\pf\Git\bin\bash.exe
 wsl --list --all --verbose
+cmd /c map
+mountvol /l
+mountvol 
+mountvol w: /l
+mountvol w:\ /l
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i drive
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i drive | findstr -v one
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i drive | findstr -vi one
