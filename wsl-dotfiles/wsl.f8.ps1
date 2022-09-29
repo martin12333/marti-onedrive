@@ -1,6 +1,13 @@
+f8-notebook
+do-not run this file as a whole
+)
+exit
+
+
 wsl -d Ubuntu-22.04
 
 
+WARNING mc in vsc ... f5 is run in vsc
 
 
 ## f1 backspace
@@ -57,4 +64,12 @@ sudo apt install mc zsh zsh-doc
 
 #df -m
 
+mc -b
+
+
+cd
+cd .config/mc
+ll
+mv -iv ini ini0
+cp -iv ini2 ini
 

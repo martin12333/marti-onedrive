@@ -3779,3 +3779,8 @@ history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i 
 wmic diskdrive list brief
 Get-PSDrive
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i drive | findstr -vi one
+. "c:\Users\marti\OneDrive\wsl-dotfiles\wsl.f8.ps1"
+pwsh
+wsl -d Ubuntu-22.04
+/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
+C:\pf\Git\bin\bash.exe
