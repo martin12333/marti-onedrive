@@ -5,8 +5,24 @@ various tree_notations
 
 
 
+HELP: $warning
+{ $values { "element" "a markup element" } }
+{ $description "Prints an element inset in a block styled as so to draw the reader's attention towards it." }
+{ $examples
+    { $markup-example { $warning "Incorrect use of this product may cause serious injury or death." } }
+} ;
 
+    "The fix is easy; just group the two markup elements making up the second item into one markup element:"
+    { $markup-example
+        { $list
+            "First item"
+            { "Second item " { $emphasis "with emphasis" } }
+        }
+    }
 
+HELP: $notes
+{ $values { "element" "a markup element" } }
+{ $description "Prints the notes subheading found on the help page of some words. This section should document usage tips and pitfalls." } ;
 
 
 

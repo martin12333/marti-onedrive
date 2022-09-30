@@ -61,7 +61,8 @@
 		"*.sw": "clojure",
 		"*.art": "clojure",
 		"*.r": "clojure",
-		"*.tcl": "perl6"
+		"*.tcl": "perl6",
+		"*.factor": "clojure"
 	},
 
 
