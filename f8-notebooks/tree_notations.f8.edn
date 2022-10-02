@@ -5,6 +5,47 @@ various tree_notations
 
 
 
+
+
+
+
+
+An expander macro is simply a Tcl script embedded within a text string. Expander evaluates the script in the global context, and replaces it with its result string. For example,
+
+    % set greetings {Howdy Hi "What's up"}
+    Howdy Hi "What's up"
+
+    % ::myexp expand {There are many ways to say "Hello, World!":
+    [set result {}
+    foreach greeting $greetings {
+	append result "$greeting, World!\\n"
+    }
+    set result]
+    And that's just a small sample!}
+
+    There are many ways to say "Hello, World!":
+    Howdy, World!
+    Hi, World!
+    What's up, World!
+
+    And that's just a small sample!
+    %
+	
+Writing Macro Commands
+
+
+
+
+
+
+
+
+
+
+
+
+factor
+
 HELP: $warning
 { $values { "element" "a markup element" } }
 { $description "Prints an element inset in a block styled as so to draw the reader's attention towards it." }
@@ -701,3 +742,34 @@ This is a simple context-free grammar for a tiny subset of English written as an
 
 
 
+
+
+
+
+
+
+%%EndSetup
+%%Page: 1 1
+1 0 bop 450 93 3000 34 v 749 343 a FD(V)-13 b(ariational)56
+b(Inference)c(for)i(Ba)l(y)l(esian)918 509 y(Mixtures)f(of)h(F)-13
+b(actor)53 b(Analysers)p 450 683 3000 9 v 1095 972 a
+FC(Zoubin)32 b(Ghahramani)g FB(and)f FC(Matthew)h(J.)g(Beal)1190
+1101 y FB(Gatsb)n(y)27 b(Computational)g(Neuroscience)g(Unit)1468
+1192 y(Univ)n(ersit)n(y)g(College)f(London)1071 1283
+y(17)g(Queen)i(Square,)e(London)h(W)n(C1N)h(3AR,)f(England)723
+1375 y FA(f)p Fz(zoubin,m.beal)p FA(g)p Fz(@)o(ga)o(ts)o(by.)o(uc)o
+(l.a)o(c.)o(uk)21 b FB(h)n(ttp://www.gatsb)n(y)-7 b(.ucl.ac.uk)1736
+1635 y Fy(Abstract)749 1830 y FB(W)g(e)28 b(presen)n(t)f(an)g
+(algorithm)f(that)i(infers)f(the)h(mo)r(del)g(structure)f(of)g(a)g
+(mix-)749 1921 y(ture)k(of)g(factor)f(analysers)f(using)i(an)f
+(e\016cien)n(t)i(and)e(deterministic)i(v)-5 b(aria-)749
+2013 y(tional)34 b(appro)n(ximation)f(to)i(full)g(Ba)n(y)n(esian)e(in)n
+(tegration)g(o)n(v)n(er)g(mo)r(del)i(pa-)749 2104 y(rameters.)61
+b(This)36 b(pro)r(cedure)f(can)g(automatically)g(determine)h(the)g
+(opti-)749 2195 y(mal)g(n)n(um)n(b)r(er)g(of)g(comp)r(onen)n(ts)g(and)g
+(the)h(lo)r(cal)f(dimensionalit)n(y)g(of)g(eac)n(h)749
+2287 y(comp)r(onen)n(t)41 b(\(i.e.)h(the)g(n)n(um)n(b)r(er)g(of)f
+(factors)g(in)h(eac)n(h)f(factor)g(analyser\).)749 2378
+y(Alternativ)n(ely)36 b(it)h(can)g(b)r(e)g(used)g(to)g(infer)g(p)r
+(osterior)e(distributions)i(o)n(v)n(er)749 2469 y(n)n(um)n(b)r(er)29
+b(of)g(comp)r(onen)n(ts)g(and)g(dimensionalities.)41
