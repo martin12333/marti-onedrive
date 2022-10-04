@@ -52,11 +52,11 @@ C:\pf\Git\bin\bash.exe
 	git add -vv  '*.f8.*'
 	git add -vv --dry-run '*.f8.*'
 
+C:\pf\Git\bin\bash.exe
 
 	/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
-	git commit -v -a -m bk #vulnera #bk #chai
+	git commit -v -a -m bk #vulnera #bk  # refactor #before-refactor
 	git push
-	#sett #pandas # refactor  #bkup #zsh #missing cpio #before-refactor   #ivy #bkup #css #auto-save #nelpa  # f8
 
 	git show --name-only
 
