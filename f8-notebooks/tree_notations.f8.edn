@@ -4,6 +4,94 @@ various tree_notations
 
 
 
+https://pandoc.org/try/
+
+## h2
+
+g h
+
+pandoc --from markdown --to json --wrap=none --no-highlight
+
+{
+  "pandoc-api-version": [1, 22, 2, 1],
+  "meta": {},
+  "blocks": [
+    { "t": "Header", "c": [
+		2, ["h2", [], []],
+		[{ "t": "Str", "c": "h2" }]] },
+    {
+      "t": "Para",
+      "c": [
+        { "t": "Str", "c": "g" },
+        { "t": "Space" },
+        { "t": "Str", "c": "h" }
+      ]
+    }
+  ]
+}
+
+pandoc --from markdown --to native --wrap=none --no-highlight
+[
+	Header 2 ( "h2" , [] , [] ) [
+		Str "h2" ],
+
+	Para [
+		Str "g" , Space , Str "h" ]
+
+]
+
+<h2 id="h2">h2</h2>
+<p>g h</p>
+
+
+\hypertarget{h2}{%
+\subsection{h2}\label{h2}}
+
+g h
+
+
+% cat test.txt
+
+## my heading
+
+text with *italics*
+
+
+% pandoc -s -t native test.txt
+
+Pandoc (Meta {unMeta = fromList []})
+
+[
+	Header 2 ("my-heading",[],[]) [
+		Str "My",Space,Str "heading"],
+
+	Para [
+		Str "text",Space,Str "with",Space,Emph [Str "italics"]] ]
+
+
+
+type Attr = (Text, [Text], [(Text, Text)])
+
+Attributes: identifier, classes, key-value pairs
+
+
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink"><description><title-info><genre>unrecognised</genre></title-info><document-info><program-used>pandoc</program-used></document-info></description><body>
+
+<title><p /></title>
+<section id="h2"><title><p>h2</p></title><p>g h</p></section></body></FictionBook>
+
+
+
+
+
 
 
 
@@ -30,7 +118,7 @@ An expander macro is simply a Tcl script embedded within a text string. Expander
 
     And that's just a small sample!
     %
-	
+
 Writing Macro Commands
 
 
@@ -545,15 +633,33 @@ is equivalent to ["this is", "not an object"]
 
 
 
+
+
+
+
+
+
+
+
+
+
 (ordered roughly by the number of noise characters, descending)
 
-# [ {  "key": "f8" "command": "runSelectedText"}, // JSON
+# [ {  "key": "f8", "command": "runSelectedText"}, // JSON
 
 &#x200B;
+
+\------------------------------------------------------------------------------------------------
+
+
 
 # [ {  key: 'f8', command: 'runSelectedText'}, // JSON5
 
 [https://toolkit.site/format.html](https://toolkit.site/format.html)
+
+
+\------------------------------------------------------------------------------------------------
+
 
 # [ {  key: f8, command: runSelectedText}, // HJSON
 
@@ -561,13 +667,6 @@ is equivalent to ["this is", "not an object"]
 
 # [ {  key: f8, command: runSelectedText}, # inline YAML
 
-&#x200B;
-
-# # YAML
-
-    - 
-      key: f8 
-      command: runSelectedText
 
 [https://toolkit.site/format.html](https://toolkit.site/format.html)
 
@@ -576,6 +675,17 @@ is equivalent to ["this is", "not an object"]
 # [ { key: f8 command: runSelectedText} ; "loose?" EDN
 
 [pschwarz.bicycle.io/json-to-edn/](http://pschwarz.bicycle.io/json-to-edn/)
+
+\------------------------------------------------------------------------------------------------
+
+
+# # YAML
+
+    - 
+      key: f8 
+      command: runSelectedText
+
+
 
 \------------------------------------------------------------------------------------------------
 
