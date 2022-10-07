@@ -3,6 +3,40 @@ https://www.bash2zsh.com/zsh_refcard/refcard.pdf
 Zsh manual pages
 
 
+
+
+
+
+
+
+
+
+
+file:///C:/u/OneDrive/zsh-newuser-install/Zsh%20-%20ArchWiki.html
+
+
+$ autoload -Uz zsh-newuser-install
+$ zsh-newuser-install -f
+Note: Make sure your terminal's size is at least 72×15 otherwise zsh-newuser-install will not run.'
+
+
+
+~/.zshrc
+autoload -Uz compinit promptinit
+compinit
+promptinit
+
+~/.zshrc
+zstyle ':completion:*' menu select
+To activate the menu, press Tab twice.
+
+
+
+
+
+
+
+
 https://dev.to/shawon/command-suggestions-and-auto-completion-on-linux-terminal-using-zsh-27dh
 
 suggestions to your zshrc file
