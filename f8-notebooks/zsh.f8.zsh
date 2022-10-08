@@ -32,10 +32,16 @@ cat /etc/passwd
 
 exit
 
+Installation Problems
+If you have any hiccups installing, here are a few common fixes.
+
+You might need to modify your PATH in ~/.zshrc if you're not able to find some commands after switching to oh-my-zsh.
+If you installed manually or changed the install location, check the ZSH environment variable in ~/.zshrc.'
 
 
-
-
+echo $ZSH
+echo $PATH
+echo $path
 
 
 

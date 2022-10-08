@@ -5,9 +5,29 @@ exit
 
 
 wsl -d Ubuntu-22.04
-
+cd
+cd -
 
 WARNING mc in vsc ... f5 is run in vsc
+
+####################################
+
+
+C:\pf\Git\bin\bash.exe
+exit
+
+grep -REo '.{0,10}grep.{0,20}015.{0,10}'
+
+AI/nl2bash/all.cm:
+#grep -U -l $'\015' $(fd)
+grep -RE -l $'\015'
+grep -E -l $'\015' **/*.sh
+grep -E -l $'\015' **/*.ps1
+grep -ER -l $'\015' .oh-my*
+echo grep -E -l $'\015' **/*.sh
+
+sed -n --regexp-extended /\015/p *|od -x -c|less
+
 
 ####################################
 pwsh.exe

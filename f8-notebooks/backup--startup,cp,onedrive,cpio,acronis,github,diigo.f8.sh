@@ -68,6 +68,10 @@ C:\pf\Git\bin\bash.exe
 	#
 	exit
 C:\pf\Git\bin\bash.exe
+
+grep -REo '.{0,10}grep.{0,20}015.{0,10}'
+######grep -REo 'grep.*{0,20}015'
+
 #
 ls
 exit
