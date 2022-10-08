@@ -15,13 +15,39 @@ WARNING mc in vsc ... f5 is run in vsc
 cd zsh-ne*
 wget  https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 
+sh install.sh    --unattended    # sets both CHSH and RUNZSH to 'no'
+
+
+MY FALSE ALARM
+##########  && git config core.autocrlf false \
 cd
 cp -iv ~/.gitconfig ~/22a7.gitconfig
 ll *.git*
 cat .gitconfig
+#####################
+
+
+
+Installation Problems
+If you have any hiccups installing, here are a few common fixes.
+
+You might need to modify your PATH in ~/.zshrc if you're not able to find some commands after switching to oh-my-zsh.
+If you installed manually or changed the install location, check the ZSH environment variable in ~/.zshrc.'
+
+echo $ZSH
+echo $PATH
+echo $path
+
+
+
+MANUAL Install
 
 cd
 git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
+
+
+grep -RE -l $'\015'
+
 
 cp -iv ~/.zshrc ~/.zshrc.orig
 
@@ -30,26 +56,43 @@ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 chsh -s $(which zsh)
 cat /etc/passwd
 
-exit
-
-Installation Problems
-If you have any hiccups installing, here are a few common fixes.
-
-You might need to modify your PATH in ~/.zshrc if you're not able to find some commands after switching to oh-my-zsh.
-If you installed manually or changed the install location, check the ZSH environment variable in ~/.zshrc.'
-
-
-echo $ZSH
-echo $PATH
-echo $path
 
 
 
 
-##########  && git config core.autocrlf false \
 
 
-sh install.sh    --unattended    # sets both CHSH and RUNZSH to 'no'
+setopt|grep -i hist
+
+➜  ~ setopt|grep -i hist
+extendedhistory
+histexpiredupsfirst
+histignoredups
+histignorespace
+histverify
+sharehistory
+
+
+set|grep -i hist
+
+
+
+
+
+
+
+  {
+    text: `It's a common sentiment to feel that omz adds too many aliases in different areas, such as git ones (discussed in #5721), default omz ones (#9414) or others. There's a pull request actually
+	#10510) that fix this issue, but it uses environment variables (not recommended actually, as it pollutes the global variable namespace) and is not granular, as you only can disable all default omz aliases and all plugin aliases.))))
+
+`,
+    `dateAdded`: 1665261738343,
+    `length`: 421,
+    `sourceUrl`: `https://github.com/ohmyzsh/ohmyzsh/issues/10644`
+  },
+
+
+
 
 
 

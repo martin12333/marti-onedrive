@@ -7,6 +7,7 @@ exit
 wsl -d Ubuntu-22.04
 cd
 cd -
+cd -2
 
 WARNING mc in vsc ... f5 is run in vsc
 
@@ -18,7 +19,7 @@ exit
 
 grep -REo '.{0,10}grep.{0,20}015.{0,10}'
 
-AI/nl2bash/all.cm:
+grep 015 AI/nl2bash/all.cm
 #grep -U -l $'\015' $(fd)
 grep -RE -l $'\015'
 grep -E -l $'\015' **/*.sh
