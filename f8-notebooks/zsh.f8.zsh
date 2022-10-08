@@ -1,11 +1,59 @@
+f8-notebook
+do-not run this file as a whole
+)
+exit
+
+
+wsl -d Ubuntu-22.04
+
+
+WARNING mc in vsc ... f5 is run in vsc
+
+####################################
+
+
+cd zsh-ne*
+wget  https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+
+cd
+cp -iv ~/.gitconfig ~/22a7.gitconfig
+ll *.git*
+cat .gitconfig
+
+cd
+git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
+
+cp -iv ~/.zshrc ~/.zshrc.orig
+
+cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+
+chsh -s $(which zsh)
+cat /etc/passwd
+
+exit
+
+
+
+
+
+
+
+
+
+##########  && git config core.autocrlf false \
+
+
+sh install.sh    --unattended    # sets both CHSH and RUNZSH to 'no'
+
+
+
+
+
+
+
 https://www.bash2zsh.com/zsh_refcard/refcard.pdf
 
 Zsh manual pages
-
-
-
-
-
 
 
 
