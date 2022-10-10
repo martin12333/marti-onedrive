@@ -74,7 +74,10 @@ sharehistory
 
 
 set|grep -i hist
-
+HISTCMD=6879
+HISTFILE=/home/martin/.zsh_history
+HISTSIZE=50000
+SAVEHIST=10000
 
 
 set -o|grep -i hist
@@ -225,9 +228,15 @@ HISTFILE="$HOME/.zsh_history"
 HISTSIZE=500000
 SAVEHIST=500000
 
-setopt appendhistory
+
+
+set -o|grep -i hist
+# noappendhistory       off
+
+#setopt appendhistory  # already default in set -o
 ###setopt INC_APPEND_HISTORY
-setopt SHARE_HISTORY
+#setopt SHARE_HISTORY
+#omz
 
 
 source ~/.zshrc
@@ -260,6 +269,47 @@ zshtcpsys Functions for using raw TCP via builtins
 zshzftpsys Functions for using FTP via builtins
 zshcontrib Contributed functions for zle etc.
 zshall Everything in one large manual page
+
+
+
+
+
+
+
+
+
+
+
+
+set|grep -i hist
+HISTCMD=6879
+HISTFILE=/home/martin/.zsh_history
+HISTSIZE=50000
+SAVEHIST=10000
+
+#################################
+
+cd
+cp -iv .zshrc 22aa.zshrc
+
+todo to the end of .zshrc
+##########
+HISTFILE=/home/martin/zsh_eternal_history
+HISTSIZE=198000
+SAVEHIST=198000
+DISABLE_AUTO_UPDATE="true"
+#########
+#cp -iv /home/martin/.zsh_history   /home/martin/zsh_eternal_history
+cp -iv /home/martin/.zsh_history   /home/martin/zsh_eternal_history
+exit
+
+
+
+
+
+
+
+
 
 
 

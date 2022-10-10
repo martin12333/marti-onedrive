@@ -3789,3 +3789,4 @@ C:\pf\Git\bin\bash.exe
 wsl -d Ubuntu-22.04
 wsl
 C:\pf\Git\bin\bash.exe
+wsl
