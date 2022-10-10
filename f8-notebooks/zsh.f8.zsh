@@ -38,7 +38,7 @@ echo $ZSH
 echo $PATH
 echo $path
 
-
+########################
 
 MANUAL Install
 
@@ -51,14 +51,14 @@ grep -RE -l $'\015'
 
 cp -iv ~/.zshrc ~/.zshrc.orig
 
-cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+cp -iv ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 
 chsh -s $(which zsh)
 cat /etc/passwd
 
 
 
-
+###################################
 
 
 
@@ -77,11 +77,88 @@ set|grep -i hist
 
 
 
+set -o|grep -i hist
+noappendhistory       off
+nobanghist            off
+cshjunkiehistory      off
+extendedhistory       on
+histallowclobber      off
+nohistbeep            off
+histexpiredupsfirst   on
+histfcntllock         off
+histfindnodups        off
+histignorealldups     off
+histignoredups        on
+histignorespace       on
+histlexwords          off
+histnofunctions       off
+histnostore           off
+histreduceblanks      off
+nohistsavebycopy      off
+histsavenodups        off
+histsubstpattern      off
+histverify            on
+incappendhistory      off
+incappendhistorytime  off
+sharehistory          on
+
+
+https://zsh.sourceforge.io/Doc/Release/Options.html
+Options are primarily referred to by name. These names are case insensitive and underscores are ignored. For example, ‘allexport’ is equivalent to ‘A__lleXP_ort’.
+
+The sense of an option name may be inverted by preceding it with ‘no’, so ‘setopt No_Beep’ is equivalent to ‘unsetopt beep’. This inversion can only be done once, so ‘nonobeep’ is not a synonym for ‘beep’. Similarly, ‘tify’ is not a synonym for ‘nonotify’ (the inversion of ‘notify’).
+
+setopt|grep -i no
 
 
 
 
-  {
+⚠️ Either set inc_append_history or share_history but not both. (see comments bellow)
+
+When share_history is enabled, it reads and writes to the history file.
+When inc_append_history is enabled, it only writes to the history file.
+
+
+
+man zshoptions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
     text: `It's a common sentiment to feel that omz adds too many aliases in different areas, such as git ones (discussed in #5721), default omz ones (#9414) or others. There's a pull request actually
 	#10510) that fix this issue, but it uses environment variables (not recommended actually, as it pollutes the global variable namespace) and is not granular, as you only can disable all default omz aliases and all plugin aliases.))))
 
@@ -142,13 +219,14 @@ cp ~/.zshrc ~/.zshrcbackup
 echo "source $(dpkg -L zsh-autosuggestions | grep 'zsh$')" | tee -a ~/.zshrc
 
 echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" | tee -a ~/.zshrc
-Source your ~/.zshrc file to apply the
+#Source your ~/.zshrc file to apply the
 
 HISTFILE="$HOME/.zsh_history"
 HISTSIZE=500000
 SAVEHIST=500000
+
 setopt appendhistory
-setopt INC_APPEND_HISTORY
+###setopt INC_APPEND_HISTORY
 setopt SHARE_HISTORY
 
 
