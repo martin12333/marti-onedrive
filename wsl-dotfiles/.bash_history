@@ -11,9 +11,9 @@ man wsl
 man -k wsl
 man wslvar
 man wslupath
-man wslview 
+man wslview
 history -a
-history 
+history
 ls -la /mnt/c/Users/marti/hardlink-experim/
 cd /mnt/c/Users/marti/hardlink-experim/
 echo dljgfdrjg >>a.txt
@@ -27,31 +27,31 @@ ls -la /mnt/d/Users
 ls -la /mnt/d/
 ls -la /mnt/d/Users/milanlocal/
 history -a
-history -a; history 
+history -a; history
 cd /mnt/d/Users/milanlocal/
 echo dljgfdrjg >>a.txt
-echo dljgfdrjg >>poku.txt 
-history -a; history 
+echo dljgfdrjg >>poku.txt
+history -a; history
 sudo -i
-history -a; history 
+history -a; history
 sudo apt install mc
 sudo apt update
 sudo apt install mc
 mc
-history -a; history 
+history -a; history
 pwd
 mc
 cp -iv ~/.bash_history /mnt/c/Users/marti/OneDrive/dotfiles/wsl/bahist,12
-history -a; history 
+history -a; history
 cp -iv ~/.bash_history /mnt/c/Users/marti/OneDrive/dotfiles/wsl/bahist,12
 echo sdf
-history -a; history 
+history -a; history
 cp -iv ~/.bash_history /mnt/c/Users/marti/OneDrive/dotfiles/wsl/bahist,12
 echo sdf
 cp -iv ~/.bash_history /mnt/c/Users/marti/OneDrive/dotfiles/wsl/bahist,12
-history -a; history 
+history -a; history
 cp -iv ~/.bash_history /mnt/c/Users/marti/OneDrive/dotfiles/wsl/bahist,12
-history -a; history 
+history -a; history
 cp -iv ~/.bash_history /mnt/c/Users/marti/OneDrive/dotfiles/wsl/bahist,12
 cp -iv ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/bahist,12
 history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/bahist,12
@@ -64,7 +64,7 @@ ll
 ls -latr
 cat gpt2-vocab.json | tr ',' '\n' >1
 ls -latr
-wc gpt2-vocab.json 
+wc gpt2-vocab.json
 history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/bahist,12
 cat gpt2-vocab.json | tr ',' '\n' | sed 's/[\\]/*/g' >2
 cat gpt2-vocab.json | tr ',' '\n' | sed 's/[\\]u0120/ /g' >2
@@ -162,37 +162,37 @@ cat 2|grep -i -- '[$][{]'
 history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/bahist,12o
 mc
 history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/bahist,12o
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-02.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-02.bash_history
 mc
 cd /mnt/d/AI/gpt2/
 ll
 mc
-cat gpt2-vocab2.json | tr ',' '\n' | sed 's/[\\]u0120/ /g' 
+cat gpt2-vocab2.json | tr ',' '\n' | sed 's/[\\]u0120/ /g'
 cat gpt2-vocab2.json | tr ',' '\n' | sed 's/[\\]u0120/ /g' >2
 sort 2 >3.txt
 sort --ignore-case 2 >4.txt
 tr --h
 tr '"' ' ' <2 >5
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-02.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-02.bash_history
 sort --ignore-case  --ignore-leading-blanks 5 >6.txt
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-02.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-02.bash_history
 mc
 cd ../codegpt-small-py/
 ll
 cat gpt2-vocab2.json | tr ',' '\n' | sed 's/Ġ/ /g' >2
 cat vocab.json | tr ',' '\n' | sed 's/Ġ/ /g' >2
-cat vocab.json | tr ',' '\n' | sed 's/Ġ/ /g' 
+cat vocab.json | tr ',' '\n' | sed 's/Ġ/ /g'
 tr '"' ' ' <2 >5
 sort --ignore-case  --ignore-leading-blanks 5 >6.txt
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-02.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-02.bash_history
 cd
 cd d/AI/bart/
 ll
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-02.bash_history 
-cat vocab.json | tr ',' '\n' | sed 's/Ġ/ /g' 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-02.bash_history
+cat vocab.json | tr ',' '\n' | sed 's/Ġ/ /g'
 kfsfjfsdf
 cat vocab.json | tr ',' '\n' | sed 's/Ġ/ /g' >2
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-02.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-02.bash_history
 ls D*
 ls ./D*
 OFcd
@@ -200,7 +200,7 @@ tr '"' ' ' <2 >5
 sort --ignore-case  --ignore-leading-blanks 5 >6.txt
 
 ll
-cat vocab.txt 
+cat vocab.txt
 cat vocab.txt |head
 tr '"' ' ' <2 >5
 cat vocab.txt >2
@@ -209,22 +209,22 @@ sort --ignore-case  --ignore-leading-blanks 5 >6.txt
 cd
 sudo apt install zsh
 wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
-sh install.sh 
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-02.bash_history 
+sh install.sh
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-02.bash_history
 echo RADEJI sh install.sh --unattended #   sh install.sh --unattended
 echo RADEJ sh install.sh --unattended
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-02.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-02.bash_history
 mc
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-02.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-02.bash_history
 env|grep -i hist
 env|grep -i his
 env
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-03.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-03.bash_history
 echo (ls)
 echo (1)
 echo $(ls)
 echo $(ls)qqq
-cd 
+cd
 pwd
 cd bliss-book-gh-pages/
 ll
@@ -236,15 +236,15 @@ mc
 cd pa
 cd .git/objects/pack/
 ll
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-04.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-04.bash_history
 cd -
 ll
-less index.html 
-head -n 20 index.html 
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-04.bash_history 
+less index.html
+head -n 20 index.html
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-04.bash_history
 cd rename.git\ 5000\ FILES\ SOME\ GIT\ GUI\ FAIL\ ZSH\ VSC/bliss-book-gh-pages/
 mv -iv .git 1.git
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-04.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-04.bash_history
 rlwrap
 make
 getconf ARG_MAX
@@ -277,29 +277,29 @@ set
 node
 nvm ls
 bash --h
-history 
+history
 zsh
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-08.bash_history 
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/2021-08.bash_history
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history
 npm
 npm config list
 npm config list -l
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history
 npm config list -l
 npm config list -l|grep pref
 npm config list -l|grep prefi
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history
 npm bin -g
 mc
 _.VERSION
 mc
 cd textutils1
 code .
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history
 ps
 ps -u martin
 echo $PATH
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history
 pip list
 pip3 list
 node
@@ -328,9 +328,9 @@ read -N 1 x ; echo "$x"|od
 read -N 1 x ; echo "$x"|od -x
 while read -N 1 x ;do; echo "$x"|od -x ; done
 while read -N 1 x ;do echo "$x"|od -x ; done
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history
 while read -N 1 x ;do echo "$x"|od -x ; done
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history
 mc
 zsh
 mc
@@ -339,12 +339,12 @@ zsh
 ll
 cat >NEKT-SORY-MOHOU-BYT-ROOT
 npm install -g livescript
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history
     mc
 mc
 gzip -d *.gz
 cd
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history
 ll *liv*
 ll *li*
 echo *li*
@@ -370,7 +370,7 @@ ps -ef
 zsh
 zsh
 zsh
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history
 history|grep jup
 history|grep -i jup
 history|grep -i ipy
@@ -378,15 +378,15 @@ mc
 zsh
 tar xvf jo.tar
 docker system df
-docker container 
+docker container
 docker container  ls
 docker top
-docker top test1 
-docker stats 
+docker top test1
+docker stats
 
 docker container  ls
-docker container  
-docker 
+docker container
+docker
 mc
 vmstat 1
 zsh
@@ -401,11 +401,11 @@ ps -ef
 ll
 zsh
 conda install jupyter
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history
 jupyter notebook
 cd
 jupyter notebook
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history
 less Miniconda3-latest-Linux-x86_64.sh
 df
 mount
@@ -417,7 +417,7 @@ ls *cond*
 ls *cond* .con*
 ls *cond* .cond*
 diff *cond* .cond*
-cat .bash_history 
+cat .bash_history
 ll
 cat *
 ll
@@ -428,14 +428,14 @@ mc
 mc -b
 set|grep -i hist
 mc -b
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history
 ll
 notepad.exe ConsoleHost_history.txt
 mc
-. ~/bcloudREADONLY/mn.bashrc 
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
-code ~/acloudSUBDIR/.bash_history 
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+. ~/bcloudREADONLY/mn.bashrc
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history
+code ~/acloudSUBDIR/.bash_history
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history
 zsh
 zsh
 mc
@@ -449,7 +449,7 @@ zsh
 mc
 mc
 zsh
-history 
+history
 zsh
 mc
 ll
@@ -462,12 +462,12 @@ zsh
 echo  `cat ~/bcloudREADONLY/alma.txt`
 echo  `cat ~/bcloudREADONLY /alma.txt`
 echo  `cat ~/bcloudREADONLY/alma.txt`
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history
 echo  `cat ~/bcloudREADONLY/alma.txt`
 #ssh  `cat ~/bcloudREADONLY/alma.txt`
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history
 ssh  `cat ~/bcloudREADONLY/alma.txt`
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history
 ssh  `cat ~/bcloudREADONLY/alma.txt`
 mc
 ssh  `cat ~/bcloudREADONLY/alma.txt`
@@ -477,7 +477,7 @@ ssh  `cat ~/bcloudREADONLY/alma.txt`
 ll
 zsh
 mc
-history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history 
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history
 zsh
 man nm
 man ar
@@ -495,7 +495,7 @@ mc
 zsh
 env
 env|grep -i disp
-xfig 
+xfig
 ps
 xfig &
 ps
@@ -515,19 +515,19 @@ zsh
 mc
 OA
 zsh
-file SyncEngine-2022-03-02.2050.20824.60.aodl 
-file --list SyncEngine-2022-03-02.2050.20824.60.aodl 
+file SyncEngine-2022-03-02.2050.20824.60.aodl
+file --list SyncEngine-2022-03-02.2050.20824.60.aodl
 file --list SyncEngine-2022-03-02.2050.20824.60.aodl |less
-file --mime SyncEngine-2022-03-02.2050.20824.60.aodl 
-file --un SyncEngine-2022-03-02.2050.20824.60.aodl 
-file --uncompress SyncEngine-2022-03-02.2050.20824.60.aodl 
+file --mime SyncEngine-2022-03-02.2050.20824.60.aodl
+file --un SyncEngine-2022-03-02.2050.20824.60.aodl
+file --uncompress SyncEngine-2022-03-02.2050.20824.60.aodl
 zsh
 mc
 zsh
 mc
 netstat
 zsh
-strings 
+strings
 strings  --h
 strings  trusted.gpg
 strings  trusted.gpg >stri
@@ -539,23 +539,23 @@ ls ~/acloudSUBDIR/qemu/
 zsh
 zsh
 mc
-ls 
+ls
 mc -b
 ls alma-222-je\ shared\ onedrive\ donot\ rename /mnt/d/Users/milanlocal/AAA-mylen-ila-git-mirror/OneDrive/
 ls /mnt/c/Users/marti/.vscode
 ls argv.json
-ls extensions argv.json 
-ls -ld sjhuangx.vscode-scheme-0.4.0 ritwickdey.liveserver-5.7.5 ms-vscode.powershell-2021.12.0 
+ls extensions argv.json
+ls -ld sjhuangx.vscode-scheme-0.4.0 ritwickdey.liveserver-5.7.5 ms-vscode.powershell-2021.12.0
 ls /mnt/c/Users/milan_rxtipwr/OneDrive
 ls Microsoft\ Edge\ Collections
 mc -b
-mc 
+mc
 mc -b
 zsh
 mc
-ls 
-ls SHA256SUMS.gpg 
-ls -l SHA256SUMS.gpg 
+ls
+ls SHA256SUMS.gpg
+ls -l SHA256SUMS.gpg
 df
 ll
 zsh
@@ -608,12 +608,12 @@ zsh
 mc
 uname -a
 mc
-dmesg 
+dmesg
 lsblk
 blkid
 zsh
 mc
-dmesg 
+dmesg
 lsblk
 dmesg |grep sdc
 history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history ;history |grep .
@@ -668,7 +668,7 @@ chmod u+w *
 ll
 chmod u+w *
 ll
-du 
+du
 mc
 echo qemu-system-x86_64   $(grep -v '^[#]' ~/OneDrive/qemu-system/53-ubu.opt.sh)
 echo qemu-system-x86_64   `grep -v '^[#]' ~/OneDrive/qemu-system/53-ubu.opt.sh`
@@ -688,4 +688,139 @@ screen --h
 screen -list
 ll /run/utmp
 ll /var/run/utmp
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history ;history |grep .
+ll
+zsh
+echo "'
+ls
+pwd
+'"
+bash -c "'
+ls
+pwd
+'"
+eval bash -c "'
+ls
+pwd
+'"
+zsh
+mc -b
+zsh
+mc -b
+zsh
+ls
+file *.db
+ls *MY*
+ls *my*
+ls dr4/*MY*
+zsh
+which python3
+which pip3
+zsh
+erb
+zsh
+mc -b
+zsh
+mc
+zsh
+mc
+mc -b
+zsh
+mc
+zsh
+mc
+zsh
+mc
+zsh
+mc -b
+echo $TERM
+ls
+ls -l
+pwd
+ls
+pwd
+ls
+pwd
+echo sdkfjs
+echo `ls`
+zsh
+zsh
+zsh
+ls .*ema*
+ls -d .*ema*
+ls -la|grep ema
+mc -b
+which -- grep -v '^[#]' ~/OneDrive/opt-sh/3test53-ubu.opt2   tr '\n' '\t' tee 1 bash -evx 2 0 -1 3
+which --help -- grep -v '^[#]' ~/OneDrive/opt-sh/3test53-ubu.opt2   tr '\n' '\t' tee 1 bash -evx 2 0 -1 3
+which -a -- grep -v '^[#]' ~/OneDrive/opt-sh/3test53-ubu.opt2   tr '\n' '\t' tee 1 bash -evx 2 0 -1 3
+cd OneDrive/docker-214/wsl-jup-notebook-mn/
+1
+    zsh
+zsh
+which evim
+zsh
+top
+vmstat 1
+zsh
+ls
+zsh
+ls
+zsh
+gcore
+zsh
+ls
+zsh
+mc
+zsh
+zsh
+top
+ctr
+ns
+zsh
+top
+mc -b
+free -m
+ctr
+zsh
+vmstat 1
+zsh
+gnutls
+gnutls-cli
+zsh
+C:\pf\Git\bin\bash.exe
+exit
+zsh
+dmesg 
+zsh
+find -name "*.el"
+exit
+zsh
+o
+zsh
+cd
+. ./basharr2test53-ubu.opt2.sh 
+. ./basharr2test53-ubu.opt2.sh ; echo $a
+echo $a
+echo $a[@]
+echo ${a[@]}
+zsh
+D:/conda/Scripts/activate
+conda activate base
+zsh
+bash
+zsh
+cat - >echo2.sh
+zsh
+D:/conda/Scripts/activate
+conda activate base
+zsh
+mc -b
+set|grep -i utf
+set|grep -i lc
+set|grep -i lc_
+set|grep -i lc_all
+set|grep -i lc_all=
+set|grep -i c.ut
+set|grep -i us.ut
+zsh
 history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history ;history |grep .

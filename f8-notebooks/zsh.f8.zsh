@@ -274,8 +274,15 @@ zshall Everything in one large manual page
 
 
 
+updated vscode
+probably harmless
+ *  History restored
+probably terminal restored
 
+➜  OneDrive
+ *  History restored
 
+➜  OneDrive set|grep -i hist
 
 
 
