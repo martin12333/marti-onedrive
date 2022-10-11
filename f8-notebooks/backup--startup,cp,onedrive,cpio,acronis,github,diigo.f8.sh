@@ -26,6 +26,7 @@ C:\pf\Git\bin\bash.exe
 	git ls-files|grep [.]el
 	git ls-files|grep [.]ipynb
 	git ls-files|grep f8[.]
+	git ls-files|grep zsh
 
 	git add --help
 

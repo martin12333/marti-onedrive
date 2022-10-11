@@ -3793,3 +3793,7 @@ wsl
 history
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i drive 
 C:\pf\Git\bin\bash.exe
+cd ..
+mkdir a
+cd a
+npm i ohayo

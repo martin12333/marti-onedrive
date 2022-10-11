@@ -1,0 +1,144 @@
+ohayo.f8.ohayo
+
+
+tile.name args
+ optnodot args
+ optnodot args
+
+
+
+
+
+snippets
+copied
+from the original
+
+
+
+
+https://v20.ohayo.computer/
+
+
+       vega.bar Proportion of Languages Created With Semantic Indentation by Year
+        xColumn appeared
+        yColumn count
+        colorColumn indents
+
+vega.data movies.json
+ columns.keep Title IMDB_Rating
+  filter.where IMDB_Rating > 0
+   rows.sortBy IMDB_Rating
+    rows.reverse
+     tables.basic
+
+
+html.h1 Which programming languages use indentation?
+web.get https://pldb.com/pldb.csv
+ filter.where appeared > 1950
+  columns.keep appeared title features.hasSemanticIndentation
+   columns.setType appeared year
+    columns.rename features.hasSemanticIndentation indents
+     fill.missing indents false
+      tables.basic
+      group.by indents
+       tables.basic
+       vega.bar Languages and Semantic Indentation
+      group.by indents appeared
+       tables.basic
+       vega.bar Proportion of Languages Created With Semantic Indentation by Year
+        xColumn appeared
+        yColumn count
+        colorColumn indents
+      filter.where indents = true
+       group.by appeared
+        vega.bar How many Languages with Semantic Indentation Created By Year
+         yColumn count
+
+
+
+
+doc.title Ohayo Grammar Analysis
+doc.categories ohayo
+debug.ohayoGrammar
+ print.text
+ text.lineCount
+  tables.basic
+  show.max lines
+ text.wordCount
+  tables.basic
+  hidden
+  show.sum count Ohayo Total Grammar Words
+  show.rowCount Ohayo Unique Words
+  text.wordcloud
+ text.wordCount
+  hidden
+  rows.sortByReverse count
+   hidden
+   rows.first 10
+    hidden
+    tables.basic
+
+
+doc.title Ohayo Product Stats
+doc.categories ohayo
+templates.list
+ hidden
+ show.rowCount Number of Templates
+debug.ohayoGrammar
+ hidden
+ text.matches string dataDomain
+  hidden
+  show.max count Number of Integrated Web Data Sources
+challenge.list
+ show.rowCount Number of Challenges
+debug.ohayoGrammarTree
+ print.text
+ text.lineCount
+  hidden
+  show.max lines Number of Ohayo Nodes
+doc.comment show.static 2 Number of 0 Included Datasets
+doc.comment show.static 2 Number of Datasets on Datasets.ohayo.computer
+debug.ohayoGrammar
+ hidden
+ text.lineCount
+  hidden
+  show.max lines Ohayo Grammar Lines of Code
+ text.wordCount
+  hidden
+  show.sum count Ohayo Total Grammar Words
+  show.rowCount Ohayo Unique Words
+doc.comment Todo: show.static 2 Ohayo Grammar Lines of Javascript Code
+challenge.play 2
+
+
+
+
+
+
+
+
+
+doc.title Desktop Only: Statistics for Local Git Repo
+web.get http://localhost:2222/shell?command=gitlog
+ date.addColumns
+  group.by day
+   calendar.heat
+    count count
+   show.median count Median Commits Per Coding Day
+   show.rowCount # Coding Days
+  group.by month
+   vega.line Monthly Commit Trends
+    xColumn month
+    yColumn count
+   vega.bar Days worked by month
+    xColumn month
+    yColumn count
+ show.rowCount Total Commits
+ show.max time Most Recent Commit
+ show.min time First Commit
+doc.categories programming
+
+
+
+
+
