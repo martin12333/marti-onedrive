@@ -1,11 +1,16 @@
 ohayo.f8.ohayo
 
+CO MI Odpovedel n a redditu
 
 tile.name args
  optnodot args
  optnodot args
 
-
+tile.namefilter1 args
+ optnodot args
+ optnodot args
+ tile.namefilter2 args
+  optnodot args
 
 
 
@@ -140,5 +145,38 @@ doc.categories programming
 
 
 
+
+
+
+doc.title GitHub Comparison
+doc.subtitle A comparison of Ohayo with RStudio and Jupyter Notebook.
+github.info rstudio/rstudio jupyter/notebook treenotation/ohayo
+ hidden
+ vega.bar Stars Comparison
+  yColumn stargazers_count
+ vega.scatter Stars by Year Created
+  xColumn created_at
+  yColumn stargazers_count
+doc.categories programming
+
+
+
+doc.title Desktop Only: Analyze lines of code in a folder
+web.get /disk?path=/ohayo/studio&lineStats=true&recursive=true
+ filter.without .DS_Store min.js node_modules ignore package-lock.json
+  show.sum lines Total LoC
+  columns.keep name extension lines words bytes wordsPerLine
+   rows.sortByReverse lines
+    tables.basic All files
+  group.by extension
+   reduce words sum words
+   reduce bytes sum bytes
+   reduce lines sum lines
+   vega.bar Lines of Code
+    yColumn lines
+   vega.bar Words
+    yColumn words
+   tables.basic Top Extensions
+doc.categories programming
 
 
