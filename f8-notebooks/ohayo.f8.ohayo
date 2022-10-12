@@ -3,6 +3,9 @@ ohayo.f8.ohayo
 CO MI Odpovedel n a redditu
 
 tile.name args
+
+
+tile.name args
  optnodot args
  optnodot args
 
@@ -14,6 +17,211 @@ tile.namefilter1 args
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+================================================================================
+https://www.reddit.com/r/treenotation/comments/pwj815/a_comparison_between_javascript_syntax_and_ohayo/
+
+a comparison between JavaScript syntax and Ohayo syntax?
+I think about making a small table at Reddit
+I would begin with
+
+https://en.wikipedia.org/wiki/Comparison_of_data-serialization_formats#Syntax_comparison_of_human-readable_formats
+
+example: string literal
+
+JavaScript: "A to Z"
+
+Ohayo:
+
+my guess is: A to Z
+example: array literal
+
+JavaScript: [true, null, -42.1e7, "A to Z"]
+
+Ohayo:
+
+my guess is:
+
+data.inline
+ parser tsv
+ content
+  mycolname1
+  true
+  null
+  -42.1e7
+  A to Z
+example: Associative array/Object literal
+
+JavaScript: {flag42: true, array186: [1, 2, 3]}
+
+Ohayo:
+my new guess is:
+
+data.inline
+ parser treeRows
+ content
+  row
+   flag42 true
+   array186
+    1
+    2
+    3
+or
+
+data.inline
+ parser treeRows
+ content
+  row
+   flag42 true
+   array186 1 2 3
+my old guess was:
+
+data.inline
+ parser json
+ content
+  {"flag42": true, "array186": [1, 2, 3]}
+-----------
+
+BTW, there is a good autocompletion in the Ohayo programming language editor.
+-----------
+
+Maybe I should compare the Ohayo language also to SQL or to shell+textutils or to Scipy
+
+https://hyperpolyglot.org/numerical-analysis2
+
+(https://docs.google.com/spreadsheets/d/1w4MAxWcWjX3aMBRkOsqjwcAabFtY4WT4JloPRd944og)
+----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======================
+Ohayo syntax and Javascript syntax are very different at the moment, as Ohayo is designed specifically for back-of-the-envelope data science tasks. I did not add loops, or identifiers, or imports, or other constructs like that to the general Ohayo language.
+Ohayo is just Tiles and Tile Properties. Tile Properties can be any string at all, and it's up to the Tile implementations (written in Javascript/Typescript) to parse the content into the necessary data structures.
+So in your example:
+
+data.inline
+ parser tsv
+ content
+  mycolname1
+  true
+  null
+  -42.1e7
+  A to Z
+The data.inline Tile is responsible for parsing the content string however it wants. In other words, Ohayo the language is very lightweight at the moment. The best comparison would probably be bash/shells with pipe operators, with Tiles communicating instead of processes. Another big inspiration was dplyr.
+
+Tiles communicate via data tables. So the only real data structure would be data tables. Hence, there wouldn't be a good mapping of {flag42: true, array186: [1, 2, 3]} into Ohayo. All of the formats assume your data maps nicely into tables.
+
+^ Implemented through the JTable library (https://github.com/publicdomaincompany/jtree/tree/main/jtable). A worthwhile move might be to switch that to OWID's CoreTable or UW's Arquero
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=============================================================================
 snippets
 copied
 from the original

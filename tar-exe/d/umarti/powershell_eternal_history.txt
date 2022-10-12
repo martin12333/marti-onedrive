@@ -3797,3 +3797,6 @@ cd ..
 mkdir a
 cd a
 npm i ohayo
+Get-Service | where Status -eq Stopped
+pwsh
+Get-Service | where Status -eq Stopped
