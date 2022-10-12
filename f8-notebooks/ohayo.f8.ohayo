@@ -15,6 +15,9 @@ tile.namefilter1 args
   optnodot args
 
 
+ data.inline
+  content
+   SUBTREE1
 
 
 
@@ -50,7 +53,16 @@ editor.commandHistory
 
 
 
-
+samples.declaration
+ tables.basic
+  text.length text
+   tables.basic
+   tables.basic
+ doc.comment
+  text.toLowerCase text
+  text.wordCount
+   filter.where word = people
+    show.max count Count
 
 
 
