@@ -3800,3 +3800,4 @@ npm i ohayo
 Get-Service | where Status -eq Stopped
 pwsh
 Get-Service | where Status -eq Stopped
+C:\pf\Git\bin\bash.exe

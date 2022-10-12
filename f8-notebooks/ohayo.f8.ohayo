@@ -1,6 +1,5 @@
 ohayo.f8.ohayo
 
-CO MI Odpovedel n a redditu
 
 tile.name args
 
@@ -19,6 +18,12 @@ tile.namefilter1 args
 
 
 
+Maybe I should compare the Ohayo language also to SQL or to shell+textutils or to Scipy
+
+https://hyperpolyglot.org/numerical-analysis2
+
+(https://docs.google.com/spreadsheets/d/1w4MAxWcWjX3aMBRkOsqjwcAabFtY4WT4JloPRd944og)
+----
 
 
 
@@ -26,23 +31,17 @@ tile.namefilter1 args
 
 
 
+============
+what I tried to tweak
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+editor.commandHistory
+ print.text
+ debug.dump
+ tables.dump
+ tables.basic
+ list.basic command
+ schema.toTypescript
+  tables.basic
 
 
 
@@ -89,6 +88,8 @@ data.inline
   null
   -42.1e7
   A to Z
+
+
 example: Associative array/Object literal
 
 JavaScript: {flag42: true, array186: [1, 2, 3]}
@@ -164,38 +165,6 @@ The data.inline Tile is responsible for parsing the content string however it wa
 Tiles communicate via data tables. So the only real data structure would be data tables. Hence, there wouldn't be a good mapping of {flag42: true, array186: [1, 2, 3]} into Ohayo. All of the formats assume your data maps nicely into tables.
 
 ^ Implemented through the JTable library (https://github.com/publicdomaincompany/jtree/tree/main/jtable). A worthwhile move might be to switch that to OWID's CoreTable or UW's Arquero
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -386,5 +355,100 @@ web.get /disk?path=/ohayo/studio&lineStats=true&recursive=true
     yColumn words
    tables.basic Top Extensions
 doc.categories programming
+
+
+challenge
+ id 4
+ question In the sample dataset "waterBill", what is the median monthly water bill?
+ answer 65.03
+ difficulty easy
+ solution
+  samples.waterBill
+   columns.describe
+    columns.keep Column median
+     tables.basic
+challenge
+ id 5
+ question In the Declaration of Independence, how many times does the word "people" appear, including when capitalized?
+ answer 10
+ difficulty medium
+ solution
+  samples.declaration
+   text.toLowerCase text
+    text.wordCount
+     filter.where word = people
+      show.max count Count
+
+testProgram linecount.ohayo
+ data.inline
+  content
+   hello world
+   hello world
+  text.wordCount
+   tables.basic
+  text.lineCount
+   tables.basic
+
+
+
+testProgram outline.ohayo
+ data.inline
+  content
+   person
+    name breck
+    age 33
+  treenotation.outline
+  treenotation.dotline
+
+
+
+
+testProgram join.ohayo
+ data.inline
+  parser csv
+  content
+   email,name
+   breck7@gmail.com,Breck Yunits
+   cam@gmail.com,Cam
+  data.inline
+   parser csv
+   content
+    email,score
+    breck7@gmail.com,100
+    cam@gmail.com,800
+   join.by email
+    tables.basic
+
+
+
+
+testProgram jssource.ohayo
+ data.eval
+  content
+   rows => [{name: 2, age: 3}]
+
+
+
+testProgram simple.ohayo
+ data.inline
+  content
+   name,age,score
+   bob,23,12
+   mike,32,32
+   bobby,32,12
+  filter.with bob
+   group.by name
+    tables.basic
+
+doc.title Word Cloud
+data.inline
+ text.wordCount
+  text.wordcloud
+  rows.sortByReverse count
+   tables.basic
+ parser text
+ content
+  If you put some text here, you will make yourself a word cloud. The more text you add, the better it will be. So keep writing, writing, writing, and you will get something that looks good.
+doc.categories writing
 
 
