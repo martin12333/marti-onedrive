@@ -30,12 +30,60 @@ https://hyperpolyglot.org/numerical-analysis2
 
 
 
+=========
+cd C:\Users\marti\ohayo\
+npm i ohayo
+node
+
+const { jtree } = require("jtree")
+jtree
+require("jtree")
+x=jtree.TreeNode
+y=new x("a\n b")
+z=y._children[0]
 
 
+
+cd C:\Users\marti\ohayo\node_modules\.bin
+.\jtree.ps1 help
+.\jtree.ps1 version
+
+faaail
+(node:736) UnhandledPromiseRejectionWarning: Error: No definition found for nodeType id "DidYouMeanTileNode"
+.\jtree.ps1 "D:\umarti\dowNLOADS--SYMLINKED\ohayo-main (1)\ohayo-main\ohayo\packages\print\test.ohayo"
+.\jtree.ps1 run  "D:\umarti\dowNLOADS--SYMLINKED\ohayo-main (1)\ohayo-main\ohayo\packages\print\test.ohayo"
+
+C:\pf\Git\bin\bash.exe
+env
+env node
+.exit
+#! /usr/bin/env node /usr/local/bin/jtree
+exit
 
 
 ============
 what I tried to tweak
+
+
+
+
+
+data.eval
+ content
+    inputRows => [{name: "Swift", year: 2015}, {name: "Kotlin", year: 2011}]
+ tables.basic
+ data.eval
+  content
+   x => {return x}
+  tables.basic
+
+
+
+
+
+
+
+
 
 editor.commandHistory
  print.text

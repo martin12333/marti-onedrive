@@ -62,7 +62,9 @@
 		"*.art": "clojure",
 		"*.r": "clojure",
 		"*.tcl": "perl6",
-		"*.factor": "clojure"
+		"*.factor": "clojure",
+		"*.gram": "javascript",
+		"*.ohayo": "javascript"
 	},
 
 

@@ -3801,3 +3801,46 @@ Get-Service | where Status -eq Stopped
 pwsh
 Get-Service | where Status -eq Stopped
 C:\pf\Git\bin\bash.exe
+.\jtree.ps1 --help
+.\jtree.ps1 list
+.\jtree.ps1 help
+.\jtree.ps1 allhistory
+.\jtree.ps1 allHistory
+.\jtree.ps1 help
+.\jtree.ps1 version
+ls
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i oha
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i tree
+cd C:\Users\marti\ohayo\node_modules\.bin
+.\jtree.ps1 help
+.\jtree.ps1 "D:\umarti\dowNLOADS--SYMLINKED\ohayo-main (1)\ohayo-main\ohayo\packages\print\test.ohayo"
+.\jtree.ps1 help
+.\jtree.ps1 version
+pwsh
+.\jtree.ps1 help
+.\jtree.ps1 list
+.\jtree.ps1 register ..\ohayo\ohayo\grams\root.gram
+.\jtree.ps1 list
+.\jtree.ps1 register   C:\Users\marti\ohayo\ohayo\grams\root.gram
+.\jtree.ps1 register   C:\Users\marti\ohayo\node_modules\ohayo\grams\root.gram
+.\jtree.ps1 register   C:\Users\marti\ohayo\node_modules\ohayo\ohayo\grams\root.gram
+.\jtree.ps1 list
+.\jtree.ps1 "D:\umarti\dowNLOADS--SYMLINKED\ohayo-main (1)\ohayo-main\ohayo\packages\print\test.ohayo"
+cd   C:\Users\marti\ohayo\node_modules\ohayo\ohayo\grams\
+.\jtree.ps1 "D:\umarti\dowNLOADS--SYMLINKED\ohayo-main (1)\ohayo-main\ohayo\packages\print\test.ohayo"
+..\..\..\.bin\jtree.ps1 "D:\umarti\dowNLOADS--SYMLINKED\ohayo-main (1)\ohayo-main\ohayo\packages\print\test.ohayo"
+.\jtree.ps1 register   C:\Users\marti\ohayo\node_modules\ohayo\ohayo\grams\didYouMean.gram
+..\..\..\.bin\jtree.ps1 
+..\..\..\.bin\jtree.ps1 register   C:\Users\marti\ohayo\node_modules\ohayo\ohayo\grams\didYouMean.gram
+.\jtree.ps1 list
+..\..\..\.bin\jtree.ps1 list
+..\..\..\.bin\jtree.ps1 "D:\umarti\dowNLOADS--SYMLINKED\ohayo-main (1)\ohayo-main\ohayo\packages\print\test.ohayo"
+ls
+..\..\..\.bin\jtree.ps1 register   C:\Users\marti\ohayo\node_modules\ohayo\ohayo\grams\tile.gram
+..\..\..\.bin\jtree.ps1 "D:\umarti\dowNLOADS--SYMLINKED\ohayo-main (1)\ohayo-main\ohayo\packages\print\test.ohayo"
+cd C:\Users\marti\ohayo\
+node
+cd C:\Users\marti\ohayo\node_modules\.bin
+.\jtree.ps1 help
+.\jtree.ps1 version
+.\jtree.ps1 run  "D:\umarti\dowNLOADS--SYMLINKED\ohayo-main (1)\ohayo-main\ohayo\packages\print\test.ohayo"
