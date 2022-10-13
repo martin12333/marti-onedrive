@@ -66,16 +66,29 @@ what I tried to tweak
 
 
 
-
-
-data.eval
+data.inline
+ parser csv
  content
-    inputRows => [{name: "Swift", year: 2015}, {name: "Kotlin", year: 2011}]
+  a,b
+  r0,r2
+  r4,r2
+  r4,r2
+  r7,r2
  tables.basic
  data.eval
   content
-   x => {return x}
+   x => { glo++;
+    console.log(glo);console.log(x);
+    return x.reverse()  }
   tables.basic
+
+
+   x => { glo++;
+    console.log(glo);console.log(x);
+    return [{a:x[0].a,b:2}]}
+
+
+   x => {return x}
 
 
 
