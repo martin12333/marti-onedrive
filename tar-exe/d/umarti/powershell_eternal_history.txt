@@ -3844,3 +3844,5 @@ cd C:\Users\marti\ohayo\node_modules\.bin
 .\jtree.ps1 help
 .\jtree.ps1 version
 .\jtree.ps1 run  "D:\umarti\dowNLOADS--SYMLINKED\ohayo-main (1)\ohayo-main\ohayo\packages\print\test.ohayo"
+C:\pf\Git\bin\bash.exe
+C:\pf\Git\bin\bash.exe

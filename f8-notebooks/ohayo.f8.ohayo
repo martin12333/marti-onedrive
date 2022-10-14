@@ -20,6 +20,36 @@ tile.namefilter1 args
    SUBTREE1
 
 
+   data.localStorage find.csv
+   parser list
+   tables.basic
+   text.reverseSplit name . ext
+    tables.basic
+     doc.comment filter.with /
+     doc.comment columns.keep ext
+     doc.comment tables.basic
+     doc.comment text.wordCount
+    group.by ext
+     tables.basic
+     rows.sortByReverse count
+      tables.basic
+
+data.localStorage find.csv
+ parser list
+ tables.basic
+ text.reverseSplit name . ext
+  tables.basic
+  doc.comment filter.with /
+  columns.keep ext
+   tables.basic
+   doc.comment text.wordCount
+   group.by ext
+    tables.basic
+    rows.sortByReverse count
+     tables.basic
+
+
+
 
 Maybe I should compare the Ohayo language also to SQL or to shell+textutils or to Scipy
 
@@ -77,10 +107,24 @@ data.inline
  tables.basic
  data.eval
   content
-   x => { glo++;
-    console.log(glo);console.log(x);
+   x => { console.log(x);
     return x.reverse()  }
   tables.basic
+
+ data.eval
+  content
+   x => { console.log(x);
+    return x.reverse()  }
+  tables.basic
+
+
+
+
+
+  x => { glo++;
+    console.log(glo);console.log(x);
+    return x.reverse()  }
+
 
 
    x => { glo++;
@@ -89,6 +133,61 @@ data.inline
 
 
    x => {return x}
+
+
+
+   [{c:x[0].a,d:2}]
+
+   [[{c:x[0].a,d:2}]]
+
+   {c:x[0].a,d:2} fail
+
+
+   x => { console.log(x);
+    return [[0],[2]]
+    }
+
+    return [[0,6],[2,7]]
+
+
+    return [[[[0,46],[2,7]]]]
+
+
+    data.inline
+    parser jsonMap
+    content
+     {"r4,r2":"ww","d":"sss"}
+
+     data.inline
+     parser jsonMap
+     content
+      {"r4,r2":[7,88],"d":"sss"}
+     tables.basic
+
+     data.inline
+ parser jsonMap
+ content
+  [{"q":7},"b",[7,88],"a","sss"]
+ tables.b
+
+
+    data.inline
+    parser tree
+    content
+     <gfgfd>
+     <a> b 25
+     r0,r2 12
+     r4,r2 21
+      7 </a>
+       8
+     r7,r2 11
+       </gfgfd>
+    tables.basic
+    data.eval
+     content
+      x => { console.log(x);
+        return x
+       }
 
 
 
@@ -131,8 +230,28 @@ samples.declaration
     show.max count Count
 
 
+================================
 
-
+doc.title Ohayo Grammar Analysis
+doc.categories ohayo
+debug.ohayoGrammar
+ print.text
+ text.lineCount
+  tables.basic
+  show.max lines
+ text.wordCount
+  tables.basic
+  hidden
+  show.sum count Ohayo Total Grammar Words
+  show.rowCount Ohayo Unique Words
+  text.wordcloud
+ text.wordCount
+  hidden
+  rows.sortByReverse count
+   hidden
+   rows.first 10
+    hidden
+    tables.basic
 
 ================================================================================
 https://www.reddit.com/r/treenotation/comments/pwj815/a_comparison_between_javascript_syntax_and_ohayo/
@@ -317,26 +436,6 @@ web.get https://pldb.com/pldb.csv
 
 
 
-doc.title Ohayo Grammar Analysis
-doc.categories ohayo
-debug.ohayoGrammar
- print.text
- text.lineCount
-  tables.basic
-  show.max lines
- text.wordCount
-  tables.basic
-  hidden
-  show.sum count Ohayo Total Grammar Words
-  show.rowCount Ohayo Unique Words
-  text.wordcloud
- text.wordCount
-  hidden
-  rows.sortByReverse count
-   hidden
-   rows.first 10
-    hidden
-    tables.basic
 
 
 doc.title Ohayo Product Stats
@@ -528,5 +627,112 @@ data.inline
  content
   If you put some text here, you will make yourself a word cloud. The more text you add, the better it will be. So keep writing, writing, writing, and you will get something that looks good.
 doc.categories writing
+
+
+===============================
+found in src
+
+
+primitiveTypeCell
+ highlightScope constant.numeric
+ description In Ohayo, all columns have a primitive type chosen from one of these. The type affects how the values in the column are understood and displayed. For example, a 0 could be interpretted as a "false", the number 0, or a string "0". Ohayo attempts to choose the correct type, but you can override the default with the columns.setType tile.
+ enum boolean code date day dir feet hour hourMinute html int millisecond minute month monthDay number numberString object path second string text url usd week year
+
+
+ rogrammingLanguageNameCell
+ enum javascript latex css html ruby rust python csv tsv xml php typescript lisp swift java c cpp markdown bash
+ highlightScope constant
+
+
+
+
+ async changeWordsAndRenderCommand(value, index) {
+  index = parseInt(index)
+  const edgeSymbol = this.getEdgeSymbol()
+  const words = this.getWords().slice(0, index)
+  this.setLine(words.concat(value.split(edgeSymbol)).join(edgeSymbol))
+  await this._runAfterTileUpdate(this)
+ }
+
+
+
+
+ textSplitNode
+ description Split one column into multiple by a string
+ cells tileKeywordCell columnNameCell delimiterCell
+ catchAllCellType newColumnNamesCell
+ example Split a filename into name and extension
+  vega.data descriptions.json
+   text.split filename . name extension
+    tables.basic
+ string dummyDataSetName poem
+ javascript
+  // note: delimiter can probably be ""
+  // todo: how would we split on a space???
+  // perhaps its better to use getContent() as delimiter, and if you want to name the columns, you can do that later?
+  getNewColumns() {
+   const sourceColumnName = this.getWord(1)
+   const delimiter = this.getWord(2)
+   const destinationColumns = this.getWordsFrom(3)
+   return destinationColumns.map((destinationColumnName, index) => {
+    return {
+     source: sourceColumnName,
+     name: destinationColumnName,
+     accessorFn: row => {
+      const words = row[sourceColumnName].split(delimiter)
+      return this.reverseSplit ? words.reverse()[index] : words[index]
+    }
+    }
+   })
+   return [
+    {
+     source: sourceColumnName,
+     name: destinationColumnName,
+     accessorFn: row => row[sourceColumnName].length
+    }
+   ]
+  }
+ extends abstractColumnAdderTileNode
+ crux text.split
+reverseTextSplitNode
+ extends textSplitNode
+ crux text.reverseSplit
+ description Split one column into multiple by a string reversing the order.
+ boolean reverseSplit true
+
+
+
+
+
+
+ doc.title Most Popular Top Level Domains
+ doc.categories web
+ doc.subtitle This script looks at the top 500 domain names. It then extracts the TLD and groups them. The conclusion is that .com is the most popular by about 10x.
+ moz.top500
+  hidden
+  text.reverseSplit RootDomain . tld
+   hidden
+   tables.basic
+   group.by tld
+    hidden
+    rows.sortByReverse count
+     hidden
+     tables.basic
+     vega.bar .com is the most popular TLD by nearly 10x.
+
+
+
+
+
+ async _addLineStatsForFile(file) {
+  const str = await fs.readFile(file.path, "utf8")
+  //file.content = str
+  const lines = str.match(/\n/g)
+  const words = str.split(/\b/g)
+  file.lines = lines ? lines.length : 1
+  file.words = words ? Math.round(words.length / 2) : 0
+  file.wordsPerLine = (file.words / file.lines).toFixed(1)
+  return file
+}
 
 
