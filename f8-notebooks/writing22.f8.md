@@ -1,5 +1,7 @@
+@breck7 @SRS...  ?
 
-
+I am going to try to run Ohayo from shell ...
+EDIT: OK, Ohayo depends on jtree **v49**
 
 is there a keyboard shortcut: to update the right-hand side of Ohayo (while editing on the left)?
 (I know, I can click to the right-hand side with the mouse to update)
