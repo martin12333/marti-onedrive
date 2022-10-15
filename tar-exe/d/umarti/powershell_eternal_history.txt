@@ -3847,3 +3847,7 @@ cd C:\Users\marti\ohayo\node_modules\.bin
 C:\pf\Git\bin\bash.exe
 C:\pf\Git\bin\bash.exe
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i tree
+wsl
+c:
+d:
+wsl

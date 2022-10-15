@@ -4,6 +4,11 @@ wsl
 zsh
 
 
+
+
+ am planning to try to run jtree test.ohayo from shell ...
+EDIT: OK, Ohayo depends on jtree v49
+
 @breck7 @SRS...  ?
 
 I am going to try to run Ohayo from shell ...

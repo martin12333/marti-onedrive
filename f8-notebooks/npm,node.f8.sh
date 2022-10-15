@@ -33,7 +33,30 @@ npx --no-install jtree
 cd
 #npx  jtree
 
-npx --no-install env
+npx --no-install env | tr ':' '\n'|grep -i bin
+env | tr ':' '\n'|grep -i bin
+
+------------------------------------
+CONDA_EXE=/home/martin/miniconda3/bin/conda
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LESSOPEN=| /usr/bin/lesspipe %s
+CONDA_PYTHON_EXE=/home/martin/miniconda3/bin/python
+PATH=/home/martin/node_modules/.bin
+/home/martin/miniconda3/bin
+/home/martin/miniconda3/condabin
+/home/martin/.nvm/versions/node/v14.17.0/bin
+/usr/local/sbin
+/usr/local/bin
+/usr/sbin
+/usr/bin
+/sbin
+/bin
+/snap/bin
+NVM_BIN=/home/martin/.nvm/versions/node/v14.17.0/bi
+_=/home/martin/.nvm/versions/node/v14.17.0/bin/npx
+-------------------------------
+
+
 env
 
 
