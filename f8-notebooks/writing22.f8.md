@@ -1,3 +1,9 @@
+to mitigate F5 in *mc* running this file instead
+exit
+wsl
+zsh
+
+
 @breck7 @SRS...  ?
 
 I am going to try to run Ohayo from shell ...
