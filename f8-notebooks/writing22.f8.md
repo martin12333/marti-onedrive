@@ -1,10 +1,17 @@
-to mitigate F5 in *mc* running this file instead
+to mitigate F5 in *mc* in vscode running this file
 exit
 wsl
 zsh
 
 
 
+
+
+
+
+@SRS-WRKS
+SRS-WRKS commented on 9e2af22 18 hours ago
+@martin12333 Nice, i shall try the same soon !!
 
  am planning to try to run jtree test.ohayo from shell ...
 EDIT: OK, Ohayo depends on jtree v49
