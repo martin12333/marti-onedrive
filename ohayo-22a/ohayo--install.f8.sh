@@ -6,6 +6,17 @@ exit
 (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
 # ohayo--install.f8.sh
+see also 'C:\Users\marti\OneDrive\f8-notebooks\writing22.f8.md'
+
+
+
+
+
+
+
+
+
+
 
 =========
 
@@ -27,11 +38,11 @@ npx zsh
 
 
 : 1665872011:0;npm help-search -- devdependencies
-
-
-
-
-
+./builder.ts --help
+./builder.ts
+./builder.ts test
+jtree build
+./builder.ts produceOhayoGrammar
 
 
 

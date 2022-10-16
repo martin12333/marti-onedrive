@@ -733,3 +733,28 @@ reverseTextSplitNode
 }
 
 
+
+
+
+
+
+
+
+section Running Ohayo Programs on the Command Line
+
+paragraph
+ Ohayo programs are designed to be run visually in the browser but you can also run Ohayo programs headless on the command line for things like cron job reports and testing. The program below:
+
+code
+ #! /usr/bin/env node /usr/local/bin/jtree
+ samples.presidents
+  filter.where HomeState = Illinois
+   print.csv
+
+paragraph
+ Prints this output:
+
+code
+ name,number,link,TookOffice,Leftoffice,Party,HomeState
+ Abraham Lincoln,16,http://en.wikipedia.org/wiki/Abraham_Lincoln,-3434275714000,-3304416514000,Republican/National Union,Illinois
+ Barack Obama,44,http://en.wikipedia.org/wiki/Barack_Obama,1232445600000,NaN,  Democratic   ,Illinois

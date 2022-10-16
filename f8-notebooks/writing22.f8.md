@@ -3,10 +3,133 @@ exit
 wsl
 zsh
 
+# C:\Users\marti\OneDrive\f8-notebooks\writing22.f8.md
+
+How to run Ohayo programs from shell?
+
+In github.com/breck7/ohayo/ohayo/readme.scroll , there is a
+
+```
+section Running Ohayo Programs on the Command Line
+...
+#! /usr/bin/env node /usr/local/bin/jtree
+...
+```
+
+I am unable to make it work ... what have I tried so far:
+
+me:
+```
+cd
+npm i ohayo
+npx zsh
+
+# in npx zsh
+jtree # ok
+
+cd node_modules/ohayo
+jtree ohayo/packages/print/test.ohayo
+
+```
+output:
+```
+Error: No registered grammar named 'ohayo'
+
+...
+```
+
+```
+me:
+```
+
+npm run test
+
+
+```
+output:
+```
+
+> ohayo@19.2.0 test /home/martin/node_modules/ohayo
+> ./builder.ts test
+
+(node:4740) UnhandledPromiseRejectionWarning: Error: Cannot find module './testing/oswarm.nodejs.js'
+Require stack:
+...
+```
+me:
+```
+./builder.ts
+
+
+```
+output:
+```
+20 commands in /home/martin/node_modules/ohayo/builder.ts:
+buildBuilder
+buildDist
+formatGrams
+makeScriptTags
+produceAll
+produceDevServerHtml
+produceGopherGrammar
+produceOSwarmGrammar
+produceOhayoGrammar
+produceProdHtml
+produceProdJs
+produceSVGFile
+produceTemplatesFile
+profile
+startDevServer
+startServer
+test
+trainOhayoModel
+updateGrammars
+updateVersion
+```
+
+comment
+@SRS-WRKS
 
 
 
 
+===========================
+not posted:
+
+
+
+
+
+
+
+
+
+cd node_modules/ohayo
+
+
+jtree node_modules/ohayo/ohayo/packages/print/test.ohayo
+
+me:
+```
+node_modules/ohayo/builder.ts --help
+```
+output:
+```
+/home/martin/node_modules/ohayo/builder.ts:17
+
+  updateVersion(newVersion: string) {
+
+SyntaxError: Unexpected token ':'
+
+    at wrapSafe (internal/modules/cjs/loader.js:984:16)
+
+...
+
+register
+I tried several commands, but
+
+jtree test.ohayo from shell ...
+=============================
 
 
 @SRS-WRKS
