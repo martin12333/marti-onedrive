@@ -17,6 +17,31 @@ zsh
 cd
 npm i ohayo
 
+cd
+npx zsh
+
+
+: 1665871474:0;head node_modules/ohayo/builder.ts
+: 1665871494:0;which ts-node
+: 1665871508:0;ts-node node_modules/ohayo/builder.ts
+
+
+: 1665872011:0;npm help-search -- devdependencies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -26,10 +51,12 @@ cd C:\Users\marti\ohayo\node_modules\.bin
 .\jtree.ps1 help
 .\jtree.ps1 version
 
+
 faaail
 (node:736) UnhandledPromiseRejectionWarning: Error: No definition found for nodeType id "DidYouMeanTileNode"
 .\jtree.ps1 "D:\umarti\dowNLOADS--SYMLINKED\ohayo-main (1)\ohayo-main\ohayo\packages\print\test.ohayo"
 .\jtree.ps1 run  "D:\umarti\dowNLOADS--SYMLINKED\ohayo-main (1)\ohayo-main\ohayo\packages\print\test.ohayo"
+
 
 C:\pf\Git\bin\bash.exe
 env
