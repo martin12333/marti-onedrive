@@ -6,13 +6,12 @@ exit
 
 (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
+see also ohayo--install.f8.sh
+
 exit
 wsl
 zsh
-cd
-npm i ohayo
-ls -latr
-which jtree
+
 
 
 
@@ -29,12 +28,14 @@ npm view ohayo
 npx --help
 npx --version
 #v7 npm exec
-npx --no-install jtree
+#npx --no-install jtree
 cd
+npx zsh
 #npx  jtree
 
 npx --no-install env | tr ':' '\n'|grep -i bin
 env | tr ':' '\n'|grep -i bin
+: 1665860363:0;apparmor_status
 
 ------------------------------------
 CONDA_EXE=/home/martin/miniconda3/bin/conda
@@ -71,6 +72,26 @@ cd
 mv -iv node_modules OLDnode_modules
 
 exit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
