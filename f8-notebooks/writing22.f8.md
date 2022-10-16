@@ -18,7 +18,7 @@ section Running Ohayo Programs on the Command Line
 
 I am unable to make it work ... what have I tried so far:
 
-me:
+## me:
 ```
 cd
 npm i ohayo
@@ -38,8 +38,7 @@ Error: No registered grammar named 'ohayo'
 ...
 ```
 
-```
-me:
+## me:
 ```
 
 npm run test
@@ -56,7 +55,7 @@ output:
 Require stack:
 ...
 ```
-me:
+## me:
 ```
 ./builder.ts
 
@@ -86,6 +85,16 @@ trainOhayoModel
 updateGrammars
 updateVersion
 ```
+
+## Maybe I should try --global
+```
+exit
+cd
+npm i --global ohayo
+```
+...?
+
+
 
 comment
 @SRS-WRKS
