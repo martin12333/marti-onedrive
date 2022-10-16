@@ -91,7 +91,9 @@ wsl
 	find . -type f -size -100k -size +100c -mtime -3   |cpio --verbose --warning=all --create --format=crc >/mnt/d/umarti/cpio/228
 
 
-	find . -type f -size -2000k -size +100c -mmin -360   |cpio --verbose  --create --format=crc >/mnt/d/umarti/cpio/22ag-2000k-mmin--360.cpio
+	cd ~/OneDrive
+
+	find . -type f -size -2000k -size +100c -mmin -360   |cpio --verbose  --create --format=crc >/mnt/d/umarti/cpio/22ag22-2000k-mmin--360.cpio
 
 
 
