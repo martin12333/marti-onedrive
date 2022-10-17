@@ -21,15 +21,59 @@ I am unable to make it work ... what have I tried so far:
 ## 1
 ```shell
 cd
+
 mkdir ohayo  # EDIT
+
 cd ohayo # EDIT
 npm i ohayo
-npx zsh
 
+npx zsh
+```
+## 2
+```
 # in npx zsh
+
+cd node_modules/jtree
+
 jtree # ok
 
-cd node_modules/ohayo
+./builder.ts
+```
+```
+buildJibJab
+cover
+produce
+produceAll
+produceLang
+startServer
+test
+updateVersion
+```
+
+## 3
+```
+# in node_modules/jtree
+
+./builder.ts produceAll
+
+./builder.ts test
+
+```
+```
+(node:1468) UnhandledPromiseRejectionWarning: TypeError: Unable to require file: jtable/Column.ts
+This is usually the result of a faulty configuration or import. Make sure there is a `.js`, `.json` or other executable extension with loader attached before `ts-node` available.
+```
+
+## 4
+
+```
+# in node_modules/jtree
+
+cd ../ohayo
+jtree ohayo/packages/print/test.ohayo
+
+jtree register ohayo/ohayo.grammar
+
 jtree ohayo/packages/print/test.ohayo
 
 ```
@@ -38,9 +82,28 @@ output:
 Error: No registered grammar named 'ohayo'
 
 ...
+
+➜  ohayo git:(wsl) ✗ jtree register ohayo/ohayo.grammar
+
+Registered ohayo
+➜  ohayo git:(wsl) ✗ jtree ohayo/packages/print/test.ohayo
+Error in compiled grammar code for language "ohayo"
+/home/martin/node_modules/jtree/products/jtree.node.js:28
+      if (!dirName) throw new Error(`dirName undefined when attempting to findProjectRoot for project "${projectName}" starting in "${startingDirName}"`)
+                    ^
+
+Error: dirName undefined when attempting to findProjectRoot for project "ohayo" starting in "undefined"
+    at getProjectName (/home/martin/node_modules/jtree/products/jtree.node.js:28:27)
+    at Function.findProjectRoot (/home/martin/node_modules/jtree/products/jtree.node.js:35:18)
+    at evalmachine.<anonymous>:3:36
+    at Script.runInThisContext (vm.js:133:18)
+    at Object.runInThisContext (vm.js:310:38)
+    at HandGrammarProgram._requireInVmNodeJsRootNodeTypeConstructor (/home/martin/node_modules/jtree/products/jtree.node.js:5077:17)
+    at HandGrammarProgram._compileAndEvalGrammar (/home/martin/node_modules/jtree/products/jtree.node.js:4991:31)
+
 ```
 
-## 2
+## 5
 ```
 
 npm run test
@@ -57,14 +120,23 @@ output:
 Require stack:
 ...
 ```
-## 3
+## 6
 ```
 ./builder.ts
+
+### I really dont know what they mean
+./builder.ts buildBuilder
+./builder.ts buildDist
+./builder.ts produceOhayoGrammar
+./builder.ts produceAll
+
+./builder.ts updateGrammars
 
 
 ```
 output:
 ```
+
 20 commands in /home/martin/node_modules/ohayo/builder.ts:
 buildBuilder
 buildDist
@@ -86,6 +158,32 @@ test
 trainOhayoModel
 updateGrammars
 updateVersion
+
+
+
+./builder.ts produceOhayoGrammar
+Error: Grammar file does not exist: /home/martin/node_modules/ohayo/node_modules/jtree/langs/grammar/grammar.grammar
+
+
+
+➜  ohayo git:(wsl) ✗ ./builder.ts produceAll
+SUCCESS: produceDevServerHtml
+FAILURE: produceOhayoGrammar
+SUCCESS: produceGopherGrammar
+SUCCESS: produceProdHtml
+FAILURE: produceProdJs
+SUCCESS: produceSVGFile
+SUCCESS: produceTemplatesFile
+FAILURE: produceOSwarmGrammar
+
+
+
+➜  ohayo git:(wsl) ✗ ./builder.ts updateGrammars
+79 files to upgrade
+Upgrading /home/martin/node_modules/ohayo/ohayo/ohayo.grammar
+...
+
+
 ```
 
 ## Maybe I should try --global
@@ -96,8 +194,15 @@ npm i --global ohayo
 ```
 ...?
 
+
+
+
+
+
+
+
 ------
-comment:
+comment: later
 
 @SRS-WRKS
 

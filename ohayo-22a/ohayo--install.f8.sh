@@ -34,18 +34,23 @@ cd
 npx zsh
 
 
-: 1665871474:0;head node_modules/ohayo/builder.ts
-: 1665871494:0;which ts-node
-: 1665871508:0;ts-node node_modules/ohayo/builder.ts
-
-
-: 1665872011:0;npm help-search -- devdependencies
-./builder.ts --help
+cd node_modules/jtree
 ./builder.ts
 ./builder.ts test
 jtree build
 ./builder.ts produceOhayoGrammar
+./builder.ts produceAll
+./builder.ts produce
+./builder.ts updateVersion
+./builder.ts cover
 
+cd node_modules/ohayo
+jtree ohayo/packages/print/test.ohayo
+
+
+
+
+: 1665872011:0;npm help-search -- devdependencies
 
 
 
@@ -129,3 +134,7 @@ found 4 vulnerabilities (1 low, 3 high)
 ========
 
 
+
+: 1665871474:0;head node_modules/ohayo/builder.ts
+: 1665871494:0;which ts-node
+: 1665871508:0;ts-node node_modules/ohayo/builder.ts
