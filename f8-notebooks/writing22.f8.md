@@ -19,8 +19,10 @@ section Running Ohayo Programs on the Command Line
 I am unable to make it work ... what have I tried so far:
 
 ## 1
-```
+```shell
 cd
+mkdir ohayo  # EDIT
+cd ohayo # EDIT
 npm i ohayo
 npx zsh
 

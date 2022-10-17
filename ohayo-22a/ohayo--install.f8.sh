@@ -26,6 +26,8 @@ wsl
 zsh
 
 cd
+mkdir ohayo  # EDIT
+cd ohayo # EDIT
 npm i ohayo
 
 cd
@@ -102,6 +104,8 @@ exit
 =================
 =========
 
+mkdir ohayo  # EDIT
+cd ohayo # EDIT
 ➜  ~ git:(wsl) ✗ npm i ohayo
 npm WARN deprecated superagent@5.3.1: Please upgrade to v7.0.2+ of superagent.  We have fixed numerous issues with streams, form-data, attach(), filesystem errors not bubbling up (ENOENT on attach()), and all tests are now passing.  See the releases tab for more information at <https://github.com/visionmedia/superagent/releases>.
 npm WARN deprecated formidable@1.2.6: Please upgrade to latest, formidable@v2 or formidable@v3! Check these notes: https://bit.ly/2ZEqIau
