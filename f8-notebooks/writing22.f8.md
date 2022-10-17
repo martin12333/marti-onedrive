@@ -5,9 +5,40 @@ zsh
 
 # C:\Users\marti\OneDrive\f8-notebooks\writing22.f8.md
 
+
+
+
+
+
+
+
+
+
+
+
+
+In https://github.com/breck7/ohayo/tree/main/ohayo/readme.scroll
+, there is a
+
+section Running Ohayo Programs on the Command Line
+...
+#! /usr/bin/env node /usr/local/bin/jtree
+...
+I am unable to make it work ... what have I tried so far:
+
+https://gist.github.com/martin12333/5cdfe6559ef859d5ea722d1bad4e2ea0
+
+Maybe I should try --global ?
+exit
+cd
+npm i --global ohayo
+...?
+
+
+
 How to run Ohayo programs from shell?
 
-In github.com/breck7/ohayo/ohayo/readme.scroll , there is a
+In [github.com/breck7/ohayo/ohayo/readme.scroll] , there is a
 
 ```
 section Running Ohayo Programs on the Command Line
@@ -18,16 +49,54 @@ section Running Ohayo Programs on the Command Line
 
 I am unable to make it work ... what have I tried so far:
 
+
+todo gist as with hyperpoly
+log?
+shell-log?
+
+
+
+(it is not the first attempt)
+
+```
+
+## Maybe I should try --global
+```
+exit
+cd
+npm i --global ohayo
+```
+...?
+
+
+
+
+
+
+
+
+
+
+
+
 ## 1
 ```shell
 cd
 
-mkdir ohayo  # EDIT
 
-cd ohayo # EDIT
+
+mkdir breck7  # EDITED
+
+cd breck7 # EDITED
 npm i ohayo
 
+
+
 npx zsh
+
+
+
+
 ```
 ## 2
 ```
@@ -37,7 +106,13 @@ cd node_modules/jtree
 
 jtree # ok
 
+
+
 ./builder.ts
+
+
+
+
 ```
 ```
 buildJibJab
@@ -69,8 +144,14 @@ This is usually the result of a faulty configuration or import. Make sure there 
 ```
 # in node_modules/jtree
 
+
+
+
 cd ../ohayo
 jtree ohayo/packages/print/test.ohayo
+
+jtree list
+ll ohayo
 
 jtree register ohayo/ohayo.grammar
 
@@ -106,7 +187,12 @@ Error: dirName undefined when attempting to findProjectRoot for project "ohayo" 
 ## 5
 ```
 
+
+
+
 npm run test
+
+
 
 
 ```
@@ -122,13 +208,25 @@ Require stack:
 ```
 ## 6
 ```
+
+
+
 ./builder.ts
+
+
+
 
 ### I really dont know what they mean
 ./builder.ts buildBuilder
 ./builder.ts buildDist
 ./builder.ts produceOhayoGrammar
+
+
+
 ./builder.ts produceAll
+
+
+
 
 ./builder.ts updateGrammars
 

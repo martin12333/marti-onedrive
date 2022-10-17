@@ -26,8 +26,11 @@ wsl
 zsh
 
 cd
-mkdir ohayo  # EDIT
-cd ohayo # EDIT
+
+#mv -iv node_modules old3-node_modules
+
+mkdir breck7  # EDITED
+cd breck7 # EDITED
 npm i ohayo
 
 cd

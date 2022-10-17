@@ -58,7 +58,7 @@ C:\pf\Git\bin\bash.exe
 	/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
 	git commit -v -a -m bk #vulnera #bk  # refactor #before-refactor
 
-	git push
+	git push 
 
 	git show --name-only
 
