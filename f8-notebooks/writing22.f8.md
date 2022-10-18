@@ -1,4 +1,6 @@
-to mitigate F5 in *mc* in vscode running this file
+(mm_f8_doc file pseudo-format)
+# (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
+)
 exit
 wsl
 zsh
@@ -27,6 +29,7 @@ section Running Ohayo Programs on the Command Line
 I am unable to make it work ... what have I tried so far:
 
 https://gist.github.com/martin12333/5cdfe6559ef859d5ea722d1bad4e2ea0
+
 
 Maybe I should try --global ?
 exit

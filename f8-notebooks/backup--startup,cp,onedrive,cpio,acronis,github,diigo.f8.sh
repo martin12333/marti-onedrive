@@ -1,6 +1,7 @@
 (mm_f8_doc file pseudo-format)
 # (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 (do-not run this file as a whole)
+)
 exit
 
 # startup -> C:\Users\marti\OneDrive\git-bash-dotfiles\mymyrsync.sh
@@ -58,7 +59,7 @@ C:\pf\Git\bin\bash.exe
 	/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
 	git commit -v -a -m bk #vulnera #bk  # refactor #before-refactor
 
-	git push 
+	git push
 
 	git show --name-only
 

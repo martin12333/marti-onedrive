@@ -1,3 +1,9 @@
+(mm_f8_doc file pseudo-format)
+# (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
+(do-not run this file as a whole)
+)
+exit
+
 : 1665860446:0;which -a sudo
 : 1665860463:0;ll `which -a sudo`
 : 1665860512:0;echo `which -a sudo`
