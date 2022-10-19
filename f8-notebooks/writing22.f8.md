@@ -18,6 +18,65 @@ zsh
 
 
 
+> Yes, although i am not an expert, i feel the need to interact. Its usually a bad idea, but i will try.
+>
+> HAML, which inspired text notation has text bundle and textmate support. LISP and github seemed to have gotten along for the most part.
+>
+> Can something really be just a text file and support various third party tools without even using something like fuse (https://www.kernel.org/doc/html/latest/filesystems/fuse.html) ?
+
+
+
+
+
+
+> and that's for treenotation without dialects.
+
+sounds interesting, but i am not sure i understand
+
+can you give an example of the text file?
+
+could this topic belong to https://github.com/breck7/jtree/discussions ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Re: textmate-style language grammars for Tree Languages
+
+... what about making very rough textmate grammars
+
+e.g. for *.gram* files, highlight words like `\w*Cell` , javascript, {, }
+by the way, I use the textmate grammar for *.js ... for highlighting of Tree Languages (in vscode)
+
+Re: textmate-style language grammars for Tree Languages
+
+... what about making **very rough** textmate grammars
+
+* e.g. for \*.gram\* files, highlight words like \\w\*Cell , "javascript", { }
+* by the way, I use Javascript textmate grammar for highlighting of Tree Languages (in vscode)
+
+
+
+Unfortunately I have tried and failed miserably to make textmate-style language grammars for Tree Languages (https://github.com/breck7/lime and https://github.com/breck7/jtree/blob/7a5883dc64fa3646db937f96a0189a40af9d860d/core/GrammarLanguage.ts#L2735)
+
+
+
+
+
+
+
 
 In https://github.com/breck7/ohayo/tree/main/ohayo/readme.scroll
 , there is a
@@ -31,6 +90,8 @@ I am unable to make it work ... what have I tried so far:
 https://gist.github.com/martin12333/5cdfe6559ef859d5ea722d1bad4e2ea0
 
 
+
+namitka v49 bin vs v 59 bin
 Maybe I should try --global ?
 exit
 cd
@@ -56,13 +117,14 @@ I am unable to make it work ... what have I tried so far:
 todo gist as with hyperpoly
 log?
 shell-log?
-
+.sh-session?
 
 
 (it is not the first attempt)
 
 ```
 
+namitka v49 bin vs v 59 bin
 ## Maybe I should try --global
 ```
 exit
@@ -88,9 +150,9 @@ cd
 
 
 
-mkdir breck7  # EDITED
+mkdir ohayo  # EDITED
 
-cd breck7 # EDITED
+cd ohayo # EDITED
 npm i ohayo
 
 
@@ -148,7 +210,7 @@ This is usually the result of a faulty configuration or import. Make sure there 
 # in node_modules/jtree
 
 
-
+cd ~/ohayo
 
 cd ../ohayo
 jtree ohayo/packages/print/test.ohayo
@@ -167,10 +229,12 @@ Error: No registered grammar named 'ohayo'
 
 ...
 
-➜  ohayo git:(wsl) ✗ jtree register ohayo/ohayo.grammar
+➜  ohayo git:(wsl) ✗
+jtree register ohayo/ohayo.grammar
 
 Registered ohayo
-➜  ohayo git:(wsl) ✗ jtree ohayo/packages/print/test.ohayo
+➜  ohayo git:(wsl) ✗
+jtree ohayo/packages/print/test.ohayo
 Error in compiled grammar code for language "ohayo"
 /home/martin/node_modules/jtree/products/jtree.node.js:28
       if (!dirName) throw new Error(`dirName undefined when attempting to findProjectRoot for project "${projectName}" starting in "${startingDirName}"`)
@@ -231,6 +295,10 @@ Require stack:
 
 
 
+
+
+
+
 ./builder.ts updateGrammars
 
 
@@ -286,7 +354,7 @@ Upgrading /home/martin/node_modules/ohayo/ohayo/ohayo.grammar
 
 
 ```
-
+v49v59
 ## Maybe I should try --global
 ```
 exit
