@@ -6,7 +6,7 @@ exit
 (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
 # ohayo--install.f8.sh
-see also 'C:\Users\marti\OneDrive\f8-notebooks\writing22.f8.md'
+#### obsol see also 'C:\Users\marti\OneDrive\f8-notebooks\writing22.f8.md'
 
 
 
@@ -19,12 +19,26 @@ see also 'C:\Users\marti\OneDrive\f8-notebooks\writing22.f8.md'
 
 
 =========
-
 exit
 
 wsl
 
-zsh #paste in zsh !  zsh paste multiple lines safety
+zsh # zsh paste multiple lines safety
+
+echo '-----------------------------begin possible  .sh-session ---------------------------------'
+
+
+night-offline
+git status
+	##git show --name-only
+cat .gitignore
+	git commit -v -a -m night-offline-martin2
+	git show --name-only
+
+	git status | head -n 15
+	git log
+
+
 
 
 once
