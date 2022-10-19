@@ -8,6 +8,55 @@ zsh
 # C:\Users\marti\OneDrive\f8-notebooks\writing22.f8.md
 
 
+SOLVED: How to run Ohayo programs from shell
+
+EDIT: I am now able to make it work
+
+
+
+
+(obsolete:
+https://gist.github.com/martin12333/5cdfe6559ef859d5ea722d1bad4e2ea0
+)
+
+
+
+
+now I have used
+
+➜  ~ git:(wsl) ✗ git clone https://github.com/breck7/ohayo
+npm i .
+
+instead of
+
+➜  ~ git:(wsl) ✗ mkdir ohayo  # EDITED
+➜  ~ git:(wsl) ✗ cd ohayo # EDITED
+➜  ohayo git:(wsl) ✗ npm i ohayo
+
+and some things started to work ...
+I will write more tomorrow
+
+
+
+
+
+
+
+
+
+
+now I have used
+
+➜  ~ git:(wsl) ✗ git clone https://github.com/breck7/ohayo
+npm i .
+instead of
+
+➜  ~ git:(wsl) ✗ mkdir ohayo  # EDITED
+➜  ~ git:(wsl) ✗ cd ohayo # EDITED
+➜  ohayo git:(wsl) ✗ npm i ohayo
+and some things started to work ...
+I will write more tomorrow
+
 
 
 
