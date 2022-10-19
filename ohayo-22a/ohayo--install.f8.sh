@@ -23,9 +23,9 @@ see also 'C:\Users\marti\OneDrive\f8-notebooks\writing22.f8.md'
 exit
 
 wsl
+
 zsh #paste in zsh !  zsh paste multiple lines safety
 
-cd
 
 once
 git clone https://github.com/martin12333/ohayo
@@ -52,7 +52,7 @@ npm i ohayo
 ###cd
 npx zsh
 
-cd ~/ohayo
+#cd ~/ohayo
 
 cd node_modules/jtree
 
@@ -83,10 +83,16 @@ afraid
 
 
 : 1666201458:0;jtree list
-: 1666201472:0;jtree register ohayo/ohayo.grammar
 
-err Error: Cannot find module 'ohayo/ohayo.nodejs.js'
-Require s
+mv -iv ~/grammars.ssv ~/old2grammars.ssv
+
+ls -l echo jtree register $PWD/ohayo/ohayo.grammar
+jtree register $PWD/ohayo/ohayo.grammar
+
+: 1666197956:0;find . -iname '*ohayo.g*'
+pwd
+
+#####err Error: Cannot find module 'ohayo/ohayo.nodejs.js'
 : 1666201482:0;jtree ohayo/packages/print/test.ohayo
 
 
@@ -104,7 +110,7 @@ Require s
 : 1666201938:0;jtree ohayo/packages/print/test.ohayo
 
 
-
+obsol
 cd node_modules/ohayo
 jtree ohayo/packages/print/test.ohayo
 
