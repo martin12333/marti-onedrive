@@ -23,26 +23,31 @@ see also 'C:\Users\marti\OneDrive\f8-notebooks\writing22.f8.md'
 exit
 
 wsl
-zsh
+zsh #paste in zsh !  zsh paste multiple lines safety
 
 cd
 
-
+once
 git clone https://github.com/martin12333/ohayo
 git clone https://github.com/breck7/ohayo
+
+
 
 cd ~/ohayo # EDITED
 pwd
 
+once
 npm i .
 
-###################
+once
+obsol
+###################obsol
 #mv -iv node_modules old3-node_modules
 mkdir ohayo  # EDITED again
 cd ohayo # EDITED
 cd breck7 # should be ohayo
 npm i ohayo
-#############
+#############end obsol
 
 ###cd
 npx zsh
@@ -52,22 +57,55 @@ cd ~/ohayo
 cd node_modules/jtree
 
 
-./tas core test
+: 1666197956:0;find . -iname '*core*'
+: 1666198145:0;find . -iname '*test*'
 
-./builder.ts
-./builder.ts test
+
+: 1666201370:0;jtree # ok
+: 1666201381:0;./builder.ts
+: 1666201393:0;./builder.ts produceAll
+
+req error
+: 1666201405:0;./builder.ts test
+
 jtree build
-./builder.ts produceOhayoGrammar
-./builder.ts produceAll
+
+choice
 ./builder.ts produce
+
+afraid
 ./builder.ts updateVersion
+
 ./builder.ts cover
+
+
+: 1666201438:0;cd ~/ohayo
+
+
+: 1666201458:0;jtree list
+: 1666201472:0;jtree register ohayo/ohayo.grammar
+
+err Error: Cannot find module 'ohayo/ohayo.nodejs.js'
+Require s
+: 1666201482:0;jtree ohayo/packages/print/test.ohayo
+
+
+
+: 1666201521:0;npm run test
+
+
+
+: 1666201536:0;./builder.ts
+: 1666201543:0;./builder.ts buildBuilder
+: 1666201547:0;./builder.ts buildDist
+: 1666201550:0;./builder.ts produceOhayoGrammar
+: 1666201589:0;./builder.ts produceAll
+: 1666201878:0;pwd
+: 1666201938:0;jtree ohayo/packages/print/test.ohayo
 
 
 
 cd node_modules/ohayo
-
-
 jtree ohayo/packages/print/test.ohayo
 
 
