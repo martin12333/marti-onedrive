@@ -64,6 +64,9 @@ C:\pf\Git\bin\bash.exe
 	git push
 
 	git show --name-only
+	git show
+	git status | head -n 15
+	git log
 
 	git gui &
 	# menu Visualize
