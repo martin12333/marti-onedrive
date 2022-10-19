@@ -86,9 +86,11 @@ npx zsh
 
 jtree register $PWD/ohayo/ohayo.grammar
 jtree list
+
+#debug
 ##mv -iv ~/grammars.ssv oldgrammars.ssv
 mv -v --backup=numbered   ~/grammars.ssv   ~/oldgrammars.ssv
-echo abc >~/grammars.ssv
+#echo abc >~/grammars.ssv
 ll ~/*grammar*
 
 
