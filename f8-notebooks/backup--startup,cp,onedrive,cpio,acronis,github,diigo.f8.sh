@@ -24,6 +24,8 @@ C:\pf\Git\bin\bash.exe
 	ls -latr c:/Users/marti/AppData/Local/Temp/
 
 	git ls-files
+	####git ls-files settings.json
+	git ls-files|grep settings[.]json
 	git ls-files|grep [.]el
 	git ls-files|grep [.]ipynb
 	git ls-files|grep f8[.]
