@@ -65,7 +65,10 @@ C:\pf\Git\bin\bash.exe
 
 	git show --name-only
 
+	git gui &
+	# menu Visualize
 	git gui
+
 
 	# https://github.com/martin12333/marti-onedrive
 	# w: failed
@@ -96,7 +99,7 @@ wsl
 
 	cd ~/OneDrive
 
-	find . -type f -size -2000k -size +100c -mmin -360   |cpio --verbose  --create --format=crc >/mnt/d/umarti/cpio/22ag22-2000k-mmin--360.cpio
+	find . -type f -size -2000k -size +100c -mmin -360   |cpio --verbose  --create --format=crc >/mnt/d/umarti/cpio/22aj-2000k-mmin--360.cpio
 
 
 
