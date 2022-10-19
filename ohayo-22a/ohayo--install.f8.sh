@@ -25,6 +25,10 @@ wsl
 
 zsh # zsh paste multiple lines safety
 
+
+: 1666202592:0;ERROR pasted a lot of text, by mistake, into vscode terminal ... maybe failed to switch focus ERROR ---------------------------------------
+
+
 echo '-----------------------------begin possible  .sh-session ---------------------------------'
 
 
@@ -42,16 +46,18 @@ cat .gitignore
 
 
 once
-git clone https://github.com/martin12333/ohayo
-git clone https://github.com/breck7/ohayo
+cd
+#git clone https://github.com/martin12333/ohayo
+#git clone https://github.com/breck7/ohayo
 
 
-
+cd
+cd ohayo
 cd ~/ohayo # EDITED
 pwd
 
 once
-npm i .
+#npm i .
 
 once
 obsol
@@ -65,6 +71,29 @@ npm i ohayo
 
 ###cd
 npx zsh
+#npx bash
+
+
+
+: 1666201536:0;./builder.ts
+
+
+: 1666201550:0;./builder.ts produceOhayoGrammar
+
+
+jtree register $PWD/ohayo/ohayo.grammar
+
+
+
+
+
+
+
+
+
+
+
+
 
 #cd ~/ohayo
 
