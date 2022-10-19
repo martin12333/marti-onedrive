@@ -102,7 +102,7 @@ wsl
 
 	cd ~/OneDrive
 
-	find . -type f -size -2000k -size +100c -mmin -360   |cpio --verbose  --create --format=crc >/mnt/d/umarti/cpio/22aj-2000k-mmin--360.cpio
+	find . -type f -size -2000k -size +100c -mmin -360   |cpio --verbose  --create --format=crc >/mnt/d/umarti/cpio/22aj0114-2000k-mmin--360.cpio
 
 
 
