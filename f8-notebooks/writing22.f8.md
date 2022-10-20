@@ -8,9 +8,48 @@ zsh
 # C:\Users\marti\OneDrive\f8-notebooks\writing22.f8.md
 
 
+
+@breck7 @SRS-WRKS now I am starting to think about running Ohayo and jtree programs also from an IDE ... e.g. from VSCode
+
+ am planning to try to run jtree test.ohayo from shell ...
+EDIT: OK, Ohayo depends on jtree v49
+
 SOLVED: How to run Ohayo programs from shell
 
 EDIT: I am now able to make it work
+
+I will write the details in a new comment.
+
+
+
+
+SOLVED: How to run Ohayo programs from shell
+
+```shell
+
+cd
+git clone https://github.com/breck7/ohayo
+
+cd ohayo
+
+npm i .
+
+npx bash
+
+./builder.ts
+
+./builder.ts produceOhayoGrammar
+
+jtree register $PWD/ohayo/ohayo.grammar
+jtree list
+
+jtree ohayo/packages/print/test.ohayo
+# WORKS!
+
+```
+
+
+
 
 
 
