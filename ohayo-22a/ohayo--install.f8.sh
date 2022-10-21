@@ -214,14 +214,15 @@ wc -l **/*.js
 history| grep find|grep prun
 du -ak   `find .  \( -wholename ./node_modules  -o -wholename ./.git -o -iname '*.json' -o -iname '*.csv' -o -iname '*.min.js' \) -prune -o -type f  -print `   | sort -n
 
+wc -l   `find .  \( -wholename ./node_modules  -o -wholename ./.git -o -iname '*.json' -o -iname '*.csv' -o -iname '*.min.js' \) -prune -o -type f  -print `   | sort -n
 
 
+grep --recursive '^[#][!]' >~/1
+
+grep --recursive '^[#][!]'  | grep -v swarm | grep -v gopher   >~/1
 
 
-
-
-
-
+cd node_modules/jtree
 
 
 
