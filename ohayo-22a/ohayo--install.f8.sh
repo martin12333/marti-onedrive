@@ -19,19 +19,18 @@ exit
 
 
 =========
-exit
-
+######################
 wsl
+
+exit
 
 zsh # zsh ... paste multiple lines ... safety
 
 ONCE
-: 1666202592:0;ERROR pasted a lot of text, by mistake, into vscode terminal ... maybe failed to switch focus ERROR ---------------------------------------
+: 1666202592:0;ERROR pasted a lot of text, by mistake, into vscode terminal ... maybe failed to switch focus ... todo click more carefully  ...---------------------------------------
 
 
 echo '-----------------------------begin possible  .sh-session ---------------------------------'
-
-
 
 
 night-offline
@@ -40,69 +39,39 @@ git status
 cat .gitignore
 	git commit -v -a -m night-offline-martin2
 	git show --name-only
-
 	git status | head -n 15
 	git log
 
 
-
 First time:
-
 once
-
 cd
 #git clone https://github.com/breck7/ohayo
-
 #git clone https://github.com/martin12333/ohayo
-
 pldb
 
-
-
-cd
-
-cd ohayo
-
-cd pldb
-
-
-cd ~/ohayo # EDITED
-pwd
-
 once
+cd ohayo
+cd pldb
 #npm i .
 
-once
-obsollllllllll
-###################obsol
-#mv -iv node_modules old3-node_modules
-mkdir ohayo  # EDITED again
-cd ohayo # EDITED
-cd breck7 # should be ohayo
-npm i ohayo
-#############end obsol
 
-###cd
+######################
+cd
+cd ohayo
+cd pldb
 npx zsh
 #npx bash
 
 
-
 ./builder.ts
-
-
 ./builder.ts produceOhayoGrammar
 
-
 jtree register $PWD/ohayo/ohayo.grammar
-
 jtree register $PWD/database/grammar/pri
-
 
 jtree list
 pldb-night
-
-
 
 #debug
 ##mv -iv ~/grammars.ssv oldgrammars.ssv
@@ -111,24 +80,22 @@ mv -v --backup=numbered   ~/grammars.ssv   ~/oldgrammars.ssv
 ll ~/*grammar*
 
 
-
-
-
 jtree ohayo/packages/print/test.ohayo
 
 
+#######################
+cd
+cd ohayo
+cd pldb
 
-
-
-
-npx jtree
 jtree
+npx jtree
 
 npx jtree ohayo/packages/print/test.ohayo
 npx jtree run ohayo/packages/print/test.ohayo
 npx jtree parse ohayo/packages/print/test.ohayo
 
-
+history|tail
 
 
 
@@ -296,6 +263,28 @@ exit
 
 =================
 =========
+
+
+
+once
+obsollllllllll
+###################obsol
+#mv -iv node_modules old3-node_modules
+mkdir ohayo  # EDITED again
+cd ohayo # EDITED
+cd breck7 # should be ohayo
+npm i ohayo
+#############end obsol
+
+
+
+
+
+
+
+
+
+
 obsol
 mkdir ohayo  # EDIT
 cd ohayo # EDIT
