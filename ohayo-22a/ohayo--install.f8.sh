@@ -55,10 +55,16 @@ cd
 
 #git clone https://github.com/martin12333/ohayo
 
+pldb
+
+
 
 cd
 
 cd ohayo
+
+cd pldb
+
 
 cd ~/ohayo # EDITED
 pwd
@@ -67,7 +73,7 @@ once
 #npm i .
 
 once
-obsol
+obsollllllllll
 ###################obsol
 #mv -iv node_modules old3-node_modules
 mkdir ohayo  # EDITED again
@@ -89,7 +95,14 @@ npx zsh
 
 
 jtree register $PWD/ohayo/ohayo.grammar
+
+jtree register $PWD/database/grammar/pri
+
+
 jtree list
+pldb-night
+
+
 
 #debug
 ##mv -iv ~/grammars.ssv oldgrammars.ssv
@@ -108,16 +121,26 @@ jtree ohayo/packages/print/test.ohayo
 
 
 
+npx jtree
+jtree
+
+npx jtree ohayo/packages/print/test.ohayo
+npx jtree run ohayo/packages/print/test.ohayo
+npx jtree parse ohayo/packages/print/test.ohayo
 
 
 
 
 
 
+========================
 
 
 
+npm run tsc
 
+
+===================
 
 
 
@@ -210,7 +233,7 @@ zsh
 
 cd
 cd ohayo
-wc -l **/*.js
+wc -l **/*erver*|sort -n
 history| grep find|grep prun
 du -ak   `find .  \( -wholename ./node_modules  -o -wholename ./.git -o -iname '*.json' -o -iname '*.csv' -o -iname '*.min.js' \) -prune -o -type f  -print `   | sort -n
 
