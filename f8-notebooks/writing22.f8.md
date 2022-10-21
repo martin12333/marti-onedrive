@@ -9,6 +9,57 @@ zsh
 
 
 
+
+
+
+(@SRS-WRKS
+
+> ... try to make money ...
+
+I don't try to make money. I am on a disability pension. I try to work a little bit. Near my original profession.)
+
+I will write more later.
+
+
+
+
+@SRS-WRKS
+
+> You are celebrating removing command line apps. tree notation was supposed to be about treating data and code equally. You want to run this on IDE's and webapps is fine, but not supporting posix filesystems like procfs/fuse seems counterintuitive.
+
+I think, the F5 key in an IDE could run a **command line** app, that uses the **filesystem** ... maybe something like
+
+```
+cd ohayo && npx jtree ${FILENAME} >SOMEWHERE/output.csv
+
+```
+
+(BTW, my knowledge of JS is weaker, than my knowledge of shells)
+
+
+
+
+
+> not everyone can write parsers
+
+I think about using
+
+```
+data.eval
+ ...
+```
+
+and a future-possible ... something like
+
+```
+data.map ...
+```
+
+
+
+
+
+
 @breck7 @SRS-WRKS now I am starting to think about running Ohayo and jtree programs also from an IDE ... e.g. from VSCode
 
  am planning to try to run jtree test.ohayo from shell ...

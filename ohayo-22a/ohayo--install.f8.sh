@@ -32,7 +32,6 @@ ONCE
 echo '-----------------------------begin possible  .sh-session ---------------------------------'
 
 
-First time:
 
 
 night-offline
@@ -47,6 +46,7 @@ cat .gitignore
 
 
 
+First time:
 
 once
 
@@ -102,6 +102,24 @@ ll ~/*grammar*
 
 
 jtree ohayo/packages/print/test.ohayo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -185,6 +203,30 @@ jtree ohayo/packages/print/test.ohayo
 
 
 
+
+
+
+zsh
+
+cd
+cd ohayo
+wc -l **/*.js
+history| grep find|grep prun
+du -ak   `find .  \( -wholename ./node_modules  -o -wholename ./.git -o -iname '*.json' -o -iname '*.csv' -o -iname '*.min.js' \) -prune -o -type f  -print `   | sort -n
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ================
 
 cd C:\Users\marti\ohayo\node_modules\.bin
@@ -230,7 +272,7 @@ exit
 
 =================
 =========
-
+obsol
 mkdir ohayo  # EDIT
 cd ohayo # EDIT
 ➜  ~ git:(wsl) ✗ npm i ohayo
