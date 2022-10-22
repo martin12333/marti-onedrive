@@ -52,7 +52,7 @@ C:\pf\Git\bin\bash.exe
 	git add -vv --dry-run --interactive *.css
 
 
-	git add -vv 'C:\Users\marti\OneDrive\conn\writing22.md'
+	git add -vv 'C:\Users\marti\OneDrive\conn\writing22.md' "C:\Users\marti\OneDrive\task-scheduler--win\po-pulnoci23.xml"
 
 	git add -vv --dry-run '*sprea*iss*' #    '*f8.*'
 	git add -vv  '*.f8.*'
