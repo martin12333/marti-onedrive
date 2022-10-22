@@ -673,3 +673,49 @@ I am trying to do a hierarchical clustering (by hand) ... of various tree (neste
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+date="1594654713716" type="2" subject="null" body="Dík za nabídku. První  možnost by byla: když zadáš do Googlu: klobouček, tak je uvidíš, velikost aspoň 59, raději světlý, klidně bílý." toa="null" sc_toa="n
+date="1594749866882" type="2" subject="null" body="Díky :-) (poznámka. u toho Kloboučku jsem zapomněl napsat, že je na spaní.)" toa="null" sc_toa="null"
+
+date="1594655668512" type="2" subject="null" body="Nebo lepší druhá možnost: 100% bavlněné *tílko*, velikost XL, barvu raději světlou." toa="null" sc_toa="
+
+date="1594898006283" type="2" subject="null" body="... pyžamovou košili, nebo tenkou mikinu, nebo tričko s *dlouhým* rukávem. 100% bavlna. velikost XL. na barvě nezáleží. Díky moc." toa="null" sc_toa="null"
+
+date="1594898043027" type="2" subject="null" body="... podlehnout náletům mojí ... . Podcenil Jsem ... staré ... " toa="null" sc_toa="null" service_center="null" read="1"
+
+date="1594899973930" type="2" subject="null" body="Asi jsem byl pod vlivem antidepresiva, když jsem se rozhodoval tak lehkomyslně." toa="null" sc_toa="null"
+
+
+
+
+XL. Pyžamo pouze s příměsí polyesteru. Pak už všude zavřeli a musela jsem domů. | V pátek jedu shánět další oblečení pro E., na Anděl, tam už jistě nějaké tričko seženu, když ne v C&A, tak Tescu, H&M, nebo něčem jiné
+
+|Prosim nepis,ze chces k narozeninam neco,co mam udelat sama pro sebe,protoze fakt,ze je to neco,co jsem mela uz davno udelat,ale neudelala,bude mit pravdepodobne koreny v tom,ze to zoufale delat nechci :-):-)
+
