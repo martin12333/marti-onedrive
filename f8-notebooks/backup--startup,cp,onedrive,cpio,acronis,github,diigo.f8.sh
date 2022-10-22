@@ -52,6 +52,8 @@ C:\pf\Git\bin\bash.exe
 	git add -vv --dry-run --interactive *.css
 
 
+	git add -vv 'C:\Users\marti\OneDrive\conn\writing22.md'
+
 	git add -vv --dry-run '*sprea*iss*' #    '*f8.*'
 	git add -vv  '*.f8.*'
 	git add -vv --dry-run '*.f8.*'
@@ -103,7 +105,7 @@ wsl
 	cd ~/OneDrive
 	find . -type f -size -2000k -size +100c -mmin -360   |cpio --verbose  --create --format=crc >/mnt/c/u/cpio/22al2306-2000k-mmin--360.cpio
 
-##FAIL MOUNT D:/ 
+##FAIL MOUNT D:/
 	#d/umarti/cpio/22al2306-2000k-mmin--360.cpio
 
 
