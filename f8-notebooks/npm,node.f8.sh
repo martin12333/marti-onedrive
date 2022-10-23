@@ -15,14 +15,23 @@ zsh
 
 
 
-
+cd
 npm prefix
+npm prefix --global
+ls node_mo*
+cd node_modules
+
+cd
+cd ohayo
+npx zsh
+
 
 npm ls
 npm bin --global
 ls `npm bin --global`
 
 npm view ohayo
+npm help  view
 
 #npm run
 npx --help
@@ -66,6 +75,7 @@ env
 mkdir temp1
 cd temp1
 
+npm help  explore
 npm explore jtree #  ohayo
 ######npx  jtree
 cd

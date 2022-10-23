@@ -11,6 +11,16 @@ zsh
 
 
 
+asi si také zkusím založit web na wz.cz ...  ... hledal jsem , zdá se, že v https://www.webzdarma.cz/forum doporučují utf-8 "bez BOM"
+
+
+
+
+
+
+
+(I guess, I could be able  to maintain the commandLineApp.node.ts ...  outside of the `jtree` repo . )
+
 I guess, it would be possible to maintain the commandLineApp.node.ts  .
 
 
