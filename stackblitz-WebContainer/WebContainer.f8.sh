@@ -14,6 +14,45 @@ WebContainer™ working group
 
 .jsh_history 30!
 
+reversed time
+
+
+cp ~/.jsh_history .
+ls -l /bin /usr/bin /usr/local/bin >1
+ls -l /bin /usr/bin /usr/local/bin
+cp ~/.npmrc .
+env >env
+ls stackblitz/
+ls
+export
+export y
+export
+y=2
+export
+yargs
+echo jk${x}fg
+echo jk${x} g
+echo jk$x g
+echo jk$x
+echo jk
+env
+ENV
+echo $PATH
+echo ${PATH}
+echo ${x}}
+echo $x
+x=54
+echo $x
+export x=54
+export x
+ps
+node
+
+
+
+
+
+
 env
 cp /home/.pnpm/.pnpmfile.cjs .
 cp ~/.jsh_history  ./2.jsh_history
@@ -39,21 +78,25 @@ ls -FRal / >1
 ls
 ll
 ls -FRal /
+
 ls -Ral /
+ls -laR / >ls-laR
+ls -laR / >ls-laR
+
 ls --help
 cat
-tar
-find
+#tar
+#find
 
-du
-df
-set
+#du
+#df
+#set
 
 ls -l /
 node
 npx
 npm
-man
+#man
 
 some lost
 
