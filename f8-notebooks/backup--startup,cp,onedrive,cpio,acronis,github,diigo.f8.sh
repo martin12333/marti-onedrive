@@ -65,6 +65,8 @@ C:\pf\Git\bin\bash.exe
 
 	git push
 
+
+tail tar-exe/w/home/martin/.zsh_history
 	git show --name-only
 	git show
 	git status | head -n 15
@@ -102,8 +104,9 @@ wsl
 	find . -type f -size -100k -size +100c -mtime -3   |cpio --verbose --warning=all --create --format=crc >/mnt/d/umarti/cpio/228
 
 
+prepis 22ar
 	cd ~/OneDrive
-	find . -type f -size -2000k -size +100c -mmin -360   |cpio --verbose  --create --format=crc >/mnt/c/u/cpio/22am2222-2000k-mmin--360.cpio
+	find . -type f -size -2000k -size +100c -mmin -360   |cpio --verbose  --create --format=crc >/mnt/c/u/cpio/22ar-2000k-mmin--360.cpio
 
 ##FAIL MOUNT D:/
 	#d/umarti/cpio/22al2306-2000k-mmin--360.cpio

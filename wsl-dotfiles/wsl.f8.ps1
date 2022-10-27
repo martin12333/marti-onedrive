@@ -3,7 +3,8 @@ do-not run this file as a whole
 )
 exit
 
-
+wsl
+zsh
 wsl -d Ubuntu-22.04
 cd
 cd -
@@ -12,6 +13,8 @@ cd -2
 WARNING mc in vsc ... f5 is run in vsc
 
 ####################################
+
+
 
 
 C:\pf\Git\bin\bash.exe
