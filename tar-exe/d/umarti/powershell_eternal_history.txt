@@ -3864,3 +3864,7 @@ wsl
 C:\pf\Git\bin\bash.exe
 git show --name-only
 C:\pf\Git\bin\bash.exe
+wsl
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i wsl
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i 22
+wsl -d Ubuntu-22.04

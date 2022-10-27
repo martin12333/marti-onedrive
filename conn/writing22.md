@@ -10,13 +10,33 @@ zsh
 
 
 
-
+Ahoj,
 asi si také zkusím založit web na wz.cz ...  ... hledal jsem , zdá se, že v https://www.webzdarma.cz/forum doporučují utf-8 "bez BOM"
 
 
+I see 3 possibilities for the commandLineApp:
+
+(0) use jtree up to v58
+(A) "return" the commandLineApp to jtree 60+
+(B) put the commandLineApp into a separate package ...
+how to name the new package ...
+would you agree with the package name and the repo name: jtree-cli ?
+@breck7 @SRS-WRKS
 
 
+see 3 possibilities:
 
+(0)
+
+@breck7 ,
+if you really want the commandLineApp to be in a separate package,
+how to name the new package ...
+would you agree with the package name and the repo name: jtree-cli ?
+@breck7 @SRS-WRKS
+
+
+if you really want to put the commandLineApp into a separate package: do you agree with the package name and repo name:  `jtree-cli` ?
+@breck7 @SRS
 
 
 (I guess, I could be able  to maintain the commandLineApp.node.ts ...  outside of the `jtree` repo . )
