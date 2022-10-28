@@ -5,16 +5,22 @@ exit
 
 wsl
 zsh
+
 wsl -d Ubuntu-22.04
 cd
 cd -
 cd -2
 
-WARNING mc in vsc ... f5 is run in vsc
+f8 WARNING mc in vsc ... f5 is run in vsc
 
 ####################################
+uname -a
+lsmod
+env|grep -i lib
 
+df -m
 
+####################################
 
 
 C:\pf\Git\bin\bash.exe
@@ -106,3 +112,15 @@ cp -iv ini2 ini
 apt download zsh-doc \
 			zsh-autosuggestions  \
 		zsh-syntax-highlighting
+
+sudo apt install podman
+sudo apt install podman-docker
+
+
+wsl --list --online
+
+dpkg -l | grep -i podm
+
+docker
+podman
+

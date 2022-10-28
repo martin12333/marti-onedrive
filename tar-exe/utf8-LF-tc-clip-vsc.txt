@@ -17,4 +17,6 @@ C:\Users\marti\hyperpolyglot\build\hyperpolyglot.css
 /w/home/martin/.emacs.d/init.el
 /w/home/martin/.emacs.d/custom.el
 /w/home/martin/wsl.conf
-C:\Users\marti\pokus-bkup.txt
+C:\Users\marti\pokus-bkup.txttttttttttttttttttttttttttttt
+/u/home/martin/.bash_history
+/u/home/martin/.zsh_history
