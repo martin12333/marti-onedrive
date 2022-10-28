@@ -107,3 +107,16 @@ $ podman run --rm -t fedora /bin/sh -c "stty -onlcr && echo abc" | od -c
 0000000   a   b   c  \n
 
 
+
+
+
+cat /etc/subuid
+
+$ ls -ild /home/dwalsh
+
+8193 drwx--x--x. 290 dwalsh dwalsh 20480 Jan 29 07:58 /home/dwalsh
+
+$ buildah unshare ls -ld /home/dwalsh
+
+drwx--x--x. 290 root root 20480 Jan 29 07:58 /home/dwalsh
+
