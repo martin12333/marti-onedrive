@@ -124,3 +124,4 @@ dpkg -l | grep -i podm
 docker
 podman
 
+apt list podman
