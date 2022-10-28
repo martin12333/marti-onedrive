@@ -55,9 +55,9 @@ podman ps --all
 
 
 
-As the user we created before:
+##As the user we created before:
 
-podman exec --interactive --tty --user $(whoami) --workdir /home/$(whoami) mycontainer /bin/bash
+##podman exec --interactive --tty --user $(whoami) --workdir /home/$(whoami) mycontainer /bin/bash
 
 As root:
 
@@ -80,6 +80,30 @@ podman rm mycontainer
 
 
 
+$ podman inspect -l | grep IPAddress
+$ podman logs -l
+$ podman top -l
 
+
+
+
+
+
+
+A side-note: Using --userns=keep-id can sometimes be an alternative solution, but it forces the regular user's host UID to be mapped to the same UID inside the container so it provides less flexibility than using --uidmap and --gidmap.
+
+36) Images in the addi
+
+
+
+
+
+
+Where does the extra carriage return \r come from?
+
+The extra \r is not outputted by Podman but by the terminal. In fact, a reconfiguration of the terminal can make the extra \r go away.
+
+$ podman run --rm -t fedora /bin/sh -c "stty -onlcr && echo abc" | od -c
+0000000   a   b   c  \n
 
 
