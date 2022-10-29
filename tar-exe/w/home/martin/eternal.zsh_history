@@ -7940,3 +7940,12 @@ g\
 : 1667057701:0;set|grep -i hist
 : 1667057708:0;cd
 : 1667057718:0;cp -iv .zshrc 22at22.zshrc
+: 1667057874:0;set|grep -i hist
+: 1667057880:0;cd
+: 1667057950:0;#cp -iv /home/martin/.zsh_history   /home/martin/eternal.zsh_history
+: 1667057956:0;cp -iv /home/martin/.zsh_history   /home/martin/eternal.zsh_history
+: 1667057993:0;echo '-------- section --------'
+: 1667057995:0;cd
+: 1667057996:0;set|grep -i hist
+: 1667058022:0;mv -iv .zsh_history 22at.zsh_history
+: 1667058042:0;mv -iv  22at.zsh_history 22at.zsh_history~

@@ -51,9 +51,12 @@ C:\pf\Git\bin\bash.exe
 	7
 	git add -vv --dry-run --interactive *.css
 
+  '/c/Users/marti/OneDrive/tar-exe/u/home/martin/.zsh_history'
+
+ /u/home/martin/eternal.zsh_history  /w/home/martin/eternal.zsh_history
 
 
-	git add -vv '/c/Users/marti/OneDrive/tar-exe/u/home/martin/.bash_history'    '/c/Users/marti/OneDrive/tar-exe/u/home/martin/.zsh_history'
+	git add -vv '/c/Users/marti/OneDrive/tar-exe/u/home/martin/.bash_history'    '/c/Users/marti/OneDrive/tar-exe/u/home/martin/eternal.zsh_history'    '/c/Users/marti/OneDrive/tar-exe/w/home/martin/eternal.zsh_history'
 
 	git add -vv 'C:\Users\marti\OneDrive\conn\writing22.md' "C:\Users\marti\OneDrive\task-scheduler--win\po-pulnoci23.xml"
 

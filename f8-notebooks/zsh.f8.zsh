@@ -295,6 +295,8 @@ SAVEHIST=10000
 
 #################################
 
+zsh
+
 echo '-------- section --------'
 
 set|grep -i hist
@@ -302,7 +304,7 @@ set|grep -i hist
 cd
 cp -iv .zshrc 22at22.zshrc
 
-todo to the end of .zshrc
+todo to the end of .zshrc  u:   w:
 ##########
 HISTFILE=/home/martin/eternal.zsh_history
 #HISTFILE=/home/martin/zsh_eternal_history
@@ -314,24 +316,24 @@ DISABLE_AUTO_UPDATE="true"
 
 set|grep -i hist
 
-
-
-
-
 cd
-#cp -iv /home/martin/.zsh_eternal_history   /home/martin/eternal.zsh_history
+###cp -iv /home/martin/.zsh_eternal_history   /home/martin/eternal.zsh_history
 ####cp -iv /home/martin/.zsh_history   /home/martin/zsh_eternal_history
-cp -iv /home/martin/zsh_eternal_history   /home/martin/eternal.zsh_history
+#cp -iv /home/martin/.zsh_history   /home/martin/eternal.zsh_history
+cp -iv /home/martin/.zsh_history   /home/martin/eternal.zsh_history
+###cp -iv /home/martin/zsh_eternal_history   /home/martin/eternal.zsh_history
 ####cp -iv /home/martin/.zsh_history   /home/martin/zsh_eternal_history
 exit
+
+zsh
 
 echo '-------- section --------'
 
 cd
 set|grep -i hist
 
-mv -iv zsh_eternal_history OLDzsh_eternal_history
-mv -iv .zsh_history 22at.zsh_history
-mv -iv  22at.zsh_history 22at.zsh_history~
+#mv -iv zsh_eternal_history OLDzsh_eternal_history
+mv -iv .zsh_history 22at.zsh_history~
+#mv -iv  22at.zsh_history 22at.zsh_history~
 
 echo '-------- section --------'

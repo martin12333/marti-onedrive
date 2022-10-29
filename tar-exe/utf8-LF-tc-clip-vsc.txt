@@ -13,10 +13,10 @@ C:\Users\marti\hyperpolyglot\build\hyperpolyglot.css
 /w/home/martin/.python_history
 /w/home/martin/.sbcl_history
 /w/home/martin/.sqlite_history
-/w/home/martin/.zsh_history
+/w/home/martin/eternal.zsh_history
 /w/home/martin/.emacs.d/init.el
 /w/home/martin/.emacs.d/custom.el
 /w/home/martin/wsl.conf
 C:\Users\marti\pokus-bkup.txttttttttttttttttttttttttttttt
 /u/home/martin/.bash_history
-/u/home/martin/.zsh_history
+/u/home/martin/eternal.zsh_history
