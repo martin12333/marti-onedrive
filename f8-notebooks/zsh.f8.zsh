@@ -295,6 +295,10 @@ SAVEHIST=10000
 
 #################################
 
+echo '-------- section --------'
+
+set|grep -i hist
+
 cd
 cp -iv .zshrc 22at22.zshrc
 
@@ -326,17 +330,8 @@ echo '-------- section --------'
 cd
 set|grep -i hist
 
+mv -iv zsh_eternal_history OLDzsh_eternal_history
+mv -iv .zsh_history 22at.zsh_history
+mv -iv  22at.zsh_history 22at.zsh_history~
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+echo '-------- section --------'
