@@ -7,6 +7,7 @@ exit
 (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
 
+echo '-------- section --------'
 
 wsl -d Ubuntu-22.04
 
@@ -272,13 +273,7 @@ zshmodules Modules loadable with zmodload
 zshtcpsys Functions for using raw TCP via builtins
 zshzftpsys Functions for using FTP via builtins
 zshcontrib Contributed functions for zle etc.
-zshall Everything in one large manual page
-
-
-
-
-
-updated vscode
+zshall Everything #in one large manual page updated vscode
 probably harmless
  *  History restored
 probably terminal restored
@@ -291,9 +286,9 @@ probably terminal restored
 
 
 
-
 set|grep -i hist
 HISTCMD=6879
+
 HISTFILE=/home/martin/.zsh_history
 HISTSIZE=50000
 SAVEHIST=10000
@@ -301,19 +296,35 @@ SAVEHIST=10000
 #################################
 
 cd
-cp -iv .zshrc 22aa.zshrc
+cp -iv .zshrc 22at22.zshrc
 
 todo to the end of .zshrc
 ##########
-HISTFILE=/home/martin/zsh_eternal_history
+HISTFILE=/home/martin/eternal.zsh_history
+#HISTFILE=/home/martin/zsh_eternal_history
 HISTSIZE=198000
 SAVEHIST=198000
 DISABLE_AUTO_UPDATE="true"
+
 #########
-#cp -iv /home/martin/.zsh_history   /home/martin/zsh_eternal_history
-cp -iv /home/martin/.zsh_history   /home/martin/zsh_eternal_history
+
+set|grep -i hist
+
+
+
+
+
+cd
+#cp -iv /home/martin/.zsh_eternal_history   /home/martin/eternal.zsh_history
+####cp -iv /home/martin/.zsh_history   /home/martin/zsh_eternal_history
+cp -iv /home/martin/zsh_eternal_history   /home/martin/eternal.zsh_history
+####cp -iv /home/martin/.zsh_history   /home/martin/zsh_eternal_history
 exit
 
+echo '-------- section --------'
+
+cd
+set|grep -i hist
 
 
 

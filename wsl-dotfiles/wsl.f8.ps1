@@ -3,6 +3,8 @@ do-not run this file as a whole
 )
 exit
 
+echo '---- section ----'
+
 wsl
 zsh
 
@@ -13,13 +15,15 @@ cd -2
 
 f8 WARNING mc in vsc ... f5 is run in vsc
 
-####################################
+echo '---- section ----'
+
 uname -a
 lsmod
 env|grep -i lib
 
 df -m
 
+echo '-------- section --------'
 ####################################
 
 
@@ -76,6 +80,7 @@ wsl -d Ubuntu-20.04 --exec ps -ef
 
 
 
+echo '-------- section --------'
 
 
 
@@ -125,3 +130,14 @@ docker
 podman
 
 apt list podman
+
+
+
+echo '-------- section --------'
+
+cd
+cp -iv .zshrc 22at.zshrc
+
+zsh.f8
+
+

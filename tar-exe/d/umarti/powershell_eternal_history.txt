@@ -3872,3 +3872,5 @@ C:\pf\Git\bin\bash.exe
 wsl
 C:\pf\Git\bin\bash.exe
 wsl -d Ubuntu-22.04
+/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
+C:\pf\Git\bin\bash.exe
