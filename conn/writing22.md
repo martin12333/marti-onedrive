@@ -14,6 +14,46 @@ Ahoj,
 asi si také zkusím založit web na wz.cz ...  ... hledal jsem , zdá se, že v https://www.webzdarma.cz/forum doporučují utf-8 "bez BOM"
 
 
+
+
+
+
+
+//onsave jtree build produce commandLineApp.node.js
+
+const { jtree } = require("../index.js")
+const { TreeNode, HandGrammarProgram, Utils } = jtree
+
+const { Disk } = require("../products/Disk.node.js")
+
+import { treeNotationTypes } from "../products/treeNotationTypes"
+
+
+
+if (!module.parent) CommandLineApp.main(process.argv[2], process.argv[3], process.argv[4])
+      const result = await app[command](paramOne, paramTwo)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 I see 3 possibilities for the commandLineApp:
 
 (0) use jtree up to v58

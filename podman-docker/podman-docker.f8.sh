@@ -3,6 +3,7 @@ do-not run this file as a whole
 )
 exit
 
+echo '-------- section --------'
 
 wsl -d Ubuntu-22.04
 
@@ -16,9 +17,17 @@ wsl -d Ubuntu-22.04
 podman -v
 
 podman info --log-level debug
+podman info
 
 #podman image pull ubuntu:19.04
 docker pull ubuntu:jammy-20221020
+docker pull mcr.microsoft.com/devcontainers/javascript-node:0.204.7-18-bullseye
+
+
+
+echo '-------- section --------'
+
+
 
 podman image list --all
 
@@ -120,3 +129,20 @@ $ buildah unshare ls -ld /home/dwalsh
 
 drwx--x--x. 290 root root 20480 Jan 29 07:58 /home/dwalsh
 
+
+
+
+
+
+
+
+
+
+
+
+
+Copying blob eaf76946211f done
+Copying config 72cf8516d9 done
+Writing manifest to image destination
+Storing signatures
+72cf8516d9a92ffdc1a635783a779efb3e7845ab21d9c0153b6fd5f49a43d543

@@ -7949,3 +7949,4 @@ g\
 : 1667057996:0;set|grep -i hist
 : 1667058022:0;mv -iv .zsh_history 22at.zsh_history
 : 1667058042:0;mv -iv  22at.zsh_history 22at.zsh_history~
+: 1667166592:0;mc -b

@@ -101,3 +101,7 @@
 : 1667057193:0;mv -iv .zsh_history 22at.zsh_history
 : 1667057315:0;mv -iv  22at.zsh_history 22at.zsh_history~
 : 1667057587:0;exit
+: 1667227679:0;podman -v
+: 1667227688:0;podman info
+: 1667228472:0;echo '-------- section --------'
+: 1667234338:0;docker pull mcr.microsoft.com/devcontainers/javascript-node:0.204.7-18-bullseye
