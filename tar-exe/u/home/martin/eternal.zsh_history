@@ -179,3 +179,10 @@
 : 1667246127:0;apt show containers-storage
 : 1667249067:0;apt show user
 : 1667249085:0;history|tail -n 100
+: 1667249693:0;D:/conda/Scripts/activate
+: 1667249693:0;conda activate base
+: 1667249716:0;podman container list --all
+: 1667249949:0;podman inspect -l | grep IPAddress
+: 1667249953:0;podman logs -l
+: 1667249959:0;podman top -l
+: 1667250026:0;man podman

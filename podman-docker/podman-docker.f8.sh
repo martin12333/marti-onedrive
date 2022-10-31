@@ -59,7 +59,10 @@ podman container rm cmyjs22b
 
 ./docker-214/docker-create-cmyjs22b.sh
 
+
+
 echo '-------- section --------'
+obsol??
 
 cd
 mkdir ~/sharing
@@ -74,7 +77,6 @@ podman run --interactive --tty --name myconta22  ubuntu:jammy-20221020
  --device /dev/snd
  --device /dev/input \
 
-
  --volume /sysroot/home/$(whoami)/sharing:/mnt
 
 
@@ -87,7 +89,7 @@ exit
 
 cat  /etc/localtime
 --volume /etc/localtime:/etc/localtime:ro
-ubuntu, not debian
+ubuntu, not debian !!
 
 
 
@@ -96,9 +98,8 @@ echo '-------- section --------'
 
 podman container list --all
 
-podman start myconta22
+#podman start myconta22
 podman start cmyjs22b
-exit
 
 podman ps --all
 
@@ -145,6 +146,10 @@ echo '-------- section --------'
 
 A side-note: Using --userns=keep-id can sometimes be an alternative solution, but it forces the regular user's host UID to be mapped to the same UID inside the container so it provides less flexibility than using --uidmap and --gidmap.
 '
+
+man podman
+
+echo '-------- section --------'
 
 #As the user we created before:
 

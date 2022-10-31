@@ -198,7 +198,7 @@
 
     "powershell.integratedConsole.showOnStartup": false,
 	"redhat.telemetry.enabled": true,
-	"window.zoomLevel": 1,
+	"window.zoomLevel": 2,
 
 
 
