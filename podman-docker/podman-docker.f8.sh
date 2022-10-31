@@ -27,7 +27,7 @@ podman image list --all
 podman image list
 
 docker image tag 72c
-docker image tag  72cf8516d9 myjs22b
+docker image tag  72cf8516d9 imyjs22b
 
 
 podman image rm localhost/myjs:latest
@@ -50,6 +50,14 @@ df -m
 
 
 podman image list --all
+
+
+
+echo '-------- section --------'
+
+docker container
+
+./docker7777
 
 cd
 mkdir ~/sharing

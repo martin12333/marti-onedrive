@@ -131,3 +131,13 @@
 : 1667236695:0;podman image rm mcr.microsoft.com/devcontainers/javascript-node:0.204.7-18-bullseye
 : 1667236712:0;docker system df
 : 1667236736:0;podman image list --all
+: 1667236883:0;echo '-------- section --------'
+: 1667237120:0;docker container
+: 1667237534:0;#docker container 
+: 1667237540:0;docker image tag  72cf8516d9 imyjs22b
+: 1667237544:0;podman image list --all
+: 1667237556:0;podman image rm localhost/myjs:latest
+: 1667237576:0;podman image rm localhost/myjs22b:latest 
+: 1667237580:0;podman image list --all
+: 1667240932:0;./docker7777
+: 1667240972:0;./docker-214/docker-create-cmyjs22b.sh
