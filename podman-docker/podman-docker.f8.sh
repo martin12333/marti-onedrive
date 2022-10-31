@@ -3,6 +3,20 @@ do-not run this file as a whole
 )
 exit
 
+
+
+echo '-------- section --------'
+offline
+
+➜  OneDrive podman container list --all
+ERRO[0000]
+Error: error joining network namespace of container 8d2a6d493e5c5a3df82436adcbc704d8d1d0d11fac3bb5a08b0362a33f98781c: error retrieving network namespace at /tmp/podman-run-1000/netns/cni-8fbb2b4d-1ff9-9800-7486-cc8e76028429: unknown FS magic on "/tmp/podman-run-1000/netns/cni-8fbb2b4d-1ff9-9800-7486-cc8e76028429": ef53
+
+
+
+
+
+
 echo '-------- section --------'
 
 wsl -d Ubuntu-22.04
@@ -18,6 +32,9 @@ podman -v
 
 podman info --log-level debug
 podman info
+
+echo '-------- section --------'
+
 
 #podman image pull ubuntu:19.04
 docker pull ubuntu:jammy-20221020
@@ -83,6 +100,7 @@ podman run --interactive --tty --name myconta22  ubuntu:jammy-20221020
 
 echo '-------- section --------'
 
+cat /etc/os-release
 
 cat /etc/lsb-release
 exit
@@ -113,7 +131,7 @@ As root:
 
 #podman exec --interactive --tty cmyjs22b /bin/bash
 podman exec --interactive --tty cmyjs22b /usr/bin/zsh
-
+exit
 
 Use this session for any task you want :slight_smile: A good idea is to open a root shell and update everything:
 

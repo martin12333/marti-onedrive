@@ -207,3 +207,28 @@
 : 1667255414:0;ll
 : 1667255471:0;podman exec --interactive --tty --user node  --workdir /home/node cmyjs22b  /usr/bin/zsh
 : 1667256414:0;ll
+: 1667256501:0;find . -type f -size -2000k -size +100c -mmin -360   |cpio --verbose  --create --format=crc >/mnt/c/u/cpio/22av-2000k-mmin--360.cpio
+: 1667257473:0;cat /etc/os-release
+: 1667257485:0;cat /etc/lsb-release
+: 1667257550:0;podman start cmyjs22b
+: 1667257578:0;podman container list --all
+: 1667257600:0;podman ps --all
+: 1667257636:0;mc -b
+: 1667257695:0;podman container list --all
+: 1667257718:0;podman info
+: 1667257764:0;podman info|grep tmp
+: 1667257857:0;podman system info
+: 1667257874:0;podman info|grep tmp
+: 1667257968:0;podman network ls
+: 1667258009:0;podman machine list
+: 1667258020:0;podman container list --all
+: 1667258246:0;ll
+: 1667258304:0;podman -v
+: 1667258307:0;podman info --log-level debug
+: 1667258315:0;podman info
+: 1667258340:0;podman image list --all
+: 1667258390:0;podman start cmyjs22b
+: 1667258398:0;podman exec --interactive --tty cmyjs22b /usr/bin/zsh
+: 1667258452:0;#podman exec     --interactive --tty cmyjs22b /usr/bin/zsh
+: 1667258490:0;#podman start --   cmyjs22b
+: 1667258525:0;#podman create --userns=keep-id
