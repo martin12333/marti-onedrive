@@ -105,3 +105,29 @@
 : 1667227688:0;podman info
 : 1667228472:0;echo '-------- section --------'
 : 1667234338:0;docker pull mcr.microsoft.com/devcontainers/javascript-node:0.204.7-18-bullseye
+: 1667235252:0;podman image list --all
+: 1667235613:0;docker image tag --verbose 72cf8516d9 myjs
+: 1667235630:0;docker image tag  72cf8516d9 myjs
+: 1667235636:0;podman image list --all
+: 1667235676:0;docker system df
+: 1667235743:0;du -sm ~/.podman
+: 1667235839:0;du -sm ~/.local/share/containers
+: 1667235851:0;sudo du -sm ~/.local/share/containers
+: 1667235893:0;sudo du -m ~/.local/share/containers
+: 1667235903:0;sudo du -m ~/.local/share/containers|sort -n
+: 1667236028:0;sudo du -m ~/.local/share/containers|sort -ndu -m ~/.local/share/containers|sort -n
+: 1667236040:0;du -m ~/.local/share/containers|sort -n
+: 1667236074:0;du -m ~/.local/share/containers 1>1
+: 1667236187:0;du -m ~/.local/
+: 1667236205:0;df -m
+: 1667236283:0;docker image tag  72cf8516d9 myjs22b
+: 1667236287:0;podman image list --all
+: 1667236294:0;podman image list
+: 1667236600:0;podman image rm localhost/myjs:latest
+: 1667236632:0;podman image list --all
+: 1667236650:0;docker system df
+: 1667236663:0;âƒ¾ƒ¼  OneDrive podman image rm localhost/myjs:latest
+: 1667236680:0;podman image rm localhost/myjs:latest
+: 1667236695:0;podman image rm mcr.microsoft.com/devcontainers/javascript-node:0.204.7-18-bullseye
+: 1667236712:0;docker system df
+: 1667236736:0;podman image list --all

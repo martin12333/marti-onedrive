@@ -23,10 +23,30 @@ podman info
 docker pull ubuntu:jammy-20221020
 docker pull mcr.microsoft.com/devcontainers/javascript-node:0.204.7-18-bullseye
 
+podman image list --all
+podman image list
+
+docker image tag 72c
+docker image tag  72cf8516d9 myjs22b
+
+
+podman image rm localhost/myjs:latest
+Untagged: localhost/myjs:latest
+
 
 
 echo '-------- section --------'
 
+docker system df
+
+du -sm ~/.podman
+
+sudo du -m ~/.local/share/containers|sort -n
+du -m ~/.local/share/containers|sort -n
+du -m ~/.local/share/containers 1>1
+du -m ~/.local/
+
+df -m
 
 
 podman image list --all
