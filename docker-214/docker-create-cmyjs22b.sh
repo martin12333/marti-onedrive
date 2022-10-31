@@ -13,12 +13,17 @@ set -x
 #  ubuntu:20.04 \
 
 
+#--entrypoint   /bin/bash      \
+
+#--user node
+#--workdir /home/node
+
 docker   create -it  --name cmyjs22b     \
 -v /home/dockw:/homedockw           \
 -v  '/mnt/c/Users/marti/OneDrive/docker-214:/acloudSUBDIR'  \
 -v '/mnt/c/Users/marti/docker-214big:/cdrivemy'    \
 --workdir /home \
---entrypoint   /bin/bash      \
+--entrypoint   /usr/bin/zsh      \
    \
 imyjs22b   \
    \

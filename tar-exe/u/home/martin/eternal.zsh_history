@@ -186,3 +186,24 @@
 : 1667249953:0;podman logs -l
 : 1667249959:0;podman top -l
 : 1667250026:0;man podman
+: 1667251606:0;man su
+: 1667252227:0;sudo --user=node -i
+: 1667252261:0;podman exec --interactive --tty cmyjs22b /usr/bin/zsh
+: 1667252672:0;man podman-create
+: 1667253654:0;podman inspect -l | grep -i entr
+: 1667253695:0;podman logs -l
+: 1667253777:0;podman exec --interactive --tty --user node  --workdir /home/node cmyjs22b  /usr/bin/zsh  # /bin/bash
+: 1667253875:0;podman exec --interactive --tty --user node  --workdir /home/node cmyjs22b  /bin/bash #/usr/bin/zsh  # /bin/bash
+: 1667254298:0;podman exec --interactive --tty cmyjs22b /usr/bin/zsh
+: 1667254348:0;podman exec --interactive --tty --user node  --workdir /home/node cmyjs22b  /usr/bin/zsh
+: 1667254504:0;podman start
+: 1667254612:0;#podman start --
+: 1667254622:0;zsh
+: 1667254650:0;podman exec --interactive --tty --user node  --workdir /home/node cmyjs22b  /usr/bin/zsh
+: 1667254903:0;#podman start --
+: 1667254905:0;podman exec --interactive --tty --user node  --workdir /home/node cmyjs22b  /usr/bin/zsh
+: 1667255002:0;podman exec --interactive --tty cmyjs22b /usr/bin/zsh
+: 1667255400:0;mc -b
+: 1667255414:0;ll
+: 1667255471:0;podman exec --interactive --tty --user node  --workdir /home/node cmyjs22b  /usr/bin/zsh
+: 1667256414:0;ll

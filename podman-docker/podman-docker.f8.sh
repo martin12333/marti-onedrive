@@ -100,6 +100,7 @@ podman container list --all
 
 #podman start myconta22
 podman start cmyjs22b
+podman start
 
 podman ps --all
 
@@ -110,7 +111,7 @@ echo '-------- section --------'
 
 As root:
 
-podman exec --interactive --tty cmyjs22b /bin/bash
+#podman exec --interactive --tty cmyjs22b /bin/bash
 podman exec --interactive --tty cmyjs22b /usr/bin/zsh
 
 
@@ -125,11 +126,39 @@ git
 history
 
 
+cd
+env >1.env
+
+su - node
+cd
+env #small!
+env >su_-_node.env
+ls -la
+ps
+ps -ef
+
+su  node
+cd
+env >su_node.env  # better
+
+sudo --user=node -i
+cd
+env >sudo-i.env
+
+sudo --user=node /bin/bash
+cd
+env >sudo.e
+
+env >exec.env
+
+ls -la
+
 exit
 
 
 
 podman inspect -l | grep IPAddress
+podman inspect -l | grep -i entr
 podman logs -l
 podman top -l
 
@@ -148,12 +177,38 @@ A side-note: Using --userns=keep-id can sometimes be an alternative solution, bu
 '
 
 man podman
+man podman-create
+
+man su
 
 echo '-------- section --------'
 
 #As the user we created before:
 
-podman exec --interactive --tty --user $(whoami) --workdir /home/$(whoami) mycontainer /bin/bash
+podman exec --interactive --tty --user node  --workdir /home/node cmyjs22b  /usr/bin/zsh
+#podman exec --interactive --tty --user node  --workdir /home/node cmyjs22b  /bin/bash
+exit
+
+echo '-------- section --------'
+podman exec --interactive --tty --user node  --workdir /home/node cmyjs22b  /usr/bin/zsh
+
+cd
+cd ..
+tar cf /homedockw/node.tar node
+id
+exit
+
+podman exec --interactive --tty cmyjs22b /usr/bin/zsh
+cd
+cd ..
+tar cf /homedockw/root.tar root
+id
+
+
+
+
+
+
 
 
 echo '-------- section --------'
