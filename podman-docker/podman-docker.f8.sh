@@ -29,7 +29,6 @@ podman image list
 docker image tag 72c
 docker image tag  72cf8516d9 imyjs22b
 
-
 podman image rm localhost/myjs:latest
 Untagged: localhost/myjs:latest
 
@@ -47,7 +46,6 @@ du -m ~/.local/share/containers 1>1
 du -m ~/.local/
 
 df -m
-
 
 podman image list --all
 
@@ -109,10 +107,6 @@ echo '-------- section --------'
 
 
 
-#As the user we created before:
-
-podman exec --interactive --tty --user $(whoami) --workdir /home/$(whoami) mycontainer /bin/bash
-
 As root:
 
 podman exec --interactive --tty cmyjs22b /bin/bash
@@ -123,7 +117,20 @@ Use this session for any task you want :slight_smile: A good idea is to open a r
 
 apt-get update;
 #apt-get -y dist-upgrade
+
+apt install mc
+
+git
+history
+
+
 exit
+
+
+
+podman inspect -l | grep IPAddress
+podman logs -l
+podman top -l
 
 
 
@@ -132,25 +139,19 @@ podman stop myconta22
 podman rm mycontainer
 
 
-
-
-
-
-$ podman inspect -l | grep IPAddress
-$ podman logs -l
-$ podman top -l
-
-
-
-
+echo '-------- section --------'
 
 
 
 A side-note: Using --userns=keep-id can sometimes be an alternative solution, but it forces the regular user's host UID to be mapped to the same UID inside the container so it provides less flexibility than using --uidmap and --gidmap.
+'
 
-36) Images in the addi
+#As the user we created before:
+
+podman exec --interactive --tty --user $(whoami) --workdir /home/$(whoami) mycontainer /bin/bash
 
 
+echo '-------- section --------'
 
 
 

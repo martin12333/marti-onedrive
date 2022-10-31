@@ -172,3 +172,10 @@
 : 1667245017:0;podman ps --all
 : 1667245047:0;podman exec --interactive --tty cmyjs22b
 : 1667245067:0;podman exec --interactive --tty cmyjs22b /usr/bin/zsh
+: 1667245856:0;history|grep mc
+: 1667245865:0;history|grep apt
+: 1667245931:0;history; cat ~/.bash_history|grep apt
+: 1667246078:0;sudo apt install containers-storage
+: 1667246127:0;apt show containers-storage
+: 1667249067:0;apt show user
+: 1667249085:0;history|tail -n 100
