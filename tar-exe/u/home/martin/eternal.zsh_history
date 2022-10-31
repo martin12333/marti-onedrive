@@ -141,3 +141,34 @@
 : 1667237580:0;podman image list --all
 : 1667240932:0;./docker7777
 : 1667240972:0;./docker-214/docker-create-cmyjs22b.sh
+: 1667243729:0;cd /home
+: 1667243790:0;sudo mkdir dockw
+: 1667243797:0;ll
+: 1667243973:0;sudo chmod --verbose a+rwx dockw
+: 1667244029:0;zsh
+: 1667244047:0;history|tail
+: 1667244136:0;exit
+: 1667244143:0;echo '-------- section --------'
+: 1667244162:0;./docker-214/docker-create-cmyjs22b.sh
+: 1667244177:0;docker container
+: 1667244183:0;docker container ls
+: 1667244195:0;docker container ls --all
+: 1667244454:0;podman exec --interactive --tty cmyjs22b /bin/bash
+: 1667244488:0;podman start
+: 1667244536:0;#podman start --
+: 1667244563:0;docker crea
+: 1667244693:0;podman create
+: 1667244712:0;podman container rm cmyjs22b
+: 1667244726:0;zsh
+: 1667244750:0;podman container rm cmyjs22b
+: 1667244755:0;./docker-214/docker-create-cmyjs22b.sh
+: 1667244764:0;docker container ls --all
+: 1667244790:0;podman start
+: 1667244799:0;podman start cmyjs22b 
+: 1667244809:0;docker container ls --all
+: 1667244837:0;podman container attach cmyjs22b
+: 1667244965:0;podman container list --all
+: 1667245012:0;podman start cmyjs22b
+: 1667245017:0;podman ps --all
+: 1667245047:0;podman exec --interactive --tty cmyjs22b
+: 1667245067:0;podman exec --interactive --tty cmyjs22b /usr/bin/zsh

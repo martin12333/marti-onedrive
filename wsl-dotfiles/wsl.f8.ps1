@@ -132,6 +132,12 @@ podman
 apt list podman
 
 
+144  cd /home
+145  sudo mkdir dockw
+146  ll
+147  sudo chmod --verbose a+rwx dockw
+148  zsh
+exit
 
 echo '-------- section --------'
 
@@ -139,5 +145,11 @@ cd
 cp -iv .zshrc 22at.zshrc
 
 zsh.f8
+
+
+
+
+echo '-------- section --------'
+
 
 

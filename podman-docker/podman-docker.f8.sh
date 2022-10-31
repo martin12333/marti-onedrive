@@ -55,9 +55,13 @@ podman image list --all
 
 echo '-------- section --------'
 
-docker container
+docker container ls --all
 
-./docker7777
+podman container rm cmyjs22b
+
+./docker-214/docker-create-cmyjs22b.sh
+
+echo '-------- section --------'
 
 cd
 mkdir ~/sharing
@@ -76,6 +80,10 @@ podman run --interactive --tty --name myconta22  ubuntu:jammy-20221020
  --volume /sysroot/home/$(whoami)/sharing:/mnt
 
 
+
+echo '-------- section --------'
+
+
 cat /etc/lsb-release
 exit
 
@@ -84,21 +92,32 @@ cat  /etc/localtime
 ubuntu, not debian
 
 
+
+echo '-------- section --------'
+
+
 podman container list --all
 
 podman start myconta22
+podman start cmyjs22b
+exit
 
 podman ps --all
 
 
+echo '-------- section --------'
 
-##As the user we created before:
 
-##podman exec --interactive --tty --user $(whoami) --workdir /home/$(whoami) mycontainer /bin/bash
+
+#As the user we created before:
+
+podman exec --interactive --tty --user $(whoami) --workdir /home/$(whoami) mycontainer /bin/bash
 
 As root:
 
-podman exec --interactive --tty myconta22 /bin/bash
+podman exec --interactive --tty cmyjs22b /bin/bash
+podman exec --interactive --tty cmyjs22b /usr/bin/zsh
+
 
 Use this session for any task you want :slight_smile: A good idea is to open a root shell and update everything:
 

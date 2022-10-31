@@ -7950,3 +7950,5 @@ g\
 : 1667058022:0;mv -iv .zsh_history 22at.zsh_history
 : 1667058042:0;mv -iv  22at.zsh_history 22at.zsh_history~
 : 1667166592:0;mc -b
+: 1667243882:0;history| grep chmod
+: 1667243927:0;history| grep chmod|grep sudo
