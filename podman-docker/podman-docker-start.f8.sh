@@ -22,6 +22,7 @@ echo '-------- section --------'
 
 
 #podman start myconta22
+podman start   -ai    cmyjs22b
 podman start cmyjs22b
 podman start
 

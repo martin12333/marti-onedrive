@@ -75,6 +75,7 @@ echo '-------- section --------'
 
 docker container ls --all
 
+podman stop cmyjs22b
 podman container rm cmyjs22b
 
 ./docker-214/docker-create-cmyjs22b.sh
@@ -120,6 +121,7 @@ echo '-------- section --------'
 podman container list --all
 
 #podman start myconta22
+podman start   -ai    cmyjs22b
 podman start cmyjs22b
 podman start
 
@@ -135,6 +137,7 @@ As root:
 #podman exec --interactive --tty cmyjs22b /bin/bash
 podman exec --interactive --tty cmyjs22b /usr/bin/zsh
 exit
+id
 
 Use this session for any task you want :slight_smile: A good idea is to open a root shell and update everything:
 
@@ -173,6 +176,7 @@ env >sudo.e
 env >exec.env
 
 ls -la
+pwd
 
 exit
 
@@ -213,10 +217,16 @@ exit
 echo '-------- section --------'
 podman exec --interactive --tty --user node  --workdir /home/node cmyjs22b  /usr/bin/zsh
 
+ps -ef
+
 cd
 cd ..
 tar cf /homedockw/22avnode.tar node
 id
+df -m
+mount|grep /aclo
+mount|grep /cdr
+mount|grep /hom
 
 cd /homedockw
 ls -la
@@ -228,8 +238,23 @@ ls -la /home/dockw
 ls -la /home/dockw/node
 ls -la /home/dockw/node/.npm
 
+echo '-------- section --------'
+
+ls -la /aclou*
+ls -la /cdri*
+ls -la /cdri*/jovyan
+ls -la /home
+ls -la /home/node
+
+touch ~/touch22b1
+
+sudo apt update
+sudo apt install mc
 
 exit
+
+ls -l /home/dockw/node
+
 
 podman exec --interactive --tty cmyjs22b /usr/bin/zsh
 cd

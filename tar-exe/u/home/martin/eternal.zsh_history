@@ -240,3 +240,10 @@
 : 1667320998:0;ls -la /home/dockw
 : 1667321010:0;ls -la /home/dockw/node
 : 1667321050:0;ls -la /home/dockw/node/.npm
+: 1667328625:0;podman container rm cmyjs22b
+: 1667328649:0;podman stop cmyjs22b
+: 1667328666:0;podman container rm cmyjs22b
+: 1667328677:0;./docker-214/docker-create-cmyjs22b.sh
+: 1667328810:0;podman start   -ai    cmyjs22b
+: 1667328847:0;echo '-------- section --------'
+: 1667331755:0;ls -l /home/dockw/node
