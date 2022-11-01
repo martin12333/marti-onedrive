@@ -73,7 +73,7 @@ C:\pf\Git\bin\bash.exe
 
 	/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
 	git commit -v -a -m bk
-	git commit -v -a -m  refactor #before-refactor
+	git commit -v -a -m  refactor 
 	git commit -v -a -m  before-refactor
 	git commit -v -a -m vulnera #
 

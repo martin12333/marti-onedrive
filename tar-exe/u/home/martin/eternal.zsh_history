@@ -247,3 +247,10 @@
 : 1667328810:0;podman start   -ai    cmyjs22b
 : 1667328847:0;echo '-------- section --------'
 : 1667331755:0;ls -l /home/dockw/node
+: 1667333206:0;docker images
+: 1667333222:0;docker stop cmyjs22b
+: 1667333288:0;: 1646574401:0;x=`docker commit cmyjs22b   `
+: 1667333341:0;: 1646574429:0;echo $x
+: 1667333354:0;docker images
+: 1667333440:0;: 1646574526:0;docker tag $x imyjs22b11
+: 1667333447:0;docker images

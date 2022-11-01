@@ -264,7 +264,14 @@ id
 
 
 
+echo '-------- section --------'
 
+docker images
+docker stop cmyjs22b
+
+: 1646574401:0;x=`docker commit cmyjs22b   `
+: 1646574429:0;echo $x
+: 1646574526:0;docker tag $x imyjs22b11
 
 
 

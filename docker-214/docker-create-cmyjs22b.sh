@@ -18,6 +18,7 @@ set -x
 
 #-v /home/dockw:/homedockw           \
 
+#imyjs22b   \
 
 docker   create -it  --name cmyjs22b     \
 \
@@ -29,7 +30,7 @@ docker   create -it  --name cmyjs22b     \
 -v  '/mnt/c/Users/marti/OneDrive/docker-214:/acloudSUBDIR'  \
 -v '/mnt/c/Users/marti/docker-214big:/cdrivemy'    \
    \
-imyjs22b   \
+imyjs22b11   \
    \
 #--help   \
 
