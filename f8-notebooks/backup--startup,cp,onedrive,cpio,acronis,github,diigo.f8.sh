@@ -96,6 +96,8 @@ tail tar-exe/w/home/martin/.zsh_history
 	# menu Visualize
 	git gui
 
+git whatchanged -p --abbrev-commit --pretty=medium
+
 
 	# https://github.com/martin12333/marti-onedrive
 	# w: failed

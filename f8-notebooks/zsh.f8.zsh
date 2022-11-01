@@ -338,9 +338,18 @@ mv -iv .zsh_history 22at.zsh_history~
 
 echo '-------- section --------'
 
+alias
+alias| grep wh
+node ➜ /home $ alias| grep wh
+gwch='git whatchanged -p --abbrev-commit --pretty=medium'
+which-command=whence
+node ➜ /home $
+
+
 alias|grep rebase   |grep hard
 
-node ➜ /home $ alias|grep rebase
+node ➜ /home $
+ alias|grep rebase
 gpr='git pull --rebase'
 grb='git rebase'
 grba='git rebase --abort'
