@@ -215,8 +215,20 @@ podman exec --interactive --tty --user node  --workdir /home/node cmyjs22b  /usr
 
 cd
 cd ..
-tar cf /homedockw/node.tar node
+tar cf /homedockw/22avnode.tar node
 id
+
+cd /homedockw
+ls -la
+tar xf 22avnode.tar
+ls -la
+ls -la node
+
+ls -la /home/dockw
+ls -la /home/dockw/node
+ls -la /home/dockw/node/.npm
+
+
 exit
 
 podman exec --interactive --tty cmyjs22b /usr/bin/zsh

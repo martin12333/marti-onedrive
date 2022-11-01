@@ -232,3 +232,11 @@
 : 1667258452:0;#podman exec     --interactive --tty cmyjs22b /usr/bin/zsh
 : 1667258490:0;#podman start --   cmyjs22b
 : 1667258525:0;#podman create --userns=keep-id
+: 1667320400:0;podman start cmyjs22b
+: 1667320479:0;mv -v --backup=numbered /tmp/podman-run-1000/ /tmp/OLDpodman-run-1000/
+: 1667320521:0;podman container list --all
+: 1667320560:0;podman start cmyjs22b
+: 1667320652:0;podman exec --interactive --tty --user node  --workdir /home/node cmyjs22b  /usr/bin/zsh
+: 1667320998:0;ls -la /home/dockw
+: 1667321010:0;ls -la /home/dockw/node
+: 1667321050:0;ls -la /home/dockw/node/.npm
