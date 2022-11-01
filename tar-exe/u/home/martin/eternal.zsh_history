@@ -254,3 +254,16 @@
 : 1667333354:0;docker images
 : 1667333440:0;: 1646574526:0;docker tag $x imyjs22b11
 : 1667333447:0;docker images
+: 1667337613:0;echo .irssi \ # mounts irssi
+: 1667339479:0;echo .irssi \# mounts irssi
+: 1667339515:0;echo .irssi \# mounts irssi  \\
+echo .irssi \# mounts irssi  \\
+
+: 1667339545:0;echo .irssi \ # mounts irssi  \\
+echo .irssi \ # mounts irssi  \\
+
+: 1667339548:0;echo .irssi \  # mounts irssi  \
+: 1667339686:0;podman start   -ai    cmyjs22b
+: 1667339767:0;setopt|grep -i hist
+: 1667339806:0;set|grep -i hist
+: 1667340153:0;history|grep chm

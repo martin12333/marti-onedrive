@@ -233,6 +233,11 @@ mount|grep /hom
 cd /homedockw
 ls -la
 tar xf 22avnode.tar
+
+echo -- chmod --verbose a+r */.*_history
+chmod --verbose a+r */.*_history
+#cd /home ##
+
 ls -la
 ls -la node
 

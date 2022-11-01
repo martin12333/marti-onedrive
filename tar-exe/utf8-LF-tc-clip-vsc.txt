@@ -20,3 +20,4 @@ C:\Users\marti\hyperpolyglot\build\hyperpolyglot.css
 C:\Users\marti\pokus-bkup.txttttttttttttttttttttttttttttt
 /u/home/martin/.bash_history
 /u/home/martin/eternal.zsh_history
+/u/home/dockw/node/.zsh_history

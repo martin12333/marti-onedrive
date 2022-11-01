@@ -58,6 +58,10 @@ C:\pf\Git\bin\bash.exe
 
 	git add -vv '/c/Users/marti/OneDrive/tar-exe/u/home/martin/.bash_history'    '/c/Users/marti/OneDrive/tar-exe/u/home/martin/eternal.zsh_history'    '/c/Users/marti/OneDrive/tar-exe/w/home/martin/eternal.zsh_history'
 
+	git add -vv  '/c/Users/marti/OneDrive/tar-exe/u/home/dockw/node/.zsh_history'
+
+
+
 	# because diigo
 	git add -vv   '/c/Users/marti/OneDrive/tar-exe/w/home/martin/.zsh_history'
 
