@@ -47,7 +47,6 @@ podman logs -l
 podman top -l
 
 
-podman stop mycontainer
 podman stop myconta22
 podman rm mycontainer
 
@@ -62,7 +61,6 @@ A side-note: Using --userns=keep-id can sometimes be an alternative solution, bu
 man podman
 man podman-create
 
-man su
 
 echo '-------- section --------'
 
@@ -70,21 +68,6 @@ echo '-------- section --------'
 
 podman exec --interactive --tty --user node  --workdir /home/node cmyjs22b  /usr/bin/zsh
 #podman exec --interactive --tty --user node  --workdir /home/node cmyjs22b  /bin/bash
-
-cd
-cd ..
-tar cf /homedockw/node.tar node
-id
-cd homedockw
-
-exit
-
-podman exec --interactive --tty cmyjs22b /usr/bin/zsh
-cd
-cd ..
-tar cf /homedockw/root.tar root
-id
-
 
 
 
