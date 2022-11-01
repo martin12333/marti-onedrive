@@ -5,25 +5,29 @@ set -x
 #run -it \
  # -p 8888:8888    \
 #  -v /home/martin/ubudock:/moje   \
-#
 
 #  -v namedvol1:/home/jovyan/work   \
 #-v /home/martin/ubudock/root:/root \
-#--workdir /root \
 #  ubuntu:20.04 \
 
 
 #--entrypoint   /bin/bash      \
+#--workdir /home \
+#--workdir /root \
 
-#--user node
-#--workdir /home/node
+
+#-v /home/dockw:/homedockw           \
+
 
 docker   create -it  --name cmyjs22b     \
--v /home/dockw:/homedockw           \
+\
+--user node   \
+--workdir /home/node    \
+--entrypoint   /usr/bin/zsh      \
+\
+-v /home/dockw:/home           \
 -v  '/mnt/c/Users/marti/OneDrive/docker-214:/acloudSUBDIR'  \
 -v '/mnt/c/Users/marti/docker-214big:/cdrivemy'    \
---workdir /home \
---entrypoint   /usr/bin/zsh      \
    \
 imyjs22b   \
    \
@@ -37,8 +41,5 @@ imyjs22b   \
 
 #  jupyter/minimal-notebook \
 # docker pull ubuntu:20.04
-
-# --NotebookApp.dlkgmdflgkdg=1111111111111
-
 # -d  jupyter/base-notebook start-notebook.sh
 
