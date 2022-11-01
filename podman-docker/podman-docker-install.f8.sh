@@ -6,6 +6,9 @@ exit
 
 
 echo '-------- section --------'
+
+fixed by rename /tmp/podman-run-1000/
+
 offline
 
 ➜  OneDrive podman container list --all
@@ -79,7 +82,7 @@ podman container rm cmyjs22b
 
 
 echo '-------- section --------'
-obsol??
+obsol?
 
 cd
 mkdir ~/sharing
