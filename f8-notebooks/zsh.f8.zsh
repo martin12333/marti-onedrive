@@ -346,7 +346,12 @@ which-command=whence
 node ➜ /home $
 
 
-alias|grep rebase   |grep hard
+alias    |grep hard
+node ➜ /home $ alias    |grep hard
+gpristine='git reset --hard && git clean -dffx'
+grhh='git reset --hard'
+groh='git reset origin/$(git_current_branch) --hard'
+node ➜ /home $
 
 node ➜ /home $
  alias|grep rebase
