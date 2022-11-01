@@ -337,3 +337,29 @@ mv -iv .zsh_history 22at.zsh_history~
 #mv -iv  22at.zsh_history 22at.zsh_history~
 
 echo '-------- section --------'
+
+alias|grep rebase   |grep hard
+
+node ➜ /home $ alias|grep rebase
+gpr='git pull --rebase'
+grb='git rebase'
+grba='git rebase --abort'
+grbc='git rebase --continue'
+grbd='git rebase $(git_develop_branch)'
+grbi='git rebase -i'
+grbm='git rebase $(git_main_branch)'
+grbo='git rebase --onto'
+grbom='git rebase origin/$(git_main_branch)'
+grbs='git rebase --skip'
+gsr='git svn rebase'
+gup='git pull --rebase'
+gupa='git pull --rebase --autostash'
+gupav='git pull --rebase --autostash -v'
+gupom='git pull --rebase origin $(git_main_branch)'
+gupomi='git pull --rebase=interactive origin $(git_main_branch)'
+gupv='git pull --rebase -v'
+node ➜ /home $
+
+
+
+

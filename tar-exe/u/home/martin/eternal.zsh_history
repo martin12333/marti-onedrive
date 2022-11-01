@@ -267,3 +267,4 @@ echo .irssi \ # mounts irssi  \\
 : 1667339767:0;setopt|grep -i hist
 : 1667339806:0;set|grep -i hist
 : 1667340153:0;history|grep chm
+: 1667341013:0;alias
