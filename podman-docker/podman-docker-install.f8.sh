@@ -273,7 +273,7 @@ docker stop cmyjs22b
 : 1646574429:0;echo $x
 : 1646574526:0;docker tag $x imyjs22b11
 
-
+edit create.sh edit imyjs22b
 
 
 echo '-------- section --------'
