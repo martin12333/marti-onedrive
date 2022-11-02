@@ -60,6 +60,14 @@ echo '-------- section --------'
 
 docker system df
 
+cd ~/.local
+##mc -b
+in a terminal extern to vsc
+f1 open new exter
+cmd
+pwsh
+wsl 22
+
 du -sm ~/.local
 
 sudo du -m ~/.local/share/containers|sort -n
@@ -323,10 +331,15 @@ sudo -i
 cd /home/martin/.local/share/containers/storage
 ll */*
 
+mc
+
 find . -user 100000 -ls |grep alternatives|wc
 find . -user 100000 -ls |wc
+find . -user 100000 -ls |less
 find . -user 100000 -name alternatives -ls
 
+find . -user 1000 -ls |less
+q
 find . -user 0 -ls |grep alternatives|wc
 find . -user 1000 -ls |grep alternatives|wc
 find . -user 1000 -ls |wc

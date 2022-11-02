@@ -314,3 +314,11 @@ echo .irssi \ # mounts irssi  \\
 : 1667420150:0;docker container ls --all
 : 1667420192:0;podman start   -ai    cmyjs22b
 : 1667421814:0;man podman-pull
+: 1667422975:0;sudo -i
+: 1667423360:0;cd /home/martin/.local/share/containers/storage
+: 1667423366:0;du
+: 1667423404:0;du -sm ~/.local
+: 1667423432:0;du -m ~/.local/
+: 1667423439:0;du -m ~/.local/share/containers|sort -n
+: 1667423463:0;cd ~/.local
+: 1667423469:0;mc -b
