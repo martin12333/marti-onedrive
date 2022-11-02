@@ -309,3 +309,7 @@ echo .irssi \ # mounts irssi  \\
 : 1667418178:0;sudo -i
 : 1667418246:0;ls -latr /home/dockw
 : 1667418713:0;sudo -i
+: 1667420111:0;podman stop c22b-keep
+: 1667420147:0;podman stop 
+: 1667420150:0;docker container ls --all
+: 1667420192:0;podman start   -ai    cmyjs22b

@@ -78,6 +78,7 @@ echo '-------- section --------'
 docker container ls --all
 
 podman stop cmyjs22b
+podman stop c22b-keep  # exited
 podman container rm cmyjs22b
 
 ./docker-214/docker-create-cmyjs22b.sh
@@ -210,7 +211,7 @@ man podman-create
 https://github.com/containers/podman/blob/main/rootless.md
 Shortcomings of Rootless Podman
 
-
+OK
 mount|grep noe
 mount|grep sdc |grep no
 mount|grep /mnt |grep no
@@ -267,19 +268,34 @@ touch /acloudSUBDIR/touch22b2
 touch /cdrivemy/touch22b2
 touch /homedockw/touch22b2
 
+touch /acloudSUBDIR/touch22b3
+touch /cdrivemy/touch22b3
+###touch /homedockw/touch22b3
+touch /home/touch22b3
+touch /touch22b3
+
 
 touch ~/touch22b1
 
 ls -latr /aclou*
+
+-rw-r--r-- 1 root nogroup      6 Feb  1  2022  8372
+-rw-r--r-- 1 root nogroup     49 Feb  2  2022  837
+-rwxrwxrwx 1 root root     81920 Feb  2  2022  jo.tar
+
 ls -latr /cdri*
 ls -la /cdri*/jovyan
 ls -la /home
 ls -la /home/node
 ls -latr /homedockw
-cat /etc/passwd|grep nob
+cat /etc/passwd|grep nobo
+cat /etc/passwd|grep daemo
 
 ls -latr /
 ls -latr /bin
+ls -latr /sbin
+ls -latr /usr/bin
+ls -latr /usr/sbin
 ls -latr /etc
 
 
@@ -292,6 +308,11 @@ touch /acloudSUBDIR/touch22b2su
 touch /cdrivemy/touch22b2su
 touch /homedockw/touch22b2su
 touch /home/touch22b2su
+
+touch /acloudSUBDIR/touch22b4su
+touch /cdrivemy/touch22b4su
+touch /homedockw/touch22b4su
+touch /home/touch22b4su
 
 touch /home/dockw/touch22b2hostsu
 
