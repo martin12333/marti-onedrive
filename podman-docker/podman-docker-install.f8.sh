@@ -278,6 +278,10 @@ ls -la /home/node
 ls -latr /homedockw
 cat /etc/passwd|grep nob
 
+ls -latr /
+ls -latr /bin
+ls -latr /etc
+
 
 ls -latr /home/dockw
 
@@ -291,6 +295,21 @@ touch /home/touch22b2su
 
 touch /home/dockw/touch22b2hostsu
 
+find / |wc
+
+sudo -i
+cd /home/martin/.local/share/containers/storage
+ll */*
+
+find . -user 100000 -ls |grep alternatives|wc
+find . -user 100000 -ls |wc
+find . -user 100000 -name alternatives -ls
+
+find . -user 0 -ls |grep alternatives|wc
+find . -user 1000 -ls |grep alternatives|wc
+find . -user 1000 -ls |wc
+find . -user 100999 -ls |wc
+find . -user 1000 -name alternatives -ls
 
 exit
 

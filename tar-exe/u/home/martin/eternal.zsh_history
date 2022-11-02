@@ -308,3 +308,4 @@ echo .irssi \ # mounts irssi  \\
 : 1667417610:0;ls -latr /home/dockw
 : 1667418178:0;sudo -i
 : 1667418246:0;ls -latr /home/dockw
+: 1667418713:0;sudo -i
