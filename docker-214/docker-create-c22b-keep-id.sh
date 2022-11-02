@@ -21,6 +21,11 @@ set -x
 
 #imyjs22b   \
 
+# false ALARM?
+#https://stackoverflow.com/questions/70844126/how-to-mount-a-directory-such-that-it-has-same-uid-gid-in-host-as-well-as-contai
+#Why is --user not recommended to be used with --userns=keep-id? Using both worked for me, whereas using just --userns=keep-id .....
+
+
 docker   create -it  --name cjs22b-keep-id-homedockw     \
 \
 --userns=keep-id    \

@@ -206,6 +206,7 @@ A side-note: Using --userns=keep-id can sometimes be an alternative solution, bu
 '
 
 man podman
+man podman-pull
 man podman-create
 
 https://github.com/containers/podman/blob/main/rootless.md
