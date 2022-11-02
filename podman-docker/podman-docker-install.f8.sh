@@ -241,14 +241,18 @@ df -m
 mount|grep /aclo
 mount|grep /cdr
 mount|grep /hom
+mount|grep /sdc
 
 cd /homedockw
 ls -la
 tar xf 22avnode.tar
 
+
 echo -- chmod --verbose a+r */.*_history
 chmod --verbose a+r */.*_history
-#cd /home ##
+cd /home ##
+cd /homedockw
+
 
 ls -la
 ls -la node
@@ -259,14 +263,40 @@ ls -la /home/dockw/node/.npm
 
 echo '-------- section --------'
 
-ls -la /aclou*
-ls -la /cdri*
-ls -la /cdri*/jovyan
-ls -la /home
-ls -la /home/node
+touch /acloudSUBDIR/touch22b2
+touch /cdrivemy/touch22b2
+touch /homedockw/touch22b2
+
 
 touch ~/touch22b1
 
+ls -latr /aclou*
+ls -latr /cdri*
+ls -la /cdri*/jovyan
+ls -la /home
+ls -la /home/node
+ls -latr /homedockw
+cat /etc/passwd|grep nob
+
+
+ls -latr /home/dockw
+
+
+sudo -i
+
+touch /acloudSUBDIR/touch22b2su
+touch /cdrivemy/touch22b2su
+touch /homedockw/touch22b2su
+touch /home/touch22b2su
+
+touch /home/dockw/touch22b2hostsu
+
+
+exit
+
+echo '-------- section --------'
+
+sudo -i
 sudo apt update
 sudo apt install mc
 
@@ -274,6 +304,7 @@ exit
 
 ls -l /home/dockw/node
 
+echo '-------- section --------'
 
 podman exec --interactive --tty cmyjs22b /usr/bin/zsh
 cd

@@ -301,3 +301,10 @@ echo .irssi \ # mounts irssi  \\
 : 1667416757:0;podman image list --all
 : 1667416773:0;docker container ls --all
 : 1667416866:0;podman start   -ai    cjs22b-keep-id-homedockw
+: 1667417258:0;ls -la /home/dockw
+: 1667417262:0;ls -la /home/dockw/node
+: 1667417264:0;ls -la /home/dockw/node/.npm
+: 1667417268:0;ls -la /aclou*
+: 1667417610:0;ls -latr /home/dockw
+: 1667418178:0;sudo -i
+: 1667418246:0;ls -latr /home/dockw
