@@ -60,7 +60,7 @@ echo '-------- section --------'
 
 docker system df
 
-du -sm ~/.podman
+du -sm ~/.local
 
 sudo du -m ~/.local/share/containers|sort -n
 du -m ~/.local/share/containers|sort -n
@@ -81,7 +81,7 @@ podman stop cmyjs22b
 podman container rm cmyjs22b
 
 ./docker-214/docker-create-cmyjs22b.sh
-
+./docker-214/docker-create-c22b-keep-id.sh
 
 
 echo '-------- section --------'
@@ -107,7 +107,6 @@ podman run --interactive --tty --name myconta22  ubuntu:jammy-20221020
 echo '-------- section --------'
 
 cat /etc/os-release
-
 cat /etc/lsb-release
 exit
 
@@ -124,6 +123,7 @@ podman container list --all
 
 #podman start myconta22
 podman start   -ai    cmyjs22b
+podman start   -ai    cjs22b-keep-id-homedockw
 podman start cmyjs22b
 podman start
 
@@ -199,6 +199,7 @@ podman rm mycontainer
 echo '-------- section --------'
 
 
+https://github.com/containers/podman/blob/main/troubleshooting.md#35-passed-in-devices-or-files-cant-be-accessed-in-rootless-container-uidgid-mapping-problem
 
 A side-note: Using --userns=keep-id can sometimes be an alternative solution, but it forces the regular user's host UID to be mapped to the same UID inside the container so it provides less flexibility than using --uidmap and --gidmap.
 '
@@ -206,7 +207,18 @@ A side-note: Using --userns=keep-id can sometimes be an alternative solution, bu
 man podman
 man podman-create
 
-man su
+https://github.com/containers/podman/blob/main/rootless.md
+Shortcomings of Rootless Podman
+
+
+mount|grep noe
+mount|grep sdc |grep no
+mount|grep /mnt |grep no
+df -m
+
+podman stats
+
+
 
 echo '-------- section --------'
 
@@ -315,7 +327,7 @@ drwx--x--x. 290 root root 20480 Jan 29 07:58 /home/dwalsh
 
 
 
-
+https://github.com/containers/podman/issues?q=is%3Aissue+rootless+sort%3Acomments-desc+userns+keep-id+is%3Aclosed
 
 
 
