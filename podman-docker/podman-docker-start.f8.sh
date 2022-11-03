@@ -53,6 +53,7 @@ ll
 #cd ..
 #cd -
 mv -iv .git OLDgit
+todo really?  mv -v --backup=numbered ~/*/.git ~/OLDgit/OLDgit
 
 echo '-------- section --------'
 
