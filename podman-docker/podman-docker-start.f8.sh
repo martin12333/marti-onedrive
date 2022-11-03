@@ -28,7 +28,28 @@ podman start   -ai    cmyjs22b
 
 exit
 
+
 echo '-------- section --------'
+
+sudo  chown --recursive 1000:1000    /home/node
+
+# host mc edit needs
+sudo chmod  --recursive     a+rwx   /home/node/*
+# not chmod # /home/node/.* because .ohmyzsh security
+
+#cd
+cd ~/ohayo
+#cd ~/attr*
+ll
+mv -iv .git OLDgit
+todo really?  mv -v --backup=numbered ~/*/.git ~/OLDgit/OLDgit
+#cd ..
+#cd -
+
+
+
+
+echo '-------- section   rarely    --------'
 
 cd   /home/
 
@@ -41,21 +62,10 @@ sudo  chown  1000:1000    /home/*
 
 #chmod       a+rwx   /home/node
 
-echo '-------- section --------'
 
-sudo  chown --recursive 1000:1000    /home/node
 
-# host mc edit needs
-sudo chmod  --recursive     a+rwx   /home/node/*
 
-#cd
-cd ~/ohayo
-cd ~/attr*
-ll
-#cd ..
-#cd -
-mv -iv .git OLDgit
-todo really?  mv -v --backup=numbered ~/*/.git ~/OLDgit/OLDgit
+
 
 echo '-------- section --------'
 
