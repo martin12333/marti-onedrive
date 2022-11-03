@@ -86,6 +86,13 @@ C:\pf\Git\bin\bash.exe
 
 	git show --name-only
 
+		#didnot help /d/dow too-long prb 2204
+	wsl --list --all --verbose
+	wsl --shutdown
+	wsl 2204
+		cd /mnt/d/umarti/
+		dmesg|grep sdc
+
 tail tar-exe/w/home/martin/.zsh_history
 
 	git show

@@ -340,3 +340,12 @@ echo .irssi \ # mounts irssi  \\
 : 1667497804:0;ls -ld ..
 : 1667497825:0;ls -ld .
 : 1667497995:0;ll
+: 1667498513:0;cd /mnt/d/cd /mnt/d/umarti/Downloads*
+: 1667498514:0;cd /mnt/d/umarti/Downloads*
+: 1667498530:0;cd /mnt/d/umarti/dowNLOADS--SYMLINKED
+: 1667498533:0;ll
+: 1667498540:0;mc
+: 1667498584:0;dmesg|grep sdc
+: 1667498665:0;cd /mnt/d/umarti/dow*
+: 1667498675:0;cd /mnt/d/umarti/
+: 1667498968:0;ll

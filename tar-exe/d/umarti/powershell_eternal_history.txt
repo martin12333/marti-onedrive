@@ -3889,3 +3889,7 @@ ls|more
 wsl -d Ubuntu-22.04
 ls
 ls Usin*
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i wsl
+C:\pf\Git\bin\bash.exe
+wsl
+wsl -d Ubuntu-22.04
