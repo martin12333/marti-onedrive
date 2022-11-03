@@ -20,17 +20,58 @@ Error: error joining network namespace of container 8d2a6d493e5c5a3df82436adcbc7
 
 echo '-------- section --------'
 
-
-#podman start myconta22
-podman start   -ai    cmyjs22b
-podman start cmyjs22b
-podman start
-
 podman ps --all
 
+podman start   -ai    cmyjs22b
+#podman start cmyjs22b
+#podman start
+
+exit
 
 echo '-------- section --------'
 
+cd   /home/
+
+mkdir experim
+mv -iv touch* experim/
+
+ls -ld    /home/*
+
+sudo  chown  1000:1000    /home/*
+
+#chmod       a+rwx   /home/node
+
+echo '-------- section --------'
+
+sudo  chown --recursive 1000:1000    /home/node
+
+#sudo chmod  --recursive     a+rwx   /home/node/*
+
+#cd
+cd ~/ohayo
+ll
+#cd ..
+#cd -
+mv -iv .git OLDgit
+
+echo '-------- section --------'
+
+############################
+: oh-my-zsh;     compaudit
+: oh-my-zsh;     compaudit | xargs chmod g-w,o-w
+
+cd
+chmod    --recursive   a+rwx   /home/node
+chmod --verbose   --recursive   a+rwx   /home/node
+
+#########################
+cd /home ##
+echo -- chmod --verbose a+r */.*_history
+chmod --verbose a+r */.*_history
+##cd /homedockw
+
+
+echo '-------- section --------'
 
 As root:
 
@@ -118,3 +159,39 @@ Copying config 72cf8516d9 done
 Writing manifest to image destination
 Storing signatures
 72cf8516d9a92ffdc1a635783a779efb3e7845ab21d9c0153b6fd5f49a43d543
+
+
+
+
+#################
+ chmod    --recursive   a+rwx   /home/node
+node ➜ ~ $
+➜  OneDrive podman ps --all
+CONTAINER ID  IMAGE                                    COMMAND     CREATED       STATUS                    PORTS       NAMES
+5e23feb3b3aa  docker.io/library/ubuntu:jammy-20221020  bash        5 days ago    Exited (137) 5 days ago               myconta22
+69732f2707c6  localhost/imyjs22b:latest                            45 hours ago  Exited (0) 8 seconds ago              cmyjs22b
+1c5765f9d08d  localhost/imyjs22b11:latest                          20 hours ago  Exited (0) 19 hours ago               cjs22b-keep-id-homedockw
+➜  OneDrive podman start   -ai    cmyjs22b
+[oh-my-zsh] Insecure completion-dependent directories detected:
+drwxrwxrwx  12 node node  4096 Oct  6 22:50 /home/node/.oh-my-zsh
+drwxrwxrwx   3 node node  4096 Oct 31 22:02 /home/node/.oh-my-zsh/cache
+drwxrwxrwx   2 node node  4096 Oct 31 22:02 /home/node/.oh-my-zsh/cache/completions
+drwxrwxrwx 309 node node 12288 Oct  6 22:50 /home/node/.oh-my-zsh/plugins
+drwxrwxrwx   2 node node  4096 Oct  6 22:50 /home/node/.oh-my-zsh/plugins/git
+
+[oh-my-zsh] For safety, we will not load completions from these directories until
+[oh-my-zsh] you fix their permissions and ownership and restart zsh.
+[oh-my-zsh] See the above list for directories with group or other writability.
+
+[oh-my-zsh] To fix your permissions you can do so by disabling
+[oh-my-zsh] the write permission of "group" and "others" and making sure that the
+[oh-my-zsh] owner of these directories is either root or your current user.
+[oh-my-zsh] The following command may help:
+[oh-my-zsh]     compaudit | xargs chmod g-w,o-w
+
+[oh-my-zsh] If the above didn't help or you want to skip the verification of
+[oh-my-zsh] insecure directories you can set the variable ZSH_DISABLE_COMPFIX to
+[oh-my-zsh] "true" before oh-my-zsh is sourced in your zshrc file.
+'
+
+fhgjhgfh
