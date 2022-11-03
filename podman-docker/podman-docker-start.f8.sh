@@ -45,10 +45,12 @@ echo '-------- section --------'
 
 sudo  chown --recursive 1000:1000    /home/node
 
-#sudo chmod  --recursive     a+rwx   /home/node/*
+# host mc edit needs
+sudo chmod  --recursive     a+rwx   /home/node/*
 
 #cd
 cd ~/ohayo
+cd ~/attr*
 ll
 #cd ..
 #cd -

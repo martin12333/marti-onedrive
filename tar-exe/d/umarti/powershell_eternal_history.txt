@@ -3880,3 +3880,12 @@ C:\pf\Git\bin\bash.exe
 wsl -d Ubuntu-22.04
 C:\pf\Git\bin\bash.exe
 wsl -d Ubuntu-22.04
+ls
+cd ..
+ls
+cd ..
+ls
+ls|more
+wsl -d Ubuntu-22.04
+ls
+ls Usin*
