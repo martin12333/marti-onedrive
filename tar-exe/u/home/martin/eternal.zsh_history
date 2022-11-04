@@ -349,3 +349,4 @@ echo .irssi \ # mounts irssi  \\
 : 1667498665:0;cd /mnt/d/umarti/dow*
 : 1667498675:0;cd /mnt/d/umarti/
 : 1667498968:0;ll
+: 1667521477:0;ls -la /home/dockw

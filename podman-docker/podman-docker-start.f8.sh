@@ -35,6 +35,7 @@ echo '-------- section --------'
 sudo  chown --recursive 1000:1000    /home/node
 
 # host mc edit needs
+todo  o+rwx
 sudo chmod  --recursive     a+rwx   /home/node/*
 # not chmod # /home/node/.* because .ohmyzsh security
 
@@ -43,7 +44,7 @@ cd ~/ohayo
 #cd ~/attr*
 ll
 mv -iv .git OLDgit
-todo really?  mv -v --backup=numbered ~/*/.git ~/OLDgit/OLDgit
+todo really?  mv -v --backup=numbered ~/*/.git          ~/.OLDgit/OLDgit
 #cd ..
 #cd -
 
@@ -65,7 +66,7 @@ sudo  chown  1000:1000    /home/*
 
 
 
-
+ls -la /home/dockw
 
 
 echo '-------- section --------'
