@@ -350,3 +350,8 @@ echo .irssi \ # mounts irssi  \\
 : 1667498675:0;cd /mnt/d/umarti/
 : 1667498968:0;ll
 : 1667521477:0;ls -la /home/dockw
+: 1667573478:0;echo '-----------------------------begin possible  .sh-session ---------------------------------'
+: 1667573505:0;cd
+: 1667573565:0;podman start   -ai    cmyjs22b
+: 1667573997:0;cd /home/dockw/node/ohayo/node_modules/.bin
+: 1667573999:0;ll

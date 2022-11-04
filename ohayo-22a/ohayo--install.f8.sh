@@ -47,22 +47,24 @@ First time:
 once
 cd
 #git clone https://github.com/breck7/ohayo
-#git clone https://github.com/martin12333/ohayo
+git clone https://github.com/martin12333/ohayo
 pldb
 
 once
 cd ohayo
 cd pldb
-#npm i .
+npm i
 
 
 ######################
 cd
 cd ohayo
 cd pldb
-npx zsh
-#npx bash
-
+##node14 # npx zsh
+##npx bash
+npx /usr/bin/zsh  #node18
+#zsh
+#exit
 
 ./builder.ts
 ./builder.ts produceOhayoGrammar
@@ -81,7 +83,8 @@ ll ~/*grammar*
 
 
 jtree ohayo/packages/print/test.ohayo
-
+#14
+###18
 
 #######################
 #

@@ -40,6 +40,8 @@ sudo chmod  --recursive     a+rwx   /home/node/*
 # not chmod # /home/node/.* because .ohmyzsh security
 
 #cd
+mv -iv ohayo copy--ohayo
+
 cd ~/ohayo
 #cd ~/attr*
 ll
