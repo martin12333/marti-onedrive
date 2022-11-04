@@ -72,7 +72,7 @@ npx /usr/bin/zsh  #node18
 jtree register $PWD/ohayo/ohayo.grammar
 jtree register $PWD/database/grammar/pri
 
-jtree 
+jtree
 jtree list
 pldb-night
 
@@ -119,6 +119,7 @@ npm run tsc
 
 
 
+echo '-------- section --------'
 
 
 
