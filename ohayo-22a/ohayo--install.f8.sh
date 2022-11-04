@@ -72,6 +72,7 @@ npx /usr/bin/zsh  #node18
 jtree register $PWD/ohayo/ohayo.grammar
 jtree register $PWD/database/grammar/pri
 
+jtree 
 jtree list
 pldb-night
 
@@ -103,6 +104,7 @@ npx jtree parse ohayo/packages/print/test.ohayo
 history|tail
 
 
+echo '-------- section --------'
 
 
 ========================
@@ -123,7 +125,7 @@ npm run tsc
 #cd ~/ohayo
 
 cd node_modules/jtree
-
+cd -
 
 : 1666197956:0;find . -iname '*core*'
 : 1666198145:0;find . -iname '*test*'
