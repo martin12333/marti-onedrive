@@ -72,7 +72,7 @@ C:\pf\Git\bin\bash.exe
 	git add -vv --dry-run '*.f8.*'
 	git add -vv  'do*.sh'
 	git add -vv  --dry-run   'do*.sh'
-	
+
 echo '-------- section --------'
 
 C:\pf\Git\bin\bash.exe
@@ -81,6 +81,7 @@ C:\pf\Git\bin\bash.exe
 	git commit -v -a -m bk
 	git commit -v -a -m bug-found
 	git commit -v -a -m fix
+	git commit -v -a -m false-alarm
 
 	git commit -v -a -m  refactor
 	git commit -v -a -m  before-refactor

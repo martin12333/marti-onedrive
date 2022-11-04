@@ -133,10 +133,13 @@ nvm install 14
 
 node -v
 
-i was in a npx /bin/zsh
+
+??i was in a npx /bin/zsh
+??i run npm prefix ??
 nvm is not compatible with the "npm_config_prefix" environment variable: currently set to "/usr/local/share/npm-global"
 Run `unset npm_config_prefix` to unset it.
 env|grep npm_co
+npm prefix --global
 exit
 
 

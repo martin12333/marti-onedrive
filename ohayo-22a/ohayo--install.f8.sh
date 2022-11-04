@@ -55,8 +55,10 @@ cd ohayo
 cd pldb
 npm i
 
+echo '-------- section --------'
 
-######################
+env|grep npm_co
+
 cd
 cd ohayo
 cd pldb
