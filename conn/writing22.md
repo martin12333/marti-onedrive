@@ -21,7 +21,7 @@ in this subreddit, r/visual_conlangs ,
 we would-not delete your work. We would just comment.
 
 
-
+(I have fixed 2 bugs in my script , and also made it work in a devcontainer-with-nodejs )
 
 
 //onsave jtree build produce commandLineApp.node.js

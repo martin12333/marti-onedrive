@@ -355,3 +355,7 @@ echo .irssi \ # mounts irssi  \\
 : 1667573565:0;podman start   -ai    cmyjs22b
 : 1667573997:0;cd /home/dockw/node/ohayo/node_modules/.bin
 : 1667573999:0;ll
+: 1667583190:0;cat /etc/lsb-release
+: 1667583209:0;echo '-------- section --------'
+: 1667583212:0;echo  btw,IN THE FUTURE, I AM GOING TO INSTALL podman IN A DIFFERENT WAY, NOT BY apt
+: 1667583214:0;echo '-------- section --------'

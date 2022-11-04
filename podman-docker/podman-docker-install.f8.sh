@@ -7,6 +7,9 @@ exit
 
 echo '-------- section --------'
 
+
+echo '-------- section --------'
+
 fixed by rename /tmp/podman-run-1000/
 
 ?
@@ -19,8 +22,9 @@ Error: error joining network namespace of container 8d2a6d493e5c5a3df82436adcbc7
 
 
 
+echo '-------- section --------'
 
-
+echo  btw,	IN THE FUTURE, I AM GOING TO INSTALL podman IN A DIFFERENT WAY, NOT BY apt
 
 echo '-------- section --------'
 
