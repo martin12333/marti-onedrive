@@ -70,11 +70,15 @@ cd pldb
 ###npx bash
 #node18
 npx /usr/bin/zsh
+#npx /bin/bash
 #zsh
 #exit
 
 ./builder.ts
 ./builder.ts produceOhayoGrammar
+###
+./builder.ts produceAll
+./builder.ts test
 
 jtree register $PWD/ohayo/ohayo.grammar
 jtree register $PWD/database/grammar/pri

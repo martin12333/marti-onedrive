@@ -16,6 +16,11 @@ asi si také zkusím založit web na wz.cz ...  ... hledal jsem , zdá se, že v
 
 
 
+a note:
+in this subreddit, r/visual_conlangs ,
+we would-not delete your work. We would just comment.
+
+
 
 
 
