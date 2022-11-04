@@ -57,7 +57,11 @@ npm i
 
 echo '-------- section --------'
 
-env|grep npm_co
+env|grep npm_
+env|grep npm
+env|grep node
+npm prefix --global
+env | tr ':' '\n'|grep -i bin
 
 cd
 cd ohayo
@@ -85,8 +89,9 @@ mv -v --backup=numbered   ~/grammars.ssv   ~/oldgrammars.ssv
 ll ~/*grammar*
 
 
+node -v
 jtree ohayo/packages/print/test.ohayo
-#14
+###14
 ###18
 
 #######################
@@ -141,6 +146,24 @@ cd -
 req error
 : 1666201405:0;./builder.ts test
 
+---------------
+finished in 16647.482421875ms
+ skipped
+  0 blocks
+ passed
+  55 files
+  224 blocks
+  414 assertions
+ failed
+  1 files
+  1 blocks
+  2 assertions
+ failures
+  /home/node/ohayo/ohayo/packages/web/web.oswarm
+   presidents
+
+-----------
+
 jtree build
 
 choice
@@ -167,6 +190,10 @@ pwd
 
 #####err Error: Cannot find module 'ohayo/ohayo.nodejs.js'
 : 1666201482:0;jtree ohayo/packages/print/test.ohayo
+
+
+echo IT STARTED TO WORK '--------------------'
+
 
 
 

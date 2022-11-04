@@ -45,7 +45,7 @@ cd
 npx zsh
 #npx  jtree
 
-npx --no-install env | tr ':' '\n'|grep -i bin
+npx --no-install /usr/bin/env | tr ':' '\n'|grep -i bin
 
 env | tr ':' '\n'|grep -i bin
 
@@ -140,6 +140,7 @@ nvm is not compatible with the "npm_config_prefix" environment variable: current
 Run `unset npm_config_prefix` to unset it.
 env|grep npm_co
 npm prefix --global
+env | tr ':' '\n'|grep -i bin
 exit
 
 
