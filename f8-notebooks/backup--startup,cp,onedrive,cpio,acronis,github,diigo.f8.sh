@@ -98,7 +98,9 @@ C:\pf\Git\bin\bash.exe
 		cd /mnt/d/umarti/
 		dmesg|grep sdc
 
-tail tar-exe/w/home/martin/.zsh_history
+tail tar-exe/w/home/martin/eternal.zsh_history
+tail tar-exe/u/home/martin/eternal.zsh_history
+tail tar-exe/u/home/dockw/node/.zsh_history
 
 	git show
 	git status | head -n 15
