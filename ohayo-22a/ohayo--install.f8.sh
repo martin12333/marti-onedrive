@@ -66,9 +66,10 @@ env | tr ':' '\n'|grep -i bin
 cd
 cd ohayo
 cd pldb
-##node14 # npx zsh
-##npx bash
-npx /usr/bin/zsh  #node18
+###node14 # npx zsh
+###npx bash
+#node18
+npx /usr/bin/zsh
 #zsh
 #exit
 
