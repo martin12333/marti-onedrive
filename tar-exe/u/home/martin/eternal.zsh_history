@@ -359,3 +359,14 @@ echo .irssi \ # mounts irssi  \\
 : 1667583209:0;echo '-------- section --------'
 : 1667583212:0;echo  btw,IN THE FUTURE, I AM GOING TO INSTALL podman IN A DIFFERENT WAY, NOT BY apt
 : 1667583214:0;echo '-------- section --------'
+: 1667588688:0;podman start   -ai    cmyjs22b
+: 1667588720:0;man ls
+: 1667610744:0;echo  btw,IN THE FUTURE, I will INSTALL podman IN A DIFFERENT WAY'?', NOT BY apt '?'
+: 1667610798:0;echo '-------- section --------'
+: 1667610810:0;echo  btw,IN
+: 1667610824:0;echo  btw,   IN
+: 1667610896:0;echo '-------- section --------'
+: 1667610914:0;podman -v
+: 1667610981:0;#ls -na /home
+: 1667610985:0;ls -na /home
+: 1667611002:0;ls -na /home/dockw

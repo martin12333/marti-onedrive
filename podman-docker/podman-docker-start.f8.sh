@@ -46,10 +46,12 @@ cd ~/ohayo
 #cd ~/attr*
 ll
 mv -iv .git OLDgit
-todo really?  mv -v --backup=numbered ~/*/.git          ~/.OLDgit/OLDgit
+todo really?
+mv -v --backup=numbered ~/*/.git          ~/.OLDgit/OLDgit
 #cd ..
 #cd -
-
+mkdir -p ~/.OLDgit/
+#
 
 
 
@@ -57,10 +59,11 @@ echo '-------- section   rarely    --------'
 
 cd   /home/
 
-mkdir experim
-mv -iv touch* experim/
+mkdir .experim
+mv -iv touch* .experim/
+mv -iv experim .experim
 
-ls -ld    /home/*
+ls -lan    /home/.*
 
 sudo  chown  1000:1000    /home/*
 
