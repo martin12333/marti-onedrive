@@ -37,6 +37,11 @@ ls -latr /usr/bin
 ls -latr /usr/sbin
 
 
+
+
+echo $PATH|  tr ':' '\n'| xargs ls -la| wc
+echo $PATH|  tr ':' '\n'| xargs ls -la| grep -i docker
+
 history -a; history
 exit
 
