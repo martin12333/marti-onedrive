@@ -11,10 +11,18 @@ id
 env
 ls -la
 ls -la /
+ls -la /usr
+ls -la /usr/local
+
 ls -la /mnt/wsl
 ls -la /mnt/
 ls -la /mnt/c
 du -ak|sort -n
+
+du -sm -x /* 2>2
+####du -sm -x /*/* 2>2
+
+
 
 df -m
 
@@ -31,3 +39,7 @@ ls -latr /usr/sbin
 
 history -a; history
 exit
+
+sudo -i
+
+dnf
