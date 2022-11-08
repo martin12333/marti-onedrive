@@ -385,3 +385,8 @@ echo .irssi \ # mounts irssi  \\
 : 1667931578:0;echo $PATH|tr ':' '\n'|grep -i podm
 : 1667931585:0;echo $PATH|tr ':' '\n'|grep -i podman
 : 1667931594:0;echo '-------- section --------'
+: 1667931891:0;podman machine
+: 1667932029:0;podman machine --help
+: 1667932046:0;podman machine list
+: 1667932435:0;pseudo
+: 1667932508:0;pseudosh

@@ -6,28 +6,28 @@ exit
 install podman for windows
 
 echo '-------- section --------'
-maybe
+probably_unnecessary
 
+u20
 zsh
 cd podman*
 echo $PATH|tr ':' '\n'
 echo $PATH|tr ':' '\n'|grep -i podman
 echo $path|tr ' ' '\n'   >u20-22b8.path
 
-maybe
+probably_unnecessary
 sudo apt remove docker docker-engine docker.io containerd runc
 sudo apt remove docker  docker.io containerd runc
 
 echo '-------- section --------'
-create restore point 'pre-podman'
+pseudosh  create restore point 'pre-podman'
 
 
 echo '-------- section --------'
-install podman for windows
+google  install podman for windows
 podman-4.3.0-setup.exe
 
 echo '-------- section --------'
-maybe
 $env:Path.Length
 $env:Path
 C:\pf\Git\bin\bash.exe
@@ -35,18 +35,23 @@ echo $PATH|tr ':' '\n'|grep -i podm
 
 echo '-------- section --------'
 
-"C:\Program Files\RedHat\Podman\podman.exe"
-"C:\Program Files\RedHat\Podman\win-sshproxy.exe"
-
 https://github.com/containers/podman/blob/main/docs/tutorials/podman-for-windows.md
 
-win relogin
+pseudosh win relogin
+
+podman machine
+podman machine list
+podman machine --help
 
 podman machine init
 
 # w def firewall ... I granted access on home network
 
 ######################### OUTPUT AND NOTES
+
+"C:\Program Files\RedHat\Podman\podman.exe"
+"C:\Program Files\RedHat\Podman\win-sshproxy.exe"
+
 Downloading VM image: fedora-podman-v36.0.…
 Importing operating system into WSL (this may take a few minutes oConfiguring system...
 Generating public/private ed25519 key pair.
@@ -84,6 +89,7 @@ root@len20
 
 echo '-------- section --------'
 
+pseudosh
 create restore point 'post-podman'
 
 wsl --list --all
@@ -91,7 +97,7 @@ wsl --list --all
 
 echo '-------- section --------'
 
-podman machine start
+###podman machine start
 
 
 echo '-------- section --------'
