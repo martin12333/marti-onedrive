@@ -379,3 +379,9 @@ echo .irssi \ # mounts irssi  \\
 : 1667853841:0;podman start   -ai    cmyjs22b
 : 1667854180:0;podman start   -ai   myconta22
 : 1667854537:0;podman start   -ai    cmyjs22b
+: 1667931440:0;echo '-------- section --------'
+: 1667931499:0;echo $path|tr ' ' '\n'
+: 1667931537:0;echo $PATH|tr ':' '\n'
+: 1667931578:0;echo $PATH|tr ':' '\n'|grep -i podm
+: 1667931585:0;echo $PATH|tr ':' '\n'|grep -i podman
+: 1667931594:0;echo '-------- section --------'

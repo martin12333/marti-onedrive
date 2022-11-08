@@ -10,6 +10,8 @@ maybe
 
 zsh
 cd podman*
+echo $PATH|tr ':' '\n'
+echo $PATH|tr ':' '\n'|grep -i podman
 echo $path|tr ' ' '\n'   >u20-22b8.path
 
 maybe
@@ -44,7 +46,7 @@ podman machine init
 
 # w def firewall ... I granted access on home network
 
-#########################
+######################### OUTPUT AND NOTES
 Downloading VM image: fedora-podman-v36.0.…
 Importing operating system into WSL (this may take a few minutes oConfiguring system...
 Generating public/private ed25519 key pair.
@@ -72,12 +74,13 @@ To start your machine run:
 '
 C:\Users\marti\OneDrive\.config\containers\podman\machine\wsl\podman-machine-default.json
  "ImagePath": "C:\\Users\\marti\\.local\\share\\containers\\podman\\machine\\wsl\\podman-machine-default_fedora-podman-v36.0.70.tar",
+200m
 
  "RemoteUsername": "user",
 
 root@len20
 
-#########################
+######################### END OUTPUT
 
 echo '-------- section --------'
 
@@ -88,9 +91,9 @@ wsl --list --all
 
 echo '-------- section --------'
 
-podman machine
+podman machine start
 
 
-
+echo '-------- section --------'
 
 

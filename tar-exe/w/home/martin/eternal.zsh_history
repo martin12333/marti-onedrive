@@ -7960,3 +7960,7 @@ g\
 : 1667920358:0;history| grep apt|grep cont
 : 1667920452:0;sudo apt remove docker docker-engine docker.io containerd runc
 : 1667920478:0;sudo apt remove docker  docker.io containerd runc
+: 1667931613:0;echo $PATH|tr ':' '\n'|grep -i podman
+: 1667931619:0;podman
+: 1667931622:0;docker
+: 1667931625:0;echo '-------- section --------'
