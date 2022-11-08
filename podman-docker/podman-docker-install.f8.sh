@@ -24,7 +24,6 @@ echo '-------- section --------'
 
 echo  btw, IN THE FUTURE, I will INSTALL podman IN A DIFFERENT WAY'?', NOT BY apt '?'
 
-echo  btw, IN
 
 echo '-------- section --------'
 
