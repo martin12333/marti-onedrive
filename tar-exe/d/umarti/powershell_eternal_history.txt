@@ -3909,3 +3909,15 @@ wsl --list --all
 echo '-------- section --------'
 pseudo
 pseudosh
+wsl --list --all
+wsl --list --all --verbose
+wsl --shutdown
+wsl --list --all --verbose
+wsl --shutdown
+wsl --list --all --verbose
+wsl --shutdown
+wsl --list --all --verbose
+podman machine start
+wsl --list --all --verbose
+podman machine ssh
+wsl -d podman-machine-default

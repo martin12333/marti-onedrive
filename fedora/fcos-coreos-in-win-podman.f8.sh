@@ -11,14 +11,21 @@ exit
 echo '-------- section --------'
 PROBABLY_UNNECESSARY
 
+wsl --shutdown
+wsl --list --all --verbose
+
 u20
 zsh
 cd podman*
 echo $PATH|tr ':' '\n'
 echo $PATH|tr ':' '\n'|grep -i podman
-echo $path|tr ' ' '\n'   >u20-22b8.path
+#echo $path|tr ' ' '\n'   >u20-22b8.path
+ls -latr /mnt
+ls -latr /mnt/wsl
+cat /mnt/wsl/resolv.conf
+cat /etc/wsl.conf
 
-PROBABLY_UNNECESSARY
+PROBABLY_UNNECESSARY?
 sudo apt remove docker docker-engine docker.io containerd runc
 sudo apt remove docker  docker.io containerd runc
 
@@ -73,13 +80,13 @@ The key's randomart image is:
 |..B +..o     . o |
 |o= Boo.          |
 |+ +o+o           |
-+----[SHA256]-----+
++----[SHA256]-----+'
 Machine init complete
 To start your machine run:
 
         podman machine start
 
-'
+
 C:\Users\marti\OneDrive\.config\containers\podman\machine\wsl\podman-machine-default.json
  "ImagePath": "C:\\Users\\marti\\.local\\share\\containers\\podman\\machine\\wsl\\podman-machine-default_fedora-podman-v36.0.70.tar",
 200m
@@ -96,13 +103,37 @@ pseudosh
 create restore point 'post-podman'
 
 wsl --list --all
+wsl --list --all --verbose
 
 
 echo '-------- section --------'
 
-###podman machine start
+####podman machine start
+OR should at least once?
+podman machine start
+wsl --list --all --verbose
 
+
+##https://www.redhat.com/sysadmin/run-podman-windows
+
+https://github.com/containers/podman/blob/main/docs/tutorials/podman-for-windows.md#accessing-the-podman-linux-environment
+
+podman machine ssh
 
 echo '-------- section --------'
 
+
+
+
+Permissions for 'C:\\Users\\marti\\.ssh\\podman-machine-default' are too open.
+It is required that your private key files are NOT accessible by others.
+This private key will be ignored.
+Load key "C:\\Users\\marti\\.ssh\\podman-machine-default": bad permissions
+user@localhost's password:
+'
+
+
+
+wsl -d podman-machine-default
+pwd
 
