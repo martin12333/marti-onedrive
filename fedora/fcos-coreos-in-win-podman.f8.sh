@@ -17,7 +17,7 @@ sudo apt remove docker docker-engine docker.io containerd runc
 sudo apt remove docker  docker.io containerd runc
 
 echo '-------- section --------'
-maybe create restore point 'pre-podman'
+create restore point 'pre-podman'
 
 
 echo '-------- section --------'
@@ -40,5 +40,57 @@ https://github.com/containers/podman/blob/main/docs/tutorials/podman-for-windows
 
 win relogin
 
+podman machine init
+
+# w def firewall ... I granted access on home network
+
+#########################
+Downloading VM image: fedora-podman-v36.0.…
+Importing operating system into WSL (this may take a few minutes oConfiguring system...
+Generating public/private ed25519 key pair.
+Your identification has been saved in podman-machine-default
+Your public key has been saved in podman-machine-default.pub
+The key fingerprint is:
+SHA256:qsHkDpOjSdrbMxopEG5WkUXeejQ8Zxr64EcdOnzdz0g root@len20
+The key's randomart image is:
++--[ED25519 256]--+
+|   .+o           |
+|   .o o          |
+|.  . . B +       |
+|...   = X o .    |
+|.+  .+ BSo . E   |
+|+  *. =.o   . +  |
+|..B +..o     . o |
+|o= Boo.          |
+|+ +o+o           |
++----[SHA256]-----+
+Machine init complete
+To start your machine run:
+
+        podman machine start
+
+'
+C:\Users\marti\OneDrive\.config\containers\podman\machine\wsl\podman-machine-default.json
+ "ImagePath": "C:\\Users\\marti\\.local\\share\\containers\\podman\\machine\\wsl\\podman-machine-default_fedora-podman-v36.0.70.tar",
+
+ "RemoteUsername": "user",
+
+root@len20
+
+#########################
+
 echo '-------- section --------'
+
+create restore point 'post-podman'
+
+wsl --list --all
+
+
+echo '-------- section --------'
+
+podman machine
+
+
+
+
 

@@ -3902,3 +3902,7 @@ history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i 
 C:\pf\Git\bin\bash.exe
 $env:Path
 C:\pf\Git\bin\bash.exe
+podman machine
+podman machine init
+wsl --list --lall
+wsl --list --all
