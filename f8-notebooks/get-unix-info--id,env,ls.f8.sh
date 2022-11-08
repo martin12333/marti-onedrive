@@ -21,6 +21,7 @@ du -ak|sort -n
 
 du -sm -x /* 2>2
 ####du -sm -x /*/* 2>2
+du -sm -x /var/lib/dnf/* 2>2
 
 
 
@@ -42,9 +43,26 @@ ls -latr /usr/sbin
 echo $PATH|  tr ':' '\n'| xargs ls -la| wc
 echo $PATH|  tr ':' '\n'| xargs ls -la| grep -i docker
 
+
+ps -ef
+
+
+
 history -a; history
 exit
+echo '-------- section --------'
 
 sudo -i
 
-dnf
+dnf list
+dnf history
+dnf alias
+dnf shell
+
+yum
+rpm --list --all
+
+echo '-------- section --------'
+
+history -a; history
+exit
