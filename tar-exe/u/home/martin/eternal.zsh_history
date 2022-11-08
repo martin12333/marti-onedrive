@@ -370,3 +370,12 @@ echo .irssi \ # mounts irssi  \\
 : 1667610981:0;#ls -na /home
 : 1667610985:0;ls -na /home
 : 1667611002:0;ls -na /home/dockw
+: 1667673592:0;docker history
+: 1667673606:0;docker image history
+: 1667673677:0;docker image history localhost/imyjs22b11
+: 1667696291:0;docker image history --no-trunc localhost/imyjs22b11
+: 1667853827:0;podman start   -ai    cmyjs22b
+: 1667853835:0;mv -v --backup=numbered /tmp/podman-run-1000/ /tmp/OLDpodman-run-1000/
+: 1667853841:0;podman start   -ai    cmyjs22b
+: 1667854180:0;podman start   -ai   myconta22
+: 1667854537:0;podman start   -ai    cmyjs22b

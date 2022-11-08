@@ -380,7 +380,9 @@ tar cf /homedockw/root.tar root
 id
 
 
-
+echo '-------- section --------'
+docker history
+docker image history imyjs22b11
 echo '-------- section --------'
 
 docker images
@@ -392,6 +394,19 @@ docker stop cmyjs22b
 
 edit create.sh edit imyjs22b
 
+
+echo '-------- section --------'
+
+ps -ef
+which init
+ll /*ni*
+ll /sbin/*nit*
+ll /sbin/*ini*
+ll /usr/sbin/*nit*
+man catatonit
+dpkg -l | grep nit
+dpkg -l | grep tini
+exit
 
 echo '-------- section --------'
 

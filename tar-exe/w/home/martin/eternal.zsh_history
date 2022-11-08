@@ -7952,3 +7952,11 @@ g\
 : 1667166592:0;mc -b
 : 1667243882:0;history| grep chmod
 : 1667243927:0;history| grep chmod|grep sudo
+: 1667920132:0;echo $path
+: 1667920154:0;echo $path|tr ' ' '\n'
+: 1667920217:0;cd podman*
+: 1667920289:0;echo $path|tr ' ' '\n'   >u20-22b8.path
+: 1667920349:0;history| grep apt
+: 1667920358:0;history| grep apt|grep cont
+: 1667920452:0;sudo apt remove docker docker-engine docker.io containerd runc
+: 1667920478:0;sudo apt remove docker  docker.io containerd runc
