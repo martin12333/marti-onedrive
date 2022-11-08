@@ -1,12 +1,15 @@
-f8-notebook
+
+(mm_f8_doc file pseudo-format)
+# (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
+
 do-not run this file as a whole
 )
 exit
 
-install podman for windows
+#install podman for windows
 
 echo '-------- section --------'
-probably_unnecessary
+PROBABLY_UNNECESSARY
 
 u20
 zsh
@@ -15,7 +18,7 @@ echo $PATH|tr ':' '\n'
 echo $PATH|tr ':' '\n'|grep -i podman
 echo $path|tr ' ' '\n'   >u20-22b8.path
 
-probably_unnecessary
+PROBABLY_UNNECESSARY
 sudo apt remove docker docker-engine docker.io containerd runc
 sudo apt remove docker  docker.io containerd runc
 
@@ -47,7 +50,7 @@ podman machine init
 
 # w def firewall ... I granted access on home network
 
-######################### OUTPUT AND NOTES
+######################### OUTPUT_AND_NOTES
 
 "C:\Program Files\RedHat\Podman\podman.exe"
 "C:\Program Files\RedHat\Podman\win-sshproxy.exe"
