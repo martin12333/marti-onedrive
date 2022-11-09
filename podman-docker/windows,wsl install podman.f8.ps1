@@ -26,6 +26,8 @@ cat /mnt/wsl/resolv.conf
 cat /etc/wsl.conf
 
 PROBABLY_UNNECESSARY?
+my
+wsl u20
 sudo apt remove docker docker-engine docker.io containerd runc
 sudo apt remove docker  docker.io containerd runc
 

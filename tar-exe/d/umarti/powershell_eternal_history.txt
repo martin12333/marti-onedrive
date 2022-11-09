@@ -3921,3 +3921,8 @@ podman machine start
 wsl --list --all --verbose
 podman machine ssh
 wsl -d podman-machine-default
+podman machine 
+powershell
+wsl -d podman-machine-default
+podman version
+wsl
