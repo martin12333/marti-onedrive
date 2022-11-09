@@ -6,15 +6,13 @@ do-not run this file as a whole
 )
 exit
 
+
 #install podman for windows
 
+
 echo '-------- section --------'
-PROBABLY_UNNECESSARY
-
-wsl --shutdown
-wsl --list --all --verbose
-
-u20
+PROBABLY_UNNECESSARY 2022
+wsl u20
 zsh
 cd podman*
 echo $PATH|tr ':' '\n'
@@ -25,11 +23,18 @@ ls -latr /mnt/wsl
 cat /mnt/wsl/resolv.conf
 cat /etc/wsl.conf
 
-PROBABLY_UNNECESSARY?
+
+PROBABLY_UNNECESSARY 2022
 my
 wsl u20
-sudo apt remove docker docker-engine docker.io containerd runc
+#sudo apt remove docker docker-engine docker.io containerd runc
 sudo apt remove docker  docker.io containerd runc
+
+
+PROBABLY_UNNECESSARY 2022
+wsl --shutdown
+wsl --list --all --verbose
+
 
 echo '-------- section --------'
 pseudosh  create restore point 'pre-podman'
@@ -110,7 +115,7 @@ wsl --list --all --verbose
 
 echo '-------- section --------'
 
-####podman machine start
+#podman machine start
 OR should at least once?
 podman machine start
 wsl --list --all --verbose
@@ -120,11 +125,10 @@ wsl --list --all --verbose
 
 https://github.com/containers/podman/blob/main/docs/tutorials/podman-for-windows.md#accessing-the-podman-linux-environment
 
-podman machine ssh
 
 echo '-------- section --------'
 
-
+podman machine ssh
 
 
 Permissions for 'C:\\Users\\marti\\.ssh\\podman-machine-default' are too open.
@@ -134,8 +138,12 @@ Load key "C:\\Users\\marti\\.ssh\\podman-machine-default": bad permissions
 user@localhost's password:
 '
 
-
+echo '-------- section --------'
 
 wsl -d podman-machine-default
 pwd
+
+
+
+echo '-------- section --------'
 
