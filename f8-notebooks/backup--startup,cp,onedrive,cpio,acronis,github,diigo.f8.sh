@@ -67,6 +67,9 @@ C:\pf\Git\bin\bash.exe
 
 	git add -vv 'C:\Users\marti\OneDrive\conn\writing22.md' "C:\Users\marti\OneDrive\task-scheduler--win\po-pulnoci23.xml"   "C:\Users\marti\OneDrive\wiki-f8\a-mediawiki-file.mediawiki"  "C:\Users\marti\OneDrive\wiki-f8\a-markdown-file.md"
 
+git add -v  "C:\Users\marti\OneDrive\wiki-f8\zzzexperim--rdoc.rdoc"   "C:\Users\marti\OneDrive\wiki-f8\zzza-textile-file.textile"  "C:\Users\marti\OneDrive\wiki-f8\zzza-textile-file - Copy.txt"
+
+
 	git add -vv --dry-run '*sprea*iss*' #    '*f8.*'
 	git add -vv  '*.f8.*'
 	git add -vv --dry-run '*.f8.*'
