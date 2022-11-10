@@ -1,20 +1,23 @@
-[wiki-f8](wiki-f8)
+experiments with markdown and VSCode
+
+[git%20init--separate-git-dir](/git-f8/git%20init--separate-git-dir.f8.sh)
+
 
 [wiki-f8](/wiki-f8)
 
-[aaaa](a-)
+[wiki-f8][def2]
 
-[[wiki-f8]]
+[AAAA_GITHUB_WIKI](/AAAA_GITHUB_WIKI/)
+
+[Home](/AAAA_GITHUB_WIKI/Home.mediawiki)
 
 
-[[a-markdown-file]]
+[mediawiki](a-mediawiki-file.mediawiki)
 
-[[a -completi]]
+https://github.com/martin12333/marti-onedrive/tree/main2/git-f8
 
 
 [[https://github.com/martin12333/marti-onedrive/tree/main2/git-f8]]
 
-[[/martin12333/marti-onedrive/tree/main2/git-f8]]
 
-
-[[/tree/main2/git-f8]]
+[def2]: wiki-f8
