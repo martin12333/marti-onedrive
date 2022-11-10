@@ -31,11 +31,13 @@ git pull -vv origin master
 git checkout master
 
 #master
+
 ls -la
 git ls-files
 du -a |sort -n
 
+#$ git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.wiki.git
 
-$ git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.wiki.git
 
+echo '-------- section --------'
 
