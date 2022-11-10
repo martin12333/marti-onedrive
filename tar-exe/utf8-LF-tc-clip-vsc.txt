@@ -3,7 +3,6 @@ C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHo
 C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\Visual~1.txt
 c:\Users\marti\AppData\Roaming\Code\User\settings.json
 c:\Users\marti\AppData\Roaming\Code\User\keybindings.json
-C:\Users\marti\AppData\Roaming\GHISLER\wincmd.ini
 C:\Users\marti\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
 C:\Users\marti\hyperpolyglot\build\hyperpolyglot.css
 /w/home/martin/.bash_history
@@ -17,6 +16,7 @@ C:\Users\marti\hyperpolyglot\build\hyperpolyglot.css
 /w/home/martin/.emacs.d/init.el
 /w/home/martin/.emacs.d/custom.el
 /w/home/martin/wsl.conf
+fujC:\Users\marti\AppData\Roaming\GHISLER\wincmd.ini
 C:\Users\marti\pokus-bkup.txttttttttttttttttttttttttttttt
 /u/home/martin/.bash_history
 /u/home/martin/eternal.zsh_history

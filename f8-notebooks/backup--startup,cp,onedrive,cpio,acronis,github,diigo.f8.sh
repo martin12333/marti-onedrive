@@ -82,6 +82,7 @@ C:\pf\Git\bin\bash.exe
 
 	/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
 	git commit -v -a -m bk
+	git commit -v -a -m bk-scripts
 	git commit -v -a -m bug-found
 	git commit -v -a -m fix
 	git commit -v -a -m false-alarm
