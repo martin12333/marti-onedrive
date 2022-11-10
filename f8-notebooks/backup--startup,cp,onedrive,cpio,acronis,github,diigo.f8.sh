@@ -65,7 +65,7 @@ C:\pf\Git\bin\bash.exe
 	# because diigo
 	git add -vv   '/c/Users/marti/OneDrive/tar-exe/w/home/martin/.zsh_history'
 
-	git add -vv 'C:\Users\marti\OneDrive\conn\writing22.md' "C:\Users\marti\OneDrive\task-scheduler--win\po-pulnoci23.xml"
+	git add -vv 'C:\Users\marti\OneDrive\conn\writing22.md' "C:\Users\marti\OneDrive\task-scheduler--win\po-pulnoci23.xml"   "C:\Users\marti\OneDrive\wiki-f8\a-mediawiki-file.mediawiki"  "C:\Users\marti\OneDrive\wiki-f8\a-markdown-file.md"
 
 	git add -vv --dry-run '*sprea*iss*' #    '*f8.*'
 	git add -vv  '*.f8.*'
