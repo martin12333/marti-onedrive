@@ -3926,3 +3926,4 @@ powershell
 wsl -d podman-machine-default
 podman version
 wsl
+C:\pf\Git\bin\bash.exe
