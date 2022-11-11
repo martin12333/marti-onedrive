@@ -82,7 +82,9 @@ C:\pf\Git\bin\bash.exe
 
 	/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
 	git commit -v -a -m bk
-	git commit -v -a -m bk-scripts
+#	acro-sett,22bb-turn-off-auto-cleanup.zip
+	git commit -v -a -m acro-sett,22bb-turn-off-auto-cleanup
+	git commit -v -a -m bk-scripts--edited---
 	git commit -v -a -m bug-found
 	git commit -v -a -m fix
 	git commit -v -a -m false-alarm

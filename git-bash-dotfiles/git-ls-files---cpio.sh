@@ -1,5 +1,10 @@
 
 
+
+acro-sett,22bb-turn-off-auto-cleanup.zip
+
+
+
 C:\pf\Git\bin\bash.exe
 
 
@@ -27,18 +32,16 @@ exit
 which -a cpio
 which -a tar
 which -a bsdtar
+#which -a bsdcpio
 
 ####ls `which -a bsdtar`/..
-ls -1 /d/conda/Library/bin/*.exe
+#ls -1 /d/conda/Library/bin/*.exe
 
 tar --help
 bsdtar --help
 
-ls -l `which -a tar`
-#which cpio
-#which -a bsdcpio
+#ls -l `which -a tar`
 
-c:\wind
 
 #which wsl.exe
 
@@ -49,6 +52,8 @@ wsl.exe -- cpio
 wsl.exe -- pwd
 wsl.exe -- which -a cpio
 #####wsl.exe --help|grep -i e
+
+
 
 prepis 22ar
 	cd ~/OneDrive
