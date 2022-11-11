@@ -87,6 +87,7 @@ C:\pf\Git\bin\bash.exe
 	git commit -v -a -m fix
 	git commit -v -a -m false-alarm
 
+	git commit -v -a -m  rename
 	git commit -v -a -m  refactor
 	git commit -v -a -m  before-refactor
 	git commit -v -a -m vulnera #

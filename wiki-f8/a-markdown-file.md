@@ -20,4 +20,32 @@ https://github.com/martin12333/marti-onedrive/tree/main2/git-f8
 [[https://github.com/martin12333/marti-onedrive/tree/main2/git-f8]]
 
 
+
+:::column:::
+column
+	:::column-end:::
+
+
+:::row:::
+row
+:::row-end:::
+
+
+[]
+[](	github-wiki.f8.sh)
+link
+[]()
+
+()
+
+
+
+
+
+
+
+
+
+
+
 [def2]: wiki-f8
