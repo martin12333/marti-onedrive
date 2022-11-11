@@ -73,8 +73,8 @@ git add -v  "C:\Users\marti\OneDrive\wiki-f8\zzzexperim--rdoc.rdoc"   "C:\Users\
 	git add -vv --dry-run '*sprea*iss*' #    '*f8.*'
 	git add -vv  '*.f8.*'
 	git add -vv --dry-run '*.f8.*'
-	git add -vv  'do*.sh'
-	git add -vv  --dry-run   'do*.sh'
+	git add -vv    'g*o.sh'
+	git add -vv  --dry-run   'g*o.sh'
 
 echo '-------- section --------'
 
