@@ -38,6 +38,9 @@ prepis 22ar
 
 
 
+      OLD_OLD_ZSHRC="${OLD_ZSHRC}-$(date +%Y-%m-%d_%H-%M-%S)"
+
+
 #which cpio
 #which -a bsdcpio
 
