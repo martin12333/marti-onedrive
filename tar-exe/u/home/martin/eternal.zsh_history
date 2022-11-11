@@ -390,3 +390,11 @@ echo .irssi \ # mounts irssi  \\
 : 1667932046:0;podman machine list
 : 1667932435:0;pseudo
 : 1667932508:0;pseudosh
+: 1668202364:0;man tar
+: 1668202418:0;info tar
+: 1668202596:0;man tar
+: 1668202647:0;man bsdtar
+: 1668203219:0;tar --help
+: 1668203292:0;bsdtar --help
+: 1668203311:0;man bsdtar
+: 1668204025:0;which -a bsdtar

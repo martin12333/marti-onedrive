@@ -3936,3 +3936,16 @@ wsl.exe -- id
 wsl.exe -- cpio
 wsl.exe -- which cpio
 C:\pf\Git\bin\bash.exe
+C:\Windows\System32\tar.exe
+C:\Windows\System32\tar.exe --help
+pwsh
+C:\Windows\System32\tar.exe --help
+wsl -d Ubuntu-22.04
+C:\Windows\System32\tar.exe --help
+C:\pf\Git\bin\bash.exe
+wsl 
+wsl -d Ubuntu-22.04
+C:\pf\Git\bin\bash.exe
+which -a tar
+C:\pf\Git\bin\bash.exe
+echo "${OLD_ZSHRC}-$(date +%Y-%m-%d.%H)"

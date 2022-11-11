@@ -10,6 +10,10 @@ C:\pf\Git\bin\bash.exe
 	cd ~/OneDrive
 
 	git ls-files
+ 2003  git ls-files|wc
+ 2004  git ls-files|grep ' '
+ 2005  git ls-files|grep ' '|grep f8
+ 2024  git ls-files|grep ' - '
 
 #
 cat  'D:\umarti\powershell_eternal_history.txt'  | findstr  -i wsl | sort -u
@@ -18,6 +22,23 @@ wsl --help|findstr -i u.s.e.r
 ###wsl --help|grep -i u.s.e.r
 
 exit
+
+
+which -a cpio
+which -a tar
+which -a bsdtar
+
+####ls `which -a bsdtar`/..
+ls -1 /d/conda/Library/bin/*.exe
+
+tar --help
+bsdtar --help
+
+ls -l `which -a tar`
+#which cpio
+#which -a bsdcpio
+
+c:\wind
 
 #which wsl.exe
 
@@ -38,9 +59,7 @@ prepis 22ar
 
 
 
-      OLD_OLD_ZSHRC="${OLD_ZSHRC}-$(date +%Y-%m-%d_%H-%M-%S)"
+      #echo OLD_OLD_ZSHRC="${OLD_ZSHRC}-$(date +%Y-%m-%d_%H-%M-%S)"
+      echo "${OLD_ZSHRC}-$(date +%Y-%m-%d.%H)"
 
-
-#which cpio
-#which -a bsdcpio
-
+#date -I
