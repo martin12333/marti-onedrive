@@ -11,7 +11,23 @@ C:\pf\Git\bin\bash.exe
 
 	git ls-files
 
+#
+cat  'D:\umarti\powershell_eternal_history.txt'  | findstr  -i wsl | sort -u
 
+wsl --help|findstr -i u.s.e.r
+###wsl --help|grep -i u.s.e.r
+
+exit
+
+#which wsl.exe
+
+#####wsl.exe  /bin/bash -c -vx 'sync'
+#####wsl.exe --  /bin/bash -c -vx 'sync'
+wsl.exe -- which -a id
+wsl.exe -- cpio
+wsl.exe -- pwd
+wsl.exe -- which -a cpio
+#####wsl.exe --help|grep -i e
 
 prepis 22ar
 	cd ~/OneDrive
@@ -20,4 +36,8 @@ prepis 22ar
 ##FAIL MOUNT D:/
 	#d/umarti/cpio/22al2306-2000k-mmin--360.cpio
 
+
+
+#which cpio
+#which -a bsdcpio
 

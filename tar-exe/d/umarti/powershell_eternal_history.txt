@@ -3927,3 +3927,12 @@ wsl -d podman-machine-default
 podman version
 wsl
 C:\pf\Git\bin\bash.exe
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i wsl
+wsl --help|findstr -i u.s.e.r
+which wsl.exe
+wsl.exe  /bin/bash -c -vx 'sync'
+wsl.exe --  /bin/bash -c -vx 'sync'
+wsl.exe -- id
+wsl.exe -- cpio
+wsl.exe -- which cpio
+C:\pf\Git\bin\bash.exe
