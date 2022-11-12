@@ -13,6 +13,15 @@ powershell.exe
 
 echo see this in win-x-admin history
 
+Get-PSReadLineOption
+
+icacls.exe  e:\
+mkdir  E:\marti\
+icacls.exe  E:\marti\
+icacls.exe  E:\tc-copy-ntfs-perm-milan\
+icacls.exe E:\marti\ /grant 'marti:(oi)(ci)(f)'
+
+
 mkdir "d:\appendbyUSER"
 mkdir "d:\appendbyUSER\admin"
 mkdir "d:\appendbyUSER\win-x-admin-powershell-mkdir"

@@ -13,6 +13,9 @@ powershell.exe
 
 echo see this in win-x-admin history
 
+Get-PSReadLineOption
+
+
 mkdir "d:\appendbyUSER"
 mkdir "d:\appendbyUSER\admin"
 mkdir "d:\appendbyUSER\win-x-admin-powershell-mkdir"
