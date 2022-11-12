@@ -3966,3 +3966,4 @@ cmd /c dir /q E:\tc-copy-ntfs-perm-milan
 icacls.exe  e:\
 cmd /c dir /q e:\
 icacls.exe  e:\
+C:\pf\Git\bin\bash.exe
