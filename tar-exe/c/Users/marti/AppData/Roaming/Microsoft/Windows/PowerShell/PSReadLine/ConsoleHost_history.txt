@@ -3185,3 +3185,8 @@ icacls.exe E:\tc-copy-ntfs-perm-milan\ /setowner 'marti' /t /c /q
 icacls.exe E:\ /setowner 'marti' /t /c /q
 icacls.exe E:\tc-copy-ntfs-perm-milan\ /reset /t /c`
 
+takeown.exe /f e:\  /a     /r /d y 
+icacls.exe E:\ /setowner administrators /t /c 
+icacls.exe E:\ /setowner administrators /t /c /q
+history
+icacls.exe E:\ /reset /t /c /q
