@@ -3957,3 +3957,4 @@ mkdir "d:\appendbyUSER\admin"
 echo sfdfsf
 C:\pf\Git\bin\bash.exe
 where.exe powershell.exe
+powershell.exe

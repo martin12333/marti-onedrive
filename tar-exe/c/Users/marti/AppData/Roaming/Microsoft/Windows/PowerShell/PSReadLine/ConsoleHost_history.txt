@@ -3132,3 +3132,9 @@ icacls.exe  E:\marti\
 icacls.exe  E:\tc-copy-ntfs-perm-milan\
 icacls.exe E:\marti\ /grant 'marti:(oi)(ci)(f)'
 icacls.exe  E:\marti\
+Get-PSReadLineOption
+echo see this in win-x-admin history
+Get-PSReadLineOption
+powershell.exe
+echo see this in win-x-admin history
+echo from win-x-admin history

@@ -11,6 +11,8 @@ echo '-------- section --------'
 where.exe powershell.exe
 powershell.exe
 
+echo see this in win-x-admin history
+
 mkdir "d:\appendbyUSER"
 mkdir "d:\appendbyUSER\admin"
 mkdir "d:\appendbyUSER\win-x-admin-powershell-mkdir"
