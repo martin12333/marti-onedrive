@@ -3949,3 +3949,5 @@ C:\pf\Git\bin\bash.exe
 which -a tar
 C:\pf\Git\bin\bash.exe
 echo "${OLD_ZSHRC}-$(date +%Y-%m-%d.%H)"
+git push
+C:\pf\Git\bin\bash.exe
