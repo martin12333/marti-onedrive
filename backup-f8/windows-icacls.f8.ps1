@@ -14,21 +14,33 @@ powershell.exe
 echo see this in win-x-admin history 2
 
 Get-PSReadLineOption
+use_mouse
+	win-x admin
 
-takeown.exe /f e:\
-
-icacls E:\tc-copy-ntfs-perm-milan /inheritancelevel:e
-icacls E:\tc-copy-ntfs-perm-milan /inheritancelevel:e
-icacls E:\tc-copy-ntfs-perm-milan /inheritancelevel:e
+echo '-------- section --------'
 
 E:
-cmd /c dir /q
+cmd /c dir /q e:\
 cmd /c dir /q E:\tc-copy-ntfs-perm-milan
 icacls.exe  e:\
 icacls.exe  d:\
 mkdir  E:\marti\
 icacls.exe  E:\marti\
 icacls.exe  E:\tc-copy-ntfs-perm-milan\
+echo '-------- section --------'
+
+takeown.exe /f e:\  /a     /r /d y
+
+icacls.exe E:\ /setowner administrators /t /c /q
+
+icacls.exe E:\ /reset /t /c /q
+
+### probably not needed
+icacls E:\tc-copy-ntfs-perm-milan /inheritancelevel:e
+icacls E:\tc-copy-ntfs-perm-milan /inheritancelevel:e
+icacls E:\tc-copy-ntfs-perm-milan /inheritancelevel:e
+
+
 icacls.exe E:\marti\ /grant 'marti:(oi)(ci)(f)'
 
 
