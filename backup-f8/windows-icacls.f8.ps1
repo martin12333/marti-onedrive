@@ -11,11 +11,17 @@ echo '-------- section --------'
 where.exe powershell.exe
 powershell.exe
 
-echo see this in win-x-admin history
+echo see this in win-x-admin history 2
 
 Get-PSReadLineOption
 
+takeown.exe /f e:\
+
+E:
+cmd /c dir /q
+cmd /c dir /q E:\tc-copy-ntfs-perm-milan
 icacls.exe  e:\
+icacls.exe  d:\
 mkdir  E:\marti\
 icacls.exe  E:\marti\
 icacls.exe  E:\tc-copy-ntfs-perm-milan\

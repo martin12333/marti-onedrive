@@ -3138,3 +3138,41 @@ Get-PSReadLineOption
 powershell.exe
 echo see this in win-x-admin history
 echo from win-x-admin history
+echo see this in win-x-admin history 2
+exit
+powershell.exe
+exit
+takeown.exe /f e:\
+powershell.exe
+takeown.exe /f e:\
+history1324564=1 ; cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr  -i cacls
+icacls.exe  d:\
+icacls.exe  e:\
+icacls.exe E:\ /grant 'system:(oi)(ci)(f)'
+icacls.exe E:\ /grant 'marti:(oi)(ci)(f)'
+icacls.exe  E:\marti\
+icacls.exe  E:\tc-copy-ntfs-perm-milan\
+e;
+e:
+e:
+dir /q
+cmd /c dir /q
+cmd /c dir /q E:\tc-copy-ntfs-perm-milan
+history
+icacls.exe E:\tc-copy-ntfs-perm-milan\ /grant 'marti:(oi)(ci)(rx)' 
+cd .\tc-copy-ntfs-perm-milan\
+dir
+icacls.exe E:\tc-copy-ntfs-perm-milan\* /grant 'marti:(oi)(ci)(rx)' 
+history
+takeown.exe /f e:
+icacls.exe E:\tc-copy-ntfs-perm-milan\ /grant 'marti:(oi)(ci)(rx)' 
+icacls.exe E:\tc-copy-ntfs-perm-milan\* /grant 'marti:(oi)(ci)(rx)' 
+icacls.exe E:\tc-copy-ntfs-perm-milan\ /grant 'marti:(oi)(ci)(rx)' /t 
+icacls.exe E:\tc-copy-ntfs-perm-milan\ /grant 'marti:(oi)(ci)(rx)' /t /c
+takeown.exe /f e:
+takeown.exe /f e: /a
+takeown.exe /f e: /a /r
+takeown.exe /f e: /a /r /d y
+takeown.exe /f e:  /r /d y
+history
+/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
