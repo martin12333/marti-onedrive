@@ -3176,3 +3176,12 @@ takeown.exe /f e: /a /r /d y
 takeown.exe /f e:  /r /d y
 history
 /c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
+takeown.exe /f e:\  /r /d y
+takeown.exe /f e:\  /r /d y /q
+takeown.exe /f e:\  /r /d y /?
+takeown.exe /?
+icacls.exe E:\tc-copy-ntfs-perm-milan\ /setowner 'marti' /t /c
+icacls.exe E:\tc-copy-ntfs-perm-milan\ /setowner 'marti' /t /c /q
+icacls.exe E:\ /setowner 'marti' /t /c /q
+icacls.exe E:\tc-copy-ntfs-perm-milan\ /reset /t /c`
+
