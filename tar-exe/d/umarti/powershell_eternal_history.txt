@@ -3963,3 +3963,6 @@ icacls.exe  E:\marti\
 icacls.exe  E:\tc-copy-ntfs-perm-milan\
 cmd /c dir /q e:\
 cmd /c dir /q E:\tc-copy-ntfs-perm-milan
+icacls.exe  e:\
+cmd /c dir /q e:\
+icacls.exe  e:\
