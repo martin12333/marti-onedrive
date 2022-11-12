@@ -17,6 +17,10 @@ Get-PSReadLineOption
 
 takeown.exe /f e:\
 
+icacls E:\tc-copy-ntfs-perm-milan /inheritancelevel:e
+icacls E:\tc-copy-ntfs-perm-milan /inheritancelevel:e
+icacls E:\tc-copy-ntfs-perm-milan /inheritancelevel:e
+
 E:
 cmd /c dir /q
 cmd /c dir /q E:\tc-copy-ntfs-perm-milan

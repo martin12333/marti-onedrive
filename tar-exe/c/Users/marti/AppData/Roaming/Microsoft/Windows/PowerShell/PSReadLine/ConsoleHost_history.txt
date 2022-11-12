@@ -3190,3 +3190,10 @@ icacls.exe E:\ /setowner administrators /t /c
 icacls.exe E:\ /setowner administrators /t /c /q
 history
 icacls.exe E:\ /reset /t /c /q
+icacls E:\tc-copy-ntfs-perm-milan /inheritancelevel:e
+icacls E:\ /inheritancelevel:e
+icacls E:\marti\ /inheritancelevel:e
+icacls E:\marti\ /inheritancelevel:e   /t  /q
+icacls E:\ /inheritancelevel:e   /t  /q
+c:
+c:
