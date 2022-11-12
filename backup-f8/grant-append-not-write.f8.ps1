@@ -8,6 +8,7 @@ exit
 
 echo '-------- section --------'
 
+where.exe powershell.exe
 powershell.exe
 
 mkdir "d:\appendbyUSER"
@@ -26,17 +27,5 @@ use_mouse
 
 
 
-					
-mkdir "backup-f8"
-
-$newname=".\backup-f8\grant-append-not-write.f8.ps1"
-newname=".\backup-f8\grant-append-not-write.f8.ps1"
-
-cp -iv ".\f8-notebooks\00-TEMPLATE.f8.ps1" $newname
-
-git add -vv  '*.f8.*'
-git add -vv --dry-run '*.f8.*'
-
-code $newname
 
 
