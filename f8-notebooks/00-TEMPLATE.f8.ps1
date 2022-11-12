@@ -10,7 +10,10 @@ echo '-------- section --------'
 
 mkdir "backup-f8"
 
-$newname=".\backup-f8\grant-append-not-write.f8.ps1"
+#$newname=".\backup-f8\grant-append-not-write.f8.ps1"
+
+bash.exe
+
 newname=".\backup-f8\grant-append-not-write.f8.ps1"
 
 mv -iv ".\f8-notebooks\00-TEMPLATE.f8.sh" .\OLD

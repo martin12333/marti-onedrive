@@ -3951,3 +3951,8 @@ C:\pf\Git\bin\bash.exe
 echo "${OLD_ZSHRC}-$(date +%Y-%m-%d.%H)"
 git push
 C:\pf\Git\bin\bash.exe
+mkdir "d:\appendbyUSER"
+mkdir "d:\appendbyUSER\win-x-admin-powershell-mkdir"
+mkdir "d:\appendbyUSER\admin"
+echo sfdfsf
+C:\pf\Git\bin\bash.exe

@@ -78,6 +78,7 @@ git add -v  "C:\Users\marti\OneDrive\wiki-f8\zzzexperim--rdoc.rdoc"   "C:\Users\
 
 echo '-------- section --------'
 
+exit
 C:\pf\Git\bin\bash.exe
 
 	/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh

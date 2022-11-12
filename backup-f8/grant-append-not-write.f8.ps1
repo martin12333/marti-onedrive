@@ -8,6 +8,14 @@ exit
 
 echo '-------- section --------'
 
+powershell.exe
+
+mkdir "d:\appendbyUSER"
+mkdir "d:\appendbyUSER\admin"
+mkdir "d:\appendbyUSER\win-x-admin-powershell-mkdir"
+
+
+
 mkdir "backup-f8"
 
 $newname=".\backup-f8\grant-append-not-write.f8.ps1"
