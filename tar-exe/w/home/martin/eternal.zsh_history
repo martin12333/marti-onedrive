@@ -7966,3 +7966,22 @@ g\
 : 1667931625:0;echo '-------- section --------'
 : 1667932443:0;pseudo
 : 1667932497:0;pseudosh
+: 1667940614:0;cd podman*
+: 1667940637:0;echo $PATH|tr ':' '\n'|grep -i podman
+: 1667940647:0;echo $PATH|tr ':' '\n'
+: 1667940667:0;ls /mnt
+: 1667940676:0;ll /mnt
+: 1667940691:0;ls -latr /mnt
+: 1667940713:0;ls -latr /mnt/wsl
+: 1667940744:0;cat /mnt/wsl/resolv.conf
+: 1667940776:0;cat /etc/wsl.conf
+: 1667946938:0;exit
+: 1668030770:0;mc -b
+: 1668030795:0;cd
+: 1668030836:0;grep --fixed-strings /home/martin .*
+: 1668031503:0;echo $HOME
+: 1668031569:0;grep --fixed-strings /home/martin .config/**
+: 1668031576:0;grep --fixed-strings /home/martin .config/**/*
+: 1668031614:0;grep --fixed-strings /home/martin .config/*
+: 1668031637:0;grep --fixed-strings /home/martin .*/*
+: 1668203953:0;man bsdtar
