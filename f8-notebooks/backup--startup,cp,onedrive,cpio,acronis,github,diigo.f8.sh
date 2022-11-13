@@ -83,6 +83,10 @@ git add -v  "C:\Users\marti\OneDrive\wiki-f8\zzzexperim--rdoc.rdoc"   "C:\Users\
 
 echo '-------- section --------'
 
+git ls-files|grep ' '|grep f8   # spaces in names .... not ~ ~ tar cygpath
+
+echo '-------- section --------'
+
 exit
 C:\pf\Git\bin\bash.exe
 
