@@ -110,7 +110,7 @@ C:\pf\Git\bin\bash.exe
 	git show --name-only
 
 		#didnot help /d/dow too-long to read PROBABLY, too many files  ... prb in u2204 ...
-todo new mkdir /d/dow230
+todo pseudosh mkdir /d/dow230
 
 	wsl --list --all --verbose
 	wsl --shutdown
