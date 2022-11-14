@@ -3967,3 +3967,55 @@ icacls.exe  e:\
 cmd /c dir /q e:\
 icacls.exe  e:\
 C:\pf\Git\bin\bash.exe
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i ide
+Get-PSHostProcessInfo
+Get-PSProvider
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i edit
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i edito
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i code
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i app
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i app|findstr '[$]'
+$PSSessionApplicationName
+history
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i ps
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i psi
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i ise
+help currentfile
+$WSMan:
+$WSMan
+$WSMan:localhost
+$Host
+[Microsoft.CodeAnalysis.Operations.IDeclarationExpressionOperation]
+$Host
+[System.ServiceModel.Channels.ISecurityCapabilities]
+[Microsoft.VisualBasic.AppWinStyle]
+[System.ServiceModel.Syndication.Workspace]
+Get-Host
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i ise
+[System.Management.Automation.Host.PSHost]
+$Host
+$Host.GetType()
+Get-Host
+[powershell]
+[Microsoft.PowerShell.Commands]
+[Microsoft.PowerShell.Internal]
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i edit
+Get-Host
+$PSEditor
+history
+history[0]
+(history)
+(history)[0]
+(history)[0].CommandLine
+. "c:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1"
+$PSHOME
+$PSCommandPath
+$PSScriptRoot
+$PSDebugContext
+code "c:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1"
+[Microsoft.PowerShell.Commands.PSEditionArgumentCompleter]
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i psedit
+$psEditor
+$psEditor|select *
+($psEditor).GetEditorContext()
+$psEditor.GetEditorContext()

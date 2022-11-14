@@ -3201,3 +3201,13 @@ icacls.exe E:\marti\ /grant 'marti:(oi)(ci)(f)' /t /c
 takeown.exe /f e:\  /a     /r /d y 
 icacls.exe E:\ /setowner administrators /t /c /q
 icacls.exe E:\ /reset /t /c /q
+$PSEditor
+history
+$psEditor
+($psEditor).GetEditorContext()
+$PSCommandPath
+$PSScriptRoot
+$psEditor.GetEditorContext()
+$psEditor.GetEditorContext
+$PSVersionTable
+Get-PSHostProcessInfo
