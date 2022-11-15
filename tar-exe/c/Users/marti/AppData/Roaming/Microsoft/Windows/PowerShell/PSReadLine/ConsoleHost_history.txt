@@ -3211,3 +3211,10 @@ $psEditor.GetEditorContext()
 $psEditor.GetEditorContext
 $PSVersionTable
 Get-PSHostProcessInfo
+$psEditor
+($psEditor).GetEditorContext()
+$psEditor
+show-ps
+show-
+$PSEditor
+$PSScriptRoot

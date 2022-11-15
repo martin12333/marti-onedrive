@@ -4019,3 +4019,150 @@ $psEditor
 $psEditor|select *
 ($psEditor).GetEditorContext()
 $psEditor.GetEditorContext()
+$psEditor
+. "c:\Users\marti\OneDrive\vscode-zsh-bash-gitbash-pwsh\a.ps1"
+. "c:\Users\marti\OneDrive\vscode-zsh-bash-gitbash-pwsh\a.ps1"
+$psEditor|select *
+$psEditor.GetEditorContext()
+$psEditor
+$psEditor.Workspace
+$psEditor.GetEditorContext()
+$psEditor|select *
+($psEditor).GetEditorContext()
+$PSDebugContext
+$PSScriptRoot
+$PSCommandPath
+$PSHOME
+Get-Host
+$Host
+$PSVersionTable
+$psEditor.GetEditorContext
+$psEditor.GetEditorContext()
+($psEditor).GetEditorContext().CurrentFile
+($psEditor).GetEditorContext().CurrentFile.Ast
+$PSSessionOption
+$PSSessionConfigurationName
+$PSSessionApplicationName
+$PSScriptRoot
+$PSHOME
+$PSEdition
+$PSCommandPath
+$psEditor|select *
+$psEditor|  Get-Member
+$psEditor|  Format-List -Property *
+Get-Service -Name WinDefend
+Get-Service -Name WinDefend | Format-List
+Get-Service -Name WinDefend | Get-Member
+Get-Service -Name WinDefend | Format-List -Property *
+$object = Get-Process | select -first 3
+$object
+foreach ($x in $object | get-member) {`
+if ($x.MemberType -eq Property -and $x.Name -notlike __*) {`
+write-host `nName : $x.Name`
+write-host Type : $x.Definition.Split( )[0]`
+write-host Count: $object.$($x.Name).count`
+write-host Value: $object.$($x.Name)`
+}
+foreach ($x in $object | get-member) {`
+if ($x.MemberType -eq "Property" -and $x.Name -notlike "__*") {`
+write-host `nName : $x.Name`
+write-host Type : $x.Definition.Split( )[0]`
+write-host Count: $object.$($x.Name).count`
+write-host Value: $object.$($x.Name)`
+}`
+}
+foreach ($x in $object | get-member) {Write-Host $x}
+foreach ($x in $object ) {Write-Host $x}
+$object | get-member
+foreach ($x in $object | get-member) {Write-Host $x.Id}
+foreach ($x in $object | get-member) {Write-Host $x.Id}|Measure-Object
+foreach ($x in $object | get-member) {Write-Host $x.Id} | Measure-Object
+foreach ($x in $object | get-member) {Write-Host $x.Name}
+$obj=$psEditor
+$obj.Psobject.Properties.name # <- Property names
+$obj.Psobject.Properties
+$obj.Psobject
+$psEditor|  Get-Member
+$psEditor|  Format-List -Property *
+$psEditor|select *
+$psEditor|  Format-List *
+$psEditor|  Format-List
+Get-Service -Name WinDefend | Format-List
+Get-Service -Name WinDefend | Format-List|Measure-Object
+Get-Service -Name WinDefend | Get-Member
+Get-Service -Name WinDefend | Format-List  *
+Get-Service -Name WinDefend | Format-List -Property *
+$PSEditor.GetCommands()
+$PSEditor.GetEditorContext()
+$PSEditor.Window
+$PSEditor.Window()
+$PSEditor.Window|Get-Member
+$PSEditor.Workspace|Get-Member
+$PSEditor.GetEditorContext().SelectedRange.Start
+$PSEditor.GetEditorContext().SetSelection("a")
+$PSEditor.GetEditorContext()|Get-Member
+$PSEditor.GetEditorContext()|Get-Member[3]
+$x=$PSEditor.GetEditorContext()|Get-Member
+$x
+$x[3]
+$x[3].Definition
+$PSEditor.GetEditorContext().ToString()
+$PSEditor.GetEditorContext().ToString().Length
+$PSEditor.GetEditorContext().ToString()|Get-Member
+$PSEditor.GetEditorContext()
+$PSEditor.GetEditorContext().SelectedRange
+$PSEditor.GetEditorContext().SelectedRange|Get-Member
+$PSEditor.GetEditorContext().SelectedRange.ToString
+$PSEditor.GetEditorContext().SelectedRange.ToString()
+$PSEditor.GetEditorContext().CurrentFile
+$PSEditor.GetEditorContext().CurrentFile.Uri
+$PSEditor.GetEditorContext().CurrentFile.WorkspacePath
+$PSEditor.GetEditorContext().CurrentFile.InsertText('@@@@')
+$PSEditor.GetEditorContext().CurrentFile.FileRange
+$PSEditor.GetEditorContext().CurrentFile.FileRange|Get-Member
+$r = $PSEditor.GetEditorContext().CurrentFile.FileRange
+$PSEditor.GetEditorContext().CurrentFile.GetText($r)
+$r = $PSEditor.GetEditorContext().CurrentFile.FileRange
+$PSEditor.GetEditorContext().CurrentFile.GetText($r)
+$PSEditor.GetEditorContext().CurrentFile.GetTextLines(($r)`
+$PSEditor.GetEditorContext().CurrentFile.GetTextLines($r)
+$PSEditor.GetEditorContext().CurrentFile.GetTextLines($r)
+$PSEditor.GetEditorContext().CurrentFile.GetTextLines()
+$PSEditor.GetEditorContext().CurrentFile.GetText()
+$r
+$r.Start
+$r.End
+$PSEditor.Window
+$r = $PSEditor.GetEditorContext().CurrentFile.FileRange
+$r.End
+$r.Start
+$r.Start$r=$PSEditor.GetEditorContext().SelectedRange
+$r=$PSEditor.GetEditorContext().SelectedRange
+$r.Start
+$r.End
+$r=$PSEditor.GetEditorContext().SelectedRange
+$r.End
+$r.Start
+$PSEditor.GetEditorContext().CurrentFile.GetTextLines($r)
+$PSEditor.GetEditorContext().CurrentFile.GetTextLines($r.Start, $r.End)
+$PSEditor.GetEditorContext().CurrentFile.GetTextLines(97,1,99,1)
+$PSEditor.GetEditorContext().CurrentFile.GetTextLines(97,1,99)
+$PSEditor.GetEditorContext().CurrentFile.GetTextLines($PSEditor.GetEditorContext().CurrentFile.GetTextLines($r)`
+$PSEditor.GetEditorContext().CurrentFile.GetTextLines($r)
+$PSEditor.GetEditorContext().CurrentFile.GetTextLines($r)
+$x=$PSEditor.GetEditorContext().CurrentFile|Get-Member
+$x
+$x[2].Definition
+$PSEditor
+$PSEditor.GetEditorContext()
+$PSEditor.GetEditorContext().GetType()
+$PSEditor.GetType()
+[Microsoft.PowerShell.EditorServices]
+[Microsoft.PowerShell]
+Microsoft.PowerShell.EditorServices
+[Microsoft.PowerShell.EditorServices.VSCode]
+[Microsoft.PowerShell.EditorServices.VSCode.CustomViews]
+$x[2].Definition
+$psEditor|select *
+$psEditor
+C:\pf\Git\bin\bash.exe
