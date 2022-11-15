@@ -4166,3 +4166,4 @@ $x[2].Definition
 $psEditor|select *
 $psEditor
 C:\pf\Git\bin\bash.exe
+$psEditor
