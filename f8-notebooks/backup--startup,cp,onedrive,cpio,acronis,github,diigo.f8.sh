@@ -71,10 +71,15 @@ git add -v '/c/Users/marti/OneDrive/tar-exe/u/home/martin/.zshrc'    '/c/Users/m
 
 git add -v  "C:\Users\marti\OneDrive\wiki-f8\zzzexperim--rdoc.rdoc"   "C:\Users\marti\OneDrive\wiki-f8\zzza-textile-file.textile"  "C:\Users\marti\OneDrive\wiki-f8\zzza-textile-file - Copy.txt"  "C:\Users\marti\OneDrive\tar-exe\c\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt"
 
-
 	git add -vv       --dry-run       '*sprea*iss*'
-	##    '*f8.*'
 
+	git add -vv       --dry-run       .gitignore  'install.sh*'
+	git add -vv       --dry-run      '*.gitignore'  '*install.sh'
+	git add -vv       --dry-run       '*/.gitignore'  '*/install.sh'
+	git add -vv       --dry-run       '*s/.gitignore'  '*s/install.sh'
+	git add -vv        '*s/.gitignore'  '*s/install.sh'
+
+	##    '*f8.*'
 	git add -vv  '*.f8.*'
 	#git add -vv         --dry-run       '*.f8.*'
 
