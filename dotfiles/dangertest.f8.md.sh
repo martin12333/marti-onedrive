@@ -3,7 +3,7 @@ mm_f8_doc
 
 dangertest
 
-```shell
+#```shell
 
 
 info '(coreutils) cp invocation'
@@ -23,6 +23,19 @@ ls -1R mc*
 cd
 mv -v --backup=numbered  testhome OLD
 mkdir testhome
+
+
+mv -v --backup=numbered  testhome OLD
+mkdir testhome
+
+
+echo '-------- section --------'
+cd
+mkdir dotfiles
+
+cp -R -v --backup=numbered  mc/. mcslashdotexist
+/mnt/c/Users/marti/OneDrive/dotfiles
+
 
 @@@@@@@@@@@@@@
 
