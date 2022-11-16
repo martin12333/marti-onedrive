@@ -1,6 +1,7 @@
 
 mm_f8_doc
 
+dangertest
 
 ```shell
 
@@ -15,13 +16,17 @@ cp -R -v --backup=numbered  mc/. mcslashdotexist
 
 cp -R -v --backup=numbered  mc/. mcslashdotexist
 
-
 ls -1R mc*
 
 ===============
 
 cd
-mkdir cptest
+mv -v --backup=numbered  testhome OLD
+mkdir testhome
+
+@@@@@@@@@@@@@@
+
+
 cd cptest
 
 mkdir mc
