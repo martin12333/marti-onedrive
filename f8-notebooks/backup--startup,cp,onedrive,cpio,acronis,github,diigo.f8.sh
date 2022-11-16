@@ -104,6 +104,7 @@ C:\pf\Git\bin\bash.exe
 	git commit -v -a -m bk-scripts--edited---
 	git commit -v -a -m bug-found
 	git commit -v -a -m fix
+	git commit -v -a -m patch-simplify-code
 	git commit -v -a -m false-alarm
 
 	git commit -v -a -m  rename
