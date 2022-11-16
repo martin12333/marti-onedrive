@@ -96,6 +96,7 @@ C:\pf\Git\bin\bash.exe
 
 	/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
 	git commit -v -a -m bk
+	git commit -v -a -m it-works
 	git commit -v -a -m new
 	git commit -v -a -m win-x-admin
 #	acro-sett,22bb-turn-off-auto-cleanup.zip

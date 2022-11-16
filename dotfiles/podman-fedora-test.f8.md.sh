@@ -12,19 +12,6 @@ exit
 
 echo '-------- section --------'
 
-#cd
-#cd .config
-#mkdir mcslashdotexist
-#cp -R -v --backup=numbered  mc/. mcslashdotexist
-#cp -R -v --backup=numbered  mc/. mcslashdotexist
-#ls -1R mc*
-
-#cd
-#mv -v --backup=numbered  testhome OLD
-#mkdir testhome
-
-echo '-------- section --------'
-
 
 cd
 #mkdir dotfiles
@@ -48,8 +35,11 @@ cp -R -v --backup=numbered  dir1.0/.  $HOME
 
 cp -R -v --backup=numbered  dir2.0/.  $HOME
 
- /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
+ls -la
+ls -la ~
+ls -1aR ~/.config
 
+cp -R -v --backup=numbered  dir2.0/.  $HOME
 
 
 todo rewrite @@@@@@@@@@@@@@
