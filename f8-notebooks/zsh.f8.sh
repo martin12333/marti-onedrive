@@ -374,6 +374,7 @@ gupomi='git pull --rebase=interactive origin $(git_main_branch)'
 gupv='git pull --rebase -v'
 node ➜ /home $
 
+alias    |grep clean
 
 
 
