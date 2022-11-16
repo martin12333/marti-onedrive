@@ -3,6 +3,7 @@
 
 #.git/
 *.git/
+##*.git/
 
 *.png
 
@@ -17,6 +18,6 @@
 *~
 #OLD*/
 OLD*
-*.git/
+
 .ipynb_checkpoints/
 overwrite/
