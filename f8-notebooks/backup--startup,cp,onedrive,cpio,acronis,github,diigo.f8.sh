@@ -77,7 +77,8 @@ git add -v  "C:\Users\marti\OneDrive\wiki-f8\zzzexperim--rdoc.rdoc"   "C:\Users\
 	git add -vv       --dry-run      '*.gitignore'  '*install.sh'
 	git add -vv       --dry-run       '*/.gitignore'  '*/install.sh'
 	git add -vv       --dry-run       '*s/.gitignore'  '*s/install.sh'
-	git add -vv        '*s/.gitignore'  '*s/install.sh'
+	git add -vv       --dry-run       '*s/.gitignore'  '*s/*install*.sh'
+	git add -vv        '*s/.gitignore'  '*s/*install*.sh'
 
 	##    '*f8.*'
 	git add -vv  '*.f8.*'
@@ -102,7 +103,7 @@ C:\pf\Git\bin\bash.exe
 	/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
 	git commit -v -a -m bk
 	git commit -v -a -m it-works
-	git commit -v -a -m new
+	git commit -v -a -m add
 	git commit -v -a -m win-x-admin
 #	acro-sett,22bb-turn-off-auto-cleanup.zip
 	git commit -v -a -m acro-sett,22bb-turn-off-auto-cleanup
