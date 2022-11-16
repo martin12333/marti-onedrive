@@ -5,6 +5,7 @@ dangertest
 
 #```shell
 
+zsh  # discern prompt from bash later
 
 info '(coreutils) cp invocation'
 
@@ -33,12 +34,12 @@ echo '-------- section --------'
 cd
 mkdir dotfiles
 
-cp -R -v --backup=numbered  mc/. mcslashdotexist
-/mnt/c/Users/marti/OneDrive/dotfiles
+cp -R -v --backup=numbered  /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
+cp -R -v --backup=numbered  /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
 
 
 @@@@@@@@@@@@@@
-
+todo rewriite
 
 cd cptest
 
