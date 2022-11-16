@@ -1,3 +1,4 @@
+
 mm_f8_doc
 
 
@@ -6,6 +7,18 @@ mm_f8_doc
 
 info '(coreutils) cp invocation'
 
+
+cd
+cd .config
+mkdir mcslashdotexist
+cp -R -v --backup=numbered  mc/. mcslashdotexist
+
+cp -R -v --backup=numbered  mc/. mcslashdotexist
+
+
+ls -1R mc*
+
+===============
 
 cd
 mkdir cptest
@@ -89,6 +102,9 @@ ini.~1~
 ./mcslashdotnew:
 ini
 ➜  cptest git:(wsl) ✗
+
+
+
 
 
 

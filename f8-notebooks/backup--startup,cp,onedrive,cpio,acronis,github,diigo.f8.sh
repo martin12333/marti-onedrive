@@ -92,6 +92,8 @@ C:\pf\Git\bin\bash.exe
 
 # "f8_doc" in *.tib
 
+	git add -vv  '*.f8.*'
+
 	/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
 	git commit -v -a -m bk
 	git commit -v -a -m new
