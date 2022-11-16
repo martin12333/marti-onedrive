@@ -4,46 +4,58 @@ exit
 
 (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
+
+#```shell
+
+
+
+
+echo '-------- section --------'
+
+#cd
+#cd .config
+#mkdir mcslashdotexist
+#cp -R -v --backup=numbered  mc/. mcslashdotexist
+#cp -R -v --backup=numbered  mc/. mcslashdotexist
+#ls -1R mc*
+
+#cd
+#mv -v --backup=numbered  testhome OLD
+#mkdir testhome
+
 echo '-------- section --------'
 
 
+cd
+#mkdir dotfiles
+#mv -iv dotfiles OLD
+cp -R -v --backup=numbered  /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
+
+ls
+ll
+###lah
+ls -la
+ls -1aR dotfiles
+
+cp -R -v --backup=numbered  /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
 
 
+echo '-------- section --------'
 
+cd dotfiles
 
+cp -R -v --backup=numbered  dir1.0/.  $HOME
 
-#```shell
+cp -R -v --backup=numbered  dir2.0/.  $HOME
+
+ /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
+
 
 
 todo rewrite @@@@@@@@@@@@@@
 
 
 
-cd
-cd .config
-mkdir mcslashdotexist
-cp -R -v --backup=numbered  mc/. mcslashdotexist
-
-cp -R -v --backup=numbered  mc/. mcslashdotexist
-
-ls -1R mc*
-
-===============
-
-cd
-mv -v --backup=numbered  testhome OLD
-mkdir testhome
-
-
-mv -v --backup=numbered  testhome OLD
-mkdir testhome
-
-
-echo '-------- section --------'
-cd
-mkdir dotfiles
-
-cp -R -v --backup=numbered  /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
 cp -R -v --backup=numbered  /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
 
 echo '-------- section --------'
