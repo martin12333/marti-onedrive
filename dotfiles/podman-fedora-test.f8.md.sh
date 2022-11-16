@@ -15,16 +15,16 @@ echo '-------- section --------'
 
 cd
 #mkdir dotfiles
-#mv -iv dotfiles OLD
-cp -R -v --backup=numbered  /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
+mv -v  --backup=numbered  dotfiles OLD
+cp -R -v -i /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
+#cp -R -v --backup=numbered  /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
 
 ls
 ll
 ###lah
 ls -la
 ls -1aR dotfiles
-
-cp -R -v --backup=numbered  /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
+#cp -R -v --backup=numbered  /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
 
 
 echo '-------- section --------'
@@ -38,7 +38,6 @@ cp -R -v --backup=numbered  dir2.0/.  $HOME
 ls -la
 ls -la ~
 ls -1aR ~/.config
-
 cp -R -v --backup=numbered  dir2.0/.  $HOME
 
 
@@ -46,11 +45,8 @@ todo rewrite @@@@@@@@@@@@@@
 
 
 
-cp -R -v --backup=numbered  /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
 
-echo '-------- section --------'
 
-bash # discern
 
 @@@@@@@@@@@@@@
 todo from paper IV.
