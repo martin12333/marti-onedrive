@@ -9,6 +9,14 @@ do-not run this file as a whole
 )
 exit
 
+
+
+related
+
+code 'C:\Users\marti\OneDrive\f8-notebooks\get-unix-info--id,env,ls.f8.sh'  ##
+
+
+
 echo '-------- section --------'
 
 once
@@ -48,6 +56,14 @@ rpm -qa |grep -i tool
 
 dnf list podman
 dnf info podman
+
+echo '-------- section --------'
+
+
+dnf list
+dnf history
+dnf alias
+dnf shell
 
 
 
