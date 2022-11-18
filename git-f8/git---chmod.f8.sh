@@ -22,11 +22,13 @@ cd experim
 git ls-files --stage
 git ls-files --stage|grep 0755
 git ls-files
-git update-index --chmod=+x 'scriptname.ext'
+git update-index
+--verbose
+
+ --chmod=+x 'scriptname.ext'
 # --add  ??
 #--add
 #If a specified file isn’t in the index already then it’s added. Default behaviour is to ignore new files.
---verbose
 
 <file>
 Files to act on. Note that files beginning with . are discarded. This includes ./file and dir/./file. If you don’t want this, then use cleaner names. The same applies to directories ending / and paths with //
@@ -141,8 +143,10 @@ You can either change it to true in your favorite text editor, or run:
 
 git config core.filemode true
 Then, you should be able to commit normally your files. It will only commit t
+'
 
 
+If you override this core.filemode setting, Git may begin behaving strangely. If you do change this setting, be sure you understand all of the above.
 
 
 
