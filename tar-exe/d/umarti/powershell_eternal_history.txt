@@ -4167,3 +4167,8 @@ $psEditor|select *
 $psEditor
 C:\pf\Git\bin\bash.exe
 $psEditor
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i tr
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr   tr.e
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr   tr.ex
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr   wc.ex
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr   wc

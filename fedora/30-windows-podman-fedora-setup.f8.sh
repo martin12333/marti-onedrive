@@ -44,6 +44,7 @@ echo '-------- section --------'
 echo '-------- section --------'
 
 dnf makecache --help
+dnf makecache
 dnf check-update --help
 
 echo '-------- section --------'
@@ -68,10 +69,24 @@ dnf alias
 dnf shell
 
 
+echo '-------- section --------'
+
+dnf search git-all
+dnf search git-all
+dnf info git-all
+
+sudo dnf install git-core
+y
+
+cd ..
+cd bstollnitz
+git ls-files
+
+echo '-------- section --------'
 
 
 
 
 
-
+echo '-------- section --------'
 
