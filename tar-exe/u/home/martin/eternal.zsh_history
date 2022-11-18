@@ -404,3 +404,4 @@ echo .irssi \ # mounts irssi  \\
 : 1668800596:0;dpkg -l | grep -i man
 : 1668800604:0;dpkg -l | grep -i man[-]
 : 1668800614:0;dpkg -l | grep -i 'man[-]'
+: 1668808184:0;echo $ZSH
