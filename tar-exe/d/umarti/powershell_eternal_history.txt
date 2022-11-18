@@ -4173,3 +4173,4 @@ history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr   tr
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr   wc.ex
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr   wc
 wsl -d Ubuntu-22.04
+/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh

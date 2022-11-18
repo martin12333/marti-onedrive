@@ -15,6 +15,11 @@ related
 
 code 'C:\Users\marti\OneDrive\dotfiles\install.sh'
 
+copy from
+code 'C:\Users\marti\OneDrive\dotfiles\experim\early-podman-fedora-test.f8.md.sh'
+
+
+
 code 'C:\Users\marti\OneDrive\f8-notebooks\get-unix-info--id,env,ls.f8.sh'  ##
 
 
@@ -102,9 +107,6 @@ No manual entry for git
 
 echo '-------- section --------'
 
-moving from
-code C:\Users\marti\OneDrive\dotfiles\experim\early-podman-fedora-test.f8.md.sh
-
 
 cd
 #mkdir dotfiles
@@ -120,3 +122,32 @@ ls -la
 ls -latr
 ls -1aR dotfiles
 #cp -R -v --backup=numbered  /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
+
+
+
+
+echo '-------- section --------'
+
+cd dotfiles
+
+# todo install.sh
+#cp -R -v --backup=numbered  dir1.0/.  $HOME
+cp -R -v --no-clobber  dir1.0/.  $HOME
+
+#cp -R -v --backup=numbered  dir2.0/.  $HOME
+cp -R -v --no-clobber  no-clobber/.  $HOME
+
+
+
+ls -la
+ls -la ~
+ls -1aR ~/.config
+#cp -R -v --backup=numbered  dir2.0/.  $HOME
+cp -R -v --no-clobber  no-clobber/.  $HOME
+
+
+echo '-------- section --------'
+
+
+
+
