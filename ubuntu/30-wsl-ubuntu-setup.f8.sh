@@ -98,22 +98,21 @@ Get-PSDrive
 ##################################
 
 ## u20 to  u22
-# res pnt
-# get disk free space
+pseudosh res pnt
+pseudosh get disk free space  cmd /c dir c:
 ms store ..... open
 
-
+echo '-------- section --------'
 
 sudo apt update
 
 sudo apt install mc zsh zsh-doc \
-			zsh-autosuggestions  \
-		zsh-syntax-highlighting
+###			zsh-autosuggestions  \
+	###	zsh-syntax-highlighting
 
 #df -m
 
 mc -b
-
 
 cd
 cd .config/mc
@@ -123,8 +122,12 @@ cp -iv ini2 ini
 
 
 apt download zsh-doc \
-			zsh-autosuggestions  \
-		zsh-syntax-highlighting
+		#	zsh-autosuggestions  \
+	#	zsh-syntax-highlighting
+
+
+echo '-------- section --------'
+
 
 sudo apt install podman
 sudo apt install podman-docker
@@ -152,7 +155,7 @@ echo '-------- section --------'
 cd
 cp -iv .zshrc 22at.zshrc
 
-zsh.f8
+code zsh.f8.sh
 
 
 
