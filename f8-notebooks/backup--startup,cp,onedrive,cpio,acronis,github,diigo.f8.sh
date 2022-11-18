@@ -115,6 +115,7 @@ C:\pf\Git\bin\bash.exe
 	git commit -v -a -m false-alarm
 
 	git commit -v -a -m  rename
+	git commit -v -a -m  rewrite
 	git commit -v -a -m  before-refactor
 	git commit -v -a -m  partial-refactor
 	git commit -v -a -m  refactor

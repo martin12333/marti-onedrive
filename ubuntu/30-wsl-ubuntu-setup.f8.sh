@@ -5,6 +5,14 @@ exit
 
 echo '---- section ----'
 
+
+related
+
+code 'C:\Users\marti\OneDrive\f8-notebooks\get-unix-info--id,env,ls.f8.sh'
+
+code 'C:\Users\marti\OneDrive\dotfiles\install.sh'
+
+
 wsl
 zsh
 

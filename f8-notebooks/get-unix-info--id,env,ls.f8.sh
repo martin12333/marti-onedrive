@@ -31,6 +31,7 @@ df -m
 cat /etc/wsl.conf
 
 cat /etc/os-release
+uname -a
 
 
 
