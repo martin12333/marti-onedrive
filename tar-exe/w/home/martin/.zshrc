@@ -73,6 +73,48 @@ ZSH_THEME="robbyrussell"
 ###plugins=(git)
 #plugins=(git docker)
 #plugins=(docker)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS="true"
+
+HYPHEN_INSENSITIVE="true"
+
+#zstyle ':omz:update' mode disabled  # disable automatic updates
+DISABLE_AUTO_UPDATE="true"
+
 plugins=(docker)
 source $ZSH/oh-my-zsh.sh
 
