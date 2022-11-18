@@ -8,7 +8,8 @@ exit
 #```shell
 
 
-
+moving to
+code C:\Users\marti\OneDrive\fedora\30-windows-podman-fedora-setup.f8.sh
 
 echo '-------- section --------'
 
@@ -33,7 +34,7 @@ echo '-------- section --------'
 
 cd dotfiles
 
-# todo install.sh 
+# todo install.sh
 cp -R -v --backup=numbered  dir1.0/.  $HOME
 
 cp -R -v --backup=numbered  dir2.0/.  $HOME
@@ -45,48 +46,6 @@ cp -R -v --backup=numbered  dir2.0/.  $HOME
 
 
 todo rewrite @@@@@@@@@@@@@@
-
-
-
-
-
-
-@@@@@@@@@@@@@@
-todo from paper IV.
-
-todo rewrite
-cd cptest
-mkdir mc
-touch mc/ini
-ls -1R mc
-ls -lR mc
-
-todo rewrite
-mkdir mcexist mcslashdotexist
-cp -R -v --backup=numbered  mc mcexist
-cp -R -v --backup=numbered  mc/. mcslashdotexist
-
-cp -R -v --backup=numbered  mc mcnew
-cp -R -v --backup=numbered  mc/. mcslashdotnew
-
-
-ls -1R
-ls -lR
-----------------------
-------------------------
-
-
-todo rewrite
-cp -R -v --backup=numbered  mc mcexist
-cp -R -v --backup=numbered  mc/. mcslashdotexist
-
-ls -1R
-
-➜  cptest git:(wsl) ✗ ls -1R
-
-➜  cptest git:(wsl) ✗
-
-
 
 
 
