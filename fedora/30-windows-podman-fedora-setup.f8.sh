@@ -76,6 +76,12 @@ dnf search git-all
 dnf info git-all
 
 sudo dnf install git-core
+sudo dnf install git
+sudo dnf install git-core-doc
+sudo dnf install man-db
+sudo dnf install curl wget
+sudo dnf install zsh
+sudo dnf install mc
 y
 
 cd ..
@@ -85,6 +91,12 @@ git ls-files
 echo '-------- section --------'
 
 
+[user@len20 bstollnitz]$ man man
+No manual entry for man
+[user@len20 bstollnitz]$ man podman
+No manual entry for podman
+[user@len20 bstollnitz]$ man git
+No manual entry for git
 
 
 
