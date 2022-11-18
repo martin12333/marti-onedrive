@@ -7985,3 +7985,53 @@ g\
 : 1668031614:0;grep --fixed-strings /home/martin .config/*
 : 1668031637:0;grep --fixed-strings /home/martin .*/*
 : 1668203953:0;man bsdtar
+: 1668615753:0;info '(coreutils) cp invocation'
+: 1668621112:0;cd
+: 1668621114:0;mkdir cptest
+: 1668621116:0;cd cptest
+: 1668621128:0;mkdir mc
+: 1668621142:0;touch mc/ini
+: 1668621153:0;ls -1R mc
+: 1668621171:0;ls -lR mc
+: 1668621220:0;mkdir mcexist mcslashdotexist
+: 1668621303:0;cp -R -v --backup=numbered  mc mcexist
+: 1668621343:0;cp -R -v --backup=numbered  mc/. mcslashdotexist
+: 1668621378:0;cp -R -v --backup=numbered  mc mcnew
+: 1668621399:0;cp -R -v --backup=numbered  mc/. mcslashdotnew
+: 1668621518:0;ls -1R mc
+: 1668621525:0;ls -1R
+: 1668621618:0;cp -R -v --backup=numbered  mc mcexist
+: 1668621658:0;cp -R -v --backup=numbered  mc/. mcslashdotexist
+: 1668621774:0;ls -1R
+: 1668622264:0;cd
+: 1668622265:0;cd .config
+: 1668622285:0;mkdir mcslashdotexist
+: 1668622302:0;cp -R -v --backup=numbered  mc/. mcslashdotexist
+: 1668622378:0;ls -1R
+: 1668622384:0;ls -1R mc*
+: 1668623193:0;mkdir mcslashdotexist
+: 1668623203:0;cd
+: 1668623204:0;mv -v --backup=numbered  testhome OLD
+: 1668623210:0;mkdir testhome
+: 1668623286:0;mv -v --backup=numbered  testhome OLD
+: 1668623291:0;mkdir testhome
+: 1668623293:0;mv -v --backup=numbered  testhome OLD
+: 1668623300:0;mkdir testhome
+: 1668623303:0;mv -v --backup=numbered  testhome OLD
+: 1668623336:0;mkdir testhome
+: 1668623338:0;mv -v --backup=numbered  testhome OLD
+: 1668623340:0;mkdir testhome
+: 1668623713:0;cp -R -v --backup=numbered  /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
+: 1668712911:0;cd -
+: 1668712916:0;cd -2
+: 1668712920:0;cd -5
+: 1668712923:0;cd -4
+: 1668712925:0;cd -3
+: 1668712932:0;ls -latr
+: 1668712949:0;cd dotfiles
+: 1668712951:0;ls -latr
+: 1668713138:0;cd
+: 1668713142:0;git clone https://github.com/bstollnitz/dotfiles.git   bstollnitz
+: 1668713154:0;cd bstollnitz
+: 1668713157:0;ls -latr
+: 1668713187:0;cd -2

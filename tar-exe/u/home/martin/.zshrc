@@ -72,6 +72,19 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 
 
+
+
+
+
+
+
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS="true"
+
+HYPHEN_INSENSITIVE="true"
+
+zstyle ':omz:update' mode disabled  # disable automatic updates
+DISABLE_AUTO_UPDATE="true"
 ###plugins=(git)
 plugins=(docker )
 source $ZSH/oh-my-zsh.sh
@@ -108,4 +121,4 @@ HISTFILE=/home/martin/eternal.zsh_history
 #HISTFILE=/home/martin/zsh_eternal_history
 HISTSIZE=198000
 SAVEHIST=198000
-DISABLE_AUTO_UPDATE="true"
+### move up DISABLE_AUTO_UPDATE="true"
