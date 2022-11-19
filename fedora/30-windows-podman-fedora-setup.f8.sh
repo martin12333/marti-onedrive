@@ -118,6 +118,7 @@ cd dotfiles
 todo git pull
 
 todo comment-out
+cd
 mv -v  --backup=numbered  dotfiles OLD
 cp -R -v -i /mnt/c/Users/marti/OneDrive/dotfiles  .
 ##cp -R -v -i /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles

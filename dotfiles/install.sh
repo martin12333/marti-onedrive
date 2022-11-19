@@ -10,7 +10,6 @@ set -x
 
 script_dir=$(dirname "$(readlink -f "$0")")
 
-
 echo $script_dir
 
 ##cp -R -v --backup=numbered  dir1.0/.  $HOME
@@ -18,6 +17,7 @@ echo $script_dir
 
 ###cp -R -v --backup=numbered  dir2.0/.  $HOME
 cp -R -v --no-clobber  no-clobber/.  $HOME
+cp -R -v --no-clobber               $script_dir/no-clobber/.  $HOME
 
 
 
