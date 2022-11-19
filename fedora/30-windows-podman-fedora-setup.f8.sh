@@ -117,14 +117,6 @@ todo git clone dotfiles
 cd dotfiles
 todo git pull
 
-todo comment-out
-cd
-mv -v  --backup=numbered  dotfiles OLD
-cp -R -v -i /mnt/c/Users/marti/OneDrive/dotfiles  .
-##cp -R -v -i /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
-##cp -R -v --backup=numbered  /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
-###mkdir dotfiles
-
 
 ls -la
 ls -latr
@@ -133,14 +125,23 @@ ls -1aR dotfiles
 
 
 
-echo '-------- section --------'
+##cp -R -v -i /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
+##cp -R -v --backup=numbered  /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
+###mkdir dotfiles
+todo comment-out
+cd
+mv -v  --backup=numbered  dotfiles OLD
+cp -R -v -i /mnt/c/Users/marti/OneDrive/dotfiles  .
 
-cd dotfiles
-./install.sh
+
 
 dotfiles/install.sh
-cat dotfiles/install.sh
+#cat dotfiles/install.sh
 
+#cd dotfiles
+#./install.sh
+
+echo '-------- section --------'
 
 ls -la
 ls -la ~
