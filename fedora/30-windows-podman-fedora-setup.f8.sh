@@ -134,9 +134,14 @@ mv -v  --backup=numbered  dotfiles OLD
 cp -R -v -i /mnt/c/Users/marti/OneDrive/dotfiles  .
 
 
-
 dotfiles/install.sh
-#cat dotfiles/install.sh
+
+ls -l dotfiles/install.sh
+chmod a-x dotfiles/install.sh
+bash  dotfiles/install.sh
+##bash -c dotfiles/install.sh
+
+cat dotfiles/install.sh
 
 #cd dotfiles
 #./install.sh
