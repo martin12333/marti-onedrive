@@ -69,7 +69,7 @@ git add -v '/c/Users/marti/OneDrive/tar-exe/u/home/martin/.zshrc'    '/c/Users/m
 
 	git add -vv 'C:\Users\marti\OneDrive\conn\writing22.md' "C:\Users\marti\OneDrive\task-scheduler--win\po-pulnoci23.xml"   "C:\Users\marti\OneDrive\wiki-f8\a-mediawiki-file.mediawiki"  "C:\Users\marti\OneDrive\wiki-f8\a-markdown-file.md"
 
-git add -v  "C:\Users\marti\OneDrive\wiki-f8\zzzexperim--rdoc.rdoc"   "C:\Users\marti\OneDrive\wiki-f8\zzza-textile-file.textile"  "C:\Users\marti\OneDrive\wiki-f8\zzza-textile-file - Copy.txt"  "C:\Users\marti\OneDrive\tar-exe\c\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt"
+git add -v  "C:\Users\marti\OneDrive\wiki-f8\zzzexperim--rdoc.rdoc"   "C:\Users\marti\OneDrive\wiki-f8\zzza-textile-file.textile"  "C:\Users\marti\OneDrive\wiki-f8\zzza-textile-file - Copy.txt"  "C:\Users\marti\OneDrive\tar-exe\c\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt" '/c/Users/marti/OneDrive/tar-exe/c/Users/marti/.wslconfig'
 
 	git add -vv       --dry-run       '*sprea*iss*'
 
