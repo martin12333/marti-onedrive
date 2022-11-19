@@ -107,13 +107,22 @@ No manual entry for git
 
 echo '-------- section --------'
 
-
 cd
-#mkdir dotfiles
+
+todo
+once
+mv -v  --backup=numbered  dotfiles OLD
+todo git clone dotfiles
+
+cd dotfiles
+todo git pull
+
+todo comment-out
 mv -v  --backup=numbered  dotfiles OLD
 cp -R -v -i /mnt/c/Users/marti/OneDrive/dotfiles  .
-#cp -R -v -i /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
-#cp -R -v --backup=numbered  /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
+##cp -R -v -i /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
+##cp -R -v --backup=numbered  /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
+###mkdir dotfiles
 
 
 ls -la
