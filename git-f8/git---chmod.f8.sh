@@ -7,8 +7,21 @@ do-not run this file as a whole
 exit
 
 echo '-------- section --------'
+echo '-------- section --------'
 
 
+
+https://burkeholland.dev/posts/codespaces-dotfiles/
+Step 5. Mark the install script as executable with git
+Now you need to tell git that this file is executable. I figured this out just last week after getting “file is not executable” over and over and Googling my fingers off. You need to git add the “install.sh” as executable. If you’ve already added it, remove it with git rm --cached install.sh.
+git add install.sh --chmod=+x
+You can also mark the file as executable with git update-index --chmod=+x install.sh, but if you do that, every time you change the script file the executable bit will get flipped off and you’ll have to run that command again and you will forget and get stuck in a cycle of “file is not executable” and you will subconsciously blame me and I don’t need that on my conscience.
+NOTE: After you add the install.sh with the +x (executable) bit turned on and commit, git may still show that install.sh file as having changes. Reject those changes because you’ll just be flipping the bit back. It’s tedious. I know.
+Now commit all your files and push them to your repo.
+
+
+echo '-------- section --------'
+echo '-------- section --------'
 
 git-bash.exe   shows different perm than wsl
 git bash some x some not
