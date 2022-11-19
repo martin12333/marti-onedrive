@@ -136,11 +136,10 @@ ls -1aR dotfiles
 echo '-------- section --------'
 
 cd dotfiles
-
-
-
 ./install.sh
 
+dotfiles/install.sh
+cat dotfiles/install.sh
 
 
 ls -la

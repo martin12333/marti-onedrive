@@ -16,8 +16,9 @@ echo $script_dir
 #cp -R -v --no-clobber  dir1.0/.  $HOME
 
 ###cp -R -v --backup=numbered  dir2.0/.  $HOME
-cp -R -v --no-clobber  no-clobber/.  $HOME
-cp -R -v --no-clobber               $script_dir/no-clobber/.  $HOME
+
+#cp -R -v --no-clobber  no-clobber/.  $HOME
+cp -R -v --no-clobber               $script_dir/no-clobber/.   $HOME
 
 
 
