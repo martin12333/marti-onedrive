@@ -131,11 +131,6 @@ echo '-------- section --------'
 cd dotfiles
 
 # todo install.sh
-#cp -R -v --backup=numbered  dir1.0/.  $HOME
-cp -R -v --no-clobber  dir1.0/.  $HOME
-
-#cp -R -v --backup=numbered  dir2.0/.  $HOME
-cp -R -v --no-clobber  no-clobber/.  $HOME
 
 
 

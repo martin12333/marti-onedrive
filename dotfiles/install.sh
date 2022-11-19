@@ -7,7 +7,20 @@ set -x
 
 #create_symlinks() {
     # Get the directory in which this script lives.
-    script_dir=$(dirname "$(readlink -f "$0")")
+
+script_dir=$(dirname "$(readlink -f "$0")")
+
+
+echo $script_dir
+
+##cp -R -v --backup=numbered  dir1.0/.  $HOME
+#cp -R -v --no-clobber  dir1.0/.  $HOME
+
+###cp -R -v --backup=numbered  dir2.0/.  $HOME
+cp -R -v --no-clobber  no-clobber/.  $HOME
+
+
+
 
     # Get a list of all files in this directory that start with a dot.
 #    files=$(find -maxdepth 1 -type f -name ".*")
@@ -17,7 +30,7 @@ set -x
 #        name=$(basename $file)
 #        echo "Creating symlink to $name in home directory."
         #####rm -rf ~/$name
-        #ln -s $script_dir/$name ~/$name
+        ##ln -s $script_dir/$name ~/$name
     #done
 #}
 
