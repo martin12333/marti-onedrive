@@ -415,3 +415,5 @@ echo .irssi \ # mounts irssi  \\
 : 1668961038:0;setopt|grep -i hist
 : 1668978458:0;env|grep martin
 : 1668980679:0;mc -b
+: 1668982177:0;omz version
+: 1668982723:0;zsh --version

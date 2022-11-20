@@ -94,6 +94,9 @@ echo '-------- section --------'
 
 zsh
 
+omz version
+zsh --version
+
 setopt|grep -i hist
 
 ➜  ~ setopt|grep -i hist
