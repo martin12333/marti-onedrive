@@ -73,12 +73,12 @@ git add -v  "C:\Users\marti\OneDrive\wiki-f8\zzzexperim--rdoc.rdoc"   "C:\Users\
 
 	git add -vv       --dry-run       '*sprea*iss*'
 
-	git add -vv       --dry-run       .gitignore  'install.sh*'
+	git add -vv       --dry-run       .gitignore    'install.sh*'
 	git add -vv       --dry-run      '*.gitignore'  '*install.sh'
 	git add -vv       --dry-run       '*/.gitignore'  '*/install.sh'
 	git add -vv       --dry-run       '*s/.gitignore'  '*s/install.sh'
-	git add -vv       --dry-run       '*s/.gitignore'  '*s/*install*.sh'
-	git add -vv        '*s/.gitignore'  '*s/*install*.sh'
+	git add -vv       --dry-run       '*s/.gitignore'  '*s/*install*.sh'   '*r/.zshrc'
+	git add -vv        '*s/.gitignore'  '*s/*install*.sh'   '*r/.zshrc'
 
 	##    '*f8.*'
 	git add -vv  '*.f8.*'
