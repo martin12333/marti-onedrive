@@ -94,6 +94,11 @@ echo '-------- section --------'
 
 zsh
 
+##which zstyle
+####help zstyle
+zstyle
+##command --help
+
 omz version
 zsh --version
 
