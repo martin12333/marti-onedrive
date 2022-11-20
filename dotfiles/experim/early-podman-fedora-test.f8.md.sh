@@ -8,8 +8,26 @@ exit
 #```shell
 
 
-moving to
-code C:\Users\marti\OneDrive\fedora\30-windows-podman-fedora-setup.f8.sh
+
+grep --recursive martin dotfiles
+###find dotfiles -
+echo $USER
+env|grep user
+env|grep martin
+
+
+
+
+
+
+
+
+moved to
+code 'C:\Users\marti\OneDrive\fedora\30-windows-podman-fedora-setup.f8.sh'
+
+
+
+
 
 echo '-------- section --------'
 
@@ -50,16 +68,18 @@ ls -1aR ~/.config
 cp -R -v --no-clobber  no-clobber/.  $HOME
 
 
+
+
+
+
+
+
+
+
+
+
+
 echo '-------- section --------'
-
-
-grep --recursive martin dotfiles
-find dotfiles -
-echo $USER
-env|grep user
-env|grep martin
-
-
 
 
 
