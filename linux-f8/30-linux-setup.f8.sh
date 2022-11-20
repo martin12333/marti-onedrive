@@ -93,6 +93,7 @@ y
 
 
 chsh -s $(which zsh)
+cat /etc/passwd
 
 
 

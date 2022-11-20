@@ -79,7 +79,15 @@ tar zcf ohmyzsh.tarz .oh-my-zsh
 
 echo '-------- section --------'
 
+cd
+if pseudosh  not exist .oh-my-zsh
+	tar ztf  dotfiles/ohmyzsh.tarz
+	#tar ztvf  dotfiles/ohmyzsh.tarz
+	tar zxf  dotfiles/ohmyzsh.tarz
+	du .oh-my-zsh|sort -n
+fi
 
+echo '-------- section --------'
 
 ###################################
 
