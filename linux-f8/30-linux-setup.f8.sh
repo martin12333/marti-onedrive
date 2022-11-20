@@ -17,14 +17,9 @@ code 'C:\Users\marti\OneDrive\f8-notebooks\get-unix-info--id,env,ls.f8.sh'
 
 code 'C:\Users\marti\OneDrive\dotfiles\install.sh'
 
-copy from
+moving from
 
 code 'C:\Users\marti\OneDrive\fedora\30-windows-podman-fedora-setup.f8.sh'
-code 'C:\Users\marti\OneDrive\dotfiles\experim\early-podman-fedora-test.f8.md.sh'
-
-
-
-code 'C:\Users\marti\OneDrive\f8-notebooks\get-unix-info--id,env,ls.f8.sh'  ##
 
 
 

@@ -18,14 +18,6 @@ code 'C:\Users\marti\OneDrive\linux-f8\30-linux-setup.f8.sh'
 
 related
 
-code 'C:\Users\marti\OneDrive\dotfiles\install.sh'
-
-copy from
-code 'C:\Users\marti\OneDrive\dotfiles\experim\early-podman-fedora-test.f8.md.sh'
-
-
-
-code 'C:\Users\marti\OneDrive\f8-notebooks\get-unix-info--id,env,ls.f8.sh'  ##
 
 
 
