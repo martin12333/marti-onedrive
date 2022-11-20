@@ -46,6 +46,7 @@ echo $path
 ########################
 
 MANUAL Install
+https://github.com/ohmyzsh/ohmyzsh#manual-installation
 
 cd
 git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
@@ -91,7 +92,7 @@ echo '-------- section --------'
 
 ###################################
 
-
+zsh
 
 setopt|grep -i hist
 

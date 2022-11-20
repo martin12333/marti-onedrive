@@ -412,3 +412,4 @@ echo .irssi \ # mounts irssi  \\
 : 1668958690:0;du .oh-my-zsh
 : 1668958702:0;du .oh-my-zsh|sort -n
 : 1668958793:0;tar zcf ohmyzsh.tarz .oh-my-zsh
+: 1668961038:0;setopt|grep -i hist
