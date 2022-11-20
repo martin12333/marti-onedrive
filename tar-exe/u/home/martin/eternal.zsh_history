@@ -406,3 +406,8 @@ echo .irssi \ # mounts irssi  \\
 : 1668800614:0;dpkg -l | grep -i 'man[-]'
 : 1668808184:0;echo $ZSH
 : 1668809619:0;man cp
+: 1668958583:0;cd
+: 1668958619:0;mv -v --backup=numbered .ohmyzsh/.git OLD
+: 1668958668:0;mv -v --backup=numbered .oh-my-zsh/.git OLD
+: 1668958690:0;du .oh-my-zsh
+: 1668958702:0;du .oh-my-zsh|sort -n

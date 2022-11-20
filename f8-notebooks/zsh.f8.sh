@@ -58,8 +58,26 @@ cp -iv ~/.zshrc ~/.zshrc.orig
 
 cp -iv ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 
+
+
+
+echo '-------- section --------'
+
+
 chsh -s $(which zsh)
 cat /etc/passwd
+
+
+
+echo '-------- section --------'
+
+cd
+mv -v --backup=numbered .oh-my-zsh/.git OLD
+du .oh-my-zsh|sort -n
+tar zcf ohmyzsh.tarz .oh-my-zsh
+
+
+echo '-------- section --------'
 
 
 
