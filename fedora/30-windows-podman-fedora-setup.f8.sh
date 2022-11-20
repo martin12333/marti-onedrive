@@ -11,6 +11,11 @@ exit
 
 
 
+moving to
+code 'C:\Users\marti\OneDrive\linux-f8\30-linux-setup.f8.sh'
+
+
+
 related
 
 code 'C:\Users\marti\OneDrive\dotfiles\install.sh'
