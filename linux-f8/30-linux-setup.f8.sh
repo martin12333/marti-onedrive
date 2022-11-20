@@ -155,6 +155,10 @@ cp -R -v -i /mnt/c/Users/marti/OneDrive/dotfiles  .
 cd
 mv -v  --backup=numbered  .zshrc OLD/
 
+experim
+cd OneDrive
+dotfiles/install.sh
+
 
 cd
 dotfiles/install.sh

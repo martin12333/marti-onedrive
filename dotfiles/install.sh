@@ -8,6 +8,7 @@ set -x
 #create_symlinks() {
     # Get the directory in which this script lives.
 
+echo $0
 script_dir=$(dirname "$(readlink -f "$0")")
 
 echo $script_dir
