@@ -122,8 +122,9 @@ source $ZSH/oh-my-zsh.sh
 
 
 
-HISTFILE=/home/martin/eternal.zsh_history
-###HISTFILE=/home/martin/zsh_eternal_history
+###HISTFILE=/home/m-----artin/eternal.zsh_history
+HISTFILE=$HOME/eternal.zsh_history
+###HISTFILE=/home/m--------artin/zsh_eternal_history
 HISTSIZE=198000
 SAVEHIST=198000
 ### move up DISABLE_AUTO_UPDATE="true"
