@@ -411,3 +411,4 @@ echo .irssi \ # mounts irssi  \\
 : 1668958668:0;mv -v --backup=numbered .oh-my-zsh/.git OLD
 : 1668958690:0;du .oh-my-zsh
 : 1668958702:0;du .oh-my-zsh|sort -n
+: 1668958793:0;tar zcf ohmyzsh.tarz .oh-my-zsh
