@@ -76,7 +76,7 @@ dnf shell
 echo '-------- section --------'
 
 dnf search git-all
-dnf search git-all
+dnf search chsh
 dnf info git-all
 
 sudo dnf install git-core
@@ -86,7 +86,23 @@ sudo dnf install man-db
 sudo dnf install curl wget
 sudo dnf install zsh
 sudo dnf install mc
+sudo dnf install which
+##sudo dnf install chsh
 y
+
+
+
+chsh -s $(which zsh)
+
+
+
+
+
+
+
+
+
+
 
 cd ..
 cd bstollnitz
