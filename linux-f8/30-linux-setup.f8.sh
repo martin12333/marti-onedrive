@@ -128,7 +128,8 @@ cd
 todo
 once
 mv -v  --backup=numbered  dotfiles OLD
-todo git clone dotfiles
+git clone https://github.com/martin12333/dotfiles
+
 
 cd dotfiles
 todo git pull
