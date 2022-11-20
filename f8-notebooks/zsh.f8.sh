@@ -111,6 +111,19 @@ HISTFILE=/home/martin/.zsh_history
 HISTSIZE=50000
 SAVEHIST=10000
 
+exit
+
+history
+
+
+
+
+
+
+
+
+
+
 
 set -o|grep -i hist
 noappendhistory       off

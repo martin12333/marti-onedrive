@@ -151,6 +151,11 @@ cd
 mv -v  --backup=numbered  dotfiles OLD
 cp -R -v -i /mnt/c/Users/marti/OneDrive/dotfiles  .
 
+
+cd
+mv -v  --backup=numbered  .zshrc OLD/
+
+
 cd
 dotfiles/install.sh
 
