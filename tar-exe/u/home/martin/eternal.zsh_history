@@ -414,3 +414,4 @@ echo .irssi \ # mounts irssi  \\
 : 1668958793:0;tar zcf ohmyzsh.tarz .oh-my-zsh
 : 1668961038:0;setopt|grep -i hist
 : 1668978458:0;env|grep martin
+: 1668980679:0;mc -b

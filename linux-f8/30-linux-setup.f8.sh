@@ -128,6 +128,7 @@ cd
 todo
 once
 mv -v  --backup=numbered  dotfiles OLD
+##git clone --dry-run /mnt/c/Users/marti/OneDrive/dotfiles is not a git yet
 git clone https://github.com/martin12333/dotfiles
 
 
