@@ -85,6 +85,7 @@ sudo dnf install curl wget
 sudo dnf install zsh
 sudo dnf install mc
 y
+sudo dnf install  bash-completion man-db man-pages
 
 cd ..
 cd bstollnitz
@@ -93,7 +94,8 @@ git ls-files
 echo '-------- section --------'
 
 
-[user@len20 bstollnitz]$ man man
+[user@len20 bstollnitz]$
+ man man
 No manual entry for man
 [user@len20 bstollnitz]$ man podman
 No manual entry for podman
@@ -157,3 +159,11 @@ echo '-------- section --------'
 
 
 
+
+252     /var/tmp/dnf-user-3ps9xppu
+333     /usr
+525     /var
+877     /
+
+df -m
+/dev/sdc         1031019    877    977698   1% /

@@ -26,6 +26,7 @@ du -sm -x /var/lib/dnf/* 2>2
 
 
 df -m
+sudo du -x -m / | sort -n
 
 
 cat /etc/wsl.conf
