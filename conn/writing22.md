@@ -811,3 +811,29 @@ XL. Pyžamo pouze s příměsí polyesteru. Pak už všude zavřeli a musela jse
 
 |Prosim nepis,ze chces k narozeninam neco,co mam udelat sama pro sebe,protoze fakt,ze je to neco,co jsem mela uz davno udelat,ale neudelala,bude mit pravdepodobne koreny v tom,ze to zoufale delat nechci :-):-)
 
+
+
+
+
+
+I wonder, what were some of the differences between your installation steps and
+1.
+https://www.facebook.com/groups/488811872114264/posts/773808970281218/
+
+2.
+https://www.facebook.com/groups/488811872114264/posts/488821202113331/
+
+
+The only way
+to get
+the Anaconda installation log
+is probably
+by clicking
+in the installation Gui
+https://www.facebook.com/photo/?fbid=2261965690627548&set=oa.1232071197616228
+
+(a related , still open,  GitHub issue https://github.com/ContinuumIO/anaconda-issues/issues/13052 )
+
+
+
+
