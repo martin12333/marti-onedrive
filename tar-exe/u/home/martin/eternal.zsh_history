@@ -417,3 +417,14 @@ echo .irssi \ # mounts irssi  \\
 : 1668980679:0;mc -b
 : 1668982177:0;omz version
 : 1668982723:0;zsh --version
+: 1669147359:0;docker system df -v
+: 1669147444:0;docker history
+: 1669147447:0;docker image history imyjs22b11
+: 1669147472:0;docker image history imyjs22b11 >1
+: 1669147491:0;less 1
+: 1669147527:0;docker image history imyjs22b11 
+: 1669147568:0;docker image history --no-trunc imyjs22b11 
+: 1669149576:0;docker image history --no-trunc imyjs22b11 >1
+: 1669149609:0;docker image history imy22b >1
+: 1669149640:0;docker image history --no-trunc imyjs22b11 >1
+: 1669150081:0;man dirmngr

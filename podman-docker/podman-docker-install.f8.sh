@@ -64,6 +64,7 @@ podman image list
 
 docker image tag 72c
 docker image tag  72cf8516d9 imyjs22b
+docker image tag  a09 imy22b
 
 podman image rm localhost/myjs:latest
 Untagged: localhost/myjs:latest
@@ -105,7 +106,7 @@ podman container rm cmyjs22b
 
 ./docker-214/docker-create-cmyjs22b.sh
 ./docker-214/docker-create-c22b-keep-id.sh
-
+pwd
 
 echo '-------- section --------'
 obsol?
@@ -391,8 +392,13 @@ id
 echo '-------- section --------'
 docker history
 docker image history imyjs22b11  ##>1
+docker image history imy22b  ##>1
+docker image history --no-trunc imy22b >1
 
 less 1
+
+##man dirmngr
+q
 
 echo '-------- section --------'
 
