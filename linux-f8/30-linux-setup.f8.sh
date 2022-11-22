@@ -89,6 +89,7 @@ sudo dnf install mc
 sudo dnf install which
 ##sudo dnf install chsh
 y
+sudo dnf install  bash-completion man-db man-pages
 
 
 
@@ -123,19 +124,34 @@ No manual entry for git
 
 echo '-------- section --------'
 
+C:\pf\Git\bin\bash.exe
+once
+mv -v  --backup=numbered  dotfiles dotfiles2
+git clone https://github.com/martin12333/dotfiles
+cd dotfiles
+git add -v --dry-run .
+git add -v .
+
+git commit -v -a -m from-onedrive
+git push -u origin main
+
+
+
+echo '-------- section --------'
+
 cd
 
-todo
 once
 mv -v  --backup=numbered  dotfiles OLD
-##git clone --dry-run /mnt/c/Users/marti/OneDrive/dotfiles is not a git yet
+#git clone --dry-run /mnt/c/Users/marti/OneDrive/dotfiles
 git clone https://github.com/martin12333/dotfiles
 
 
 cd dotfiles
-todo git pull
+git pull
 
 
+cd
 ls -la
 ls -latr
 ls -1aR dotfiles
@@ -146,14 +162,17 @@ ls -1aR dotfiles
 ##cp -R -v -i /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
 ##cp -R -v --backup=numbered  /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
 ###mkdir dotfiles
-todo comment-out
-cd
-mv -v  --backup=numbered  dotfiles OLD
-cp -R -v -i /mnt/c/Users/marti/OneDrive/dotfiles  .
+#todo comment-out
+#cd
+#mv -v  --backup=numbered  dotfiles OLD
+#cp -R -v -i /mnt/c/Users/marti/OneDrive/dotfiles  .
 
+echo '-------- section --------'
 
 cd
 mv -v  --backup=numbered  .zshrc OLD/
+
+echo '-------- section --------'
 
 experim
 cd OneDrive

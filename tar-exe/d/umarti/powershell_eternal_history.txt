@@ -4176,3 +4176,4 @@ wsl -d Ubuntu-22.04
 /c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
 wsl -d Ubuntu-22.04
 wsl -d podman-machine-default
+C:\pf\Git\bin\bash.exe
