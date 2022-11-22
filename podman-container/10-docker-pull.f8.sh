@@ -32,6 +32,7 @@ echo '-------- section --------'
 #podman image pull ubuntu:19.04
 docker pull ubuntu:jammy-20221020
 docker pull mcr.microsoft.com/devcontainers/javascript-node:0.204.7-18-bullseye
+# 2 versions back
 
 docker pull mcr.microsoft.com/devcontainers/base:0.202.13-bullseye
 cd
