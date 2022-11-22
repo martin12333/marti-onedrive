@@ -51,25 +51,7 @@ docker system df -v
 
 echo '-------- section --------'
 
-
-#podman image pull ubuntu:19.04
-docker pull ubuntu:jammy-20221020
-docker pull mcr.microsoft.com/devcontainers/javascript-node:0.204.7-18-bullseye
-
-docker pull mcr.microsoft.com/devcontainers/base:0.202.13-bullseye
-cd
-
-podman image list --all
-podman image list
-
-docker image tag 72c
-docker image tag  72cf8516d9 imyjs22b
-docker image tag  a09 imy22b
-
-podman image rm localhost/myjs:latest
-Untagged: localhost/myjs:latest
-
-
+C:\Users\marti\OneDrive\podman-container\10-docker-pull.f8.sh
 
 echo '-------- section --------'
 
