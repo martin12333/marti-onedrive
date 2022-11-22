@@ -79,16 +79,8 @@ podman image list --all
 
 
 echo '-------- section --------'
+C:\Users\marti\OneDrive\podman-container\11-docker-create.f8.sh
 
-docker container ls --all
-
-podman stop cmyjs22b
-podman stop c22b-keep  # exited
-podman container rm cmyjs22b
-
-./docker-214/docker-create-cmyjs22b.sh
-./docker-214/docker-create-c22b-keep-id.sh
-pwd
 
 echo '-------- section --------'
 obsol?

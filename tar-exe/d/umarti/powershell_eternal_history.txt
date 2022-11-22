@@ -4179,3 +4179,5 @@ wsl -d podman-machine-default
 C:\pf\Git\bin\bash.exe
 wsl -d Ubuntu-22.04
 podman machine start
+docker container ls --all
+podman container ls --all
