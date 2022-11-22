@@ -4181,3 +4181,4 @@ wsl -d Ubuntu-22.04
 podman machine start
 docker container ls --all
 podman container ls --all
+code ./dotfiles

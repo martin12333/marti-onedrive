@@ -429,3 +429,10 @@ echo .irssi \ # mounts irssi  \\
 : 1669149640:0;docker image history --no-trunc imyjs22b11 >1
 : 1669150081:0;man dirmngr
 : 1669153311:0;pwd
+: 1669154074:0;grep '[[][@][]]'   **/*opt*
+: 1669154126:0;ls   **/*opt*
+: 1669154163:0;grep '[[][@][]]'   **/*sh*
+: 1669154275:0;grep '[[][@][]]'   **/*sh* | grep arg
+: 1669154437:0;echo $args
+: 1669154510:0;bash ./podman-container/12-docker-create-cmy22b.sh
+: 1669154606:0;code ./dotfiles

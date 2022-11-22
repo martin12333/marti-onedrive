@@ -36,11 +36,15 @@ podman stop c22b-keep  # exited
 podman container rm cmyjs22b
 
 
-: 1663444999:0;history| grep '[[][@][]]'
+grep '[[][@][]]'   **/*opt*
+grep '[[][@][]]'   **/*sh* | grep arg
+ls   **/*opt*
 
+code ./dotfiles
 
 cd /mnt/c/Users/marti/OneDrive
-./podman-container/12-docker-create-cmy22b.sh
+bash ./podman-container/12-docker-create-cmy22b.sh
+
 ./docker-214/docker-create-cmyjs22b.sh
 ./docker-214/docker-create-c22b-keep-id.sh
 code ./docker-214/docker-create-c22b-keep-id.sh
