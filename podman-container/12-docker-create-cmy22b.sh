@@ -11,10 +11,25 @@ set -x
 args=(
 --name cmy22b
 
---userns=keep-id    
+--userns=keep-id
+
+--user vscode  #node
+--workdir /home/vscode # node
+--entrypoint   /usr/bin/zsh
+
+-v /home/dockw:/homedockw
+#####
+
+-v  '/mnt/c/Users/marti/OneDrive/docker-214:/acloudSUBDIR'
+-v '/mnt/c/Users/marti/docker-214big:/cdrivemy'
+
+imy22b
+#imy22b11
+
+#--help
 
 )
 
-echo "${args[@]}"
+echo --  "${args[@]}"
 
 #podman create -it
