@@ -4177,3 +4177,4 @@ wsl -d Ubuntu-22.04
 wsl -d Ubuntu-22.04
 wsl -d podman-machine-default
 C:\pf\Git\bin\bash.exe
+wsl -d Ubuntu-22.04

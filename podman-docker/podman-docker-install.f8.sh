@@ -6,6 +6,12 @@ do-not run this file as a whole
 )
 exit
 
+
+
+
+podman machine start
+
+
 echo '-------- section --------'
 
 fixed by rename /tmp/podman-run-1000/
@@ -41,12 +47,17 @@ podman -v
 podman info --log-level debug
 podman info
 
+docker system df -v
+
 echo '-------- section --------'
 
 
 #podman image pull ubuntu:19.04
 docker pull ubuntu:jammy-20221020
 docker pull mcr.microsoft.com/devcontainers/javascript-node:0.204.7-18-bullseye
+
+docker pull mcr.microsoft.com/devcontainers/base:0.202.13-bullseye
+cd
 
 podman image list --all
 podman image list
@@ -379,7 +390,10 @@ id
 
 echo '-------- section --------'
 docker history
-docker image history imyjs22b11
+docker image history imyjs22b11  ##>1
+
+less 1
+
 echo '-------- section --------'
 
 docker images
