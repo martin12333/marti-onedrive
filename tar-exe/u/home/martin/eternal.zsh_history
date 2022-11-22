@@ -428,3 +428,4 @@ echo .irssi \ # mounts irssi  \\
 : 1669149609:0;docker image history imy22b >1
 : 1669149640:0;docker image history --no-trunc imyjs22b11 >1
 : 1669150081:0;man dirmngr
+: 1669153311:0;pwd

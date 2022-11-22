@@ -35,6 +35,8 @@ podman stop cmyjs22b
 podman stop c22b-keep  # exited
 podman container rm cmyjs22b
 
+cd /mnt/c/Users/marti/OneDrive
+./podman-container/12-docker-create-cmy22b.sh
 ./docker-214/docker-create-cmyjs22b.sh
 ./docker-214/docker-create-c22b-keep-id.sh
 pwd
