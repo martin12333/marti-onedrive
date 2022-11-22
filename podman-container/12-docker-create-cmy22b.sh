@@ -19,6 +19,7 @@ args=(
 
 -v /home/dockw:/homedockw
 #####
+#  -v namedvol1:/home/jovyan/work
 
 -v  '/mnt/c/Users/marti/OneDrive/docker-214:/acloudSUBDIR'
 -v '/mnt/c/Users/marti/docker-214big:/cdrivemy'
