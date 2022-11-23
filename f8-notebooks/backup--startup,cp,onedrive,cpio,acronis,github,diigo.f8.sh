@@ -102,6 +102,7 @@ C:\pf\Git\bin\bash.exe
 
 	git add -vv  '*.f8.*'
 	git add -vv  'podman-container/*create*.sh'
+	git add -vv  'dotfiles/*.sh'
 
 	/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
 	git commit -v -a -m bk
