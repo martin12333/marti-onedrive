@@ -20,7 +20,7 @@ code 'C:\Users\marti\OneDrive\f8-notebooks\get-unix-info--id,env,ls.f8.sh'
 
 code 'C:\Users\marti\OneDrive\dotfiles\install.sh'
 
-moving from
+moved to this file  from
 
 code 'C:\Users\marti\OneDrive\fedora\30-windows-podman-fedora-setup.f8.sh'
 
@@ -132,11 +132,11 @@ once
 mv -v  --backup=numbered  dotfiles dotfiles2
 git clone https://github.com/martin12333/dotfiles
 cd dotfiles
-git add -v --dry-run .
-git add -v .
+#git add -v --dry-run .
+#git add -v .
 
-git commit -v -a -m from-onedrive
-git push -u origin main
+#git commit -v -a -m from-onedrive
+#git push -u origin main
 
 
 
