@@ -1,0 +1,3 @@
+AAAA-windows-JUNCTION-SYMLINK-warning
+
+some tools bug when MOVE-JUNCTION-SYMLIN--RADEJI-OPRAVDU-LNK

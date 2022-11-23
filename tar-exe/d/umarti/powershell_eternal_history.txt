@@ -4182,3 +4182,6 @@ podman machine start
 docker container ls --all
 podman container ls --all
 code ./dotfiles
+ls
+cmd /c dir 
+cmd
