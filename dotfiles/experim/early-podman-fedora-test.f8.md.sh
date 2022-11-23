@@ -81,6 +81,17 @@ cp -R -v --no-clobber  no-clobber/.  $HOME
 
 echo '-------- section --------'
 
+cd
+script_dir=/mnt/c/Users/marti/OneDrive/dotfiles
+echo $script_dir
+
+mv -v  --backup=numbered  ~/dotfiles  ~/OLDdotfiles
+touch ~/dotfiles
+mkdir ~/dotfiles
+
+
+ln -s -v --no-clobber               "$script_dir"  ~/dotfiles
+ln -s -v            "$script_dir"  ~/dotfiles
 
 
 
