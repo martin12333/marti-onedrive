@@ -13,6 +13,9 @@ echo '-------- section --------'
 MOVING FROM THIS FILE TO dotfiles/*-*.f8.sh
 
 
+code ./dotfiles
+#
+
 
 related
 
@@ -179,12 +182,10 @@ mv -v  --backup=numbered  .zshrc OLD/
 echo '-------- section --------'
 
 experim
-cd OneDrive
-dotfiles/install.sh
+bash /mnt/c/Users/marti/OneDrive/dotfiles/install.sh
 
-
-cd
-dotfiles/install.sh
+#cd
+#dotfiles/install.sh
 
 ls -l dotfiles/install.sh
 chmod a-x dotfiles/install.sh

@@ -40,9 +40,11 @@ grep '[[][@][]]'   **/*opt*
 grep '[[][@][]]'   **/*sh* | grep arg
 ls   **/*opt*
 
+
 pwsh
 gitba
 code ./dotfiles
+
 
 cd /mnt/c/Users/marti/OneDrive
 bash ./podman-container/12-docker-create-cmy22b.sh
