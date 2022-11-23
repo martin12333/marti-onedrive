@@ -4,6 +4,8 @@
 )
 exit
 
+echo '-------- section --------'
+
 # startup -> C:\Users\marti\OneDrive\git-bash-dotfiles\mymyrsync.sh
 
 ## dotfi=" .bash_history .bash_eternal_history  .guile_history .lsc_history .node_repl_history .python_history .sbcl_history .sqlite_history .zsh_history "
