@@ -145,8 +145,8 @@ echo '-------- section --------'
 cd
 
 once
-mv -v  --backup=numbered  dotfiles OLD
-#git clone --dry-run /mnt/c/Users/marti/OneDrive/dotfiles
+mv -v  --backup=numbered  dotfiles OLDdotfiles
+##git clone --dry-run /mnt/c/Users/marti/OneDrive/dotfiles
 git clone https://github.com/martin12333/dotfiles
 
 
@@ -165,6 +165,7 @@ ls -1aR dotfiles
 ##cp -R -v -i /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
 ##cp -R -v --backup=numbered  /mnt/c/Users/marti/OneDrive/dotfiles/.    dotfiles
 ###mkdir dotfiles
+
 #todo comment-out
 #cd
 #mv -v  --backup=numbered  dotfiles OLD

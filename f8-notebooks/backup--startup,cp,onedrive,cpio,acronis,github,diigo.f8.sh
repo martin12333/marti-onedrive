@@ -128,6 +128,7 @@ C:\pf\Git\bin\bash.exe
 	git commit -v -a -m vulnera #
 	git commit -v -a -m zshrc
 
+
 	git push
 
 	git show --name-only
