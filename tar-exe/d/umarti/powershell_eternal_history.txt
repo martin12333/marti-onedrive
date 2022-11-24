@@ -4191,3 +4191,9 @@ C:\Program Files\WindowsApps\Microsoft.SysinternalsSuite_2022.11.1.0_x64__8wekyb
 C:\Pf\WindowsApps\Microsoft.SysinternalsSuite_2022.11.1.0_x64__8wekyb3d8bbwe\Tools\junction.exe
 cd .\dotfiles
 C:\Pf\WindowsApps\Microsoft.SysinternalsSuite_2022.11.1.0_x64__8wekyb3d8bbwe\Tools\junction.exe ".\dotfiles"
+wsl -d podman-machine-default
+cd .\dotfiles\
+dir
+dir .\OLD\
+cmd 
+C:\pf\Git\bin\bash.exe

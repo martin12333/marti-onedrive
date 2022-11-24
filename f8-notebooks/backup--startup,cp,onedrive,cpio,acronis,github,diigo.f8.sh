@@ -134,7 +134,7 @@ code ./dotfiles
 
 
 	git push
-
+	
 	git show --name-only
 
 		#didnot help /d/dow too-long to read PROBABLY, too many files  ... prb in u2204 ...
