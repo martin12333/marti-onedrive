@@ -18,6 +18,8 @@ podman container list --all
 
 podman start   -ai    cmy22b
 
+id
+
 touch /homedockw/touch
 cat /etc/os-release
 cat /etc/lsb-release

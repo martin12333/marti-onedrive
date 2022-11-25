@@ -4210,3 +4210,5 @@ podman container list --all
 podman ps --all
 podman stats
 podman start   -ai    cmy22b
+explorer "P:\home\user\.local\share\containers\storage\volumes\nslash_home"
+podman start   -ai    cmy22b
