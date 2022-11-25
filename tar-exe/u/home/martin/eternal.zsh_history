@@ -436,3 +436,12 @@ echo .irssi \ # mounts irssi  \\
 : 1669154437:0;echo $args
 : 1669154510:0;bash ./podman-container/12-docker-create-cmy22b.sh
 : 1669154606:0;code ./dotfiles
+: 1669326652:0;mc -b
+: 1669328214:0;man zsh
+: 1669328247:0;man zshall
+: 1669328683:0;mc -b
+: 1669328747:0;cd
+: 1669328749:0;mc -b
+: 1669329168:0;ll 8*
+: 1669329217:0;ll *
+: 1669329229:0;ll 

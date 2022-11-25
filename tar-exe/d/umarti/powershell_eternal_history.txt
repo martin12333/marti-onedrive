@@ -4197,3 +4197,10 @@ dir
 dir .\OLD\
 cmd 
 C:\pf\Git\bin\bash.exe
+wsl -d Ubuntu-22.04
+icacls 8*
+icacls q*
+icacls a*
+icacls c*
+podman machine start
+wsl -d podman-machine-default

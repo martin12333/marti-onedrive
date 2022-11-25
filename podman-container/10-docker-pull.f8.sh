@@ -8,8 +8,11 @@ exit
 
 
 
-
+pwsh
 podman machine start
+wsl -d podman-machine-default
+exit
+
 
 
 echo '-------- section --------'
@@ -29,12 +32,19 @@ Error: error joining network namespace of container 8d2a6d493e5c5a3df82436adcbc7
 echo '-------- section --------'
 
 
-#podman image pull ubuntu:19.04
-docker pull ubuntu:jammy-20221020
-docker pull mcr.microsoft.com/devcontainers/javascript-node:0.204.7-18-bullseye
-# 2 versions back
+https://github.com/devcontainers/images/tree/main/src/base-ubuntu/history
+https://github.com/devcontainers/images/blob/main/src/base-ubuntu/history/1.0.0.md
 
-docker pull mcr.microsoft.com/devcontainers/base:0.202.13-bullseye
+#podman image pull ubuntu:19.04
+#docker pull ubuntu:jammy-20221020
+#docker pull mcr.microsoft.com/devcontainers/javascript-node:0.204.7-18-bullseye
+#docker pull mcr.microsoft.com/devcontainers/base:0.202.13-bullseye
+
+2 versions back
+
+docker pull mcr.microsoft.com/devcontainers/base:1.0.0-ubuntu22.04
+
+
 cd
 
 podman image list --all
@@ -44,11 +54,11 @@ docker image tag 72c
 docker image tag  72cf8516d9 imyjs22b
 docker image tag  a09 imy22b
 
-podman image rm localhost/myjs:latest
-Untagged: localhost/myjs:latest
-
-
-
+podman image rm localhost/imy22b:latest
+# Untagged: localhost/myjs:latest
+podman image rm mcr.microsoft.com/devcontainers/base:0.202.13-bullseye
+#Untagged: mcr.microsoft.com/devcontainers/base:0.202.13-bullseye
+#Deleted: a09e7a307eb6553af574b843c312a8f79d0d6a1acc29b84d160f5430f3046f7b
 echo '-------- section --------'
 
 
