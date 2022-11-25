@@ -42,6 +42,8 @@ args=(
 -v  '/mnt/c/Users/marti/OneDrive/docker-214:/acloudSUBDIR'
 -v '/mnt/c/Users/marti/docker-214big:/cdrivemy'
 
+-v  '/mnt/c/Users/marti/OneDrive:/onedri:ro'
+
 imy22b
 #imy22b11
 

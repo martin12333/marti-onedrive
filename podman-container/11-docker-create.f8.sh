@@ -16,11 +16,11 @@ exit
 
 
 
-podman machine start
 
 
 echo '-------- section --------'
 
+ubuntu22
 fixed by rename /tmp/podman-run-1000/
 
 ?
@@ -68,6 +68,9 @@ code ./docker-214/docker-create-c22b-keep-id.sh
 pwd
 
 id
+ll /mnt
+ls -la /mnt/wsl
+
 
 echo '-------- section --------'
 
