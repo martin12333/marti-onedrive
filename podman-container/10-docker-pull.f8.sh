@@ -50,9 +50,9 @@ cd
 podman image list --all
 podman image list
 
-docker image tag 72c
-docker image tag  72cf8516d9 imyjs22b
-docker image tag  a09 imy22b
+#docker image tag  72cf8516d9 imyjs22b
+#docker image tag  a09 imy22b
+docker image tag  e520 imy22b
 
 podman image rm localhost/imy22b:latest
 # Untagged: localhost/myjs:latest
