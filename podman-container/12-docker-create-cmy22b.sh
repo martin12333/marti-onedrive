@@ -15,6 +15,7 @@ set -x
       #      --env TOOLBOX_PATH="$TOOLBOX_PATH" \
        #     --hostname toolbox \
         #    --ipc host \
+        #    --user root:root \
 
 
 
@@ -23,18 +24,20 @@ set -x
 ##echo $args
 
 args=(
+-it
 --name cmy22b
      --hostname mybox
 
 --userns=keep-id
 
---user vscode  #node
+--user 1000:1000
+#vscode  #node
 --workdir /home/vscode # node
 --entrypoint   /usr/bin/zsh
 
--v /home/dockw:/homedockw
-#####
-#  -v namedvol1:/home/jovyan/work
+-v nslash_home:/homedockw
+#-v /home/dockw:/homedockw
+##  -v namedvol1:/home/jovyan/work
 
 -v  '/mnt/c/Users/marti/OneDrive/docker-214:/acloudSUBDIR'
 -v '/mnt/c/Users/marti/docker-214big:/cdrivemy'
@@ -48,4 +51,4 @@ imy22b
 
 echo --  "${args[@]}"
 
-#podman create -it
+podman create    "${args[@]}"

@@ -54,14 +54,20 @@ code ./dotfiles
 
 
 wsl
-cd /mnt/c/Users/marti/OneDrive
-bash ./podman-container/12-docker-create-cmy22b.sh
+
+docker volume create nslash_home
+docker volume ls
+
+cd /mnt/c/Users/marti/
+####cd /mnt/c/Users/marti/OneDrive
+bash OneDrive/podman-container/12-docker-create-cmy22b.sh
 
 ./docker-214/docker-create-cmyjs22b.sh
 ./docker-214/docker-create-c22b-keep-id.sh
 code ./docker-214/docker-create-c22b-keep-id.sh
 pwd
 
+id
 
 echo '-------- section --------'
 
