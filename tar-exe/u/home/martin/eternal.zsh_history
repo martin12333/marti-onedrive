@@ -446,3 +446,4 @@ echo .irssi \ # mounts irssi  \\
 : 1669329217:0;ll *
 : 1669329229:0;ll 
 : 1669406064:0;id
+: 1669411728:0;cat /etc/os-release

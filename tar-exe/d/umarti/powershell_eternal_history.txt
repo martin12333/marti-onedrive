@@ -4209,3 +4209,4 @@ podman start   -ai    cmy22b
 podman container list --all
 podman ps --all
 podman stats
+podman start   -ai    cmy22b

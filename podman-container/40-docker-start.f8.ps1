@@ -18,8 +18,20 @@ podman container list --all
 
 podman start   -ai    cmy22b
 
+touch /homedockw/touch
 cat /etc/os-release
 cat /etc/lsb-release
-
+env
 
 exit
+
+explorer "P:\home\user\.local\share\containers\storage\volumes\nslash_home"
+
+echo '-------- section --------'
+
+
+
+
+echo '-------- section --------'
+
+
