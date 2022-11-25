@@ -11,6 +11,7 @@ wsl -d Ubuntu-22.04
 
 echo '-------- section --------'
 
+ubuntu22
 #fixed by rename /tmp/podman-run-1000/
 
 ?

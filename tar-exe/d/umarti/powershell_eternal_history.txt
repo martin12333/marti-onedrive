@@ -4204,3 +4204,5 @@ icacls a*
 icacls c*
 podman machine start
 wsl -d podman-machine-default
+podman ps --all
+podman start   -ai    cmy22b
