@@ -14,6 +14,7 @@ podman machine start
 echo '-------- section --------'
 
 podman ps --all
+podman container list --all
 
 podman start   -ai    cmy22b
 
