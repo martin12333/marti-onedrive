@@ -128,13 +128,14 @@ code ./dotfiles
 	git commit -v -a -m  before-refactor
 	git commit -v -a -m  partial-refactor
 	git commit -v -a -m  refactor
+	git commit -v -a -m  partial
 
 	git commit -v -a -m vulnera #
 	git commit -v -a -m zshrc
 
 
 	git push
-	
+
 	git show --name-only
 
 		#didnot help /d/dow too-long to read PROBABLY, too many files  ... prb in u2204 ...

@@ -53,6 +53,7 @@ gitba
 code ./dotfiles
 
 
+wsl
 cd /mnt/c/Users/marti/OneDrive
 bash ./podman-container/12-docker-create-cmy22b.sh
 

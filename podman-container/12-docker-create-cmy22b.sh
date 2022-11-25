@@ -6,10 +6,25 @@ set -u
 set -x
 
 
+
+
+
+    # shellcheck disable=SC2086
+    #$podman_command create \
+     #       --dns none \
+      #      --env TOOLBOX_PATH="$TOOLBOX_PATH" \
+       #     --hostname toolbox \
+        #    --ipc host \
+
+
+
+
+
 ##echo $args
 
 args=(
 --name cmy22b
+     --hostname mybox
 
 --userns=keep-id
 
