@@ -10,9 +10,9 @@ exit
 explorer "P:\home\user\.local\share\containers\storage\volumes\nslash_home"
 
 podman machine start
+podman ps --all
 podman start   -ai    cmy22b
 
-podman ps --all
 podman container list --all
 
 id
@@ -35,6 +35,16 @@ tar xzf /homedockw/home.tarz
 
 ll
 
+exit
+
 echo '-------- section --------'
+
+
+podman machine start
+podman ps --all
+podman start   -ai    cmy22b
+
+ls -la
+ls /onedri/dotfiles
 
 

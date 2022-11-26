@@ -4225,3 +4225,5 @@ cmd /c dir /al /s
 cmd /c dir /al
 podman machine start
 podman start   -ai    cmy22b
+podman ps --all
+podman start   -ai    cmy22b
