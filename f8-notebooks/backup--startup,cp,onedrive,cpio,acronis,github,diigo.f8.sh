@@ -122,6 +122,7 @@ code ./dotfiles
 	git commit -v -a -m patch-simplify-code
 	git commit -v -a -m false-alarm
 	git commit -v -a -m maybe-enhance
+	git commit -v -a -m important-test
 
 	git commit -v -a -m  rename
 	git commit -v -a -m  rewrite

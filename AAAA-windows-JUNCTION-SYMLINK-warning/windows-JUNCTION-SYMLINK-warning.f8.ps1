@@ -2,7 +2,7 @@ AAAA-windows-JUNCTION-SYMLINK-warning
 
 some tools bug when MOVE-JUNCTION-SYMLIN--RADEJI-OPRAVDU-LNK
 
-therefore deleted using wexplorer
+therefore deleted using wexplorer gui
 
 
 
@@ -29,5 +29,36 @@ Sysinternals - www.sysinternals.com
 
 The first usage is for displaying reparse point information, the
 second usage is for creating
+
+
+
+
+
+
+
+
+
+cmd /c dir /al /s
+cd ..
+cd c:\pf\git
+cmd /c dir /al
+
+
+
+
+
+
+exit
+
+https://superuser.com/questions/167076/how-can-i-delete-a-symbolic-link
+
+https://learn.microsoft.com/en-us/answers/questions/63800/cannot-delete-junction-that-points-to-directory-th.html
+
+
+
+XXXXX erroneously deletes symlinks to full directories in the path of a file being deleted
+#9419
+akuktin opened this issue on Apr 22, 2020 · 4 comments · Fixed by #9457
+
 
 

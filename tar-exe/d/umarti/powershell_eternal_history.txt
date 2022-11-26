@@ -4212,3 +4212,11 @@ podman stats
 podman start   -ai    cmy22b
 explorer "P:\home\user\.local\share\containers\storage\volumes\nslash_home"
 podman start   -ai    cmy22b
+cmd /c dir /al
+cmd /c dir /al /s
+cd ..
+cmd /c dir /al
+cmd /c dir /a
+cd ..
+cmd /c dir /a
+cmd /c dir /al
