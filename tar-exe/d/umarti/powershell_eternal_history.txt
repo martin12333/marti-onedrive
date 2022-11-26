@@ -4223,3 +4223,5 @@ cmd /c dir /al
 cd c:\pf\git
 cmd /c dir /al /s
 cmd /c dir /al
+podman machine start
+podman start   -ai    cmy22b
