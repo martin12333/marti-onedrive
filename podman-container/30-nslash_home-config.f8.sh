@@ -47,4 +47,5 @@ podman start   -ai    cmy22b
 ls -la
 ls /onedri/dotfiles
 
+bash /onedri/dotfiles/install.sh
 

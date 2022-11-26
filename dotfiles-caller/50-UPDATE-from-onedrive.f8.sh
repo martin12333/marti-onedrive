@@ -34,3 +34,4 @@ echo '-------- section --------'
 
 bash /mnt/c/Users/marti/OneDrive/dotfiles/install.sh
 
+bash /onedri/dotfiles/install.sh

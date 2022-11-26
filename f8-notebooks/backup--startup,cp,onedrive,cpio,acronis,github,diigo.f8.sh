@@ -110,6 +110,7 @@ code ./dotfiles
 	/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
 	git commit -v -a -m  before-manip-dirs
 	git commit -v -a -m bk
+	git commit -v -a -m done
 	git commit -v -a -m it-works
 	git commit -v -a -m add
 	git commit -v -a -m win-x-admin
