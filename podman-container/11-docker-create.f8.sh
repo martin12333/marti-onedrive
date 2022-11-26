@@ -41,6 +41,7 @@ podman container ls --all
 podman stop cmyjs22b
 podman stop c22b-keep  # exited
 podman container rm cmyjs22b
+podman container rm cmy22b
 
 
 grep '[[][@][]]'   **/*opt*
@@ -58,6 +59,13 @@ wsl
 docker volume create nslash_home
 docker volume ls
 
+
+
+echo '-------- section --------'
+
+podman container rm cmy22b
+
+in wsl
 cd /mnt/c/Users/marti/
 ####cd /mnt/c/Users/marti/OneDrive
 bash OneDrive/podman-container/12-docker-create-cmy22b.sh

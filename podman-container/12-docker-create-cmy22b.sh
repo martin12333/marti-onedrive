@@ -6,9 +6,6 @@ set -u
 set -x
 
 
-
-
-
     # shellcheck disable=SC2086
     #$podman_command create \
      #       --dns none \
@@ -16,8 +13,6 @@ set -x
        #     --hostname toolbox \
         #    --ipc host \
         #    --user root:root \
-
-
 
 
 
@@ -41,8 +36,10 @@ create
 --entrypoint   /usr/bin/zsh
 
 
--v nslash_home:/home
+# first / long-term
 #-v nslash_home:/homedockw
+-v nslash_home:/home
+
 ##-v /home/dockw:/homedockw
 ###  -v namedvol1:/home/jovyan/work
 
