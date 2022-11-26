@@ -24,6 +24,11 @@ set -x
 ##echo $args
 
 args=(
+
+#    --log-level error
+
+create
+
 -it
 --name cmy22b
      --hostname mybox
@@ -35,9 +40,11 @@ args=(
 --workdir /home/vscode # node
 --entrypoint   /usr/bin/zsh
 
--v nslash_home:/homedockw
-#-v /home/dockw:/homedockw
-##  -v namedvol1:/home/jovyan/work
+
+-v nslash_home:/home
+#-v nslash_home:/homedockw
+##-v /home/dockw:/homedockw
+###  -v namedvol1:/home/jovyan/work
 
 -v  '/mnt/c/Users/marti/OneDrive/docker-214:/acloudSUBDIR'
 -v '/mnt/c/Users/marti/docker-214big:/cdrivemy'
@@ -53,4 +60,4 @@ imy22b
 
 echo --  "${args[@]}"
 
-podman create    "${args[@]}"
+podman     "${args[@]}"
