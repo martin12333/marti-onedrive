@@ -4220,3 +4220,6 @@ cmd /c dir /a
 cd ..
 cmd /c dir /a
 cmd /c dir /al
+cd c:\pf\git
+cmd /c dir /al /s
+cmd /c dir /al
