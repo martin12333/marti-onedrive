@@ -4227,3 +4227,13 @@ podman machine start
 podman start   -ai    cmy22b
 podman ps --all
 podman start   -ai    cmy22b
+where.exe yarn
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr   yar
+where.exe yarn
+cd
+cmd /c dir /s /a @*
+cmd /c dir /s /a '@*'
+cd OneDrive
+cmd /c dir /s /a '@*'
+cmd /c dir /b /s /a '@*'
+explorer.exe C:\Users\marti\OneDrive\js-shell-22a

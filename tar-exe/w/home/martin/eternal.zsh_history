@@ -8035,3 +8035,4 @@ g\
 : 1668713154:0;cd bstollnitz
 : 1668713157:0;ls -latr
 : 1668713187:0;cd -2
+: 1669504721:0;history| grep nvm
