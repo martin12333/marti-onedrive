@@ -169,6 +169,17 @@ git whatchanged -p --abbrev-commit --pretty=medium
 	# w: failed
 	# forgot to git add
 	#
+
+
+cd /d/GIT-b*
+	git clone /c/Users/marti/OneDrive
+	ll
+	du -k|sort -n
+	cd OneDrive
+cd -
+cd
+cd OneDrive
+
 	exit
 C:\pf\Git\bin\bash.exe
 
