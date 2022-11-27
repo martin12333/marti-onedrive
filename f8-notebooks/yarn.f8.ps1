@@ -1,8 +1,28 @@
+Yarn deletes contents of symlinked directories on install #2238
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 yarn deletes all files and directories under node_modules that don't belong to the currently installed packages. This is part of the design. It does work differently than npm's pruning/cleaning of extraneous files.
 
-For comparison, npm will only delete extraneous directories in node_modules if they have a package.json file. It won't remove other non-package directories. It also just never cleans anything out of node_modules/.bin. Even npm prune doesn't remove them.
 
+
+
+
+https://www.reddit.com/r/javascript/comments/5glcow/yarn_how_can_you_prevent_developers_from/
+
+
+[yarn] How can you prevent developers from mistakenly installing a package with npm? : javascript
 
 
 cd

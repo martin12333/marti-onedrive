@@ -13,6 +13,21 @@ wsl
 zsh
 
 
+
+
+
+
+npm i deletes all the symlinked repos #17257
+
+This repository has been archived by the owner before Nov 9, 2022. It is now read-only.
+
+
+
+
+
+
+
+
 echo '-------- section --------'
 
 

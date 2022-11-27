@@ -4237,3 +4237,4 @@ cd OneDrive
 cmd /c dir /s /a '@*'
 cmd /c dir /b /s /a '@*'
 explorer.exe C:\Users\marti\OneDrive\js-shell-22a
+podman start   -ai    cmy22b
