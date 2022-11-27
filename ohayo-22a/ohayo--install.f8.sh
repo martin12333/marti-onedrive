@@ -6,7 +6,7 @@ exit
 (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
 # ohayo--install.f8.sh
-#### obsol see also 'C:\Users\marti\OneDrive\f8-notebooks\writing22.f8.md'
+#### obsol  'C:\Users\marti\OneDrive\f8-notebooks\writing22.f8.md'
 
 
 
@@ -42,6 +42,7 @@ cat .gitignore
 	git status | head -n 15
 	git log
 
+echo '-----------------------------begin possible  .sh-session ---------------------------------'
 
 First time:
 once

@@ -45,6 +45,7 @@ cd ohayo
 npx /usr/bin/zsh  #node18
 
 npm ls
+npm bin
 npm bin --global
 ls `npm bin --global`
 

@@ -53,7 +53,7 @@ echo '-------- section --------'
 .exit
 echo '-------- section --------'
 
-# should set not env
+# should use set not env
 env|grep -i bas
 env|grep -i zs
 
