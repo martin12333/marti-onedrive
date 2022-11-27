@@ -45,4 +45,22 @@ nvm
 
 command -v nvm
 
+
+   47  nvm install 18
+
+   48  node
 87*8787
+.exit
+
+env|grep -i bas
+env|grep -i zs
+
+ps -ef
+
+
+
+nvm which 18
+
+echo $path
+
+nvm ls-remote
