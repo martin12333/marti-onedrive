@@ -49,3 +49,11 @@ ls /onedri/dotfiles
 
 bash /onedri/dotfiles/install.sh
 
+
+echo '-------- section --------'
+
+# if want revert zshrc
+tar tzf /home/home.tarz --wildcards  '*/.zshrc'
+tar xvzf /home/home.tarz --wildcards  '*/.zshrc'
+
+echo '-------- section --------'

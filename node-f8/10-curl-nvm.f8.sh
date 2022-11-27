@@ -8,9 +8,21 @@ do-not run this file as a whole
 exit
 
 
-podman machine start
 
+podman machine start
 podman start   -ai    cmy22b
+
+echo '-------- section --------'
+
+
+cat /etc/passwd
+echo $USER
+chsh --help
+sudo chsh -s $(which zsh)  $USER  #vscode
+#vscode:x:1000:1000::/home/vscode:/bin/bash
+#vscode:x:1000:1000::/home/vscode:/usr/bin/zsh
+
+echo '-------- section --------'
 
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh  >1    #    | bash
@@ -20,54 +32,34 @@ mv -iv 1 1.sh
 
 bash 1.sh
 
-
-chsh --help
-chsh -s $(which zsh)
+OK #=> Appending bash_completion source string to /home/vscode/.zshrc
 
 
 
 
-
-vscode:x:1000:1000::/home/vscode:/bin/bash
-
-vscode ➜ ~ $ sudo chsh -s $(which zsh) vscode
-vscode ➜ ~ $ cat /etc/passwd
-vscode:x:1000:1000::/home/vscode:/usr/bin/zsh
-
-
-
-=> Appending bash_completion source string to /home/vscode/.zshrc
-=> Close and reopen your terminal to start using nvm or run the following to use it now:
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-
-tar tzf /home/home.tarz --wildcards  '*/.zshrc'
-tar xvzf /home/home.tarz --wildcards  '*/.zshrc'
-
-
-
-
+echo '-------- section --------'
 
 
 nvm
 
 command -v nvm
 
+echo '-------- section --------'
 
    47  nvm install 18
 
    48  node
 87*8787
 .exit
+echo '-------- section --------'
 
+# should set not env
 env|grep -i bas
 env|grep -i zs
 
 ps -ef
 
+echo '-------- section --------'
 
 
 nvm which 18
@@ -75,3 +67,5 @@ nvm which 18
 echo $path
 
 nvm ls-remote
+
+echo '-------- section --------'
