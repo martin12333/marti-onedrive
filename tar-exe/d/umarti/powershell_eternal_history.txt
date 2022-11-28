@@ -4250,3 +4250,4 @@ explorer 'c:/Program Files/Microsoft VS Code/bin/'
 explorer 'c:/Program Files/Microsoft VS Code/'
 explorer 'c:/Program Files/'
 explorer 'c:\Program Files\Microsoft VS Code\bin'
+wsl -d Ubuntu-22.04

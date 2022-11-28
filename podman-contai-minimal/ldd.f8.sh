@@ -3,6 +3,23 @@
 
 
 apt download busybox-static
+	ll busybox-static*
+
+  453  apt download busybox-static
+  456  mc -b
+  457* pushd
+  458* pushd .
+  459* popd
+  460* ./busybox
+  461  cd
+  462  bin/busybox sh
+
+
+
+
+
+
+docker image ls
 
 docker pull spritsail/busybox
 

@@ -456,3 +456,12 @@ echo .irssi \ # mounts irssi  \\
 : 1669600139:0;exit
 : 1669600550:0;code --help
 : 1669666264:0;apt download busybox-static
+: 1669672716:0;ll busybox-static
+: 1669672729:0;ll busybox-static*
+: 1669672779:0;mc -b
+: 1669672807:0;pushd
+: 1669672832:0;pushd .
+: 1669672866:0;popd
+: 1669673548:0;./busybox
+: 1669673566:0;cd
+: 1669673572:0;bin/busybox sh
