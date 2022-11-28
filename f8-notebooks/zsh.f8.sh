@@ -102,6 +102,9 @@ zstyle
 omz version
 zsh --version
 
+
+man zshoptions
+
 setopt|grep -i hist
 
 ➜  ~ setopt|grep -i hist

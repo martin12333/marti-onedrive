@@ -4238,3 +4238,15 @@ cmd /c dir /s /a '@*'
 cmd /c dir /b /s /a '@*'
 explorer.exe C:\Users\marti\OneDrive\js-shell-22a
 podman start   -ai    cmy22b
+wsl -d podman-machine-default
+wsl --list --running
+wsl 
+wsl -d podman-machine-default
+wsl -d Ubuntu-22.04
+ls -l /usr/local/bin/code
+totalcmd64
+c:\pf\totalcmd64
+explorer 'c:/Program Files/Microsoft VS Code/bin/'
+explorer 'c:/Program Files/Microsoft VS Code/'
+explorer 'c:/Program Files/'
+explorer 'c:\Program Files\Microsoft VS Code\bin'

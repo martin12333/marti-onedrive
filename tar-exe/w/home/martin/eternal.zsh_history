@@ -8037,3 +8037,21 @@ g\
 : 1668713187:0;cd -2
 : 1669504721:0;history| grep nvm
 : 1669589684:0;cd
+: 1669593184:0;history| grep ldd
+: 1669593201:0;ldd /bin/bash
+: 1669593211:0;mc -b
+: 1669593347:0;history| grep ldd
+: 1669593360:0;history|less
+: 1669593483:0;mc -b
+: 1669599724:0;cat /etc/lsb-release
+: 1669599917:0;command -v code
+: 1669599920:0;which -a code
+: 1669599933:0;cat /etc/lsb-release
+: 1669600541:0;code --help
+: 1669656398:0;man pldd
+: 1669670075:0;history| grep opt
+: 1669670098:0;setopt|grep -i hist
+: 1669670125:0;bash
+: 1669670403:0;setopt|grep -i hist
+: 1669670411:0;man zshoptions
+: 1669670497:0;bash

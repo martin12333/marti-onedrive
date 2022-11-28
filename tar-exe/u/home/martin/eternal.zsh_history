@@ -448,3 +448,11 @@ echo .irssi \ # mounts irssi  \\
 : 1669406064:0;id
 : 1669411728:0;cat /etc/os-release
 : 1669504702:0;history|grep nvm
+: 1669592880:0;pwd
+: 1669592888:0;cat /etc/os-release
+: 1669593016:0;mc -b
+: 1669599968:0;which -a code
+: 1669600134:0;command -v code
+: 1669600139:0;exit
+: 1669600550:0;code --help
+: 1669666264:0;apt download busybox-static

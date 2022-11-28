@@ -6,6 +6,30 @@ exit
 #### to mitigate, that F5 in *mc* in VSCode runs this file
 
 
+
+man zshoptions
+setopt|grep -i hist
+histignorespace
+
+
+
+bash
+  857  shopt |grep his
+  858  set|grep hist
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 pwsh
 C:\pf\Git\bin\bash.exe
 	cd ~/OneDrive

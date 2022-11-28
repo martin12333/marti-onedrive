@@ -824,3 +824,37 @@ set|grep -i c.ut
 set|grep -i us.ut
 zsh
 history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history ;history |grep .
+zsh
+npm run
+npx --help
+npx --version
+npm exec
+npx --help
+npx jtree
+mc
+env
+zsh
+zsh #paste in zsh !  zsh paste multiple lines safety
+zsh # zsh paste multiple lines safety
+zsh
+zsh # zsh ... paste multiple lines ... safety
+zsh
+mc
+ll
+zsh
+exit
+zsh
+zsh
+cpio
+zsh
+zsh --version
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history ;history |grep wee
+ldd node
+history|less
+zsh
+ldd node
+which -a code
+command -v code
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history ;history |grep opt
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history ;history |grep hopt
+history -a; history;  cp -v ~/.bash_history /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.bash_history ;history |grep opt
