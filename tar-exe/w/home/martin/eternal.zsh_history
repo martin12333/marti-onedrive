@@ -8055,3 +8055,4 @@ g\
 : 1669670403:0;setopt|grep -i hist
 : 1669670411:0;man zshoptions
 : 1669670497:0;bash
+: 1669682981:0;ls -l `echo $PATH|tr : ' '`|wc

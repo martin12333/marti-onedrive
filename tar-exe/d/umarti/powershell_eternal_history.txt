@@ -4251,3 +4251,12 @@ explorer 'c:/Program Files/Microsoft VS Code/'
 explorer 'c:/Program Files/'
 explorer 'c:\Program Files\Microsoft VS Code\bin'
 wsl -d Ubuntu-22.04
+cmd /c dir /s /b *.exe
+cmd /c dir /s /b *.exe|Measure-Object
+cd c:\pf\git
+cmd /c dir /s /b *.exe|Measure-Object
+cmd /c dir /s /b *.exe
+d:\
+cd d:\
+cd .\msys64\
+cmd /c dir /s /b *.exe|Measure-Object

@@ -465,3 +465,17 @@ echo .irssi \ # mounts irssi  \\
 : 1669673548:0;./busybox
 : 1669673566:0;cd
 : 1669673572:0;bin/busybox sh
+: 1669675929:0;history
+: 1669681450:0;./busybox
+: 1669681460:0;cd bin
+: 1669681461:0;./busybox
+: 1669681504:0;./busybox|tr -cd ,
+: 1669681508:0;./busybox|tr -cd ,|wc
+: 1669682997:0;ls -l `echo $PATH|tr : ' '`|wc
+: 1669683183:0;apt search static
+: 1669683232:0;apt search static| grep '^\w+[-]stat'
+: 1669683253:0;apt search static| grep -E '^\w+[-]stat'
+: 1669683431:0;apt show python3-static3
+: 1669683451:0;apt show node-static
+: 1669683479:0;apt show gpgv-static
+: 1669683883:0;apt show dar-static

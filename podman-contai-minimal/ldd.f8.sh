@@ -1,6 +1,28 @@
 
 
+ls -la /
+ls -la /dev
+ls -la /dev/fd/.
 
+cd c:\pf\git
+cmd /c dir /s /b *.exe
+cmd /c dir /s /b *.exe|Measure-Object
+
+ls -l `echo $PATH|tr : ' '`|wc
+
+apt search static| grep -E '^\w+[-]stat'
+apt search static
+
+bash-static/jammy 5.1-6ubuntu1 amd64
+zsh-static/jammy
+
+apt show gpgv-static
+ Android and ChromeOS are two well known examples,
+ but there are many other platforms that this will work for, like
+ embedded Linux OSes.  This gpgv in combination with debootstrap and
+ the Debian archive keyring allows the secure creation of chroot
+ installs on these platforms by using the full Debian signature
+ verification that is present in all official Debian mirrors.
 
 apt download busybox-static
 	ll busybox-static*
@@ -14,7 +36,7 @@ apt download busybox-static
   461  cd
   462  bin/busybox sh
 
-
+	./busybox|tr -cd ,|wc
 
 
 
