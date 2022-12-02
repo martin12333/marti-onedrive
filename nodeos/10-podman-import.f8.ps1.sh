@@ -10,26 +10,36 @@ exit
 
 ######cmd /c explorer.exe  'c:/Program Files/RedHat/Podman'
 explorer.exe  'C:\Program Files\RedHat\Podman'
-explorer.exe  'C:\Program Files\RedHat\Podman\podman-image-prune.html'
+explorer.exe  'C:\Program Files\RedHat\Podman\podman-image....'
 
 
 podman machine start
 
 
 
-#C:\Users\marti\OneDrive\nodeos\master\dockerBuild
 
 echo '-------- section --------'
 
 podman ps --all
 podman container list --all
 
-podman.exe conta
 
 podman image list --all
 
+echo '-------- section --------'
 
 
+#C:\Users\marti\OneDrive\nodeos\master\dockerBuild
+
+CONTEXT=out/latest
+
+
+#cp resources/Dockerfile           $CONTEXT || exit 10
+#cp resources/Dockerfile-initramfs $CONTEXT || exit 12
+cd $CONTEXT || exit 20
+
+
+ORG=nodeos
 
 
 #!/usr/bin/env sh
