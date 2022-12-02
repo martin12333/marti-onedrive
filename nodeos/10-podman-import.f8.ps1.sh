@@ -31,12 +31,21 @@ echo '-------- section --------'
 
 #C:\Users\marti\OneDrive\nodeos\master\dockerBuild
 
-CONTEXT=out/latest
+#CONTEXT=out/latest
+#CONTEXT=c:/Users/marti
+CONTEXT=d:/umarti/dowNLOADS--SYMLINKED/x86_64-pc-docker
 
+cd $CONTEXT || exit 20
+
+dir c:\gib\git-c*
+dir c:\gib\ba*
+###c:\gib\bash -c git
+dir c:\pf\git\cmd
+dir c:\pf\git\bin
+c:\pf\git\bin\git clone https://github.com/nodeos/nodeos
 
 #cp resources/Dockerfile           $CONTEXT || exit 10
 #cp resources/Dockerfile-initramfs $CONTEXT || exit 12
-cd $CONTEXT || exit 20
 
 
 ORG=nodeos

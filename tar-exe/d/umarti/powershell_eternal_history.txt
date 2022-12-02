@@ -4274,3 +4274,10 @@ explorer.exe  'c:/Program Files/RedHat/Podman'
 cmd /c explorer.exe  'c:/Program Files/RedHat/Podman'
 explorer.exe  'C:\Program Files\RedHat\Podman'
 explorer.exe  'C:\Program Files\RedHat\Podman\podman-image-prune.html'
+dir c:\
+dir c:\gib
+dir c:\gib\gi*
+c:\gib\git
+dir c:\gib\git-c*
+dir c:\gib\ba*
+c:\gib\bash -c git
