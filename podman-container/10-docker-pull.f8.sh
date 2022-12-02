@@ -33,6 +33,29 @@ Error: error joining network namespace of container 8d2a6d493e5c5a3df82436adcbc7
 echo '-------- section --------'
 
 
+
+podman ps --all
+podman container list --all
+
+podman container rm nodeos
+
+podman image list --all
+podman image rm 'initramfs'
+podman image rm 'initramfs2'
+
+
+podman pull docker.io/nodeos/nodeos
+#podman pull docker.io/library/postgres
+
+
+ #mcr.microsoft.com/devcontainers/base:1.0.0-ubuntu22.04
+
+
+
+
+echo '-------- section --------'
+
+
 https://github.com/devcontainers/images/tree/main/src/base-ubuntu/history
 https://github.com/devcontainers/images/blob/main/src/base-ubuntu/history/1.0.0.md
 

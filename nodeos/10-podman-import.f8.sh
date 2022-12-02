@@ -16,10 +16,15 @@ explorer.exe  'C:\Program Files\RedHat\Podman\podman-image-prune.html'
 podman machine start
 
 
+
+#C:\Users\marti\OneDrive\nodeos\master\dockerBuild
+
 echo '-------- section --------'
 
 podman ps --all
 podman container list --all
+
+podman.exe conta
 
 podman image list --all
 
