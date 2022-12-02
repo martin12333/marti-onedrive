@@ -68,10 +68,8 @@ tar tvf bin.tar
 cp -iv bin.tar /mnt/d/umarti/dowNLOADS--SYMLINKED
 cp -iv bin.tar /mnt/c/Users/marti
 
-podman import  /mnt/c/Users/marti/bin.tar
 #################
 
-docker import
 
 docker image ls
 
