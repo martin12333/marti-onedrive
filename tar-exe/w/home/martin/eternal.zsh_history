@@ -8056,3 +8056,5 @@ g\
 : 1669670411:0;man zshoptions
 : 1669670497:0;bash
 : 1669682981:0;ls -l `echo $PATH|tr : ' '`|wc
+: 1669769108:0;dmesg -n 1
+: 1669769133:0;dmesg --help

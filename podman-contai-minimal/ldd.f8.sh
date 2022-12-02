@@ -1,7 +1,12 @@
 
 
+dmesg --help
+#dmesg -n 1
+
 ls -la /
 ls -la /dev
+ls -la /proc
+ls -la /sys
 ls -la /dev/fd/.
 
 cd c:\pf\git
