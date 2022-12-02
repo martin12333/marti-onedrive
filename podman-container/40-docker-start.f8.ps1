@@ -15,31 +15,37 @@ echo '-------- section --------'
 
 podman ps --all
 podman container list --all
+podman image list --all
 
 podman start   -ai    cmy22b
-podman start   -ai    nodeos
+podman start   -ai    cnodeos
 
 #zsh
 
+#
 podman unshare
 
 zsh
 
 
 cd `podman mount  nodeos`
-
+##sudo podman image mount  localhost/nodeos/nodeosbui
+##sudo podman image mount  443b
+#######sudo podman mount
+cd `podman image mount  localhost/nodeos/nodeosbui`
 
 The unshare session defines two environment variables:
 
 echo $CONTAINERS_GRAPHROOT  the path to the persistent containe.
 
 echo $CONTAINERS_RUNROOT the path to the volatile contain
-ll $CONTAINERS_RUNROOT	
+ll $CONTAINERS_RUNROOT
 
 
 cd `podman mount  nodeos`
 ###cd `podman mount  nodeos/barebones`
 find . -name 'node*'
+find . -name 'node'
 ls bin/n*
 ls sbin/n*
 ls usr/bin
