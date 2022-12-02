@@ -11,6 +11,4 @@ exit
 
 #podman  import barebones.tar.gz nodeos/barebones
 
-podman build -t my-busybox -f
-
-C:\Users\marti\OneDrive\podman-contai-minimal\busybox-static.dockerfile   # .   # || exit 31
+podman build -t my-busybox -f   ...... C:\Users\marti\OneDrive\podman-contai-minimal\busybox-static.dockerfile   # .   # || exit 31
