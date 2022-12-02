@@ -144,7 +144,9 @@ code ./dotfiles
 	git show --name-only
 
 		#didnot help /d/dow too-long to read PROBABLY, too many files  ... prb in u2204 ...
-todo pseudosh mkdir /d/dow230
+todo pseudosh
+	mv -iv dow OLDdow22
+ 	mkdir /d//dowNLOADS--SYMLINKED
 
 	wsl --list --all --verbose
 	wsl --shutdown
