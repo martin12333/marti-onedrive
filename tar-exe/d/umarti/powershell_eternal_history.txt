@@ -4303,3 +4303,4 @@ $ORG='nodeos'
 cd $CONTEXT || exit 20
 dir
 podman build -t $ORG/initramfs -f Dockerfile-initramfs . || exit 31
+podman build -t $ORG/nodeosbui . || exit 34
