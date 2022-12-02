@@ -19,16 +19,22 @@ podman container list --all
 podman start   -ai    cmy22b
 podman start   -ai    nodeos
 
+#zsh
 
 podman unshare
+
+#zsh
+
 cd `podman mount  nodeos`
+###cd `podman mount  nodeos/barebones`
+find . -name 'node*'
 ls bin/n*
 ls sbin/n*
 ls usr/bin
 ls tmp/no*/bi*
-find . -name 'node*'
 mount
 df -m
+exit
 exit
 history -a
 

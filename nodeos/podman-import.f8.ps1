@@ -11,6 +11,7 @@ cd D:\umarti\dowNLOADS--SYMLINKED\x86_64-pc-docker
 
 podman.exe  import barebones.tar.gz nodeos/barebones
 
+#####
 podman.exe  import initramfs.tar.gz nodeos/initramfs
 
 podman.exe  build -t nodeos/initramfs2 .
