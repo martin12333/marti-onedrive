@@ -1,3 +1,32 @@
+
+
+(mm_f8_doc file pseudo-format)
+# (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
+
+do-not run this file as a whole
+)
+exit
+
+
+######cmd /c explorer.exe  'c:/Program Files/RedHat/Podman'
+explorer.exe  'C:\Program Files\RedHat\Podman'
+explorer.exe  'C:\Program Files\RedHat\Podman\podman-image-prune.html'
+
+
+podman machine start
+
+
+echo '-------- section --------'
+
+podman ps --all
+podman container list --all
+
+podman image list --all
+
+
+
+
+
 #!/usr/bin/env sh
 
 # NodeOS

@@ -4268,3 +4268,9 @@ podman ps --all
 podman container list --all
 podman start   -ai    nodeos
 wsl -d podman-machine-default
+explorer.exeexplorer.exe  '/mnt/c/Program Files/RedHat/Podman//podman-import.html'
+explorer.exe  '/mnt/c/Program Files/RedHat/Podman//podman-import.html'
+explorer.exe  'c:/Program Files/RedHat/Podman'
+cmd /c explorer.exe  'c:/Program Files/RedHat/Podman'
+explorer.exe  'C:\Program Files\RedHat\Podman'
+explorer.exe  'C:\Program Files\RedHat\Podman\podman-image-prune.html'

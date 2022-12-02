@@ -479,3 +479,9 @@ echo .irssi \ # mounts irssi  \\
 : 1669683451:0;apt show node-static
 : 1669683479:0;apt show gpgv-static
 : 1669683883:0;apt show dar-static
+: 1669997507:0;podman-import.html
+: 1669997538:0;head podman-import.html
+: 1669997572:0;cat Files/RedHat/Podman//podman-import.html
+: 1669997576:0;cat Files/RedHat/Podman/podman-import.html
+: 1669997610:0;cat '/mnt/c/Program Files/RedHat/Podman//podman-import.html'
+: 1669997619:0;head '/mnt/c/Program Files/RedHat/Podman//podman-import.html'

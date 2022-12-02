@@ -23,7 +23,19 @@ podman start   -ai    nodeos
 
 podman unshare
 
-#zsh
+zsh
+
+
+cd `podman mount  nodeos`
+
+
+The unshare session defines two environment variables:
+
+echo $CONTAINERS_GRAPHROOT  the path to the persistent containe.
+
+echo $CONTAINERS_RUNROOT the path to the volatile contain
+ll $CONTAINERS_RUNROOT	
+
 
 cd `podman mount  nodeos`
 ###cd `podman mount  nodeos/barebones`
