@@ -4293,3 +4293,13 @@ dir .\scripts\
 CONTEXT=d:/umarti/dowNLOADS--SYMLINKED/x86_64-pc-docker
 $CONTEXT=d:/umarti/dowNLOADS--SYMLINKED/x86_64-pc-docker
 $CONTEXT=d:\umarti\dowNLOADS--SYMLINKED\x86_64-pc-docker
+$CONTEXT='d:\umarti\dowNLOADS--SYMLINKED\x86_64-pc-docker'
+cd $CONTEXT || exit 20
+cd nodeos
+cp resources/Dockerfile           $CONTEXT || exit 10
+cp resources/Dockerfile-initramfs $CONTEXT || exit 12
+$ORG=nodeos
+$ORG='nodeos'
+cd $CONTEXT || exit 20
+dir
+podman build -t $ORG/initramfs -f Dockerfile-initramfs . || exit 31

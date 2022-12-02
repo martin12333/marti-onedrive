@@ -76,8 +76,12 @@ podman.exe  import barebones.tar.gz nodeos/barebones
 #####
 #########podman.exe  import initramfs.tar.gz nodeos/initramfs
 
-podman.exe  build -t nodeos/initramfs2 .
-#podman.exe  build -t nodeos/initramfs .
+podman build -t $ORG/initramfs -f Dockerfile-initramfs . || exit 31
+
+podman build -t $ORG/nodeosbui . || exit 34
+
+###podman.exe  build -t nodeos/initramfs2 .
+####podman.exe  build -t nodeos/initramfs .
 
 
 
