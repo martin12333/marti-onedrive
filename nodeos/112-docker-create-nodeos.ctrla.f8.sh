@@ -8,7 +8,8 @@ set -x
 
 podman container rm cnodeos
 #wsl -d podman-machine-default
-#zsh
+# exit from root!
+##zsh
 #ctrl_a
 #f8
 

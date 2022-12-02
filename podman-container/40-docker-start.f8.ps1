@@ -20,6 +20,8 @@ podman image list --all
 podman start   -ai    cmy22b
 podman start   -ai    cnodeos
 
+process.argv0
+
 #zsh
 
 #
