@@ -42,6 +42,7 @@ podman stop cmyjs22b
 podman stop c22b-keep  # exited
 podman container rm cmyjs22b
 podman container rm cmy22b
+podman container rm nodeos
 
 
 grep '[[][@][]]'   **/*opt*

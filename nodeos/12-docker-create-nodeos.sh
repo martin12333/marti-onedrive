@@ -36,6 +36,7 @@ create
 
 #--workdir /home/vscode # node
 #--workdir /
+--entrypoint   /usr/bin/node
 #--entrypoint   /usr/bin/zsh
 
 

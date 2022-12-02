@@ -29,6 +29,7 @@ podman ps --all
 podman start   -ai    cmyjs22b
 podman start   -ai    myconta22
 #podman start cmyjs22b
+podman start nodeos
 #podman start
 
 exit
@@ -130,6 +131,8 @@ man podman-create
 echo '-------- section --------'
 
 #As the user we created before:
+
+podman exec --interactive --tty --user 1000:1000   --workdir /  nodeos  /sbin/init
 
 podman exec --interactive --tty --user node  --workdir /home/node cmyjs22b  /usr/bin/zsh
 #podman exec --interactive --tty --user node  --workdir /home/node cmyjs22b  /bin/bash
