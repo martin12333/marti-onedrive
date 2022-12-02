@@ -9,7 +9,7 @@ exit
 
 
 podman machine start
-
+wsl -d podman-machine-default
 
 echo '-------- section --------'
 

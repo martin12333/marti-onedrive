@@ -9,6 +9,9 @@ exit
 
 
 podman import  /mnt/c/Users/marti/bin.tar
+ll   /mnt/c/Users/marti/bin.tar
+cp -iv /mnt/c/Users/marti/bin.tar ~
+
 
 #podman  import barebones.tar.gz nodeos/barebones
 

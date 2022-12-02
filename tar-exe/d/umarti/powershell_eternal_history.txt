@@ -4306,3 +4306,6 @@ podman build -t $ORG/initramfs -f Dockerfile-initramfs . || exit 31
 podman build -t $ORG/nodeosbui . || exit 34
 podman start   -ai    cnodeos
 wsl -d podman-machine-default
+exit
+podman machine start
+wsl -d podman-machine-default
