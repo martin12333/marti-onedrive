@@ -34,6 +34,7 @@ echo '-------- section --------'
 #CONTEXT=out/latest
 #CONTEXT=c:/Users/marti
 CONTEXT=d:/umarti/dowNLOADS--SYMLINKED/x86_64-pc-docker
+$CONTEXT='d:\umarti\dowNLOADS--SYMLINKED\x86_64-pc-docker'
 
 cd $CONTEXT || exit 20
 
@@ -43,12 +44,15 @@ dir c:\gib\ba*
 dir c:\pf\git\cmd
 dir c:\pf\git\bin
 c:\pf\git\bin\git clone https://github.com/nodeos/nodeos
+cd nodeos
+cp resources/Dockerfile           $CONTEXT || exit 10
+cp resources/Dockerfile-initramfs $CONTEXT || exit 12
 
-#cp resources/Dockerfile           $CONTEXT || exit 10
-#cp resources/Dockerfile-initramfs $CONTEXT || exit 12
-
+cd $CONTEXT || exit 20
+dir
 
 ORG=nodeos
+$ORG='nodeos'
 
 
 #!/usr/bin/env sh
@@ -63,9 +67,14 @@ ORG=nodeos
 cd D:\umarti\dowNLOADS--SYMLINKED\x86_64-pc-docker
 
 podman.exe  import barebones.tar.gz nodeos/barebones
+#docker import barebones.tar.gz $ORG/barebones            || exit 30
+
+
+
+
 
 #####
-podman.exe  import initramfs.tar.gz nodeos/initramfs
+#########podman.exe  import initramfs.tar.gz nodeos/initramfs
 
 podman.exe  build -t nodeos/initramfs2 .
 #podman.exe  build -t nodeos/initramfs .

@@ -4281,3 +4281,15 @@ c:\gib\git
 dir c:\gib\git-c*
 dir c:\gib\ba*
 c:\gib\bash -c git
+dir c:\pf\git
+dir c:\pf\git\cmd
+dir c:\pf\git\bin
+c:\pf\git\bin\git
+c:\pf\git\bin\git clone https://github.com/nodeos/nodeos
+dir
+cd .\nodeos\
+dir
+dir .\scripts\
+CONTEXT=d:/umarti/dowNLOADS--SYMLINKED/x86_64-pc-docker
+$CONTEXT=d:/umarti/dowNLOADS--SYMLINKED/x86_64-pc-docker
+$CONTEXT=d:\umarti\dowNLOADS--SYMLINKED\x86_64-pc-docker
