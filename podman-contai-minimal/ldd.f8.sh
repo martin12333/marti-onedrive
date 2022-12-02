@@ -1,5 +1,14 @@
 
 
+(mm_f8_doc file pseudo-format)
+# (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
+
+do-not run this file as a whole
+)
+exit
+
+
+
 dmesg --help
 #dmesg -n 1
 
@@ -43,8 +52,26 @@ apt download busybox-static
 
 	./busybox|tr -cd ,|wc
 
+cd
+chmod +x bin/busybox
+cd bin
+ln -siv busybox  sh
+ll
 
+cd
+tar c bin >bin.tar
+ls -latr
 
+tar tf bin.tar
+tar tvf bin.tar
+
+cp -iv bin.tar /mnt/d/umarti/dowNLOADS--SYMLINKED
+cp -iv bin.tar /mnt/c/Users/marti
+
+podman import  /mnt/c/Users/marti/bin.tar
+#################
+
+docker import
 
 docker image ls
 
@@ -91,3 +118,6 @@ Press any key to continue...
 ➜  marti cat /etc/lsb-release
 DISTRIB_ID=Ubuntu
 DISTRIB_RELEASE=20.04
+
+
+

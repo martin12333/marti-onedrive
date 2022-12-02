@@ -485,3 +485,18 @@ echo .irssi \ # mounts irssi  \\
 : 1669997576:0;cat Files/RedHat/Podman/podman-import.html
 : 1669997610:0;cat '/mnt/c/Program Files/RedHat/Podman//podman-import.html'
 : 1669997619:0;head '/mnt/c/Program Files/RedHat/Podman//podman-import.html'
+: 1670020231:0;cd
+: 1670020234:0;cd bin
+: 1670020235:0;ll
+: 1670020383:0;cd
+: 1670020387:0;chmod +x bin/busybox
+: 1670020433:0;cd bin
+: 1670020447:0;ln -siv busybox  sh
+: 1670020452:0;ll
+: 1670020511:0;cd
+: 1670020512:0;tar c bin >bin.tar
+: 1670020518:0;ls -latr
+: 1670020568:0;tar tf bin.tar
+: 1670020590:0;tar tvf bin.tar
+: 1670020671:0;cp -iv bin.tar /mnt/d/umarti/dowNLOADS--SYMLINKED
+: 1670020705:0;cp -iv bin.tar /mnt/c/Users/marti
