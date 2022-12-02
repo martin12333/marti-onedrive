@@ -106,6 +106,7 @@ code ./dotfiles
 	git add -vv  '*.f8.*'
 	git add -vv  'podman-container/*create*.sh'
 	git add -vv --dry-run '*/*docker-create*.sh'
+	git add -vv --dry-run '*/*ockerfile*'
 	git add -vv  '*/*docker-create*.sh'
 	git add -vv  'dotfiles/*.sh'
 

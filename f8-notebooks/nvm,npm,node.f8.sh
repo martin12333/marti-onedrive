@@ -201,3 +201,11 @@ npm ERR!     /home/martin/.npm/_logs/2022-10-15T17_21_30_100Z-debug.log
 node
 5*98
 .exit
+
+
+  isRaw: true,
+  isTTY: true,
+  fd: 0,
+  read: [Function],
+  _consuming: true }
+> process.stdin
