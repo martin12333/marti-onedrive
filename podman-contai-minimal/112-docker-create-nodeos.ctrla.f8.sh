@@ -38,7 +38,7 @@ create
 
 -it
 #--name cmy22b
---name cbb
+--name cbbmy
 #     --hostname mybox
 
 --userns=keep-id
@@ -68,7 +68,8 @@ create
 
 -v  '/mnt/c/Users/marti/OneDrive:/onedri:ro'
 
-6c21
+#6c21
+my-busybox
 #imy22b
 #imy22b11
 

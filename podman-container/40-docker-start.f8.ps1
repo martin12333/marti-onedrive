@@ -20,6 +20,7 @@ podman image list --all
 podman start   -ai    cmy22b
 podman start   -ai    cnodeos
 podman start   -ai    cbb
+podman start   -ai    cbbmy
 
 process.argv0
 
