@@ -107,6 +107,8 @@ code ./dotfiles
 	git add -vv  'podman-container/*create*.sh'
 	git add -vv --dry-run '*/*docker-create*.sh'
 	git add -vv --dry-run '*/*ockerfile*'
+	git add -vv --dry-run '*/*zsh_history*'
+	git add -vv    '*/*zsh_history*'
 	git add -vv  '*/*ockerfile*'
 	git add -vv  '*/*docker-create*.sh'
 	git add -vv  'dotfiles/*.sh'
