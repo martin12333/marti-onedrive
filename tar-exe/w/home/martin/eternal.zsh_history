@@ -8059,3 +8059,6 @@ g\
 : 1669769108:0;dmesg -n 1
 : 1669769133:0;dmesg --help
 : 1670097771:0;history| grep was
+: 1670106073:0;file OneDrive/emsdk*/*log
+: 1670106084:0;file emsdk*/*log
+: 1670106093:0;file emsdk*/*.wasm

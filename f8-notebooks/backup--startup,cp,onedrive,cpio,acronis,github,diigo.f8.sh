@@ -110,7 +110,7 @@ code ./dotfiles
 	git add -vv --dry-run '*/*zsh_history*'
 	git add -vv --dry-run '*/*ish_history*'
 	git add -vv --dry-run 'wasm*/**/*sh_history*'
-	git add -vv    'wasm*/*/*ish_history*'
+	git add -vv    'wasm*/*/*sh_history*'
 	git add -vv    '*/*zsh_history*'
 	git add -vv  '*/*ockerfile*'
 	git add -vv  '*/*docker-create*.sh'
