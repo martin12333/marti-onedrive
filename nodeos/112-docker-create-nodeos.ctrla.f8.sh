@@ -33,11 +33,20 @@ args=(
 
 #    --log-level error
 
-create
+create   -it
 
--it
-#--name cmy22b
---name cnodeos
+
+--name
+# name2
+# name3
+# name...
+#
+# NUMBERING name3... MAY BE BETTER, THAN rm cnodeos, THAT WAS COPIED AND NOT EDITED, BY MISTAKE, INTO ANOTHER SCRIPT
+cnodeos
+#cbbmy
+#cmy22b
+
+
 #     --hostname mybox
 
 --userns=keep-id
@@ -67,9 +76,11 @@ create
 
 -v  '/mnt/c/Users/marti/OneDrive:/onedri:ro'
 
+
 nodeos/nodeosbui
 #imy22b
 #imy22b11
+
 
 #--help
 
