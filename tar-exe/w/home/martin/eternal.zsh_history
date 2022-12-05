@@ -8062,3 +8062,38 @@ g\
 : 1670106073:0;file OneDrive/emsdk*/*log
 : 1670106084:0;file emsdk*/*log
 : 1670106093:0;file emsdk*/*.wasm
+: 1670201146:0;history| grep zip
+: 1670201212:0;{for x in *.zip\
+do\
+zipinfo $x\
+done}| grep -i dockerfi
+: 1670201234:0;cd /mnt/d/umarti/dowNLOADS--SYMLINKED
+: 1670201237:0;{for x in *.zip\
+do\
+zipinfo $x\
+done}| grep -i dockerfi
+: 1670201334:0;{for x in *.zip\
+do\
+zipinfo $x\
+done}| grep -i dockerfi 
+: 1670201551:0;cd /mnt/d/umarti/dowNLOADS--SYMLINKED
+: 1670201556:0;{for x in *.zip\
+do\
+zipinfo $x\
+done}| grep -i dockerfi 
+: 1670205222:0;{for x in *.zip\
+do\
+zipinfo $x\
+done}| grep -i '[.]wasm'
+: 1670205299:0;{for x in *.zip\
+do\
+zipinfo $x\
+done}| grep -i '[.]wasm$'
+: 1670206684:0;{for x in *.zip\
+do\
+zipinfo $x\
+done}| grep -i 'os-release$'
+: 1670206718:0;{for x in *.zip\
+do\
+zipinfo $x\
+done}| grep -i '[/]etc[/]'

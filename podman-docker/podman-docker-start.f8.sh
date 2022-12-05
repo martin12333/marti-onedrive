@@ -26,10 +26,10 @@ echo '-------- section --------'
 
 podman ps --all
 
-podman start   -ai    cmyjs22b
+podman start   -ai    cmy22b
 podman start   -ai    myconta22
 #podman start cmyjs22b
-podman start nodeos
+podman start -ai cnodeos
 #podman start
 
 exit
