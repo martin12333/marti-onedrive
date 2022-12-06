@@ -15,6 +15,10 @@ history -a;   history |grep sha
 
 
 
+ sha1sum.exe 39-efi-shell/marked-green-224d-efi/shell/BOOTX64.efi
+ ll 39-efi-shell/marked-green-224d-efi/shell/BOOTX64.efi
+ff64c8245e9d775d76f0b0ff26c8ec548ff07a00 *39-efi-shell/marked-green-224d-efi/shell/BOOTX64.efi
+
 
 
 
