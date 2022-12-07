@@ -500,3 +500,5 @@ echo .irssi \ # mounts irssi  \\
 : 1670020590:0;tar tvf bin.tar
 : 1670020671:0;cp -iv bin.tar /mnt/d/umarti/dowNLOADS--SYMLINKED
 : 1670020705:0;cp -iv bin.tar /mnt/c/Users/marti
+: 1670372747:0;dash --help
+: 1670372752:0;man dash
