@@ -502,3 +502,6 @@ echo .irssi \ # mounts irssi  \\
 : 1670020705:0;cp -iv bin.tar /mnt/c/Users/marti
 : 1670372747:0;dash --help
 : 1670372752:0;man dash
+: 1670619303:0;strace
+: 1670619315:0;strace echo
+: 1670619351:0;strace true

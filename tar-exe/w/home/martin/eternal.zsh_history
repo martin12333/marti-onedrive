@@ -8097,3 +8097,10 @@ done}| grep -i 'os-release$'
 do\
 zipinfo $x\
 done}| grep -i '[/]etc[/]'
+: 1670464182:0;apt search bsd
+: 1670464204:0;apt search bsd|grep -i bsd
+: 1670464580:0;apt search bsd|grep -i bsdapt show bsdmainutils
+: 1670464591:0;apt show bsdmainutils
+: 1670464642:0;apt show bsdutils
+: 1670464683:0;apt show bsdgames-nonfree
+: 1670464721:0;apt show bsdgames
