@@ -9,9 +9,12 @@ exit
 
 echo '-------- section --------'
 
-
+# I use  a container
 podman machine start
 podman start   -ai    cmy22b
+
+echo '-------- section --------'
+
 
 cd
 mkdir cowasm
@@ -27,13 +30,16 @@ npm i
 
 du -m
 
+echo '-------- section --------'
 
 npx /usr/bin/zsh
 
 dash-wasm
 
 
-(cowasm)$ ls -l
+#(cowasm)$
+ ls -l
+
 total 561
 ----------    1 0  0    4246 Dec  6 17:26 README.md
 d---------    2 0  0    4096 Dec  6 17:26 bin
@@ -42,13 +48,19 @@ d---------  222 0  0   12288 Dec  6 17:32 node_modules
 ----------    1 0  0  261599 Dec  6 17:32 package-lock.json
 ----------    1 0  0    1673 Dec  6 17:26 package.json
 ----------    1 0  0     207 Dec  6 17:26 tsconfig.json
-(cowasm)$ ls -l /
+
+
+(cowasm)$
+ ls -l /
+
 total 99
 d---------    1 0  0   512 Nov  2 21:16 acloudSUBDIR
 l---------    1 0  0     7 Oct 20 11:49 bin -> usr/bin
 d---------    1 0  0  4096 Apr 18  2022 boot
 d---------    1 0  0   512 Nov  2 20:30 cdrivemy
+
 d---------    1 0  0     0 Dec  7 00:16 cowasm
+
 d---------    5 0  0   360 Dec  6 17:25 dev
 d---------    1 0  0  4096 Nov 27 20:07 etc
 d---------    5 0  0  4096 Nov 28 22:10 home
@@ -69,7 +81,11 @@ d---------   11 0  0     0 Dec  6 17:25 sys
 d---------    1 0  0  4096 Dec  6 17:25 tmp
 d---------    1 0  0  4096 Oct 20 11:49 usr
 d---------    1 0  0  4096 Oct 20 11:53 var
+
+
 (cowasm)$ ^D
+
+
 vscode ➜ ~/cowasm/node_modules/dash-wasm $ ls -l /
 total 48
 drwxrwxrwx   1 vscode vscode   512 Nov  2 21:16 acloudSUBDIR
@@ -109,3 +125,11 @@ set|grep -i hist
 set|grep -i hist
 
 dash-wasm
+
+
+
+
+
+
+
+# Object.cowasm_vforkexec (/home/vscode/cowasm/node_modules/dash-wasm/node_modules/@cowasm/kernel/dist/wasm/posix/fork-exec.js:224:28

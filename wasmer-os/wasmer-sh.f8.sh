@@ -7,6 +7,20 @@ exit
 
 
 
+
+
+where does the source for the "https://wasmer.sh/" project exist ?
+
+it could be this
+https://github.com/wasmerio/ate/tree/slim/wasmer-web/public/bin
+https://github.com/wasmerio/ate/blob/slim/wasmer-web/public/index.html
+https://github.com/wasmerio/ate/blob/slim/wasmer-os/src/cconst.rs#L87
+
+I plan to try to install it locally
+
+
+
+
 echo '-------- section --------'
 strace
 strace echo

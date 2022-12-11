@@ -10,6 +10,12 @@ exit
 
 echo '-------- section --------'
 
+
+https://api.github.com/repos/busytex/busytex/git/trees/main?recursive=1
+
+
+
+
 https://busytex.github.io/#https://github.com/busytex/busyide/archive/refs/heads/main.zip
 
 display: flex; height: 60%
@@ -133,4 +139,28 @@ busytex:~/readme$ history
 
 
 
+busytex:~/readme$ git
+clone   pull    push    status  difftool        diff    fetch   checkout
+busytex:~/readme$ busybox
+BusyBox v1.33.0 (2021-09-18 18:19:43 UTC) multi-call binary.
+BusyBox is copyrighted by many authors between 1998-2015.
+Licensed under GPLv2. See source distribution for detailed
+copyright notices.
 
+Usage: busybox [function [arguments]...]
+   or: busybox --list
+   or: function [arguments]...
+
+        BusyBox is a multi-call binary that combines many common Unix
+        utilities into a single executable.  Most people will create a
+        link to busybox for each function they wish to use and BusyBox
+        will act like whatever it was invoked as.
+
+Currently defined functions:
+        awk, base32, base64, bsddiff, bsddiff3prog, busyz, cat, clear, cmp, cp,
+        cut, date, dirname, du, echo, ed, egrep, expr, false, fgrep, find,
+        grep, gzip, head, hexdump, hostid, id, ln, ls, mkdir, mv, patch,
+        printenv, printf, pwd, readlink, realpath, rev, rm, rmdir, sed, seq,
+        sha1sum, shuf, sort, sum, tail, tar, test, time, touch, tr, true, uniq,
+        unxz, unzip, wc, whoami, xxd, yes
+busytex:~/readme$

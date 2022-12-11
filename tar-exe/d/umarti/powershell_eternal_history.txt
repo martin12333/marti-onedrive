@@ -4313,3 +4313,6 @@ git add -vv --dry-run '*/*zsh_history*'
 podman machine start
 podman start   -ai    cmy22b
 wsl -d podman-machine-default
+git add -vv  '*.f8.*'
+podman machine start
+podman start   -ai    cmy22b
