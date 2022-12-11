@@ -9,11 +9,11 @@ exit
 
 echo '-------- section --------'
 
-# I use  a container
+# i use  a container
 podman machine start
 podman start   -ai    cmy22b
 
-echo '-------- section --------'
+echo '-------- section: install --------'
 
 
 cd
@@ -30,12 +30,15 @@ npm i
 
 du -m
 
-echo '-------- section --------'
+echo '-------- section: run --------'
+
+cd ~/cowasm/node_modules/dash-wasm
 
 npx /usr/bin/zsh
 
 dash-wasm
 
+echo '-------- section: experiments --------'
 
 #(cowasm)$
  ls -l
@@ -96,6 +99,8 @@ drwxr-xr-x   5 root   root     360 Dec  6 17:25 dev
 drwxr-xr-x   1 root   root    4096 Nov 27 20:07 etc
 
 
+echo '-------- section --------'
+
 
 dash-wasm
 
@@ -110,26 +115,44 @@ exit
 
 env
 set
-sh --help
-dash --help
-man dash
 
+####sh --help
+ll
+rm -i core
+y
+
+echo '-------- section --------'
+
+
+
+#dash --help
+man dash
 #####type
-history
-echo $HOME
-ls -a $HOME
-cat  $HOME/.profile
-echo $PATH
-env
-set|grep -i hist
-set|grep -i hist
 
 dash-wasm
 
+history
+echo $HOME
+ls -a $HOME
+
+echo '-------- section --------'
+
+dash-wasm
+cat  $HOME/.profile
+###cat  $HOME/.profile
+#####echo $PATH
+
+echo '-------- section --------'
+
+dash-wasm
+
+echo $PATH
+env
+#set|grep -i hist
 
 
-
-
-
+echo '-------- section --------'
 
 # Object.cowasm_vforkexec (/home/vscode/cowasm/node_modules/dash-wasm/node_modules/@cowasm/kernel/dist/wasm/posix/fork-exec.js:224:28
+
+echo '-------- section --------'
