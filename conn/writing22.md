@@ -120,7 +120,6 @@ I will write more later.
 
 @SRS-WRKS
 
-> You are celebrating removing command line apps. tree notation was supposed to be about treating data and code equally. You want to run this on IDE's and webapps is fine, but not supporting posix filesystems like procfs/fuse seems counterintuitive.
 
 I think, the F5 key in an IDE could run a **command line** app, that uses the **filesystem** ... maybe something like
 
@@ -252,14 +251,6 @@ I will write more tomorrow
 
 
 
-> Yes, although i am not an expert, i feel the need to interact. Its usually a bad idea, but i will try.
->
-> HAML, which inspired text notation has text bundle and textmate support. LISP and github seemed to have gotten along for the most part.
->
-> Can something really be just a text file and support various third party tools without even using something like fuse (https://www.kernel.org/doc/html/latest/filesystems/fuse.html) ?
-
-
-
 
 
 
@@ -303,7 +294,6 @@ Re: textmate-style language grammars for Tree Languages
 
 
 
-Unfortunately I have tried and failed miserably to make textmate-style language grammars for Tree Languages (https://github.com/breck7/lime and https://github.com/breck7/jtree/blob/7a5883dc64fa3646db937f96a0189a40af9d860d/core/GrammarLanguage.ts#L2735)
 
 
 
@@ -348,11 +338,15 @@ section Running Ohayo Programs on the Command Line
 I am unable to make it work ... what have I tried so far:
 
 
+-----
+
+
 todo gist as with hyperpoly
 log?
 shell-log?
 .sh-session?
 
+-----
 
 (it is not the first attempt)
 
@@ -800,7 +794,7 @@ date="1594655668512" type="2" subject="null" body="Nebo lepší druhá možnost:
 
 date="1594898006283" type="2" subject="null" body="... pyžamovou košili, nebo tenkou mikinu, nebo tričko s *dlouhým* rukávem. 100% bavlna. velikost XL. na barvě nezáleží. Díky moc." toa="null" sc_toa="null"
 
-date="1594898043027" type="2" subject="null" body="... podlehnout náletům mojí ... . Podcenil Jsem ... staré ... " toa="null" sc_toa="null" service_center="null" read="1"
+date="1594898043027" type="2" subject="null" body="... podlehnout náletům  ... . Podcenil Jsem ... staré ... " toa="null" sc_toa="null" service_center="null" read="1"
 
 date="1594899973930" type="2" subject="null" body="Asi jsem byl pod vlivem antidepresiva, když jsem se rozhodoval tak lehkomyslně." toa="null" sc_toa="null"
 
