@@ -1,8 +1,8 @@
 AAAA-windows-JUNCTION-SYMLINK-warning
 
-some tools bug when MOVE-JUNCTION-SYMLIN--RADEJI-OPRAVDU-LNK
+some tools have bugs when i MOVE-JUNCTION-SYMLINk--should-rather-use-LNK-files
 
-therefore deleted using wexplorer gui
+junctions can be deleted using wexplorer gui
 
 
 
