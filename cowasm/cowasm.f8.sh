@@ -30,6 +30,12 @@ npm i
 
 du -m
 
+# added later:
+cat package.json
+npx dash-wasm
+# ctrl-d
+cat `which dash-wasm`
+
 echo '-------- section: run --------'
 
 cd ~/cowasm/node_modules/dash-wasm
