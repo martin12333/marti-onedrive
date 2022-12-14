@@ -1,8 +1,16 @@
-(mm_f8_doc file pseudo-format)
-# (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
-(do-not run this file as a whole)
+# (a file in the mm_f8_doc pseudo-format)
+do-not run this file as a whole
 )
 exit
+
+(selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
+
+
+
+echo '-------- section --------'
+
+
+
 #### to mitigate, that F5 in *mc* in VSCode runs this file
 
 

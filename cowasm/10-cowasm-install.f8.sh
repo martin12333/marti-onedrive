@@ -1,4 +1,4 @@
-(mm_f8_doc file pseudo-format)
+# (a file in the mm_f8_doc pseudo-format)
 do-not run this file as a whole
 )
 exit

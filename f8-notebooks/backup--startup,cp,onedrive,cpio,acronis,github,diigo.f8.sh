@@ -150,6 +150,9 @@ code ./dotfiles
 
 	git show --name-only
 
+
+C:\pf\Git\bin\bash.exe
+
 		#didnot help /d/dow too-long to read PROBABLY, too many files  ... prb in u2204 ...
 todo pseudosh
 	mv -iv dow OLDdow22
