@@ -20,8 +20,8 @@ echo '-------- section: install --------'
 
 
 cd
-mkdir cowasm
-cd cowasm
+mkdir 10-cowasm
+cd 10-cowasm
 npm i dash-wasm
 
 find . -name "*.wasm" -ls
@@ -41,7 +41,7 @@ cat `which dash-wasm`
 
 echo '-------- section: run --------'
 
-cd ~/cowasm/node_modules/dash-wasm
+cd ~/10-cowasm/node_modules/dash-wasm
 
 npx /usr/bin/zsh
 

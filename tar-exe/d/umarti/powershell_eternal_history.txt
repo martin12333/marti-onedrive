@@ -4317,3 +4317,5 @@ git add -vv  '*.f8.*'
 podman machine start
 podman start   -ai    cmy22b
 C:\pf\Git\bin\bash.exe
+podman machine start
+podman start   -ai    cmy22b

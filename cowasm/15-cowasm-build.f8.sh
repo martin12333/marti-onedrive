@@ -16,6 +16,31 @@ podman start   -ai    cmy22b
 echo '-------- section: install --------'
 
 
+https://github.com/sagemathinc/cowasm#build-from-source
+
+
+sudo apt update
+sudo apt-get install git make cmake curl dpkg-dev m4 yasm texinfo python-is-python3 libtool tcl zip libncurses-dev
+
+
+cd
+git clone 
+
+
+
+
+echo '-------- section --------'
+
+Setting up automake (1:1.16.5-1.3) ...
+update-alternatives: using /usr/bin/automake-1.16 to provide /usr/bin/automake (automake) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/automake.1.gz because associated file /usr/share/man/man1/automake-1.16.1.gz (of link group automake) doesn't exist
+
+echo '-------- section: install --------'
+
+
+
+
+
 cd
 mkdir cowasm
 cd cowasm
