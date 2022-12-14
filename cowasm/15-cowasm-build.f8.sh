@@ -15,8 +15,10 @@ podman start   -ai    cmy22b
 
 echo '-------- section: install --------'
 
+https://github.com/sagemathinc/cowasm/blob/main/Dockerfile
 
 https://github.com/sagemathinc/cowasm#build-from-source
+
 
 
 sudo apt update
@@ -29,9 +31,27 @@ cd
 
 git clone https://github.com/sagemathinc/cowasm
 
+cd cowasm
+cd packages
+ll
+du -sk * |sort -nr
+
+cd bzip2
+cd tar
+cd termcap
+make
+cd -
 
 
 
+
+
+
+
+
+
+
+export PATH=/python-wasm/bin/:$PATH
 
 echo '-------- section --------'
 
