@@ -4319,3 +4319,5 @@ podman start   -ai    cmy22b
 C:\pf\Git\bin\bash.exe
 podman machine start
 podman start   -ai    cmy22b
+podman machine start
+podman start   -ai    cmy22b

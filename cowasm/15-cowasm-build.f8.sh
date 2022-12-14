@@ -21,21 +21,30 @@ https://github.com/sagemathinc/cowasm#build-from-source
 
 
 
+# once
 sudo apt update
 sudo apt-get install git make cmake curl dpkg-dev m4 yasm texinfo python-is-python3 libtool tcl zip libncurses-dev
+
 
 
 cd
 
 #mv -iv cowasm 10-cowasm
 
+# once
 git clone https://github.com/sagemathinc/cowasm
 
-cd cowasm
+
+
+cd ~/cowasm
 cd packages
+
 ll
 du -sk * |sort -nr
 
+
+
+cd dash
 cd bzip2
 cd tar
 cd termcap
@@ -43,15 +52,16 @@ make
 cd -
 
 
-
-
-
-
+cd ~/cowasm/
+ll bin
 
 
 
 
 ##export PATH=/python-wasm/bin/:$PATH
+#export PATH="$HOME/cowasm/bin:$PATH"
+echo $PATH
+
 
 echo '-------- section --------'
 
@@ -64,9 +74,21 @@ echo '-------- section --------'
 
 
 cd ~/cowasm/packages
+cd ~/cowasm/
 
 #find . -name "*.wasm" -ls
+find . -name "*wasm" -ls
+find . -name "*-wasm"   -type f  -ls
 
+
+cat ./packages/dash/bin/dash-wasm
+
+./packages/dash/bin/dash-wasm
+
+
+find . -cmin -6
+find . -cmin -3
+cd
 
 du -m
 
