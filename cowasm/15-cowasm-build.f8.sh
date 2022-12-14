@@ -24,7 +24,11 @@ sudo apt-get install git make cmake curl dpkg-dev m4 yasm texinfo python-is-pyth
 
 
 cd
-git clone 
+
+#mv -iv cowasm 10-cowasm
+
+git clone https://github.com/sagemathinc/cowasm
+
 
 
 
