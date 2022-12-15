@@ -41,6 +41,23 @@ python
 78*89
 aaaaaaaaa
 quit()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#
 NameError: name 'ghgjhgj' is not defined
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
@@ -48,6 +65,7 @@ Traceback (most recent call last):
 
 
 
+#
 (cowasm)$ cat R*
 cat R*
 + cat README.md
@@ -93,6 +111,18 @@ echo $PATH
 + echo /cowasm/usr/bin:.
 sh: 4: echo: echo: I/O error
 (cowasm)$
+
+
+
+
+
+
+
+
+
+
+
+
 
 echo '-------- section:  --------'
 
