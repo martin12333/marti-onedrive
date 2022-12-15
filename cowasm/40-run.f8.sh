@@ -23,7 +23,6 @@ podman start   -ai    cmy22b
 echo '-------- section: run 15- --------'
 cd ~/cowasm/
 
-
 #./packages/dash/bin/dash-wasm
 ./bin/dash-wasm-raw  -evx
 ll bin
@@ -96,6 +95,15 @@ drwxr-xr-x  2 vscode vscode  4096 Dec 14 01:49 docs
 drwxr-xr-x 36 vscode vscode  4096 Dec 14 01:49 packages
 drwxr-xr-x  3 vscode vscode  4096 Dec 14 02:17 upstream
 
+(cowasm)$ ls -l /
+ls -l /
++ ls -l /
+total 48
+drwxrwxrwx   1 vscode vscode   512 Dec  7 01:10 acloudSUBDIR
+lrwxrwxrwx   1 root   root       7 Oct 20 11:49 bin -> usr/bin
+drwxr-xr-x   1 root   root    4096 Apr 18  2022 boot
+drwxrwxrwx   1 vscode nogroup  512 Nov  2 20:30 cdrivemy
+drwxr-xr-x   5 root   root     360 Dec 15 02:11 dev
 
 
 
@@ -147,8 +155,35 @@ drwxr-xr-x   1 root   root    4096 Nov 27 20:07 etc
 
 echo '-------- section --------'
 
-
+./cat
+./cat ggdfgfdgdgf
+cat
 which ls
+which -a cat
+echo $PATH
+#export PATH="$HOME/cowasm/bin:$PATH"
+export PATH=".:$PATH"
+
+# /cowasm/usr/bin:.
+
+# /home/vscode/.npm/_npx/60fb4aa6473118ec/node_modules/.bin:/home/vscode/cowasm/node_modules/.bin:/home/vscode/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/home/vscode/.nvm/versions/node/v18.12.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/home/vscode/.nvm/versions/node/v18.12.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/vscode/.local/bin
+
+
+cd packages
+cd tar
+cd dist
+cd wasm
+cd bin
+ls -l
+
++ ls -l
+total 1548
+-rwxr-xr-x 1 vscode vscode 143789 Dec 14 02:31 cat
+-rwxr-xr-x 1 vscode vscode 706297 Dec 14 02:31 cpio
+-rwxr-xr-x 1 vscode vscode 726842 Dec 14 02:31 tar
+
+which -a cat
+
 
 ls -la /boot
 ls -la /cowasm/usr/*
@@ -157,8 +192,21 @@ ls -la /etc
 
 cat /cowasm/usr/bin/cat
 cat wrongname1
+cat wrongname1
 ...  cat: stdout: Bad file descriptor
-
+(cowasm)$ cat wrongname1
+cat wrongname1
++ cat wrongname1
+cat: wrongname1: No such file or directory
+(cowasm)$ cat wrongname1
+cat wrongname1
++ cat wrongname1
+cat: wrongname1: No such file or directory
+cat: stdout: Bad file descriptor
+(cowasm)$ cat /cowasm/usr/bin/cat
+cat /cowasm/usr/bin/cat
++ cat /cowasm/usr/bin/cat
+cat: stdout: Bad file descriptor
 
 
 help
