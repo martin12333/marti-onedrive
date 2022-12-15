@@ -164,4 +164,18 @@ cat /usr/share/termcap
 
 echo '-------- section:  --------'
 
+cd ~/cowasm/
+./bin/dash-wasm-raw  -ex
+
+# note: but /cowasm does not exist
 ls /cowasm
+
+cd packages
+cd tar
+cd dist
+cd wasm
+cd bin
+ls -l
+
+./cat wrongname1
+...
