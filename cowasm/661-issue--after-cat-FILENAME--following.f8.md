@@ -2,6 +2,8 @@ npx dash-wasm: after any cat command, subsequent commands have problems with std
 
 # dash-wasm installed by npm
 
+(a probably related issue: #42)
+
 
 ```sh
 
@@ -113,4 +115,4 @@ ls -l
 ```
 
 
-TODO POST UPSTREAM
+done POST UPSTREAM
