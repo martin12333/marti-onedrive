@@ -64,95 +64,9 @@ echo '-------- section --------'
 
 
 
-echo '-------- section: run --------'
-
-
-
-
-cd ~/cowasm/
-cd ~/10-cowasm/node_modules/dash-wasm
-ll
-
-#npx /usr/bin/zsh
-#dash-wasm
-## added later:
-#cat package.json
-#npx dash-wasm
-# ctrl-d
-#cat `which dash-wasm`
-
-#./packages/dash/bin/dash-wasm
-./bin/dash-wasm-raw
-./bin/dash-wasm
-ll bin
-
-
-echo '-------- section: experiments --------'
 
 
 
 
 
 
-
-
-echo '-------- sections copied from 10 --------'
-
-
-
-
-
-
-
-
-dash-wasm
-
-
-ls -la /cowasm/usr/*
-
-help
-exit
-
-env
-set
-
-####sh --help
-ll
-rm -i core
-y
-
-echo '-------- section --------'
-
-
-
-#dash --help
-man dash
-#####type
-
-dash-wasm
-
-history
-echo $HOME
-ls -a $HOME
-
-echo '-------- section --------'
-
-dash-wasm
-cat  $HOME/.profile
-###cat  $HOME/.profile
-#####echo $PATH
-
-echo '-------- section --------'
-
-dash-wasm
-
-echo $PATH
-env
-#set|grep -i hist
-
-
-echo '-------- section --------'
-
-# Object.cowasm_vforkexec (/home/vscode/cowasm/node_modules/dash-wasm/node_modules/@cowasm/kernel/dist/wasm/posix/fork-exec.js:224:28
-
-echo '-------- section --------'

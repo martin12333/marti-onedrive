@@ -49,19 +49,24 @@ du -m
 
 echo '-------- section: run --------'
 
+cd ~/cowasm/
+cd ~/10-cowasm/node_modules/dash-wasm
+ll
 
-# added later:
+#npx /usr/bin/zsh
+#dash-wasm
+## added later:
 cat package.json
-npx dash-wasm
+#npx dash-wasm
 # ctrl-d
 cat `which dash-wasm`
 
 
-cd ~/10-cowasm/node_modules/dash-wasm
+#./packages/dash/bin/dash-wasm
+./bin/dash-wasm-raw
+./bin/dash-wasm
+ll bin
 
-npx /usr/bin/zsh
-
-dash-wasm
 
 echo '-------- section: experiments --------'
 
