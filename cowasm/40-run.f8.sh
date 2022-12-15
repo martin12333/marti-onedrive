@@ -53,18 +53,21 @@ cd ~/cowasm/
 cd ~/10-cowasm/node_modules/dash-wasm
 ll
 
-#npx /usr/bin/zsh
-#dash-wasm
-## added later:
 cat package.json
-#npx dash-wasm
+
+npx /usr/bin/zsh
+dash-wasm
+dash-wasm-raw
+# added later:
+npx dash-wasm
+n
 # ctrl-d
 #cat `which dash-wasm`
 
 
 #./packages/dash/bin/dash-wasm
-./bin/dash-wasm-raw
-./bin/dash-wasm
+./bin/dash-wasm-raw  -euvx
+./bin/dash-wasm  -euvx
 ll bin
 
 
@@ -147,7 +150,7 @@ drwxr-xr-x   1 root   root    4096 Nov 27 20:07 etc
 echo '-------- section --------'
 
 
-
+which ls
 
 ls -la /boot
 ls -la /cowasm/usr/*
@@ -185,7 +188,6 @@ dash-wasm
 echo $PATH
 
 dash -euvx
-dash -euvx
 
 cat  $HOME/.profile
 ###cat  $HOME/.profile
@@ -196,6 +198,7 @@ echo '-------- section --------'
 dash-wasm
 
 echo $PATH
+export PATH=
 env
 #set|grep -i hist
 
