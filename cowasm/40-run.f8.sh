@@ -30,13 +30,15 @@ ll bin
 
 ##################
 vscode ➜ ~ $ ps -eHf
+
 00:00:00   /bin/sh ./bin/dash-wasm-raw -evx
-00:00:00     /bin/sh /home/vscode/cowasm/home/vscode/cowasm/packages/dash/bin/../
-00:00:02       npm exec @cowasm/kernel //dist/wasm/bin/dash -evx
-00:00:00         sh -c -- kernel /home//wasm/bin/dash -evx
-00:00:00           /bin/sh /home/vscode/..bin/kernel /home/vscode/cowasm/packages/
+00:00:00     /bin/sh /home/vscode/cowasm/packages/dash/bin/../../../bin/cowasm /home/vscode/cowasm/packages/dash/bin/../dist/wasm/bin/dash -evx
+00:00:02       npm exec @cowasm/kernel /home/vscode/cowasm/packages/dash/bin/../dist/wasm/bin/dash -evx
+00:00:00         sh -c -- kernel /home/vscode/cowasm/packages/dash/bin/../dist/wasm/bin/dash -evx
+00:00:00           /bin/sh /home/vscode/.npm/_npx/60fb4aa6473118ec/node_modules/.bin/kernel /home/vscode/cowasm/packages/dash/bin/../dist/wasm/bin/dash -evx
 00:00:00             node /home/vscode/.npm/_npx/60fb4aa6473118ec/node_modules/@cowasm/kernel/bin/../dist/kernel/node-terminal.js /home/vscode/cowasm/packages/dash/bin/../dist/wasm/bin/dash -evx
-vscode ➜ ~ $
+
+
 
 echo '-------- section: run 10- --------'
 
