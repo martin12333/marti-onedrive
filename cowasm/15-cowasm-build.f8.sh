@@ -58,11 +58,6 @@ ll bin
 
 
 
-##export PATH=/python-wasm/bin/:$PATH
-#export PATH="$HOME/cowasm/bin:$PATH"
-echo $PATH
-
-
 echo '-------- section --------'
 
 #Setting up automake (1:1.16.5-1.3) ...
@@ -72,6 +67,11 @@ echo '-------- section --------'
 echo '-------- section --------'
 
 
+
+##export PATH=/python-wasm/bin/:$PATH
+#export PATH="$HOME/cowasm/bin:$PATH"
+echo $PATH
+which dash-wasm
 
 cd ~/cowasm/packages
 cd ~/cowasm/
@@ -83,12 +83,11 @@ find . -name "*-wasm"   -type f  -ls
 
 cat ./packages/dash/bin/dash-wasm
 
-./packages/dash/bin/dash-wasm
 
 
+cd
 find . -cmin -6
 find . -cmin -3
-cd
 
 du -m
 
@@ -109,6 +108,16 @@ echo '-------- section: run --------'
 #npx /usr/bin/zsh
 
 #dash-wasm
+
+cd ~/cowasm/
+cd ~/10-cowasm/node_modules/dash-wasm
+ll
+
+#./packages/dash/bin/dash-wasm
+./bin/dash-wasm-raw
+./bin/dash-wasm
+ll bin
+
 
 echo '-------- section: experiments --------'
 
