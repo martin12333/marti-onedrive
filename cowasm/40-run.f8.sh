@@ -161,6 +161,7 @@ echo '-------- section --------'
 
 ./cat
 ./cat ggdfgfdgdgf
+./cat wrongname1
 cat
 which ls
 which -a cat

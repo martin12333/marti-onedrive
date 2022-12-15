@@ -89,15 +89,28 @@ NameError: name 'fhgfh' is not defined
 
 ```
 
-# (in a rebuilt dash, commands work correctly)
+# (in a rebuilt dash, no errors)
 
-
+But I have built only dash and tar (contains cpio and cat).
 
 ```sh
 
+cd ~/cowasm/
+./bin/dash-wasm-raw  -ex
+
+# note: but /cowasm does not exist
+
+cd packages
+cd tar
+cd dist
+cd wasm
+cd bin
+ls -l
+
+./cat wrongname1
+...
 
 ```
 
-TODO CONTINUE
 
 TODO POST UPSTREAM
