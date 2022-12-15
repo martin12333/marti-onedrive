@@ -24,6 +24,7 @@ echo '-------- section: run 15- --------'
 cd ~/cowasm/
 
 #./packages/dash/bin/dash-wasm
+./bin/dash-wasm-raw  -ex
 ./bin/dash-wasm-raw  -evx
 ll bin
 
@@ -45,6 +46,7 @@ cd ~/10-cowasm/node_modules/dash-wasm
 ll
 
 cat package.json
+npx dash-wasm   -x
 npx dash-wasm   -vx
 
 #########
@@ -59,6 +61,7 @@ n
 # ctrl-d
 #cat `which dash-wasm`
 
+./bin/dash-wasm  -eux
 ./bin/dash-wasm  -euvx
 ll bin
 
@@ -190,10 +193,16 @@ ls -la /cowasm/usr/*
 ls -la /dev
 ls -la /etc
 
+
+
+
+vscode ➜ ~/cowasm (main) $ cd ~/10-cowasm/node_modules/dash-wasm
+vscode ➜ ~/10-cowasm/node_modules/dash-wasm $ npx dash-wasm   -vx
+
 cat /cowasm/usr/bin/cat
 cat wrongname1
 cat wrongname1
-...  cat: stdout: Bad file descriptor
+
 (cowasm)$ cat wrongname1
 cat wrongname1
 + cat wrongname1
