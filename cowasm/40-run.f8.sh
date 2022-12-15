@@ -29,6 +29,7 @@ cd ~/cowasm/
 ll bin
 
 ##################
+othr terminal
 vscode ➜ ~ $ ps -eHf
 
 00:00:00   /bin/sh ./bin/dash-wasm-raw -evx
@@ -166,6 +167,8 @@ which -a cat
 echo $PATH
 #export PATH="$HOME/cowasm/bin:$PATH"
 export PATH=".:$PATH"
+export PATH=.
+export PATH=
 
 # /cowasm/usr/bin:.
 
@@ -257,6 +260,7 @@ echo '-------- section --------'
 dash-wasm
 echo $PATH
 
+dash -eux
 dash -euvx
 
 cat  $HOME/.profile

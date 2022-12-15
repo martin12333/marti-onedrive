@@ -20,6 +20,22 @@ echo '-------- section: 40-run --------'
 
 
 
+cd ~/10-cowasm/node_modules/dash-wasm
+npx dash-wasm   -x
+
+
+
+cat wrongname1
+cat /usr/share/termcap
+cat
+
+
+python
+# i cannot see what i am typing
+NameError: name 'ghgjhgj' is not defined
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+
 
 
 
@@ -110,3 +126,5 @@ cat /usr/share/termcap
 
 
 echo '-------- section:  --------'
+
+ls /cowasm
