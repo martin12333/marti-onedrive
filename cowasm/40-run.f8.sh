@@ -203,6 +203,7 @@ cat /cowasm/usr/bin/cat
 cat wrongname1
 cat wrongname1
 
+
 (cowasm)$ cat wrongname1
 cat wrongname1
 + cat wrongname1
@@ -216,6 +217,14 @@ cat: stdout: Bad file descriptor
 cat /cowasm/usr/bin/cat
 + cat /cowasm/usr/bin/cat
 cat: stdout: Bad file descriptor
+
+
+python
+# i cannot see what i am typing
+NameError: name 'ghgjhgj' is not defined
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+
 
 
 help
