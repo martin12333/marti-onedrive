@@ -26,12 +26,21 @@ npx dash-wasm   -x
 
 
 cat wrongname1
-cat /usr/share/termcap
-cat
+cat wrongname1
+cat /cowasm/usr/share/termcap
 
+#
+cat
+cat R*
+cat R*
+
+echo abc
 
 python
 # i cannot see what i am typing
+78*89
+aaaaaaaaa
+quit()
 NameError: name 'ghgjhgj' is not defined
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
