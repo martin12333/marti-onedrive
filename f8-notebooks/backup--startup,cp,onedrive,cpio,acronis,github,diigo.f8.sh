@@ -118,6 +118,8 @@ code ./dotfiles
 	git add -vv  '*/*ockerfile*'
 	git add -vv  '*/*docker-create*.sh'
 	git add -vv  'dotfiles/*.sh'
+	
+	git add -vv  '*.f8.*'
 
 	/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
 	git commit -v -a -m  before-manip-dirs
