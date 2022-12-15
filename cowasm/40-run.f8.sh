@@ -59,7 +59,7 @@ ll
 cat package.json
 #npx dash-wasm
 # ctrl-d
-cat `which dash-wasm`
+#cat `which dash-wasm`
 
 
 #./packages/dash/bin/dash-wasm
@@ -81,6 +81,21 @@ d---------  222 0  0   12288 Dec  6 17:32 node_modules
 ----------    1 0  0  261599 Dec  6 17:32 package-lock.json
 ----------    1 0  0    1673 Dec  6 17:26 package.json
 ----------    1 0  0     207 Dec  6 17:26 tsconfig.json
+
+
+
+### ls not compiled yet
+total 48
+-rw-r--r--  1 vscode vscode   863 Dec 14 01:49 Dockerfile
+-rw-r--r--  1 vscode vscode  1522 Dec 14 01:49 LICENSE
+-rw-r--r--  1 vscode vscode  1807 Dec 14 01:49 Makefile
+-rw-r--r--  1 vscode vscode 19612 Dec 14 01:49 README.md
+drwxr-xr-x  2 vscode vscode  4096 Dec 14 22:28 bin
+drwxr-xr-x  2 vscode vscode  4096 Dec 14 01:49 docs
+drwxr-xr-x 36 vscode vscode  4096 Dec 14 01:49 packages
+drwxr-xr-x  3 vscode vscode  4096 Dec 14 02:17 upstream
+
+
 
 
 (cowasm)$
@@ -132,7 +147,6 @@ drwxr-xr-x   1 root   root    4096 Nov 27 20:07 etc
 echo '-------- section --------'
 
 
-dash-wasm
 
 
 ls -la /boot
@@ -168,6 +182,11 @@ ls -a $HOME
 echo '-------- section --------'
 
 dash-wasm
+echo $PATH
+
+dash -euvx
+dash -euvx
+
 cat  $HOME/.profile
 ###cat  $HOME/.profile
 #####echo $PATH
