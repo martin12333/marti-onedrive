@@ -17,11 +17,12 @@ podman start   -ai    cmy22b
 
 
 podman exec -it cmy22b /usr/bin/bash
+ps axjf
+ps -ejHf
 ps -ef
-pstree -l $USER
-pstree -a
-
-
+ps -ejH
+##pstree -l $USER
+##pstree -a
 
 echo '-------- section --------'
 

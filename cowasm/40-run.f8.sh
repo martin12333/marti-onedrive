@@ -23,8 +23,8 @@ podman start   -ai    cmy22b
 
 echo '-------- section: run --------'
 
-cd ~/cowasm/
 cd ~/10-cowasm/node_modules/dash-wasm
+cd ~/cowasm/
 ll
 
 cat package.json
