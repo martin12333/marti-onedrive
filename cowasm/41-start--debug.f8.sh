@@ -17,10 +17,20 @@ podman start   -ai    cmy22b
 
 
 podman exec -it cmy22b /usr/bin/bash
-ps axjf
 ps -ejHf
+##ps -eHf -o CMD
+ps -eHf 
+ps -eH
+ps -ejHF
+
+ps -ejHFl
+
+ps -ejHFly
 ps -ef
 ps -ejH
+
+ps axjf
+
 ##pstree -l $USER
 ##pstree -a
 

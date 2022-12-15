@@ -20,31 +20,52 @@ podman start   -ai    cmy22b
 
 
 
+echo '-------- section: run 15- --------'
+cd ~/cowasm/
 
-echo '-------- section: run --------'
+
+#./packages/dash/bin/dash-wasm
+./bin/dash-wasm-raw  -evx
+ll bin
+
+##################
+vscode ➜ ~ $ ps -eHf
+00:00:00   /bin/sh ./bin/dash-wasm-raw -evx
+00:00:00     /bin/sh /home/vscode/cowasm/home/vscode/cowasm/packages/dash/bin/../
+00:00:02       npm exec @cowasm/kernel //dist/wasm/bin/dash -evx
+00:00:00         sh -c -- kernel /home//wasm/bin/dash -evx
+00:00:00           /bin/sh /home/vscode/..bin/kernel /home/vscode/cowasm/packages/
+00:00:00             node /home/vscode/.npm/_npx/60fb4aa6473118ec/node_modules/@cowasm/kernel/bin/../dist/kernel/node-terminal.js /home/vscode/cowasm/packages/dash/bin/../dist/wasm/bin/dash -evx
+vscode ➜ ~ $
+
+echo '-------- section: run 10- --------'
 
 cd ~/10-cowasm/node_modules/dash-wasm
-cd ~/cowasm/
 ll
 
 cat package.json
+npx dash-wasm   -vx
 
-npx /usr/bin/zsh
-dash-wasm
-dash-wasm-raw
+#########
+vscode ➜ ~ $ ps -eHf
+00:00:00   npm exec dash-wasm -vx
+00:00:00     sh -c -- dash-wasm -vx
+00:00:01       node /home/vscode/10-cowasm/node_modules/.bin/dash-wasm -vx
 
-# added later:
-npx dash-wasm
+
+#npx /usr/bin/zsh
 n
 # ctrl-d
 #cat `which dash-wasm`
 
-
-#./packages/dash/bin/dash-wasm
-./bin/dash-wasm-raw  -euvx
 ./bin/dash-wasm  -euvx
 ll bin
 
+
+#########
+vscode ➜ ~ $ ps -eHf
+00:00:00 /usr/bin/zsh
+00:00:01   node ./bin/dash-wasm -euvx
 
 echo '-------- section: experiments --------'
 
@@ -131,6 +152,12 @@ ls -la /boot
 ls -la /cowasm/usr/*
 ls -la /dev
 ls -la /etc
+
+cat /cowasm/usr/bin/cat
+cat wrongname1
+...  cat: stdout: Bad file descriptor
+
+
 
 help
 exit
