@@ -28,9 +28,7 @@ sudo apt-get install git make cmake curl dpkg-dev m4 yasm texinfo python-is-pyth
 
 
 cd
-
 #mv -iv cowasm 10-cowasm
-
 # once
 git clone https://github.com/sagemathinc/cowasm
 
@@ -73,7 +71,6 @@ echo '-------- section --------'
 echo $PATH
 which dash-wasm
 
-cd ~/cowasm/packages
 cd ~/cowasm/
 
 #find . -name "*.wasm" -ls
@@ -82,8 +79,6 @@ find . -name "*-wasm"   -type f  -ls
 
 
 cat ./packages/dash/bin/dash-wasm
-
-
 
 cd
 find . -cmin -6
@@ -95,23 +90,23 @@ du -m
 
 
 
+
+echo '-------- section: run --------'
+
+
+
+
+cd ~/cowasm/
+cd ~/10-cowasm/node_modules/dash-wasm
+ll
+
+#npx /usr/bin/zsh
+#dash-wasm
 ## added later:
 #cat package.json
 #npx dash-wasm
 # ctrl-d
 #cat `which dash-wasm`
-
-echo '-------- section: run --------'
-
-#cd ~/cowasm/node_modules/dash-wasm
-
-#npx /usr/bin/zsh
-
-#dash-wasm
-
-cd ~/cowasm/
-cd ~/10-cowasm/node_modules/dash-wasm
-ll
 
 #./packages/dash/bin/dash-wasm
 ./bin/dash-wasm-raw

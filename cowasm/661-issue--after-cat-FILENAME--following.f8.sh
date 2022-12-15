@@ -16,10 +16,27 @@ echo '-------- section --------'
 podman machine start
 podman start   -ai    cmy22b
 
+echo '-------- section: run --------'
+
+
+
+cd ~/cowasm/
+cd ~/10-cowasm/node_modules/dash-wasm
+ll
+
+#./packages/dash/bin/dash-wasm
+./bin/dash-wasm-raw
+./bin/dash-wasm
+ll bin
+
+
 echo '-------- section:  --------'
 
 
 
-cd ~/10-cowasm
 
 
+
+
+
+echo '-------- section:  --------'
