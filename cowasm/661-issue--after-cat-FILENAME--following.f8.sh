@@ -21,6 +21,42 @@ echo '-------- section: 40-run --------'
 
 
 
+
+
+(cowasm)$ cat R*
+cat R*
++ cat README.md
+...
+
+_**Piping and indirection is not implemented yet.**_
+
+(cowasm)$ cat R*
+cat R*
++ cat README.md
+cat: stdout: Bad file descriptor
+(cowasm)$ cp 2 3
+cp 2 3
++ cp 2 3
+(cowasm)$ cp 5 ~73
+cp 5 ~73
+STUB: getpwnam
++ cp 5 ~73
+cp: 5: No such file or directory
+(cowasm)$ ^D
+vscode ➜ ~/10-cowasm/node_modules/dash-wasm $ ll
+total 292K
+-rw-r--r--   1 vscode vscode    0 Dec 15 04:22 1
+-rw-r--r--   1 vscode vscode    0 Dec 15 04:22 2
+-rw-r--r--   1 vscode vscode    0 Dec 15 04:23 3
+-rw-r--r--   1 vscode vscode 4.2K Dec  6 17:26 README.md
+drwxr-xr-x   2 vscode vscode 4.0K Dec  6 17:26 bin
+drwxr-xr-x   3 vscode vscode 4.0K Dec  6 17:26 dist
+drwxr-xr-x 222 vscode vscode  12K Dec  6 17:32 node_modules
+-rw-r--r--   1 vscode vscode 256K Dec  6 17:32 package-lock.json
+-rw-r--r--   1 vscode vscode 1.7K Dec  6 17:26 package.json
+-rw-r--r--   1 vscode vscode  207 Dec  6 17:26 tsconfig.json
+vscode ➜ ~/10-cowasm/node_modules/dash-wasm $
+
 echo '-------- section:  --------'
 
 vscode ➜ ~/cowasm (main) $ cd ~/10-cowasm/node_modules/dash-wasm
@@ -66,6 +102,11 @@ NameError: name 'fhgfh' is not defined
 >>>
 
 
+
+
+find / -type f
+
+cat /usr/share/termcap
 
 
 echo '-------- section:  --------'
