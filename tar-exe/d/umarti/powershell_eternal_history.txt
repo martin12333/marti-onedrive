@@ -4321,3 +4321,8 @@ podman machine start
 podman start   -ai    cmy22b
 podman machine start
 podman start   -ai    cmy22b
+podman ps --all
+podman start   -ai    cmy22b
+podman exec -it
+podman exec -it cmy22b
+podman exec -it cmy22b /usr/bin/bash

@@ -32,6 +32,14 @@ podman start   -ai    myconta22
 podman start -ai cnodeos
 #podman start
 
+
+
+
+
+podman exec -it cmy22b /usr/bin/bash
+
+
+
 exit
 
 
