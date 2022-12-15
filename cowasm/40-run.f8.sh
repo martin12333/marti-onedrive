@@ -19,6 +19,33 @@ podman start   -ai    cmy22b
 
 
 
+echo '-------- section --------'
+
+
+
+##export PATH=/python-wasm/bin/:$PATH
+#export PATH="$HOME/cowasm/bin:$PATH"
+echo $PATH
+which dash-wasm
+
+cd ~/cowasm/
+
+#find . -name "*.wasm" -ls
+find . -name "*wasm" -ls
+find . -name "*-wasm"   -type f  -ls
+
+
+cat ./packages/dash/bin/dash-wasm
+
+cd
+find . -cmin -6
+find . -cmin -3
+
+du -m
+
+
+
+
 
 echo '-------- section: run --------'
 

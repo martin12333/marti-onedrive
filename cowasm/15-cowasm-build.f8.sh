@@ -62,33 +62,6 @@ echo '-------- section --------'
 #update-alternatives: using /usr/bin/automake-1.16 to provide /usr/bin/automake (automake) in auto mode
 #update-alternatives: warning: skip creation of /usr/share/man/man1/automake.1.gz because associated file /usr/share/man/man1/automake-1.16.1.gz (of link group automake) doesn't exist'
 
-echo '-------- section --------'
-
-
-
-##export PATH=/python-wasm/bin/:$PATH
-#export PATH="$HOME/cowasm/bin:$PATH"
-echo $PATH
-which dash-wasm
-
-cd ~/cowasm/
-
-#find . -name "*.wasm" -ls
-find . -name "*wasm" -ls
-find . -name "*-wasm"   -type f  -ls
-
-
-cat ./packages/dash/bin/dash-wasm
-
-cd
-find . -cmin -6
-find . -cmin -3
-
-du -m
-
-
-
-
 
 
 echo '-------- section: run --------'
