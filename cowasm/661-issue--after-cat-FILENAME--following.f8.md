@@ -1,8 +1,12 @@
 npx dash-wasm: after any cat command, subsequent commands have problems with stdout
 
-# dash-wasm installed by npm
+
 
 (a probably related issue: #42)
+
+# dash-wasm installed by npm
+# errors in: dash-wasm that was installed by npm
+
 
 
 ```sh
@@ -10,7 +14,7 @@ npx dash-wasm: after any cat command, subsequent commands have problems with std
 
 cd ~/10-cowasm/node_modules/dash-wasm
 
-vscode ➜ ~/10-cowasm/node_modules/dash-wasm $ npx dash-wasm -x
+npx dash-wasm -x
 
 (cowasm)$ cat wrongname1
 + cat wrongname1

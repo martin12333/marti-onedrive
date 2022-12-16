@@ -23,6 +23,19 @@ podman start   -ai    cmy22b
 echo '-------- section: run 15- --------'
 cd ~/cowasm/
 
+
+
+
+todo?
+ pwd
+.../cowasm-python/packages/cpython
+~$ cd ../..
+~$ . bin/env.sh
+~$ cd packages/cpython
+
+
+
+
 #./packages/dash/bin/dash-wasm
 ./bin/dash-wasm-raw  -ex
 ./bin/dash-wasm-raw  -evx
