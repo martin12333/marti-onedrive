@@ -179,3 +179,26 @@ ls -l
 
 ./cat wrongname1
 ...
+
+
+
+
+
+make
+make test2
+
+
+ls -l
+
+cd ..
+ls ../../..
+
+./cat wrongname1
+./cat wrongname1
+./cat ~/cowasm/R*
+...
+
+```
+
+
+done POST UPSTREAM

@@ -54,6 +54,36 @@ vscode ➜ ~ $ ps -eHf
 
 
 
+
+
+
+
+
+
+
+
+
+
+UID        PID  PPID  PGID   SID  C STIME TTY          TIME CMD
+0:00:00 /usr/bin/bash
+0:00:00   ps -ejHf
+0:00:00 /usr/bin/zsh
+0:00:00   make test2
+0:00:00     npm exec @cowasm/kernel /home/vscode/cowasm/packages/dash/dist/wasm/bin/dash -x
+0:00:00       sh -c -- kernel /home/vscode/cowasm/packages/dash/dist/wasm/bin/dash -x
+0:00:00         /bin/sh /home/vscode/cowasm/packages/dash/node_modules/.bin/kernel /home/vscode/cowasm/packages/dash/dist/wasm/bin/dash -x
+0:00:01           node /home/vscode/cowasm/packages/dash/node_modules/@cowasm/kernel/bin/../dist/kernel/node-terminal.js /home/vscode/cowasm/packages/dash/dist/wasm/bin/dash -x
+vscode ➜ ~ $
+
+
+
+
+
+
+
+
+
+
 echo '-------- section: run 10- --------'
 
 cd ~/10-cowasm/node_modules/dash-wasm

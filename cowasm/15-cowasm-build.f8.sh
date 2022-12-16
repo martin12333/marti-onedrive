@@ -53,7 +53,8 @@ cd -
 cd ~/cowasm/
 ll bin
 
-
+make test
+make test2
 
 
 echo '-------- section --------'

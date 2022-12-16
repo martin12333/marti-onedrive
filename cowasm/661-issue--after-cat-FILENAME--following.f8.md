@@ -113,7 +113,12 @@ cd wasm
 cd bin
 ls -l
 
+cd ..
+ls ../../..
+
 ./cat wrongname1
+./cat wrongname1
+./cat ~/cowasm/R*
 ...
 
 ```
