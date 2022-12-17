@@ -17,7 +17,7 @@ echo '-------- section --------'
 podman machine start
 podman start   -ai    cmy22b
 
-echo '-------- section: install --------'
+echo '-------- section: install --- first attempt --------'
 
 
 cd
@@ -93,6 +93,37 @@ npx /usr/bin/bash
 kernel
 cowasm
 ##dash
+
+
+
+find . -name "*wasm" -type f  -ls
+find . -name "*das*" -type f  -ls
+find . -name "dash" -type f
+############# `find . -name "dash" -type f  `
+##./node_modules/@cowasm/dash/dist/wasm/bin/dash
+kernel ./node_modules/@cowasm/dash/dist/wasm/bin/dash
+#########kernel  `find . -name "dash" -type f  `
+
+which -a dash
+which -a kernel
+echo $PATH
+
+echo djhkjdhgd
+./node_modules/@cowasm/dash/dist/wasm/bin/dash
+ps
+
+####./node_modules/@cowasm/dash/dist/wasm/bin/dash -x
+####sh --help
+ll
+rm -i core
+y
+ll
+
+
+find . -name "dash" -type f
+
+
+
 
 exit
 
