@@ -349,10 +349,20 @@ kernel ./node_modules/@cowasm/dash/dist/wasm/bin/dash -x
 which -a dash
 which -a kernel
 echo $PATH
+echo $PWD
 
+alias
+env
+fgfdgfdgfdytytujtuyt
 echo djhkjdhgd
 ./node_modules/@cowasm/dash/dist/wasm/bin/dash -vx   #### -h ## --help
 ps -ef
+
+cd
+
+echo $PWD
+
+^d
 
 ###./node_modules/@cowasm/dash/dist/wasm/bin/dash
 ####sh --help
