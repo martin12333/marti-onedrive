@@ -22,15 +22,87 @@ echo '-------- section: install --------'
 
 cd
 mkdir 10-cowasm
+
 cd 10-cowasm
 npm i dash-wasm
 
-find . -name "*.wasm" -ls
 
 cd node_modules
 cd dash-wasm
 
 npm i
 
+find . -name "*.wasm" -ls
+
 du -m
+
+echo '-------- section: install minimal--------'
+
+du -m
+find . -name "*.wasm" -ls
+ll
+
+cd
+mkdir 1000-cowasm
+mkdir 11-cowasm
+mkdir 12-cowasm
+mkdir 102-cowasm
+mkdir 08-cowasm
+mkdir 085-cowasm
+mkdir 07-cowasm
+mkdir 05-cowasm
+
+
+
+cd ~/05-cowasm
+npm i @cowasm/kernel
+
+
+cd 1000-cowasm
+npm i dash-wasm
+
+cd ~/11-cowasm
+npm i @cowasm/tar
+
+cd node_modules
+cd @cowasm
+cd tar
+npm i
+
+cd ~/12-cowasm
+npm i @cowasm/cpython
+
+cd ~/102-cowasm
+npm i python-wasm
+
+cd ~/08-cowasm
+npm i @cowasm/dash
+
+
+
+
+cd ~/085-cowasm
+npm i @cowasm/dash
+npm i @cowasm/kernel
+
+
+
+
+
+npx /usr/bin/bash
+kernel
+cowasm
+##dash
+
+exit
+
+
+
+
+
+cd node_modules
+cd @cowasm
+cd cpython
+npm i
+
 
