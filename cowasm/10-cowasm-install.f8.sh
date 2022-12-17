@@ -80,7 +80,6 @@ npm i @cowasm/dash
 
 
 
-
 cd ~/085-cowasm
 npm i @cowasm/dash
 npm i @cowasm/kernel
@@ -88,13 +87,12 @@ npm i @cowasm/kernel
 
 
 
+cd ~/085-cowasm
 
-npx /usr/bin/bash
+npx /usr/bin/zsh
 kernel
 cowasm
 ##dash
-
-
 
 find . -name "*wasm" -type f  -ls
 find . -name "*das*" -type f  -ls
@@ -109,21 +107,17 @@ which -a kernel
 echo $PATH
 
 echo djhkjdhgd
-./node_modules/@cowasm/dash/dist/wasm/bin/dash
+./node_modules/@cowasm/dash/dist/wasm/bin/dash -x   #### -h ## --help
 ps
 
-####./node_modules/@cowasm/dash/dist/wasm/bin/dash -x
+###./node_modules/@cowasm/dash/dist/wasm/bin/dash
 ####sh --help
 ll
 rm -i core
 y
 ll
 
-
 find . -name "dash" -type f
-
-
-
 
 exit
 
@@ -131,9 +125,9 @@ exit
 
 
 
-cd node_modules
-cd @cowasm
-cd cpython
-npm i
+#cd node_modules
+#cd @cowasm
+#cd cpython
+#npm i
 
 
