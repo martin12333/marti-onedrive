@@ -87,41 +87,6 @@ npm i @cowasm/kernel
 
 
 
-cd ~/085-cowasm
-
-npx /usr/bin/zsh
-kernel
-cowasm
-##dash
-
-find . -name "*wasm" -type f  -ls
-find . -name "*das*" -type f  -ls
-find . -name "dash" -type f
-############# `find . -name "dash" -type f  `
-##./node_modules/@cowasm/dash/dist/wasm/bin/dash
-kernel ./node_modules/@cowasm/dash/dist/wasm/bin/dash
-#########kernel  `find . -name "dash" -type f  `
-
-which -a dash
-which -a kernel
-echo $PATH
-
-echo djhkjdhgd
-./node_modules/@cowasm/dash/dist/wasm/bin/dash -x   #### -h ## --help
-ps
-
-###./node_modules/@cowasm/dash/dist/wasm/bin/dash
-####sh --help
-ll
-rm -i core
-y
-ll
-
-find . -name "dash" -type f
-
-exit
-
-
 
 
 

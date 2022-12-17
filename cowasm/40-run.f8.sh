@@ -325,4 +325,42 @@ echo '-------- section --------'
 
 # Object.cowasm_vforkexec (/home/vscode/cowasm/node_modules/dash-wasm/node_modules/@cowasm/kernel/dist/wasm/posix/fork-exec.js:224:28
 
+
+
 echo '-------- section --------'
+
+
+cd ~/085-cowasm
+
+npx /usr/bin/zsh
+kernel
+#cowasm
+##dash
+
+find . -name "bin" -type d  -ls
+find . -name "*wasm" -type f  -ls
+find . -name "*das*" -type f  -ls
+find . -name "dash" -type f
+############# `find . -name "dash" -type f  `
+##./node_modules/@cowasm/dash/dist/wasm/bin/dash
+kernel ./node_modules/@cowasm/dash/dist/wasm/bin/dash -x
+#########kernel  `find . -name "dash" -type f  `
+
+which -a dash
+which -a kernel
+echo $PATH
+
+echo djhkjdhgd
+./node_modules/@cowasm/dash/dist/wasm/bin/dash -vx   #### -h ## --help
+ps -ef
+
+###./node_modules/@cowasm/dash/dist/wasm/bin/dash
+####sh --help
+ll
+rm -i core
+y
+ll
+
+
+exit
+
