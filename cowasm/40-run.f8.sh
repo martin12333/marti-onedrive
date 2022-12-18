@@ -84,14 +84,24 @@ vscode ➜ ~ $
 
 
 
+
+
+
+
+
+
+
+
+
 echo '-------- section: run 10- --------'
 
 cd ~/10-cowasm/node_modules/dash-wasm
 ll
 
+
 cat package.json
 npx dash-wasm   -x
-npx dash-wasm   -vx
+#npx dash-wasm   -vx
 
 #########
 vscode ➜ ~ $ ps -eHf
@@ -209,6 +219,7 @@ cat
 which ls
 which -a cat
 echo $PATH
+set
 #export PATH="$HOME/cowasm/bin:$PATH"
 export PATH=".:$PATH"
 export PATH=.
@@ -217,6 +228,10 @@ export PATH=
 # /cowasm/usr/bin:.
 
 # /home/vscode/.npm/_npx/60fb4aa6473118ec/node_modules/.bin:/home/vscode/cowasm/node_modules/.bin:/home/vscode/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/home/vscode/.nvm/versions/node/v18.12.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/home/vscode/.nvm/versions/node/v18.12.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/vscode/.local/bin
+
+
+
+
 
 
 cd packages
@@ -330,7 +345,7 @@ echo '-------- section --------'
 echo '-------- section --------'
 
 
-cd ~/085-cowasm
+cd ~/11085
 
 npx /usr/bin/zsh
 kernel
@@ -375,4 +390,14 @@ ll
 
 
 exit
+
+##############################
+
+
+
+
+cd /cowasm
+du -aks */*
+
+
 
