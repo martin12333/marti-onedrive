@@ -4327,3 +4327,13 @@ podman exec -it
 podman exec -it cmy22b
 podman exec -it cmy22b /usr/bin/bash
 podman start   -ai    cmy22b
+podman machine start
+podman ps --all
+podman exec -it cmy22b /usr/bin/zsh
+podman ps --all
+podman stop cmy22b
+podman ps --all
+wsl --list --running
+wsl --shutdown
+wsl --list --running
+podman machine start

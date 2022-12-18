@@ -244,9 +244,11 @@ dash: 7: echo: echo: I/O error
 
 
 
+cd ~/10-cowasm/node_modules/dash-wasm
+npx
+npx dash-wasm   -x
 
-
-
+cd ~/cowasm
 
 
 cd packages
@@ -257,4 +259,7 @@ cd bin
 ls -l
 
 ./cat wrongname1
+#./cat cat
+#./cat cat
+#./cat cat WSL OR PODMAN CRASHED
 ...
