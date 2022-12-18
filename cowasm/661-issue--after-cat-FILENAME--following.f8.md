@@ -130,4 +130,23 @@ done POST UPSTREAM
 
 # LATER: the built ./cat from the tar package ... works ok  even  when I ran it from npx  dash-wasm
 
-, and started to suspect something in coreutils/cat, something that is not used in tar/cat 
+(now I am stopping to suspect unionfs, memfs, mounts)
+
+
+## (now I am stopping to suspect unionfs)
+
+## (now I have stopped suspecting unionfs,
+####### (therefore, maybe now I should slow down on suspecting unionfs?)
+
+
+
+ and started to suspect something in coreutils/cat, something that is not used in tar/cat )
+
+
+, and started to suspect something in coreutils/cat, something that is not used in tar/cat
+
+
+####./cat cat  # problems with my terminal ... so i ~~had to  restart ... the entire WSL
+
+####./cat cat  # problems with my terminal ... so i   restarted ... ... eventually the entire WSL
+

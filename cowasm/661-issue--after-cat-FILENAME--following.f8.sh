@@ -263,7 +263,8 @@ ls -l
 ./cat wrongname1
 #./cat cat
 #./cat cat
-#./cat cat WSL OR PODMAN CRASHED
+
+####./cat cat  # problems with my terminal ... so i   restarted ... ... eventually the entire WSL
 
 ./cat ~/cowasm/R*
 ./cat ~/cowasm/R*
