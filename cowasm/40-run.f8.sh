@@ -97,7 +97,7 @@ echo '-------- section: run 10- --------'
 
 cd ~/10-cowasm/node_modules/dash-wasm
 ll
-
+ll ../.bin
 
 cat package.json
 npx dash-wasm   -x
@@ -347,8 +347,12 @@ echo '-------- section --------'
 
 cd ~/11085
 
-npx /usr/bin/zsh
-kernel
+npx wasi-run
+###npx wasi-run kernel ./node_modules/@cowasm/dash/dist/wasm/bin/dash
+#[Error: ENOENT: no such file or directory, open 'kernel.wasm'] {
+
+#npx /usr/bin/zsh
+npx kernel
 #cowasm
 ##dash
 
@@ -358,8 +362,10 @@ find . -name "*das*" -type f  -ls
 find . -name "dash" -type f
 ############# `find . -name "dash" -type f  `
 ##./node_modules/@cowasm/dash/dist/wasm/bin/dash
-kernel ./node_modules/@cowasm/dash/dist/wasm/bin/dash -x
+npx kernel ./node_modules/@cowasm/dash/dist/wasm/bin/dash -x
 #########kernel  `find . -name "dash" -type f  `
+
+ps -ejHf
 
 ls /cowasm
 
