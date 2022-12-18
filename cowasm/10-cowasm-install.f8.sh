@@ -43,6 +43,8 @@ find . -name "*.wasm" -ls
 ll
 
 cd
+
+###########
 mkdir 1000-cowasm
 mkdir 11-cowasm
 mkdir 12-cowasm
@@ -52,16 +54,27 @@ mkdir 085-cowasm
 mkdir 07-cowasm
 mkdir 05-cowasm
 
+########
+mv -iv 1000-* 111000
+mv -iv 11-* 1111
+mv -iv 12-* 1112
+mv -iv 102-* 11102
+mv -iv 08-* 1108
+mv -iv 085-* 11085
+mv -iv 07-* 1107
+mv -iv 05-* 1105
 
 
-cd ~/05-cowasm
+
+
+cd ~/1105
 npm i @cowasm/kernel
 
 
-cd 1000-cowasm
+cd ~/111000
 npm i dash-wasm
 
-cd ~/11-cowasm
+cd ~/1111
 npm i @cowasm/tar
 
 cd node_modules
@@ -69,18 +82,18 @@ cd @cowasm
 cd tar
 npm i
 
-cd ~/12-cowasm
+cd ~/1112
 npm i @cowasm/cpython
 
-cd ~/102-cowasm
+cd ~/11102
 npm i python-wasm
 
-cd ~/08-cowasm
+cd ~/1108
 npm i @cowasm/dash
 
 
 
-cd ~/085-cowasm
+cd ~/11085
 npm i @cowasm/dash
 npm i @cowasm/kernel
 

@@ -346,6 +346,8 @@ find . -name "dash" -type f
 kernel ./node_modules/@cowasm/dash/dist/wasm/bin/dash -x
 #########kernel  `find . -name "dash" -type f  `
 
+ls /cowasm
+
 which -a dash
 which -a kernel
 echo $PATH
