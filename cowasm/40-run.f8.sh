@@ -344,7 +344,7 @@ echo '-------- section --------'
 
 echo '-------- section --------'
 
-
+cd ~/10-cowasm/node_modules/dash-wasm
 cd ~/11085
 
 npx wasi-run
@@ -407,3 +407,4 @@ du -aks */*
 
 
 
+see laso  661

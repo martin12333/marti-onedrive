@@ -169,6 +169,10 @@ cd ~/cowasm/
 
 # note: but /cowasm does not exist
 ls /cowasm
+#/usr/bin/ls: cannot access '/cowasm': No such file or directory
+
+
+
 
 cd packages
 cd tar
@@ -198,7 +202,59 @@ ls ../../..
 ./cat ~/cowasm/R*
 ...
 
-```
+
 
 
 done POST UPSTREAM
+
+###########################################
+cd ~/10-cowasm/node_modules/dash-wasm
+npx kernel ./node_modules/@cowasm/dash/dist/wasm/bin/dash -x
+ls /cowasm
+# /usr/bin/ls: cannot access '/cowasm': No such file or directory
+cd dist
+
+zipinfo fs.zip
+zipinfo fs.zip |grep cat
+unzip fs.zip bin/cat
+
+bin/cat skdjfslkfj
+bin/cat 1
+cat 1
+echo sdfjskf
+
+(cowasm)$ bin/cat skdjfslkfj
++ bin/cat skdjfslkfj
+cat: skdjfslkfj: No such file or directory
+(cowasm)$ bin/cat skdjfslkfj
++ bin/cat skdjfslkfj
+cat: skdjfslkfj: No such file or directory
+(cowasm)$ bin/cat 1
++ bin/cat 1
+cat: stdout: Bad file descriptor
+(cowasm)$ cat 1
++ cat 1
+/usr/bin/cat: write error: Bad file descriptor
+(cowasm)$
+
+(cowasm)$ echo sdfjskf
++ echo sdfjskf
+dash: 7: echo: echo: I/O error
+(cowasm)$
+
+
+
+
+
+
+
+
+cd packages
+cd tar
+cd dist
+cd wasm
+cd bin
+ls -l
+
+./cat wrongname1
+...
