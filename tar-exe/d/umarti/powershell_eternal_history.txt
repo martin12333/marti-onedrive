@@ -4337,3 +4337,6 @@ wsl --list --running
 wsl --shutdown
 wsl --list --running
 podman machine start
+history
+podman machine start
+podman start   -ai    cmy22b

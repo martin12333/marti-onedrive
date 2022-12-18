@@ -126,8 +126,8 @@ ls ../../..
 
 done POST UPSTREAM
 
-# LATER: when I bypassed dash-wasm, no errors
+# LATER: bin/cat from fs.zip ... errors even  when I bypassed dash-wasm ... npx kernel dash
 
+# LATER: the built ./cat from the tar package ... works ok  even  when I ran it from npx  dash-wasm
 
-
-
+, and started to suspect something in coreutils/cat, something that is not used in tar/cat 

@@ -222,6 +222,8 @@ bin/cat skdjfslkfj
 bin/cat 1
 cat 1
 echo sdfjskf
+bin/cat ~/cowasm/R*
+
 
 (cowasm)$ bin/cat skdjfslkfj
 + bin/cat skdjfslkfj
@@ -242,7 +244,7 @@ cat: stdout: Bad file descriptor
 dash: 7: echo: echo: I/O error
 (cowasm)$
 
-
+##########################
 
 cd ~/10-cowasm/node_modules/dash-wasm
 npx
@@ -262,4 +264,6 @@ ls -l
 #./cat cat
 #./cat cat
 #./cat cat WSL OR PODMAN CRASHED
-...
+
+./cat ~/cowasm/R*
+./cat ~/cowasm/R*
