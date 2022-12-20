@@ -13,7 +13,7 @@ echo '-------- section --------'
 podman machine start
 podman start   -ai    cmy22b
 
-echo '-------- section: install --------'
+echo '-------- section:  --------'
 
 https://github.com/sagemathinc/cowasm/blob/main/Dockerfile
 
