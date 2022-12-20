@@ -27,11 +27,7 @@ cd ~/cowasm/
 
 
 todo?
- pwd
-.../cowasm-python/packages/cpython
-~$ cd ../..
-~$ . bin/env.sh
-~$ cd packages/cpython
+. bin/env.sh
 
 
 
@@ -42,7 +38,7 @@ todo?
 ll bin
 
 ##################
-othr terminal
+other terminal
 vscode ➜ ~ $ ps -eHf
 
 00:00:00   /bin/sh ./bin/dash-wasm-raw -evx
@@ -125,6 +121,24 @@ vscode ➜ ~ $ ps -eHf
 00:00:00 /usr/bin/zsh
 00:00:01   node ./bin/dash-wasm -euvx
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 echo '-------- section: experiments --------'
 
 #(cowasm)$
@@ -141,6 +155,9 @@ d---------  222 0  0   12288 Dec  6 17:32 node_modules
 
 
 
+
+
+
 ### ls not compiled yet
 total 48
 -rw-r--r--  1 vscode vscode   863 Dec 14 01:49 Dockerfile
@@ -152,15 +169,10 @@ drwxr-xr-x  2 vscode vscode  4096 Dec 14 01:49 docs
 drwxr-xr-x 36 vscode vscode  4096 Dec 14 01:49 packages
 drwxr-xr-x  3 vscode vscode  4096 Dec 14 02:17 upstream
 
-(cowasm)$ ls -l /
-ls -l /
-+ ls -l /
-total 48
-drwxrwxrwx   1 vscode vscode   512 Dec  7 01:10 acloudSUBDIR
-lrwxrwxrwx   1 root   root       7 Oct 20 11:49 bin -> usr/bin
-drwxr-xr-x   1 root   root    4096 Apr 18  2022 boot
-drwxrwxrwx   1 vscode nogroup  512 Nov  2 20:30 cdrivemy
-drwxr-xr-x   5 root   root     360 Dec 15 02:11 dev
+
+
+
+
 
 
 
@@ -200,20 +212,32 @@ d---------    1 0  0  4096 Oct 20 11:53 var
 (cowasm)$ ^D
 
 
-vscode ➜ ~/cowasm/node_modules/dash-wasm $ ls -l /
+
+
+
+(cowasm)$ ls -l /
+ls -l /
++ ls -l /
 total 48
-drwxrwxrwx   1 vscode vscode   512 Nov  2 21:16 acloudSUBDIR
+drwxrwxrwx   1 vscode vscode   512 Dec  7 01:10 acloudSUBDIR
 lrwxrwxrwx   1 root   root       7 Oct 20 11:49 bin -> usr/bin
 drwxr-xr-x   1 root   root    4096 Apr 18  2022 boot
 drwxrwxrwx   1 vscode nogroup  512 Nov  2 20:30 cdrivemy
-drwxr-xr-x   5 root   root     360 Dec  6 17:25 dev
-drwxr-xr-x   1 root   root    4096 Nov 27 20:07 etc
+drwxr-xr-x   5 root   root     360 Dec 15 02:11 dev
+....
+
+
+
+
+
+
+
+
 
 
 echo '-------- section --------'
 
 ./cat
-./cat ggdfgfdgdgf
 ./cat wrongname1
 cat
 which ls
@@ -254,6 +278,9 @@ ls -la /boot
 ls -la /cowasm/usr/*
 ls -la /dev
 ls -la /etc
+
+
+
 
 
 
@@ -299,6 +326,9 @@ set
 ll
 rm -i core
 y
+
+
+
 
 echo '-------- section --------'
 
@@ -407,4 +437,4 @@ du -aks */*
 
 
 
-see laso  661
+see also  661

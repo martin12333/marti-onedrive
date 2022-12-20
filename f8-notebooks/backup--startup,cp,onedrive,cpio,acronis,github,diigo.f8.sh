@@ -118,7 +118,7 @@ code ./dotfiles
 	git add -vv  '*/*ockerfile*'
 	git add -vv  '*/*docker-create*.sh'
 	git add -vv  'dotfiles/*.sh'
-	
+
 	git add -vv  '*.f8.*'
 
 	/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
@@ -134,6 +134,7 @@ code ./dotfiles
 	git commit -v -a -m gitignore
 	git commit -v -a -m bug-found
 	git commit -v -a -m fix
+	git commit -v -a -m fix-comments
 	git commit -v -a -m patch-simplify-code
 	git commit -v -a -m false-alarm
 	git commit -v -a -m maybe-enhance
