@@ -15,6 +15,8 @@ PS C:\Users\marti\OneDrive> history
   11        0.575 podman ps --all
   12        0.825 podman exec -it cmy22b /usr/bin/zsh
   13        0.517 podman ps --all
+
+
   14        0.944 podman stop cmy22b
   15        0.481 podman ps --all
   16        0.523 podman ps --all
@@ -26,6 +28,14 @@ PS C:\Users\marti\OneDrive> history
   22       42.027 podman machine start
 
 PS C:\Users\marti\OneDrive>
+
+
+
+
+
+
+
+
 
 
 vscode ➜ ~ $

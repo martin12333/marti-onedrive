@@ -19,7 +19,7 @@ podman start   -ai    cmy22b
 podman exec -it cmy22b /usr/bin/bash
 ps -ejHf
 ##ps -eHf -o CMD
-ps -eHf 
+ps -eHf
 ps -eH
 ps -ejHF
 
