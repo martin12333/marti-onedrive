@@ -36,7 +36,7 @@ find . -name "*.wasm" -ls
 
 du -m
 
-echo '-------- section: install minimal--------'
+echo '-------- section: attempts ...  minimal installations --------'
 
 du -m
 find . -name "*.wasm" -ls

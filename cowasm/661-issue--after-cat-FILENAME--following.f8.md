@@ -128,7 +128,7 @@ done POST UPSTREAM
 
 # LATER: bin/cat from fs.zip ... errors even  when I bypassed dash-wasm ... npx kernel dash
 
-# LATER: the built ./cat from the tar package ... works ok  even  when I ran it from npx  dash-wasm
+ (now I am stopping to  suspect unionfs, memfs, mounts)
 
 (now I am stopping to suspect unionfs, memfs, mounts)
 
@@ -144,6 +144,9 @@ done POST UPSTREAM
 
 
 , and started to suspect something in coreutils/cat, something that is not used in tar/cat
+# LATER: the built ./cat from the tar package ... works ok  even  when I ran it from npx  dash-wasm
+(https://github.com/libarchive/libarchive/blob/master/cat/bsdcat.c)
+
 
 
 ####./cat cat  # problems with my terminal ... so i ~~had to  restart ... the entire WSL
