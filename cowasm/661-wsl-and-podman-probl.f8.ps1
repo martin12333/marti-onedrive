@@ -1,3 +1,11 @@
+ podman ps --all
+ podman stop cmy22b
+
+
+
+
+
+
 PS C:\Users\marti\OneDrive> history
 
   Id     Duration CommandLine

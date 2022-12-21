@@ -467,3 +467,10 @@ dxcit='docker container exec -it'
 
 history=omz_history
 l='ls -lah'
+
+
+
+
+fc  -l 1  |head
+#####fc -t -l 1  |head
+####help fc

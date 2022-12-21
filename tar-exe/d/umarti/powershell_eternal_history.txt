@@ -4340,3 +4340,5 @@ podman machine start
 history
 podman machine start
 podman start   -ai    cmy22b
+podman machine start
+podman start   -ai    cmy22b

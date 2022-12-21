@@ -264,7 +264,11 @@ ls -l
 #./cat cat
 #./cat cat
 
+
+####
 ####./cat cat  # problems with my terminal ... so i   restarted ... ... eventually the entire WSL
+#####fc -t -l 1  |head  ...  Similarly
+
 
 ./cat ~/cowasm/R*
 ./cat ~/cowasm/R*
