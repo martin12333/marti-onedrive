@@ -152,7 +152,7 @@ node node_modules/@cowasm/kernel/dist/kernel/node-terminal.js ./node_modules/@co
 
 
 ~/projects/node-fvjqji
-❯ node node_modules/@cowasm/kernel/dist/kernel/node-terminal.js ./node_modules/@cowasm/coreutils/dist/wasm/bin/ls >ls
+node node_modules/@cowasm/kernel/dist/kernel/node-terminal.js ./node_modules/@cowasm/coreutils/dist/wasm/bin/ls >ls
 /home/projects/node-fvjqji/node_modules/@cowasm/coreutils/dist/wasm/bin/ls: CompileError: WebAssembly.Module(): unknown section code #0x10 @+28
 
 ~/projects/node-fvjqji
@@ -210,7 +210,12 @@ echo  skjhf|node node_modules/@cowasm/kernel/dist/kernel/node-terminal.js ./node
 echo  skjhf|node node_modules/@cowasm/kernel/dist/kernel/node-terminal.js ./node_modules/@cowasm/coreutils/dist/wasm/bin/tee skdf
 echo  skjhf|node node_modules/@cowasm/kernel/dist/kernel/node-terminal.js ./node_modules/@cowasm/coreutils/dist/wasm/bin/tee skdfj
 echo  skjhf|node node_modules/@cowasm/kernel/dist/kernel/node-terminal.js ./node_modules/@cowasm/coreutils/dist/wasm/bin/date
-echo  skjhf|node node_modules/@cowasm/kernel/dist/kernel/node-terminal.js ./node_modules/@cowasm/coreutils/dist/wasm/bin/date |cat
+
+node node_modules/@cowasm/kernel/dist/kernel/node-terminal.js ./node_modules/@cowasm/coreutils/dist/wasm/bin/date |cat
+
+fails in edge, chrome
+
+
 echo | n
 fddfg
 echo fdh |
