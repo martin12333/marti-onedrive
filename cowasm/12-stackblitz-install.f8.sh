@@ -201,3 +201,29 @@ npm i @cowasm/kernel
 
 
 
+
+~/projects/node-fvjqji
+❯ cat ~/.jsh_history
+history
+echo  skjhf|node node_modules/@cowasm/kernel/dist/kernel/node-terminal.js ./node_modules/@cowasm/coreutils/dist/wasm/bin/touch tou
+echo  skjhf|node node_modules/@cowasm/kernel/dist/kernel/node-terminal.js ./node_modules/@cowasm/coreutils/dist/wasm/bin/touch sfdsf
+echo  skjhf|node node_modules/@cowasm/kernel/dist/kernel/node-terminal.js ./node_modules/@cowasm/coreutils/dist/wasm/bin/tee skdf
+echo  skjhf|node node_modules/@cowasm/kernel/dist/kernel/node-terminal.js ./node_modules/@cowasm/coreutils/dist/wasm/bin/tee skdfj
+echo  skjhf|node node_modules/@cowasm/kernel/dist/kernel/node-terminal.js ./node_modules/@cowasm/coreutils/dist/wasm/bin/date
+echo  skjhf|node node_modules/@cowasm/kernel/dist/kernel/node-terminal.js ./node_modules/@cowasm/coreutils/dist/wasm/bin/date |cat
+echo | n
+fddfg
+echo fdh |
+node node_modules/@cowasm/kernel/dist/kernel/node-terminal.js ./node_modules/@cowasm/coreutils/dist/wasm/bin/date |cat
+node node_modules/@cowasm/kernel/dist/kernel/node-terminal.js ./node_modules/@cowasm/coreutils/dist/wasm/bin/ls |cat
+node node_modules/@cowasm/kernel/dist/kernel/node-terminal.js ./node_modules/@cowasm/coreutils/dist/wasm/bin/cp 1 2
+node node_modules/@cowasm/kernel/dist/kernel/node-terminal.js ./node_modules/@cowasm/coreutils/dist/wasm/bin/date >1
+node node_modules/@cowasm/kernel/dist/kernel/node-terminal.js ./node_modules/@cowasm/coreutils/dist/wasm/bin/env >env
+node node_modules/@cowasm/kernel/dist/kernel/node-terminal.js ./node_modules/@cowasm/coreutils/dist/wasm/bin/logname >1
+node node_modules/@cowasm/kernel/dist/kernel/node-terminal.js ./node_modules/@cowasm/coreutils/dist/wasm/bin/ls >ls
+cat ~/.jsh_history
+history
+
+
+
+
