@@ -469,8 +469,10 @@ history=omz_history
 l='ls -lah'
 
 
-
-
+###fc --help
+#ls cat .zsh_*hist*
+cat .zsh_*hist* | cut -f 2-  -d ';' |grep npx|sort -u
 fc  -l 1  |head
+#fc -t 1 -l 1  |head
 #####fc -t -l 1  |head
 ####help fc

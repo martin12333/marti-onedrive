@@ -209,3 +209,14 @@ node
   read: [Function],
   _consuming: true }
 > process.stdin
+
+
+
+
+
+
+
+
+
+cat .zsh_*hist* | cut -f 2-  -d ';' |grep npx|sort -u
+npx --help
