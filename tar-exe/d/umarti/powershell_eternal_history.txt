@@ -4346,3 +4346,7 @@ podman ps --all
 podman stop cmy22b
 podman ps --all
 podman start   -ai    cmy22b
+python
+ipython
+python -m sysconfig
+ipython
