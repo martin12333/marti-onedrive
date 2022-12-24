@@ -13,7 +13,7 @@ breakpoint()
 ls
 zsh
 python3
-#fail multiline ipython3
+# f8 fail multiline ipython3
 #rlwrap -a -t dumb -r -H ~/lua_history -f . lua5.3
 
 #%%
