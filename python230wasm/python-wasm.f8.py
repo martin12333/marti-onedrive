@@ -79,8 +79,8 @@ sys.stdlib_module_names
 #sys.stderr
 #sys.__stderr__
 
-
-os.environ¶
+import os
+os.environ
 
 
 #%%
