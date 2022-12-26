@@ -82,6 +82,8 @@ sys.stdlib_module_names
 import os
 os.environ
 
+os.listdir()
+
 
 #%%
 
