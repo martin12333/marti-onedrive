@@ -8104,3 +8104,5 @@ done}| grep -i '[/]etc[/]'
 : 1670464642:0;apt show bsdutils
 : 1670464683:0;apt show bsdgames-nonfree
 : 1670464721:0;apt show bsdgames
+: 1671945318:0;mount|grep shm
+: 1671947026:0;df -m

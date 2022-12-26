@@ -52,3 +52,8 @@ vscode ➜ ~/usermodelinux $
 
 ls -lad /dev/shm
 df -m
+    mount|grep shm
+
+
+sudo useradd --home=/home/ff --create-home --shell /bin/false --user-group ff
+sudo useradd --home=/home/ff --create-home --shell /bin/bash  --user-group ff
