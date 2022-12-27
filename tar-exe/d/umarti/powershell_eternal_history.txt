@@ -4355,3 +4355,8 @@ podman start   -ai    cmy22b
 podman machine start
 podman start   -ai    cmy22b
 C:\pf\Git\bin\bash.exe
+conda activate base
+podman machine start
+podman start   -ai    cmy22b
+wapm
+podman start   -ai    cmy22b
