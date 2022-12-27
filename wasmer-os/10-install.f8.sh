@@ -45,15 +45,34 @@ wapm help install
 wapm help list
 wapm help run
 
+
+
+###
+cd
+mkdir wasmer-coreutils1
+cd wasmer-coreutils1
+
+
+
 wapm install coreutils
 
 **Modifications**: We made some changes to adapt the codebase to the [WASI interface](https://wapm.io/interface/wasi).
 
+
+
+###
+cd
+mkdir wasmer-coreutils22
+cd wasmer-coreutils22
+
+
+
 wapm install sharrattj/coreutils
 
-which -a cat
+#which -a cat
 
 
 wapm list
 ###wapm execute /usr/bin/bash
 ####wapm run /usr/bin/bash
+
