@@ -23,6 +23,24 @@ python3
 
 echo '-------- section --------'
 
+
+
+https://pyscript.net/tech-preview/micropython/repl.html
+
+
+
+
+
+
+
+https://pmp-p.github.io/wapy.es6/
+
+list(os.ilistdir() )
+[('.', 0, 0), ('..', 0, 0), ('tmp', 0, 0), ('home', 0, 0), ('dev', 0, 0), ('proc', 0, 0), ('main.py', 0, 0)]
+
+
+echo '-------- section --------'
+
 https://pmp-p.github.io/layout.html
 
 micropython.f8.py
@@ -269,7 +287,10 @@ Traceback (most recent call last):
 
 
 
-
+                    >>> import uos as os
+>>> list(os.ilistdir() )
+[('.', 0, 0), ('..', 0, 0), ('tmp', 0, 0), ('home', 0, 0), ('dev', 0, 0), ('proc', 0, 0), ('assets', 0, 0), ('lib', 0, 0), ('boot.py', 0, 0), ('c.mpy', 0, 0)]
+>>>
 
 
 
