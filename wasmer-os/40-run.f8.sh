@@ -23,6 +23,12 @@ echo '-------- section --------'
 
 
 
+###
+cd
+#mkdir wasmer-coreutils1
+cd wasmer-coreutils1
+
+
 
 
 wapm run env
@@ -31,18 +37,34 @@ pwd: error: failed to get current directory environment variable not found
 wapm run mkdir newdir
 mkdir: newdir: failed to find a preopened file descriptor through which "newdir" could be opened
 
-wapm run mkdir  --dir .  -- newdir12
+##wapm run mkdir  --dir .  -- newdir12
 
 error: failed to run `/home/vscode/wapm_packages/syrusakbary/coreutils@0.0.1/target/wasm32-wasi/release/uutils.wasm`
 │   1: failed to instantiate WASI module
 ╰─▶ 2: wasi filesystem creation error: `Could not get metadata for file "--": entity not found`
 vscode ➜ ~ $
 
+
+
+
+
+
 wasmer list
-wasmer  --dir .  ~/wapm_packages/syrusakbary/coreutils@0.0.1/target/wasm32-wasi/release/uutils.wasm -- ls -l
+wapm list
+wasmer  --dir .  wapm_packages/syrusakbary/coreutils@0.0.1/target/wasm32-wasi/release/uutils.wasm -- ls -l
 ls -l
-cd
-history
+
+akbary/coreutils@0.0.1/target/wasm32-wasi/release/uutils.wasm -- ls -l
+---------- 1 somebody somegroup 2536 2022-12-27 11:28 wapm.lock
+d--------- 1 somebody somegroup 4096 2022-12-27 11:28 wapm_packages
+vscode ➜ ~/wasmer-coreutils1 $ ls -l
+total 8
+-rw-r--r-- 1 vscode vscode 2536 Dec 27 11:28 wapm.lock
+drwxr-xr-x 4 vscode vscode 4096 Dec 27 11:28 wapm_packages
+vscode ➜ ~/wasmer-coreutils1 $
+
+
+
 
 
 wapm run cat /dev
