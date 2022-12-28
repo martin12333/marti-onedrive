@@ -156,6 +156,9 @@ code ./dotfiles
 
 	git show --name-only
 
+	git push
+
+	git commit -v -a -m bk
 	git commit -v -a -m add
 
 	git add -vv  '*.f8.*'
