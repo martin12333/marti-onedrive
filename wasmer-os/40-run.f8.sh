@@ -123,3 +123,21 @@ wapm run --dir=.   ls -l ../..
 wapm run --dir=.   ls  ../..
 wapm run --dir=.   ls   /
 wapm run --dir=.   ls -lad
+echo '-------- section --------'
+
+
+    exec wasmer run --dir=./ --dir=../ --dir=/ $(dirname $0)/${STEP:-stepA_mal}.wasm -- "${@}" ;;
+
+
+
+echo '-------- section --------'
+
+
+
+echo '-------- section --------'
+
+
+
+echo '-------- section --------'
+
+
