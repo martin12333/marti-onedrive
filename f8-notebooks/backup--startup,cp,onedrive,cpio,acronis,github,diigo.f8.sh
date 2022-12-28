@@ -156,6 +156,9 @@ code ./dotfiles
 
 	git show --name-only
 
+	git commit -v -a -m add
+
+	git add -vv  '*.f8.*'
 
 C:\pf\Git\bin\bash.exe
 
