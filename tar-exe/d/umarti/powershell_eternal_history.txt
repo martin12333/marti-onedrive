@@ -4360,3 +4360,10 @@ podman machine start
 podman start   -ai    cmy22b
 wapm
 podman start   -ai    cmy22b
+conda activate base
+ipython
+cd
+cd busytex
+cmd /c mklink /j dist  D:\umarti\dowNLOADS--SYMLINKED
+cmd /c dir
+cmd /c dir dist

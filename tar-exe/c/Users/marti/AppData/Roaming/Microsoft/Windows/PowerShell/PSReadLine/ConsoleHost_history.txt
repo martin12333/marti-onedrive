@@ -3220,3 +3220,5 @@ $PSEditor
 $PSScriptRoot
 podman machine start
 .\junction.exe
+dir
+cmd /c dir

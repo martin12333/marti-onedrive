@@ -17,15 +17,30 @@ podman start   -ai    cmy22b
 
 echo '-------- section: install --- first attempt --------'
 
-
+cd -
+exit
 cd
 
+git clone https://github.com/busytex/busytex.git
+git clone  --dry-run   https://github.com/busytex/busyide
+git clone     https://github.com/busytex/busyide
+git clone     https://github.com/vadimkantorov/busyboxnanozipdiff3
+
+cmd /c dir
+echo /c dir
+cmd /c dir dist
+
+cd busytex
+
+cmd /c mklink /j dist  D:\umarti\dowNLOADS--SYMLINKED
 
 
 
 
+https://github.com/busytex/busytex/issues/1
 
-THIS BUSYBOX MAYBE IS ONLY FOR BROWSER, NOT FOR NODE 
+
+THIS BUSYBOX MAYBE IS ONLY FOR BROWSER, NOT FOR NODE
 
 
 

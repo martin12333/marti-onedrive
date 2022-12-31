@@ -79,10 +79,115 @@ sys.stdlib_module_names
 #sys.stderr
 #sys.__stderr__
 
+import sys
+sys.stdin.readline()
+
+
+
 import os
 os.environ
 
 os.listdir()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Type 'ls /usr/bin' for a list of commands, including python (with numpy), lua, sqlite3, date, and du.
+This is new and *many* things are not implemented.  Output redirection and capture is not implemented.
+Visit https://github.com/sagemathinc/cowasm and contribute.
+
+   ___     __    __
+  / __\___/ / /\ \ \__ _ ___ _ __ ___
+ / /  / _ \ \/  \/ / _` / __| '_ ` _ \
+/ /__| (_) \  /\  / (_| \__ \ | | | | |
+\____/\___/ \/  \/ \__,_|___/_| |_| |_|
+
+(cowasm)$ python
+Python 3.11.0 (main, Nov 29 2022, 20:26:05) [Clang 15.0.3 (git@github.com:ziglang/zig-bootstrap.git 0ce789d0f7a4d89fdc4d9571 on wasi
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import sys
+>>> sys.stdin.readline()
+'rtyrtryr\r\x04dsfs\x03'
+>>>
+>>> import readline
+>>> import r
+raise      range(     readline   repr(      return     reversed(  round(
+
+>>> readline.
+readline.add_history(
+readline.get_begidx()
+readline.get_completer()
+readline.get_completer_delims()
+readline.get_completion_type()
+readline.get_current_history_length()
+readline.get_endidx()
+readline.get_history_item(
+readline.get_history_length()
+readline.get_line_buffer()
+readline.insert_text(
+readline.parse_and_bind(
+readline.read_history_file(
+readline.read_init_file(
+readline.redisplay()
+readline.remove_history_item(
+readline.replace_history_item(
+readline.set_auto_history(
+readline.set_completer(
+readline.set_completer_delims(
+readline.set_completion_display_matches_hook(
+readline.set_history_length(
+readline.set_startup_hook(
+readline.write_history_file(
+
+>>> readline._READLINE_
+readline._READLINE_LIBRARY_VERSION  readline._READLINE_VERSION
+readline._READLINE_RUNTIME_VERSION
+
+>>> readline.__
+readline.__annotations__     readline.__le__(
+readline.__class__(          readline.__loader__
+readline.__delattr__(        readline.__lt__(
+readline.__dict__            readline.__name__
+readline.__dir__(            readline.__ne__(
+readline.__doc__             readline.__new__(
+readline.__eq__(             readline.__package__
+readline.__file__            readline.__reduce__()
+readline.__format__(         readline.__reduce_ex__(
+readline.__ge__(             readline.__repr__()
+readline.__getattribute__(   readline.__setattr__(
+readline.__getstate__()      readline.__sizeof__()
+readline.__gt__(             readline.__spec__
+readline.__hash__()          readline.__str__()
+readline.__init__(           readline.__subclasshook__(
+readline.__init_subclass__(
+
+>>> readline.__doc__
+'Importing this module enables command line editing using libedit readline.'
+>>> 
+
+
+
+
+
+
+
+
+
 
 
 #%%
