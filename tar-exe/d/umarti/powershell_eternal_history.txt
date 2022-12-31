@@ -4371,3 +4371,29 @@ python3 example/serve.py
 python example/serve.py
 cmd /c dir example
 python example/example.py
+cd
+cd busyide
+cmd /c mklink /j dist  D:\umarti\dowNLOADS--SYMLINKED
+python ../busytex/example/example.py
+cd
+cd busytex
+python example/example.py
+cd
+cd busyide
+python ../busytex/example/example.py
+python serve.py
+cd
+mkdir remote-debug-profile1
+edge.exe  --disable-web-security --user-data-dir=remote-debug-profile1
+& 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'   --disable-web-security --user-data-dir=remote-debug-profile1
+& 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'   --disable-web-security --user-data-dir=C:\Users\marti\remote-debug-profile1
+python serve.py
+cd
+cd busyide
+python serve.py
+conda activate base
+& 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'   --disable-web-security  --disable-gpu --disable-features=IsolateOrigins,site-per-process  --user-data-dir=C:\Users\marti\remote-debug-profile1
+cd
+mkdir  chr-cors-profile1
+& 'C:\Program Files (x86)\Google\Chrome\Application' --disable-web-security  --disable-gpu --disable-features=IsolateOrigins,site-per-process  --user-data-dir=C:\Users\marti\chr-cors-profile1
+& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe' --disable-web-security  --disable-gpu --disable-features=IsolateOrigins,site-per-process  --user-data-dir=C:\Users\marti\chr-cors-profile1
