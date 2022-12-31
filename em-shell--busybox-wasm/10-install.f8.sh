@@ -29,6 +29,7 @@ git clone     https://github.com/vadimkantorov/busyboxnanozipdiff3
 cmd /c dir
 echo /c dir
 cmd /c dir dist
+cmd /c dir example
 
 cd busytex
 
@@ -38,6 +39,23 @@ cmd /c mklink /j dist  D:\umarti\dowNLOADS--SYMLINKED
 
 
 https://github.com/busytex/busytex/issues/1
+
+# wasm version, download latest compiled assets, launch server.py and then go to http://localhost:8080/example/example.html
+
+mkdir -p dist
+
+wget -P dist --backups=1 $(printf "https://github.com/busytex/busytex/releases/latest/download/%s " busytex_pipeline.js busytex_worker.js    busytex.wasm busytex.js texlive-basic.js texlive-basic.data    ubuntu-texlive-latex-extra.data ubuntu-texlive-latex-extra.js    ubuntu-texlive-latex-recommended.data ubuntu-texlive-latex-recommended.js    ubuntu-texlive-science.data ubuntu-texlive-science.js)
+
+#python example/serve.py
+python example/example.py
+
+
+
+
+
+
+
+
 
 
 THIS BUSYBOX MAYBE IS ONLY FOR BROWSER, NOT FOR NODE

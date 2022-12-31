@@ -4367,3 +4367,7 @@ cd busytex
 cmd /c mklink /j dist  D:\umarti\dowNLOADS--SYMLINKED
 cmd /c dir
 cmd /c dir dist
+python3 example/serve.py
+python example/serve.py
+cmd /c dir example
+python example/example.py
