@@ -18,3 +18,30 @@ podman start   -ai    cmy22b
 
 
 echo '-------- section --------'
+
+echo '-------- section --------'
+
+
+
+# Activate PATH and other environment variables in the current terminal
+#source ./emsdk_env.sh
+source "/home/vscode/emsdk/emsdk_env.sh"
+
+
+
+If you want to use your system’s Node.js instead of the emsdk’s, it may be node instead of nodejs, and you can adjust the NODE_JS attribute of your .emscripten file to point to it.
+
+
+
+echo '-------- section --------'
+
+
+
+echo '-------- section --------'
+
+
+
+echo '-------- section --------'
+
+
+
