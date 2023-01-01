@@ -31,9 +31,16 @@ source "/home/vscode/emsdk/emsdk_env.sh"
 
 If you want to use your system’s Node.js instead of the emsdk’s, it may be node instead of nodejs, and you can adjust the NODE_JS attribute of your .emscripten file to point to it.
 
-
+https://emscripten.org/docs/getting_started/downloads.html
+https://emscripten.org/docs/getting_started/Tutorial.html
 
 echo '-------- section --------'
+cd ~/emsdk/upstream/emscripten
+./emcc -v
+./emcc  test/hello_world.c
+./emcc -v test/hello_world.c
+ls -latr
+node a.out.js
 
 
 
