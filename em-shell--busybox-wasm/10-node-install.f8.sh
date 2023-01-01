@@ -33,9 +33,21 @@ ls -latr ~/busytex
 FAIL
 
 
+.exit
 node
 b=require('./busybox_unstripped.js')
 
+
+###import loadWASM from './busybox_unstripped.js'
+q = await import( './busybox_unstripped.js'  );
+q.default()
+
+await b()
+b()
+    at /home/vscode/busyide/busybox_unstripped.js:9:95754 {
+    input: '/home/vscode/busyide/busybox_unstripped.wasm',
+    code: 'ERR_INVALID_URL'
+  }
 
 cd
 mkdir busytex
