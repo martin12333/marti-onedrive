@@ -519,3 +519,7 @@ done}| grep -i '[.]wasm$'
 do\
 zipinfo $x\
 done}| grep -i '[.]wasm$'
+: 1672561738:0;cd
+: 1672561742:0;git clone https://github.com/ilyaigpetrov/ncurses-for-emscripten.git
+: 1672566148:0;bash
+: 1672566541:0;python3

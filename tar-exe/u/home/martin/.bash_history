@@ -54,3 +54,8 @@ chsh --help
 man chsah
 man chsh
 exit
+termcap
+terminfo
+term
+env|grep -i term
+python
