@@ -21,25 +21,34 @@ echo '-------- section: install --- first attempts --------'
 
 
 
-THIS BUSYBOX MAYBE IS ONLY FOR BROWSER, NOT FOR NODE??
+??THIS BUSYBOX MAYBE IS ONLY FOR BROWSER, NOT FOR NODE??
 
 #mkdir 10-cowasm
-cd busyide
+cd ~/busyide
 ll *.js *.wasm
+ls -latr
 ls -latr ~
 ls -latr ~/busytex
 
-###node *.js *.wasm
+###node bu*.js *.wasm
 FAIL
 
+###node hello.js
 
 .exit
 node
 b=require('./busybox_unstripped.js')
 
+b=require('./hello.js')
+
+RuntimeError: Aborted(TypeError: WebAssembly.instantiate(): Import #0 module="a" error: module is not an object or function)
+    at abort (/home/vscode/busyide/hello.js:982:11)
+
+
 
 ###import loadWASM from './busybox_unstripped.js'
 q = await import( './busybox_unstripped.js'  );
+q = await import( './hello.js'  );
 q.default()
 
 await b()
