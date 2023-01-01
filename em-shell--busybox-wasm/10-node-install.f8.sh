@@ -21,16 +21,20 @@ echo '-------- section: install --- first attempts --------'
 
 
 
-THIS BUSYBOX MAYBE IS ONLY FOR BROWSER, NOT FOR NODE
+THIS BUSYBOX MAYBE IS ONLY FOR BROWSER, NOT FOR NODE??
 
 #mkdir 10-cowasm
 cd busyide
 ll *.js *.wasm
+ls -latr ~
+ls -latr ~/busytex
 
 ###node *.js *.wasm
 FAIL
 
 
+node
+b=require('./busybox_unstripped.js')
 
 
 cd
