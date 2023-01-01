@@ -505,3 +505,17 @@ echo .irssi \ # mounts irssi  \\
 : 1670619303:0;strace
 : 1670619315:0;strace echo
 : 1670619351:0;strace true
+: 1672556617:0;cd /mnt/d/umarti/dowNLOADS--SYMLINKED
+: 1672556620:0;{for x in *.zip\
+do\
+zipinfo $x\
+done}| grep -i '[.]wasm'
+: 1672556756:0;{for x in *.zip\
+do\
+zipinfo $x\
+done}| grep -i '[.]wasm$'
+: 1672556790:0;clear
+: 1672556796:0;{for x in *.zip\
+do\
+zipinfo $x\
+done}| grep -i '[.]wasm$'

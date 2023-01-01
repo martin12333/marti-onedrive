@@ -5,6 +5,13 @@ cd /mnt/d/umarti/dowNLOADS--SYMLINKED
 {for x in *.zip
 do
 zipinfo $x
+done}| grep -i '[.]wasm$'
+
+clear
+
+{for x in *.zip
+do
+zipinfo $x
 done}| grep -i '[.]wasm'
 
 -rw----     0.0 fat       79 tx defN 14-Sep-12 00:15 NodeOS-Docker-master/Layer2-nodejs/Dockerfile
