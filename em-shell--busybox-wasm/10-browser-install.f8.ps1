@@ -20,15 +20,6 @@ git clone  --dry-run   https://github.com/busytex/busyide
 git clone     https://github.com/busytex/busyide
 git clone     https://github.com/vadimkantorov/busyboxnanozipdiff3
 
-cd
-git clone https://github.com/ilyaigpetrov/ncurses-for-emscripten.git
-
-warning: the following paths have collided (e.g. case-sensitive paths
-on a case-insensitive filesystem) and only one from the same
-colliding group is in the working tree:
-
-so... i cloned also into u22
-
 
 
 cmd /c dir
