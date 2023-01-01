@@ -4397,3 +4397,10 @@ cd
 mkdir  chr-cors-profile1
 & 'C:\Program Files (x86)\Google\Chrome\Application' --disable-web-security  --disable-gpu --disable-features=IsolateOrigins,site-per-process  --user-data-dir=C:\Users\marti\chr-cors-profile1
 & 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe' --disable-web-security  --disable-gpu --disable-features=IsolateOrigins,site-per-process  --user-data-dir=C:\Users\marti\chr-cors-profile1
+cd
+cd busyboxnanozipdiff3
+cmd /c mklink /j dist  D:\umarti\dowNLOADS--SYMLINKED
+python ../busytex/example/example.py
+python example.py
+}
+C:\pf\Git\bin\bash.exe

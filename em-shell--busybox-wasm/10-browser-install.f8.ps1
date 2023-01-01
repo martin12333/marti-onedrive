@@ -52,30 +52,44 @@ python example/example.py
 
 cd
 cd busyide
-cmd /c mklink /j dist  D:\umarti\dowNLOADS--SYMLINKED
 
-#python ../busytex/example/example.py
+FAIL
+
+both
+cmd /c mklink /j dist  D:\umarti\dowNLOADS--SYMLINKED
+#cmd /c mklink /j dist  D:\umarti\dowNLOADS--SYMLINKED
+
+##python ../busytex/example/example.py
 python serve.py
 
-A preload for 'http://localhost:8080/README.tex' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+# maybe ok #A preload for 'http://localhost:8080/README.tex' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
 (anonymous) @ (index):982
-
-
 cd
 mkdir remote-debug-profile1
 mkdir  chr-cors-profile1
 #edge.exe --remote-debugging-port=9222 --user-data-dir=remote-debug-profile1
 & 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'   --disable-web-security  --disable-gpu --disable-features=IsolateOrigins,site-per-process  --user-data-dir=C:\Users\marti\remote-debug-profile1
-
-
 & 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe' --disable-web-security  --disable-gpu --disable-features=IsolateOrigins,site-per-process  --user-data-dir=C:\Users\marti\chr-cors-profile1
 
 
+
+
+
+cd
+cd busyboxnanozipdiff3
+
+cmd /c mklink /j dist  D:\umarti\dowNLOADS--SYMLINKED
+
+
+
+#p#ython ../busytex/example/example.py
+python example.py
+
+
+
+
+
 THIS BUSYBOX MAYBE IS ONLY FOR BROWSER, NOT FOR NODE
-
-
-
-
 
 #mkdir 10-cowasm
 cd busyide
