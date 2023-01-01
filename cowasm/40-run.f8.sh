@@ -128,6 +128,8 @@ vscode ➜ ~ $ ps -eHf
 
 
 echo '-------- section: experiments --------'
+cd ~/10-cowasm/node_modules/dash-wasm
+npx dash-wasm   -x
 
 
 
@@ -139,6 +141,19 @@ python3
 
 import curses
 curses.initscr()
+
+>>> import curses
+>>> curses.initscr()
+Name collision 'xterm-new' between
+        xf|xterm-new|modern xterm:,
+and     xf|xterm-new|modern xterm:,
+...now  modern xterm:,
+Cannot remove alias 'modern xterm:,'
+......
+
+import os
+>>> os.environ.get('TERM')
+'xterm-256color'
 
 #
 cd
