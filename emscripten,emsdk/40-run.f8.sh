@@ -73,6 +73,7 @@ vscode ➜ ~/emsdk/upstream/emscripten (main) $
 
 echo '-------- section --------'
 ./emcc -v test/hello_world.c -o hello.html
+node hello.js
 
 
 
