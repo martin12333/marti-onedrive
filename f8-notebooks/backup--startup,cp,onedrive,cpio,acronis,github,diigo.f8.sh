@@ -172,6 +172,9 @@ C:\pf\Git\bin\bash.exe
 
 cd ~/OneDrive
 
+cd ~/sbase.wasm
+git pull -vv
+
 cd
 git clone 'P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\sbase.wasm'
 cd sbase.wasm
