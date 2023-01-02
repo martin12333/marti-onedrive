@@ -120,6 +120,8 @@ code ./dotfiles
 	git add -vv  '*/*ockerfile*'
 	git add -vv  '*/*docker-create*.sh'
 	git add -vv  'dotfiles/*.sh'
+	git add -vv --dry-run  'wa*/*akefile*'
+	git add -vv  'wa*/*akefile*'
 
 	git add -vv  '*.f8.*'
 
