@@ -4406,3 +4406,4 @@ python example.py
 C:\pf\Git\bin\bash.exe
 podman machine start
 podman start   -ai    cmy22b
+podman machine start
