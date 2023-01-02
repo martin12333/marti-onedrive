@@ -22,21 +22,30 @@ cd
 git clone https://github.com/martin12333/sbase.wasm
 git clone https://github.com/martin12333/sbase.wasienv
 
+
+
+
+
+echo '-------- section --------'
+
+source ./emsdk_env.sh
+
+
+
+
+
+
+
+
+
+echo '-------- section --------'
+
+
+
 echo '-------- section --------'
 
 
 
 file OneDrive/emsdk*/*log
 file emsdk*/*.wasm
-
-
-
-
-
-
-echo '-------- section --------'
-
-
-echo '-------- section --------'
-
 
