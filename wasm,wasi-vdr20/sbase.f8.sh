@@ -104,15 +104,27 @@ echo '-------- section --------'
 
 emmake make  --trace --debug   du
 emmake make  --trace --debug   ls
+emmake make  --trace --debug   echo wc
 
 ls -latr
 
 node du.js
 node du.js -ak
-node ls.js -l
-
+node ls.js -l /
+node echo.js sjfksjdf
+#node wc.js wc.js
+cat wc.js| node wc.js
+wc wc.js
 
 echo '-------- section --------'
+    .
+vscode ➜ ~/sbase.wasm (master ✗) $ cat wc.js| node wc.js
+4649  18816 170725
+vscode ➜ ~/sbase.wasm (master ✗) $ wc wc.js
+  4649  18816 170725 wc.js
+vscode ➜ ~/sbase.wasm (master ✗) $
+
+
 
 
 vscode ➜ ~/sbase.wasm (master ✗) $ node du.js
