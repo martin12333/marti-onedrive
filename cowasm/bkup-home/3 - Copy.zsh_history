@@ -1,0 +1,107 @@
+: 1669410362:0;cat /etc/os-release
+: 1669410386:0;cat /etc/lsb-release
+: 1669410502:0;exit
+: 1669415549:0;touch /homedockw/touch
+: 1669415664:0;exit
+: 1669418193:0;id
+: 1669498089:0;exit
+: 1669498706:0;podman ps --all
+: 1669498720:0;env
+: 1669498810:0;cd /
+: 1669498844:0;tar czf /homedockw/home.tarz home
+: 1669498904:0;cd homedockw
+: 1669498918:0;tar tzf /homedockw/home.tarz
+: 1669499001:0;tar xzf /homedockw/home.tarz
+: 1669499170:0;cd /home
+: 1669499172:0;tar czf /homedockw/home.tarz .
+: 1669500934:0;id
+: 1669501049:0;ls -la
+: 1669501138:0;ls /onedri
+: 1669501157:0;ls /onedri/dotfiles
+: 1669501599:0;bash /onedri/dotfiles/install.sh
+: 1669505219:0;env
+: 1669579050:0;curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh  >1    #    | bash
+: 1669579065:0;less 1
+: 1669579134:0;mv -iv 1 1.sh
+: 1669579312:0;pwd
+: 1669579326:0;bash 1.sh
+: 1669579421:0;sudo
+: 1669579425:0;sudo -i
+: 1669579436:0;chsh
+: 1669579455:0;cat /etc/passwd
+: 1669579521:0;chsh --help
+: 1669579591:0;chsh -s $(which zsh)
+: 1669579666:0;sudo chsh -s $(which zsh) vscode
+: 1669579677:0;cat /etc/passwd
+: 1669579762:0;history
+: 1669579807:0;bash 1.sh
+: 1669579965:0;tar tzf /homedockw/home.tarz .zshrc
+: 1669579981:0;tar tzf /home/home.tarz .zshrc
+: 1669579991:0;tar tzf /home/home.tarz '*/.zshrc'
+: 1669580007:0;tar tzf /home/home.tarz --wildcards  '*/.zshrc'
+: 1669580114:0;tar xzf /home/home.tarz --wildcards  '*/.zshrc'
+: 1669580140:0;tar xvzf /home/home.tarz --wildcards  '*/.zshrc'
+: 1669580301:0;bash 1.sh
+: 1669580565:0;nvm
+: 1669580589:0;command -v nvm
+: 1669580820:0;nvm install 18
+: 1669580851:0;node
+: 1669581092:0;env
+: 1669581102:0;env|grep -i bas
+: 1669581109:0;env|grep -i zs
+: 1669581131:0;ps -ef
+: 1669581441:0;history
+: 1669581691:0;nvm which 12.22
+: 1669581697:0;nvm which 18
+: 1669581716:0;echo $path
+: 1669586203:0;echo $USER
+: 1669586756:0;npm prefix
+: 1669586758:0;npm prefix --global
+: 1669586796:0;npm bin --global
+: 1669586813:0;npm bin
+: 1669586837:0;ls `npm bin --global`
+: 1669586961:0;npx --no-install /usr/bin/env | tr ':' '\n'|grep -i bin
+: 1669586996:0;env | tr ':' '\n'|grep -i bin
+: 1669587034:0;: 1665860363:0;apparmor_status
+: 1669599777:0;command -v code
+: 1669599801:0;command -v nvm
+: 1669599811:0;which -a code
+: 1669600173:0;ls -l /usr/local/bin/code
+: 1669600187:0;cat /usr/local/bin/code
+: 1669600268:0;code --help
+: 1669600286:0;ls -l /usr/local/bin
+: 1669600309:0;devcontainer-info
+: 1669600363:0;ls -l /usr/local/sbin
+: 1669600535:0;code --help
+: 1669682942:0;ls -l `echo $PATH|tr : ' '`|wc
+: 1669684631:0;ls -la /
+: 1669684655:0;ls -la /boot
+: 1669684667:0;ls -la /dev
+: 1669684750:0;ls -la /dev/fd
+: 1669684760:0;ls -la /dev/fd/.
+: 1669769027:0;ls -la /proc
+: 1669769064:0;ls -la /sys
+: 1670347538:0;cd
+: 1670347568:0;mkdir cowasm
+: 1670347572:0;cd cowasm
+: 1670347577:0;npm i dash-wasm
+: 1670347704:0;find . -name "*.wasm"
+: 1670347863:0;cd node_modules
+: 1670347872:0;cd dash-wasm
+: 1670347879:0;npm i
+: 1670347981:0;du -m
+: 1670347987:0;cd
+: 1670347989:0;cd cowasm
+: 1670347991:0;du -m
+: 1670371924:0;find . -name "*.wasm"
+: 1670371951:0;find . -name "*.wasm" -ls
+: 1670372126:0;cd node_modules
+: 1670372128:0;cd dash-wasm
+: 1670372132:0;npx /usr/bin/zsh
+: 1670372167:0;dash-wasm
+: 1670372234:0;ls -l /
+: 1670372415:0;dash-wasm
+: 1670372667:0;ll
+: 1670372715:0;dash --help
+: 1670372723:0;dash -h
+: 1670373655:0;dash-wasm
