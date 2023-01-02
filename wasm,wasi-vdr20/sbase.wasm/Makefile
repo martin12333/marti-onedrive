@@ -200,22 +200,19 @@ all: $(BIN)
 $(BIN): $(LIB) $(@:=.o)
 
 
+$(OBJ): $(HDR) config.mk
 
-# i dont know how to do it
+
+# i am not sure  how to do it correctly
 ##$(JS): $(LIB) $(@:=.o)
 ####	$(CC)  $(LDFLAGS) -o $@   $(LIB)  $<
 
-
-
-
-
-$(OBJ): $(HDR) config.mk
+.o:
+	$(CC) $(LDFLAGS) -o $(@:=.js) $< $(LIB)
 
 #.o:
 #	$(CC) $(LDFLAGS) -o $@ $< $(LIB)
 
-.o:
-	$(CC) $(LDFLAGS) -o $(@:=.js) $< $(LIB)
 
 .c.o:
 	$(CC) $(CFLAGS) $(CPPFLAGS) -o $@ -c $<

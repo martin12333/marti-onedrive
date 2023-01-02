@@ -103,11 +103,13 @@ emmake make --dry-run --trace --debug   ls.js
 echo '-------- section --------'
 
 emmake make  --trace --debug   du
+emmake make  --trace --debug   ls
 
 ls -latr
 
 node du.js
 node du.js -ak
+node ls.js -l
 
 
 echo '-------- section --------'
