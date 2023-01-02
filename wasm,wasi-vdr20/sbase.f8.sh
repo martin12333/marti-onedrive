@@ -33,8 +33,46 @@ echo '-------- section --------'
 #source ./emsdk_env.sh
 source "/home/vscode/emsdk/emsdk_env.sh"
 
+cd ~/sbase.wasm
+ls -latr
+
+#
+emcc -v false.c -o false.js
+node false.js
+node true.js
+
+vscode ➜ ~/sbase.wasm (master ✗) $
+vscode ➜ ~/sbase.wasm (master ✗) $
+vscode ➜ ~/sbase.wasm (master ✗) $ emcc -v true.c -o true.js
+
+Target: wasm32-unknown-emscripten
+Thread model: posix
+
+
+emcc  du.c
+
+vscode ➜ ~/sbase.wasm (master ✗) $
+vscode ➜ ~/sbase.wasm (master ✗) $ emcc  du.c
+wasm-ld: error: /tmp/emscripten_temp_h8m5qeam/du_0.o: undefined symbol: argv0
+wasm-ld: error: /tmp/emscripten_temp_h8m5qeam/du_0.o: undefined symbol: estrtonum
+wasm-ld: error: /tmp/emscripten_temp_h8m5qeam/du_0.o: undefined symbol: estrtonum
+wasm-ld: error: /tmp/emscripten_temp_h8m5qeam/du_0.o: undefined symbol: recurse
+wasm-ld: error: /tmp/emscripten_temp_h8m5qeam/du_0.o: undefined symbol: recurse
+wasm-ld: error: /tmp/emscripten_temp_h8m5qeam/du_0.o: undefined symbol: fshut
+wasm-ld: error: /tmp/emscripten_temp_h8m5qeam/du_0.o: undefined symbol: recurse_status
+wasm-ld: error: /tmp/emscripten_temp_h8m5qeam/du_0.o: undefined symbol: argv0
+wasm-ld: error: /tmp/emscripten_temp_h8m5qeam/du_0.o: undefined symbol: eprintf
+wasm-ld: error: /tmp/emscripten_temp_h8m5qeam/du_0.o: undefined symbol: recurse
+wasm-ld: error: /tmp/emscripten_temp_h8m5qeam/du_0.o: undefined symbol: humansize
+
+
+
+
+
 
 C:\Users\marti\OneDrive\emscripten,emsdk\40-run.f8.sh
+
+
 
 
 

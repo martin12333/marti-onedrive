@@ -78,6 +78,16 @@ node hello.js
 
 
 
+
+
+
+
+
+C:\Users\marti\OneDrive\wasm,wasi-vdr20\sbase.f8.sh
+
+
+
+
 echo '-------- section --------'
 vscode ➜ ~/emsdk/upstream/emscripten (main) $
 c -o hello.html
