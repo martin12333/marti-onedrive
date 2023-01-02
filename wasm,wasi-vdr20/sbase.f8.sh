@@ -28,10 +28,13 @@ git clone https://github.com/martin12333/sbase.wasienv
 
 echo '-------- section --------'
 
-source ./emsdk_env.sh
+
+# Activate PATH and other environment variables in the current terminal
+#source ./emsdk_env.sh
+source "/home/vscode/emsdk/emsdk_env.sh"
 
 
-
+C:\Users\marti\OneDrive\emscripten,emsdk\40-run.f8.sh
 
 
 

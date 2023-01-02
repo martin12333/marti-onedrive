@@ -123,6 +123,8 @@ code ./dotfiles
 
 	git add -vv  '*.f8.*'
 
+	git push
+
 	/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
 	git commit -v -a -m  before-manip-dirs
 	git commit -v -a -m bk
