@@ -17,6 +17,13 @@ podman start   -ai    cmy22b
 
 echo '-------- section --------'
 
+# container
+cd
+git clone https://github.com/martin12333/sbase.wasm
+git clone https://github.com/martin12333/sbase.wasienv
+
+echo '-------- section --------'
+
 
 
 file OneDrive/emsdk*/*log
