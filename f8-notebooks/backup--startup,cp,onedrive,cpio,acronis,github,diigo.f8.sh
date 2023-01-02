@@ -83,6 +83,8 @@ git add -v  "C:\Users\marti\OneDrive\wiki-f8\zzzexperim--rdoc.rdoc"   "C:\Users\
 	git add -vv       --dry-run       '*/.gitignore'  '*/install.sh'
 	git add -vv       --dry-run       '*s/.gitignore'  '*s/install.sh'
 	git add -vv       --dry-run       '*s/.gitignore'  '*s/*install*.sh'   '*r/.zshrc'
+	git add -vv       --dry-run       'w*/Sea*'
+	git add -vv           'w*m/Sea*'
 	git add -vv        '*s/.gitignore'  '*s/*install*.sh'   '*r/.zshrc'
 
 	##    '*f8.*'
