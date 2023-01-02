@@ -75,7 +75,7 @@ emmake make --dry-run du
 make --dry-run du
 make --help
 emmake --help
-
+##make  --print-data-base
 emmake make --dry-run   libutf.a libutil.a
 emmake make    libutf.a libutil.a
 
@@ -91,15 +91,20 @@ libutil/../util.h:14:39: note: expanded from macro 'MIN'
 1 warning generated.
 
 echo '-------- section --------'
-./getconf.sh
 
 echo '-------- section --------'
 
+emmake make --dry-run --trace --debug   ls
+emmake make --dry-run --trace --debug   ls.js
+#emmake make --dry-run --trace  -d  ls.js
+#emmake make --dry-run --trace --debug  -d  ls.js
 
 
 echo '-------- section --------'
 
+emmake make  --trace --debug   du
 
+ls -latr
 
 C:\Users\marti\OneDrive\emscripten,emsdk\40-run.f8.sh
 
@@ -112,6 +117,7 @@ C:\Users\marti\OneDrive\emscripten,emsdk\40-run.f8.sh
 
 echo '-------- section --------'
 
+./getconf.sh
 
 
 echo '-------- section --------'
