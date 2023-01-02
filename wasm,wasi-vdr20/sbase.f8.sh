@@ -106,7 +106,56 @@ emmake make  --trace --debug   du
 
 ls -latr
 
+node du.js
+node du.js -ak
+
+
+echo '-------- section --------'
+
+
+vscode ➜ ~/sbase.wasm (master ✗) $ node du.js
+1       ./tmp
+1       ./home/web_user
+2       ./home
+1       ./dev/shm/tmp
+2       ./dev/shm
+6       ./dev
+/home/vscode/sbase.wasm/du.js: lstat ./proc/self/fd: Operation not permitted
+1       ./proc/self
+2       ./proc
+12      .
+vscode ➜ ~/sbase.wasm (master ✗) $ node du.js -ak
+1       ./tmp
+1       ./home/web_user
+2       ./home
+0       ./dev/null
+0       ./dev/tty
+0       ./dev/tty1
+0       ./dev/random
+0       ./dev/urandom
+1       ./dev/shm/tmp
+2       ./dev/shm
+1       ./dev/stdin
+1       ./dev/stdout
+1       ./dev/stderr
+6       ./dev
+/home/vscode/sbase.wasm/du.js: lstat ./proc/self/fd: Operation not permitted
+1       ./proc/self
+2       ./proc
+12      .
+vscode ➜ ~/sbase.wasm (master ✗) $
+
+
+
+echo '-------- section --------'
+
+echo '-------- section --------'
+
 C:\Users\marti\OneDrive\emscripten,emsdk\40-run.f8.sh
+
+
+
+
 
 
 
