@@ -169,6 +169,38 @@ code ./dotfiles
 
 C:\pf\Git\bin\bash.exe
 
+
+cd ~/OneDrive
+
+cd
+git clone 'P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\sbase.wasm'
+cd sbase.wasm
+ls -latr
+cd ~/OneDrive
+
+
+
+tail tar-exe/w/home/martin/eternal.zsh_history
+tail tar-exe/u/home/martin/eternal.zsh_history
+tail tar-exe/u/home/dockw/node/.zsh_history
+
+	git show
+	git status | head -n 15
+	git log
+git whatchanged -p --abbrev-commit --pretty=medium
+
+	git gui &
+	# menu Visualize
+	git gui
+
+
+
+	# https://github.com/martin12333/marti-onedrive
+	# w: failed
+	# forgot to git add
+	#
+
+
 		#didnot help /d/dow too-long to read PROBABLY, too many files  ... prb in u2204 ...
 todo pseudosh
 	mv -iv dow OLDdow22
@@ -180,25 +212,9 @@ todo pseudosh
 		cd /mnt/d/umarti/
 		dmesg|grep sdc
 
-tail tar-exe/w/home/martin/eternal.zsh_history
-tail tar-exe/u/home/martin/eternal.zsh_history
-tail tar-exe/u/home/dockw/node/.zsh_history
-
-	git show
-	git status | head -n 15
-	git log
-
-	git gui &
-	# menu Visualize
-	git gui
-
-git whatchanged -p --abbrev-commit --pretty=medium
 
 
-	# https://github.com/martin12333/marti-onedrive
-	# w: failed
-	# forgot to git add
-	#
+
 
 
 cd /d/GIT-b*

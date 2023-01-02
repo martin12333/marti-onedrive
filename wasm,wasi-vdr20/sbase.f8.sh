@@ -91,7 +91,7 @@ libutil/../util.h:14:39: note: expanded from macro 'MIN'
 1 warning generated.
 
 echo '-------- section --------'
-
+./getconf.sh
 
 echo '-------- section --------'
 
