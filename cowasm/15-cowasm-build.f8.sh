@@ -41,7 +41,10 @@ ll
 du -sk * |sort -nr
 
 
+cat *akefile|grep -i ranlib
+cat *akefile|grep -w -i ar
 
+cd coreutils
 cd dash
 cd bzip2
 cd tar
