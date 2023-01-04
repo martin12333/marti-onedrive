@@ -27,6 +27,9 @@ source "/home/vscode/emsdk/emsdk_env.sh"
 
 
 
+echo '-------- section --------'
+
+
 # container
 cd
 #git clone https://github.com/martin12333/sbase.wasm
@@ -36,12 +39,13 @@ cmake --help
 
 cd BSDCoreUtils-master/BSDCoreUtils-master
 
-cmake --list-presets
+#cmake --list-presets
 ll
 
 emcmake --help
 emcmake  cmake
 
+#
 --help-full [<f>]            = Print all help manuals and exit.
   --help-manual <man> [<f>]    = Print one help manual and exit.
   --help-manual-list [<f>]     = List help manuals available and exit.
@@ -52,6 +56,7 @@ emcmake  cmake
 
 
 
+echo '-------- section --------'
 
 
    Target rules for targets named ls
@@ -65,3 +70,9 @@ ls: cmake_check_build_system
 ls/fast:
 	$(MAKE) $(MAKESILENT) -f src/ls/CMakeFiles/ls.dir/build.make src/ls/CMakeFiles/ls.dir/build
 .PHONY : ls/fast
+echo '-------- section --------'
+
+
+
+
+
