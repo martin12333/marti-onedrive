@@ -51,7 +51,7 @@ podman images | grep 22b
 
 
 
-edit create.sh edit imyjs22b
+if revert then edit create.sh edit imy22b
 
 
 echo '-------- section --------'
