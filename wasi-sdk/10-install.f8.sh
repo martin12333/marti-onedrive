@@ -62,6 +62,12 @@ du -m wasi*
 
 echo '-------- section --------'
 
+
+##https://github.com/WebAssembly/wasi-sdk/issues/96
+##Ship wasm32-wasi-clang sym links under `bin`? · Issue #96 · WebAssembly/wasi-sdk
+
+
+
 #bash
 
 export WASI_VERSION=17
