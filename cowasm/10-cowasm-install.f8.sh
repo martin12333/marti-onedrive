@@ -17,6 +17,13 @@ echo '-------- section --------'
 podman machine start
 podman start   -ai    cmy22b
 
+
+
+
+see also
+
+C:\Users\marti\OneDrive\cowasm\15-cowasm-build.f8.sh
+
 echo '-------- section: install --- first attempt --------'
 
 
