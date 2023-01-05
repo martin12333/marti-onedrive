@@ -25,7 +25,7 @@ echo '-------- section --------'
 podman ps --all
 
 
-podman image history imyjs22b11  ##>1
+podman image history imy22b11  ##>1
 podman image history imy22b  ##>1
 podman image history --no-trunc imy22b >1
 
@@ -48,6 +48,8 @@ echo $x
 podman tag $x imy22b11
 
 podman images | grep 22b
+
+
 
 edit create.sh edit imyjs22b
 
