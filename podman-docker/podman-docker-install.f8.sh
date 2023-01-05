@@ -377,6 +377,13 @@ q
 
 echo '-------- section --------'
 
+
+
+COPIED TO C:\Users\marti\OneDrive\podman-docker\podman-docker-commit.f8.sh
+
+
+
+
 docker images
 docker stop cmyjs22b
 
