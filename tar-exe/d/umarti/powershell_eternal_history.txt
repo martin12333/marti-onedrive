@@ -4414,3 +4414,8 @@ podman machine start
 podman start   -ai    cmy22b
 podman machine start
 podman start   -ai    cmy22b
+podman ps --all
+podman history
+podman image history imy22b  ##>1
+podman images
+podman stop cmy22b

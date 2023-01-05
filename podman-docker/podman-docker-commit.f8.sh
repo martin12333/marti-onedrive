@@ -21,10 +21,13 @@ echo '-------- section --------'
 echo '-------- section --------'
 
 echo '-------- section --------'
-docker history
-docker image history imyjs22b11  ##>1
-docker image history imy22b  ##>1
-docker image history --no-trunc imy22b >1
+
+podman ps --all
+
+
+podman image history imyjs22b11  ##>1
+podman image history imy22b  ##>1
+podman image history --no-trunc imy22b >1
 
 less 1
 
@@ -33,12 +36,18 @@ q
 
 echo '-------- section --------'
 
-docker images
-docker stop cmyjs22b
+podman ps --all  |grep 22b
 
-: 1646574401:0;x=`docker commit cmyjs22b   `
-: 1646574429:0;echo $x
-: 1646574526:0;docker tag $x imyjs22b11
+#podman container list --all |grep 22b
+
+podman images | grep 22b
+podman stop cmy22b
+
+x=`podman commit cmy22b   `
+echo $x
+podman tag $x imy22b11
+
+podman images | grep 22b
 
 edit create.sh edit imyjs22b
 
