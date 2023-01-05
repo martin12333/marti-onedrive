@@ -56,6 +56,10 @@ wget https://github.com/WebAssembly/wasi-sdk/releases/download/wasi-sdk-$WASI_VE
 
 
 
+
+wget https://github.com/WebAssembly/wabt/releases/download/
+
+
 tar xvf wasi-sdk-${WASI_VERSION_FULL}-linux.tar.gz
 du -m wasi*
 

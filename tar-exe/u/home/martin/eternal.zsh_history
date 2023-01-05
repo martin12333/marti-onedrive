@@ -524,3 +524,12 @@ done}| grep -i '[.]wasm$'
 : 1672566148:0;bash
 : 1672566541:0;python3
 : 1672834418:0;which cmake
+: 1672915858:0;cd /mnt/d/umarti/dowNLOADS--SYMLINKED
+: 1672915867:0;{for x in *.zip\
+do\
+zipinfo $x\
+done}| grep -i '[.]wasm$'
+: 1672915909:0;{for x in *.zip ; do ; zipinfo $x  ; done}| grep -i '[.]wasm$' | grep fork
+: 1672915999:0;{for x in *.zip ; do ; zipinfo $x  ; done}| grep -i '[.]wasm$' >a.csv
+: 1672916824:0;cd /mnt/d/umarti/dowNLOADS--SYMLINKED
+: 1672916834:0;{for x in *.zip ; do ; zipinfo $x  ; done}| grep -i '[.]wasm$' >base.csv

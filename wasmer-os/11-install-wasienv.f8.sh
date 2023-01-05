@@ -113,6 +113,7 @@ export WASIENV_DIR="/home/vscode/.wasienv"
 
 
 
+echo $WASMER_DIR
 
 disabling wasmer didnt help
 # Wasmer

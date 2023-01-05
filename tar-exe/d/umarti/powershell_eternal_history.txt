@@ -4423,3 +4423,6 @@ podman image history imy22b11  ##>1
 podman image history imy22b  ##>1
 podman image history imy22b11  ##>1
 podman start   -ai    cmy22b
+podman image history imy22b11  ##>1
+podman machine start
+podman start   -ai    cmy22b

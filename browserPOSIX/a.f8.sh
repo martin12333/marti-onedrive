@@ -2,10 +2,8 @@
 
 cd /mnt/d/umarti/dowNLOADS--SYMLINKED
 
-{for x in *.zip
-do
-zipinfo $x
-done}| grep -i '[.]wasm$'
+{for x in *.zip ; do ; zipinfo $x  ; done}| grep -i '[.]wasm$' | grep fork
+{for x in *.zip ; do ; zipinfo $x  ; done}| grep -i '[.]wasm$' >base.csv
 
 clear
 
