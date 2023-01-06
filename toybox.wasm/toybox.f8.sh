@@ -134,27 +134,6 @@ PATH=/home/vscode/emsdk/upstream/emscripten/cache/sysroot/bin:/home/vscode/emsdk
 
 EM_CONFIG=/home/vscode/emsdk/.emscripten
 
-CC=/home/vscode/emsdk/upstream/emscripten/emcc
-
-AR=/home/vscode/emsdk/upstream/emscripten/emar
-
-LD=/home/vscode/emsdk/upstream/emscripten/emcc
-
-
-NM=/home/vscode/emsdk/upstream/bin/llvm-nm
-LDSHARED=/home/vscode/emsdk/upstream/emscripten/emcc
-RANLIB=/home/vscode/emsdk/upstream/emscripten/emranlib
-EMSCRIPTEN_TOOLS=/home/vscode/emsdk/upstream/emscripten/tools
-HOST_CC=/home/vscode/emsdk/upstream/bin/clang
-HOST_CXX=/home/vscode/emsdk/upstream/bin/clang++
-HOST_CFLAGS=-W
-HOST_CXXFLAGS=-W
-PKG_CONFIG_LIBDIR=/home/vscode/emsdk/upstream/emscripten/cache/sysroot/local/lib/pkgconfig:/home/vscode/emsdk/upstream/emscripten/cache/sysroot/lib/pkgconfig
-PKG_CONFIG_PATH=
-EMSCRIPTEN=/home/vscode/emsdk/upstream/emscripten
-CROSS_COMPILE=/home/vscode/emsdk/upstream/emscripten/em
-
-
 
 CROSS_COMPILE= emmake sh
 exit
@@ -166,10 +145,17 @@ CC=cc emmake env
 CROSS_COMPILE=em make --dry-run true
 CROSS_COMPILE=em    make  true
 
+
+error
+
 emmake env | grep em
 
 
 
+
+
+
+export CROSS_COMPILE CFLAGS OPTIMIZE LDOPTIMIZE CC HOSTCC V STRIP
 
 CC=/home/vscode/emsdk/upstream/emscripten/emcc
 CXX=/home/vscode/emsdk/upstream/emscripten/em++
@@ -178,10 +164,53 @@ LD=/home/vscode/emsdk/upstream/emscripten/emcc
 NM=/home/vscode/emsdk/upstream/bin/llvm-nm
 LDSHARED=/home/vscode/emsdk/upstream/emscripten/emcc
 RANLIB=/home/vscode/emsdk/upstream/emscripten/emranlib
-EMSCRIPTEN_TOOLS=/home/vscode/emsdk/upstream/emscripten/tools
+
 HOST_CC=/home/vscode/emsdk/upstream/bin/clang
 HOST_CXX=/home/vscode/emsdk/upstream/bin/clang++
-PKG_CONFIG_LIBDIR=/home/vscode/emsdk/upstream/emscripten/cache/sysroot/local/lib/pkgconfig:/home/vscode/emsdk/upstream/emscripten/cache/sysroot/lib/pkgconfig
-EMSCRIPTEN=/home/vscode/emsdk/upstream/emscripten
-CROSS_COMPILE=/home/vscode/emsdk/upstream/emscripten/em
+
+#PKG_CONFIG_LIBDIR=/home/vscode/emsdk/upstream/emscripten/cache/sysroot/local/lib/pkgconfig:/home/vscode/emsdk/upstream/emscripten/cache/sysroot/lib/pkgconfig
+#EMSCRIPTEN=/home/vscode/emsdk/upstream/emscripten
+
+#####CROSS_COMPILE=/home/vscode/emsdk/upstream/emscripten/em
+CROSS_COMPILE=
+
+env|grep em
+env|grep -i cro
+
+
+make  true
+
+error
+
+
+
+exit
+
+
+CROSS_COMPILE=em  LDOPTIMIZE=cc make true
+
+
+
+
+
+./lib/portability.h:237:63: error: incomplete definition of type 'struct statfs'
+static inline long statfs_bsize(struct statfs *sf) { return sf->f_bsize; }
+
+
+
+// Linux headers not listed by POSIX or LSB
+#include <sys/mount.h>
+#ifdef __linux__
+#include <sys/statfs.h>
+#include <sys/swap.h>
+#include <sys/sysinfo.h>
+#endif
+
+#if defined(__APPLE__) || defined(__FreeBSD__) || defined(__OpenBSD__)
+static inline long statfs_bsize(struct statfs *sf) { return sf->f_iosize; }
+static inline long statfs_frsize(struct statfs *sf) { return sf->f_bsize; }
+#else
+static inline long statfs_bsize(struct statfs *sf) { return sf->f_bsize; }
+static inline long statfs_frsize(struct statfs *sf) { return sf->f_frsize; }
+#endif
 
