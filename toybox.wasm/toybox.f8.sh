@@ -74,6 +74,13 @@ defconfig       - New config with default answer to all options
 echo '-------- section --------'
 
 
+
+make defconfig
+
+
+echo '-------- section --------'
+
+
 make menuconfig
 
 
@@ -112,4 +119,18 @@ Arrow keys navigate the menu.  <Enter> selects submenus --->.  Highlighted lette
 Save an Alternate Configuration File
 
 echo '-------- section --------'
+
+
+#make config
+
+
+
+
+
+
+
+
+
+
+
 
