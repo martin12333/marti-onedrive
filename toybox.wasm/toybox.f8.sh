@@ -151,6 +151,7 @@ error
 emmake env | grep em
 
 
+echo '-------- section --------'
 
 
 
@@ -190,6 +191,9 @@ exit
 CROSS_COMPILE=em  LDOPTIMIZE=cc make true
 
 
+echo '-------- section --------'
+
+
 
 
 
@@ -214,3 +218,26 @@ static inline long statfs_bsize(struct statfs *sf) { return sf->f_bsize; }
 static inline long statfs_frsize(struct statfs *sf) { return sf->f_frsize; }
 #endif
 
+
+
+echo '-------- section --------'
+
+
+
+
+
+
+echo '-------- section --------'
+
+
+In file included from lib/lib.c:7:
+In file included from ./toys.h:80:
+./generated/globals.h:492:19: error: field has incomplete type 'struct statfs'
+    struct statfs sf;
+                  ^
+./generated/globals.h:492:12: note: forward declaration of 'struct statfs'
+    struct statfs sf;
+           ^
+3 warnings and 3 errors generated.
+3 warnings and 3 errors generated.
+emcc: error: '/home/vscode/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration -I/home/vscode/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/vscode/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -Wall -Wundef -Werror=implicit-function-declaration -Wno-char-subscripts -Wno-pointer-sign -funsigned-char -Wno-string-plus-int -Wno-string-plus-int -I. -Os -ffunction-sections -fdata-sections -fno-asynchronous-unwind-tables -fno-strict-aliasing -DTOYBOX_VERSION="" -c lib/env.c -o generated/obj/lib_env.o' failed (returned 1)
