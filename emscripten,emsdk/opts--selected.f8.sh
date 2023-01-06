@@ -43,11 +43,15 @@ To see the full list of *Clang* options supported on the version of
 echo '-------- section --------'
 
 
-"--cflags"
-   [other] Prints out the flags "emcc" would pass to "clang" to
-   compile source code to object form. You can use this to invoke
-   clang yourself, and then run "emcc" on those outputs just for the
-   final linking+conversion to JS.
+
+"--proxy-to-worker"
+   [link] Runs the main application code in a worker, proxying events
+   to it and output from it. If emitting HTML, this emits a **.html**
+   file, and a separate **.js** file containing the JavaScript to be
+   run in a worker. If emitting JavaScript, the target file name
+   contains the part to be run on the main thread, while a second
+   **.js** file with suffix ".worker.js" will contain the worker
+   portion.
 
 
 "--emrun"
@@ -58,3 +62,29 @@ echo '-------- section --------'
    runtime exiting with return code passing.)
 
 
+
+
+"--cflags"
+   [other] Prints out the flags "emcc" would pass to "clang" to
+   compile source code to object form. You can use this to invoke
+   clang yourself, and then run "emcc" on those outputs just for the
+   final linking+conversion to JS.
+
+
+   * "EMCC_CFLAGS" [compile+link]
+
+
+
+
+
+
+
+-Os
+-ffunction-sections
+-fdata-sections
+-fno-asynchronous-unwind-tables
+-fno-strict-aliasing
+
+
+
+  -v                      Show commands to run and use verbose output
