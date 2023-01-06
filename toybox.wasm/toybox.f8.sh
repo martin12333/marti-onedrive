@@ -76,12 +76,40 @@ echo '-------- section --------'
 
 make menuconfig
 
+
+vscode ➜ ~/toybox.wasm (master) $ make menuconfig
+cc -o kconfig/mconf kconfig/mconf.c kconfig/zconf.tab.c \
+        kconfig/lxdialog/*.c -lcurses -DCURSES_LOC="<ncurses.h>" \
+        -DKBUILD_NO_NLS=1 -DPROJECT_NAME=\"ToyBox\"
+kconfig/mconf Config.in
+Your display is too small to run Menuconfig!
+It must be at least 19 lines by 80 columns.
+make: *** [kconfig/Makefile:12: menuconfig] Error 1
+vscode ➜ ~/toybox.wasm (master) $ make menuconfig
+kconfig/mconf Config.in
+
+
+Your configuration changes were NOT saved.
+
+vscode ➜ ~/toybox.wasm (master) $ which cc
+/usr/bin/cc
+vscode ➜ ~/toybox.wasm (master) $
+
+
+
+
+
+
+
+
+
+
 Arrow keys navigate the menu.  <Enter> selects submenus --->.  Highlighted letters are hotkeys.  Pressing <Y> includes,  │
   │  <N> excludes, <M> modularizes features.  Press <Esc><Esc> to exit, <?> for Help, </> for Search.  Legend: [*] built-in   │
   │  [ ] excluded  <M> module  < > module capable                                                                             │
   │    Toybox global settings
 
-Save an Alternate Configuration File 
+Save an Alternate Configuration File
 
 echo '-------- section --------'
 
