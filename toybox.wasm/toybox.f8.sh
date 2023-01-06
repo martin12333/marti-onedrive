@@ -157,6 +157,10 @@ echo '-------- section --------'
 
 
 export CROSS_COMPILE CFLAGS OPTIMIZE LDOPTIMIZE CC HOSTCC V STRIP
+export CROSS_COMPILE CFLAGS OPTIMIZE LDOPTIMIZE CC HOSTCC V STRIP
+
+
+
 
 CC=/home/vscode/emsdk/upstream/emscripten/emcc
 CXX=/home/vscode/emsdk/upstream/emscripten/em++
@@ -189,6 +193,8 @@ exit
 
 
 CROSS_COMPILE=em  LDOPTIMIZE=cc make true
+
+error
 
 
 echo '-------- section --------'
@@ -241,3 +247,4 @@ In file included from ./toys.h:80:
 3 warnings and 3 errors generated.
 3 warnings and 3 errors generated.
 emcc: error: '/home/vscode/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration -I/home/vscode/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/vscode/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -Wall -Wundef -Werror=implicit-function-declaration -Wno-char-subscripts -Wno-pointer-sign -funsigned-char -Wno-string-plus-int -Wno-string-plus-int -I. -Os -ffunction-sections -fdata-sections -fno-asynchronous-unwind-tables -fno-strict-aliasing -DTOYBOX_VERSION="" -c lib/env.c -o generated/obj/lib_env.o' failed (returned 1)
+
