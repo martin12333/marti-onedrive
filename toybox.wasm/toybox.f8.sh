@@ -124,13 +124,64 @@ echo '-------- section --------'
 #make config
 
 
+emmake make  --dry-run ls
+
+
+emmake env
+
+
+PATH=/home/vscode/emsdk/upstream/emscripten/cache/sysroot/bin:/home/vscode/emsdk:/home/vscode/emsdk/upstream/emscripten:/home/vscode/emsdk/node/14.18.2_64bit/bin:/home/vscode/.wasmer/bin:/home/vscode/.nvm/versions/node/v18.12.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/vscode/.local/bin:/home/vscode/.wasmer/globals/wapm_packages/.bin
+
+EM_CONFIG=/home/vscode/emsdk/.emscripten
+
+CC=/home/vscode/emsdk/upstream/emscripten/emcc
+
+AR=/home/vscode/emsdk/upstream/emscripten/emar
+
+LD=/home/vscode/emsdk/upstream/emscripten/emcc
+
+
+NM=/home/vscode/emsdk/upstream/bin/llvm-nm
+LDSHARED=/home/vscode/emsdk/upstream/emscripten/emcc
+RANLIB=/home/vscode/emsdk/upstream/emscripten/emranlib
+EMSCRIPTEN_TOOLS=/home/vscode/emsdk/upstream/emscripten/tools
+HOST_CC=/home/vscode/emsdk/upstream/bin/clang
+HOST_CXX=/home/vscode/emsdk/upstream/bin/clang++
+HOST_CFLAGS=-W
+HOST_CXXFLAGS=-W
+PKG_CONFIG_LIBDIR=/home/vscode/emsdk/upstream/emscripten/cache/sysroot/local/lib/pkgconfig:/home/vscode/emsdk/upstream/emscripten/cache/sysroot/lib/pkgconfig
+PKG_CONFIG_PATH=
+EMSCRIPTEN=/home/vscode/emsdk/upstream/emscripten
+CROSS_COMPILE=/home/vscode/emsdk/upstream/emscripten/em
+
+
+
+CROSS_COMPILE= emmake sh
+exit
+
+CC=cc emmake env
+
+
+
+CROSS_COMPILE=em make --dry-run true
+CROSS_COMPILE=em    make  true
+
+emmake env | grep em
 
 
 
 
-
-
-
-
-
+CC=/home/vscode/emsdk/upstream/emscripten/emcc
+CXX=/home/vscode/emsdk/upstream/emscripten/em++
+AR=/home/vscode/emsdk/upstream/emscripten/emar
+LD=/home/vscode/emsdk/upstream/emscripten/emcc
+NM=/home/vscode/emsdk/upstream/bin/llvm-nm
+LDSHARED=/home/vscode/emsdk/upstream/emscripten/emcc
+RANLIB=/home/vscode/emsdk/upstream/emscripten/emranlib
+EMSCRIPTEN_TOOLS=/home/vscode/emsdk/upstream/emscripten/tools
+HOST_CC=/home/vscode/emsdk/upstream/bin/clang
+HOST_CXX=/home/vscode/emsdk/upstream/bin/clang++
+PKG_CONFIG_LIBDIR=/home/vscode/emsdk/upstream/emscripten/cache/sysroot/local/lib/pkgconfig:/home/vscode/emsdk/upstream/emscripten/cache/sysroot/lib/pkgconfig
+EMSCRIPTEN=/home/vscode/emsdk/upstream/emscripten
+CROSS_COMPILE=/home/vscode/emsdk/upstream/emscripten/em
 
