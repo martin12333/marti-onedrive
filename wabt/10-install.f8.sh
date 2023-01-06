@@ -84,8 +84,10 @@ Import[15]:
  - func[8] sig=4 <wasix_32v1.thread_signal> <- wasix_32v1.thread_signal
  - func[9] sig=11 <wasix_32v1.futex_wait> <- wasix_32v1.futex_wait
  - func[10] sig=4 <wasix_32v1.futex_wake_all> <- wasix_32v1.futex_wake_all
+
  - func[11] sig=4 <wasix_32v1.stack_checkpoint> <- wasix_32v1.stack_checkpoint
  - func[12] sig=14 <wasix_32v1.stack_restore> <- wasix_32v1.stack_restore
+
  - func[13] sig=0 <wasix_32v1.proc_exit> <- wasix_32v1.proc_exit
  - memory[0] pages: initial=2 max=65536 shared <- env.memory
 
@@ -239,4 +241,6 @@ ix_32v1.callback_signal> <- wasix_32v1.callback_signal
 Function[127]:
 
 
-
+q
+ ../wabt-1.0.32/bin/wasm-objdump  -x a.out.wasm |less
+ ../wabt-1.0.32/bin/wasm-objdump  -x true.wasm |less
