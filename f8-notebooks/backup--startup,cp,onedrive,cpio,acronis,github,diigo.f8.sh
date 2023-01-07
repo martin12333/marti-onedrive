@@ -124,6 +124,7 @@ code ./dotfiles
 	git add -vv --dry-run  'wa*/*akefile*'
 	git add -vv  'wa*/*akefile*'
 	git add -vv  'sb*/*akefile*'
+	git add -vv  'sb*/conf*'
 
 	git add -vv  '*.f8.*'
 

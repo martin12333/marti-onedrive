@@ -72,6 +72,8 @@ related
 C:\Users\marti\OneDrive\toybox.wasm\toybox.f8.sh
 
 
+echo '-------- section 2317 decided to rewrite the makefile --------'
+
 
 #make help
 
@@ -109,25 +111,12 @@ echo '-------- section --------'
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ##emmake --dry-run du
 emmake make --dry-run du
 ##emmake make --dry-run du.js
 make --dry-run du
+
+
 make --help
 emmake --help
 ##make  --print-data-base
