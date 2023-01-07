@@ -148,7 +148,9 @@ echo '-------- section --------'
 
 emmake make  --trace --debug   du
 emmake make  --trace --debug   ls
-emmake make  --trace --debug   echo wc
+emmake make  --trace --debug   echo
+emmake make  --trace --debug   wc
+emmake make  --trace --debug   env
 
 ls -latr
 
