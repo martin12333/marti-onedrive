@@ -152,6 +152,15 @@ emmake make  --trace --debug   echo
 emmake make  --trace --debug   wc
 emmake make  --trace --debug   env
 
+
+
+
+# https://www.gnu.org/software/make/manual/html_node/Suffix-Rules.html
+
+https://www.gnu.org/software/make/manual/html_node/Substitution-Refs.html#:~:text=A%20substitution%20reference%20substitutes%20the,and%20substitute%20the%20resulting%20string.
+
+
+
 ls -latr
 
 node du.js
