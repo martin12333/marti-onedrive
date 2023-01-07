@@ -72,7 +72,7 @@ related
 C:\Users\marti\OneDrive\toybox.wasm\toybox.f8.sh
 
 
-echo '-------- section 2317 decided to rewrite the makefile --------'
+echo '-------- section 2317 decided to tweak the makefile --------'
 
 
 #make help

@@ -207,7 +207,7 @@ $(OBJ): $(HDR) config.mk
 ##$(JS): $(LIB) $(@:=.o)
 ####	$(CC)  $(LDFLAGS) -o $@   $(LIB)  $<
 
-.o:
+% : %.o
 	$(CC) $(LDFLAGS) -o $(@:=.js) $< $(LIB)
 
 #.o:
