@@ -117,3 +117,17 @@ End of search list.
 vscode ➜ ~/emsdk/upstream/emscripten (main) $
 
 echo '-------- section --------'
+
+
+
+find . -name lib | xargs du |sort -n
+find . -type f | xargs du -ak |sort -n
+
+
+ls -la ./packages/build/build/zig/dist/native/lib/libc/wasi/*
+
+du -ak |sort -n
+
+
+
+cd ~/emsdk/
