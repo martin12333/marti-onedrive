@@ -20,7 +20,7 @@ echo '-------- section --------'
 # container
 cd
 git clone https://github.com/martin12333/sbase.wasm
-git clone https://github.com/martin12333/sbase.wasienv
+#git clone https://github.com/martin12333/sbase.wasienv
 
 
 
@@ -67,6 +67,61 @@ wasm-ld: error: /tmp/emscripten_temp_h8m5qeam/du_0.o: undefined symbol: humansiz
 
 
 echo '-------- section --------'
+
+related
+C:\Users\marti\OneDrive\toybox.wasm\toybox.f8.sh
+
+
+
+#make help
+
+
+emmake env
+emmake env | grep em
+
+
+
+echo '-------- section --------'
+
+
+CC=/home/vscode/emsdk/upstream/emscripten/emcc
+CXX=/home/vscode/emsdk/upstream/emscripten/em++
+AR=/home/vscode/emsdk/upstream/emscripten/emar
+LD=/home/vscode/emsdk/upstream/emscripten/emcc
+NM=/home/vscode/emsdk/upstream/bin/llvm-nm
+LDSHARED=/home/vscode/emsdk/upstream/emscripten/emcc
+RANLIB=/home/vscode/emsdk/upstream/emscripten/emranlib
+
+HOST_CC=/home/vscode/emsdk/upstream/bin/clang
+HOST_CXX=/home/vscode/emsdk/upstream/bin/clang++
+
+#PKG_CONFIG_LIBDIR=/home/vscode/emsdk/upstream/emscripten/cache/sysroot/local/lib/pkgconfig:/home/vscode/emsdk/upstream/emscripten/cache/sysroot/lib/pkgconfig
+#EMSCRIPTEN=/home/vscode/emsdk/upstream/emscripten
+
+#####CROSS_COMPILE=/home/vscode/emsdk/upstream/emscripten/em
+CROSS_COMPILE=
+
+
+
+echo '-------- section --------'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ##emmake --dry-run du

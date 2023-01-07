@@ -135,10 +135,10 @@ PATH=/home/vscode/emsdk/upstream/emscripten/cache/sysroot/bin:/home/vscode/emsdk
 EM_CONFIG=/home/vscode/emsdk/.emscripten
 
 
-CROSS_COMPILE= emmake sh
-exit
+#CROSS_COMPILE= emmake sh
+#exit
 
-CC=cc emmake env
+#CC=cc emmake env
 
 
 
