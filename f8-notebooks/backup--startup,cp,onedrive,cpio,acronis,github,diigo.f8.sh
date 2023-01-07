@@ -116,12 +116,14 @@ code ./dotfiles
 	git add -vv --dry-run '*/*ish_history*'
 	git add -vv --dry-run 'wasm*/**/*sh_history*'
 	git add -vv    'wasm*/*/*sh_history*'
+	git add -vv    'sb*/*/*sh_history*'
 	git add -vv    '*/*zsh_history*'
 	git add -vv  '*/*ockerfile*'
 	git add -vv  '*/*docker-create*.sh'
 	git add -vv  'dotfiles/*.sh'
 	git add -vv --dry-run  'wa*/*akefile*'
 	git add -vv  'wa*/*akefile*'
+	git add -vv  'sb*/*akefile*'
 
 	git add -vv  '*.f8.*'
 
