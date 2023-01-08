@@ -33,7 +33,9 @@ echo '-------- section --------'
 
 cd
 tar xvf wabt-1.0.32-ubuntu.tar.gz
-cd wabt
+
+
+cd ~/wabt
 
 
   765  cd wabt
@@ -244,3 +246,123 @@ Function[127]:
 q
  ../wabt-1.0.32/bin/wasm-objdump  -x a.out.wasm |less
  ../wabt-1.0.32/bin/wasm-objdump  -x true.wasm |less
+
+
+###~/wabt-1.0.32/bin/wasm-objdump  -x *.a
+
+
+~/wabt-1.0.32/bin/wasm-objdump  -x yes.o|less
+
+ - func[0] sig=1 <env.puts> <- env.puts
+
+
+
+
+
+
+~/wabt-1.0.32/bin/wasm-objdump  -x wc.o.em |head -n 50
+
+- memory[0] pages: initial=1 <- env.__linear_memory
+ - global[0] i32 mutable=1 <- env.__stack_pointer
+
+
+ - func[0] sig=0 <env.strcmp> <- env.strcmp
+ - func[1] sig=0 <env.fopen> <- env.fopen
+  - func[2] sig=2 <env.weprintf> <- env.weprintf
+ - func[3] sig=0 <env.fshut> <- env.fshut
+ - func[4] sig=2 <env.eprintf> <- env.eprintf
+  - func[5] sig=4 <env.efgetrune> <- env.efgetrune
+ - func[6] sig=5 <env.isspacerune> <- env.isspacerune
+ - func[7] sig=5 <env.putchar> <- env.putchar - func[8] sig=0 <env.printf> <- env.printf
+
+
+~/wabt-1.0.32/bin/wasm-objdump  -x wc.wasm |less
+Import[10]:
+ - func[0] sig=4 <env.exit> <- env.exit
+ - func[1] sig=8 <env.__syscall_openat> <- env.__syscall_openat
+ - func[2] sig=2 <env.__syscall_fcntl64> <- env.__syscall_fcntl64
+ - func[3] sig=2 <env.__syscall_ioctl> <- env.__syscall_ioctl
+ - func[4] sig=8 <wasi_snapshot_preview1.fd_write> <- wasi_snapshot_preview1.fd_write
+ - func[5] sig=8 <wasi_snapshot_preview1.fd_read> <- wasi_snapshot_preview1.fd_read
+ - func[6] sig=0 <wasi_snapshot_preview1.fd_close> <- wasi_snapshot_preview1.fd_close
+ - func[7] sig=10 <env.emscripten_memcpy_big> <- env.emscripten_memcpy_big
+ - func[8] sig=0 <env.emscripten_resize_heap> <- env.emscripten_resize_heap
+ - func[9] sig=9 <wasi_snapshot_preview1.fd_seek> <- wasi_snapshot_preview1.fd_seek
+Function[124]:
+
+
+
+~/wabt-1.0.32/bin/wasm-objdump  -x wc.o |head -n 50
+q
+- memory[0] pages: initial=1 <- env.__linear_memory
+ - global[0] i32 mutable=1 <- env.__stack_pointer
+ - func[0] sig=1 <env.setprogname> <- env.setprogname
+ - global[1] i32 mutable=0 <- env.__memory_base
+
+
+ - func[1] sig=0 <env.setlocale> <- env.setlocale
+ - func[2] sig=2 <env.getopt> <- env.getopt
+ - func[3] sig=3 <env.__ctype_get_mb_cur_max> <- env.__ctype_get_mb_cur_max
+ - func[4] sig=2 <env.fiprintf> <- env.fiprintf
+ - func[5] sig=2 <env.open> <- env.open
+ - func[6] sig=5 <env.warn> <- env.warn
+ - func[7] sig=0 <env.fdopen> <- env.fdopen
+ - func[8] sig=6 <env.close> <- env.close
+ - func[9] sig=2 <env.getline> <- env.getline
+ - func[10] sig=2 <env.mbtowc> <- env.mbtowc
+ - func[11] sig=6 <env.iswspace> <- env.iswspace
+ - func[12] sig=6 <env.ferror> <- env.ferror
+ - func[13] sig=0 <env.realloc> <- env.realloc
+ - func[14] sig=2 <env.read> <- env.read
+ - func[15] sig=7 <env.err> <- env.err
+ - func[16] sig=0 <env.fstat> <- env.fstat
+ - func[17] sig=6 <env.fclose> <- env.fclose
+ - func[18] sig=0 <env.iprintf> <- env.iprintf
+ - func[19] sig=6 <env.putchar> <- env.putchar
+
+ - global[2] i32 mutable=1 <- GOT.mem.optind
+ - global[3] i32 mutable=1 <- GOT.mem.__progname
+ - global[4] i32 mutable=1 <- GOT.mem.stderr
+ - global[5] i32 mutable=1 <- GOT.mem.stdin
+
+
+
+
+
+
+
+
+
+~/wabt-1.0.32/bin/wasm-objdump  -x wc |head -n 70
+Import[31]:
+ - memory[0] pages: initial=1 <- env.memory
+ - global[0] i32 mutable=1 <- env.__stack_pointer
+ - global[1] i32 mutable=0 <- env.__memory_base
+ - global[2] i32 mutable=0 <- env.__table_base
+ - func[0] sig=0 <env.strlcpy> <- env.strlcpy
+ - func[1] sig=1 <env.snprintf> <- env.snprintf
+ - func[2] sig=2 <env.setprogname> <- env.setprogname
+ - func[3] sig=3 <env.setlocale> <- env.setlocale
+ - func[4] sig=0 <env.getopt> <- env.getopt
+ - func[5] sig=4 <env.__ctype_get_mb_cur_max> <- env.__ctype_get_mb_cur_max
+ - func[6] sig=0 <env.fiprintf> <- env.fiprintf
+ - func[7] sig=0 <env.open> <- env.open
+ - func[8] sig=5 <env.warn> <- env.warn
+ - func[9] sig=3 <env.fdopen> <- env.fdopen
+ - func[10] sig=6 <env.close> <- env.close
+ - func[11] sig=0 <env.getline> <- env.getline
+ - func[12] sig=0 <env.mbtowc> <- env.mbtowc
+ - func[13] sig=6 <env.iswspace> <- env.iswspace
+ - func[14] sig=6 <env.ferror> <- env.ferror
+ - func[15] sig=3 <env.realloc> <- env.realloc
+ - func[16] sig=0 <env.read> <- env.read
+ - func[17] sig=7 <env.err> <- env.err
+ - func[18] sig=3 <env.fstat> <- env.fstat
+ - func[19] sig=6 <env.fclose> <- env.fclose
+ - func[20] sig=3 <env.iprintf> <- env.iprintf
+ - func[21] sig=6 <env.putchar> <- env.putchar
+ - global[3] i32 mutable=1 <- GOT.mem.errno
+ - global[4] i32 mutable=1 <- GOT.mem.optind
+ - global[5] i32 mutable=1 <- GOT.mem.__progname
+ - global[6] i32 mutable=1 <- GOT.mem.stderr
+ - global[7] i32 mutable=1 <- GOT.mem.stdin
