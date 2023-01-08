@@ -7,40 +7,18 @@ exit
 
 echo '-------- section --------'
 
-exit
-cd -
-
-
-C:\pf\Git\bin\bash.exe
-
-cd sbase.wasm
-cd  /p/home/user/.local/share/containers/storage/volumes/nslash_home/_data/vscode/sbase.wasm
-
-### mode change 100755 => 100644 getconf.sh
-
-echo '-------- section --------'
-
-cd 'C:\Users\marti\sbase.wasm\'
-cd 'C:\Users\marti\'
-cd 'C:\Users\marti\OneDrive\nslash_home'
-
-git pull
-
-###  mode change 100755 => 100644 getconf.sh
-
-git remote add mygithub https://github.com/martin12333/sbase.wasm
-git push -v -u mygithub master
+# i use  a container
+podman machine start
+podman start   -ai    cmy22b
 
 
 echo '-------- section --------'
+
+cd ~/sbase.wasm
+
+
 
 	git add -vv  'README*'
-
-echo '-------- section --------'
-
-
-
-
 
 git add -v --dry-run .
 git add -v .
@@ -50,6 +28,10 @@ git add -v .
 	git add -vv  '*.f8.*'
 
 #git commit -v -a -m from-onedrive
+
+
+
+git commit -v -a -m   "undo mode change 100755 => 100644 getconf.sh"
 
 git commit -v -a -m  before-manip-dirs
 	git commit -v -a -m bk
@@ -76,13 +58,44 @@ git commit -v -a -m  before-manip-dirs
 	git commit -v -a -m zshrc
 
 
-	git push
-#git push -u origin main
+
 
 	git show --name-only
 
 git ls-files
 
+
+
+echo '-------- section --------'
+
+
+
+exit
+
+cd -
+
+
+
 C:\pf\Git\bin\bash.exe
+
+#####cd  /p/home/user/.local/share/containers/storage/volumes/nslash_home/_data/vscode/sbase.wasm
+###  mode change 100755 => 100644 getconf.sh
+### undo mode change 100755 => 100644 getconf.sh
+
+
+cd 'C:\Users\marti\sbase.wasm\'
+#cd 'C:\Users\marti\'
+#cd 'C:\Users\marti\OneDrive\nslash_home'
+git remote add mygithub https://github.com/martin12333/sbase.wasm
+
+To see all local and remote branches, run this command:
+git branch -a
+
+git pull origin master
+###  mode change 100755 => 100644 getconf.sh
+# mode change 100644 => 100755 getconf.sh
+
+git push -v -u mygithub master
+
 
 echo '-------- section --------'
