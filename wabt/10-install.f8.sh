@@ -316,6 +316,42 @@ q
 
 
 
+~/wabt-1.0.32/bin/wasm-objdump  -x true.o |head -n 50
+
+Import[3]:
+ - memory[0] pages: initial=0 <- env.__linear_memory
+ - global[0] i32 mutable=1 <- env.__stack_pointer
+ - table[0] type=funcref initial=0 <- env.__indirect_function_table
+
+~/wabt-1.0.32/bin/wasm-objdump  -x echo.o |head -n 50
+Import[6]:
+ - memory[0] pages: initial=1 <- env.__linear_memory
+ - global[0] i32 mutable=1 <- env.__stack_pointer
+ - func[0] sig=0 <env.strcmp> <- env.strcmp
+ - func[1] sig=1 <env.putword> <- env.putword
+ - func[2] sig=2 <env.putchar> <- env.putchar
+ - func[3] sig=0 <env.fshut> <- env.fshut
+
+libutil putword
+
+
+~/wabt-1.0.32/bin/wasm-objdump  -x true.wasm |head -n 50
+~/wabt-1.0.32/bin/wasm-objdump  -x echo.wasm |head -n 50
+
+Import[4]:
+ - func[0] sig=9 <env.emscripten_memcpy_big> <- env.emscripten_memcpy_big
+ - func[1] sig=0 <wasi_snapshot_preview1.fd_close> <- wasi_snapshot_preview1.fd_close
+ - func[2] sig=10 <wasi_snapshot_preview1.fd_write> <- wasi_snapshot_preview1.fd_write
+ - func[3] sig=8 <wasi_snapshot_preview1.fd_seek> <- wasi_snapshot_preview1.fd_seek
+
+
+
+
+
+
+
+
+
 
 
 
@@ -351,6 +387,75 @@ Import[10]:
  - func[8] sig=0 <env.emscripten_resize_heap> <- env.emscripten_resize_heap
  - func[9] sig=9 <wasi_snapshot_preview1.fd_seek> <- wasi_snapshot_preview1.fd_seek
 Function[124]:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -498,6 +603,17 @@ wasm-objdump -x  _curs*.so |less
  - func[44] sig=3 <env.fseek> <- env.fseek
 
 q
+
+
+
+
+
+
+
+pipcet
+
+
+
 wasm-objdump -x  libncur*.w* |less
 wasm-objdump -x  libuti*.w* |less
 
@@ -564,4 +680,3 @@ Function[3523]:
  - func[4] sig=0 <execute_env_file>
 
 
- 

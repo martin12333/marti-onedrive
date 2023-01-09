@@ -151,6 +151,7 @@ emmake make  --trace --debug   ls
 emmake make  --trace --debug   echo
 emmake make  --trace --debug   wc
 emmake make  --trace --debug   env
+emmake make  --trace --debug   true
 
 
 
