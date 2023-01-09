@@ -8107,3 +8107,9 @@ done}| grep -i '[/]etc[/]'
 : 1671945318:0;mount|grep shm
 : 1671947026:0;df -m
 : 1672834400:0;which -a cmake
+: 1673242224:0;apt download coreutils-
+: 1673242234:0;apt download policycoreutils-939  apt search coreutils
+: 1673242239:0;apt search coreutils
+: 1673242632:0;dwarfdump /bin/wc
+: 1673242674:0;{{echo $PATH|  tr ':' '\n'| xargs ls -1}   ; ls -1 ~/wabt-1.0.32/bin}   | grep -i dump
+: 1673242778:0;llvm-dwarfdump /bin/wc

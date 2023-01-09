@@ -26,7 +26,12 @@ podman start   -ai    cmy22b
 echo '-------- section --------'
 
 cd
-{{echo $PATH|  tr ':' '\n'| xargs ls -1}   ; ls -1 ~/wabt-1.0.32/bin}   | grep -i dump
+{{echo $PATH|  tr ':' '\n'| xargs ls -1}   ; ls -1  $HOME/wabt-1.0.32/bin}   | grep -i dump
+
+  ls -1 ~/wabt-1.0.32/bin
+
+export PATH="$HOME/wabt-1.0.32/bin:$PATH"
+echo $PATH
 
 objdump
 wasm-objdump
@@ -67,8 +72,17 @@ echo '-------- section --------'
 cd
 tar xvf wabt-1.0.32-ubuntu.tar.gz
 
+echo '-------- section --------'
+
+
+
+
+
 
 cd ~/wabt
+
+
+
 
 
   765  cd wabt
@@ -154,6 +168,11 @@ example-pipe.wasm:Zone.Identifier
 example-spawn.wasm
 example-spawn.wasm:Zone.Identifier
 example-vfork.wasm
+
+
+
+
+
 
 
  ../wabt-1.0.32/bin/wasm-objdump  --help
@@ -293,6 +312,16 @@ q
 
 
 
+
+
+
+
+
+
+
+
+
+
 ~/wabt-1.0.32/bin/wasm-objdump  -x wc.o.em |head -n 50
 
 - memory[0] pages: initial=1 <- env.__linear_memory
@@ -399,3 +428,48 @@ Import[31]:
  - global[5] i32 mutable=1 <- GOT.mem.__progname
  - global[6] i32 mutable=1 <- GOT.mem.stderr
  - global[7] i32 mutable=1 <- GOT.mem.stdin
+
+
+
+
+
+
+objdump  -i /bin/wc
+objdump  -x /bin/wc   |head -n 30
+objdump  -x /bin/wc   |less
+objdump  -i  wc
+objdump  -x wc
+
+##llvm-dwarfdump /bin/wc
+
+#apt download coreutils-
+
+  937  objdump  -x /bin/wc   |less
+   apt download coreutils-
+    apt search coreutils
+  940  apt search utils
+  941  apt search utils|grep bsd
+  942  apt search utils|grep -i bsd
+  943  apt search busybox
+
+
+###wasm-objdump -T wc  |grep UND
+
+objdump -T /bin/wc  |grep UND |grep read
+objdump -T /bin/wc  |grep UND |grep write
+objdump -T /bin/wc  |grep UND |grep open
+objdump -T /bin/wc  |grep UND |grep prin
+objdump -T /bin/wc  |grep UND |grep get
+objdump -T /bin/wc  |grep UND |grep put
+
+wasm-objdump -x wc |grep read
+wasm-objdump -x wc |grep write
+wasm-objdump -x wc |grep prin
+wasm-objdump -x wc |grep open
+wasm-objdump -x wc |grep get
+wasm-objdump -x wc |grep put
+objdump --help
+
+which  -a wasm-objdump
+
+
