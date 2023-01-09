@@ -487,3 +487,81 @@ objdump --help
 which  -a wasm-objdump
 
 
+wasm-objdump -x  readli*.so |less
+wasm-objdump -x  termios*.so |less
+
+ - func[29] sig=3 <env.ioctl> <- env.ioctl
+
+wasm-objdump -x  mmap*.so |less
+wasm-objdump -x  _curs*.so |less
+
+ - func[44] sig=3 <env.fseek> <- env.fseek
+
+q
+wasm-objdump -x  libncur*.w* |less
+wasm-objdump -x  libuti*.w* |less
+
+
+
+ - func[7] sig=0 <forkpty>
+ - func[8] sig=0 <dup2@@GLIBC_2.0@plt>
+
+
+wasm-objdump -x  libm*.w* |less
+
+
+ - func[20] sig=0 <__acos>
+ - func[21] sig=0 <__acosh>
+ - func[22] sig=0 <__asin>
+ - func[23] sig=0 <__atan2>
+ - func[24] sig=0 <__atanh>
+ - func[25] sig=0 <__cosh>
+ - func[26] sig=0 <__exp2_compat>
+ - func[27] sig=0 <__exp10>
+ - func[28] sig=0 <__fmod>
+ - func[29] sig=0 <__hypot>
+
+
+wasm-objdump -x  libcry*.w* |less
+
+ - func[2] sig=0 <__md5_crypt_r>
+ - func[3] sig=0 <__md5_crypt>
+ - func[4] sig=0 <__sha256_crypt_r>
+ - func[5] sig=0 <__sha256_crypt>
+ - func[6] sig=0 <__sha512_crypt_r>
+ - func[7] sig=0 <__sha512_crypt>
+
+wasm-objdump -x  libc.w* |less
+
+
+ - func[0] sig=0 <sys.call> <- sys.call
+ - func[1] sig=1 <sys.debug> <- sys.debug
+
+ - func[20] sig=0 <iconv_open>
+ - func[21] sig=0 <iconv>
+ - func[22] sig=0 <iconv_close>
+
+q
+wasm-objdump -x  pipcet*.w* | grep exec
+
+pipcet-bash.wasm:       file format wasm 0x1
+
+Section Details:
+
+Type[1]:
+ - type[0] (i32, i32, i32, i32, i32, i32) -> i32
+Import[5]:
+ - global[0] i32 mutable=0 <- sys.got
+ - global[1] i32 mutable=0 <- sys.plt
+ - global[2] i32 mutable=0 <- sys.gpo
+ - table[0] type=funcref initial=262144 max=262144 <- sys.table
+ - memory[0] pages: initial=1 max=65535 <- sys.memory
+Function[3523]:
+ - func[0] sig=0 <init_noninteractive>
+ - func[1] sig=0 <show_shell_usage>
+ - func[2] sig=0 <bind_args>
+ - func[3] sig=0 <start_debugger>
+ - func[4] sig=0 <execute_env_file>
+
+
+ 
