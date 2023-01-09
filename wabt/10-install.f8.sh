@@ -462,6 +462,20 @@ objdump -T /bin/wc  |grep UND |grep prin
 objdump -T /bin/wc  |grep UND |grep get
 objdump -T /bin/wc  |grep UND |grep put
 
+
+objdump -x /bin/wc  |grep get
+nm /bin/wc
+nm: /bin/wc: no symbols
+nm --help
+nm -D /bin/wc | grep get
+
+objdump -x wc.exe |grep get
+nm wc.exe | grep get
+nm -D wc.exe | grep get
+nm -D bash.exe | grep get
+nm git.exe | grep get
+
+
 wasm-objdump -x wc |grep read
 wasm-objdump -x wc |grep write
 wasm-objdump -x wc |grep prin
