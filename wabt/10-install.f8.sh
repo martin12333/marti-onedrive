@@ -25,6 +25,39 @@ podman start   -ai    cmy22b
 
 echo '-------- section --------'
 
+cd
+{{echo $PATH|  tr ':' '\n'| xargs ls -1}   ; ls -1 ~/wabt-1.0.32/bin}   | grep -i dump
+
+objdump
+wasm-objdump
+
+source "/home/vscode/emsdk/emsdk_env.sh"
+
+emdump
+emdump.bat
+dumpe2fs
+
+find $EMSDK -iname "*dump*"
+
+/home/vscode/emsdk/upstream/bin/llvm-objdump
+/home/vscode/emsdk/upstream/bin/llvm-dwarfdump
+
+export WASI_VERSION=17
+export WASI_VERSION_FULL=${WASI_VERSION}.0
+export WASI_SDK_PATH=~/wasi-sdk-${WASI_VERSION_FULL}
+
+find $WASI_SDK_PATH -iname "*env*"
+find $WASI_SDK_PATH -iname "*path*"
+find $WASI_SDK_PATH -iname "*.sh"
+source wasi-sdk sh   env path
+
+find $WASI_SDK_PATH -iname "*dump*"
+
+/home/vscode/wasi-sdk-17.0/bin/objdump
+/home/vscode/wasi-sdk-17.0/bin/llvm-objdump
+/home/vscode/wasi-sdk-17.0/bin/llvm-dwarfdump
+
+find *cowasm* -iname "*dump*"
 
 
 

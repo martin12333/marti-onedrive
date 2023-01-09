@@ -99,3 +99,5 @@ git push -v -u mygithub master
 
 
 echo '-------- section --------'
+
+stat    /p/home/user/.local/share/containers/storage/volumes/nslash_home/_data/vscode/sbase.wasm/getconf.sh

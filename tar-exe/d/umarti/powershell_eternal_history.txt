@@ -4437,3 +4437,4 @@ C:\pf\Git\bin\bash.exe
 cd -
 cd sbase.wasm
 C:\pf\Git\bin\bash.exe
+podman start   -ai    cmy22b
