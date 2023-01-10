@@ -4450,3 +4450,5 @@ exit
 podman exec -it cmy22b /usr/bin/zsh
 
 exit
+podman exec -it cmy22b /usr/bin/zsh
+exit

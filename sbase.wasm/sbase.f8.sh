@@ -30,7 +30,8 @@ source "/home/vscode/emsdk/emsdk_env.sh"   ;  export TARGET_SUFFIX=.js
 
 
 
-make  --trace   --debug  clean
+make    clean
+#make  --trace   --debug  clean
 exit
 podman start   -ai    cmy22b
 
@@ -52,6 +53,7 @@ ls -latr
 
 emmake zsh
 #zsh
+
 
 env
 env |grep -i targ

@@ -104,6 +104,9 @@ git pull origin master
 # mode change 100644 => 100755 getconf.sh
 
 
+
+
+
 git push -v -u mygithub master
 
 
