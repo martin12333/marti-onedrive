@@ -55,11 +55,6 @@ wget https://github.com/WebAssembly/wasi-sdk/releases/download/wasi-sdk-$WASI_VE
 
 
 
-
-
-wget https://github.com/WebAssembly/wabt/releases/download/
-
-
 tar xvf wasi-sdk-${WASI_VERSION_FULL}-linux.tar.gz
 du -m wasi*
 
@@ -74,10 +69,7 @@ echo '-------- section --------'
 
 #bash
 
-export WASI_VERSION=17
-export WASI_VERSION_FULL=${WASI_VERSION}.0
-export WASI_SDK_PATH=~/wasi-sdk-${WASI_VERSION_FULL}
-CC="${WASI_SDK_PATH}/bin/clang --sysroot=${WASI_SDK_PATH}/share/wasi-sysroot"
+export WASI_VERSION=17    ;     export WASI_VERSION_FULL=${WASI_VERSION}.0   ;   export WASI_SDK_PATH=$HOME/wasi-sdk-${WASI_VERSION_FULL}  ;  CC="${WASI_SDK_PATH}/bin/clang --sysroot=${WASI_SDK_PATH}/share/wasi-sysroot"
 
 ls -la $WASI_SDK_PATH/bin
 

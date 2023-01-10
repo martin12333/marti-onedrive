@@ -68,6 +68,7 @@ find *cowasm* -iname "*dump*"
 
 echo '-------- section --------'
 
+wget https://github.com/WebAssembly/wabt/releases/download/
 
 cd
 tar xvf wabt-1.0.32-ubuntu.tar.gz
