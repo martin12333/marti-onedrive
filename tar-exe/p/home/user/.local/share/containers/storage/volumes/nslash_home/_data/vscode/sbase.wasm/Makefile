@@ -312,6 +312,7 @@ sbase-box-uninstall: uninstall
 clean:
 	rm   --verbose  --   $(JS)  $(WASM)           $(BIN) $(OBJ) $(LIB) sbase-box sbase-$(VERSION).tar.gz
 #	rm -f $(BIN) $(OBJ) $(LIB) sbase-box sbase-$(VERSION).tar.gz
+	echo after rm without f
 	rm -f getconf.h
 
 
