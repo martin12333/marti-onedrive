@@ -67,9 +67,12 @@ echo '-------- section --------'
 
 
 
-#bash
+###bash
 
-export WASI_VERSION=17    ;     export WASI_VERSION_FULL=${WASI_VERSION}.0   ;   export WASI_SDK_PATH=$HOME/wasi-sdk-${WASI_VERSION_FULL}  ;  CC="${WASI_SDK_PATH}/bin/clang --sysroot=${WASI_SDK_PATH}/share/wasi-sysroot"
+#my
+export WASI_VERSION=17    ;     export WASI_VERSION_FULL=${WASI_VERSION}.0   ;   export WASI_SDK_PATH=$HOME/wasi-sdk-${WASI_VERSION_FULL}  ;  export CC="${WASI_SDK_PATH}/bin/clang --sysroot=${WASI_SDK_PATH}/share/wasi-sysroot"   ;    export PATH="$WASI_SDK_PATH/bin:$PATH"
+echo $PATH
+
 
 ls -la $WASI_SDK_PATH/bin
 

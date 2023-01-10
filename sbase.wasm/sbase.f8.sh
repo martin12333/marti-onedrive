@@ -36,6 +36,10 @@ source "/home/vscode/emsdk/emsdk_env.sh"
 cd ~/sbase.wasm
 ls -latr
 
+
+
+
+echo '-------- section --------'
 #
 emcc -v false.c -o false.js
 node false.js
@@ -64,6 +68,10 @@ wasm-ld: error: /tmp/emscripten_temp_h8m5qeam/du_0.o: undefined symbol: argv0
 wasm-ld: error: /tmp/emscripten_temp_h8m5qeam/du_0.o: undefined symbol: eprintf
 wasm-ld: error: /tmp/emscripten_temp_h8m5qeam/du_0.o: undefined symbol: recurse
 wasm-ld: error: /tmp/emscripten_temp_h8m5qeam/du_0.o: undefined symbol: humansize
+
+
+
+
 
 
 echo '-------- section --------'

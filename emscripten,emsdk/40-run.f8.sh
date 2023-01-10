@@ -19,6 +19,8 @@ podman start   -ai    cmy22b
 
 echo '-------- section --------'
 
+exit
+
 echo '-------- section --------'
 
 
