@@ -9,6 +9,7 @@ echo '-------- section --------'
 
 # i use  a container
 podman machine start
+
 podman start   -ai    cmy22b
 
 
@@ -26,6 +27,7 @@ git add -v .
 	git add -vv --dry-run '*.sh'
 	git add -vv  '*.sh'
 	git add -vv  '*.f8.*'
+	git add -vv  '*.mk'
 
 #git commit -v -a -m from-onedrive
 
@@ -61,6 +63,7 @@ git commit -v -a -m  before-manip-dirs
 
 
 	git show --name-only
+q
 
 git ls-files
 
