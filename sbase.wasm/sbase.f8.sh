@@ -28,6 +28,13 @@ echo '-------- section --------'
 #source ./emsdk_env.sh
 source "/home/vscode/emsdk/emsdk_env.sh"   ;  export TARGET_SUFFIX=.js
 
+
+make  --trace   --debug  clean
+
+
+
+
+
 cd ~/sbase.wasm
 ls -latr
 
@@ -39,6 +46,9 @@ env
 env |grep -i targ
 make mytest
 make mytest2
+
+
+
 
 make     du
 make  --trace --debug   du
