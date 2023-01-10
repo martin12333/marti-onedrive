@@ -94,9 +94,12 @@ git remote add mygithub https://github.com/martin12333/sbase.wasm
 To see all local and remote branches, run this command:
 git branch -a
 
+
+
 git pull origin master
 ###  mode change 100755 => 100644 getconf.sh
 # mode change 100644 => 100755 getconf.sh
+
 
 git push -v -u mygithub master
 
