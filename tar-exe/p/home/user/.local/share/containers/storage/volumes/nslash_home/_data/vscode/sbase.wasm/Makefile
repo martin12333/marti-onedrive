@@ -190,11 +190,10 @@ MAN = $(BIN:=.1)
 
 
 JS = $(BIN:=.js)
-
+WASM = $(BIN:=.wasm)
 
 
 all: $(BIN)
-
 ##all: $(JS)
 
 $(BIN): $(LIB) $(@:=.o)
@@ -203,21 +202,20 @@ $(BIN): $(LIB) $(@:=.o)
 $(OBJ): $(HDR) config.mk
 
 
-# i am not sure  how to do it correctly
-##$(JS): $(LIB) $(@:=.o)
-####	$(CC)  $(LDFLAGS) -o $@   $(LIB)  $<
 
+#.o:
+#	$(CC) $(LDFLAGS) -o $@ $< $(LIB)
+
+#% : %.o
+#	$(CC) $(LDFLAGS) -o $(@:=.js) $< $(LIB)
 
 % : %.o
-	$(CC) $(LDFLAGS) -o $(@:=.js) $< $(LIB)
+	$(CC) $(LDFLAGS) -o $(@:=$(TARGET_SUFFIX)) $< $(LIB)
 
 # experim5
 #% : %.o
 #	$(CC) $(LDFLAGS) -o $(@:=.html) $< $(LIB)
 
-
-#.o:
-#	$(CC) $(LDFLAGS) -o $@ $< $(LIB)
 
 
 .c.o:

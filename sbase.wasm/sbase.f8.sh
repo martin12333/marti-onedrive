@@ -26,7 +26,7 @@ echo '-------- section --------'
 
 # Activate PATH and other environment variables in the current terminal
 #source ./emsdk_env.sh
-source "/home/vscode/emsdk/emsdk_env.sh"
+source "/home/vscode/emsdk/emsdk_env.sh"   ;  export TARGET_SUFFIX=.js
 
 cd ~/sbase.wasm
 ls -latr
@@ -36,7 +36,9 @@ ls -latr
 emmake zsh
 #zsh
 env
+env |grep -i targ
 make mytest
+make mytest2
 
 make  --trace --debug   du
  make  --trace --debug   ls
