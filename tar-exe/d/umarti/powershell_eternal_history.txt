@@ -4442,3 +4442,4 @@ conda activate base
 podman start   -ai    cmy22b
 echo $PATH
 podman start   -ai    cmy22b
+podman exec -it cmy22b /usr/bin/zsh

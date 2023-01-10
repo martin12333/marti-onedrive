@@ -203,6 +203,11 @@ $(OBJ): $(HDR) config.mk
 
 
 
+mytest2:
+	echo $(TARGET_SUFFIX)
+
+
+
 #.o:
 #	$(CC) $(LDFLAGS) -o $@ $< $(LIB)
 
@@ -234,6 +239,8 @@ getconf.o: getconf.h
 getconf.h: getconf.sh
 	./getconf.sh > $@
 
+
+# TODO ~~wasm
 install: all
 	mkdir -p $(DESTDIR)$(PREFIX)/bin
 	cp -f $(BIN) $(DESTDIR)$(PREFIX)/bin
@@ -244,6 +251,8 @@ install: all
 	cd $(DESTDIR)$(MANPREFIX)/man1 && chmod 644 $(MAN)
 	mv -f $(DESTDIR)$(MANPREFIX)/man1/xinstall.1 $(DESTDIR)$(MANPREFIX)/man1/install.1
 
+
+# TODO ~~wasm
 uninstall:
 	cd $(DESTDIR)$(PREFIX)/bin && rm -f $(BIN) [ install
 	cd $(DESTDIR)$(MANPREFIX)/man1 && rm -f $(MAN) install.1
@@ -277,6 +286,8 @@ sbase-box: $(LIB) $(SRC) getconf.h
 	$(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) -o $@ build/*.c $(LIB)
 	rm -r build
 
+
+# TODO ~~wasm
 sbase-box-install: sbase-box
 	mkdir -p $(DESTDIR)$(PREFIX)/bin
 	cp -f sbase-box $(DESTDIR)$(PREFIX)/bin
@@ -292,10 +303,14 @@ sbase-box-install: sbase-box
 sbase-box-uninstall: uninstall
 	cd $(DESTDIR)$(PREFIX)/bin && rm -f sbase-box
 
+
+# TODO ~~wasm
 clean:
 	rm -f $(BIN) $(OBJ) $(LIB) sbase-box sbase-$(VERSION).tar.gz
 	rm -f getconf.h
 
+
+# TODO ~~wasm
 .gitignore:
 	{ printf '*.o\n' ; printf '/%s\n' getconf.h $(LIB) $(BIN) ; } > $@
 

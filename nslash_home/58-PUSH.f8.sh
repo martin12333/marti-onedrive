@@ -10,8 +10,9 @@ echo '-------- section --------'
 # i use  a container
 podman machine start
 
-podman start   -ai    cmy22b
-
+#podman start   -ai    cmy22b
+pwsh
+podman exec -it cmy22b /usr/bin/zsh
 
 echo '-------- section --------'
 
@@ -74,9 +75,10 @@ echo '-------- section --------'
 
 
 exit
+exit
+
 
 cd -
-
 
 
 C:\pf\Git\bin\bash.exe
@@ -87,11 +89,12 @@ C:\pf\Git\bin\bash.exe
 
 
 cd 'C:\Users\marti\sbase.wasm\'
+
+
 #cd 'C:\Users\marti\'
 #cd 'C:\Users\marti\OneDrive\nslash_home'
 git remote add mygithub https://github.com/martin12333/sbase.wasm
-
-To see all local and remote branches, run this command:
+#To see all local and remote branches, run this command:
 git branch -a
 
 

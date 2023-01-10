@@ -40,6 +40,7 @@ env |grep -i targ
 make mytest
 make mytest2
 
+make     du
 make  --trace --debug   du
  make  --trace --debug   ls
  make  --trace --debug   echo
