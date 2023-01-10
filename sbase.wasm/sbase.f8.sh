@@ -65,18 +65,39 @@ make mytest2
 
 make     du
 make  --trace --debug   du
- make  --trace --debug   ls
- make  --trace --debug   echo
- make  --trace --debug   wc
- make  --trace --debug   env
- make  --trace --debug   true
+ make   ls
+ make     echo
+ make    wc
+ make     env
+ make    true
 
 
+
+vscode ➜ ~/sbase.wasm (master ✗) $ make   ls
+/home/vscode/wasi-sdk-17.0/bin/clang --sysroot=/home/vscode/wasi-sdk-17.0/share/wasi-sysroot -std=c99 -Wall -pedantic -D_DEFAULT_SOURCE -D_BSD_SOURCE -D_XOPEN_SOURCE=700 -D_FILE_OFFSET_BITS=64 -o ls.o -c ls.c
+ls.c:5:10: fatal error: 'sys/sysmacros.h' file not found
+#include <sys/sysmacros.h>
+         ^~~~~~~~~~~~~~~~~
+1 error generated.
+make: *** [Makefile:236: ls.o] Error 1
+
+vscode ➜ ~/sbase.wasm (master ✗) $ make     env
+/home/vscode/wasi-sdk-17.0/bin/clang --sysroot=/home/vscode/wasi-sdk-17.0/share/wasi-sysroot -std=c99 -Wall -pedantic -D_DEFAULT_SOURCE -D_BSD_SOURCE -D_XOPEN_SOURCE=700 -D_FILE_OFFSET_BITS=64 -o env.o -c env.c
+env.c:39:3: warning: call to undeclared function 'execvp'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+                execvp(*argv, argv);
+                ^
+1 warning generated.
+/home/vscode/wasi-sdk-17.0/bin/clang --sysroot=/home/vscode/wasi-sdk-17.0/share/wasi-sysroot -s -o env.wasm env.o libutf.a libutil.a
+wasm-ld: error: env.o: undefined symbol: execvp
+clang-15: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Makefile:227: env] Error 1
+vscode ➜ ~/sbase.wasm (master ✗) $
 
 
 # https://www.gnu.org/software/make/manual/html_node/Suffix-Rules.html
 
-https://www.gnu.org/software/make/manual/html_node/Substitution-Refs.html#:~:text=A%20substitution%20reference%20substitutes%20the,and%20substitute%20the%20resulting%20string.
+https://www.gnu.org/software/make/manual/html_node/Substitution-Refs.html
+#:~:text=A%20substitution%20reference%20substitutes%20the,and%20substitute%20the%20resulting%20string.
 
 
 
@@ -89,6 +110,43 @@ node echo.js sjfksjdf
 #node wc.js wc.js
 cat wc.js| node wc.js
 wc wc.js
+
+
+
+
+wasmer  du.wasm ..
+wasmer  du.wasm /
+
+vscode ➜ ~/sbase.wasm (master ✗) $ wasmer  du.wasm
+0       .
+vscode ➜ ~/sbase.wasm (master ✗) $ wasmer  du.wasm .
+0       .
+vscode ➜ ~/sbase.wasm (master ✗) $ wasmer  du.wasm ..
+0       ..
+vscode ➜ ~/sbase.wasm (master ✗) $ wasmer  du.wasm /
+0       /
+vscode ➜ ~/sbase.wasm (master ✗) $
+
+
+
+wasmer  --dir=. du.wasm  .
+
+wasmer  --dir=. -- du.wasm -ak OLD
+
+vscode ➜ ~/sbase.wasm (master ✗) $ wasmer  --dir=. -- du.wasm -ak OLD
+0       OLD/a.out.js
+0       OLD/a.out.wasm
+0       OLD/du.js
+0       OLD/du.o
+0       OLD/du.wasm
+0       OLD/echo.js
+0       OLD/echo.o
+
+
+wasmer  echo.wasm gfhgfhhgf
+wasmer  --dir=.    wc.wasm
+
+
 
 echo '-------- section --------'
     .

@@ -189,6 +189,8 @@ MAN = $(BIN:=.1)
 
 
 
+#https://www.gnu.org/software/make/manual/html_node/Substitution-Refs.html
+
 JS = $(BIN:=.js)
 WASM = $(BIN:=.wasm)
 
@@ -212,11 +214,14 @@ mytest2:
 	echo $(WASM)
 
 
+# https://www.gnu.org/software/make/manual/html_node/Suffix-Rules.html
+
 #.o:
 #	$(CC) $(LDFLAGS) -o $@ $< $(LIB)
 
 #% : %.o
 #	$(CC) $(LDFLAGS) -o $(@:=.js) $< $(LIB)
+
 
 % : %.o
 	$(CC) $(LDFLAGS) -o $(@:=$(TARGET_SUFFIX)) $< $(LIB)
