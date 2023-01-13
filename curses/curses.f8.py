@@ -19,11 +19,25 @@ print (u"\u001b[0m")
 #### not seek f=open('/dev/tty','r+')
 
 
-from glob import escape
 import os
 import sys, time
 
-d=os.open('/dev/tty', os.O_RDWR)
+os.close(d)
+d=os.open('/dev/tty', os.O_RDWR )
+##d=os.open('/dev/tty', os.O_RDWR | os.O_ASYNC)
+##d=os.open('/dev/tty', os.O_RDWR | os.O_NOCTTY)
+
+
+
+####d=os.open('/dev/tty', os.O_RDWR | os.O_NDELAY| os.O_NOCTTY)
+####d=os.open('/dev/tty', os.O_RDWR | os.O_NONBLOCK| os.O_NOCTTY)
+>>> os.write(d,b"\033[5n"); time.sleep(0.1) ; x=os.read(d,40); print(x)
+4
+^[[0nTraceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+BlockingIOError: [Errno 11] Resource temporarily unavailable
+>>> n
+
 
 os.write(d,b'hfghgfhfsfdsfds')
 os.write(d,b"\x1b[31mHelloWorld")
@@ -32,7 +46,17 @@ os.write(d,b"\033[0m")
 ###os.write(d,b"\e[0m")
 
 #printf '\e[5n'
+os.write(d,b"\033[5n"); time.sleep(0.1) ; x=os.read(d,40); print(x)
 os.write(d,b"\033[5n"); time.sleep(0.1) ; x=os.read(d,4); print(x)
+
+####os.read(d,4, /)
+########os.read(d,4,os.RWF_NOWAIT)
+#########os.pread(d,4,-1)
+
+
+
+os.get_blocking(d, )
+
 
 
 ghghgfhg
@@ -64,12 +88,23 @@ curses_write("\33[0m")
     # Ask the term where the cursor is
     curses_write("\033[6n") ; x=os.read(d,4); print(x)
 
-escape.RS
 
 
-    os.write(d,bytes(text,'utf-8'))
+#    os.write(d,bytes(text,'utf-8'))
 
-text='ssfdsfs'
+#text='ssfdsfs'
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -280,3 +315,6 @@ cd /mnt/d/umarti/dowNLOADS--SYMLINKED
 zipgrep
 
 echo '-------- section: --------'
+
+https://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html
+

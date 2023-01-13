@@ -179,3 +179,51 @@ echo $x
 
 Author of term.js/tty.js[1] here. Nice work. You guys should keep an eye on term.js. The version you're using is slightly old and actually contains a bug (now fixed) wherein all events will become unbound if the reset control sequence is received. I'm also adding fixes for a few other things currently, such as double-width character support, which has been a problem in the past.
 
+
+
+make 2>&1 | sed -e 's/.*\bWARN.*/\x1b[7m&\x1b[0m/i' -e 's/.*\bERR.*/\x1b[93;41m&\x1b[0m/i'
+
+
+
+
+
+
+
+
+Pressing special keys on the keyboard, as well as outputting many xterm CSI, DCS, or OSC sequences, often produces a CSI, DCS, or OSC sequence, sent from the terminal to the computer as though the user typed it.
+
+When typing input on a terminal keypresses outside the normal main alphanumeric keyboard area can be sent to the host as ANSI sequences. For keys that have an equivalent output function, such as the cursor keys, these often mirror the output sequences. However, for most keypresses there isn't an equivalent output sequence to use.
+
+There are several encoding schemes, and unfortunately most terminals mix sequences from different schemes, so host software has to be able to deal with input sequences using any scheme. To complicate the matter, the VT terminals themselves have two schemes of input, normal mode and application mode that can be switched by the application.
+
+
+
+
+
+xterm replies CSI row ; column R if asked for cursor position and CSI 1 ; modifiers R if the F3 key is pressed with modifiers, which collide in the case of row == 1. This can be avoided by using the ? private modifier as CSI ? 6 n, which will be reflected in the response as CSI ? row ; column R.
+
+
+Black: \u001b[30m
+Red: \u001b[31m
+Green: \u001b[32m
+Yellow: \u001b[33m
+Blue: \u001b[34m
+Magenta: \u001b[35m
+Cyan: \u001b[36m
+White: \u001b[37m
+Reset: \u001b[0m
+
+
+
+
+
+
+
+'
+
+
+ls /acloud*/edi*
+ls /acloud*/*.py
+
+python /acloudSUBDIR/cur-experi.py
+
