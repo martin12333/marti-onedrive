@@ -30,7 +30,13 @@ d=os.open('/dev/tty', os.O_RDWR )
 
 
 ####d=os.open('/dev/tty', os.O_RDWR | os.O_NDELAY| os.O_NOCTTY)
-####d=os.open('/dev/tty', os.O_RDWR | os.O_NONBLOCK| os.O_NOCTTY)
+d=os.open('/dev/tty', os.O_RDWR | os.O_NONBLOCK| os.O_NOCTTY)
+d=os.open('/dev/tty', os.O_RDWR | os.O_NONBLOCK)
+os.write(d,b"\033[5n"); time.sleep(0.1) ; x=os.read(d,0); print(x)
+print(x)
+x=os.read(d,0); print(x)
+x=os.read(d,1); print(x)
+
 >>> os.write(d,b"\033[5n"); time.sleep(0.1) ; x=os.read(d,40); print(x)
 4
 ^[[0nTraceback (most recent call last):
