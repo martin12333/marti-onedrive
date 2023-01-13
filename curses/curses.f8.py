@@ -24,6 +24,17 @@ print (u"\u001b[31mHelloWorld")
 print (u"\u001b[0m")
 
 
+#### not seek f=open('/dev/tty','r+')
+
+import os
+
+d=os.open('/dev/tty', os.O_RDWR)
+
+os.write(d,b'hfghgfhfsfdsfds')
+os.write(d,b"\x1b[31mHelloWorld")
+os.write(d,b"\x1b[0m")
+
+d.
 
 urses.write
 curses_write
