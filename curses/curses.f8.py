@@ -17,6 +17,33 @@ ls /acloud*/edi*
 #quit()
 python
 
+
+
+print (u"\u001b[31mHelloWorld")
+
+print (u"\u001b[0m")
+
+
+
+urses.write
+curses_write
+
+
+
+def curses_write(text):
+    """ Prints to the console without a newline
+    """
+    print(text, end="")
+
+
+
+
+
+
+
+
+
+
 import sys
 # the mock-0.3.1 dir contains testcase.py, testutils.py & mock.py
 sys.path.append('/acloudSUBDIR/')
@@ -41,10 +68,7 @@ import /acloudSUBDIR/edited_circuitpython_curses.py
 
 import sys, time
 
-def write(text):
-    """ Prints to the console without a newline
-    """
-    print(text, end="")
+
 
 
 # Request the terminal askback
@@ -69,7 +93,7 @@ def initscr():
     #          all colors
 
     # Request the terminal askback
-    curses.write("\005")
+    curses_write("\005")
     time.sleep(0.1)
 
     # See if we get a response. Some terminals will not return anything
@@ -83,21 +107,21 @@ def initscr():
             # color_mode = 0
 
     # Clear the entire screen
-    curses.write("\033[2J")
-    curses.write("\33[0m")
+    curses_write("\033[2J")
+    curses_write("\33[0m")
 
     # Move the cursor to 500, 500
-    curses.write("\033[500B")
-    curses.write("\033[500C")
+    curses_write("\033[500B")
+    curses_write("\033[500C")
 
     # Ask the term where the cursor is
-    curses.write("\033[6n")
+    curses_write("\033[6n")
 
     # Clear the screen again
-    curses.write("\033[2J")
+    curses_write("\033[2J")
 
     # Move the cursor to 0, 0
-    curses.write("\33[;H")
+    curses_write("\33[;H")
 
     curses._cursor_pos = (0, 0)
 
