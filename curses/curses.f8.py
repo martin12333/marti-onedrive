@@ -13,36 +13,24 @@ ls /acloud*/edi*
 #quit()
 python
 
+
+
 print (u"\u001b[31mHelloWorld")
 print (u"\u001b[0m")
 
-#### not seek f=open('/dev/tty','r+')
 
+
+#### not seek f=open('/dev/tty','r+')
 
 import os
 import sys, time
 
 os.close(d)
 d=os.open('/dev/tty', os.O_RDWR )
-##d=os.open('/dev/tty', os.O_RDWR | os.O_ASYNC)
-##d=os.open('/dev/tty', os.O_RDWR | os.O_NOCTTY)
+#d=os.open('/dev/tty', os.O_RDWR | os.O_ASYNC)
+#d=os.open('/dev/tty', os.O_RDWR | os.O_NOCTTY)
 
 
-
-####d=os.open('/dev/tty', os.O_RDWR | os.O_NDELAY| os.O_NOCTTY)
-d=os.open('/dev/tty', os.O_RDWR | os.O_NONBLOCK| os.O_NOCTTY)
-d=os.open('/dev/tty', os.O_RDWR | os.O_NONBLOCK)
-os.write(d,b"\033[5n"); time.sleep(0.1) ; x=os.read(d,0); print(x)
-print(x)
-x=os.read(d,0); print(x)
-x=os.read(d,1); print(x)
-
->>> os.write(d,b"\033[5n"); time.sleep(0.1) ; x=os.read(d,40); print(x)
-4
-^[[0nTraceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-BlockingIOError: [Errno 11] Resource temporarily unavailable
->>> n
 
 
 os.write(d,b'hfghgfhfsfdsfds')
@@ -51,9 +39,11 @@ os.write(d,b"\x1b[0m")
 os.write(d,b"\033[0m")
 ###os.write(d,b"\e[0m")
 
-#printf '\e[5n'
 os.write(d,b"\033[5n"); time.sleep(0.1) ; x=os.read(d,40); print(x)
-os.write(d,b"\033[5n"); time.sleep(0.1) ; x=os.read(d,4); print(x)
+#os.write(d,b"\033[5n"); time.sleep(0.1) ; x=os.read(d,4); print(x)
+
+dfsgfsfdds
+
 
 ####os.read(d,4, /)
 ########os.read(d,4,os.RWF_NOWAIT)
@@ -67,6 +57,59 @@ os.get_blocking(d, )
 
 ghghgfhg
 x
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#####err
+####d=os.open('/dev/tty', os.O_RDWR | os.O_NDELAY| os.O_NOCTTY)
+d=os.open('/dev/tty', os.O_RDWR | os.O_NONBLOCK| os.O_NOCTTY)
+d=os.open('/dev/tty', os.O_RDWR | os.O_NONBLOCK)
+#os.write(d,b"\033[5n"); time.sleep(0.1) ; x=os.read(d,0); print(x)
+#print(x)
+#x=os.read(d,0); print(x)
+#x=os.read(d,1); print(x)
+
+>>> os.write(d,b"\033[5n"); time.sleep(0.1) ; x=os.read(d,40); print(x)
+4
+^[[0nTraceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+BlockingIOError: [Errno 11] Resource temporarily unavailable
+>>> n
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Request the terminal askback

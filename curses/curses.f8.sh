@@ -63,11 +63,17 @@ echo '-------- section: --------'
 
 
 
+
+
+
+
+
 cd
 grep  --recursive   'dev[/]tty'   | tee 231d1
 
 
 
+echo '-------- section: --------'
 
 
 gitba
@@ -116,10 +122,6 @@ done
 )
 
 
-echo -e "\e[1;31m This is red text \e[0m"
-echo -e "\033[31mHello\e[0m World"
-
-
     COLORS=`tput colors 2> /dev/null`    # Get the number of colours from the termcap file
 
 echo $COLORS
@@ -155,18 +157,44 @@ printf -v Z '\e[0m';
  echo "This is a ${R}red$Z word."
  )
 
-
 . Then you can use them in a plain echo without -e (and even without the double quotes). –
 
 
-read -n 6 x
+
+
+
+
+
+
+
+
+
+
+
+
+echo '-------- section: --------'
+
+
+
+
+
+
+
+# it-works
+echo -e "\e[1;31m This is red text \e[0m"
+echo -e "\033[31mHello\e[0m World"
+
+tput colors
+8
+
+#read -n 6 x
 #printf '\e[5n' ; read -n 4 x
 #printf '\e[5n' ; read -n 1 x
 #printf '\e[5n' ; read -n 5 x
 #printf '\e[5n' ; read -n 6 x
 #printf '\e[5n' ; read -n 0 x
 #####printf '\e[5n  \n' ; read  x
-printf '\e[5n' ; read  x
+printf '\e[5n' ; read  x; echo $x|od -c
 
 dfsfds
 echo $x|od -c
@@ -175,6 +203,7 @@ echo $x
 
 
 
+echo '-------- section: --------'
 
 
 Author of term.js/tty.js[1] here. Nice work. You guys should keep an eye on term.js. The version you're using is slightly old and actually contains a bug (now fixed) wherein all events will become unbound if the reset control sequence is received. I'm also adding fixes for a few other things currently, such as double-width character support, which has been a problem in the past.
