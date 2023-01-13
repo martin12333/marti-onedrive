@@ -135,7 +135,7 @@ code ./dotfiles
 	/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
 
 	git commit -v -a -m  before-manip-dirs
-	git commit -v -a -m bk
+	git commit -v -a -m ...
 	git commit -v -a -m done
 	git commit -v -a -m it-works
 	git commit -v -a -m add
@@ -170,7 +170,7 @@ code ./dotfiles
 
 	git push
 
-	git commit -v -a -m bk
+	git commit -v -a -m ...
 	git commit -v -a -m add
 
 	git add -vv  '*.f8.*'
