@@ -191,7 +191,7 @@ tput colors
 #printf '\e[5n' ; read -n 4 x
 #printf '\e[5n' ; read -n 1 x
 #printf '\e[5n' ; read -n 5 x
-#printf '\e[5n' ; read -n 6 x
+printf '\e[5n' ; read -n 6 x
 #printf '\e[5n' ; read -n 0 x
 #####printf '\e[5n  \n' ; read  x
 printf '\e[5n' ; read  x; echo $x|od -c
@@ -256,3 +256,71 @@ ls /acloud*/*.py
 
 python /acloudSUBDIR/cur-experi.py
 
+
+
+
+
+#man ctty
+man stty
+stty
+stty --all
+
+speed 38400 baud; rows 27; columns 63; line = 0;
+intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = ^D;
+eol = <undef>; eol2 = <undef>; swtch = <undef>; start = ^Q;
+stop = ^S; susp = ^Z; rprnt = ^R; werase = ^W; lnext = ^V;
+discard = ^O; min = 1; time = 0;
+-parenb -parodd -cmspar cs8 -hupcl -cstopb cread -clocal
+-crtscts
+-ignbrk -brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr
+icrnl ixon -ixoff -iuclc -ixany -imaxbel -iutf8
+
+
+ixon
+              enable XON/XOFF flow control
+
+
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0
+onlcr
+              translate newline to carriage return-newline
+ postprocess output
+
+tab0 bs0 vt0 ff0
+isig icanon iexten echo echoe echok -echonl -noflsh -xcase
+-tostop -echoprt echoctl echoke -flusho -extproc
+
+
+
+stty raw
+
+vscode ➜ ~ $ stty raw
+vscode ➜ ~ $ stty
+speed 38400 baud; line = 0;
+-brkint -icrnl -imaxbel
+-opost
+-isig
+vscode ➜ ~ $ stty --all
+speed 38400 baud; rows 27; columns 59; line = 0;
+intr = ^C;
+
+
+
+ocrnl onlcr -onocr -onlret -ofill -ofdel nl0
+cr0 tab0 bs0 vt0 ff0
+-isig icanon iexten echo echoe echok -echonl -noflsh -xcase
+-tostop -echoprt echoctl echoke -flusho -extproc
+vscode ➜ ~ $ python /acloudSUBDIR/cur-experi.py
+hfghgfhfsfdsfdsHelloWorld^[[0n^M^M^Mghjhgjhg^Mfgkjfhgkjfglhfglkhjgfkjhgfkjhgflkjhfgkjhlfgjhlfgjhljfghljfghljfgjhfhg^M^M^M^[^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^Mb'\x1b[0n'
+hfghgfhfsfdsfdsHelloWorld%
+vscode ➜ ~ $
+vscode ➜ ~ $
+vscode ➜ ~ $
+vscode ➜ ~ $ ghjhgjhg
+zsh: command not found: ghjhgjhg
+hlfgjhljfghljfghljfgjhfhg
+zsh: command not found: fgkjfhgkjfglhfglkhjgfkjhgfkjhgflkjhfgkjhlfgjhlfgjhljfghljfghljfgjhfhg
+vscode ➜ ~ $
+vscode ➜ ~ $
+vscode ➜ ~ $
+
+vscode ➜ ~ $

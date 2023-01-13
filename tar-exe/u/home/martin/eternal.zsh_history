@@ -533,3 +533,7 @@ done}| grep -i '[.]wasm$'
 : 1672915999:0;{for x in *.zip ; do ; zipinfo $x  ; done}| grep -i '[.]wasm$' >a.csv
 : 1672916824:0;cd /mnt/d/umarti/dowNLOADS--SYMLINKED
 : 1672916834:0;{for x in *.zip ; do ; zipinfo $x  ; done}| grep -i '[.]wasm$' >base.csv
+: 1673623316:0;D:/conda/Scripts/activate
+: 1673623316:0;conda activate base
+: 1673623334:0;man ctty
+: 1673623337:0;man stty

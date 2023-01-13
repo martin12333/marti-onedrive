@@ -4456,3 +4456,8 @@ podman machine start
 podman start   -ai    cmy22b
 conda activate base
 podman exec -it cmy22b /usr/bin/zsh
+conda activate base
+podman start   -ai    cmy22b
+conda activate base
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr   podm
+podman stop cmy22b

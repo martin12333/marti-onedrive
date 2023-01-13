@@ -25,6 +25,10 @@ print (u"\u001b[0m")
 import os
 import sys, time
 
+import sys, tty
+
+    tty.setraw(sys.stdin)
+
 os.close(d)
 d=os.open('/dev/tty', os.O_RDWR )
 #d=os.open('/dev/tty', os.O_RDWR | os.O_ASYNC)
@@ -89,7 +93,7 @@ d=os.open('/dev/tty', os.O_RDWR | os.O_NONBLOCK)
 #x=os.read(d,0); print(x)
 #x=os.read(d,1); print(x)
 
->>> os.write(d,b"\033[5n"); time.sleep(0.1) ; x=os.read(d,40); print(x)
+os.write(d,b"\033[5n"); time.sleep(0.1) ; x=os.read(d,40); print(x)
 4
 ^[[0nTraceback (most recent call last):
   File "<stdin>", line 1, in <module>
@@ -366,4 +370,22 @@ zipgrep
 echo '-------- section: --------'
 
 https://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html
+
+
+
+import sys, tty
+
+def command_line():
+    tty.setraw(sys.stdin)
+    while True:
+        char = sys.stdin.read(1)
+        if ord(char) == 3: # CTRL-C
+            break;
+        print(ord(char))
+        sys.stdout.write(u"\u001b[1000D") # Move all the way left
+
+command_line()
+
+
+os.system('sh')
 
