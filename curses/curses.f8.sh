@@ -196,6 +196,13 @@ printf '\e[5n' ; read -n 6 x
 #####printf '\e[5n  \n' ; read  x
 printf '\e[5n' ; read  x; echo $x|od -c
 
+######stty raw; printf '\e[5n' ; read  x; echo $x|od -c
+
+[[0ndfsfds^Mdfsfds^Mdfsfds^Mdfsfds^Mdfsfds^Mdfsfds^Mdfsfds^Mdfsfds^Mdfsfds^Mdfsfds^Mdfsfds^M^D^D^D^D^D^C^C^\^\^\^\^\^\^\^\^\^\^\^M^M^M^M^M^M^M^M
+
+podman stop cmy22b
+
+
 dfsfds
 echo $x|od -c
 echo $x

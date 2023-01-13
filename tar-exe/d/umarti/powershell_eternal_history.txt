@@ -4470,3 +4470,5 @@ podman exec -it cmy22b /usr/bin/zsh
 conda activate base
 podman stop cmy22b
 podman start   -ai    cmy22b
+podman stop cmy22b
+podman start   -ai    cmy22b
