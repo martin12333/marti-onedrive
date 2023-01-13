@@ -4472,3 +4472,15 @@ podman stop cmy22b
 podman start   -ai    cmy22b
 podman stop cmy22b
 podman start   -ai    cmy22b
+conda activate base
+podman stop cmy22b
+podman start   -ai    cmy22b
+podman exec -it cmy22b /usr/bin/zsh
+conda activate base
+podman stop cmy22b
+zzabccccccccccccccccdcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+podman exec -it cmy22b /usr/bin/zsh
+podman start   -ai    cmy22b
+stty raw; stty time 10; stty ; printf '\e[5n' ; sleep 2; read -n 4 x
+podman start   -ai    cmy22b
+podman stop cmy22b

@@ -187,20 +187,37 @@ echo -e "\033[31mHello\e[0m World"
 tput colors
 8
 
+
+
+
+
+stty raw ; python /acloudSUBDIR/cur-experi.py
+
+
+
 #read -n 6 x
 #printf '\e[5n' ; read -n 4 x
 #printf '\e[5n' ; read -n 1 x
 #printf '\e[5n' ; read -n 5 x
-printf '\e[5n' ; read -n 6 x
 #printf '\e[5n' ; read -n 0 x
 #####printf '\e[5n  \n' ; read  x
 printf '\e[5n' ; read  x; echo $x|od -c
+printf '\e[5n' ; sleep 0.1; read  x; echo $x|od -c
 
+
+stty raw; stty time 10; stty
+#####stty raw; stty time 10; stty ; printf '\e[5n' ; sleep 2; read -n 4 x
+
+####stty raw; printf '\e[5n' ; read -n 0 x
+
+######stty raw; printf '\e[5n' ; read -n 4 x
+######
 ######stty raw; printf '\e[5n' ; read  x; echo $x|od -c
 
 [[0ndfsfds^Mdfsfds^Mdfsfds^Mdfsfds^Mdfsfds^Mdfsfds^Mdfsfds^Mdfsfds^Mdfsfds^Mdfsfds^Mdfsfds^M^D^D^D^D^D^C^C^\^\^\^\^\^\^\^\^\^\^\^M^M^M^M^M^M^M^M
 
 podman stop cmy22b
+ls -latr
 
 
 dfsfds
@@ -264,6 +281,20 @@ ls /acloud*/*.py
 python /acloudSUBDIR/cur-experi.py
 
 
+stty raw ; python /acloudSUBDIR/cur-experi.py
+
+
+
+
+stty raw ; stty ; stty --all
+
+vscode ➜ ~ $ stty raw ; stty ; stty --all
+speed 38400 baud; line = 0;
+min = 1; time = 0;
+-brkint -icrnl -imaxbel
+-opost
+-isig -icanon
+
 
 jhkhjkhkjhkjkhk
 
@@ -297,6 +328,25 @@ tab0 bs0 vt0 ff0
 isig icanon iexten echo echoe echok -echonl -noflsh -xcase
 -tostop -echoprt echoctl echoke -flusho -extproc
 
+
+
+tty
+/dev/pts/0
+
+
+stty raw ; python /acloudSUBDIR/cur-experi.py
+
+
+
+
+stty raw ; stty ; stty --all
+
+vscode ➜ ~ $ stty raw ; stty ; stty --all
+speed 38400 baud; line = 0;
+min = 1; time = 0;
+-brkint -icrnl -imaxbel
+-opost
+-isig -icanon
 
 
 stty raw
