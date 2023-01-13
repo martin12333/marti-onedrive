@@ -1,5 +1,3 @@
-
-
 # (a file in the mm_f8_doc pseudo-format)
 do-not run this file as a whole
 )
@@ -7,50 +5,71 @@ exit
 
 (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
-
-
 echo '-------- section:  attempts --------'
 
-
 ls /acloud*/edi*
+
 
 #quit()
 python
 
-
-
 print (u"\u001b[31mHelloWorld")
-
 print (u"\u001b[0m")
-
 
 #### not seek f=open('/dev/tty','r+')
 
+
+from glob import escape
 import os
+import sys, time
 
 d=os.open('/dev/tty', os.O_RDWR)
 
 os.write(d,b'hfghgfhfsfdsfds')
 os.write(d,b"\x1b[31mHelloWorld")
 os.write(d,b"\x1b[0m")
+os.write(d,b"\033[0m")
+###os.write(d,b"\e[0m")
 
-d.
-
-urses.write
-curses_write
-
-
-
-def curses_write(text):
-    """ Prints to the console without a newline
-    """
-    print(text, end="")
+#printf '\e[5n'
+os.write(d,b"\033[5n"); time.sleep(0.1) ; x=os.read(d,4); print(x)
 
 
+ghghgfhg
+x
+
+
+# Request the terminal askback
+os.write(d,b"\005") ; time.sleep(0.1) ;  x=os.read(d,4); print(x)
+
+print(ord(char))
+print('q'+(char)+'q')
+
+#urses.write
+#curses_write
+
+def curses_write(text):    os.write(d,bytes(text,'utf-8'))
+
+
+curses_write("\033[2J")
+curses_write("\33[0m")
+
+
+    # Move the cursor to 500, 500
+    curses_write("\033[500B")
+    curses_write("\033[500C")
 
 
 
+    # Ask the term where the cursor is
+    curses_write("\033[6n") ; x=os.read(d,4); print(x)
 
+escape.RS
+
+
+    os.write(d,bytes(text,'utf-8'))
+
+text='ssfdsfs'
 
 
 
@@ -77,18 +96,12 @@ foo.MyClass()
 
 import /acloudSUBDIR/edited_circuitpython_curses.py
 
+
+
+
 import sys, time
 
 
-
-
-# Request the terminal askback
-write("\005")
-time.sleep(0.1)
-
-char = sys.stdin.read(1)
-print(ord(char))
-print('q'+(char)+'q')
 
 
 
