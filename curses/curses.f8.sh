@@ -258,12 +258,13 @@ python /acloudSUBDIR/cur-experi.py
 
 
 
-
+jhkhjkhkjhkjkhk
 
 #man ctty
 man stty
 stty
 stty --all
+stty --save
 
 speed 38400 baud; rows 27; columns 63; line = 0;
 intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = ^D;
@@ -299,6 +300,22 @@ speed 38400 baud; line = 0;
 -brkint -icrnl -imaxbel
 -opost
 -isig
+
+
+
+os.system('stty')
+>>> speed 38400 baud; line = 0;
+min = 1; time = 0;
+-brkint -icrnl -imaxbel
+-opost
+-isig -icanon -iexten -echo
+0
+>>>
+
+
+
+
+
 vscode ➜ ~ $ stty --all
 speed 38400 baud; rows 27; columns 59; line = 0;
 intr = ^C;
@@ -324,3 +341,18 @@ vscode ➜ ~ $
 vscode ➜ ~ $
 
 vscode ➜ ~ $
+
+
+stty echo
+stty -echo
+stty -icanon
+stty  -iexten 
+
+stty
+stty --all
+stty --save
+echo -e "\033[31mHello\e[0m World"
+
+printf '\e[5n' ; read  x; echo $x|od -c
+fhgfhfghgfhgfhhgf
+

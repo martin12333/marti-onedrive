@@ -27,7 +27,9 @@ import sys, time
 
 import sys, tty
 
-    tty.setraw(sys.stdin)
+tty.setraw(sys.stdin)
+
+
 
 os.close(d)
 d=os.open('/dev/tty', os.O_RDWR )
@@ -388,4 +390,14 @@ command_line()
 
 
 os.system('sh')
+os.system('stty')
 
+>>> speed 38400 baud; line = 0;
+min = 1; time = 0;
+-brkint -icrnl -imaxbel
+-opost
+-isig -icanon -iexten -echo
+0
+>>>
+
+os.system('stty --all')

@@ -537,3 +537,5 @@ done}| grep -i '[.]wasm$'
 : 1673623316:0;conda activate base
 : 1673623334:0;man ctty
 : 1673623337:0;man stty
+: 1673626593:0;bash
+: 1673626670:0;man stty
