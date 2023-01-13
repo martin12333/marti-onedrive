@@ -133,3 +133,21 @@ du -ak |sort -n
 
 
 cd ~/emsdk/
+
+
+
+echo '-------- section --------'
+
+
+$ emcc test.c -o test.js
+ -s EXPORT_NAME='EmscrJSR_test'
+  -s ENVIRONMENT=web,worker
+  -s FILESYSTEM=1
+  -s MODULARIZE=1
+  -s EXPORTED_RUNTIME_METHODS=callMain,FS,TTY
+   -s INVOKE_RUN=0
+   -s EXIT_RUNTIME=1
+    -s EXPORT_ES6=0
+	-s USE_ES6_IMPORT_META=0
+	-s ALLOW_MEMORY_GROWTH=1
+

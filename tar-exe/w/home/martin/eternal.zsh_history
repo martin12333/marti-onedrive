@@ -8113,3 +8113,7 @@ done}| grep -i '[/]etc[/]'
 : 1673242632:0;dwarfdump /bin/wc
 : 1673242674:0;{{echo $PATH|  tr ':' '\n'| xargs ls -1}   ; ls -1 ~/wabt-1.0.32/bin}   | grep -i dump
 : 1673242778:0;llvm-dwarfdump /bin/wc
+: 1673594115:0;ubu zsh
+: 1673594117:0;cd /mnt/d/umarti/dowNLOADS--SYMLINKED
+: 1673594126:0;{for x in *.zip ; do ; zipgrep  'dev[/]tty'  $x  ; done}
+: 1673594213:0;{for x in *.zip ; do ; zipgrep  'dev[/]tty'  $x  ; done}  | tee 231d22

@@ -73,6 +73,10 @@ make  --trace --debug   du
 
 
 
+
+
+
+
 vscode ➜ ~/sbase.wasm (master ✗) $ make   ls
 /home/vscode/wasi-sdk-17.0/bin/clang --sysroot=/home/vscode/wasi-sdk-17.0/share/wasi-sysroot -std=c99 -Wall -pedantic -D_DEFAULT_SOURCE -D_BSD_SOURCE -D_XOPEN_SOURCE=700 -D_FILE_OFFSET_BITS=64 -o ls.o -c ls.c
 ls.c:5:10: fatal error: 'sys/sysmacros.h' file not found
@@ -80,6 +84,7 @@ ls.c:5:10: fatal error: 'sys/sysmacros.h' file not found
          ^~~~~~~~~~~~~~~~~
 1 error generated.
 make: *** [Makefile:236: ls.o] Error 1
+
 
 vscode ➜ ~/sbase.wasm (master ✗) $ make     env
 /home/vscode/wasi-sdk-17.0/bin/clang --sysroot=/home/vscode/wasi-sdk-17.0/share/wasi-sysroot -std=c99 -Wall -pedantic -D_DEFAULT_SOURCE -D_BSD_SOURCE -D_XOPEN_SOURCE=700 -D_FILE_OFFSET_BITS=64 -o env.o -c env.c
