@@ -346,7 +346,7 @@ vscode ➜ ~ $
 stty echo
 stty -echo
 stty -icanon
-stty  -iexten 
+stty  -iexten
 
 stty
 stty --all
@@ -355,4 +355,8 @@ echo -e "\033[31mHello\e[0m World"
 
 printf '\e[5n' ; read  x; echo $x|od -c
 fhgfhfghgfhgfhhgf
+
+
+
+podman stop cmy22b
 
