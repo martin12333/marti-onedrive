@@ -27,6 +27,7 @@ import sys, time
 
 import sys, tty
 
+
 tty.setraw(sys.stdin)
 
 
@@ -38,12 +39,20 @@ d=os.open('/dev/tty', os.O_RDWR )
 
 
 
+os.write(1,b"\x1b[31mHelloWorld")
+
 
 os.write(d,b'hfghgfhfsfdsfds')
 os.write(d,b"\x1b[31mHelloWorld")
 os.write(d,b"\x1b[0m")
 os.write(d,b"\033[0m")
 ###os.write(d,b"\e[0m")
+
+
+
+os.write(0,b"\033[5n"); time.sleep(0.1) ; x=os.read(0,40); print(x)
+os.write(1,b"\033[5n"); time.sleep(0.1) ; x=os.read(1,4); print(x)
+
 
 os.write(d,b"\033[5n"); time.sleep(0.1) ; x=os.read(d,40); print(x)
 #os.write(d,b"\033[5n"); time.sleep(0.1) ; x=os.read(d,4); print(x)
@@ -401,6 +410,7 @@ min = 1; time = 0;
 >>>
 
 os.system('stty --all')
+os.system('stty')
 
 
 podman stop cmy22b
