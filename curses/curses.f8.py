@@ -401,3 +401,6 @@ min = 1; time = 0;
 >>>
 
 os.system('stty --all')
+
+
+podman stop cmy22b
