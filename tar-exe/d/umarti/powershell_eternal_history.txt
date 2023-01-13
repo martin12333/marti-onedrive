@@ -4452,3 +4452,5 @@ podman exec -it cmy22b /usr/bin/zsh
 exit
 podman exec -it cmy22b /usr/bin/zsh
 exit
+podman machine start
+podman start   -ai    cmy22b
