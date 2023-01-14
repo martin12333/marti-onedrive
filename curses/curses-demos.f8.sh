@@ -84,6 +84,14 @@ ls `find . -type  d  -name wasm`
 ls -d **/@cowasm/**/wasm/bin
 ls  **/@cowasm/**/wasm/bin
 
+
+
+
+
+
+
+
+
 cd ~/10-cowasm
 #cd ~/10-cowasm/node_modules/dash-wasm/
 cd node_modules/dash-wasm/node_modules/@cowasm/ncurses/dist/wasm/bin
@@ -227,26 +235,69 @@ str mu       = \Em
 
 
 
-./demo_termcap
 
-  hashtest         railroad         test_sgr
+./hashtest         railroad         test_sgr
 
 
-background     demo_terminfo   inch_wide        rain             test_termattrs
+background
+./demo_terminfo
+
+
+num cols     =  80
+num lines    =  24
+num colors   =  256
+num pairs    =  32767
+num OTkn     =  12
+str bel      = ^G
+str cr       = \r
+str csr      = \E[%i%p1%d;%p2%dr
+str tbc      = \E[3g
+str clear    = \E[H\E[2J
+
+
+134 values (44 booleans, 5 numbers, 85 strings)
+(cowasm)$
+
+
+
+  inch_wide        rain             test_termattrs
 blue           ditto           inchs            redraw           test_tparm
 bs             dots            ins_wide         savescreen       test_vid_puts
 cardfile       dots_curses     insdelln         savescreen.sh    test_vidputs
 chgat          dots_mvcur      inserts          sp_tinfo         testaddch
 clear          dots_termcap    key_names        tclock           testcurs
 clip_printw    dots_xcurses    keynames         test_add_wchstr  testscanw
-color_content  dup_field       knight           test_addchstr    tput-colorcube
-color_set      echochar        list_keys        test_addstr      tput-initc
+color_content  dup_field       knight           test_addchstr
+
+ tput-colorcube
+
+color_set
+
+  echochar
+
+      list_keys        test_addstr
+
+	  tput-initc
+
 demo_altkeys   extended_color  lrtest           test_addwstr     tracemunch
 demo_defkey    filter          move_field       test_arrays      view
-demo_forms     firework        movewindow       test_get_wstr    worm
-demo_keyok     firstlast       ncurses6-config  test_getstr      xmas
+demo_forms
+
+   firework
+
+         movewindow       test_get_wstr    worm
+demo_keyok     firstlast
+
+   ncurses6-config
+
+    test_getstr      xmas
 demo_menus     foldkeys        newdemo          test_instr
 demo_new_pair  form_driver_w   padview          test_inwstr
 demo_panels    gdc             pair_content     test_opaque
-demo_tabs      hanoi           picsmap          test_setupterm
+demo_tabs
+
+   ./hanoi
+
+       picsmap
+	        test_setupterm
 
