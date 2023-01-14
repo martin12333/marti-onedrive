@@ -192,6 +192,8 @@ curses-error.txt``
 
 (cowasm)$ ./demo_termcap    hashtest         railroad
    test_sgr
+
+   C:\Users\marti\OneDrive\curses\curses-error.txt
 + ./demo_termcap hashtest railroad test_sgr
 Terminal type "hashtest"
 Terminal type "railroad"
@@ -203,6 +205,12 @@ Cannot remove alias 'modern xterm:,'
 
 
 ./demo_termcap
+
+
+
+C:\Users\marti\OneDrive\curses\curses-demos.f8.sh
+
+
 
   hashtest         railroad         test_sgr
 

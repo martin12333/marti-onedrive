@@ -27,7 +27,41 @@ podman start   -ai    cmy22b
 # WebAssembly build of the ncurses library (and many demo programs)
 
 This is used by some of our CoWasm WebAssembly programs such as rogue.
-It's also used by the ncurses cpython library.
+#It's also used by the ncurses cpython library.
+
+
+
+
+
+
+echo '-------- section: experiments --------'
+cd ~/10-cowasm/node_modules/dash-wasm
+npx dash-wasm   -x
+
+rogue
+
+python
+#python3
+
+import curses
+curses.initscr()
+<_curses.window object at 0x7f74b0c96fb0>
+
+# web?
+>>> import curses
+>>> curses.initscr()
+Name collision 'xterm-new' between
+        xf|xterm-new|modern xterm:,
+and     xf|xterm-new|modern xterm:,
+...now  modern xterm:,
+Cannot remove alias 'modern xterm:,'
+......
+
+import os
+>>>
+os.environ.get('TERM')
+'xterm-256color'
+>>> >>> 'xterm'
 
 
 
@@ -40,6 +74,39 @@ It's also used by the ncurses cpython library.
 
 
 
+cd ~/10-cowasm/node_modules/dash-wasm/
+npx @cowasm/rogue
+
+
+
+cd ~/10-cowasm
+ls `find . -type  d  -name wasm`
+ls -d **/@cowasm/**/wasm/bin
+ls  **/@cowasm/**/wasm/bin
+
+cd ~/10-cowasm
+#cd ~/10-cowasm/node_modules/dash-wasm/
+cd node_modules/dash-wasm/node_modules/@cowasm/ncurses/dist/wasm/bin
+npx kernel ../../../../dash/dist/wasm/bin/dash -x
+
+
+./back_ground: Error: setcchar -- undefined when importing ./back_ground
+
+./demo_termcap    hashtest         railroad         test_sgr
+curses-error.txt``
+
+(cowasm)$ ./demo_termcap    hashtest         railroad
+   test_sgr
+
+   C:\Users\marti\OneDrive\curses\curses-error.txt
++ ./demo_termcap hashtest railroad test_sgr
+Terminal type "hashtest"
+Terminal type "railroad"
+Name collision 'xterm-new' between
+        xterm-new|modern xterm:,
+and     xterm-new|modern xterm:,
+...now  modern xterm:,
+Cannot remove alias 'modern xterm:,'
 
 
 
@@ -158,4 +225,28 @@ str mu       = \Em
 
 
 
+
+
+./demo_termcap
+
+  hashtest         railroad         test_sgr
+
+
+background     demo_terminfo   inch_wide        rain             test_termattrs
+blue           ditto           inchs            redraw           test_tparm
+bs             dots            ins_wide         savescreen       test_vid_puts
+cardfile       dots_curses     insdelln         savescreen.sh    test_vidputs
+chgat          dots_mvcur      inserts          sp_tinfo         testaddch
+clear          dots_termcap    key_names        tclock           testcurs
+clip_printw    dots_xcurses    keynames         test_add_wchstr  testscanw
+color_content  dup_field       knight           test_addchstr    tput-colorcube
+color_set      echochar        list_keys        test_addstr      tput-initc
+demo_altkeys   extended_color  lrtest           test_addwstr     tracemunch
+demo_defkey    filter          move_field       test_arrays      view
+demo_forms     firework        movewindow       test_get_wstr    worm
+demo_keyok     firstlast       ncurses6-config  test_getstr      xmas
+demo_menus     foldkeys        newdemo          test_instr
+demo_new_pair  form_driver_w   padview          test_inwstr
+demo_panels    gdc             pair_content     test_opaque
+demo_tabs      hanoi           picsmap          test_setupterm
 
