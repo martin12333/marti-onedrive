@@ -114,5 +114,3 @@ npm i @cowasm/kernel
 #cd @cowasm
 #cd cpython
 #npm i
-
-

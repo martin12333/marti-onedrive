@@ -131,17 +131,16 @@ echo '-------- section: experiments --------'
 cd ~/10-cowasm/node_modules/dash-wasm
 npx dash-wasm   -x
 
-
-
 rogue
 
-
 python
-python3
+#python3
 
 import curses
 curses.initscr()
+<_curses.window object at 0x7f74b0c96fb0>
 
+# web?
 >>> import curses
 >>> curses.initscr()
 Name collision 'xterm-new' between
@@ -152,8 +151,11 @@ Cannot remove alias 'modern xterm:,'
 ......
 
 import os
->>> os.environ.get('TERM')
+>>>
+os.environ.get('TERM')
 'xterm-256color'
+>>> >>> 'xterm'
+
 
 #
 cd
@@ -161,13 +163,50 @@ mkdir curses
 cd curses
 npm i @cowasm/ncurses
 
+
+
+
+
+
+
+cd ~/10-cowasm/node_modules/dash-wasm/
+npx @cowasm/rogue
+
+
+
 cd ~/10-cowasm
 ls `find . -type  d  -name wasm`
 ls -d **/@cowasm/**/wasm/bin
 ls  **/@cowasm/**/wasm/bin
 
-node_modules/dash-wasm/node_modules/@cowasm/ncurses/dist/wasm/bin:
-back_ground    demo_termcap    hashtest         railroad         test_sgr
+cd ~/10-cowasm
+#cd ~/10-cowasm/node_modules/dash-wasm/
+cd node_modules/dash-wasm/node_modules/@cowasm/ncurses/dist/wasm/bin
+npx kernel ../../../../dash/dist/wasm/bin/dash -x
+
+
+./back_ground: Error: setcchar -- undefined when importing ./back_ground
+
+./demo_termcap    hashtest         railroad         test_sgr
+curses-error.txt``
+
+(cowasm)$ ./demo_termcap    hashtest         railroad
+   test_sgr
++ ./demo_termcap hashtest railroad test_sgr
+Terminal type "hashtest"
+Terminal type "railroad"
+Name collision 'xterm-new' between
+        xterm-new|modern xterm:,
+and     xterm-new|modern xterm:,
+...now  modern xterm:,
+Cannot remove alias 'modern xterm:,'
+
+
+./demo_termcap
+
+  hashtest         railroad         test_sgr
+
+
 background     demo_terminfo   inch_wide        rain             test_termattrs
 blue           ditto           inchs            redraw           test_tparm
 bs             dots            ins_wide         savescreen       test_vid_puts
@@ -497,3 +536,9 @@ du -aks */*
 
 
 see also  661
+
+
+
+
+
+
