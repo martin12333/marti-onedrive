@@ -414,3 +414,31 @@ os.system('stty')
 
 
 podman stop cmy22b
+
+
+
+
+
+
+
+
+
+
+
+
+web
+
+>>> curses.__pa
+curses.__package__  curses.__path__
+
+>>> curses.__path__
+['/usr/lib/python3.11/curses']
+>>> curses.__package__
+'curses'
+>>> curses.__name__
+'curses'
+>>> curses.__file__
+'/usr/lib/python3.11/curses/__init__.pyc'
+>>> curses.__doc__
+'curses\n\nThe main package for curses support for Python.  Normally used by importing\nthe package, and perhaps a particular module inside it.\n\n   import curses\n   from curses import textpad\n   curses.initscr()\n   ...\n\n'
+>>>

@@ -142,6 +142,57 @@ curses.initscr()
 
 # web
 https://cowasm.sh/
+$ env
+TERMCAP=/usr/share/termcap
+TERM=xterm-256color
+PS1=(cowasm)$
+PYTHONHOME=/usr
+PATH=/usr/bin:.
+(cowasm)$ set
+IFS='
+'
+LINENO=''
+OPTIND='1'
+PATH='/usr/bin:.'
+PPID='1'
+PS1='(cowasm)$ '
+PS2='> '
+PS4='+ '
+PWD='/'
+PYTHONHOME='/usr'
+TERM='xterm-256color'
+TERMCAP='/usr/share/termcap'
+_='env'
+(cowasm)$
+python
+
+>>> import os
+>>> os.environ.get('TERM')
+'xterm-256color'
+>>>
+curses.window object at 0xd7f3e0>
+>>> w=curses.initscr()
+>>> w.get
+w.getbegyx(  w.getch(     w.getmaxyx(  w.getstr(
+w.getbkgd()  w.getkey(    w.getparyx(  w.getyx(
+
+>>> w.getmaxyx( )
+(24, 80)
+>>> w.getmaxyx( )
+(24, 80)
+>>> w.getyx( )
+(0, 0)
+>>> w.getkey(  )
+0'0'
+>>> w.getkey(  )
+^['\x1b'
+>>> w.getkey(  )
+^['\x1b'
+>>> w.getkey(  )
+!'!'
+>>>
+
+
 
 https://cowasm.org/
 >>> import curses
@@ -152,11 +203,30 @@ and     xf|xterm-new|modern xterm:,
 ...now  modern xterm:,
 Cannot remove alias 'modern xterm:,'
 ......
+<_curses.window object at 0xc5c7f0>
+
+
+for i in range(readline.get_current_history_length()):
+>>> curses.initscr()
+<_curses.window object at 0xc5c6a0>
+>>> curses.initscr()
+<_curses.window object at 0xc5c7f0>
+>>> curses.initscr()
+<_curses.window object at 0xc5c6a0>
+>>> curses.initscr()
+<_curses.window object at 0xc5c7f0>
+>>> curses.initscr()
+<_curses.window object at 0xc5c6a0>
+>>> curses.initscr()
+<_curses.window object at 0xc5c7f0>
+>>>
+
 
 
 import os
->>>
 os.environ.get('TERM')
+
+
 'xterm-256color'
 >>> >>> 'xterm'
 
