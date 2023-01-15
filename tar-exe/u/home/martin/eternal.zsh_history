@@ -546,3 +546,4 @@ done}| grep -i '[.]wasm$'
 : 1673793318:0;cat '/usr/lib/python3.10/curses/ascii.py'
 : 1673794065:0;mc
 : 1673794196:0;file *
+: 1673794646:0;python3

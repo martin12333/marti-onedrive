@@ -140,12 +140,20 @@ rogue
 
 python3
 <_curses.window object at 0x7f74b0c96fb0>
+                              >>> <_curses.window object at 0x7f1e6bddae10>
+                      >>> <_curses.window object at 0x7f1e6bddae30>
+                                                                  >>> <_curses.window object at 0x7f1e6bddadf0>
+                                            >>> <_curses.window object at 0x7f1e6bddadd0>
+                      >>> <_curses.window object at 0x7f1e6bddadb0>
+                                                                  >>> <_curses.window object at 0x7f1e6bddae10>
+
 
 python
 
 import curses
 curses.initscr()
-
+w=curses.initscr()
+dir(curses)
 .....
 Cannot remove alias 'X11 terminal emulator:,'
 Name collision 'xterm+kbs' between
