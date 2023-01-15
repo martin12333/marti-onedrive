@@ -539,3 +539,10 @@ done}| grep -i '[.]wasm$'
 : 1673623337:0;man stty
 : 1673626593:0;bash
 : 1673626670:0;man stty
+: 1673793211:0;python
+: 1673793213:0;#python3
+: 1673793217:0;python3
+: 1673793285:0;ls '/usr/lib/python3.10/curses'
+: 1673793318:0;cat '/usr/lib/python3.10/curses/ascii.py'
+: 1673794065:0;mc
+: 1673794196:0;file *

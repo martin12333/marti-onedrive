@@ -98,6 +98,8 @@ ll ../.bin
 cat package.json
 npx dash-wasm   -x
 #npx dash-wasm   -vx
+ls /cow*
+env
 
 #########
 vscode ➜ ~ $ ps -eHf
@@ -131,14 +133,39 @@ echo '-------- section: experiments --------'
 cd ~/10-cowasm/node_modules/dash-wasm
 npx dash-wasm   -x
 
+ls /cow*
+env
+
 rogue
 
+python3
+<_curses.window object at 0x7f74b0c96fb0>
+
 python
-#python3
 
 import curses
 curses.initscr()
-<_curses.window object at 0x7f74b0c96fb0>
+
+.....
+Cannot remove alias 'X11 terminal emulator:,'
+Name collision 'xterm+kbs' between
+        xterm+kbs|fragment for backspace key:,
+and     xterm+kbs|fragment for backspace key:,
+...now  fragment for backspace key:,
+Cannot remove alias 'fragment for backspace key:,'
+
+<_curses.window object at 0xf113c0>
+
+curses.__path__
+
+quit()
+ls '/usr/lib/python3.10/curses'
+cat '/usr/lib/python3.10/curses/ascii.py'
+
+ls '/cowasm/usr/lib/python3.11/curses'
+
+
+
 
 # web
 https://cowasm.sh/
