@@ -140,7 +140,10 @@ import curses
 curses.initscr()
 <_curses.window object at 0x7f74b0c96fb0>
 
-# web?
+# web
+https://cowasm.sh/
+
+https://cowasm.org/
 >>> import curses
 >>> curses.initscr()
 Name collision 'xterm-new' between
@@ -149,6 +152,7 @@ and     xf|xterm-new|modern xterm:,
 ...now  modern xterm:,
 Cannot remove alias 'modern xterm:,'
 ......
+
 
 import os
 >>>

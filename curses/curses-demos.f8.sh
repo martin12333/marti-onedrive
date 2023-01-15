@@ -98,6 +98,9 @@ cd node_modules/dash-wasm/node_modules/@cowasm/ncurses/dist/wasm/bin
 npx kernel ../../../../dash/dist/wasm/bin/dash -x
 
 
+
+
+
 ./back_ground: Error: setcchar -- undefined when importing ./back_ground
 
 ./demo_termcap    hashtest         railroad         test_sgr
@@ -240,6 +243,7 @@ str mu       = \Em
 
 
 background
+
 ./demo_terminfo
 
 

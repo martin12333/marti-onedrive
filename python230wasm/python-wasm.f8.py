@@ -27,6 +27,8 @@ echo '-------- section --------'
 
 https://docs.python.org/3/library/sysconfig.html
 
+from cgitb import grey
+import readline
 import sysconfig
 sysconfig.get_config_vars()
 
@@ -178,7 +180,37 @@ readline.__init_subclass__(
 
 >>> readline.__doc__
 'Importing this module enables command line editing using libedit readline.'
->>> 
+>>>
+
+
+for i in range(readline.get_current_history_length()):
+    print(readline.get_history_item(i))
+
+
+
+import os
+os.environ.get('TERM')
+import curses
+curses.initscr()
+curses.initscr()
+x=curses.initscr()
+x.clear()
+x=curses.initscr()
+x.clear()
+x.getch( )
+import history
+import readline
+readline
+readline.get_current_history_length()
+readline.get_history_item( 0)
+readline.get_history_item( 1)
+readline.get_history_item( 2)
+readline.get_history_item( 3)
+for i in range(readline.get_current_history_length()):
+    print(readline.readline.get_history_item(i))
+    print(readline.get_history_item(i))
+for i in range(readline.get_current_history_length()):
+>>>
 
 
 
