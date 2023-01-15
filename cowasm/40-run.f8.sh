@@ -131,8 +131,51 @@ vscode ➜ ~ $ ps -eHf
 
 echo '-------- section: experiments --------'
 
+
+
+
+
+
+
+
+
+
+
+cd ~/10-cowasm
+#cd ~/10-cowasm/node_modules/dash-wasm/
+cd node_modules/dash-wasm/node_modules/@cowasm/ncurses/dist/wasm/bin
+
+ll
+python
+import curses
+curses.initscr()
+w=curses.initscr()
+
+import os
+####os.system('npx kernel ../../../../dash/dist/wasm/bin/dash -c python ')
+os.system('npx kernel ../../../../dash/dist/wasm/bin/dash -c echo sdfds ')
+# didnt help
+quit()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 cd ~/10-cowasm/node_modules/dash-wasm
+
 npx dash-wasm   -x
+
+#stty raw ; npx dash-wasm   -x
 
 ls /cow*
 env
@@ -150,12 +193,27 @@ cd node_modules/dash-wasm/node_modules/@cowasm/ncurses/dist/wasm/bin
 
 ./demo_termcap    hashtest         railroad         test_sgr
 ./demo_termcap
+# didnt help
 
+stty raw
+####stty min 0
+stty min 1
+stty time 2
+stty -icanon
+
+stty
+stty --all
 
 import tty
 tty.setraw(0)
 # didnt help
 
+
+import os
+#####os.system('npx dash-wasm --help')
+####os.system('npx dash-wasm -c  /cowasm/usr/bin/dash')
+####python')
+# didnt help
 
 python
 python3
