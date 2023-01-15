@@ -4496,3 +4496,13 @@ conda activate base
 podman start   -ai    cmy22b
 conda activate base
 podman start   -ai    cmy22b
+wsl --list --running
+wsl --shutdown
+wsl --list --running
+dir p:
+wsl --list --running
+wsl --shutdown
+wsl --list --running
+podman start   -ai    cmy22b
+wsl --shutdown
+wsl --list --running

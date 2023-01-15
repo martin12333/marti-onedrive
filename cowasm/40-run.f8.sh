@@ -138,6 +138,17 @@ echo '-------- section: experiments --------'
 
 
 
+PS C:\Users\marti\OneDrive> wsl --shutdown
+PS C:\Users\marti\OneDrive> wsl --list --running
+There are no running distributions.
+PS C:\Users\marti\OneDrive> wsl --list --running
+Windows Subsystem for Linux Distributions:
+podman-machine-default
+PS C:\Users\marti\OneDrive> 
+
+
+
+
 
 
 
