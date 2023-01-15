@@ -139,6 +139,17 @@ env
 
 rogue
 hanoi
+# didnt help
+
+
+
+
+cd ~/10-cowasm
+#cd ~/10-cowasm/node_modules/dash-wasm/
+cd node_modules/dash-wasm/node_modules/@cowasm/ncurses/dist/wasm/bin
+
+./demo_termcap    hashtest         railroad         test_sgr
+./demo_termcap
 
 
 import tty
