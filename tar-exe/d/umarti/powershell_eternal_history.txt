@@ -4485,3 +4485,7 @@ stty raw; stty time 10; stty ; printf '\e[5n' ; sleep 2; read -n 4 x
 podman start   -ai    cmy22b
 podman stop cmy22b
 podman start   -ai    cmy22b
+conda activate base
+podman start   -ai    cmy22b
+conda activate base
+podman start   -ai    cmy22b

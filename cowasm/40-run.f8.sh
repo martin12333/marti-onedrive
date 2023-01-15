@@ -130,6 +130,7 @@ vscode ➜ ~ $ ps -eHf
 
 
 echo '-------- section: experiments --------'
+
 cd ~/10-cowasm/node_modules/dash-wasm
 npx dash-wasm   -x
 
@@ -137,22 +138,34 @@ ls /cow*
 env
 
 rogue
+hanoi
 
+
+import tty
+tty.setraw(0)
+# didnt help
+
+
+python
 python3
 <_curses.window object at 0x7f74b0c96fb0>
                               >>> <_curses.window object at 0x7f1e6bddae10>
                       >>> <_curses.window object at 0x7f1e6bddae30>
                                                                   >>> <_curses.window object at 0x7f1e6bddadf0>
-                                            >>> <_curses.window object at 0x7f1e6bddadd0>
-                      >>> <_curses.window object at 0x7f1e6bddadb0>
-                                                                  >>> <_curses.window object at 0x7f1e6bddae10>
 
 
+which -a python
 python
+quit()
 
 import curses
 curses.initscr()
 w=curses.initscr()
+
+w.getch(  )
+w.getkey(  )
+
+
 dir(curses)
 .....
 Cannot remove alias 'X11 terminal emulator:,'
@@ -201,8 +214,8 @@ _='env'
 (cowasm)$
 python
 
->>> import os
->>> os.environ.get('TERM')
+import os
+os.environ.get('TERM')
 'xterm-256color'
 >>>
 curses.window object at 0xd7f3e0>
@@ -211,15 +224,16 @@ curses.window object at 0xd7f3e0>
 w.getbegyx(  w.getch(     w.getmaxyx(  w.getstr(
 w.getbkgd()  w.getkey(    w.getparyx(  w.getyx(
 
->>> w.getmaxyx( )
+w.getmaxyx( )
 (24, 80)
 >>> w.getmaxyx( )
 (24, 80)
->>> w.getyx( )
+w.getyx( )
 (0, 0)
 >>> w.getkey(  )
 0'0'
->>> w.getkey(  )
+w.getkey(  )
+w.getch(  )
 ^['\x1b'
 >>> w.getkey(  )
 ^['\x1b'
@@ -240,8 +254,9 @@ Cannot remove alias 'modern xterm:,'
 ......
 <_curses.window object at 0xc5c7f0>
 
-
+import readline
 for i in range(readline.get_current_history_length()):
+    print(readline.get_history_item(i))
 >>> curses.initscr()
 <_curses.window object at 0xc5c6a0>
 >>> curses.initscr()
@@ -264,6 +279,46 @@ os.environ.get('TERM')
 
 'xterm-256color'
 >>> >>> 'xterm'
+
+
+
+
+
+
+
+
+
+
+cd ~/10-cowasm
+#cd ~/10-cowasm/node_modules/dash-wasm/
+#cd node_modules/dash-wasm/node_modules/@cowasm/ncurses/dist/wasm/bin
+cd node_modules/dash-wasm/node_modules/@cowasm/cpython/dist/wasm/bin
+ll
+npx kernel ../../../../dash/dist/wasm/bin/dash -x
+
+
+
+
+
+(cowasm)$ ./python3.11.wasm
++ ./python3.11.wasm
+Python 3.11.0 (main, Nov 29 2022, 20:26:05) [Clang 15.0.3 (git@github.com:ziglang/zig-bootstrap.git 0ce789d0f7a4d89fdc4d9571 on wasi
+
+p:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\10-cowasm\node_modules\dash-wasm\node_modules\@cowasm\cpython\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #
@@ -291,9 +346,36 @@ ls  **/@cowasm/**/wasm/bin
 cd ~/10-cowasm
 #cd ~/10-cowasm/node_modules/dash-wasm/
 cd node_modules/dash-wasm/node_modules/@cowasm/ncurses/dist/wasm/bin
+
+ll
 npx kernel ../../../../dash/dist/wasm/bin/dash -x
 
 
+
+
+
+
+
+
+
+
+
+
+(cowasm)$ echo $TERM
++ echo xterm-256color
+xterm-256color
+(cowasm)$ ^D
+vscode ➜ ~/…/dist/wasm/bin $ env|grep -i ter
+TERM=xterm
+
+termcap
+terminfo
+vscode ➜ ~/…/dist/wasm/bin $ set|grep -i tty
+TTY=/dev/pts/0
+TTYIDLE=-1
+vscode ➜ ~/…/dist/wasm/bin $
+
+vscode ➜ ~/…/dist/wasm/bin $
 ./back_ground: Error: setcchar -- undefined when importing ./back_ground
 
 ./demo_termcap    hashtest         railroad         test_sgr
@@ -454,6 +536,9 @@ set
 export PATH=".:$PATH"
 export PATH=.
 export PATH=
+
+
+
 
 # /cowasm/usr/bin:.
 
