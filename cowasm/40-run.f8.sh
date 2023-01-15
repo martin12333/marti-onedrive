@@ -153,9 +153,15 @@ w=curses.initscr()
 
 import os
 ####os.system('npx kernel ../../../../dash/dist/wasm/bin/dash -c python ')
-os.system('npx kernel ../../../../dash/dist/wasm/bin/dash -c echo sdfds ')
-# didnt help
-quit()
+#os.system('npx kernel ../../../../dash/dist/wasm/bin/dash -c echo sdfds ')
+####os.system('npx kernel ../../../../cpython/dist/wasm/bin/python3.11.wasm -c print(8*9)')
+#os.system('npx kernel ../../../../cpython/dist/wasm/bin/python3.11.wasm -c "print(8*9)"')
+#ls  ../../../../cpython/dist/wasm/bin/
+os.system('npx kernel ../../../../cpython/dist/wasm/bin/python3.11.wasm ')
+
+	import curses
+	w=curses.initscr()
+	w.getch(  )
 
 
 

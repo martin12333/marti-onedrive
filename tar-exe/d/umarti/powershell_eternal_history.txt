@@ -4491,3 +4491,8 @@ conda activate base
 podman start   -ai    cmy22b
 conda activate base
 podman start   -ai    cmy22b
+podman stop cmy22b
+conda activate base
+podman start   -ai    cmy22b
+conda activate base
+podman start   -ai    cmy22b
