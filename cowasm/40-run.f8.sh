@@ -22,15 +22,10 @@ podman start   -ai    cmy22b
 
 echo '-------- section: run 15- --------'
 cd ~/cowasm/
-
-
-
-
-todo?
 . bin/env.sh
 
-
-
+cowasm --help
+npx
 
 #./packages/dash/bin/dash-wasm
 ./bin/dash-wasm-raw  -ex
@@ -144,7 +139,7 @@ There are no running distributions.
 PS C:\Users\marti\OneDrive> wsl --list --running
 Windows Subsystem for Linux Distributions:
 podman-machine-default
-PS C:\Users\marti\OneDrive> 
+PS C:\Users\marti\OneDrive>
 
 
 

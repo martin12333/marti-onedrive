@@ -45,16 +45,23 @@ python
 78*89
 aaaaaaaaa
 
-
 import os, sys
 ##for i in range(5): x[i]=os.fstat(i)
 x=os.fstat(1)
 x=[os.fstat(i)  for i in range(3) ]
+x
 
-
-y=open('/dev/tty','r')
+###sys.stdout=open('/dev/stdout','w')
+# /dev/stderr -> /proc/self/fd/2
+y=open('/dev/stderr','w')
+##y=open('/dev/stdout','w')
 y
-####sys.stdin=open('/dev/tty','w')
+y=open('/dev/tty','r')
+#mm231 dev/tty
+P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\10-cowasm\node_modules\dash-wasm\node_modules\wasi-js\dist\wasi.js
+
+y
+####sys.stdout=open('/dev/tty','w')
 ###open('/dev/tty','w')
 ####y=open('/dev/tty','w+')
 ###y=open('/dev/tty','wb+')
@@ -72,11 +79,12 @@ y
             this.view.setUint32(fdPtr, WASI_STDIN_FILENO, true);
             return WASI_ESUCCESS;
 
-		cd ~/cowasm
+	###cd ~/cowasm
+	###./bin/dash-wasm-raw  -x
+
 
 #slightly desperate
 sys.stdout=sys.stderr
-
 
 f=open('1','w')
 
@@ -85,7 +93,6 @@ print(x, file=sys.stderr)
 print(y, file=sys.stderr)
 
 f=open('1','w')
-
 
 x
 #str(x)
@@ -106,7 +113,7 @@ sys.stderr.write('dsfdsf')
 
 f.close()
 
-quit()
+quit()#
 
 
 Traceback (most recent call last):
