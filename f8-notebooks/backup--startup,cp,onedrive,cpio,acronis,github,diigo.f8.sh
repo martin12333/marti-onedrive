@@ -145,6 +145,7 @@ code ./dotfiles
 	git commit -v -a -m bk-scripts--edited---
 	git commit -v -a -m gitignore
 	git commit -v -a -m bug-found
+	git commit -v -a -m discovery
 	git commit -v -a -m fix
 	git commit -v -a -m fix-comments
 	git commit -v -a -m patch-simplify-code

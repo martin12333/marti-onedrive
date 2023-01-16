@@ -22,6 +22,7 @@ echo '-------- section: 40-run --------'
 #sh-session
 
 cd ~/10-cowasm/node_modules/dash-wasm
+
 npx dash-wasm   -x
 
 
@@ -35,7 +36,12 @@ cat
 cat R*
 cat R*
 
+ls /cowasm/usr/bin
 echo abc
+(cowasm)$ echo abc
++ echo abc
+sh: 2: echo: echo: I/O error
+
 
 python
 # i cannot see what i am typing
