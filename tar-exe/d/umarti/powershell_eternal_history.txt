@@ -4506,3 +4506,6 @@ wsl --list --running
 podman start   -ai    cmy22b
 wsl --shutdown
 wsl --list --running
+podman start   -ai    cmy22b
+podman machine start
+podman start   -ai    cmy22b

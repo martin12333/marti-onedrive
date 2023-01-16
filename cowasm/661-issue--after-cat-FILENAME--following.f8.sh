@@ -41,7 +41,163 @@ python
 # i cannot see what i am typing
 78*89
 aaaaaaaaa
+
+
+f=open('1','w')
+
+import os
+#for i in range(5): x[i]=os.fstat(i)
+x=[os.fstat(i)  for i in range(3) ]
+x
+str(x)
+
+#x=os.fstat(0)
+#x=os.fstat(1)
+#x=os.fstat(2)
+###x=os.fstat(3)
+###x=os.fstat(4)
+import sys
+sys.stderr.write('dsfdsf')
+
+##f=open('1','w')
+#f=open('a','w')
+#f=open('nc1','w')
+f.write(str(x))
+f.close()
+
 quit()
+
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+OSError: [Errno 8] Bad file descriptor
+dsfdsf(cowasm)$ ^D
+
+
+cat 1
+mv --backup=numbered -v 1 1.txt
+
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+OSError: [Errno 8] Bad file descriptor
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'os' has no attribute 'fdstat'. Did you mean: 'fstat'?
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+OSError: [Errno 8] Bad file descriptor
+dsfdsfTraceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+OSError: [Errno 8] Bad file descriptor
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: write() argument must be str, not os.stat_result
+(cowasm)$ cat
++ cat
+cat
+cat: stdout: Bad file descriptor
+(cowasm)$ ^D
+vscode ➜ ~/10-cowasm/node_modules/dash-wasm $
+
+cat 1
+6942
+os.stat_result(st_mode=8640, st_ino=0, st_dev=0, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673872312, st_mtime=1673872312, st_ctime=1673872312)
+6
+>>> f.write(x)
+>>> f.write(str(x))
+154
+>>> f.close()
+os.stat_result(st_mode=8640, st_ino=0, st_dev=0, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673872371, st_mtime=1673872371, st_ctime=1673872371)%
+vscode ➜ ~/10-cowasm/node_modules/dash-wasm $
+
+
+
+
+
+vscode ➜ ~/10-cowasm/node_modules/dash-wasm $ python
+Python 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import os
+>>> x=os.fstat(1)
+>>> import sys
+>>> sys.stderr.write('dsfdsf')
+6
+dsfdsf>>> f=open('a','w')
+>>> f.write(str(x))
+158
+
+
+cat a
+
+vscode ➜ ~/10-cowasm/node_modules/dash-wasm $ cat a
+os.stat_result(st_mode=8592, st_ino=3, st_dev=98, st_nlink=1, st_uid=1000, st_gid=5, st_size=0, st_atime=1673872560, st_mtime=1673872560, st_ctime=1673872027)%
+vscode ➜ ~/10-cowasm/node_modules/dash-wasm $
+
+
+cat nc1
+
+(cowasm)$ cat nc1
++ cat nc1
+os.stat_result(st_mode=8640, st_ino=3, st_dev=98, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673872800, st_mtime=1673872800, st_ctime=1673872027)(cowasm)$
+
+
+
+
+
+
+
+
+
+6942
+>>> import os
+>>> x=[os.fstat(i)  for i in range(3) ]
+>>> x
+[os.stat_result(st_mode=8640, st_ino=3, st_dev=98, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673873274, st_mtime=1673873264, st_ctime=1673872027), os.stat_result(st_mode=8640, st_ino=258861, st_dev=2080, st_nlink=1, st_uid=0, st_gid=0, st_size=59, st_atime=1673872440, st_mtime=1673873274, st_ctime=1673873274), os.stat_result(st_mode=8640, st_ino=3, st_dev=98, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673873274, st_mtime=1673873264, st_ctime=1673872027)]
+>>> str(x)
+'[os.stat_result(st_mode=8640, st_ino=3, st_dev=98, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673873274, st_mtime=1673873264, st_ctime=1673872027), os.stat_result(st_mode=8640, st_ino=258861, st_dev=2080, st_nlink=1, st_uid=0, st_gid=0, st_size=59, st_atime=1673872440, st_mtime=1673873274, st_ctime=1673873274), os.stat_result(st_mode=8640, st_ino=3, st_dev=98, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673873274, st_mtime=1673873264, st_ctime=1673872027)]'
+>>> import sys
+>>> sys.stderr.write('dsfdsf')
+6
+>>> f.write(str(x))
+479
+>>> f.close()
+[os.stat_result(st_mode=8640, st_ino=3, st_dev=98, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673873274, st_mtime=1673873264, st_ctime=1673872027), os.stat_result(st_mode=8640, st_ino=258861, st_dev=2080, st_nlink=1, st_uid=0, st_gid=0, st_size=59, st_atime=1673872440, st_mtime=1673873274, st_ctime=1673873274), os.stat_result(st_mode=8640, st_ino=3, st_dev=98, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673873274, st_mtime=1673873264, st_ctime=1673872027)]%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

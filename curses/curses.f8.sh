@@ -414,6 +414,62 @@ printf '\e[5n' ; read  x; echo $x|od -c
 fhgfhfghgfhgfhhgf
 
 
+// ncurses wants this:
+
+packages\kernel\src\wasm\posix\other.ts:
+  134
+  135:     // The curses cpython module wants this:
+  136      // FILE *tmpfile(void);
+
+  153
+  154:     // curses also wants this:
+  155      // int tcflush(int fildes, int action);
+
+
+
+
+
+
+
+
+
+
+ case FIONBIO: {
+      // Obtain the current file descriptor flags.
+      __wasi_fdstat_t fds;
+      __wasi_errno_t error = __wasi_fd_fdstat_get(fildes, &fds);
+      if (error != 0) {
+        errno = error;
+        return -1;
+      }
+
+      // Toggle the non-blocking flag based on the argument.
+      va_list ap;
+      va_start(ap, request);
+      if (*va_arg(ap, const int *) != 0)
+        fds.fs_flags |= __WASI_FDFLAGS_NONBLOCK;
+      else
+        fds.fs_flags &= ~__WASI_FDFLAGS_NONBLOCK;
+      va_end(ap);
+
+      // Update the file descriptor flags.
+      error = __wasi_fd_fdstat_set_flags(fildes, fds.fs_flags);
+
+
+
+  // The following are useful, e.eg., for setting a fd to be nonblocking; this
+  // might be done with stdin or a socket.  We use the first to implement the WASI
+  // function fd_fdstat_set_flags:
+
+  // Special case fcntl(fd, F_GETFL, int flags)
+  fcntlSetFlags: (fd: number, flags: number) => void;
+  // Special case fcntl(fd, F_SETFL, int flags)
+  fcntlGetFlags: (fd: number) => number;
+
+
+
+
+
 
 podman stop cmy22b
 
