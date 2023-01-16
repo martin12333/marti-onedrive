@@ -53,6 +53,8 @@ x
 
 ###sys.stdout=open('/dev/stdout','w')
 # /dev/stderr -> /proc/self/fd/2
+                    #path: "/dev/stderr",
+#
 y=open('/dev/stderr','w')
 ##y=open('/dev/stdout','w')
 y
@@ -509,3 +511,9 @@ ls -l
   // make a copy here.  This also avoids having to keep a data
   // structure in sync with wasi-js.
 
+
+Set the env variable `DEBUG=wasi*` to see a log of all wasi system calls; this uses the [debug library.](https://www.npmjs.com/package/debug)
+
+## History
+
+This started long ago as a fork of version 0.12.0 of @wasmer/wasi to keep it alive, since the Wasmer company deleted it entirely \(replacing it with a rust rewrite with very different goals\),
