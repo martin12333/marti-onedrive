@@ -18,14 +18,11 @@ podman start   -ai    cmy22b
 
 echo '-------- section: 40-run --------'
 
-
 #sh-session
 
 cd ~/10-cowasm/node_modules/dash-wasm
 
 npx dash-wasm   -x
-
-
 
 cat wrongname1
 cat wrongname1
@@ -49,11 +46,43 @@ python
 aaaaaaaaa
 
 
-
-import os
-#for i in range(5): x[i]=os.fstat(i)
+import os, sys
+##for i in range(5): x[i]=os.fstat(i)
+x=os.fstat(1)
 x=[os.fstat(i)  for i in range(3) ]
 
+
+y=open('/dev/tty','r')
+y
+####sys.stdin=open('/dev/tty','w')
+###open('/dev/tty','w')
+####y=open('/dev/tty','w+')
+###y=open('/dev/tty','wb+')
+##os.open('/dev/tty', os.O_RDWR | os.O_BINARY )
+0 #y=os.open('/dev/tty', os.O_RDWR  )
+0 #y=os.open('/dev/tty',os.O_WRONLY)
+###y=os.open('dev/tty',os.O_WRONLY)
+
+          if (p == "dev/tty") {
+            // special case: "the terminal".
+            // This is used, e.g., in the "less" program in open_tty in ttyin.c
+            // It will work to make a new tty if using the native os, but when
+            // using a worker thread or in browser, it's much simpler to just'
+            // return stdin, which works fine (I think).
+            this.view.setUint32(fdPtr, WASI_STDIN_FILENO, true);
+            return WASI_ESUCCESS;
+
+		cd ~/cowasm
+
+#slightly desperate
+sys.stdout=sys.stderr
+
+
+f=open('1','w')
+
+x
+print(x, file=sys.stderr)
+print(y, file=sys.stderr)
 
 f=open('1','w')
 
@@ -450,3 +479,26 @@ ls -l
 
 ./cat ~/cowasm/R*
 ./cat ~/cowasm/R*
+
+
+
+
+
+
+
+
+
+#include <string.h>
+#char *getpass(const char *prompt)
+	#if ((fd = open("/dev/tty", O_RDWR|O_NOCTTY|O_CLOEXEC)) < 0) return 0;
+
+#t = fopen("/dev/tty", "r+");
+
+#  const STDIN = wasi.FD_MAP.get(0);
+ # const STDOUT = wasi.FD_MAP.get(1);
+  // We use the rights from stdin and stdout when making
+  // a pipe.  These can get closed after startup (e.g., in
+  // the test_subprocess.py cpython tests), so we have to
+  // make a copy here.  This also avoids having to keep a data
+  // structure in sync with wasi-js.
+
