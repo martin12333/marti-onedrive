@@ -43,13 +43,17 @@ python
 aaaaaaaaa
 
 
-f=open('1','w')
 
 import os
 #for i in range(5): x[i]=os.fstat(i)
 x=[os.fstat(i)  for i in range(3) ]
+
+
+f=open('1','w')
+
+
 x
-str(x)
+#str(x)
 
 #x=os.fstat(0)
 #x=os.fstat(1)
@@ -62,7 +66,9 @@ sys.stderr.write('dsfdsf')
 ##f=open('1','w')
 #f=open('a','w')
 #f=open('nc1','w')
-f.write(str(x))
+
+#f.write(str(x))
+
 f.close()
 
 quit()
@@ -76,6 +82,16 @@ dsfdsf(cowasm)$ ^D
 
 cat 1
 mv --backup=numbered -v 1 1.txt
+
+
+
+>>> x
+[os.stat_result(st_mode=8640, st_ino=3, st_dev=98, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673873840, st_mtime=1673873792, st_ctime=1673872027),
+
+ os.stat_result(st_mode=8640, st_ino=0, st_dev=0, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673873843, st_mtime=1673873843, st_ctime=1673873843),
+
+  os.stat_result(st_mode=8640, st_ino=3, st_dev=98, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673873840, st_mtime=1673873792, st_ctime=1673872027)]
+
 
 
 Traceback (most recent call last):
