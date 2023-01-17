@@ -18,13 +18,59 @@ podman start   -ai    cmy22b
 
 echo '-------- section: 40-run --------'
 
-#sh-session
+#```sh-session
 
 cd ~/10-cowasm/node_modules/dash-wasm
 
 npx dash-wasm   -x
 
-cat wrongname1
+python
+
+import os, sys
+os.fstat(1)
+quit()
+
+#```sh-session
+
+os.stat_result(st_mode=8640, st_ino=3, st_dev=98, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673941490, st_mtime=1673941488, st_ctime=1673880218)
+
+#```sh-session
+
+cat anyname1
+
+cat anyname1
+
+echo abc
+
+python
+
+import os, sys
+x=os.fstat(1)
+print(x, file=sys.stderr)
+
+#```sh-session
+
+
+os.stat_result(st_mode=8640, st_ino=0, st_dev=0, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673941624, st_mtime=1673941624, st_ctime=1673941624)
+
+
+
+
+
+
+
+
+
+x=sys.stdout
+y=sys.__stdout__
+
+
+
+
+
+
+
+
 cat wrongname1
 cat /cowasm/usr/share/termcap
 

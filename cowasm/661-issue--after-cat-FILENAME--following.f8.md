@@ -153,3 +153,106 @@ done POST UPSTREAM
 
 ####./cat cat  # problems with my terminal ... so i   restarted ... ... eventually the entire WSL
 
+
+
+
+
+
+## stdout is closed
+
+I suspected, that after the end of the `cat`, the parent shell's stdout is in the closed state.
+
+Experiment:
+
+```sh-session
+
+cd ~/10-cowasm/node_modules/dash-wasm
+
+npx dash-wasm   -x
+
+python
+
+import os, sys
+os.fstat(1)
+quit()
+
+```sh-session
+
+os.stat_result(st_mode=8640, st_ino=3, st_dev=98, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673941490, st_mtime=1673941488, st_ctime=1673880218)
+
+```sh-session
+
+cat anyname1
+
+cat anyname1
+
+echo abc
+
+python
+
+import os, sys
+x=os.fstat(1)
+print(x, file=sys.stderr)
+
+```sh-session
+
+
+os.stat_result(st_mode=8640, st_ino=0, st_dev=0, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673941624, st_mtime=1673941624, st_ctime=1673941624)
+
+
+
+
+Hypothesis: there is only one stdout for cat.wasm, dash.wasm, python.wasm ?
+
+
+I plan to learn how to use the DEBUG ... https://www.npmjs.com/package/debug
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+stdout is closed
+I suspected, that after the end of the cat (wasm), the stdout of the parent shell (the dash in wasm) is in the closed state.
+
+Experiment:
+
+cd ~/10-cowasm/node_modules/dash-wasm
+npx dash-wasm   -x
+
+python
+
+import os, sys
+os.fstat(1)
+quit()
+os.stat_result(st_mode=8640, st_ino=3, st_dev=98, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673941490, st_mtime=1673941488, st_ctime=1673880218)
+
+cat anyname1
+cat anyname1
+echo abc
+
+python
+
+import os, sys
+x=os.fstat(1)
+print(x, file=sys.stderr)
+os.stat_result(st_mode=8640, st_ino=0, st_dev=0, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673941624, st_mtime=1673941624, st_ctime=1673941624)
+
+Hypothesis: there is only one stdout in Cowasm kernel 0.27 ... a common stdout for cat, dash, python, ...
+
+I wonder, how it is in a NOMMU config of Toybox, Busybox; with uCLinux.
+
+I plan to learn how to use the DEBUG env var ... https://www.npmjs.com/package/debug
+
+
+
