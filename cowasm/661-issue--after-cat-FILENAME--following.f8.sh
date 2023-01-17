@@ -22,6 +22,30 @@ echo '-------- section: 40-run --------'
 
 cd ~/10-cowasm/node_modules/dash-wasm
 
+DEBUG=*  npx dash-wasm   -x
+clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 npx dash-wasm   -x
 
 python
