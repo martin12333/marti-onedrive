@@ -24,7 +24,13 @@ cd ~/10-cowasm/node_modules/dash-wasm
 
 clear
 DEBUG=*  npx dash-wasm   -x
-DEBUG  npx dash-wasm   .txt
+DEBUG_DEPTH=2 DEBUG=*  npx dash-wasm   -x
+DEBUG_DEPTH=3 DEBUG=*  npx dash-wasm   -x
+DEBUG_DEPTH=0 DEBUG=*  npx dash-wasm   -x
+DEBUG_DEPTH=4  DEBUG=*  npx dash-wasm   -x
+
+
+DEBUG  npx dash-wasm.md
 
 aaaaaaaaaa
 
