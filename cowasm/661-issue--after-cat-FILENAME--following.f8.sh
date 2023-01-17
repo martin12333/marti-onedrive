@@ -22,11 +22,24 @@ echo '-------- section: 40-run --------'
 
 cd ~/10-cowasm/node_modules/dash-wasm
 
-DEBUG=*  npx dash-wasm   -x
 clear
+DEBUG=*  npx dash-wasm   -x
+DEBUG  npx dash-wasm   .txt
+
+aaaaaaaaaa
 
 
+f12
+localStorage.debug = '*'
+localStorage.debug = 'worker:*'
 
+In Chromium-based web browsers (e.g. Brave, Chrome, and Electron), the JavaScript console will—by default—only show messages logged by debug if the "Verbose" log level is enabled.
+
+DEBUG	Enables/disables specific debugging namespaces.
+DEBUG_HIDE_DATE	Hide date from debug output (non-TTY).
+DEBUG_COLORS	Whether or not to use colors in the debug output.
+DEBUG_DEPTH	Object inspection depth.
+DEBUG_SHOW_HIDDEN	Shows hidden properties on inspected objects.
 
 
 
