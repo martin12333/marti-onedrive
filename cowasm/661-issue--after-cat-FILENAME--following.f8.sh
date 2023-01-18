@@ -117,8 +117,8 @@ y=sys.__stdout__
 
 
 
-
-
+C:\Users\marti\OneDrive\cowasm\661-issue--after-cat-FILENAME--following-commands-fail.f8.py
+py
 
 npx dash-wasm   -x
 
@@ -164,6 +164,7 @@ x=[os.fstat(i)  for i in range(4) ]
 ##for i in range(5): x[i]=os.fstat(i)
 x=os.fstat(1)
 x=[os.fstat(i)  for i in range(3) ]
+
 x
 
 f.fileno()

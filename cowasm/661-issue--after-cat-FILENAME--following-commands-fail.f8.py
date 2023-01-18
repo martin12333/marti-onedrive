@@ -21,3 +21,67 @@ echo '-------- section: 40-run --------'
 #```sh-session
 
 cd ~/10-cowasm/node_modules/dash-wasm
+
+
+
+
+
+
+npx dash-wasm   -x
+
+
+npx kernel ./node_modules/@cowasm/cpython/dist/wasm/bin/python3.11.wasm
+npx kernel ./node_modules/@cowasm/dash/dist/wasm/bin/dash -x
+npx kernel
+
+
+cat wrongname1
+cat /cowasm/usr/share/termcap
+
+#
+cat
+cat R*
+cat R*
+
+ls /cowasm/usr/bin
+echo abc
+(cowasm)$ echo abc
++ echo abc
+sh: 2: echo: echo: I/O error
+
+
+python
+# i cannot see what i am typing
+
+
+
+
+
+
+
+
+import os, sys
+
+
+
+f=open('a','w'); f.write('a')
+g=open('g','w'); g.write('gg')
+h=open('h','w'); h.write('hhh')
+
+
+f=open('a','w'); f.write('aa')
+g=open('g','w'); g.write('gg2')
+h=open('h','w'); h.write('hhh2')
+
+
+
+
+
+
+
+x=[os.fstat(i)  for i in range(6) ];   x
+
+
+
+
+quit()#
