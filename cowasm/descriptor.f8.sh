@@ -32,8 +32,8 @@ ls -latr
 
 
 grep -E -i -o --recursive --no-filename '.{0,5}descriptor.{0,145}'  |sort |uniq -c|grep -i file| sort -n
-grep -E -i  --recursive --files-with-matches '.{0,5}file.*{0,5}descriptor.{0,145}'
-grep -E -i  --recursive  '.{0,5}file.*{0,5}descriptor.{0,145}'
+grep -E -i  --recursive --files-with-matches '.{0,5}file.{0,5}descriptor.{0,145}'
+grep -E -i  --recursive -o    '.{0,5}file.{0,5}descriptor.{0,145}'
 
 grep --help|grep filena
 
