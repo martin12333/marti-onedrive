@@ -53,15 +53,7 @@ sh: 2: echo: echo: I/O error
 python
 # i cannot see what i am typing
 
-
-
-
-
-
-
-
 import os, sys
-
 
 f=open('a','w'); f.write('a')
 g=open('g','w'); g.write('gg')
@@ -80,12 +72,38 @@ h=open('h','w'); h.write('hhh23')
 
 
 
+f.close()
+g.close()
+h.close()
 
 
 
-x=[os.fstat(i)  for i in range(7) ];   x
+os.close(5)
+
+
+os.close(2)
+4545
+print(4587, file=sys.stderr)
+print(4587)
+
+# for i in range(6): print(i,os.fstat(i), file=sys.stderr)
+
+
+sys.stderr.close()
+
+ for i in range(6): print(i,os.fstat(i))
+
+
+
+
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+OSError: [Errno 9] Bad file descriptor
+
 x=[os.fstat(i)  for i in range(6) ];   x
-
+x=[os.fstat(i)  for i in range(7) ];   x
+x
 
 
 
