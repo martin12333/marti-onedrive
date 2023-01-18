@@ -120,3 +120,28 @@ stat --help
 stat -t *
 stat -t /dev/s*
 stat  -L -t /dev/s*
+
+
+
+python
+import os, sys
+
+os.fstatvfs(2)
+
+os.statvfs_result(f_bsize=4096, f_frsize=4096, f_blocks=0, f_bfree=0, f_bavail=0, f_files=0, f_ffree=0, f_favail=0, f_flag=4106, f_namemax=255)
+
+
+ os.statvfs('/dev')
+ #os.statvfs('/cowasm')
+ #os.statvfs('/cowasm/usr')
+os.statvfs_result(f_bsize=4096, f_frsize=4096, f_blocks=16384, f_bfree=16384, f_bavail=16384, f_files=300594, f_ffree=300577, f_favail=300577, f_flag=10, f_namemax=255)
+>>>
+
+ os.statvfs('/')
+os.listdir('/cowasm')
+
+ os.fdopen(1)
+<_io.TextIOWrapper name=1 mode='r' encoding='UTF-8'>
+
+quit()
+ls /cowasm
