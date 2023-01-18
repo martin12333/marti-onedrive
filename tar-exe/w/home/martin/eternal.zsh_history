@@ -8117,3 +8117,10 @@ done}| grep -i '[/]etc[/]'
 : 1673594117:0;cd /mnt/d/umarti/dowNLOADS--SYMLINKED
 : 1673594126:0;{for x in *.zip ; do ; zipgrep  'dev[/]tty'  $x  ; done}
 : 1673594213:0;{for x in *.zip ; do ; zipgrep  'dev[/]tty'  $x  ; done}  | tee 231d22
+: 1674056632:0;man node
+: 1674056659:0;man -k stat
+: 1674056718:0;man -k stat|grep man -k stat|grep -i file
+: 1674056721:0;man -k stat|grep -i file
+: 1674056859:0;man -k printf
+: 1674056881:0;man --help
+: 1674056968:0;man -a node

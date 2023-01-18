@@ -27,8 +27,9 @@ ls -latr
 
 
 
-
-
+ man -k stat|grep -i file
+ man -k printf
+man --help
 
 
 grep -E -i -o --recursive --no-filename '.{0,5}descriptor.{0,145}'  |sort |uniq -c|grep -i file| sort -n
@@ -62,3 +63,23 @@ grep -E -i --recursive "file descriptor used as standard"
 
 cd
 grep
+
+
+
+
+
+
+
+
+
+
+
+
+
+    elf)
+        file "${MC_EXT_FILENAME}" && nm -C "${MC_EXT_FILENAME}"
+        ;;
+
+cat ~/OneDrive/cowasm/mc--nm-C/node.nm-C | grep -i stat
+
+

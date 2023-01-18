@@ -547,3 +547,6 @@ done}| grep -i '[.]wasm$'
 : 1673794065:0;mc
 : 1673794196:0;file *
 : 1673794646:0;python3
+: 1674056609:0;D:/conda/Scripts/activate
+: 1674056609:0;conda activate base
+: 1674056617:0;man node
