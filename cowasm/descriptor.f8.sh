@@ -82,6 +82,12 @@ grep
 
 cat ~/OneDrive/cowasm/mc--nm-C/node.nm-C | grep -i stat |grep  -- '-'
 cat ~/OneDrive/cowasm/mc--nm-C/node.nm-C | grep -iE 'stat\b' |tr '_' '-'|grep node::
+cat ~/OneDrive/cowasm/mc--nm-C/node.nm-C |grep node::|tr '_' '-'| grep -iE '\bstat[(]'
+cat ~/OneDrive/cowasm/mc--nm-C/node.nm-C |grep node::|tr '_' '-'| grep -iE 'd.stat'
+cat ~/OneDrive/cowasm/mc--nm-C/node.nm-C |grep node::|tr '_' '-'| grep -iE 'dstat'
+cat ~/OneDrive/cowasm/mc--nm-C/node.nm-C |grep node::|tr '_' '-'| grep -iE 'fstat'
+cat ~/OneDrive/cowasm/mc--nm-C/node.nm-C |grep node::|tr '_' '-'| grep -iE -o '..stat[(]' |sort -u
+cat ~/OneDrive/cowasm/mc--nm-C/node.nm-C |grep node::|tr '_' '-'| grep -iE -o '..stat[(]' |sort -u
 
 
 00000000013a2520 T uv-fs-fstat
@@ -125,3 +131,13 @@ cat ~/OneDrive/cowasm/mc--nm-C/node.nm-C | grep -iE 'stat\b' |tr '_' '-'|grep no
 00000000013a2910 T uv-fs-lstat
 00000000013a3830 T uv-fs-stat
 00000000016ff650 t uvwasi--stat-to-filestat
+
+
+
+
+
+
+0000000000acaa20 T node::wasi::WASI::FdFdstatGet(v8::FunctionCallbackInfo<v8::Value> const&)
+
+
+
