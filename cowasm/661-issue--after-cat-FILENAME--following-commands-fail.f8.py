@@ -22,8 +22,9 @@ echo '-------- section: 40-run --------'
 
 cd ~/10-cowasm/node_modules/dash-wasm
 
-
-
+ls -latr
+rm -i core
+y
 
 
 
