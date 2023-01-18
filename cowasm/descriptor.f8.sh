@@ -87,7 +87,7 @@ cat ~/OneDrive/cowasm/mc--nm-C/node.nm-C |grep node::|tr '_' '-'| grep -iE 'd.st
 cat ~/OneDrive/cowasm/mc--nm-C/node.nm-C |grep node::|tr '_' '-'| grep -iE 'dstat'
 cat ~/OneDrive/cowasm/mc--nm-C/node.nm-C |grep node::|tr '_' '-'| grep -iE 'fstat'
 cat ~/OneDrive/cowasm/mc--nm-C/node.nm-C |grep node::|tr '_' '-'| grep -iE -o '..stat[(]' |sort -u
-cat ~/OneDrive/cowasm/mc--nm-C/node.nm-C |grep node::|tr '_' '-'| grep -iE -o '..stat[(]' |sort -u
+cat ~/OneDrive/cowasm/mc--nm-C/node.nm-C |grep uvwasi_| grep -iE  '......stat' |sort -u
 
 
 00000000013a2520 T uv-fs-fstat
