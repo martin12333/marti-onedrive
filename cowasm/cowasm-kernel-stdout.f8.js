@@ -158,8 +158,18 @@ px dash-wasm   -x
 
 
 	posix:return cowasm_vforkexec 0 +16ms
-	
+
   not
 
 
   wasi environ_sizes_get [ 1048572, 1048568 ] +0ms
+
+
+
+
+  const tty = require('tty');
+
+
+  tty.isatty(process.stderr.fd);
+
+  

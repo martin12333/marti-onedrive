@@ -28,23 +28,27 @@ DEBUG_DEPTH=2 DEBUG=*  npx dash-wasm   -x
 DEBUG_DEPTH=3 DEBUG=*  npx dash-wasm   -x
 DEBUG_DEPTH=0 DEBUG=*  npx dash-wasm   -x
 DEBUG_DEPTH=4  DEBUG=*  npx dash-wasm   -x
+/**
+ * Build up the default `inspectOpts` object from the environment variables.
+ *
+ *   $ DEBUG_COLORS=no DEBUG_DEPTH=10 DEBUG_SHOW_HIDDEN=enabled node script.js
+ */
 
 
-DEBUG  npx dash-wasm.md
+# DEBUGnpxdash-wasm.md
 
-aaaaaaaaaa
 
 
 f12
 localStorage.debug = '*'
 localStorage.debug = 'worker:*'
 
-In Chromium-based web browsers (e.g. Brave, Chrome, and Electron), the JavaScript console will—by default—only show messages logged by debug if the "Verbose" log level is enabled.
+In Chromium-based web browsers (e.g. Brave, Chrome, and Electron), the JavaScript console will—by default—only show messages 	logged by debug if the "Verbose" log level is enabled.
 
 DEBUG	Enables/disables specific debugging namespaces.
 DEBUG_HIDE_DATE	Hide date from debug output (non-TTY).
 DEBUG_COLORS	Whether or not to use colors in the debug output.
-DEBUG_DEPTH	Object inspection depth.
+#DEBUG_DEPTH	Object inspection depth.
 DEBUG_SHOW_HIDDEN	Shows hidden properties on inspected objects.
 
 
@@ -114,6 +118,11 @@ y=sys.__stdout__
 
 
 
+
+
+npx dash-wasm   -x
+
+
 cat wrongname1
 cat /cowasm/usr/share/termcap
 
@@ -135,10 +144,38 @@ python
 aaaaaaaaa
 
 import os, sys
+
+f=open('a','w'); f.write('a')
+g=open('g','w'); g.write('gg')
+h=open('h','w'); h.write('hhh')
+
+#st_ino=347356, st_dev=2080
+ os.stat_result(st_mode=33188, st_ino=347356, st_dev=2080, st_nlink=1, st_uid=1000, st_gid=1000, st_size=0,
+
+os.stat_result(st_mode=16832, st_ino=1, st_dev=0,
+ os.stat_result(st_mode=16832, st_ino=1, st_dev=0, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1674032981, st_mtime=1674032981, st_ctime=1674032981), os.stat_result(st_mode=33216, st_ino=347356, st_dev=2080,
+ os.stat_result(st_mode=33216, st_ino=313667, st_dev=2080,
+
+
+
+x=[os.fstat(i)  for i in range(6) ]
+x=[os.fstat(i)  for i in range(5) ]
+x=[os.fstat(i)  for i in range(4) ]
 ##for i in range(5): x[i]=os.fstat(i)
 x=os.fstat(1)
 x=[os.fstat(i)  for i in range(3) ]
 x
+
+f.fileno()
+g.fileno()
+h.fileno()
+print(x, file=sys.stderr)
+
+
+#f.close()
+quit()#
+ls -l
+
 
 ###sys.stdout=open('/dev/stdout','w')
 # /dev/stderr -> /proc/self/fd/2
@@ -177,7 +214,11 @@ y
 #slightly desperate
 sys.stdout=sys.stderr
 
+
+
+
 f=open('1','w')
+f=open('a','w')
 
 x
 print(x, file=sys.stderr)
