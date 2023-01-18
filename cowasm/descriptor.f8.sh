@@ -22,13 +22,43 @@ echo '-------- section: 40-run --------'
 cd ~/10-cowasm
 cd ~/10-cowasm/node_modules/dash-wasm
 
-
-grep -E -i -o --recursive --no-filename '.{0,5}descriptor.{0,25}'  |sort |uniq -c|grep -i file| sort -n| grep -i std
-grep -E -i -o --recursive --no-filename '.{0,5}descriptor.{0,25}'  |sort |uniq -c|grep -i file| sort -n| grep -i stand
+ls -latr
 
 
 
 
+
+
+
+
+grep -E -i -o --recursive --no-filename '.{0,5}descriptor.{0,145}'  |sort |uniq -c|grep -i file| sort -n
+grep -E -i  --recursive --files-with-matches '.{0,5}file.*{0,5}descriptor.{0,145}'
+grep -E -i  --recursive  '.{0,5}file.*{0,5}descriptor.{0,145}'
+
+grep --help|grep filena
+
+
+
+
+grep -E -i -o --recursive --no-filename '.{0,5}descriptor.{0,145}'  |sort |uniq -c|grep -i file| sort -n| grep -i std
+grep -E -i -o --recursive --no-filename '.{0,5}descriptor.{0,145}'  |sort |uniq -c|grep -i file| sort -n| grep -i stand
+
+
+     1 file descriptor n2 as stdin (or fd n1).
+      1 file descriptor n2 as stdout (or fd n1).
+grep -E -i -o --recursive "file descriptor n"
+
+
+      2 file_descriptor - 1 for stdout
+grep -E -i --recursive "file_descriptor "
+
+
+      2 file descriptor used as standard error in the WebAssembly application.
+      2 file descriptor used as standard input in the WebAssembly application.
+      2 file descriptor used as standard output in the WebAssembly application.
+
+
+grep -E -i --recursive "file descriptor used as standard"
 
 cd
 grep
