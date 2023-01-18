@@ -23,7 +23,8 @@ cd ~/10-cowasm
 cd ~/10-cowasm/node_modules/dash-wasm
 
 
-
+grep -E -i -o --recursive --no-filename '.{0,5}descriptor.{0,25}'  |sort |uniq -c|grep -i file| sort -n| grep -i std
+grep -E -i -o --recursive --no-filename '.{0,5}descriptor.{0,25}'  |sort |uniq -c|grep -i file| sort -n| grep -i stand
 
 
 
