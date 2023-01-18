@@ -63,7 +63,6 @@ python
 import os, sys
 
 
-
 f=open('a','w'); f.write('a')
 g=open('g','w'); g.write('gg')
 h=open('h','w'); h.write('hhh')
@@ -75,13 +74,30 @@ h=open('h','w'); h.write('hhh2')
 
 
 
+f=open('a','w'); f.write('aa3')
+g=open('g','w'); g.write('gg23')
+h=open('h','w'); h.write('hhh23')
 
 
 
 
+
+
+x=[os.fstat(i)  for i in range(7) ];   x
 x=[os.fstat(i)  for i in range(6) ];   x
 
 
 
 
 quit()#
+ls -l
+
+stat /dev/*
+stat /dev/s*
+stat ?
+stat -L /dev/s*
+
+stat --help
+stat -t *
+stat -t /dev/s*
+stat  -L -t /dev/s*
