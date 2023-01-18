@@ -162,3 +162,65 @@ import { Union } from "@wapython/unionfs";
   function toNativeFd(fd: number): number {
 
 
+ * `Volume` represents a file system.
+ */
+class Volume {
+    constructor(props = {}) {
+        // I-node number counter.
+        this.ino = 0;
+        // A mapping for i-node numbers to i-nodes (`Node`);
+        this.inodes = {};
+        // List of released i-node numbers, for reuse.
+        this.releasedInos = [];
+        // A mapping for file descriptors to `File`s.
+        this.fds = {};
+
+        // A list of reusable (opened and closed) file descriptors, that should be
+        // used first before creating a new file descriptor.
+        this.releasedFds = [];
+
+        // Max number of open files.
+        this.maxFiles = 10000;
+        // Current number of open files.
+        this.openFiles = 0;
+        this.promisesApi = (0, promises_1.default)(this);
+
+
+
+// this is generic and would work in a browser:
+function devFs() {
+    const vol = memfs_1.Volume.fromJSON({
+        "/dev/stdin": "",
+        "/dev/stdout": "",
+        "/dev/stderr": "",
+    });
+    vol.releasedFds = [0, 1, 2];
+    const fdErr = vol.openSync("/dev/stderr", "w");
+    const fdOut = vol.openSync("/dev/stdout", "w");
+    const fdIn = vol.openSync("/dev/stdin", "r");
+    if (fdErr != 2)
+        throw Error(`invalid handle for stderr: ${fdErr}`);
+    if (fdOut != 1)
+        throw Error(`invalid handle for stdout: ${fdOut}`);
+    if (fdIn != 0)
+        throw Error(`invalid handle for stdin: ${fdIn}`);
+    return (0, memfs_1.createFsFromVolume)(vol);
+
+
+
+
+
+
+
+
+
+// ---------------------------------------- Flags
+// List of file `flags` as defined by Node.
+var FLAGS;
+(function (FLAGS) {
+    // Open file for reading. An exception occurs if the file does not exist.
+    FLAGS[FLAGS["r"] = O_RDONLY] = "r";
+    // Open file for reading and writing. An exception occurs if the file does not exist.
+    FLAGS[FLAGS["r+"] = O_RDWR] = "r+";
+    // Open file for reading in synchronous mode. Instructs the operating system to bypass the local file system cache.
+
