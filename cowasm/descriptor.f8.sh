@@ -141,3 +141,24 @@ cat ~/OneDrive/cowasm/mc--nm-C/node.nm-C |grep uvwasi_| grep -iE  '......stat' |
 
 
 
+  return new Worker(path, {
+  15:       trackUnmanagedFds: false, // this seems incompatible with our use of unionfs/memfs (lots of warnings).
+  16      });
+
+
+
+  1: /* I copied this from unionfs */
+
+
+
+
+
+} from "@cowasm/memfs";
+
+import { Union } from "@wapython/unionfs";
+
+
+
+  function toNativeFd(fd: number): number {
+
+
