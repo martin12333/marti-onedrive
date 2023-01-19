@@ -72,6 +72,85 @@ import os, sys
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+###sys.stdout=open('/dev/stdout','w')
+# /dev/stderr -> /proc/self/fd/2
+                    #path: "/dev/stderr",
+#
+y=open('/dev/stderr','w')
+##y=open('/dev/stdout','w')
+y
+y=open('/dev/tty','r')
+#mm231 dev/tty
+P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\10-cowasm\node_modules\dash-wasm\node_modules\wasi-js\dist\wasi.js
+
+
+
+
+####sys.stdout=open('/dev/tty','w')
+###open('/dev/tty','w')
+####y=open('/dev/tty','w+')
+###y=open('/dev/tty','wb+')
+##os.open('/dev/tty', os.O_RDWR | os.O_BINARY )
+0 #y=os.open('/dev/tty', os.O_RDWR  )
+0 #y=os.open('/dev/tty',os.O_WRONLY)
+###y=os.open('dev/tty',os.O_WRONLY)
+
+
+
+          if (p == "dev/tty") {
+            // special case: "the terminal".
+            // This is used, e.g., in the "less" program in open_tty in ttyin.c
+            // It will work to make a new tty if using the native os, but when
+            // using a worker thread or in browser, it's much simpler to just'
+            // return stdin, which works fine (I think).
+            this.view.setUint32(fdPtr, WASI_STDIN_FILENO, true);
+
+
+
+
+
+
+#slightly desperate
+sys.stdout=sys.stderr
+
+
+# surprise
+f=open('1','w')
+#
+cat 1
+mv --backup=numbered -v 1 1.txt
+
+>>> x=[os.fstat(i)  for i in range(3) ]
+>>> x
+[os.stat_result(st_mode=8640, st_ino=3, st_dev=98, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673873274, st_mtime=1673873264, st_ctime=1673872027), os.stat_result(st_mode=8640, st_ino=258861, st_dev=2080, st_nlink=1, st_uid=0, st_gid=0, st_size=59, st_atime=1673872440, st_mtime=1673873274, st_ctime=1673873274), os.stat_result(st_mode=8640, st_ino=3, st_dev=98, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673873274, st_mtime=1673873264, st_ctime=1673872027)]
+
+
+
+
+
+print(x, file=sys.stderr)
+print(y, file=sys.stderr)
+
+
+
+
+
+
+
+
+
 f=open('a','w'); f.write('a')
 g=open('g','w'); g.write('gg')
 h=open('h','w'); h.write('hhh')

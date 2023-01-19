@@ -251,8 +251,11 @@ sys.stdout=sys.stderr
 
 
 
-
+# surprise
 f=open('1','w')
+
+
+
 f=open('a','w')
 
 x
@@ -269,7 +272,6 @@ x
 #x=os.fstat(2)
 ###x=os.fstat(3)
 ###x=os.fstat(4)
-import sys
 sys.stderr.write('dsfdsf')
 
 ##f=open('1','w')
