@@ -222,8 +222,7 @@ I plan to learn how to use the DEBUG ... https://www.npmjs.com/package/debug
 
 
 
-stdout is closed
-I suspected, that after the end of the cat (wasm), the stdout of the parent shell (the dash in wasm) is in the closed state.
+I suspected, that after the end of the cat (wasm), the stdout of the parent shell (the dash in wasm) is in the closed(?) state.
 
 Experiment:
 
@@ -256,3 +255,9 @@ I plan to learn how to use the DEBUG env var ... https://www.npmjs.com/package/d
 
 
 
+
+Hypothesis: there is only one stdout in Cowasm kernel 0.27 ... a common stdout for cat, dash, python, ...
+
+// I wonder, how it is in a NOMMU config of Toybox, Busybox; with uCLinux; or how it was in MS-DOS //
+
+stdout is not closed

@@ -22,6 +22,18 @@ echo '-------- section: 40-run --------'
 
 cd ~/10-cowasm/node_modules/dash-wasm
 
+
+
+ls -latr
+rm -i core
+y
+
+
+
+
+
+
+
 clear
 DEBUG=*  npx dash-wasm   -x
 DEBUG_DEPTH=2 DEBUG=*  npx dash-wasm   -x
@@ -71,6 +83,12 @@ DEBUG_SHOW_HIDDEN	Shows hidden properties on inspected objects.
 
 npx dash-wasm   -x
 
+
+
+npx kernel ./node_modules/@cowasm/cpython/dist/wasm/bin/python3.11.wasm
+
+
+
 python
 
 import os, sys
@@ -90,6 +108,7 @@ cat anyname1
 echo abc
 
 python
+# i cannot see what i am typing
 
 import os, sys
 x=os.fstat(1)
@@ -98,7 +117,11 @@ print(x, file=sys.stderr)
 #```sh-session
 
 
-os.stat_result(st_mode=8640, st_ino=0, st_dev=0, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673941624, st_mtime=1673941624, st_ctime=1673941624)
+os.stat_result(st_mode=8640,
+
+st_ino=0, st_dev=0,
+
+st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673941624, st_mtime=1673941624, st_ctime=1673941624)
 
 
 
@@ -119,6 +142,7 @@ y=sys.__stdout__
 
 C:\Users\marti\OneDrive\cowasm\661-issue--after-cat-FILENAME--following-commands-fail.f8.py
 py
+
 
 npx dash-wasm   -x
 
@@ -152,8 +176,11 @@ h=open('h','w'); h.write('hhh')
 #st_ino=347356, st_dev=2080
  os.stat_result(st_mode=33188, st_ino=347356, st_dev=2080, st_nlink=1, st_uid=1000, st_gid=1000, st_size=0,
 
+
 os.stat_result(st_mode=16832, st_ino=1, st_dev=0,
- os.stat_result(st_mode=16832, st_ino=1, st_dev=0, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1674032981, st_mtime=1674032981, st_ctime=1674032981), os.stat_result(st_mode=33216, st_ino=347356, st_dev=2080,
+ os.stat_result(st_mode=16832, st_ino=1, st_dev=0, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1674032981, st_mtime=1674032981, st_ctime=1674032981)
+
+  os.stat_result(st_mode=33216, st_ino=347356, st_dev=2080,
  os.stat_result(st_mode=33216, st_ino=313667, st_dev=2080,
 
 
@@ -176,6 +203,13 @@ print(x, file=sys.stderr)
 #f.close()
 quit()#
 ls -l
+
+
+
+
+
+
+
 
 
 ###sys.stdout=open('/dev/stdout','w')

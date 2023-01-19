@@ -36,7 +36,7 @@ npx kernel ./node_modules/@cowasm/dash/dist/wasm/bin/dash -x
 npx kernel
 
 
-cat wrongname1
+cat anyname1
 cat /cowasm/usr/share/termcap
 
 #
@@ -51,10 +51,26 @@ echo abc
 sh: 2: echo: echo: I/O error
 
 
+
+
+
+C:\Users\marti\OneDrive\cowasm\661-issue--after-cat-FILENAME--following.f8.sh
+
+
+
 python
 # i cannot see what i am typing
 
 import os, sys
+
+
+
+
+
+
+
+
+
 
 f=open('a','w'); f.write('a')
 g=open('g','w'); g.write('gg')
@@ -73,6 +89,20 @@ h=open('h','w'); h.write('hhh23')
 
 
 
+
+
+
+
+f.fileno()
+g.fileno()
+h.fileno()
+print(x, file=sys.stderr)
+
+
+
+
+
+
 f.close()
 g.close()
 h.close()
@@ -83,9 +113,11 @@ os.close(5)
 
 
 os.close(2)
+os.close(1)
 4545
 print(4587, file=sys.stderr)
 print(4587)
+
 
 # for i in range(6): print(i,os.fstat(i), file=sys.stderr)
 
@@ -96,6 +128,8 @@ sys.stderr.close()
 
 
 
+output
+C:\Users\marti\OneDrive\cowasm\output--661-issue--after-cat-FILENAME--following-commands-fail.f8.py
 
 
 Traceback (most recent call last):

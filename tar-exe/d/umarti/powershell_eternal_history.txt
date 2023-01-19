@@ -4511,3 +4511,7 @@ podman machine start
 podman start   -ai    cmy22b
 podman machine start
 podman start   -ai    cmy22b
+conda activate base
+podman machine start
+podman stop cmy22b
+podman start   -ai    cmy22b
