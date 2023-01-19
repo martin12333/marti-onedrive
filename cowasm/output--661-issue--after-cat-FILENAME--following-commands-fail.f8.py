@@ -102,3 +102,18 @@ os.stat_result(st_mode=16832, st_ino=1, st_dev=0, st_nlink=1, st_uid=0, st_gid=0
 
 
 
+
+
+
+>>> for i in range(2,6): print(i,os.fstat(i))
+...
+2 os.stat_result(st_mode=8640, st_ino=3, st_dev=98, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1674130266, st_mtime=1674130264, st_ctime=1674123302)
+3 os.stat_result(st_mode=16832, st_ino=1, st_dev=0, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1674129888, st_mtime=1674129888, st_ctime=1674129888)
+4 os.stat_result(st_mode=33216, st_ino=0, st_dev=0, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1674130266, st_mtime=1674130266, st_ctime=1674130266)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+OSError: [Errno 8] Bad file descriptor
+>>>
+
+
+

@@ -159,21 +159,29 @@ h=open('h','w'); h.write('hhh23')
 
 
 
-
+import os,sys
 
 f.fileno()
 g.fileno()
 h.fileno()
 
+os.fstat(4)
+os.fstat(3)
+os.fstat(2)
+os.fstat(1)
 os.fdopen(3)
+os.fdopen(1)
  os.fdopen(3)
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
   File "<frozen os>", line 1030, in fdopen
 IsADirectoryError: [Errno 31] Is a directory: 3
+os.fchdir(3)
+os.fchdir(1)
+os.getcwd()
 
 
-
+cat
 
 f.close()
 g.close()
@@ -191,7 +199,6 @@ print(4587, file=sys.stderr)
 print(4587)
 
 
-# for i in range(6): print(i,os.fstat(i), file=sys.stderr)
 
 
 #sys.stderr.close()
@@ -205,9 +212,17 @@ sys.stdout=sys.stderr
 
 
 
-
+# false alarm
 #####for i in range(6): print(i,os.fstat(i))
+for i in range(6): print(i,os.fstat(i), file=sys.stderr)
 
+
+for i in range(2,6): print(i,os.fstat(i))
+
+hh=open('1')
+hh.fileno()
+hh.readlines()
+for x in open('1'):    print(x)
 
 
 output
