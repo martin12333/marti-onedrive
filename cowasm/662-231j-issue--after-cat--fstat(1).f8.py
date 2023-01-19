@@ -33,3 +33,18 @@ cat
 
 python
 
+
+
+
+import os, sys
+os.fstat(1)
+os.fstat(4)
+
+Python 3.11.0 (main, Nov 29 2022, 20:26:05) [Clang 15.0.3 (git@github.com:ziglang/zig-bootstrap.git 0ce789d0f7a4d89fdc4d9571 on wasi
+Type "help", "copyright", "credits" or "license" for more information.
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+OSError: [Errno 8] Bad file descriptor
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+OSError: [Errno 8] Bad file descriptor
