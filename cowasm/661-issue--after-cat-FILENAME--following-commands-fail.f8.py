@@ -36,6 +36,10 @@ npx kernel ./node_modules/@cowasm/dash/dist/wasm/bin/dash -x
 npx kernel
 
 
+
+
+
+
 cat anyname1
 cat /cowasm/usr/share/termcap
 
@@ -54,10 +58,10 @@ sh: 2: echo: echo: I/O error
 
 
 
-C:\Users\marti\OneDrive\cowasm\661-issue--after-cat-FILENAME--following.f8.sh
+#old C:\Users\marti\OneDrive\cowasm\661-issue--after-cat-FILENAME--following.f8.sh
 
 
-
+quit
 python
 # i cannot see what i am typing
 
@@ -70,18 +74,9 @@ import os, sys
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+y=open('/dev/stdout','w')
+y.fileno()
+os.fstat(3)
 
 
 ###sys.stdout=open('/dev/stdout','w')
@@ -119,11 +114,6 @@ P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\10
 
 
 
-
-
-
-#slightly desperate
-sys.stdout=sys.stderr
 
 
 # surprise
@@ -175,9 +165,13 @@ h=open('h','w'); h.write('hhh23')
 f.fileno()
 g.fileno()
 h.fileno()
-print(x, file=sys.stderr)
 
-
+os.fdopen(3)
+ os.fdopen(3)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<frozen os>", line 1030, in fdopen
+IsADirectoryError: [Errno 31] Is a directory: 3
 
 
 
@@ -203,7 +197,17 @@ print(4587)
 
 sys.stderr.close()
 
- for i in range(6): print(i,os.fstat(i))
+
+
+
+
+#slightly desperate
+sys.stdout=sys.stderr
+
+
+
+
+for i in range(6): print(i,os.fstat(i))
 
 
 
