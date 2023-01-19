@@ -38,7 +38,7 @@ npx kernel
 
 
 
-
+cat
 
 cat anyname1
 cat /cowasm/usr/share/termcap
@@ -76,6 +76,7 @@ import os, sys
 y=open('/dev/stdout','w')
 y.fileno()
 os.fstat(3)
+print(os.fstat(1), file=sys.stderr  )
 
 
 ###sys.stdout=open('/dev/stdout','w')
@@ -83,7 +84,6 @@ os.fstat(3)
                     #path: "/dev/stderr",
 #
 y=open('/dev/stderr','w')
-##y=open('/dev/stdout','w')
 y
 y=open('/dev/tty','r')
 #mm231 dev/tty
