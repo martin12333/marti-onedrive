@@ -17,6 +17,27 @@ podman start   -ai    cmy22b
 
 echo '-------- section: 40-run --------'
 
+
+
+
+
+
+
+
+
+
+This is a fork of https://www.npmjs.com/package/memfs, since there's a bunch of critical bugs and missing maintenance there, which might not be a priority for that project, but are definitely a priority for me (though I'm sending PR's).   Upstream memfs has nearly 12 million downloads a week, so I c'an see why doing these changes would be really scary there!
+
+- switch to package-lock.json instead of yarn's lock'
+
+
+
+
+
+
+
+
+
 #```sh-session
 
 cd ~/10-cowasm
@@ -223,4 +244,80 @@ var FLAGS;
     // Open file for reading and writing. An exception occurs if the file does not exist.
     FLAGS[FLAGS["r+"] = O_RDWR] = "r+";
     // Open file for reading in synchronous mode. Instructs the operating system to bypass the local file system cache.
+
+
+
+
+
+pub extern "wasi_snapshot_preview1" fn fd_renumber(from: fd_t, to: fd_t) errno_t;
+
+pub extern "wasi_snapshot_preview1" fn fd_fdstat_get(fd: fd_t, buf: *fdstat_t) errno_t;
+                // console.log("fd_fdstat_get", fd, stats);
+        const stats = wasi.fstatSync(entry.real);
+
+
+  initWasiFdInfo() {
+
+    // TODO: this is NOT used yet. It currently crashes.
+
+    if (this.env["WASI_FD_INFO"] != null) {
+      // If the environment variable WASI_FD_INFO is set to the
+      // JSON version of a map from wasi fd's to real fd's, then
+      // we also initialize FD_MAP with that, assuming these
+      // are all inheritable file descriptors for ends of pipes.
+      // This is something added for
+      // python-wasm fork/exec support.
+
+
+                for (var _b = __values(_this.fss), _c = _b.next(); !_c.done; _c = _b.next()) {
+
+
+
+
+
+
+pub extern "wasi_snapshot_preview1" fn fd_filestat_get(fd: fd_t, buf: *filestat_t) errno_t;
+
+pub extern "wasi_snapshot_preview1" fn path_open(dirfd: fd_t, dirflags: lookupflags_t, path: [*]const u8, path_len: usize, oflags: oflags_t, fs_rights_base: rights_t, fs_rights_inheriting: rights_t, fs_flags: fdflags_t, fd: *fd_t) errno_t;
+pub extern "wasi_snapshot_preview1" fn fd_read(fd: fd_t, iovs: [*]const iovec_t, iovs_len: usize, nread: *usize) errno_t;
+
+
+
+
+
+    /**
+     * Global file descriptor counter. UNIX file descriptors start from 0 and go sequentially
+     * up, so here, in order not to conflict with them, we choose some big number and descrease
+     * the file descriptor of every new opened file.
+     * @type {number}'
+     * @todo This should not be static, right?'
+     */
+    static fd: number;
+
+
+
+    python_wasm_set_inheritable: (fd: number, inheritable: number) => number;
+    python_wasm_fork_exec: (exec_array_ptr: any, argv_ptr: any, envp_ptr: any, cwd: any, p2cread: any, p2cwrite: any, c2pread: any, c2pwrite: any, errread: any, errwrite: any, errpipe_read: any, errpipe_write: any, close_fds: any, restore_signals: any, call_setsid: any, pgid_to_set: any, call_setgid: any, gid: any, call_setgroups: any, groups_size: any, groups: any, call_setuid: any, uid: any, child_umask: any, child_sigmask: any, py_fds_to_keep: any) => number;
+    cowasm_vforkexec: (argvPtr: number, pathPtr?: number) => number;
+};
+
+
+
+    newFdNumber() {
+        const releasedFd = this.releasedFds.pop();
+        return typeof releasedFd === "number" ? releasedFd : Volume.fd--;
+    }
+
+
+
+exports.Volume = Volume;
+/**
+ * Global file descriptor counter. UNIX file descriptors start from 0 and go sequentially
+ * up, so here, in order not to conflict with them, we choose some big number and descrease
+ * the file descriptor of every new opened file.
+ * @type {number}
+ * @todo This should not be static, right?
+ */
+Volume.fd = 0x7fffffff;
+Volume.fd = 0x7fff   ffff;
 

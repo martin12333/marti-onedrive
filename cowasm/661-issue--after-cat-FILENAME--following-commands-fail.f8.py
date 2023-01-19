@@ -69,9 +69,11 @@ import os, sys
 
 
 
+os.listdir('/cowasm/usr/')
 
-
-
+z=open('/cowasm/usr/share/termcap')
+z.fileno()
+z.close()
 
 y=open('/dev/stdout','w')
 y.fileno()
