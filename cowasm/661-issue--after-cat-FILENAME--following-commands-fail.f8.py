@@ -195,7 +195,7 @@ print(4587)
 # for i in range(6): print(i,os.fstat(i), file=sys.stderr)
 
 
-sys.stderr.close()
+#sys.stderr.close()
 
 
 
@@ -207,7 +207,7 @@ sys.stdout=sys.stderr
 
 
 
-for i in range(6): print(i,os.fstat(i))
+#####for i in range(6): print(i,os.fstat(i))
 
 
 
