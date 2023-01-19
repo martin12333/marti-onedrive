@@ -85,10 +85,34 @@ print(os.fstat(1), file=sys.stderr  )
 #
 y=open('/dev/stderr','w')
 y
+
+
+
 y=open('/dev/tty','r')
+y=open('/dev/tty','w')
 #mm231 dev/tty
 P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\10-cowasm\node_modules\dash-wasm\node_modules\wasi-js\dist\wasi.js
-
+ posix-node tcgetattr [ 0 ] +209ms
+  posix:error tcgetattr Error: tcgetattr - failed
+    at exports.<computed>.mod1.<computed> [as tcgetattr] (/home/vscode/10-cowasm/node_modules/dash-wasm/node_modules/posix-node/dist/index.js:78:34)
+    at Object.tcgetattr (/home/vscode/10-cowasm/node_modules/dash-wasm/node_modules/@cowasm/kernel/dist/wasm/posix/termios.js:188:36)
+    at Q.<computed> (/home/vscode/10-cowasm/node_modules/dash-wasm/node_modules/@cowasm/kernel/dist/wasm/posix/index.js:114:36)
+    at tty_rawmode (wasm://wasm/00521052:wasm-function[514]:0x45201)
+    at el_wgetc (wasm://wasm/00521052:wasm-function[531]:0x46508)
+    at el_wgets (wasm://wasm/00521052:wasm-function[535]:0x46718)
+    at el_gets (wasm://wasm/00521052:wasm-function[413]:0x410e9)
+    at preadfd (wasm://wasm/00521052:wasm-function[610]:0x57e5d)
+    at preadbuffer (wasm://wasm/00521052:wasm-function[599]:0x515c0)
+    at __pgetc (wasm://wasm/00521052:wasm-function[598]:0x50aa8) {
+  code: '9'
+} +0ms
+  posix:error {
+  posix:error   name: 'tcgetattr',
+  posix:error   nativeErrno: 9,
+  posix:error   wasiErrno: 8,
+  posix:error   symbol: 'EBADF',
+  posix:error   args: [ 0, 2884008 ]
+  posix:error } +7ms
 
 
 
@@ -121,9 +145,15 @@ f=open('1','w')
 cat 1
 mv --backup=numbered -v 1 1.txt
 
+
+
+
+i cannot reproduce this:
 >>> x=[os.fstat(i)  for i in range(3) ]
 >>> x
-[os.stat_result(st_mode=8640, st_ino=3, st_dev=98, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673873274, st_mtime=1673873264, st_ctime=1673872027), os.stat_result(st_mode=8640, st_ino=258861, st_dev=2080, st_nlink=1, st_uid=0, st_gid=0, st_size=59, st_atime=1673872440, st_mtime=1673873274, st_ctime=1673873274), os.stat_result(st_mode=8640, st_ino=3, st_dev=98, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673873274, st_mtime=1673873264, st_ctime=1673872027)]
+[os.stat_result(st_mode=8640, st_ino=3, st_dev=98, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673873274, st_mtime=1673873264, st_ctime=1673872027),
+ os.stat_result(st_mode=8640, st_ino=258861, st_dev=2080, st_nlink=1, st_uid=0, st_gid=0, st_size=59, st_atime=1673872440, st_mtime=1673873274, st_ctime=1673873274),
+  os.stat_result(st_mode=8640, st_ino=3, st_dev=98, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673873274, st_mtime=1673873264, st_ctime=1673872027)]
 
 
 
