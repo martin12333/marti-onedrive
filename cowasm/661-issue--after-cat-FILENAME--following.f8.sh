@@ -176,7 +176,7 @@ h=open('h','w'); h.write('hhh')
 #st_ino=347356, st_dev=2080
  os.stat_result(st_mode=33188, st_ino=347356, st_dev=2080, st_nlink=1, st_uid=1000, st_gid=1000, st_size=0,
 
-
+# false alarm
 os.stat_result(st_mode=16832, st_ino=1, st_dev=0,
  os.stat_result(st_mode=16832, st_ino=1, st_dev=0, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1674032981, st_mtime=1674032981, st_ctime=1674032981)
 

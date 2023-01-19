@@ -16,6 +16,8 @@
 
 [os.stat_result(st_mode=8640, st_ino=3, st_dev=98, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1674034094, st_mtime=1674034094, st_ctime=1673979196), os.stat_result(st_mode=8640, st_ino=3, st_dev=98, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1674034094, st_mtime=1674034094, st_ctime=1673979196), os.stat_result(st_mode=8640, st_ino=3, st_dev=98, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1674034094, st_mtime=1674034094, st_ctime=1673979196),
 
+
+#my false alarm
 os.stat_result(st_mode=16832, st_ino=1, st_dev=0, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1674034037, st_mtime=1674034037, st_ctime=1674034037), os.stat_result(st_mode=33216, st_ino=347356, st_dev=2080, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673872710, st_mtime=1674034057, st_ctime=1674034057),
 
 os.stat_result(st_mode=33216, st_ino=313667, st_dev=2080, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1674033179, st_mtime=1674034059, st_ctime=1674034059)]
@@ -58,6 +60,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> x=[os.fstat(i)  for i in range(6) ];   x
 [os.stat_result(st_mode=8640, st_ino=3, st_dev=0, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673966931, st_mtime=1673966931, st_ctime=1673966931), os.stat_result(st_mode=8640, st_ino=4, st_dev=0, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673966931, st_mtime=1673966931, st_ctime=1673966931), os.stat_result(st_mode=8640, st_ino=5, st_dev=0, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673966931, st_mtime=1673966931, st_ctime=1673966931),
 
+# false alarm
 os.stat_result(st_mode=16832, st_ino=1, st_dev=0, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1673966931, st_mtime=1674034926, st_ctime=1674034926), os.stat_result(st_mode=33216, st_ino=6, st_dev=0, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1674034925, st_mtime=1674034925, st_ctime=1674034925), os.stat_result(st_mode=33216, st_ino=7, st_dev=0, st_nlink=1, st_uid=0, st_gid=0, st_size=0, st_atime=1674034925, st_mtime=1674034925, st_ctime=1674034925)]
 >>>
 >>>

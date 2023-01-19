@@ -73,7 +73,6 @@ import os, sys
 
 
 
-
 y=open('/dev/stdout','w')
 y.fileno()
 os.fstat(3)
