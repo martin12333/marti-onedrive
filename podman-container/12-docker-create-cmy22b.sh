@@ -51,6 +51,8 @@ create
 -v  '/mnt/c:/rocdrive:ro'
 
 # port
+-p "5001:5000"
+ -p 9229:9229
 
 
 imy22b13
