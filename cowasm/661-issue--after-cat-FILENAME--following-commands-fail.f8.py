@@ -46,10 +46,15 @@ which -a cowasm
 which -a which
 
 
+netstat -aon | findstr :500
+
 netstat -a | findstr :922
  netstat -a >netstat
  netstat -a
 
+ss -nltp
+
+node --inspect
 node --inspect=9222
 ####node --inspect=5000
 #npx serve #5000
@@ -62,6 +67,9 @@ ip address
 ifconfig
 netstat
 
+http://127.0.0.1:9222/
+
+cat  /etc/containers/podman-machine
 echo '-------- section:  --------'
 
 

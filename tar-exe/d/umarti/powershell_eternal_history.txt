@@ -4539,3 +4539,8 @@ podman exec -it cmy22b /usr/bin/zsh
 netstat
 ifconfig
 ip address
+netstat -aon | findstr :808
+netstat -aon | findstr :80
+netstat -aon | findstr :50
+netstat -aon | findstr :500
+node --inspect=9222
