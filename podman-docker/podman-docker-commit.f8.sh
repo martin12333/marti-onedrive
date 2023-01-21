@@ -52,7 +52,7 @@ podman images | grep 22b
 
 
 if revert or port-forward
-then edit create.sh editline imy22b13
+then edit create.sh editline imy22b13+
 
 	f1 <   create
 		C:\Users\marti\OneDrive\podman-container\12-docker-create-cmy22b.sh
@@ -62,12 +62,10 @@ podman ps --all  |grep 22b
 
 
 history |grep cmy22b
-history |grep cre
-history |grep cd
+history |grep create
+#history |grep cd
+#cd /mnt/c/Users/marti/
 
-
-cd /mnt/c/Users/marti/
-
-bash OneDrive/podman-container/12-docker-create-cmy22b.sh
+bash /mnt/c/Users/marti/OneDrive/podman-container/12-docker-create-cmy22b.sh
 
 echo '-------- section --------'
