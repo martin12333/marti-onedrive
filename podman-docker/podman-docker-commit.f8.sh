@@ -45,13 +45,29 @@ podman stop cmy22b
 
 x=`podman commit cmy22b   `
 echo $x
-podman tag $x imy22b11
+podman tag $x imy22b13
 
 podman images | grep 22b
 
 
 
-if revert then edit create.sh edit imy22b
+if revert or port-forward
+then edit create.sh editline imy22b13
 
+	f1 <   create
+		C:\Users\marti\OneDrive\podman-container\12-docker-create-cmy22b.sh
+
+podman container rm cmy22b
+podman ps --all  |grep 22b
+
+
+history |grep cmy22b
+history |grep cre
+history |grep cd
+
+
+cd /mnt/c/Users/marti/
+
+bash OneDrive/podman-container/12-docker-create-cmy22b.sh
 
 echo '-------- section --------'

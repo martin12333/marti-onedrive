@@ -321,3 +321,13 @@ exports.Volume = Volume;
 Volume.fd = 0x7fffffff;
 Volume.fd = 0x7fff   ffff;
 
+
+ls -la /proc/self/fd
+ls -la /dev/pts/0
+ls -la /proc/self/fdinfo
+cat /proc/self/fdinfo/2
+cat /proc/self/fdinfo/1
+
+sh
+ps -ef
+exit

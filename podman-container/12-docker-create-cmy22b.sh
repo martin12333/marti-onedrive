@@ -26,7 +26,7 @@ create
 
 -it
 --name cmy22b
-     --hostname mybox
+#     --hostname mybox
 
 --userns=keep-id
 
@@ -48,7 +48,12 @@ create
 
 -v  '/mnt/c/Users/marti/OneDrive:/onedri:ro'
 
-imy22b
+-v  '/mnt/c:/rocdrive:ro'
+
+
+
+imy22b13
+#imy22b
 #imy22b11
 
 #--help
