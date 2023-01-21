@@ -4516,3 +4516,26 @@ podman machine start
 podman stop cmy22b
 podman start   -ai    cmy22b
 podman stop cmy22b
+podman start   -ai    cmy22b
+podman container ls --all
+netstat -a | findstr :8000
+netstat -a | findstr :9229
+conda activate base
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr   9229
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr   node
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr   inspe
+node --inspect
+node --inspect=9222
+netstat -a | findstr :9222
+netstat -a | findstr :9223
+netstat -a | findstr :500
+netstat -a >netstat
+cat netstat| findstr :500
+netstat -a >netstat
+cat netstat| findstr :500
+cat netstat| findstr :922
+conda activate base
+podman exec -it cmy22b /usr/bin/zsh
+netstat
+ifconfig
+ip address

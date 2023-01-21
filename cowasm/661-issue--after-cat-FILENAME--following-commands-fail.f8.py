@@ -2,6 +2,9 @@
 
 
 # (a file in the mm_f8_doc pseudo-format)
+import inspect
+
+
 do-not run this file as a whole
 )
 exit
@@ -16,6 +19,8 @@ echo '-------- section --------'
 podman machine start
 podman start   -ai    cmy22b
 
+podman exec -it cmy22b /usr/bin/zsh
+
 echo '-------- section: 40-run --------'
 
 #```sh-session
@@ -25,6 +30,39 @@ cd ~/10-cowasm/node_modules/dash-wasm
 ls -latr
 rm -i core
 y
+
+
+
+
+
+echo '-------- section:  --------'
+
+npx /usr/bin/zsh
+
+node inspect  `which dash-wasm`  -- # -x
+cat `which -a dash-wasm`
+which -a kernel
+which -a cowasm
+which -a which
+
+
+netstat -a | findstr :922
+ netstat -a >netstat
+ netstat -a
+
+node --inspect=9222
+####node --inspect=5000
+#npx serve #5000
+python -m http.server 5000
+python -m http.server 9229
+5001
+###localhost:5001
+
+ip address
+ifconfig
+netstat
+
+echo '-------- section:  --------'
 
 
 

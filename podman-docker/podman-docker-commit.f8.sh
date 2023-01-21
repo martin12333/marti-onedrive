@@ -68,4 +68,6 @@ history |grep create
 
 bash /mnt/c/Users/marti/OneDrive/podman-container/12-docker-create-cmy22b.sh
 
+podman ps --all  |grep 22b
+
 echo '-------- section --------'
