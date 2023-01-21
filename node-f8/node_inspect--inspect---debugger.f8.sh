@@ -84,10 +84,14 @@ node --help | grep inspect
 
 
 
+netstat -aon|grep :9229|grep -v -i waittcp        0      0 0.0.0.0:9229            0.0.0.0:*               LISTEN      off (0.00/0/0)
+tcp        0      0 10.0.2.100:53136        10.0.2.100:9229         ESTABLISHED keepalive (5.35/0/0)
+tcp        0      0 10.0.2.100:9229         10.0.2.100:53136        ESTABLISHED off (0.00/0/0)
+vscode ➜ ~ $
 
 
-
-netstat -aon | findstr :500
+netstat -aon | findstr :9229
+netstat -aon|grep :9229|grep -v -i wait
 
 netstat -a | findstr :922
  netstat -a >netstat
