@@ -4550,3 +4550,4 @@ history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr   no
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr   ^node
 cd 'C:\Users\marti\'
 node --inspect
+node inspect  127.0.0.1:9229

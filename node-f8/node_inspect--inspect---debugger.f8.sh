@@ -23,7 +23,9 @@ y
 
 
 .exit
-node --inspect
+node --inspect=0.0.0.0:9229
+
+
 ###node --inspect  .bin/dash-wasm
 
 npx /usr/bin/zsh
@@ -53,6 +55,7 @@ cd ~/10-cowasm/node_modules/dash-wasm
 
 
 node inspect  127.0.0.1:9229
+node inspect  localhost:9229
 
 
 
