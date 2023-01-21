@@ -4545,3 +4545,8 @@ netstat -aon | findstr :50
 netstat -aon | findstr :500
 node --inspect=9222
 podman exec -it cmy22b /usr/bin/zsh
+node inspect  127.0.0.1:9229
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr   node
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr   ^node
+cd 'C:\Users\marti\'
+node --inspect

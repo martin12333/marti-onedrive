@@ -553,3 +553,4 @@ done}| grep -i '[.]wasm$'
 : 1674300978:0;ip address
 : 1674300983:0;ifconfig
 : 1674300985:0;netstat
+: 1674319802:0;node inspect  127.0.0.1:9229

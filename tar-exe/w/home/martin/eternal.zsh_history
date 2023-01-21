@@ -8126,3 +8126,4 @@ done}| grep -i '[/]etc[/]'
 : 1674056968:0;man -a node
 : 1674314045:0;npm help exec
 : 1674314058:0;npx --help
+: 1674319789:0;node inspect  127.0.0.1:9229
