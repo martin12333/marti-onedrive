@@ -4544,3 +4544,4 @@ netstat -aon | findstr :80
 netstat -aon | findstr :50
 netstat -aon | findstr :500
 node --inspect=9222
+podman exec -it cmy22b /usr/bin/zsh
