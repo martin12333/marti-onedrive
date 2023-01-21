@@ -53,6 +53,11 @@ cd ~/10-cowasm/node_modules/dash-wasm
 
 
 
+node inspect
+Usage: node inspect script.js
+       node inspect <host>:<port>
+       node inspect --port=<port>
+       node inspect -p <pid>
 
 node inspect  127.0.0.1:9229
 node inspect  localhost:9229
