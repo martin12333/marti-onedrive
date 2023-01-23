@@ -4552,3 +4552,4 @@ cd 'C:\Users\marti\'
 node --inspect
 node inspect  127.0.0.1:9229
 netstat -aon | findstr :9229
+ipconfig /all

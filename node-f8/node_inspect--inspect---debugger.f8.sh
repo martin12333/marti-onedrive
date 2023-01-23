@@ -114,6 +114,55 @@ python -m http.server 9229
 localhost:5001
 
 
+ipconfig /all
+
+ IPv4 Address. . . . . . . . . . . : 10.0.0.9(Preferred)
+
+ 
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Intel(R) Ethernet Connection (7) I219-V
+   Physical Address. . . . . . . . . : F8-75-A4-09-60-43
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::9f:f3e7:405a:d4e8%6(Preferred)
+   IPv4 Address. . . . . . . . . . . : 10.0.0.9(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : 17 January, 2023 15:37:13
+   Lease Expires . . . . . . . . . . : 24 January, 2023 10:35:07
+   Default Gateway . . . . . . . . . : 10.0.0.138
+
+
+
+
+Ethernet adapter vEthernet (WSL):
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Hyper-V Virtual Ethernet Adapter #4   Physical Address. . . . . . . . . : 00-15-5D-42-B0-4B
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::975:c28e:2ce0:9ef%38(Preferred)   IPv4 Address. . . . . . . . . . . : 172.26.160.1(Preferred)
+
+
+
+
+Ethernet adapter vEthernet (Default Switch):
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Hyper-V Virtual Ethernet Adapter
+   Physical Address. . . . . . . . . : 00-15-5D-AF-E2-A3
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::877f:409c:57fc:d50f%22(Preferred)
+   IPv4 Address. . . . . . . . . . . : 172.29.0.1(Preferred)
+
+
+
+
+
+
+
 ip address
 ifconfig
 netstat
