@@ -554,3 +554,6 @@ done}| grep -i '[.]wasm$'
 : 1674300983:0;ifconfig
 : 1674300985:0;netstat
 : 1674319802:0;node inspect  127.0.0.1:9229
+: 1674471239:0;hostname -a
+: 1674471645:0;ipconfig --all
+: 1674471651:0;bash

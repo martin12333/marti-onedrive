@@ -114,11 +114,39 @@ python -m http.server 9229
 localhost:5001
 
 
-ipconfig /all
+
+hostname -a
+
+arp -a|findstr 160
+arp -a|findstr 139
+arp /a
+arp -a
+
+Interface: 172.26.160.1 --- 0x26
+  Internet Address      Physical Address      Type
+  172.26.175.139        00-15-5d-ec-25-a7     dynamic
+
+
+uname -a
+cat /etc/os-release
+20
+man ifconfig
+ifconfig -a|grep 139
+#ifconfig -a|grep 160
+ifconfig --help
+arp -a #|grep 139
+arp -a |grep 160
+
+
+
+w
+#ipconfig /all|findstr 139
+ipconfig /all|findstr 160
+ipconfig /all|findstr 10.0
 
  IPv4 Address. . . . . . . . . . . : 10.0.0.9(Preferred)
 
- 
+
 Ethernet adapter Ethernet:
 
    Connection-specific DNS Suffix  . :

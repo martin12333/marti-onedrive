@@ -4553,3 +4553,14 @@ node --inspect
 node inspect  127.0.0.1:9229
 netstat -aon | findstr :9229
 ipconfig /all
+arp
+arp
+arp -a
+ipconfig /all|findstr 139
+arp -a|findstr 139
+arp /a|findstr 139
+arp /a
+ipconfig /all|findstr 160
+ipconfig /all|findstr 139
+ifconfig --help
+ifconfig -a

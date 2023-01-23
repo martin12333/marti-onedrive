@@ -8127,3 +8127,19 @@ done}| grep -i '[/]etc[/]'
 : 1674314045:0;npm help exec
 : 1674314058:0;npx --help
 : 1674319789:0;node inspect  127.0.0.1:9229
+: 1674471437:0;arp -a
+: 1674471639:0;ipconfig --all
+: 1674471698:0;ifconfig --all
+: 1674471706:0;ifconfig
+: 1674471719:0;ifconfig --help
+: 1674471742:0;man ifconfig
+: 1674471773:0;ifconfig -a
+: 1674472259:0;uname -a
+: 1674472273:0;cat /etc/os-release
+: 1674472285:0;ifconfig -a
+: 1674472299:0;ifconfig -a|grep 139
+: 1674472307:0;ifconfig -a|grep 160
+: 1674472332:0;arp /a
+: 1674472338:0;arp -a|findstr 139
+: 1674472346:0;hostname -a
+: 1674472366:0;arp -a|findstr 139
