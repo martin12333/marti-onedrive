@@ -8169,3 +8169,9 @@ done}| grep -i '[/]etc[/]'
 : 1674479847:0;ns
 : 1674479867:0;nslookup
 : 1674480199:0;ip address
+: 1674480313:0;man ifconfig
+: 1674480341:0;ifconfig -a
+: 1674482158:0;ping len20.local
+: 1674482175:0;nslookup  len20.local
+: 1674482221:0;ip route
+: 1674482503:0;wsl hostname -I

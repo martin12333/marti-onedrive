@@ -4580,3 +4580,8 @@ ip
 netstat --help
 nslookup
 ip address
+ipconfig /all
+wsl hostname -i
+netsh interface ipv4 show neighbors
+ping len20.local
+wsl hostname -I

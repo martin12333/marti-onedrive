@@ -287,6 +287,47 @@ Ethernet adapter vEthernet (Default Switch):
 
 
 
+ip route
+ping len20.local
+nslookup  len20.local
+
+wsl hostname -i
+wsl hostname -I
+
+
+
+netsh interface ipv4 show neighbors
+
+
+
+Interface 6: Ethernet
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+
+10.0.0.1                                      00-17-88-61-1b-8e  Reachable
+10.0.0.3                                      00-00-00-00-00-00  Unreachable
+
+10.0.0.4                                      00-00-00-00-00-00  Unreachable
+
+10.0.0.6                                      fc-f1-36-80-aa-fe  Stale
+10.0.0.8                                      80-9f-9b-8f-7b-18  Reachable
+10.0.0.11                                     6c-19-8f-a2-9e-4b  Reachable
+10.0.0.14                                     00-00-00-00-00-00  Unreachable
+
+10.0.0.138                                    dc-f8-b9-ae-97-a3  Reachable
+10.0.0.255
+
+
+
+
+
+
+
+
+
+
 
 
 
