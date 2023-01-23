@@ -88,6 +88,40 @@ node --help | grep inspect
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+get my ip address wsl2
+
+
+ll worked (also as the default, non-root user)
+
+cat /etc/resolv.conf
+cat /etc/hostname
+cat  /etc/hosts
+
+cat /proc/net/fib_trie
+#ls -l /proc/self/net
+#ls -l /proc/net
+
+ were still automatically regenerated at boot.
+Networking was up -- Ping by DNS worked,
+cat /proc/net/fib_trie
+ returned the IP address (NAT'd, of course, as WSL2 is).'
+
+
+
+
+
 netstat --help
 netstat -aon|grep :9229|grep -v -i waittcp        0      0 0.0.0.0:9229            0.0.0.0:*               LISTEN      off (0.00/0/0)
 tcp        0      0 10.0.2.100:53136        10.0.2.100:9229         ESTABLISHED keepalive (5.35/0/0)
@@ -243,6 +277,10 @@ Ethernet adapter vEthernet (Default Switch):
 
 ip a help
 ip address
+
+
+
+
 
 http://127.0.0.1:9222/
 http://127.0.0.1:5001

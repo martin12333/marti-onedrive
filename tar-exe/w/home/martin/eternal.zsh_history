@@ -8155,3 +8155,13 @@ done}| grep -i '[/]etc[/]'
 : 1674473277:0;ipconfig --help
 : 1674473325:0;ip
 : 1674473329:0;ip a
+: 1674473371:0;ip a --help
+: 1674473379:0;ip a help
+: 1674478191:0;netstat --help
+: 1674478316:0;cat /etc/resolv.conf   /etc/hostname  /etc/hosts
+: 1674478353:0;cat /etc/resolv.conf
+: 1674478623:0;cat /etc/hostname
+: 1674478627:0;cat  /etc/hosts
+: 1674478665:0;cat /etc/hostname
+: 1674478666:0;cat  /etc/hosts
+: 1674479129:0;cat /proc/net/fib_trie
