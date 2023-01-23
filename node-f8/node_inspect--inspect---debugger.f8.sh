@@ -188,11 +188,11 @@ arp --help
 
 arp /a
 
+arp
 arp -a|findstr 160
 arp -a|findstr 139
 arp /a
 arp -a
-
 
 
 Interface: 172.26.160.1 --- 0x26
@@ -200,8 +200,24 @@ Interface: 172.26.160.1 --- 0x26
   172.26.175.139        00-15-5d-ec-25-a7     dynamic
 
 
+nslookup
+help
+####ls local
+##cmy22b.local
+#bash
+#sudo apt install nslookup
 
 
+
+
+
+
+
+
+
+ip a help
+ip address
+exit
 
 
 
@@ -210,10 +226,11 @@ cat /etc/os-release
 20
 ifconfig --help
 
+ifconfig --help
 man ifconfig
+ifconfig -a
 ifconfig -a|grep 139
 #ifconfig -a|grep 160
-ifconfig --help
 arp -a #|grep 139
 arp -a |grep 160
 
@@ -222,6 +239,7 @@ arp -a |grep 160
 w
 ipconfig --help
 #ipconfig /all|findstr 139
+ipconfig /all
 ipconfig /all|findstr 160
 ipconfig /all|findstr 10.0
 
@@ -268,15 +286,6 @@ Ethernet adapter vEthernet (Default Switch):
 
 
 
-
-
-
-
-
-
-
-ip a help
-ip address
 
 
 
