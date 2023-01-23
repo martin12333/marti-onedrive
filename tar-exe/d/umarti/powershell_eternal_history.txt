@@ -4564,3 +4564,16 @@ ipconfig /all|findstr 160
 ipconfig /all|findstr 139
 ifconfig --help
 ifconfig -a
+arp /a
+arp -a|findstr 139
+arp -a
+arp /a
+arp -a
+arp -a|findstr 139
+arp -a|findstr 160
+ipconfig /all|findstr 10.0
+arp --help
+netstat --help
+ifconfig --help
+ipconfig --help
+ip

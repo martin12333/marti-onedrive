@@ -8143,3 +8143,15 @@ done}| grep -i '[/]etc[/]'
 : 1674472338:0;arp -a|findstr 139
 : 1674472346:0;hostname -a
 : 1674472366:0;arp -a|findstr 139
+: 1674472373:0;arp -a|grep 139
+: 1674472378:0;arp -a #|grep 139
+: 1674472407:0;arp -a |grep 160
+: 1674472773:0;man arp| grep -- -a
+: 1674472788:0;man arp
+: 1674472988:0;arp --help
+: 1674473024:0;ss --help
+: 1674473097:0;netstat --help
+: 1674473240:0;ifconfig --help
+: 1674473277:0;ipconfig --help
+: 1674473325:0;ip
+: 1674473329:0;ip a
