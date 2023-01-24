@@ -15,7 +15,46 @@ echo '-------- section --------'
 podman machine start
 podman start   -ai    cmy22b
 
-echo '-------- section: 40-run --------'
+echo '-------- section: --------'
+
+
+packages\cowasm.sh\package.json
+"dash-wasm": "^0.7.5",
+
+"http-server": "^14.1.1",
+"webpack-dev-server": "^4.9.3",
+
+P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\cowasm\packages\dash-wasm\package.json
+
+packages\dash-wasm\package.json
+
+
+"dependencies": {
+    "@cowasm/kernel": "^0.28.0",
+
+
+"devDependencies": {
+    "@cowasm/coreutils": "^1.0.1",
+    "@cowasm/dash": "^1.0.0",
+    "@cowasm/tar": "^1.0.1",
+
+	packages\coreutils\package.json
+
+	"devDependencies": {
+		"@cowasm/posix-wasm": "^1.0.3",
+
+		packages\dash\package.json
+
+		"devDependencies": {
+			"@cowasm/kernel": "^0.27.9",
+			"@cowasm/posix-wasm": "^1.0.3",
+
+
+
+
+
+
+echo '-------- section:  --------'
 
 // https://github.com/debug-js/debug#readme
 
@@ -56,6 +95,15 @@ run.
 */
 
 
+import debug from "debug";
+import { format } from "util";
+import { appendFileSync } from "fs";
+
+if (process.env.DEBUG_FILE) {
+  const debugFilename = process.env.DEBUG_FILE;
+  debug.log = (...args) => {
+    const s = format(...args);
+    appendFileSync(debugFilename, s + "\n");
 
 
 
@@ -77,8 +125,8 @@ noStdio?: boolean; // for nodejs -- do NOT use process.stdin, process.stdout, an
 
 locking files, but most importantly for us, for setting whether
 reading from a fd is nonblocking (very important for stdin)
-or should time out after a certain amount of time (e.g., very
-important for a network socket).
+//or should time out after a certain amount of time (e.g., very
+// important for a network socket).
 
 
 
@@ -107,7 +155,7 @@ log("before change", {
 
 
 
-px dash-wasm   -x
+npx dash-wasm   -x
   wasm:worker running in the main thread +0ms
   posix-node makeStdinBlocking [] +0ms
   posix-node makeStdinBlocking returned undefined +1ms
@@ -172,4 +220,3 @@ px dash-wasm   -x
 
   tty.isatty(process.stderr.fd);
 
-  
