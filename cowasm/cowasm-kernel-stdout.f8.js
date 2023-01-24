@@ -18,6 +18,16 @@ podman start   -ai    cmy22b
 echo '-------- section: --------'
 
 
+
+
+
+
+
+
+
+
+echo '-------- section: --------'
+
 packages\cowasm.sh\package.json
 "dash-wasm": "^0.7.5",
 
@@ -38,6 +48,8 @@ packages\dash-wasm\package.json
     "@cowasm/dash": "^1.0.0",
     "@cowasm/tar": "^1.0.1",
 
+
+
 	packages\coreutils\package.json
 
 	"devDependencies": {
@@ -50,6 +62,110 @@ packages\dash-wasm\package.json
 			"@cowasm/posix-wasm": "^1.0.3",
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+			packages\kernel\package.json
+
+
+
+
+
+			SEE fork-exec.ts and posix-context.ts for partial solutions to the above for the fork/exec pattern!
+
+			posix_spawn_file_actions_addclose: (
+				fileActionsPtr: number,
+				fd: number
+			  ): number => {
+				const fileActions = getFileActions();
+				if (fileActions[fileActionsPtr] == null) {
+				  fileActions[fileActionsPtr] = [];
+				}
+				fileActions[fileActionsPtr].push(["addclose", fd]);
+				return 0;
+			  },
+
+
+
+
+    posix_spawn_file_actions_adddup2: (
+
+			posix_spawn: (
+				pidPtr,
+				pathPtr,
+				fileActionsPtr,
+				attrPtr,
+				argvPtr,
+				envpPtr
+			  ): number => {
+				if (posix.posix_spawn == null) {
+				  notImplemented("posix_spawn");
+				}
+				const path = recv.string(pathPtr);
+				const argv = recv.arrayOfStrings(argvPtr);
+				const envp = recv.arrayOfStrings(envpPtr);
+				const fileActions = getFileActions();
+				const pid = posix.posix_spawn(
+				  path,
+				  fileActions[fileActionsPtr],
+				  getAttr(attrPtr, true),
+				  argv,
+				  envp
+				);
+				send.i32(pidPtr, pid);
+				return 0;
+
+
+
+				/ Create a simulated posix environment for the browser.
+				// We will want to move this to its own package.
+				// It makes more sense though to put all the assumptions about what "posix in the browser" is in
+				// its own module, rather than randomly in the files in  src/wasm/posix.
+				// Also, we can ensure this has the same interface as posix-node provides.
+				// TODO: Maybe this goes in posix-node as the fallback in case we're on Windows (say).
+
+
+
+  // A fork_exec implementation that is as close as possible to the one in Modules/_posixsubprocess.c in the CPython.
+  // We need this for python-wasm.  It forks, then execs each element of exec_array until one works.  It also uses
+  // the file descriptor errpipe_write to communicate failure at doing all the stuff leading up to execv, using
+  // the protocol that cPython defines for this.
+
+
+  "dependencies": {
+
+    "posix-node": "^0.12.0",
+    "wasi-js": "^1.7.2"
+
+
+	"devDependencies": {
+		"@cowasm/posix-wasm": "^1.0.3",
+
+
+		packages\wasi-js\package.json
+
+
+
+		"dependencies": {
+			"@cowasm/memfs": "^3.5.1",
+			"@wapython/unionfs": "^4.5.7",
+
+
+
+
+
+			"memfs": "^3.4.4",
+			"memory-fs": "^0.5
 
 
 
