@@ -8175,3 +8175,9 @@ done}| grep -i '[/]etc[/]'
 : 1674482175:0;nslookup  len20.local
 : 1674482221:0;ip route
 : 1674482503:0;wsl hostname -I
+: 1674577741:0;echo $PATH
+: 1674577773:0;ls `echo $PATH|tr ':' ' '  `
+: 1674577782:0;ls `echo $PATH|tr ':' ' '  ` |grep 6
+: 1674577812:0;ls `echo $PATH|tr ':' ' '  ` |grep 6 | sort -u
+: 1674577822:0;ls -1 `echo $PATH|tr ':' ' '  ` |grep 6 | sort -u
+: 1674577838:0;ls -1 `echo $PATH|tr ':' ' '  ` |grep 6 | sort -u |grep 6$

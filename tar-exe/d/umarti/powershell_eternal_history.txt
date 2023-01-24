@@ -4585,3 +4585,15 @@ wsl hostname -i
 netsh interface ipv4 show neighbors
 ping len20.local
 wsl hostname -I
+ip route
+route
+route print
+wsl
+where.exe ping
+dir C:\Windows\System32\*6*
+dir C:\Windows\System32\*6.*
+dir C:\Windows\System32\dhcp*
+dir C:\Windows\System32\tr*
+dir C:\Windows\System32\tra*
+dir C:\Windows\System32\trac*
+dir C:\Windows\System32\pin*

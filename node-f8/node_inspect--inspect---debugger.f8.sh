@@ -285,8 +285,11 @@ Ethernet adapter vEthernet (Default Switch):
    IPv4 Address. . . . . . . . . . . : 172.29.0.1(Preferred)
 
 
+win
+route print
 
 
+route
 ip route
 ping len20.local
 nslookup  len20.local

@@ -59,3 +59,6 @@ terminfo
 term
 env|grep -i term
 python
+ipconfig --all
+ifconfig --all
+man arp| grep -- -a
