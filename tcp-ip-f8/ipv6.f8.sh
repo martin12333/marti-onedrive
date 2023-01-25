@@ -48,13 +48,16 @@ Link Rate - Downstream(kbps)	0 kbps
 VPI/VCI or VLAN	0
 DSL Uptime	0 h 0 min 0 s
 PPP Uptime	0 h 0 min 0 s
+
 WAN MAC	dc:f8:
+
 PPP Status	Unconfigured
 WAN IPv4 address	0.0.0.0
 WAN IPv4 Interface
 WAN IPv4 Gateway	0.0.0.0
 WAN Primary DNS Server	0.0.0.0
 WAN Secondary DNS Server	0.0.0.0
+
 LAN or WIFI IPv4 address	10.0.0.138
 LAN or WIFI IPv4 Mask	255.255.255.0
 DHCP Server	On
@@ -69,10 +72,14 @@ DHCP Server Info	From 10.0.0.1 to 10.0.0.254 / 86400s
 Ethernet Connection Status
 Connection Name Ethernet_DHCP
 TypeIP
+
 IP VersionIPv4/v6
+
 NATOn
+
 IP Address192.168.1.101/255.255.255.0
 DNS192.168.1.1/0.0.0.0/0.0.0.0
+
 IPv4 Gateway192.168.1.1
 Remaining Lease22 h 16 min 13 s
 IPv4 Connection StatusConnectedRenew |Release
