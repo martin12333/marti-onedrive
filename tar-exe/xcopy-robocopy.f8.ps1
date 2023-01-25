@@ -61,6 +61,7 @@ xcopy  /?|more
 robocopy  /?|more
 robocopy  /?|findstr -i new
 robocopy  /?|findstr -i xn
+robocopy  /?|findstr -i x
 robocopy  /?|findstr -i upda
 
 /S :: copy Subdirectories, but not empty ones.
@@ -100,12 +101,20 @@ robocopy  /?|findstr -i upda
 
 
 
+$x='sbase.wasm'
+
+dir P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\$x
+
+echo Robocopy.exe   P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\$x   .\$x--robocopy      /L   /s   /XJ   /XD .git    /XD node_modules   /XD OLD*   /xf *.wasm
 
 
 
 
+/L  
+Robocopy.exe    P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\$x   .\$x--robocopy      /s   /XJ   /XD .git    /XD node_modules   /XD OLD*     /xf *.wasm   /xf *.o  /xf *.js
 
-Robocopy.exe    $env:HOME\sbase.wasm   .\sbase.wasm--robocopy      /L   /s   /XJ   /XD .git
+
+Robocopy.exe    $env:HOME\$x   .\$x--robocopy      /L   /s   /XJ   /XD .git
 
 echo    $env:HOME
 ls    ~/sbase.wasm
