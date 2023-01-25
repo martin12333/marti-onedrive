@@ -13,6 +13,11 @@ echo mymycron
 
 
 while($True){
+
+
+	pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
+
+
 	#sleep 500
 
 	# resonance?
@@ -20,7 +25,6 @@ while($True){
 	# CTRL-C otherwise 5 process
 
 	echo sleep271
-	pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
 
 	#Get-Date
 }

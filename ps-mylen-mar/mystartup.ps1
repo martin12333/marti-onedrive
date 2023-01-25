@@ -11,12 +11,14 @@
 
 echo 'ps1'
 
-sleep 60
+#sleep 60
 
-echo C:\Program Files\Docker\Docker
+#echo C:\Program Files\Docker\Docker
 #& 'C:\Program Files\Docker\Docker\Docker Desktop.exe'
 
-sleep 60
+
+sleep  10  # 60
+
 
 pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymycron.ps1
 
@@ -30,7 +32,7 @@ pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mym
 ##C:\Pf\Git\bin\bash.exe C:\Users\marti\OneDrive\git-bash-dotfiles\mystartup.sh
 #C:\Pf\Git\bin\bash.exe
 
-echo po bash
+echo post
 
 cmd /c pause
 
