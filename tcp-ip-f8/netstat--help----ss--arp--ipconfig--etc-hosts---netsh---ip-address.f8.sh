@@ -1,8 +1,43 @@
 
 
+get my ip address wsl2
 
 
 
+cat /etc/resolv.conf
+cat /etc/hostname
+cat  /etc/hosts
+
+cat /proc/net/fib_trie
+#ls -l /proc/self/net
+#ls -l /proc/net
+
+ were still automatically regenerated at boot.
+Networking was up -- Ping by DNS worked,
+cat /proc/net/fib_trie
+ returned the IP address (NAT'd, of course, as WSL2 is).'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 zte 10.0.0.138
 

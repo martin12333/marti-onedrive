@@ -97,26 +97,13 @@ node --help | grep inspect
 
 
 
-
-
+tcp-ip-f8\netstat--help----ss--arp--ipconfig--etc-hosts---netsh---ip-address.f8.sh
 
 get my ip address wsl2
 
-
-ll worked (also as the default, non-root user)
-
-cat /etc/resolv.conf
-cat /etc/hostname
-cat  /etc/hosts
-
-cat /proc/net/fib_trie
-#ls -l /proc/self/net
-#ls -l /proc/net
-
- were still automatically regenerated at boot.
-Networking was up -- Ping by DNS worked,
-cat /proc/net/fib_trie
  returned the IP address (NAT'd, of course, as WSL2 is).'
+
+
 
 
 
