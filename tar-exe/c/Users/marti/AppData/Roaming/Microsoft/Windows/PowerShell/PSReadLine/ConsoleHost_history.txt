@@ -3224,3 +3224,7 @@ dir
 cmd /c dir
 pwsh
 Get-NetFirewallProfile
+netstat -aon|findstr -i LISTEN
+netstat --help
+get-process
+netstat -aon|findstr -i LISTEN

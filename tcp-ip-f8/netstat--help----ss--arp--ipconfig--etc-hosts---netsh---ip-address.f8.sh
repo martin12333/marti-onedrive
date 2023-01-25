@@ -27,7 +27,10 @@ cat /proc/net/fib_trie
 
 
 netstat --help
-netstat -aon|grep :9229|grep -v -i wait
+
+
+netstat -aon|findstr -i LISTEN
+|grep :9229|grep -v -i wait
 tcp        0      0 0.0.0.0:9229            0.0.0.0:*               LISTEN      off (0.00/0/0)
 tcp        0      0 10.0.2.100:53136        10.0.2.100:9229         ESTABLISHED keepalive (5.35/0/0)
 tcp        0      0 10.0.2.100:9229         10.0.2.100:53136        ESTABLISHED off (0.00/0/0)
@@ -55,8 +58,8 @@ help
 
 
 
-
-
+ps -ef
+netstat --help
 netstat -aon | findstr :9229
 netstat -aon|grep :9229|grep -v -i wait
 
@@ -282,6 +285,101 @@ Host Name: [Galaxy-A50]-MAC Address: [64:89
 IPv4 Address 10.0.0.1 MAC Address 00:17:88:61:1b:8e
 
 
+
+
+
+
+
+
+
+netstat -aon|findstr -i LISTEN
+
+C:\Users\marti\OneDrive> netstat -aon|findstr -i LISTEN
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       1360
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:2179           0.0.0.0:0              LISTENING       2700
+  TCP    0.0.0.0:2869           0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:5040           0.0.0.0:0              LISTENING       9092
+  TCP    0.0.0.0:5357           0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:6109           0.0.0.0:0              LISTENING       5480
+  TCP    0.0.0.0:6888           0.0.0.0:0              LISTENING       8352
+  TCP    0.0.0.0:7680           0.0.0.0:0              LISTENING       4052
+  TCP    0.0.0.0:18018          0.0.0.0:0              LISTENING       8352
+  TCP    0.0.0.0:20121          0.0.0.0:0              LISTENING       4500
+  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING       1056
+  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING       992
+  TCP    0.0.0.0:49666          0.0.0.0:0              LISTENING       1852
+  TCP    0.0.0.0:49667          0.0.0.0:0              LISTENING       2152
+  TCP    0.0.0.0:49668          0.0.0.0:0              LISTENING       4464
+  TCP    0.0.0.0:49783          0.0.0.0:0              LISTENING       884
+  TCP    10.0.0.9:139           0.0.0.0:0              LISTENING       4
+  TCP    127.0.0.1:5354         0.0.0.0:0              LISTENING       4732
+  TCP    127.0.0.1:5939         0.0.0.0:0              LISTENING       5616
+  TCP    127.0.0.1:9772         0.0.0.0:0              LISTENING       8528
+  TCP    127.0.0.1:9999         0.0.0.0:0              LISTENING       4716
+  TCP    127.0.0.1:18019        0.0.0.0:0              LISTENING       8352
+  TCP    127.0.0.1:28385        0.0.0.0:0              LISTENING       4
+  TCP    127.0.0.1:28390        0.0.0.0:0              LISTENING       4
+  TCP    127.0.0.1:30630        0.0.0.0:0              LISTENING       28068
+  TCP    127.0.0.1:49703        0.0.0.0:0              LISTENING       8272
+  TCP    127.0.0.1:49720        0.0.0.0:0              LISTENING       7824
+  TCP    127.0.0.1:50911        0.0.0.0:0              LISTENING       5260
+  TCP    127.0.0.1:50912        0.0.0.0:0              LISTENING       5244
+  TCP    127.0.0.1:54714        0.0.0.0:0              LISTENING       28460
+  TCP    127.0.0.1:55064        0.0.0.0:0              LISTENING       27740
+  TCP    127.0.0.1:58091        0.0.0.0:0              LISTENING       8336
+  TCP    127.0.0.1:58101        0.0.0.0:0              LISTENING       13432
+  TCP    127.0.0.1:58101        0.0.0.0:0              LISTENING       25136
+  TCP    127.0.0.1:64811        0.0.0.0:0              LISTENING       7204
+  TCP    172.20.48.1:139        0.0.0.0:0              LISTENING       4
+  TCP    172.22.144.1:139       0.0.0.0:0              LISTENING       4
+  TCP    172.24.208.1:139       0.0.0.0:0              LISTENING       4
+  TCP    192.168.192.1:139      0.0.0.0:0              LISTENING       4
+  TCP    [::]:135               [::]:0                 LISTENING       1360
+  TCP    [::]:445               [::]:0                 LISTENING       4
+  TCP    [::]:2179              [::]:0                 LISTENING       2700
+  TCP    [::]:2869              [::]:0                 LISTENING       4
+  TCP    [::]:5357              [::]:0                 LISTENING       4
+  TCP    [::]:7680              [::]:0                 LISTENING       4052
+  TCP    [::]:20121             [::]:0                 LISTENING       4500
+  TCP    [::]:49664             [::]:0                 LISTENING       1056
+  TCP    [::]:49665             [::]:0                 LISTENING       992
+  TCP    [::]:49666             [::]:0                 LISTENING       1852
+  TCP    [::]:49667             [::]:0                 LISTENING       2152
+  TCP    [::]:49668             [::]:0                 LISTENING       4464
+  TCP    [::]:49783             [::]:0                 LISTENING       884
+  TCP    [::1]:49669            [::]:0                 LISTENING       5332
+PS C:\Users\marti\OneDrive>
+
+
+
+
+#npx serve #5000
+python -m http.server --help
+python -m http.server 5000
+
+Serving HTTP on :: port 5000 (http://[::]:5000/) ...
+
+
+
+python -m http.server 9229
+5001
+localhost:5001
+
+
+
+http://127.0.0.1:9222/
+http://127.0.0.1:5001
+
+
+
+netstat -aon|findstr -i 5000
+  TCP    0.0.0.0:5000           0.0.0.0:0              LISTENING       5396
+get-process| findstr 5396
+
+
+    152      16    10316      18424       0.17   5396   1 python
+    472      19     4828       5396             37392   2 svchost
 
 
 
