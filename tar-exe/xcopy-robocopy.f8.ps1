@@ -59,10 +59,12 @@ xcopy  /?|more
 
 
 robocopy  /?|more
+
 robocopy  /?|findstr -i new
 robocopy  /?|findstr -i xn
 robocopy  /?|findstr -i x
 robocopy  /?|findstr -i upda
+robocopy  /?|findstr -i -- '[/]e'
 
 /S :: copy Subdirectories, but not empty ones.
 
@@ -92,7 +94,9 @@ robocopy  /?|findstr -i upda
 
 /IM :: Include Modified files (differing change times).
 
-
+/TEE :: output to console window, as well as the log file.
+/NJH :: No Job Header.
+/NJS :: No Job Summary.
 
 /L :: List only - don't copy, timestamp or delete any files'
 
@@ -102,16 +106,23 @@ robocopy  /?|findstr -i upda
 
 
 $x='sbase.wasm'
+#$x='sbase.wasm'
 
 dir P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\$x
 
-echo Robocopy.exe   P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\$x   .\$x--robocopy      /L   /s   /XJ   /XD .git    /XD node_modules   /XD OLD*   /xf *.wasm
+echo Robocopy.exe   P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\testcopy$x   .\testcopy$x--robocopy      /L   /s   /XJ   /XD .git    /XD node_modules   /XD OLD*   /xf *.wasm
 
 
+100%        Newer                   7424        Makefile - Copy
 
 
-/L  
-Robocopy.exe    P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\$x   .\$x--robocopy      /s   /XJ   /XD .git    /XD node_modules   /XD OLD*     /xf *.wasm   /xf *.o  /xf *.js
+*EXTRA File               7424        Makefile - Copy
+
+
+/L
+
+
+Robocopy.exe    P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\testcopy$x   .\testcopy$x--robocopy      /s   /XJ   /XD .git    /XD node_modules   /XD OLD*     /xf *.wasm   /xf *.o  /xf *.js    /NJH
 
 
 Robocopy.exe    $env:HOME\$x   .\$x--robocopy      /L   /s   /XJ   /XD .git
