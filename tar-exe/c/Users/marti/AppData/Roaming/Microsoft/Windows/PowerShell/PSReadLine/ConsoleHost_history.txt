@@ -3228,3 +3228,5 @@ netstat -aon|findstr -i LISTEN
 netstat --help
 get-process
 netstat -aon|findstr -i LISTEN
+netstat -aon|findstr -i 5000
+get-process| findstr 5396

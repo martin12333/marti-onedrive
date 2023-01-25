@@ -29,7 +29,9 @@ Get-Date
 ##C:\Pf\Git\bin\bash.exe C:\Users\marti\OneDrive\git-bash-dotfiles\mystartup.sh
 #C:\Pf\Git\bin\bash.exe
 
-echo posjfdkfd
+
+#echo posjfdkfd
+
 
 #cmd /c pause
 

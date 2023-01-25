@@ -13,8 +13,13 @@ echo mymycron
 
 
 while($True){
-	sleep 500
-	echo slee500
+	#sleep 500
+
+	# resonance?
+	sleep 271  #240 # steals  FOCUS 60 #180 #360s #  180s  # probably steals focus?     60s  #25s
+	# CTRL-C otherwise 5 process
+
+	echo sleep271
 	pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
 
 	#Get-Date
