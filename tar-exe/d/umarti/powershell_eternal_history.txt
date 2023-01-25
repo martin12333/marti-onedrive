@@ -4598,3 +4598,13 @@ dir C:\Windows\System32\tra*
 dir C:\Windows\System32\trac*
 dir C:\Windows\System32\pin*
 hh C:\Windows\help\windows.chm
+xcopy  /?|more
+robocopy  /?|more
+Robocopy.exe  /L   /s   /XJ   /XD .git
+Robocopy.exe  /L   /s   /XJ   /XD .git     ~/sbase.wasm
+ls    ~/sbase.wasm
+Robocopy.exe  /L   /s   /XJ   /XD .git     ~/sbase.wasm
+Robocopy.exe      ~/sbase.wasm    /L   /s   /XJ   /XD .git
+echo    $env:HOME
+Robocopy.exe    $env:HOME\sbase.wasm    /L   /s   /XJ   /XD .git
+Robocopy.exe    $env:HOME\sbase.wasm   .\sbase.wasm--robocopy      /L   /s   /XJ   /XD .git
