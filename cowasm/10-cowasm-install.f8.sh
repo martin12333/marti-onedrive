@@ -17,12 +17,55 @@ echo '-------- section --------'
 podman machine start
 podman start   -ai    cmy22b
 
-
+podman exec -it cmy22b /usr/bin/bash
+ps -ejHF
 
 
 see also
 
 C:\Users\marti\OneDrive\cowasm\15-cowasm-build.f8.sh
+
+echo '-------- section: install --- experiment 2023-01 --------'
+
+cd
+npx python-wasm
+y
+quit()
+
+ls -latr
+ls -latr .cache
+ls -latr .npm
+ls -latr .npm/_npx
+ls -latr .npm/_npx/3e7*
+du .npm/_npx/3e7*
+ls -latr .npm/_npx/3e7*/node_modules
+cat .npm/_npx/3e7*/package.json
+
+echo '-------- section: install --- experiment 2023-01 --------'
+
+npx dash-wasm
+y
+echo $PATH
+pwd
+ps
+##exit
+
+
+podman exec -it cmy22b /usr/bin/bash
+ps -ejHF
+
+vscode     433   432   421     1  0 2799539 159916 1 14:43 pts/0   00:00:01       node /home/vscode/.npm/_npx/f550c8bcec4bea92/node_modules/.bin/dash-wasm
+
+ls -latr
+ls -latr .cache
+ls -latr .npm
+ls -latr .npm/_npx
+ls -latr .npm/_npx/f5*
+du .npm/_npx/f5*
+ls -latr .npm/_npx/f5*/node_modules
+cat .npm/_npx/f5*/package.json
+
+
 
 echo '-------- section: install --- first attempt --------'
 
@@ -43,7 +86,7 @@ find . -name "*.wasm" -ls
 
 du -m
 
-echo '-------- section: attempts ...  minimal installations --------'
+echo '-------- section: experiments ...  minimal installations --------'
 
 du -m
 find . -name "*.wasm" -ls

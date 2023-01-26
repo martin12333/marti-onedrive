@@ -4648,3 +4648,6 @@ netstat -aon|grep -i LISTEN
 netstat -aon|findstr -i LISTEN
 python -m http.server --help
 python -m http.server 5000
+podman start   -ai    cmy22b
+podman machine start
+podman start   -ai    cmy22b

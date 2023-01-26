@@ -3230,3 +3230,4 @@ get-process
 netstat -aon|findstr -i LISTEN
 netstat -aon|findstr -i 5000
 get-process| findstr 5396
+podman exec -it cmy22b /usr/bin/bash

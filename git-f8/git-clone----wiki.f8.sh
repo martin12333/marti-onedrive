@@ -9,3 +9,4 @@ cd browserPOSIX*
 git pull
 
 
+cat --help
