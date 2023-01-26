@@ -2,7 +2,6 @@
 
 
 # (a file in the mm_f8_doc pseudo-format)
-import inspect
 
 
 do-not run this file as a whole
@@ -20,6 +19,11 @@ podman machine start
 podman start   -ai    cmy22b
 
 podman exec -it cmy22b /usr/bin/zsh
+ps -ejHF
+echo $$
+echo $PPID
+
+
 
 echo '-------- section: 40-run --------'
 
@@ -35,12 +39,31 @@ y
 
 echo '-------- section:  2023-01-26 --------'
 
+
+(2023-01 a probably unrelated issue:  https://github.com/sagemathinc/cowasm-python/issues/5 )
+
+
 #quit()
 cd
+
+
+chmod --verbose u+x *.sh
+
+./a.sh
+
 npx python-wasm --worker
+
+npx python-wasm  # no bug5
+npx cowasm # issue 5
+npx dash-wasm
 y
 
+python
 import os, sys
+
+
+os.system('./a.sh')
+
 os.system('ls -l')
 os.system('ls -l')
 
@@ -57,6 +80,93 @@ drwxr-xr-x  3 vscode vscode     4096 Dec 27 11:29 wasmer-coreutils22
 os.system('ls -l')
 0
 >>>
+
+npx python-wasm --worker
+import os, sys
+
+print(os.fstat(1), file=sys.stderr  )
+print(os.fstat(1)  )
+
+
+os.system('stat -L /dev/stdout')
+os.system('stat  /dev/stdout')
+os.system('readlink --help  /dev/stdout')
+os.system('readlink  -f  /dev/stdout')
+
+
+os.system('tee /dev/stdout')
+
+###
+os.system('ls -l /cowasm')
+os.system('ls -l /')
+os.system('ls -l /usr/bin')
+
+
+
+os.listdir('/dev')
+#os.listdir('/proc/self/fd')
+os.listdir('/')
+os.listdir('/proc')
+os.listdir('/proc/self')
+
+
+os.system('sh')
+os.system('dash')
+os.system('bash')
+os.system('bash -c echo sdkfjsdf')
+
+os.system('python')
+
+
+
+
+npx python-wasm --worker
+
+python
+import os, sys
+
+
+
+
+
+
+#!/usr/bin/bash
+
+echo sdjfhdsjf
+
+echo >1ab
+
+
+ls -l /proc/$$/fd   >>1ab
+
+ls -l '/proc/1346/fd' >>1ab
+
+
+ls -l /proc/$PPID/fd   >>1ab
+
+ps -ejHf >>1ab
+echo $$ $PPID >>1ab
+
+
+
+#./b.sh >1ab
+
+
+#!/usr/bin/bash
+
+echo sdjfhdsjfhfkgjhgflhj
+
+stat -L /dev/stdout
+stat  /dev/stdout
+
+ls -l '/proc/self/fd'
+ls -l '/proc/1346/fd'
+
+ps -ejHF
+
+
+
+
 
 echo '-------- section:  --------'
 
@@ -346,5 +456,7 @@ os.listdir('/cowasm')
  os.fdopen(1)
 <_io.TextIOWrapper name=1 mode='r' encoding='UTF-8'>
 
-quit()
 ls /cowasm
+
+
+quit()
