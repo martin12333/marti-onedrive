@@ -33,7 +33,30 @@ y
 
 
 
+echo '-------- section:  2023-01-26 --------'
 
+#quit()
+cd
+npx python-wasm --worker
+y
+
+import os, sys
+os.system('ls -l')
+os.system('ls -l')
+
+......
+rw-r--r--  1 vscode vscode  4643066 Jan  5 10:41 wabt-1.0.32-ubuntu.tar.gz
+-rw-r--r--  1 vscode vscode      655 Jan  5 10:41 wabt-1.0.32-ubuntu.tar.gz:Zone.Identifier
+drwxr-xr-x  5 vscode vscode     4096 Dec  6 23:08 wasi-sdk-17.0
+-rw-r--r--  1 vscode vscode 73320354 Dec  6 23:55 wasi-sdk-17.0-linux.tar.gz
+drwxr-xr-x  2 vscode vscode     4096 Jan  5 07:04 wasi-sdk-attempt
+drwxr-xr-x  7 vscode vscode     4096 Dec 27 11:44 wasmer-coreutils1
+drwxr-xr-x  3 vscode vscode     4096 Dec 27 11:29 wasmer-coreutils22
+
+>>>
+os.system('ls -l')
+0
+>>>
 
 echo '-------- section:  --------'
 

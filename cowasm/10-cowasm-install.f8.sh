@@ -28,7 +28,7 @@ C:\Users\marti\OneDrive\cowasm\15-cowasm-build.f8.sh
 echo '-------- section: install --- experiment 2023-01 --------'
 
 cd
-npx python-wasm
+npx python-wasm --worker
 y
 quit()
 
