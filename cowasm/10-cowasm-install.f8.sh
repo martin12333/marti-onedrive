@@ -65,6 +65,15 @@ du .npm/_npx/f5*
 ls -latr .npm/_npx/f5*/node_modules
 cat .npm/_npx/f5*/package.json
 
+echo '-------- section: install --- experiment 2023-01 --------'
+
+npx cowasm
+ls -latr .npm/_npx
+x=269
+ls -latr .npm/_npx/$x*
+du .npm/_npx/$x*
+ls -latr .npm/_npx/$x*/node_modules
+cat .npm/_npx/$x*/package.json
 
 
 echo '-------- section: install --- first attempt --------'
