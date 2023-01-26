@@ -67,7 +67,7 @@ cat .npm/_npx/f5*/package.json
 
 echo '-------- section: install --- experiment 2023-01 --------'
 
-npx cowasm
+#npx cowasm
 ls -latr .npm/_npx
 x=269
 ls -latr .npm/_npx/$x*
