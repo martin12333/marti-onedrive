@@ -8181,3 +8181,23 @@ done}| grep -i '[/]etc[/]'
 : 1674577812:0;ls `echo $PATH|tr ':' ' '  ` |grep 6 | sort -u
 : 1674577822:0;ls -1 `echo $PATH|tr ':' ' '  ` |grep 6 | sort -u
 : 1674577838:0;ls -1 `echo $PATH|tr ':' ' '  ` |grep 6 | sort -u |grep 6$
+: 1674832533:0;socklist --help
+: 1674832534:0;host --help
+: 1674832558:0;man host
+: 1674841011:0;dpkg -l | grep linux.heade
+: 1674841020:0;dpkg -l
+: 1674841056:0;dpkg -l | grep linux.*heade
+: 1674841063:0;dpkg -l | grep 'linux.*heade'
+: 1674841071:0;dpkg -l | grep 'linux.*'
+: 1674841105:0;apt search linux-headers
+: 1674841147:0;apt search linux-headers | grep linux-hea
+: 1674841171:0;apt search linux-headers | grep linux-headers-gene
+: 1674841186:0;cd
+: 1674841222:0;apt download linux-headers-generic
+: 1674841239:0;sudo apt update
+: 1674841491:0;apt download linux-headers-generic
+: 1674841506:0;apt search linux-headers | grep linux-headers-gene
+: 1674841624:0;apt search linux-headers | grep linux-headers-.*gene
+: 1674841634:0;apt search linux-headers | grep 'linux-headers-.*gene'
+: 1674841670:0;apt download linux-headers-generic  linux-headers-5.15.0-58-generic
+: 1674841824:0;uname -a
