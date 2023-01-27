@@ -8201,3 +8201,18 @@ done}| grep -i '[/]etc[/]'
 : 1674841634:0;apt search linux-headers | grep 'linux-headers-.*gene'
 : 1674841670:0;apt download linux-headers-generic  linux-headers-5.15.0-58-generic
 : 1674841824:0;uname -a
+: 1674842217:0;ar x *amd64.deb
+: 1674842236:0;history| grep 'ar '
+: 1674842245:0;history| grep '^ar '
+: 1674842249:0;history| grep ' ar '
+: 1674842261:0;mc
+: 1674842334:0;ar x *amd64.deb
+: 1674842361:0;ar --help
+: 1674842376:0;man ar
+: 1674842497:0;ar x linux-headers-5.15.0-58-generic_5.15.0-58.64\~20.04.1_amd64.deb
+: 1674842506:0;mc
+: 1674842591:0;history
+: 1674842637:0;cd linux-he*
+: 1674842651:0;cd linux-headers
+: 1674842656:0;cd linux-headers-5.15.0-58-generic
+: 1674842680:0;tar xf data.*
