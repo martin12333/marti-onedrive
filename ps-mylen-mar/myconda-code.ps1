@@ -26,7 +26,14 @@ sleep 20
 echo code
 
 #code js-workspace.code-workspace
+
 code .
+
+
+sleep 20
+
+code   "C:\Users\marti\OneDrive\backup-f8\backups.code-workspace"
+
 
 
 #pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymycron.ps1
