@@ -98,6 +98,14 @@ robocopy  /?|findstr -i -- '[/]e'
 /NJH :: No Job Header.
 /NJS :: No Job Summary.
 
+
+
+
+
+
+
+
+
 /L :: List only - don't copy, timestamp or delete any files'
 
 
@@ -119,10 +127,31 @@ echo Robocopy.exe   P:\home\user\.local\share\containers\storage\volumes\nslash_
 *EXTRA File               7424        Makefile - Copy
 
 
-/L
+
+
+
+
+#    /L
 
 
 Robocopy.exe    P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\testcopy$x   .\testcopy$x--robocopy      /s   /XJ   /XD .git    /XD node_modules   /XD OLD*     /xf *.wasm   /xf *.o  /xf *.js    /NJH  /NJS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#    /L
 
 
 Robocopy.exe    P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\$x   .\$x--robocopy      /s   /XJ   /XD .git    /XD node_modules   /XD OLD*     /xf *.wasm   /xf *.o  /xf *.js    /NJH    /NJS
