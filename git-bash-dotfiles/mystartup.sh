@@ -13,6 +13,8 @@ echo  'file:///C:/Users/marti/log/mymyrsync.sh.log'
 echo  'file:///C:/Users/marti/log/mymyrsync.sh.err.log'
 
 
+
+
 sleep 20
 
 #set

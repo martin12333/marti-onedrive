@@ -3,7 +3,7 @@
 
 #zeby-neslo-stat-na-sory-onedr-bez-net
 
-echo gfhgffhfhghgf
+#echo gfhgffhfhghgf
 
 #set
 
