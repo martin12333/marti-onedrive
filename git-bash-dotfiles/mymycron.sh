@@ -10,7 +10,14 @@ echo gfhgffhfhghgf
 while  true
 do
 
-	/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
+	/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh  >>~/log/mymyrsync.sh.log   2>>~/log/mymyrsync.sh.err.log
+
+
+	#echo  'file:///C:/Users/marti/log/mymyrsync.sh.log'
+	#echo  'file:///C:/Users/marti/log/mymyrsync.sh.err.log'
+
+
+
 
    #   date
 

@@ -4651,3 +4651,8 @@ python -m http.server 5000
 podman start   -ai    cmy22b
 podman machine start
 podman start   -ai    cmy22b
+conda activate base
+code   "C:\Users\marti\OneDrive\backup-f8\backups.code-workspace"
+C:\pf\Git\bin\bash.exe
+mkdir ~/log
+echo >~/log/mymyrsync.sh.log
