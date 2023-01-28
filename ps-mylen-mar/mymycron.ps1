@@ -16,6 +16,7 @@ while($True){
 
 
 	pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
+# file:///C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
 
 
 	#sleep 500
@@ -24,7 +25,7 @@ while($True){
 	sleep 271  #240 # steals  FOCUS 60 #180 #360s #  180s  # probably steals focus?     60s  #25s
 	# CTRL-C otherwise 5 process
 
-	echo sleep271
+	#echo sleep271
 
 	#Get-Date
 }

@@ -11,6 +11,22 @@
 
 echo 'ps1'
 
+
+
+
+
+ls ~/log
+
+echo fdgfhg >~/log/mymyrsync.ps1.log
+echo fhfgh  >~/log/mymyrsync.ps1.err.log
+
+echo  'file:///C:/Users/marti/log/mymyrsync.ps1.log'
+echo  'file:///C:/Users/marti/log/mymyrsync.ps1.err.log'
+
+
+
+
+
 #sleep 60
 
 #echo C:\Program Files\Docker\Docker
@@ -21,6 +37,10 @@ sleep  10  # 60
 
 
 pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymycron.ps1
+# file:///C:\Users\marti\OneDrive\ps-mylen-mar\mymycron.ps1
+
+
+
 
 #bash
 #C:\Pf\Git\git-bash.exe C:\Users\marti\OneDrive\git-bash-dotfiles\mystartup.sh

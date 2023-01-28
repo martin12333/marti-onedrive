@@ -9,13 +9,20 @@
 # C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 
 
-echo mymyrsync
+#echo mymyrsync
 
 
 
 ###pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
 
+
+
+
+
 Get-Date
+
+
+
 
 
 

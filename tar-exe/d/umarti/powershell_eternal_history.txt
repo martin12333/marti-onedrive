@@ -4656,3 +4656,10 @@ code   "C:\Users\marti\OneDrive\backup-f8\backups.code-workspace"
 C:\pf\Git\bin\bash.exe
 mkdir ~/log
 echo >~/log/mymyrsync.sh.log
+echo fdgfhg >~/log/mymyrsync.ps1.log
+ls ~/log
+echo fhfgh  >~/log/mymyrsync.ps1.err.log
+ls ~/log
+echo  'file:///C:/Users/marti/log/mymyrsync.ps1.log'
+echo  'file:///C:/Users/marti/log/mymyrsync.ps1.err.log'
+ls ~/log
