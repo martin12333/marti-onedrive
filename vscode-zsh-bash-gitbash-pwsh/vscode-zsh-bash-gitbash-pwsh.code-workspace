@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\emacs"
+		},
+		{
+			"path": "..\\.emacs.d"
+		}
+	],
+	"settings": {}
+}

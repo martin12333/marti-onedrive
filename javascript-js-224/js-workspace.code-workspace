@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\dictionary-search-on-word-selection"
+		},
+		{
+			"path": "..\\..\\scriptbox"
+		},
+		{
+			"path": "..\\codewars"
+		},
+		{
+			"path": "..\\jupyter-notebooks"
+		}
+	],
+	"settings": {},
+	"extensions": {
+		"recommendations": [
+
+			"jroesch.lean",
+			"redhat.vscode-yaml"
+
+		]
+	}
+}
