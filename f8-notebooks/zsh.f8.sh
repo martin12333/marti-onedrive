@@ -105,6 +105,21 @@ zsh --version
 
 man zshoptions
 
+
+
+
+
+
+
+
+
+
+exists   #  seee  further down 
+	setopt extended_glob
+# extendedglob          on
+setopt|grep -i glob
+
+
 setopt|grep -i hist
 #setopt|grep -i glob
 #set|grep -i glob
@@ -132,6 +147,18 @@ history
 
 
 
+
+
+
+exists
+	setopt extended_glob
+# extendedglob          on
+setopt|grep -i glob
+
+ls -ld -- (*/)# | wc
+or
+
+ls -ld -- **/|wc
 
 set -o|grep -i glob
 vscode ➜ ~/cloc-cowasm-main $ set -o|grep -i glob
