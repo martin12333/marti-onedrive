@@ -1,7 +1,30 @@
 
+# (a file in the mm_f8_doc pseudo-format)
+do-not run this file as a whole
+)
+exit
+
+(selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
 
- sudo apt install cloc
+
+echo '-------- section --------'
+
+# i use  a container
+podman machine start
+podman start   -ai    cmy22b
+
+podman exec -it cmy22b /usr/bin/bash
+ps -ejHF
+
+
+see also
+
+echo '-------- section --------'
+
+
+sudo apt install cloc
+sudo apt install mc
 
 cd cloc*
 
