@@ -14,7 +14,7 @@ echo '-------- section --------'
 podman machine start
 podman start   -ai    cmy22b
 
-podman exec -it cmy22b /usr/bin/bash
+podman exec -it cmy22b /usr/bin/zsh
 ps -ejHF
 
 
@@ -26,16 +26,23 @@ echo '-------- section --------'
 sudo apt install cloc
 sudo apt install mc
 
+mc
+
 cd cloc*
 
 cloc .
 
 
+zsh
+ls -1d  **/
+
+cloc *
 
 
 
 
- ~/cloc-cowasm-main $ cloc .
+
+~/cloc-cowasm-main $ cloc .
     1271 text files.
      604 unique files.
      746 files ignored.

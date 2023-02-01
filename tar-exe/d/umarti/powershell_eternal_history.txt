@@ -4673,3 +4673,6 @@ Robocopy.exe    P:\home\user\.local\share\containers\storage\volumes\nslash_home
 podman start   -ai    cmy22b
 podman machine start
 podman start   -ai    cmy22b
+podman machine start
+podman start   -ai    cmy22b
+podman exec -it cmy22b /usr/bin/bash
