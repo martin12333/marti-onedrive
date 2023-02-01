@@ -106,6 +106,8 @@ zsh --version
 man zshoptions
 
 setopt|grep -i hist
+#setopt|grep -i glob
+#set|grep -i glob
 
 ➜  ~ setopt|grep -i hist
 extendedhistory
@@ -131,7 +133,27 @@ history
 
 
 
+set -o|grep -i glob
+vscode ➜ ~/cloc-cowasm-main $ set -o|grep -i glob
+nobareglobqual        off
+nocaseglob            off
+cshnullglob           off
 
+extendedglob          off
+
+noglob                off
+noglobalexport        off
+noglobalrcs           off
+globassign            off
+globcomplete          off
+globdots              off
+globstarshort         off
+globsubst             off
+kshglob               off
+nullglob              off
+numericglobsort       off
+shglob                off
+warncreateglobal      off
 
 
 
