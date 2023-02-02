@@ -557,3 +557,4 @@ done}| grep -i '[.]wasm$'
 : 1674471239:0;hostname -a
 : 1674471645:0;ipconfig --all
 : 1674471651:0;bash
+: 1675278855:0;man zshexpn

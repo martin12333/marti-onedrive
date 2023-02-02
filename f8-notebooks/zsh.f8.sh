@@ -107,6 +107,8 @@ man zshoptions
 
 
 
+➜  OneDrive man zshexpn
+➜  OneDrive
 
 
 
@@ -114,7 +116,7 @@ man zshoptions
 
 
 
-exists   #  seee  further down 
+exists   #  seee  further down
 	setopt extended_glob
 # extendedglob          on
 setopt|grep -i glob
