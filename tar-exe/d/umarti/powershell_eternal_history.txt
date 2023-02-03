@@ -4681,3 +4681,4 @@ ping  -n -v  10.0.0.138
 ping  -v  10.0.0.138
 ping    10.0.0.138
 ping --help
+ping6 --help

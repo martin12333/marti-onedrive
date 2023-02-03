@@ -567,3 +567,4 @@ done}| grep -i '[.]wasm$'
 : 1675382689:0;man man
 : 1675382840:0;man -w  -K iputils
 : 1675383022:0;history
+: 1675464564:0;apt search '\bNAT\b'

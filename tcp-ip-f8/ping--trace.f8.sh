@@ -23,15 +23,121 @@ see also
 echo '-------- section --------'
 
 
-ping -c 4 -n -v  10.0.0.138
-ping    10.0.0.138
-ping --help
 
+
+ping -c 4 -n -v  10.0.0.138
+ping6   # 10.0.0.138
+which -a  ping6
+ping --help
+ping6 --help
+
+mtr  10.0.0.138
+q
+
+dpkg
+
+q
+apt --help search
+apt search --help
+man apt-search
+ man apt-cache
+
+apt search tracepath
+apt show iputils-tracepath
+apt search '\bping\b'|grep ping
+apt search '\bping\b'|grep install
+apt search '\bNAT\b'
+|grep install
+
+
+pagekite/jammy 1.5.2.200603-3 all
+  Make localhost servers publicly visible
+
+
+python-aioice-doc/focal 0.6.14-2 all
+  library for Interactive Connectivity Establishment (documentation)
+
+python3-aioice/focal 0.6.14-2 all
+  library for Interactive Connectivity Establishment
+
+
+
+stun-client/focal 0.97~dfsg-2.1build2 amd64
+  Test client for STUN
+
+
+nat-traverse/focal 0.7-1 all
+  NAT gateway traversal utility
+
+
+
+2ping/focal 4.3-1 all
+fping/focal 4.2-1 amd64
+hping3/focal 3.a2.ds2-9 amd64
+httping/focal 2.5-5 amd64
+  ping-like program for http-requests
+inetutils-ping/focal-updates,focal-security 2:1.9.4-11ubuntu0.1 amd64
+ioping/focal 1.1-1 amd64
+iputils-ping/focal,now 3:20190709-3 amd64 [installed,automatic]
+oping/focal 1.10.0-2.1ubuntu2 amd64
+prettyping/focal 1.0.1-1.1 all
+  better ping tool
+
+
+
+
+|grep -wi ping
+apt search ping|grep -i ping
+apt search iputils
+apt show iputils-ping
+
+
+apt search traceroute|grep install
+apt search --full traceroute|grep NAT|sort -u
+
+
+  apt search NAT-aware multipath tracerouting tool
+apt search  but also introduces a new technique for NAT detection. It forges the IP ID
+apt search  encountered NATs.
+apt show dublin-traceroute
+https://dublin-traceroute.net
+
+
+
+
+dublin-traceroute/focal 0.4.2-2build1 amd64
+inetutils-traceroute/fo
+
+lft/focal 3.8-2 amd64
+  layer-four traceroute
+
+
+mtr/focal 0.93-1 amd64
+  Full screen ncurses and X11 traceroute tool
+
+mtr-tiny/focal,now 0.93-1 amd64 [installed,automatic]
+  Full screen ncurses traceroute tool
+
+
+paris-traceroute/focal 0.93+git20160927-1 amd64
+  multipath traceroute
+
+
+tcptraceroute/focal 1.5beta7+debian-4.1 amd64
+  traceroute implementation using TCP packets
+
+
+traceroute/focal 1:2.1.0-2 amd64
+  Traces the route taken by packets over an IPv4/IPv6 network
 
 
 
 exist  u20
-tracepath            traceroute6@         traceroute6.iputils
+
+tracepath         10.0.0.138
+
+
+traceroute6@         traceroute6.iputils
 
 man -w  -K   Kuznet
 man ip

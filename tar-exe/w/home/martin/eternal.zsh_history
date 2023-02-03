@@ -8246,3 +8246,44 @@ done}| grep -i '[/]etc[/]'
 : 1675385234:0;ping 10.0.0.138
 : 1675385252:0;man  ping
 : 1675385365:0;ping -c 3 -n -v  10.0.0.138
+: 1675385662:0;ping --help
+: 1675462371:0;tracepath         10.0.0.138       traceroute6@         traceroute6.iputils
+: 1675462395:0;tracepath         10.0.0.138
+: 1675462515:0;apt search tracepath
+: 1675462545:0;apt show iputils-tracepath
+: 1675462588:0;apt show iputils
+: 1675462602:0;apt search iputils
+: 1675462634:0;apt show iputils-ping
+: 1675462661:0;ping6    10.0.0.138
+: 1675462684:0;which ping6
+: 1675462688:0;which -a  ping6
+: 1675462718:0;ping6 --help
+: 1675462787:0;apt search traceroute
+: 1675463109:0;apt search ping
+: 1675463130:0;apt search ping|grep -i ping
+: 1675463160:0;apt search --help
+: 1675463183:0;man apt-search
+: 1675463217:0;man apt-cache apt --help
+: 1675463225:0;apt --help
+: 1675463237:0;apt --help search
+: 1675463243:0;man apt-cache
+: 1675463321:0;apt search ping|grep -i ping
+: 1675463336:0;apt search ping|grep -wi ping
+: 1675463353:0;apt search \bping\b|grep -wi ping
+: 1675463361:0;apt search '\bping\b'
+: 1675463380:0;apt search '\bping\b'|grep ping
+: 1675463612:0;apt search '\bping\b'|grep install
+: 1675463640:0;mtr
+: 1675463959:0;mtr  10.0.0.138
+: 1675464056:0;ping -c 4 -n -v  10.0.0.138
+: 1675464096:0;apt search traceroute
+: 1675464104:0;apt search traceroute|grep install
+: 1675464192:0;apt search --full traceroute|grep -i nat
+: 1675464203:0;apt search --full traceroute|grep NAT
+: 1675464224:0;apt search --full traceroute|grep NAT|sort -u
+: 1675464249:0;apt search NAT-aware multipath tracerouting tool
+: 1675464280:0;apt search  but also introduces a new technique for NAT detection. It forges the IP ID
+: 1675464298:0;apt search  encountered NATs.
+: 1675464313:0;apt show dublin-traceroute
+: 1675464403:0;apt search '\bNAT\b'|grep install
+: 1675464411:0;apt search '\bNAT\b'
