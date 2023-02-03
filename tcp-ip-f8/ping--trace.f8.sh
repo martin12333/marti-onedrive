@@ -1,8 +1,44 @@
 
+# (a file in the mm_f8_doc pseudo-format)
+do-not run this file as a whole
+)
+exit
+
+(selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
+
+
+
+echo '-------- section --------'
+
+# i use  a container
+podman machine start
+podman start   -ai    cmy22b
+
+podman exec -it cmy22b /usr/bin/zsh
+ps -ejHF
+
+
+see also
+
+echo '-------- section --------'
+
+
+ping -c 4 -n -v  10.0.0.138
+ping    10.0.0.138
+ping --help
+
+
+
+
 exist  u20
 tracepath            traceroute6@         traceroute6.iputils
 
-u22 kuznets  tracepath
+man -w  -K   Kuznet
+man ip
+man tc
+man tcp
+
+u22   tracepath
 
 
 man traceroute6
@@ -10,15 +46,19 @@ man traceroute6
  man tracepath
   545  man iputils
   546  man -k iputils
-  547  man man
+  man man
   548  man -K iputils
   549  man -a  -K iputils
   550  man man
 man -w  -K iputils
+#man -w  -K ping
+#man -w  -K 8 NAT
+#man -w  -K  webrtc
+#man httping
+q
 
-
-
-
+man -w -a ping
+man  ping
 
 zsh
 

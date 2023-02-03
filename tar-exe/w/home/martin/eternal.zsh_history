@@ -8224,3 +8224,25 @@ done}| grep -i '[/]etc[/]'
 : 1675383253:0;man traceroute6.iputils
 : 1675383308:0;man traceroute6
 : 1675383336:0;man tracepath
+: 1675383350:0;man -w  -K iputils
+: 1675383625:0;man -w  -K NAT
+: 1675383656:0;man -w  -K NAT 8
+: 1675383669:0;man man
+: 1675383696:0;man -w  -K 8 NAT
+: 1675383831:0;man httping
+: 1675383842:0;man -w  -K ping
+: 1675383894:0;man -w  -K 8 rtc
+: 1675383905:0;man -w  -K 8 webrtc
+: 1675383914:0;man -w  -K  webrtc
+: 1675383987:0;man -w -a ping
+: 1675383994:0;man -w  ping
+: 1675383997:0;man  ping
+: 1675384436:0;man  ss
+: 1675384513:0;man -w  -K   Kuznet
+: 1675384573:0;man ip
+: 1675384616:0;man tc
+: 1675384694:0;man -w  -K   Kuznet
+: 1675384742:0;man tcp
+: 1675385234:0;ping 10.0.0.138
+: 1675385252:0;man  ping
+: 1675385365:0;ping -c 3 -n -v  10.0.0.138

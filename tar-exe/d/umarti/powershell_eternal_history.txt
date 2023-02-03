@@ -4676,3 +4676,8 @@ podman start   -ai    cmy22b
 podman machine start
 podman start   -ai    cmy22b
 podman exec -it cmy22b /usr/bin/bash
+ping -c 3 -n -v  10.0.0.138
+ping  -n -v  10.0.0.138
+ping  -v  10.0.0.138
+ping    10.0.0.138
+ping --help
