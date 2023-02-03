@@ -8216,3 +8216,11 @@ done}| grep -i '[/]etc[/]'
 : 1674842651:0;cd linux-headers
 : 1674842656:0;cd linux-headers-5.15.0-58-generic
 : 1674842680:0;tar xf data.*
+: 1675383198:0;traceman traceroute6
+: 1675383198:0;man traceroute6
+: 1675383217:0;man traceroute
+: 1675383223:0;man traceroute 8
+: 1675383230:0;man traceroute(8)
+: 1675383253:0;man traceroute6.iputils
+: 1675383308:0;man traceroute6
+: 1675383336:0;man tracepath

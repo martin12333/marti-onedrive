@@ -558,3 +558,12 @@ done}| grep -i '[.]wasm$'
 : 1674471645:0;ipconfig --all
 : 1674471651:0;bash
 : 1675278855:0;man zshexpn
+: 1675382162:0;man tracepath
+: 1675382460:0;man iputils
+: 1675382465:0;man -k iputils
+: 1675382471:0;man man
+: 1675382657:0;man -K iputils
+: 1675382681:0;man -a  -K iputils
+: 1675382689:0;man man
+: 1675382840:0;man -w  -K iputils
+: 1675383022:0;history
