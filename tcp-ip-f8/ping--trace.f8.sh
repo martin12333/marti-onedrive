@@ -416,3 +416,4 @@ Host Name IP Address MAC Address Address Source Lease Time
 
 
 
+netsh int ipv6 show dynamicport udp
