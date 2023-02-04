@@ -23,9 +23,14 @@ see also
 echo '-------- section --------'
 
 
+#wsl2 not ipv6
 
+#traceroute6  csp3.zte.com.cn
+#ping -6  csp3.zte.com.cn
+#traceroute6 10.0.0.138
 
 ping -c 4 -n -v  10.0.0.138
+ping 10.0.0.138
 ping6   # 10.0.0.138
 which -a  ping6
 ping --help
@@ -257,6 +262,154 @@ IPv6 Online Duration301 h 44 min 21 s
 WAN MACdc:f8:...
 Bytes Received/Bytes Sent2145199564/897050241
 Packets Received/Packets Sent43162787/23004775
+
+
+
+
+
+
+http://192.168.1.1/html/update.html
+button check for Updates
+This version is up-to-date.
+Current version
+Software version: 	23.196.16.60.00
+
+
+
+http://192.168.1.1/html/systemsettings.html
+exist
+Scheduled restart
+System restart period:  01:00 - 05:00 (The system will check whether it needs to restart every 7 days.).
+
+
+
+
+http://192.168.1.1/html/diagnosis.html
+Ping and traceroute help you check the network connection status quickly.
+
+
+
+
+!!!!!!!!!!!!!!!!!!!!!
+kopie
+Name	Interface	WAN Port	LAN IP Address	LAN Port	Protocol	Status	Options
+HDM_CR_D0608C_ZXHN H267A V1.0_ZTEEG8PL1H00488	WAN/Data	57548-57548	192.168.1.101	7547-7547	TCP	On
+
+
+
+
+
+
+
+http://192.168.1.1/html/OPEN_SOURCE_SOFTWARE_NOTICE.txt
+
+http://192.168.1.1/html/firewallswitch.html
+
+Firewall
+Enable or disable firewall filtering on this page.
+
+Enable Firewall (Main Firewall Switch)
+Enable IP address filtering
+Disable WAN port ping
+Enable domain name filtering
+Enable MAC filte
+
+NAT Settings
+Symmetric NAT is often deployed for gateways with higher security. Cone NAT is less secure, but it allows some applications to run properly and is more compatible with consumer applications, including applications installed on gaming devices.
+
+
+
+
+http://192.168.1.1/html/virtualserver.html
+
+Port Mapping
+Configure a port mapping to enable external computers to access WWW, FTP, or other services provided by the LAN.
+
+IP address:  Designate a computer on the LAN to provide services.
+LAN/WAN port:  Computer port for the virtual server whose range is 1–65535.
+Protocol:  Protocols which the services are compliant with.
+Note:  The settings will take effect after you click Apply.
+Port Mapping List
+Name	Interface	WAN Port	LAN IP Address	LAN Port	Protocol	Status	Options
+HDM_CR_D0608C_ZXHN H267A V1.0_ZTEEG8PL1H00488	WAN/Data	57548-57548	192.168.1.101	7547-7547	TCP	On
+
+
+
+
+
+
+
+
+Device name: 	B2368-A01
+IMEI: 	865675040486444
+IMSI : 	230026600058336
+Hardware version: 	WDU1CPM5EWB
+Software version: 	23.196.16.60.00
+LAN MAC address: 	54:13:10:51:FC:86
+WAN IP address: 	10.184.7.153
+IPv4 LAN IP address: 	192.168.1.1
+PCI: 	226
+Cell ID: 	153792458
+RSRQ: 	-14dB
+RSRP: 	-73dBm
+SINR: 	16.2dB
+Frequency: 	DL:100 UL:18100
+Band: 	1
+PLMN: 	23002
+Transmission mode: 	TM4
+Rank: 	2
+CQI 0: 	15
+CQI 1: 	15
+Upload bandwidth: 	20 MHz
+Download bandwidth: 	20 MHz
+
+
+
+
+
+
+
+
+
+
+HomeStatisticsUpdateSettings
+English
+ user  Log Out
+
+
+Quick Setup
+Dial-up
+DHCP
+SecuritySystem
+Device Information
+Network Information
+LAN Device Information
+Backup and Restore
+Password Modification
+Diagnosis
+Reset All Settings
+Restart
+System Settings
+System Logs
+System Time
+Network Information
+Data APNAPN Status: ConnectedIPv4WAN IP address: 10.184.7.153 Subnet mask: 255.0.0.0 IDefault gateway: 10.0.0.1 Primary DNS: 194.228.211.33 Secondary DNS: 160.218.161.60
+TR069 APNAPN Status: DisabledIPv4WAN IP address:  Subnet mask:  IDefault gateway:  Primary DNS:  Secondary DNS:
+O2TV APNAPN Status: ConnectedIPv4WAN IP address: 10.176.100.37 Subnet mask: 255.0.0.0 IDefault gateway: 10.0.0.1 Primary DNS: 194.228.211.33 Secondary DNS: 160.218.161.60
+ Copyright © 2017-2019 Huawei Technologies Co., Ltd.
+Open Source Notice
+
+
+
+
+
+LAN Device Information
+Connection type:  Ethernet
+
+Host Name IP Address MAC Address Address Source Lease Time
+192.168.1.101	dc:f8:b9:ae:97:a3	Static	Permanent
+
+
 
 
 

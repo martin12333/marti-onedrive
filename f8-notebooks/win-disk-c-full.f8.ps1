@@ -2,6 +2,10 @@ win-disk-c-full.f8.ps1
 
 
 
+
+
+.\fedora
+
 df -m
 
 

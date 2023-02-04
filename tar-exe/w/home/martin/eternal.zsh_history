@@ -8287,3 +8287,9 @@ done}| grep -i '[/]etc[/]'
 : 1675464313:0;apt show dublin-traceroute
 : 1675464403:0;apt search '\bNAT\b'|grep install
 : 1675464411:0;apt search '\bNAT\b'
+: 1675468299:0;traceroute
+: 1675468303:0;traceroute6
+: 1675468325:0;traceroute6 10.0.0.138
+: 1675468343:0;tracepath         10.0.0.138
+: 1675468370:0;traceroute6  csp3.zte.com.cn
+: 1675468415:0;ping6  csp3.zte.com.cn

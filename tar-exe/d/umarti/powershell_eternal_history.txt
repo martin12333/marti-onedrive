@@ -4684,3 +4684,7 @@ ping --help
 ping6 --help
 whoami.exe
 whoami.exe /?
+ping6  csp3.zte.com.cn
+ping -6  csp3.zte.com.cn
+ping 10.0.0.138
+mtr  10.0.0.138
