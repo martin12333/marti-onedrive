@@ -576,3 +576,11 @@ done}| grep -i '[.]wasm$'
 : 1675527223:0;tracepath         10.0.0.138
 : 1675527227:0;tracepath         192.168.1.1
 : 1675527234:0;tracepath    -n     192.168.1.1
+: 1675528761:0;man traceroute.db
+: 1675528877:0;tracepath         10.0.0.138
+: 1675528880:0;tracepath    -n     192.168.1.1
+: 1675528889:0;traceroute -n    10.0.0.138
+: 1675528891:0;traceroute -n    192.168.1.1
+: 1675528905:0;dublin-traceroute --help
+: 1675528928:0;ls -l `which -a traceroute.db`
+: 1675528942:0;dublin-traceroute    8.8.8.8

@@ -176,9 +176,19 @@ traceroute --help
 traceroute -n    10.0.0.138
 traceroute -n    192.168.1.1
 
-traceroute.db --help
-dublin.traceroute --help
+traceroute.db --help 2>&1 |grep -i nat
+dublin-traceroute --help
+
+cmy22b
+vscode ➜ ~ $ dublin-traceroute --help
+zsh: operation not permitted: dublin-traceroute
+vscode ➜ ~ $
+
+ls -l `which -a traceroute.db`
+ man traceroute.db
+
 traceroute.db    8.8.8.8
+dublin-traceroute    8.8.8.8
 
 
 
@@ -186,7 +196,79 @@ traceroute.db    8.8.8.8
 
 tracert    -d     10.0.0.138
 tracert     -d    192.168.1.1
+tracert     -d    8.8.8.8
 tracert --help
+
+
+PS C:\Users\marti\OneDrive> tracert     -d    8.8.8.8
+
+Tracing route to 8.8.8.8 over a maximum of 30 hops
+
+  1    12 ms    21 ms     5 ms  10.0.0.138
+  2     6 ms    45 ms     8 ms  192.168.1.1
+  3     *        *        *     Request timed out.
+  4    90 ms    97 ms    77 ms  10.84.14.65
+  5    58 ms    98 ms   112 ms  194.228.115.83
+  6     *        *       82 ms  90.182.79.37
+  7    37 ms    26 ms    59 ms  90.182.78.1
+  8   114 ms    86 ms    98 ms  194.228.115.65
+  9    78 ms     *       41 ms  194.228.115.64
+ 10    47 ms    52 ms    36 ms  194.228.92.85
+ 11    36 ms   105 ms    90 ms  172.253.50.255
+ 12    26 ms    37 ms    27 ms  209.85.246.117
+ 13    37 ms    42 ms   124 ms  8.8.8.8
+
+Trace complete.
+PS C:\Users\marti\OneDrive> 
+
+
+
+
+
+
+
+
+
+
+vscode ➜ ~ $ traceroute.db    8.8.8.8
+traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 60 byte packets
+ 1  10.0.2.2 (10.0.2.2)  2.036 ms  1.971 ms  1.966 ms
+ 2  172.31.96.1 (172.31.96.1)  8.037 ms  8.020 ms  8.001 ms
+ 3  csp3.zte.com.cn (10.0.0.138)  18.295 ms  18.279 ms  18.263 ms
+ 4  * 192.168.1.1 (192.168.1.1)  18.228 ms *
+ 5  * * *
+ 6  * 10.84.14.65 (10.84.14.65)  31.901 ms  31.836 ms
+ 7  194.228.115.83 (194.228.115.83)  39.237 ms  24.349 ms 194.228.115.84 (194.228.115.84)  42.930 ms
+ 8  * * *
+ 9  * * *
+10  * * *
+11  * * 194.228.115.66 (194.228.115.66)  45.192 ms
+12  * 194.228.92.85 (194.228.92.85)  19.359 ms 194.228.190.115 (194.228.190.115)  105.653 ms
+13  * * 194.228.92.85 (194.228.92.85)  20.780 ms
+14  * * dns.google (8.8.8.8)  27.304 ms
+
+
+
+
+
+➜  OneDrive dublin-traceroute    8.8.8.8
+Starting dublin-traceroute
+Traceroute from 0.0.0.0:12345 to 8.8.8.8:33434~33453 (probing 20 paths, min TTL is 1, max TTL is 30, delay is 10 ms)
+== Flow ID 33434 ==
+1    172.31.96.1 (172.31.96.1), IP ID: 29 RTT 4.391 ms  ICMP (type=11, code=0) 'TTL expired in transit', NAT ID: 0, flow hash: 55960
+2    10.0.0.138 (csp3.zte.com.cn), IP ID: 13187 RTT 9.236 ms  ICMP (type=11, code=0) 'TTL expired in transit', NAT ID: 25639 (NAT detected), flow hash: 55960
+3    192.168.1.1 (192.168.1.1), IP ID: 36287 RTT 9.431 ms  ICMP (type=11, code=0) 'TTL expired in transit', NAT ID: 25639, flow hash: 55960
+4    *
+5    10.84.14.65 (10.84.14.65), IP ID: 54042 RTT 29.222 ms  ICMP (type=11, code=0) 'TTL expired in transit', NAT ID: 25639, flow hash: 55960
+6    194.228.115.84 (194.228.115.84), IP ID: 16838 RTT 38.957 ms  ICMP (type=11, code=0) 'TTL expired in transit', NAT ID: 25639, flow hash: 55960
+7    *
+
+
+8    90.182.78.33 (90.182.78.33), IP ID: 16326 RTT 38.468 ms  ICMP (type=11, code=0) 'TTL expired in transit', NAT ID: 143 (NAT detected), flow hash: 55960
+9    194.228.115.67 (194.228.115.67), IP ID: 16070 RTT 48.449 ms  ICMP (type=11, code=0) 'TTL expired in transit', NAT ID: 143, flow hash: 55960
+10    194.228.115.66 (194.228.115.66), IP ID: 55702 RTT 43.104 ms  ICMP (type=11, code=0) 'TTL expired in transit', NAT ID: 143, flow hash: 55960
+11    *
+
 
 
 
