@@ -13,12 +13,22 @@ echo '-------- section --------'
 # i use  a container
 podman machine start
 podman start   -ai    cmy22b
+n
 
 podman exec -it cmy22b /usr/bin/zsh
 ps -ejHF
 
 
 see also
+
+
+
+sudo apt install   iputils-tracepath   iputils-ping  dublin-traceroute  mtr-tiny  traceroute
+
+Unpacking dublin-traceroute (0.4.2-2build3) ...Selecting previously unselected package traceroute.Preparing to unpack .../traceroute_1%3a2.1.0-2_amd64.deb ...      Unpacking traceroute (1:2.1.0-2) ...Setting up traceroute (1:2.1.0-2) ...update-alternatives: using /usr/bin/traceroute.db to provide /usr/bin/traceroute (traceroute) in auto modeupdate-alternatives: using /usr/bin/traceroute6.db to provide /usr/bin/traceroute6 (traceroute6) in auto modeupdate-alternatives: using /usr/bin/lft.db to provide /usr/bin/lft (lft) in auto modeupdate-alternatives: using /usr/bin/traceproto.db to provide /usr/bin/traceproto (traceproto) in auto modeupdate-alternatives: using /usr/sbin/tcptraceroute.db to provide /usr/sbin/tcptraceroute (tcptraceroute) in auto modeSetting up libtins4.0 (4.0-1build2) ...
+
+update-alternatives: using /usr/bin/traceproto.db to provide /usr/bin/traceproto (traceproto) in auto modeupdate-alternatives: warning: skip creation of /usr/share/man/man1/traceproto.1.gz because associated file /usr/share/man/man1/traceproto.db.1.gz (of link group traceproto) doesn't existupdate-alternatives: using /usr/sbin/tcptraceroute.db to provide /usr/sbin/tcptraceroute (tcptraceroute) i'
+
 
 echo '-------- section --------'
 
@@ -38,6 +48,15 @@ ping6 --help
 
 mtr  10.0.0.138
 q
+
+
+
+
+
+
+
+
+
 
 dpkg
 
@@ -137,10 +156,42 @@ traceroute/focal 1:2.1.0-2 amd64
 
 
 
-exist  u20
 
+
+
+
+
+
+
+
+
+
+
+tracepath  --help
 tracepath         10.0.0.138
+tracepath    -n     192.168.1.1
 
+
+traceroute --help
+traceroute -n    10.0.0.138
+traceroute -n    192.168.1.1
+
+traceroute.db --help
+dublin.traceroute --help
+traceroute.db    8.8.8.8
+
+
+
+
+
+tracert    -d     10.0.0.138
+tracert     -d    192.168.1.1
+tracert --help
+
+
+
+
+exist  u20
 
 traceroute6@         traceroute6.iputils
 
@@ -417,3 +468,5 @@ Host Name IP Address MAC Address Address Source Lease Time
 
 
 netsh int ipv6 show dynamicport udp
+
+cat /proc/sys/net/ipv4/ip_local_port_range

@@ -4693,3 +4693,13 @@ dir c:
 cmd /c dir c:
 cmd /c dir c:\
 cmd /c dir c:\ /a
+netsh int ipv6 show dynamicport udp
+C:\pf\Git\bin\bash.exe
+podman machine start
+podman start   -ai    cmy22b
+tracert
+tracert         10.0.0.138
+tracert         192.168.1.1
+tracert --help
+tracert    -d     10.0.0.138
+tracert     -d    192.168.1.1

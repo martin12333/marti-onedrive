@@ -12,9 +12,11 @@ df -m
 
 cd /
 du -xm |sort -n
+sudo du -xm |sort -n
 
+ls -l /
 
-
+swapon --show
 
 top
 

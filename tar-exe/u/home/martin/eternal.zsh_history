@@ -568,3 +568,11 @@ done}| grep -i '[.]wasm$'
 : 1675382840:0;man -w  -K iputils
 : 1675383022:0;history
 : 1675464564:0;apt search '\bNAT\b'
+: 1675522809:0;cat /proc/sys/net/ipv4/ip_local_port_range
+: 1675526763:0;sudo apt install   iputils-tracepath   iputils-ping  dublin-traceroute  mtr-tiny  traceroute
+: 1675527076:0;tracepath         10.0.0.138
+: 1675527084:0;tracepath         192.168.1.1
+: 1675527218:0;tracepath  --help
+: 1675527223:0;tracepath         10.0.0.138
+: 1675527227:0;tracepath         192.168.1.1
+: 1675527234:0;tracepath    -n     192.168.1.1
