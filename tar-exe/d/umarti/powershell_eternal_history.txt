@@ -4703,3 +4703,15 @@ tracert         192.168.1.1
 tracert --help
 tracert    -d     10.0.0.138
 tracert     -d    192.168.1.1
+tracert     -d    8.8.8.8
+podman network
+podman network ls
+podman network inspect podman
+netsh
+netsh /?
+netsh show  /?
+netsh show  alias /?
+netsh show  ?
+netsh show  alias ?
+netsh show  alias
+Get-NetTCPConnection

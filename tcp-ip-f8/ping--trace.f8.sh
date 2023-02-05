@@ -219,7 +219,7 @@ Tracing route to 8.8.8.8 over a maximum of 30 hops
  13    37 ms    42 ms   124 ms  8.8.8.8
 
 Trace complete.
-PS C:\Users\marti\OneDrive> 
+PS C:\Users\marti\OneDrive>
 
 
 
@@ -543,6 +543,25 @@ Host Name IP Address MAC Address Address Source Lease Time
 192.168.1.101	dc:f8:b9:ae:97:a3	Static	Permanent
 
 
+
+
+
+netsh /?
+netsh show  /?
+netsh show  ?
+netsh show  alias /?
+netsh show  alias ?
+netsh show  alias
+
+
+exit
+
+Netsh trace start scenario=netconnection capture=yes tracefile=c:\Server.etl
+
+
+#netstat -
+Get-NetTCPConnection
+Get-NetTCPConnection  | Group-Object -Property State, OwningProcess | Select -Property Count, Name, @{Name="ProcessName";Expression={(Get-Process -PID ($_.Name.Split(',')[-1].Trim(' '))).Name}}, Group | Sort Count -Descending
 
 
 

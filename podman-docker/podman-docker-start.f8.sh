@@ -230,3 +230,15 @@ drwxrwxrwx   2 node node  4096 Oct  6 22:50 /home/node/.oh-my-zsh/plugins/git
 '
 
 fhgjhgfh
+
+
+
+podman network
+podman network ls
+
+podman network inspect podman
+
+
+
+root@dlp:~# podman run ubuntu /bin/bash -c "apt-get update; apt-get -y install iproute2; ip route"
+
