@@ -584,3 +584,7 @@ done}| grep -i '[.]wasm$'
 : 1675528905:0;dublin-traceroute --help
 : 1675528928:0;ls -l `which -a traceroute.db`
 : 1675528942:0;dublin-traceroute    8.8.8.8
+: 1675615190:0;apt search '\bNAT\b'
+: 1675615232:0;sudo apt install  stun
+: 1675615332:0;apt show stun-server
+: 1675615416:0;apt show python3-aioice
