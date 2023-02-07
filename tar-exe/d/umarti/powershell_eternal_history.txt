@@ -4762,3 +4762,7 @@ cmd
 cat D:\umarti\adm-du64-l-3--c--.txt
 cat D:\umarti\adm-du64-l-3--c--.txt|  findstr -i mila
 cat D:\umarti\adm-du64-l-3--c--.txt|  findstr -i mart
+C:\pf\Git\bin\bash.exe
+wsl
+wsl --list --running
+wsl -d Ubuntu-22.04

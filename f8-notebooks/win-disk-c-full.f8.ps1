@@ -299,3 +299,16 @@ swapon --show
 
 top
 
+
+
+
+
+
+
+cd "C:\Users\marti\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu20.04onWindows_79rhkp1fndgsc"
+cd ..
+du -ms  C*  | sort -n
+du -am
+df -m
+
+

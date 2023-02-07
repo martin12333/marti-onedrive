@@ -588,3 +588,21 @@ done}| grep -i '[.]wasm$'
 : 1675615232:0;sudo apt install  stun
 : 1675615332:0;apt show stun-server
 : 1675615416:0;apt show python3-aioice
+: 1675806077:0;man -k netcat
+: 1675806093:0;apt search netcat
+: 1675806145:0;nc
+: 1675806157:0;sudo apt install netcat-openbsd
+: 1675806199:0;netcat
+: 1675806214:0;nc.openbsd
+: 1675806231:0;nc
+: 1675806768:0;openssl
+: 1675806807:0;man openssl
+: 1675810220:0;apt search busybox
+: 1675810266:0;apt show busybox-static
+: 1675810321:0;apt show busybox
+: 1675810371:0;busybox 
+: 1675810390:0;busybox
+: 1675810440:0;busybox | tr , '\n'
+: 1675810460:0;busybox | tr , '\n'  | grep 'd$'
+: 1675810569:0;busybox | tr , '\n'  | grep ftp
+: 1675810584:0;busybox | tr , '\n'  | grep ping
