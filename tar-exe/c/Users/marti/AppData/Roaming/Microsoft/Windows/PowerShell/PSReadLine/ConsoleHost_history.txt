@@ -3231,3 +3231,13 @@ netstat -aon|findstr -i LISTEN
 netstat -aon|findstr -i 5000
 get-process| findstr 5396
 podman exec -it cmy22b /usr/bin/bash
+cd "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\"
+./du64
+./du64.exe -l 2   c:\  >D:\umarti\adm-unsort-du64-l-2--c--.txt
+exit
+cd "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\"
+./du64
+./du64.exe -l 2   c:\  >D:\umarti\adm-unsort-du64-l-2--c--.txt
+cd "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\"
+./du64
+./du64.exe -l 2   c:\  >D:\umarti\adm-unsort-du64-l-2--c--.txt
