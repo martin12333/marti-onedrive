@@ -1,6 +1,47 @@
 win-disk-c-full.f8.ps1
 
 
+
+
+cd "C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Profile 1"
+
+du -m
+
+
+du --help
+
+du -m --threshold=12m
+du -m --threshold=12m | sort -n
+
+90      ./Service Worker/CacheStorage/3cedfb74d44f2e84198d23075aef16c34a668ceb
+151     ./Code Cache/js
+153     ./Code Cache
+163     ./Service Worker/CacheStorage
+166     ./Service Worker
+272     ./Cache
+272     ./Cache/Cache_Data
+684     .
+
+cd ..
+
+
+
+
+win-x setti storag
+
+
+edge://settings/clearBrowserData?search=cach
+
+cahched images 212
+prev ver edge
+
+
+
+
+
+
+
+
 df -m
 
 
