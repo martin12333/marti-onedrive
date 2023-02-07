@@ -25,15 +25,106 @@ du -m --threshold=12m | sort -n
 cd ..
 
 
+124     ./Default/Service Worker/CacheStorage/c11ae81d57afa0385d189aac5b8586f0785f3105
+151     ./Profile 1/Code Cache/js
+153     ./Profile 1/Code Cache
+167     ./Profile 1/Service Worker/CacheStorage
+169     ./Profile 1/Service Worker
+172     ./Default/Extensions
+188     ./Default/Code Cache/wasm
+191     ./Default/Code Cache/js
+279     ./Default/Cache
+279     ./Default/Cache/Cache_Data
+282     ./Profile 1/Cache
+282     ./Profile 1/Cache/Cache_Data
+345     ./Default/Service Worker/CacheStorage/2125637cb721df1fc6a130ef08dc7e566db309c3
+345     ./Default/Service Worker/CacheStorage/2125637cb721df1fc6a130ef08dc7e566db309c3/2839a3c0-b96f-4b04-b5df-e790b6796995
+378     ./Default/Code Cache
+529     ./Default/IndexedDB
+702     ./Profile 1
+2018    ./Default/Service Worker/CacheStorage
+2071    ./Default/Service Worker
+3946    ./Default
+4781    .
 
 
 win-x setti storag
+nevidi inet caches
+ani clean nevidi inet caches
+
+
+
+df -m
+
+$ df -m
+Filesystem           1M-blocks     Used Available  Use% Mounted on
+C:/Program Files/Git    151328   131070     20259   87% /
+D:                       78056    73872      4185   95% /d
+E:                       37054    21157     15898   58% /e
+P:                           1 -1021340    968895 1948% /p
+U:                           1 -1026071    973626 1957% /u
+
+
+
+edge://settings/clearBrowserData?search=cach
+
+prev ver edge
+
+$ df -m
+Filesystem           1M-blocks     Used Available  Use% Mounted on
+C:/Program Files/Git    151328   131084     20245   87% /
+D:                       78056    73872      4185   95% /d
+E:                       37054    21157     15898   58% /e
+P:                           1 -1021340    968895 1948% /p
+U:                           1 -1026071    973626 1957% /u
+
+
+
+94      ./Service Worker/CacheStorage/3cedfb74d44f2e84198d23075aef16c34a668ceb
+155     ./Code Cache/js
+157     ./Code Cache
+167     ./Service Worker/CacheStorage
+169     ./Service Worker
+287     ./Cache
+287     ./Cache/Cache_Data
+709     .
+
 
 
 edge://settings/clearBrowserData?search=cach
 
 cahched images 212
+
+marti@len20 MINGW64 ~/AppData/Local/Microsoft/Edge/User Data/Profile 1 not__git_ps1
+$ df -m
+Filesystem           1M-blocks     Used Available  Use% Mounted on
+C:/Program Files/Git    151328   130657     20672   87% /
+D:
+
+
+94      ./Service Worker/CacheStorage/3cedfb74d44f2e84198d23075aef16c34a668ceb
+167     ./Service Worker/CacheStorage
+169     ./Service Worker
+283     .
+
+
+
+defau prof
+edge://settings/clearBrowserData?search=cach
+
 prev ver edge
+bojim
+
+
+
+
+
+
+cd "C:\Users\marti\AppData\"
+
+vylovit z d:
+
+
 
 
 
