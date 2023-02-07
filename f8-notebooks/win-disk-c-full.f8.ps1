@@ -13,7 +13,9 @@ cd "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\"
 
 ./du64.exe -l 2   c:\  >D:\umarti\adm-unsort-du64-l-2--c--.txt
 
-exit
+./du64.exe -l 3   c:\  >D:\umarti\adm-unsort-du64-l-3--c--.txt
+
+
 
 
 cat  D:\umarti\unsort-du64-l-2--c--.txt
@@ -25,6 +27,8 @@ sort.exe  < D:\umarti\unsort-du64-l-2--c--.txt   >D:\umarti\du64-l-2--c--.txt
 
 sort.exe  < D:\umarti\adm-unsort-du64-l-2--c--.txt   >D:\umarti\adm-du64-l-2--c--.txt
 
+sort.exe  < D:\umarti\adm-unsort-du64-l-3--c--.txt   >D:\umarti\adm-du64-l-3--c--.txt
+
 exit
 
 ~
@@ -32,7 +36,10 @@ exit
 | use.
 
 
-
+cat D:\umarti\adm-du64-l-2--c--.txt
+cat D:\umarti\adm-du64-l-3--c--.txt
+cat D:\umarti\adm-du64-l-3--c--.txt|  findstr -i mila
+cat D:\umarti\adm-du64-l-3--c--.txt|  findstr -i mart
 
 
 | sort
