@@ -5,11 +5,14 @@ win-disk-c-full.f8.ps1
 
 cd "C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Profile 1"
 
-du -m
+cd "C:\Users\marti\AppData\Local\Google\Chrome\User Data\Profile 4"
+
+
 
 
 du --help
 
+du -m
 du -m --threshold=12m
 du -m --threshold=12m | sort -n
 
@@ -21,6 +24,19 @@ du -m --threshold=12m | sort -n
 272     ./Cache
 272     ./Cache/Cache_Data
 684     .
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 cd ..
 
@@ -50,7 +66,7 @@ cd ..
 
 win-x setti storag
 nevidi inet caches
-ani clean nevidi inet caches
+even clean nevidi inet caches
 
 
 
@@ -108,12 +124,92 @@ D:
 283     .
 
 
+edge://favorites/
+
+ne sync
+
+edge://settings/reset
+
+
+will reset your startup page, new tab page, search engine, and pinned tabs. It will also turn off all extensions and clear temporary data like cookies. Your favorites, history and saved passwords will not be cleared.
+
+$ du -m --threshold=12m | sort -n
+
+19      ./SemanticEncoder.db
+24      ./Extensions
+36      ./IndexedDB
+116     .
+
+
+
+
+
 
 defau prof
 edge://settings/clearBrowserData?search=cach
 
 prev ver edge
 bojim
+
+
+
+
+
+cd ..
+
+du -sm */Cache
+
+@len20 MINGW64 ~/AppData/Local/Google/Chrome/User Data not__git_ps1
+$ du -sm */Cache
+287     Default/Cache
+1       Guest Profile/Cache
+151     Profile 1/Cache
+298     Profile 2/Cache
+74      Profile 3/Cache
+276     Profile 4/Cache
+118     Profile 5/Cache
+1       System Profile/Cache
+
+marti@len20 MINGW64 ~/AppData/Local/Google/Chrome/User Data not__git_ps1
+$ du -sm */Cache
+287     Default/Cache
+1       Guest Profile/Cache
+151     Profile 1/Cache              Eda
+102     Profile 2/Cache
+74      Profile 3/Cache
+276     Profile 4/Cache
+118     Profile 5/Cache
+1       System Profile/Cache
+
+
+
+$ du -m --threshold=12m | sort -n
+
+
+157     ./File System
+157     ./File System/002
+157     ./File System/002/p
+187     ./IndexedDB
+188     ./Code Cache/js
+211     ./Code Cache
+223     ./Extensions
+269     ./Cache
+269     ./Cache/Cache_Data
+360     ./Service Worker/CacheStorage
+379     ./Service Worker
+1586    .
+
+
+chrome://settings/clearBrowserData?search=cach
+
+cached images
+
+
+
+
+
+
+
 
 
 
