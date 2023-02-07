@@ -4715,3 +4715,30 @@ netsh show  ?
 netsh show  alias ?
 netsh show  alias
 Get-NetTCPConnection
+$startExe = New-Object System.Diagnostics.ProcessStartInfo -Args powershell.exe
+$startExe.verbs
+Start-Process -FilePath "powershell" -Verb RunAsuser
+$cred = Get-Credential
+du64.exe -l 2 c:\ | sort
+cd "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\"
+./du64.exe -l 2 c:\ | sort
+./du64.exe -l 1 c:\ | sort
+./du64.exe -l 1 c:\
+./du64.exe -l 1
+./du64.exe -l 1 ..
+./du64.exe -l 1 ../..
+./du64.exe -l 1 ../..  | sort
+./du64.exe -l 2   c:\  | sort  >D:\umarti\du64-l-2--c--.txt
+cat D:\umarti\du64-l-2--c--.txt
+./du64.exe -l 2   c:\  >D:\umarti\unsort-du64-l-2--c--.txt
+ls D:\umarti\unsort-du64-l-2--c--.txt
+cat  D:\umarti\unsort-du64-l-2--c--.txt
+ls D:\umarti\unsort-du64-l-2--c--.txt
+cat  D:\umarti\unsort-du64-l-2--c--.txt
+ls D:\umarti\unsort-du64-l-2--c--.txt
+cat  D:\umarti\unsort-du64-l-2--c--.txt
+cd "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\"
+./du64
+ls D:\umarti\unsort-du64-l-2--c--.txt
+cat  D:\umarti\unsort-du64-l-2--c--.txt
+./du64
