@@ -51,8 +51,34 @@ apt show python3-aioice
 
 
 
+pkgmgr
+win x control panel
+telnet
+?
+help
+q
+  - quit                     exit telnet
+
+
+c    - close                    close current connection
+d    - display                  display operating parameters
+o    - open hostname [port]     connect to hostname (default port 23).
+set  - set                      set options (type 'set ?' for a list)
+sen  - send                     send strings to server
+st   - status
+
+
+tftp
+
+respnt
+
+
 
 echo '-------- section --------'
+
+
+
+
 
 
 #wsl2 not ipv6

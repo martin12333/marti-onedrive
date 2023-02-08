@@ -87,6 +87,10 @@ sudo dnf install mc
 y
 sudo dnf install  bash-completion man-db man-pages
 
+sudo dnf install netcat
+
+
+
 cd ..
 cd bstollnitz
 git ls-files

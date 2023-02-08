@@ -4772,3 +4772,8 @@ NETSTAT.EXE
 PATHPING.EXE
 wsl -d Ubuntu-22.04
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt 
+C:\pf\Git\bin\bash.exe
+pkgmgr
+telnet
+tftp
+wsl -d podman-machine-default
