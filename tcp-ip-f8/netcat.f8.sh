@@ -8,8 +8,14 @@ apt search busybox
 
 sudo apt install netcat-openbsd
 
-nc
+nc --help
+man nc
 
+#ncat
+#pnetcat
+#socat
+#socket
+#sbd
 
 netcat-openbsd is already the newest version (1.218-4ubuntu1).
 netcat-openbsd set to manually installed.

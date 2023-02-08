@@ -593,3 +593,37 @@ Get-NetTCPConnection  | Group-Object -Property State, OwningProcess | Select -Pr
 netsh int ipv6 show dynamicport udp
 
 cat /proc/sys/net/ipv4/ip_local_port_range
+
+
+
+
+
+wsl --list --running
+wsl -d Ubuntu-22.04
+git add -vv  '*.f8.*'
+nc
+NETSTAT.EXE
+PATHPING.EXE
+wsl -d Ubuntu-22.04
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt
+PS C:\Users\marti>
+
+
+
+
+
+
+
+  600  man nc
+  601  ping --help
+  602  ping --help|grep -i tcp
+  603  ping --help 2>&1|grep -i tcp
+  604  ping --help 2>&1|grep -i ud
+  605  ping --help 2>&1|grep -i htt
+➜  OneDrive
+
+
+
+
+
+

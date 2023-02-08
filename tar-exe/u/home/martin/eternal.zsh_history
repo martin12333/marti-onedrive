@@ -606,3 +606,12 @@ done}| grep -i '[.]wasm$'
 : 1675810460:0;busybox | tr , '\n'  | grep 'd$'
 : 1675810569:0;busybox | tr , '\n'  | grep ftp
 : 1675810584:0;busybox | tr , '\n'  | grep ping
+: 1675811407:0;ncat
+: 1675811415:0;pnetcat
+: 1675811431:0;socat
+: 1675811437:0;sock
+: 1675811439:0;socket
+: 1675811449:0;sbd
+: 1675811501:0;nc
+: 1675811508:0;nc --help
+: 1675811520:0;man nc
