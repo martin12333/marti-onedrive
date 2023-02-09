@@ -4781,3 +4781,4 @@ podman machine start
 podman start   -ai    cmy22b
 ipaddr
 netstat
+telnet telehack.com
