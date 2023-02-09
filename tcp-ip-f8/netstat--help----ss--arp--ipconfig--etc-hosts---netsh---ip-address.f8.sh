@@ -27,6 +27,36 @@ echo '-------- section --------'
 
 
 
+
+
+Utilities obsoleted by iproute2
+Legacy utility	Replacement command	Note
+ifconfig	ip addr, ip link	Address and link configuration
+route	ip route	Routing tables
+arp	ip neigh	Neighbors
+iptunnel	ip tunnel	Tunnels
+nameif, ifrename	ip link set name	Rename network interfaces
+ipmaddr	ip maddr	Multicast
+netstat	ss, ip route	Show various networking statistics
+ netstat -i is ip -s link,
+
+brctl	bridge	Handle bridge addresses and devices
+
+
+
+
+
+
+
+
+
+
+
+echo '-------- section --------'
+
+
+
+
 get my ip address wsl2
 
 
