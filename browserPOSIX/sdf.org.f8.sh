@@ -36,7 +36,8 @@ yes
 
 
 Did you know you can validate your account and gain weekend IRC access
-by making a donation of $1 to $3?  Type '
+by making a donation of $1 to $3?  Type
+
 validate
 
 
@@ -48,7 +49,10 @@ regulars in either 'com' or 'irc'.  Be sure to ask them to help you.
 
 Alternatively you may 'validate' your account via PAYPAL by clicking on the
 'DONATE' button at the bottom of the http://sdf.org website.  The paypal
-minimum is $3.  Please include 'Validate martinmilan' in the Payment For field.
+minimum is $3.  Please include
+
+'Validate martinmilan' in the Payment For field.
+
 The SDF paypal address is 'paypal@freeshell.org'
 
 We also accept BitCoin and other crypto - Please type 'crypto' for details.
@@ -69,7 +73,9 @@ For Lifetime ARPA membership to SDF via paypal, type 'arpa'
 To see a list of UNIX commands you can use *NOW*, type '
 unix
 
+ bboard
 
+     - bulletin board
 
           - Change your password
  disk
@@ -77,9 +83,16 @@ unix
  uptime            - show system status
 
  df          -m
+
+
+ulimit -a 
+
+will display all of your current limits:
+
+
        - print system storage
  freeirc
-
+ - IRC access is free on Sundays
 
 exit
 
@@ -347,4 +360,50 @@ ls  /
 ls -l /
 ls  ../../..
 ls -l  ../../..
+
+cd /
+ls -la
+
+cd
+cd Mail
+cd proc
+
+
+7411 guestbook entries.
+
 set
+
+
+SHELL=/dev/null
+
+HISTORY=/sdf/udd/m/martinmilan/.history
+HOME=/sdf/udd/m/martinmilan
+
+MYIP=85.160.32.72
+
+PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11R7/bin:/usr/pkg/bin:/usr/pkg/sbin:/usr/local/bin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Welcome! I'm new here, also. Still exploring. So far my favorite thing
+about SDF is its history
+
+
+
+
+
+
+
