@@ -29,6 +29,33 @@ C:\Users\marti\OneDrive\sdf.org-f8\openai.f8.txt
 
 e - an external contact email address for dues and system notices
 
+
+(main) Your Choice:
+You can setup an external email address for system notices and dues
+reminders.  This is NOT an address that your SDF mail will be forwarded
+to and will be kept private.  You would want to set this up if you
+do not wish to use SDF's mail service, but still want to be informed
+of system updates or when your membership dues are due.'
+
+
+Please enter a contact address that can be used for sending system
+notices and dues reminders to.  This email address we be kept private.
+Your SDF email will not be forwarded to this address.
+To remove an address, just press return.
+
+milan.....
+
+q
+You have mail in /mail/martinmilan
+mail
+t
+
+
+
+
+
+
+
 o - manage optional account features and social networking
 m - reset your MySQL password(s)
 w - reset webmail preferences
