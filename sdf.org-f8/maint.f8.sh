@@ -24,6 +24,9 @@ Question:
 C:\Users\marti\OneDrive\sdf.org-f8\openai.f8.txt
 
 
+(lowercase)
+
+
 e - an external contact email address for dues and system notices
 
 o - manage optional account features and social networking
