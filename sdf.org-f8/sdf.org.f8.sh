@@ -37,6 +37,85 @@ yes
 
 
 
+
+
+
+
+Subject: Info on SDF Automatic Password Recovery
+
+[12] WHAT IF I FORGET MY USER PASSWORD?  CAN I RESET MY PASSWORD?
+
+     If you have unfortunately forgotten your user password, it can be
+     a bit of a pain on our behalf to figure out who you are and to
+     ensure that your request to 'reset' your password is legitimate.
+
+
+BEFORE YOU HAVE FORGOTTEN YOUR PASSWORD login to the maintenance
+     shell
+
+	 maint
+martinmilan
+
+# it goes to mx.sdf.org
+
+C:\Users\marti\OneDrive\sdf.org-f8\maint.f8.sh
+
+
+	  (type chfn or chsh) and select the 'set up password recovery'.
+
+
+     When you have forgotten your password, you can then login as 'new'
+     and type 'recover' (the menu option is not listed).
+
+
+
+     If you have not setup recovery, you may politely (and with patience)
+     contact membership (at) sdf.org or send a letter to the SDF mailbox.
+     You may consider making a donation at that time, as it will greatly
+     improve your chances of getting a password 'reset'.
+
+     Please note that the password recovery mechanism is not yet
+     available on 'sdf-eu.org', but will be in the future.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     IN THE EVENT OF AN OUTAGE CHECK http://www.sdf.org FOR UPDATES
+     Also, you can read about scheduled maintenance on bboard:<ANNOUNCE>
+
+
+
+"maint"   This is the maintenance shell which allows you to manage your
+          password, set up automatic password recovery, reset your mysql
+          database password, reset your webmail preferences, change your
+          shell, change your user information .. just about everything!
+
+
+
+
+
+
+
+
+
 you have 1 pending notification
 type '
 notes -r
@@ -83,7 +162,12 @@ user
 
 '
 For Lifetime ARPA membership to SDF via paypal, type 'arpa'
-To see a list of UNIX commands you can use *NOW*, type '
+
+
+
+
+
+To see a list of UNIX commands you can use *NOW*, type
 unix
 
  bboard
@@ -110,13 +194,13 @@ will display all of your current limits:
 exit
 
 
-'
+
 To view user contributed tutorials, visit http://sdf.org/?tutorials
 
 
 
 
-' for more info!
+' for more info!'
 
 
 
@@ -446,5 +530,10 @@ Explore and Enjoy!
 $
 
 
+
+
+
+"help"    Runs a program that will allow you to access files containing
+          descriptive listings for standard and non-standard UNIX commands.
 
 
