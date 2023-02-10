@@ -35,6 +35,19 @@ yes
 
 
 
+
+
+you have 1 pending notification
+type '
+notes -r
+
+' to retrieve it
+
+
+
+
+
+
 Did you know you can validate your account and gain weekend IRC access
 by making a donation of $1 to $3?  Type
 
@@ -85,7 +98,7 @@ unix
  df          -m
 
 
-ulimit -a 
+ulimit -a
 
 will display all of your current limits:
 
@@ -333,7 +346,7 @@ ED25519 host key for faeroes has changed and you have requested strict checking.
 Host key verification failed.
 Connection closed by foreign host.
 Connection to sdf.org closed.
-vscode ➜ ~ $'
+vscode ➜ ~ $
 
 
 
@@ -399,11 +412,40 @@ PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11R7/bin:/usr/pkg/bin:/usr/pkg/sbin:/us
 
 
 Welcome! I'm new here, also. Still exploring. So far my favorite thing
-about SDF is its history
+about SDF is its history'
 
 
 
 
+For quick help, type 'help'
+For detailed questions and answers, type 'faq'
+For user discussion boards and software requests, type 'bboard'
+For interactive discussions, type 'com'
+To setup your homepage, type 'mkhomepg'
+to create your URL http://martinmilan.freeshell.org, type 'mkhomepg -a'
 
+Explore and Enjoy!
+
+
+
+
+$ notes -r
+
+Welcome to the SDF Public Access UNIX system. (est. 1987)
+
+For quick help, type 'help'
+For detailed questions and answers, type 'faq'
+For user discussion boards, type 'bboard'
+For interactive discussions, type 'com'
+For adding yourself to the SDF User Map, see http://sdf1.org/map
+to create your URL http://martinmilan.freeshell.org, type 'mkhomepg'
+
+Explore and Enjoy!
+
+[1:1] (P)ROCEED, (D)ELETE, (C)ATCH UP, (R)ESPOND or (Q)UIT: PROCEED
+$
+
+
+mail
 
 
