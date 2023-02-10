@@ -21,7 +21,7 @@ Please create a question that will be asked of you when you login as
 
 Question:
 
-
+C:\Users\marti\OneDrive\sdf.org-f8\openai.f8.txt
 
 
 e - an external contact email address for dues and system notices
@@ -32,3 +32,8 @@ w - reset webmail preferences
 v - set or reset your VoIP SIP id
 
 q - quit
+
+
+
+
+

@@ -178,6 +178,7 @@ code ./dotfiles
 	git commit -v -a -m add
 
 	git add -vv  '*.f8.*'
+
 	git add -vv  '*.code-wo*'
 
 C:\pf\Git\bin\bash.exe
