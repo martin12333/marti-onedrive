@@ -4788,3 +4788,5 @@ ping 100.76.23.98
 $env:Path.Length
 $env:Path
 C:\pf\Git\bin\bash.exe
+where.exe ssh
+ssh  martinmilan@sdf.org

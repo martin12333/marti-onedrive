@@ -25,7 +25,8 @@ echo '-------- section --------'
 
 
 
-
+where.exe ssh
+C:\Windows\System32\OpenSSH\ssh.exe
 
 #ssh new@sdf.org
 ssh  martinmilan@sdf.org
@@ -33,7 +34,7 @@ ssh  martinmilan@sdf.org
 #ssh  martinmilan@tty.sdf.org
 yes
 
-
+notes -r
 
 
 
@@ -137,7 +138,6 @@ If you were referred to SDF by a friend or a current SDF member, they may
 be able to validate your new account for you.  You can usually find SDF
 regulars in either 'com' or 'irc'.  Be sure to ask them to help you.
 
-(contin
 
 Alternatively you may 'validate' your account via PAYPAL by clicking on the
 'DONATE' button at the bottom of the http://sdf.org website.  The paypal
@@ -149,8 +149,13 @@ The SDF paypal address is 'paypal@freeshell.org'
 
 We also accept BitCoin and other crypto - Please type 'crypto' for details.
 
-You may also credit the validation fee towards 'arpa' membership should
+You may also credit the validation fee towards '
+arpa
+
+' membership should
 you decide to join 'arpa' within 30 days of validating your account
+
+
 
 
 
@@ -161,7 +166,22 @@ user
 200mb
 
 '
-For Lifetime ARPA membership to SDF via paypal, type 'arpa'
+For Lifetime ARPA membership to SDF via paypal, type '
+arpa
+
+'
+ 600mb total / 20000 files in four areas
+ gcc, perl, php, python, ruby, et cetera
+ (type 'software arpa' for a complete list of programs)
+Be sure to include your user id of 'martinmilan'
+
+my
+arpa martinmilan
+
+Zaplatili jste 36,00 USD
+obchodníkovi SDF Public Access UNIX System, INC.
+
+
 
 
 
