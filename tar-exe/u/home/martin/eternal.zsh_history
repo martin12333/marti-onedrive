@@ -615,3 +615,18 @@ done}| grep -i '[.]wasm$'
 : 1675811501:0;nc
 : 1675811508:0;nc --help
 : 1675811520:0;man nc
+: 1675813711:0;ping --help
+: 1675813735:0;ping --help|grep -i tcp
+: 1675813749:0;ping --help 2>&1|grep -i tcp
+: 1675813754:0;ping --help 2>&1|grep -i ud
+: 1675813760:0;ping --help 2>&1|grep -i htt
+: 1675813932:0;history
+: 1675984361:0;ping localhost
+: 1675984407:0;nc -l -p 1234 >a  &
+: 1675984433:0;echo skjfs | nc -q 0 localhost 1234
+: 1675984441:0;cat a
+: 1675984454:0;echo >a
+: 1675984458:0;cat a
+: 1675984461:0;nc -l -p 1234 >a  &
+: 1675984468:0;echo skjfs | nc -w 2 localhost 1234
+: 1675984482:0;cat a

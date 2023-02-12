@@ -4782,3 +4782,8 @@ podman start   -ai    cmy22b
 ipaddr
 netstat
 telnet telehack.com
+ping 100.76.23.98
+ping 10.0.0.138
+ping 100.76.23.98
+$env:Path.Length
+$env:Path
