@@ -4787,3 +4787,4 @@ ping 10.0.0.138
 ping 100.76.23.98
 $env:Path.Length
 $env:Path
+C:\pf\Git\bin\bash.exe
