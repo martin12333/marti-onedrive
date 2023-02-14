@@ -4790,3 +4790,6 @@ $env:Path
 C:\pf\Git\bin\bash.exe
 where.exe ssh
 ssh  martinmilan@sdf.org
+podman machine start
+podman start   -ai    cmy22b
+wsl -d Ubuntu-22.04

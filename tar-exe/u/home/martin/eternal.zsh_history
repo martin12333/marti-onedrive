@@ -630,3 +630,18 @@ done}| grep -i '[.]wasm$'
 : 1675984461:0;nc -l -p 1234 >a  &
 : 1675984468:0;echo skjfs | nc -w 2 localhost 1234
 : 1675984482:0;cat a
+: 1676243241:0;apropos network
+: 1676243354:0;busybox
+: 1676243363:0;busybox|grep pin
+: 1676243378:0;apt show httping
+: 1676243446:0;apt search ping
+: 1676243453:0;apt search ping|grep ping
+: 1676243471:0;apt search ping|grep tping
+: 1676243490:0;apt search ping|grep cping
+: 1676243500:0;apt search ping|grep pping
+: 1676243507:0;apt search ping|grep cpping
+: 1676243525:0;apt search ping|grep dping
+: 1676321767:0;apt show alpine
+: 1676321787:0;echo $USER
+: 1676321900:0;sudo apt install alpine
+: 1676322042:0;alpine

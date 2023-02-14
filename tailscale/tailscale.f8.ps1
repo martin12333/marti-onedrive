@@ -11,6 +11,18 @@ exit
 echo '-------- section --------'
 
 
+# i use  a container
+podman machine start
+
+podman start   -ai    cmy22b
+
+wsl -d Ubuntu-22.04
+
+
+echo '-------- section --------'
+
+
+
 resto.point
 
 https://login.tailscale.com/admin/welcome
@@ -24,3 +36,28 @@ ping 10.0.0.138
 
 $env:Path.Length
 $env:Path
+
+
+
+
+
+
+
+
+
+
+
+
+apropos network
+
+
+
+busybox|grep pin
+apt show httping
+apt search ping|grep tping
+apt search ping|grep cpping
+apt search ping|grep dping
+
+
+
+

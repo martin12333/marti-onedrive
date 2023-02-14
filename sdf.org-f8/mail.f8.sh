@@ -18,6 +18,36 @@ echo '-------- section --------'
 
 
 
+todo squirrel mail
+
+
+ubu
+echo $USER
+apt show alpine
+sudo apt install alpine
+
+Recommends: alpine-doc, sensible-utils
+Suggests: aspell, default-mta | mail-transport-agent
+
+alpine
+
+
+
+
+
+
+We hope you will explore Alpine's many capabilities. From the
+MAIN MENU, select Setup/Config to see many of the options
+available to you. Also note that all screens have
+context-sensitive help text available.
+
+
+
+
+
+
+
+
 ssh  martinmilan@sdf.org
 
 

@@ -171,6 +171,7 @@ code ./dotfiles
 	git push
 
 	git show --name-only
+	git show 
 
 	git push
 
