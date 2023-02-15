@@ -9,6 +9,23 @@ Notifikační email:
 
 
 
+
+
+
+https://www.mojedatovaschranka.cz/portal/ISDS/nastaveni/notifikace/ext
+
+
+EXTERNÍ NOTIFIKACE
+Tato datová schránka nemá povoleno předávání notifikací o příchozích zprávách externím aplikacím
+
+
+
+
+
+
+
+
+
 https://www.lupa.cz/clanky/jak-na-datovku-datovy-trezor-a-dalsi-zpusoby-uschovani-zprav/
 
 
