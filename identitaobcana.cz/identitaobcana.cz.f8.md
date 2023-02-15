@@ -4,6 +4,13 @@ https://www.diigo.com/user/martin12333
 
 
 
+Aug 7, 2018 — Pokud ztratíte nebo Vám bude odcizen občanský průkaz s aktivovaným čipem, můžete čip zablokovat na lince +420 225 514 777.
+
+
+
+
+
+
 https://www.identitaobcana.cz/Cun
 
 Přihlášení k NB
