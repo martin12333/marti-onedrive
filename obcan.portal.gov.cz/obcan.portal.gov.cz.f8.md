@@ -71,6 +71,8 @@ Kontrola datové schránky probíhá jednou za 4 hodiny.
 
 
 
-Souhlasím, aby prostřednictvím aplikace portálu občana bylo mým jménem vstupováno do mé datové schránky a načítány datové zprávy za účelem vystavení upozornění (notifikací) na nově příchozí (dodané) datové zprávy. Beru na vědomí, že je takto načtená datová zpráva označena za doručenou v souladu s § 17 zákona č. 300/2008 Sb., o elektronických úkonech a autorizované konverzi dokumentů. Zároveň beru na vědomí rizika spojená s odesláním načtených informací do zvolené elektronické poštovní schránky (dále jen „e-mail“), především rizika spojená s nižší úrovní zabezpečení e-mailu oproti státem garantovanému uložišti datových schránek.
+Souhlasím, aby prostřednictvím aplikace portálu občana bylo mým jménem vstupováno do mé datové schránky a načítány datové zprávy za účelem vystavení upozornění (notifikací) na nově příchozí (dodané) datové zprávy. Beru na vědomí, že je takto načtená datová zpráva označena za doručenou v souladu s § 17 zákona č. 300/2008 Sb., o elektronických úkonech a autorizované konverzi dokumentů.
+
+Zároveň beru na vědomí rizika spojená s odesláním načtených informací do zvolené elektronické poštovní schránky (dále jen „e-mail“), především rizika spojená s nižší úrovní zabezpečení e-mailu oproti státem garantovanému uložišti datových schránek.
 
 
