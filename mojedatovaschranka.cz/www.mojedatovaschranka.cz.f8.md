@@ -1,5 +1,6 @@
 www.mojedatovaschranka.cz.f8.md
 
+https://www.diigo.com/user/martin12333
 
 /portal/ISDS/nastaveni/notifikace/sms
 
