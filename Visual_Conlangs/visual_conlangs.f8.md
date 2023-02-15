@@ -28,6 +28,12 @@ Multiple-character Bliss-words usually begin with a classifier in first position
 work-day in Bliss is [day][work]  ... EDIT: like NOUN(ADJECTIVE)
 birthday in Bliss is [day][birth]
 a day-work in Bliss could be [work][day]
+
+// EDIT: distantly related: https://en.wikipedia.org/wiki/English_compound
+
+
+
+
 ---
 greenhouse in Bliss is [house][plant]
 Home is [house][feeling]
