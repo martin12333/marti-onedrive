@@ -8,7 +8,13 @@ Oznámení
 Marketingová sdělení
 
 
- datov
+ datov   RADEJI VRATIL ZPATKY
+
+https://www.lupa.cz/clanky/jak-na-datovku-datovy-trezor-a-dalsi-zpusoby-uschovani-zprav/
+
+
+Před čím je ale potřeba mít se obzvláště na pozoru u Portálu občana, je varianta automatické archivace všech zpráv. Zatímco v případě defaultního nastavení bude archivování probíhat ručně, na vyžádání po přihlášení do Portálu občana, v případě automatické archivace se vše děje automaticky. Je to ale za tu cenu, že se aplikace bude periodicky každé cca 4 hodiny k datové schránce připojovat a stahovat z ní došlé zprávy, čímž automaticky způsobí jejich doručení, a to se všemi důsledky. Nezbývá tedy než opravdu důrazně varovat před touto volbou. Pokud si nejste jisti, že víte, co děláte, toto raději nedělejte.
+
 
 
 
@@ -65,14 +71,27 @@ Změny v základních registrech
 Konec platnosti dokladů
 
 
+
+
+
+
+ datov   RADEJI VRATIL ZPATKY
 Datové schránky
 Souhlasím, aby prostřednictvím aplikace portálu občana bylo mým jménem vstupováno do mé datové schránky a načítány datové zprávy za účelem vystavení upozornění (notifikací) na nově příchozí (dodané) datové zprávy. Beru na vědomí, že je takto načtená datová zpráva označena za doručenou v souladu s § 17 zákona č. 300/2008 Sb., o elektronických úkonech a autorizované konverzi dokumentů. Zároveň beru na vědomí rizika spojená s odesláním načtených informací do zvolené elektronické poštovní schránky (dále jen „e-mail“), především rizika spojená s nižší úrovní zabezpečení e-mailu oproti státem garantovanému uložišti datových schránek. Více informací o doručení také zde: https://www.datoveschranky.info/obcan
 Kontrola datové schránky probíhá jednou za 4 hodiny.
 
 
 
+ datov   RADEJI VRATIL ZPATKY
 Souhlasím, aby prostřednictvím aplikace portálu občana bylo mým jménem vstupováno do mé datové schránky a načítány datové zprávy za účelem vystavení upozornění (notifikací) na nově příchozí (dodané) datové zprávy. Beru na vědomí, že je takto načtená datová zpráva označena za doručenou v souladu s § 17 zákona č. 300/2008 Sb., o elektronických úkonech a autorizované konverzi dokumentů.
 
 Zároveň beru na vědomí rizika spojená s odesláním načtených informací do zvolené elektronické poštovní schránky (dále jen „e-mail“), především rizika spojená s nižší úrovní zabezpečení e-mailu oproti státem garantovanému uložišti datových schránek.
+
+
+
+
+
+
+
 
 
