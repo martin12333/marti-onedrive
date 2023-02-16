@@ -1,5 +1,10 @@
 visual_conlangs.f8.md
 
+
+EDIT: it's interesting to paste what I have written into the https://lingojam.com/EmojiTranslator%28Iconic%29
+
+
+
 I will slowly start to comment and compare this to Blissymbolics.
 I am glad, that the symbol-order is the English-like, and not the opposite, like in Bliss.
 
@@ -49,6 +54,10 @@ EDIT: similar: Latin: Homo sapiens
 
 
 
+> A symbol is an abstract depiction ... Some symbols like ❤️ love are widely used, ...
+
+
+> To distinguish 🔊 sound from 🔊👌 loudspeaker or 💧 waterfrom 💧👌 drop we use the 👌 literal suffix. The opposite is the ⭐ abstract suffix allowing us to express 🕊️⭐ peace, 💀⭐ death and 🧙‍⭐ magic.
 
 
 
@@ -56,10 +65,36 @@ EDIT: similar: Latin: Homo sapiens
 
 
 
+> ... Some symbols like ❤️ love are widely used, ...
+
+In Bliss and EmojiBliss:
+
+* 💛 [feeling](https://www.xelify.se/blissdictionary/?q=feeling)
+
+*  °💛 [heart](https://www.xelify.se/blissdictionary/?q=heart) ... thing-indicator(feeling)
+
+* -💛->  [love](https://www.xelify.se/blissdictionary/?q=love) ... feeling(arrow)
+
+
+... Some symbols like ❤️ love are widely used, ...
+In Bliss and EmojiBliss:
+- 💛 feeling
+- °💛 heart ... thing-indicator(feeling)
+- - ⤚💛→
+ ➜	➜   love ... feeling(arrow)
+
+In the standard Bliss, and in emoji-Bliss (rough approximations):
+
+
+For a comparison, related words in the standard Bliss, ... and in UnicodeBliss (rough approximations to the standard Bliss using today's Unicode):
+
+For a comparison, some related words, expressed in the standard Bliss, ... and in UnicodeBliss (UnicodeBliss are rough approximations to the standard Bliss, using today's Unicode):
 
 
 
 
+feeling ... 💛
 
+heart ... thing-indicator(feeling) ... °💛
 
-
+love ... feeling(arrow) ... ⤚💛→
