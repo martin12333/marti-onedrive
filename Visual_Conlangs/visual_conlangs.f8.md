@@ -98,3 +98,12 @@ feeling ... 💛
 heart ... thing-indicator(feeling) ... °💛
 
 love ... feeling(arrow) ... ⤚💛→
+
+EDIT: it's interesting to paste what I have written into the https://lingojam.com/EmojiTranslator%28Iconic%29
+
+
+EDIT: another interesting experiment is to search through Iconic.ahk for an emoji Unicode string, e.g. ❤️⭐
+
+
+
+"C:\Users\marti\OneDrive\Visual_Conlangs\Iconic.ahk"

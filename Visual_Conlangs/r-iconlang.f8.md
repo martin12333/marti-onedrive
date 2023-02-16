@@ -3,6 +3,35 @@ r-iconlang.f8.md
 EDIT: it's interesting to paste what I have written into the https://lingojam.com/EmojiTranslator%28Iconic%29
 
 
+:o:tolike::❤️🎬
+
+
+
+
+
+
+
+
+
+https://lingojam.com/EmojiTranslator%28Iconic%29
+
+a ........ b c d e  f   ❗.  🔨cde f
+
+🧍❤️heart  ... thing-indicator(feeling) ... °💛
+
+ ❤️love... feeling(arrow) ... ⤚💛→
+
+❤️⭐feeling1 ... 💛
+emotion
+
+✋️⭐feeling2  ...
+
+
+
+
+
+
+C:\Users\marti\OneDrive\Visual_Conlangs\Iconic.ahk
 
 Close the script via escape. Reload it
 ; via Ctrl+Alt+R. Activate or deactivate it with Ctrl+Alt+A.
@@ -20,26 +49,15 @@ Esc::exitapp
 ^!a::Suspend
 
 
-
-
-a ........ b c d e  f   ❗.  🔨cde f
-
-🧍❤️heart  ... thing-indicator(feeling) ... °💛
-
- ❤️love... feeling(arrow) ... ⤚💛→
-
-❤️⭐feeling1 ... 💛
-
-✋️⭐feeling2  ...
-
-
-
-
-
-
-C:\Users\marti\OneDrive\Visual_Conlangs\Iconic.ahk
-
 :o:emotion::❤️⭐
+:o:feeling1::❤️⭐
+:o:sense2::❤️⭐
+:o:intuitive::❤️⭐🤲
+
+:o:philosophy::🧙🏻🤲⭐❤️
+
+:o:cute::🐤❤️🤲
+:o:lovely::❤️🤲
 
 
 
