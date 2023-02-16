@@ -9,7 +9,6 @@ Close the script via escape. Reload it
 ; The symbol for activation is 'H' like 'Hotkey', for disactivation
 ; 'S' like 'Stop'.
 
-
 ; 1 Script Management
 ; ===================
 
@@ -25,16 +24,20 @@ Esc::exitapp
 
 a ........ b c d e  f   ❗.  🔨cde f
 
-heart 🧍❤️ ... thing-indicator(feeling) ... °💛
+🧍❤️heart  ... thing-indicator(feeling) ... °💛
 
-love ❤️... feeling(arrow) ... ⤚💛→
+ ❤️love... feeling(arrow) ... ⤚💛→
 
-feeling1 ❤️⭐... 💛
+❤️⭐feeling1 ... 💛
 
-feeling2 ✋️⭐ ... 💛
+✋️⭐feeling2  ...
 
 
 
+
+
+
+C:\Users\marti\OneDrive\Visual_Conlangs\Iconic.ahk
 
 :o:emotion::❤️⭐
 
