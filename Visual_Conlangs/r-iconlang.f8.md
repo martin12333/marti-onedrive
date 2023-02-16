@@ -63,3 +63,37 @@ Esc::exitapp
 
 
 
+... BTW, why not make the entire vocabulary file accessible on the web without unzipping (if there is no yet ___ ) ... the license can be in the comments ... (edit: or maybe there is already ___)
+
+
+
+
+
+good1 idea. But it might need2 some more1 work4.)
+
+
+
+:o:good1::👍
+:o:good2::👼🤲
+:o:more1::⚖️
+:o:more2::➕🤲
+:o:can1::💪
+:o:can2::🥫
+:o:hard1::😧
+:o:hard2::🧱🤲
+:o:too1::🤯
+:o:too2::➕
+:o:age1::⬅️⌛
+:o:age2::👴✨🎬
+:o:age3::⬅️🕒⌛
+:o:age4::🧒⌛
+:o:at1::⚓
+:o:at2::🕒
+:o:as1::📦
+:o:as2::🤲
+:o:as3::💡
+:o:as4::⚖️
+:o:right1::➡️
+:o:right2::✔️🤲
+:o:right3::⚖️⭐📖🔨⭐
+

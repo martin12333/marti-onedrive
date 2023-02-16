@@ -107,3 +107,79 @@ EDIT: another interesting experiment is to search through Iconic.ahk for an emoj
 
 
 "C:\Users\marti\OneDrive\Visual_Conlangs\Iconic.ahk"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+([Logographic Fonts | Table of Contents](https://www.reddit.com/r/visual_conlangs/comments/cf6rdv/logographic_fonts_table_of_contents/))
+
+An alternative method for entering logographic characters is: by "abusing" the word-completion in some editors:
+
+* it works in the Geany editor, even for PUA characters [Imgur](https://i.imgur.com/TLJpMh6.png) (**PUA** = the Private Usea Area of Unicode)
+* works in SublimeText, even for PUA characters [Imgur](https://i.imgur.com/wD0Srw5.png)
+* should work in the ACE editor
+* works in VSCode, even for PUA characters
+* todo test the VSCode-online ... http://vscode.dev
+* todo test ACE
+
+&#x200B;
+
+* text sample for testing:
+
+&#8203;
+
+    // completion-test.txt.coffee
+    // some identifiers, that contain non-ascii characters
+    // E5 ... PUA
+    // 1f3 ... emojis
+
+    abc4E_人_1 abcAC_가_2 abcE5__3 abc1f3_🌀_4
+
+    // additional identifiers
+
+
+EDIT 2023: a cleaner method is to define a snippet file for the editor
+
+&#x200B;
+
+&#x200B;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
