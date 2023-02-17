@@ -3,7 +3,7 @@ r-iconlang.f8.md
 EDIT: it's interesting to paste what I have written into the https://lingojam.com/EmojiTranslator%28Iconic%29
 
 
-:o:tolike::❤️🎬
+tolike_❤️🎬
 
 
 
@@ -42,22 +42,22 @@ Close the script via escape. Reload it
 ; ===================
 
 ; Exit the script with Escape
-Esc::exitapp
+Esc_exitapp
 ; Press Ctrl+Alt+R to reload the script
-^!r::Reload
+^!r_Reload
 ; Press Ctrl+Alt+A to toggle the script on and off
-^!a::Suspend
+^!a_Suspend
 
 
-:o:emotion::❤️⭐
-:o:feeling1::❤️⭐
-:o:sense2::❤️⭐
-:o:intuitive::❤️⭐🤲
+emotion_❤️⭐
+feeling1_❤️⭐
+sense2_❤️⭐
+intuitive_❤️⭐🤲
 
-:o:philosophy::🧙🏻🤲⭐❤️
+philosophy_🧙🏻🤲⭐❤️
 
-:o:cute::🐤❤️🤲
-:o:lovely::❤️🤲
+cute_🐤❤️🤲
+lovely_❤️🤲
 
 
 
@@ -67,33 +67,48 @@ Esc::exitapp
 
 
 
+goo
 
 
-good1 idea. But it might need2 some more1 work4.)
+:o:
+::
+
+
+depends on format
+.md fail
+
+// completion-test.txt.coffee
+// some identifiers, that contain non-ascii characters
+// E5 ... PUA
+// 1f3 ... emojis
+
+abc4E_人_1 abcAC_가_2 abcE5__3 abc1f3_🌀_4
+
+// additional identifiers
 
 
 
-:o:good1::👍
-:o:good2::👼🤲
-:o:more1::⚖️
-:o:more2::➕🤲
-:o:can1::💪
-:o:can2::🥫
-:o:hard1::😧
-:o:hard2::🧱🤲
-:o:too1::🤯
-:o:too2::➕
-:o:age1::⬅️⌛
-:o:age2::👴✨🎬
-:o:age3::⬅️🕒⌛
-:o:age4::🧒⌛
-:o:at1::⚓
-:o:at2::🕒
-:o:as1::📦
-:o:as2::🤲
-:o:as3::💡
-:o:as4::⚖️
-:o:right1::➡️
-:o:right2::✔️🤲
-:o:right3::⚖️⭐📖🔨⭐
+good1_👍
+good2_👼🤲
+more1_⚖️
+more2_➕🤲
+can1_💪
+can2_🥫
+hard1_😧
+hard2_🧱🤲
+too1_🤯
+too2_➕
+age1_⬅️⌛
+age2_👴✨🎬
+age3_⬅️🕒⌛
+age4_🧒⌛
+at1_⚓
+at2_🕒
+as1_📦
+as2_🤲
+as3_💡
+as4_⚖️
+right1_➡️
+right2_✔️🤲
+right3_⚖️⭐📖🔨⭐
 

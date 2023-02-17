@@ -168,18 +168,54 @@ EDIT 2023: a cleaner method is to define a snippet file for the editor
 
 
 
+- r, even for PUA characters
+
+
+-  ... (PUA = the Private Usea Area of Unicode)
+
+
+(Logographic Fonts | Table of Contents)
+An alternative method for entering logographic characters is: by "abusing" the word-completion in some editors:
+- it works in the Geany editor ... Imgur
+- works in SublimeText, even for PUA characters ... Imgur
+- should work in the ACE editor
+- works in VSCode, even for PUA characters
+- todo test the VSCode-online ... http://vscode.dev
+- todo test ACE
+
+- text sample for testing:
+
+# completion-test.txt.coffee
+
+# completion slightly depends on file format
+# vscode *.md emojis fail
+# vscode *.coffee OK
+
+# some identifiers, that contain non-ascii characters
+# E5 ... PUA
+# 1f3 ... emojis
+
+abc4E_人_1 abcAC_가_2 abcE5__3 abc1f3_🌀_4
+
+# additional identifiers
+
+good1_👍
+good2_👼🤲
+more1_⚖️
+more2_➕🤲
+can1_💪
+can2_🥫
+------
+EDIT 2023: a cleaner method will be to define a snippet file for the editor
+-----
 
 
 
 
 
 
+https://ace.c9.io/build/kitchen-sink.html
 
+snippets---ace.c9.io--build--kitchen-sink.tab
 
-
-
-
-
-
-
-
+C:\Users\marti\OneDrive\symbol_boards\snippets---ace.c9.io--build--kitchen-sink.tab
