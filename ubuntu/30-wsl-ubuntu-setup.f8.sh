@@ -163,3 +163,13 @@ echo '-------- section --------'
 
 
 man cp
+
+
+
+
+
+
+
+
+#systemctl
+https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/

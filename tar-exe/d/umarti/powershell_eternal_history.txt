@@ -4796,3 +4796,6 @@ wsl -d Ubuntu-22.04
 tailscale ip
 ls -l "C:\Program Files\Tailscale"
 tailscale netcheck
+tailscale status
+tailscale
+tailscale  nc   --help

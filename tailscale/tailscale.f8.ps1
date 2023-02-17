@@ -142,6 +142,9 @@ Endpoints
 
 
 
+tailscale status
 
 
-
+tailscale
+nc         Connect to a port on a host, connected to stdin/stdout
+tailscale  nc   --help
