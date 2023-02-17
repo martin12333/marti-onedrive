@@ -56,15 +56,14 @@ echo '-------- section --------'
 
 
 
-
+google
 get my ip address wsl2
 
 
-
+# help
 cat /etc/resolv.conf
 cat /etc/hostname
 cat  /etc/hosts
-
 cat /proc/net/fib_trie
 #ls -l /proc/self/net
 #ls -l /proc/net
@@ -295,7 +294,7 @@ wsl hostname -I
 
 
 
-
+netsh /? #help
 netsh interface ipv4 show neighbors
 
 

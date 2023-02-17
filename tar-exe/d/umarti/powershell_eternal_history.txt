@@ -4830,3 +4830,6 @@ route PRINT|findstr ailscale
 route PRINT|findstr -i tailscale
 route
 route ---
+route # help
+netsh /help
+netsh /?

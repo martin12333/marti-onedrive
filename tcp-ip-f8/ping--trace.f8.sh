@@ -601,6 +601,16 @@ Host Name IP Address MAC Address Address Source Lease Time
 
 
 
+
+
+
+
+
+
+
+
+
+
 netsh /?
 netsh show  /?
 netsh show  ?
@@ -612,7 +622,6 @@ netsh show  alias
 exit
 
 Netsh trace start scenario=netconnection capture=yes tracefile=c:\Server.etl
-
 
 #netstat -
 Get-NetTCPConnection
