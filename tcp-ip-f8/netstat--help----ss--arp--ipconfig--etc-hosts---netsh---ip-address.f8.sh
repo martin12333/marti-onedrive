@@ -445,6 +445,12 @@ socklist --help
 
 host --help
 man host
-       host - DNS lookup utility
+       host
+	   - DNS lookup utility
 
 
+
+
+route # help
+route PRINT|findstr -i tailscale
+ 57...........................Tailscale Tunnel

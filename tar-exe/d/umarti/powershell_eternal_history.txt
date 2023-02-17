@@ -4799,3 +4799,34 @@ tailscale netcheck
 tailscale status
 tailscale
 tailscale  nc   --help
+tailscale status
+tailscale netcheck
+tailscale ip
+ping 10.0.0.138
+ping 100.76.23.98
+ping --help
+ping6 --help
+help
+tracepath  --help
+traceroute --help
+dublin-traceroute --help
+tracert --help
+help
+netstat --help
+ss --help
+arp --help
+ip a help
+ifconfig --help
+ipconfig --help
+ipconfig /all
+python -m http.server --help
+socklist --help
+host --help
+host
+route
+route PRINT
+route PRINT|findstr ailsc
+route PRINT|findstr ailscale
+route PRINT|findstr -i tailscale
+route
+route ---

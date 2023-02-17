@@ -101,6 +101,7 @@ q
 
 
 
+ping 100.76.23.98
 
 
 
@@ -227,6 +228,10 @@ traceroute -n    192.168.1.1
 traceroute.db --help 2>&1 |grep -i nat
 dublin-traceroute --help
 
+
+
+
+
 cmy22b
 vscode ➜ ~ $ dublin-traceroute --help
 zsh: operation not permitted: dublin-traceroute
@@ -237,6 +242,8 @@ ls -l `which -a traceroute.db`
 
 traceroute.db    8.8.8.8
 dublin-traceroute    8.8.8.8
+
+
 
 
 

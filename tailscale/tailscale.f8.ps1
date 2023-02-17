@@ -30,6 +30,8 @@ https://login.tailscale.com/admin/welcome
 reboot
 resto.point
 
+
+
 ping 100.76.23.98
 
 ping 10.0.0.138
@@ -143,6 +145,15 @@ Endpoints
 
 
 tailscale status
+
+PS C:\Users\marti\OneDrive> tailscale status
+100.91.194.58   len20                milan.bok.75@ windows offline
+100.76.23.98    milans-galaxy-s9     milan.bok.75@ android idle, tx 3096068 rx 41525292
+
+# Health check:
+#     - not in map poll
+
+
 
 
 tailscale
