@@ -15,6 +15,7 @@ echo '-------- section --------'
 
 
 resto.point
+pre New-LocalUser
 inst
 reboot
 resto.point
