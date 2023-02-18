@@ -89,6 +89,54 @@ ls C:\Users
 
 
 
+net user $username
+
+Password required            No
+
+Workstations allowed         All
+Logon script
+User profile
+Home directory
+Last logon                   Never
+
+
+Local Group Memberships
+Global Group memberships     *None
+
+
+net user Eda
+
+User name                    Eda
+Full Name                    Edovo Nastaveni
+
+Password expires             03/09/2021 18:11:27
+Password required            Yes
+
+Workstations allowed         All
+Logon script
+User profile
+Home directory
+Last logon                   01/26/2021 18:11:25
+
+Logon hours allowed          All
+
+Local Group Memberships      *nonadmins1
+*Users
+
+papir a5 group deny udajne nefunguji
+
+Global Group memberships     *None
+
+
+
+
+
+
+
+
+
+
+
 
 Add-LocalGroupMember -Group Users -Member LazyUser
 

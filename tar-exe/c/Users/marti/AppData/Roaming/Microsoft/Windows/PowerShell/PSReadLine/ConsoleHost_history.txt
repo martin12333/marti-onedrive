@@ -3256,3 +3256,5 @@ $username = 'userklic'
 $pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
 Get-LocalUser
 ls C:\Users
+net user $username
+net user Eda
