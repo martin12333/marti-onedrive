@@ -453,3 +453,19 @@ man host
 route # help
 route PRINT|findstr -i tailscale
  57...........................Tailscale Tunnel
+
+
+quit
+netsh  dump|findstr -i mtu
+netsh  dump|findstr -i tailscale
+
+
+
+
+add address name="vEthernet (Default Switch)" address=172.17.144.1 mask=255.255.240.0
+add address name="vEthernet (Wi-Fi)" address=172.21.112.1 mask=255.255.240.0
+add address name="vEthernet (Ethernet)" address=172.30.112.1 mask=255.255.240.0
+add address name="vEthernet (WSL)" address=172.26.112.1 mask=255.255.240.0
+
+
+

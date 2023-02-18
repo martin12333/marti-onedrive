@@ -4833,3 +4833,5 @@ route ---
 route # help
 netsh /help
 netsh /?
+net user /help
+netsh
