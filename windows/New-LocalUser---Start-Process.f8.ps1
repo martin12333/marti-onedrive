@@ -50,11 +50,22 @@ I had to use your ADSI method as New-LocalUser was throwing errors about not mee
 
 Variable names aren't case-sensitive,'
 ps7 yes
-$username = "LazyUser"
+$username = 'u232i'
+$username = 'userklic'
 echo $Username
 $PSVersionTable
 
 
+$pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
+$pass
+$Password=ConvertTo-SecureString $pass -AsPlainText -Force -Verbose -Debug
+$Password.Length
+
+
+#
+$Password = ConvertTo-SecureString -AsPlainText $pass -Force
+$password = 'NewProfilePassword' | ConvertTo-SecureString -AsPlainText -Force
+$password = ConvertTo-SecureString "LazyAdminPwd123!" -AsPlainText -Force  # Super strong plane text password here (yes this isn't secure at all)
 
 
 

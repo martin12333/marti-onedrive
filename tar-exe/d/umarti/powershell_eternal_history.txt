@@ -4862,3 +4862,14 @@ echo fdgf > "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\a"
 echo fdgf > "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
 cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
 echo $(cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i")
+echo $Username
+$username = "LazyUser"
+echo $Username
+$PSVersionTable
+$username = u232i
+$username = 'u232i'
+echo $Username
+$username = 'userklic'
+echo $Username
+$pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
+$pass
