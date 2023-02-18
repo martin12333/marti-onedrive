@@ -46,6 +46,20 @@ I had to use your ADSI method as New-LocalUser was throwing errors about not mee
 
 
 
+
+
+Variable names aren't case-sensitive,'
+ps7 yes
+$username = "LazyUser"
+echo $Username
+$PSVersionTable
+
+
+
+
+
+
+
 # Username and Password
 $username = "LazyUser"
 $password = ConvertTo-SecureString "LazyAdminPwd123!" -AsPlainText -Force  # Super strong plane text password here (yes this isn't secure at all)
@@ -89,7 +103,13 @@ Edit
 Follow
 
 
+$Cred = New-Object System.Management.Automation.PSCredential ("$UNameLocal", $Password)
 
+Start-Process "cmd.exe" -Credential $Cred -ArgumentList "/C" -LoadUserProfile
+
+Share
+Edit
+Follow
 
 
 
