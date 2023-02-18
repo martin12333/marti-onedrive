@@ -12,22 +12,11 @@ echo '-------- section --------'
 
 
 
-
-
 resto.point
 pre New-LocalUser
 inst
 reboot
 resto.point
-
-
-
-
-
-
-
-
-
 
 
 
@@ -38,6 +27,16 @@ icacls.exe C:\Users\marti\OneDrive
 icacls.exe C:\Users\milan_rxtipwr\
 icacls.exe C:\Users\milan_rxtipwr\OneDrive
 
+
+
+echo fdgf > "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
+
+file:///C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i
+mc
+
+echo $(cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i")
+
+#./apgluxe -L 1 -t 1 -k `cat ~/grdr20/klic`   --rule r2b7t8s6t10    -n 10000  #cd apgmera/
 
 
 

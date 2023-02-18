@@ -4854,3 +4854,9 @@ icacls.exe C:\Users\marti\OneDrive
 icacls.exe C:\Users\milan_rxtipwr\
 icacls.exe C:\Users\milan_rxtipwr\OneDrive
 icacls.exe  d:\
+ls "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC"
+ls "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\a"
+touch "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\a"
+echo > "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\a"
+echo fdgf > "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\a"
+echo fdgf > "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
