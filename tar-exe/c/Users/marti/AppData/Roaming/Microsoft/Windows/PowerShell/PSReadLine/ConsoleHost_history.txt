@@ -3159,15 +3159,15 @@ dir /q
 cmd /c dir /q
 cmd /c dir /q E:\tc-copy-ntfs-perm-milan
 history
-icacls.exe E:\tc-copy-ntfs-perm-milan\ /grant 'marti:(oi)(ci)(rx)' 
+icacls.exe E:\tc-copy-ntfs-perm-milan\ /grant 'marti:(oi)(ci)(rx)'
 cd .\tc-copy-ntfs-perm-milan\
 dir
-icacls.exe E:\tc-copy-ntfs-perm-milan\* /grant 'marti:(oi)(ci)(rx)' 
+icacls.exe E:\tc-copy-ntfs-perm-milan\* /grant 'marti:(oi)(ci)(rx)'
 history
 takeown.exe /f e:
-icacls.exe E:\tc-copy-ntfs-perm-milan\ /grant 'marti:(oi)(ci)(rx)' 
-icacls.exe E:\tc-copy-ntfs-perm-milan\* /grant 'marti:(oi)(ci)(rx)' 
-icacls.exe E:\tc-copy-ntfs-perm-milan\ /grant 'marti:(oi)(ci)(rx)' /t 
+icacls.exe E:\tc-copy-ntfs-perm-milan\ /grant 'marti:(oi)(ci)(rx)'
+icacls.exe E:\tc-copy-ntfs-perm-milan\* /grant 'marti:(oi)(ci)(rx)'
+icacls.exe E:\tc-copy-ntfs-perm-milan\ /grant 'marti:(oi)(ci)(rx)' /t
 icacls.exe E:\tc-copy-ntfs-perm-milan\ /grant 'marti:(oi)(ci)(rx)' /t /c
 takeown.exe /f e:
 takeown.exe /f e: /a
@@ -3185,8 +3185,8 @@ icacls.exe E:\tc-copy-ntfs-perm-milan\ /setowner 'marti' /t /c /q
 icacls.exe E:\ /setowner 'marti' /t /c /q
 icacls.exe E:\tc-copy-ntfs-perm-milan\ /reset /t /c`
 
-takeown.exe /f e:\  /a     /r /d y 
-icacls.exe E:\ /setowner administrators /t /c 
+takeown.exe /f e:\  /a     /r /d y
+icacls.exe E:\ /setowner administrators /t /c
 icacls.exe E:\ /setowner administrators /t /c /q
 history
 icacls.exe E:\ /reset /t /c /q
@@ -3198,7 +3198,7 @@ icacls E:\ /inheritancelevel:e   /t  /q
 c:
 c:
 icacls.exe E:\marti\ /grant 'marti:(oi)(ci)(f)' /t /c
-takeown.exe /f e:\  /a     /r /d y 
+takeown.exe /f e:\  /a     /r /d y
 icacls.exe E:\ /setowner administrators /t /c /q
 icacls.exe E:\ /reset /t /c /q
 $PSEditor
@@ -3250,3 +3250,9 @@ $pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
 $PSVersionTable
 echo dgfdggd
 $PSVersionTable
+$Password=ConvertTo-SecureString $pass -AsPlainText -Force -Verbose
+New-LocalUser -AccountNeverExpires -PasswordNeverExpires  -Verbose -Debug  -Name "$username" -Password $password -FullName "$username"     #-Description "Lazy Test user"
+$username = 'userklic'
+$pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
+Get-LocalUser
+ls C:\Users

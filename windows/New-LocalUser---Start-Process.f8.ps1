@@ -83,6 +83,11 @@ New-LocalUser -AccountNeverExpires -PasswordNeverExpires  -Verbose -Debug  -Name
 
 file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 
+Get-LocalUser
+
+ls C:\Users
+
+
 
 
 Add-LocalGroupMember -Group Users -Member LazyUser
