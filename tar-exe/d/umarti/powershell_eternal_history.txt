@@ -4835,3 +4835,9 @@ netsh /help
 netsh /?
 net user /help
 netsh
+netsh  dump
+netsh  dump|findstr -i mtu
+netsh  dump|findstr -i tailscale
+netsh  show all  |findstr -i tailscale
+netsh  show all
+netsh

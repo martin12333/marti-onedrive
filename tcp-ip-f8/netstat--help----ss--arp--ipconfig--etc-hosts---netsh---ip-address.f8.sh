@@ -458,6 +458,9 @@ route PRINT|findstr -i tailscale
 quit
 netsh  dump|findstr -i mtu
 netsh  dump|findstr -i tailscale
+netsh
+show 
+|findstr -i tailscale
 
 
 
