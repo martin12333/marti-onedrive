@@ -17,7 +17,34 @@ Get-PSReadLineOption
 use_mouse
 	win-x admin
 
+
+
+	resto.point
+	inst
+	reboot
+	resto.point
+
+
 echo '-------- section --------'
+
+
+
+
+
+
+
+
+
+
+
+
+
+#security
+
+icacls.exe C:\Users\marti\
+icacls.exe C:\Users\marti\OneDrive
+icacls.exe C:\Users\milan_rxtipwr\
+icacls.exe C:\Users\milan_rxtipwr\OneDrive
 
 
 E:

@@ -4841,3 +4841,16 @@ netsh  dump|findstr -i tailscale
 netsh  show all  |findstr -i tailscale
 netsh  show all
 netsh
+cmd /c dir /q e:\
+cmd /c dir /q E:\tc-copy-ntfs-perm-milan
+icacls.exe  e:\
+icacls.exe  d:\
+icacls.exe C:\Users\marti\OneDrive
+icacls.exe C:\Users\milan_rxtipwr\OneDrive
+icacls.exe C:\Users\marti\
+icacls.exe C:\Users\milan_rxtipwr\
+icacls.exe C:\Users\marti\
+icacls.exe C:\Users\marti\OneDrive
+icacls.exe C:\Users\milan_rxtipwr\
+icacls.exe C:\Users\milan_rxtipwr\OneDrive
+icacls.exe  d:\

@@ -1,5 +1,74 @@
+tailscale.f8.ps1
 
 
+# (a file in the mm_f8_doc pseudo-format)
+do-not run this file as a whole
+)
+exit
+
+(selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
+
+echo '-------- section --------'
+
+
+
+
+
+resto.point
+inst
+reboot
+resto.point
+
+
+
+
+
+
+
+
+
+
+
+
+#security
+
+icacls.exe C:\Users\marti\
+icacls.exe C:\Users\marti\OneDrive
+icacls.exe C:\Users\milan_rxtipwr\
+icacls.exe C:\Users\milan_rxtipwr\OneDrive
+
+
+
+
+
+
+
+I had to use your ADSI method as New-LocalUser was throwing errors about not meeting password complexity requirements.
+
+
+
+# Username and Password
+$username = "LazyUser"
+$password = ConvertTo-SecureString "LazyAdminPwd123!" -AsPlainText -Force  # Super strong plane text password here (yes this isn't secure at all)
+# Creating the user
+New-LocalUser -Name "$username" -Password $password -FullName "$username" -Description "Lazy Test user"
+
+Add-LocalGroupMember -Group Users -Member LazyUser
+
+
+
+
+
+New-LocalUser -Name $UNameLocal -Description $UDescription -Password $Password -AccountNeverExpires -Confirm
+
+
+Add-LocalGroupMember -Group "Administrators" -Member $UNameLocal
+}
+
+
+$Password = ConvertTo-SecureString -AsPlainText $pass -Force
+New-LocalUser $user -Password $Password -PasswordNeverExpires
+Add-LocalGroupMember -Group $gr -Member $user
 
 
 
@@ -27,6 +96,7 @@ Follow
 
 
 
+AAAAps-jilen\ConsoleHost_history.txt:
 
 
 net user
@@ -69,6 +139,7 @@ net localgroup users
 
 
 
+tar-exe\d\umarti\powershell_eternal_history.txt:
 
 
 net user pokus9 /add /active:yes
