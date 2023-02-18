@@ -3244,3 +3244,9 @@ cd "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\"
 cd "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\"
 ./du64.exe -l 3   c:\  >D:\umarti\adm-unsort-du64-l-3--c--.txt
 pwsh
+$PSVersionTable
+$username = 'userklic'
+$pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
+$PSVersionTable
+echo dgfdggd
+$PSVersionTable

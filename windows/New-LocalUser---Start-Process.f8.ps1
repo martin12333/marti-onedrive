@@ -68,16 +68,27 @@ $password = 'NewProfilePassword' | ConvertTo-SecureString -AsPlainText -Force
 $password = ConvertTo-SecureString "LazyAdminPwd123!" -AsPlainText -Force  # Super strong plane text password here (yes this isn't secure at all)
 
 
+Get-LocalUser
+
+-WhatIf
+
+file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+
+powershell.exe
+$PSVersionTable
+$username = 'userklic'
+$pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
+$Password=ConvertTo-SecureString $pass -AsPlainText -Force -Verbose
+New-LocalUser -AccountNeverExpires -PasswordNeverExpires  -Verbose -Debug  -Name "$username" -Password $password -FullName "$username"     #-Description "Lazy Test user"
+
+file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 
 
-
-# Username and Password
-$username = "LazyUser"
-$password = ConvertTo-SecureString "LazyAdminPwd123!" -AsPlainText -Force  # Super strong plane text password here (yes this isn't secure at all)
-# Creating the user
-New-LocalUser -Name "$username" -Password $password -FullName "$username" -Description "Lazy Test user"
 
 Add-LocalGroupMember -Group Users -Member LazyUser
+
+
+
 
 
 

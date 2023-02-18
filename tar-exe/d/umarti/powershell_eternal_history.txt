@@ -4873,3 +4873,10 @@ $username = 'userklic'
 echo $Username
 $pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
 $pass
+net localgroup users
+net localgroup guests
+net user
+net user /help
+net localgroup
+Get-LocalUser
+powershell.exe
