@@ -3258,3 +3258,32 @@ Get-LocalUser
 ls C:\Users
 net user $username
 net user Eda
+dsquery user -name "edovo Nastaveni"
+runas
+runas  /showtrustlevels
+ls C:\Pf\WindowsApps\Microsoft.SysinternalsSuite_2022.11.1.0_x64__8wekyb3d8bbwe\Tools\
+ls C:\Pf\WindowsApps\Microsoft.SysinternalsSuite_2022*
+ls C:\Pf\WindowsApps\Microsoft.SysinternalsS*
+. "C:\Program Files\WindowsApps\Microsoft.SysinternalsSuite_2022.11.1.0_x64__8wekyb3d8bbwe\Tools\junction.exe"
+ls C:\Pf\WindowsApps\Microsoft*
+ls C:\Pf\WindowsApps\M*
+ls C:\Pf\WindowsApps\
+ls C:\Pf\Window*
+cmd /c  C:\Pf\w* /a
+cmd /c dir C:\Pf\w* /a
+cmd /c dir C:\Pf\w* /a /q
+cmd /c dir C:\Pf\windowsapps /a /q
+pwsh
+icacls.exe  C:\Pf\windowsapps
+icacls.exe  'C:\Program files\windowsapps'
+icacls.exe  'C:\Program files'
+icacls.exe  'C:\Program files\windowsapps'
+icacls.exe  'C:\Program files'exit
+cmd /c dir C:\Pf\windowsapps /a /q
+cmd /c dir  "C:\Program Files\WindowsApps\Microsoft.SysinternalsSuite_2022.11.1.0_x64__8wekyb3d8bbwe\Tools\"
+cmd /c dir  "C:\Program Files\WindowsApps\Microsoft.SysinternalsSuite_2022.11.1.0_x64__8wekyb3d8bbwe"
+cmd /c dir  "C:\Program Files\WindowsApps\Microsoft.Sysinternals8"
+cmd /c dir  "C:\Program Files\WindowsApps\Microsoft.Sysinternals*"
+cmd /c dir  "C:\Program Files\WindowsApps\Microsoft.Sysinternals*" /s
+cmd /c dir  "C:\Program Files\WindowsApps\Microsoft.Sysinternals*" /s /a
+cmd /c dir  "C:\Program Files\WindowsApps\Microsoft.SysinternalsSuite_2023.1.0.0_x64__8wekyb3d8bbwe\" /s /a

@@ -9,6 +9,9 @@ exit
 
 echo '-------- section --------'
 
+file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+
+win-x admin
 
 
 resto.point
@@ -128,7 +131,7 @@ papir a5 group deny udajne nefunguji
 Global Group memberships     *None
 
 
-
+###dsquery user -name "edovo Nastaveni"
 
 
 
@@ -251,4 +254,33 @@ net localgroup users
 
 
 
+runas  /showtrustlevels
+The following trust levels are available on your system:
+0x20000 (Basic User)
+
+/savecred         to use credentials previously saved by the user.
+
+
+/env              to use current environment instead of user's.'
+
+/noprofile        specifies that the user's profile should not be loaded.
+This causes the application to load more quickly, but
+can cause some applications to malfunction.
+/profile          specifies that the user's profile should be loaded.
+This is the default.
+
+
+
+file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+
+icacls.exe  'C:\Program files\windowsapps'
+icacls.exe  'C:\Program files'
+icacls.exe  C:\Pf\windowsapps
+cmd /c dir C:\Pf\windowsapps /a /q
+cmd /c dir  "C:\Program Files\WindowsApps\Microsoft.SysinternalsSuite_2022.11.1.0_x64__8wekyb3d8bbwe\Tools\"
+. "C:\Program Files\WindowsApps\Microsoft.SysinternalsSuite_2022.11.1.0_x64__8wekyb3d8bbwe\Tools\junction.exe"
+
+win=q process explorer
+
+win-x admin
 
