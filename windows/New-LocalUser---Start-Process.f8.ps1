@@ -271,6 +271,8 @@ This is the default.
 
 
 
+win=q process explorer
+
 file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 
 icacls.exe  'C:\Program files\windowsapps'
@@ -280,7 +282,9 @@ cmd /c dir C:\Pf\windowsapps /a /q
 cmd /c dir  "C:\Program Files\WindowsApps\Microsoft.SysinternalsSuite_2022.11.1.0_x64__8wekyb3d8bbwe\Tools\"
 . "C:\Program Files\WindowsApps\Microsoft.SysinternalsSuite_2022.11.1.0_x64__8wekyb3d8bbwe\Tools\junction.exe"
 
-win=q process explorer
+cmd /c dir  "C:\Program Files\WindowsApps\Microsoft.SysinternalsSuite_2023.1.0.0_x64__8wekyb3d8bbwe\" /s /a
 
 win-x admin
 
+
+11/11/2022  18:45         2,395,536 procexp.exe
