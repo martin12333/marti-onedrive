@@ -109,6 +109,15 @@ ls C:\Users
 . "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64"   C:\Users\Eda
 
 C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   C:\Users\milan_rxtipwr
+C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   C:\Users\userklic
+
+
+icacls.exe  C:\Users\userklic   /grant 'marti:(oi)(ci)(f)'
+"C:\Users\userklic.zip"
+
+
+
+
 
 
 
@@ -141,6 +150,7 @@ Full Name                    Edovo Nastaveni
 
 Password expires             03/09/2021 18:11:27
 Password expires             Never
+
 Password required            Yes
 
 Workstations allowed         All
@@ -173,19 +183,13 @@ Set-LocalUser -Name Eda -PasswordNeverExpires $true
 
 
 
+######################
+
+
+
+
+
 Add-LocalGroupMember -Group Users -Member LazyUser
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Add-LocalGroupMember -Group "Administrators" -Member $UNameLocal
@@ -196,6 +200,7 @@ Add-LocalGroupMember -Group $gr -Member $user
 
 
 
+######################
 
 
 
@@ -205,8 +210,6 @@ Add-LocalGroupMember -Group $gr -Member $user
 $credential = [PSCredential]::New($username,$password)
 
 Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment
-
-
 
 The specified drive root "C:\Users\marti\AppData\Local\Temp\" either does not exist, or it is not a folder.
 PS D:\>
@@ -219,9 +222,21 @@ nejde psat, paste
 #-ArgumentList "-Command","Write-host 'Hello Profile'"
 
 
-$Cred = New-Object System.Management.Automation.PSCredential ("$UNameLocal", $Password)
+$Cred = New-Object System.Management.Automation.PSCredential ("$username", $Password)
 
-Start-Process "cmd.exe" -Credential $Cred -ArgumentList "/C" -LoadUserProfile
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",pause   #works
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Windows\System32   -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\ -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\umarti   -UseNewEnvironment -ArgumentList "/C",dir # flick
+
+
+
+cmd /c pause
+cmd /c dir d: /p
+
+
+-ArgumentList "/C" -LoadUserProfile
 
 
 

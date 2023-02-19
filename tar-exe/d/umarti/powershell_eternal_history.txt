@@ -4895,3 +4895,32 @@ Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\  -WhatIf
 Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\  -WhatIf  -Verbose
 Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\    -Verbose
 Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment
+ls C:\Users
+C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   C:\Users\userklic
+icacls.exe  C:\Users\userklic   /grant 'marti:(oi)(ci)(f)'
+C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   C:\Users\userklic
+net user $username
+Start-Process "cmd.exe" -Credential $credential  -UseNewEnvironment
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",dir
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",pause
+cmd /c pause
+cmd /c dir /p
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",pause   #works
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",dir
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
+cmd /c dir d:/ /p
+cmd /c dir d: /p
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\umarti   -UseNewEnvironment -ArgumentList "/C",dir # flick
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Windows   -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Windows\System32   -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\umarti   -UseNewEnvironment -ArgumentList "/C",dir # flick
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Windows\System32   -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",pause   #works
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Windows\System32   -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\ -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
+cmd /c dir d: /p
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\ -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
+cmd /c pause
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\ -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
