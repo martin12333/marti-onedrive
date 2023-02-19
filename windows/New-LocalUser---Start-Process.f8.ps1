@@ -224,16 +224,26 @@ nejde psat, paste
 
 $Cred = New-Object System.Management.Automation.PSCredential ("$username", $Password)
 
+
+'&' pause
+
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",dir,'&',pause   #works
+
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",pause   #works
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Windows\System32   -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\ -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\umarti   -UseNewEnvironment -ArgumentList "/C",dir # flick
 
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\ -ArgumentList "/C",dir,/p,/s,C:\Users
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\ -ArgumentList "/C",cmd
+
+-WorkingDirectory D:\umarti   -UseNewEnvironment
+
 
 
 cmd /c pause
-cmd /c dir d: /p
+cmd /c dir d: /p '&' pause
 
 
 -ArgumentList "/C" -LoadUserProfile

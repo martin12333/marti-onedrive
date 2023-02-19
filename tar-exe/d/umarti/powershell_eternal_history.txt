@@ -4924,3 +4924,8 @@ cmd /c dir d: /p
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\ -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
 cmd /c pause
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\ -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
+Start-Process "cmd.exe" -Credential $credential -ArgumentList "/C",dir,/p,/s
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\ -ArgumentList "/C",dir,/p,/s
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\ -ArgumentList "/C",dir,/p,/s,C:\Users
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\ -ArgumentList "/C",cmd
+cmd /c dir d: /p '&' pause
