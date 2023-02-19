@@ -9,10 +9,13 @@ exit
 
 echo '-------- section --------'
 
+file:///c:\Users\marti\admin-ise--adminsaves.f8.ps1
+
 file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 
 win-x admin
 
+WIN-Q ise admin open
 
 resto.point
 pre New-LocalUser
@@ -133,8 +136,7 @@ Global Group memberships     *None
 
 ###dsquery user -name "edovo Nastaveni"
 
-
-
+Set-LocalUser -Name Eda -PasswordNeverExpires
 
 
 
@@ -188,6 +190,29 @@ Start-Process "cmd.exe" -Credential $Cred -ArgumentList "/C" -LoadUserProfile
 Share
 Edit
 Follow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
