@@ -9,7 +9,9 @@ exit
 
 echo '-------- section --------'
 
-file:///c:\Users\marti\admin-ise--adminsaves.f8.ps1
+
+#file:///c:\Users\marti\admin-ise--adminsaves.f8.ps1
+BETTER COPY PASTE INTO admin ise / admin-ise--adminsaves.f8.ps1
 
 file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 
@@ -48,7 +50,11 @@ echo $(cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i")
 
 
 
+
+
 I had to use your ADSI method as New-LocalUser was throwing errors about not meeting password complexity requirements.
+
+
 
 
 
@@ -69,6 +75,8 @@ $Password.Length
 
 
 #
+#
+#
 $Password = ConvertTo-SecureString -AsPlainText $pass -Force
 $password = 'NewProfilePassword' | ConvertTo-SecureString -AsPlainText -Force
 $password = ConvertTo-SecureString "LazyAdminPwd123!" -AsPlainText -Force  # Super strong plane text password here (yes this isn't secure at all)
@@ -80,6 +88,9 @@ Get-LocalUser
 
 file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 
+#file:///c:\Users\marti\admin-ise--adminsaves.f8.ps1
+BETTER COPY PASTE INTO admin ise / admin-ise--adminsaves.f8.ps1
+
 powershell.exe
 $PSVersionTable
 $username = 'userklic'
@@ -87,11 +98,19 @@ $pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
 $Password=ConvertTo-SecureString $pass -AsPlainText -Force -Verbose
 New-LocalUser -AccountNeverExpires -PasswordNeverExpires  -Verbose -Debug  -Name "$username" -Password $password -FullName "$username"     #-Description "Lazy Test user"
 
-file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+
+
 
 Get-LocalUser
 
 ls C:\Users
+
+
+. "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64"   C:\Users\Eda
+
+C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   C:\Users\milan_rxtipwr
+
+
 
 
 
@@ -110,12 +129,18 @@ Local Group Memberships
 Global Group memberships     *None
 
 
+
+
+
+
+
 net user Eda
 
 User name                    Eda
 Full Name                    Edovo Nastaveni
 
 Password expires             03/09/2021 18:11:27
+Password expires             Never
 Password required            Yes
 
 Workstations allowed         All
@@ -136,7 +161,12 @@ Global Group memberships     *None
 
 ###dsquery user -name "edovo Nastaveni"
 
-Set-LocalUser -Name Eda -PasswordNeverExpires
+
+
+Set-LocalUser -Name Eda -PasswordNeverExpires $true
+
+
+
 
 
 
@@ -152,44 +182,47 @@ Add-LocalGroupMember -Group Users -Member LazyUser
 
 
 
-New-LocalUser -Name $UNameLocal -Description $UDescription -Password $Password -AccountNeverExpires -Confirm
+
+
+
+
 
 
 Add-LocalGroupMember -Group "Administrators" -Member $UNameLocal
 }
 
 
-$Password = ConvertTo-SecureString -AsPlainText $pass -Force
-New-LocalUser $user -Password $Password -PasswordNeverExpires
 Add-LocalGroupMember -Group $gr -Member $user
 
 
 
 
 
-Hello when I create a user in powershell with New-LocalUser, I was wondering if there was a way to "activate" that user without connecting to it.
+
+-WhatIf-WhatIf
 
 
-
-
-ls
-$username = 'NewUsername'
-$password = 'NewProfilePassword' | ConvertTo-SecureString -AsPlainText -Force
 $credential = [PSCredential]::New($username,$password)
 
-Start-Process powershell.exe -Credential $Credential  -ArgumentList "-Command","Write-host 'Hello Profile'"
-Share
-Edit
-Follow
+Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment
+
+
+
+The specified drive root "C:\Users\marti\AppData\Local\Temp\" either does not exist, or it is not a folder.
+PS D:\>
+
+nejde psat, paste
+
+
+
+
+#-ArgumentList "-Command","Write-host 'Hello Profile'"
 
 
 $Cred = New-Object System.Management.Automation.PSCredential ("$UNameLocal", $Password)
 
 Start-Process "cmd.exe" -Credential $Cred -ArgumentList "/C" -LoadUserProfile
 
-Share
-Edit
-Follow
 
 
 
@@ -197,6 +230,23 @@ Follow
 
 
 
+
+#################################
+
+
+New-LocalUser -Name $UNameLocal -Description $UDescription -Password $Password -AccountNeverExpires -Confirm
+
+$Password = ConvertTo-SecureString -AsPlainText $pass -Force
+New-LocalUser $user -Password $Password -PasswordNeverExpires
+
+
+Hello when I create a user in powershell with New-LocalUser, I was wondering if there was a way to "activate" that user without connecting to it.
+
+
+$username = 'NewUsername'
+$password = 'NewProfilePassword' | ConvertTo-SecureString -AsPlainText -Force
+
+########################
 
 
 
@@ -313,3 +363,7 @@ win-x admin
 
 
 11/11/2022  18:45         2,395,536 procexp.exe
+
+
+
+

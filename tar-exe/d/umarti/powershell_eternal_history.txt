@@ -4880,3 +4880,18 @@ net user /help
 net localgroup
 Get-LocalUser
 powershell.exe
+net user Eda
+Get-LocalUser
+ls C:\Users
+. "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64"
+. "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64"   C:\Users
+. "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64"   C:\Users\Eda
+C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   C:\Users\milan_rxtipwr
+$username = 'userklic'
+$pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
+Start-Process powershell.exe -Credential $Credential  #-ArgumentList "-Command","Write-host 'Hello Profile'"
+Start-Process powershell.exe -Credential $Credential -WorkingDirectory d:\  -WhatIf
+Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\  -WhatIf
+Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\  -WhatIf  -Verbose
+Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\    -Verbose
+Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment
