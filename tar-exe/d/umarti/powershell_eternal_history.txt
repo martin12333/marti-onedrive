@@ -4929,3 +4929,12 @@ Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\ -Argumen
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\ -ArgumentList "/C",dir,/p,/s,C:\Users
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\ -ArgumentList "/C",cmd
 cmd /c dir d: /p '&' pause
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",dir,'&',pause   #works
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\ -ArgumentList "/C",cmd
+Start-Process "notepad.exe" -Credential $credential   -WorkingDirectory D:\
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\ -ArgumentList "/C",cmd
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",dir,'&',pause   #works
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Users\userklic   -UseNewEnvironment -ArgumentList "/C",dir,'&',pause   #works
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Users\userklic   -UseNewEnvironment -ArgumentList "/C",dir,/a,/s,'&',pause   #works
+Start-Process "notepad.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Users\userklic   -UseNewEnvironment -ArgumentList "/C",dir,/a,/s,'&',pause   #works

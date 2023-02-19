@@ -227,7 +227,21 @@ $Cred = New-Object System.Management.Automation.PSCredential ("$username", $Pass
 
 '&' pause
 
-Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",dir,'&',pause   #works
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Users\userklic   -UseNewEnvironment -ArgumentList "/C",dir,/a,/s,'&',pause   #works
+
+
+0 File(s)              0 bytes
+
+Total Files Listed:
+		 98 File(s)      2,888,731 bytes
+		238 Dir(s)  31,456,952,320 bytes free
+
+
+after notepad env
+		Total Files Listed:
+		114 File(s)      5,224,987 bytes
+		247 Dir(s)  31,452,971,008 bytes free
+Press any key to continue . . .
 
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",pause   #works
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
@@ -240,6 +254,13 @@ Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\ -Argumen
 
 -WorkingDirectory D:\umarti   -UseNewEnvironment
 
+
+Start-Process "notepad.exe" -Credential $credential   -WorkingDirectory D:\
+
+
+Start-Process "notepad.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment
+
+-ArgumentList "/C",cmd
 
 
 cmd /c pause
