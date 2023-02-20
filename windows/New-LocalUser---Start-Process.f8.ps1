@@ -210,8 +210,12 @@ Set-LocalUser -Name Eda -PasswordNeverExpires $true
 
 
 
+$x=get-LocalUser -Name Eda
+$?
+$x.
 
-
+Get-StorageDiagnosticInfo
+Get-PSHostProcessInfo
 
 
 
