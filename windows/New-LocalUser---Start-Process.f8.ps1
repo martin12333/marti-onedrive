@@ -21,7 +21,7 @@ $Password=ConvertTo-SecureString $pass -AsPlainText -Force -Verbose
 $credential = [PSCredential]::New($username,$password)
 
 #Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment
-Start-Process node.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment -ArgumentList '-i'
+###Start-Process node.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment -ArgumentList '-i'
 
 
 

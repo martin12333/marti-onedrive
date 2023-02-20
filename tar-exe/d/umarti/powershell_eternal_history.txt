@@ -4959,3 +4959,4 @@ Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\    -Verbose
 ghjjhg
 -ArgumentList '-i'
 Start-Process node.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment -ArgumentList '-i'
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Users\userklic   -UseNewEnvironment -ArgumentList "/C",dir,/a,/s,'&',pause   #works
