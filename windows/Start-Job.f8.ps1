@@ -28,6 +28,28 @@ $credential = [PSCredential]::New($username,$password)
 
 
 
+
+
+
+
+
+
+#file:///c:\Users\marti\admin-ise--adminsaves.f8.ps1
+BETTER COPY PASTE INTO admin ise / admin-ise--adminsaves.f8.ps1
+
+file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+
+
+win-x admin
+
+WIN-Q ise admin open
+
+resto.point
+pre New-LocalUser
+inst
+reboot
+resto.point
+
 echo '-------- section --------'
 
 

@@ -62,7 +62,7 @@ icacls.exe C:\Users\milan_rxtipwr\OneDrive
 echo fdgf > "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
 
 file:///C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i
-mc
+#mc
 
 echo $(cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i")
 
@@ -105,14 +105,19 @@ $password = 'NewProfilePassword' | ConvertTo-SecureString -AsPlainText -Force
 $password = ConvertTo-SecureString "LazyAdminPwd123!" -AsPlainText -Force  # Super strong plane text password here (yes this isn't secure at all)
 
 
+
+
+
+
+
 Get-LocalUser
 
 -WhatIf
 
-file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 
 #file:///c:\Users\marti\admin-ise--adminsaves.f8.ps1
 BETTER COPY PASTE INTO admin ise / admin-ise--adminsaves.f8.ps1
+file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 
 powershell.exe
 $PSVersionTable
@@ -199,6 +204,8 @@ Global Group memberships     *None
 
 
 
+
+
 Set-LocalUser -Name Eda -PasswordNeverExpires $true
 
 
@@ -215,7 +222,15 @@ Set-LocalUser -Name Eda -PasswordNeverExpires $true
 
 
 
-Add-LocalGroupMember -Group Users -Member LazyUser
+
+
+Add-LocalGroupMember -Group Users -Member $username
+
+
+
+
+
+
 
 
 Add-LocalGroupMember -Group "Administrators" -Member $UNameLocal
@@ -235,12 +250,14 @@ Add-LocalGroupMember -Group $gr -Member $user
 
 $credential = [PSCredential]::New($username,$password)
 
+
+nejde psat, paste
+
 Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment
 
 The specified drive root "C:\Users\marti\AppData\Local\Temp\" either does not exist, or it is not a folder.
 PS D:\>
 
-nejde psat, paste
 
 
 
@@ -305,6 +322,7 @@ cmd /c dir d: /p '&' pause
 
 #################################
 
+Hello when I create a user in powershell with New-LocalUser, I was wondering if there was a way to "activate" that user without connecting to it.
 
 New-LocalUser -Name $UNameLocal -Description $UDescription -Password $Password -AccountNeverExpires -Confirm
 
@@ -312,7 +330,6 @@ $Password = ConvertTo-SecureString -AsPlainText $pass -Force
 New-LocalUser $user -Password $Password -PasswordNeverExpires
 
 
-Hello when I create a user in powershell with New-LocalUser, I was wondering if there was a way to "activate" that user without connecting to it.
 
 
 $username = 'NewUsername'
@@ -400,10 +417,14 @@ net localgroup users
 
 
 
+BUG BUUUUUUUUUUUUUUUUG  DIIGO
 
 runas  /showtrustlevels
 The following trust levels are available on your system:
 0x20000 (Basic User)
+BUG BUUUUUUUUUUUUUUUUG  DIIGO
+
+
 
 /savecred         to use credentials previously saved by the user.
 
@@ -413,8 +434,15 @@ The following trust levels are available on your system:
 /noprofile        specifies that the user's profile should not be loaded.
 This causes the application to load more quickly, but
 can cause some applications to malfunction.
+
 /profile          specifies that the user's profile should be loaded.
 This is the default.
+
+HKCU?
+
+
+
+
 
 
 
