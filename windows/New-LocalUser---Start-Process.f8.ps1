@@ -10,6 +10,29 @@ exit
 echo '-------- section --------'
 
 
+
+wt.exe
+
+file:///D:\umarti\powershell_eternal_history.txt
+
+$username = 'userklic'
+$pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
+$Password=ConvertTo-SecureString $pass -AsPlainText -Force -Verbose
+$credential = [PSCredential]::New($username,$password)
+
+#Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment
+Start-Process node.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment -ArgumentList '-i'
+
+
+
+
+
+
+
+
+
+
+
 #file:///c:\Users\marti\admin-ise--adminsaves.f8.ps1
 BETTER COPY PASTE INTO admin ise / admin-ise--adminsaves.f8.ps1
 
@@ -93,10 +116,13 @@ BETTER COPY PASTE INTO admin ise / admin-ise--adminsaves.f8.ps1
 
 powershell.exe
 $PSVersionTable
+
 $username = 'userklic'
 $pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
 $Password=ConvertTo-SecureString $pass -AsPlainText -Force -Verbose
+
 New-LocalUser -AccountNeverExpires -PasswordNeverExpires  -Verbose -Debug  -Name "$username" -Password $password -FullName "$username"     #-Description "Lazy Test user"
+
 
 
 

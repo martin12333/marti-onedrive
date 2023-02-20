@@ -3116,7 +3116,7 @@ $a.Split().ForEach(  Length)
 $a.Split().ForEach(Length)
 $a.Split().ForEach('Length')
 $a.Split().ForEach(  Length )
-$a.Split().ForEach  Length 
+$a.Split().ForEach  Length
 $a.Split().ForEach('toupper')
 $a.Split().toupper
 $a.Split().toupper()
@@ -3190,7 +3190,7 @@ ls|select Attributes
 (ls)[150].Length
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i fore
 get-winevent -listlog * | foreach-object { echo $_.logname }
-(get-winevent -listlog * ).logname 
+(get-winevent -listlog * ).logname
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i fore
 $y=1..5
 $y
@@ -3319,9 +3319,9 @@ c:\Users\marti\OneDrive\codewars\fx.js
 conda activate base
 c:\Users\marti\OneDrive\codewars\fx.js
 conda activate base
- & 'D:\conda\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '61911' '--' 'c:\Users\marti\OneDrive\codewars\first_non_consecutive.py' 
-ghfh c:; cd 'c:\Users\marti\OneDrive\codewars'; & 'D:\conda\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '62350' '--' 'c:\Users\marti\OneDrive\codewars\first_non_consecutive.py' 
- c:; cd 'c:\Users\marti\OneDrive\codewars'; & 'D:\conda\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '63081' '--' 'c:\Users\marti\OneDrive\codewars\first_non_consecutive.py' 
+ & 'D:\conda\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '61911' '--' 'c:\Users\marti\OneDrive\codewars\first_non_consecutive.py'
+ghfh c:; cd 'c:\Users\marti\OneDrive\codewars'; & 'D:\conda\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '62350' '--' 'c:\Users\marti\OneDrive\codewars\first_non_consecutive.py'
+ c:; cd 'c:\Users\marti\OneDrive\codewars'; & 'D:\conda\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '63081' '--' 'c:\Users\marti\OneDrive\codewars\first_non_consecutive.py'
 $env:Path
 conda activate base
 . "c:\Users\marti\OneDrive\jupyter-notebooks\PowerShell0.ps1"
@@ -3342,7 +3342,7 @@ cmd /c dir /a *--*
 dir .\AppData*
 dir .\AppData\
 dir .\AppData*
-cmd /c dir /a 
+cmd /c dir /a
 cmd /c dir /a /s .\OneDrive\ |findstr -i junc
 cmd /c dir /a /s .\OneDrive\ |findstr -i sym
 cmd /c dir /a /s .\OneDrive\ |findstr -i '<junc'
@@ -3361,7 +3361,7 @@ cmd /c dir /a /s . |findstr -i '<junc'
 dir .\AppData*
 dir .\AppData
 dir app*
-cmd /c dir /a 
+cmd /c dir /a
 dir .\snippets\
 conda activate base
 wsl --list --all --verbose
@@ -3397,8 +3397,8 @@ dir roo*
 mkdir ROOT
 node --inspect
 conda activate base
- & 'D:\conda\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '55608' '--' 'c:\Users\marti\OneDrive\codewars\f5.py' 
- c:; cd 'c:\Users\marti\OneDrive\codewars'; & 'D:\conda\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '56498' '--' 'c:\Users\marti\OneDrive\codewars\f5.py' 
+ & 'D:\conda\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '55608' '--' 'c:\Users\marti\OneDrive\codewars\f5.py'
+ c:; cd 'c:\Users\marti\OneDrive\codewars'; & 'D:\conda\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '56498' '--' 'c:\Users\marti\OneDrive\codewars\f5.py'
 . "c:\Users\marti\OneDrive\codewars\f7,f8.ps1"
 . "c:\Users\marti\OneDrive\codewars\f7,f8.ps1"
 docker.exe top
@@ -3502,7 +3502,7 @@ $y.Length
 $y.Count
 type $y
 Get-TypeData $y
-Get-TypeData 
+Get-TypeData
 Get-TypeData
 $y.GetType(`
 )
@@ -3614,7 +3614,7 @@ C:\pf\Git\bin\bash.exe
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i bash|findstr -i git
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i 'pf\git'
 C:\pf\Git\cmd\git.exe ls-files
-C:\pf\Git\cmd\git.exe 
+C:\pf\Git\cmd\git.exe
 C:\pf\Git\bin\bash.exe
 C:\pf\Git\cmd\git.exe commit -v -a -m bk-from-ps-alter
 C:\pf\Git\cmd\git.exe push
@@ -3628,7 +3628,7 @@ icacls.exe  .\steam\
 icacls.exe  c:\pf
 icacls.exe  'C:\Program Files\'
 cacls.exe  'C:\Program Files\'
-cacls.exe  
+cacls.exe
 cacls.exe  'C:\Program Files'
 cacls.exe  'C:\Pf'
 cacls /?
@@ -3639,7 +3639,7 @@ icacls.exe  'C:\Program Files' /L
 icacls.exe  'C:\Pf' /L
 icacls.exe  'C:\' /L
 cacls.exe  'C:\' /L
-cacls.exe  'C:\' 
+cacls.exe  'C:\'
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i git
 C:\pf\Git\bin\bash.exe
 ls
@@ -3684,7 +3684,7 @@ node --inspect
 node
 node --inspect
 conda activate base
- & 'D:\conda\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '57290' '--' 'c:\Users\marti\OneDrive\codewars\f7,f8.py' 
+ & 'D:\conda\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '57290' '--' 'c:\Users\marti\OneDrive\codewars\f7,f8.py'
 python
 f8-notebook
 do-not run this file as a whole
@@ -3754,7 +3754,7 @@ C:\pf\Git\bin\bash.exe
 wsl --list --all --verbose
 cmd /c map
 mountvol /l
-mountvol 
+mountvol
 mountvol w: /l
 mountvol w:\ /l
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i drive
@@ -3791,7 +3791,7 @@ wsl
 C:\pf\Git\bin\bash.exe
 wsl
 history
-history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i drive 
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt  | findstr  -i drive
 C:\pf\Git\bin\bash.exe
 cd ..
 mkdir a
@@ -3830,7 +3830,7 @@ cd   C:\Users\marti\ohayo\node_modules\ohayo\ohayo\grams\
 .\jtree.ps1 "D:\umarti\dowNLOADS--SYMLINKED\ohayo-main (1)\ohayo-main\ohayo\packages\print\test.ohayo"
 ..\..\..\.bin\jtree.ps1 "D:\umarti\dowNLOADS--SYMLINKED\ohayo-main (1)\ohayo-main\ohayo\packages\print\test.ohayo"
 .\jtree.ps1 register   C:\Users\marti\ohayo\node_modules\ohayo\ohayo\grams\didYouMean.gram
-..\..\..\.bin\jtree.ps1 
+..\..\..\.bin\jtree.ps1
 ..\..\..\.bin\jtree.ps1 register   C:\Users\marti\ohayo\node_modules\ohayo\ohayo\grams\didYouMean.gram
 .\jtree.ps1 list
 ..\..\..\.bin\jtree.ps1 list
@@ -3921,7 +3921,7 @@ podman machine start
 wsl --list --all --verbose
 podman machine ssh
 wsl -d podman-machine-default
-podman machine 
+podman machine
 powershell
 wsl -d podman-machine-default
 podman version
@@ -3943,7 +3943,7 @@ C:\Windows\System32\tar.exe --help
 wsl -d Ubuntu-22.04
 C:\Windows\System32\tar.exe --help
 C:\pf\Git\bin\bash.exe
-wsl 
+wsl
 wsl -d Ubuntu-22.04
 C:\pf\Git\bin\bash.exe
 which -a tar
@@ -4183,7 +4183,7 @@ docker container ls --all
 podman container ls --all
 code ./dotfiles
 ls
-cmd /c dir 
+cmd /c dir
 cmd
 C:\Program Files\WindowsApps\Microsoft.SysinternalsSuite_2022.11.1.0_x64__8wekyb3d8bbwe\Tools\junction.exe
 "C:\Program Files\WindowsApps\Microsoft.SysinternalsSuite_2022.11.1.0_x64__8wekyb3d8bbwe\Tools\junction.exe"
@@ -4195,7 +4195,7 @@ wsl -d podman-machine-default
 cd .\dotfiles\
 dir
 dir .\OLD\
-cmd 
+cmd
 C:\pf\Git\bin\bash.exe
 wsl -d Ubuntu-22.04
 icacls 8*
@@ -4240,7 +4240,7 @@ explorer.exe C:\Users\marti\OneDrive\js-shell-22a
 podman start   -ai    cmy22b
 wsl -d podman-machine-default
 wsl --list --running
-wsl 
+wsl
 wsl -d podman-machine-default
 wsl -d Ubuntu-22.04
 ls -l /usr/local/bin/code
@@ -4688,7 +4688,7 @@ ping6  csp3.zte.com.cn
 ping -6  csp3.zte.com.cn
 ping 10.0.0.138
 mtr  10.0.0.138
-dir 
+dir
 dir c:
 cmd /c dir c:
 cmd /c dir c:\
@@ -4771,7 +4771,7 @@ nc
 NETSTAT.EXE
 PATHPING.EXE
 wsl -d Ubuntu-22.04
-history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt 
+history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt
 C:\pf\Git\bin\bash.exe
 pkgmgr
 telnet
@@ -4938,3 +4938,24 @@ Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Users\use
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Users\userklic   -UseNewEnvironment -ArgumentList "/C",dir,/a,/s,'&',pause   #works
 Start-Process "notepad.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Users\userklic   -UseNewEnvironment -ArgumentList "/C",dir,/a,/s,'&',pause   #works
+$PSVersionTable
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Users\userklic   -UseNewEnvironment -ArgumentList "/C",dir,/a,/s,'&',pause   #works
+$pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
+$username = 'userklic'
+$startExe = New-Object System.Diagnostics.ProcessStartInfo -Args powershell.exe
+$username = 'userklic'
+$pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
+$credential = [PSCredential]::New($username,$password)
+$username = 'userklic'
+$pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
+$username = 'userklic'
+$pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
+$Password=ConvertTo-SecureString $pass -AsPlainText -Force -Verbose
+$username = 'userklic'
+$pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Users\userklic   -UseNewEnvironment -ArgumentList "/C",dir,/a,/s,'&',pause   #works
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Users\userklic   -UseNewEnvironment -ArgumentList "/C",dir,/a,/s,'&',pause   -NoNewWindow
+Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment
+ghjjhg
+-ArgumentList '-i'
+Start-Process node.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment -ArgumentList '-i'
