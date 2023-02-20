@@ -4962,3 +4962,17 @@ Start-Process node.exe -Credential $Credential -WorkingDirectory d:\    -Verbose
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Users\userklic   -UseNewEnvironment -ArgumentList "/C",dir,/a,/s,'&',pause   #works
 Add-LocalGroupMember -Group Users -Member $username
 net user $username
+whoami  /?
+whoami  /ALL
+whoami  /upn /all
+whoami  /upn
+whoami  /fqdn
+$GetProcessJob = Start-Job -ScriptBlock {`
+whoami /all`
+} -Credential $Credential
+} -Credential $Credential  -WorkingDirectory d:\
+$GetProcessJob = Start-Job -ScriptBlock {`
+whoami /all`
+} -Credential $Credential  -WorkingDirectory d:\
+Wait-Job $GetProcessJob
+Receive-Job -Job $GetProcessJob

@@ -55,27 +55,37 @@ echo '-------- section --------'
 
 
 #Shows who is the current user
-whoami
-""
-
-$username = "DOMAIN\USER"
-$password = ConvertTo-SecureString "PASSWORD" -AsPlainText -Force
-$Credential = New-Object System.Management.Automation.PSCredential $username,$password
+whoami  /?
+whoami  /ALL
+##whoami  /upn
+##whoami  /fqdn
 
 
-$GetProcessJob = Start-Job -ScriptBlock {
+https://stackoverflow.com/questions/55575641/powershell-nonewwindow-not-working-as-expected
+
+
+#$username = "DOMAIN\USER"
+#$password = ConvertTo-SecureString "PASSWORD" -AsPlainText -Force
+#$Credential = New-Object System.Management.Automation.PSCredential $username,$password
+
+
 #Shows who is the current user, in this case it's the user you provided credentials for. Everything in this scriptblock will run in his context.
 
-whoami
+$GetProcessJob = Start-Job -ScriptBlock { whoami /all } -Credential $Credential  -WorkingDirectory d:\ -Verbose -UseNewEnvironment
 
-
-} -Credential $Credential
+-PipelineVariable
 
 #Wait until the job is completed
-Wait-Job $GetProcessJob | Out-Null
+Wait-Job $GetProcessJob
+
+| Out-Null
 
 #Get the Job results
-$GetProcessResult = Receive-Job -Job $GetProcessJob
+$GetProcessResult =
+
+Receive-Job -Job $GetProcessJob
 
 #Print the Job results
 $GetProcessResult
+
+
