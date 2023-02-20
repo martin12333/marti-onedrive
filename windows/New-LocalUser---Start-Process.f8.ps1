@@ -234,12 +234,9 @@ Add-LocalGroupMember -Group Users -Member $username
 
 
 Add-LocalGroupMember -Group "Administrators" -Member $UNameLocal
-}
-
-
 Add-LocalGroupMember -Group $gr -Member $user
 
-
+$Cred = New-Object System.Management.Automation.PSCredential ("$username", $Password)
 
 ######################
 
@@ -253,7 +250,7 @@ $credential = [PSCredential]::New($username,$password)
 
 nejde psat, paste
 
-Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment
+Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment -LoadUserProfile
 
 The specified drive root "C:\Users\marti\AppData\Local\Temp\" either does not exist, or it is not a folder.
 PS D:\>
@@ -265,15 +262,11 @@ PS D:\>
 #-ArgumentList "-Command","Write-host 'Hello Profile'"
 
 
-$Cred = New-Object System.Management.Automation.PSCredential ("$username", $Password)
 
 
-'&' pause
 
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Users\userklic   -UseNewEnvironment -ArgumentList "/C",dir,/a,/s,'&',pause   #works
 
-
-0 File(s)              0 bytes
 
 Total Files Listed:
 		 98 File(s)      2,888,731 bytes
@@ -286,10 +279,16 @@ after notepad env
 		247 Dir(s)  31,452,971,008 bytes free
 Press any key to continue . . .
 
+
+
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",pause   #works
+
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
+
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Windows\System32   -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
+
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\ -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
+
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\umarti   -UseNewEnvironment -ArgumentList "/C",dir # flick
 
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\ -ArgumentList "/C",dir,/p,/s,C:\Users
@@ -298,7 +297,10 @@ Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\ -Argumen
 -WorkingDirectory D:\umarti   -UseNewEnvironment
 
 
-Start-Process "notepad.exe" -Credential $credential   -WorkingDirectory D:\
+
+
+
+###Start-Process "notepad.exe" -Credential $credential   -WorkingDirectory D:\
 
 
 Start-Process "notepad.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment

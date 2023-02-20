@@ -4976,3 +4976,9 @@ whoami /all`
 } -Credential $Credential  -WorkingDirectory d:\
 Wait-Job $GetProcessJob
 Receive-Job -Job $GetProcessJob
+$GetProcessJob = Start-Job -ScriptBlock { whoami /all } -Credential $Credential  -WorkingDirectory d:\ -Verbose -UseNewEnvironment    ;  Wait-Job $GetProcessJob  ; Receive-Job -Job $GetProcessJob
+$GetProcessJob = Start-Job -ScriptBlock { whoami /all } -Credential $Credential  -WorkingDirectory d:\ -Verbose     ;  Wait-Job $GetProcessJob  ; Receive-Job -Job $GetProcessJob
+Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment
+Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment -LoadUserProfile
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Users\userklic   -UseNewEnvironment -ArgumentList "/C",dir,/a,/s,'&',pause   #works
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",pause   #works

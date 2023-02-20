@@ -71,19 +71,19 @@ https://stackoverflow.com/questions/55575641/powershell-nonewwindow-not-working-
 
 #Shows who is the current user, in this case it's the user you provided credentials for. Everything in this scriptblock will run in his context.
 
-$GetProcessJob = Start-Job -ScriptBlock { whoami /all } -Credential $Credential  -WorkingDirectory d:\ -Verbose -UseNewEnvironment
+$GetProcessJob = Start-Job -ScriptBlock { whoami /all } -Credential $Credential  -WorkingDirectory d:\ -Verbose     ;  Wait-Job $GetProcessJob  ; Receive-Job -Job $GetProcessJob
 
--PipelineVariable
 
-#Wait until the job is completed
-Wait-Job $GetProcessJob
+
+
+
+
 
 | Out-Null
 
 #Get the Job results
 $GetProcessResult =
 
-Receive-Job -Job $GetProcessJob
 
 #Print the Job results
 $GetProcessResult
