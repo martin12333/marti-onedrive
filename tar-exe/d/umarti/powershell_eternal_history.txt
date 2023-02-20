@@ -4994,3 +4994,9 @@ $x.PrincipalSource
 $x.SID
 cleart
 Clear-Host
+get-Start-Process "wt.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment  -LoadUserProfile
+Start-Process "wt.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment  -LoadUserProfile
+wt
+conhost.exe
+Start-Process "conhost.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment  -LoadUserProfile
+Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment -LoadUserProfile

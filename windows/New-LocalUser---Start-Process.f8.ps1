@@ -246,30 +246,41 @@ $Cred = New-Object System.Management.Automation.PSCredential ("$username", $Pass
 
 
 
+
+
 -WhatIf-WhatIf
 
 
 $credential = [PSCredential]::New($username,$password)
 
 
+
+
+
+
+Start-Process "conhost.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment  -LoadUserProfile
+
+
+
+
+
+
+
+###
+if without conhost
 nejde psat, paste
-
 Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment -LoadUserProfile
-
-The specified drive root "C:\Users\marti\AppData\Local\Temp\" either does not exist, or it is not a folder.
-PS D:\>
-
-
 
 
 
 #-ArgumentList "-Command","Write-host 'Hello Profile'"
+##-ScriptBlock { whoami /all }
 
 
 
 
 
-Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Users\userklic   -UseNewEnvironment -ArgumentList "/C",dir,/a,/s,'&',pause   #works
+Start-Process "cmd.exe" -Credential $credential  -WorkingDirectory C:\Users\userklic   -UseNewEnvironment -ArgumentList "/C",dir,/a,/s,'&',pause   #works
 
 
 Total Files Listed:
@@ -283,22 +294,9 @@ after notepad env
 		247 Dir(s)  31,452,971,008 bytes free
 Press any key to continue . . .
 
-
-
-Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",pause   #works
-
-Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
-
-Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Windows\System32   -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
-
-Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\ -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
-
-Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\umarti   -UseNewEnvironment -ArgumentList "/C",dir # flick
-
-Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\ -ArgumentList "/C",dir,/p,/s,C:\Users
-Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\ -ArgumentList "/C",cmd
-
--WorkingDirectory D:\umarti   -UseNewEnvironment
+Total Files Listed:
+132 File(s)      7,207,724 bytes
+253 Dir(s)  25,007,968,256 bytes free
 
 
 
@@ -307,9 +305,14 @@ Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\ -Argumen
 ###Start-Process "notepad.exe" -Credential $credential   -WorkingDirectory D:\
 
 
-Start-Process "notepad.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment
+Start-Process "notepad.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment   -LoadUserProfile
 
--ArgumentList "/C",cmd
+#Start-Process "wt.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment  -LoadUserProfile
+
+Start-Process "conhost.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment  -LoadUserProfile
+
+wt
+conhost.exe
 
 
 cmd /c pause
@@ -328,6 +331,21 @@ cmd /c dir d: /p '&' pause
 
 #################################
 
+
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",pause   #works
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Windows\System32   -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\ -UseNewEnvironment -ArgumentList "/C",dir,/p   #works
+
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\umarti   -UseNewEnvironment -ArgumentList "/C",dir # flick
+
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\ -ArgumentList "/C",dir,/p,/s,C:\Users
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\ -ArgumentList "/C",cmd
+
+-WorkingDirectory D:\umarti   -UseNewEnvironment
+
+
+#############################
 Hello when I create a user in powershell with New-LocalUser, I was wondering if there was a way to "activate" that user without connecting to it.
 
 New-LocalUser -Name $UNameLocal -Description $UDescription -Password $Password -AccountNeverExpires -Confirm
