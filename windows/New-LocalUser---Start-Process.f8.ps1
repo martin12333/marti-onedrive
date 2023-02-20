@@ -257,10 +257,35 @@ $credential = [PSCredential]::New($username,$password)
 
 
 
+#******************
 
 Start-Process "conhost.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment  -LoadUserProfile
 
+#**************
+file:///c:\Users\userklic\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 
+54*5454545454
+node
+python
+cd .\conda\
+dir
+.\python.exe
+hgjghjjhgjhgjgjgj
+whoami.exe
+C:
+cd users
+cd .\marti\
+dir
+ls
+cd appdata
+dir
+cd ..
+dir .\marti\
+cd .\marti\
+mkdir a
+mkdir a46456464654646
+explorer.exe
+C:\pf\totalcmd\TOTALCMD64.EXE
 
 
 
