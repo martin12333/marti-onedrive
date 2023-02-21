@@ -98,7 +98,26 @@ https://github.com/martin12333/marti-onedrive/blob/main2/browserPOSIX/bsd.f8.sh#
 
 
 
+Ctrl+enter
+do-not run this file as a whole
+Ctrl+enter
 
+Ctrl+enter
+# (f8_document files are-not meant to be run as a whole)
+Ctrl+enter
+
+https://github.com/martin12333/marti-onedrive/blob/9b7ba47ec9787d3518452b4b269f60eb2b403f04/backup-f8/grant-append-not-write.f8.ps1#L1
+
+
+
+
+Ctrl+enter
+
+echo '-------- section --------'
+
+	git commit -v -a -m  before-find-and-replace
+
+git push
 
 
 	git commit -v -a -m  find-and-replace
@@ -111,6 +130,8 @@ git push
 
 [main2 d100c64] find-and-replace
  49 files changed, 98 insertions(+), 49 deletions(-)
+
+ 46 files changed, 116 insertions(+), 44 deletions(-)
 
 acronis backup
 
