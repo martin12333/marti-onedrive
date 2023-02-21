@@ -1,13 +1,13 @@
-(f8_document file pseudo-format)
+
+f8_document #
 # (f8_document files are-not meant to be run as a whole)
 )
 exit
-#### to mitigate F5 in *mc* running this file
 
 (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
-
 echo '-------- section --------'
+
 
 
 to get $PSEditor
