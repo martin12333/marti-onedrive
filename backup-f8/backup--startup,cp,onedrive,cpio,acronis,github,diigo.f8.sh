@@ -1,4 +1,4 @@
-(mm_f8_doc file pseudo-format)
+(f8_document file pseudo-format)
 # (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 (do-not run this file as a whole)
 )
@@ -158,6 +158,8 @@ code ./dotfiles
 
 	git commit -v -a -m  rename
 	git commit -v -a -m  rewrite
+	git commit -v -a -m  before-find-and-replace
+	git commit -v -a -m  find-and-replace
 
 	git commit -v -a -m  before-refactor
 	git commit -v -a -m  partial-refactor
@@ -171,7 +173,7 @@ code ./dotfiles
 	git push
 
 	git show --name-only
-	git show 
+	git show
 
 	git push
 

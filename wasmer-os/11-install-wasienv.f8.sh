@@ -1,7 +1,7 @@
 11-install-wasienv.f8.sh
 
 
-# (a file in the mm_f8_doc pseudo-format)
+# (a file in the f8_document pseudo-format)
 do-not run this file as a whole
 )
 exit

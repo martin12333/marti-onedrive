@@ -1,5 +1,5 @@
 
-# (a file in the mm_f8_doc pseudo-format)
+# (a file in the f8_document pseudo-format)
 do-not run this file as a whole
 )
 exit
@@ -459,7 +459,7 @@ quit
 netsh  dump|findstr -i mtu
 netsh  dump|findstr -i tailscale
 netsh
-show 
+show
 |findstr -i tailscale
 
 

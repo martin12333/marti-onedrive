@@ -1,6 +1,6 @@
 
 
-# (a file in the mm_f8_doc pseudo-format)
+# (a file in the f8_document pseudo-format)
 do-not run this file as a whole
 )
 exit
@@ -10,7 +10,7 @@ exit
 echo '-------- section --------'
 
 
-mm_f8_doc
+f8_document
 "f8_document"
 
 google search
@@ -21,14 +21,14 @@ github
 
 find -name '*.f8.*' -type f | grep ' '
 
-grep  --no-filename  mm_f8_doc `  find -name '*.f8.*' -type f     `   |sort|uniq -c
+grep  --no-filename  f8_document `  find -name '*.f8.*' -type f     `   |sort|uniq -c
 
 
 
 
 	git add -vv  '*.f8.*'
 
-	git commit -v -a -m  before-refactor
+	git commit -v -a -m  before-find-and-replace
 
 git push
 
@@ -41,13 +41,16 @@ Invoke Replace in Files (under the Edit menu, or with shortcut Ctrl+Shift+H)
 
 
 
-mm_f8_doc
+f8_document
 f8_document
 *.f8.*
 
 
 
+	git commit -v -a -m  find-and-replace
+git push
 
+acronis backup
 
 
 

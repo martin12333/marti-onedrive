@@ -1,4 +1,4 @@
-(mm_f8_doc file pseudo-format)
+(f8_document file pseudo-format)
 )
 exit
 

@@ -1,6 +1,6 @@
 #for x in zip --- zipinfo --- grep wasm.f8.sh
 
-(mm_f8_doc file pseudo-format)
+(f8_document file pseudo-format)
 do-not run this file as a whole
 )
 exit

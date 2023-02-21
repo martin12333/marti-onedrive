@@ -6,7 +6,7 @@
 # the same issue again  st_ino=0, st_dev=0,
 
 #
-# (a file in the mm_f8_doc pseudo-format)
+# (a file in the f8_document pseudo-format)
 do-not run this file as a whole
 )
 exit

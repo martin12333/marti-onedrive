@@ -1,7 +1,7 @@
 661-issue--after-cat-FILENAME--following-commands-fail.f8
 
 
-# (a file in the mm_f8_doc pseudo-format)
+# (a file in the f8_document pseudo-format)
 do-not run this file as a whole
 )
 exit

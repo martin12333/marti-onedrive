@@ -1,4 +1,4 @@
-# (a file in the mm_f8_doc pseudo-format)
+# (a file in the f8_document pseudo-format)
 do-not run this file as a whole
 )
 exit
@@ -28,7 +28,7 @@ find -name '*.f8.*' -type f | grep ' '
 
 
 --recursive
-grep  --no-filename  mm_f8_doc `  find -name '*.f8.*' -type f     `   |sort|uniq -c
+grep  --no-filename  f8_document `  find -name '*.f8.*' -type f     `   |sort|uniq -c
 
 
 man zshoptions

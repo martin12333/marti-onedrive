@@ -1,4 +1,4 @@
-# (a file in the mm_f8_doc pseudo-format)
+# (a file in the f8_document pseudo-format)
 do-not run this file as a whole
 )
 exit
@@ -93,7 +93,7 @@ root@localhost:~# history
     echo skjfs | nc -q 0 localhost 1234
 
    28  nc --help
-   
+
     echo skjfs | nc -w 2 localhost 1234
 
      cat a
