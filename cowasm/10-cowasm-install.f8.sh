@@ -2,7 +2,8 @@
 # the dir is LINKED-FROM  https://github.com/sagemathinc/cowasm/issues/46#issuecomment-1345703983
 
 
-# (a file in the f8_document pseudo-format)
+
+f8_document #
 do-not run this file as a whole
 )
 exit

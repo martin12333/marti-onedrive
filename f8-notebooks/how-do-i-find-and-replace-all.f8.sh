@@ -80,6 +80,27 @@ https://github.com/martin12333/marti-onedrive/blob/main2/backup-f8/backup--start
 
 
 
+
+
+
+# (a file in the f8_document pseudo-format)
+Ctrl+enter
+
+Ctrl+enter
+f8_document #
+Ctrl+enter
+
+*.f8.*
+
+https://github.com/martin12333/marti-onedrive/blob/d100c6408ceb38bb2b9459fad65763eca7158e47/browserPOSIX/bsd.f8.sh#L2
+
+https://github.com/martin12333/marti-onedrive/blob/main2/browserPOSIX/bsd.f8.sh#L1
+
+
+
+
+
+
 	git commit -v -a -m  find-and-replace
 git push
 
@@ -88,8 +109,15 @@ git push
  107 files changed, 120 insertions(+), 115 deletions(-)
 
 
+[main2 d100c64] find-and-replace
+ 49 files changed, 98 insertions(+), 49 deletions(-)
 
 acronis backup
+
+
+
+
+
 
 
 
