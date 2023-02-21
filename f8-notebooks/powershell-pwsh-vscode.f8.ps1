@@ -1,5 +1,5 @@
 (f8_document file pseudo-format)
-do-not run this file as a whole
+# (f8_document files are-not meant to be run as a whole)
 )
 exit
 #### to mitigate F5 in *mc* running this file

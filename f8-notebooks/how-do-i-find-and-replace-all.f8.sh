@@ -1,7 +1,7 @@
 
 
 # (a file in the f8_document pseudo-format)
-do-not run this file as a whole
+# (f8_document files are-not meant to be run as a whole)
 )
 exit
 
@@ -118,6 +118,10 @@ echo '-------- section --------'
 	git commit -v -a -m  before-find-and-replace
 
 git push
+
+
+
+Invoke Replace in Files (under the Edit menu, or with shortcut Ctrl+Shift+H)
 
 
 	git commit -v -a -m  find-and-replace

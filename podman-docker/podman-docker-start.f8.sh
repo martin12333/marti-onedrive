@@ -3,7 +3,7 @@
 f8_document #
 # (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
-do-not run this file as a whole
+# (f8_document files are-not meant to be run as a whole)
 )
 exit
 

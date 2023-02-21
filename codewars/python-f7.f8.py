@@ -2,7 +2,7 @@
 python
 
 f8-notebook
-do-not run this file as a whole
+# (f8_document files are-not meant to be run as a whole)
 breakpoint()
 #quit()
 #%%
