@@ -14,14 +14,21 @@ echo '-------- section --------'
 #### to mitigate, that F5 in *mc* in VSCode runs this file
 
 
+
+
+
+
+
+
+
+C:\Users\marti\OneDrive\f8-notebooks\how-do-i-find-and-replace-all.f8.sh
+C:\Users\marti\OneDrive\f8-notebooks\how-do-i-find-and-replace-all-occurrences-in-all-files-in-visual-studio-code.txt
+
 find -name '*.f8.*' -type f | grep ' '
 
 
 --recursive
-$() failed ?
-grep  --no-filename  mm_f8_doc `
- find -name '*.f8.*' -type f | grep ' '
-   `   |sort|uniq -c
+grep  --no-filename  mm_f8_doc `  find -name '*.f8.*' -type f     `   |sort|uniq -c
 
 
 man zshoptions
