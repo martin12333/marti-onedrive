@@ -81,3 +81,23 @@ find -name '*f8-not*'    -type d  -ls
 
 f8-notebooks---mm_f8_doc-file-pseudo-format.f8.sh
 f8_document.f8.sh
+
+
+
+
+
+
+
+
+
+	git add -vv  '*.f8.*'
+	git commit -v -a -m  refactor
+
+git push
+
+acronis backup
+
+
+
+
+

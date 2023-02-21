@@ -60,11 +60,10 @@ C:\pf\Git\bin\bash.exe
 
 	git ls-files
 	git ls-files|grep [.]ipynb
-	git ls-files|grep f8[.]
+	git ls-files|grep [.]f8[.]
 
-	git add -vv --dry-run '*f8.*'
-	git add -vv  '*f8.*'
-	git add -vv --dry-run '*sprea*iss*' #    '*f8.*'
+	git add -vv --dry-run '*.f8.*'
+	git add -vv  '*.f8.*'
 
 exit
 
