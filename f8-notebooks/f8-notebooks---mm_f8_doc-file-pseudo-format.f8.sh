@@ -14,6 +14,15 @@ echo '-------- section --------'
 #### to mitigate, that F5 in *mc* in VSCode runs this file
 
 
+find -name '*.f8.*' -type f | grep ' '
+
+
+--recursive
+$() failed ?
+grep  --no-filename  mm_f8_doc `
+ find -name '*.f8.*' -type f | grep ' '
+   `   |sort|uniq -c
+
 
 man zshoptions
 setopt|grep -i hist

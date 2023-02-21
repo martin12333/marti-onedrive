@@ -286,6 +286,11 @@ mkdir a
 mkdir a46456464654646
 explorer.exe
 C:\pf\totalcmd\TOTALCMD64.EXE
+cd ..\userklic\
+dir
+cmd /c dir
+cmd /c dir /s
+cmd /c dir /s /a
 
 
 
