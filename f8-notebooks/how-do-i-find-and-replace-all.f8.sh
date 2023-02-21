@@ -46,9 +46,16 @@ git push
 acronis backup
 
 
+
+
+
+
+
 https://stackoverflow.com/questions/37346481/how-do-i-find-and-replace-all-occurrences-in-all-files-in-visual-studio-code
 
 Invoke Replace in Files (under the Edit menu, or with shortcut Ctrl+Shift+H)
+
+
 
 
 
@@ -57,11 +64,23 @@ f8_document
 *.f8.*
 
 
-
+CRLF FAIL
 Ctrl+enter
 1
 (f8_document file pseudo-format)
 Ctrl+enter
+
+
+
+#####\(f8_document file pseudo-format\)\r\n
+
+
+f8_document #
+Ctrl+enter
+
+
+
+
 
 2
 
@@ -80,8 +99,8 @@ https://github.com/martin12333/marti-onedrive/blob/main2/backup-f8/backup--start
 
 
 
-
-
+ (a file in the f8_document pseudo-format)
+https://github.com/martin12333/marti-onedrive/blob/9403cce09d4303956cbb0761cdf15d0d711ee59f/f8-notebooks/f8_document.f8.sh#L2
 
 # (a file in the f8_document pseudo-format)
 Ctrl+enter
@@ -111,6 +130,18 @@ https://github.com/martin12333/marti-onedrive/blob/9b7ba47ec9787d3518452b4b269f6
 
 
 
+
+
+
+# (a file in the f8_document pseudo-format)
+# (a file in the f8_document pseudo-format)
+Ctrl+enter
+
+Ctrl+enter
+Ctrl+enter
+
+
+CRLF FAIL
 Ctrl+enter
 
 echo '-------- section --------'
@@ -125,6 +156,7 @@ Invoke Replace in Files (under the Edit menu, or with shortcut Ctrl+Shift+H)
 
 
 	git commit -v -a -m  find-and-replace
+
 git push
 
 
@@ -136,6 +168,8 @@ git push
  49 files changed, 98 insertions(+), 49 deletions(-)
 
  46 files changed, 116 insertions(+), 44 deletions(-)
+ 92 files changed, 95 insertions(+), 91 deletions(-)
+
 
 acronis backup
 
