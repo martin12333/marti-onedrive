@@ -1,4 +1,5 @@
-# (a file in the f8_document pseudo-format)
+
+f8_document #
 # (f8_document files are-not meant to be run as a whole)
 )
 exit
