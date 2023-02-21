@@ -59,9 +59,9 @@ pwsh
 C:\pf\Git\bin\bash.exe
 	cd ~/OneDrive
 
-	git ls-files
+	git ls-files|wc
 	git ls-files|grep [.]ipynb
-	git ls-files|grep [.]f8[.]
+	git ls-files|grep [.]f8[.]  |wc
 
 	git add -vv --dry-run '*.f8.*'
 	git add -vv  '*.f8.*'

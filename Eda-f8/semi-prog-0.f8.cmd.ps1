@@ -1,11 +1,14 @@
-semi-prog-0.f8.cmd.ps1
+
+# for my nephew
+
+whoami.exe /all
 
 
+demo todo
+ping
 
-whoami.exe /?
 
-
-
+tracert
 
 
 
