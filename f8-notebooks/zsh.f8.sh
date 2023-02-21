@@ -1,4 +1,5 @@
-(f8_document file pseudo-format)
+
+f8_document #
 do-not run this file as a whole
 )
 exit
