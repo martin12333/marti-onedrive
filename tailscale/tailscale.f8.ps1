@@ -1,6 +1,3 @@
-tailscale.f8.ps1
-
-
 
 f8_document #
 # (f8_document files are-not meant to be run as a whole)
@@ -24,7 +21,7 @@ echo '-------- section --------'
 
 
 
-resto.point
+restore.point
 
 https://login.tailscale.com/admin/welcome
 
