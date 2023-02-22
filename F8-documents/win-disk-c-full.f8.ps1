@@ -416,3 +416,18 @@ du -am
 df -m
 
 
+
+
+
+Get-Process -Name *novo*
+Get-Process -Name *mode*
+Get-Process -Name *edge*
+exit
+
+
+
+
+
+
+
+
