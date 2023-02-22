@@ -289,11 +289,32 @@ C:\pf\totalcmd\TOTALCMD64.EXE D:\umarti
 
 ./du64.exe -l 3   c:\Users    >D:\umarti\adm-unsort-du64-l-3--c-users.txt
 
+./du64.exe -l 4   c:\Users    >D:\umarti\adm-unsort-du64-l-4--c-users.txt
+
+
+$lev=5
+./du64.exe -l $lev   c:\Users    >D:\umarti\adm-unsort-du64-l-${lev}--c-users.txt
+
+
+
+./du64.exe -l 3   C:\Users\marti  >D:\umarti\unsort-du64-l-3--c-u.txt
+
+./du64.exe -l 4   C:\Users\marti  >D:\umarti\unsort-du64-l-4--c-u.txt
+
+
+
+
+
 
 
 
 cat  D:\umarti\unsort-du64-l-2--c--.txt
 cat  D:\umarti\adm-unsort-du64-l-2--c--.txt
+
+
+
+The '<' operator is reserved
+| for future use.
 
 cmd
 
@@ -302,6 +323,8 @@ sort.exe  < D:\umarti\unsort-du64-l-2--c--.txt   >D:\umarti\du64-l-2--c--.txt
 sort.exe  < D:\umarti\adm-unsort-du64-l-2--c--.txt   >D:\umarti\adm-du64-l-2--c--.txt
 
 sort.exe  < D:\umarti\adm-unsort-du64-l-3--c--.txt   >D:\umarti\adm-du64-l-3--c--.txt
+
+sort.exe  <D:\umarti\adm-unsort-du64-l-3--c-users.txt   >D:\umarti\adm-du64-l-3--c-us-.txt
 
 exit
 

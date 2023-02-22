@@ -5012,3 +5012,8 @@ cmd /c dir c:\
 cmd /c dir D:\umarti\*du*
 C:\pf\totalcmd\TOTALCMD64.EXE D:\umarti
 cmd /c dir D:\umarti\*du*
+sort.exe  < D:\umarti\adm-unsort-du64-l-3--c-users.txt   >D:\umarti\adm-du64-l-3--c-us-.txt
+sort.exe  <D:\umarti\adm-unsort-du64-l-3--c-users.txt   >D:\umarti\adm-du64-l-3--c-us-.txt
+cmd
+./du64.exe -l 3   C:\Users\marti  >D:\umarti\unsort-du64-l-2--c-u.txt
+./du64.exe -l 3   C:\Users\marti  >D:\umarti\unsort-du64-l-3--c-u.txt
