@@ -267,12 +267,19 @@ vylovit z d:
 
 
 
-
 C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
-mymyrsync.ps1
+C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
+
+cmd /c dir c:\| findstr.exe -i free
 
 C:\pf\Git\bin\bash.exe -c 'df -m' |findstr -i c:
-cmd /c dir c:\| findstr.exe -i free
+
+
+16 Dir(s)  37,975,379,968 bytes free
+PS C:\Users\marti\OneDrive> cmd /c dir c:\| findstr.exe -i free
+              16 Dir(s)  36,459,503,616 bytes free
+
+
 
 
 admin ISE
