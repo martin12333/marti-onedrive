@@ -5011,3 +5011,4 @@ cmd /c dir D:\umarti\*du*
 cmd /c dir c:\
 cmd /c dir D:\umarti\*du*
 C:\pf\totalcmd\TOTALCMD64.EXE D:\umarti
+cmd /c dir D:\umarti\*du*

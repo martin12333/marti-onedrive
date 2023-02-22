@@ -276,11 +276,18 @@ cmd /c dir D:\umarti\*du*
 
 C:\pf\totalcmd\TOTALCMD64.EXE D:\umarti
 
-./du64.exe -l 2   c:\  >D:\umarti\unsort-du64-l-2--c--.txt
+#./du64.exe -l 2   c:\  >D:\umarti\unsort-du64-l-2--c--.txt
+
 
 ./du64.exe -l 2   c:\  >D:\umarti\adm-unsort-du64-l-2--c--.txt
 
 ./du64.exe -l 3   c:\  >D:\umarti\adm-unsort-du64-l-3--c--.txt
+
+
+
+./du64.exe -l 2   C:\Users  >D:\umarti\adm-unsort-du64-l-2--c-users.txt
+
+./du64.exe -l 3   c:\Users    >D:\umarti\adm-unsort-du64-l-3--c-users.txt
 
 
 
