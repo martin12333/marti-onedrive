@@ -335,7 +335,9 @@ sort <D:\umarti\232du64\unsort-du64-l-3--c-u.txt
 sort <D:\umarti\232du64\adm-unsort-du64-l-5--c-users.txt
 sort <D:\umarti\adm-unsort-du64-l-6--c-users.txt
 sort <D:\umarti\adm-unsort-du64-l-7--c-users.txt| findstr -i cache
+sort <D:\umarti\adm-unsort-du64-l-9--c-users.txt
 sort <D:\umarti\adm-unsort-du64-l-9--c-users.txt| findstr -i cache
+sort <D:\umarti\adm-unsort-du64-l-9--c-users.txt| findstr -i ker.cache
 
 
 

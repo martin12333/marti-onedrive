@@ -45,15 +45,29 @@ C:\Users\marti\OneDrive\F8-documents\win-disk-c-full.f8.ps1
 98,810  c:\users\marti\chr-cors-profile1\Default\Code Cache
 
 
-
+279,206  c:\users\marti\AppData\Local\Google\Chrome\User Data\Default\Service Worker\CacheStorage
 
 282,951  c:\users\marti\AppData\Roaming\npm-cache
 
 382,447  c:\users\marti\R
 
+350,138  c:\users\marti\AppData\Local\Google\Chrome\User Data\Profile 2\Service Worker\CacheStorage
+
+372,641  c:\users\marti\AppData\Local\Google\Chrome\User Data\Profile 4\Service Worker\CacheStorage
+
+
+
+
+
 444,062  c:\users\milan_rxtipwr\AppData\Local\Temp
 
+
+
+
 468,689  c:\users\marti\AppData\Roaming\Code\Service Worker\CacheStorage
+
+
+
 
 524,221  c:\users\marti\AppData\Local\Microsoft\OneDrive
 
@@ -83,7 +97,7 @@ C:\Users\marti\OneDrive\F8-documents\win-disk-c-full.f8.ps1
 
 
 
-
+2,062,726  c:\users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Service Worker\CacheStorage
 
 
 
