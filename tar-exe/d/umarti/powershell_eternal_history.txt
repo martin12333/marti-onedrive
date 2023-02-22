@@ -5040,3 +5040,5 @@ icacls D:\umarti\232du64\adm-unsort-du64-l-5--c-users.txt
 cmd
 Get-Process -Name *novo*
 Get-Process -Name *mode*
+Get-Process -Name *edge*
+cmd

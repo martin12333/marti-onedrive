@@ -92,15 +92,21 @@ cd ..
 378     ./Default/Code Cache
 529     ./Default/IndexedDB
 702     ./Profile 1
+
 2018    ./Default/Service Worker/CacheStorage
 2071    ./Default/Service Worker
 3946    ./Default
 4781    .
 
 
+
+
+
 win-x setti storag
 nevidi inet caches
 even clean nevidi inet caches
+
+
 
 
 
@@ -113,6 +119,9 @@ D:                       78056    73872      4185   95% /d
 E:                       37054    21157     15898   58% /e
 P:                           1 -1021340    968895 1948% /p
 U:                           1 -1026071    973626 1957% /u
+
+
+
 
 
 
@@ -265,6 +274,9 @@ vylovit z d:
 C:\pf\Git\bin\bash.exe -c 'df -m'
 cmd /c dir c:\
 
+
+admin ISE
+
 cd "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\"
 
 ./du64
@@ -295,6 +307,8 @@ C:\pf\totalcmd\TOTALCMD64.EXE D:\umarti
 
 $lev=6 ; .\du64.exe -l $lev   c:\Users    >D:\umarti\adm-unsort-du64-l-${lev}--c-users.txt
 
+$lev=7 ; .\du64.exe -l $lev   c:\Users    >D:\umarti\adm-unsort-du64-l-${lev}--c-users.txt
+$lev=9 ; .\du64.exe -l $lev   c:\Users    >D:\umarti\adm-unsort-du64-l-${lev}--c-users.txt
 
 
 
@@ -320,6 +334,11 @@ sort.exe  /?
 sort <D:\umarti\232du64\unsort-du64-l-3--c-u.txt
 sort <D:\umarti\232du64\adm-unsort-du64-l-5--c-users.txt
 sort <D:\umarti\adm-unsort-du64-l-6--c-users.txt
+sort <D:\umarti\adm-unsort-du64-l-7--c-users.txt| findstr -i cache
+
+
+
+
 
 #icacls D:\umarti\232du64\adm-unsort-du64-l-5--c-users.txt
 
@@ -414,6 +433,10 @@ cd ..
 du -ms  C*  | sort -n
 du -am
 df -m
+
+
+
+
 
 
 
