@@ -268,11 +268,11 @@ vylovit z d:
 
 
 
+C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
+mymyrsync.ps1
 
-
-
-C:\pf\Git\bin\bash.exe -c 'df -m'
-cmd /c dir c:\
+C:\pf\Git\bin\bash.exe -c 'df -m' |findstr -i c:
+cmd /c dir c:\| findstr.exe -i free
 
 
 admin ISE

@@ -5042,3 +5042,15 @@ Get-Process -Name *novo*
 Get-Process -Name *mode*
 Get-Process -Name *edge*
 cmd
+dir
+cmd /c dir
+du .\OneDrive\Dokumenty\PowerShell\Help\
+C:\pf\Git\bin\bash.exe -c 'df -m'
+C:\pf\Git\bin\bash.exe -c 'df -m' |findstr -i c:
+cmd /c dir c:\
+cmd /c dir c:\| findstr.exe -i free
+C:\pf\Git\bin\bash.exe -c 'df -m' |findstr -i c:
+cmd /c dir c:\| findstr.exe -i free
+mymyrsync.ps1
+/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
+C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1

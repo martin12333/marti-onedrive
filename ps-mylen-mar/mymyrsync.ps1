@@ -37,6 +37,11 @@ Robocopy.exe    P:\home\user\.local\share\containers\storage\volumes\nslash_home
 
 
 
+cmd /c dir c:\| findstr.exe -i free
+
+
+
+
 
 	# CTRL-C otherwise 5 process
 
