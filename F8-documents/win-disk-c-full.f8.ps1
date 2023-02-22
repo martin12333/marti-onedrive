@@ -292,8 +292,43 @@ C:\pf\totalcmd\TOTALCMD64.EXE D:\umarti
 ./du64.exe -l 4   c:\Users    >D:\umarti\adm-unsort-du64-l-4--c-users.txt
 
 
-$lev=5
-./du64.exe -l $lev   c:\Users    >D:\umarti\adm-unsort-du64-l-${lev}--c-users.txt
+
+$lev=6 ; .\du64.exe -l $lev   c:\Users    >D:\umarti\adm-unsort-du64-l-${lev}--c-users.txt
+
+
+
+
+
+
+
+
+
+
+
+
+#icacls.exe  D:\umarti\232du64\*   /grant 'marti:(oi)(ci)(f)'
+
+
+
+
+exit
+cmd
+232du64
+cmd /c
+sort.exe  /?
+
+sort <D:\umarti\232du64\unsort-du64-l-3--c-u.txt
+sort <D:\umarti\232du64\adm-unsort-du64-l-5--c-users.txt
+sort <D:\umarti\adm-unsort-du64-l-6--c-users.txt
+
+#icacls D:\umarti\232du64\adm-unsort-du64-l-5--c-users.txt
+
+cmd /c sort.exe '<D:\umarti\232du64\adm-unsort-du64-l-4--c-users.txt'
+
+ls 'D:\umarti\232du64\adm-unsort-du64-l-4--c-*users.txt*'
+
+
+unsort-du64-l-2--c--.txt   >D:\umarti\du64-l-2--c--.txt
 
 
 
@@ -303,7 +338,7 @@ $lev=5
 
 
 
-
+232du64
 
 
 
