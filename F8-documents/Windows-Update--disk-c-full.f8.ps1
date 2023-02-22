@@ -20,6 +20,18 @@ create 'post-boot'
 23- 0+ 10
 
 
+
+
+
+
+C:\Users\marti\OneDrive\F8-documents\win-disk-c-full.f8.ps1
+
+
+
+
+
+
+
 #exists Troubleshoot Windows Update
 
 

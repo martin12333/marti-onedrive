@@ -9,7 +9,7 @@ exit
 echo '-------- section --------'
 
 
-
+C:\Users\marti\OneDrive\F8-documents\Windows-Update--disk-c-full.f8.ps1
 
 
 win-d
@@ -335,6 +335,17 @@ sort <D:\umarti\232du64\unsort-du64-l-3--c-u.txt
 sort <D:\umarti\232du64\adm-unsort-du64-l-5--c-users.txt
 sort <D:\umarti\adm-unsort-du64-l-6--c-users.txt
 sort <D:\umarti\adm-unsort-du64-l-7--c-users.txt| findstr -i cache
+sort <D:\umarti\adm-unsort-du64-l-9--c-users.txt| findstr -i cache
+
+
+
+
+
+
+
+C:\Users\marti\OneDrive\F8-documents\Windows-Update--disk-c-full.f8.ps1
+
+
 
 
 
