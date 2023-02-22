@@ -12,7 +12,12 @@ exit
 
 echo '-------- section --------'
 
-
+reboot
+Restore-point
+23+ 0 3
+23+ 0 10
+create 'post-boot'
+23- 0+ 10
 
 
 #exists Troubleshoot Windows Update

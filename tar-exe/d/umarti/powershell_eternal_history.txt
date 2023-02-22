@@ -5003,3 +5003,11 @@ Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\    -Verbose
 Start-Process "cmd.exe" -Credential $credential  -WorkingDirectory C:\Users\userklic   -UseNewEnvironment -ArgumentList "/C",dir,/a,/s,'&',pause   #works
 Start-Process "conhost.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment  -LoadUserProfile
 Start-Process "cmd.exe" -Credential $credential  -WorkingDirectory C:\Users\userklic   -UseNewEnvironment -ArgumentList "/C",dir,/a,/s,'&',pause   #works
+C:\pf\Git\bin\bash.exe -c df -m
+C:\pf\Git\bin\bash.exe -c 'df -m'
+cd "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\"
+ls D:\umarti\*du*
+cmd /c dir D:\umarti\*du*
+cmd /c dir c:\
+cmd /c dir D:\umarti\*du*
+C:\pf\totalcmd\TOTALCMD64.EXE D:\umarti

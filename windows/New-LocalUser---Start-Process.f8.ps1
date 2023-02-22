@@ -31,15 +31,12 @@ $credential = [PSCredential]::New($username,$password)
 
 
 
-
-#file:///c:\Users\marti\admin-ise--adminsaves.f8.ps1
-BETTER COPY PASTE INTO admin ise / admin-ise--adminsaves.f8.ps1
-
-file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
-
-win-x admin
-
 WIN-Q ise admin open
+COPY PASTE INTO admin ise / admin-ise--adminsaves.f8.ps1
+#file:///c:\Users\marti\admin-ise--adminsaves.f8.ps1
+#file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+#win-x admin
+
 
 resto.point
 pre New-LocalUser
@@ -136,7 +133,7 @@ Get-LocalUser
 ls C:\Users
 
 
-. "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64"   C:\Users\Eda
+& "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64"   C:\Users\Eda
 
 C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   C:\Users\milan_rxtipwr
 C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   C:\Users\userklic

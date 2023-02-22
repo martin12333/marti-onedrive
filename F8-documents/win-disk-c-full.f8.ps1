@@ -10,6 +10,33 @@ echo '-------- section --------'
 
 
 
+
+
+win-d
+WIN-Q ise rclick admin open
+COPY PASTE INTO admin ise / admin-ise--adminsaves.f8.ps1
+#file:///
+c:\Users\marti\admin-ise--adminsaves.f8.ps1
+#file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+#win-x admin
+
+
+
+C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   C:\Users\milan_rxtipwr
+
+
+
+
+
+du64
+#line 260
+
+
+
+
+
+
+
 cd "C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Profile 1"
 
 cd "C:\Users\marti\AppData\Local\Google\Chrome\User Data\Profile 4"
@@ -235,15 +262,20 @@ vylovit z d:
 
 
 
-
-df -m
-
+C:\pf\Git\bin\bash.exe -c 'df -m'
+cmd /c dir c:\
 
 cd "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\"
 
 ./du64
 
 ./du64.exe -l 1 ../..  | sort
+
+
+cmd /c dir D:\umarti\*du*
+
+C:\pf\totalcmd\TOTALCMD64.EXE D:\umarti
+
 ./du64.exe -l 2   c:\  >D:\umarti\unsort-du64-l-2--c--.txt
 
 ./du64.exe -l 2   c:\  >D:\umarti\adm-unsort-du64-l-2--c--.txt
