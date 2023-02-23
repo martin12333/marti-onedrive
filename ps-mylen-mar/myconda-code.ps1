@@ -32,7 +32,7 @@ code .
 
 sleep 20
 
-code   "C:\Users\marti\OneDrive\backup-f8\backups.code-workspace"
+#code   "C:\Users\marti\OneDrive\backup-f8\backups.code-workspace"
 
 
 

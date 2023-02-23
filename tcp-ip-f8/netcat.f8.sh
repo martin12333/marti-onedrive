@@ -13,6 +13,8 @@ podman machine start
 
 podman start   -ai    cmy22b
 
+wsl -d Ubuntu-22.04
+
 echo '-------- section --------'
 
 
@@ -36,7 +38,7 @@ man nc
 netcat-openbsd is already the newest version (1.218-4ubuntu1).
 netcat-openbsd set to manually installed.
 
- netcat
+➜  OneDrive  netcat
 usage: nc [-46CDdFhklNnrStUuvZz] [-I length] [-i interval] [-M ttl]
           [-m minttl] [-O length] [-P proxy_username] [-p source_port]
           [-q seconds] [-s sourceaddr] [-T keyword] [-V rtable] [-W recvlimit]

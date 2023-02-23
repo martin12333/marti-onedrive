@@ -5054,3 +5054,8 @@ cmd /c dir c:\| findstr.exe -i free
 mymyrsync.ps1
 /c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
 C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
+cmd /c dir c:\| findstr.exe -i free
+podman machine start
+podman start   -ai    cmy22b
+wswsl -d Ubuntu-22.04l -d Ubuntu-22.04
+wsl -d Ubuntu-22.04
