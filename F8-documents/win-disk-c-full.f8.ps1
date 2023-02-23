@@ -291,15 +291,17 @@ cd "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\"
 ./du64.exe -l 1 ../..  | sort
 
 
-cmd /c dir D:\umarti\*du*
 
+
+
+
+cmd /c dir D:\umarti\*du*
 C:\pf\totalcmd\TOTALCMD64.EXE D:\umarti
 
+
+
 #./du64.exe -l 2   c:\  >D:\umarti\unsort-du64-l-2--c--.txt
-
-
 ./du64.exe -l 2   c:\  >D:\umarti\adm-unsort-du64-l-2--c--.txt
-
 ./du64.exe -l 3   c:\  >D:\umarti\adm-unsort-du64-l-3--c--.txt
 
 
@@ -466,6 +468,7 @@ Get-Process -Name *novo*
 Get-Process -Name *mode*
 Get-Process -Name *edge*
 exit
+
 
 
 

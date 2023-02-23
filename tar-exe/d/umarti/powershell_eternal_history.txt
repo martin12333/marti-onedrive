@@ -5059,3 +5059,9 @@ podman machine start
 podman start   -ai    cmy22b
 wswsl -d Ubuntu-22.04l -d Ubuntu-22.04
 wsl -d Ubuntu-22.04
+cmd /c dir D:\umarti\*du*
+cmd /c dir c:
+cmd /c dir C:\Windows.old
+respnt
+Restore-point
+Restorepoint
