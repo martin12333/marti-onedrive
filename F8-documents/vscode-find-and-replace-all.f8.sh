@@ -57,7 +57,12 @@ https://stackoverflow.com/questions/37346481/how-do-i-find-and-replace-all-occur
 Invoke Replace in Files (under the Edit menu, or with shortcut Ctrl+Shift+H)
 
 
+echo '-------- section --------'
+moved to
+"C:\Users\marti\snippets-from--vscode-find-and-replace-all.f8.sh.ps1"
 
+CRLF FAIL
+Ctrl+enter
 
 
 mm_f8_doc
@@ -71,22 +76,14 @@ Ctrl+enter
 (f8_document file pseudo-format)
 Ctrl+enter
 
-
-
 #####\(f8_document file pseudo-format\)\r\n
 
-
 # f8_text_file
 Ctrl+enter
-
-
-
-
 
 2
-
 Ctrl+enter
-# f8_text_file
+# f8_document
 Ctrl+enter
 
 3
@@ -104,11 +101,11 @@ https://github.com/martin12333/marti-onedrive/blob/main2/backup-f8/backup--start
 https://github.com/martin12333/marti-onedrive/blob/9403cce09d4303956cbb0761cdf15d0d711ee59f/f8-notebooks/f8_document.f8.sh#L2
 
 
-# f8_text_file
+# f8_document
 Ctrl+enter
 
 Ctrl+enter
-# f8_text_file
+# f8_document
 Ctrl+enter
 
 *.f8.*
@@ -131,14 +128,9 @@ https://github.com/martin12333/marti-onedrive/blob/9b7ba47ec9787d3518452b4b269f6
 
 
 
+# f8_document
 
-
-
-
-
-# f8_text_file
-
-# f8_text_file
+# f8_document
 Ctrl+enter
 
 Ctrl+enter
@@ -148,9 +140,6 @@ Ctrl+enter
 CRLF FAIL
 Ctrl+enter
 
-
-
-vscode /file /new text file
 
 
 112 110
@@ -165,17 +154,53 @@ f8_document #
 
 
 
+#vscode /file /new text file
+#copy paste all the snippets there
+
+##move this file out of Onedrive
+##close this file in vscode
+###vscode /file /new text file
+###copy paste all the snippets there
+
+prev section -
+moved to
+"C:\Users\marti\snippets-from--vscode-find-and-replace-all.f8.sh.ps1"
+edit that file using powershell-ise
+save
+
+
+
+
+
 echo '-------- section --------'
+
+
+
+
+
+
 
 	git commit -v -a -m  before-find-and-replace
 
 git push
 
+acronis backup
+
 
 
 Invoke Replace in Files (under the Edit menu, or with shortcut Ctrl+Shift+H)
 
+pre: look at some file
+
+post: look at some file
+
+
+"C:\Users\marti\snippets-from--vscode-find-and-replace-all.f8.sh.ps1"
+ copy to onedrive
+
+###copy paste the snippet back
 ####Ctrl-z  undid in  110 files
+
 
 	git commit -v -a -m  find-and-replace
 
@@ -193,6 +218,13 @@ git push
  92 files changed, 95 insertions(+), 91 deletions(-)
 find-and-replace
  9 files changed, 24 insertions(+), 12 deletions(-)
+
+
+$ git commit -v -a -m  find-and-replace
+[main2 27f7a2e] find-and-replace
+ 104 files changed, 110 insertions(+), 110 deletions(-)
+
+
 
 acronis backup
 
