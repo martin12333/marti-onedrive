@@ -2,7 +2,7 @@
 
 
 # f8_text_file
-# (an f8_text_file is-not meant to be run as a whole)
+# (f8_document files are-not meant to be run as a whole)
 )
 exit
 
@@ -58,8 +58,7 @@ Invoke Replace in Files (under the Edit menu, or with shortcut Ctrl+Shift+H)
 
 
 echo '-------- section --------'
-moved to
-"C:\Users\marti\snippets-from--vscode-find-and-replace-all.f8.sh.ps1"
+
 
 CRLF FAIL
 Ctrl+enter
@@ -121,7 +120,7 @@ do-not run this file as a whole
 Ctrl+enter
 
 Ctrl+enter
-# (an f8_text_file is-not meant to be run as a whole)
+# (f8_document files are-not meant to be run as a whole)
 Ctrl+enter
 
 https://github.com/martin12333/marti-onedrive/blob/9b7ba47ec9787d3518452b4b269f60eb2b403f04/backup-f8/grant-append-not-write.f8.ps1#L1
@@ -154,19 +153,14 @@ f8_document #
 
 
 
-#vscode /file /new text file
-#copy paste all the snippets there
 
-##move this file out of Onedrive
-##close this file in vscode
-###vscode /file /new text file
-###copy paste all the snippets there
+# (f8_document files are-not meant to be run as a whole)
 
-prev section -
-moved to
-"C:\Users\marti\snippets-from--vscode-find-and-replace-all.f8.sh.ps1"
-edit that file using powershell-ise
-save
+# (an f8_text_file is-not meant to be run as a whole)
+
+*.f8.*
+
+
 
 
 
@@ -174,37 +168,21 @@ save
 
 echo '-------- section --------'
 
-
-
-
-
-
-
 	git commit -v -a -m  before-find-and-replace
 
 git push
 
-//acronis backup
-
+acronis backup
 
 
 Invoke Replace in Files (under the Edit menu, or with shortcut Ctrl+Shift+H)
 
-pre: look at some file
-
-post: look at some file
-
-
-"C:\Users\marti\snippets-from--vscode-find-and-replace-all.f8.sh.ps1"
- copy to onedrive
-cp
-
-###copy paste the snippet back
+copy paste the snippet back
 ####Ctrl-z  undid in  110 files
 
+look at some file
 
-# git add -vv  '*.f8.*'
-git commit -v -a -m  find-and-replace
+	git commit -v -a -m  find-and-replace
 
 git push
 

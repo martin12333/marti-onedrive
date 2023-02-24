@@ -1,6 +1,6 @@
 
 # f8_text_file
-# (f8_document files are-not meant to be run as a whole)
+# (an f8_text_file is-not meant to be run as a whole)
 )
 exit
 #### to mitigate, that F5 in *mc* in VSCode runs this file

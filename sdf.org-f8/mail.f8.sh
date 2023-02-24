@@ -2,7 +2,7 @@ mail.f8.sh
 
 
 # f8_text_file
-# (f8_document files are-not meant to be run as a whole)
+# (an f8_text_file is-not meant to be run as a whole)
 )
 exit
 
