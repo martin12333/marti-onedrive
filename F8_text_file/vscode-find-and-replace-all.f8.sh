@@ -227,6 +227,11 @@ $ git commit -v -a -m  find-and-replace
  104 files changed, 110 insertions(+), 110 deletions(-)
 
 
+$ git commit -v -a -m  find-and-replace
+[main2 6e6144d] find-and-replace
+ 93 files changed, 348 insertions(+), 94 deletions(-)
+ create mode 100644 F8-documents/snippets-from--vscode-find-and-replace-all.f8.sh.ps1
+
 
 acronis backup
 
