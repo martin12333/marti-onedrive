@@ -175,6 +175,7 @@ git push
 
 Invoke Replace in Files (under the Edit menu, or with shortcut Ctrl+Shift+H)
 
+Ctrl-z
 
 	git commit -v -a -m  find-and-replace
 
