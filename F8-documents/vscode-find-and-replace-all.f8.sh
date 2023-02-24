@@ -148,6 +148,23 @@ Ctrl+enter
 CRLF FAIL
 Ctrl+enter
 
+
+
+vscode /file /new text file
+
+
+112 110
+117 110
+
+f8_document #
+
+# f8_text_file
+
+*.f8.*
+
+
+
+
 echo '-------- section --------'
 
 	git commit -v -a -m  before-find-and-replace
