@@ -1,7 +1,7 @@
 
 
 
-f8_document #
+# f8_text_file
 # (f8_document files are-not meant to be run as a whole)
 )
 exit
@@ -76,7 +76,7 @@ Ctrl+enter
 #####\(f8_document file pseudo-format\)\r\n
 
 
-f8_document #
+# f8_text_file
 Ctrl+enter
 
 
@@ -86,7 +86,7 @@ Ctrl+enter
 2
 
 Ctrl+enter
-f8_document #
+# f8_text_file
 Ctrl+enter
 
 3
@@ -104,11 +104,11 @@ https://github.com/martin12333/marti-onedrive/blob/main2/backup-f8/backup--start
 https://github.com/martin12333/marti-onedrive/blob/9403cce09d4303956cbb0761cdf15d0d711ee59f/f8-notebooks/f8_document.f8.sh#L2
 
 
-f8_document #
+# f8_text_file
 Ctrl+enter
 
 Ctrl+enter
-f8_document #
+# f8_text_file
 Ctrl+enter
 
 *.f8.*
@@ -136,9 +136,9 @@ https://github.com/martin12333/marti-onedrive/blob/9b7ba47ec9787d3518452b4b269f6
 
 
 
-f8_document #
+# f8_text_file
 
-f8_document #
+# f8_text_file
 Ctrl+enter
 
 Ctrl+enter
@@ -175,7 +175,7 @@ git push
 
 Invoke Replace in Files (under the Edit menu, or with shortcut Ctrl+Shift+H)
 
-Ctrl-z
+####Ctrl-z  undid in  110 files
 
 	git commit -v -a -m  find-and-replace
 

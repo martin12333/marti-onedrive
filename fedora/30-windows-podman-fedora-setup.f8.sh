@@ -3,7 +3,7 @@ fedora of podman ... setup.f8.sh
 
 
 
-f8_document #
+# f8_text_file
 # (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
 # (f8_document files are-not meant to be run as a whole)

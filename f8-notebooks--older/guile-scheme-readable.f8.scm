@@ -1,5 +1,5 @@
 
-f8_document #
+# f8_text_file
 (do-not run this file as a whole)
 
 exit

@@ -1,7 +1,7 @@
 
 
 
-f8_document #
+# f8_text_file
 # (f8_document files are-not meant to be run as a whole)
 )
 exit
