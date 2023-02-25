@@ -55,7 +55,7 @@ echo $x| jq -c '.[]'   >a.ndjson
 #echo $x| jq -c '.'
 echo $x| jq  -cn  ' inputs[]'
 
-OUTPUT IS NDJSON (JSONL)
+OUTPUT IS  . JSONL, NDJSON
 
 vscode ➜ ~ $ echo $x| jq  -c   '.[]'
 {"id":1,"name":"foo"}
@@ -75,7 +75,7 @@ marti@len20 MINGW64 ~/OneDrive not__git_ps1
 
 echo $x| jq -c --stream
 
-OUTPUT IS NDJSON (JSONL)
+OUTPUT IS  .JSONL, NDJSON
 
 vscode ➜ ~ $ echo $x| jq -c --stream
 [[0,"id"],1]
