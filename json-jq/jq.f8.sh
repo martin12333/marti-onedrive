@@ -28,7 +28,6 @@ sudo apt-get install jq
 jq is already the newest version (1.6-2.1ubuntu3).
 
 
-
 https://stedolan.github.io/jq/manual/#Invokingjq
 
  For example, "a" becomes [[],"a"], and [[],"a",["b"]] becomes [[0],[]], [[1],"a"], and [[1,0],"b"].
@@ -51,8 +50,12 @@ x='[{"id": 1, "name": "foo"} ,{"id": 2, "name": "bar"}]'
 
 
 
-echo $x| jq  -c   '.[]'
+echo $x| jq -c '.[]'   >a.jsonl
+echo $x| jq -c '.[]'   >a.ndjson
+#echo $x| jq -c '.'
 echo $x| jq  -cn  ' inputs[]'
+
+OUTPUT IS NDJSON (JSONL)
 
 vscode ➜ ~ $ echo $x| jq  -c   '.[]'
 {"id":1,"name":"foo"}
@@ -60,12 +63,19 @@ vscode ➜ ~ $ echo $x| jq  -c   '.[]'
 vscode ➜ ~ $
 
 
+marti@len20 MINGW64 ~/OneDrive not__git_ps1
+$ git commit -v -a -m it-works
+[main2 109fa43] it-works
+ 1 file changed, 60 insertions(+)
+marti@len20 MINGW64 ~/OneDrive not__git_ps1
 
 
 
 
 
 echo $x| jq -c --stream
+
+OUTPUT IS NDJSON (JSONL)
 
 vscode ➜ ~ $ echo $x| jq -c --stream
 [[0,"id"],1]
