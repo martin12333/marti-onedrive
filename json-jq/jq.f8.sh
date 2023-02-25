@@ -1,4 +1,3 @@
-google-takeout.jq.f8.sh
 
 
 # f8_text_file
