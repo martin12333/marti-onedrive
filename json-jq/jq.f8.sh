@@ -18,6 +18,9 @@ wsl -d Ubuntu-22.04
 
 echo '-------- section --------'
 
+https://en.wikipedia.org/wiki/JSON_streaming#Concatenated_JSON
+
+Concatenated JSON streaming allows the sender to simply write each JSON object into the stream with no delimiters. It relies on the receiver using a parser that can recognize and emit each JSON object as the terminating character is parsed. Concatenated JSON isn't a new format, it's simply a name for streaming multiple JSON objects without any delimiters.
 
 
 

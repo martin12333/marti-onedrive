@@ -1,3 +1,30 @@
+
+
+sqlite3  --help
+
+
+sudo apt install sqlite3
+
+
+
+
+
+C:\> sqlite3 History
+sqlite> .headers on
+sqlite> .mode csv
+sqlite> .output my-history.csv
+sqlite> SELECT datetime(last_visit_time/1000000-11644473600,'unixepoch','localtime'), title, url FROM urls ORDER BY last_visit_time DESC;
+sqlite> .quit
+
+
+
+
+
+
+
+
+
+
 .echo on
 .mode list
 .separator "	"
@@ -11,8 +38,8 @@ drop table prokl;
 
 --SELECT name, sql FROM sqlite_master WHERE type='table' ;
 --PRAGMA TABLE_INFO(prokl);
---SELECT name, sql FROM sqlite_master WHERE type='index' 
---SELECT rowid, *  FROM prokl ORDER BY rowid; 
+--SELECT name, sql FROM sqlite_master WHERE type='index'
+--SELECT rowid, *  FROM prokl ORDER BY rowid;
 
 BEGIN TRANSACTION RESTOREPOINT;
 
@@ -34,17 +61,17 @@ INSERT INTO DFGDG VALUES('î','aboard,on_board','23401');
 SELECT name, sql FROM sqlite_master WHERE type='table' ;
 PRAGMA TABLE_INFO(prokl);
 PRAGMA TABLE_INFO(DFGDG);
-SELECT name, sql FROM sqlite_master WHERE type='index' 
-SELECT rowid, *  FROM prokl ORDER BY rowid; 
+SELECT name, sql FROM sqlite_master WHERE type='index'
+SELECT rowid, *  FROM prokl ORDER BY rowid;
 SELECT name, sql FROM sqlite_master WHERE type='table' ;
 PRAGMA TABLE_INFO(prokl);
 PRAGMA TABLE_INFO(DFGDG);
-SELECT name, sql FROM sqlite_master WHERE type='index' 
-SELECT rowid, *  FROM prokl ORDER BY rowid; 
+SELECT name, sql FROM sqlite_master WHERE type='index'
+SELECT rowid, *  FROM prokl ORDER BY rowid;
 SELECT name, sql FROM sqlite_master WHERE type='table' ;
 PRAGMA TABLE_INFO(prokl);
 PRAGMA TABLE_INFO(DFGDG);
-SELECT name, sql FROM sqlite_master WHERE type='index' 
-SELECT rowid, *  FROM prokl ORDER BY rowid; 
-SELECT rowid, *  FROM DFGDG ORDER BY rowid; 
+SELECT name, sql FROM sqlite_master WHERE type='index'
+SELECT rowid, *  FROM prokl ORDER BY rowid;
+SELECT rowid, *  FROM DFGDG ORDER BY rowid;
 
