@@ -54,6 +54,7 @@ x='[{"id": 1, "name": "foo"} ,{"id": 2, "name": "bar"}]'
 
 todo jq INPUTFILE
 
+echo $x| jq -c '.[]'  
 echo $x| jq -c '.[]'   >a.jsonl
 echo $x| jq -c '.[]'   >a.ndjson
 #echo $x| jq -c '.'

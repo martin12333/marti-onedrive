@@ -40,3 +40,81 @@ https://github.com/TxGVNN/txgvnn.github.io/blob/79e9ffe86349c3a16622d19d1832a476
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+https://lists.gnu.org/archive/html/eev/2022-06/msg00006.html
+that Eduardo calls a sexp a button and pressing M-e executes that sexp. Before eev, I used to do something similar, having sexp in comments and pressing C-e (go to end of line) and then C-x C-e (evaluate last sexp), but Eduardo named it properly, gave it a key (M-e) and built whole way of thinking around that.
+
+
+eepitch blocks are much more useable than for example org-mode code blocks, where it is difficult to figure out, how to specify/configure the code block. With eepitch, it is simply all commands, and if you for example tunnel ssh or run stuff in various languages non-homogenously, it is just lines of texts run on a key press F8.
+
+
+
+
+
+
+
+
+
+https://lists.gnu.org/archive/html/eev/2014-10/msg00000.html
+
+Xavier Maillard
+
+
+I still use GNU eev. To be honest, I have abandoned it more or less and
+like my first love, I always come back to it ;)
+
+I use daily eepitch for all sort of stuff. I even created my own eepitch-X extensions (I am a DBA and need to use sqlplus and things like that). I would be very happy to contribute it back but I did not find any SCM to prepare my patch.
+
+
+
+
+
+
+
+
+https://lists.gnu.org/archive/html/eev/2008-04/msg00019.html
+Just a quick message to say how thankful I am to all of you. I have successfully done my *real* first e-script in the *real* life. The job was way way easier to do with eepitch-shell than if I had to type all again by hand. I successfully migrated an Oracle Dataguard from one machine to another with very few keystrokes !!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://lists.gnu.org/archive/html/eev/2008-02/msg00012.html
+
+
+
+   > Are there any people interested in having a "community git
+   > repository" of our best productions (even if a escript could be
+   > quite "personnal") ?
+
+   I am very interested! I have some very good e-scripts scattered at
+   <http://angg.twu.net/e/>, but they are buried among megabytes of
+   mess... May I help? :-)
+
+
+
+
+
+
+
+
