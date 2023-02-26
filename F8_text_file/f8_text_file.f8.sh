@@ -1,20 +1,20 @@
 
 # f8_text_file
-# (an f8_text_file is-not meant to be run as a whole)
-)
-exit
 
 (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
-#### 'exit' is to mitigate, that F5 in *mc* in VSCode runs this file
+# (an f8_text_file is-not meant to be run as a whole)
+)
+exit
+#### the 'exit' is to mitigate, that F5 in *mc* in VSCode runs this file
+
+
 
 echo '-------- section --------'
 
+f8_text_file
 
-f8_document
-is a text-file  pseudo-format
-
-# f8_document format was formerly called  f8-notebook ... distantly related are  jupyter notebooks
+# f8_text_file format was formerly called f8_document, mm_f8_doc, f8-notebook ... distantly related are  jupyter notebooks
 
 
 
@@ -28,7 +28,6 @@ is a text-file  pseudo-format
 
 
 
-## formerly named  mm_f8_doc
 C:\Users\marti\OneDrive\f8-notebooks\how-do-i-find-and-replace-all.f8.sh
 C:\Users\marti\OneDrive\f8-notebooks\how-do-i-find-and-replace-all-occurrences-in-all-files-in-visual-studio-code.txt
 
@@ -62,6 +61,10 @@ C:\pf\Git\bin\bash.exe
 	git ls-files|wc
 	git ls-files|grep [.]ipynb
 	git ls-files|grep [.]f8[.]  |wc
+	git ls-files|grep -v [.]f8[.]   |grep -vi ' '|   grep -o '.*[/]'  |sort -u
+	  | grep -vi hist| grep -vi [/][.]
+	 |grep -vi '.json'
+		|  wc
 
 	git add -vv --dry-run '*.f8.*'
 	git add -vv  '*.f8.*'
