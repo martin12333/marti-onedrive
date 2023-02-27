@@ -1,15 +1,14 @@
 
 
-FAIL RCLICK
-NEEDS MDOWN
+FAIL RCLICK here in .ps1
+NEEDS MDOWN .md
+# file:///C:\Users\marti\OneDrive\vscode-f8\vscode-colon-url.f8.md
 
-workbench.action.url.openUrl
 
-[fdss](
-	command://workbench.action.url.openUrl
-	)
 
-erify on WSL (or on any other remote)
+
+#### [fdss](	command://workbench.action.url.openUrl 	)
+
 
 run the Devloper: Open URL command
 # vscode://vscode-remote/wsl+distro/path/to/file:1:1 should open file
