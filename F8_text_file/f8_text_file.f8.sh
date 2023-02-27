@@ -103,3 +103,66 @@ exit
 { "key": "f8",                    "command": "quokka.playTraceForwardToBreakpoint",
                                      "when": "activeEditor && quokka.isActiveEditorRunningQuokka && quokka.traceBeingNavigated && !inDebugMode && !quokka.isLiveShareClient || activeEditor && quokka.traceBeingNavigated && !inDebugMode && !quokka.isLiveShareClient && resourceScheme == 'quokka-code-timeline'" },
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+renames
+diigo
+
+
+marti@len20 MINGW64 ~/OneDrive not__git_ps1
+$ git commit -v -a -m  rename
+[main2 6d133e2] rename
+
+
+ 26 files changed, 0 insertions(+), 0 deletions(-)
+
+
+ rename {curses => curses-f8}/curses-demos.f8.sh (100%)
+ rename {curses => curses-f8}/curses.f8.py (100%)
+
+ rename {curses => curses-f8}/curses.f8.sh (100%)
+
+ rename {eev => eev-f8}/attempt.f8.hs (100%)
+ rename {eev => eev-f8}/eev.f8.el (100%)
+ rename {eev => eev-f8}/elisp,ielm,eshell--228.f8.el (100%)
+ rename {emscripten,emsdk => emscripten,emsdk-f8}/10-install.f8.sh (100%)
+ rename {emscripten,emsdk => emscripten,emsdk-f8}/40-run.f8.sh (100%)
+ rename {emscripten,emsdk => emscripten,emsdk-f8}/opts--selected.f8.sh (100%)
+ rename {emscripten,emsdk => emscripten,emsdk-f8}/opts/hello0.f8.opt (100%)
+ rename {emscripten,emsdk => emscripten,emsdk-f8}/opts/hellocc.f8.opt (100%)
+ rename {emscripten,emsdk => emscripten,emsdk-f8}/opts/hellow.f8.opt (100%)
+ rename {emscripten,emsdk => emscripten,emsdk-f8}/opts/toybox.f8.opt (100%)
+ rename {makefile => makefile-f8}/makefile.f8.sh (100%)
+ rename {podman-docker => podman-docker-f8}/podman-docker-commit.f8.sh (100%)
+ rename {podman-docker => podman-docker-f8}/podman-docker-install.f8.sh (100%)
+ rename {podman-docker => podman-docker-f8}/podman-docker-start.f8.sh (100%)
+ rename {podman-docker => podman-docker-f8}/toolbox.f8.sh (100%)
+ rename {podman-docker => podman-docker-f8}/windows,wsl-install-podman.f8.ps1 (100%)
+ 
+ rename {powershell => powershell-f8}/Start-Process.f8.ps1 (100%)
+ rename {powershell => powershell-f8}/env..path.length.f8.ps1 (100%)
+ rename {tailscale => tailscale-f8}/tailscale.f8.ps1 (100%)
+ rename {windows => windows-f8}/Get-.f8.ps1 (100%)
+ rename {windows => windows-f8}/New-LocalUser---Start-Process.f8.ps1 (100%)
+ rename {windows => windows-f8}/Start-Job.f8.ps1 (100%)
+ rename {windows => windows-f8}/Sysinternals.f8.ps1 (100%)
+
+marti@len20 MINGW64 ~/OneDrive not__git_ps1
+$ git push
