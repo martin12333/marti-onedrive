@@ -34,7 +34,7 @@ keyb
 
 
 
-
+exec line 0
 run line
 {
   "key": "",
