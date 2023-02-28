@@ -118,3 +118,26 @@ https://lists.gnu.org/archive/html/eev/2008-02/msg00012.html
 
 
 
+
+
+
+
+Run Selection/Line in Terminal (REPL)
+The Python: Run Selection/Line in Python Terminal command (Shift+Enter) is a simple way to take whatever code is selected, or the code on the current line if there is no selection, and run it in the Python Terminal. An identical Run Selection/Line in Python Terminal command is also available on the context menu for a selection in the editor.
+VS Code automatically removes indents based on the first non-empty line of the selection, shifting all other lines left when needed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
