@@ -1,9 +1,40 @@
+
+```sh
+echo sdjfjfds
+
+```
+
+
+
 f1
 {
   "key": "f1",
   "command": "workbench.action.showCommands"
 }
 keyb
+
+
+
+
+
+
+
+
+    //{ "key": "y",           "command": "type", "args": { "text": "z" }, "when": "editorTextFocus" },
+
+
+###[fdss](command:type?args=qytwrqyetqrq)
+
+<!--#[fdss](command:workbench.action.url.openUrl?args=qytwrqyetqrq) -->
+[fdss](command:workbench.action.url.openUrl)
+[fdss](command:workbench.action.openDefaultKeybindingsFile)
+[fdss](command:cursorPageDownSelect)
+
+#####[fdss](command://workbench.action.url.openUrl)
+
+
+
+
 
 
 
@@ -290,24 +321,6 @@ workbench.action.url.openUrl
 workbench.action.openDefaultKeybindingsFile
 { "key": "shift+pagedown",        "command": "cursorPageDownSelect",
                                      "when": "textInputFocus" },
-
-
-
-
-
-
-    //{ "key": "y",           "command": "type", "args": { "text": "z" }, "when": "editorTextFocus" },
-
-
-###[fdss](command:type?args=qytwrqyetqrq)
-
-<!--#[fdss](command:workbench.action.url.openUrl?args=qytwrqyetqrq) -->
-[fdss](command:workbench.action.url.openUrl)
-[fdss](command:workbench.action.openDefaultKeybindingsFile)
-[fdss](command:cursorPageDownSelect)
-
-#####[fdss](command://workbench.action.url.openUrl)
-
 
 
 

@@ -5067,3 +5067,9 @@ Restore-point
 Restorepoint
 code .
 exit
+cd "C:\Users\marti\.vscode\extensions\stateful.runme-0.6.5\examples"
+node ./scripts/stdin.js
+openssl rand -base64 32
+curl https://lever-client-logos.s3.us-west-2.amazonaws.com/a8ff9b1f-f313-4632-b90f-1f7ae7ee807f-1638388150933.png 2>/dev/null
+curl https://lever-client-logos.s3.us-west-2.amazonaws.com/a8ff9b1f-f313-4632-b90f-1f7ae7ee807f-1638388150933.png
+curl https://lever-client-logos.s3.us-west-2.amazonaws.com/a8ff9b1f-f313-4632-b90f-1f7ae7ee807f-1638388150933.png --output kgjkfdkgd
