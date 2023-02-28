@@ -1,19 +1,212 @@
 
+{
+  "key": "shift+enter",
+  "command": "jupyter.execSelectionInteractive",
+  "when": "editorTextFocus && isWorkspaceTrusted && jupyter.ownsSelection && !findInputFocussed && !jupyter.webExtension && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+}
+
+{
+  "key": "f10",
+  "command": "jupyter.runByLine",
+  "when": "!jupyter.notebookeditor.debuggingInProgress && !jupyter.notebookeditor.runByLineInProgress && notebookKernelCount > 0"
+}
+{
+  "key": "f10",
+  "command": "jupyter.runByLineNext",
+  "when": "jupyter.notebookeditor.runByLineInProgress"
+}
+
+{
+  "key": "ctrl+enter",
+  "command": "jupyter.runcurrentcell",
+  "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !editorHasSelection && !jupyter.havenativecells && !notebookEditorFocused"
+}
+
+{
+  "key": "shift+enter",
+  "command": "jupyter.runcurrentcelladvance",
+  "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !editorHasSelection && !notebookEditorFocused"
+}
 
 
 
 
+
+
+{
+  "key": "ctrl+enter",
+  "command": "notebook.cell.executeAndFocusContainer",
+  "when": "notebookCellListFocused || editorTextFocus && inputFocus && notebookEditorFocused"
+}{
+  "key": "alt+enter",
+  "command": "notebook.cell.executeAndInsertBelow",
+  "when": "notebookCellListFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
+}{
+  "key": "shift+enter",
+  "command": "notebook.cell.executeAndSelectBelow",
+  "when": "notebookCellListFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
+}{
+  "key": "shift+enter",
+  "command": "notebook.cell.executeAndSelectBelow",
+  "when": "notebookCellListFocused && notebookCellType == 'code' || editorTextFocus && inputFocus && notebookEditorFocused"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "key": "ctrl+shift+v",
+  "command": "markdown.showPreview",
+  "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+}
+{
+  "key": "ctrl+k v",
+  "command": "markdown.showPreviewToSide",
+  "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+}
+
+
+
+
+{
+  "key": "f9",
+  "command": "editor.debug.action.toggleBreakpoint",
+  "when": "debuggersAvailable && editorTextFocus"
+}
+
+
+
+{
+  "key": "ctrl+shift+c",
+  "command": "workbench.action.terminal.openNativeConsole",
+  "when": "!terminalFocus"
+}
+
+
+
+
+{
+  "key": "f8",
+  "command": "PowerShell.RunSelection",
+  "when": "editorTextFocus && editorLangId == 'powershell'"
+}
+
+
+
+{
+  "key": "ctrl+e",
+  "command": "workbench.action.quickOpen"
+}
+{
+  "key": "ctrl+p",
+  "command": "workbench.action.quickOpen"
+}
+
+
+{
+  "key": "ctrl+g",
+  "command": "workbench.action.gotoLine"
+}
+
+
+{
+  "key": "ctrl+k ctrl+r",
+  "command": "workbench.action.keybindingsReference"
+}
+
+{
+  "key": "alt+left",
+  "command": "workbench.action.navigateBack",
+  "when": "canNavigateBack"
+}
+{
+  "key": "shift+alt+c",
+  "command": "copyFilePath",
+  "when": "!editorFocus"
+}{
+  "key": "shift+alt+c",
+  "command": "copyFilePath",
+  "when": "editorFocus"
+}
+
+
+{
+  "key": "ctrl+o",
+  "command": "workbench.action.files.openFile",
+  "when": "true"
+}
+
+{
+  "key": "ctrl+i",
+  "command": "emojisense.quickEmoji",
+  "when": "editorTextFocus"
+}
+{
+  "key": "ctrl+insert",
+  "command": "editor.action.clipboardCopyAction"
+}
+{
+  "key": "ctrl+c",
+  "command": "editor.action.clipboardCopyAction"
+}
+
+{
+  "key": "ctrl+k ctrl+c",
+  "command": "editor.action.addCommentLine",
+  "when": "editorTextFocus && !editorReadonly"
+}
+
+
+@command:PowerShell.ShowSessionConsole
+
+PowerShell.ShowSessionConsole
 workbench.action.url.openUrl
 workbench.action.openDefaultKeybindingsFile
 { "key": "shift+pagedown",        "command": "cursorPageDownSelect",
                                      "when": "textInputFocus" },
 
 
+
+
+
+
+    //{ "key": "y",           "command": "type", "args": { "text": "z" }, "when": "editorTextFocus" },
+
+
+###[fdss](command:type?args=qytwrqyetqrq)
+
+<!--#[fdss](command:workbench.action.url.openUrl?args=qytwrqyetqrq) -->
 [fdss](command:workbench.action.url.openUrl)
 [fdss](command:workbench.action.openDefaultKeybindingsFile)
 [fdss](command:cursorPageDownSelect)
 
 #####[fdss](command://workbench.action.url.openUrl)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 [a](vscode:extension/buster.ndjson-colorizer)
