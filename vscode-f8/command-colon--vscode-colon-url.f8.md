@@ -1,4 +1,41 @@
 
+
+
+{
+  "key": "shift+enter",
+  "command": "workbench.action.terminal.sendSequence",
+  "when": "terminalFocus && terminalShellIntegrationEnabled && !accessibilityModeEnabled && terminalShellType == 'pwsh'"
+}
+{
+  "key": "shift+enter",
+  "command": "jupyter.execSelectionInteractive",
+  "when": "editorTextFocus && isWorkspaceTrusted && jupyter.ownsSelection && !findInputFocussed && !jupyter.webExtension && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+}
+{
+  "key": "shift+enter",
+  "command": "python.execSelectionInTerminal",
+  "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+}
+
+
+
+
+
+
+
+
+
+
+{
+  "key": "f10",
+  "command": "workbench.action.debug.stepOver",
+  "when": "debugState == 'stopped'"
+}
+
+
+
+
+
 {
   "key": "shift+enter",
   "command": "jupyter.execSelectionInteractive",
@@ -59,6 +96,32 @@
 
 
 
+{
+  "key": "ctrl+enter",
+  "command": "interactive.execute",
+  "when": "resourceScheme == 'vscode-interactive'"
+}
+{
+  "key": "shift+enter",
+  "command": "interactive.execute",
+  "when": "!notebookKernel && resourceScheme == 'vscode-interactive' || resourceScheme == 'vscode-interactive' && notebookKernel =~ /^ms-toolsai.jupyter\\//"
+}
+
+
+{
+  "key": "ctrl+alt+enter",
+  "command": "notebook.cell.execute",
+  "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -83,7 +146,7 @@
 }
 
 
-
+external terminal
 {
   "key": "ctrl+shift+c",
   "command": "workbench.action.terminal.openNativeConsole",
