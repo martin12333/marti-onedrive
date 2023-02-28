@@ -1,3 +1,50 @@
+f1
+{
+  "key": "f1",
+  "command": "workbench.action.showCommands"
+}
+keyb
+
+
+
+
+{
+  "key": "",
+  "command": "workbench.action.openDefaultKeybindingsFile"
+}
+{
+  "key": "",
+  "command": "workbench.action.openGlobalKeybindingsFile"
+}
+{
+  "key": "ctrl+k ctrl+s",
+  "command": "workbench.action.openGlobalKeybindings"
+}
+{
+  "key": "ctrl+k ctrl+r",
+  "command": "workbench.action.keybindingsReference"
+}
+
+
+{
+  "key": "",
+  "command": "workbench.action.toggleKeybindingsLog"
+}
+
+
+
+
+
+run line
+{
+  "key": "",
+  "command": "jupyter.runtoline"
+}
+
+{
+  "key": "",
+  "command": "python.execSelectionInDjangoShell"
+}
 
 
 
@@ -52,6 +99,14 @@
   "command": "jupyter.runByLineNext",
   "when": "jupyter.notebookeditor.runByLineInProgress"
 }
+{
+  "key": "ctrl+enter",
+  "command": "jupyter.runByLineStop",
+  "when": "jupyter.notebookeditor.runByLineInProgress && notebookKernelCount > 0"
+}
+
+
+
 
 {
   "key": "ctrl+enter",
