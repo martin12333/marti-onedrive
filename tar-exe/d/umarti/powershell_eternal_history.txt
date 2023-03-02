@@ -5073,3 +5073,49 @@ openssl rand -base64 32
 curl https://lever-client-logos.s3.us-west-2.amazonaws.com/a8ff9b1f-f313-4632-b90f-1f7ae7ee807f-1638388150933.png 2>/dev/null
 curl https://lever-client-logos.s3.us-west-2.amazonaws.com/a8ff9b1f-f313-4632-b90f-1f7ae7ee807f-1638388150933.png
 curl https://lever-client-logos.s3.us-west-2.amazonaws.com/a8ff9b1f-f313-4632-b90f-1f7ae7ee807f-1638388150933.png --output kgjkfdkgd
+$psEditor
+$psEditor|select *
+$psEditor|  Get-Member
+$PSEditor.GetCommands()
+$psEditor|  Format-List -Property *
+$psEditor|  Format-List *
+$psEditor|  Format-List
+$PSEditor.GetEditorContext().CurrentFile.Uri
+$PSEditor.GetEditorContext().CurrentFile.WorkspacePath
+$PSEditor.GetEditorContext().CurrentFile.GetTextLines()
+$PSEditor.GetEditorContext().CurrentFile.GetText()
+$r.Start
+$x=$PSEditor.GetEditorContext().CurrentFile|Get-Member
+$x
+$x[3].Definition
+$x[2].Definition
+$x=$PSEditor|Get-Member
+$x
+$x[3].Definition
+$x[2].Definition
+$x
+$y=$PSEditor.GetCommands()
+$y
+$y.Count
+$y.GetType()
+$PSEditor.Window|Get-Member
+$PSEditor.Workspace|Get-Member
+($psEditor).GetEditorContext().CurrentFile.Ast
+$PSEditor.GetType()
+$PSEditor.GetEditorContext().GetType()
+show-ps
+history
+history[0]
+(history)
+(history)[0]
+(history)[0].CommandLine
+$psEditor|select *
+$psEditor|  Get-Member
+$psEditor|  Format-List -Property *
+$x=$PSEditor.GetEditorContext()|Get-Member
+$x
+$x=$PSEditor.GetEditorContext().CurrentFile|Get-Member
+$x
+$PSEditor.GetEditorContext().CurrentFile.GetTextLines()
+$PSEditor.Window|Get-Member
+$PSEditor.Workspace|Get-Member
