@@ -25,6 +25,11 @@ is-open
   Feature Request: Call VSCode commands from $psEditor variable · Issue #804 · PowerShell/vscode-powershell
 
 
+
+code --help| grep -i comma
+code --help| grep -i code
+
+
 =====> PowerShell Integrated Console v2022.6.3 <=====
 
 
