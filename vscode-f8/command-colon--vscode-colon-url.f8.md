@@ -7,6 +7,7 @@ f1
 keyb
 
 
+# file:///C:\Users\marti\OneDrive\vscode-f8\ps1--fail--command-colon-url.f8.ps1
 
 
 ```sh
@@ -14,6 +15,8 @@ echo sdjfjfds
 
 ```
 
+
+command:vscode.open?["https://aka.ms/codetour"]
 
 
 [Open URL](command:vscode.open?["https://aka.ms/codetour"])
@@ -23,22 +26,33 @@ echo sdjfjfds
 #####[Open URL](command:vscode.open?{"url":"file:///c:/users"})
 uri
 
+
+
+
+
+
+
+command:workbench.action.url.openUrl
+[fdss](command:workbench.action.url.openUrl)
+[fdss](command:workbench.action.openDefaultKeybindingsFile)
+[fdss](command:cursorPageDownSelect)
+
+#####[fdss](command://workbench.action.url.openUrl)
+
+
+
+
+
+
+
 ####[fdgd](command:?{"command":"type","args":{"text":"z"}})
+####[fdgd](command:type?{"text":"hgjgjhgjhgjhgjgjhgz"})
 ####[fdgd](command:type?{"args":{"text":"hgjgjhgjhgjhgjgjhgz"}})
 ####[fdgd](command:type?["hgjgjhgjhgjhgjgjhgz"])
     //{ "key": "y",           "command": "type", "args": { "text": "z" }, "when": "editorTextFocus" },
 ###[fdss](command:type?args=qytwrqyetqrq)
 <!--#[fdss](command:workbench.action.url.openUrl?args=qytwrqyetqrq) -->
 
-
-
-
-
-[fdss](command:workbench.action.url.openUrl)
-[fdss](command:workbench.action.openDefaultKeybindingsFile)
-[fdss](command:cursorPageDownSelect)
-
-#####[fdss](command://workbench.action.url.openUrl)
 
 
 
@@ -363,6 +377,8 @@ c:users/marti/onedrive/ai\
 
 
 [a](vscode://file/c:/users/marti/onedrive/ai/file:1)
+
+#vscode://file/c:/users/marti/onedrive/ai/file:1
 
 
 # vscode://vscode-remote/wsl+distro/path/to/file:1:1 should open file
