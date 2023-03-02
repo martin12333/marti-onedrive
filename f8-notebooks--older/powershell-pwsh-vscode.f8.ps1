@@ -12,6 +12,11 @@ echo '-------- section --------'
 
 to get $PSEditor
 F1
+PowerShell: Show Integrated Console
+{
+	"key": "",
+	"command": "PowerShell.ShowSessionConsole"
+  }
 =====> PowerShell Integrated Console v2022.6.3 <=====
 
 
