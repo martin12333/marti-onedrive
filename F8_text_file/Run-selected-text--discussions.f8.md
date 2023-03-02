@@ -1,6 +1,9 @@
 
 
 
+send the current text line from the current editor window to the current terminal
+
+
 spell
 run selected text--discussions
 -discu s s ions

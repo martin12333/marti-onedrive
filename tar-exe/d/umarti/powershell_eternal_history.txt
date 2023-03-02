@@ -5119,3 +5119,9 @@ $x
 $PSEditor.GetEditorContext().CurrentFile.GetTextLines()
 $PSEditor.Window|Get-Member
 $PSEditor.Workspace|Get-Member
+echo Hello Didact!
+echo hello worldman echoqecho "hello world 1"
+echo -n hello world 2
+echo hello world 3 -n
+echo "hello world 4" -n
+echo "-n hello world 5"

@@ -1,11 +1,4 @@
 
-```sh
-echo sdjfjfds
-
-```
-
-
-
 f1
 {
   "key": "f1",
@@ -16,16 +9,31 @@ keyb
 
 
 
+```sh
+echo sdjfjfds
+
+```
 
 
 
+[Open URL](command:vscode.open?["https://aka.ms/codetour"])
+[Open URL](command:vscode.open?["file:///c:/users"])
+####[Open URL](command:vscode.open)
+####[Open URL](command:vscode.open?{"uri":"file:///c:/users"})
+#####[Open URL](command:vscode.open?{"url":"file:///c:/users"})
+uri
 
+####[fdgd](command:?{"command":"type","args":{"text":"z"}})
+####[fdgd](command:type?{"args":{"text":"hgjgjhgjhgjhgjgjhgz"}})
+####[fdgd](command:type?["hgjgjhgjhgjhgjgjhgz"])
     //{ "key": "y",           "command": "type", "args": { "text": "z" }, "when": "editorTextFocus" },
-
-
 ###[fdss](command:type?args=qytwrqyetqrq)
-
 <!--#[fdss](command:workbench.action.url.openUrl?args=qytwrqyetqrq) -->
+
+
+
+
+
 [fdss](command:workbench.action.url.openUrl)
 [fdss](command:workbench.action.openDefaultKeybindingsFile)
 [fdss](command:cursorPageDownSelect)

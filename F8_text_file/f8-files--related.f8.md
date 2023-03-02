@@ -2,6 +2,30 @@
 
 
 
+
+
+
+
+git clone https://github.com/redhat-developer/vscode-didact.wiki.git
+du -m vscode-didact*
+
+cd
+git clone https://github.com/redhat-developer/vscode-didact.git
+cd -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 https://www.diigo.com/user/martin12333?page=2&query=f8+powershell
 
 

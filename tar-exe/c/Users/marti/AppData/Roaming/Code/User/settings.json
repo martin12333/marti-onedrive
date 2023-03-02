@@ -205,7 +205,8 @@
 	// Controls the maximum amount of lines the terminal keeps in its buffer.
 	"terminal.integrated.scrollback": 10000,
 	"runme.shell.closeTerminalOnSuccess": false,
-	"window.zoomLevel": 1, // 1000
+	"window.zoomLevel": 1,
+	"workbench.editor.enablePreview": false, // 1000
 
     // db
     // ## pgm --help -help -h -e -l -p -- :;.,$&O01lI"''`--
