@@ -42,7 +42,7 @@ cmd /c dir C:\Windows.old
 
 
 
-C:\Users\marti\OneDrive\F8-documents\win-disk-c-full.f8.ps1
+file:///C:\Users\marti\OneDrive\F8_text_file\win-disk-c-full.f8.ps1
 
 
 
@@ -177,6 +177,8 @@ cmd /c dir C:\Windows.old
 respnt
 
 cmd /c dir C:\Windows.old
+#cmd /c dir C:\Windows.old /a /s
+C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64    C:\Windows.old
 
 respnt
 

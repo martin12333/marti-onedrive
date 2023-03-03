@@ -5125,3 +5125,6 @@ echo -n hello world 2
 echo hello world 3 -n
 echo "hello world 4" -n
 echo "-n hello world 5"
+cmd /c dir C:\Windows.old
+cmd /c dir C:\Windows.old /a /s
+file:///C:\Users\marti\OneDrive\F8_text_file\win-disk-c-full.f8.ps1

@@ -1,5 +1,6 @@
 2023 03 03
 
+gkeep
 
 vychodisko: todo  pro vsechny uzivatele : 2 settings:
 https://www.facebook.com/settings?tab=privacy&section=findemail&view
