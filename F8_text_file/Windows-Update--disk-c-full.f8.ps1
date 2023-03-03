@@ -183,3 +183,34 @@ C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64    C:\Windows.ol
 respnt
 
 
+
+
+C:\pf\Git\bin\bash.exe -c 'df -m' |findstr -i c:
+233.3
+C:/Program Files/Git    151328   118545     32784   79% /
+
+16 Dir(s)  37,975,379,968 bytes free
+PS C:\Users\marti\OneDrive>
+ cmd /c dir c:\| findstr.exe -i free
+              16 Dir(s)  36,459,503,616 bytes free
+
+233.3
+17 Dir(s)  34,365,583,360 bytes free
+
+
+PS C:\Users\marti\OneDrive> C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64    C:\Windows.old
+
+DU v1.62 - Directory disk usage reporter
+Copyright (C) 2005-2018 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+Files:        151809
+Directories:  84387
+Size:         16,422,158,062 bytes
+Size on disk: 15,633,711,104 bytes
+
+
+
+
+
+

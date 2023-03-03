@@ -5128,3 +5128,6 @@ echo "-n hello world 5"
 cmd /c dir C:\Windows.old
 cmd /c dir C:\Windows.old /a /s
 file:///C:\Users\marti\OneDrive\F8_text_file\win-disk-c-full.f8.ps1
+C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64    C:\Windows.old
+C:\pf\Git\bin\bash.exe -c 'df -m' |findstr -i c:
+cmd /c dir c:\| findstr.exe -i free

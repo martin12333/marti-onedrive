@@ -472,6 +472,13 @@ exit
 
 
 
+C:\pf\Git\bin\bash.exe -c 'df -m' |findstr -i c:
+
+
+16 Dir(s)  37,975,379,968 bytes free
+PS C:\Users\marti\OneDrive> cmd /c dir c:\| findstr.exe -i free
+              16 Dir(s)  36,459,503,616 bytes free
+
 
 
 
