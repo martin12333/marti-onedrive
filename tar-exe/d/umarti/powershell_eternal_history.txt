@@ -5138,3 +5138,5 @@ git show
 git push
 git show --name-only
 git show
+$Env:Path
+$Env:Path.Length

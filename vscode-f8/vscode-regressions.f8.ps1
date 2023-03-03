@@ -69,6 +69,15 @@ C:\Users\marti\OneDrive\vscode-f8\bug2333.ini
 
 
 $Env:Path
+$Env:Path.Length
+952
+
+acronis
+
+uninst 1.76
+
+inst 1.74
+
 
 
 
