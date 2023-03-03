@@ -72,11 +72,27 @@ $Env:Path
 $Env:Path.Length
 952
 
+
+
+
 acronis
 
 uninst 1.76
 
+relogin
+
+
+ise
+PS C:\WINDOWS\system32> $Env:Path.Length
+760
+
+
+
 inst 1.74
+
+
+
+relogin
 
 
 
