@@ -5132,3 +5132,9 @@ C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64    C:\Windows.ol
 C:\pf\Git\bin\bash.exe -c 'df -m' |findstr -i c:
 cmd /c dir c:\| findstr.exe -i free
 $Env:Path
+git push
+git show --name-only
+git show
+git push
+git show --name-only
+git show
