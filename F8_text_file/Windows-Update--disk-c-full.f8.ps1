@@ -196,6 +196,14 @@ PS C:\Users\marti\OneDrive>
 
 233.3
 17 Dir(s)  34,365,583,360 bytes free
+17 Dir(s)  32,192,684,032 bytes free
+
+
+
+dir C:\Users\marti\.vscode
+
+
+
 
 
 PS C:\Users\marti\OneDrive> C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64    C:\Windows.old
