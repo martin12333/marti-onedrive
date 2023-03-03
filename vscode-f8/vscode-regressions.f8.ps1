@@ -1,3 +1,19 @@
+Windows-Update--disk-c-full.f8.ps1
+
+
+
+
+# f8_text_file
+# (an f8_text_file is-not meant to be run as a whole)
+)
+exit
+
+(selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
+
+echo '-------- section --------'
+
+
+
 
 
 https://github.com/microsoft/vscode/issues/174822
@@ -89,16 +105,46 @@ PS C:\WINDOWS\system32> $Env:Path.Length
 
 
 inst 1.74
+inst 1.72
+
+multiline gitbash
+C:\Users\marti\OneDrive\vscode-f8\bug2333.ini
+
+
 
 
 
 relogin
+it self-updated
+Version: 1.76.0 (user setup)
+Commit: 92da9481c0904c6adfe372c12da3b7748d74bdcb
+Date: 2023-03-01T10:22:44.506Z
+Electron: 19.1.11
+Chromium: 102.0.5005.196
+Node.js: 16.14.2
+V8: 10.2.154.26-electron.0
+OS: Windows_NT x64 10.0.22621
+Sandboxed: No
+
+
+
+word select ok
+podman machine start
+podman start   -ai    cmy22b
+multiline ok
 
 
 
 
 
 respnt
+post vsc 176
+
+
+
+git commit ; push
+
+acronis
 
 
 
