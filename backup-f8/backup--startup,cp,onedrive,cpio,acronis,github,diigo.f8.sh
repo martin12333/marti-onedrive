@@ -192,6 +192,7 @@ q
 
 C:\pf\Git\bin\bash.exe
 
+https://github.com/martin12333/marti-onedrive/blob/main2/tar-exe/c/Users/marti/AppData/Roaming/Code/User/settings.json#L1
 
 cd ~/OneDrive
 

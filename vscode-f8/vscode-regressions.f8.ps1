@@ -128,6 +128,8 @@ word select ok
 podman machine start
 podman start   -ai    cmy22b
 multiline ok
+vscode ➜ ~ $ bash
+multiline ok
 
 
 
