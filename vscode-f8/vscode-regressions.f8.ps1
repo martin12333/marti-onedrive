@@ -1,7 +1,3 @@
-Windows-Update--disk-c-full.f8.ps1
-
-
-
 
 # f8_text_file
 # (an f8_text_file is-not meant to be run as a whole)
@@ -145,6 +141,6 @@ post vsc 176
 git commit ; push
 
 acronis
-
+https://github.com/martin12333/marti-onedrive/blob/main2/vscode-f8/vscode-regressions.f8.ps1#L148
 
 

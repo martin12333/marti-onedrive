@@ -4,6 +4,8 @@
 
     // nejdriv nejvic nebezpecne
 
+	"update.enableWindowsBackgroundUpdates": false,
+
     "extensions.autoUpdate": false,
     "extensions.autoCheckUpdates": false,
 
@@ -202,10 +204,16 @@
 
 
 
+	// 1000
 	// Controls the maximum amount of lines the terminal keeps in its buffer.
 	"terminal.integrated.scrollback": 10000,
 	"runme.shell.closeTerminalOnSuccess": false,
-	"workbench.editor.enablePreview": false, // 1000
+	"workbench.editor.enablePreview": false,
+	"update.enableWindowsBackgroundUpdates": false,
+
+
+
+
 
     // db
     // ## pgm --help -help -h -e -l -p -- :;.,$&O01lI"''`--

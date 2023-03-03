@@ -167,6 +167,10 @@ code ./dotfiles
 	git commit -v -a -m  refactor
 	git commit -v -a -m  partial
 
+	git commit -v -a -m  settings
+	git commit -v -a -m  reinstall
+
+
 	git commit -v -a -m vulnera #
 	git commit -v -a -m zshrc
 
@@ -175,6 +179,7 @@ code ./dotfiles
 
 	git show --name-only
 	git show
+q
 
 	git push
 
