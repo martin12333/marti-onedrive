@@ -211,6 +211,7 @@
 	"workbench.editor.enablePreview": false,
 	"update.enableWindowsBackgroundUpdates": false,
 	"window.zoomLevel": 2,
+	"update.mode": "manual",
 
 
 
