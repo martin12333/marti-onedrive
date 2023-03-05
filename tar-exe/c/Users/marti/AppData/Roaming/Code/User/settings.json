@@ -210,7 +210,7 @@
 	"runme.shell.closeTerminalOnSuccess": false,
 	"workbench.editor.enablePreview": false,
 	"update.enableWindowsBackgroundUpdates": false,
-	"window.zoomLevel": 2,
+	"window.zoomLevel": 1,
 	"update.mode": "manual",
 
 
