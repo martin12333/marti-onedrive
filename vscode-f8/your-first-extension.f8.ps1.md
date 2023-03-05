@@ -1,6 +1,5 @@
-your-first-extension.f8.ps1.md
 
-https://code.visualstudio.com/api/get-started/your-first-extension
+# https://code.visualstudio.com/api/get-started/your-first-extension
 
 ---
 
@@ -11,14 +10,14 @@ MetaDescription: Create your first Visual Studio Code extension (plug-in) with a
 # Your First Extension
 
 
---------------------------
-##
-
+### template
 ```sh
 
 ```
+--------------------------
 
-------------
+
+### yo without npm i
 ```bash
 npm install -g yo generator-code
 ```
@@ -67,6 +66,14 @@ Running npm install for you to install the required dependencies.
 
 
 npm ERR! path C:\Users\marti\OneDrive\.config\configstore\update-notifier-npm.json.1554224643
+
+
+```
+
+### ON LATER ATTEMPTS, NPM STOPPED THROWING THESE ERRORS
+
+```
+
 npm ERR! dest C:\Users\marti\OneDrive\.config\configstore\update-notifier-npm.json
 
 npm ERR! Error: EPERM: operation not permitted, rename 'C:\Users\marti\OneDrive\.config\configstore\update-notifier-npm.json.1554224643' -> 'C:\Users\marti\OneDrive\.config\configstore\update-notifier-npm.json'
@@ -76,29 +83,60 @@ npm ERR! Error: EPERM: operation not permitted, rename 'C:\Users\marti\OneDrive\
 npm ERR! It's possible that the file was already in use (by a text editor or antivirus),
 
 
-npm ERR!     C:\Users\marti\AppData\Roaming\npm-cache\_logs\2023-03-05T10_01_45_923Z-debug.log
+npm ERR!
+
+file:///C:\Users\marti\AppData\Roaming\npm-cache\_logs\2023-03-05T10_01_45_923Z-debug.log
 
 Command failed with exit code 4294963248: npm install
 
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'prefix',
+1 verbose cli   '-g'
+1 verbose cli ]
+
+npm ERR!     C:\Users\marti\AppData\Roaming\npm-cache\_logs\2023-03-05T10_09_24_078Z-debug.log
+
+```
+### ON LATER ATTEMPTS, NPM STOPPED THROWING  ERRORS EXCEPT  npm update check failed                   │
+│            Try running with sudo or get access
+
+```
+
+npm prefix
+npm prefix -g
+
+npm
+
+cd
+ls -latr
+cd hello-executecommand
+
+
+
+todo npm i
+
 ```
 
 
 
-
-
-
---------------------------
-##
+### template
 
 ```sh
 
 ```
-
-
-
 --------------------------
-##
+
+
+
+------------
+### template
 
 ```sh
 
 ```
+--------------------------
+
+
+
+------------

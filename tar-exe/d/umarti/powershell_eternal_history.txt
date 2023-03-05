@@ -5144,3 +5144,11 @@ podman machine start
 podman start   -ai    cmy22b
 cd
 yo code
+npm
+npm prefix
+npm prefix -g
+npm prefix
+npm prefix -g
+npm prefix
+npm prefix -g
+npm
