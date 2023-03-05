@@ -5142,3 +5142,5 @@ $Env:Path
 $Env:Path.Length
 podman machine start
 podman start   -ai    cmy22b
+cd
+yo code
