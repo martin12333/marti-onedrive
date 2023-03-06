@@ -157,6 +157,12 @@ VS Code automatically removes indents based on the first non-empty line of the s
 
 
 
+To me ... THE main feature of VSCode,...
+
+
+
+gih issue focus
+For years I have enjoyed using this feature multiple times a day (workbench.action.terminal.runSelectedText) and I always have a keyboard shortcut configured to run it for all sorts of commands (cmd, wsl, az cli, ...)
 
 
 

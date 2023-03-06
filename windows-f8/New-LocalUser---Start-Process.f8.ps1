@@ -394,7 +394,7 @@ $password = 'NewProfilePassword' | ConvertTo-SecureString -AsPlainText -Force
 
 
 
-
+#conpty  ... could fail on multiuser
 
 
 
