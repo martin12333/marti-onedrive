@@ -160,6 +160,8 @@
 
     "[markdown]": {
 
+		"files.trimTrailingWhitespace": false,  // hard line breaks
+
         "editor.wordWrap": "on",
         "editor.quickSuggestions":  {
             "other": true,
