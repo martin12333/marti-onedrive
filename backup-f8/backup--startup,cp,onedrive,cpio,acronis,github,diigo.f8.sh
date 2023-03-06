@@ -167,6 +167,7 @@ code ./dotfiles
 	git commit -v -a -m  refactor
 	git commit -v -a -m  partial
 
+	/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
 	git commit -v -a -m  settings
 	git commit -v -a -m  reinstall
 
