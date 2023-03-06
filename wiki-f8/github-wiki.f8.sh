@@ -34,6 +34,15 @@ ls -la
 pwd
 cat .git
 
+
+git push -vv  origin master
+
+git ls-files
+ls
+
+git commit -a -m move-zzz-away
+git push -vv  origin master
+
 cd -
 
 
