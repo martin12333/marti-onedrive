@@ -140,3 +140,7 @@ todo npm i
 
 
 ------------
+
+
+
+Get-PSReadLineKeyHandler -Chord 'UpArrow', 'DownArrow', 'F8', 'Shift-F8', 'F2'

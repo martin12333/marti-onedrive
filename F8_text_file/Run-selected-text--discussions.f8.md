@@ -10,6 +10,9 @@ echo '-------- section --------'
 
 cd
 git clone https://github.com/martin12333/Run-selected-text--discussions.wiki.git
+
+cd Run-selected-text--discussions.wiki
+git pull
 cd -
 
 
@@ -39,3 +42,16 @@ https://github.com/martin12333/browserPOSIX-discussion
 I would like to ask: would you enable
 
 
+
+
+
+```diff
+using the code block with diff to show some colors
+
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+
+```
