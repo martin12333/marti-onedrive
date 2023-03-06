@@ -1,8 +1,6 @@
 {
 
-    // f1 default settings
-
-    // nejdriv nejvic nebezpecne
+    // the most important settings are put first here
 
 	"update.enableWindowsBackgroundUpdates": false,
 
@@ -18,6 +16,10 @@
 	//  - paste: Paste on right click.
 	//  - selectWord: Select the word under the cursor and show the context menu.
 	//  - nothing: Do nothing and pass event to terminal.
+
+
+
+
 
 
     "workbench.colorCustomizations": {
@@ -211,7 +213,7 @@
 	"terminal.integrated.scrollback": 10000,
 	"runme.shell.closeTerminalOnSuccess": false,
 	"workbench.editor.enablePreview": false,
-	"update.enableWindowsBackgroundUpdates": false,
+	// dup "update.enableWindowsBackgroundUpdates": false,
 	"window.zoomLevel": 1,
 	"update.mode": "manual",
 
@@ -234,3 +236,4 @@
 
 // https://github.com/martin12333/marti-onedrive/blob/main2/tar-exe/c/Users/marti/AppData/Roaming/Code/User/settings.json
 
+    // exists f1 default settings
