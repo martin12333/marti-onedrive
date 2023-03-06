@@ -25,8 +25,28 @@ os.system('dir c:\ ')
 ###os.system('console.exe ')
 #os.system('conhost.exe cmd')   # flash
 os.system('wt')
+#os.system('conhost.exe cmd /c pause')
+os.system('notepad')
 
 
 ! ls
 !dir
 
+
+
+os.system('conhost.exe cmd /c pause')
+os.system('conhost.exe cmd /c dir c:\windows')
+print('conhost.exe cmd /c dir c:\windows\system32')
+os.system('conhost.exe cmd /c dir c:\windows\system32')
+
+
+conhost.exe cmd /c dir c:\windows\system32
+
+
+PS C:\Users\marti> conhost.exe /?
+PS C:\Users\marti> conhost.exe /help
+PS C:\Users\marti> conhost.exe /h
+PS C:\Users\marti> conhost.exe cmd
+PS C:\Users\marti> conhost.exe cmd /c dir
+PS C:\Users\marti> conhost.exe
+PS C:\Users\marti>

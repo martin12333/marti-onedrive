@@ -5160,3 +5160,9 @@ spyder.exe
 spyder.exe --help
 spyder.exe --debug-output
 spyder.exe --debug-output terminal
+conhost.exe /?
+conhost.exe /help
+conhost.exe /h
+conhost.exe cmd
+conhost.exe cmd /c dir
+conhost.exe 
