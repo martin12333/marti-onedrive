@@ -5153,3 +5153,10 @@ npm prefix
 npm prefix -g
 npm
 Get-PSReadLineKeyHandler -Chord 'UpArrow', 'DownArrow', 'F8', 'Shift-F8', 'F2'
+idle --help
+idle -n
+idle 
+spyder.exe
+spyder.exe --help
+spyder.exe --debug-output
+spyder.exe --debug-output terminal

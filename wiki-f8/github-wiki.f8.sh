@@ -35,7 +35,7 @@ pwd
 cat .git
 
 
-git push -vv  origin master
+git push -vv
 
 git ls-files
 ls

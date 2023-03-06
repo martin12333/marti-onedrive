@@ -39,6 +39,21 @@ https://github.com/martin12333/browserPOSIX-discussion
 
 
 
+
+## This discussion repo is about ...
+
+macros
+
+in editors
+
+to send
+
+a line of text (or a block of text)
+
+to a shell or an interpreter.
+
+## Some info is in the [wiki]()
+
 I would like to ask: would you enable
 
 
