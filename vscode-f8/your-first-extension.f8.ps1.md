@@ -17,15 +17,22 @@ MetaDescription: Create your first Visual Studio Code extension (plug-in) with a
 --------------------------
 
 
-### yo without npm i
+### yo 14 without npm i
 ```bash
 npm install -g yo generator-code
 ```
 
+added 232 packages, removed 164 packages, and changed 689 packages in 1m     
+
 
 ```bash
 
+npm -g outdated
+
 cd
+
+mv   "hello-executecommand"   "old2hello-executecommand"
+
 
 yo code
 
@@ -34,6 +41,10 @@ yo code
  Hello-executeCommand
 
 
+        "name": "hello-executecommand",
+        "displayName": "Hello-executeCommand",
+        "description": "",
+        "version": "0.0.1",
 
 
 ### Press <Enter> to choose default for all options below ###
@@ -69,7 +80,7 @@ npm ERR! path C:\Users\marti\OneDrive\.config\configstore\update-notifier-npm.js
 
 
 ```
-
+fold
 ### ON LATER ATTEMPTS, NPM STOPPED THROWING THESE ERRORS
 
 ```
@@ -98,23 +109,22 @@ Command failed with exit code 4294963248: npm install
 npm ERR!     C:\Users\marti\AppData\Roaming\npm-cache\_logs\2023-03-05T10_09_24_078Z-debug.log
 
 ```
-### ON LATER ATTEMPTS, NPM STOPPED THROWING  ERRORS EXCEPT  npm update check failed                   │
-│            Try running with sudo or get access
 
-```
+### ON LATER ATTEMPTS, NPM STOPPED THROWING  ERRORS EXCEPT  npm update check failed                   │
+
+```sh
+cd ~/hello-executecommand
 
 npm prefix
 npm prefix -g
 
 npm
 
-cd
+#cd
 ls -latr
-cd ~/hello-executecommand
 
 
 
-todo 
 npm i
 
 ```
@@ -122,12 +132,48 @@ npm notice created a lockfile as package-lock.json. You should commit this file.
 
 npm WARN notsup Unsupported engine for @vscode/test-electron@2.3.0: wanted: {"node":">=16"} (current: {"node":"14.17.5","npm":"6.14.14"})     
 
+```sh
+cd ~/hello-executecommand
+
 node --version
+
+npm -g outdated
+npm  outdated
+
+npm update
+
+
+#region
+mv -iv package_lock.json oldpackage_lock.json 
+mv  package-lock.json oldpackagelock.json 
+ls
+cat package.json
+cat package.json|findstr -i 14
+cat package.json|findstr -i 16
+
+code package.json
+mv  package.json oldpackage.json 
+#endregion
+
+C:\pf\Git\bin\bash.exe
+head -n 15 oldpackage.json
+head -n 15 package.json
+
+
+
+exit
+```
+
+
+
 
 
 ### template
 
 ```sh
+
+
+code hello-executecommand
 
 ```
 --------------------------

@@ -5175,3 +5175,45 @@ dir C:\Users\marti\.vscode
 cd ~/hello-executecommand
 npm i
 node --version
+npm -g outdated
+npm  outdated
+cd ~/hello-executecommand
+npm  outdated
+npm update
+npm  outdated
+mv -iv package_lock.json oldpackage_lock.json
+mv  package_lock.json oldpackage_lock.json
+ls
+mv  package-lock.json oldpackagelock.json
+npm  outdated
+npm update
+cat package.json
+cat package.json|findstr -i 14
+code package.json
+npm  outdated
+mv  package.json oldpackage.json
+C:\pf\Git\bin\bash.exe
+yo code
+cd ~/hello-executecommand
+ls -latr
+npm  outdated
+conda activate base
+cd ~/hello-executecommand
+node --version
+npm -g outdated
+npm  outdated
+cat package.json|findstr -i 14
+npm install -g yo generator-code
+npm -g outdated
+cd
+mv   "hello-executecommand"   "old2hello-executecommand"
+yo code
+npm prefix
+npm prefix -g
+cd ~/hello-executecommand
+npm prefix
+npm  outdated
+cat package.json|findstr -i 14
+cat package.json|findstr -i 16
+C:\pf\Git\bin\bash.exe
+npm -g outdated

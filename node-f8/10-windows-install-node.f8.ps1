@@ -10,6 +10,8 @@ exit
 
 echo '-------- section --------'
 
+node --version
+
 
 https://nodejs.org/en/download/
 
@@ -26,6 +28,17 @@ reboot?
 
 restore point
 post node
+
+
+node --version
+
+npm -g outdated
+
+#```bash
+npm install -g yo generator-code
+#```
+
+#added 232 packages, removed 164 packages, and changed 689 packages in 1m
 
 
 
