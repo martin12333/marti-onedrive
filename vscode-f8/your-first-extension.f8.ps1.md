@@ -110,14 +110,19 @@ npm
 
 cd
 ls -latr
-cd hello-executecommand
+cd ~/hello-executecommand
 
 
 
-todo npm i
+todo 
+npm i
 
 ```
+npm notice created a lockfile as package-lock.json. You should commit this file.
 
+npm WARN notsup Unsupported engine for @vscode/test-electron@2.3.0: wanted: {"node":">=16"} (current: {"node":"14.17.5","npm":"6.14.14"})     
+
+node --version
 
 
 ### template

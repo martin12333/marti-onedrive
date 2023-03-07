@@ -157,7 +157,9 @@ code ./dotfiles
 	git commit -v -a -m maybe-enhance
 	git commit -v -a -m important-test
 
+	git add -vv  '*.f8.*'
 	git commit -v -a -m  rename
+	git commit -v -a -m  move
 	git commit -v -a -m  rewrite
 	git commit -v -a -m  before-find-and-replace
 	git commit -v -a -m  find-and-replace

@@ -19,6 +19,7 @@ echo '-------- section --------'
 
 https://blog.jpalardy.com/posts/stop-typing-into-repls/
 
+If you find compelling non-vim alternatives, email me and I’ll include them on this page for others to find.
 
 
 
@@ -34,7 +35,7 @@ cd
 git clone https://github.com/martin12333/Run-selected-text--discussions.wiki.git
 
 cd  ~/Run-selected-text--discussions.wiki
-git pull 
+git pull   -vv
 #cd -
 
 

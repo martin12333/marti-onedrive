@@ -191,12 +191,15 @@ C:/Program Files/Git    151328   118545     32784   79% /
 
 16 Dir(s)  37,975,379,968 bytes free
 PS C:\Users\marti\OneDrive>
+
  cmd /c dir c:\| findstr.exe -i free
               16 Dir(s)  36,459,503,616 bytes free
 
 233.3
 17 Dir(s)  34,365,583,360 bytes free
 17 Dir(s)  32,192,684,032 bytes free
+
+
 
 
 
@@ -219,6 +222,10 @@ Size on disk: 15,633,711,104 bytes
 
 
 
+16 Dir(s)  52,263,280,640 bytes free
 
+
+respnt
+10dni po
 
 

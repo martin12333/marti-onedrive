@@ -5168,3 +5168,10 @@ conhost.exe cmd /c dir
 conhost.exe 
 conhost.exe cmd /c dir c:\windows\system32
 code .
+cmd /c dir C:\Windows.old
+C:\pf\Git\bin\bash.exe -c 'df -m' |findstr -i c:
+cmd /c dir c:\| findstr.exe -i free
+dir C:\Users\marti\.vscode
+cd ~/hello-executecommand
+npm i
+node --version

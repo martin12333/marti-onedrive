@@ -107,7 +107,9 @@ For years I have enjoyed using this feature multiple times a day (workbench.acti
 
 
 
+https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-screen.html
 
+org-babel-screen is an extension to Org-babel and was inspired by Eduardo Ochs's eev.
 
 
 
