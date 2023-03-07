@@ -5217,3 +5217,8 @@ cat package.json|findstr -i 14
 cat package.json|findstr -i 16
 C:\pf\Git\bin\bash.exe
 npm -g outdated
+code .
+cd ~\.vscode\extensions
+dir
+cmd /c mklink /j    hello-executecommand--junct   "c:\Users\marti\hello-executecommand"
+dir  *ju*

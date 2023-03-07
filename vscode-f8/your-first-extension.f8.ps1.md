@@ -174,9 +174,26 @@ exit
 
 
 code hello-executecommand
+code .
+
+cd ~\.vscode\extensions
+dir  *ju*
+cmd /c mklink /j    hello-executecommand--junct   "c:\Users\marti\hello-executecommand"
+
 
 ```
+
+l----          07/30/2022    18:52                experim-new-langu-su 
+                                                  pp--junct -> C:\User 
+                                                  s\marti\OneDrive\exp 
+                                                  erim-new-langu-supp  
+d----          07/25/2022    15:29         
 --------------------------
+
+PS C:\Users\marti\.vscode\extensions> dir .\hello-executecommand--junct\
+
+    Directory:
+C:\Users\marti\.vscode\extensions\hello-executecommand--junct
 
 
 
