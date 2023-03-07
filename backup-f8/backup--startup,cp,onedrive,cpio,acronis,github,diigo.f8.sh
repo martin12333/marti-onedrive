@@ -178,13 +178,13 @@ https://github.com/martin12333/marti-onedrive/blob/main2/backup-f8/backup--start
 	git commit -v -a -m zshrc
 
 
-	git push
+	git push   -vv
 
 	git show --name-only
 	git show
 q
 
-	git push
+	git push   -vv
 
 	git commit -v -a -m ...
 	git commit -v -a -m add
