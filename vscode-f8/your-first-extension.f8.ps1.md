@@ -10,6 +10,13 @@ MetaDescription: Create your first Visual Studio Code extension (plug-in) with a
 # Your First Extension
 
 
+
+# Note: If your extension targets a VS Code version prior to 1.74, you must explicitly list onCommand:helloworld.helloWorld in activationEvents.
+
+
+
+
+
 ### template
 ```sh
 
@@ -197,6 +204,8 @@ PS C:\Users\marti\.vscode\extensions> dir .\hello-executecommand--junct\
     Directory:
 C:\Users\marti\.vscode\extensions\hello-executecommand--junct
 
+
+# Note: If your extension targets a VS Code version prior to 1.74, you must explicitly list onCommand:helloworld.helloWorld in activationEvents.
 
 
 ------------
