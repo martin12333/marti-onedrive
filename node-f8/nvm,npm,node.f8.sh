@@ -47,6 +47,7 @@ cd ~/OneDrive
 dir  *node_*
 cmd /c mklink /j node_modules 'C:\Users\marti\onedr_node_modules'
 dir node_modules
+cmd /c dir node_modules /a /s
 
 echo '-------- section --------'
 
