@@ -175,6 +175,8 @@ exit
 
 code hello-executecommand
 code .
+code "c:\Users\marti\hello-executecommand"
+
 
 cd ~\.vscode\extensions
 dir  *ju*

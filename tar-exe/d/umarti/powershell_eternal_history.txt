@@ -5222,3 +5222,11 @@ cd ~\.vscode\extensions
 dir
 cmd /c mklink /j    hello-executecommand--junct   "c:\Users\marti\hello-executecommand"
 dir  *ju*
+dir .\hello-executecommand--junct\
+code "c:\Users\marti\hello-executecommand"
+cd ~/OneDrive
+dir  *ju*
+dir  *no*
+dir  *node_*
+cmd /c mklink /j node_modules 'C:\Users\marti\onedr_node_modules'
+dir  *node_*

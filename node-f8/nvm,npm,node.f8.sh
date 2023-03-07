@@ -11,7 +11,14 @@ exit
 echo '-------- section --------'
 
 
+
+####npm i #deletes all the symlinked repos #17257
+
+
+
 C:\Users\marti\OneDrive\windows-f8\disable-Microsoft-Windows-search-index.f8.ps1
+
+
 
 
 see also ohayo--install.f8.sh
@@ -25,7 +32,6 @@ zsh
 
 
 
-####npm i #deletes all the symlinked repos #17257
 
 
 
@@ -36,6 +42,14 @@ zsh
 
 
 echo '-------- section --------'
+
+cd ~/OneDrive
+dir  *node_*
+cmd /c mklink /j node_modules 'C:\Users\marti\onedr_node_modules'
+dir node_modules
+
+echo '-------- section --------'
+
 
 
 cd
