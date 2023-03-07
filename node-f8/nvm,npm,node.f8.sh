@@ -11,8 +11,7 @@ exit
 echo '-------- section --------'
 
 
-
-
+C:\Users\marti\OneDrive\windows-f8\disable-Microsoft-Windows-search-index.f8.ps1
 
 
 see also ohayo--install.f8.sh

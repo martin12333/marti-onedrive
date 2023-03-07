@@ -3287,3 +3287,9 @@ cmd /c dir  "C:\Program Files\WindowsApps\Microsoft.Sysinternals*"
 cmd /c dir  "C:\Program Files\WindowsApps\Microsoft.Sysinternals*" /s
 cmd /c dir  "C:\Program Files\WindowsApps\Microsoft.Sysinternals*" /s /a
 cmd /c dir  "C:\Program Files\WindowsApps\Microsoft.SysinternalsSuite_2023.1.0.0_x64__8wekyb3d8bbwe\" /s /a
+cd C:\ProgramData\Microsoft\Search\
+dir
+cd C:\ProgramData\Microsoft\Search\Data\
+dir
+dir /a /s
+cmd /c dir /a /s
