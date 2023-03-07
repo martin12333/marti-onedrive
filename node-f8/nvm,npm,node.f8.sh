@@ -53,7 +53,9 @@ echo '-------- section --------'
 
 
 
+cd ~/OneDrive
 cd
+
 npm prefix
 npm prefix --global
 ls node_mo*

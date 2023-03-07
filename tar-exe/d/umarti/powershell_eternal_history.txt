@@ -5230,3 +5230,6 @@ dir  *no*
 dir  *node_*
 cmd /c mklink /j node_modules 'C:\Users\marti\onedr_node_modules'
 dir  *node_*
+dir node_modules
+dir node_modules /a /s
+cmd /c dir node_modules /a /s
