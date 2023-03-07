@@ -9,6 +9,16 @@ exit
 echo '-------- section --------'
 
 
+win-x ise
+
+f8
+ctrl-i
+
+
+Get-Process -Name *code*
+Get-Process -Name *edge*
+
+pseudo cp  D:\instu tobkup
 
 
 
