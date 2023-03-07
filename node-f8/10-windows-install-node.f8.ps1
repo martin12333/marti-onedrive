@@ -11,3 +11,21 @@ exit
 echo '-------- section --------'
 
 
+https://nodejs.org/en/download/
+
+restore point
+pre node
+
+
+turn-off acro protect
+
+C:\Program Files\nodejs\
+
+relogin?
+reboot?
+
+restore point
+post node
+
+
+
