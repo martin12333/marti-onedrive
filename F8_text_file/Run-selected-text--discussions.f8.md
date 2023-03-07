@@ -25,16 +25,23 @@ https://blog.jpalardy.com/posts/stop-typing-into-repls/
 
 
 
+open terminal git-bash
 
+```bash
 
+# once
 cd
 git clone https://github.com/martin12333/Run-selected-text--discussions.wiki.git
 
-cd Run-selected-text--discussions.wiki
-git pull
-cd -
+cd  ~/Run-selected-text--discussions.wiki
+git pull 
+#cd -
 
 
+#code ~/OneDrive
+code ~/Run-selected-text--discussions.wiki
+
+```
 
 
 
