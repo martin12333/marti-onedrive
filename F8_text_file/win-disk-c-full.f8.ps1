@@ -483,4 +483,11 @@ PS C:\Users\marti\OneDrive> cmd /c dir c:\| findstr.exe -i free
 
 
 
+C:\Users\marti\OneDrive\windows-f8\disable-Microsoft-Windows-search-index.f8.ps1
+
+
+
+
+
+
 

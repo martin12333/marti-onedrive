@@ -14,10 +14,10 @@ echo '-------- section --------'
 #disable Microsoft Windows search index in "c:\users"
 	explorer.exe
 		#20 minutes applying attributes
-#better probably in settings
+#better probably in settings gui
 
 
 cd C:\ProgramData\Microsoft\Search\Data\
 cmd /c dir /a /s
-
+1500 MB
 
