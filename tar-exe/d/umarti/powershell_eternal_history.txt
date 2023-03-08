@@ -5254,3 +5254,8 @@ C:\pf\Git\bin\bash.exe
 ls "C:\Users\marti\*wiki*"
 cmd /c dir /b "C:\Users\marti\*wiki*"
 cmd /c dir /b "C:\Users\marti\*hello*"
+ls "C:\Users\marti\*robocopy*"
+ls "C:\Users\marti\OneDrive\*robocopy*"
+cmd /c dir /b "C:\Users\marti\*copy*"
+cmd /c dir /b "C:\Users\marti\OneDrive\*copy*"
+cmd /c dir /b "C:\Users\marti\OneDrive\*ocopy*"

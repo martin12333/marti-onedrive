@@ -28,7 +28,7 @@
 
 
 
-#    /L
+# robocopy /L :: List only - don't copy, timestamp or delete any files'
 
 
 
@@ -48,7 +48,7 @@ cmd /c dir c:\| findstr.exe -i free
 
 
 
-	# CTRL-C otherwise 5 process
+	# CTRL-C otherwise 5 processes
 
 
 #bash

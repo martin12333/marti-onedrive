@@ -116,10 +116,12 @@ robocopy  /?|findstr -i -- '[/]e'
 /MOT:m :: MOnitor source; run again in m minutes Time, if changed.-
 
 
+
+
+/XJ :: eXclude symbolic links (for both files and directories) and Junction points.
 /SJ :: copy Junctions as junctions instead of as the junction targets.
 /SL :: copy Symbolic Links as links instead of as the link targets.
 
-/XJ :: eXclude symbolic links (for both files and directories) and Junction points.
 
 
 
@@ -137,6 +139,9 @@ robocopy  /?|findstr -i -- '[/]e'
 
 
 /IM :: Include Modified files (differing change times).
+
+
+
 
 /TEE :: output to console window, as well as the log file.
 /NJH :: No Job Header.
@@ -215,9 +220,9 @@ ls    ~/sbase.wasm
 
 
 
+2338
 
-
-/L :: List only - don't copy, timestamp or delete any files'
+# robocopy /L :: List only - don't copy, timestamp or delete any files'
 
 ls "C:\Users\marti\*robocopy*"
 ls "C:\Users\marti\OneDrive\*robocopy*"
@@ -228,6 +233,8 @@ C:\pf\Git\bin\bash.exe
 du -- *robocopy*
 du -- ../*robocopy*
 exit
+cmd /c dir /b "C:\Users\marti\*copy*"
+cmd /c dir /b "C:\Users\marti\OneDrive\*ocopy*"
 
 
 podman machine start
@@ -246,24 +253,16 @@ hello-executecommand
 old2hello-executecommand
 oldhello-executecommand
 
-
-
-
 ####$x='Run-selected-text--discussions.wiki'
 #..\sbase.wasm'
 
-#Robocopy.exe
  echo touch   >>P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\robocopy\$x\qqqqqqqqqq
-
  #C:\Users\marti\$x
 #   C:\Users\marti\OneDrive\$x--robocopy      /s   /XJ   /XD .git    /XD node_modules   /XD OLD*     /xf *.wasm   /xf *.o  /xf *.js    /NJH    /NJS
 
-
-
-
    /L :: List only - don't copy, timestamp or delete any files'
 
-   $x='..\sbase.wasm'
+$x='..\sbase.wasm'
 
 Robocopy.exe    P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\robocopy\$x     C:\Users\marti\OneDrive\$x--robocopy      /s   /XJ   /XD .git    /XD node_modules   /XD OLD*     /xf *.wasm   /xf *.o  /xf *.js    /NJH    /NJS
 
