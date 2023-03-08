@@ -20,6 +20,7 @@ echo '-------- section --------'
 
 
 robocopy
+/L :: List only - don't copy, timestamp or delete any files'
 
 search also
 mymyrsync.ps1
@@ -75,12 +76,7 @@ xcopy  /?|more
 
 
 
-
-
-
 /U           Copies only files that already exist in destination.
-
-
 
 
 /B           Copies the Symbolic Link itself versus the target of the link.
@@ -103,6 +99,7 @@ xcopy  /?|more
 
 
 
+/L :: List only - don't copy, timestamp or delete any files'
 
 robocopy  /?|more
 
@@ -115,7 +112,8 @@ robocopy  /?|findstr -i -- '[/]e'
 /S :: copy Subdirectories, but not empty ones.
 
 
-/MON:n :: MONitor source; run again when more than n changes seen.-             /MOT:m :: MOnitor source; run again in m minutes Time, if changed.-
+/MON:n :: MONitor source; run again when more than n changes seen.-
+/MOT:m :: MOnitor source; run again in m minutes Time, if changed.-
 
 
 /SJ :: copy Junctions as junctions instead of as the junction targets.
@@ -198,6 +196,7 @@ Robocopy.exe    P:\home\user\.local\share\containers\storage\volumes\nslash_home
 
 
 #    /L
+/L :: List only - don't copy, timestamp or delete any files'
 
 
 Robocopy.exe    P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\$x   .\$x--robocopy      /s   /XJ   /XD .git    /XD node_modules   /XD OLD*     /xf *.wasm   /xf *.o  /xf *.js    /NJH    /NJS
@@ -218,6 +217,7 @@ ls    ~/sbase.wasm
 
 
 
+/L :: List only - don't copy, timestamp or delete any files'
 
 ls "C:\Users\marti\*robocopy*"
 ls "C:\Users\marti\OneDrive\*robocopy*"
@@ -234,11 +234,44 @@ podman machine start
 
 pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
 
-$x='..\sbase.wasm'
+cmd /c dir /b "C:\Users\marti\*wiki*"
 
-Robocopy.exe
+browserPOSIX-discussion.wiki
+Run-selected-text--discussions.wiki
+vscode-didact.wiki
+
+cmd /c dir /b "C:\Users\marti\*hello*"
+hello-debugger
+hello-executecommand
+old2hello-executecommand
+oldhello-executecommand
+
+
+
+
+####$x='Run-selected-text--discussions.wiki'
+#..\sbase.wasm'
+
+#Robocopy.exe
  echo touch   >>P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\robocopy\$x\qqqqqqqqqq
 
+ #C:\Users\marti\$x
+#   C:\Users\marti\OneDrive\$x--robocopy      /s   /XJ   /XD .git    /XD node_modules   /XD OLD*     /xf *.wasm   /xf *.o  /xf *.js    /NJH    /NJS
 
-   C:\Users\marti\OneDrive\$x--robocopy      /s   /XJ   /XD .git    /XD node_modules   /XD OLD*     /xf *.wasm   /xf *.o  /xf *.js    /NJH    /NJS
+
+
+
+   /L :: List only - don't copy, timestamp or delete any files'
+
+   $x='..\sbase.wasm'
+
+Robocopy.exe    P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\robocopy\$x     C:\Users\marti\OneDrive\$x--robocopy      /s   /XJ   /XD .git    /XD node_modules   /XD OLD*     /xf *.wasm   /xf *.o  /xf *.js    /NJH    /NJS
+
+
+
+
+
+
+
+/L :: List only - don't copy, timestamp or delete any files'
 

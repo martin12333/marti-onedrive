@@ -5251,3 +5251,6 @@ pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mym
 ls "C:\Users\marti\OneDrive\*robocopy*"
 ls "C:\Users\marti\*robocopy*"
 C:\pf\Git\bin\bash.exe
+ls "C:\Users\marti\*wiki*"
+cmd /c dir /b "C:\Users\marti\*wiki*"
+cmd /c dir /b "C:\Users\marti\*hello*"

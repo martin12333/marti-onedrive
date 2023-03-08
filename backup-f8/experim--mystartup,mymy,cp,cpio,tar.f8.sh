@@ -26,6 +26,11 @@ echo '-------- section --------'
 
 
 
+todo edit
+robocopy
+/L :: List only - don't copy, timestamp or delete any files'
+
+
 search also
 mymyrsync.sh
 
