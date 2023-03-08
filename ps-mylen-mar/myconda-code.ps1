@@ -24,22 +24,21 @@ sleep 10 #60
 & 'D:\conda\shell\condabin\conda-hook.ps1'
 
 conda activate 'D:\conda'
-
-echo 'todo: code . '
-
 sleep 20
 
+#echo 'todo: code . '
 #echo code js-workspace.code-workspace
-echo code
-
+#echo code
 #code js-workspace.code-workspace
 
-code .
 
-
+code   "C:\Users\marti\OneDrive\backup-f8\backups.code-workspace"
 sleep 20
 
-#code   "C:\Users\marti\OneDrive\backup-f8\backups.code-workspace"
+
+code "C:\Users\marti\OneDrive"
+#code .
+sleep 20
 
 
 

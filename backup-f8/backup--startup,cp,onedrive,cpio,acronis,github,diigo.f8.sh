@@ -141,9 +141,10 @@ code ./dotfiles
 	git commit -v -a -m it-works
 	git commit -v -a -m add
 	git commit -v -a -m win-x-admin
-#	acro-sett,22bb-turn-off-auto-cleanup.zip
+
+	git commit -v -a -m backup-scripts--edited---
+##	acro-sett,22bb-turn-off-auto-cleanup.zip
 	git commit -v -a -m acro-sett,22bb-turn-off-auto-cleanup
-	git commit -v -a -m bk-scripts--edited---
 	git commit -v -a -m gitignore
 
 	git commit -v -a -m bug-found
@@ -175,14 +176,11 @@ https://github.com/martin12333/marti-onedrive/blob/main2/backup-f8/backup--start
 
 pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
 
-
 	git commit -v -a -m  settings
 	git commit -v -a -m  reinstall
 
-
 	git commit -v -a -m vulnera #
 	git commit -v -a -m zshrc
-
 
 	git push   -vv
 
