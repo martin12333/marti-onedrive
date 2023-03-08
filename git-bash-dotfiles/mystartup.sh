@@ -1,7 +1,5 @@
 
-
-
-# a note to myself: do experiments in  file:///C:\Users\marti\OneDrive\backup-f8\experim--mystartup,mymy,cp,cpio,tar.f8.sh
+# a note to myself: do experiments in  file:///C:\Users\marti\OneDrive\ps-mylen-mar\mystartup--mymy.f8.sh.f8.ps1
 
 
 #set -x

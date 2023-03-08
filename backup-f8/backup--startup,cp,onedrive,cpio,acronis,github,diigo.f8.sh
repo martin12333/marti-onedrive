@@ -172,6 +172,8 @@ code ./dotfiles
 	git commit -v -a -m  refactor
 	git commit -v -a -m  partial
 
+	git push   -vv
+
 https://github.com/martin12333/marti-onedrive/blob/main2/backup-f8/backup--startup,cp,onedrive,cpio,acronis,github,diigo.f8.sh#L170
 
 /c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh

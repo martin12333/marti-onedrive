@@ -1,7 +1,7 @@
 
 
+# a note to myself: do experiments in  file:///C:\Users\marti\OneDrive\ps-mylen-mar\mystartup--mymy.f8.sh.f8.ps1
 
-# a note to myself: do experiments in  file:///C:\Users\marti\OneDrive\tar-exe\xcopy-robocopy--mymy.f8.ps1
 
 
 
@@ -22,7 +22,6 @@ echo 'ps1'
 
 
 
-ls ~/log
 
 echo fdgfhg >~/log/mymyrsync.ps1.log
 echo fhfgh  >~/log/mymyrsync.ps1.err.log
