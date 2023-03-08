@@ -28,7 +28,7 @@ mymyrsync.ps1
 #file:///ps-mylen-mar\mymyrsync.ps1
 file:///C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
 
-
+file:///C:\Users\marti\OneDrive\Dokumenty\PowerShell\profile.ps1
 
 
 ls "C:\Users\marti\*robocopy*"

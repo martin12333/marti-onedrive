@@ -1,4 +1,3 @@
-#  Copyright (c) Microsoft Corporation.  All rights reserved.
 #
 # THIS SAMPLE CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND,
 # WHETHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED
@@ -20,7 +19,7 @@ Set-PSReadLineOption -MaximumHistoryCount 32000
 
 #export HISTSIZE=27120
 $MaximumHistoryCount = 32767
-$MaximumHistoryCount
+#$MaximumHistoryCount
 
 
 
