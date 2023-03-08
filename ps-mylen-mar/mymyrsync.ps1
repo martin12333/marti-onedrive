@@ -42,6 +42,14 @@ Robocopy.exe    P:\home\user\.local\share\containers\storage\volumes\nslash_home
 
 
 
+$y='Run-selected-text--discussions.wiki'
+Robocopy.exe   C:\Users\marti\$y    C:\Users\marti\OneDrive\$y--robocopy      /s   /XJ   /XD .git    /XD node_modules   /XD OLD*      /xf *.wasm   /xf *.o    /NJH    /NJS
+
+
+$y='hello-executecommand'
+Robocopy.exe   C:\Users\marti\$y    C:\Users\marti\OneDrive\$y--robocopy    /s   /XJ   /XD .git    /XD node_modules   /XD OLD*      /xf *.wasm   /xf *.o    /NJH    /NJS
+
+
 
 cmd /c dir c:\| findstr.exe -i free
 

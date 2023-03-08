@@ -277,6 +277,8 @@ dir $y
 
 #$x='..\sbase.wasm'
 
+
+$y='Run-selected-text--discussions.wiki'
 Robocopy.exe   C:\Users\marti\$y    C:\Users\marti\OneDrive\$y--robocopy      /s   /XJ   /XD .git    /XD node_modules   /XD OLD*      /xf *.wasm   /xf *.o    /NJH    /NJS
 Robocopy.exe   C:\Users\marti\$y    C:\Users\marti\OneDrive\$y--robocopy\   /L    /s   /XJ   /XD .git    /XD node_modules   /XD OLD*      /xf *.wasm   /xf *.o    /NJH    /NJS
 Robocopy.exe   C:\Users\marti\$y\    C:\Users\marti\OneDrive\$y--robocopy\   /L    /s   /XJ   /XD .git    /XD node_modules   /XD OLD*      /xf *.wasm   /xf *.o    /NJH    /NJS
@@ -287,7 +289,7 @@ Robocopy.exe   C:\Users\marti\$y\    C:\Users\marti\OneDrive\$y--robocopy   /L  
 
 
 
-	/L 
+	/L
 $y='hello-executecommand'
 Robocopy.exe   C:\Users\marti\$y    C:\Users\marti\OneDrive\$y--robocopy    /s   /XJ   /XD .git    /XD node_modules   /XD OLD*      /xf *.wasm   /xf *.o    /NJH    /NJS
 
