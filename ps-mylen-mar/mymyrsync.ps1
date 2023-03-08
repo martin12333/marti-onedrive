@@ -33,7 +33,7 @@
 
 
 
-#Get-Date
+Get-Date
 #$x='sbase.wasm'
 $x='..\sbase.wasm'
 # 233 i cannot remember, and cannot understand from experiments, why i used the '..' in $x a month ago 232

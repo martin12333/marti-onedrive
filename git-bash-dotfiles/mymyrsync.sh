@@ -47,7 +47,9 @@ cp \
    \
 #--help   \
 
-#   date
+
+
+  date
 
 
 #       --backup=numbered \
