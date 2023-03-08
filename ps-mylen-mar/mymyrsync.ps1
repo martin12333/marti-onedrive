@@ -1,6 +1,6 @@
 
+# a note to myself: do experiments in  file:///C:\Users\marti\OneDrive\tar-exe\xcopy-robocopy--mymy.f8.ps1
 
-# do experiment in  file:///C:\Users\marti\OneDrive\tar-exe\xcopy-robocopy.f8.ps1
 
 
 # "C:\Users\marti\OneDrive\ps-mylen-mar\mystartup.ps1"
