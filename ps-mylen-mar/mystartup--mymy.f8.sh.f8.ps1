@@ -12,9 +12,12 @@ echo '-------- section --------'
 
 
 
+f1 mystartup
 
 
 
+
+# file:///C:\Users\marti\OneDrive\git-bash-dotfiles\mystartup.sh
 
 
 ls -l ~/log/mymyrsync.*
@@ -34,5 +37,19 @@ echo >~/log/mymyrsync.sh.err.log
 
 echo  'file:///C:/Users/marti/log/mymyrsync.sh.log'
 echo  'file:///C:/Users/marti/log/mymyrsync.sh.err.log'
+
+
+
+
+2238
+
+# file:///C:\Users\marti\OneDrive\ps-mylen-mar\mystartup.ps1
+
+# file:///C:/Users/marti/log/mymyrsync.ps1.log
+# file:///C:/Users/marti/log/mymyrsync.ps1.err.log
+
+
+echo  'file:///C:/Users/marti/log/mymyrsync.ps1.log'
+echo  'file:///C:/Users/marti/log/mymyrsync.ps1.err.log'
 
 

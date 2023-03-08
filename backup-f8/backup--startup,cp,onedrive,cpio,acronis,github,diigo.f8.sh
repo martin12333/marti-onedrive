@@ -142,6 +142,8 @@ code ./dotfiles
 	git commit -v -a -m add
 	git commit -v -a -m win-x-admin
 
+	git push   -vv
+
 	git commit -v -a -m backup-scripts--edited---
 ##	acro-sett,22bb-turn-off-auto-cleanup.zip
 	git commit -v -a -m acro-sett,22bb-turn-off-auto-cleanup
