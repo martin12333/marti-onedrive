@@ -1,3 +1,9 @@
+
+
+
+# a note to myself: do experiments in  file:///C:\Users\marti\OneDrive\backup-f8\experim--mystartup,mymy,cp,cpio,tar.f8.sh
+
+
 #set -x
 # zaremovat set -x
 
