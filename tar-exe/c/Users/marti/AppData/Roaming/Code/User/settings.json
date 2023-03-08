@@ -212,9 +212,6 @@
 	// Controls the maximum amount of lines the terminal keeps in its buffer.
 	"terminal.integrated.scrollback": 10000,
 	"runme.shell.closeTerminalOnSuccess": false,
-	"workbench.editor.enablePreview": false,
-	// dup "update.enableWindowsBackgroundUpdates": false,
-	"window.zoomLevel": 1,
 	"update.mode": "manual",
 
 

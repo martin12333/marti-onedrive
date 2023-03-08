@@ -208,6 +208,8 @@ https://github.com/TxGVNN/txgvnn.github.io/blob/79e9ffe86349c3a16622d19d1832a476
 
 [sadsa](vscode://redhat.vscode-didact?commandId=workbench.action.terminal.renameWithArg&json={"name":"aNewName"})
 
+[sadsa](didact://?commandId=workbench.action.terminal.renameWithArg&json={"name":"aNewNa787887me"})
+
 * `didact://?commandId=type&vscode.open={"viewColumn":-2}`
 
 > Note that in the `vscode.open` case, you must pass the enum value for the vscode.ViewColumn enum entry itself. -2 corresponds to `Beside` and is a useful command to keep in mind!
