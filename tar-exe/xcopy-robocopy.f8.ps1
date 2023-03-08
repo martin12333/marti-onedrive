@@ -294,5 +294,10 @@ $y='hello-executecommand'
 Robocopy.exe   C:\Users\marti\$y    C:\Users\marti\OneDrive\$y--robocopy    /s   /XJ   /XD .git    /XD node_modules   /XD OLD*      /xf *.wasm   /xf *.o    /NJH    /NJS
 
 
-/L :: List only - don't copy, timestamp or delete any files'
 
+
+
+echo '-------- section END --------'
+# robocopy /L :: List only - don't copy, timestamp or delete any files'
+
+pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
