@@ -213,6 +213,12 @@ ls    ~/sbase.wasm
 
 
 
+
+
+
+
+
+
 ls "C:\Users\marti\*robocopy*"
 ls "C:\Users\marti\OneDrive\*robocopy*"
 #du -v "C:\Users\marti\OneDrive\*robocopy*"
