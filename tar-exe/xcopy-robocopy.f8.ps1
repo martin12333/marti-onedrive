@@ -167,23 +167,20 @@ $x='sbase.wasm'
 
 dir P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\$x
 
+dir P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\testcopy$x
+
 echo Robocopy.exe   P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\testcopy$x   .\testcopy$x--robocopy      /L   /s   /XJ   /XD .git    /XD node_modules   /XD OLD*   /xf *.wasm
 
 
 100%        Newer                   7424        Makefile - Copy
 
-
 *EXTRA File               7424        Makefile - Copy
-
-
-
-
 
 
 #    /L
 
 
-Robocopy.exe    P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\testcopy$x   .\testcopy$x--robocopy      /s   /XJ   /XD .git    /XD node_modules   /XD OLD*     /xf *.wasm   /xf *.o  /xf *.js    /NJH  /NJS
+Robocopy.exe    P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\testcopy$x   .\testcopy$x--robocopy        /s   /XJ   /XD .git    /XD node_modules   /XD OLD*     /xf *.wasm   /xf *.o  /xf *.js    /NJH  /NJS
 
 
 
@@ -260,11 +257,14 @@ hello-executecommand
 old2hello-executecommand
 oldhello-executecommand
 
-####$x='Run-selected-text--discussions.wiki'
-$y='Run-selected-text--discussions.wiki'
+
+# 233 i cannot remember, and cannot understand from experiments, why i used the '..' in $x a month ago 232
+
+##$x='Run-selected-text--discussions.wiki'
 #..\sbase.wasm'
-$x="..\$y"
-echo $x
+$y='Run-selected-text--discussions.wiki'
+#$x="..\$y"
+#echo $x
 
 dir ..\$y
 dir $y
@@ -275,14 +275,21 @@ dir $y
 
    /L :: List only - don't copy, timestamp or delete any files'
 
-$x='..\sbase.wasm'
+#$x='..\sbase.wasm'
 
-Robocopy.exe    P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\robocopy\$x     C:\Users\marti\OneDrive\$x--robocopy      /s   /XJ   /XD .git    /XD node_modules   /XD OLD*     /xf *.wasm   /xf *.o  /xf *.js    /NJH    /NJS
+Robocopy.exe   C:\Users\marti\$y    C:\Users\marti\OneDrive\$y--robocopy      /s   /XJ   /XD .git    /XD node_modules   /XD OLD*      /xf *.wasm   /xf *.o    /NJH    /NJS
+Robocopy.exe   C:\Users\marti\$y    C:\Users\marti\OneDrive\$y--robocopy\   /L    /s   /XJ   /XD .git    /XD node_modules   /XD OLD*      /xf *.wasm   /xf *.o    /NJH    /NJS
+Robocopy.exe   C:\Users\marti\$y\    C:\Users\marti\OneDrive\$y--robocopy\   /L    /s   /XJ   /XD .git    /XD node_modules   /XD OLD*      /xf *.wasm   /xf *.o    /NJH    /NJS
+Robocopy.exe   C:\Users\marti\$y\    C:\Users\marti\OneDrive\$y--robocopy   /L    /s   /XJ   /XD .git    /XD node_modules   /XD OLD*      /xf *.wasm   /xf *.o    /NJH    /NJS
+
+    /xf *.js
 
 
 
 
-
+	/L 
+$y='hello-executecommand'
+Robocopy.exe   C:\Users\marti\$y    C:\Users\marti\OneDrive\$y--robocopy    /s   /XJ   /XD .git    /XD node_modules   /XD OLD*      /xf *.wasm   /xf *.o    /NJH    /NJS
 
 
 /L :: List only - don't copy, timestamp or delete any files'

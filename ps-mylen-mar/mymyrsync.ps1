@@ -36,6 +36,7 @@
 #Get-Date
 #$x='sbase.wasm'
 $x='..\sbase.wasm'
+# 233 i cannot remember, and cannot understand from experiments, why i used the '..' in $x a month ago 232
 
 Robocopy.exe    P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\robocopy\$x     C:\Users\marti\OneDrive\$x--robocopy      /s   /XJ   /XD .git    /XD node_modules   /XD OLD*     /xf *.wasm   /xf *.o  /xf *.js    /NJH    /NJS
 
