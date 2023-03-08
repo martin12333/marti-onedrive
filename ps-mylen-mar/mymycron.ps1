@@ -21,8 +21,10 @@ echo mymycron
 while($True){
 
 
-	pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
-# file:///C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
+	#pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
+	pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1 >>~/log/mymyrsync.ps1.log   2>>~/log/mymyrsync.ps1.err.log
+	# file:///C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
+
 
 
 	#sleep 500

@@ -22,9 +22,9 @@ f1 mystartup
 
 echo '-------- section --------'
 mkdir ~/log
-
-
-
+where.exe pwsh.exe
+C:\Program Files\PowerShell\7\pwsh.exe
+C:\pf\PowerShell\7\pwsh.exe  -ExecutionPolicy Bypass -File     C:\Users\marti\OneDrive\ps-mylen-mar\mystartup.ps1
 
 
 
@@ -58,7 +58,7 @@ echo  'file:///C:/Users/marti/log/mymyrsync.ps1.err.log'
 
 
 
-/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh  >>~/log/mymyrsync.sh.log   2>>~/log/mymyrsync.sh.err.log
+#/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh  >>~/log/mymyrsync.sh.log   2>>~/log/mymyrsync.sh.err.log
 
 pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1 >>~/log/mymyrsync.ps1.log   2>>~/log/mymyrsync.ps1.err.log
 
