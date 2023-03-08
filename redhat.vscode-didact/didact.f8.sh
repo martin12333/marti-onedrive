@@ -22,8 +22,11 @@ ls  -d   *didact*
 #'
 #`
 #\"
-grep -R --no-filename  -E -o ".?didact:[^ \`\')]{1,1500}"    *didact* | grep '^:'
+grep -R --no-filename  -E -o ".{0,6}didact:[^ \`\')]{1,1500}"    *didact*  | grep '^.....:'
 
+grep -R --no-filename  -E -o "[a-z-]{1,55}:/{0,3}[.a-z-]{1,55}"    *didact*  | cut -c 1-20  |sort| uniq -c|  sort -n
+grep -R --no-filename  -E -o "[a-z-]{1,55}:/{0,3}[^ \`\']{1,55}"    *didact*  | cut -c 1-10  |sort| uniq -c|  sort -n
+| cut -d ':' -f 1
 grep -R --no-filename  -E -o "[a-z-]{1,55}://[^ \`\')]{1,1500}"    *didact*  | cut -d ':' -f 1  |sort| uniq -c|  sort -n
 
       1 hhttps
@@ -34,7 +37,7 @@ grep -R --no-filename  -E -o "[a-z-]{1,55}://[^ \`\')]{1,1500}"    *didact*  | c
     785 https
 
 
-grep -R --no-filename  -E -o "(didact|vscode):[^ \`\')]{1,1500}"    *didact*  | cut -d ':' -f 1  |sort| uniq -c|  sort -n
+grep -R --no-filename  -E -o "(didact|vscode):[^ \`\')]{1,1500}"    *didact*   |sort| uniq -c|  sort -n
 
 | grep '^:'
 
