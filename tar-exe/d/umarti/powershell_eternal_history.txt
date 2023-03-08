@@ -5259,3 +5259,8 @@ ls "C:\Users\marti\OneDrive\*robocopy*"
 cmd /c dir /b "C:\Users\marti\*copy*"
 cmd /c dir /b "C:\Users\marti\OneDrive\*copy*"
 cmd /c dir /b "C:\Users\marti\OneDrive\*ocopy*"
+cmd /c dir /b "C:\Users\marti\OneDrive\*wiki*"
+cmd /c dir /b "C:\Users\marti\*wiki*"
+$y='Run-selected-text--discussions.wiki'
+dir $y
+dir ..\$y

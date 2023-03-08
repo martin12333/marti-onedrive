@@ -247,6 +247,13 @@ browserPOSIX-discussion.wiki
 Run-selected-text--discussions.wiki
 vscode-didact.wiki
 
+cmd /c dir /b "C:\Users\marti\OneDrive\*wiki*"
+
+AAAA_GITHUB_WIKI
+old-vscode-didact.wiki
+OLDAAAA_GITHUB_WIKI
+wiki-f8
+
 cmd /c dir /b "C:\Users\marti\*hello*"
 hello-debugger
 hello-executecommand
@@ -254,7 +261,13 @@ old2hello-executecommand
 oldhello-executecommand
 
 ####$x='Run-selected-text--discussions.wiki'
+$y='Run-selected-text--discussions.wiki'
 #..\sbase.wasm'
+$x="..\$y"
+echo $x
+
+dir ..\$y
+dir $y
 
  echo touch   >>P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\robocopy\$x\qqqqqqqqqq
  #C:\Users\marti\$x
