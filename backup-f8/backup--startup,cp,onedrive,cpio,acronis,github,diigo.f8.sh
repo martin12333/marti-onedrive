@@ -171,7 +171,11 @@ code ./dotfiles
 
 https://github.com/martin12333/marti-onedrive/blob/main2/backup-f8/backup--startup,cp,onedrive,cpio,acronis,github,diigo.f8.sh#L170
 
-	/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
+/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
+
+pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
+
+
 	git commit -v -a -m  settings
 	git commit -v -a -m  reinstall
 

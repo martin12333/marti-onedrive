@@ -1,4 +1,50 @@
 
+# f8_text_file
+# (an f8_text_file is-not meant to be run as a whole)
+)
+exit
+
+(selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
+
+
+echo '-------- section --------'
+
+podman machine start
+
+pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
+
+echo '-------- section --------'
+
+
+
+
+
+robocopy
+
+search also
+mymyrsync.ps1
+
+#file:///ps-mylen-mar\mymyrsync.ps1
+file:///C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
+
+
+
+
+ls "C:\Users\marti\*robocopy*"
+ls "C:\Users\marti\OneDrive\*robocopy*"
+#du -v "C:\Users\marti\OneDrive\*robocopy*"
+#dir -
+#C:\pf\Git\bin\bash.exe -c ls '*robocopy*'
+C:\pf\Git\bin\bash.exe
+du -- *robocopy*
+du -- ../*robocopy*
+exit
+
+
+
+
+
+
 
 
 
@@ -167,5 +213,26 @@ ls    ~/sbase.wasm
 
 
 
+ls "C:\Users\marti\*robocopy*"
+ls "C:\Users\marti\OneDrive\*robocopy*"
+#du -v "C:\Users\marti\OneDrive\*robocopy*"
+#dir -
+#C:\pf\Git\bin\bash.exe -c ls '*robocopy*'
+C:\pf\Git\bin\bash.exe
+du -- *robocopy*
+du -- ../*robocopy*
+exit
 
+
+podman machine start
+
+pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
+
+$x='..\sbase.wasm'
+
+Robocopy.exe
+ echo touch   >>P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\robocopy\$x\qqqqqqqqqq
+
+
+   C:\Users\marti\OneDrive\$x--robocopy      /s   /XJ   /XD .git    /XD node_modules   /XD OLD*     /xf *.wasm   /xf *.o  /xf *.js    /NJH    /NJS
 
