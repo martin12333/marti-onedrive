@@ -1,3 +1,10 @@
+
+
+
+# a note to myself: do experiments in  file:///C:\Users\marti\OneDrive\tar-exe\xcopy-robocopy.f8.ps1
+
+
+
 #C:\pf\PowerShell\7\pwsh.exe -ExecutionPolicy ByPass  -NoExit -File     C:\Users\marti\OneDrive\ps-mylen-mar\myconda-code.ps1
 
 #C:\Users\marti\OneDrive\javascript-js-224

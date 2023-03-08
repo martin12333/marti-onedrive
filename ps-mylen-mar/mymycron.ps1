@@ -1,3 +1,9 @@
+
+
+# do experiment in  file:///C:\Users\marti\OneDrive\tar-exe\xcopy-robocopy.f8.ps1
+
+
+
 # "C:\Users\marti\OneDrive\ps-mylen-mar\mystartup.ps1"
 #  -ExecutionPolicy Bypass -File
 # C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe
