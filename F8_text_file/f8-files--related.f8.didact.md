@@ -192,11 +192,13 @@ https://lists.gnu.org/archive/html/eev/2008-02/msg00012.html
 
 
 
+vscode://redhat.vscode-didact?commandId=workbench.action.terminal.renameWithArg&json={"name":"eeddccNewNa787887me"}
 
 
 
+vscode://redhat.vscode-didact?commandId=vscode.didact.openTutorial
 
-
+didact://?commandId=workbench.action.terminal.renameWithArg&json={"name":"eeddccNewNa787887me"}
 
 
 https://github.com/TxGVNN/txgvnn.github.io/blob/79e9ffe86349c3a16622d19d1832a47684105e33/content/post/literate_devops_with_emacs.org
@@ -215,7 +217,7 @@ https://github.com/TxGVNN/txgvnn.github.io/blob/79e9ffe86349c3a16622d19d1832a476
 
 [sadsa](didact://?commandId=workbench.action.terminal.renameWithArg&json={"name":"aaaaaaNewNa787887me"})
 
-[sadsa](didact://?commandId=workbench.action.terminal.renameWithArg&json={"name":"ddccNewNa787887me"})
+[sadsa](didact://?commandId=workbench.action.terminal.renameWithArg&json={"name":"eeddccNewNa787887me"})
 
 * `didact://?commandId=type&vscode.open={"viewColumn":-2}`
 

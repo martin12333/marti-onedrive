@@ -20,7 +20,7 @@ echo '-------- section --------'
 
 
 
-# mymy*.* are  pseudo-pseudo-*.*
+## mymy*.* should be named  my-pseudo-*.*
 # mymycron.*
 # mymyrsync.*
 

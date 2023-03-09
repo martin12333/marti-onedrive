@@ -30,6 +30,16 @@ f1 mymyrsync.ps1
 #file:///ps-mylen-mar\mymyrsync.ps1
 file:///C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
 
+
+
+
+## mymy*.* should be named  my-pseudo-*.*
+# mymycron.*
+# mymyrsync.*
+
+
+
+
 file:///C:\Users\marti\OneDrive\Dokumenty\PowerShell\profile.ps1
 
 

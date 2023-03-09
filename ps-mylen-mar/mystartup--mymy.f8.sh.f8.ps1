@@ -14,6 +14,15 @@ see also
 f1 mymy
 f1 mystartup
 
+
+
+
+## mymy*.* should be named  my-pseudo-*.*
+# mymycron.*
+# mymyrsync.*
+
+
+
 ### a note to myself: do experiments in  file:///C:\Users\marti\OneDrive\ps-mylen-mar\mystartup--mymy.f8.sh.f8.ps1
 
 ### a note to myself: do experiments in  file:///C:\Users\marti\OneDrive\tar-exe\xcopy-robocopy--mymy.f8.ps1
