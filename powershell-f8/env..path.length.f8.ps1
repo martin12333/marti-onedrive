@@ -16,7 +16,8 @@ reboot
 resto.point
 
 
-
+see also
+C:\Users\marti\OneDrive\powershell-f8\alias,function.f8.ps1
 
 
 $env:Path.Length
