@@ -3,6 +3,11 @@
 
 
 
+[sadsa](didact://?commandId=workbench.action.terminal.renameWithArg&json={"name":"bbbbbNewNa787887me"})
+
+
+
+
 
 
 
@@ -208,7 +213,9 @@ https://github.com/TxGVNN/txgvnn.github.io/blob/79e9ffe86349c3a16622d19d1832a476
 
 [sadsa](vscode://redhat.vscode-didact?commandId=workbench.action.terminal.renameWithArg&json={"name":"aNewName"})
 
-[sadsa](didact://?commandId=workbench.action.terminal.renameWithArg&json={"name":"aNewNa787887me"})
+[sadsa](didact://?commandId=workbench.action.terminal.renameWithArg&json={"name":"aaaaaaNewNa787887me"})
+
+[sadsa](didact://?commandId=workbench.action.terminal.renameWithArg&json={"name":"ddccNewNa787887me"})
 
 * `didact://?commandId=type&vscode.open={"viewColumn":-2}`
 
