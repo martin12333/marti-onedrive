@@ -5332,3 +5332,6 @@ cd f8_text_file--clouddrive--monorepo
 dir
 mv .git 2git
 cmd /c dir /a
+git init
+git remote -vvv add ccc  /c/Users/marti/OneDrive
+git remote -vvv

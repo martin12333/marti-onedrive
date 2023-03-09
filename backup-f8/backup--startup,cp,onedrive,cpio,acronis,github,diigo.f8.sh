@@ -130,6 +130,7 @@ code ./dotfiles
 	git add -vv   '*/*config.mk'
 
 	git add -vv  '*.f8.*'
+	git commit -v -a -m add
 
 	git push
 
