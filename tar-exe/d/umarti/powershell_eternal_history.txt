@@ -5345,3 +5345,4 @@ du .
 git pull -vvv ccc main2
 du .
 git ls-files
+git ls-files| Measure-Object

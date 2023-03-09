@@ -131,7 +131,6 @@ code ./dotfiles
 
 	git add -vv  '*.f8.*'
 	git commit -v -a -m add
-
 	git push
 
 	/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh

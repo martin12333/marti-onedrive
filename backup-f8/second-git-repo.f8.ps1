@@ -28,18 +28,7 @@ ls  *mir*/*
 
 https://github.com/martin12333/marti-onedrive/blob/main2/mylen-ila-git-mirmir/.bash_history#L549
 
-cd /d/Users/milanlocal/AAA-mylen-ila-git-mirror/
-git init
-git remote -vvv add ccc  /c/Users/milan_rxtipwr/
-git remote -vvv
-git pull -v ccc main
-git ls-files
-
-cd
-git commit -vvv -a -m bkup
-cd /d/Users/milanlocal/AAA-mylen-ila-git-mirror/
-git pull -vvv ccc main
-
+...
 echo '-------- section --------'
 
 cd D:\umarti
@@ -61,13 +50,12 @@ git push
 cd -
 git pull -vvv ccc main2
 du .
-
-
-git pull -v ccc main2
 git ls-files| Measure-Object
 
 
-mkdir
+cd D:\umarti\f8_text_file--clouddrive--monorepo
+ls
+
 
 
 
