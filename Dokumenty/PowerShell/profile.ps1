@@ -1,12 +1,5 @@
-#
-# THIS SAMPLE CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND,
-# WHETHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED
-# WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE.
-# IF THIS CODE AND INFORMATION IS MODIFIED, THE ENTIRE RISK OF USE OR RESULTS IN
-# CONNECTION WITH THE USE OF THIS CODE AND INFORMATION REMAINS WITH THE USER.
 
 echo C:\Users\marti\OneDrive\Dokumenty\PowerShell\profile.ps1
-
 
 
 #export HISTFILESIZE=27120
@@ -14,13 +7,9 @@ Set-PSReadLineOption -MaximumHistoryCount 32000
 #OBSOL??
 #get-PSReadLineOption
 
-
-
-
 #export HISTSIZE=27120
 $MaximumHistoryCount = 32767
 #$MaximumHistoryCount
-
 
 
 #export HISTTIMEFORMAT="[%F %T] "
@@ -30,9 +19,11 @@ $MaximumHistoryCount = 32767
 Set-PSReadlineOption -HistorySavePath D:\umarti\powershell_eternal_history.txt
 #"${env:USERPROFILE}\.powershell\history.txt"
 
-
-
-
 #shopt -s histappend
+
+
+Set-Alias -Name git   -Value C:\pf\Git\cmd\git.exe
+Set-Alias -Name  bash   -Value C:\pf\Git\bin\bash.exe
+
 
 

@@ -5302,3 +5302,9 @@ c:\pf\git\bin\git
 C:\pf\Git\bin\bash.exe
 dir c:\pf\git\cmd
 dir c:\pf\git\bin
+junction.exe
+where.exe junction.exe
+where.exe bash.exe
+where.exe  git
+where.exe  git.exe
+git

@@ -21,7 +21,9 @@ exit
 1 C:\Program Files\RedHat\Podman\win-sshproxy.exe
 1 C:\Windows\System32\OpenSSH\ssh.exe
 2 C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe
+
 3 C:\pf\totalcmd\TOTALCMD64.EXE
+
 3 C:\pf86\Minecraft Launcher\runtime\jre-legacy\windows-x64\jre-legacy\bin\java.exe
 4 C:\PF\Git\cmd\git.exe
 4 C:\Program Files\Git\cmd\git.exe
@@ -42,7 +44,12 @@ where.exe  git.exe
 
 
 
-Set-Alias -Name np -Value C:\Windows\notepad.exe
+#Set-Alias -Name np -Value C:\Windows\notepad.exe
+git
+Set-Alias -Name git   -Value C:\pf\Git\cmd\git.exe
+Set-Alias -Name  bash   -Value C:\pf\Git\bin\bash.exe
+bash
+exit
 
 
 nodeos\10-podman-import.f8.ps1.sh:
