@@ -307,9 +307,12 @@ Robocopy.exe   C:\Users\marti\$y    C:\Users\marti\OneDrive\$y--robocopy    /s  
 
 
 
-
+dir ~/*dir*
 
 echo '-------- section END --------'
 # robocopy /L :: List only - don't copy, timestamp or delete any files'
 
 pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
+
+
+

@@ -5315,3 +5315,5 @@ bash
 Set-Alias -Name  bash   -Value C:\pf\Git\bin\bash.exe
 git
 bash
+$env:Path.Length
+dir ~/*dir*
