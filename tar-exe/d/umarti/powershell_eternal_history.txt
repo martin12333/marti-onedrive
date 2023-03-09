@@ -5346,3 +5346,7 @@ git pull -vvv ccc main2
 du .
 git ls-files
 git ls-files| Measure-Object
+cd D:\umarti\f8_text_file--clouddrive--monorepo
+ls
+cd C:\Users\marti\OneDrive
+git commit -vvv -a -m ...

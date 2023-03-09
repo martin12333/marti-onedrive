@@ -44,6 +44,11 @@ git remote -vvv add ccc  /c/Users/marti/OneDrive
 git remote -vvv
 
 cd C:\Users\marti\OneDrive
+git add
+
+git add -vv  '*.f8.*'
+
+
 git commit -vvv -a -m ...
 git push
 
