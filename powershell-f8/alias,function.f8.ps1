@@ -50,6 +50,8 @@ Set-Alias -Name git   -Value C:\pf\Git\cmd\git.exe
 Set-Alias -Name  bash   -Value C:\pf\Git\bin\bash.exe
 bash
 exit
+#   -Force
+
 
 
 nodeos\10-podman-import.f8.ps1.sh:
@@ -82,3 +84,5 @@ rename-item alias:\gc gk -force
 # Git
 function git-status { git status }
 Set-Alias -Name gst -Value git-status
+
+

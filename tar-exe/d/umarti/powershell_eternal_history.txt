@@ -5308,3 +5308,10 @@ where.exe bash.exe
 where.exe  git
 where.exe  git.exe
 git
+Set-Alias -Name git   -Value C:\pf\Git\cmd\git.exe
+git
+Set-Alias -Name  bash   -Value C:\pf\Git\bin\bash.exe
+bash
+Set-Alias -Name  bash   -Value C:\pf\Git\bin\bash.exe
+git
+bash
