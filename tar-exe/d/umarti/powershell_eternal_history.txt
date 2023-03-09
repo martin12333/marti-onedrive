@@ -5335,3 +5335,13 @@ cmd /c dir /a
 git init
 git remote -vvv add ccc  /c/Users/marti/OneDrive
 git remote -vvv
+cd C:\Users\marti\OneDrive
+git commit -vvv -a -m ...
+git push
+cd -
+git pull -vvv ccc main2
+du
+du .
+git pull -vvv ccc main2
+du .
+git ls-files

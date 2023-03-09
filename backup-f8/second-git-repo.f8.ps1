@@ -56,11 +56,16 @@ git remote -vvv
 
 cd C:\Users\marti\OneDrive
 git commit -vvv -a -m ...
-cd /d/Users/milanlocal/AAA-mylen-ila-git-mirror/
-git pull -vvv ccc main
+git push
+
+cd -
+git pull -vvv ccc main2
+du .
+
 
 git pull -v ccc main2
-git ls-files
+git ls-files| Measure-Object
+
 
 mkdir
 
