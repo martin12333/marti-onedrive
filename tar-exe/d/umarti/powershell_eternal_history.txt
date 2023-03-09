@@ -5317,3 +5317,18 @@ git
 bash
 $env:Path.Length
 dir ~/*dir*
+cd D:\
+dir *git*
+bash
+cd git-bk04
+dir
+bash
+ls -l *mir*
+ls  *mir*
+ls  *mir*/*
+cd D:\umarti
+git clone https://github.com/martin12333/f8_text_file--clouddrive--monorepo.git
+cd f8_text_file--clouddrive--monorepo
+dir
+mv .git 2git
+cmd /c dir /a

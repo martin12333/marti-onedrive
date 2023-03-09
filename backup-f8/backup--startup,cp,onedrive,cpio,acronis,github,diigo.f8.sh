@@ -139,8 +139,8 @@ code ./dotfiles
 	git commit -v -a -m ...
 	git commit -v -a -m done
 	git commit -v -a -m it-works
-	git commit -v -a -m add
 	git commit -v -a -m win-x-admin
+	git commit -v -a -m add
 
 	git push   -vv
 
