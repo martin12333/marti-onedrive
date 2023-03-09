@@ -5155,7 +5155,7 @@ npm
 Get-PSReadLineKeyHandler -Chord 'UpArrow', 'DownArrow', 'F8', 'Shift-F8', 'F2'
 idle --help
 idle -n
-idle 
+idle
 spyder.exe
 spyder.exe --help
 spyder.exe --debug-output
@@ -5165,7 +5165,7 @@ conhost.exe /help
 conhost.exe /h
 conhost.exe cmd
 conhost.exe cmd /c dir
-conhost.exe 
+conhost.exe
 conhost.exe cmd /c dir c:\windows\system32
 code .
 cmd /c dir C:\Windows.old
