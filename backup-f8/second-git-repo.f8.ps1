@@ -52,21 +52,27 @@ git add -vv  '*.f8.*'
 git commit -vvv -a -m ...
 git push
 
-cd -
+cd D:\umarti\f8_text_file--clouddrive--monorepo
 git pull -vvv ccc main2
 du .
 git ls-files| Measure-Object
 
 
-cd D:\umarti\f8_text_file--clouddrive--monorepo
 ls
 
 
 
 
+cd -
 
+man git-restore
+man git-switch
+man git-checkout
+q
+#git restore --help
 
-
+git|findstr.exe restor
+git|findstr.exe swit
 
 
 

@@ -650,3 +650,6 @@ done}| grep -i '[.]wasm$'
 : 1677150697:0;apt search netcat
 : 1677150794:0;apt search game in bash
 : 1678038538:0;vim
+: 1678398540:0;man git-restore
+: 1678398607:0;man git-checkout
+: 1678398748:0;man git-switch
