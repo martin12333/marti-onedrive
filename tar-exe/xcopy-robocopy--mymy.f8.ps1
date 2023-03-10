@@ -338,10 +338,21 @@ acronis
 
 
 
+# file:///C:\Users\marti\OneDrive\ps-mylen-mar\mystartup--mymy.f8.sh.f8.ps1
+# about   "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\jako-zaremovane\onedr-junctio"
+
+cmd /c dir  "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\jako-zaremovane\onedr-junctio"
+# isa junction to
+dir  roam-ms-wi-sta-p-startup
+
+cmd /c dir  "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\jako-zaremovane"
+
+cmd /c dir  "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+cmd /c dir  "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\"
 
 
-
-
+#C:\pf\PowerShell\7\pwsh.exe
+-ExecutionPolicy Bypass -File     C:\Users\marti\OneDrive\ps-mylen-mar\mystartup.ps1
 
 
 taskmgr.exe

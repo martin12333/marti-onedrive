@@ -1,27 +1,26 @@
 
-# a note to myself: do experiments in  file:///C:\Users\marti\OneDrive\tar-exe\xcopy-robocopy--mymy.f8.ps1
+# runs every 270 seconds
+
+# a note to myself: do edits, at first, only in  file:///C:\Users\marti\OneDrive\tar-exe\xcopy-robocopy--mymy.f8.ps1
+
+# or edit only in comments here
 
 
 
-# "C:\Users\marti\OneDrive\ps-mylen-mar\mystartup.ps1"
-#  -ExecutionPolicy Bypass -File
-# C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe
 
-#zeby-neslo-stat-na-sory-onedr-bez-net
 
-# roam-ms-wi-sta-p-startup
+# file:///C:\Users\marti\OneDrive\ps-mylen-mar\mystartup--mymy.f8.sh.f8.ps1
+# about   "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\jako-zaremovane\onedr-junctio"
 
-# C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+
+
+#zeby-neslo-stat-na-onedr-bez-net  ??
+
+
+
 
 
 #echo mymyrsync
-
-
-
-###pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
-
-
-
 
 
 

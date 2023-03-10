@@ -5376,3 +5376,11 @@ taskmgr.exe
 Robocopy.exe   C:\Users\marti\$y  D:\umarti\$y    /s   /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD OLD*   /mot:1  /L
 Robocopy.exe   C:\Users\marti\$y  D:\umarti\$y    /s   /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD OLD*   /mot:1  /L
 Robocopy.exe   C:\Users\marti\$y  D:\umarti\$y    /s   /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD OLD*   /mot:1
+cmd /c dir  C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+cmd /c dir  "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+cmd /c dir  "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\"
+cmd /c dir  "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+cmd /c dir  "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\jako-zaremovane"
+cmd /c dir  "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\jako-zaremovane\onedr-junctio"
+dir  OneDrive\roam-ms-wi-sta-p-startup
+dir  roam-ms-wi-sta-p-startup
