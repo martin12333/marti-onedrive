@@ -19,13 +19,12 @@
 
 echo myrobo
 
+sleep 1
+#sleep 120
 
 
 
 # robocopy /L :: List only - don't copy, timestamp or delete any files'
-
-
-
 
 $y='OneDrive'
 Robocopy.exe   C:\Users\marti\$y  D:\umarti\$y    /s   /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD OLD*    /mot:4
@@ -33,5 +32,5 @@ Robocopy.exe   C:\Users\marti\$y  D:\umarti\$y    /s   /XJ     /XD "Obr*"    /XD
 #  /mot:1  #  /mot:4
 
 
-
+# unreachable line ?
 

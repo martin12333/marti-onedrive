@@ -3293,3 +3293,4 @@ cd C:\ProgramData\Microsoft\Search\Data\
 dir
 dir /a /s
 cmd /c dir /a /s
+$psUnsupportedConsoleApplications

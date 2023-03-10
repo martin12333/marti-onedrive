@@ -5384,3 +5384,4 @@ cmd /c dir  "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Program
 cmd /c dir  "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\jako-zaremovane\onedr-junctio"
 dir  OneDrive\roam-ms-wi-sta-p-startup
 dir  roam-ms-wi-sta-p-startup
+$psUnsupportedConsoleApplications
