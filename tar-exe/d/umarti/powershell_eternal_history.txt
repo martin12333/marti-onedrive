@@ -5405,3 +5405,10 @@ du .
 cmd /c dir     D:\umarti\$y--robo  /a /s
 $y='OneDrive'
 cmd /c dir     D:\umarti\$y--robo  /a /s
+$y='OneDrive'
+Robocopy.exe   C:\Users\marti\$y  D:\umarti\$y--robo    /s   /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD OLD*    /mot:5
+git add -vv  '*.f8.*'
+git commit -v -a -m bug-found
+git push   -vv
+git show --name-only
+$y='OneDrive'

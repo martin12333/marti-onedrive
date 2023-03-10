@@ -376,7 +376,7 @@ Robocopy.exe   C:\Users\marti\$y  D:\umarti\$y--robo    /s   /XJ     /XD "Obr*" 
 C:\pf\PowerShell\7\pwsh.exe    -ExecutionPolicy Bypass -File   C:\Users\marti\OneDrive\ps-mylen-mar\myrobocopy-onedrive.ps1
 
 
-
+BUUUUUUUUUUUUUUUUUUUUUUUUUUG
 /L
 echo -$y-
 $y='OneDrive'
