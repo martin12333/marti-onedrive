@@ -376,6 +376,8 @@ Robocopy.exe   C:\Users\marti\$y  D:\umarti\$y--robo    /s   /XJ     /XD "Obr*" 
 C:\pf\PowerShell\7\pwsh.exe    -ExecutionPolicy Bypass -File   C:\Users\marti\OneDrive\ps-mylen-mar\myrobocopy-onedrive.ps1
 
 
+
+issue 233a
 BUUUUUUUUUUUUUUUUUUUUUUUUUUG
 /L
 echo -$y-
@@ -466,7 +468,8 @@ Ended : 10 March, 2023 17:02:40
 
 
 
-
+file:///C:\Users\marti\OneDrive\Dokumenty\WindowsPowerShell\profile.ps1
+du C:\Users\marti\OneDrive\Dokumenty\WindowsPowerShell\profile.ps1
 echo '-------- section END --------'
 # robocopy /L :: List only - don't copy, timestamp or delete any files'
 

@@ -5412,3 +5412,8 @@ git commit -v -a -m bug-found
 git push   -vv
 git show --name-only
 $y='OneDrive'
+git commit -v -a -m fix
+git push   -vv
+cd -
+cd C:\Users\marti\OneDrive
+git ls-files
