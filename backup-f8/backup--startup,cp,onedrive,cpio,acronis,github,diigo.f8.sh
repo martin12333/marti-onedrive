@@ -127,7 +127,12 @@ code ./dotfiles
 	git add -vv  'sb*/*akefile*'
 	git add -vv  'sb*/conf*'
 	git add -vv --dry-run  '*/*config'
+
+	git add -vv --dry-run  'ps*/*.ps1'
+	git add -vv  'ps*/*.ps1'
+
 	git add -vv   '*/*config.mk'
+
 
 	git add -vv  '*.f8.*'
 	git commit -v -a -m add

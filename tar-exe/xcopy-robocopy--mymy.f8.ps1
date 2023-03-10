@@ -366,7 +366,8 @@ perfmon.exe
 $y='OneDrive'
 Robocopy.exe   C:\Users\marti\$y  D:\umarti\$y    /s   /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD OLD*   /mot:1
   /L
-
+  /mot:1
+  /mot:4
 /L
 
 
