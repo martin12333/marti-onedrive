@@ -131,6 +131,9 @@ code ./dotfiles
 	git add -vv --dry-run  'ps*/*.ps1'
 	git add -vv  'ps*/*.ps1'
 
+	git add -vv --dry-run  ro*p/*.lnk
+	git add -vv   ro*p/*.lnk
+
 	git add -vv   '*/*config.mk'
 
 
