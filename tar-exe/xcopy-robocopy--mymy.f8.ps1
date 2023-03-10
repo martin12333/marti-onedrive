@@ -329,8 +329,24 @@ dir ~/*dir*
 
 
 
+
+
+
 acronis
 #git push
+
+
+
+
+
+/MOT:m :: MOnitor source; run again in m minutes Time, if changed.-
+
+
+$y='OneDrive'
+Robocopy.exe   C:\Users\marti\$y  D:\umarti\$y    /s   /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD OLD*   /mot:1
+
+
+
 
 /L
 
