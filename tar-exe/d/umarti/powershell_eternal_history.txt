@@ -5356,3 +5356,6 @@ git push
 cd D:\umarti\f8_text_file--clouddrive--monorepo
 git pull -vvv ccc main2
 git restore --help
+git|findstr.exe restor
+git|findstr.exe swit
+du .

@@ -63,6 +63,21 @@ exit
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 xcopy  /?|more
 
 /D:m-d-y     Copies files changed on or after the specified date.
@@ -308,6 +323,32 @@ Robocopy.exe   C:\Users\marti\$y    C:\Users\marti\OneDrive\$y--robocopy    /s  
 
 
 dir ~/*dir*
+
+
+
+
+
+
+
+
+$y='OneDrive'
+/L
+Robocopy.exe   C:\Users\marti\$y  D:\umarti\$y
+/L /s   /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD OLD*      /xf *.wasm   /xf *.o
+
+
+/NJH    /NJS
+
+
+
+
+
+
+
+
+
+
+
 
 echo '-------- section END --------'
 # robocopy /L :: List only - don't copy, timestamp or delete any files'
