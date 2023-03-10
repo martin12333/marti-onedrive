@@ -115,3 +115,8 @@ echo >~/log/mymyrsync.sh.err.log
 echo  'file:///C:/Users/marti/log/mymyrsync.sh.log'
 echo  'file:///C:/Users/marti/log/mymyrsync.sh.err.log'
 
+
+
+
+C:\pf\PowerShell\7\pwsh.exe -ExecutionPolicy ByPass  -NoExit -File C:\Users\marti\OneDrive\ps-mylen-mar\myrobocopy-onedrive.ps1
+C:\Users\marti\OneDrive\ps-mylen-mar\myconda-code.ps1

@@ -367,9 +367,13 @@ $y='OneDrive'
 Robocopy.exe   C:\Users\marti\$y  D:\umarti\$y    /s   /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD OLD*   /mot:1
   /L
   /mot:1
-  /mot:4
+  /mot:5
 /L
 
+
+
+
+C:\pf\PowerShell\7\pwsh.exe    -ExecutionPolicy Bypass -File   C:\Users\marti\OneDrive\ps-mylen-mar\myrobocopy-onedrive.ps1
 
 
 
