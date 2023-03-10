@@ -213,7 +213,6 @@
 	"terminal.integrated.scrollback": 10000,
 	"runme.shell.closeTerminalOnSuccess": false,
 	"update.mode": "manual",
-	"window.zoomLevel": 2,
 
 
 

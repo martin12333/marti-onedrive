@@ -329,20 +329,95 @@ dir ~/*dir*
 
 
 
+acronis
+#git push
 
+/L
 
 $y='OneDrive'
-/L
-Robocopy.exe   C:\Users\marti\$y  D:\umarti\$y
-/L /s   /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD OLD*      /xf *.wasm   /xf *.o
+Robocopy.exe   C:\Users\marti\$y  D:\umarti\$y    /s   /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD OLD*
+
+cmd /c dir
+
+cmd /c dir     C:\Users\marti\$y    /a /s
+cmd /c dir     D:\umarti\$y  /a /s
+
 
 
 /NJH    /NJS
 
+/xf *.wasm   /xf *.o
+
+
+
+PS D:\umarti\f8_text_file--clouddrive--monorepo> Robocopy.exe   C:\Users\marti\$y  D:\umarti\$y    /s   /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD OLD*
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows
+-------------------------------------------------------------------------------
+
+  Started : 10 March, 2023 17:06:27
+   Source : C:\Users\marti\OneDrive\
+     Dest : D:\umarti\OneDrive\
+
+    Files : *.*
+
+ Exc Dirs : .git
+            node_modules
+            Obr*
+            OLD*
+
+  Options : *.* /S /DCOPY:DA /COPY:DAT /XJ /R:1000000 /W:30
+
+
+
+  ------------------------------------------------------------------------------
+
+  19    C:\Users\marti\OneDrive\
+New File                  63        .849C9593-D756-4E56-8D6E-42412F2A707B
+2023/03/10 17:06:28 ERROR 2 (0x00000002) Changing File Attributes C:\Users\marti\OneDrive\.849C9593-D756-4E56-8D6E-42412F2A707B
+The system cannot find the file specified.
+
+New Dir          0    C:\Users\marti\OneDrive\--robocopy\
+   3    C:\Users\marti\OneDrive\.config\
+   2    C:\Users\marti\OneDrive\.config\configstore\
 
 
 
 
+
+
+
+7    C:\Users\marti\OneDrive\wsl-dotfiles-gold-20-to-22\home\martin\.config\mc\
+New Dir          0    C:\Users\marti\OneDrive\wsl-dotfiles-gold-20-to-22\home\martin\.config\mc\mcedit\
+New Dir          0    C:\Users\marti\OneDrive\wsl-dotfiles-gold-20-to-22\home\martin\.emacs.d\
+				 5    C:\Users\marti\OneDrive\wsl-dotfiles-gold-20-to-22\home\martin\TODO\
+				 1    C:\Users\marti\OneDrive\wsl-dotfiles-gold-20-to-22\home\martin\TODO\ubuntu-setup\
+				 1    C:\Users\marti\OneDrive\wsl-dotfiles-gold-20-to-22\home\martin\ubu\
+New Dir          0    C:\Users\marti\OneDrive\wsl-dotfiles-gold-20-to-22\home\w\
+New Dir          0    C:\Users\marti\OneDrive\wsl-dotfiles-gold-20-to-22\mnt\
+				 1    C:\Users\marti\OneDrive\youtube\
+				15    C:\Users\marti\OneDrive\zsh-newuser-install\
+				 1    C:\Users\marti\OneDrive\zsh-newuser-install\alice\
+				 7    C:\Users\marti\OneDrive\zsh-newuser-install\ohmyz\
+				 1    C:\Users\marti\OneDrive\zsh-newuser-install\OHMYZ-clone\
+				 1    C:\Users\marti\OneDrive\zsh-newuser-install\OHMYZ-install.sh\
+New Dir          0    C:\Users\marti\OneDrive\zsh-newuser-install\RADEJI OHMYZ PROTOZE DOCKER\
+				 1    C:\Users\marti\OneDrive\zsh-newuser-install\sanedefa\
+				 2    C:\Users\marti\OneDrive\zsh-newuser-install\saneopt\
+
+------------------------------------------------------------------------------
+
+	 Total    Copied   Skipped  Mismatch    FAILED    Extras
+Dirs :      1595       147      1448         0         0         0
+Files :      7050         1      7048         0         1         0
+Bytes :  987.22 m   239.9 k  986.99 m         0        63         0
+Times :   0:00:06   0:00:00                       0:00:00   0:00:06
+
+
+Speed :           18,900,923 Bytes/sec.
+Speed :            1,081.520 MegaBytes/min.
+Ended : 10 March, 2023 17:02:40
 
 
 
