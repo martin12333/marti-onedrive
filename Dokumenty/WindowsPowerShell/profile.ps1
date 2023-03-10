@@ -10,3 +10,6 @@ echo i hope this will not be run in admin ... prob. will not, because running sc
 #
 #  File C:\Users\marti\OneDrive\Dokumenty\WindowsPowerShell\profile.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at
 
+
+
+
