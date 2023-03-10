@@ -52,6 +52,9 @@ git add -vv  '*.f8.*'
 git commit -vvv -a -m ...
 git push
 
+du .
+
+
 cd D:\umarti\f8_text_file--clouddrive--monorepo
 git pull -vvv ccc main2
 du .
@@ -76,11 +79,15 @@ git|findstr.exe swit
 
 
 
+cd D:\umarti\OneDrive--robo
+du .
 
-
+cd D:\umarti\
+mv OneDrive OneDrive--robo
 
 
 echo '-------- section --------'
 
+cd D:\umarti\f8_text_file--clouddrive--monorepo
 
 echo '-------- section --------'

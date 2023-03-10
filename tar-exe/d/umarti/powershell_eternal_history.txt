@@ -5389,3 +5389,19 @@ C:\pf\PowerShell\7\pwsh.exe    -ExecutionPolicy Bypass -File   C:\Users\marti\On
 resmon.exe
 $y='OneDrive'
 Robocopy.exe   C:\Users\marti\$y  D:\umarti\$y    /s   /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD OLD*    /mot:5
+echo $y
+echo -$y-
+cd D:\umarti\f8_text_file--clouddrive--monorepo
+du .
+cd D:\umarti\OneDrive
+du .
+cd C:\Users\marti\OneDrive
+du .
+cd D:\umarti\
+mv OneDrive OneDrive--robo
+du .
+cd D:\umarti\OneDrive--robo
+du .
+cmd /c dir     D:\umarti\$y--robo  /a /s
+$y='OneDrive'
+cmd /c dir     D:\umarti\$y--robo  /a /s

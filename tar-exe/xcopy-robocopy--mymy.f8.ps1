@@ -364,7 +364,7 @@ perfmon.exe
 
 
 $y='OneDrive'
-Robocopy.exe   C:\Users\marti\$y  D:\umarti\$y    /s   /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD OLD*   /mot:1
+Robocopy.exe   C:\Users\marti\$y  D:\umarti\$y--robo    /s   /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD OLD*   /mot:1
   /L
   /mot:1
   /mot:5
@@ -378,14 +378,14 @@ C:\pf\PowerShell\7\pwsh.exe    -ExecutionPolicy Bypass -File   C:\Users\marti\On
 
 
 /L
-
+echo -$y-
 $y='OneDrive'
-Robocopy.exe   C:\Users\marti\$y  D:\umarti\$y    /s   /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD OLD*
+Robocopy.exe   C:\Users\marti\$y  D:\umarti\$y--robo    /s   /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD OLD*  /ndl
 
 cmd /c dir
 
 cmd /c dir     C:\Users\marti\$y    /a /s
-cmd /c dir     D:\umarti\$y  /a /s
+cmd /c dir     D:\umarti\$y--robo  /a /s
 
 
 
@@ -395,15 +395,12 @@ cmd /c dir     D:\umarti\$y  /a /s
 
 
 
-PS D:\umarti\f8_text_file--clouddrive--monorepo> Robocopy.exe   C:\Users\marti\$y  D:\umarti\$y    /s   /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD OLD*
-
 -------------------------------------------------------------------------------
    ROBOCOPY     ::     Robust File Copy for Windows
 -------------------------------------------------------------------------------
 
   Started : 10 March, 2023 17:06:27
    Source : C:\Users\marti\OneDrive\
-     Dest : D:\umarti\OneDrive\
 
     Files : *.*
 
