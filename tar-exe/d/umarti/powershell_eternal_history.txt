@@ -5432,3 +5432,11 @@ git add -vv C:\Users\marti\OneDrive\Dokumenty\WindowsPowerShell\profile.ps1
 git add -vv "C:\Users\marti\OneDrive\Dokumenty\WindowsPowerShell\profile.ps1"
 git add -vv "C:\Users\marti\OneDrive\Documents\WindowsPowerShell\profile.ps1"
 git add -vv "Documents\WindowsPowerShell\profile.ps1"
+git add -vv "Dokumenty\WindowsPowerShell\profile.ps1"
+git add -vv "Dokumenty/WindowsPowerShell/profile.ps1"
+git add -vv --dry-run   "Dokumenty/WindowsPowerShell/profile.ps1"
+git add -vv --dry-run   "*/WindowsPowerShell/profile.ps1"
+git add -vv --dry-run   "*/profile.ps1"
+git add -vv --dry-run   "**/profile.ps1"
+git commit -v -a -m add
+git push
