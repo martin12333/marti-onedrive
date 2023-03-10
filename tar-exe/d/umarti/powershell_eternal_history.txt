@@ -5417,3 +5417,10 @@ git push   -vv
 cd -
 cd C:\Users\marti\OneDrive
 git ls-files
+git ls-files  |findstr.exe -i prof
+git commit -v -a -m add
+git ls-files  |findstr.exe -i prof
+git push
+git ls-files  |findstr.exe -i prof
+git commit -v -a -m add
+git ls-files  |findstr.exe -i prof
