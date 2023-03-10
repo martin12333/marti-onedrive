@@ -5424,3 +5424,11 @@ git push
 git ls-files  |findstr.exe -i prof
 git commit -v -a -m add
 git ls-files  |findstr.exe -i prof
+git add  C:\Users\marti\OneDrive\Dokumenty\WindowsPowerShell\profile.ps1
+git ls-files  |findstr.exe -i prof
+git commit -v -a -m add
+git ls-files  |findstr.exe -i prof
+git add -vv C:\Users\marti\OneDrive\Dokumenty\WindowsPowerShell\profile.ps1
+git add -vv "C:\Users\marti\OneDrive\Dokumenty\WindowsPowerShell\profile.ps1"
+git add -vv "C:\Users\marti\OneDrive\Documents\WindowsPowerShell\profile.ps1"
+git add -vv "Documents\WindowsPowerShell\profile.ps1"
