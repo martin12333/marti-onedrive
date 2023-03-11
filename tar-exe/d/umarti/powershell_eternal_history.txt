@@ -5450,3 +5450,5 @@ du C:\Users\marti\OneDrive\Dokumenty\PowerShell
 git commit -v -a -m fix-comments
 git push   -vv
 git show --name-only
+git commit -v -a -m fix-comments
+git push   -vv

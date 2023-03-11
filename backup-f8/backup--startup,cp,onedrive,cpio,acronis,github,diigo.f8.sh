@@ -163,6 +163,8 @@ code ./dotfiles
 	git commit -v -a -m security
 	git commit -v -a -m SECURITY
 
+	git push   -vv
+
 	git commit -v -a -m fix
 	git commit -v -a -m fix-comments
 	git commit -v -a -m patch-simplify-code
