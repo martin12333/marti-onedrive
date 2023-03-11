@@ -5443,3 +5443,7 @@ git push
 git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push
+git commit -v -a -m SECURITY
+git push   -vv
+du C:\Users\marti\OneDrive\Dokumenty\WindowsPowerShell\
+du C:\Users\marti\OneDrive\Dokumenty\PowerShell

@@ -469,7 +469,10 @@ Ended : 10 March, 2023 17:02:40
 
 
 file:///C:\Users\marti\OneDrive\Dokumenty\WindowsPowerShell\profile.ps1
-du C:\Users\marti\OneDrive\Dokumenty\WindowsPowerShell\profile.ps1
+du C:\Users\marti\OneDrive\Dokumenty\WindowsPowerShell\
+du C:\Users\marti\OneDrive\Dokumenty\PowerShell
+
+
 echo '-------- section END --------'
 # robocopy /L :: List only - don't copy, timestamp or delete any files'
 

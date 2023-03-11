@@ -96,3 +96,11 @@ using the code block with diff to show some colors
 @@ text in purple (and bold)@@
 
 ```
+
+
+
+; also dotfiles, shell histories
+
+
+
+
