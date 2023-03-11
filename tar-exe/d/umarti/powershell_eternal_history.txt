@@ -5447,3 +5447,6 @@ git commit -v -a -m SECURITY
 git push   -vv
 du C:\Users\marti\OneDrive\Dokumenty\WindowsPowerShell\
 du C:\Users\marti\OneDrive\Dokumenty\PowerShell
+git commit -v -a -m fix-comments
+git push   -vv
+git show --name-only

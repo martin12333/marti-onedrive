@@ -13,26 +13,31 @@ echo '-------- section --------'
 
 
 
+# this file is only for  DRAFT writing for https://github.com/martin12333/Run-selected-text--discussions
+
+
+
+
 
 
 
 
 https://blog.jpalardy.com/posts/stop-typing-into-repls/
 
-If you find compelling non-vim alternatives, email me and I’ll include them on this page for others to find.
+> If you find compelling non-vim alternatives, email me and I’ll include them on this page for others to find.
 
 
 
 
 
 
-open terminal git-bash
 
 ```bash
 
 # once
 cd
 git clone https://github.com/martin12333/Run-selected-text--discussions.wiki.git
+
 
 cd  ~/Run-selected-text--discussions.wiki
 git pull   -vv
@@ -80,7 +85,6 @@ to a shell or an interpreter.
 
 ## Some info is in the [wiki]()
 
-I would like to ask: would you enable
 
 
 
@@ -102,5 +106,8 @@ using the code block with diff to show some colors
 ; also dotfiles, shell histories
 
 
+
+
+I would like to ask: would you enable github discussions in your repo?
 
 
