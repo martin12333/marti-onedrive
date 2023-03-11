@@ -5440,3 +5440,6 @@ git add -vv --dry-run   "*/profile.ps1"
 git add -vv --dry-run   "**/profile.ps1"
 git commit -v -a -m add
 git push
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push

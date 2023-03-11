@@ -160,6 +160,8 @@ code ./dotfiles
 	git commit -v -a -m bug-found
 	git commit -v -a -m  false-alarm-found
 	git commit -v -a -m discovery
+	git commit -v -a -m security
+	git commit -v -a -m SECURITY
 
 	git commit -v -a -m fix
 	git commit -v -a -m fix-comments
