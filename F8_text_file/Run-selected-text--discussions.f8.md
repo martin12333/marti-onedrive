@@ -39,12 +39,15 @@ cd
 git clone https://github.com/martin12333/Run-selected-text--discussions.wiki.git
 
 
+# repeat
+pseudocode open a new terminal pane
 cd  ~/Run-selected-text--discussions.wiki
 git pull   -vv
 #cd -
 
 
-#code ~/OneDrive
+
+
 code ~/Run-selected-text--discussions.wiki
 
 ```
