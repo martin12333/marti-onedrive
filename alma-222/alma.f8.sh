@@ -22,7 +22,10 @@ code alma-222\.bash_history
 history -a; history
 history -a;cp -iv ~/.bash_history ~/2229.hist ;history|grep ls
 
+id
+
 mc
+sudo -i mc
 zsh
 sudo -i
 df -m
@@ -50,9 +53,15 @@ netstat --listen >netstat--listen
 tar cvf ~/etc.tar etc/
 
 #tar cvf ~/var-log.tar var/log/
-#
+sudo tar cvf /var-log.tar var/log/
+sudo chmod o-r var-log.tar
+sudo chown --verbose root:adm var-log.tar
 
+dmesg >dmesg
 
+sudo adduser adminmmm adm
+
+grep 'mmm' /var/log/auth.log
 
 
 

@@ -5514,3 +5514,5 @@ git commit -v -a -m add
 git push   -vv
 code backup-f8
 code alma-222\.bash_history
+git commit -v -a -m ...
+git push   -vv
