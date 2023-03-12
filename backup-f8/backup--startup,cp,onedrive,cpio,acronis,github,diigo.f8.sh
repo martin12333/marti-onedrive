@@ -146,7 +146,9 @@ code ./dotfiles
 	git commit -v -a -m  before-manip-dirs
 	git commit -v -a -m ...
 	git commit -v -a -m done
-	git commit -v -a -m it-works
+	git commit -v -a -m "😇 it-works"
+	git commit -v -a -m "😌 it-works"
+	git commit -v -a -m "🙂 it-works"
 	git commit -v -a -m win-x-admin
 	git commit -v -a -m add
 
@@ -161,16 +163,19 @@ code ./dotfiles
 	git commit -v -a -m  false-alarm-found
 	git commit -v -a -m discovery
 	git commit -v -a -m security
-	git commit -v -a -m SECURITY
+	git commit -v -a -m "😲 SECURITY"
 
 	git push   -vv
 
 	git commit -v -a -m fix
-	git commit -v -a -m fix-comments
+	git commit -v -a -m "☀ fix-comments"
 	git commit -v -a -m patch-simplify-code
 	git commit -v -a -m false-alarm
 	git commit -v -a -m maybe-enhance
 	git commit -v -a -m important-test
+
+🌞^ 😋☺🙂 ☀☺☼⚙⛭⛮🌞🌣🛪😲😊😋😌😁😃😄😆🙂😇🙏🙇😌
+
 
 	git commit -v -a -m add
 	git add -vv  '*.f8.*'

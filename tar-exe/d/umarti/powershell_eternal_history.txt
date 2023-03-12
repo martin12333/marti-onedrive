@@ -5486,3 +5486,5 @@ dotnet-interactive.exe --help
 dotnet.exe --help
 pkgmgr /?
 pkginfo.exe /?
+git add -vv  '*.f8.*'
+git commit -v -a -m add
