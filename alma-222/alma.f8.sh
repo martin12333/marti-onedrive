@@ -168,7 +168,6 @@ chown --verbose
 chmod --verbose
 
 
-sudoers
 
 
 
@@ -176,9 +175,22 @@ sudoers
 zgrep --ignore-case --extended-regexp    'sda' /var/log/*
 
 
+ls -latr /home
+ls -latr /
+ls -latr /var
+ls -latr /usr
+ls -latr /usr/bin
+ls -latr /etc
+drwxr-xr-x   7 root    root      4096 Oct 13 13:00 apache2
 
 
-
+drwxr-xr-x 27 root       root        4096 Feb  8  2022 .
+drwxr-xr-x 23 root       root        4096 Feb 10  2022 ..
+drwxr-xr-x 25 astropis   astropis    4096 Sep 19 11:56 astropis
+drwxr-xr-x 15 biophysics biophysics  4096 Oct  5 15:23 biophysics
+drwxr-xr-x 23 mfftabor   mfftabor    4096 Jan  9 09:23 mfftabor
+drwxr-xr-x 25 kristan    kristan     4096 Jan 30 11:30 kristan
+drwxr-xr-x 65 ibarvik    ibarvik     4096 Feb  9 06:05 ibarvik
 
 
 
