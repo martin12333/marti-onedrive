@@ -472,6 +472,12 @@ file:///C:\Users\marti\OneDrive\Dokumenty\WindowsPowerShell\profile.ps1
 du C:\Users\marti\OneDrive\Dokumenty\WindowsPowerShell\
 du C:\Users\marti\OneDrive\Dokumenty\PowerShell
 
+cmd /c dir D:\umarti\one*
+
+1 Dir(s)   2,992,967,680 bytes free
+
+du D:\umarti\downloads----------------DOW-link
+explorer.exe  D:\umarti\downloads----------------DOW-link
 
 echo '-------- section END --------'
 # robocopy /L :: List only - don't copy, timestamp or delete any files'

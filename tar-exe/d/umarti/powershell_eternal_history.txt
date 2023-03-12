@@ -5459,3 +5459,30 @@ git push   -vv
 cd  ~/Run-selected-text--discussions.wiki
 git pull   -vv
 cd -
+pseudocode open a new terminal pane
+git commit -v -a -m fix
+git push   -vv
+dir D:\umarti\one*
+cmd /c dir D:\umarti\one*
+du D:\umarti\downloads----------------DOW-link
+explorer.exe  D:\umarti\downloads----------------DOW-link
+nuget
+Get-ExecutionPolicy
+$pshome
+$HOME
+$PROFILE
+$PROFILE.AllUsers*`
+
+$PROFILE| Get-Member AllUsers*
+$PROFILE| Get-Member *Users*
+$PROFILE| Get-Member *User*`
+$PROFILE| Get-Member *Users*`
+$PROFILE| Get-Member *User*
+$PROFILE| Get-Member *Users*
+$PROFILE| Get-Member *User
+$psp
+$PSHOME
+dotnet-interactive.exe --help
+dotnet.exe --help
+pkgmgr /?
+pkginfo.exe /?

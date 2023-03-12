@@ -2501,13 +2501,13 @@ $pshome
 $HOME
 cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | findstr -i pro
 $PROFILE
-$PROFILE.AllUsers*`
+$PROFILE.AllUsers*
 
-$PROFILE| Get-Member AllUsers*`
+$PROFILE| Get-Member AllUsers*
 
-$PROFILE| Get-Member *Users*`
+$PROFILE| Get-Member *Users*
 
-$PROFILE| Get-Member *User*`
+$PROFILE| Get-Member *User*
 
 $PROFILE| Get-Member *User
 $psp
@@ -4773,7 +4773,7 @@ PATHPING.EXE
 wsl -d Ubuntu-22.04
 history1324564=1 ; cat  D:\umarti\powershell_eternal_history.txt
 C:\pf\Git\bin\bash.exe
-pkgmgr
+pkgmgr /?
 telnet
 tftp
 wsl -d podman-machine-default
