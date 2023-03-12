@@ -19,6 +19,11 @@ D:\Users\milanlocal\alma-222-mb75-dee
 echo '-------- section --------'
 code alma-222\.bash_history
 
+
+cat ~/bcloudREADONLY/alma.txt
+
+
+
 history -a; history
 history -a;cp -iv ~/.bash_history ~/2229.hist ;history|grep ls
 

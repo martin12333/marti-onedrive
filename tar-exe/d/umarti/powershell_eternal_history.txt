@@ -5520,3 +5520,9 @@ git commit -v -a -m ...
 git push   -vv
 git commit -v -a -m ...
 git push   -vv
+git commit -v -a -m ...
+git push   -vv
+git show --name-only
+git show
+cat ~/bcloudREADONLY/alma.txt
+cat ~/bcloudREADONLY/alma.txt
