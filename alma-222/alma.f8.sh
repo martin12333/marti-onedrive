@@ -72,7 +72,9 @@ ls -ld .
 ll .
 
 history -a; history
-history -a;cp -iv ~/.bash_history ~/233c.history ;history|grep ls
+history -a;cp -iv ~/.bash_history ~/OLD/233c.history ;history|grep ls
+mv -iv   ~/233c.history  ~/OLD/233c.history
+y
 
 id
 
