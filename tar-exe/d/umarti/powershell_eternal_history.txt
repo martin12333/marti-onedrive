@@ -5492,3 +5492,15 @@ git commit -v -a -m " fix-comments"
 git log
 git commit -v -a -m "f8 with emojis[] fail if sent into a  PS7 terminal ??"
 git log
+git commit -v -a -m " emojis[] become  + errmsg if f8-sent into a  PS7 terminal ? "
+git commit -v -a -m " emojis[] become  + sometimes no errmsg if f8-sent into a  PS7 terminal ?? "
+git commit -v -a -m " emojis[] become ... + sometimes no errmsg if f8-sent into a  PS7 terminal ?? "
+git log
+echo "" | od -x
+c:\pf\git\bin\od
+c:\pf\git\usr\bin\od
+echo "" |c:\pf\git\usr\bin\od -x
+echo "" | od -x
+c:\pf\git\usr\bin\od -x <<eof
+"" |c:\pf\git\usr\bin\od -x
+"".length
