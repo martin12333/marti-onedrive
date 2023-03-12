@@ -41,62 +41,11 @@ history
 cp -iv .bash_history 1history
 
 
-sudo apt-get update
+#sudo apt-get update
 
 *** /dev/sda1 will be checked for errors at next reboot ***
 *** /dev/sda6 will be checked for errors at next reboot ***
 
-ls *roo*
-find . -iname '*roo*'
-sudo -i cat .bash_history | tee OLD/233c.roo.bash_history
-mv -iv 233c.roo.bash_history OLD/233c.roo.bash_history
-
-ls -ld .
-ll .
-
-history -a; history
-history -a;cp -iv ~/.bash_history ~/2229.hist ;history|grep ls
-
-id
-
-mc
-sudo -i mc
-sudo -i
-zsh
-ufw status
-ps -ef >ps-ef
-mount
-
-free -m
-df -m
-df --help
-df --inodes
-df --portability
-
-sfdisk --help
-sudo sfdisk --list | tee sfdisk--list
-sudo sfdisk --dump  -n|tee sfdisk--dump-n
-
-du -m /etc
-du -m /var/log
-du -m /root/
-
-cat .mysql_history|tee 2229.mysql
-
-netstat --listen >netstat--listen
-
-tar cvf ~/etc.tar etc/
-
-#tar cvf ~/var-log.tar var/log/
-sudo tar cvf /var-log.tar var/log/
-sudo chmod o-r var-log.tar
-sudo chown --verbose root:adm var-log.tar
-
-dmesg >dmesg
-dmesg |grep -i sda
-dmesg |grep -i sdb
-dmesg |grep -i sdc
-dmesg |grep -i sdd
 
 
 yyy6666667777
@@ -109,6 +58,100 @@ sudo adduser adminmmm adm
 sudo adduser adminmmm mm
 
 grep 'mmm' /var/log/auth.log
+
+
+
+
+
+ls *roo*
+find . -iname '*roo*'
+sudo -i cat .bash_history | tee OLD/233c.roo.bash_history
+mv -iv 233c.roo.bash_history OLD/233c.roo.bash_history
+
+ls -ld .
+ll .
+
+history -a; history
+history -a;cp -iv ~/.bash_history ~/233c.history ;history|grep ls
+
+id
+
+#winscp
+# not mc f5 in vscode
+mc
+sudo -i mc
+sudo -i
+zsh
+ufw status
+ps -ef >ps-ef
+mount
+
+free -m
+df -m
+
+
+Filesystem     1M-blocks   Used Available Use% Mounted on
+/dev/sda1          23468  16888      5388  76% /
+udev                 920      1       920   1% /dev
+tmpfs                186      3       184   2% /run
+none                   5      0         5   0% /run/lock
+none                 930      1       930   1% /run/shm
+/dev/sda6         909528 292644    570683  34% /home
+
+df --help
+df --inodes
+
+Filesystem       Inodes  IUsed    IFree IUse% Mounted on
+/dev/sda1       1525920 846955   678965   56% /
+udev             207329    510   206819    1% /dev
+tmpfs            212568    434   212134    1% /run
+none             212568      2   212566    1% /run/lock
+none             212568      5   212563    1% /run/shm
+/dev/sda6      59138048 349523 58788525    1% /home
+
+df --portability
+
+sfdisk --help
+sudo sfdisk --list | tee sfdisk--list
+sudo sfdisk --dump  -n|tee sfdisk--dump-n
+sudo sfdisk --dump  -n
+
+# partition table of /dev/sda
+unit: sectors
+/dev/sda1 : start=     2048, size= 48828125, Id=83, bootable
+/dev/sda2 : start= 48830462, size=1904693250, Id= 5
+/dev/sda3 : start=        0, size=        0, Id= 0
+/dev/sda4 : start=        0, size=        0, Id= 0
+/dev/sda5 : start=1941237760, size= 12285952, Id=82
+/dev/sda6 : start= 48830464, size=1892405248, Id=83
+
+
+
+
+
+du -m /etc
+du -m /var/log
+du -m /root/
+
+cat .mysql_history|tee 2229.mysql
+
+netstat --listen >netstat--listen
+
+tar cvf ~/etc.tar etc/
+
+#tar cvf ~/var-log.tar /var/log/
+tar cvf   OLD/neroot-233c--var-log.tar     /var/log/
+sudo tar cvf   OLD/233c--var-log.tar     /var/log/
+
+sudo chmod o-r var-log.tar
+sudo chown --verbose root:adm var-log.tar
+
+dmesg >dmesg
+dmesg |grep -i sda
+dmesg |grep -i sdb
+dmesg |grep -i sdc
+dmesg |grep -i sdd
+
 
 
 
