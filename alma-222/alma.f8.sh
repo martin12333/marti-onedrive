@@ -58,22 +58,37 @@ sudo chmod o-r var-log.tar
 sudo chown --verbose root:adm var-log.tar
 
 dmesg >dmesg
+dmesg |grep -i sda
+dmesg |grep -i sdb
+dmesg |grep -i sdc
+dmesg |grep -i sdd
 
 sudo adduser adminmmm adm
+sudo adduser adminmmm mm
 
 grep 'mmm' /var/log/auth.log
 
 
 
+grep 'syslog' .zsh_history
+grep 'syslog' .config/fish/fish_history
+grep 'kern.log' .config/fish/fish_history
+
+
+ip addr show
+
+
+
+chown --verbose
+chmod --verbose
+
+
+sudoers
 
 
 
 
-
-
-
-
-
+zgrep --ignore-case --extended-regexp    'sda' /var/log/*
 
 
 
