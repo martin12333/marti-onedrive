@@ -176,20 +176,20 @@ code ./dotfiles
 
 🌞^ 😋☺🙂 ☀ ☺☼⚙⛭⛮ 🌞 🌣🛪😲😊😋😌😁😃😄😆🙂😇🙏🙇😌
 
-	git commit -v -a -m "f8 with emojis[☀] fail if sent into a  PS7 terminal ??"
+	git commit -v -a -m "low emojis[☀] become emptystring if f8-sent into a  PS7 terminal "
 
-
-surrogate
+surrogate uD83C
 🌞
-	git commit -v -a -m "f8 with emojis[🌞] fail if sent into a  PS7 terminal ??"
+	git commit -v -a -m " emojis[🌞] become � + errmsg if f8-sent into a  PS7 terminal ? "
+
+	git commit -v -a -m "f8 with emojis[🌞] fail if f8-sent into a  PS7 terminal "
 Oops, something went wrong.
 Please report this bug with ALL the details below, including both the 'Environment' and 'Exception' sections.
 Please report on GitHub: https://github.com/PowerShell/PSReadLine/issues/new?template=Bug_Report.md
 System.Text.EncoderFallbackException: Unable to translate Unicode character \\uD83C at index 0 to specified code page.
 
-
-
-# OK in git bash
+# ☀ OK in git bash
+# 🌞 becomes �
 	git log
 q
 Date:   Sun Mar 12 01:57:14 2023 +0100
