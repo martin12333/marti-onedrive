@@ -214,6 +214,7 @@
 	"runme.shell.closeTerminalOnSuccess": false,
 	"update.mode": "manual",
 	"window.zoomLevel": 1,
+	"git.openRepositoryInParentFolders": "never",
 
 
 

@@ -5509,3 +5509,8 @@ git commit -v -a -m bug-found
 chcp
 chcp /?
 git commit -v -a -m bug-found
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+code backup-f8
+code alma-222\.bash_history
