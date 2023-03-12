@@ -182,6 +182,7 @@ surrogate uD83C
 🌞
 	git commit -v -a -m " emojis[🌞] become � + errmsg if f8-sent into a  PS7 terminal ? "
 	git commit -v -a -m " emojis[🌞] become � + sometimes no errmsg if f8-sent into a  PS7 terminal ?? "
+	git commit -v -a -m " emojis[🌞] become ... + sometimes no errmsg if f8-sent into a  PS7 terminal ?? "
 
 	git commit -v -a -m "f8 with emojis[🌞] fail if f8-sent into a  PS7 terminal "
 Oops, something went wrong.
