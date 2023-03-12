@@ -5490,3 +5490,4 @@ git add -vv  '*.f8.*'
 git commit -v -a -m add
 git commit -v -a -m " fix-comments"
 git log
+git commit -v -a -m "f8 with emojis[] fail if sent into a  PS7 terminal ??"

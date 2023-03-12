@@ -174,7 +174,10 @@ code ./dotfiles
 	git commit -v -a -m maybe-enhance
 	git commit -v -a -m important-test
 
-🌞^ 😋☺🙂 ☀☺☼⚙⛭⛮ 🌞 🌣🛪😲😊😋😌😁😃😄😆🙂😇🙏🙇😌
+🌞^ 😋☺🙂 ☀ ☺☼⚙⛭⛮ 🌞 🌣🛪😲😊😋😌😁😃😄😆🙂😇🙏🙇😌
+
+	git commit -v -a -m "f8 with emojis[☀] fail if sent into a  PS7 terminal ??"
+
 
 surrogate
 🌞
