@@ -5488,3 +5488,5 @@ pkgmgr /?
 pkginfo.exe /?
 git add -vv  '*.f8.*'
 git commit -v -a -m add
+git commit -v -a -m " fix-comments"
+git log

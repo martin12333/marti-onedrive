@@ -167,8 +167,6 @@ code ./dotfiles
 
 	git push   -vv
 
-
-
 	git commit -v -a -m fix
 	git commit -v -a -m "☀ fix-comments"
 	git commit -v -a -m patch-simplify-code
@@ -176,8 +174,19 @@ code ./dotfiles
 	git commit -v -a -m maybe-enhance
 	git commit -v -a -m important-test
 
-🌞^ 😋☺🙂 ☀☺☼⚙⛭⛮🌞🌣🛪😲😊😋😌😁😃😄😆🙂😇🙏🙇😌
+🌞^ 😋☺🙂 ☀☺☼⚙⛭⛮ 🌞 🌣🛪😲😊😋😌😁😃😄😆🙂😇🙏🙇😌
 
+	git commit -v -a -m "f8 with emojis[🌞] fail if sent into a  PS7 terminal ??"
+
+# OK in git bash
+	git log
+q
+Date:   Sun Mar 12 01:57:14 2023 +0100
+    ☀ fix-comments
+Date:   Sun Mar 12 01:55:40 2023 +0100
+     fix-comments
+
+todo see at github
 
 	git commit -v -a -m add
 	git add -vv  '*.f8.*'
