@@ -179,6 +179,10 @@ code ./dotfiles
 todo
 : 1651088089:0;while read -k 1 x ;do echo -n "$x"|od -x ; done
 
+chcp /?
+chcp
+where.exe chcp
+
 	git commit -v -a -m "low emojis[☀] become empty?string if f8-sent into a  PS7 terminal "
 
 surrogate uD83C

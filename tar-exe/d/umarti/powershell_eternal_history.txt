@@ -5504,3 +5504,5 @@ echo "" | od -x
 c:\pf\git\usr\bin\od -x <<eof
 "" |c:\pf\git\usr\bin\od -x
 "".length
+echo "" |c:\pf\git\usr\bin\od -x
+git commit -v -a -m bug-found
