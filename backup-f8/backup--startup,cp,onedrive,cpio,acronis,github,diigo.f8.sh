@@ -167,6 +167,8 @@ code ./dotfiles
 
 	git push   -vv
 
+
+
 	git commit -v -a -m fix
 	git commit -v -a -m "☀ fix-comments"
 	git commit -v -a -m patch-simplify-code
