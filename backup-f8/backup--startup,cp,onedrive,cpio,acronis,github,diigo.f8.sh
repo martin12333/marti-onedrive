@@ -255,12 +255,13 @@ pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mym
 	git show
 q
 
+
+	git add -vv  '*.f8.*'
+	git commit -v -a -m add
 	git push   -vv
 
 	git commit -v -a -m ...
-	git commit -v -a -m add
-
-	git add -vv  '*.f8.*'
+	git push   -vv
 
 	git add -vv  '*.code-wo*'
 

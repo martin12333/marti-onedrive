@@ -26,14 +26,14 @@ id
 
 mc
 sudo -i mc
-zsh
 sudo -i
-df -m
-df -m
+zsh
 ufw status
 ps -ef >ps-ef
 mount
 
+free -m
+df -m
 df --help
 df --inodes
 df --portability
@@ -62,6 +62,10 @@ dmesg |grep -i sda
 dmesg |grep -i sdb
 dmesg |grep -i sdc
 dmesg |grep -i sdd
+
+
+yyy6666667777
+
 
 sudo adduser adminmmm adm
 sudo adduser adminmmm mm
