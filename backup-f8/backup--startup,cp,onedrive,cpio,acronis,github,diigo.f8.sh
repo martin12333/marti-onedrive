@@ -176,7 +176,15 @@ code ./dotfiles
 
 🌞^ 😋☺🙂 ☀☺☼⚙⛭⛮ 🌞 🌣🛪😲😊😋😌😁😃😄😆🙂😇🙏🙇😌
 
+surrogate
+🌞
 	git commit -v -a -m "f8 with emojis[🌞] fail if sent into a  PS7 terminal ??"
+Oops, something went wrong.
+Please report this bug with ALL the details below, including both the 'Environment' and 'Exception' sections.
+Please report on GitHub: https://github.com/PowerShell/PSReadLine/issues/new?template=Bug_Report.md
+System.Text.EncoderFallbackException: Unable to translate Unicode character \\uD83C at index 0 to specified code page.
+
+
 
 # OK in git bash
 	git log
