@@ -32,8 +32,13 @@ This key is not known by an'
 yes
 ssh-rsa 2048 ftR0mwVG5ux1a4H1WueU8CqH7SWq1RKLUEgWg83oS68
 ssh-rsa 2048 31:46:37:92:06:e6:f4:6b:05:62:fa:83:21:e3:c0:47
+
 to connect wout adding
 
+
+
+history
+cp -iv .bash_history 1history
 
 
 sudo apt-get update
@@ -95,7 +100,10 @@ dmesg |grep -i sdd
 
 
 yyy6666667777
-
+sudo adduser adminmmm
+sudo adduser adminmmm sudo
+88888888yyyyyyy
+echo wsl ubu kopie obrazovky
 
 sudo adduser adminmmm adm
 sudo adduser adminmmm mm
