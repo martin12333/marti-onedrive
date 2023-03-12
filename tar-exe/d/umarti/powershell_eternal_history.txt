@@ -5526,3 +5526,18 @@ git show --name-only
 git show
 cat ~/bcloudREADONLY/alma.txt
 cat ~/bcloudREADONLY/alma.txt
+cmd /c mklink /j ~/bcloudREADONLY  C:\Users\marti\OneDrive\bcloudREADONLY
+cmd /c mklink /j ~\bcloudREADONLY  C:\Users\marti\OneDrive\bcloudREADONLY
+echo $HOME
+cmd /c mklink /j $HOME\bcloudREADONLY  C:\Users\marti\OneDrive\bcloudREADONLY
+cat ~/bcloudREADONLY/alma.txt
+git add -vv  '*.f8.*'
+git add -vv  '*.f8.*'
+cd
+cd ~/OneDrive
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+where.exe ssh
+echo   $(cat ~/bcloudREADONLY/alma.txt)
+ssh  $(cat ~/bcloudREADONLY/alma.txt)

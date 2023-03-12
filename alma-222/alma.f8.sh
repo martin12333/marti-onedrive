@@ -22,7 +22,32 @@ code alma-222\.bash_history
 
 cat ~/bcloudREADONLY/alma.txt
 
+where.exe ssh
 
+echo   $(cat ~/bcloudREADONLY/alma.txt)
+ssh  $(cat ~/bcloudREADONLY/alma.txt)
+'alma.karlov.mff.cuni.cz (195.113.34.132)' can't be established.
+RSA key fingerprint is SHA256:ftR0mwVG5ux1a4H1WueU8CqH7SWq1RKLUEgWg83oS68.
+This key is not known by an'
+yes
+ssh-rsa 2048 ftR0mwVG5ux1a4H1WueU8CqH7SWq1RKLUEgWg83oS68
+ssh-rsa 2048 31:46:37:92:06:e6:f4:6b:05:62:fa:83:21:e3:c0:47
+to connect wout adding
+
+
+
+sudo apt-get update
+
+*** /dev/sda1 will be checked for errors at next reboot ***
+*** /dev/sda6 will be checked for errors at next reboot ***
+
+ls *roo*
+find . -iname '*roo*'
+sudo -i cat .bash_history | tee OLD/233c.roo.bash_history
+mv -iv 233c.roo.bash_history OLD/233c.roo.bash_history
+
+ls -ld .
+ll .
 
 history -a; history
 history -a;cp -iv ~/.bash_history ~/2229.hist ;history|grep ls
