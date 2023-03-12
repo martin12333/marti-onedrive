@@ -5506,3 +5506,6 @@ c:\pf\git\usr\bin\od -x <<eof
 "".length
 echo "" |c:\pf\git\usr\bin\od -x
 git commit -v -a -m bug-found
+chcp
+chcp /?
+git commit -v -a -m bug-found
