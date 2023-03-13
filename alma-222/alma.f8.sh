@@ -31,13 +31,8 @@ where.exe ssh
 
 echo   $(cat ~/bcloudREADONLY/alma.txt)
 ssh  $(cat ~/bcloudREADONLY/alma.txt)
-'alma.karlov.mff.cuni.cz (195.113.34.132)' can't be established.
-RSA key fingerprint is SHA256:ftR0mwVG5ux1a4H1WueU8CqH7SWq1RKLUEgWg83oS68.
-This key is not known by an'
-yes
-ssh-rsa 2048 ftR0mwVG5ux1a4H1WueU8CqH7SWq1RKLUEgWg83oS68
-ssh-rsa 2048 31:46:37:92:06:e6:f4:6b:05:62:fa:83:21:e3:c0:47
 
+yes
 to connect wout adding
 
 
