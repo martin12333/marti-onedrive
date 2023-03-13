@@ -14,7 +14,8 @@ code backup-f8
 C:\Users\milan_rxtipwr\OneDrive\alma-222-mi75
 D:\Users\milanlocal\alma-222-mb75-dee
 
-
+C:\Users\marti\OneDrive\alma-222\alma.f8.sh
+C:\Users\marti\OneDrive\alma-222\nef8.sh
 
 echo '-------- section --------'
 code alma-222\.bash_history
