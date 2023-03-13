@@ -5568,3 +5568,5 @@ git push   -vv
 git show --name-only
 git show
 git commit -v -a -m ...
+git commit -v -a -m fix
+git push   -vv

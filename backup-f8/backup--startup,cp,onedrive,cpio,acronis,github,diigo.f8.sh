@@ -222,10 +222,10 @@ Date:   Sun Mar 12 01:55:40 2023 +0100
 
 todo see the commit log at github
 
+	git add -vv  '*.f8.*'
+	git commit -v -a -m add
 	git push   -vv
 
-	git commit -v -a -m add
-	git add -vv  '*.f8.*'
 	git commit -v -a -m  rename
 	git commit -v -a -m  move
 	git commit -v -a -m  rewrite
