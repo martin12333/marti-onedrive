@@ -266,6 +266,7 @@ pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mym
 	git show
 q
 
+
 	git add -vv  '*.code-wo*'
 
 C:\pf\Git\bin\bash.exe

@@ -16,6 +16,10 @@ D:\Users\milanlocal\alma-222-mb75-dee
 
 C:\Users\marti\OneDrive\alma-222\alma.f8.sh
 C:\Users\marti\OneDrive\alma-222\nef8.sh
+C:\Users\marti\OneDrive\alma-222\create_backup.sh
+
+
+
 
 echo '-------- section --------'
 code alma-222\.bash_history
