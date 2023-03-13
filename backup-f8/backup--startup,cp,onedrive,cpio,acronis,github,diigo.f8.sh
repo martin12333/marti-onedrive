@@ -152,6 +152,7 @@ code ./dotfiles
 	git commit -v -a -m win-x-admin
 	git commit -v -a -m add
 
+	git commit -v -a -m ...
 	git push   -vv
 
 	git commit -v -a -m backup-scripts--edited---
@@ -165,9 +166,10 @@ code ./dotfiles
 	git commit -v -a -m security
 	git commit -v -a -m "😲 SECURITY"
 
-	git push   -vv
 
 	git commit -v -a -m fix
+	git push   -vv
+
 	git commit -v -a -m "☀ fix-comments"
 	git commit -v -a -m patch-simplify-code
 	git commit -v -a -m false-alarm

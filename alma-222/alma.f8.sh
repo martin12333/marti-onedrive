@@ -58,6 +58,10 @@ echo wsl ubu kopie obrazovky
 sudo adduser adminmmm adm
 sudo adduser adminmmm mm
 
+
+
+find . -mtime -60 -iname "*histo*"   2>~/OLD/2
+
 grep 'mmm' /var/log/auth.log
 
 
