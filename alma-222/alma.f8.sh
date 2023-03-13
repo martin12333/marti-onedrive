@@ -39,7 +39,7 @@ to connect wout adding
 
 
 history
-cp -iv .bash_history 1history
+cp -iv .bash_history OLD/1history
 
 
 #sudo apt-get update
