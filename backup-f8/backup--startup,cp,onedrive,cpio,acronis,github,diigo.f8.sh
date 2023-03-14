@@ -226,6 +226,9 @@ todo see the commit log at github
 	git commit -v -a -m add
 	git push   -vv
 
+	git commit -v -a -m ...
+	git push   -vv
+
 	git commit -v -a -m  rename
 	git commit -v -a -m  move
 	git commit -v -a -m  rewrite
