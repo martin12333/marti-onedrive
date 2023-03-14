@@ -17,6 +17,11 @@ https://www.quora.com/What-should-I-do-about-my-neighbors-wind-chimes-Our-neighb
 
 
 
+https://www.windchimescorner.co.uk/blog/annoying-wind-chimes
+
+What can be done to make wind chimes quieter?
+
+
 
 https://en.wikipedia.org/wiki/Wind_chime
 
@@ -29,7 +34,10 @@ V některých částech Asie jsou větrné zvonkohry považovány za štěstí a
 
 
 https://en.wikipedia.org/wiki/Talk:Wind_chime
+
 Having to listen to your neighbours wind chimes is psychological torture. 
+
 Poslouchat zvonění větru je psychické mučení. 
+
 Слушать колокольчики соседей — психологическая пытка.  11:54, 7 июня 2009 г. (UTC)
 
