@@ -91,21 +91,6 @@ to a shell or an interpreter.
 
 
 
-
-
-```diff
-using the code block with diff to show some colors
-
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-
-```
-
-
-
 ; also dotfiles, shell histories
 
 

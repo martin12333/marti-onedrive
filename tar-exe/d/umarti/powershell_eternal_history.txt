@@ -5570,3 +5570,6 @@ git show
 git commit -v -a -m ...
 git commit -v -a -m fix
 git push   -vv
+git add -vv  '*.f8.*'
+git commit -v -a -m  rename
+git push   -vv
