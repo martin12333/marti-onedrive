@@ -39,9 +39,8 @@ $Env:Path   -split ';'
 C:\Windows\System32\OpenSSH\ssh.exe  martinmilan@sdf.org
 C:\Windows\System32\OpenSSH\ssh.exe   $(cat ~/bcloudREADONLY/alma.txt)
 
-
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
 yes
-to connect wout adding
 
 
 

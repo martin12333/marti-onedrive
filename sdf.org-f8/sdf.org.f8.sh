@@ -9,12 +9,6 @@ exit
 
 echo '-------- section --------'
 
-# i use  a container
-podman machine start
-
-podman start   -ai    cmy22b
-
-echo '-------- section --------'
 
 
 
@@ -42,6 +36,13 @@ p
 
 to create your URL http://martinmilan.freeshell.org, type 'mkhomepg'
 To create your URL http://martinmilan.freeshell.org, type 'addlink'
+
+#less  /var/log/httpd/*.log
+
+#webquota
+##ps -ef | grep http
+man httpd
+##httpd -v
 
 
 
@@ -175,7 +176,9 @@ arpa
 '
  600mb total / 20000 files in four areas
  gcc, perl, php, python, ruby, et cetera
- (type 'software arpa' for a complete list of programs)
+ (type '
+ software arpa
+' for a complete list of programs)
 Be sure to include your user id of 'martinmilan'
 
 my
