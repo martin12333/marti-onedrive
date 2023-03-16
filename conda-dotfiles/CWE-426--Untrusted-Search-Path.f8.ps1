@@ -34,7 +34,14 @@ D:\conda\condabin
 
 
 
+where.exe ssh
+$Env:Path
 
+
+D:\conda
+$Env:Path
+where.exe ssh
+C:\Windows\System32\OpenSSH\ssh.exe    dgdgfdgfdgfd
 
 
 
