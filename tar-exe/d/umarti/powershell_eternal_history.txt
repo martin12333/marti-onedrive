@@ -5585,3 +5585,16 @@ git push   -vv
 git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push   -vv
+git commit -v -a -m ...
+git push   -vv
+where.exe ssh
+$Env:Path
+$env:Path -split ';'
+ls C:\Users\marti\.dotnet\tools
+ls D:\instu\vscode\bin
+ls C:\Users\marti\AppData\Roaming\npm
+ls C:\Users\marti\AppData\Local\Microsoft\WindowsApps
+& 'D:\conda\shell\condabin\conda-hook.ps1'
+$env:Path -split ';'
+$env:CONDA_EXE
+git add -vv  '*.f8.*'

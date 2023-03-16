@@ -89,6 +89,7 @@ git add -v  "C:\Users\marti\OneDrive\wiki-f8\zzzexperim--rdoc.rdoc"   "C:\Users\
 	git add -vv        '*s/.gitignore'  '*s/*install*.sh'   '*r/.zshrc'
 
 	##    '*f8.*'
+cd ~/OneDrive
 	git add -vv  '*.f8.*'
 	#git add -vv         --dry-run       '*.f8.*'
 
@@ -109,6 +110,7 @@ C:\pf\Git\bin\bash.exe
 code ./dotfiles
 #
 
+cd ~/OneDrive
 	git add -vv  '*.f8.*'
 	git add -vv  'podman-container/*create*.sh'
 	git add -vv --dry-run '*/*docker-create*.sh'
@@ -137,6 +139,7 @@ code ./dotfiles
 	git add -vv   '*/*config.mk'
 
 
+cd ~/OneDrive
 	git add -vv  '*.f8.*'
 	git commit -v -a -m add
 	git push
@@ -222,6 +225,8 @@ Date:   Sun Mar 12 01:55:40 2023 +0100
 
 todo see the commit log at github
 
+
+cd ~/OneDrive
 	git add -vv  '*.f8.*'
 	git commit -v -a -m add
 	git push   -vv

@@ -21,9 +21,13 @@ echo 'myconda-codeps1'
 
 sleep 10 #60
 
-& 'D:\conda\shell\condabin\conda-hook.ps1'
 
-conda activate 'D:\conda'
+# file:///C:\Users\marti\OneDrive\conda-dotfiles\CWE-426--Untrusted-Search-Path.f8.ps1
+echo CWE-426--Untrusted-Search-Path
+#& 'D:\conda\shell\condabin\conda-hook.ps1'
+#conda activate 'D:\conda'
+
+
 sleep 20
 
 #echo 'todo: code . '

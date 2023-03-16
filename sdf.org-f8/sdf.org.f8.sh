@@ -24,8 +24,8 @@ echo '-------- section --------'
 
 
 
-
-
+D:\conda
+$Env:Path
 where.exe ssh
 C:\Windows\System32\OpenSSH\ssh.exe
 
