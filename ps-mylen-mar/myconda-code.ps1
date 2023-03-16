@@ -22,6 +22,7 @@ echo 'myconda-codeps1'
 sleep 10 #60
 
 
+
 # file:///C:\Users\marti\OneDrive\conda-dotfiles\CWE-426--Untrusted-Search-Path.f8.ps1
 echo CWE-426--Untrusted-Search-Path
 #& 'D:\conda\shell\condabin\conda-hook.ps1'
