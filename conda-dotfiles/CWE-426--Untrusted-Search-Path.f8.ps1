@@ -35,13 +35,13 @@ D:\conda\condabin
 
 
 where.exe ssh
-$Env:Path
+$Env:Path   -split ';'
+C:\Windows\System32\OpenSSH\ssh.exe  martinmilan@sdf.org
+C:\Windows\System32\OpenSSH\ssh.exe   $(cat ~/bcloudREADONLY/alma.txt)
 
 
-D:\conda
-$Env:Path
-where.exe ssh
-C:\Windows\System32\OpenSSH\ssh.exe    dgdgfdgfdgfd
+yes
+to connect wout adding
 
 
 

@@ -26,13 +26,10 @@ code alma-222\.bash_history
 
 
 cat ~/bcloudREADONLY/alma.txt
-
-where.exe ssh
-$Env:Path
-
 echo   $(cat ~/bcloudREADONLY/alma.txt)
 
-### ssh $Env:Path
+where.exe ssh
+$Env:Path   -split ';'
 C:\Windows\System32\OpenSSH\ssh.exe   $(cat ~/bcloudREADONLY/alma.txt)
 
 yes

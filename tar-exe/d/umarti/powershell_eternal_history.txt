@@ -5607,3 +5607,12 @@ git push   -vv
 $env:Path -split ';'
 git commit -v -a -m fix
 git push   -vv
+git commit -v -a -m ...
+git push   -vv
+git commit -v -a -m fix
+git push   -vv
+where.exe ssh
+$Env:Path   -split ';'
+where.exe ssh
+$Env:Path   -split ';'
+C:\Windows\System32\OpenSSH\ssh.exe  martinmilan@sdf.org

@@ -23,23 +23,25 @@ echo '-------- section --------'
 
 
 
-
-D:\conda
-$Env:Path
 where.exe ssh
-C:\Windows\System32\OpenSSH\ssh.exe
-
-#ssh new@sdf.org
-ssh  martinmilan@sdf.org
+$Env:Path   -split ';'
+C:\Windows\System32\OpenSSH\ssh.exe  martinmilan@sdf.org
+##ssh new@sdf.org
+##ssh  martinmilan@sdf.org
 #######ssh  martinmilan@sdfeu.sdf.org
-#ssh  martinmilan@tty.sdf.org
+##ssh  martinmilan@tty.sdf.org
 yes
+
+
+
+
 
 notes -r
 
+p
 
-
-
+to create your URL http://martinmilan.freeshell.org, type 'mkhomepg'
+To create your URL http://martinmilan.freeshell.org, type 'addlink'
 
 
 
