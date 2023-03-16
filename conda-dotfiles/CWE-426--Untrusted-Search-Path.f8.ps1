@@ -8,6 +8,8 @@ echo CWE-426--Untrusted-Search-Path
 #conda activate 'D:\conda'
 
 
+CWE-426--Untrusted-Search-Path
+CWE-427: Uncontrolled Search Path Element
 
 CWE
 What Is CWE?
@@ -17,17 +19,7 @@ Common Weakness Enumeration
 
 
 
-
-
-
-
-
-
-
-
-
 $env:Path -split ';'
-
 
 
 D:\conda
@@ -37,6 +29,24 @@ D:\conda\Library\bin
 D:\conda\Scripts
 D:\conda\bin
 D:\conda\condabin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

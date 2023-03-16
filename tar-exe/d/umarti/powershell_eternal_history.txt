@@ -5598,3 +5598,10 @@ ls C:\Users\marti\AppData\Local\Microsoft\WindowsApps
 $env:Path -split ';'
 $env:CONDA_EXE
 git add -vv  '*.f8.*'
+cd ~/OneDrive
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+git commit -v -a -m " SECURITY"
+git push   -vv
+$env:Path -split ';'
