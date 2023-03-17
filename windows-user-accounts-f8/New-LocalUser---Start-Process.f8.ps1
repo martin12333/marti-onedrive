@@ -14,6 +14,10 @@ wt.exe
 
 file:///D:\umarti\powershell_eternal_history.txt
 
+
+
+$username = 'micha'
+
 $username = 'userklic'
 $pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
 $Password=ConvertTo-SecureString $pass -AsPlainText -Force -Verbose
@@ -104,9 +108,14 @@ $password = ConvertTo-SecureString "LazyAdminPwd123!" -AsPlainText -Force  # Sup
 
 
 
+$username = 'micha'
+$username = 'userklic'
 
+net user $username
 
 Get-LocalUser
+$x=Get-LocalUser -Name $username
+$x.
 
 -WhatIf
 

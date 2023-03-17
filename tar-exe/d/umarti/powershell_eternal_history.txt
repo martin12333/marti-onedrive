@@ -5618,3 +5618,17 @@ $Env:Path   -split ';'
 C:\Windows\System32\OpenSSH\ssh.exe  martinmilan@sdf.org
 git commit -v -a -m fix
 git push   -vv
+git commit -v -a -m fix
+Get-LocalUser
+$username = 'micha'
+Get-LocalUser -Name $username
+$x=Get-LocalUser -Name $username
+$x.AccountExpires
+$x.FullName
+net user $username
+cmd /c dir /a C:\ProgramData
+icacls.exe C:\Users\Public\Desktop
+icacls.exe C:\Users\Public\
+explorer.exe  C:\Users\Public\
+cd ~/OneDrive
+git add -vv  '*.f8.*'
