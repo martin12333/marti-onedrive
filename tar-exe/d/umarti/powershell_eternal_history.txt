@@ -5632,3 +5632,5 @@ icacls.exe C:\Users\Public\
 explorer.exe  C:\Users\Public\
 cd ~/OneDrive
 git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
