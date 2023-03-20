@@ -5666,3 +5666,34 @@ git push   -vv
 $OutputEncoding
 git clone https://github.com/martin12333/unicode-in-windows-in-git-repo.git
 code unicode-in-windows-in-git-repo
+git add C:\Users\marti\OneDrive\unicode-in-windows-in-git-repo\unicode-in-windows-in-git-repo.f8.sh
+git commit -v -a -m add
+git push
+git add C:\Users\marti\OneDrive\unicode-in-windows-in-git-repo\unicode-in-windows-in-git-repo.f8.sh
+git commit -v -a -m "smile-in-commit-msg@@thru-pwsh"
+git push
+code "C:\Users\marti\OneDrive\unicode-in-windows-in-git-repo\.git\COMMIT_EDITMSG"
+code "C:\Users\marti\OneDrive\unicode-in-windows-in-git-repo\.git\logs\HEAD"
+code "C:\Users\marti\OneDrive\unicode-in-windows-in-git-repo\.git\logs\refs\heads\main"
+code "C:\Users\marti\OneDrive\unicode-in-windows-in-git-repo\.git\COMMIT_EDITMSG"
+code "C:\Users\marti\OneDrive\unicode-in-windows-in-git-repo\.git\COMMIT_EDITMSG"
+code "C:\Users\marti\OneDrive\unicode-in-windows-in-git-repo\.git\logs\HEAD"
+code "C:\Users\marti\OneDrive\unicode-in-windows-in-git-repo\.git\logs\refs\heads\main"
+mkdir data
+printf 'a' > data/letter.txt
+echo  'a' > data/letter.txt
+git add data/letter.txt
+mkdir alpha
+mkdir git-from-the-inside-out
+cd git-from-the-inside-out
+mkdir alpha
+cd alpha
+code .
+cd ..
+code .
+git init
+printf 'a' > letter.txt
+echo 'a' > letter.txt
+git add -v .
+git init
+git add -v .
