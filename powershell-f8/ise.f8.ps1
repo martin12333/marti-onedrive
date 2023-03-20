@@ -11,7 +11,6 @@ chcp
 
 echo "alt1..9☺☻♥♦♣♠•◘○"
 
-echo 
-☻☺♥♦☺
+[System.Text.Encoding]::Default
 
 

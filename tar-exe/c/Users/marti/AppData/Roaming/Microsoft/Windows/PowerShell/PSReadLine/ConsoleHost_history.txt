@@ -3297,3 +3297,5 @@ $psUnsupportedConsoleApplications
 conda activate base
 echo "alt1"
 echo "alt1..9.."
+[System.Text.Encoding]::Default.EncodingName
+[System.Text.Encoding]::Default

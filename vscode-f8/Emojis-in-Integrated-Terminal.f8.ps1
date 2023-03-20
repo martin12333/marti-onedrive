@@ -11,6 +11,12 @@ exit
 echo "alt1..9☺☻♥♦♣♠•◘○"
 fails only in powershell (5,7)
 
+
+chcp
+[System.Text.Encoding]::Default
+☺☻
+
+
 ☺☻☺☺☺☺☺
 ☺☺☺☺☺☺☺
 ☺☻☻☻♠♣♠○○☺☻♥☺
@@ -21,7 +27,6 @@ todo
 : 1651088089:0;while read -k 1 x ;do echo -n "$x"|od -x ; done
 
 chcp /?
-chcp
 where.exe chcp
 
 cmd /?
