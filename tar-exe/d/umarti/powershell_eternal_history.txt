@@ -5654,3 +5654,5 @@ echo alt11
 echo "alt11"
 conda activate base
 echo "alt1"
+git commit -v -a -m ...
+git push   -vv

@@ -3296,3 +3296,4 @@ cmd /c dir /a /s
 $psUnsupportedConsoleApplications
 conda activate base
 echo "alt1"
+echo "alt1..9.."

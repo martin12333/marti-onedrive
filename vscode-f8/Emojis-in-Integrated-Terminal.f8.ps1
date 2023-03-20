@@ -8,7 +8,7 @@ exit
 
 ♣♠•00◘○♣♣☻☺
 
-echo "alt1..9☺☻♥♦..○"
+echo "alt1..9☺☻♥♦♣♠•◘○"
 fails only in powershell (5,7)
 
 ☺☻☺☺☺☺☺
