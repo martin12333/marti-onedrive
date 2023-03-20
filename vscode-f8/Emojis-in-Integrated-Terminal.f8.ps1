@@ -14,8 +14,9 @@ fails only in powershell (5,7)
 
 chcp
 [System.Text.Encoding]::Default
+$OutputEncoding 
 ☺☻
-
+♣♣
 
 ☺☻☺☺☺☺☺
 ☺☺☺☺☺☺☺

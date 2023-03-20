@@ -5661,3 +5661,8 @@ git commit -v -a -m add
 git push   -vv
 [System.Text.Encoding]::Default
 chcp
+git commit -v -a -m discovery
+git push   -vv
+$OutputEncoding
+git clone https://github.com/martin12333/unicode-in-windows-in-git-repo.git
+code unicode-in-windows-in-git-repo
