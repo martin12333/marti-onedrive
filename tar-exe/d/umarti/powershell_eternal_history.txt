@@ -5697,3 +5697,8 @@ echo 'a' > letter.txt
 git add -v .
 git init
 git add -v .
+cd ..
+git log
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv

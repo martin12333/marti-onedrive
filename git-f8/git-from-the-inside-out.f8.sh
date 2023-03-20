@@ -18,3 +18,9 @@ echo 'a' > letter.txt
 git add -v .
 
 git log
+
+
+
+git cat-file -p   a1c672f12ee4403b2af792d01c207ed24c2ae373
+
+
