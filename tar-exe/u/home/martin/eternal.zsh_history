@@ -653,3 +653,6 @@ done}| grep -i '[.]wasm$'
 : 1678398540:0;man git-restore
 : 1678398607:0;man git-checkout
 : 1678398748:0;man git-switch
+: 1679287677:0;D:/conda/Scripts/activate
+: 1679287677:0;conda activate base
+: 1679287679:0;echo "alt1âƒ¸ºâƒ¸»âƒ¹¥âƒ¹¦"

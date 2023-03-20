@@ -6,6 +6,16 @@ exit
 🌞^ 😋☺🙂 ☀ ☺☼⚙⛭⛮ 🌞 🌣🛪😲😊😋😌😁😃😄😆🙂😇🙏🙇😌
 
 
+♣♠•00◘○♣♣☻☺
+
+echo "alt1..9☺☻♥♦..○"
+fails only in powershell (5,7)
+
+☺☻☺☺☺☺☺
+☺☺☺☺☺☺☺
+☺☻☻☻♠♣♠○○☺☻♥☺
+☺☻♥♦♣
+♣♠•00◘○♣♣☻☺
 
 todo
 : 1651088089:0;while read -k 1 x ;do echo -n "$x"|od -x ; done
@@ -13,6 +23,9 @@ todo
 chcp /?
 chcp
 where.exe chcp
+
+cmd /?
+|findstr.exe "[/]s"
 
 
 git commit -v -a -m "low emojis[☀] become empty?string if f8-sent into a  PS7 terminal "
@@ -70,7 +83,7 @@ Date:   Sun Mar 12 01:57:14 2023 +0100
 Date:   Sun Mar 12 01:55:40 2023 +0100
 	fix-comments
 
-todo see the commit log at github
+see the commit log at github
 
 
 

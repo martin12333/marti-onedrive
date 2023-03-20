@@ -5643,3 +5643,14 @@ git commit -v -a -m add
 git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push
+conda activate base
+git commit -v -a -m  refactor
+git push   -vv
+chcp /?
+chcp
+where.exe chcp
+cmd /?
+echo alt11
+echo "alt11"
+conda activate base
+echo "alt1"

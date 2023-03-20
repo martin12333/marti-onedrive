@@ -3294,3 +3294,5 @@ dir
 dir /a /s
 cmd /c dir /a /s
 $psUnsupportedConsoleApplications
+conda activate base
+echo "alt1"
