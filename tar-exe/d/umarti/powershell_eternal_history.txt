@@ -5155,7 +5155,7 @@ npm
 Get-PSReadLineKeyHandler -Chord 'UpArrow', 'DownArrow', 'F8', 'Shift-F8', 'F2'
 idle --help
 idle -n
-idle 
+idle
 spyder.exe
 spyder.exe --help
 spyder.exe --debug-output
@@ -5165,7 +5165,7 @@ conhost.exe /help
 conhost.exe /h
 conhost.exe cmd
 conhost.exe cmd /c dir
-conhost.exe 
+conhost.exe
 conhost.exe cmd /c dir c:\windows\system32
 code .
 cmd /c dir C:\Windows.old
@@ -5705,3 +5705,65 @@ git push   -vv
 git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push   -vv
+git commit -v -a -m ...
+echo "" |c:\pf\git\usr\bin\od -x
+echo "" |c:\pf\git\usr\bin\od -A x -t x1z -v
+"" |c:\pf\git\usr\bin\od -A x -t x1z -v
+chcp
+$PSVersionTable
+chcp
+[System.Text.Encoding]::Default
+[System.Console]::InputEncoding
+[System.Console]::OutputEncoding
+[System.Console]::InputEncoding
+[System.Console]::OutputEncoding
+[System.Console]::InputEncoding
+[System.Console]::OutputEncoding
+$InputEncoding
+$OutputEncoding
+$InputEncoding
+[System.Console]::OutputEncoding
+[System.Console]::InputEncoding
+[System.Text.Encoding]::Default
+$In$input
+$input
+[System.Text.Encoding]::ASCII
+[System.Text.Encoding]::Latin1
+[System.Text.Encoding]::Unicode
+[System.Text.Encoding]::UTF7
+[System.Text.Encoding]::UTF8
+[System.Console]::InputEncoding
+$x="☀"
+$x.EnumerateRunes()
+conda activate base
+$x="☀"
+$x.EnumerateRunes()
+$y="☀☀"
+$y=""
+conda activate base
+$y="☀☀"
+$y.EnumerateRunes()
+$x.ToCharArray()
+$y.ToCharArray()
+$z=$y[0]
+$z
+$z.ToChar()
+$z.ToChar(9785)
+$z.GetType()
+$z.ToInt32()
+[char]::Get[char]::GetNumericValue('7')     GetNumericValue     GetUnicodeCategory
+[char]::GetNumericValue('7')     GetNumericValue     GetUnicodeCategory
+[char]::GetNumericValue('7')
+[char]::GetNumericValue('s')
+[char]::MaxValue
+$y.gete
+$y.GetEnumerator()
+$y.getenuerator()
+$y.getenumerator()
+$x="ěščřřžáý=='';<>/;\;[]-=)(*&^!`)"
+$x="ěščřřžáý'';<>/;\;[]-=)(*&^!`)"
+$x="ěščřřžáý!`)"
+$x="ěščřřžáý"
+$x="ěščřřžáýů"
+node
+python

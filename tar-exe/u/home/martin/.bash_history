@@ -63,3 +63,4 @@ ipconfig --all
 ifconfig --all
 man arp| grep -- -a
 apt search game  bash
+"🌞".length
