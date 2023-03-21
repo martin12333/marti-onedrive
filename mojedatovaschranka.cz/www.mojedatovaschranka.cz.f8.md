@@ -58,5 +58,32 @@ https://www.mojedatovaschranka.cz/portal/ISDS/nastaveni/informace/osobni
 
 
 
+https://www.mojedatovaschranka.cz/portal/ISDS/nastaveni/dudz/kredit/form/2
+Zadané nastavení
+Kapacita:
+20 zpráv
+Platí od:
+16. 05. 2023
+Platí do:
+15. 05. 2024
+Zbývající kredit:
+1080,00 Kč
+❮ ZPĚT
+
+Datový trezor automaticky uchovává datové zprávy ve schránce i po 90 dnech, takže už nepřijdete o žádnou důležitou zprávu. Datové zprávy uložené v Datovém trezoru neztrácejí svoji platnost.
+
+https://www.mojedatovaschranka.cz/portal/ISDS/nastaveni/dudz/kredit
+
+Informace o stavu trezoru
+ Bude aktivován za 56 dní
+Budoucí stav
+Kapacita:
+20 zpráv
+Zaplaceno od:
+16. 05. 2023
+Zaplaceno do:
+15. 05. 2024
+Uhrazeno:
+Ano
 
 
