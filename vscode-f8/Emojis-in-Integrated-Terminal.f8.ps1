@@ -3,14 +3,18 @@ exit
 
 
 
-🌞^ 😋☺🙂 ☀ ☺☼⚙⛭⛮ 🌞 🌣🛪😲😊😋😌😁😃😄😆🙂😇🙏🙇😌
+🌞
+
+^ 😋☺🙂 ☀ ☺☼⚙⛭⛮ 🌞 🌣🛪😲😊😋😌😁😃😄😆🙂😇🙏🙇😌
 
 
-♣♠•00◘○♣♣☻☺
+♣
+♠•
+00◘○♣♣☻☺
 
 echo "alt1..9☺☻♥♦♣♠•◘○"
 fails only in powershell (5,7)
-
+"A・B"
 
 $PSVersionTable
 chcp
@@ -29,7 +33,10 @@ chcp
 $OutputEncoding
 #$input
 
+)
 
+#no help
+$OutputEncoding = [console]::InputEncoding = [console]::OutputEncoding =                     New-Object System.Text.UTF8Encoding
 
 
 
@@ -196,3 +203,127 @@ see the commit log at github
 
 "  ◙   25D9  ♂   2642  ♀   2640  ♪   266A  ♫[b]   266B  ☼   263C   1x   16  ►   25BA  ◄   25C4  ↕   2195  ‼   203C  ¶      00B6  §   00A7  ▬   25AC  ↨   21A8  ↑   2191  ↓   2193  →   2192  ←   2190  ∟   221F  ↔   2194  ▲   25B2  ▼   25BC      ⌂      [d]   2302         00BF  ⌐   2310  ¬      00AC  ½   00BD  ¼   00BC  ¡   00A1  «   00AB  »   00BB   Bx   176  ░   2591  ▒   2592  ▓              ║   2551        ┴   2534  ┬   252C      ├   251C     ─   2500  ┼   253C      ╞   255E  ╟   255F  ╚   255A  ╔   2554      ╩   2569  ╦   2566   ╠   2560     ═   2550  ╬   256C  ╧   2567      Dx   208  ╨   2568     ╤   2564  ╥   2565         ╫   256B  ╪   256A        █   2588  ▄   2584  ▌   258C  ▐   2590  ▀   2580         ∩   2229   Fx   240  ≡   2261  ±   00B1      ≥   2265  ≤   2264      ÷   00F7  ≈   2248  °   00B0  ∙[o]   2219  ·   00B7         ■   25A0  nbsp[q]   00A0      "
 
+
+
+
+[char]::ConvertFromUtf32(0x1F3DE)
+
+$Heart = [char]0x2665
+
+Write-Host $Heart -ForegroundColor Cyan
+
+help Write-Host -Full
+
+-BackgroundColor Yellow
+
+"`u{0048}"
+
+
+code:
+
+$enc = [System.Text.Encoding]::UTF8
+$enc.GetString($enc.GetBytes($(& $Expressions['E1'])))
+Also, this might help
+
+$enc = [System.Text.Encoding]::UTF8.GetBytes("â")
+# 195 162
+[System.Text.Encoding]::UTF8.GetString($enc)
+# â
+[System.Text.Encoding]::ASCII.GetString($enc)
+# ??
+[System.Text.Encoding]::Default.GetString($enc) # Windows-1252
+# Ã¢
+
+Get-Clipboard
+
+Set-Clipboard
+
+
+clip.exe /?
+
+
+Remove-Module PSReadLine -Force
+Remove-Module PSReadLine -Force
+🌞
+[int][char]'a'
+[int][char]'č'
+[int][char]'⌂'
+Read-Host
+A
+・B
+
+ ×
+×
+×
+×
+×× ;××
+×1
+ " -/\``$( ygg× ) 1"
+
+
+ https://github.com/microsoft/terminal/issues/8896
+
+
+
+ PS> $p=(Get-ClipboardText); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int]($p[$i]) }
+
+
+
+ "$([char]0xd83c)$([char]0xdf0e)"
+
+ https://dencode.com/string
+
+
+
+
+
+
+ When pasting via Ctrl-V rather than via right-click (the latter emulates typing and therefore triggers tab completion).
+Does not work in Visual Studio Code's integrated terminal (which seemingly always emulates typing in PowerShell).'
+https://stackoverflow.com/questions/70144322/copied-and-pasted-tab-characters-not-recognized-by-powershell
+
+
+{
+	"key": "ctrl+v",
+	"command": "editor.action.clipboardPasteAction"
+  }{
+	"key": "ctrl+v",
+	"command": "workbench.action.terminal.paste",
+	"when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  }{
+	"key": "ctrl+v",
+	"command": "filesExplorer.paste",
+	"when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
+  }{
+	"key": "ctrl+v",
+	"command": "workbench.action.terminal.sendSequence",
+	"when": "terminalFocus && !accessibilityModeEnabled && terminalShellType == 'pwsh'"
+  }
+
+  & 'D:\conda\shell\condabin\conda-hook.ps1'
+conda activate 'D:\conda'
+
+dir D:\conda\shell\condabin
+explorer D:\conda\shell\condabin
+D:\conda\condabin\conda_hook.bat
+
+Microsoft Windows [Version 10.0.22621.1413]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\marti\OneDrive>D:/conda/Scripts/activate
+
+(base) C:\Users\marti\OneDrive>conda activate base
+
+(base) C:\Users\marti\OneDrive>
+
+
+
+\. "$_CONDA_ROOT/etc/profile.d/conda.sh"
+. "$_CONDA_ROOT/etc/profile.d/conda.sh"
+
+
+|| return $?
+
+echo $PATH
+echo %PATH%
+$env:Path

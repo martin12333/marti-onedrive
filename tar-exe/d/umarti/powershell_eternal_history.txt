@@ -5789,3 +5789,62 @@ git commit -v -a -m ...
 git push   -vv
 git commit -v -a -m done
 git push   -vv
+git commit -v -a -m done
+git push   -vv
+[char]::ConvertFromUtf32(0x1F3DE)
+$Heart = $([char]0x2665)
+Write-Host $Heart -BackgroundColor Yellow -ForegroundColor Magenta
+$Heart = [char]0x2665
+Write-Host $Heart -BackgroundColor Yellow -ForegroundColor Magenta
+Write-Host $Heart -ForegroundColor Cyan
+help Write-Host -Full
+"`u{0048}"
+[System.Console]::InputEncoding
+[System.Console]::OutputEncoding
+$OutputEncoding
+[System.Console]::InputEncoding
+[System.Console]::OutputEncoding
+$OutputEncoding
+$OutputEncoding = [console]::InputEncoding = [console]::OutputEncoding =                     New-Object System.Text.UTF8Encoding
+[System.Console]::InputEncoding
+[System.Console]::OutputEncoding
+$OutputEncoding
+echo "alt1..9"
+clip.exe /?
+Remove-Module PSReadLine
+# Ã
+echo "alt1..9"
+"AB"
+×
+×1
+"1"
+×
+"1"
+" 1"
+"  1"
+" - 1"
+" -/ 1"
+" -/\ 1"
+" -/\` 1"
+" -/\`` 1"
+" -/\``$ 1"
+" -/\``$(x) 1"
+" -/\``$() 1"
+" -/\``$( ) 1"
+" -/\``$(  ) 1"
+" -/\``$( ygg ) 1"
+×
+× 
+× ;
+・B
+♣
+♠
+echo "alt1..9"
+♣
+Remove-Module PSReadLine -Force
+・B
+×
+Remove-Module PSReadLine -Force
+conda activate base
+echo $PATH
+$env:Path

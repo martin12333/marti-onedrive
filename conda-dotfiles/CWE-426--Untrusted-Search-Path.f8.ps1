@@ -8,6 +8,34 @@ echo CWE-426--Untrusted-Search-Path
 #conda activate 'D:\conda'
 
 
+$env:Path
+& 'D:\conda\shell\condabin\conda-hook.ps1'
+conda activate 'D:\conda'
+$env:Path
+
+
+echo %PATH%
+D:/conda/Scripts/activate
+conda activate base
+echo %PATH%
+
+
+
+###???
+echo $PATH
+D:/conda/Scripts/activate
+conda activate base
+echo $PATH
+
+
+#\. "$_CONDA_ROOT/etc/profile.d/conda.sh"
+#. "$_CONDA_ROOT/etc/profile.d/conda.sh"
+
+
+
+
+
+
 CWE-426--Untrusted-Search-Path
 CWE-427: Uncontrolled Search Path Element
 
