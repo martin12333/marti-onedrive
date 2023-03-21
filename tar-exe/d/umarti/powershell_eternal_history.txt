@@ -5773,3 +5773,6 @@ python
 conda activate 'D:\conda'
 bash
 node
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
