@@ -26,6 +26,7 @@ echo $PATH
 D:/conda/Scripts/activate
 conda activate base
 echo $PATH
+ls D:/conda/condabin /c/Users/marti/bin
 
 
 #\. "$_CONDA_ROOT/etc/profile.d/conda.sh"

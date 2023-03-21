@@ -5848,3 +5848,18 @@ Remove-Module PSReadLine -Force
 conda activate base
 echo $PATH
 $env:Path
+git commit -v -a -m bug-found
+git push   -vv
+"alt1..9"
+"alt1..9☺☻♥♦♣♠•◘○"`
+
+"alt1..9☺☻♥♦♣♠•◘○"`
+
+"alt1..9"
+"🌞"`
+
+"🌞"`
+
+"🌞"`
+"🌞"`
+

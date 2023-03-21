@@ -4,6 +4,8 @@ exit
 
 
 🌞
+"🌞"
+"🌞"
 
 ^ 😋☺🙂 ☀ ☺☼⚙⛭⛮ 🌞 🌣🛪😲😊😋😌😁😃😄😆🙂😇🙏🙇😌
 
@@ -99,6 +101,8 @@ cmd /?
 
 git commit -v -a -m "low emojis[☀] become empty?string if f8-sent into a  PS7 terminal "
 
+
+
 errmsg(s) stopped because PSReadLine crashed
 
 
@@ -175,13 +179,22 @@ conda activate 'D:\conda'
 bash
 exit
 python
-fails differently
+fails
 >>> ord(""[0])Traceback (most recent call last):
+or cmd python
+>>> ord(""[0])Traceback (most recent call last):
+echo "alt1..9☺☻♥♦♣♠•◘○"
+ "alt1..9☺☻♥♦♣♠•◘○"
+ord("aaa"[0])
+
+
+
 or
 anaconda in powsh in other window
+win py fails
 ord("🌞"[0])
 ord("??"[0])
-win py fails
+"alt1..9☺☻♥♦♣♠•◘○"  #ok
 quit()
 
 
@@ -202,6 +215,10 @@ Date:   Sun Mar 12 01:55:40 2023 +0100
 see the commit log at github
 
 "  ◙   25D9  ♂   2642  ♀   2640  ♪   266A  ♫[b]   266B  ☼   263C   1x   16  ►   25BA  ◄   25C4  ↕   2195  ‼   203C  ¶      00B6  §   00A7  ▬   25AC  ↨   21A8  ↑   2191  ↓   2193  →   2192  ←   2190  ∟   221F  ↔   2194  ▲   25B2  ▼   25BC      ⌂      [d]   2302         00BF  ⌐   2310  ¬      00AC  ½   00BD  ¼   00BC  ¡   00A1  «   00AB  »   00BB   Bx   176  ░   2591  ▒   2592  ▓              ║   2551        ┴   2534  ┬   252C      ├   251C     ─   2500  ┼   253C      ╞   255E  ╟   255F  ╚   255A  ╔   2554      ╩   2569  ╦   2566   ╠   2560     ═   2550  ╬   256C  ╧   2567      Dx   208  ╨   2568     ╤   2564  ╥   2565         ╫   256B  ╪   256A        █   2588  ▄   2584  ▌   258C  ▐   2590  ▀   2580         ∩   2229   Fx   240  ≡   2261  ±   00B1      ≥   2265  ≤   2264      ÷   00F7  ≈   2248  °   00B0  ∙[o]   2219  ·   00B7         ■   25A0  nbsp[q]   00A0      "
+
+
+
+
 
 
 
@@ -303,27 +320,22 @@ https://stackoverflow.com/questions/70144322/copied-and-pasted-tab-characters-no
   & 'D:\conda\shell\condabin\conda-hook.ps1'
 conda activate 'D:\conda'
 
-dir D:\conda\shell\condabin
-explorer D:\conda\shell\condabin
-D:\conda\condabin\conda_hook.bat
-
-Microsoft Windows [Version 10.0.22621.1413]
-(c) Microsoft Corporation. All rights reserved.
-
-C:\Users\marti\OneDrive>D:/conda/Scripts/activate
-
-(base) C:\Users\marti\OneDrive>conda activate base
-
-(base) C:\Users\marti\OneDrive>
+explorer D:\conda\
+#D:\conda\condabin\conda_hook.bat
 
 
-
-\. "$_CONDA_ROOT/etc/profile.d/conda.sh"
-. "$_CONDA_ROOT/etc/profile.d/conda.sh"
-
-
-|| return $?
 
 echo $PATH
-echo %PATH%
 $env:Path
+
+fail
+echo %PATH%
+D:/conda/Scripts/activate
+conda activate base
+echo %PATH%
+python
+"alt1..9☺☻♥♦♣♠•◘○"
+fail
+ord("aaa"[0])
+
+
