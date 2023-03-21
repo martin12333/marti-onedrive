@@ -3356,3 +3356,5 @@ $x="ěščřřžáýů"
 python.exe
 chcp 65001
 python.exe
+$PSVersionTable
+$PSVersionTable
