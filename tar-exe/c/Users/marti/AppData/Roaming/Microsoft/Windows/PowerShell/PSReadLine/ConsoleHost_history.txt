@@ -3388,3 +3388,22 @@ $env:Path
 "🌞"`
 "🌞"`
 
+"🌞"`
+"🌞"`
+
+$Heart = [char]0x2665
+Write-Host $Heart -ForegroundColor Cyan
+Write-Host $Heart -ForegroundColor DarkYellow
+Write-Host $Heart -ForegroundColor Yellow
+$enc = [System.Text.Encoding]::UTF8.GetBytes("â")
+$enc
+[System.Text.Encoding]::UTF8.GetString($enc)
+[System.Text.Encoding]::ASCII.GetString($enc)
+[System.Text.Encoding]::Default.GetString($enc) # Windows-1252
+Get-Clipboard
+[int]'a'
+[int][char]'a'
+[int][char]''
+Read-Host
+$p=(Get-Clipboard); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int]($p[$i]) }
+$PSVersionTable

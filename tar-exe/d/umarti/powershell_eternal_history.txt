@@ -5863,3 +5863,32 @@ git push   -vv
 "🌞"`
 "🌞"`
 
+git commit -v -a -m ...
+$PSVersionTable
+$p=(Get-Clipboard); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int]($p[$i]) }
+$p=(Get-Clipboard); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int]$p[$i] }
+$p=(Get-Clipboard); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int][char]$p[$i] }
+$p=(Get-Clipboard); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int][char]($p[$i]) }
+$p=(Get-Clipboard); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], ($p[$i]) }
+$p=(Get-Clipboard); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [char]($p[$i]) }
+$p=(Get-Clipboard); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int][char]($p[$i]) }
+$OutputEncoding = [console]::InputEncoding = [console]::OutputEncoding =                     New-Object System.Text.UTF8Encoding
+$p=(Get-Clipboard); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int][char]($p[$i]) }
+[int][char]
+$p=(Get-Clipboard); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int][char]($p[$i]) }
+$p=(Get-Clipboard); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int][char]${p[$i]} }
+$p=(Get-Clipboard); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int][char](${p[$i]}) }
+$p=(Get-Clipboard); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int][char]"${p[$i]}" }
+"${p[$i]}"
+(${p[$i]})
+${p[$i]}
+$p
+$p[0]
+$p[1]
+$p[0][0]
+$p[0][1]
+$p=(Get-Clipboard); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int][char]$p[$i] }
+$p=(Get-Clipboard); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int][char]$p[0][$i] }
+$p=(Get-Clipboard); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int][char]$p[$i] }
+$p=(Get-Clipboard); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int][char]$p[0][$i] }
+$p=(Get-Clipboard -Raw ); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int][char]$p[$i] }

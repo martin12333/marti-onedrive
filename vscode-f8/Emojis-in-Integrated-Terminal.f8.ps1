@@ -227,7 +227,8 @@ see the commit log at github
 
 $Heart = [char]0x2665
 
-Write-Host $Heart -ForegroundColor Cyan
+Write-Host $Heart -ForegroundColor DarkYellow
+Write-Host $Heart -ForegroundColor Yellow
 
 help Write-Host -Full
 
@@ -244,6 +245,7 @@ Also, this might help
 
 $enc = [System.Text.Encoding]::UTF8.GetBytes("â")
 # 195 162
+$enc
 [System.Text.Encoding]::UTF8.GetString($enc)
 # â
 [System.Text.Encoding]::ASCII.GetString($enc)
@@ -253,7 +255,7 @@ $enc = [System.Text.Encoding]::UTF8.GetBytes("â")
 
 Get-Clipboard
 
-Set-Clipboard
+#Set-Clipboard
 
 
 clip.exe /?
@@ -263,6 +265,7 @@ Remove-Module PSReadLine -Force
 Remove-Module PSReadLine -Force
 🌞
 [int][char]'a'
+[int]'a'
 [int][char]'č'
 [int][char]'⌂'
 Read-Host
@@ -275,16 +278,28 @@ A
 ×
 ×× ;××
 ×1
- " -/\``$( ygg× ) 1"
+ #" -/\``$( ygg× ) 1"
 
 
  https://github.com/microsoft/terminal/issues/8896
 
 
 
- PS> $p=(Get-ClipboardText); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int]($p[$i]) }
+ $p=(Get-Clipboard); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int][char]$p[$i] }
+
+ $p=(Get-Clipboard -Raw ); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int][char]$p[$i] }
 
 
+ d83c
+ df1e
+
+$p[0][1]
+$p[1]
+ ${p[$i]}
+ (${p[$i]})
+ "${p[$i]}"
+
+ [int][char]
 
  "$([char]0xd83c)$([char]0xdf0e)"
 
