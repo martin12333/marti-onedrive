@@ -5892,3 +5892,16 @@ $p=(Get-Clipboard); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [
 $p=(Get-Clipboard); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int][char]$p[$i] }
 $p=(Get-Clipboard); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int][char]$p[0][$i] }
 $p=(Get-Clipboard -Raw ); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int][char]$p[$i] }
+git commit -v -a -m ...
+shutdown /?
+shutdown /l
+git commit -v -a -m ...
+git push
+$p=(Get-Clipboard -Raw ); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int][char]$p[$i] }
+$p=(Get-Clipboard -Raw ); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int][char]$p[$i] }
+echogit commit -v -a -m "emoji-in-commit-msg"
+node
+chcp.com
+chcp 65001
+bash
+wsl -d Ubuntu-22.04

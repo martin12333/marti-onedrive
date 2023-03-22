@@ -3,11 +3,48 @@ exit
 
 
 
-🌞
-"🌞"
-"🌞"
 
+xxd
+"💛"
+abcdefg
+"😇"
+abcdefg
+"🌞"
+abcdefg
+"☀"
+abcdefg
+"�"
+##od
 ^ 😋☺🙂 ☀ ☺☼⚙⛭⛮ 🌞 🌣🛪😲😊😋😌😁😃😄😆🙂😇🙏🙇😌
+
+where xxd
+where bash
+C:\pf\git\usr\share\xxd.exe
+dir C:\pf\git\usr\bin\xxd.exe
+C:\pf\git\usr\bin\xxd.exe
+dir
+
+chcp 65001
+bash
+
+
+echo
+set | grep -i lc
+export LANG=C.utf-8
+export LC_ALL=C.utf-8
+
+
+
+u22
+
+"💛"
+abcdefg
+"😇"
+00000000: 22f0 9f92 9b22 0a61 6263 6465 6667 0a22  "....".abcdefg."
+
+giba
+strange
+
 
 
 ♣
