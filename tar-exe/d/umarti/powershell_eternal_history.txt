@@ -5943,3 +5943,15 @@ $PSEditor.GetEditorContext().SetSelection(4,1,22,2)
 $PSEditor.GetEditorContext().SetSelection(4,1,22,2)
 $PSEditor.GetEditorContext().SetSelection(92,1,102,2)
 $PSEditor.GetEditorContext().SetSelection(93,1,102,2)
+$PSEditor.GetEditorContext().SetSelection(93,1,102,2) ; $PSEditor.GetEditorContext().SelectedRange
+$PSEditor.GetEditorContext().SetSelection(93,1,102,2) ; $r=$PSEditor.GetEditorContext().SelectedRange
+$r.Start
+$r.End
+$r
+$r|gm
+git commit -v -a -m " fix"
+git push   -vv
+git show --name-only
+code --log trace
+code --log trace .
+"💛"

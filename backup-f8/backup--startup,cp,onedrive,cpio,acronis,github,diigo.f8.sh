@@ -174,7 +174,9 @@ cd ~/OneDrive
 ✅ Add, update, or pass tests.
 🔒️ :lock:  Fix security issues.
 🚧 Work in progress.
-⚗️. :alembic: Perform experiments
+
+git commit -a -m "⚗️  :alembic: Perform experiments"
+
 ♻️	:recycle:	Refactor code.
 ⏪️	:rewind:	Revert changes.
 	:truck:	Move or rename resources (e.g.: files, paths, routes).
