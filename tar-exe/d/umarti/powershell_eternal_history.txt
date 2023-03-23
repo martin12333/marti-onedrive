@@ -5961,3 +5961,14 @@ git commit -a -m "  :alembic: Perform experiments"
 ""
 git commit -a -m "  :alembic: Perform experiments"
 "  :alembic: Perform experiments"
+code --log trace .
+code ..
+♻:recycle:Refactor code.
+".\git-clean-WARNING.f8.sh":recycle:Refactor code."`
+":recycle:Refactor code."`
+":recycle:Refactor code."`
+`
+`
+`
+`
+"

@@ -175,9 +175,11 @@ cd ~/OneDrive
 🔒️ :lock:  Fix security issues.
 🚧 Work in progress.
 
+
 git commit -a -m "⚗️  :alembic: Perform experiments"
 
-♻️	:recycle:	Refactor code.
+"
+"♻️					:recycle:	Refactor code."
 ⏪️	:rewind:	Revert changes.
 	:truck:	Move or rename resources (e.g.: files, paths, routes).
 🩹	:adhesive_bandage:	Simple fix for a non-critical issue
