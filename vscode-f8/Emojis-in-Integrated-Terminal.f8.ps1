@@ -5,6 +5,10 @@ exit
 code D:\umarti\dowNLOADS--SYMLINKED\vscode-main\vscode-main\src\vs\workbench\contrib\terminal
 code D:\umarti\dowNLOADS--SYMLINKED\vscode-main\vscode-main\src\
 
+
+git commit -a -m "⚗️  :alembic: Perform experiments"
+
+
 xxd
 "💛"
 abcdefg
