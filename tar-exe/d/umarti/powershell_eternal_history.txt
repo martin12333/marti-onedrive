@@ -5911,3 +5911,28 @@ git commit -v -a -m add
 git push
 code D:\umarti\dowNLOADS--SYMLINKED\vscode-main\vscode-main\src\vs\workbench\contrib\terminal
 code D:\umarti\dowNLOADS--SYMLINKED\vscode-main\vscode-main\src\
+git add -vv  '*.f8.*'
+git commit -v -a -m  " rename,move"
+git push   -vv
+$psEditor
+$psEditor|select *
+$psEditor|  Get-Member
+$y=$PSEditor.GetCommands()
+$y.GetType()
+$y
+$PSEditor.GetEditorContext().CurrentFile.Uri
+$PSEditor.GetEditorContext().CurrentFile.WorkspacePath
+$PSEditor.Workspace|Get-Member
+show-ps
+history
+$PSEditor.Window|Get-Member
+$PSEditor.Window.terminal
+$PSEditor.Window.terminal |Get-Member
+$PSEditor.Workspace|Get-Member
+$x=$PSEditor.GetEditorContext()|Get-Member
+$x=$PSEditor.GetEditorContext()
+$x
+$x|Get-Member
+$PSEditor.GetEditorContext().CurrentFile|get-member
+code C:\Users\marti\.vscode\extensions\hello-executecommand--junct
+run vscode

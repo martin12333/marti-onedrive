@@ -8,8 +8,6 @@ exit
 
 echo '-------- section --------'
 
-
-
 to get $PSEditor
 F1
 PowerShell: Show Integrated Console
@@ -17,6 +15,21 @@ PowerShell: Show Integrated Console
 	"key": "",
 	"command": "PowerShell.ShowSessionConsole"
   }
+
+
+
+code C:\Users\marti\.vscode\extensions\hello-executecommand--junct
+
+vscode.window.showInformationMessage('Hello World from 12424325425424Hello-executeCommand!');
+
+//How I got them? A: Created an extension using 'yo'. Set a breakpoint somewhere where vscode is defined. In the debug console
+// at the bottom
+vscode.commands.getCommands().then(x => console.log(x))
+// Then copy the entire outpu
+
+vscode.window.terminals[0].creationOptions
+
+git add .\hello-executecommand--robocopy\extension.js
 
 
 
@@ -50,6 +63,7 @@ $psEditor|  Get-Member
 
 $y=$PSEditor.GetCommands()
 $y.GetType()
+#$y
 
 $psEditor|  Format-List -Property *
 $psEditor|  Format-List *
@@ -61,6 +75,7 @@ $psEditor|  Format-List
 
 
 $PSEditor.GetEditorContext().CurrentFile.Uri
+$PSEditor.GetEditorContext().CurrentFile|get-member
 $PSEditor.GetEditorContext().CurrentFile.WorkspacePath
 $PSEditor.GetEditorContext().CurrentFile.InsertText('@@@@')@@@@
 
@@ -92,9 +107,11 @@ $PSEditor.GetEditorContext().CurrentFile.GetText()
 
 $x=$PSEditor.GetEditorContext().CurrentFile|Get-Member
 $x=$PSEditor.GetEditorContext()|Get-Member
+$x=$PSEditor.GetEditorContext()
+
 $x=$PSEditor|Get-Member
 
-$x
+$x|Get-Member
 $x[3].Definition
 $x[3].Definition
 $x[2].Definition
@@ -103,7 +120,8 @@ $x[2].Definition
 
 $PSEditor.Window|Get-Member
 $PSEditor.Workspace|Get-Member
-$PSEditor.Window.
+$PSEditor.Window.terminal |Get-Member
+
 ($psEditor).GetEditorContext().CurrentFile.Ast
 
 $PSEditor.GetType()
