@@ -5,14 +5,27 @@ exit
 code D:\umarti\dowNLOADS--SYMLINKED\vscode-main\vscode-main\src\vs\workbench\contrib\terminal
 code D:\umarti\dowNLOADS--SYMLINKED\vscode-main\vscode-main\src\
 
+
+probably BMP?!
 "⚗️  :alembic: Perform experiments"
+34 0042 0x22
+226 0342 0xe2
+154 0232 0x9a
+151 0227 0x97
+239 0357 0xef
+184 0270 0xb8
+143 0217 0x8f
+"♻️					:recycle:	Refactor code."
+⏪️	:rewind:	Revert changes.
 
-
+✅ Add, update, or pass tests.
+	git commit -v -a -m "☀ fix-comments"
 
 git commit -a -m "⚗️  :alembic: Perform experiments"
 sudo apt update
 sudo apt install kbd
 showkey -a
+
 
 xxd
 "💛"

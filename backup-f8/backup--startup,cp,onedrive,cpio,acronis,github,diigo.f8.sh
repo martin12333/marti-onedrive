@@ -171,17 +171,20 @@ cd ~/OneDrive
 
 🚑️	:ambulance:	Critical hotfix.
 🎉	:tada:	Begin a project.
-✅ Add, update, or pass tests.
 🔒️ :lock:  Fix security issues.
 🚧 Work in progress.
 
 
 
 git commit -a -m "⚗️  :alembic: Perform experiments"
-
 "
 "♻️					:recycle:	Refactor code."
 ⏪️	:rewind:	Revert changes.
+
+✅ Add, update, or pass tests.
+	git commit -v -a -m "☀ fix-comments"
+
+
 	:truck:	Move or rename resources (e.g.: files, paths, routes).
 🩹	:adhesive_bandage:	Simple fix for a non-critical issue
 🧐	:monocle_face:	Data exploration/inspection.
@@ -196,6 +199,7 @@ Exhausting or weary solution.
 	git commit -v -a -m "☀ fix-comments"
 	git commit -v -a -m patch-simplify-code
 	git commit -v -a -m false-alarm
+	git commit -v -a -m false-hope
 	git commit -v -a -m maybe-enhance
 	git commit -v -a -m important-test
 
