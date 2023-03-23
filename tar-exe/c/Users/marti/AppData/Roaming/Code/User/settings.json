@@ -3,8 +3,14 @@
     // the most important settings are put first here
 
 	"update.enableWindowsBackgroundUpdates": false,
+	"update.mode": "manual",
+	//"update.mode": "manual", because f8
+	//"update.enableWindowsBackgroundUpdates": false,
 
-    "extensions.autoUpdate": false,
+	// ~nozaki
+	//"extensions.autoUpdate": false,
+    //"extensions.autoCheckUpdates": false,
+	"extensions.autoUpdate": false,
     "extensions.autoCheckUpdates": false,
 
     //"terminal.integrated.rightClickBehavior": "default",
@@ -17,6 +23,8 @@
 	//  - selectWord: Select the word under the cursor and show the context menu.
 	//  - nothing: Do nothing and pass event to terminal.
 
+	"terminal.integrated.enableMultiLinePasteWarning": true,
+	//"terminal.integrated.enableMultiLinePasteWarning": true,
 
 
 
@@ -212,9 +220,10 @@
 	// Controls the maximum amount of lines the terminal keeps in its buffer.
 	"terminal.integrated.scrollback": 10000,
 	"runme.shell.closeTerminalOnSuccess": false,
-	"update.mode": "manual",
 	"window.zoomLevel": 1,
 	"git.openRepositoryInParentFolders": "never",
+	"workbench.panel.defaultLocation": "right",
+	"terminal.integrated.tabs.focusMode": "singleClick",
 
 
 

@@ -158,9 +158,6 @@ cd ~/OneDrive
 	git commit -v -a -m ...
 	git push   -vv
 
-	git commit -v -a -m backup-scripts--edited---
-##	acro-sett,22bb-turn-off-auto-cleanup.zip
-	git commit -v -a -m acro-sett,22bb-turn-off-auto-cleanup
 	git commit -v -a -m gitignore
 
 	git commit -v -a -m bug-found
@@ -168,6 +165,10 @@ cd ~/OneDrive
 	git commit -v -a -m discovery
 	git commit -v -a -m security
 	git commit -v -a -m "😲 SECURITY"
+	git commit -v -a -m security-settings--edited---
+	git commit -v -a -m backup-scripts--edited---
+##	acro-sett,22bb-turn-off-auto-cleanup.zip
+	git commit -v -a -m acro-sett,22bb-turn-off-auto-cleanup
 
 🚑️	:ambulance:	Critical hotfix.
 🎉	:tada:	Begin a project.
