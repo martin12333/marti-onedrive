@@ -89,13 +89,23 @@ $psISE.CurrentFile.Editor.SelectedText
 
 
 
+
+# edit later
+$PSEditor.GetEditorContext().SetSelection(4,1,22,2)
+$PSEditor.GetEditorContext().SetSelection(93,1,102,2) ; $r=$PSEditor.GetEditorContext().SelectedRange
+$r.Start
+$r.End
+$r|gm
+
+
+
+
 fail
 $r=$PSEditor.GetEditorContext().SelectedRange
 #$r = $PSEditor.GetEditorContext().CurrentFile.FileRange
 ##$PSEditor.GetEditorContext().CurrentFile.GetTextLines($r)
 $r.Start
 $r.End
-$PSEditor.GetEditorContext().
 
 
 

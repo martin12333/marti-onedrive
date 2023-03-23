@@ -5936,3 +5936,10 @@ $x|Get-Member
 $PSEditor.GetEditorContext().CurrentFile|get-member
 code C:\Users\marti\.vscode\extensions\hello-executecommand--junct
 run vscode
+git add .\hello-executecommand--robocopy\extension.js
+git commit -v -a -m add
+git push
+$PSEditor.GetEditorContext().SetSelection(4,1,22,2)
+$PSEditor.GetEditorContext().SetSelection(4,1,22,2)
+$PSEditor.GetEditorContext().SetSelection(92,1,102,2)
+$PSEditor.GetEditorContext().SetSelection(93,1,102,2)
