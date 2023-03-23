@@ -169,8 +169,23 @@ cd ~/OneDrive
 	git commit -v -a -m security
 	git commit -v -a -m "😲 SECURITY"
 
+🚑️	:ambulance:	Critical hotfix.
+🎉	:tada:	Begin a project.
+✅ Add, update, or pass tests.
+🔒️ :lock:  Fix security issues.
+🚧 Work in progress.
+⚗️. :alembic: Perform experiments
+♻️	:recycle:	Refactor code.
+⏪️	:rewind:	Revert changes.
+	:truck:	Move or rename resources (e.g.: files, paths, routes).
+🩹	:adhesive_bandage:	Simple fix for a non-critical issue
+🧐	:monocle_face:	Data exploration/inspection.
+🧑‍💻	:technologist:	Improve developer experience
 
-	git commit -v -a -m fix
+Exhausting or weary solution.
+😩 Weary Face
+
+	git commit -v -a -m "🐛 fix"
 	git push   -vv
 
 	git commit -v -a -m "☀ fix-comments"
@@ -191,8 +206,7 @@ cd ~/OneDrive
 	git commit -v -a -m ...
 	git push   -vv
 
-	git commit -v -a -m  rename
-	git commit -v -a -m  move
+	git commit -v -a -m  "🚚 rename,move"
 	git commit -v -a -m  rewrite
 	git commit -v -a -m  before-find-and-replace
 	git commit -v -a -m  find-and-replace

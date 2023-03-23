@@ -5905,3 +5905,9 @@ chcp.com
 chcp 65001
 bash
 wsl -d Ubuntu-22.04
+cd ~/OneDrive
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
+code D:\umarti\dowNLOADS--SYMLINKED\vscode-main\vscode-main\src\vs\workbench\contrib\terminal
+code D:\umarti\dowNLOADS--SYMLINKED\vscode-main\vscode-main\src\

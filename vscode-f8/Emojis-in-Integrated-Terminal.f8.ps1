@@ -2,7 +2,8 @@
 exit
 
 
-
+code D:\umarti\dowNLOADS--SYMLINKED\vscode-main\vscode-main\src\vs\workbench\contrib\terminal
+code D:\umarti\dowNLOADS--SYMLINKED\vscode-main\vscode-main\src\
 
 xxd
 "💛"
@@ -17,14 +18,14 @@ abcdefg
 ##od
 ^ 😋☺🙂 ☀ ☺☼⚙⛭⛮ 🌞 🌣🛪😲😊😋😌😁😃😄😆🙂😇🙏🙇😌
 
+chcp 65001
 where xxd
 where bash
-C:\pf\git\usr\share\xxd.exe
 dir C:\pf\git\usr\bin\xxd.exe
 C:\pf\git\usr\bin\xxd.exe
+C:\pf\git\bin\git.exe
 dir
 
-chcp 65001
 bash
 
 
