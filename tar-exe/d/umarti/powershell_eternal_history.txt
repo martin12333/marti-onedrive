@@ -5974,3 +5974,38 @@ code ..
 "
 ls
 ls
+&{`
+get-date`
+"more stuff"`
+}
+$x=&{`
+echo 1`
+"more stuff"`
+}
+$x
+$x.get-member
+$x|get-member
+"d".GetType
+"d".GetType()
+$x.GetType()
+$x[0].GetType()
+$x[1].GetType()
+$x=& {`
+echo 1`
+"more stuff"`
+}
+$x.GetType()
+$x[0].GetType()
+$x=& {`
+echo`
+1`
+"more stuff"`
+}
+$x.GetType()
+$x[0].GetType()
+$x[1].GetType()
+$x=& {`
+echo`
+1gjhhgj`
+"more stuff"`
+}

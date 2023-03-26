@@ -206,4 +206,13 @@ True
 
 
 
-
+###########
+$x=& {
+	echo
+	   1gjhhgj
+	"more stuff"
+	}
+$x.GetType()
+$x[0].GetType()
+$x[1].GetType()
+"d".GetType()
