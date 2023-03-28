@@ -49,6 +49,8 @@ esc-tab
 
 
 
+ (eepitch-ielm)
+
 ELISP> buffer-file-coding-system
 iso-latin-1-dos
 ELISP> describe-current-coding-system
@@ -62,10 +64,8 @@ ELISP>
 
 
 
- (eepitch-shell)
+ (eepitch-eshell)
 
-
- (eepitch-ielm)
 
 list-packages
 
@@ -143,6 +143,10 @@ D:\instu\emacs-27.2-x86_64\bin C:\Users\marti\onedrive
 
 
 
+Alt+x
+describe-current-coding-system
+
+
 
  (eepitch-ielm)
 
@@ -159,10 +163,6 @@ M-x set-buffer-file-coding-system RET utf-8-unix
 
 
 
-
-
-Alt+x
-describe-current-coding-system
 
 
 ; show file encoding
