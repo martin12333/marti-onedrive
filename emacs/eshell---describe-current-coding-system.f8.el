@@ -1,7 +1,4 @@
-Coding system for saving this buffer:
-  Not set locally, use the default.
-Default coding system (for new files):
-  1 -- iso-latin-1-dos (alias: iso-8859-1-dos latin-1-dos)
+
 
 
 
@@ -14,6 +11,14 @@ Default coding system (for new files):
 
 Alt+x
 describe-current-coding-system
+
+
+
+Coding system for saving this buffer:
+  Not set locally, use the default.
+Default coding system (for new files):
+  1 -- iso-latin-1-dos (alias: iso-8859-1-dos latin-1-dos)
+
 
 
 Coding system for keyboard input:
