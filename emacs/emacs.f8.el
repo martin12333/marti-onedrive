@@ -1,13 +1,17 @@
 ; F10 menu if non-gui
 
+
 <menu-bar> <options> <menu-set-font> runs the command menu-set-font
 
+
 (kbd "C-+") 'text-scale-increase)
+
 
 
 M-x ... Esc-x ... mc
 
 (eev-beginner)
+
 
 
 (info)
@@ -24,8 +28,11 @@ C-x C-s
 
 C-s
 
+
+
 https://hyperpolyglot.org/text-mode-editors#lisp-interaction
 https://hyperpolyglot.org/lisp#emacs-buffers
+
 
 
 
@@ -38,13 +45,47 @@ https://hyperpolyglot.org/lisp#emacs-buffers
 M-/
 esc-tab
 
- (eepitch-ielm)
-ido-mode
+
+
+
+
+ELISP> buffer-file-coding-system
+iso-latin-1-dos
+ELISP> describe-current-coding-system
+*** Eval error ***  Symbol’s value as variable is void: describe-current-coding-system
+ELISP> list-packages
+*** Eval error ***  Symbol’s value as variable is void: list-packages
+ELISP> 
+
+
+
+
+
 
  (eepitch-shell)
+
+
+ (eepitch-ielm)
+
+list-packages
+
+
+
+
+
+ido-mode
+
+
+
+
+ (eepitch-shell)
+
 node --interactive
 node --help|findstr -i buff
 .exit
+
+
+
 
 
 
@@ -56,12 +97,16 @@ node --help|findstr -i buff
 (global-set-key (kbd "C-c i") 'ivy-resume)
 
 
+
+
 (find-)
 hyper
 hyper
 marti
 
 c:/Users/marti/AppData/Local/Temp
+
+
 
 
 iqss
@@ -71,15 +116,24 @@ iqss
 
 
 
+
 init.el
+
 NonGNU Emacs Lisp Package Archive
 To use it in Emacs<28, you need to add something like the following to your init file:
 (with-eval-after-load 'package (add-to-list 'package-archives '("nongnu" . "https://elpa.nongnu.org/nongnu/")))
 
 
+
+
+
 https://static.fsf.org/nosvn/faif-2.0.pdf#page=93
 
+
+
 D:\instu\emacs-27.2-x86_64\bin C:\Users\marti\onedrive
+
+
 
 
  (eepitch-eshell)
@@ -104,6 +158,11 @@ M-x set-buffer-file-coding-system RET utf-8-unix
  M-x set-buffer-file-coding-system RET utf-8-mac
 
 
+
+
+
+Alt+x
+describe-current-coding-system
 
 
 ; show file encoding

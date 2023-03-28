@@ -432,7 +432,15 @@ http://127.0.0.1:5001
 
 netstat -aon|findstr -i 5000
   TCP    0.0.0.0:5000           0.0.0.0:0              LISTENING       5396
-get-process| findstr 5396
+
+get-process
+get-process -id 5396
+
+bug if  narrow term:
+####get-process| findstr 5396
+###get-process | findstr 14424
+###get-process | findstr -i ema
+###get-process | findstr 14
 
 
     152      16    10316      18424       0.17   5396   1 python

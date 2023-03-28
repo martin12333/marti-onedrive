@@ -305,7 +305,23 @@ Get-PrinterDriver
 Get-PrinterPort
 Get-PrinterProperty
 Get-PrintJob
-Get-Process
+
+get-process
+Get-Process -Id 14424
+Get-Process -name ema*
+
+bug if  narrow term:
+####get-process| findstr 5396
+
+###get-process | findstr 14424
+###get-process | findstr -i ema
+###get-process | findstr 14
+
+
+
+
+
+
 Get-ProcessMitigation
 Get-ProvisionedAppPackage
 Get-ProvisionedAppSharedPackageContainer
