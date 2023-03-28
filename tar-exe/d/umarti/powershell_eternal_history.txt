@@ -6009,3 +6009,23 @@ echo`
 1gjhhgj`
 "more stuff"`
 }
+get-process | findstr 14424
+get-process | findstr 1442
+get-process | findstr 144
+get-process | findstr 14
+get-process
+get-process | findstr -i ema
+get-process | findstr 14424
+Get-Process -Id 14424
+Get-Process -name ema*
+git add '.\emacs\.#emacs.f8.el'
+git add -v '.\emacs\.#emacs.f8.el'
+git add -v '.\emacs\#emacs.f8.el#'
+git add -v '.\emacs\emacs--borrowed.f8.el~'
+git add -v '.\emacs\.#emacs.f8.el'
+git add -v '.\emacs\#emacs.f8.el#'
+git add -v '.\emacs\emacs--borrowed.f8.el~'
+git add -v '.\emacs\.#emacs.f8.el'
+git add -v '.\emacs\emacs--borrowed.f8.el~'
+git add -v '.\emacs\#emacs.f8.el#'
+git add -v '.\emacs\.#emacs.f8.el'

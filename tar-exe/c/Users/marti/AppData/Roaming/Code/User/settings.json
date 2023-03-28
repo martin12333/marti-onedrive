@@ -220,10 +220,10 @@
 	// Controls the maximum amount of lines the terminal keeps in its buffer.
 	"terminal.integrated.scrollback": 10000,
 	"runme.shell.closeTerminalOnSuccess": false,
-	"window.zoomLevel": 1,
 	"git.openRepositoryInParentFolders": "never",
 	"workbench.panel.defaultLocation": "right",
 	"terminal.integrated.tabs.focusMode": "singleClick",
+	"window.zoomLevel": 1,
 
 
 
