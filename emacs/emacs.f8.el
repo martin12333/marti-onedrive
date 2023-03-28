@@ -88,6 +88,90 @@ D:\instu\emacs-27.2-x86_64\bin C:\Users\marti\onedrive
 
 
 
+
+
+ (eepitch-ielm)
+
+
+
+OUTDATED?
+
+; set end of line character
+M-x set-buffer-file-coding-system RET utf-8-unix
+
+ M-x set-buffer-file-coding-system RET utf-8-dos
+
+ M-x set-buffer-file-coding-system RET utf-8-mac
+
+
+
+
+; show file encoding
+M-:
+buffer-file-coding-system
+
+ELISP> buffer-file-coding-system
+iso-latin-1-dos
+
+
+; list available encodings
+M-x
+list-coding-systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ;; Sacha
 
 ;;; menu exists too
@@ -192,7 +276,7 @@ C-v		scroll-up-command
 #
 #####
 
-# «company»  (to ".company")
+# ï¿½companyï¿½  (to ".company")
 # https://www.reddit.com/r/emacs/comments/td0nth/sample_usage_of_cape_completion_at_point/
 # (find-epackage-links 'company "company" t)
 # (find-epackage       'company)
@@ -213,7 +297,7 @@ C-v		scroll-up-command
 #
 #####
 
-# «ivy-mode» (to ".ivy-mode")
+# ï¿½ivy-modeï¿½ (to ".ivy-mode")
 # https://github.com/abo-abo/swiper
 # https://oremacs.com/swiper/ Ivy User Manual
 # https://github.com/abo-abo/swiper/blob/master/ivy.el#L28-L37
@@ -254,7 +338,7 @@ C-v		scroll-up-command
 #
 #####
 
-# «counsel»  (to ".counsel")
+# ï¿½counselï¿½  (to ".counsel")
 # (find-epackage-links 'counsel "counsel" t)
 # (find-epackage       'counsel)
 # (code-c-d "counsel" "~/.emacs.d/elpa/counsel-20220402.953/")

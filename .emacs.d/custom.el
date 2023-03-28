@@ -13,7 +13,7 @@
  '(delete-auto-save-files nil)
  '(desktop-save t)
  '(desktop-save-mode t)
- '(package-selected-packages '(company counsel swiper ivy eev))
+ '(package-selected-packages '(ergoemacs-mode company counsel swiper ivy eev))
  '(save-place-mode t)
  '(show-paren-mode t))
 (custom-set-faces
