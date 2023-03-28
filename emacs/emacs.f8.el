@@ -173,6 +173,10 @@ ELISP> buffer-file-coding-system
 iso-latin-1-dos
 
 
+
+
+
+ (eepitch-eshell)
 ; list available encodings
 M-x
 list-coding-systems
