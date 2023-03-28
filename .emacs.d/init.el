@@ -9,6 +9,12 @@
 
 (message "my debug ... after custom.el"  )
 
+
+(load  "~/.emacs.d/xah.el"   )
+
+(message "my debug ... after xah.el"  )
+
+
 (savehist-mode 1)
 
 (ivy-mode 1)
@@ -30,5 +36,21 @@
 (with-eval-after-load 'package (add-to-list 'package-archives '("nongnu" . "https://elpa.nongnu.org/nongnu/")))
 
 (eev-beginner)
+
+
+
+
+
+;You need to give them keys. [see Emacs: How to Define Keybinding] A great hand saver is to bind them to single keys. Like this:
+
+(global-set-key (kbd "<f2>") 'xah-cut-line-or-region) ; cut
+(global-set-key (kbd "<f3>") 'xah-copy-line-or-region) ; copy
+(global-set-key (kbd "<f4>") 'yank) ; paste
+
+;This is now part of ergoemacs-mode and Emacs: Xah Fly Keys.
+
+
+
+
 
 (message "my debug ... end of init.el"  )
