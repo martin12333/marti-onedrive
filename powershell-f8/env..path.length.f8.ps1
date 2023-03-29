@@ -1,4 +1,7 @@
 
+# issue: windows: surprisingly low limits on the length of the env variable PATH 
+
+
 # f8_text_file
 # (an f8_text_file is-not meant to be run as a whole)
 )
@@ -13,34 +16,53 @@ exit
 echo '-------- section --------'
 
 
+posted a  bit  at:
+
+https://www.reddit.com/r/conflicting_software/comments/125y3ih/issue_windows_surprisingly_low_limits_on_the/
 
 
-
-
-reproduce windows 10 bug of path environment variable length limit
+windows: limits on the length of the env variable PATH:
 1024
-1023
-2047
+1920
 2048
+8191
 characters
 
-setx command: WARNING: The data being saved is truncated to 1024 characters
+
+setx command error message , reproducible in Win 11:
+
+WARNING: The data being saved is truncated to 1024 characters
+
+some links:
+
+https://superuser.com/questions/812754/how-to-recover-from-path-being-truncated-to-1024-characters-by-setx
+
+https://superuser.com/questions/387619/overcoming-the-1024-character-limit-with-setx
+
+https://devblogs.microsoft.com/oldnewthing/20100203-00/?p=15083
+
+https://www.reddit.com/r/sysadmin/comments/5v6yp1/almost_made_a_dev_destroy_his_computer_today/
+
+
+
+more links, but private
+https://www.diigo.com/user/martin12333?query=%23windows-PATH
+
+
 
 
 
 echo '-------- section --------'
 
-resto.point
-  pre-path
+maybe make a restore point
 
-#reboot
-#resto.point
 
 echo '-------- section --------'
 
+by the way,
 a mitigation 
 to reduce
-path length
+the path length
 C:\Users\marti\OneDrive\powershell-f8\alias,function.f8.ps1
 
 echo '-------- section --------'
