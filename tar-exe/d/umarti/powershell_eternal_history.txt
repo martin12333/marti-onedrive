@@ -6040,3 +6040,4 @@ $oldPath2.Length
 $oldPath2
 $oldPath
 $oldPath.Length + $oldPath2.Length
+$env:Path.Length

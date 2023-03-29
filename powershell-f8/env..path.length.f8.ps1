@@ -8,12 +8,28 @@ exit
 
 echo '-------- section --------'
 
+
+
+
+
+reproduce windows 10 bug of path environment variable length limit
+1024
+1023
+2047
+2048
+characters
+
+setx command: WARNING: The data being saved is truncated to 1024 characters
+
+echo '-------- section --------'
+
 resto.point
   pre-path
 
 #reboot
 #resto.point
 
+echo '-------- section --------'
 
 see also
 C:\Users\marti\OneDrive\powershell-f8\alias,function.f8.ps1
@@ -66,3 +82,33 @@ $oldPath2 = [Environment]::GetEnvironmentVariable('PATH', 'user');
 $oldPath2
 $oldPath.Length + $oldPath2.Length
 
+$env:Path.Length
+
+
+cmd
+
+echo %path%
+echo %path%%path%
+echo %path%%path%%path%%path%
+echo %path%%path%%path%%path%%path%%path%%path%%path%
+echo %path%%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%
+
+(base) C:\Users\marti\OneDrive>echo %path%%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%
+The input line is too long.
+
+
+set /?
+set x=%path%%path%%path%%path%
+set x=%path%%path%%path%%path%%path%%path%%path%%path%
+set x=%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%
+
+(base) C:\Users\marti\OneDrive>set x=%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%%path%
+The input line is too long.
+
+
+
+Try SET /? and SETX /? - that should give you some ideas. –
+Iszi
+ May 19, 2015 at 12:33
+6
+Also, see SS64 references for SET and SETX. SS64 is a great command reference for several languages and command environments - I find it particularly handy for CMD & PowerShell.
