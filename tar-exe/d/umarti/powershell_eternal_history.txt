@@ -6029,3 +6029,14 @@ git add -v '.\emacs\.#emacs.f8.el'
 git add -v '.\emacs\emacs--borrowed.f8.el~'
 git add -v '.\emacs\#emacs.f8.el#'
 git add -v '.\emacs\.#emacs.f8.el'
+cscript
+cscript  //I
+cscript  /I
+cscript  /I  con
+$oldPath = [Environment]::GetEnvironmentVariable('PATH', 'Machine');
+$oldPath.Length
+$oldPath2 = [Environment]::GetEnvironmentVariable('PATH', 'user');
+$oldPath2.Length
+$oldPath2
+$oldPath
+$oldPath.Length + $oldPath2.Length

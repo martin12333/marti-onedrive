@@ -1,6 +1,4 @@
 
-
-
 # f8_text_file
 # (an f8_text_file is-not meant to be run as a whole)
 )
@@ -11,9 +9,10 @@ exit
 echo '-------- section --------'
 
 resto.point
+  pre-path
 
-reboot
-resto.point
+#reboot
+#resto.point
 
 
 see also
@@ -31,4 +30,39 @@ C:\Program Files\PowerShell\7;D:\conda;D:\conda\Library\mingw-w64\bin;D:\conda\L
 PS C:\Users\marti\OneDrive>
 
 
+
+
+
+
+
+
+
+
+
+registry
+
+ registry location that contains the system paths
+ HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment Must read the rest of it there.
+
+ set and setx commands truncate values to 1023 characters.
+Setting directly in the registry at
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment fails since regedit truncates entered strings after 2047 characters.
+
+"HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment"
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment
+
+
+User Variables
+HKEY_CURRENT_USER\Environment
+
+
+
+
+
+$oldPath = [Environment]::GetEnvironmentVariable('PATH', 'Machine');
+$oldPath
+$oldPath2 = [Environment]::GetEnvironmentVariable('PATH', 'user');
+$oldPath2
+$oldPath.Length + $oldPath2.Length
 

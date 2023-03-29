@@ -18,6 +18,9 @@
 *~
 .#*
 
+history*.json
+
+
 #OLD*/
 OLD*
 
