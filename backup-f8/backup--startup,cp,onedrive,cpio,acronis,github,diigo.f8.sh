@@ -137,6 +137,7 @@ cd ~/OneDrive
 	git add -vv   ro*p/*.lnk
 
 	git add -vv   '*/*config.mk'
+	git add -vv   '*/*xah.el'
 
 
 cd ~/OneDrive

@@ -1,4 +1,4 @@
-; F10 menu if non-gui
+; F10; down-arrow
 
 
 <menu-bar> <options> <menu-set-font> runs the command menu-set-font
@@ -131,7 +131,7 @@ https://static.fsf.org/nosvn/faif-2.0.pdf#page=93
 
 
 
-D:\instu\emacs-27.2-x86_64\bin C:\Users\marti\onedrive
+D:\instu\emacs-27.2-x86_64\bin       C:\Users\marti\onedrive
 
 
 
@@ -145,6 +145,17 @@ D:\instu\emacs-27.2-x86_64\bin C:\Users\marti\onedrive
 
 Alt+x
 describe-current-coding-system
+
+list-coding-systems
+
+
+list-colors-display
+
+  #8b5a2b
+chocolate1	       chocolate1  #ff7f24
+chocolate2	       chocolate2  #ee7621
+chocolate3	       chocolate3  #cd661d
+chocolate4	       chocolate4
 
 
 
