@@ -12,6 +12,7 @@ exit
 
  (eepitch-shell)
 
+### (eepitch-eshell)
 
 echo '-------- section --------'
 
@@ -54,7 +55,12 @@ https://www.diigo.com/user/martin12333?query=%23windows-PATH
 
 echo '-------- section --------'
 
-maybe make a restore point
+as a backup,
+
+maybe make a restore point,
+
+maybe sometimes paste a copy of your PATH  into this file
+
 
 
 echo '-------- section --------'
@@ -62,7 +68,7 @@ echo '-------- section --------'
 by the way,
 a mitigation 
 to reduce
-the path length
+the path length:
 C:\Users\marti\OneDrive\powershell-f8\alias,function.f8.ps1
 
 echo '-------- section --------'
@@ -71,9 +77,15 @@ echo '-------- section --------'
 
 
 
-cmd
+cmd.exe
 
 echo %path%
+
+C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile64\;C:\Program Files (x86)\Common Files\Acronis\FileProtector\;C:\Program Files (x86)\Common Files\Acronis\FileProtector64\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Microsoft Application Virtualization\Sequencer\;C:\Program Files\PowerShell\7\;C:\Program Files\RedHat\Podman\;C:\Program Files\Tailscale\;C:\Program Files\nodejs\;C:\Users\marti\AppData\Local\Microsoft\WindowsApps;C:\Users\marti\.dotnet\tools;D:\instu\vscode\bin;C:\Users\marti\AppData\Roaming\npm
+
+
+
+
 echo %path%%path%
 echo %path%%path%%path%%path%
 echo %path%%path%%path%%path%%path%%path%%path%%path%
@@ -102,6 +114,9 @@ echo '-------- section --------'
 
 SETX /?
 
+eshell
+SETX '/?'
+
 
 https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/setx
 
@@ -111,9 +126,11 @@ This means that the content is cropped if you go over 1024 characters, and that 
 
 
 
+
+
 setx  MYPATH_test    %PATH%
 ERROR: Invalid syntax. Default option is not allowed more than '2' time(s).
-spaces?
+#spaces?
 
 ###echo  ~PATH~~PATH~
 
@@ -132,9 +149,12 @@ echo '-------- section --------'
 powershell
 
 $env:Path.Length
+780
 $env:Path
 
 
+
+# 2022
 $env:Path.Length
 1018
 PS C:\Users\marti\OneDrive> $env:Path
@@ -175,4 +195,5 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment 
 User Variables
 HKEY_CURRENT_USER\Environment
 
+exit
 
