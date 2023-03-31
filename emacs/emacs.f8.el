@@ -1,40 +1,55 @@
 ; F10; down-arrow
 
 
+M-e
+(find-rcirc-intro)
+
+list-coding-systems
+
+
+
 <menu-bar> <options> <menu-set-font> runs the command menu-set-font
 
 
 
-(find-rcirc-intro)
-
-
 ........ (kbd "C-+") 'text-scale-increase)
-To increase the height of the default face in the current buffer, type C-x C-+ or C-x C-= . To decrease it, type C-x C-- . To restore the default (global) face height, type C-x C-0 .
 
 Similarly, scrolling the mouse wheel with the Ctrl modifier pressed, when the mouse pointer is above buffer text, will increase or decrease the height of the default face, depending on the direction of the scrolling.
+
+To increase the height of the default face in the current buffer, type C-x C-+ or C-x C-= . To decrease it, type C-x C-- . To restore the default (global) face height, type C-x C-0 .
 
 https://www.gnu.org/software/emacs/manual/html_node/emacs/Text-Scale.html#:~:text=14.11%20Text%20Scale,%2C%20type%20C%2Dx%20C%2D0%20.
 
 
+completi?
+M-/
+esc-tab
 
  (eepitch-eshell)
-text-scale-increase 
+text-scale-increase 1.2
+text-scale-decrease 1.1
+text-scale-decrease
 
 M-x ... Esc-x ... mc
 
+
+ (eepitch-ielm)
 (eev-beginner)
 
+
+M-e
 
 
 (info)
 C-h i
 f1 i
 
-C-w S-del
+C-w S-del  f2
 home C-k
 
-M-w C-ins
-C-y S-ins
+M-w C-ins f3
+
+C-y S-ins f4
 
 C-x C-s
 
@@ -53,9 +68,6 @@ https://hyperpolyglot.org/lisp#emacs-buffers
 # (find-evariable 'company-backends)
 
 
-
-M-/
-esc-tab
 
 
 
@@ -84,7 +96,7 @@ list-packages
 
 
 
-
+??
 ido-mode
 
 

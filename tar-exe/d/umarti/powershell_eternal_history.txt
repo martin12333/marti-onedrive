@@ -6045,3 +6045,8 @@ cd ~/OneDrive
 git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
+podman machine start
+podman start   -ai    cmy22b

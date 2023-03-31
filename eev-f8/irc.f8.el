@@ -3,17 +3,96 @@
 exit
 
 
+podman machine start
+ podman start   -ai    cmy22b
+
+sudo apt-get update
+bash
+irc
+
+#sudo apt install ircii
+
+
+
+
+
+/join #emacs
+
+
+
+
+
+
+
+ martin_milan JOIN
+22:40 *** TOPIC "Will none of these lazy insignificant configs,
+                whom I maintain, deliver me from this turbulent
+                editor?" -- Henry | Please mention any "kit" like
+                Doom, Spacemacs, nix or guix when asking for help |
+                Current stable is 28.2 | Emacs questions take
+                priority over chit-chat | pastebin:
+                https://bpa.st/+emacs-lisp |
+
+				No Public Logging,
+
+
+                racism, sexism, xenophobia, botwanking, or other
+                asshattery (bpalmer!~user@user/bpalmer on Mon Mar
+                20 06:10:58 2023)
+
+
+
+
+
+
+
+
+
+
 
 using this
 
 (i am
 learning now how to use irc for the first time)
-(i am now in my  Emacs
-at my	~/OneDrive/emacs/find-rcirc-intro.f8.el)
-at
+
+(i am reading and using M-e now, in my  Emacs,
+at my	~/OneDrive/emacs/find-rcirc-intro.f8.el,
+at the first
+
 ```
-  (find-libera-3a "#eev")
+(find-libera-3a "#eev")
+  (find-libera-2a "#eev")
 ```
+)
+
+(i will continue in less than 30 minutes)
+
+
+
+
+
+
+If you’re chatting from a laptop, then you might be familiar with this problem: When your laptop falls asleep and wakes up later, your IRC client doesn’t realize that it has been disconnected. It takes several minutes until the client decides that the connection has in fact been lost. The simple solution is to use M-x rcirc. The problem is that this opens an additional connection, so you’ll have two copies of every channel buffer, one dead and one live.
+
+One option therefore, is the
+
+/reconnect
+
+command.
+
+An other approach is to set rcirc-reconnect-delay to a value greater than 0, and allow rcirc to reconnect when it detects that the connection has been closed. By default it will try to do this three times (as specified by rcirc-reconnect-attempts), before giving up.
+
+
+Gives you some basic information about a nick. This often includes what other channels people are on. (Also /whois fsbot.)
+
+21:57 /whois edrx
+
+
+
+ress someone specifically, for example as an answer to a question, it is customary to prefix the message with the nick followed by a colon, like this:
+
+deego: fsbot rules!
+Since this is so common, you can use TAB to do nick completion.
 
 
 
@@ -26,10 +105,51 @@ at
 
 
 
+<e1f> ,bisect
+22:48 <fsbot> e1f, bisect is [0] If you can reproduce your issue
+              reliably in a new emacs, try bisecting your
+              user-init-file
+22:48 <fsbot> [1] Comment out lower half of your init file and try
+              to reproduce the issue. Recurse as needed.
+22:48 <fsbot> [2] Use M-; to comment or uncomment selected region
+22:48 <fsbot> [3] See also ,keep-one-open
 
 
 
 
+
+
+
+
+
+
+
+21:59 /help
+21:59 *** 704 index Help topics available to users:
+21:59 *** 705 index
+21:59 *** 705 index ACCEPT          ADMIN           AWAY
+              CHALLENGE
+21:59 *** 705 index CHANTRACE       CMODE           CREDITS
+              ERROR
+21:59 *** 705 index EXTBAN          HELP            INDEX
+              INFO
+21:59 *** 705 index INVITE          ISON            JOIN
+              KICK
+21:59 *** 705 index KNOCK           LINKS           LIST
+              LUSERS
+21:59 *** 705 index MAP             MONITOR         MOTD
+              NAMES
+21:59 *** 705 index NICK            NOTICE          OPER
+              PART
+21:59 *** 705 index PASS            PING            PONG
+              PRIVMSG
+21:59 *** 705 index QUIT            STATS           TIME
+              TOPIC
+21:59 *** 705 index TRACE           UMODE           USER
+              USERHOST
+21:59 *** 705 index USERS           VERSION         WHO
+              WHOIS
+21:59 *** 705 index WHOWAS
 
 
 
@@ -55,18 +175,6 @@ at
 
 
 
-0:33 -sodium.libera.chat- *** Checking Ident
-20:33 -sodium.libera.chat- *** Looking up your hostname...
-20:33 -sodium.libera.chat- *** Found your hostname:
-                           85-160-21-59.reb.o2.cz
-20:33 -sodium.libera.chat- *** No Ident response
-20:33 *** sodium.libera.chat 001 Welcome to the Libera.Chat
-                                 Internet Relay Chat Network
-                                 martin_milan
-
-
-
-
 
 
 
@@ -78,7 +186,11 @@ at
               supported by this server
 20:33 *** 005 CHANLIMIT=#:250 PREFIX=(ov)@+ MAXLIST=bqeI:100
               MODES=4 NETWORK=Libera.Chat STATUSMSG=@+
-              CASEMAPPING=rfc1459 NICKLEN=16 MAXNICKLEN=16
+              CASEMAPPING=rfc1459
+
+			   NICKLEN=16 MAXNICKLEN=16
+
+
               CHANNELLEN=50 TOPICLEN=390 DEAF=D are supported by
               this server
 20:33 *** 005 TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR:

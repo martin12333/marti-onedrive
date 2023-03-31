@@ -78,8 +78,9 @@ messages as they appear, and in window "C" the messages of the
 #eev channel. You can then use the window "C" to interact with
 the other users in #eev, and to experiment with commands. See:
 
-  (find-rcircnode "Internet Relay Chat" "Once you have joined a channel")
-  (find-rcircnode "Getting started with rcirc" "To talk in a channel")
+  (find    rcircnode "Internet Relay Chat" "Once you have joined a channel")
+  (find-node "Internet Relay Chat" "Once you have joined a channel") 
+ (find-rcircnode "Getting started with rcirc" "To talk in a channel")
   (find-rcircnode "rcirc commands" "/join #emacs")
 
 
