@@ -1,6 +1,7 @@
 
 
 
+experiments with didact
 
 
 [sadsa](didact://?commandId=workbench.action.terminal.renameWithArg&json={"name":"bbbbbNewNa787887me"})
@@ -189,6 +190,7 @@ https://lists.gnu.org/archive/html/eev/2008-02/msg00012.html
 
 
 
+experiments with didact
 
 
 

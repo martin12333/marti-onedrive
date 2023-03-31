@@ -26,7 +26,6 @@ cd -
 
 
 
-https://www.diigo.com/user/martin12333?page=2&query=f8+powershell
 
 
 
@@ -53,6 +52,7 @@ https://blog.hpcs.my/vscode-run-selected-text-in-terminal/
 Aug 4, 2021 —
 > I always liked how Powershell ISE has this feature where I can select the command and press F8 to run it in the command window.
 
+https://www.diigo.com/user/martin12333?page=2&query=f8+powershell
 
 
 it's supported by default shortcut "shift" + "enter".
@@ -195,6 +195,17 @@ https://lists.gnu.org/archive/html/eev/2008-02/msg00012.html
 
 
 https://github.com/TxGVNN/txgvnn.github.io/blob/79e9ffe86349c3a16622d19d1832a47684105e33/content/post/literate_devops_with_emacs.org
+
+
+
+
+
+
+
+
+
+experiments with didact
+
 
 
 
