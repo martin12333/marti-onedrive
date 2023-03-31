@@ -6041,3 +6041,7 @@ $oldPath2
 $oldPath
 $oldPath.Length + $oldPath2.Length
 $env:Path.Length
+cd ~/OneDrive
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push

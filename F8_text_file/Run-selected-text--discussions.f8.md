@@ -100,10 +100,45 @@ I would like to ask: would you enable github discussions in your repo?
 
 
 
+when is eepitch-kill really needed  ?
+
+I am still not sure, when it is really needed to run the line
+
+```
+ (eepitch-kill)
+
+```
+
+... Maybe when i want to demo something publicly, and i want to clear the mess, that was in the terminal before the demo starts ?
+
+(i am a beginner in Emacs)
+
+I have made some e-scripts, and i notice i  copied only the line
+
+```
+ (eepitch-eshell)
+```
 
 
 
 
+
+
+(I have started a wiki, where 1 page about eepitch)
+
+https://github.com/martin12333/Run-selected-text--discussions/wiki/eev-eepitch
+
+(i have added there some comments from the mailing list)
+
+
+
+ok, i am going to learn how to use irc now 
+
+(i am learning now how to use irc for the first time)
+(i am now at )
+```
+  (find-libera-3a "#eev")
+```
 
 
 

@@ -4,9 +4,21 @@
 <menu-bar> <options> <menu-set-font> runs the command menu-set-font
 
 
-(kbd "C-+") 'text-scale-increase)
+
+(find-rcirc-intro)
 
 
+........ (kbd "C-+") 'text-scale-increase)
+To increase the height of the default face in the current buffer, type C-x C-+ or C-x C-= . To decrease it, type C-x C-- . To restore the default (global) face height, type C-x C-0 .
+
+Similarly, scrolling the mouse wheel with the Ctrl modifier pressed, when the mouse pointer is above buffer text, will increase or decrease the height of the default face, depending on the direction of the scrolling.
+
+https://www.gnu.org/software/emacs/manual/html_node/emacs/Text-Scale.html#:~:text=14.11%20Text%20Scale,%2C%20type%20C%2Dx%20C%2D0%20.
+
+
+
+ (eepitch-eshell)
+text-scale-increase 
 
 M-x ... Esc-x ... mc
 
