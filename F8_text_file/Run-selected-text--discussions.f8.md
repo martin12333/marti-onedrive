@@ -13,7 +13,6 @@ echo '-------- section --------'
 
 
 
-# this file is only for  DRAFT writing for https://github.com/martin12333/Run-selected-text--discussions
 
 
 
@@ -42,10 +41,8 @@ git clone https://github.com/martin12333/Run-selected-text--discussions.git
 cd  ~/Run-selected-text--discussions.wiki
 git remote -vv add backu  https://github.com/Martin-Milan-org/BACKUP--Run-selected-text--discussions.wiki
 
-/Run-selected-text--discussions.wiki.git
 
 
-/_new
 
 
 
@@ -56,11 +53,26 @@ pseudocode f8 open a new terminal pane
 cd  ~/Run-selected-text--discussions.wiki
 git pull   -vv
 #cd -
+
+
+# repeat
 git push -vv backu master
 
+
+# once
+#git pull -vv backu master
+#fatal: refusing to merge unrelated histories
 c:\pf\totalcmd\totalcmd64   c:\users\marti\Run-selected-text--discussions.wiki   "C:\Users\marti\OneDrive\Run-selected-text--discussions.wiki--robocopy"
 
+# once
+git push -vv backu master
 error: failed to push some refs to 'https://github.com/Martin-Milan-org/BACKUP--Run-selected-text--discussions.wiki'
+git push -vv backu master   --force
+
+# + 4ff8f17...8553c02 master -> master (forced update)
+#updating local tracking ref 'refs/remotes/backu/master'
+
+git pull   -vv
 
 
 
@@ -75,6 +87,11 @@ git pull   -vv
 code ~/Run-selected-text--discussions.wiki
 
 ```
+
+
+
+
+# the rest of this file is only for  DRAFT writing for https://github.com/martin12333/Run-selected-text--discussions
 
 
 

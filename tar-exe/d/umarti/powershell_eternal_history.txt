@@ -6067,3 +6067,14 @@ c:\pf\totalcmd\totalcmd64
 c:\pf\totalcmd\totalcmd64 .
 c:\pf\totalcmd\totalcmd64   ~/Run-selected-text--discussions.wiki
 c:\pf\totalcmd\totalcmd64   c:\users\marti\Run-selected-text--discussions.wiki
+c:\pf\totalcmd\totalcmd64   c:\users\marti\Run-selected-text--discussions.wiki   "C:\Users\marti\OneDrive\Run-selected-text--discussions.wiki--robocopy"
+git push -vv backu master
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
+git pull -vv backu master
+git push -vv backu master
+git push -vv backu master   --force
+git pull   -vv
+git push -vv backu master
+git pull   -vv
