@@ -182,4 +182,37 @@ ok, i am going to learn how to use irc now
 ```
 
 
+Manifesto
 
+I would like to comment on some parts of the eev manifesto:
+
+> I have placed essentially all my "scripts" written in this way (I call them "e-scripts") in a public place.
+
+I use a text file form (format), that is similar to e-scripts for eepitch. I call the format: f8_text_file . My collection of these files is at
+
+https://github.com/martin12333/marti-onedrive
+
+> They contain almost everything I know about Unix.
+
+My files are mostly for a shell (\*.f8.sh), some are for PowerShell (\*.f8.ps1), some are \*.f8.py, ...
+
+
+, *.f8.py, etc., ... not only *.f8.ps1 for PowerShell)
+
+
+
+
+f8_text_file--clouddrive--monorepo ... a public collection of text files, that contain a mix of one-line commands and notes (*.f8.sh, *.f8.py, etc., ... not only *.f8.ps1 for PowerShell)
+
+
+
+f8_text_file(s) (not only for PowerShell), browserPOSIX, visual_conlangs
+
+In my collection, 
+
+
+i will write more later
+
+((btw, the filenames ... "Eda" is my nephew, he is 10))
+
+(Eda is my nephew)
