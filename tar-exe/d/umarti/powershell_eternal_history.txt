@@ -6078,3 +6078,5 @@ git push -vv backu master   --force
 git pull   -vv
 git push -vv backu master
 git pull   -vv
+git commit -v -a -m ...
+git push
