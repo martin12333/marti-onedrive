@@ -18,6 +18,7 @@ irc
 
 /join #emacs
 
+(so I will probably prefer Github to IRC)
 
 
 
@@ -25,20 +26,17 @@ irc
 
 
  martin_milan JOIN
-22:40 *** TOPIC "Will none of these lazy insignificant configs,
-                whom I maintain, deliver me from this turbulent
-                editor?" -- Henry | Please mention any "kit" like
+22:40 *** TOPIC Please mention any "kit" like
                 Doom, Spacemacs, nix or guix when asking for help |
                 Current stable is 28.2 | Emacs questions take
-                priority over chit-chat | pastebin:
+                priority over chit-chat |
+
+				pastebin:
                 https://bpa.st/+emacs-lisp |
+
 
 				No Public Logging,
 
-
-                racism, sexism, xenophobia, botwanking, or other
-                asshattery (bpalmer!~user@user/bpalmer on Mon Mar
-                20 06:10:58 2023)
 
 
 
@@ -100,13 +98,14 @@ Since this is so common, you can use TAB to do nick completion.
 
 
 
+ Before I go reinventing the wheel, does anybody know
+              of a /rectangle/ version of
+              buffer-substring-no-properties??
 
 
 
-
-
-<e1f> ,bisect
-22:48 <fsbot> e1f, bisect is [0] If you can reproduce your issue
+   ,bisect
+22:48 <fsbot> , bisect is [0] If you can reproduce your issue
               reliably in a new emacs, try bisecting your
               user-init-file
 22:48 <fsbot> [1] Comment out lower half of your init file and try
@@ -188,6 +187,7 @@ Since this is so common, you can use TAB to do nick completion.
               MODES=4 NETWORK=Libera.Chat STATUSMSG=@+
               CASEMAPPING=rfc1459
 
+
 			   NICKLEN=16 MAXNICKLEN=16
 
 
@@ -195,3 +195,35 @@ Since this is so common, you can use TAB to do nick completion.
               this server
 20:33 *** 005 TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR:
               EXTBAN=$,ajrxz are supported by this se
+
+
+ I figured out that it is ivy that is
+                   failing tramp
+
+
+				    I wish I was better at debugging why tramp hangs
+              trying to ssh to machines; it seems I learn and then
+              immediately unlearn how to diagnose and fix this with
+              each year that passes.
+
+
+
+			   have you set tramp-verbose to 7 and retried?
+			    now look in the *tramp debug* buffer
+ (and it's not helpful, but I'll continue to
+                recommend using an sshfs mount rather than tramp
+
+
+
+ it is stupefying in that sensd
+01:04 <> *sense
+
+
+
+
+
+
+
+
+
+

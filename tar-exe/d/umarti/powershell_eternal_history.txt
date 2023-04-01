@@ -6050,3 +6050,20 @@ git commit -v -a -m add
 git push
 podman machine start
 podman start   -ai    cmy22b
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
+cd  ~/Run-selected-text--discussions.wiki
+git pull   -vv
+cd
+git clone https://github.com/martin12333/Run-selected-text--discussions.git
+cd  ~/Run-selected-text--discussions
+git pull   -vv
+cd  ~/Run-selected-text--discussions.wiki
+git remote -vv add backu  https://github.com/Martin-Milan-org/BACKUP--Run-selected-text--discussions.wiki
+git push -vv backu
+git push -vv backu master
+c:\pf\totalcmd\totalcmd64
+c:\pf\totalcmd\totalcmd64 .
+c:\pf\totalcmd\totalcmd64   ~/Run-selected-text--discussions.wiki
+c:\pf\totalcmd\totalcmd64   c:\users\marti\Run-selected-text--discussions.wiki

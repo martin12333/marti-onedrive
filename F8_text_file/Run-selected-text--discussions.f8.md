@@ -37,13 +37,37 @@ https://blog.jpalardy.com/posts/stop-typing-into-repls/
 # once
 cd
 git clone https://github.com/martin12333/Run-selected-text--discussions.wiki.git
+cd
+git clone https://github.com/martin12333/Run-selected-text--discussions.git
+cd  ~/Run-selected-text--discussions.wiki
+git remote -vv add backu  https://github.com/Martin-Milan-org/BACKUP--Run-selected-text--discussions.wiki
+
+/Run-selected-text--discussions.wiki.git
+
+
+/_new
+
+
 
 
 # repeat
-pseudocode open a new terminal pane
+pseudocode f8 open a new terminal pane
+
 cd  ~/Run-selected-text--discussions.wiki
 git pull   -vv
 #cd -
+git push -vv backu master
+
+c:\pf\totalcmd\totalcmd64   c:\users\marti\Run-selected-text--discussions.wiki   "C:\Users\marti\OneDrive\Run-selected-text--discussions.wiki--robocopy"
+
+error: failed to push some refs to 'https://github.com/Martin-Milan-org/BACKUP--Run-selected-text--discussions.wiki'
+
+
+
+
+cd  ~/Run-selected-text--discussions
+git pull   -vv
+
 
 
 
