@@ -6083,3 +6083,14 @@ git push
 git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
+where.exe curl
+where.exe wget
+where.exe tar
+where.exe cpio
+where.exe zip
+where.exe /?
+where.exe tar
+git add -vv  '*.f8.*'
