@@ -668,3 +668,42 @@ done}| grep -i '[.]wasm$'
 : 1679407636:0;echo $PATH
 : 1679409597:0;"ðƒ¿ƒ¬ƒ¾"\
 
+: 1679470637:0;xxd
+: 1679471001:0;python3
+: 1679471463:0;xxd
+: 1679586836:0;sudo apt update
+: 1679586867:0;sudo apt install kbd
+: 1679586882:0;showkey -a
+: 1680293097:0;bash
+: 1680539197:0;sudo apt update
+: 1680539238:0;sudo apt install wine
+: 1680539781:0;sudo apt install wine64
+: 1680539793:0;sudo apt install wine-stable
+: 1680539940:0;sudo apt install   x11-common
+: 1680540044:0;sudo apt install libxkbcommon0 libxpm4 libxrandr2
+: 1680540075:0;sudo apt install ocl-icd-libopencl1
+: 1680540127:0;sudo apt install  alsa-topology-conf
+: 1680540152:0;sudo apt install   gstreamer1.0-plugins-base
+: 1680540183:0;sudo apt install wine
+: 1680540234:0;sudo apt install   libwayland-client0
+: 1680540255:0;sudo apt install  libwayland-server0
+: 1680540278:0;sudo apt install libwebp7 libwine libx11-xcb1
+: 1680540297:0;sudo apt install libwebp7
+: 1680540317:0;sudo apt install libx11-xcb1
+: 1680540340:0;sudo apt install  libwine
+: 1680540455:0;sudo apt install wine
+: 1680540494:0;sudo apt install wine64
+: 1680540517:0;sudo apt install wine-stable
+: 1680540615:0;sudo apt install wine apt show  wine64-tools
+: 1680540619:0;apt show  wine64-tools
+: 1680540655:0;apt show  wine64-stable
+: 1680540662:0;apt show  wine-stable
+: 1680540724:0;apt show  winetricks
+: 1680540833:0;apt download winetricks
+: 1680553905:0;wine --version
+: 1680553918:0;wine64 --version
+: 1680554566:0;mc
+: 1680555064:0;dpkg -L libwine:amd64
+: 1680555072:0;dpkg -L libwine:amd64|less
+: 1680555095:0;mc
+: 1680555165:0;ls *.exe

@@ -64,3 +64,6 @@ ifconfig --all
 man arp| grep -- -a
 apt search game  bash
 "🌞".length
+irc
+ircexit
+exit

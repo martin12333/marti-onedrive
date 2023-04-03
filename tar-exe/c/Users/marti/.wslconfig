@@ -1,4 +1,9 @@
 ## quote: thomas h block: mayday: ~ ~ He remembered a phrase from a flight manual: toggle important switches one at a time
+
+# this is no f8
+# use text selection
+# or 
+
 # wsl --list --all --verbose
 # wsl --shutdown
 # https://docs.microsoft.com/en-us/windows/wsl/wsl-config#example-wslconfig-file

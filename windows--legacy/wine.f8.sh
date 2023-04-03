@@ -58,3 +58,24 @@ wine64-development-tools      winetricks
 wine64-preloader
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+wine --version
+wine64 --version
+
+wine 
