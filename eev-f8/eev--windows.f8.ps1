@@ -18,6 +18,12 @@ where.exe /r c:\pf\git wg*.*
 where.exe /r c:\pf\git *vim*.exe
 cd c:\pf\git
 cmd /c dir vi*.exe /s
+cmd /c dir tcl* /s
+
+cmd /c dir C:\pf\Git\mingw64\lib\tcl8 /s
+explorer  C:\pf\Git\mingw64\lib\tcl8
+
+
 
 c:\pf\Git\mingw64\bin\curl.exe
 
@@ -49,6 +55,9 @@ cat 4
 
 
 
-
-
+bash
+tclsh
+% puts
+wrong # args: should be "puts ?-nonewline? ?channelId? string"
+% puts 45
 
