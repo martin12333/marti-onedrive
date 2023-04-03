@@ -211,6 +211,34 @@ f8_text_file(s) (not only for PowerShell), browserPOSIX, visual_conlangs
 In my collection, 
 
 
+
+
+
+
+workshops ... versions of Windows
+
+I am reading 
+
+
+http://anggtwu.net/2021-2022-workshops.html
+
+I wonder: people in your workshops ... what versions of Windows they have ?
+
+i know, that e.g. git-for-Windows, with bash and 100 utils, is available even for Windows xp. (btw, my dad had wxp till 2017)
+
+
+
+
+
+
+
+
+https://lists.gnu.org/archive/html/help-gnu-emacs/2021-10/msg00037.html
+
+
+
+
+
 i will write more later
 
 ((btw, the filenames ... "Eda" is my nephew, he is 10))
