@@ -6132,3 +6132,6 @@ cmd /c dir tcl* /s
 cmd /c dir C:\pf\Git\mingw64\lib\tcl8 /s
 explorer  C:\pf\Git\mingw64\lib\tcl8
 bash
+git push
+git commit -v -a -m ...
+git push
