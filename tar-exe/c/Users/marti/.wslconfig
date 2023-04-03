@@ -2,10 +2,10 @@
 
 # this is no f8
 # use text selection
-# or 
-
+# or file:///C:\Users\marti\OneDrive\wsl-dotfiles\wslconfig,wsl.conf.f8.ps1
 # wsl --list --all --verbose
-# wsl --shutdown
+# wsl --shutdown   # to reload
+
 # https://docs.microsoft.com/en-us/windows/wsl/wsl-config#example-wslconfig-file
 
 
@@ -17,7 +17,7 @@
 
 
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-guiApplications=false
+#guiApplications=false
 
 
 
@@ -26,7 +26,8 @@ guiApplications=false
 
 # Limits VM memory to use no more than 4 GB, this can be set as whole numbers using GB or MB
 #memory=4GB
-memory=2500MB
+#memory=2500MB
+memory=3000MB
 
 
 # Sets the VM to use two virtual processors
@@ -50,12 +51,15 @@ swap=2048MB
 
 # Turn off default connection to bind WSL 2 localhost to Windows localhost
 ###localhostforwarding=true
+localhostforwarding=true
+#mobaxterm ... maybe wont help
 
 # Disables nested virtualization
 ###nestedVirtualization=false
 
 # Turns on output console showing contents of dmesg when opening a WSL 2 distro for debugging
-debugConsole=true
+
+#debugConsole=true
 # !! shows docker
 
 

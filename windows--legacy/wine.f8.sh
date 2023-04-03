@@ -8,7 +8,6 @@ sudo apt update
 
 
 
-
 sudo apt install  libwine
 y
   gstreamer1.0-plugins-base
@@ -78,4 +77,17 @@ wine64-preloader
 wine --version
 wine64 --version
 
-wine 
+winecfg
+
+env|grep -i way
+env|grep -i disp
+
+wine cmd
+
+cmd /?
+dir
+cd
+
+ping /?
+
+

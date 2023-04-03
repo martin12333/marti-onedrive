@@ -707,3 +707,50 @@ done}| grep -i '[.]wasm$'
 : 1680555072:0;dpkg -L libwine:amd64|less
 : 1680555095:0;mc
 : 1680555165:0;ls *.exe
+: 1680557580:0;xdpyinfo.exe
+: 1680557670:0;sudo apt install xxx
+: 1680558191:0;sudo apt show apt show xless
+: 1680558222:0;apt show xinput
+: 1680558236:0;apt show xininfo
+: 1680558252:0;apt show xfireworks
+: 1680558270:0;apt show xdu
+: 1680558287:0;apt show xdiskusage
+: 1680558310:0;apt show xcolors
+: 1680558327:0;apt show xcowsay
+: 1680558359:0;sudo apt install xfireworks
+: 1680558378:0;zsh
+: 1680558383:0;xfireworks
+: 1680558396:0;set
+: 1680558399:0;env
+: 1680558506:0;xfireworks
+: 1680558511:0;env
+: 1680558594:0;xfireworks
+: 1680558596:0;env
+: 1680558639:0;xfireworks
+: 1680558661:0;sudo apt install xininfo
+: 1680558687:0;xininfo
+: 1680559006:0;sudo apt install x11-apps
+: 1680559076:0;xclipboard
+: 1680559092:0;xclock
+: 1680559146:0;env
+: 1680559176:0;history
+: 1680559187:0;xfireworks
+: 1680559272:0;xininfo
+: 1680559275:0;xininfo -?
+: 1680559277:0;xininfo -h
+: 1680559288:0;xclock
+: 1680559333:0;xcalc
+: 1680559364:0;winecfg
+: 1680559731:0;env
+: 1680559742:0;env|grep -i way
+: 1680559752:0;env|grep -i disp
+: 1680559812:0;xinput
+: 1680559834:0;sudo apt install xinput
+: 1680559852:0;xinput
+: 1680559924:0;zsh
+: 1680559984:0;apt apt show  x11-apps
+: 1680559987:0;apt show  x11-apps
+: 1680560047:0;xgc
+: 1680560522:0;mc
+: 1680560975:0;wine cmd
+: 1680561012:0;wine64 --version
