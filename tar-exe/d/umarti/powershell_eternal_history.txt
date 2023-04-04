@@ -6149,3 +6149,6 @@ wsl --shutdown   # to reload
 wsl --list --all --verbose
 wsl --shutdown   # to reload
 wsl --shutdown   # to reload
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push

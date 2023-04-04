@@ -754,3 +754,20 @@ done}| grep -i '[.]wasm$'
 : 1680560522:0;mc
 : 1680560975:0;wine cmd
 : 1680561012:0;wine64 --version
+: 1680561336:0;ll 
+: 1680561484:0;du -sm ~/.wine/dri*
+: 1680561527:0;du -sm /usr/lib/x86*/wine
+: 1680561577:0;ls -l /home/martin/.wine/dos*
+: 1680561591:0;ls -l /home/martin/.wine/dos*/z:
+: 1680564940:0;symlinks
+: 1680564966:0;bash
+: 1680565035:0;sudo apt install symlinks
+: 1680565092:0;symlinks
+: 1680565123:0;sudo apt install symlinks
+: 1680565147:0;cd
+: 1680565202:0;find -L . > /dev/null
+: 1680565259:0;find -L . > /dev/null 2>&1 | grep loop
+: 1680565508:0;find -L . > /dev/null 2>&1 | grep levels
+: 1680565730:0;unlink
+: 1680565736:0;unlink  ---help
+: 1680565747:0;man unlink

@@ -67,3 +67,5 @@ apt search game  bash
 irc
 ircexit
 exit
+symlinks
+sudo apt install symlinks
