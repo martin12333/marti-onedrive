@@ -5,7 +5,11 @@ command
 
 doskey
 
+cmd /c set
+
 cd c:\windows
+
+
 
 dir *.exe /s /b /l /on >com1
 

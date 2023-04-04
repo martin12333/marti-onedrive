@@ -6157,3 +6157,12 @@ git push
 git commit -v -a -m add
 git add -vv  '*.f8.*'
 git push
+git commit -v -a -m ...
+git add -vv  '*.f8.*'
+cd c:\windows
+dir *.exe /s /b /l /on
+cmd /c dir *.exe /s /b /l /on
+set
+cmd /c set
+cmd /c dir *.exe  /b /l /on
+cmd /c dir system32\*.exe  /b /l /on

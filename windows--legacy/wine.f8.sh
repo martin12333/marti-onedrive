@@ -158,6 +158,27 @@ DISPLAY=:0
 WAYLAND_DISPLAY=wayland-0
 
 
+
+
+ll /usr/lib/x86_64-linux-gnu/wine/*.exe
+
+
+cmd /c set
+cd c:\windows
+cmd /c dir *.exe  /b /l /on
+cmd /c dir system32\*.exe  /b /l /on
+
+
+
+
+
+
+
+
+
+
+
+
 cd ~/.wine/drive_c
 wine cmd
 
@@ -178,7 +199,6 @@ PATH=C:\windows\system32;C:\windows;C:\windows\system32\wbem;C:\windows\system32
 WINECONFIGDIR=\??\unix\home\martin\.wine
 WINEDATADIR=\??\unix\usr\lib\wine\..\..\share\wine\wine
 
-
 WINEDLLDIR0=\??\unix\usr\lib\x86_64-linux-gnu\wine
 WINEHOMEDIR=\??\unix\home\martin
 
@@ -186,11 +206,11 @@ dir
 dir /?
 dir /a
 dir /ah
-
+####dir   "\\unix$\usr\lib\x86_64-linux-gnu\wine"
 
 ping /?
 
-powershell
+#powershell
 ls
 
 
