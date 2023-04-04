@@ -38,6 +38,9 @@ ps -ef
 
 pslist.exe -t
 
+
+
+
 Code                         23436   8  33  933 2173448612   66036   53040
 Code                       12372   8  24  400 2181648060   64692   55504
   Code                      7016   8  14  224 2173165572   22776   24696
@@ -233,6 +236,10 @@ git commit -v -a -m pipelist
 git push
 
 # https://github.com/martin12333/marti-onedrive/blob/main2/windows-hist-n-evolut/windows-Named-Pipelist.not.f8.txt#L1
+
+
+LOCAL\mojo.26652.9908.13376243703245927534          1                1
+MicrosoftEdge.exe
 
 pipelist.exe  >.\windows-hist-n-evolut\windows-Named-Pipelist.not.f8.txt
 git commit -v -a -m pipelist
