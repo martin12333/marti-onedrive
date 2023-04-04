@@ -3,12 +3,23 @@
 exit
 
 ###### (eepitch-eshell)
+
  (eepitch-eshell)
+
+ (eepitch-kill)
+
+ (eepitch-eshell)
+bash
+ls
+cat -
 cmd
 powershell
 
 Cannot load PSReadline module.  Console is running without PSReadline.
 pwsh
+#hang on
+bash ###
+ (eepitch-kill)
 
  (eepitch-shell)
 cmd
@@ -136,9 +147,10 @@ done
 
 
 pipelist.exe  /?
-pipelist.exe  >1
-
+ (eepitch-eshell)
 bash
+
+pipelist.exe  >1
 
 tclsh
 

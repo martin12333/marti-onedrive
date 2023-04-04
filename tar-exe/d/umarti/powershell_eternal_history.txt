@@ -6226,3 +6226,7 @@ pslist.exe -t
 pipelist.exe  >.\windows-hist-n-evolut\windows-Named-Pipelist.not.f8.txt
 git commit -v -a -m pipelist
 git push
+git add -vv  '*.f8.*'
+pipelist.exe  >.\windows-hist-n-evolut\windows-Named-Pipelist.not.f8.txt
+git commit -v -a -m pipelist
+git push
