@@ -194,7 +194,7 @@ pipelist.exe  >3
 node
  (eepitch-kill)
  (eepitch-shell)
-
+ (eepitch-shell2)
 pipelist.exe  >3
 
 node --interactive
@@ -249,12 +249,15 @@ print(os.fstat(1)  )
 print(os.fstat(2)  )
 
 
+
+>>> import os, sys
 >>> print(os.fstat(0)  )
-os.stat_result(st_mode=8192, st_ino=0, st_dev=0, st_nlink=0, st_uid=0, st_gid=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0)
+os.stat_result(st_mode=4096, st_ino=0, st_dev=0, st_nlink=0, st_uid=0, st_gid=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0)
 >>> print(os.fstat(1)  )
-os.stat_result(st_mode=8192, st_ino=0, st_dev=0, st_nlink=0, st_uid=0, st_gid=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0)
+os.stat_result(st_mode=4096, st_ino=0, st_dev=0, st_nlink=0, st_uid=0, st_gid=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0)
 >>> print(os.fstat(2)  )
-os.stat_result(st_mode=8192, st_ino=0, st_dev=0, st_nlink=0, st_uid=0, st_gid=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0)
+os.stat_result(st_mode=4096, st_ino=0, st_dev=0, st_nlink=0, st_uid=0, st_gid=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0)
+>>> 
 
 node
 
