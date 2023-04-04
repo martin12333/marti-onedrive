@@ -6210,3 +6210,6 @@ cd ~/OneDrive
 git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push
+pipelist.exe  >.\windows-hist-n-evolut\windows-Named-Pipelist.not.f8.txt
+git add -vv  '*.f8.*'
+git commit -v -a -m pipelist

@@ -220,14 +220,17 @@ pipelist.exe  >8
 
 pipelist.exe  >.\windows-hist-n-evolut\windows-Named-Pipelist.not.f8.txt
 
-
 git add -vv  '*.f8.*'
 git commit -v -a -m pipelist
 git push
 
+start notepad
+#start D:\instu\emacs-27.2-x86_64\bin\bzfgrep
+start D:\instu\emacs-27.2-x86_64\bin\runemacs.exe
 
-
-
+pipelist.exe  >.\windows-hist-n-evolut\windows-Named-Pipelist.not.f8.txt
+git commit -v -a -m pipelist
+git push
 
 
 
