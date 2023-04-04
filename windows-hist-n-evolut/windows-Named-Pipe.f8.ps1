@@ -232,8 +232,11 @@ pipelist.exe  >.\windows-hist-n-evolut\windows-Named-Pipelist.not.f8.txt
 git commit -v -a -m pipelist
 git push
 
+# https://github.com/martin12333/marti-onedrive/blob/main2/windows-hist-n-evolut/windows-Named-Pipelist.not.f8.txt#L1
 
-
+pipelist.exe  >.\windows-hist-n-evolut\windows-Named-Pipelist.not.f8.txt
+git commit -v -a -m pipelist
+git push
 
 
 
