@@ -771,3 +771,12 @@ done}| grep -i '[.]wasm$'
 : 1680565730:0;unlink
 : 1680565736:0;unlink  ---help
 : 1680565747:0;man unlink
+: 1680566788:0;find .wine -type l
+: 1680566794:0;find .wine -type l -ls
+: 1680569146:0;mv -iv /home/martin/.wine/dosdevices/c:/users/martin/My\ Documents    /tmp
+: 1680569166:0;mkdir   /home/martin/.wine/dosdevices/c:/users/martin/My\ Documents
+: 1680569320:0;unlink  /home/martin/.wine/dosdevices/z:
+: 1680569422:0;mkdir -p /tmp/mywine/tmp--abcde
+: 1680569460:0;ln -s   /tmp/mywine                 ~/.wine/dosdevices/z:
+: 1680569486:0;ls -l             ~/.wine/dosdevices/z:
+: 1680569496:0;ls -l             ~/.wine/dosdevices/z:/*

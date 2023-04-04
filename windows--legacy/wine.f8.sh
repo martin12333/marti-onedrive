@@ -88,6 +88,35 @@ ls -l /home/martin/.wine/dos*/z:
 ➜  OneDrive ls -l /home/martin/.wine/dos*/z:
 lrwxrwxrwx 1 martin martin 1 Apr  4 00:02 /home/martin/.wine/dosdevices/z: -> /
 
+unlink  /home/martin/.wine/dosdevices/z:
+rm ~/.wine/dosdevices/z:
+
+#tar -cvvz --totals --ignore-failed-read -f /home/somewherethatisnotbob/bob.tar.gz /home/bob
+#ln -s / ~/.wine/dosdevices/z:
+
+mkdir -p /tmp/mywine/tmp--abcde
+ln -siv   /tmp/mywine                 ~/.wine/dosdevices/z:
+
+ls -ld             ~/.wine/dosdevices/z:/*
+
+
+
+mv -iv /home/martin/.wine/dosdevices/c:/users/martin/My\ Documents    /tmp
+mkdir   /home/martin/.wine/dosdevices/c:/users/martin/My\ Documents
+
+
+find .wine -type l -ls
+
+  76355      0 lrwxrwxrwx   1 martin   martin         12 Apr  4 00:08 .wine/drive_c/users/martin/My\ Documents -> /home/martin
+
+    75950      0 lrwxrwxrwx   1 martin   martin          1 Apr  4 00:02 .wine/dosdevices/z: -> /
+
+.wine/dosdevices/com1
+➜  ~ find .wine -type l -ls
+    78506      0 lrwxrwxrwx   1 martin   martin         58 Apr  4 00:08 .wine/drive_c/users/martin/My\ Music -> /home/martin/.wine/dosdevices/c:/users/martin/My\ Documents
+r  4 00:08 .wine/drive_c/users/martin/My\ Documents -> /home/martin    78504      0 lrwxrwxrwx   1 martin   martin         58 Apr  4 00:08 .wine/drive_c/users/martin/My\ Pictures -> /home/martin/.wine/dosdevices/c:/users/martin/My\ Documents    78509      0 lrwxrwxrwx   1 martin   martin         58 Apr  4 00:08 .wine/drive_c/users/martin/Templates -> /home/martin/.wine/dosdevices/c:/users/martin/My\ Documents    78507      0 lrwxrwxrwx   1 martin   martin         58 Apr  4 00:08 .wine/drive_c/users/martin/My\ Videos -> /home/martin/.wine/dosdevices/c:/users/martin/My\ Documents    78508      0 lrwxrwxrwx   1 martin   martin         58 Apr  4 00:08 .wine/drive_c/users/martin/Downloads -> /home/martin/.wine/dosdevices/c:/users/martin/My\ Documents    79470      0 lrwxrwxrwx   1 martin   martin         10 Apr  4 00:29 .wine/dosdevices/com4 -> /dev/ttyS3           75906      0 lrwxrwxrwx   1 martin   martin         10 Apr  4 00:02 .wine/dosdevices/c: -> ../drive_c    78431      0 lrwxrwxrwx   1 martin   martin         10 Apr  4 00:29 .wine/dosdevices/com3 -> /dev/ttyS2           78430      0 lrwxrwxrwx   1 martin   martin         10 Apr  4 00:29 .wine/dosdevices/com2 -> /dev/ttyS1           75950      0 lrwxrwxrwx   1 martin   martin          1 Apr  4 00:02 .wine/dosdevices/z: -> /    76344      0 lrwxrwxrwx   1 martin   martin         10 Apr  4 00:29 .wine/dosdevices/com1 -> /dev/ttyS0       ➜  ~
+
+
 
 bash
 symlinks
