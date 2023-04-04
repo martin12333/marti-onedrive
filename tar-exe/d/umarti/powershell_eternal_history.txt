@@ -6169,3 +6169,40 @@ cmd /c dir system32\*.exe  /b /l /on
 git commit -v -a -m ...
 pipelist.exe
 pipelist.exe  /?
+git commit -v -a -m ...
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
+exit
+bash
+pslist.exe -t
+pipelist.exe  /?
+pipelist.exe  >1
+pipelist.exe  >2
+pslist.exe -t
+pipelist.exe  /?
+pipelist.exe  >3
+node
+pipelist.exe  /?
+pipelist.exe  >4
+& 'D:\conda\shell\condabin\conda-hook.ps1'
+conda activate 'D:\conda'
+pipelist.exe  >5
+python
+pipelist.exe  >6
+& 'D:\conda\shell\condabin\conda-hook.ps1'
+conda activate 'D:\conda'
+pipelist.exe  >7
+pipelist.exe  >7
+python
+node
+pipelist.exe  >8
+python
+& 'D:\conda\shell\condabin\conda-hook.ps1'
+conda activate 'D:\conda'
+python
+node
+pipelist.exe  >8
+& 'D:\conda\shell\condabin\conda-hook.ps1'
+conda activate 'D:\conda'
+spyder

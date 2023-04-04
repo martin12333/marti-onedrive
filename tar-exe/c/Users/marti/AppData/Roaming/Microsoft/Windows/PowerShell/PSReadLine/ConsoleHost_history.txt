@@ -3407,3 +3407,7 @@ Get-Clipboard
 Read-Host
 $p=(Get-Clipboard); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int]($p[$i]) }
 $PSVersionTable
+import os, sys
+print(os.fstat(0)  )
+print(os.fstat(1)  )
+python.exe
