@@ -230,8 +230,9 @@ os.stat_result(st_mode=33206, st_ino=173388585653782314, st_dev=612422173, st_nl
 
 pipelist.exe  >5
 
-python
-
+python -i
+###python
+quit()
 uv\FFFFFFFFFFFFFFFF-30104                         1                1
 uv\0000000000000001-30104                         1                1
 
