@@ -23,7 +23,7 @@ wkssvc                                            4               -1
 trkwks                                            3               -1      
 WiFiNetworkManagerTask                            1               -1      
 PIPE_EVENTROOT\CIMV2SCM EVENT PROVIDER            1               -1      
-srvsvc                                            4               -1      
+srvsvc                                            5               -1      
 ROUTER                                            3               -1      
 8e893724-7054-41a6-b56b-a7029915bb33             12               -1      
 aakore.sock                                       5               -1      
@@ -346,4 +346,4 @@ LOCAL\mojo.26652.9908.7815164925302002399          1                1
 LOCAL\mojo.26652.9908.17047713981872503596          1                1      
 LOCAL\mojo.26652.9908.14243050183800527619          1                1      
 LOCAL\mojo.26652.9908.6094404340379850933          1                1      
-msys-1888ae32e00d56aa-8780-sigwait                1                1      
+msys-1888ae32e00d56aa-22328-sigwait               1                1      
