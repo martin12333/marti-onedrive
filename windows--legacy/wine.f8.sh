@@ -82,7 +82,7 @@ winecfg
 
 ls -l /home/martin/.wine/dos*
 
-!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!! !!!!!!!!!! !!!!!!! SYMLINK LOOP
+!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!! !!!!!!!!!! !!!!!!! 2 SYMLINK LOOPs
 ls -l /home/martin/.wine/dos*/z:
 
 ➜  OneDrive ls -l /home/martin/.wine/dos*/z:
@@ -111,17 +111,14 @@ find .wine -type l -ls
 
     75950      0 lrwxrwxrwx   1 martin   martin          1 Apr  4 00:02 .wine/dosdevices/z: -> /
 
-.wine/dosdevices/com1
-➜  ~ find .wine -type l -ls
-    78506      0 lrwxrwxrwx   1 martin   martin         58 Apr  4 00:08 .wine/drive_c/users/martin/My\ Music -> /home/martin/.wine/dosdevices/c:/users/martin/My\ Documents
-r  4 00:08 .wine/drive_c/users/martin/My\ Documents -> /home/martin    78504      0 lrwxrwxrwx   1 martin   martin         58 Apr  4 00:08 .wine/drive_c/users/martin/My\ Pictures -> /home/martin/.wine/dosdevices/c:/users/martin/My\ Documents    78509      0 lrwxrwxrwx   1 martin   martin         58 Apr  4 00:08 .wine/drive_c/users/martin/Templates -> /home/martin/.wine/dosdevices/c:/users/martin/My\ Documents    78507      0 lrwxrwxrwx   1 martin   martin         58 Apr  4 00:08 .wine/drive_c/users/martin/My\ Videos -> /home/martin/.wine/dosdevices/c:/users/martin/My\ Documents    78508      0 lrwxrwxrwx   1 martin   martin         58 Apr  4 00:08 .wine/drive_c/users/martin/Downloads -> /home/martin/.wine/dosdevices/c:/users/martin/My\ Documents    79470      0 lrwxrwxrwx   1 martin   martin         10 Apr  4 00:29 .wine/dosdevices/com4 -> /dev/ttyS3           75906      0 lrwxrwxrwx   1 martin   martin         10 Apr  4 00:02 .wine/dosdevices/c: -> ../drive_c    78431      0 lrwxrwxrwx   1 martin   martin         10 Apr  4 00:29 .wine/dosdevices/com3 -> /dev/ttyS2           78430      0 lrwxrwxrwx   1 martin   martin         10 Apr  4 00:29 .wine/dosdevices/com2 -> /dev/ttyS1           75950      0 lrwxrwxrwx   1 martin   martin          1 Apr  4 00:02 .wine/dosdevices/z: -> /    76344      0 lrwxrwxrwx   1 martin   martin         10 Apr  4 00:29 .wine/dosdevices/com1 -> /dev/ttyS0       ➜  ~
 
 
-
+###
 bash
 symlinks
 sudo apt install symlinks
 
+###
 cd
 find
 Yes, the loop messages come out on stderr, so you can filter out only those results by running
@@ -146,14 +143,57 @@ du -sm /usr/lib/x86*/wine
 env|grep -i way
 env|grep -i disp
 
+
+
+
+
+
+
+env
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/pf/PowerShell/7:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Common Files/Acronis/VirtualFile/:/mnt/c/Program Files (x86)/Common Files/Acronis/VirtualFile64/:/mnt/c/Program Files (x86)/Common Files/Acronis/FileProtector/:/mnt/c/Program Files (x86)/Common Files/Acronis/FileProtector64/:/mnt/c/Program Files (x86)/Common Files/Acronis/SnapAPI/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Microsoft Application Virtualization/Sequencer/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/RedHat/Podman/:/mnt/c/Program Files/Tailscale/:/mnt/c/Program Files/nodejs/:/mnt/c/Users/marti/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/marti/.dotnet/tools:/mnt/d/instu/vscode/bin:/mnt/c/Users/marti/AppData/Roaming/npm
+XDG_RUNTIME_DIR=/mnt/wslg/runtime-dir
+
+DISPLAY=:0
+WAYLAND_DISPLAY=wayland-0
+
+
+cd ~/.wine/drive_c
 wine cmd
 
-chcp
+
+
+wine: could not open working directory L"unix\\home\\martin\\", starting in the Windows directory.
+Microsoft Windows 6.1.7601
+
 exit
-cmd /?
+
+chcp
+#cmd /?
+
+set
+
+PATH=C:\windows\system32;C:\windows;C:\windows\system32\wbem;C:\windows\system32\WindowsPowershell\v1.0
+
+WINECONFIGDIR=\??\unix\home\martin\.wine
+WINEDATADIR=\??\unix\usr\lib\wine\..\..\share\wine\wine
+
+
+WINEDLLDIR0=\??\unix\usr\lib\x86_64-linux-gnu\wine
+WINEHOMEDIR=\??\unix\home\martin
+
 dir
-cd
+dir /?
+dir /a
+dir /ah
+
 
 ping /?
+
+powershell
+ls
+
+
+
 
 

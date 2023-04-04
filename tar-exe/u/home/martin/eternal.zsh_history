@@ -780,3 +780,12 @@ done}| grep -i '[.]wasm$'
 : 1680569460:0;ln -s   /tmp/mywine                 ~/.wine/dosdevices/z:
 : 1680569486:0;ls -l             ~/.wine/dosdevices/z:
 : 1680569496:0;ls -l             ~/.wine/dosdevices/z:/*
+: 1680569517:0;ls -ld             ~/.wine/dosdevices/z:/*
+: 1680569663:0;ls -l /home/martin/.wine/dos*/z:
+: 1680569672:0;ls -l /home/martin/.wine/dos*
+: 1680569699:0;find .wine -type l -ls
+: 1680569772:0;find -L . > /dev/null 2>&1 | grep loop
+: 1680569863:0;wine cmd
+: 1680570003:0;set
+: 1680570007:0;env
+: 1680570104:0;wine cmd
