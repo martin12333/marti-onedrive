@@ -2,7 +2,22 @@
 
 exit
 
-pipelist.exe  /?
+###### (eepitch-eshell)
+ (eepitch-eshell)
+cmd
+powershell
+
+Cannot load PSReadline module.  Console is running without PSReadline.
+pwsh
+
+ (eepitch-shell)
+cmd
+powershell
+Cannot load PSReadline module.  Console is running without PSReadline.
+pwsh
+# colors
+
+pipelist.exe  
 
 
 
@@ -29,7 +44,7 @@ wsl_debugshell_S-1-5-21-2941743733-2172176398-4109959614-1011          1        
 
 
 #job-object id 868
-
+#
 
 
 
@@ -39,6 +54,23 @@ ps -ef
 pslist.exe -t
 
 
+
+emacs                          27652   8   4  573 4535432   84124   55148
+  conhost                      24904   8   3  126 2151799100    9460    1648
+
+      23284   8  61 2515  441024   26036   59508
+emacs                          27652   8   7  584 4543940   84076   55768
+  cmdproxy                     10772   8   1   66 4272296    4768     804
+    conhost                     9068   8   4  133 2151803828   13612    5864
+    cmd                        31180   8   2  150 2151745140    9496    3896
+      powershell               29360   8  11  637 2152354384   70344   68496
+        pwsh                   24868   8  22  815 2152516944   90116   45748
+  cmd                          12700   8   1   88 2151737212    5532    2284
+    powershell                 18896   8   8  631 2152352896   70128   68044
+      pwsh                     31008   8  22  910 2152520896   93280   48200
+        pslist                 32584  13   4  221 4316084    9188    3764
+    conhost                    21072   8   3  133 2151818676   19656   11944
+  conhost                      24904   8   3  126 2151799100    9460    1648
 
 
 Code                         23436   8  33  933 2173448612   66036   53040
@@ -240,15 +272,7 @@ git push
 # https://github.com/martin12333/marti-onedrive/blob/main2/windows-hist-n-evolut/windows-Named-Pipelist.not.f8.txt#L1
 
 
-LOCAL\mojo.26652.9908.13376243703245927534          1                1
-MicrosoftEdge.exe
 
-pipelist.exe  >.\windows-hist-n-evolut\windows-Named-Pipelist.not.f8.txt
-git commit -v -a -m pipelist
-git push
-
-
-git add -vv  '*.f8.*'
 
 
 
