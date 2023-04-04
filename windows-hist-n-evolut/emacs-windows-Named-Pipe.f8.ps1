@@ -192,8 +192,13 @@ PSHost.133251185533653174.7600.DefaultAppDomain.pwsh          1                1
 pipelist.exe  >3
 
 node
+ (eepitch-kill)
+ (eepitch-shell)
 
+pipelist.exe  >3
 
+node --interactive
+.exit
 
 LOCAL\mojo.26652.9908.4804296046935205742          1                1
 msys-1888ae32e00d56aa-12544-sigwait               1                1
