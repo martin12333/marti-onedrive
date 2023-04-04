@@ -153,7 +153,7 @@ bash
 pipelist.exe  >1
 
 tclsh
-
+ (eepitch-kill)
 
 
 Code                       30104   8  19  392 2173213864  1
