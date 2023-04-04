@@ -21,3 +21,5 @@ apt show xcowsay
 
 xinput
 xgc
+
+winecfg

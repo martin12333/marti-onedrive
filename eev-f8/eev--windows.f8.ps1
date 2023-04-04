@@ -12,6 +12,16 @@ C:\Windows\System32\curl.exe is preinstalled in win 10
 
 C:\Windows\System32\tar.exe
 
+
+
+
+
+
+
+
+
+
+
 where.exe /r c:\pf\git *.exe
 where.exe /r c:\pf\git cur*.*
 where.exe /r c:\pf\git wg*.*

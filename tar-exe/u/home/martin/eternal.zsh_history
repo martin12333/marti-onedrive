@@ -795,3 +795,15 @@ done}| grep -i '[.]wasm$'
 : 1680570783:0;ll /usr/lib/x86_64-linux-gnu/wine/*.exe
 : 1680570807:0;wine cmd
 : 1680570917:0;ll /usr/lib/x86_64-linux-gnu/wine/*.exe
+: 1680638718:0;cd ~/asmaz
+: 1680638750:0;for x in **/*.gz\
+do\
+zgrep  'dev[/]tty'   $x\
+done
+: 1680638788:0;for x in **/*.gz\
+do\
+zgrep  eshell   $x\
+done
+: 1680638863:0;zgrep  eshell   **/*.gz
+: 1680638881:0;zgrep  shell   **/*.gz
+: 1680638910:0;file   **/*.gz

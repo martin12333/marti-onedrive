@@ -6166,3 +6166,6 @@ set
 cmd /c set
 cmd /c dir *.exe  /b /l /on
 cmd /c dir system32\*.exe  /b /l /on
+git commit -v -a -m ...
+pipelist.exe
+pipelist.exe  /?
