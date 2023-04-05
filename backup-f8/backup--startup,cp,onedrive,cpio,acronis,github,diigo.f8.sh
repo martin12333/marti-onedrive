@@ -150,6 +150,7 @@ cd ~/OneDrive
 	git commit -v -a -m ...
 	git push
 
+
 	git commit -v -a -m  before-manip-dirs
 	git commit -v -a -m done
 	git commit -v -a -m hope-before-manual-tests
