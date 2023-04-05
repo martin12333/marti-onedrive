@@ -2,25 +2,24 @@
 
 exit
 
-###### (eepitch-eshell)
 
  (eepitch-eshell)
 
  (eepitch-kill)
 
  (eepitch-eshell)
-bash
-ls
-cat -
+
 cmd
 powershell
 
 Cannot load PSReadline module.  Console is running without PSReadline.
+
 pwsh
-#hang on
-bash ###
- (eepitch-kill)
+
 bash -i
+
+node -i
+
 dsfjkdsfj
 
  (eepitch-shell)
@@ -30,7 +29,44 @@ Cannot load PSReadline module.  Console is running without PSReadline.
 pwsh
 # colors
 
+
+
+
+
+ (eepitch-kill)
+## (eepitch-pwsh)
+## (eepitch-powershell)
+
+pwsh
+bash -i
+
+read x
+fdlkgkgread x
+echo $x
+
+fail:
+cat -
+cat
+cut
+cut -f 1 -d ' '
+gfhgf  dfgdf
+grep a
+wc
+
+
+xxd 
 pipelist.exe  
+tail -f
+
+
+cmd
+######copy con 1
+find "a"
+more
+
+
+pwsh 
+bash -c xxd
 
 
 
@@ -67,9 +103,21 @@ ps -ef
 pslist.exe -t
 
 
+emacs                           2452   8   5  254 4435292   44444   41020
+  cmd                           7796   8   1   83 2151737212    5604    2268
+    powershell                 21520   8   8  626 2152342536   69492   55900
+      pwsh                     27188   8  22  711 2152512164   87748   44596
+        bash                   15280   8   1   88 4283060    5568    1316
+          bash                 29092   8   5  196 4818216   11812    7272
+            bash               21636   8   2  139 4811316    9332    6792
+              node              2812   8  10  159 4582508   31848   17492
+    conhost                    32284   8   3  136 2151818620   19644   11932
+  cmdproxy                      8436   8   4   61 4278440    4852     868
+    cmd                        14528   8   7  149 2151750272    9820    9036
+      pslist                   31192  13   4  210 4316084    9256    3680
+    conhost                    29112   8   4  132 2151811916   13700    5864
+  conhost                      32632   8   3  126 2151799100    8552    1672
 
-emacs                          27652   8   4  573 4535432   84124   55148
-  conhost                      24904   8   3  126 2151799100    9460    1648
 
       23284   8  61 2515  441024   26036   59508
 emacs                          27652   8   7  584 4543940   84076   55768

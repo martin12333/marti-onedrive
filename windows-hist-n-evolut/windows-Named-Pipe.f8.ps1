@@ -116,6 +116,62 @@ Return the portion of the file’s mode that can be set by os.chmod()—that is,
 stat.S_IFMT(mode)
 Return the portion of the file’s mode that describes the file type (used by the S_IS*() functions above).
 
+
+
+
+
+
+t.S_IFSOCK
+Socket.
+
+stat.S_IFLNK
+Symbolic link.
+
+stat.S_IFREG
+Regular file.
+
+stat.S_IFBLK
+Block device.
+
+stat.S_IFDIR
+Directory.
+
+stat.S_IFCHR
+Character device.
+
+stat.S_IFIFO
+FIFO.
+
+stat.S_IFDOOR
+Door.
+
+New in version 3.4.
+
+stat.S_IFPORT
+Event port.
+
+New in version 3.4.
+
+stat.S_IFWHT
+Whiteout.
+
+New in version 3.4.
+
+Note S_IFDOOR, S_IFPORT or S_IFWHT are defined as 0 when the platform does not have support for the file types.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #job-object id 868
 
 
@@ -280,6 +336,8 @@ pipelist.exe  >7
 
 python
 
+conhost /?
+conhost.exe /help
 
 import os, sys
 print(os.fstat(0)  )
