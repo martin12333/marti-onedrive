@@ -6264,3 +6264,20 @@ echo fdgj | python .\stat-experi.py <1  | more
 python .\stat-experi.py <1  | more
 cmd /c python .\stat-experi.py <1  | more
 cmd
+pipelist.exe  >.\windows-hist-n-evolut\windows-Named-Pipelist.not.f8.txt
+git commit -v -a -m pipelist
+git push
+start D:\instu\emacs-27.2-x86_64\bin\runemacs.exe
+pipelist.exe  >.\windows-hist-n-evolut\windows-Named-Pipelist.not.f8.txt
+git commit -v -a -m pipelist
+pipelist.exe  >.\windows-hist-n-evolut\windows-Named-Pipelist.not.f8.txt
+git commit -v -a -m pipelist
+pipelist.exe  >.\windows-hist-n-evolut\windows-Named-Pipelist.not.f8.txt
+git commit -v -a -m pipelist
+pipelist.exe  >.\windows-hist-n-evolut\windows-Named-Pipelist.not.f8.txt
+git commit -v -a -m pipelist
+conhost /?
+conhost.exe /help
+git add -vv  '*.f8.*'
+git commit -v -a -m ...
+git commit -v -a -m " it-works"
