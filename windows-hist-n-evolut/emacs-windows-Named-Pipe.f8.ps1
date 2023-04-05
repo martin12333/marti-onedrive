@@ -20,6 +20,8 @@ pwsh
 #hang on
 bash ###
  (eepitch-kill)
+bash -i
+dsfjkdsfj
 
  (eepitch-shell)
 cmd
@@ -154,7 +156,7 @@ pipelist.exe  >1
 
 tclsh
  (eepitch-kill)
-
+tclsh -i
 
 Code                       30104   8  19  392 2173213864  1
 
