@@ -6254,3 +6254,13 @@ git commit -v -a -m pipelist
 git add -vv  '*.f8.*'
 git commit -v -a -m ...
 git push
+git commit -v -a -m ...
+git push
+echo sdhjfs  | python .\stat-experi.py
+python .\stat-experi.py   | more
+python
+echo fdgj | python .\stat-experi.py   | more
+echo fdgj | python .\stat-experi.py <1  | more
+python .\stat-experi.py <1  | more
+cmd /c python .\stat-experi.py <1  | more
+cmd

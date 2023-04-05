@@ -28,6 +28,94 @@ wsl_debugshell_S-1-5-21-2941743733-2172176398-4109959614-1011          1        
 
 
 
+
+
+
+stat-experi.py
+----
+
+import os, sys
+print(os.fstat(0)  )
+print(os.fstat(1)  )
+print(os.fstat(2)  )
+
+
+
+
+echo sdhjfs  | python .\stat-experi.py
+
+
+(base) PS C:\Users\marti\OneDrive> echo sdhjfs  | python .\stat-experi.py
+os.stat_result(st_mode=4096, st_ino=0, st_dev=0, st_nlink=0, st_uid=0, st_gid=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0)
+os.stat_result(st_mode=8192, st_ino=0, st_dev=0, st_nlink=0, st_uid=0, st_gid=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0)
+os.stat_result(st_mode=8192, st_ino=0, st_dev=0, st_nlink=0, st_uid=0, st_gid=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0)
+(base) PS C:\Users\marti\OneDrive>
+
+ python .\stat-experi.py   | more
+
+ os.stat_result(st_mode=8192, st_ino=0, st_dev=0, st_nlink=0, st_uid=0, st_gid=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0)
+ os.stat_result(st_mode=4096, st_ino=0, st_dev=0, st_nlink=0, st_uid=0, st_gid=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0)
+ os.stat_result(st_mode=8192, st_ino=0, st_dev=0, st_nlink=0, st_uid=0, st_gid=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0)
+
+echo fdgj | python .\stat-experi.py   | more
+
+os.stat_result(st_mode=4096, st_ino=0, st_dev=0, st_nlink=0, st_uid=0, st_gid=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0)
+os.stat_result(st_mode=4096, st_ino=0, st_dev=0, st_nlink=0, st_uid=0, st_gid=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0)
+os.stat_result(st_mode=8192, st_ino=0, st_dev=0, st_nlink=0, st_uid=0, st_gid=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0)
+
+cmd
+/c
+python .\stat-experi.py <1  | more
+
+
+from stat import *
+import stat
+import os, sys
+mode=4096
+mode=4096*2
+mode=65535
+mode=33206
+
+stat.S_ISCHR(mode)
+Return non-zero if the mode is from a character special device file.
+8192
+
+mode=33206
+stat.S_ISREG(mode)
+Return non-zero if the mode is from a regular file.
+
+mode=4096
+stat.S_ISFIFO(mode)
+Return non-zero if the mode is from a FIFO (named pipe).
+4096
+
+
+stat.S_ISLNK(mode)
+Return non-zero if the mode is from a symbolic link.
+
+stat.S_ISSOCK(mode)
+Return non-zero if the mode is from a socket.
+
+stat.S_ISPORT(mode)
+Return non-zero if the mode is from an event port.
+
+New in version 3.4.
+
+stat.S_ISWHT(mode)
+Return non-zero if the mode is from a whiteout.
+
+New in version 3.4.
+
+Two additional functions are defined for more general manipulation of the file’s mode:
+
+stat.S_IMODE(mode)
+4095
+
+Return the portion of the file’s mode that can be set by os.chmod()—that is, the file’s permission bits, plus the sticky bit, set-group-id, and set-user-id bits (on systems that support them).
+
+stat.S_IFMT(mode)
+Return the portion of the file’s mode that describes the file type (used by the S_IS*() functions above).
+
 #job-object id 868
 
 
@@ -247,7 +335,7 @@ MicrosoftEdge.exe
 pipelist.exe  >.\windows-hist-n-evolut\windows-Named-Pipelist.not.f8.txt
 git commit -v -a -m pipelist
 git push
-
+exit
 
 git add -vv  '*.f8.*'
 
