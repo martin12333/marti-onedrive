@@ -442,6 +442,14 @@ dired
 
 ISSUE
 
+
+vscode?
+emacs sending tab to bash could trigger completion
+
+googling  vsc  inf , 0
+
+
+
 		  cmd
 		  powershell
 			pwsh

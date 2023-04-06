@@ -511,15 +511,6 @@ exit
 
 
 
-vscode sending tab to bash could trigger completion
-googling  inf , 0
-
-
-
-
-
-
-
 
 
 
