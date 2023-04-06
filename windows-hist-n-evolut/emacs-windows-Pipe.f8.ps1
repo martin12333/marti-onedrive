@@ -431,6 +431,7 @@ exit
 
 list-processes
 
+dired
 
 
 
