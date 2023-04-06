@@ -504,3 +504,57 @@ exit
 $PSVersionTable
 
 PowerShell 2.0	October 2009	Windows 7 Windows Server 2008 R2 (**)
+
+exit
+
+
+
+
+
+vscode sending tab to bash could trigger completion
+googling  inf , 0
+
+
+
+
+ (eepitch-eshell)
+
+cmd
+ powershell
+  bash -i
+   node -i
+		  .exit
+
+		  cmd
+		  powershell
+			pwsh
+			  bash -i
+				node -i
+				  .exit
+
+		only bash has problems, if tabs before command
+		completion takes long
+
+
+only bash has problems, if tabs before command
+completion takes long
+
+
+node -i
+  node -i
+    node -i
+		    node -i
+
+
+ (eepitch-kill)
+
+
+
+
+
+
+
+D:\instu\emacs-27.2-x86_64\bin\emacs.exe --help
+D:\instu\emacs-27.2-x86_64\bin\emacs.exe  C:\Users\marti\OneDrive\eev-f8\test--eepitch-eshell-cmd-powershell-bash-node.f8.ps1
+
+

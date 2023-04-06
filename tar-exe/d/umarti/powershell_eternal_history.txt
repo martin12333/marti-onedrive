@@ -6315,3 +6315,18 @@ Start-Process powershell.exe -ArgumentList "-Version 2.0"
 powershell.exe -Version 2.0
 git commit -v -a -m add
 git push
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
+bash  --help| findstr intera
+bash  --help
+& 'D:\conda\shell\condabin\conda-hook.ps1'
+conda activate 'D:\conda'
+python --help | findstr intera
+python --help | findstr -c 3 intera
+bash
+D:\instu\emacs-27.2-x86_64\bin\runemacs.exe --help
+D:\instu\emacs-27.2-x86_64\bin\emacs.exe --help
+D:\instu\emacs-27.2-x86_64\bin\emacs.exe  C:\Users\marti\OneDrive\eev-f8\test--eepitch-eshell-cmd-powershell-bash-node.f8.ps1
+start cmd
+cmd

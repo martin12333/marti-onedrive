@@ -3412,3 +3412,7 @@ print(os.fstat(0)  )
 print(os.fstat(1)  )
 python.exe
 $PSVersionTable
+node --help| findstr intera
+bash  --help| findstr intera
+bash  --help
+bash -i
