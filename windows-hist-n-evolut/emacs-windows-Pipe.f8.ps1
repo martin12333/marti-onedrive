@@ -436,3 +436,32 @@ dired
 
 
 
+ (eepitch-eshell)
+
+
+
+ISSUE
+
+		  cmd
+		  powershell
+			pwsh
+			  bash -i
+				node -i
+				  .exit
+
+		only bash has problems, if tabs before command
+		... completion takes long
+
+node -i
+  node -i
+    node -i
+		    node -i
+
+
+ (eepitch-kill)
+
+
+
+
+
+

@@ -6334,3 +6334,5 @@ git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push
 start cmd
+git commit -v -a -m ...
+git push
