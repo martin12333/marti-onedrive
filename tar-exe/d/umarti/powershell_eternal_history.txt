@@ -6283,3 +6283,26 @@ git commit -v -a -m ...
 git commit -v -a -m " it-works"
 git push
 bash -i
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
+Get-Process
+(Get-Process).__NounName
+(Get-Process).CommandLine
+(Get-Process -name conhost).CommandLine
+conhost.exe  --help
+wt --help
+wt open-settings
+$psUnsupportedConsoleApplications
+wmic
+netsh
+nslookup
+ssh-keygen
+cmd /c pause
+[System.Console]::ReadKey($false)
+Read-Host 'Press ENTER to exit'
+console.read
+wmic
+netsh
+nslookup
+[System.Console]::Read()

@@ -31,3 +31,24 @@ chcp
 $OutputEncoding
 #$input
 
+
+
+
+
+ $psUnsupportedConsoleApplications
+ wmic
+ wmic.exe
+ cmd
+ cmd.exe
+ diskpart
+ diskpart.exe
+ edit.com
+ netsh
+ netsh.exe
+ nslookup
+ nslookup.exe
+ powershell
+ powershell.exe
+ ssh-keygen
+ ssh-keygen.exe
+

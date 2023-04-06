@@ -2,6 +2,15 @@
 
 exit
 
+
+i was wrong, windows emacs uses
+probably
+windows-anonymous-Pipe
+and not
+windows-Named-Pipe
+
+
+
  (eepitch-shell2)
  (eepitch-eshell2)
  (eepitch-ielm)
@@ -229,7 +238,7 @@ done
 
 pipelist.exe  /?
  (eepitch-eshell)
-bash
+bash -i
 
 pipelist.exe  >1
 
@@ -373,6 +382,33 @@ git push
 
 # https://github.com/martin12333/marti-onedrive/blob/main2/windows-hist-n-evolut/windows-Named-Pipelist.not.f8.txt#L1
 
+
+cmd
+
+ftp
+#exit
+quit
+
+#telnet
+
+$psUnsupportedConsoleApplications
+
+# wmic
+ 
+ netsh
+
+ nslookup
+
+ ssh-keygen
+
+ cmd /c pause
+##
+
+powershell
+# [System.Console]::ReadKey($false)
+
+
+ Read-Host 'Press ENTER to exit'
 
 
 

@@ -2,6 +2,16 @@
 
 exit
 
+i was wrong, windows emacs uses
+probably
+windows-anonymous-Pipe
+and not
+windows-Named-Pipe
+
+
+
+
+
 pipelist.exe  /?
 
 
@@ -212,6 +222,17 @@ Code                       12372   8  24  400 2181648060   64692   55504
 	  pslist               15620  13   4  210 4316084    9168    3692
 
 
+
+
+
+
+
+
+
+
+
+
+
 echo '-------- section: --------'
 
 
@@ -221,27 +242,37 @@ cd /d/umarti/dowNLOADS--SYMLINKED
 #cd -
 
 
-zgrep  shell   **/*.gz
+zgrep -a  shell   **/*.gz
 file   **/*.gz
 
-for x in **/*.gz
-do
-zgrep  eshell   $x
-done
+zgrep  -a eshell-i   $x  ; done
 
-13000 byte/s
+y=emacs_pipe
+#y='define pipe'
+#y=rpl_pipe2
+y='e pipe2'
+for x in **/*.gz  ;  do ;  tar xzf $x --to-command="grep --label=""\$TAR_FILENAME"" -Hi '$y'   ;true"  ;   done
+H
 
 #zipinfo $x
 | grep -i '[.]wasm'
 
 
+#emacs-28.2/lib/unistd.in.h:#   define pipe2 rpl_pipe2
+#emacs-28.2/lib-src/ntlib.h:#define pipe    _pipe
 
+emacs-28.2/lib/unistd.in.h:                 "use gnulib module pipe2 for portability");
 
+https://github.com/coreutils/gnulib/blob/master/lib/pipe2.c
+#if defined _WIN32 && ! defined __CYGWIN__
+/* Native Windows API.  */
 
-
-
-
-
+  if (_pipe (fd, 4096, flags & ~O_NONBLOCK) < 0)
+    {
+      fd[0] = tmp[0];
+      fd[1] = tmp[1];
+      return -1;
+    }
 
 
 
@@ -403,5 +434,64 @@ sleep.exe
 
 
 
+
+https://github.com/microsoft/terminal/blob/main/src/host/ConsoleArguments.cpp
+
+
+
+##conhost.exe  --help
+openco
+wt --help
+##wt open-settings
+
+PS C:\Users\marti\OneDrive> (Get-Process -name conhost).CommandLine
+
+\??\C:\WINDOWS\system32\conhost.exe 0x4
+\??\C:\WINDOWS\system32\conhost.exe 0x4
+\??\C:\WINDOWS\system32\conhost.exe 0x4
+\\?\C:\WINDOWS\system32\conhost.exe --headless --width 83 --height 36 --signal 0x410 --server 0x40c
+\??\C:\WINDOWS\system32\conhost.exe 0x4
+\\?\C:\WINDOWS\system32\conhost.exe --headless --width 83 --height 36 --signal 0x32c --server 0x324
+\??\C:\WINDOWS\system32\conhost.exe 0x4
+\\?\C:\WINDOWS\system32\conhost.exe --headless --width 80 --height 30 --signal 0x398 --server 0x394
+
+
+"conhost" "headless" "signal" "server"
+openconsole "headless" "signal" "server"
+--width 83 --height 36
+ 0x40c
+
+
+
+ $psUnsupportedConsoleApplications
+
+ ##wmic
+/?
+
+
+ netsh
+/?
+show
+show alias
+show mode
+show helper
+
+exit
+
+ nslookup
+help
+##ls
+##ls local
+exit
+
+ ssh-keygen
+
+ cmd /c pause
+
+ [System.Console]::ReadKey($false)
+
+ Read-Host 'Press ENTER to exit'
+
+ [System.Console]::Read()
 
 
