@@ -3,7 +3,7 @@
 exit
 
 i was wrong, windows emacs uses
-probably
+#probably
 windows-anonymous-Pipe
 and not
 windows-Named-Pipe
@@ -495,3 +495,12 @@ exit
  [System.Console]::Read()
 
 
+
+
+
+ Start-Process powershell.exe -ArgumentList "-Version 2.0"
+  powershell.exe -Version 2.0
+  powershell.exe -Version 3.0
+$PSVersionTable
+
+PowerShell 2.0	October 2009	Windows 7 Windows Server 2008 R2 (**)

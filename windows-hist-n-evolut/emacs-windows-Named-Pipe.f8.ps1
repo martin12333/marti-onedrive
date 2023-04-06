@@ -4,7 +4,7 @@ exit
 
 
 i was wrong, windows emacs uses
-probably
+#probably
 windows-anonymous-Pipe
 and not
 windows-Named-Pipe
@@ -413,8 +413,23 @@ powershell
 
 
 
+#####  powershell.exe -Version 2.0
+powershell.exe -Version 5.0
+powershell.exe -Version 4.0
+powershell.exe -Version 3.0
 
 
+powershell.exe
+$PSVersionTable
+exit
+
+ (eepitch-kill)
+ (eepitch-shell)
+ (eepitch-eshell)
+ (eepitch-shell2)
+
+
+list-processes
 
 
 

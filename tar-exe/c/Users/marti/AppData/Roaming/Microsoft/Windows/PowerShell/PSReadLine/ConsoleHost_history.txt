@@ -3411,3 +3411,4 @@ import os, sys
 print(os.fstat(0)  )
 print(os.fstat(1)  )
 python.exe
+$PSVersionTable
