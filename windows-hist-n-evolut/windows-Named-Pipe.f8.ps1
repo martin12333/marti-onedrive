@@ -519,11 +519,9 @@ googling  inf , 0
 
  (eepitch-eshell)
 
-cmd
- powershell
-  bash -i
-   node -i
-		  .exit
+
+
+ISSUE
 
 		  cmd
 		  powershell
@@ -533,12 +531,7 @@ cmd
 				  .exit
 
 		only bash has problems, if tabs before command
-		completion takes long
-
-
-only bash has problems, if tabs before command
-completion takes long
-
+		... completion takes long
 
 node -i
   node -i

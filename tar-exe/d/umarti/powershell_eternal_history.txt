@@ -6330,3 +6330,7 @@ D:\instu\emacs-27.2-x86_64\bin\emacs.exe --help
 D:\instu\emacs-27.2-x86_64\bin\emacs.exe  C:\Users\marti\OneDrive\eev-f8\test--eepitch-eshell-cmd-powershell-bash-node.f8.ps1
 start cmd
 cmd
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
+start cmd
