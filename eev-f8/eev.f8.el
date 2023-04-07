@@ -1,15 +1,29 @@
 ; F10 menu; down
 
+
+ (eepitch-kill)
+ (eepitch-shell)
+ (eepitch-eshell)
+ (eepitch-shell2)
+
+
 M-j
 M-k
 M-e
 M-T
 
 
-(code-c-d "marti" "C:/Users/marti/OneDrive/" :anchor)
-(find-martifile ".emacs.d/xah.el")
 
 execute each one with M-e in sequence
+
+(code-c-d "marti" "C:/Users/marti/OneDrive/" :anchor)
+(find-martifile ".emacs.d/xah.el")
+(find-fline   "~/.emacs.d/xah.el")
+
+dir c:\Users\marti\.em*
+
+
+
 
 
 
@@ -19,6 +33,13 @@ M-j
 M-k
 M-e
 M-T
+
+Now i realized, that
+~/.emacs.d/xah.el
+is also correct, because
+~/.emacs.d is a symlink
+
+I have to go to sleep now
 
 
 
