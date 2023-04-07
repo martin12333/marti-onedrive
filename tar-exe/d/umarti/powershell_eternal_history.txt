@@ -6352,3 +6352,7 @@ git gui
 git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push   -vv
+git push --tags
+git commit -v -a -m tags
+git push   -vv
+git push --tags

@@ -1,6 +1,4 @@
-eev-234.f8.el
-
-
+exit
 
 
 
@@ -21,6 +19,13 @@ https://github.com/martin12333/marti-onedrive/compare
 
 
 git gui
-git comm
 git push --tags
+
+
+There are two comparison methods for the git diff command; two-dot (git diff A..B) and three-dot (git diff A...B). By default, pull requests on GitHub show a three-dot diff.
+
+
+https://github.com/martin12333/marti-onedrive/compare/eev-234..2348
+
+
 
