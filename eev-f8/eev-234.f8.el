@@ -4,7 +4,7 @@ eev-234.f8.el
 
 
 
-
+https://github.com/martin12333/marti-onedrive/commits/main2/.emacs.d
 
 https://github.com/martin12333/marti-onedrive/commits/main2/eev-f8
 
@@ -22,3 +22,5 @@ https://github.com/martin12333/marti-onedrive/compare
 
 git gui
 git comm
+git push --tags
+

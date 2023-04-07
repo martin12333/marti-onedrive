@@ -218,6 +218,10 @@ cd ~/OneDrive
 	git commit -v -a -m add
 	git push   -vv
 
+	git commit -v -a -m tags
+	git push --tags
+
+
 	git commit -v -a -m ...
 	git push   -vv
 
