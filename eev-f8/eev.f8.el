@@ -34,10 +34,14 @@ M-k
 M-e
 M-T
 
+----
+
 Now i realized, that
 ~/.emacs.d/xah.el
 is also correct, because
 ~/.emacs.d is a symlink
+
+----
 
 I have to go to sleep now
 
