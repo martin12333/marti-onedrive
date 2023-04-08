@@ -69,8 +69,8 @@ grep a
 wc
 
 
-xxd 
-pipelist.exe  
+xxd
+pipelist.exe
 tail -f
 
 
@@ -80,7 +80,7 @@ find "a"
 more
 
 
-pwsh 
+pwsh
 bash -c xxd
 
 
@@ -140,7 +140,7 @@ emacs                           2452   8  10  275 4452060   44144   41256
   cmdproxy                     13248   8   1   61 4272296    4824     792
     cmd                        22276   8   1  142 2151744116    9648    2804
     conhost                    25808   8   3  131 2151803296   13676    5824
-  conhost               
+  conhost
 
 
 emacs                           2452   8   5  254 4435292   44444   41020
@@ -218,7 +218,7 @@ do
 zgrep  eshell   $x
 done
 
-13000 byte/s
+#####13000 byte/s
 
 #zipinfo $x
 | grep -i '[.]wasm'
@@ -347,7 +347,7 @@ os.stat_result(st_mode=4096, st_ino=0, st_dev=0, st_nlink=0, st_uid=0, st_gid=0,
 os.stat_result(st_mode=4096, st_ino=0, st_dev=0, st_nlink=0, st_uid=0, st_gid=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0)
 >>> print(os.fstat(2)  )
 os.stat_result(st_mode=4096, st_ino=0, st_dev=0, st_nlink=0, st_uid=0, st_gid=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0)
->>> 
+>>>
 
 node
 
@@ -394,7 +394,7 @@ quit
 $psUnsupportedConsoleApplications
 
 # wmic
- 
+
  netsh
 
  nslookup

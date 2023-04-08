@@ -114,9 +114,9 @@ find .wine -type l -ls
 
 
 ###
-bash
-symlinks
-sudo apt install symlinks
+#bash
+#symlinks
+#sudo apt install symlinks
 
 ###
 cd
