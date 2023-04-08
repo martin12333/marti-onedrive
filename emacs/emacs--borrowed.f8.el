@@ -2,9 +2,16 @@
 M-/
 esc-tab
 
+
+
+
+ (eepitch-ielm)
+ (eepitch-kill)
  (eepitch-ielm)
 ido-mode
 
+ (eepitch-shell)
+ (eepitch-kill)
  (eepitch-shell)
 node --interactive
 node --help|findstr -i buff
@@ -156,7 +163,7 @@ C-v		scroll-up-command
 #
 #####
 
-# «company»  (to ".company")
+# ï¿½companyï¿½  (to ".company")
 # https://www.reddit.com/r/emacs/comments/td0nth/sample_usage_of_cape_completion_at_point/
 # (find-epackage-links 'company "company" t)
 # (find-epackage       'company)
@@ -177,7 +184,7 @@ C-v		scroll-up-command
 #
 #####
 
-# «ivy-mode» (to ".ivy-mode")
+# ï¿½ivy-modeï¿½ (to ".ivy-mode")
 # https://github.com/abo-abo/swiper
 # https://oremacs.com/swiper/ Ivy User Manual
 # https://github.com/abo-abo/swiper/blob/master/ivy.el#L28-L37
@@ -218,7 +225,7 @@ C-v		scroll-up-command
 #
 #####
 
-# «counsel»  (to ".counsel")
+# ï¿½counselï¿½  (to ".counsel")
 # (find-epackage-links 'counsel "counsel" t)
 # (find-epackage       'counsel)
 # (code-c-d "counsel" "~/.emacs.d/elpa/counsel-20220402.953/")

@@ -1,6 +1,8 @@
 ; F10; down-arrow
 
  (eepitch-eshell)
+ (eepitch-kill)
+ (eepitch-eshell)
 
 M-e
 (find-rcirc-intro)

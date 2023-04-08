@@ -4,8 +4,14 @@ D:\instu\emacs-27.2-x86_64\bin
 cmd /c mklink ...  #.emacs.d
 
  (eepitch-eshell)
+ (eepitch-kill)
+ (eepitch-eshell)
+
 
  (eepitch-shell)
+ (eepitch-kill)
+ (eepitch-shell)
+
 pwsh
 # THIS PWSH CAN ALSO BE RUN FROM E.G. VSCODE
 ls
