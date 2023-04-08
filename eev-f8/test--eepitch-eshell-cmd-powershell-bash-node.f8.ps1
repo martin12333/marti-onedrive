@@ -2,6 +2,8 @@
 exit
 
  (eepitch-eshell)
+ (eepitch-kill)
+ (eepitch-eshell)
 
 cmd
  powershell

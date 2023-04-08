@@ -1,3 +1,30 @@
+exit
+
+ (eepitch-shell)
+ (eepitch-kill)
+ (eepitch-shell)
+
+cmd.exe
+
+
+----------------------------issue 2348
+ (eepitch-eshell)
+ (eepitch-kill)
+ (eepitch-eshell)
+where.exe /?
+
+~/OneDrive/eev-f8 $ where.exe /?
+ERROR: Invalid argument or option - '/u/'.
+Type "WHERE /?" for usage help.
+~/OneDrive/eev-f8 $ where.exe curl
+C:\Windows\System32\curl.exe
+~/OneDrive/eev-f8 $
+
+cmd.exe
+
+where.exe /?
+ok
+--------------------------end--issue
 
 
 where.exe /?
@@ -8,7 +35,6 @@ where.exe tar
 #where.exe zip
 
 C:\Windows\System32\curl.exe is preinstalled in win 10
-
 
 C:\Windows\System32\tar.exe
 
@@ -39,8 +65,21 @@ c:\pf\Git\mingw64\bin\curl.exe
 
 
 
+cd
+
+echo abc >1
+
+certutil -encodehex 1 4
+cat 4
 
 
+
+
+ (eepitch-pwsh)
+ (eepitch-kill)
+ (eepitch-pwsh)
+
+powershell.exe
 
 $x='https://stackoverflow.com/questions/28143160/how-can-i-download-a-file-with-batch-file-without-using-any-external-tools'
 
@@ -55,18 +94,16 @@ C:\windows\explorer.exe $x
 
 
 
-cd
-
-echo abc >1
-
-certutil -encodehex 1 4
-cat 4
 
 
 
 
-bash
+
+
+bash -i
 tclsh
+# fails in win emacs
+
 % puts
 wrong # args: should be "puts ?-nonewline? ?channelId? string"
 % puts 45

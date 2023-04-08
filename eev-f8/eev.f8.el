@@ -1,8 +1,10 @@
 ; F10 menu; down
 
 
+ (eepitch-shell)
  (eepitch-kill)
  (eepitch-shell)
+
  (eepitch-eshell)
  (eepitch-shell2)
 
@@ -42,6 +44,21 @@ is also correct, because
 ~/.emacs.d is a symlink
 
 ----
+
+
+
+
+
+
+
+
+eev-f8\test--eepitch-eshell-cmd-powershell-bash-node.f8.ps1
+
+
+
+
+
+
 
 
 
