@@ -55,10 +55,8 @@ is also correct, because
 eev-f8\test--eepitch-eshell-cmd-powershell-bash-node.f8.ps1
 
 
-
-
-
-
+eepitch.el" "ee-eval-last-sexp")
+;;  -i  ?
 
 
 
@@ -72,10 +70,19 @@ this should "kill link to file
 ... not found klf
 
 maybe eev version??
+
+installed
+"C:\Users\marti\OneDrive\.emacs.d\elpa\eev-20220814"
+
         available  nongnu     EditorConfig Emacs Plugin
   eev                20230127
-seems newest at gih
+ gih  20230127
 
+ Status: Available from gnu -- Install
+    Version: 20230127
+     Commit: 16613c18c5ec17755f083f4839bca7e4e05dd4c7
+   Requires: emacs-24.4
+Other versions: 20220814 (installed).
 
 
 
