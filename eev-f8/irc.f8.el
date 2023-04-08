@@ -3,13 +3,22 @@
 exit
 
 
+ (eepitch-eshell)
+ (eepitch-kill)
+ (eepitch-eshell)
+
+
+
 podman machine start
- podman start   -ai    cmy22b
+# your 131072x1 screen size is bogus. expect trouble
+
+podman start   -ai    cmy22b
+
+/bin/bash -i 
+ls
 
 sudo apt-get update
-bash
 irc
-
 #sudo apt install ircii
 
 
@@ -18,7 +27,10 @@ irc
 
 /join #emacs
 
-(so I will probably prefer Github to IRC)
+
+https://www.emacswiki.org/emacs/EmacsChannelLogging
+
+# (i need logging for everyone by default ... so I will probably prefer Github to IRC #emacs)
 
 
 
