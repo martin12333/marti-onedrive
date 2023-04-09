@@ -36,10 +36,14 @@ where.exe tar
 
 C:\Windows\System32\curl.exe is preinstalled in win 10
 
-C:\Windows\System32\tar.exe
+C:\Windows\System32\tar.exe is preinstalled in win 10
 
 
-###########
+
+
+
+
+########### many fails
 cmd /c mklink /?
 del eev-wconfig\wget.exe
 cd
