@@ -39,12 +39,38 @@ C:\Windows\System32\curl.exe is preinstalled in win 10
 C:\Windows\System32\tar.exe
 
 
+###########
+cmd /c mklink /?
+del eev-wconfig\wget.exe
+cd
+cd ..
+mkdir  ~\eev-wconfig\mklink
+cmd /c mklink    eev-wconfig\wget.exe   "D:\msys64\usr\bin\wget.exe"
+cmd /c mklink /j   eev-wconfig\mklink\wget.exe   "D:\msys64\usr\bin\wget.exe"
+dir  -Recurse   ~\eev-wconfig
+
+cd   ~\eev-wconfig
+
+cd msys
+exit
+dir
+
+.\wget.exe  --help
+dir
+cmd
+
+cd "D:\msys64\usr\bin\"
 
 
+ls      ~/eev-wconfig
 
+bash
+exit
 
+cd D:\umarti\dowNLOADS--SYMLINKED
+dir
 
-
+sha256sum wg*
 
 
 

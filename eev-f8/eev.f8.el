@@ -204,6 +204,22 @@ wget.exe
 https://www.virustotal.com/gui/file/1e17a4ee77a3a18b4bbc2407ad4582155b266b4a71d684c2baf0f1aa8e52fd14/details
 Magic	PE32 executable for MS Windows (console) Intel 80386 32-bit
 
+
+https://www.virustotal.com/gui/file/bc8a2eabcb5598b66ea8c4a385a8135887a5688d9ad5dd33d2d3d6716c9332e7
+
+
+marti@len20 MINGW64 /d/umarti/dowNLOADS--SYMLINKED not__git_ps1
+$ sha256sum wg*
+1e17a4ee77a3a18b4bbc2407ad4582155b266b4a71d684c2baf0f1aa8e52fd14 *wget (1).exe
+bc8a2eabcb5598b66ea8c4a385a8135887a5688d9ad5dd33d2d3d6716c9332e7 *wget (3).exe
+bc8a2eabcb5598b66ea8c4a385a8135887a5688d9ad5dd33d2d3d6716c9332e7 *wget (4).exe
+f595e2e53680ba2937ac48708bc24e6fb5ff6b6fb97d60eb5040bf073ad933bf *wget.exe
+sha256sum: wget-1.21.3-win32: Is a directory
+3c5ab00abe38819a75d2e644dde66a851fc99524466f5aa627b490ac5f2767ea *wget-1.21.3-win32.zip
+370f873cc7834b7182feaa4d04638711880db1938cc7863099bafd53769d074f *wget-1.21.3-win64.zip
+
+
+
 "D:\msys64\usr\bin\wget.exe"
 https://www.virustotal.com/gui/file/300723cac7307c329facffc1aea7a9dea006a9c9db22d83691debed4bcbb9055?nocache=1
 

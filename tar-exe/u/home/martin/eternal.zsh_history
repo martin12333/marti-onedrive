@@ -807,3 +807,30 @@ done
 : 1680638863:0;zgrep  eshell   **/*.gz
 : 1680638881:0;zgrep  shell   **/*.gz
 : 1680638910:0;file   **/*.gz
+: 1680743324:0;cd ~/asmaz
+: 1680743332:0;zgrep  shell   **/*.gz
+: 1680743345:0;zgrep -a  shell   **/*.gz
+: 1680743593:0;for x in **/*.gz  ;  do ;  zgrep  -a shell   $x  ; done
+: 1680743613:0;for x in **/*.gz  ;  do ;  zgrep  -a eshell   $x  ; done
+: 1680743627:0;for x in **/*.gz  ;  do   zgrep  -a eshell   $x  ; done
+: 1680743718:0;for x in **/*.gz  ;  do ;  zgrep  -a eshell-   $x  ; done
+: 1680743726:0;for x in **/*.gz  ;  do ;  zgrep  -a eshell-i   $x  ; done
+: 1680743820:0;for x in **/*.gz  ;  do ;\
+tar xzf $x --to-command="grep --label=$TAR_FILENAME -Hi 'eshell-i'   ;true"\
+done
+: 1680743881:0;for x in **/*.gz  ;  do ;\
+tar xzf $x --to-command="grep --label=$TAR_FILENAME -i 'eshell-i'   ;true"\
+done
+: 1680743923:0;for x in **/*.gz  ;  do ;\
+tar xzf $x --to-command="grep --label=""$TAR_FILENAME"" -i 'eshell-i'   ;true"\
+done
+: 1680743969:0;for x in **/*.gz  ;  do ;  tar xzf $x --to-command="grep --label=""$TAR_FILENAME"" -Hi 'eshell-i'   ;true"  ;   done
+: 1680744083:0;for x in **/*.gz  ;  do ;  tar xzf $x --to-command="grep --label=""\$TAR_FILENAME"" -Hi 'eshell-i'   ;true"  ;   done
+: 1680744132:0;y=emacs_pipe
+: 1680744134:0;for x in **/*.gz  ;  do ;  tar xzf $x --to-command="grep --label=""\$TAR_FILENAME"" -Hi '$y'   ;true"  ;   done
+: 1680744397:0;y='define pipe'
+: 1680744398:0;for x in **/*.gz  ;  do ;  tar xzf $x --to-command="grep --label=""\$TAR_FILENAME"" -Hi '$y'   ;true"  ;   done
+: 1680744631:0;y=rpl_pipe2
+: 1680744632:0;for x in **/*.gz  ;  do ;  tar xzf $x --to-command="grep --label=""\$TAR_FILENAME"" -Hi '$y'   ;true"  ;   done
+: 1680745588:0;y='e pipe2'
+: 1680745591:0;for x in **/*.gz  ;  do ;  tar xzf $x --to-command="grep --label=""\$TAR_FILENAME"" -Hi '$y'   ;true"  ;   done

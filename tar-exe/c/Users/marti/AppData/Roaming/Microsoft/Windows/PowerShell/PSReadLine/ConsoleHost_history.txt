@@ -3417,3 +3417,21 @@ bash  --help| findstr intera
 bash  --help
 bash -i
 git gui
+cmd /c mklink /j   eev-wconfig\wget.exe   "D:\msys64\usr\bin\wget.exe"
+cd
+cmd /c mklink /j   eev-wconfig\wget.exe   "D:\msys64\usr\bin\wget.exe"
+cd
+cd ..
+cmd /c mklink /j   eev-wconfig\wget.exe   "D:\msys64\usr\bin\wget.exe"
+del eev-wconfig\wget.exe
+cmd /c mklink /s   eev-wconfig\wget.exe   "D:\msys64\usr\bin\wget.exe"
+cmd /c mklink /?
+cmd /c mklink    eev-wconfig\wget.exe   "D:\msys64\usr\bin\wget.exe"
+cd   ~\eev-wconfig
+.\wget.exe  --help
+del eev-wconfig\wget.exe
+dir  -Recurse   ~\eev-wconfig
+del eev-wconfig\wget.exe
+cd "D:\msys64\usr\bin\"
+.\wget.exe  --help
+bash

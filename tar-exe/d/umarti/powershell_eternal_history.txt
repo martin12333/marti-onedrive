@@ -6381,3 +6381,40 @@ git push   -vv
 git commit -v -a -m ...
 git push   -vv
 where.exe /r c:\pf\git wg*.*
+git commit -v -a -m ...
+git push   -vv
+mkdir  ~\eev-wconfig\mklink
+cmd /c dir   ~\eev-wconfig
+dir   ~\eev-wconfig
+dir  -Recurse   ~\eev-wconfig
+cmd /c mklink /j   ~\eev-wconfig\wget.exe   "D:\msys64\usr\bin\wget.exe"
+cd
+cmd /c mklink /j   eev-wconfig\wget.exe   "D:\msys64\usr\bin\wget.exe"
+dir  -Recurse   ~\eev-wconfig
+cmd /c mklink /j   eev-wconfig\mklink\wget.exe   "D:\msys64\usr\bin\wget.exe"
+dir  -Recurse   ~\eev-wconfig
+cd   ~\eev-wconfig
+wslg.exe
+wget.exe
+.\wget.exe
+dir
+cmd
+cd msys
+wget.exe
+.\wget.exe
+.\wget.exe  --help
+cd "D:\msys64\usr\bin\wget.exe"
+cd "D:\msys64\usr\bin\"
+.\wget.exe  --help
+bash
+dir
+cd D:\umarti\downloads----------------DOW-link
+dir
+cd D:\umarti\dowNLOADS--SYMLINKED
+dir
+bash
+cd
+dir  -Recurse   ~\eev-wconfig
+.\wget.exe  --help
+cd   ~\eev-wconfig
+.\wget.exe  --help
