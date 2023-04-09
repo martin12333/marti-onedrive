@@ -11,9 +11,27 @@ cmd.exe
 
 
 
+(find-wconfig-links)
+
+(find-wconfig-browser-links)
+and typing `M-x browse-url':
+"https://www.lua.org/"
+
+(find-wconfig-wget-links)
+(find-wconfig-shell-links)
+(find-wconfig-lua-links)
+(find-wconfig-mpv-links)
 
 
 
+
+
+
+;; (find-wconfig-wget-links)
+
+
+
+cmd.exe
 where.exe /?
 where.exe curl
 #where.exe wget
@@ -27,35 +45,8 @@ C:\Windows\System32\tar.exe is preinstalled in win 10
 
 
 
-
-
-
-
-
-(find-wconfig-links)
-
-(find-wconfig-browser-links)
-and typing `M-x browse-url':
-;;   (find-googlechrome "http://anggtwu.net/eev-wconfig/wget.exe")
- "https://www.lua.org/"
-
-(find-wconfig-wget-links)
-(find-wconfig-shell-links)
-(find-wconfig-lua-links)
-(find-wconfig-mpv-links)
-
-
-
-
-
-
-
-;; (find-wconfig-wget-links)
-
 (mkdir       "~/eev-wconfig/" t)
 ok
-
-
 
 # false-alarm
  (eepitch-eshell)
@@ -71,15 +62,6 @@ ls      ~/eev-wconfig/
 ls      ~/eev-wconfig
 pwd
 #c:/Users/marti/eev-wconfig/:
-
-
-
-
-
-
-
-
-
 
 
 
@@ -99,11 +81,7 @@ error in process filter: Wrong number of arguments: (2 . 2), 3
 
 
 
-
-
-
-
-
+;;   (find-googlechrome "http://anggtwu.net/eev-wconfig/wget.exe")
 
 
 
@@ -131,15 +109,6 @@ HTML Report: https://www.joesandbox.com/analysis/565935/0/html
 
 
 
-
-
-
-
-
-
-
-
-
 https://www.gnu.org/software/wget/
 http://wget.addictivecode.org/FrequentlyAskedQuestions.html#download
 https://eternallybored.org/misc/wget/
@@ -154,17 +123,12 @@ wget.exe
 
 
 
-
-
-
 https://www.virustotal.com/gui/file/1e17a4ee77a3a18b4bbc2407ad4582155b266b4a71d684c2baf0f1aa8e52fd14/details
 Magic	PE32 executable for MS Windows (console) Intel 80386 32-bit
 
 
+
 https://www.virustotal.com/gui/file/bc8a2eabcb5598b66ea8c4a385a8135887a5688d9ad5dd33d2d3d6716c9332e7
-
-
-
 
 
 
@@ -182,34 +146,8 @@ sha256sum: wget-1.21.3-win32: Is a directory
 
 
 
-
-
-
-
-
-
-
-
-
 "D:\msys64\usr\bin\wget.exe"
 https://www.virustotal.com/gui/file/300723cac7307c329facffc1aea7a9dea006a9c9db22d83691debed4bcbb9055?nocache=1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
