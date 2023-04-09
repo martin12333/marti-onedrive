@@ -1,16 +1,17 @@
 exit
 
- (eepitch-shell)
- (eepitch-kill)
- (eepitch-shell)
+ (eepitch-shell)
+ (eepitch-kill)
+ (eepitch-shell)
 
 cmd.exe
 
 
+
 ----------------------------issue 2348
- (eepitch-eshell)
- (eepitch-kill)
- (eepitch-eshell)
+ (eepitch-eshell)
+ (eepitch-kill)
+ (eepitch-eshell)
 where.exe /?
 
 ~/OneDrive/eev-f8 $ where.exe /?
@@ -159,9 +160,9 @@ cat 4
 
 
 
- (eepitch-pwsh)
- (eepitch-kill)
- (eepitch-pwsh)
+ (eepitch-pwsh)
+ (eepitch-kill)
+ (eepitch-pwsh)
 
 powershell.exe
 
