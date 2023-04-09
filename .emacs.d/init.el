@@ -38,6 +38,13 @@
 (eev-beginner)
 
 
+;; (find-wconfig-browser-links)
+;; (find-wconfig-links)
+;; (find-efunction 'find-wconfig-browser-links)
+(require 'eev-load)
+(require 'eev-wconfig)
+(setq ee-googlechrome-program
+  "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe")
 
 
 
