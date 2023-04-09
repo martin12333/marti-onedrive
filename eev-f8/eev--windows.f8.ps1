@@ -8,8 +8,10 @@ cmd.exe
 
 
 
-----------------------------issue 2348
- (eepitch-eshell)
+----------------------------issue 234a red stars disappeared
+
+----------------------------issue 2348: /?
+(eepitch-eshell)
  (eepitch-kill)
  (eepitch-eshell)
 where.exe /?
@@ -48,12 +50,15 @@ C:\Windows\System32\tar.exe is preinstalled in win 10
 
 powershell.exe
 
+(eepitch-eshell)
+ (eepitch-kill)
+ (eepitch-eshell)
 
 
 
 ###########  fails
 cmd /c mklink /?
-del eev-wconfig\wget.exe
+#del eev-wconfig\wget.exe
 cd
 cd ..
 mkdir  ~\eev-wconfig\mklink
@@ -65,6 +70,18 @@ dir
 
 dir  -Recurse   ~\eev-wconfig
 cd   ~\eev-wconfig
+cd   ~/eev-wconfig
+
+
+
+
+
+
+
+ls      ~/eev-wconfig
+#~/eev-wconfig/wget  --version
+~/eev-wconfig/wget.exe  --version
+
 
 
 
@@ -76,18 +93,19 @@ powershell.exe
 
 & "D:\instu\MobaXterm_Portable_v21.5\mykoren\slash\bin\wget.exe"  --help
 & "D:\instu\MobaXterm_Portable_v21.5\mykoren\slash\bin\wget.exe"  --version
+ls d:
+ls d:/
+ls d:/instu
+D:/instu/MobaXterm_Portable_v21.5/mykoren/slash/bin/wget.exe  --version
+
 
 & "D:\msys64\usr\bin\wget.exe" --help
 & "D:\msys64\usr\bin\wget.exe" --version
 
-.\wget.exe  --help
-dir
-cmd
 
 cd "D:\msys64\usr\bin\"
 
 
-ls      ~/eev-wconfig
 
 bash
 exit
