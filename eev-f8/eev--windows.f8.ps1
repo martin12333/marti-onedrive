@@ -1,28 +1,13 @@
 exit
 
+///later: related eev-f8\eev.f8.el
+
+
+
  (eepitch-shell)
  (eepitch-kill)
  (eepitch-shell)
 cmd.exe
-
-
-
-related
-eev-f8\eev.f8.el
-
-
-
-
-
-
-
-
-where.exe nodejs
-pwsh
-
-
-
-
 
 
 
@@ -50,8 +35,9 @@ and typing `M-x browse-url':
 (mkdir       "~/eev-wconfig/" t)
 ok
 
-c:/Users/marti/eev-wconfig/:
 
+
+# false-alarm
  (eepitch-eshell)
  (eepitch-kill)
  (eepitch-eshell)
@@ -64,7 +50,7 @@ ls      "~/eev-wconfig/"
 ls      ~/eev-wconfig/
 ls      ~/eev-wconfig
 pwd
-
+#c:/Users/marti/eev-wconfig/:
 
 
 
@@ -80,11 +66,6 @@ pwd
  (eepitch-ielm)
  (eepitch-kill)
  (eepitch-ielm)
-
-
-###(eshell/ls "a"  t )
-*** Eval error ***  Wrong type argument: arrayp, nil
-ELISP>
 
 (ee-download-with-eww "http://anggtwu.net/eev-wconfig/wget.exe"
              "~/eev-wconfig/")
@@ -418,4 +399,13 @@ cd
 echo abc >1
 certutil -encodehex 1 4
 cat 4
+
+
+
+
+
+where.exe nodejs
+pwsh
+
+
 

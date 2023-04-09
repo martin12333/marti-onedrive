@@ -6445,3 +6445,5 @@ git push   -vv
 git gui
 cd -
 git gui
+git commit -v -a -m  refactor
+git push   -vv
