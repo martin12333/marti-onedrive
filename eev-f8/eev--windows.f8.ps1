@@ -43,27 +43,38 @@ C:\Windows\System32\tar.exe is preinstalled in win 10
 
 
 
-########### many fails
+
+
+powershell.exe
+
+
+
+
+###########  fails
 cmd /c mklink /?
 del eev-wconfig\wget.exe
 cd
 cd ..
 mkdir  ~\eev-wconfig\mklink
 cmd /c mklink    eev-wconfig\wget.exe   "D:\msys64\usr\bin\wget.exe"
-cmd /c mklink /j   eev-wconfig\mklink\wget.exe   "D:\msys64\usr\bin\wget.exe"
-dir  -Recurse   ~\eev-wconfig
-
-cd   ~\eev-wconfig
-
-
-~\eev-wconfig\wget  --help
-~\eev-wconfig\wget  --version
-
+####cmd /c mklink /j   eev-wconfig\mklink\wget.exe   "D:\msys64\usr\bin\wget.exe"
 cd msys
 exit
 dir
 
+dir  -Recurse   ~\eev-wconfig
+cd   ~\eev-wconfig
+
+
+
+
+powershell.exe
+
+~\eev-wconfig\wget  --help
+~\eev-wconfig\wget  --version
+
 & "D:\instu\MobaXterm_Portable_v21.5\mykoren\slash\bin\wget.exe"  --help
+& "D:\instu\MobaXterm_Portable_v21.5\mykoren\slash\bin\wget.exe"  --version
 
 & "D:\msys64\usr\bin\wget.exe" --help
 & "D:\msys64\usr\bin\wget.exe" --version
