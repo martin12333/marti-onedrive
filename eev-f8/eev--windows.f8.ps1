@@ -116,6 +116,12 @@ dir
 sha256sum wg*
 
 
+
+
+
+
+
+
 man wget
 
 Note that you don't need to specify this option if you just want
@@ -124,6 +130,7 @@ the connection be lost midway through.  This is the default
 behavior.  -c only affects resumption of downloads started prior to
 this invocation of Wget, and whose local files are still sitting
 around.'
+
 
 
 man curl
@@ -138,7 +145,6 @@ Use "-C -" to tell curl to automatically find out  where/how  to
 resume  the  transfer. It then uses the given output/input files
 to figure that out.
 
-
 --retry <num>
 If a transient error is returned when curl tries  to  perform  a
 transfer,  it  will retry this number of times before giving up.
@@ -146,6 +152,8 @@ Setting the number to 0 makes curl do no retries (which  is  the
 default).  Transient  error  means either: a timeout, an FTP 4xx
 response code or an HTTP 408, 429, 500, 502, 503 or 504 response
 code.
+
+
 
 
 
@@ -164,16 +172,9 @@ explorer  C:\pf\Git\mingw64\lib\tcl8
 
 
 
+
 c:\pf\Git\mingw64\bin\curl.exe
 
-
-
-cd
-
-echo abc >1
-
-certutil -encodehex 1 4
-cat 4
 
 
 
@@ -210,4 +211,13 @@ tclsh
 % puts
 wrong # args: should be "puts ?-nonewline? ?channelId? string"
 % puts 45
+
+
+
+
+
+cd
+echo abc >1
+certutil -encodehex 1 4
+cat 4
 
