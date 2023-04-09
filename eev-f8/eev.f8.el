@@ -115,12 +115,77 @@ pwsh
 
 
 
+(find-wconfig-links)
+
 (find-wconfig-browser-links)
+(find-wconfig-wget-links)
+(find-wconfig-shell-links)
+(find-wconfig-lua-links)
+(find-wconfig-mpv-links)
+
+
+;; (find-wconfig-wget-links)
+
+(mkdir       "~/eev-wconfig/" t)
+ok
+
+c:/Users/marti/eev-wconfig/:
+
+ (eepitch-eshell)
+ (eepitch-kill)
+ (eepitch-eshell)
+ls "~"
+ls ~/e*
+#ls "~/AppData/Roaming"
+#ls "~/AppData/Local"
+ls ""
+ls      "~/eev-wconfig/" 
+ls      ~/eev-wconfig/
+ls      ~/eev-wconfig
+pwd
+
+ (eepitch-ielm)
+ (eepitch-kill)
+ (eepitch-ielm)
+
+
+###(eshell/ls "a"  t )
+*** Eval error ***  Wrong type argument: arrayp, nil
+ELISP> 
+
+(ee-download-with-eww "http://anggtwu.net/eev-wconfig/wget.exe"
+             "~/eev-wconfig/")
+
+messages
+Contacting host: anggtwu.net:80
+#<buffer  *http anggtwu.net:80*>
+error in process filter: apply: Wrong number of arguments: (2 . 2), 3
+error in process filter: Wrong number of arguments: (2 . 2), 3
 
 
 
 
 
+
+
+When you type `M-e' emacs moves the point to the end of the
+current line, then runs a variant of `C-x C-e'. Try this on each
+line of the block below:
+
+  (+ (* 2 3)
+     (* 4 5)
+     )
+
+`M-e' accepts several different numeric prefixes that alter its
+behavior. We are only interested in one of them now - `M-0 M-e'
+highlights the sexp for a fraction of a second instead of executing it.
+Try it above.
+
+In some rare occasions we might want to run something like `M-e'
+but without moving to the end of the line first. Eev-mode
+implements a key binding for that: `M-E' (meta-shift-e). As an
+exercise, try to use `M-0 M-E' at several positions below, to
+highlight the subsexps `(* 2 3)', `(* 4 5)', and `4'.
 
 I have to go to sleep now
 see you soon
