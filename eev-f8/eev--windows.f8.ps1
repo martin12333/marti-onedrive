@@ -51,9 +51,18 @@ dir  -Recurse   ~\eev-wconfig
 
 cd   ~\eev-wconfig
 
+
+~\eev-wconfig\wget  --help
+~\eev-wconfig\wget  --version
+
 cd msys
 exit
 dir
+
+& "D:\instu\MobaXterm_Portable_v21.5\mykoren\slash\bin\wget.exe"  --help
+
+& "D:\msys64\usr\bin\wget.exe" --help
+& "D:\msys64\usr\bin\wget.exe" --version
 
 .\wget.exe  --help
 dir
