@@ -12,6 +12,26 @@ cmd.exe
 
 
 
+
+
+where.exe /?
+where.exe curl
+#where.exe wget
+where.exe tar
+#where.exe cpio
+#where.exe zip
+
+C:\Windows\System32\curl.exe is preinstalled in win 10
+
+C:\Windows\System32\tar.exe is preinstalled in win 10
+
+
+
+
+
+
+
+
 (find-wconfig-links)
 
 (find-wconfig-browser-links)
@@ -148,8 +168,8 @@ https://www.virustotal.com/gui/file/bc8a2eabcb5598b66ea8c4a385a8135887a5688d9ad5
 
 
 
-
-
+pwsh
+bash -i
 marti@len20 MINGW64 /d/umarti/dowNLOADS--SYMLINKED not__git_ps1
 $ sha256sum wg*
 1e17a4ee77a3a18b4bbc2407ad4582155b266b4a71d684c2baf0f1aa8e52fd14 *wget (1).exe
@@ -185,40 +205,6 @@ https://www.virustotal.com/gui/file/300723cac7307c329facffc1aea7a9dea006a9c9db22
 
 
 
-
-
-----------------------------issue 234a red stars disappeared
-
-----------------------------issue 2348: /?
-(eepitch-eshell)
- (eepitch-kill)
- (eepitch-eshell)
-where.exe /?
-
-~/OneDrive/eev-f8 $ where.exe /?
-ERROR: Invalid argument or option - '/u/'.
-Type "WHERE /?" for usage help.
-~/OneDrive/eev-f8 $ where.exe curl
-C:\Windows\System32\curl.exe
-~/OneDrive/eev-f8 $
-
-cmd.exe
-
-where.exe /?
-ok
---------------------------end--issue
-
-
-where.exe /?
-where.exe curl
-#where.exe wget
-where.exe tar
-#where.exe cpio
-#where.exe zip
-
-C:\Windows\System32\curl.exe is preinstalled in win 10
-
-C:\Windows\System32\tar.exe is preinstalled in win 10
 
 
 
@@ -383,6 +369,16 @@ C:\windows\explorer.exe $x
 
 
 
+
+
+where.exe nodejs
+pwsh
+
+
+
+
+
+
 bash -i
 tclsh
 # fails in win emacs
@@ -404,8 +400,24 @@ cat 4
 
 
 
-where.exe nodejs
-pwsh
+----------------------------issue 234a red stars disappeared
 
+----------------------------issue 2348: /?
+(eepitch-eshell)
+ (eepitch-kill)
+ (eepitch-eshell)
+where.exe /?
 
+~/OneDrive/eev-f8 $ where.exe /?
+ERROR: Invalid argument or option - '/u/'.
+Type "WHERE /?" for usage help.
+~/OneDrive/eev-f8 $ where.exe curl
+C:\Windows\System32\curl.exe
+~/OneDrive/eev-f8 $
+
+cmd.exe
+
+where.exe /?
+ok
+--------------------------end--issue
 
