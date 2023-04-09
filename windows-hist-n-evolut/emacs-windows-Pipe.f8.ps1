@@ -434,6 +434,9 @@ list-processes
 dired
 
 
+cd -
+git gui
+
 
 
  (eepitch-eshell)
