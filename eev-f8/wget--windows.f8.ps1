@@ -1,13 +1,29 @@
 exit
 
-///later: related eev-f8\eev.f8.el
+/// cut from eev-f8\eev--windows.f8.ps1
 
+
+
+;; (find-wconfig-wget-links)
 
 
  (eepitch-shell)
  (eepitch-kill)
  (eepitch-shell)
 cmd.exe
+
+
+
+
+now I have wget.exe working, but many blind-alleys are documented in this file
+
+
+~/eev-wconfig/wget.exe  --version
+#~/eev-wconfig/wget  --version
+
+ls      ~/eev-wconfig
+
+
 
 
 
