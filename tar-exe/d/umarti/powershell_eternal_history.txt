@@ -6425,3 +6425,5 @@ git push   -vv
 & "D:\instu\MobaXterm_Portable_v21.5\mykoren\slash\bin\wget.exe"  --help
 ~\eev-wconfig\wget  --version
 & "D:\msys64\usr\bin\wget.exe" --version
+git commit -v -a -m ...
+git push   -vv

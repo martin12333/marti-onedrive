@@ -834,3 +834,6 @@ done
 : 1680744632:0;for x in **/*.gz  ;  do ;  tar xzf $x --to-command="grep --label=""\$TAR_FILENAME"" -Hi '$y'   ;true"  ;   done
 : 1680745588:0;y='e pipe2'
 : 1680745591:0;for x in **/*.gz  ;  do ;  tar xzf $x --to-command="grep --label=""\$TAR_FILENAME"" -Hi '$y'   ;true"  ;   done
+: 1681042698:0;man curl
+: 1681043240:0;man wget
+: 1681043583:0;man curl

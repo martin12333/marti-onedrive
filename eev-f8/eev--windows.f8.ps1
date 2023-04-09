@@ -82,6 +82,40 @@ dir
 sha256sum wg*
 
 
+man wget
+
+Note that you don't need to specify this option if you just want
+the current invocation of Wget to retry downloading a file should
+the connection be lost midway through.  This is the default
+behavior.  -c only affects resumption of downloads started prior to
+this invocation of Wget, and whose local files are still sitting
+around.'
+
+
+man curl
+-C, --continue-at <offset>
+Continue/Resume a previous file transfer at  the  given  offset.
+The  given  offset  is  the  exact  number of bytes that will be
+skipped, counting from the beginning of the source  file  before
+it  is transferred to the destination. If used with uploads, the
+FTP server command SIZE will not be used by curl.
+
+Use "-C -" to tell curl to automatically find out  where/how  to
+resume  the  transfer. It then uses the given output/input files
+to figure that out.
+
+
+--retry <num>
+If a transient error is returned when curl tries  to  perform  a
+transfer,  it  will retry this number of times before giving up.
+Setting the number to 0 makes curl do no retries (which  is  the
+default).  Transient  error  means either: a timeout, an FTP 4xx
+response code or an HTTP 408, 429, 500, 502, 503 or 504 response
+code.
+
+
+
+
 
 where.exe /r c:\pf\git *.exe
 where.exe /r c:\pf\git cur*.*
