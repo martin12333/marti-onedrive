@@ -107,7 +107,7 @@ list-packages
 ;  "Expand \"~\"s and \"$ENVVAR\"s in file names, but only at the beginning."
 
   cmd
-  echo ~
+  echo ~/
 no  
 
 where.exe nodejs
@@ -118,6 +118,10 @@ pwsh
 (find-wconfig-links)
 
 (find-wconfig-browser-links)
+and typing `M-x browse-url':
+;;   (find-googlechrome "http://anggtwu.net/eev-wconfig/wget.exe")
+ "https://www.lua.org/"
+
 (find-wconfig-wget-links)
 (find-wconfig-shell-links)
 (find-wconfig-lua-links)
@@ -165,6 +169,43 @@ error in process filter: Wrong number of arguments: (2 . 2), 3
 
 
 
+Signed file, valid signature
+File Version Information
+Date signed	2021-10-02 15:56:00 UTC
+Signers
+Jernej Simončič
+
+https://www.virustotal.com/gui/file/85d33c09119c265724d7e87393118aacef89848bbdac6c152b3e0c24a1297df6
+
+1 security vendor and no sandboxes flagged this file as malicious
+
+joesecurity
+
+1 year ago
+Joe Sandbox Analysis:
+
+Verdict: SUS
+Score: 21/100
+Classification: sus21.evad.winEXE@2/1@0/0
+
+HTML Report: https://www.joesandbox.com/analysis/565935/0/html
+
+
+https://www.gnu.org/software/wget/
+http://wget.addictivecode.org/FrequentlyAskedQuestions.html#download
+https://eternallybored.org/misc/wget/
+https://www.virustotal.com/gui/file/f595e2e53680ba2937ac48708bc24e6fb5ff6b6fb97d60eb5040bf073ad933bf/community
+
+No security vendors and no sandboxes flagged this file as malicious
+f595e2e53680ba2937ac48708bc24e6fb5ff6b6fb97d60eb5040bf073ad933bf
+wget.exe
+
+
+https://www.virustotal.com/gui/file/1e17a4ee77a3a18b4bbc2407ad4582155b266b4a71d684c2baf0f1aa8e52fd14/details
+Magic	PE32 executable for MS Windows (console) Intel 80386 32-bit
+
+"D:\msys64\usr\bin\wget.exe"
+https://www.virustotal.com/gui/file/300723cac7307c329facffc1aea7a9dea006a9c9db22d83691debed4bcbb9055?nocache=1
 
 
 
