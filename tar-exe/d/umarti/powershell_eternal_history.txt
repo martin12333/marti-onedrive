@@ -6474,3 +6474,10 @@ git commit -v -a -m add
 git push   -vv
 git commit -v -a -m ...
 git push   -vv
+echo aaa > C:\Users\marti\OneDrive\.emacs.d\WARNING--THIS-IS-DISCONNECTED-FROM-HOME-EMACSD.f8.txt
+cd .\.emacs.d
+git ls-files
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+dir

@@ -19,8 +19,9 @@ explorer.exe C:\Users\marti\.emacs.d
 
 Recycle Bin
 
-echo aaa > C:\Users\marti\OneDrive\.emacs.d\WARNING--THIS-IS-DISCONNECTED-FROM-HOME-EMACSD.f8.txt
+#echo aaa > C:\Users\marti\OneDrive\.emacs.d\WARNING--THIS-IS-DISCONNECTED-FROM-HOME-EMACSD.f8.txt
+echo aaa > C:\Users\marti\OneDrive\.emacs.d\INFO--SOME-FILES-SYMLINEKd-FROM-HOME-EMACSD.f8.txt
 
 cd .\.emacs.d
 git ls-files
-
+dir
