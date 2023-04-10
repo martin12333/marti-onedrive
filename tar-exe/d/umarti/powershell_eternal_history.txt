@@ -6457,3 +6457,8 @@ git commit -v -a -m add
 git push   -vv
 git commit -v -a -m  refactor
 git push   -vv
+git commit -v -a -m ...
+git push   -vv
+get-process -Id 19712
+get-process -Id 19712
+get-process  -Name emacs

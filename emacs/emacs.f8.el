@@ -449,3 +449,5 @@ C-v		scroll-up-command
 
 
 
+Error: (file-missing "Searching for program" "No such file or directory" "git") [6 times]
+

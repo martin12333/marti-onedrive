@@ -4,7 +4,7 @@ exit
 
 
 
-;; (find-wconfig-wget-links)
+(find-wconfig-wget-links)
 
 
  (eepitch-shell)
@@ -60,6 +60,8 @@ ls ""
 ls      "~/eev-wconfig/"
 ls      ~/eev-wconfig/
 ls      ~/eev-wconfig
+ls      ~/eev-wconfig/tmp
+
 pwd
 #c:/Users/marti/eev-wconfig/:
 
@@ -70,8 +72,30 @@ pwd
  (eepitch-kill)
  (eepitch-ielm)
 
+
+(require 'eww)
+(defun ee-download-with-eww (url dir)
+  (url-retrieve url #'eww-download-callback (list url dir)))
+(mkdir       "~/eev-wconfig/tmp/" t)
+
+#(delete-file "~/eev-wconfig/wget.exe"###
 (ee-download-with-eww "http://anggtwu.net/eev-wconfig/wget.exe"
-             "~/eev-wconfig/")
+             "~/eev-wconfig/tmp/")
+
+
+
+
+
+
+
+
+
+(ee-download-with-eww "http://anggtwu.net/eev-wconfig/wget.exe"
+             "~/eev-wconfig/tmp")
+
+
+;(ee-download-with-eww "http://anggtwu.net/eev-wconfig/wget.exe"
+             "~/eev-wconfig/"###
 
 messages
 Contacting host: anggtwu.net:80
