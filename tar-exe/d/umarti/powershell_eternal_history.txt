@@ -6481,3 +6481,11 @@ git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push   -vv
 dir
+echo aaa > C:\Users\marti\OneDrive\.emacs.d\INFO--SOME-FILES-SYMLINEKd-FROM-HOME-EMACSD.f8.txt
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+git ls-files
+cmd /c mklink /?
+cd ~\.emacs.d
+powershell.exe

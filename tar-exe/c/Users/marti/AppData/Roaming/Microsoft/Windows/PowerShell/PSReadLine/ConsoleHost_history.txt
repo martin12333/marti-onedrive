@@ -3435,3 +3435,11 @@ del eev-wconfig\wget.exe
 cd "D:\msys64\usr\bin\"
 .\wget.exe  --help
 bash
+cmd /c mklink  init.el  C:\Users\marti\OneDrive\.emacs.d\init.el
+$x='init'
+cmd /c mklink  $x.el  C:\Users\marti\OneDrive\.emacs.d\$x.el
+echo cmd /c mklink  $x.el  C:\Users\marti\OneDrive\.emacs.d\$x.el
+echo cmd /c mklink  "$x".el  C:\Users\marti\OneDrive\.emacs.d\$x.el
+echo cmd /c mklink  "$x"".el"  C:\Users\marti\OneDrive\.emacs.d\$x.el
+echo cmd /c mklink  $x".el"  C:\Users\marti\OneDrive\.emacs.d\$x.el
+cmd /c mklink  $x".el"  C:\Users\marti\OneDrive\.emacs.d\$x.el
