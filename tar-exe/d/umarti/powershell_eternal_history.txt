@@ -6462,3 +6462,6 @@ git push   -vv
 get-process -Id 19712
 get-process -Id 19712
 get-process  -Name emacs
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
