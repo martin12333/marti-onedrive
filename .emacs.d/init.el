@@ -1,3 +1,4 @@
+; INFO--SOME-FILES-SYMLINEKd-FROM-HOME-EMACSD.f8.txt
 
 ;5.4 How do I debug a .emacs file?
 ;Start Emacs with the ‘-debug-init’ command-line option. This enables the Emacs Lisp debugger before evaluating your .emacs file, and places you in the debugger if something goes wrong

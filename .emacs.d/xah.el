@@ -1,3 +1,5 @@
+; INFO--SOME-FILES-SYMLINEKd-FROM-HOME-EMACSD.f8.txt
+
 ; xah.el
 
 ; Xah Emacs Commands

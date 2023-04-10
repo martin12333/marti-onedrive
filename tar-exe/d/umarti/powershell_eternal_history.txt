@@ -6493,3 +6493,7 @@ git commit -v -a -m ...
 git push   -vv
 cmd /c dir
 powershell.exe
+cmd /c dir
+git commit -v -a -m " fix"
+git push   -vv
+cat init.el

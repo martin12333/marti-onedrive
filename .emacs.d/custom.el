@@ -26,3 +26,6 @@
 
 ; :height 181 140
 ; C-x C-+ or C-x C-=
+
+; INFO--SOME-FILES-SYMLINEKd-FROM-HOME-EMACSD.f8.txt
+

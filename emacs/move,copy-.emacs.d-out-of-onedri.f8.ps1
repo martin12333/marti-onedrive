@@ -27,6 +27,7 @@ dir
 #echo aaa > C:\Users\marti\OneDrive\.emacs.d\WARNING--THIS-IS-DISCONNECTED-FROM-HOME-EMACSD.f8.txt
 echo aaa > C:\Users\marti\OneDrive\.emacs.d\INFO--SOME-FILES-SYMLINEKd-FROM-HOME-EMACSD.f8.txt
 
+; INFO--SOME-FILES-SYMLINEKd-FROM-HOME-EMACSD.f8.txt
 
 totalcmd
 move
@@ -54,7 +55,7 @@ win-x
 
 cmd /c dir
 
-
+cat init.el
 
 
 

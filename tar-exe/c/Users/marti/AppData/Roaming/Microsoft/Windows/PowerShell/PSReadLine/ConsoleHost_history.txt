@@ -3463,3 +3463,9 @@ exit
 cd C:\Users\marti\.emacs.d
 exit
 cd C:\Users\marti\.emacs.d
+$x='init'
+cmd /c mklink  $x".el"  C:\Users\marti\OneDrive\.emacs.d\$x.el
+$x='custom'
+cmd /c mklink  $x".el"  C:\Users\marti\OneDrive\.emacs.d\$x.el
+$x='xah'
+cmd /c mklink  $x".el"  C:\Users\marti\OneDrive\.emacs.d\$x.el
