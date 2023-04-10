@@ -38,7 +38,13 @@ ls      ~/eev-wconfig
 
 
 
-
+edit:
+didnt know about
+https://gitlab.com/gnuwget/wget2/-/releases/v2.0.1
+https://www.virustotal.com/gui/file/65a6a5c33f7f9a647d33ac10a5521bf5fb8930330daa140acb0fd129df84cdb2/details
+https://gitlab.com/gnuwget/wget2/-/issues
+~/eev-wconfig/wget2.exe  --version
+ok
 
 
 

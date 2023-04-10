@@ -220,10 +220,9 @@ cd ~/OneDrive
 
 	git add -vv  '*.e.*'
 
-	git gui
 	git commit -v -a -m tags
+	git gui
 	git push --tags
-
 
 	git commit -v -a -m ...
 	git push   -vv

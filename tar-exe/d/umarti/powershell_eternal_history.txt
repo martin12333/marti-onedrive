@@ -6528,3 +6528,8 @@ git add -vv  '*.e.*'
 mv 'dr4/MYNOTES-MYNOTES/mynotes.e.txt' 'dr4/MYNOTES-MYNOTES/oldmynotes.e.txt'
 git commit -v -a -m add
 git push   -vv
+git gui
+git commit -v -a -m tags
+git push --tags
+git push   -vv
+git push --tags
