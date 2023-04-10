@@ -3443,3 +3443,23 @@ echo cmd /c mklink  "$x".el  C:\Users\marti\OneDrive\.emacs.d\$x.el
 echo cmd /c mklink  "$x"".el"  C:\Users\marti\OneDrive\.emacs.d\$x.el
 echo cmd /c mklink  $x".el"  C:\Users\marti\OneDrive\.emacs.d\$x.el
 cmd /c mklink  $x".el"  C:\Users\marti\OneDrive\.emacs.d\$x.el
+$x='init'
+echo cmd /c mklink  $x.el  C:\Users\marti\OneDrive\.emacs.d\$x.el
+echo cmd /c mklink  $x".el"  C:\Users\marti\OneDrive\.emacs.d\$x.el
+cmd /c mklink  $x".el"  C:\Users\marti\OneDrive\.emacs.d\$x.el
+$x='custom'
+cmd /c mklink  $x".el"  C:\Users\marti\OneDrive\.emacs.d\$x.el
+$x='xah'
+cmd /c mklink  $x".el"  C:\Users\marti\OneDrive\.emacs.d\$x.el
+exit
+$x='init'
+echo cmd /c mklink  $x".el"  C:\Users\marti\OneDrive\.emacs.d\$x.el
+cmd /c mklink  $x".el"  C:\Users\marti\OneDrive\.emacs.d\$x.el
+$x='custom'
+cmd /c mklink  $x".el"  C:\Users\marti\OneDrive\.emacs.d\$x.el
+$x='xah'
+cmd /c mklink  $x".el"  C:\Users\marti\OneDrive\.emacs.d\$x.el
+exit
+cd C:\Users\marti\.emacs.d
+exit
+cd C:\Users\marti\.emacs.d

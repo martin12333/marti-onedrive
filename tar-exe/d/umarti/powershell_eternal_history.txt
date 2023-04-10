@@ -6489,3 +6489,7 @@ git ls-files
 cmd /c mklink /?
 cd ~\.emacs.d
 powershell.exe
+git commit -v -a -m ...
+git push   -vv
+cmd /c dir
+powershell.exe

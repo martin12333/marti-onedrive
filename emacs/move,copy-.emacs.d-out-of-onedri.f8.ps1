@@ -38,6 +38,7 @@ cd ~\.emacs.d
 powershell.exe
 #cd ..\.emacs.d
 
+cd C:\Users\marti\.emacs.d
 $x='init'
 echo cmd /c mklink  $x.el  C:\Users\marti\OneDrive\.emacs.d\$x.el
 echo cmd /c mklink  $x".el"  C:\Users\marti\OneDrive\.emacs.d\$x.el
@@ -49,16 +50,13 @@ cmd /c mklink  $x".el"  C:\Users\marti\OneDrive\.emacs.d\$x.el
 
 exit
 
-win-x 
+win-x
 
-cmd /c mklink    eev-wconfig\wget.exe   "D:\msys64\usr\bin\wget.exe"
-####cmd /c mklink /j   eev-wconfig\mklink\wget.exe   "D:\msys64\usr\bin\wget.exe"
-cd msys
-exit
-dir
+cmd /c dir
 
-dir  -Recurse   ~\eev-wconfig
-cd   ~\eev-wconfig
-cd   ~/eev-wconfig
+
+
+
+
 
 
