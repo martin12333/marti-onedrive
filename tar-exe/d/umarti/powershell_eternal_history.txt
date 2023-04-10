@@ -6517,3 +6517,5 @@ D:\instu\emacs-28.2\emacs-28.2\bin\runemacs.exe  --debug-init
 D:\instu\emacs-28.2\emacs-28.2\bin\runemacs.exe
 git commit -v -a -m " fix"
 git push   -vv
+git commit -v -a -m " fix"
+git push   -vv

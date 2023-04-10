@@ -60,6 +60,16 @@
 
 
 
+
+;; See: (find-wconfig-wget-links)
+(setq ee-wget-program      "~/eev-wconfig/wget.exe")
+(setq ee-pdftotext-program "~/eev-wconfig/pdftotext.exe")
+(defalias 'find-pdf-page 'find-googlechrome-page)
+
+
+
+
+
 ;You need to give them keys. [see Emacs: How to Define Keybinding] A great hand saver is to bind them to single keys. Like this:
 
 (global-set-key (kbd "<f2>") 'xah-cut-line-or-region) ; cut
