@@ -6533,3 +6533,5 @@ git commit -v -a -m tags
 git push --tags
 git push   -vv
 git push --tags
+git commit -v -a -m ...
+git push   -vv
