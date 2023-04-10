@@ -213,8 +213,17 @@ code vscode-f8\Emojis-in-Integrated-Terminal.f8.ps1
 
 errmsg(s) stopped because PSReadLine crashed
 
+
+
+mv 'dr4/MYNOTES-MYNOTES/mynotes.e.txt' 'dr4/MYNOTES-MYNOTES/oldmynotes.e.txt'
+
+
 cd ~/OneDrive
 	git add -vv  '*.f8.*'
+	git commit -v -a -m add
+	git push   -vv
+
+	git add -vv  '*.e.*'
 	git commit -v -a -m add
 	git push   -vv
 
