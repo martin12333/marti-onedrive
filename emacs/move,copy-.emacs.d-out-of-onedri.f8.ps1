@@ -58,6 +58,22 @@ cmd /c dir
 cat init.el
 
 
+acronis
+git push
+
+# 😩 Weary Face
 
 
+
+cd ~\.emacs.d
+cd elpa
+dir
+
+dir eev-20230127
+
+mv  eev-20230127 nongit-eev-20230127
+
+git clone https://github.com/martin12333/eev.git  eev-20230127
+
+cmd /c dir eev-20230127 /a
 
