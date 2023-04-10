@@ -3,6 +3,19 @@ exit
 /// cut from eev-f8\eev--windows.f8.ps1
 
 
+optional:
+#
+create restore point
+Before wget
+acronis
+disconnect the external drive, from  explorer
+
+optional:
+create restore point
+more often
+because again 0
+
+
 
 (find-wconfig-wget-links)
 

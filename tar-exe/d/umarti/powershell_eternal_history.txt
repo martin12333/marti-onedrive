@@ -6465,3 +6465,10 @@ get-process  -Name emacs
 git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push   -vv
+explorer.exe C:\Users\marti\.emacs.d
+cmd /c dir  C:\Users\marti\.emacs.d
+cmd /c dir  C:\Users\marti\.emacs.*
+git commit -v -a -m ...
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
