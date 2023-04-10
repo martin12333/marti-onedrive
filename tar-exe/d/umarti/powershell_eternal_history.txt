@@ -6510,3 +6510,8 @@ dir
 dir eev-20230127
 cmd /c dir eev-20230127
 cmd /c dir eev-20230127 /a
+git commit -v -a -m " fix"
+git push   -vv
+D:\instu\emacs-28.2\emacs-28.2\bin\runemacs.exe  --debug-init
+D:\instu\emacs-28.2\emacs-28.2\bin\runemacs.exe  --debug-init
+D:\instu\emacs-28.2\emacs-28.2\bin\runemacs.exe

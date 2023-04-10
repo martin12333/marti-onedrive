@@ -3,7 +3,7 @@
 ; xah.el
 
 ; Xah Emacs Commands
-; Emacs: Copy Current Line If No Selection 🚀
+; Emacs: Copy Current Line If No Selection 
 
 (defun xah-copy-line-or-region ()
   "Copy current line or selection.
@@ -69,9 +69,3 @@ Version: 2010-05-21 2015-06-10"
 ;2010-05-21 The code was inspired from http://www.emacswiki.org/emacs/SlickCopy. Thanks to Joseph O'Donnell for mentioning it. Apparently, this behavior is default in VisualStudio, TextMate, Sublime Text, SlickEdit.
 
 
-;Show kill-ring (Show Copy History) 🚀
-
-;Copy to Register
-;1 Key to Copy/Paste from Register 🚀
-;Copy Append to Register 1, Clear Register 1 🚀
-;∑XAH © 2006, 2022 Xah Lee.

@@ -24,6 +24,33 @@ cd .\.emacs.d
 git ls-files
 dir
 
+
+
+
+
+
+next time edit
+
+(setq custom-file "~/.emacs.d/custom.el")
+(load custom-file)
+
+(message "my debug ... after custom.el"  )
+
+(load  "~/.emacs.d/xah.el"   )
+
+(message "my debug ... after xah.el"  )
+
+
+
+
+
+
+
+
+
+
+
+
 #echo aaa > C:\Users\marti\OneDrive\.emacs.d\WARNING--THIS-IS-DISCONNECTED-FROM-HOME-EMACSD.f8.txt
 echo aaa > C:\Users\marti\OneDrive\.emacs.d\INFO--SOME-FILES-SYMLINEKd-FROM-HOME-EMACSD.f8.txt
 
@@ -66,14 +93,30 @@ git push
 
 
 cd ~\.emacs.d
-cd elpa
+##cd elpa
 dir
 
 dir eev-20230127
 
 mv  eev-20230127 nongit-eev-20230127
 
-git clone https://github.com/martin12333/eev.git  eev-20230127
+##git clone https://github.com/martin12333/eev.git  eev-20230127
+git clone https://github.com/martin12333/eev.git
 
-cmd /c dir eev-20230127 /a
+#cmd /c dir eev-20230127 /a
 
+
+
+
+rename
+
+
+
+
+
+D:\instu\emacs-28.2\emacs-28.2\bin\addpm.exe
+D:\instu\emacs-28.2\emacs-28.2\bin\ebrowse.exe
+D:\instu\emacs-28.2\emacs-28.2\bin\emacs-28.2.exe
+D:\instu\emacs-28.2\emacs-28.2\bin\emacs.exe
+D:\instu\emacs-28.2\emacs-28.2\bin\runemacs.exe  --debug-init
+D:\instu\emacs-28.2\emacs-28.2\bin\runemacs.exe

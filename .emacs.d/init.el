@@ -34,7 +34,18 @@
 
 ;NonGNU Emacs Lisp Package Archive
 ;To use it in Emacs<28, you need to add something like the following to your init file:
-(with-eval-after-load 'package (add-to-list 'package-archives '("nongnu" . "https://elpa.nongnu.org/nongnu/")))
+
+;(with-eval-after-load 'package (add-to-list 'package-archives '("nongnu" . "https://elpa.nongnu.org/nongnu/")))
+
+
+(message "my debug ... 234.a1"  )
+
+
+(add-to-list 'load-path "~/.emacs.d/eev")
+;(require 'eev)
+(require 'eev-beginner)
+
+(message "my debug ... 234.a2"  )
 
 (eev-beginner)
 
