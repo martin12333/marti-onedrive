@@ -6604,3 +6604,7 @@ sort.exe  < D:\umarti\unsort-du64-l-2--c--.txt   >D:\umarti\du64-l-2--c--.txt
 sort <D:\umarti\232du64\unsort-du64-l-3--c-u.txt
 cat D:\umarti\unsort-du64-l-${lev}--d.txt   | sort
 $lev=3 ; cat D:\umarti\unsort-du64-l-${lev}--d.txt   | sort
+cd ~/OneDrive
+git add -vv  '*.f8.*'
+git commit -v -a -m " it-works"
+git push   -vv
