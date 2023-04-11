@@ -354,5 +354,11 @@ C:\windows\explorer.exe $x
 
 
 
+(getenv "HOME")
+"C:\\Users\\marti"
+
+
+
+
 
 

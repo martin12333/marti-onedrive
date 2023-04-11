@@ -6535,3 +6535,15 @@ git push   -vv
 git push --tags
 git commit -v -a -m ...
 git push   -vv
+git commit -v -a -m ...
+git push   -vv
+D:\instu\emacs-28.2\emacs-28.2\bin\addpm.exe
+D:\msys64\msys2_shell.cmd -mingw64
+D:\msys64\msys2_shell.cmd --help
+D:\msys64\msys2_shell.cmd -mingw64 -defterm
+D:\msys64\msys2_shell.cmd -mingw64    -conemu
+D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
+D:\msys64\msys2_shell.cmd -mingw64  -no-start
+D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
+D:\msys64\msys2_shell.cmd -mingw64
+D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
