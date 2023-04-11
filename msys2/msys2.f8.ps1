@@ -167,7 +167,8 @@ error: failed to synchronize all databases (unable to lock database)
 
 
 
-pacman -S mingw-w64-x86_64-mpv
+
+
 exit
 D:\msys64\msys2_shell.cmd -mingw64
 

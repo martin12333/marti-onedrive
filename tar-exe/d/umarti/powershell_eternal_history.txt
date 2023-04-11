@@ -6591,3 +6591,5 @@ D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
 dir D:\msys64\home
 D:\msys64\msys2_shell.cmd -msys
 dir D:\msys64\home
+git commit -v -a -m " fix"
+git push   -vv
