@@ -6616,3 +6616,5 @@ D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start  mpv --help
 D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start  mpv  "C:\Users\marti\eev-wconfig\2022dragABC.mp4"
 git commit -v -a -m " it-works"
 git push   -vv
+git commit -v -a -m " it-works"
+git push   -vv
