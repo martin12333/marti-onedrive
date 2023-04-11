@@ -6582,3 +6582,12 @@ D:\msys64\msys2_shell.cmd -mingw64
 pslist.exe -t
 pslist.exe -t|findstr mintt
 pslist.exe -t
+git commit -v -a -m ...
+git push   -vv
+D:\msys64\msys2_shell.cmd
+icacls.exe D:\msys64   /grant 'marti:(oi)(ci)(f)'
+powershell.exe
+D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
+dir D:\msys64\home
+D:\msys64\msys2_shell.cmd -msys
+dir D:\msys64\home
