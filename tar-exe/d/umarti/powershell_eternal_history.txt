@@ -6547,3 +6547,6 @@ D:\msys64\msys2_shell.cmd -mingw64  -no-start
 D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
 D:\msys64\msys2_shell.cmd -mingw64
 D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv

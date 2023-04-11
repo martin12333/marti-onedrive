@@ -13,6 +13,44 @@ powershell.exe
 
 restore point
 prre msys2
+1 year unins rollin msys2 win  milan
+post .\msys2
+
+
+settings.json:
+{
+    "terminal.integrated.profiles.windows": {
+        "MSYS2 UCRT": {
+            "path": "cmd.exe",
+            "args": [
+                "/c",
+                "C:\\msys64\\msys2_shell.cmd -defterm -here -no-start -ucrt64"
+            ]
+        }
+    }
+}
+
+
+icacls.exe D:\msys64
+cmd /c dir /q  D:\msys64
+cmd /c dir /q  D:\msys64\home
+cmd /c dir /q  D:\msys64\etc
+cmd /c dir /q  D:\msys64\usr
+cmd /c dir /q  D:\msys64\usr\share
+
+cmd /c dir /q  D:\msys64\usr\share\cygwin
+
+
+cmd /c dir /q  D:\msys64\
+cmd /c dir /q  D:\msys64\var
+
+exit
+env
+HOMEPATH=\Users\marti
+HOME=/c/Users/marti
+
+cat /etc/passwd
+ls /etc/p*
 
 
 
