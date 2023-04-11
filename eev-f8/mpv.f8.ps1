@@ -50,5 +50,13 @@ Total Download Size:    414.88 MiB
 Total Installed Size:  2591.23 MiB
 
 
+df -m
 
+cd /d
+du -m | sort -n
+
+
+
+mpv --help
+mpv  "C:\Users\marti\eev-wconfig\2022dragABC.mp4"
 

@@ -9,10 +9,9 @@ exit
 echo '-------- section --------'
 
 
-C:\Users\marti\OneDrive\F8-documents\Windows-Update--disk-c-full.f8.ps1
+file:///C:\Users\marti\OneDrive\F8-documents\Windows-Update--disk-c-full.f8.ps1
 
 
-win-d
 WIN-Q ise rclick admin open
 COPY PASTE INTO admin ise / admin-ise--adminsaves.f8.ps1
 #file:///
@@ -286,11 +285,15 @@ admin ISE
 
 cd "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\"
 
+
+du.exe
+
 ./du64
 
 ./du64.exe -l 1 ../..  | sort
 
 
+$lev=3 ; du.exe -l $lev   d:\   >D:\umarti\unsort-du64-l-${lev}--d.txt
 
 
 
