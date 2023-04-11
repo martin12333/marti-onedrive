@@ -5,9 +5,8 @@ exit
  (eepitch-shell)
 
 # msys2\msys2.f8.ps1
-# Solved this issue by giving my user the Full Control permission over the directory.
+# "Solved this issue by giving my user the Full Control permission over the directory."
 
-powershell.exe
 
 
 D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start  mpv  "C:\Users\marti\eev-wconfig\2022dragABC.mp4"
