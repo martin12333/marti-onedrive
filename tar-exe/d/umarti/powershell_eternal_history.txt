@@ -6553,3 +6553,16 @@ git push   -vv
 git commit -v -a -m ...
 git push   -vv
 & "D:\instu\msys2-x86_64-20230127.exe"
+git commit -v -a -m ...
+git push   -vv
+bash
+cd D:\instu
+bash
+& "D:\instu\msys2-x86_64-20230127.exe"
+cat ms*
+cd D:\instu
+cat ms*sum
+dir ms*sum
+dir ms*
+cat ms*6
+bash
