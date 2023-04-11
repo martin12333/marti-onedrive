@@ -10,7 +10,8 @@ exit
 
 
 # msys2\msys2.f8.ps1
-
+Solved this issue by giving my user the Full Control permission over the directory.
+# 
 
 powershell.exe
 
@@ -34,6 +35,8 @@ mpv  "C:\Users\marti\eev-wconfig\2022dragABC.mp4"
 
 
 
+Optional dependencies for mingw-w64-x86_64-mpv
+    mingw-w64-x86_64-youtube-dl: for video-sharing websites playback
 
 
 
