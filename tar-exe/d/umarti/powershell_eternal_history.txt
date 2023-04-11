@@ -6550,3 +6550,6 @@ D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
 git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push   -vv
+git commit -v -a -m ...
+git push   -vv
+& "D:\instu\msys2-x86_64-20230127.exe"
