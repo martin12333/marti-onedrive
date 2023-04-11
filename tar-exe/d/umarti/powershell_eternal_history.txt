@@ -6566,3 +6566,19 @@ dir ms*sum
 dir ms*
 cat ms*6
 bash
+git commit -v -a -m ...
+git push   -vv
+cmd /c dir /q  D:\msys64
+cmd /c dir /q  D:\msys64\home
+D:\msys64\msys2_shell.cmd -mingw64 -defterm
+cmd /c dir /q  D:\msys64\home
+D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
+D:\msys64\msys2_shell.cmd --help
+D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
+D:\msys64\msys2_shell.cmd -mingw64
+D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
+pslist.exe -t
+D:\msys64\msys2_shell.cmd -mingw64
+pslist.exe -t
+pslist.exe -t|findstr mintt
+pslist.exe -t

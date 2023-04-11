@@ -110,14 +110,25 @@ env
 
 PATH=/mingw64/bin:/usr/local/bin:/usr/bin:/bin:/c/Windows/System32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0/:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
 
+D:\msys64\msys2_shell.cmd -mingw64
 
+D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
 
 pacman -Syy
+
+ls -la /var/lib/pacman/*
+
+exit
+pslist.exe -t|findstr mintt
+pslist.exe -t
+|findstr mintt
+
+icacls.exe E:\marti\ /grant 'marti:(oi)(ci)(f)'
+
 
 pacman -Syu
 
 
-D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
 
 pacman Syy
 error: mingw64: missing required signature
