@@ -6628,3 +6628,7 @@ MicrosoftEdgeCP.exe  --help
 MicrosoftEdgeDevTools.exe  --help
 MicrosoftEdgeSH.exe  --help
 MicrosoftEdgeSH.exe
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
+start ms-settings:themes
