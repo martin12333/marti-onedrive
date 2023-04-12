@@ -69,3 +69,6 @@ ircexit
 exit
 symlinks
 sudo apt install symlinks
+set|less
+set
+exit

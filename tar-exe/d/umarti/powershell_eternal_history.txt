@@ -6632,3 +6632,14 @@ git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push
 start ms-settings:themes
+where.exe start
+Start-Process ms-settings:themes
+cmd
+git commit -v -a -m ...
+git push
+Invoke-Command  ms-settings:themes
+wsl -d Ubuntu-22.04
+explorer.exe   ms-settings:themes
+.\microcmd /c start    ms-settings:themes
+cmd /c start    ms-settings:themes
+cmd /c start   "C:\Users\marti\eev-wconfig\2022dragABC.mp4"
