@@ -6643,3 +6643,5 @@ explorer.exe   ms-settings:themes
 .\microcmd /c start    ms-settings:themes
 cmd /c start    ms-settings:themes
 cmd /c start   "C:\Users\marti\eev-wconfig\2022dragABC.mp4"
+git commit -v -a -m ...
+git push
