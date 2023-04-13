@@ -70,6 +70,19 @@
 
 
 
+;; (find-angg-es-links)
+(progn
+
+  (defun find-angg (fname &rest rest)
+    (apply 'find-wgeta (format "http://anggtwu.net/%s" fname) rest))
+  (defun find-es (fname &rest rest)
+    (apply 'find-wgeta (format "http://anggtwu.net/e/%s.e" fname) rest))
+
+)
+
+
+
+
 (code-c-d "marti" "C:/Users/marti/OneDrive/" :anchor)
 
 
