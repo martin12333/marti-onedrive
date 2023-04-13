@@ -6649,3 +6649,7 @@ cd ~/OneDrive
 git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push
+git commit -v -a -m ...
+git push
+git commit -v -a -m ...
+C:\Users\marti\eev-wconfig\mpv.cmd      "C:\Users\marti\eev-wconfig\2022dragABC.mp4"

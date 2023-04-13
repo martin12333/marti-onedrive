@@ -10,12 +10,26 @@ exit
 # https://packages.msys2.org/package/mingw-w64-x86_64-mpv?repo=mingw64
 
 
+i have put into the file
+C:\Users\marti\eev-wconfig\mpv.cmd
+
+D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start          mpv  %*
+
+end of file
+
+then
+
+C:\Users\marti\eev-wconfig\mpv.cmd      "C:\Users\marti\eev-wconfig\2022dragABC.mp4"
+
+ok
+
 D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start          mpv   "C:\Users\marti\eev-wconfig\2022dragABC.mp4"
 
 
-git commit -v -a -m "😇 it-works"
 git commit -v -a -m "😌 it-works"
-git commit -v -a -m "🙂 it-works"
+
+
+
 
 
 

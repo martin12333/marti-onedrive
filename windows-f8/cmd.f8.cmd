@@ -1,6 +1,5 @@
 exit
 
-@echo off
 
 
 
@@ -18,6 +17,8 @@ exit
 :: FOO is now five characters long: " b a r "
 :: If you don't want quotes, don't include them on the right-hand side.
 ::
+
+@echo off
 
 
 SET COMMAND_TO_RUN=%*
