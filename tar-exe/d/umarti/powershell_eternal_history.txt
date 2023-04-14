@@ -6657,3 +6657,6 @@ git commit -v -a -m " it-works"
 git push
 git commit -v -a -m ...
 git push
+git commit -v -a -m ...
+git push
+D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start

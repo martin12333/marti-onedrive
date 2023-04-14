@@ -4,8 +4,8 @@ exit
 
 
 
-or a TODO file ?
-
+a TODO file
+SCRATCH IS NOT PERSISTENT
 
 
 
