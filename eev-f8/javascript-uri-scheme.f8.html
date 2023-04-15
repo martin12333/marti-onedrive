@@ -1,0 +1,24 @@
+javascript-uri-scheme.f8.html
+
+
+<a href="javascript:''+87*87">fdgdfgdfgd</a>
+<a href="javascript:alert(document.links[0].href)">fdgdfgdfgd</a>
+<a href="">fdgdfgdfgd</a>
+<a href="">fdgdfgdfgd</a>
+[djhfds](javascript:5*8)
+[djhfds](javascript:console.log(8*7))
+
+https://en.wikipedia.org/wiki/Bookmarklet
+
+javascript:'hello, world'
+
+
+, but also (key for bookmarklets) to run arbitrary script against the DOM of the current document, e.g.
+
+javascript:alert(document.links[0].href)
+
+
+
+. The difference is that the latter kind of URL uses an expression that evaluates to the undefined type in JS. I added the void operator to JS before Netscape 2 shipped to make it easy to discard any non-undefined value in a javascript: URL.
+
+

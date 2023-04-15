@@ -4,6 +4,9 @@ exit
 
 
 
+https://www.gnu.org/software/emacs/manual/html_node/efaq-w32/MinGW_002dw64.html
+
+
  (eepitch-shell)
  (eepitch-kill)
  (eepitch-shell)
@@ -12,8 +15,20 @@ exit
 powershell.exe
 
 restore point
-prre msys2
+pre msys2
 1 year unins rollin msys2 win  milan
+
+recommend:
+non-admin
+
+todo
+i  will try the sfx variant because for the students
+
+
+No security vendors and no sandboxes flagged this file as malicious
+
+
+https://www.virustotal.com/gui/file/9bc4ee85635f2b3e7b73226c09772b89043da23c7beb4c420f93077b173b293a?nocache=1
 
 
 https://objects.githubusercontent.com/github-production-release-asset-2e65be/80988227/3adee22f-9822-48c8-8fd2-2904ebc8560a?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230411%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230411T070140Z&X-Amz-Expires=300&X-Amz-Signature=779014b3e9af335c21d8f52e4d750a6e2b4a317e6d3fafbbea5942c9eaadb5cb&X-Amz-SignedHeaders=host&actor_id=870886&key_id=0&repo_id=80988227&response-content-disposition=attachment%3B%20filename%3Dmsys2-x86_64-20230127.exe&response-content-type=application%2Foctet-stream

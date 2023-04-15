@@ -138,6 +138,7 @@ cd ~/OneDrive
 
 	git add -vv   '*/*config.mk'
 	git add -vv   '*/*xah.el'
+	git add -vv   '*/*sha256'
 
 
 cd ~/OneDrive

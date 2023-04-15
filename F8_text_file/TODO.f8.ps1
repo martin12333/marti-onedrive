@@ -1,14 +1,15 @@
 
 exit
 
-
-
-
 a TODO file
-SCRATCH IS NOT PERSISTENT
+# "SCRATCH" file IS NOT PERSISTENT
 
 
 
+
+a new kind of programming environment -wolfram -quantum
+
+a new kind of computational medium -wolfram -quantum
 
  (eepitch-eshell)
  (eepitch-kill)
