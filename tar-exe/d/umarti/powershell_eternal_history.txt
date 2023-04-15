@@ -6665,3 +6665,7 @@ git commit -v -a -m add
 git push
 git commit -v -a -m " it-works"
 git push
+git add -vv   '*/*sha256'
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
