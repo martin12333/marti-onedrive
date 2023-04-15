@@ -60,13 +60,13 @@ A potential harmful association was found between movement disorders and use of 
 
 # e-recept
 
-SMS dr. Sýkorové
+SMS dr. S.
 
 
 
 # escitalopram
 
-vrátil jsem krabičku dr. Sýkorové
+vrátil jsem krabičku dr. S.
 
 
 # foam
@@ -161,10 +161,12 @@ https://ssristories.org/how-do-ssris-and-other-medications-cause-violence-and-wh
 
 
 
-# Sykorova, dr.
+# S., dr.
 
 2017 
-https://docs.google.com/document/d/1ibNCksvq08aJDTcllVT71WjdXrmD3G1FGmQ0k6YtynM/edit
+https://docs.google.com/document/d/1ibNCksvq08aJDTcllVT71
+
+WjdXrmD3G1FGmQ0k6YtynM/edit
 
 
 
@@ -188,13 +190,13 @@ pozdní, opožděne, pozdější
 
 //diktuji
 
-zrovna Radotín je nešikovný tím, že část cesty jedou s prázdnou.
+zrovna Rad. je nešikovný tím, že část cesty jedou s prázdnou.
 
-Kolik stojí jedna cesta například od metra Anděl do Radotína pomocí například Uberu ...
+Kolik stojí jedna cesta například od metra Anděl do Rad. pomocí například Uberu ...
 
 u Uberu cena zalezi na denni dobe
 
-anebo : z Bubenče Boltem přímo do Radotína ...
+anebo : z Bu. Boltem přímo do Rad. ...
 
 
 
