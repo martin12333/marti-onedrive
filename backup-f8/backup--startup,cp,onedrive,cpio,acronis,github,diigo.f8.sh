@@ -139,7 +139,9 @@ cd ~/OneDrive
 	git add -vv   '*/*config.mk'
 	git add -vv   '*/*xah.el'
 	git add -vv   '*/*sha256'
+	git add -vv  '*.code-wo*'
 
+WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 
 cd ~/OneDrive
 	git add -vv  '*.f8.*'
@@ -214,8 +216,13 @@ code vscode-f8\Emojis-in-Integrated-Terminal.f8.ps1
 
 errmsg(s) stopped because PSReadLine crashed
 
+WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
+	code .gitignore
+	bash
+	find . -name   'ne*.f8.*' | xxd
 	cd ~/OneDrive
 	git add -vv  '*.f8.*'
+	#git add -vv  '*/*.f8.*'
 	git commit -v -a -m add
 	git push   -vv
 
@@ -254,9 +261,9 @@ pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mym
 
 	git push   -vv
 
+WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 	cd ~/OneDrive
 	git add -vv  '*.f8.*'
-
 	git commit -v -a -m add
 	git push   -vv
 
@@ -268,7 +275,6 @@ pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mym
 q
 
 
-	git add -vv  '*.code-wo*'
 
 C:\pf\Git\bin\bash.exe
 

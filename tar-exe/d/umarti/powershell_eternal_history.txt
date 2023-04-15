@@ -6669,3 +6669,10 @@ git add -vv   '*/*sha256'
 git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push
+git commit -v -a -m " fix"
+git push   -vv
+git ls-files
+git ls-files|findstr anti
+git add -vv  '*.f8.*'
+git add -vv  '*.f8.*'
+bash
