@@ -6676,3 +6676,5 @@ git ls-files|findstr anti
 git add -vv  '*.f8.*'
 git add -vv  '*.f8.*'
 bash
+cd ~/OneDrive
+git add -vv  '*.f8.*'
