@@ -38,3 +38,17 @@ asdfghjkl:''"""
 00;
 
 
+
+234.h
+new keyboard
+maybe my left hand hurts?
+win-tab?
+ctrl-tab
+alt-tab
+
+should use both hands?
+
+otherwise seems soft
+
+	too high keys?
+
