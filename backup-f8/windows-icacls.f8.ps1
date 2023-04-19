@@ -15,6 +15,7 @@ powershell.exe
 echo see this in win-x-admin history 2
 
 Get-PSReadLineOption
+exit
 use_mouse
 	win-x admin
 
@@ -28,16 +29,49 @@ use_mouse
 
 echo '-------- section --------'
 
+problem 233 234
+
+C:\Users\Public\Documents\icacls-mil.f8.ps1
+
+
+icacls C:\Users\marti
+
+icacls C:\Users\*      /c
+icacls /?
+
+
+dir C:\Users\marti\onedrive
+dir C:\Users\milan_rxtipwr\onedrive
+
+dir c:\Users\milan_rxtipwr\OneDrive\alma-222-mi75\
+
+icacls  c:\Users\milan_rxtipwr\OneDrive\alma-222-mi75\
+
+LEN20\marti:(I)(OI)(CI)(RX)
+
+
+icacls  c:\Users\marti\OneDrive\f8_text_file\
+icacls  c:\Users\marti\OneDrive\f8_text_file\
+icacls  c:\Users\marti\OneDrive\
+
+
+icacls.exe E:\marti\ /grant 'marti:(oi)(ci)(f)'
+icacls.exe D:\msys64   /grant 'marti:(oi)(ci)(f)'
+icacls.exe .\steam\ /grant 'users:(oi)(ci)(f)'
+icacls.exe  C:\Users\userklic   /grant 'marti:(oi)(ci)(f)'
+
+icacls C:\Users\userklic
+icacls C:\Users\userklic
+dir C:\Users\userklic\AppData
+C:\Users\userklic: Access is denied.
+Successfully processed 0 files; Failed processing 1 files
 
 
 
 
 
 
-
-
-
-
+echo '-------- section --------'
 
 
 #security
