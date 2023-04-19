@@ -63,6 +63,7 @@ icacls  C:\Users\marti\AppData\Local\Microsoft\PowerToys
 LEN20\milan_rxtipwr:(I)(OI)(CI)(RX)
 
 icacls  C:\Users\marti\OneDrive\backup-f8
+icacls  C:\Users\marti\OneDrive\Dokumenty
 icacls  c:\Users\marti\OneDrive\
 icacls  c:\Users\marti\
 
@@ -72,6 +73,13 @@ cmd /c dir /a  "..\Documents"
 cmd /c dir /a  "..\Music"
 cmd /c dir /a  "..\Pictures"
 
+
+bash
+ls -latr 'c:\Users\marti\OneDrive\'
+
+icacls  c:\Users\marti\OneDrive\easy-extensibility--f8
+icacls  c:\Users\marti\OneDrive\hardware-f8
+icacls  c:\Users\marti\OneDrive\publ-doc
 
 cmd /c dir /a  "..\..\milan_rxtipwr\Documents"
 cmd /c dir /a  "..\..\userklic\Documents"
@@ -147,9 +155,4 @@ use_mouse
 					it is not form about prop of d:\
 					it is form about prop of "D:\appendbyUSER"
 				advanced
-					grant appenddata to mar80 for "d:\appendbyUSER"
-
-
-
-
-
+					grant appenddata to mar80 for
