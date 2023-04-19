@@ -49,10 +49,22 @@ icacls  c:\Users\milan_rxtipwr\OneDrive\alma-222-mi75\
 
 LEN20\marti:(I)(OI)(CI)(RX)
 
+icacls  c:\Users\marti\OneDrive\f8_text_file\
+LEN20\milan_rxtipwr:(I)(OI)(CI)(RX)
+icacls  C:\Users\marti\OneDrive\acro-sett
 
-icacls  c:\Users\marti\OneDrive\f8_text_file\
-icacls  c:\Users\marti\OneDrive\f8_text_file\
+icacls  C:\Users\marti\AppData
+icacls  C:\Users\marti\AppData\Roaming
+icacls  C:\Users\marti\AppData\Roaming\Code
+icacls  C:\Users\marti\AppData\Local\Microsoft\PowerToys
+
+
+
+LEN20\milan_rxtipwr:(I)(OI)(CI)(RX)
+
+icacls  C:\Users\marti\OneDrive\backup-f8
 icacls  c:\Users\marti\OneDrive\
+icacls  c:\Users\marti\
 
 
 icacls.exe E:\marti\ /grant 'marti:(oi)(ci)(f)'
