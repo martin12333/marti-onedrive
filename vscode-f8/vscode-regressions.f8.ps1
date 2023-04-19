@@ -102,6 +102,16 @@ uninstall
 
 
 
+dow
+signed
+System Installer	
+https://code.visualstudio.com/download
+
+https://code.visualstudio.com/updates/v1_74
+
+
+
+
 
 D:\instu\vscode
 
@@ -109,8 +119,11 @@ D:\instu\vscode
 
 
 Destination location:
-      D:\instu\vscode
+ ###     D:\instu\vscode
 
+      C:\Program Files\Microsoft VS Code
+
+Start Menu folder:
 Start Menu folder:
       Visual Studio Code
 
@@ -210,3 +223,14 @@ https://github.com/martin12333/marti-onedrive/blob/main2/vscode-f8/vscode-regres
 
 
 git commit ; push
+
+
+
+    "update.mode": "none"
+To modify the update mode, go to File > Preferences > Settings (macOS: Code > Preferences > Settings), search for update mode and change the setting to none.
+
+    "extensions.autoUpdate": false
+
+
+
+
