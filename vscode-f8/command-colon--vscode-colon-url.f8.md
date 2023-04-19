@@ -18,6 +18,7 @@ echo sdjfjfds
 
 command:vscode.open?["https://aka.ms/codetour"]
 
+####[fdgd](command:workbench.  type?["hgjgjhgjhgjhgjgjhgz"])
 
 [Open URL](command:vscode.open?["https://aka.ms/codetour"])
 [Open URL](command:vscode.open?["file:///c:/users"])

@@ -97,8 +97,13 @@ exit
                     "command": "editor.action.marker.nextInFiles",
 "when": "editorFocus" },
 
+
+//prb: changes focus
 { "key": "f8",                    "command": "PowerShell.RunSelection",
                                      "when": "editorTextFocus && editorLangId == 'powershell'" },
+
+
+
 
 { "key": "f8",                    "command": "quokka.playTraceForwardToBreakpoint",
                                      "when": "activeEditor && quokka.isActiveEditorRunningQuokka && quokka.traceBeingNavigated && !inDebugMode && !quokka.isLiveShareClient || activeEditor && quokka.traceBeingNavigated && !inDebugMode && !quokka.isLiveShareClient && resourceScheme == 'quokka-code-timeline'" },
@@ -155,7 +160,7 @@ $ git commit -v -a -m  rename
  rename {podman-docker => podman-docker-f8}/podman-docker-start.f8.sh (100%)
  rename {podman-docker => podman-docker-f8}/toolbox.f8.sh (100%)
  rename {podman-docker => podman-docker-f8}/windows,wsl-install-podman.f8.ps1 (100%)
- 
+
  rename {powershell => powershell-f8}/Start-Process.f8.ps1 (100%)
  rename {powershell => powershell-f8}/env..path.length.f8.ps1 (100%)
  rename {tailscale => tailscale-f8}/tailscale.f8.ps1 (100%)
