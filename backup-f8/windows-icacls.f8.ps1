@@ -66,6 +66,22 @@ icacls  C:\Users\marti\OneDrive\backup-f8
 icacls  c:\Users\marti\OneDrive\
 icacls  c:\Users\marti\
 
+cmd /c dir /a  "..\my*"
+cmd /c dir /a  "..\do*"
+cmd /c dir /a  "..\Documents"
+cmd /c dir /a  "..\Music"
+cmd /c dir /a  "..\Pictures"
+
+
+cmd /c dir /a  "..\..\milan_rxtipwr\Documents"
+cmd /c dir /a  "..\..\userklic\Documents"
+cmd /c dir /a  "..\..\micha\Documents"
+#cmd /c dir /a  "..\..\milan_rxtipwr\onedrive\Documents"
+cmd /c dir /a  "..\..\milan_rxtipwr\onedrive\Dokumenty"
+#cmd /c dir /a  "..\..\milan_rxtipwr\onedrive\Plocha"
+#cmd /c dir /a  "..\..\milan_rxtipwr\onedrive\desktop"
+
+
 
 icacls.exe E:\marti\ /grant 'marti:(oi)(ci)(f)'
 icacls.exe D:\msys64   /grant 'marti:(oi)(ci)(f)'
