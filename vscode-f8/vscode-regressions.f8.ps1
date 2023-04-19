@@ -11,19 +11,44 @@ echo '-------- section --------'
 
 win-x ise
 
+or emacs
+C:\Users\marti\OneDrive\vscode-f8\vscode-regressions.f8.ps1
+
+ (eepitch-eshell)
+ (eepitch-kill)
+ (eepitch-eshell)
+
+pwsh
+
+
+ise
 f8
 ctrl-i
+
+ctrl-s
+
 
 
 Get-Process -Name *code*
 Get-Process -Name *edge*
 
-pseudo cp  D:\instu tobkup
+
+explorer   D:\instu 
+pseudo mv  D:\instu tobkup
+
+
+
+
+
+
+
+
+
+
 
 
 
 https://github.com/microsoft/vscode/issues/174822
-
 Yes, it seems to be fixed in 1.76.0-insider
 
 
@@ -39,17 +64,40 @@ OS: Windows_NT x64 10.0.22621
 Sandboxed: No
 
 
+
+
+
+
+
 respnt
-pre uninst vsc 1 72 2
+copy string to clipb
+pre uninst vsc
+1 72 2
 
 
 win+x
 ise
 C:\Users\marti\OneDrive\vscode-f8\vscode-regressions.f8.ps1
 
+
+
+
+
 acronis
 
-git commit ; push
+	cd ~/OneDrive
+	git add -vv  '*.f8.*'
+	#git add -vv  '*/*.f8.*'
+	git commit -v -a -m add
+	git push   -vv
+
+
+
+
+
+
+win-x installed
+uninstall
 
 
 
@@ -156,3 +204,9 @@ acronis
 https://github.com/martin12333/marti-onedrive/blob/main2/vscode-f8/vscode-regressions.f8.ps1#L148
 
 
+
+
+
+
+
+git commit ; push
