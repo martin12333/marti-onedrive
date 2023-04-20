@@ -33,7 +33,7 @@ Get-Process -Name *code*
 Get-Process -Name *edge*
 
 
-explorer   D:\instu 
+explorer   D:\instu
 pseudo mv  D:\instu tobkup
 
 
@@ -93,7 +93,7 @@ acronis
 
 
 
-	
+
 
 
 win-x installed
@@ -104,7 +104,7 @@ uninstall
 
 dow
 signed
-System Installer	
+System Installer
 https://code.visualstudio.com/download
 
 https://code.visualstudio.com/updates/v1_74
@@ -232,5 +232,7 @@ To modify the update mode, go to File > Preferences > Settings (macOS: Code > Pr
     "extensions.autoUpdate": false
 
 
+	C:\Users\marti\AppData\Roaming\Code\User\settings.json
 
+	
 

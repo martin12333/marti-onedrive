@@ -43,6 +43,16 @@ icacls /?
 dir C:\Users\marti\onedrive
 dir C:\Users\milan_rxtipwr\onedrive
 
+Access to the path 'C:\Users\milan_rxtipwr\onedrive' is denied.
+Get-ChildItem: Cannot find path 'C:\Users\milan_rxtipwr\onedrive' because it does not exist.
+
+cmd
+
+Directory of C:\Users\milan_rxtipwr
+
+File Not Found
+
+
 dir c:\Users\milan_rxtipwr\OneDrive\alma-222-mi75\
 
 icacls  c:\Users\milan_rxtipwr\OneDrive\alma-222-mi75\
@@ -76,6 +86,8 @@ cmd /c dir /a  "..\Pictures"
 
 bash
 ls -latr 'c:\Users\marti\OneDrive\'
+exit
+
 
 icacls  c:\Users\marti\OneDrive\easy-extensibility--f8
 icacls  c:\Users\marti\OneDrive\hardware-f8
