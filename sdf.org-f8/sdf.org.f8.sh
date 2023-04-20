@@ -12,7 +12,7 @@ echo '-------- section --------'
 
 
 
-(I am the admin of the browserPOSIX subreddit, and I love Unix ). Today I learned about Telehack.com, but they are temporarily closed to new users. So I decided to try to be accepted at SDF .  I plan to write a  post to the browserPOSIX subreddit  about SDF ...
+(I am the admin of the browserPOSIX subreddit, and I like Unix ). Today I learned about Telehack.com, but they are temporarily closed to new users. So I decided to try to be accepted at SDF .  I plan to write a  post to the browserPOSIX subreddit  about SDF ...
 
 
 

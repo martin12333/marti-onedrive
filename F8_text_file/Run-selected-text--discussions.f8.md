@@ -244,3 +244,32 @@ i will write more later
 ((btw, the filenames ... "Eda" is my nephew, he is 10))
 
 (Eda is my nephew)
+
+
+
+about web hosting
+
+
+...
+
+there are several very low cost options for web hosting, like 
+
+https://sdf.org/?join
+
+ ... a bit of nostalgia for me // I started reading a book about Unix in 1991
+
+https://en.wikipedia.org/wiki/SDF_Public_Access_Unix_System
+
+
+> To me, the main draw is that of a Unix system shared by multiple people. It's a pretty unique experience, much different to "single-user" Unix systems like most of us run today.
+
+
+
+
+http://nyx.net/cgi-bin/webhost.cgi
+
+// I am sure, that you know about github.io, having multiple Facebook accounts, etc.
+
+// i have 3 facebook account, and a simple web tool at github.io
+
+
