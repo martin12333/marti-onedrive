@@ -18,6 +18,8 @@ powershell.exe
 
 D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
 
+
+
 pacman -Ss emacs| grep 64|grep 28
 pacman -Ss mpv
 
@@ -28,8 +30,14 @@ Total Download Size:    83.11 MiB
 Total Installed Size:  481.96 MiB
 
 
+pwd
+cd onedrive
+ls
 
-
+ls -l `which -a emacs`
+ls -l `which -a runemacs`
+runemacs  --help
+runemacs  
 
 
 
