@@ -19,6 +19,8 @@ powershell.exe
 D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
 
 
+-mingw64
+
 
 pacman -Ss emacs| grep 64|grep 28
 pacman -Ss mpv
@@ -37,8 +39,12 @@ ls
 ls -l `which -a emacs`
 ls -l `which -a runemacs`
 runemacs  --help
-runemacs  
+runemacs
 
+win-r
+cmd
+pwsh
+kill -Name emacs
 
 
 "---------------------install-------------------------------------"
