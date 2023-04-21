@@ -107,7 +107,6 @@ Try to run this:
 # (find-psne-links "http://www.gnu.org/software/emacs/emacs-paper.html" "-c" "")
 # (find-psne-links "http://www.gnu.org/software/emacs/emacs-paper.html" "" "")
 
-# !!# (find-efunction 'find-psne-links)
 
 
 
