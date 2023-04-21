@@ -47,6 +47,11 @@ or ...
 
 (find-psne-intro "find-eww")
 
+
+
+for me 
+
+
 (setq url "c:\\"      )
 (      )
 (setq url
