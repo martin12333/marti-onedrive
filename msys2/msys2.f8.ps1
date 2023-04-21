@@ -11,12 +11,32 @@ https://www.gnu.org/software/emacs/manual/html_node/efaq-w32/MinGW_002dw64.html
  (eepitch-kill)
  (eepitch-shell)
 
-
+cmd.exe
 powershell.exe
 
+
+
+D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
+
+pacman -Ss emacs| grep 64|grep 28
+pacman -Ss mpv
+
+pacman -S mingw64/mingw-w64-x86_64-emacs
+28.2-3
+
+Total Download Size:    83.11 MiB
+Total Installed Size:  481.96 MiB
+
+
+
+
+
+
+
+"---------------------install-------------------------------------"
 restore point
 pre msys2
-1 year unins rollin msys2 win  milan
+1 year uninstall rollin msys2 win  milan
 
 
 recommend next time:
@@ -48,7 +68,7 @@ cat ms*6
 ##& "D:\instu\msys2-x86_64-20230127.exe"
 
 restore point
-post .\msys2
+"post .\msys2"
 
 
 
