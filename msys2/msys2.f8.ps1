@@ -39,9 +39,19 @@ which -a wget
 
 D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start --help
 
+
+https://www.gnu.org/software/bash/manual/html_node/Invoking-Bash.html
+-c
+Read and execute commands from the first non-option argument command_string, then exit. If there are arguments after the command_string, the first argument is assigned to $0 and any remaining arguments are assigned to the positional parameters. The assignment to $0 sets the name of the shell, which is used in warning and error messages.
+
+
+
+
 D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start   -c      bash.exe
-###/usr/bin/sh: /usr/bin/sh: cannot execute binary file
+
 ###D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start         bash.exe
+###/usr/bin/sh: /usr/bin/sh: cannot execute binary file
+
 D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start     -c        bash
 D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start    -c     sh
 
