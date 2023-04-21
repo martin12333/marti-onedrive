@@ -6819,3 +6819,7 @@ git push   -vv
 git show --name-only
 git show
 cd ~/OneDrive
+D:\msys64\msys2_shell.cmd -mingw64     -c  runemacs
+git commit -v -a -m ...
+git push   -vv
+D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start

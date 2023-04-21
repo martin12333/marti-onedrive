@@ -42,6 +42,10 @@ i will fix that later
 (find-wconfig-links)
 (find-wconfig-browser-links)
 
+(find-psne-intro)
+
+
+
 
 
 win-q controlpan

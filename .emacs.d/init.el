@@ -41,6 +41,7 @@
 (message "my debug ... 234.a1"  )
 
 
+
 (add-to-list 'load-path "~/.emacs.d/eev")
 ;(require 'eev)
 (require 'eev-beginner)
@@ -62,7 +63,11 @@
 
 
 ;; See: (find-wconfig-wget-links)
-(setq ee-wget-program      "~/eev-wconfig/wget.exe")
+
+; !!! 234L
+;(setq ee-wget-program      "~/eev-wconfig/wget.exe")
+(setq ee-wget-program      "wget")
+
 (setq ee-pdftotext-program "~/eev-wconfig/pdftotext.exe")
 (defalias 'find-pdf-page 'find-googlechrome-page)
 
