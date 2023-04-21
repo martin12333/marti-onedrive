@@ -21,6 +21,46 @@ a new kind of computational medium -wolfram -quantum
 
 
 
+
+
+
+
+
+
+
+
+
+(find-wconfig-links)
+
+
+ok (find-wconfig-browser-links)
+and typing `M-x browse-url':
+"https://www.lua.org/"
+
+ok except someth posted (find-wconfig-wget-links)
+(find-wconfig-shell-links)
+(find-wconfig-lua-links)
+ok (find-wconfig-mpv-links)
+
+ok  (find-angg-es-links)
+
+ok  except ## edited  (find-psne-intro)
+
+#$ @Martin12333 :  '#$' MEANS a START OF EDITS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 echo $PATH
 env
 set
@@ -35,14 +75,6 @@ set
 # Â«2021aug16Â»  (to ".2021aug16")
 
 i will fix that later
-
-
-
-
-(find-wconfig-links)
-(find-wconfig-browser-links)
-
-(find-psne-intro)
 
 
 
