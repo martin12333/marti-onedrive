@@ -39,14 +39,6 @@ ok,  except some edits, marked # !!   (find-psne-intro)
 
 
 
-for me   "\\\\"
-
-
-(setq url "c:\\"      )
-(      )
-(setq url
-      (replace-regexp-in-string "\\\\" "/" url)
-      )
 
 
 

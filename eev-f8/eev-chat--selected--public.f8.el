@@ -76,6 +76,16 @@ ee-find-eww-search-yes' to t; eww' runs the function
 
 
 
+(length "\\\\")
+(string-to-char "\\\\")
+(aref "foo" 0)
+;(aref "foo" 3)
+;(aref "foo" -1)
+
+(setq url "c:\\"      )
+      (replace-regexp-in-string "\\\\" "/" url)
+
+
 
 
 
