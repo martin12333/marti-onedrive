@@ -85,3 +85,22 @@ ee-find-eww-search-yes' to t; eww' runs the function
   (setq ee-find-eww-search-for pos-spec-list)
   (setq ee-find-eww-search-yes t)
   (eww (ee-find-eww-preprocess-url url)))
+
+
+
+
+(find-eev2021video "0:00")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
