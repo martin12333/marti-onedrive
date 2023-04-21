@@ -1,6 +1,6 @@
-#$ @Martin12333 :  '#$' MEANS a START OF EDITS
 
-'##' MEANS the START OF EDITS 
+# !! @Martin12333 :  '# !!' MEANS a START OF EDITS
+
 
 
 (Re)generate: (find-psne-intro)
@@ -50,13 +50,13 @@ environment variable $S is set to ~/snarf/; then running this
 
 
 
-#$## (find-eww   "$S/http/www.gnu.org/software/emacs/emacs-paper.html")
+# !!## (find-eww   "$S/http/www.gnu.org/software/emacs/emacs-paper.html")
 http://c/users/....
 Contacting host: c:80
 url-open-stream: c/80 getaddrinfo error 11001
 
-#$##### (find-eww   "file:///$S/http/www.gnu.org/software/emacs/emacs-paper.html")
-#$## (find-eww      "http://www.gnu.org/software/emacs/emacs-paper.html")
+# !!##### (find-eww   "file:///$S/http/www.gnu.org/software/emacs/emacs-paper.html")
+# !!## (find-eww      "http://www.gnu.org/software/emacs/emacs-paper.html")
 
 
 
@@ -101,19 +101,19 @@ Try to run this:
 
 
 
-#$# (find-psne-links "http://www.gnu.org/software/emacs/emacs-paper.html" "-nc" "-N")
+# !!# (find-psne-links "http://www.gnu.org/software/emacs/emacs-paper.html" "-nc" "-N")
 
-#$#probably dont exec these
+# !!#probably dont exec these
 # (find-psne-links "http://www.gnu.org/software/emacs/emacs-paper.html" "-c" "")
 # (find-psne-links "http://www.gnu.org/software/emacs/emacs-paper.html" "" "")
 
-#$# (find-efunction 'find-psne-links)
+# !!# (find-efunction 'find-psne-links)
 
 
 
 or, equivalently, put the point
 on
-#$# into
+# !!# into
 the URL below and then run
 `M-x brep':
 
