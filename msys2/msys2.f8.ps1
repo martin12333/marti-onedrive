@@ -11,6 +11,9 @@ https://www.gnu.org/software/emacs/manual/html_node/efaq-w32/MinGW_002dw64.html
  (eepitch-kill)
  (eepitch-shell)
 
+
+
+
 cmd.exe
 powershell.exe
 
@@ -18,10 +21,18 @@ exit
 
 
 D:\msys64\msys2_shell.cmd -mingw64     -c  runemacs
+win-r
+powershell.exe
+kill -Name emacs
 
+
+D:\msys64\msys2_shell.cmd -mingw64     -c  "D:/instu/emacs-28.2/emacs-28.2/bin/runemacs.exe"
+#D:\msys64\msys2_shell.cmd -mingw64     -c  "D:\instu\emacs-28.2\emacs-28.2\bin\runemacs.exe"
 
 
 D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
+ "D:\instu\emacs-28.2\emacs-28.2\bin\runemacs.exe"
+
 
 wget
 which -a wget
