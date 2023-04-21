@@ -186,7 +186,7 @@ cd ~/OneDrive
 
 
 git commit -a -m "⚗️  :alembic: Perform experiments"
-"
+
 "♻️					:recycle:	Refactor code."
 ⏪️	:rewind:	Revert changes.
 
@@ -269,7 +269,7 @@ WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 
 	git commit -v -a -m ...
 	git push   -vv
-
+ ' '
 	git show --name-only
 	git show
 q

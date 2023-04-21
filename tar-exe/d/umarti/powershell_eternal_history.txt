@@ -6812,3 +6812,10 @@ D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start         bash.exe
 D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start  -c        bash
 D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start    -c     sh
 D:\msys64\msys2_shell.cmd -mingw64    -no-start   -c    emacs
+D:\msys64\msys2_shell.cmd -mingw64    -c  emacs
+D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start   -c  runemacs --help
+git commit -v -a -m " fix"
+git push   -vv
+git show --name-only
+git show
+cd ~/OneDrive

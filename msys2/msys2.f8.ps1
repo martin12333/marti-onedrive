@@ -16,6 +16,11 @@ powershell.exe
 
 exit
 
+
+D:\msys64\msys2_shell.cmd -mingw64     -c  runemacs 
+
+
+
 D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
 
 D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start --help
