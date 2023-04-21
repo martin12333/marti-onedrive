@@ -14,6 +14,55 @@ https://www.gnu.org/software/emacs/manual/html_node/efaq-w32/MinGW_002dw64.html
 cmd.exe
 powershell.exe
 
+exit
+
+D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
+
+D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start --help
+
+D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start   -c      bash.exe
+###/usr/bin/sh: /usr/bin/sh: cannot execute binary file
+###D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start         bash.exe
+D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start     -c        bash
+D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start    -c     sh
+
+
+#/mingw64/bin/mpv: Bourne-Again shell script
+D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start          mpv  %*
+D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start          mpv
+
+#/usr/bin/cmd:            Bourne-Again shell script,
+D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start          cmd
+
+D:\msys64\msys2_shell.cmd -mingw64    -no-start   -c    emacs
+D:\msys64\msys2_shell.cmd -mingw64    -c  emacs
+D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start   -c  runemacs --help
+
+##D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start   -c  runemacs --help
+##/mingw64/bin/emacs: /mingw64/bin/emacs: cannot execute binary file
+
+"C:\Program Files\git\bin\sh.exe" -c "command with arguments"
+
+sh --help
+sh -c "sh --help"
+sh -c "emacs"
+
+
+
+
+
+runemacs
+
+emacs
+
+history -a
+
+win-r
+cmd
+pwsh
+kill -Name emacs
+
+
 
 
 D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
@@ -36,8 +85,19 @@ pwd
 cd onedrive
 ls
 
+file `which -a cmd`
+/mingw64/bin/mpv: Bourne-Again shell script
+file `which -a mpv`
+file `which -a sh`
+ls -l `which -a sh.exe`
 ls -l `which -a emacs`
+file `which -a emacs`
 ls -l `which -a runemacs`
+file `which -a runemacs`
+
+/mingw64/bin/emacs: PE32+ executable (console)
+/mingw64/bin/runemacs: PE32+ executable (GUI)
+
 runemacs  --help
 runemacs
 

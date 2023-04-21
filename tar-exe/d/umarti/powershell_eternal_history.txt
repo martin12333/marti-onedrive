@@ -6689,3 +6689,126 @@ cd ~/OneDrive
 git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push   -vv
+icacls C:\Users\marti
+icacls C:\Users\*      /c
+dir C:\Users\marti\onedrive
+dir C:\Users\milan_rxtipwr\onedrive
+dir C:\Users\marti\onedrive
+dir C:\Users\milan_rxtipwr\onedrive
+icacls C:\Users\marti
+icacls /?
+icacls C:\Users\marti
+icacls /?
+icacls C:\Users\marti
+icacls /?
+cd ~/OneDrive
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+dir C:\Users\marti\onedrive
+dir C:\Users\milan_rxtipwr\onedrive
+dir c:\Users\milan_rxtipwr\OneDrive\alma-222-mi75\
+dir c:\Users\milan_rxtipwr\OneDrive
+dir c:\Users\milan_rxtipwr\OneDrive\
+dir c:\Users\milan_rxtipwr\OneDrive\alma-222-mi75\
+icacls  c:\Users\milan_rxtipwr\OneDrive\alma-222-mi75\
+icacls C:\Users\userklic
+dir C:\Users\userklic
+dir C:\Users\userklic\AppData
+icacls C:\Users\marti
+icacls  c:\Users\marti\OneDrive\alma-222-mi75\
+icacls  c:\Users\marti\OneDrive\f8_text_file\
+icacls  c:\Users\marti\OneDrive\
+icacls  c:\Users\milan_rxtipwr\OneDrive\alma-222-mi75\
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+icacls  c:\Users\marti\OneDrive\
+icacls  c:\Users\marti\
+icacls  c:\Users\marti\OneDrive\f8_text_file\
+icacls  C:\Users\marti\OneDrive\acro-sett
+icacls  C:\Users\marti\AppData
+icacls  C:\Users\marti\AppData\Roaming
+icacls  C:\Users\marti\AppData\Roaming\Code
+icacls  C:\Users\marti\AppData\Roaming\powertoys
+icacls  C:\Users\marti\AppData\Local\Microsoft_Corporation\
+icacls  C:\Users\marti\AppData\Local\Microsoft\PowerToys
+icacls  c:\Users\marti\
+icacls  c:\Users\marti\OneDrive\
+icacls  C:\Users\marti\OneDrive\backup-f8
+icacls  C:\Users\marti\AppData\Local\Microsoft\PowerToys
+icacls  C:\Users\marti\AppData\Roaming\Code
+icacls  C:\Users\marti\AppData\Roaming
+icacls  C:\Users\marti\AppData\Roaming\Code
+icacls  C:\Users\marti\OneDrive\acro-sett
+git commit -v -a -m ...
+cmd /c dir "../my docum*"
+cmd /c dir "../my docume*"
+cmd /c dir "../my documents*"
+cmd /c dir "../my documents"
+cmd /c dir "../my*"
+cmd /c dir "..\my*"
+cmd /c dir /a  "..\my*"
+cmd /c dir /a  "..\do*"
+cmd /c dir /a  "..\Documents"
+cmd /c dir /a  "..\mu*"
+cmd /c dir /a  "..\Music"
+cmd /c dir /a  "..\Pictures"
+cmd /c dir /a  "milan_rxtipwr\Documents"
+cmd /c dir /a  "..\..\milan_rxtipwr\Documents"
+cmd /c dir /a  "..\..\milan_rxtipwr\onedrive\Documents"
+cmd /c dir /a  "..\..\milan_rxtipwr\onedrive\Dokumenty"
+cmd /c dir /a  "..\..\milan_rxtipwr\onedrive\Plocha"
+cmd /c dir /a  "..\..\milan_rxtipwr\onedrive\desktop"
+cmd /c dir /a  "..\..\userklic\Documents"
+cmd /c dir /a  "..\..\micha\Documents"
+cmd /c dir /a  "..\..\milan_rxtipwr\onedrive\Dokumenty"
+cmd /c dir /a  "..\..\milan_rxtipwr\Documents"
+cmd /c dir /a  "..\..\milan_rxtipwr\onedrive\Dokumenty"
+cmd /c dir /a  "..\..\milan_rxtipwr\onedrive\Plocha"
+git commit -v -a -m ...
+git push   -vv
+icacls  C:\Users\marti\OneDrive\Dokumenty
+bash
+git commit -v -a -m ...
+git push   -vv
+dir C:\Users\milan_rxtipwr\onedrive
+cmd
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+git commit -v -a -m add
+git push   -vv
+git commit -v -a -m ...
+git push   -vv
+git commit -v -a -m ...
+git push   -vv
+kill
+kill -Name emacs
+git commit -v -a -m ...
+git push   -vv
+D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
+D:\msys64\msys2_shell.cmd -mingw64 -defterm
+D:\msys64\msys2_shell.cmd -mingw64  runemacs
+D:\msys64\msys2_shell.cmd -mingw64  emacs
+D:\msys64\msys2_shell.cmd -mingw64    -no-start     emacs
+D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
+D:\msys64\msys2_shell.cmd -mingw64   runemacs
+D:\msys64\msys2_shell.cmd -mingw64
+D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start          mpv  %*
+D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start          mpv
+D:\msys64\msys2_shell.cmd -mingw64   runemacs --help
+D:\msys64\msys2_shell.cmd -mingw64 --  runemacs --help
+D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start   --  runemacs --help
+D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start --help
+D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start          cmd
+D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start   --  runemacs --help
+D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
+D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start         sh
+D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start         bash
+D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start         bash.exe
+ls -l `which -a sh`
+D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
+D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start   -c      bash.exe
+D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start         bash.exe
+D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start  -c        bash
+D:\msys64\msys2_shell.cmd -mingw64  -defterm  -no-start    -c     sh
+D:\msys64\msys2_shell.cmd -mingw64    -no-start   -c    emacs
