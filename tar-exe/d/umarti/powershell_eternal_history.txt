@@ -6874,3 +6874,9 @@ dir \\DESKTOP-PSJ0TRO\D$
 cmd /c dir \\DESKTOP-PSJ0TRO\D$
 cmd /c dir \\DESKTOP-PSJ0TRO\e--evwrite-everyone-pozor
 cat  \\DESKTOP-PSJ0TRO\e--evwrite-everyone-pozor\share.f8.ps1
+cd ~/OneDrive
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+copy C:\Users\marti\OneDrive\windows-f8\file-sharing--POHOV--nepozor.f8.ps1  \\DESKTOP-PSJ0TRO\e--evwrite-everyone-pozor
+cmd /c dir \\DESKTOP-PSJ0TRO\e--evwrite-everyone-pozor
