@@ -6865,3 +6865,12 @@ git commit -v -a -m ...
 icacls d:\
 net user
 Get-LocalUser
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+D:\msys64\msys2_shell.cmd -mingw64     -c  "D:/instu/emacs-28.2/emacs-28.2/bin/runemacs.exe"
+dir //desktop-psj0tro/e--everyone-read/
+dir \\DESKTOP-PSJ0TRO\D$
+cmd /c dir \\DESKTOP-PSJ0TRO\D$
+cmd /c dir \\DESKTOP-PSJ0TRO\e--evwrite-everyone-pozor
+cat  \\DESKTOP-PSJ0TRO\e--evwrite-everyone-pozor\share.f8.ps1
