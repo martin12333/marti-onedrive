@@ -19,6 +19,9 @@ copy C:\Users\marti\OneDrive\windows-f8\file-sharing--POHOV--nepozor.f8.ps1  \\D
 ve win 10 home uz asi ~~nejde everyone anonymous
 
 https://www.diigo.com/user/martin12333?query=%23filesharing
+
+btw, when diigo bulk edit hangs, open another tab ... it can be already done there
+
 https://www.diigo.com/user/martin12333?query=%23filesharing
 diigo 04/22/2023
 
