@@ -135,6 +135,7 @@ cd ~/OneDrive
 	git add -vv  'AI*/my*.ps1'
 	git add -vv  'AI*/ls-l*.txt'
 	git add -vv  'AI*/*.ipynb'
+	git add -vv -f  'AI*/old.git'
 
 	git add -vv --dry-run  ro*p/*.lnk
 	git add -vv   ro*p/*.lnk
