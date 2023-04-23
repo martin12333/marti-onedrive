@@ -6885,3 +6885,9 @@ git commit -v -a -m add
 git push   -vv
 git commit -v -a -m " fix"
 git push   -vv
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+git add -vv  'ai*/my*.ps1'
+git add -vv  'AI*/my*.ps1'
+git add -vv  'AI*/ls-l*.txt'
