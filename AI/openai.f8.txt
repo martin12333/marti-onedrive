@@ -1,9 +1,4 @@
 
-
-
-
-
-
 (lowercase)
 
 https://platform.openai.com/playground

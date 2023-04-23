@@ -6880,3 +6880,8 @@ git commit -v -a -m add
 git push   -vv
 copy C:\Users\marti\OneDrive\windows-f8\file-sharing--POHOV--nepozor.f8.ps1  \\DESKTOP-PSJ0TRO\e--evwrite-everyone-pozor
 cmd /c dir \\DESKTOP-PSJ0TRO\e--evwrite-everyone-pozor
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+git commit -v -a -m " fix"
+git push   -vv
