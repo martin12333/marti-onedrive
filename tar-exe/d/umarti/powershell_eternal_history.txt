@@ -6897,3 +6897,5 @@ git commit -v -a -m add
 git push
 git add -vv   'AI*/old.git'
 git add -vv -f  'AI*/old.git'
+git commit -v -a -m  refactor
+git push   -vv
