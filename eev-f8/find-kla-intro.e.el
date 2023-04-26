@@ -9,12 +9,15 @@ win-emacs
 "D:\instu\emacs-28.2.zip"
 
 
+
 (mkdir "/tmp/FOO/BAR/PLIC/" 'make-parents)
 
-EDIT2: later i have realized, that in a normal windo ...
+EDIT2: later i have realized, that in a normal windows system,
+this mkdir will be successful
 
+only my security-hardened  windows system needs messing with admin and icacls:
 
-files--ensure-directory: Creating directory: Permission denied, c:/tmp
+#files--ensure-directory: Creating directory: Permission denied, c:/tmp
 
  (eepitch-eshell)
  (eepitch-kill)
@@ -33,7 +36,7 @@ echo icacls.exe    c:\tmp    /grant 'users:(oi)(ci)(f)'
 # win-x admin
 OK
 
-# students can alternatively  use gui instead of icacls
+
 
 
 
