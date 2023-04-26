@@ -21,11 +21,43 @@ echo mkdir c:/tmp
 echo icacls.exe    c:\tmp    /grant 'users:(oi)(ci)(f)'
  exit
 
-C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+# C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 
 # win-x admin
 
-# students can use gui
+# students can alternatively  use gui instead of icacls
+
+
+
+# !!
+  (mkdir "/tmp/FOO/BAR/PLIC/" 'make-parents)
+
+powershell
+ ls c:/tmp
+dir c:/tmp
+cmd.exe /c dir c:\tmp /a
+#cmd /c dir c:\tmp /a
+#cmd
+where.exe cmd
+#cmd.exe
+exit
+
+
+
+#
+C:\Users\marti\OneDrive\eev-f8\msys2-problem--msys2-cmd.f8.ps1
+where.exe cmd
+D:\msys64\usr\bin\cmd
+C:\Windows\System32\cmd.exe
+
+
+
+
+
+
+
+
+
 
 
 

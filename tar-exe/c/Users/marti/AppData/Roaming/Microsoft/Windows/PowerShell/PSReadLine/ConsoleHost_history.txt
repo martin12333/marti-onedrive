@@ -3472,3 +3472,9 @@ cmd /c mklink  $x".el"  C:\Users\marti\OneDrive\.emacs.d\$x.el
 icacls.exe D:\msys64   /grant 'marti:(oi)(ci)(f)'
 exit
 icacls.exe D:\msys64   /grant 'marti:(oi)(ci)(f)'
+# will do in admin
+echo mkdir c:/tmp
+echo icacls.exe    c:\tmp    /grant 'users:(oi)(ci)(f)'
+exit
+mkdir c:/tmp
+icacls.exe    c:\tmp    /grant 'users:(oi)(ci)(f)'
