@@ -1,8 +1,9 @@
 
 # !! @Martin12333 :  '# !!' MEANS a START OF EDITS
 
-# !!
+# !! 234.q  2023 04 . 26
 problem: /tmp paths in Windows
+EDIT: NOW THEY WORK
 
 win-emacs
 
@@ -24,6 +25,7 @@ echo icacls.exe    c:\tmp    /grant 'users:(oi)(ci)(f)'
 # C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 
 # win-x admin
+OK
 
 # students can alternatively  use gui instead of icacls
 
@@ -31,16 +33,21 @@ echo icacls.exe    c:\tmp    /grant 'users:(oi)(ci)(f)'
 
 # !!
   (mkdir "/tmp/FOO/BAR/PLIC/" 'make-parents)
+OK
 
 powershell
- ls c:/tmp
+ls c:/tmp
+OK
+
+
+#
 dir c:/tmp
 cmd.exe /c dir c:\tmp /a
 #cmd /c dir c:\tmp /a
 #cmd
 where.exe cmd
 #cmd.exe
-exit
+#exit
 
 
 
@@ -186,7 +193,8 @@ results, and sometimes none.
 2. The old way
 ==============
 
-# 
+# !! todo
+
 From here onwards I will suppose that you have run the three
 `code-c-d's that are in the middle of the previous section.
 
