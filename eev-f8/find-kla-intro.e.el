@@ -1,6 +1,29 @@
 
 # !! @Martin12333 :  '# !!' MEANS a START OF EDITS
 
+# !!
+problem: /tmp paths in Windows
+
+win-emacs
+
+  (mkdir "/tmp/FOO/BAR/PLIC/" 'make-parents)
+files--ensure-directory: Creating directory: Permission denied, c:/tmp
+
+ (eepitch-eshell)
+ (eepitch-kill)
+ (eepitch-eshell)
+
+powershell
+ ls c:/tmp
+
+# will do in admin
+mkdir c:/tmp
+icacls grant
+
+# students can use gui
+
+ exit
+
 
 http://anggtwu.net/emacsconf2022-kla.html
 # !! which one should i read first? both in parallel? i will try again ...  this first, with skipping
@@ -21,6 +44,8 @@ It is meant as both a tutorial and a sandbox.
 
 
 
+
+# !! TODO  
   The prerequisites for this tutorial are:
     (find-eev-quick-intro "8. Anchors")
     (find-eev-quick-intro "9.1. `code-c-d'")
@@ -30,6 +55,8 @@ It is meant as both a tutorial and a sandbox.
     (find-eev-quick-intro "4.1. `find-here-links'")
 
   Video: (find-eev2022klavideo "0:00")
+
+
 
 
 
@@ -52,7 +79,11 @@ Running
 
 is equivalent to running this:
 
-  (find-file "/tmp/FOO/BAR/PLIC/bletch")
+
+
+
+(find-file "/tmp/FOO/BAR/PLIC/bletch")
+
 
 Let's consider that the `code' "foo" in the middle of the name
 of the function `find-foofile' was expanded, or converted, to the
@@ -113,10 +144,17 @@ results, and sometimes none.
 
 
 
+
+
+
 2. The old way
 ==============
+
+# 
 From here onwards I will suppose that you have run the three
 `code-c-d's that are in the middle of the previous section.
+
+
 Now all these links will point to the same file:
 
   (find-file  "/tmp/FOO/BAR/PLIC/bletch")
