@@ -101,6 +101,7 @@ D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
 
 
 pacman -Ss emacs| grep 64|grep 28
+pacman -Ss emacs| grep 28
 pacman -Ss mpv
 
 pacman -S mingw64/mingw-w64-x86_64-emacs
@@ -108,6 +109,17 @@ pacman -S mingw64/mingw-w64-x86_64-emacs
 
 Total Download Size:    83.11 MiB
 Total Installed Size:  481.96 MiB
+
+
+
+
+
+
+
+
+
+
+
 
 
 pwd

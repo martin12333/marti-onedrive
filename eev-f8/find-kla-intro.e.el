@@ -6,6 +6,8 @@ problem: /tmp paths in Windows
 EDIT: NOW THEY WORK
 
 win-emacs
+"D:\instu\emacs-28.2.zip"
+
 
   (mkdir "/tmp/FOO/BAR/PLIC/" 'make-parents)
 files--ensure-directory: Creating directory: Permission denied, c:/tmp
