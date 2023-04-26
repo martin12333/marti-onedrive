@@ -3,6 +3,11 @@ a TODO file
 SCRATCH IS NOT PERSISTENT
 
 
+# !! @Martin12333 :  '# !!' MEANS a START OF EDITS
+
+
+
+
  (eepitch-eshell)
  (eepitch-kill)
  (eepitch-eshell)
