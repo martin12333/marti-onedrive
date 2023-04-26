@@ -103,9 +103,10 @@ cmd /c dir /a  "..\..\milan_rxtipwr\onedrive\Dokumenty"
 
 
 
+icacls.exe .\steam\ /grant 'users:(oi)(ci)(f)'
+
 icacls.exe E:\marti\ /grant 'marti:(oi)(ci)(f)'
 icacls.exe D:\msys64   /grant 'marti:(oi)(ci)(f)'
-icacls.exe .\steam\ /grant 'users:(oi)(ci)(f)'
 icacls.exe  C:\Users\userklic   /grant 'marti:(oi)(ci)(f)'
 
 icacls C:\Users\userklic

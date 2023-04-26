@@ -17,12 +17,16 @@ powershell
  ls c:/tmp
 
 # will do in admin
-mkdir c:/tmp
-icacls grant
+echo mkdir c:/tmp
+echo icacls.exe    c:\tmp    /grant 'users:(oi)(ci)(f)'
+ exit
+
+C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+
+# win-x admin
 
 # students can use gui
 
- exit
 
 
 http://anggtwu.net/emacsconf2022-kla.html
