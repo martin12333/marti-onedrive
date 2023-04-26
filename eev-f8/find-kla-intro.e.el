@@ -9,7 +9,11 @@ win-emacs
 "D:\instu\emacs-28.2.zip"
 
 
-  (mkdir "/tmp/FOO/BAR/PLIC/" 'make-parents)
+(mkdir "/tmp/FOO/BAR/PLIC/" 'make-parents)
+
+EDIT2: later i have realized, that in a normal windo ...
+
+
 files--ensure-directory: Creating directory: Permission denied, c:/tmp
 
  (eepitch-eshell)
