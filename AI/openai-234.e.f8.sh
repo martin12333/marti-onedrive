@@ -10,7 +10,7 @@ exit
 
 https://community.openai.com/t/how-to-multiple-members-on-one-openai-billing-account/21751
 
-not plus plan $20/month
+// Martin12333: i am definitely not using  the  plus plan $20/month
 
 
 
