@@ -6936,3 +6936,6 @@ git commit -v -a -m ...
 git push   -vv
 conda activate base
 nodejs
+git add -vv  '*.f8.*'
+git add -vv  '*.f8.*'
+git commit -v -a -m add
