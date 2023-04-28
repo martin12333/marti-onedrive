@@ -18,7 +18,9 @@ c:/pf/git/bin/bash.exe -i
 #
 #####
 
-OPENAI_API_KEY=$(cat ~/todo-file-aaaaaaaaaaaaaaaaaaaa)
+OPENAI_API_KEY=$(  cat   ~/klic-oa.txt  )
+
+
 
 
 

@@ -94,9 +94,11 @@ klic-oa-mb
 c:\Windows\notepad.exe
 
 klic-oa-mb.txt
+
 remove from clipboard manager
 
 klic-oa-eo.txt
+
 remove from clipboard manager
 
 
