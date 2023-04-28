@@ -35,7 +35,7 @@ OPENAI_API_KEY=$(  cat   ~/klic-oa.txt  )
 echo $OPENAI_API_KEY
 
 curl https://api.openai.com/v1/models \
-  -H "Authorization: Bearer $OPENAI_API_KEY"
+  -H "Authorization: Bearer $OPENAI_API_KEY"   >1
 
 
 
@@ -44,6 +44,31 @@ curl https://api.openai.com/v1/models \
 curl https://api.openai.com/v1/models/text-davinci-003 \
   -H "Authorization: Bearer $OPENAI_API_KEY"
 
+# Response
+{
+  "id": "text-davinci-003",
+  "object": "model",
+  "created": 1669599635,
+  "owned_by": "openai-internal",
+  "permission": [
+    {
+      "id": "modelperm-oyykgcqEhcKfSCh5Ca9BETGH",
+      "object": "model_permission",
+      "created": 1682112392,
+      "allow_create_engine": false,
+      "allow_sampling": true,
+      "allow_logprobs": true,
+      "allow_search_indices": false,
+      "allow_view": true,
+      "allow_fine_tuning": false,
+      "organization": "*",
+      "group": null,
+      "is_blocking": false
+    }
+  ],
+  "root": "text-davinci-003",
+  "parent": null
+}
 
 
 
@@ -52,24 +77,35 @@ curl https://api.openai.com/v1/models/text-davinci-003 \
 
 
 
+curl
+echo
 curl https://api.openai.com/v1/completions \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer $OPENAI_API_KEY" \
   -d '{
     "model": "text-davinci-003",
-    "prompt": "Say this is a test",
-    "max_tokens": 7,
-    "temperature": 0
-  }'
+    "max_tokens": 97,
+    "temperature": 0.7,
+    "prompt": '\
+'"A Hello-world in the Lean Prover:\n'\
+'\n'\
+'"    }'
+
+
+  {"id":"cmpl-7AO65gjrAjehGVbtlFXMYCzRrRpTp","object":"text_completion","created":1682710265,"model":"text-davinci-003","choices":[{"text":"\ndef hello_world : string := \"Hello, World!\"\n\nexample : hello_world = \"Hello, World!\" :=\nbegin\n  reflexivity\nend","index":0,"logprobs":null,"finish_reason":"stop"}],"usage":{"prompt_tokens":11,"completion_tokens":35,"total_tokens":46}}
 
 
 
 
+json vs newlines
 
+    "prompt": "
+A Hello-world in the Lean Prover:
 
+"    }'
 
-
-
+       "message": "We could not parse the JSON body of your request. (HINT: This likely means you aren't using your HTTP library correctly. The OpenAI API expects a JSON payload, but what was sent was not valid JSON. If you have trouble figuring out how to fix this, please send an email to support@openai.com and include any relevant code you'd like help with.)",
+     
 
 
 
