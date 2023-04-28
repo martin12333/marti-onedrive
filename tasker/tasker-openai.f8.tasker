@@ -1,0 +1,397 @@
+
+
+
+
+Posted by
+u/AlienBac0n
+1 month ago
+
+Conversation history trouble
+SOLVED
+
+This code works well. Feel free to use it. It's rather simple and anyone with even a bit more Tasker know-how than I have could have done this.
+
+Hello! Long time Tasker user, first time poster.
+
+As I'm sure many of you also have, I have created a Task that calls the GPT-3 API and responds. It works. And very well. Hears my voice. Sends it to GPT-3 with a custom prompt. Responds with Say. Saves a log, unappended. Done.
+
+
+I would like to add the ability to have conversation history. I would like some advice on how to do this. My current solution isn't working properly, and I'm not sure why. I have a suspicion is has something to do with either how Tasker reads files and saves them as variables or how it handles variables all together.
+
+I have tried removing strange characters with Set Variable and RegEx. But that doesn't work. Reading history.txt and setting its contents to %hist doesn't work. Even using a completely blank history.txt doesn't work.
+
+I believe there is something in the way the variable is handled that is causing this not to work.
+
+I am receving a JSON error at the HTTP Request action.
+
+This is the error:
+
+0.50.25/E add wait type EasyAction1 time 2147483647
+0.50.25/E add wait type EasyAction1 done
+0.50.25/E add wait task
+0.50.25/E Error: 1
+0.50.25/E {
+   "error": {
+       "message": "We could not parse the JSON body of your request. (HINT: This likely means you aren't using your HTTP library correctly. The OpenAI API expects a JSON payload, but what was sent was not valid JSON. If you have trouble figuring out how to fix this, please send an email to support@openai.com and include any relevant code you'd like help with.)",
+       "type": "invalid_request_error",
+       "param": null,
+       "code": null
+   }
+Right now, the order of operations is:
+
+%GV_HEARD prompt.txt > %prompt HTTP REQUEST: %prompt/n%GV_HEARD AutoTools JSON READ: %http_data, %text Say: %text
+
+And this works. But the second line should be: HTTP REQUEST: %prompt/%history/n%GV_HEARD
+
+I am using Write File>history.txt with %gv_heard | Bot: %text|
+
+Before calling the API, I am trying:
+
+Read File > history.txt to var %hist
+
+Then in the HTTP Request: %prompt/%hist/n%GV_HEARD
+
+Thanks for reading. Please remember, this is confirmed to work. If I simply remove the %hist portion from the HTTP Request, it works fine. It also does not work even if %hist is completely blank.
+
+Below is the exported Tasker code:
+
+Please ignore the If statement. It is not accurate, lol. But it's still there.
+
+    Task: Bottest
+
+    A1: Get Voice [
+         Title: Bot
+         Language Model: Free Form
+         Language: en-US
+         Maximum Results: 1
+         Timeout (Seconds): 30 ]
+
+    A2: Wait [
+         MS: 500
+         Seconds: 0
+         Minutes: 0
+         Hours: 0
+         Days: 0 ]
+
+    A3: Read File [
+         File: Documents/Bot_hist.txt
+         To Var: %Bot_hist
+         Structure Output (JSON, etc): On ]
+
+    A4: Variable Set [
+         Name: %Bot_hist
+         To: Conversation History: %Bot_hist
+         Max Rounding Digits: 3
+         Structure Output (JSON, etc): On ]
+
+    A5: Variable Set [
+         Name: %prompt
+         To: WOULD_PREFER_NOT_TO_SHARE_PROMPT_. Bot will also remember conversation history.
+         Max Rounding Digits: 3
+         Structure Output (JSON, etc): On ]
+
+    A6: Variable Search Replace [
+         Variable: %Bot_hist
+         Search: [^a-zA-Z0-9\s]
+         Ignore Case: On
+         One Match Only: On
+         Replace Matches: On ]
+
+    A7: Say [
+         Engine:Voice: com.google.android.tts:eng-nga
+         Stream: 3
+         Pitch: 5
+         Speed: 5
+         Respect Audio Focus: On
+         Continue Task Immediately: On ]
+
+    A8: If [ %gv_heard Set ]
+
+        A9: AutoTools Toast [
+             Configuration: Text: %Bot_hist
+             Text Size: 14
+             Icon Size: 30
+             Corner Radius: 30
+             Padding: 16,4,16,4
+             Long: true
+             Timeout (Seconds): 90
+             Structure Output (JSON, etc): On ]
+
+        A10: HTTP Request [
+              Method: POST
+              URL: https://api.openai.com/v1/completions
+              Headers: Content-Type:application/json
+             Authorization:Bearer API_KEY
+              Body: {
+               "model": "text-davinci-003",
+               "prompt": "%prompt/n%Bot_hist/nQ:%gv_heard/nBot:",
+               "temperature": 1,
+               "max_tokens": 500,
+               "top_p": 1,
+               "frequency_penalty": 0,
+               "presence_penalty": 0
+             }
+              Timeout (Seconds): 30
+              Structure Output (JSON, etc): On
+              Continue Task After Error:On ]
+
+        A11: AutoTools Json Read [
+              Configuration: Simple Mode: true
+             Json: %http_data
+             Fields: text
+             Separator: ,
+              Timeout (Seconds): 60
+              Structure Output (JSON, etc): On ]
+
+        A12: Say [
+              Text: %text
+              Engine:Voice: com.google.android.tts:eng-nga
+              Stream: 3
+              Pitch: 5
+              Speed: 5
+              Respect Audio Focus: On
+              Continue Task Immediately: On ]
+
+        A13: Write File [
+              File: Documents/Bot_hist.txt
+              Text: Q: %gv_heard | Bot: %text |
+              Append: On
+              Add Newline: On ]
+
+        A14: Write File [
+              File: Documents/Bot.txt
+              Text: %gv_heard %http_data
+              Add Newline: On ]
+
+        A15: AutoTools Toast [
+              Configuration: Text: %text
+             Text Size: 14
+             Icon Size: 30
+             Corner Radius: 30
+             Padding: 16,4,16,4
+             Long: true
+              Timeout (Seconds): 90
+              Structure Output (JSON, etc): On ]
+
+        A16: Wait [
+              MS: 0
+              Seconds: 3
+              Minutes: 0
+              Hours: 0
+              Days: 0 ]
+
+        A17: AutoTools Toast [
+              Configuration: Text: %text
+             Text Size: 14
+             Icon Size: 30
+             Corner Radius: 30
+             Padding: 16,4,16,4
+             Long: true
+              Timeout (Seconds): 90
+              Structure Output (JSON, etc): On ]
+
+    A18: Else
+
+        A19: AutoTools Toast [
+              Configuration: Text: Failed API Request
+             Text Size: 14
+             Icon Size: 30
+             Corner Radius: 30
+             Padding: 16,4,16,4
+             Long: true
+              Timeout (Seconds): 90
+              Structure Output (JSON, etc): On ]
+
+    A20: End If
+2 Comments
+
+Award
+
+Share
+
+User avatar
+u/real_jumpcloud
+·
+Promoted
+Love r/MSP? 👋 Meet JumpCloud for MSPs, a centralized solution that lets you frictionlessly manage all your clients’ identity, access, and device management needs from a single pane of glass. Build your MSP’s efficiency while offering better secur...
+jumpcloud.com
+Learn More
+Comment as martin_m_n_novy
+
+Comment
+
+
+
+
+
+
+
+
+
+Markdown Mode
+
+Sort By: New
+|
+Search comments
+
+User avatar
+level 1
+AlienBac0n
+OP
+·
+1 mo. ago
+I solved the issue.
+
+The issue was when writing the history.txt file. Add Newline cannot be checked. That buggered it up. Not sure why, exactly. But it's solved, now.
+
+
+2
+
+
+Reply
+Share
+
+
+User avatar
+level 1
+AlienBac0n
+OP
+·
+1 mo. ago
+Okay. I have confirmed that Tasker can read a file, turn it into a variable, and read it in the prompt.
+
+So there is clearly something wrong with the format of how it's saving the "previous conversation". I will continue working on this.
+
+
+
+
+About Community
+
+Subreddit Icon
+r/tasker
+Welcome to tasker
+Created Aug 11, 2010
+81.6k
+Members
+86
+Online
+Top 5%
+
+Ranked by Size
+
+Joined
+Create Post
+USER FLAIR PREVIEW
+User avatar
+martin_m_n_novy
+COMMUNITY OPTIONS
+Run Tasker In Background
+To make sure Tasker and its plugins run correctly in the background please follow the checklist here
+
+Tasker Settings and Wifi
+As of version 5.11 the latest version of Tasker Settings is required to toggle Wifi on Android 10 and above.
+
+
+
+
+The latest version can't be uploaded on Google Play because of Google limitations.
+
+
+
+
+
+Download the latest version of Tasker Settings here: https://github.com/joaomgcd/TaskerSettings/releases/download/v1.2.0/TaskerSettings.apk
+
+In Tasker 5.12.24 and above the "Connect To Wifi" action was introduced. To run that you need this version of Tasker Settings: https://github.com/joaomgcd/TaskerSettings/releases/tag/v1.3.0
+
+Best Ways To Support Tasker
+Rate Tasker 5 ⭐ on Google Play
+Very helpful and free!
+
+Google Play Pass
+US only
+
+Patreon
+Gives developer a better cut of donations: 5% vs Google Play's 30%
+
+PayPal
+For non-recurring donations
+
+Check here for more info.
+
+RESOURCES
+Welcome to /r/Tasker
+In addition to the Official Tasker Wiki, User Guide, and Google Groups, this subReddit is a place for fellow Redditors to discuss, share, and submit Profiles, Tasks & Walkthroughs for Tasker, or to ask for help creating your own Profiles, Tasks, and questions in general related to Tasker (including plugins etc).
+
+Subreddit Resources:
+
+* [Read Me] Using Tags in Your Thread Titles
+
+Formatting Tasker Code for use in comments
+
+How to Import Files Into Tasker - Quick Guide
+
+Quick Search Links:
+
+* List of Tasker Plugins and 3rd Party Apps
+
+"How-To / Project" Threads
+
+"Need Help" Threads
+
+"Weekly Discussion" Threads
+
+"Developer" Plugin Releases
+
+Learning Guide Links:
+
+* 1,001 Tasks and Profiles - Best, Coolest, Most Common and Useful
+
+Pocketables.com Beginner’s guide to Tasker (New UI)
+
+RoryCodes.com Tasker Tips & Tutorials from /u/froryrory
+
+Tasker Quick Start Setup Guide from /u/Quintaar
+
+Pocketables.com Tasker Guide List
+
+IFTTT Tasker Integration via AutoRemote
+
+AutoApps Command System Tutorial and Reference
+
+Learning Guide Videos:
+
+Tasker 101 Tutorials on YouTube by HollywoodFrodo
+
+Tasker 101 Tutorials on YouTube by /u/Quintaar
+
+Tasker How-To Videos on YouTube by /u/-Juan_M-
+
+Tasker Tutorials on G+ & YouTube by /u/ryoendeprouw
+
+Tasker Video Tutorials by /u/techentourage
+
+Have more useful links you think should be in the sidebar? Send a modmail!
+
+Related Subreddits:
+
+/r/TaskerFiles
+/r/Android
+/r/AndroidRoot
+/r/AndroidTechSupport
+/r/AndroidApps
+/r/AndroidUsers
+/r/AndroidQuestions
+
+Moderators
+Message the mods
+u/brodie7838
+Mod
+u/AutoModerator
+u/Ratchet_Guy
+Moderator
+u/joaomgcd
+👑 Tasker Owner / Developer
+VIEW ALL MODERATORS
+Back to Top
+Advertisement

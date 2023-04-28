@@ -6955,3 +6955,5 @@ git push   -vv
 git commit -v -a -m " it-works"
 vv
 git push   -vv
+git commit -v -a -m " it-works"
+git push   -vv

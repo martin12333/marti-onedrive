@@ -77,7 +77,8 @@
 		"*.factor": "clojure",
 		"*.gram": "javascript",
 		"*.ohayo": "javascript",
-		"*.sh-session": "shellscript"
+		"*.sh-session": "shellscript",
+		"*.tasker": "ini"
 	},
 
 
