@@ -239,6 +239,10 @@ WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 	git commit -v -a -m ...
 	git push   -vv
 
+
+	git show --name-only
+
+
 	git commit -v -a -m  "🚚 rename,move"
 	git commit -v -a -m  rewrite
 	git commit -v -a -m  before-find-and-replace
