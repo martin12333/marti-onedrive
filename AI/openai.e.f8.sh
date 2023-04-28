@@ -3,14 +3,12 @@ exit
 
 
 
-
- (eepitch-eshell)
+ (eepitch-shell)
  (eepitch-kill)
- (eepitch-eshell)
+ (eepitch-shell)
 
-curl.exe  --help
-curl.exe  --help category
-curl.exe  --help  http
+
+c:/pf/git/bin/bash.exe -i
 
 
 #####
@@ -119,3 +117,21 @@ import openai
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+curl.exe  --help
+curl.exe  --help category
+curl.exe  --help  http
+
+	    

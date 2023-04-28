@@ -86,6 +86,20 @@ Invoices and other billing notifications will be sent here (in addition to being
 
 
 
+f5
 
+klic-oa1
+klic-oa-mb
+
+c:\Windows\notepad.exe
+
+klic-oa-mb.txt
+remove from clipboard manager
+
+klic-oa-eo.txt
+remove from clipboard manager
+
+
+###ljuba.bokova tel cislo
 
 https://openai.com/policies
