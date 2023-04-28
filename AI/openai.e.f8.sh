@@ -15,11 +15,12 @@ curl.exe  --help  http
 
 #####
 #
-# IMPORTANT !!
+# IMPORTANT
+# ... !!!
 #
 #####
 
-OPENAI_API_KEY=$(cat todo-file-aaaaaaaaaaaaaaaaaaaa)
+OPENAI_API_KEY=$(cat ~/todo-file-aaaaaaaaaaaaaaaaaaaa)
 
 
 
