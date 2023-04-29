@@ -1,7 +1,7 @@
-exit
+
+
 
 # !! @Martin12333 :  '# !!' MEANS a START OF EDITS
-
 
 
 
@@ -1631,8 +1631,13 @@ buffer-file-name
 
 "c:/Users/marti/OneDrive/eev-f8/w32.e.el"
 
-(code-c-d "marti" "C:/Users/marti/OneDrive/" :anchor)
+(find-martifile ".emacs.d/init.el")
+
+;(code-c-d "marti" "C:/Users/marti/OneDrive/" :anchor)
 (code-c-d "marti" "c:/Users/marti/OneDrive/" :anchor)
+
+
+
 
 (find-martifile ".emacs.d/xah.el")
 (find-martifile ".emacs.d/xah.el" "(defun xah")
@@ -1643,6 +1648,8 @@ buffer-file-name
 can you now navigate to another file inside C:/Users/marti/OneDrive/
 and then type M-x klf?
 this should "kill link to file"
+
+^eeklf
 
 (find-martifile "eev-f8/w32.e.el")
 

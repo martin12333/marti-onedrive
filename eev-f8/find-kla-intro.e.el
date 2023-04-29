@@ -1,5 +1,4 @@
 
-# !! @Martin12333 :  '# !!' MEANS a START OF EDITS
 
 M-e
 buffer-file-name
@@ -7,6 +6,8 @@ buffer-file-name
 (find-martifile "eev-f8/w32.e.el")
 
 
+
+# !! @Martin12333 :  '# !!' MEANS a START OF EDITS
 
 
 # !! 234.q  2023 04 . 26

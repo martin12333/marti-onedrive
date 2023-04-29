@@ -41,6 +41,9 @@ ok,  except some edits, marked # !!   (find-psne-intro)
 
 
 
+(find-martifile "eev-f8/w32.e.el")
+ with some notes, marked # !! 234.t
+
 
 
 (find-kla-intro)
@@ -53,7 +56,10 @@ ok,  except some edits, marked # !!   (find-psne-intro)
 
 
 
-(code-c-d "marti" "C:/Users/marti/OneDrive/" :anchor)
+
+
+;(code-c-d "marti" "C:/Users/marti/OneDrive/" :anchor)
+(code-c-d "marti" "c:/Users/marti/OneDrive/" :anchor)
 (find-martifile ".emacs.d/xah.el")
 
 
