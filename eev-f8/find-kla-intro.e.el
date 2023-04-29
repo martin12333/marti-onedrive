@@ -1,20 +1,11 @@
 
 # !! @Martin12333 :  '# !!' MEANS a START OF EDITS
 
-# !! 234.t  2023 04 .
-problem c: C:
-
 M-e
 buffer-file-name
 
-"c:/Users/marti/OneDrive/eev-f8/w32.e.el"
+(find-martifile "eev-f8/w32.e.el")
 
-(code-c-d "marti" "C:/Users/marti/OneDrive/" :anchor)
-(code-c-d "marti" "c:/Users/marti/OneDrive/" :anchor)
-
-
-;file-name-history
-;file-name-buffer-file-type-alist
 
 
 

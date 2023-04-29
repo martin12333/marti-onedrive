@@ -1619,8 +1619,21 @@ https://devblogs.microsoft.com/commandline/windows-command-line-introducing-the-
 
 
 
-	
+
+
+
+
+# !! 234.t  2023 04 .
+problem c: C:
+
+M-e
+buffer-file-name
+
+"c:/Users/marti/OneDrive/eev-f8/w32.e.el"
+
 (code-c-d "marti" "C:/Users/marti/OneDrive/" :anchor)
+(code-c-d "marti" "c:/Users/marti/OneDrive/" :anchor)
+
 (find-martifile ".emacs.d/xah.el")
 (find-martifile ".emacs.d/xah.el" "(defun xah")
 
@@ -1631,9 +1644,17 @@ can you now navigate to another file inside C:/Users/marti/OneDrive/
 and then type M-x klf?
 this should "kill link to file"
 
+(find-martifile "eev-f8/w32.e.el")
 
-# TODO:
+(find-martifile "eev-f8/find-kla-intro.e.el")
+
+
+
+
+# !! TODO:
 # (find-eev "eev-kla.el" "a-test")
+
+
 
 
 

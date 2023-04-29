@@ -6970,3 +6970,5 @@ git commit -v -a -m " fix"
 git add -vv  '*.e.*'
 git commit -v -a -m add
 git push   -vv
+git commit -v -a -m " fix"
+git push   -vv
