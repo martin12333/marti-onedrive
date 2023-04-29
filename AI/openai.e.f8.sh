@@ -35,7 +35,10 @@ OPENAI_API_KEY=$(  cat   ~/klic-oa.txt  )
 echo $OPENAI_API_KEY
 
 curl https://api.openai.com/v1/models \
-  -H "Authorization: Bearer $OPENAI_API_KEY"   >1
+  -H "Authorization: Bearer $OPENAI_API_KEY"   >1models.json
+
+
+cd ~/OneDrive/AI 
 
 
 
