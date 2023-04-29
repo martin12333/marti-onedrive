@@ -91,10 +91,10 @@ curl https://api.openai.com/v1/completions \
 '\n'\
 '"    }'
 
-
+# Response
   {"id":"cmpl-7AO65gjrAjehGVbtlFXMYCzRrRpTp","object":"text_completion","created":1682710265,"model":"text-davinci-003","choices":[{"text":"\ndef hello_world : string := \"Hello, World!\"\n\nexample : hello_world = \"Hello, World!\" :=\nbegin\n  reflexivity\nend","index":0,"logprobs":null,"finish_reason":"stop"}],"usage":{"prompt_tokens":11,"completion_tokens":35,"total_tokens":46}}
 
-
+# Response, formatted
 {
   "id": "cmpl-7AO65gjrAjehGVbtlFXMYCzRrRpTp",
   "object": "text_completion",
@@ -111,10 +111,11 @@ curl https://api.openai.com/v1/completions \
   "usage": { "prompt_tokens": 11, "completion_tokens": 35, "total_tokens": 46 }
 }
 
-
+# to devtools
 console.log("\ndef hello_world : string := \"Hello, World!\"\n\nexample : hello_world = \"Hello, World!\" :=\nbegin\n  reflexivity\nend")
 VM837:1
 
+# output
 def hello_world : string := "Hello, World!"
 
 example : hello_world = "Hello, World!" :=
@@ -125,7 +126,7 @@ end
 
 
 
-
+# problem
 json vs newlines
 
     "prompt": "
