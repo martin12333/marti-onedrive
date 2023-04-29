@@ -87,18 +87,17 @@
 
 
 
+;# !! 234.t  2023 04 .
+(code-c-d "marti" "c:/Users/marti/OneDrive/" :anchor)
+;(code-c-d "marti" "C:/Users/marti/OneDrive/" :anchor)
 
-(code-c-d "marti" "C:/Users/marti/OneDrive/" :anchor)
 
 
 ;You need to give them keys. [see Emacs: How to Define Keybinding] A great hand saver is to bind them to single keys. Like this:
-
 (global-set-key (kbd "<f2>") 'xah-cut-line-or-region) ; cut
 (global-set-key (kbd "<f3>") 'xah-copy-line-or-region) ; copy
 (global-set-key (kbd "<f4>") 'yank) ; paste
-
 ;This is now part of ergoemacs-mode and Emacs: Xah Fly Keys.
-
 
 
 

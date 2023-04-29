@@ -15,6 +15,7 @@
  '(desktop-save-mode t)
  '(package-selected-packages
    '(xah-fly-keys ergoemacs-mode company counsel swiper ivy eev))
+ '(safe-local-variable-values '((modes fundamental-mode emacs-lisp-mode)))
  '(save-place-mode t)
  '(show-paren-mode t))
 (custom-set-faces
