@@ -93,13 +93,26 @@
 
 
 
+
+
+  ;; From: (find-kla-intro "2. Aliases")
+  (defalias 'kla  'eekla)
+  (defalias 'klas 'eeklas)
+  (defalias 'klf  'eeklf)
+  (defalias 'klfs 'eeklfs)
+  (defalias 'klt  'eeklt)
+  (defalias 'klts 'eeklts)
+  (defalias 'kli  'ee-kl-insert)
+  (defalias 'kla2 'eekla2)
+
+
+
+
+
 ;You need to give them keys. [see Emacs: How to Define Keybinding] A great hand saver is to bind them to single keys. Like this:
 (global-set-key (kbd "<f2>") 'xah-cut-line-or-region) ; cut
 (global-set-key (kbd "<f3>") 'xah-copy-line-or-region) ; copy
 (global-set-key (kbd "<f4>") 'yank) ; paste
 ;This is now part of ergoemacs-mode and Emacs: Xah Fly Keys.
-
-
-
 
 (message "my debug ... end of init.el"  )

@@ -308,6 +308,11 @@ and we want to create a hyperlink to the anchor just before point
 and to put that link in the kill ring. One sequence of keystrokes
 that would do that is this one:
 
+
+
+
+# !! todo
+
   M-1 M-h M-w    ;; ee-copy-preceding-tag-to-kill-ring
       M-h M-h    ;; find-here-links
    8*<down>      ;; go to the line with the `(find-plicfile ...)'
@@ -352,6 +357,10 @@ and then type `M-x eeklf'. You should see this message in the
 echo area:
 
   Copied to the kill ring: (find-plicfile "bletch")
+
+
+(find-plicfile "bletch")
+
 
 Note that it chose to use `find-plicfile' instead of the other
 options.
@@ -405,7 +414,17 @@ It also runs this,
 
   (ee-code-c-d-add-pair "foo" "/tmp/FOO/")
 
-that modifies the variable `ee-code-c-d-pairs' in two steps: it
+that modifies the variable `
+
+# !!
+ee-code-c-d-pairs
+
+  (find-eppp ee-code-c-d-pairs)
+
+pp pretty print
+
+
+' in two steps: it
 first deletes all the elements of `ee-code-c-d-pairs' that are of
 the form ("foo" ...), and then it adds the pair
 
@@ -424,6 +443,12 @@ and you can inspect the variable `ee-code-c-d-pairs' with:
 We will refer to the elements of `ee-code-c-d-pairs' as `c-d's. A
 `c-d' is a pair made of a `c' and a `d', where these `c' and `d'
 were the arguments given to a `code-c-d'.
+
+
+
+
+
+# !! todo ... skipping from here
 
 
 
@@ -696,6 +721,15 @@ the ideas in sections 3 and 4, and then they extract the `r', the
 
 
 
+
+
+
+
+
+
+
+
+
 11. `find-kla-links'
 ====================
 One way to explore these data structures - and to debug what's
@@ -722,13 +756,23 @@ and some things in `find-kla-links' may not work.
 
 
 
+
+
 12. The functions that generate sexps
 =====================================
 Commands like `M-x kla' only work in files in certain
 directories... so, before proceeding, try the tests in:
 
+
+
+
+
+# !! todo more weight
+
   (find-eev "eev-kla.el" "a-test")
   (find-eev "eev-kla.el" "more-tests")
+
+
 
 `M-x kla' and friends generate a sexp and then "kill it". The
 functions that generate sexps can be tested using keyword
@@ -772,6 +816,9 @@ prefix; `kli' is an alias for `ee-kl-insert'. See:
 Note that `ee-kl-insert' is quite primitive, and it supports just
 a few languages and prefixes... it supposes that the user will
 redefine it to add more features to it.
+
+
+
 
 
 
