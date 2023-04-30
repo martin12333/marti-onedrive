@@ -3,47 +3,69 @@
 a TODO file, onedrive, github
 SCRATCH IS NOT PERSISTENT
 
-
 # !! @Martin12333 :  '# !!' MEANS a START OF EDITS
 
-
-
-
 «»
-
 D:\msys64\msys2_shell.cmd -mingw64     -c  "D:/instu/emacs-28.2/emacs-28.2/bin/runemacs.exe"
 #D:\msys64\msys2_shell.cmd -mingw64     -c  "D:\instu\emacs-28.2\emacs-28.2\bin\runemacs.exe"
 D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
  "D:\instu\emacs-28.2\emacs-28.2\bin\runemacs.exe"
 
-
-
 «»
-
-
  (eepitch-eshell)
  (eepitch-kill)
  (eepitch-eshell)
 
 
+«todo-send»
+
+
+
+
+
+(find-marti "eev-f8/w32.e.el" "!!234.t")
+// fixed problem c: C:
+
+
+
+/// eekla works; details later
+
+(find-martifile "eev-f8/find-kla-intro.e.el")
+done partially, with some notes, marked # !!
+
+
+
+
+
+«sent»
+
+/// eeklf works,, details later
+
+
+partial success ... https://github.com/martin12333/marti-onedrive/blob/main2/AI/openai.e.f8.sh ...
+You sent
+You sent
+but i underestimated problems with json ...
+You sent
+// i wish , web would use sexp, edn instead of json
+alternatives for me to research: jq, python, unofficial web apps , and the most interesting: emacs packages for openai
+
+
+
+
+
+
+
+
+
+
+
 
 «»
-
 but i have to learn switching files, or i have to open it in another frame, or in another editor
 (find-martifile "eev-f8/myTODO.f8.el")
 myTODO.f8.el
 a TODO file, onedrive, github
-
-
-
-
-
-
-
-
-
-
-
 
 
 «»
