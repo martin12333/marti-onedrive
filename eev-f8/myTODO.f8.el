@@ -38,6 +38,8 @@ ok  (find-angg-es-links)
 
 ok,  except some edits, marked # !!   (find-psne-intro)
 
+(find-eev2021video "0:00")
+ok
 
 
 
@@ -47,12 +49,8 @@ ok,  except some edits, marked # !!   (find-psne-intro)
 
 
 (find-kla-intro)
+(find-martifile "eev-f8/find-kla-intro.e.el")
 
-
-
-
-(find-eev2021video "0:00")
-(find-eev2021video "0:00")
 
 
 
@@ -60,9 +58,26 @@ ok,  except some edits, marked # !!   (find-psne-intro)
 
 ;(code-c-d "marti" "C:/Users/marti/OneDrive/" :anchor)
 (code-c-d "marti" "c:/Users/marti/OneDrive/" :anchor)
-(find-martifile ".emacs.d/xah.el")
 
 
+
+
+# !! TODO  
+  The prerequisites for this tutorial are:
+    (find-eev-quick-intro "8. Anchors")
+    (find-eev-quick-intro "9.1. `code-c-d'")
+    (find-eev-quick-intro "9.2. Extra arguments to `code-c-d'")
+    (find-eev-quick-intro "9.2. Extra arguments to `code-c-d'" "to anchors")
+    (find-eev-quick-intro "4. Creating Elisp Hyperlinks")
+    (find-eev-quick-intro "4.1. `find-here-links'")
+
+  Video: (find-eev2022klavideo "0:00")
+
+  (find-eev-quick-intro "10.1. Generating short hyperlinks to files")
+
+
+  (find-emacs-keys-intro "1. Basic keys (eev)")
+  (find-emacs-keys-intro "1. Basic keys (eev)" "refining hyperlinks")
 
 
 

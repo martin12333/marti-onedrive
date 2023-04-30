@@ -90,6 +90,10 @@ http://anggtwu.net/emacsconf2022-kla.html
 # !! which one should i read first? both in parallel? i will try again ...  this first, with skipping
 
 
+
+
+
+
 (Re)generate: (find-kla-intro)
 Source code:  (find-efunction 'find-kla-intro)
 More intros:  (find-eev-quick-intro)
@@ -211,7 +215,6 @@ results, and sometimes none.
 2. The old way
 ==============
 
-# !! todo
 
 From here onwards I will suppose that you have run the three
 `code-c-d's that are in the middle of the previous section.
@@ -235,6 +238,50 @@ type `M-h M-h' - i.e., `find-here-links' - there. The
 `find-here-links' will detect that "here" is a file, and will
 try to create links to that file. It will create a temporary
 buffer whose core will be the five `find-*'s above... 
+
+
+# !!
+-------------------
+
+# See: 
+# (find-eev-quick-intro "4.1. `find-here-links'")
+# (find-emacs-keys-intro "1. Basic keys (eev)" "M-h M-h")
+# (find-here-links-intro "4. `find-here-links-3'")
+
+
+# (find-file "c:/tmp/FOO/BAR/PLIC/bletch")
+# (find-fline "c:/tmp/FOO/BAR/PLIC/bletch")
+
+------------------
+  (code-c-d "foo"  "/tmp/FOO/"          :anchor)
+  (code-c-d "bar"  "/tmp/FOO/BAR/"      :anchor)
+  (code-c-d "plic" "/tmp/FOO/BAR/PLIC/" :anchor)
+-----------------
+;# !! 234.t  2023 04 .
+(code-c-d "marti" "c:/Users/marti/OneDrive/" :anchor)
+;(code-c-d "marti" "C:/Users/marti/OneDrive/" :anchor)
+-----------------
+  (code-c-d "foo"  "c:/tmp/FOO/"          :anchor)
+  (code-c-d "bar"  "c:/tmp/FOO/BAR/"      :anchor)
+  (code-c-d "plic" "c:/tmp/FOO/BAR/PLIC/" :anchor)
+------------------
+# See: 
+# (find-eev-quick-intro "4.1. `find-here-links'")
+# (find-emacs-keys-intro "1. Basic keys (eev)" "M-h M-h")
+# (find-here-links-intro "4. `find-here-links-3'")
+
+
+# (find-file "c:/tmp/FOO/BAR/PLIC/bletch")
+# (find-fline "c:/tmp/FOO/BAR/PLIC/bletch")
+# (find-plicfile "bletch")
+# (find-barfile "PLIC/bletch")
+# (find-foofile "BAR/PLIC/bletch")
+--------------------
+ok
+
+
+
+
 
 The function `find-here-links' doesn't know how to choose the
 "best" hyperlink to "/tmp/FOO/BAR/PLIC/bletch", so it shows
