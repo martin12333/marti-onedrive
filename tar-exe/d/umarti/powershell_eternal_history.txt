@@ -6990,3 +6990,5 @@ git commit -v -a -m " fix"
 git push   -vv
 git commit -v -a -m " fix"
 git push   -vv
+git commit -v -a -m " fix"
+git push   -vv
