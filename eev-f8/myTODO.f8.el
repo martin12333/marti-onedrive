@@ -9,6 +9,7 @@ SCRATCH IS NOT PERSISTENT
 
 
 
+«»
 
 D:\msys64\msys2_shell.cmd -mingw64     -c  "D:/instu/emacs-28.2/emacs-28.2/bin/runemacs.exe"
 #D:\msys64\msys2_shell.cmd -mingw64     -c  "D:\instu\emacs-28.2\emacs-28.2\bin\runemacs.exe"
@@ -17,6 +18,7 @@ D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
 
 
 
+«»
 
 
  (eepitch-eshell)
@@ -25,6 +27,7 @@ D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
 
 
 
+«»
 
 but i have to learn switching files, or i have to open it in another frame, or in another editor
 (find-martifile "eev-f8/myTODO.f8.el")
@@ -43,7 +46,7 @@ a TODO file, onedrive, github
 
 
 
-
+«»
 
 (find-wconfig-links)
 
@@ -74,13 +77,17 @@ ok
 ok
 
 
+
+
+«!!234.t»
 (find-martifile "eev-f8/w32.e.el")
  with some notes, marked # !!234.t
-«!!234.t»
 (find-marti "eev-f8/w32.e.el" "!!234.t")
+(find-marti "eev-f8/w32.e.el" "martin-milan")
 
 
 
+«»
 (find-kla-intro)
 (find-martifile "eev-f8/find-kla-intro.e.el")
 done partially, with some notes, marked # !!
@@ -90,11 +97,22 @@ done partially, with some notes, marked # !!
 # !! todo more weight
 
   (find-eev "eev-kla.el" "a-test")
+  tried eekla
+
   (find-eev "eev-kla.el" "more-tests")
 
 
 
 «»
+
+
+
+# !!234.u1
+# if: Search failed: "«\\([!-~]+\\)»"
+i shouldnt use spaces
+
+
+
 8. Anchors
 ==========
 [Video links:]
@@ -126,7 +144,6 @@ inside a `«»'s is called a _tag_.
 
 
 
-if: Search failed: "«\\([!-~]+\\)»"
 
 
 
@@ -135,7 +152,9 @@ if: Search failed: "«\\([!-~]+\\)»"
 
 # !! TODO
   The prerequisites for this tutorial are:
+
     (find-eev-quick-intro "8. Anchors")
+
     (find-eev-quick-intro "9.1. `code-c-d'")
     (find-eev-quick-intro "9.2. Extra arguments to `code-c-d'")
     (find-eev-quick-intro "9.2. Extra arguments to `code-c-d'" "to anchors")
@@ -149,6 +168,8 @@ if: Search failed: "«\\([!-~]+\\)»"
 
   (find-emacs-keys-intro "1. Basic keys (eev)")
   (find-emacs-keys-intro "1. Basic keys (eev)" "refining hyperlinks")
+
+
 
 
 
@@ -198,6 +219,8 @@ have run the `defalias'es below:
 To make these aliases permanent, copy them to your ~/.emacs.
 
 done
+
+
 
 Without these aliases everything in eev-kla.el will still work,
 but you will have to type `M-x eekla' instead of `M-x kla', `M-x

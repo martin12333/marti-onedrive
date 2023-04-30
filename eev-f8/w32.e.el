@@ -1622,6 +1622,7 @@ https://devblogs.microsoft.com/commandline/windows-command-line-introducing-the-
 
 
 
+
 «!!234.t»
 # !!234.t  2023 04 .
 problem c: C:
@@ -1639,8 +1640,10 @@ buffer-file-name
 
 
 
+
 (find-martifile ".emacs.d/xah.el")
 (find-martifile ".emacs.d/xah.el" "(defun xah")
+
 
 
 
@@ -1651,11 +1654,13 @@ this should "kill link to file"
 
 ^eeklf
 
+
 (find-martifile "eev-f8/w32.e.el")
+(find-marti "eev-f8/w32.e.el" "!!234.t")
+(find-marti "eev-f8/w32.e.el" "martin-milan")
+
 
 (find-martifile "eev-f8/find-kla-intro.e.el")
-
-
 
 
 # !! TODO:
@@ -1665,7 +1670,11 @@ this should "kill link to file"
 
 
 
-C:/Users/marti/OneDrive/snarf/http/www.gnu.org/software/emacs/emacs-paper.html
+
+###C:/Users/marti/OneDrive/snarf/http/www.gnu.org/software/emacs/emacs-paper.html
+
+
+
 
 
 
@@ -1691,6 +1700,8 @@ C:/Users/marti/OneDrive/snarf/http/www.gnu.org/software/emacs/emacs-paper.html
 
 
 # http://xahlee.info/emacs/emacs/emacs_copy_cut_current_line.html
+
+
 
 
 
