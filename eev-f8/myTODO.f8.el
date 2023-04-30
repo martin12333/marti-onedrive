@@ -8,6 +8,16 @@ SCRATCH IS NOT PERSISTENT
 
 
 
+
+D:\msys64\msys2_shell.cmd -mingw64     -c  "D:/instu/emacs-28.2/emacs-28.2/bin/runemacs.exe"
+#D:\msys64\msys2_shell.cmd -mingw64     -c  "D:\instu\emacs-28.2\emacs-28.2\bin\runemacs.exe"
+D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
+ "D:\instu\emacs-28.2\emacs-28.2\bin\runemacs.exe"
+
+
+
+
+
  (eepitch-eshell)
  (eepitch-kill)
  (eepitch-eshell)

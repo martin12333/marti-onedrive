@@ -95,15 +95,15 @@
 
 
 
-  ;; From: (find-kla-intro "2. Aliases")
-  (defalias 'kla  'eekla)
-  (defalias 'klas 'eeklas)
-  (defalias 'klf  'eeklf)
-  (defalias 'klfs 'eeklfs)
-  (defalias 'klt  'eeklt)
-  (defalias 'klts 'eeklts)
-  (defalias 'kli  'ee-kl-insert)
-  (defalias 'kla2 'eekla2)
+;; From: (find-kla-intro "2. Aliases")
+(defalias 'kla  'eekla)
+;(defalias 'klas 'eeklas)
+(defalias 'klf  'eeklf)
+;(defalias 'klfs 'eeklfs)
+(defalias 'klt  'eeklt)
+;(defalias 'klts 'eeklts)
+(defalias 'kli  'ee-kl-insert)
+;(defalias 'kla2 'eekla2)
 
 
 
