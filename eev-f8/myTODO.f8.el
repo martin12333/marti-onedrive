@@ -75,7 +75,7 @@ ok
 
 
 (find-martifile "eev-f8/w32.e.el")
- with some notes, marked # !! 234.t
+ with some notes, marked # !!234.t
 
 
 

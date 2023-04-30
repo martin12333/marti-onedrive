@@ -64,7 +64,7 @@
 
 ;; See: (find-wconfig-wget-links)
 
-; !!! 234L
+; !!234.L
 ;(setq ee-wget-program      "~/eev-wconfig/wget.exe")
 (setq ee-wget-program      "wget")
 

@@ -82,7 +82,7 @@ winecfg
 
 ls -l /home/martin/.wine/dos*
 
-!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!! !!!!!!!!!! !!!!!!! 2 SYMLINK LOOPs
+!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!! !!!!!!!!!! !!!!! !!234---2-SYMLINK-LOOPs
 ls -l /home/martin/.wine/dos*/z:
 
 ➜  OneDrive ls -l /home/martin/.wine/dos*/z:
