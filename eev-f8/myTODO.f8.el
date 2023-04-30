@@ -1,3 +1,4 @@
+«»
 
 a TODO file, onedrive, github
 SCRATCH IS NOT PERSISTENT
@@ -35,6 +36,15 @@ a TODO file, onedrive, github
 
 
 
+
+
+
+
+
+
+
+
+
 (find-wconfig-links)
 
 
@@ -59,6 +69,11 @@ ok
 
 
 
+;(code-c-d "marti" "C:/Users/marti/OneDrive/" :anchor)
+(code-c-d "marti" "c:/Users/marti/OneDrive/" :anchor)
+ok
+
+
 (find-martifile "eev-f8/w32.e.el")
  with some notes, marked # !! 234.t
 
@@ -77,12 +92,41 @@ done partially, with some notes, marked # !!
 
 
 
+«»
+8. Anchors
+==========
+[Video links:]
+  (find-eevfherelvideo "14:18" "4.1. Creating anchors")
+  (find-eevfherelvideo "15:22"  "an index at the beginning of the file")
+  (find-eevfherelvideo "15:47"  "the tutorial also explains ... `M-A'")
+  (find-eevfherelvideo "16:07"  "`M-A' duplicates the line and...")
+  (find-eevfherelvideo "16:19"  "`M-B' creates an e-script block")
+
+
+8.1. Introduction: `to'
+-----------------------
+A hyperlink like
+
+  (to "foo")
+
+jumps to the first occurrence of the string "«foo»" in the
+current buffer. The function that wraps a string in `«»'s is
+called `ee-format-as-anchor', and the sexp `(to "foo")'
+is equivalent the second sexp below:
+
+                    (ee-format-as-anchor "foo")
+  (ee-goto-position (ee-format-as-anchor "foo"))
+
+We will call strings in `«»'s _anchors_, and we will say
+that `(to "foo")' jumps "to the anchor `foo'". The string
+inside a `«»'s is called a _tag_.
 
 
 
 
-;(code-c-d "marti" "C:/Users/marti/OneDrive/" :anchor)
-(code-c-d "marti" "c:/Users/marti/OneDrive/" :anchor)
+if: Search failed: "«\\([!-~]+\\)»"
+
+
 
 
 

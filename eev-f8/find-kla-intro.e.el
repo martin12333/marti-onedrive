@@ -4,13 +4,15 @@ M-e
 buffer-file-name
 
 (find-martifile "eev-f8/w32.e.el")
+(find-marti "eev-f8/w32.e.el" "martin-milan")
+(find-marti "eev-f8/w32.e.el" "!!234.t")
 
 
 
 # !! @Martin12333 :  '# !!' MEANS a START OF EDITS
 
 
-# !! 234.q  2023 04 . 26
+# !!234.q  2023 04 . 26
 problem: /tmp paths in Windows
 EDIT: NOW THEY WORK
 
@@ -110,9 +112,13 @@ It is meant as both a tutorial and a sandbox.
 
 
 
-# !! TODO  
-  The prerequisites for this tutorial are:
-    (find-eev-quick-intro "8. Anchors")
+
+
+# !! TODO
+The prerequisites for this tutorial are:
+
+(find-eev-quick-intro "8. Anchors")
+
     (find-eev-quick-intro "9.1. `code-c-d'")
     (find-eev-quick-intro "9.2. Extra arguments to `code-c-d'")
     (find-eev-quick-intro "9.2. Extra arguments to `code-c-d'" "to anchors")
@@ -120,6 +126,9 @@ It is meant as both a tutorial and a sandbox.
     (find-eev-quick-intro "4.1. `find-here-links'")
 
   Video: (find-eev2022klavideo "0:00")
+
+
+
 
 
 
@@ -237,13 +246,13 @@ above to visit the file "/tmp/FOO/BAR/PLIC/bletch", and then
 type `M-h M-h' - i.e., `find-here-links' - there. The
 `find-here-links' will detect that "here" is a file, and will
 try to create links to that file. It will create a temporary
-buffer whose core will be the five `find-*'s above... 
+buffer whose core will be the five `find-*'s above...
 
 
 # !!
 -------------------
 
-# See: 
+# See:
 # (find-eev-quick-intro "4.1. `find-here-links'")
 # (find-emacs-keys-intro "1. Basic keys (eev)" "M-h M-h")
 # (find-here-links-intro "4. `find-here-links-3'")
@@ -257,7 +266,7 @@ buffer whose core will be the five `find-*'s above...
   (code-c-d "bar"  "/tmp/FOO/BAR/"      :anchor)
   (code-c-d "plic" "/tmp/FOO/BAR/PLIC/" :anchor)
 -----------------
-;# !! 234.t  2023 04 .
+;# !!234.t  2023 04 .
 (code-c-d "marti" "c:/Users/marti/OneDrive/" :anchor)
 ;(code-c-d "marti" "C:/Users/marti/OneDrive/" :anchor)
 -----------------
@@ -265,7 +274,7 @@ buffer whose core will be the five `find-*'s above...
   (code-c-d "bar"  "c:/tmp/FOO/BAR/"      :anchor)
   (code-c-d "plic" "c:/tmp/FOO/BAR/PLIC/" :anchor)
 ------------------
-# See: 
+# See:
 # (find-eev-quick-intro "4.1. `find-here-links'")
 # (find-emacs-keys-intro "1. Basic keys (eev)" "M-h M-h")
 # (find-here-links-intro "4. `find-here-links-3'")
@@ -570,7 +579,7 @@ the first `l-r-c-d' in the sorted list. In that example the best
 `l-r-c-d' will be this one:
 
   (6 "bletch" "plic" "/tmp/FOO/BAR/PLIC/")
-   
+
 Note that its `r' is as short as possible. When there are no
 `c-d's matching the filename the function `ee-kl-lrcd' returns
 nil.
