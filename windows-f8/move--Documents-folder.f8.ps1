@@ -13,5 +13,19 @@ https://superuser.com/questions/1734525/windows-11-keeps-changing-documents-pict
 
 completion
 
-ls ~\
-ls ~/
+fail
+ls ~\a
+ls ~/a
+
+fail
+ls $HOME\a
+ls $HOME/a
+ls ../a
+ls c:/a
+
+ls ..\a
+
+ls c:\a
+explorer.exe D:\AI
+ls C:\Users\marti\a
+ls C:\Users\marti\a
