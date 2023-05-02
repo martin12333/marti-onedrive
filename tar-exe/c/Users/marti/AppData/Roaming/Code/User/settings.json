@@ -224,7 +224,7 @@
 	"git.openRepositoryInParentFolders": "never",
 	"workbench.panel.defaultLocation": "right",
 	"terminal.integrated.tabs.focusMode": "singleClick",
-	"window.zoomLevel": 2,
+	"window.zoomLevel": 1,
 
 
 

@@ -7000,3 +7000,8 @@ git push   -vv
 git add -vv  '*.f8.*'
 git commit -v -a -m add
 explorer.exe D:\AI
+git commit -v -a -m ...
+git push   -vv
+ls D:\Users\marti
+ls D:\Users\marti
+ls D:\Umarti
