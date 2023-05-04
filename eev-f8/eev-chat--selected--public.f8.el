@@ -100,5 +100,5 @@ email
 
 
 
-(I merely wanted a very very rough estimate, when will an artificial neural net be comparable to a human brain)
+(I merely wanted a very very rough estimate, .....)
 

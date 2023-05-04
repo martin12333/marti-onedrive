@@ -7007,3 +7007,9 @@ ls D:\Users\marti
 ls D:\Umarti
 git commit -v -a -m ...
 git push   -vv
+git add -vv  '*.f8.*'
+cd ~/OneDrive
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+git show
