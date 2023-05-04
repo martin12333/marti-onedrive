@@ -7005,3 +7005,5 @@ git push   -vv
 ls D:\Users\marti
 ls D:\Users\marti
 ls D:\Umarti
+git commit -v -a -m ...
+git push   -vv
