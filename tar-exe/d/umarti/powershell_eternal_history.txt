@@ -7023,3 +7023,5 @@ git ls-files
 git commit -v -a -m  partial-refactor
 vv
 git push   -vv
+git commit -v -a -m  partial-refactor
+git push   -vv
