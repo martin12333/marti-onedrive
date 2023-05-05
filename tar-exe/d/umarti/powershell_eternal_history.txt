@@ -7112,3 +7112,9 @@ cmd /c dir /a C:\Users\marti\Documents
 cmd /c dir /a C:\Users\marti\Dokumenty
 cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"
 cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty234"
+ls d:/Do*
+cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"
+cmd /c dir /a "C:\Users\marti\OneDrive\Documents"
+cmd /c dir /a "d:\Dokumenty"
+git commit -v -a -m " it-works"
+git push   -vv
