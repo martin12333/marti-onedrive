@@ -14,7 +14,9 @@ https://superuser.com/questions/1734525/windows-11-keeps-changing-documents-pict
 
 acronis
 
-git push
+
+git commit -v -a -m  partial-refactor
+git push   -vv
 
 
 
@@ -32,6 +34,13 @@ a-msklc/us1.klc
 
 "C:\Users\marti\OneDrive\doku--WindowsPowerShell-bkup\profile.ps1"
 "C:\Users\marti\OneDrive\a-msklc\polprog1.klc"
+
+"C:\Users\marti\OneDrive\Dokumenty\a-msklc"
+"C:\Users\marti\OneDrive\Dokumenty\PowerShell"
+"C:\Users\marti\OneDrive\Dokumenty\KOREN"
+"C:\Users\marti\OneDrive\Dokumenty\WindowsPowerShell"
+
+
 
 
 completion

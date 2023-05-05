@@ -7025,3 +7025,5 @@ vv
 git push   -vv
 git commit -v -a -m  partial-refactor
 git push   -vv
+git commit -v -a -m  partial-refactor
+git push   -vv
