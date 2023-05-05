@@ -32,7 +32,8 @@ $a = ""
 $a ?? "sffdsfsdf"
 
 
-
+$fuj ??= "aaa"  ;   dir $fuj
+$fuj="b"
 
 
 

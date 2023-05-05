@@ -7163,3 +7163,9 @@ powershell.exe
 dir  ($prase ?? "sffdsfsdf")
 git commit -v -a -m " fix"
 robocopy  /?|findstr -i Subdirectories
+git commit -v -a -m " fix"
+git push   -vv
+$fuj ??= "aaa"  ;   dir $fuj
+$fuj="b"
+$fuj ??= "aaa"  ;   dir $fuj
+powershell.exe

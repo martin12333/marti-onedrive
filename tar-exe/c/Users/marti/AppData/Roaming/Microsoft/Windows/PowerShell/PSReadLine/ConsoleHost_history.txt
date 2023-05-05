@@ -3489,3 +3489,4 @@ ls d:/Do*
 exit
 dir  ($prase ?? "sffdsfsdf")
 exit
+$fuj ??= "aaa"  ;   dir $fuj
