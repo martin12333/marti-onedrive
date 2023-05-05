@@ -7135,3 +7135,10 @@ pwsh.exe
 cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"   "C:\Users\marti\OneDrive\Documents"
 cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"   "C:\Users\marti\OneDrive\Documents"  "d:\Dokumenty"
 cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"    "d:\Dokumenty"  "C:\Users\marti\OneDrive\Documents"
+git commit -v -a -m " it-nearly-works"
+git push   -vv
+pwsh.exe
+echo $PROFILE
+$PSScriptRoot
+pwsh.exe
+echo $PROFILE

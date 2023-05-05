@@ -157,11 +157,18 @@ cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"   "C:\Users\marti\OneDrive\Doc
 cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"    "d:\Dokumenty"  "C:\Users\marti\OneDrive\Documents"
 
 
-pwsh.exe
-exit
+
+
+
 powershell.exe
 exit
 # win-x admin
+
+
+pwsh.exe
+echo $PROFILE
+$PSScriptRoot
+exit
 
 
 
