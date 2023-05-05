@@ -72,7 +72,10 @@ cmd /c dir /a C:\Users\marti\Documents
 
 
 explorer.exe  C:\Users\marti\Dokumenty
+explorer.exe  C:\Users\marti\onedrive\Dokumenty
 explorer.exe  C:\Users\marti\Documents
+
+explorer.exe  C:\Users\marti\doku-234-bkup
 
 
 05/05/2023  18:03               418 desktop.ini
@@ -81,6 +84,13 @@ explorer.exe  C:\Users\marti\Documents
 
 cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"
 
+
+explorer.exe  C:\Users\marti\
+# 2 docu
+Get-Process -Name explorer
+kill -Name explorer -WhatIf
+kill -Name explorer
+explorer.exe  C:\Users\marti\
 
 
 

@@ -7049,3 +7049,14 @@ explorer.exe  C:\Users\marti\Dokumenty
 explorer.exe  C:\Users\marti\Documents
 cmd /c dir /a C:\Users\marti\Documents
 cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"
+git commit -v -a -m  refactor
+git push   -vv
+explorer.exe  C:\Users\marti\doku-234-bkup
+explorer.exe  C:\Users\marti\doku-234-bkup
+explorer.exe  C:\Users\marti\onedrive\Dokumenty
+Get-Process -Name explorer
+kill -Name explorer -WhatIf
+kill -Name explorer
+Get-Process -Name explorer
+explorer.exe  C:\Users\marti\
+git commit -v -a -m  refactor
