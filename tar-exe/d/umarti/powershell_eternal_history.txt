@@ -7031,3 +7031,8 @@ git commit -v -a -m  partial-refactor
 git push   -vv
 cmd /c dir /a C:\Users\marti\my*
 cmd /c dir /a C:\Users\marti\do*
+cmd /c dir /a C:\Users\marti\Documents
+git commit -v -a -m  partial-refactor
+git push   -vv
+cd ..
+git add ".\doku--PowerShell-bkup\profile.ps1"
