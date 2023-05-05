@@ -282,7 +282,8 @@ WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 	git show
 q
 
-
+cd dokumenty
+git ls-files
 
 C:\pf\Git\bin\bash.exe
 

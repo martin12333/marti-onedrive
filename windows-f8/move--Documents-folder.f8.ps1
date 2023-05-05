@@ -11,6 +11,19 @@ https://superuser.com/questions/1734525/windows-11-keeps-changing-documents-pict
 
 
 
+
+cd dokumenty
+git ls-files
+
+PowerShell/profile.ps1
+WindowsPowerShell/profile.ps1
+a-msklc/polprog1.klc
+a-msklc/us1.klc
+
+
+
+
+
 completion
 
 fail

@@ -10,9 +10,7 @@ NVIDIA made a blog post about FP8: https://developer.nvidia.com/blog/nvidia-arm-
 .......
 
 
-(I merely wanted a very very rough estimate, when could an artificial neural net be comparable to a human brain)
-
-(and I want something like Egan:Diaspora ... the artificial brains ... to be possible in reality )
+(I merely wanted a very very rough estimate, when...
 
 
 
