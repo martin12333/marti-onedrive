@@ -177,6 +177,15 @@ code D:\Dokumenty
 
 
 
+
+ahk 8787676
+AutoHotkey.lnk
+win-q
+#$^$%^$^$^$^$^^%%&^%
+
+
+
+
 cmd /c dir /a "C:\Users\marti\OneDrive\Desktop\ALINKS"
 
 completion

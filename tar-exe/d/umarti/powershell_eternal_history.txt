@@ -7142,3 +7142,11 @@ echo $PROFILE
 $PSScriptRoot
 pwsh.exe
 echo $PROFILE
+exit
+exit
+pwsh.exe
+exit
+echo $PROFILE
+git commit -v -a -m ...
+git push   -vv
+git commit -v -a -m " it-works"
