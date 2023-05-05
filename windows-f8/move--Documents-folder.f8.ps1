@@ -105,6 +105,35 @@ cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty234"
 
 
 
+ (eepitch-eshell)
+ (eepitch-kill)
+ (eepitch-eshell)
+
+powershell
+ ls d:/Do*
+
+# will do in admin
+mkdir d:\Dokumenty
+icacls.exe    d:\Dokumenty    /grant 'marti:(oi)(ci)(f)'
+   ##/grant 'users:(oi)(ci)(f)'
+ exit
+
+# win-x admin
+OK
+# C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

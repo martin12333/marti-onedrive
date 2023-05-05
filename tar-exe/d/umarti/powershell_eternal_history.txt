@@ -7076,3 +7076,8 @@ explorer.exe  C:\Users\marti\OneDrive\doku-docu-234-bkup
 git commit -v -a -m  refactor
 git push   -vv
 git add -vv  '*/*desktop.ini'
+git add -vv  --dry-run  '*/*desktop.ini'
+git commit -v -a -m add
+git push
+powershell
+ls d:/Do*

@@ -3478,3 +3478,12 @@ echo icacls.exe    c:\tmp    /grant 'users:(oi)(ci)(f)'
 exit
 mkdir c:/tmp
 icacls.exe    c:\tmp    /grant 'users:(oi)(ci)(f)'
+ls d:/Do*
+mkdir d:\Dokumenty
+icacls.exe    d:\Dokumenty    /grant 'marti:(oi)(ci)(f)'
+exit
+ls d:/Do*
+mkdir d:\Dokumenty
+icacls.exe    d:\Dokumenty    /grant 'marti:(oi)(ci)(f)'
+ls d:/Do*
+exit
