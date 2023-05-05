@@ -7036,3 +7036,16 @@ git commit -v -a -m  partial-refactor
 git push   -vv
 cd ..
 git add ".\doku--PowerShell-bkup\profile.ps1"
+git add ".\doku--windowsPowerShell-bkup\profile.ps1"
+git add a-msklc/polprog1.klc  a-msklc/us1.klc
+git commit -v -a -m  refactor
+git push   -vv
+cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"
+cmd /c dir /a C:\Users\marti\my*
+cmd /c dir /a C:\Users\marti\do*
+cmd /c dir /a C:\Users\marti\Documents
+cmd /c dir /a C:\Users\marti\Dokumenty
+explorer.exe  C:\Users\marti\Dokumenty
+explorer.exe  C:\Users\marti\Documents
+cmd /c dir /a C:\Users\marti\Documents
+cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"

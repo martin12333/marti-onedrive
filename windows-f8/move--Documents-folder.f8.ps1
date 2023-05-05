@@ -41,10 +41,14 @@ git add a-msklc/polprog1.klc  a-msklc/us1.klc
 "C:\Users\marti\OneDrive\doku--WindowsPowerShell-bkup\profile.ps1"
 "C:\Users\marti\OneDrive\a-msklc\polprog1.klc"
 
+
+
 "C:\Users\marti\OneDrive\Dokumenty\a-msklc"
 "C:\Users\marti\OneDrive\Dokumenty\PowerShell"
 "C:\Users\marti\OneDrive\Dokumenty\KOREN"
 "C:\Users\marti\OneDrive\Dokumenty\WindowsPowerShell"
+
+cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"
 
 
 cmd /c dir /a C:\Users\marti\my*
@@ -58,12 +62,24 @@ cmd /c dir /a C:\Users\marti\do*
 05/05/2023  17:01    <DIR>          doku--pow
 
 cmd /c dir /a C:\Users\marti\Documents
+#cmd /c dir /a C:\Users\marti\Dokumenty
 
 02/05/2021  18:10    <DIR>          .ipynb_checkpoints
 01/11/2021  22:27    <JUNCTION>     My Music [C:\Users\marti\Music]
 01/11/2021  22:27    <JUNCTION>     My Pictures [C:\Users\marti\Pictures]
 01/11/2021  22:27    <JUNCTION>     My Videos [C:\Users\marti\Videos]
 
+
+
+explorer.exe  C:\Users\marti\Dokumenty
+explorer.exe  C:\Users\marti\Documents
+
+
+05/05/2023  18:03               418 desktop.ini
+
+05/05/2023  18:03             1,763 Shortcut to Documents (OneDrive - Personal).lnk
+
+cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"
 
 
 
