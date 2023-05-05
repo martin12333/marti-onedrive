@@ -7015,3 +7015,11 @@ git push   -vv
 git show
 git commit -v -a -m " fix"
 git show
+cd dokumenty
+git ls-files
+cd dokumenty
+ls-files
+git ls-files
+git commit -v -a -m  partial-refactor
+vv
+git push   -vv
