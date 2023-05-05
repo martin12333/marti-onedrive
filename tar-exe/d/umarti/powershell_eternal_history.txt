@@ -7071,3 +7071,8 @@ cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty234"
 cmd /c dir /a C:\Users\marti\my*
 cmd /c dir /a C:\Users\marti\do*
 cmd /c dir /a C:\Users\marti\Documents
+explorer.exe  C:\Users\marti\Dokumenty
+explorer.exe  C:\Users\marti\OneDrive\doku-docu-234-bkup
+git commit -v -a -m  refactor
+git push   -vv
+git add -vv  '*/*desktop.ini'

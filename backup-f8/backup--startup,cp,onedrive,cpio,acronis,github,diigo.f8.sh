@@ -144,6 +144,8 @@ cd ~/OneDrive
 	git add -vv   '*/*xah.el'
 	git add -vv   '*/*sha256'
 	git add -vv  '*.code-wo*'
+	git add -vv  '*/*desktop.ini'
+	git add -vv  --dry-run  '*/*desktop.ini'
 
 WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 
