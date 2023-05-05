@@ -7060,3 +7060,14 @@ kill -Name explorer
 Get-Process -Name explorer
 explorer.exe  C:\Users\marti\
 git commit -v -a -m  refactor
+git push   -vv
+cd ..
+git commit -v -a -m  refactor
+git push   -vv
+cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"
+cmd /c dir /a "C:\Users\marti\OneDrive\Documents"
+cmd /c dir /a "C:\Users\marti\OneDrive\Documents234"
+cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty234"
+cmd /c dir /a C:\Users\marti\my*
+cmd /c dir /a C:\Users\marti\do*
+cmd /c dir /a C:\Users\marti\Documents

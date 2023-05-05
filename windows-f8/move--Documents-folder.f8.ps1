@@ -72,17 +72,17 @@ cmd /c dir /a C:\Users\marti\Documents
 
 
 explorer.exe  C:\Users\marti\Dokumenty
-explorer.exe  C:\Users\marti\onedrive\Dokumenty
+explorer.exe  C:\Users\marti\onedrive\Dokumenty234
 explorer.exe  C:\Users\marti\Documents
 
-explorer.exe  C:\Users\marti\doku-234-bkup
+explorer.exe  C:\Users\marti\OneDrive\doku-docu-234-bkup
 
 
 05/05/2023  18:03               418 desktop.ini
 
 05/05/2023  18:03             1,763 Shortcut to Documents (OneDrive - Personal).lnk
 
-cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"
+cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty234"
 
 
 explorer.exe  C:\Users\marti\
@@ -91,6 +91,25 @@ Get-Process -Name explorer
 kill -Name explorer -WhatIf
 kill -Name explorer
 explorer.exe  C:\Users\marti\
+
+
+cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty234"
+###cmd /c dir /a "C:\Users\marti\OneDrive\Documents234"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
