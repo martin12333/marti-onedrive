@@ -113,7 +113,7 @@ powershell
  ls d:/Do*
 
 # will do in admin
-mkdir d:\Dokumenty
+mkdir D:\Dokumenty
 icacls.exe    d:\Dokumenty    /grant 'marti:(oi)(ci)(f)'
    ##/grant 'users:(oi)(ci)(f)'
  exit

@@ -7081,3 +7081,5 @@ git commit -v -a -m add
 git push
 powershell
 ls d:/Do*
+git commit -v -a -m ...
+git push   -vv
