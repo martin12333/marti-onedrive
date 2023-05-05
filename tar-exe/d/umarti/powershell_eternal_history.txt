@@ -7150,3 +7150,14 @@ echo $PROFILE
 git commit -v -a -m ...
 git push   -vv
 git commit -v -a -m " it-works"
+git push   -vv
+cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"    "d:\Dokumenty"  "C:\Users\marti\OneDrive\Documents"
+pwsh.exe
+$prase ?? "sffdsfsdf"
+$a = ""
+$a ?? "sffdsfsdf"
+$prase ?? "sffdsfsdf"
+echo  ($prase ?? "sffdsfsdf")
+dir  ($prase ?? "sffdsfsdf")
+powershell.exe
+dir  ($prase ?? "sffdsfsdf")

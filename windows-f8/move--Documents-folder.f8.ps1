@@ -170,6 +170,10 @@ echo $PROFILE
 $PSScriptRoot
 exit
 
+$a = ""
+dir  ($prase ?? "sffdsfsdf")
+$a ?? "sffdsfsdf"
+
 
 
 code D:\Dokumenty

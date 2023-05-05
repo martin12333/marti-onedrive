@@ -3487,3 +3487,5 @@ mkdir d:\Dokumenty
 icacls.exe    d:\Dokumenty    /grant 'marti:(oi)(ci)(f)'
 ls d:/Do*
 exit
+dir  ($prase ?? "sffdsfsdf")
+exit
