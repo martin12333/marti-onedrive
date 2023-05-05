@@ -48,6 +48,7 @@ git add a-msklc/polprog1.klc  a-msklc/us1.klc
 "C:\Users\marti\OneDrive\Dokumenty\KOREN"
 "C:\Users\marti\OneDrive\Dokumenty\WindowsPowerShell"
 
+
 cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"
 
 
@@ -57,12 +58,16 @@ cmd /c dir /a C:\Users\marti\my*
 02/22/2023  08:46    <JUNCTION>     My Documents [C:\Users\marti\Documents]
 
 cmd /c dir /a C:\Users\marti\do*
+cmd /c dir /a C:\Users\marti\Music
+cmd /c dir /a C:\Users\marti\Pictures
+cmd /c dir /a C:\Users\marti\Videos
+
 
 06/15/2022  23:27    <DIR>          Documents
 05/05/2023  17:01    <DIR>          doku--pow
 
 cmd /c dir /a C:\Users\marti\Documents
-#cmd /c dir /a C:\Users\marti\Dokumenty
+cmd /c dir /a C:\Users\marti\Dokumenty
 
 02/05/2021  18:10    <DIR>          .ipynb_checkpoints
 01/11/2021  22:27    <JUNCTION>     My Music [C:\Users\marti\Music]
@@ -73,6 +78,14 @@ cmd /c dir /a C:\Users\marti\Documents
 
 explorer.exe  C:\Users\marti\Dokumenty
 explorer.exe  C:\Users\marti\onedrive\Dokumenty234
+explorer.exe  C:\Users\marti\onedrive\Dokumenty
+explorer.exe  C:\Users\marti\onedrive\AA-screensh-anaconda\Dokumenty
+explorer.exe  C:\Users\Dokumenty
+explorer.exe  C:\Dokumenty
+explorer.exe  d:\Dokumenty
+explorer.exe  d:\Users\Dokumenty
+explorer.exe  d:\Users\milan_rxtipwrdffsfs\Dokumenty
+explorer.exe  d:\Users\milan_rxtipwrdffsfs\Documents
 explorer.exe  C:\Users\marti\Documents
 
 explorer.exe  C:\Users\marti\OneDrive\doku-docu-234-bkup
@@ -129,6 +142,9 @@ OK
 
 
 
+cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"
+cmd /c dir /a "C:\Users\marti\OneDrive\Documents"
+cmd /c dir /a "d:\Dokumenty"
 
 
 
