@@ -2,6 +2,18 @@
 exit
 
 
+
+
+
+issue 233a
+BUUUUUUUUUUUUUUUUUUUUUUUUUUG
+todo
+C:\Users\marti\OneDrive\tar-exe\xcopy-robocopy--mymy.f8.ps1
+
+
+
+
+
 You can think of NULL as an unknown or empty value. A variable is NULL until you assign a value or an object to it. This can be important because there are some commands that require a value and generate errors if the value is NULL.
 
 
@@ -64,3 +76,5 @@ yields
 
 
 
+# 233 i cannot remember, and cannot understand from experiments, why i used the '..' in $x a month ago 232
+# 235 maybe as a guard  against powershell-undefined-variable   ##C:\Users\marti\OneDrive\powershell-f8\powershell-undefined-variable.f8.ps1

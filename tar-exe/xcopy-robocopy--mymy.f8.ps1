@@ -19,6 +19,25 @@ echo '-------- section --------'
 
 
 
+
+
+
+issue 233a
+BUUUUUUUUUUUUUUUUUUUUUUUUUUG
+todo
+C:\Users\marti\OneDrive\tar-exe\xcopy-robocopy--mymy.f8.ps1
+C:\Users\marti\OneDrive\powershell-f8\powershell-undefined-variable.f8.ps1
+
+
+
+
+
+
+
+
+
+
+
 robocopy
 /L :: List only - don't copy, timestamp or delete any files'
 
@@ -41,7 +60,7 @@ file:///C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
 
 
 file:///C:\Users\marti\OneDrive\Dokumenty\PowerShell\profile.ps1
-
+file:///D:\Dokumenty\PowerShell\profile.ps1
 
 ls "C:\Users\marti\*robocopy*"
 ls "C:\Users\marti\OneDrive\*robocopy*"
@@ -128,6 +147,7 @@ xcopy  /?|more
 
 /L :: List only - don't copy, timestamp or delete any files'
 
+
 robocopy  /?|more
 
 robocopy  /?|findstr -i new
@@ -135,9 +155,10 @@ robocopy  /?|findstr -i xn
 robocopy  /?|findstr -i x
 robocopy  /?|findstr -i upda
 robocopy  /?|findstr -i -- '[/]e'
+robocopy  /?|findstr -i Subdirectories
 
 /S :: copy Subdirectories, but not empty ones.
-
+/E :: copy subdirectories, including Empty ones.
 
 /MON:n :: MONitor source; run again when more than n changes seen.-
 /MOT:m :: MOnitor source; run again in m minutes Time, if changed.-
@@ -188,6 +209,7 @@ robocopy  /?|findstr -i -- '[/]e'
 
 
 
+C:\Users\marti\OneDrive\powershell-f8\powershell-undefined-variable.f8.ps1
 
 $x='sbase.wasm'
 #$x='sbase.wasm'
@@ -285,7 +307,12 @@ old2hello-executecommand
 oldhello-executecommand
 
 
+
+
+
 # 233 i cannot remember, and cannot understand from experiments, why i used the '..' in $x a month ago 232
+# 235 maybe as a guard  against powershell-undefined-variable   ##C:\Users\marti\OneDrive\powershell-f8\powershell-undefined-variable.f8.ps1
+
 
 ##$x='Run-selected-text--discussions.wiki'
 #..\sbase.wasm'
@@ -377,8 +404,15 @@ C:\pf\PowerShell\7\pwsh.exe    -ExecutionPolicy Bypass -File   C:\Users\marti\On
 
 
 
+
+
+
 issue 233a
 BUUUUUUUUUUUUUUUUUUUUUUUUUUG
+todo
+
+C:\Users\marti\OneDrive\powershell-f8\powershell-undefined-variable.f8.ps1
+
 /L
 echo -$y-
 $y='OneDrive'

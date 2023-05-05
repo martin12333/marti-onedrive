@@ -7161,3 +7161,5 @@ echo  ($prase ?? "sffdsfsdf")
 dir  ($prase ?? "sffdsfsdf")
 powershell.exe
 dir  ($prase ?? "sffdsfsdf")
+git commit -v -a -m " fix"
+robocopy  /?|findstr -i Subdirectories
