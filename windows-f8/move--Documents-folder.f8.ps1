@@ -87,6 +87,7 @@ explorer.exe  d:\Users\Dokumenty
 explorer.exe  d:\Users\milan_rxtipwrdffsfs\Dokumenty
 explorer.exe  d:\Users\milan_rxtipwrdffsfs\Documents
 explorer.exe  C:\Users\marti\Documents
+explorer.exe  Documents
 
 explorer.exe  C:\Users\marti\OneDrive\doku-docu-234-bkup
 
@@ -150,13 +151,26 @@ cmd /c dir /a "d:\Dokumenty"
 
 
 
+cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"   "C:\Users\marti\OneDrive\Documents"
+
+
+cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"    "d:\Dokumenty"  "C:\Users\marti\OneDrive\Documents"
+
+
+pwsh.exe
+exit
+powershell.exe
+exit
+# win-x admin
+
+
+
+code D:\Dokumenty
 
 
 
 
-
-
-
+cmd /c dir /a "C:\Users\marti\OneDrive\Desktop\ALINKS"
 
 completion
 

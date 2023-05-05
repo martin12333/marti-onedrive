@@ -7118,3 +7118,20 @@ cmd /c dir /a "C:\Users\marti\OneDrive\Documents"
 cmd /c dir /a "d:\Dokumenty"
 git commit -v -a -m " it-works"
 git push   -vv
+git commit -v -a -m ...
+git push   -vv
+cmd /c dir /a "C:\Users\marti\OneDrive\Desktop"
+cmd /c dir /a "C:\Users\marti\OneDrive\Desktop\ALINKS"
+explorer.exe  Documents
+pwsh.exe
+powershell.exe
+pwsh.exe
+exit
+powershell.exe
+code D:\Dokumenty
+powershell.exe
+exit
+pwsh.exe
+cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"   "C:\Users\marti\OneDrive\Documents"
+cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"   "C:\Users\marti\OneDrive\Documents"  "d:\Dokumenty"
+cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"    "d:\Dokumenty"  "C:\Users\marti\OneDrive\Documents"

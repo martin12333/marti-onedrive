@@ -165,6 +165,7 @@ cd ~/OneDrive
 	git commit -v -a -m hope-before-manual-tests
 	git commit -v -a -m "😇 it-works"
 	git commit -v -a -m "😌 it-works"
+	git commit -v -a -m "😌 it-nearly-works"
 	git commit -v -a -m "🙂 it-works"
 	git commit -v -a -m win-x-admin
 	git commit -v -a -m add
