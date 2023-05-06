@@ -7225,3 +7225,25 @@ conda create -n jupsci_nonpip1
 bash -c 'df -m'
 conda update -n base -c defaults conda
 conda create -n jupsci_nonpip1
+conda activate jupsci_nonpip1
+conda update  conda
+git commit -v -a -m ...
+git push   -vv
+dir d:\conda
+deltree /?
+rmdir /?
+cmd /c deltree /?
+cmd /c rmdir /?
+cmd /c del d:\conda
+dir d:\conda
+cmd /c rmdir /?
+exit
+exit
+exit
+conda activate base
+Get-ChildItem -Path d:\conda -Directory
+Get-ChildItem -Path d:\conda -Directory |  ForEach-Object {    Write-Host "Directory: $_"  }
+Get-ChildItem -Path d:\conda -Directory |  ForEach-Object {    cmd /c rmdir  $_  }
+Get-ChildItem -Path d:\conda -Directory |  ForEach-Object {    cmd /c rmdir  $_ /s  }
+dir d:\conda /a
+cmd /c dir d:\conda /a

@@ -17,6 +17,43 @@ still
   current version: 4.12.0
   latest version: 23.3.1
 
+pseudo
+restore-point
+
+off active protection in acronis
+
+exit
+
+
+cmd /c dir d:\conda /a
+cmd /c deltree /?
+cmd /c rmdir /?
+cmd /c del d:\conda
+
+
+gpt3
+powershell for each directory in directory c:\temp do something:
+
+$path = 'C:\temp'
+Get-ChildItem -Path $path -Directory | ForEach-Object {
+    # Do something with each directory
+    # e.g.
+    Write-Host "Directory: $_"
+}
+
+Get-ChildItem -Path d:\conda -Directory |  ForEach-Object {    Write-Host "Directory: $_"  }
+Get-ChildItem -Path d:\conda -Directory |  ForEach-Object {    cmd /c rmdir  $_  }
+Get-ChildItem -Path d:\conda -Directory |  ForEach-Object {    cmd /c rmdir  $_ /s  }
+
+
+
+
+
+
+
+uninst anaconda
+install miniconda
+
 
 
 old #C:\Users\marti\OneDrive\ps-mylen-mar\Visual Studio Code Host_history.txt
