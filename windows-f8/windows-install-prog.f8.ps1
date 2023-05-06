@@ -6,7 +6,16 @@ see also
 	paper notebook a5  > beginning > 5comp > inst
 
 
+pseudo
+new restore_point
+	#on zase vymazal respnty
+	windows, again, deleted all restore_point/s
 
+
+
+
+
+	
 
 235
 icacls.exe c:\

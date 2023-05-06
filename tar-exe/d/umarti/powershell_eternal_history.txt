@@ -7184,3 +7184,6 @@ icacls.exe D:\instu
 icacls.exe D:\conda
 icacls.exe D:\
 icacls.exe c:\
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
