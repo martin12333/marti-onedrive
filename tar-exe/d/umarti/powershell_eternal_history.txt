@@ -7172,3 +7172,8 @@ powershell.exe
 git commit -v -a -m " fix"
 git commit -v -a -m " fix"
 git push   -vv
+git commit -v -a -m " fix"
+git push   -vv
+git ls-files
+git ls-files | foreach {echo $_}
+git ls-files | foreach {echo aaa$_}
