@@ -7170,3 +7170,5 @@ $fuj="b"
 $fuj ??= "aaa"  ;   dir $fuj
 powershell.exe
 git commit -v -a -m " fix"
+git commit -v -a -m " fix"
+git push   -vv

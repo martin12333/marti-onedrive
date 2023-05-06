@@ -21,6 +21,15 @@ You can think of NULL as an unknown or empty value. A variable is NULL until you
 The null-coalescing operator ?? returns the value of its left-hand operand if it'sn't null. Otherwise, it evaluates the right-hand operand and returns its result. The ?? operator doesn't evaluate its right-hand operand if the left-hand operand evaluates to non-null.'
 
 
+#Do not require { ... } around variable names for null-conditional member access · Issue #11379 · PowerShell/PowerShell
+... ? is technically a legal!!! character in a variable name whose use surprisingly!! doesn't require {...}.'
+	As the null-coalescing and ternary operator examples show, they too would benefit from this change -
+
+	currently, you either need a space!!!     - $key1 ?1:0 / $key1 ??'else' - or {...} - ${key1}?1:0 / ${key1}??'else'
+
+
+
+
 powershell.exe
 exit
 
