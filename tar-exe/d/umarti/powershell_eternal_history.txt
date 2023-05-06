@@ -7210,3 +7210,18 @@ conda env list
 conda info -v
 conda info
 conda list
+git commit -v -a -m ...
+git push   -vv
+git show --name-only
+conda config
+cat ~\.condarc
+conda config --help
+conda config --show
+conda config --show|findstr ugg
+conda config --show-sources
+conda env list -v -v
+conda search jupyterlab
+conda create -n jupsci_nonpip1
+bash -c 'df -m'
+conda update -n base -c defaults conda
+conda create -n jupsci_nonpip1

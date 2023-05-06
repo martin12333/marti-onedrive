@@ -7,6 +7,15 @@ pwsh
 
 bash -c 'df -m'
 
+conda update -n base -c defaults conda
+
+
+
+still
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.12.0
+  latest version: 23.3.1
 
 
 
@@ -15,12 +24,42 @@ old #C:\Users\marti\OneDrive\ps-mylen-mar\Visual Studio Code Host_history.txt
 #https://github.com/martin12333/marti-onedrive/blob/main2/ps-mylen-mar/vscode-Host_history.txt
 https://github.com/martin12333/marti-onedrive/blob/main2/AI/myenv.ps1
 
+https://github.com/martin12333/marti-onedrive/blob/main2/ps-mylen-mar/ConsoleHost_history.txt
+
 conda env list
+conda env list -v -v
 
 conda info -v
 conda info
 
 conda list
+
+
+
+cat ~\.condarc
+conda config
+conda config --help
+conda config --show
+conda config --show|findstr ugg
+conda config --show-sources
+
+
+conda create -n jupsci_nonpip1
+conda activate jupsci_nonpip1
+
+conda update  conda
+
+fail
+
+
+conda search jupyterlab
+
+
+
+
+
+
+conda install jupyterlab
 
 
 
