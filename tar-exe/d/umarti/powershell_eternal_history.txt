@@ -7247,3 +7247,5 @@ Get-ChildItem -Path d:\conda -Directory |  ForEach-Object {    cmd /c rmdir  $_ 
 Get-ChildItem -Path d:\conda -Directory |  ForEach-Object {    cmd /c rmdir  $_ /s  }
 dir d:\conda /a
 cmd /c dir d:\conda /a
+git commit -v -a -m ...
+git push   -vv

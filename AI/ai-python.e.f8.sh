@@ -52,7 +52,15 @@ Get-ChildItem -Path d:\conda -Directory |  ForEach-Object {    cmd /c rmdir  $_ 
 
 
 uninst anaconda
+fail
+
+screenshots
+
+
+
 install miniconda
+C:\Users\marti\miniconda3
+D:\conda
 
 
 
