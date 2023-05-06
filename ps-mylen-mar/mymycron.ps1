@@ -32,6 +32,7 @@ while($True){
 	# resonance?
 	sleep 271  #240 # steals  FOCUS 60 #180 #360s #  180s  # probably steals focus?     60s  #25s
 	# CTRL-C otherwise 5 process
+# CTRL-shift-C
 
 	#echo sleep271
 

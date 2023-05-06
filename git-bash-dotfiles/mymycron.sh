@@ -28,6 +28,7 @@ do
 
    sleep  240 # KRADE FOCUS 60 #180 #360s #  180s  # probably steals focus?     60s  #25s
    # CTRL-C otherwise 5 process
+# CTRL-shift-C
 
 done
 

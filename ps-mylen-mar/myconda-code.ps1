@@ -1,5 +1,7 @@
 
 
+# CTRL-shift-C
+
 
 # a note to myself: do experiments in  file:///C:\Users\marti\OneDrive\tar-exe\xcopy-robocopy--mymy.f8.ps1
 
@@ -62,7 +64,7 @@ sleep 20
 ##C:\Pf\Git\bin\bash.exe C:\Users\marti\OneDrive\git-bash-dotfiles\mystartup.sh
 #C:\Pf\Git\bin\bash.exe
 
-#echo po bash
+echo po myconda-codeps1
 
 #cmd /c pause
 

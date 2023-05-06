@@ -56,7 +56,7 @@ cmd /c dir c:\     | findstr.exe -i free
 
 
 
-
+# CTRL-shift-C
 	# CTRL-C otherwise 5 processes
 
 
