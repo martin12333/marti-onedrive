@@ -7,9 +7,11 @@ pwsh
 
 bash -c 'df -m'
 
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.12.0
+  latest version: 23.3.1
+
 conda update -n base -c defaults conda
-
-
 
 still
 
@@ -17,13 +19,15 @@ still
   current version: 4.12.0
   latest version: 23.3.1
 
+
+
+
 pseudo
 restore-point
 
 off active protection in acronis
 
 exit
-
 
 cmd /c dir d:\conda /a
 cmd /c deltree /?
@@ -46,14 +50,8 @@ Get-ChildItem -Path d:\conda -Directory |  ForEach-Object {    cmd /c rmdir  $_ 
 Get-ChildItem -Path d:\conda -Directory |  ForEach-Object {    cmd /c rmdir  $_ /s  }
 
 
-
-
-
-
-
 uninst anaconda
 fail
-
 
 previous was  deleted from  the command line as well
 
@@ -61,6 +59,8 @@ previous was  deleted from  the command line as well
 screenshots
 C:\Users\marti\Pictures\Screenshots
 
+forgot
+maybe i could choose 1 or 2 versions back, not the latest
 
 install miniconda
 C:\Users\marti\miniconda3
@@ -70,6 +70,8 @@ C:\Users\marti\OneDrive\conda-dotfiles\copy-details-to-clipb-mini-235.log
 image.png
 C:\Users\marti\Pictures\Screenshots
 
+pseudo
+restore-point
 
 
 
