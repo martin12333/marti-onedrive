@@ -7177,3 +7177,10 @@ git push   -vv
 git ls-files
 git ls-files | foreach {echo $_}
 git ls-files | foreach {echo aaa$_}
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+icacls.exe D:\instu
+icacls.exe D:\conda
+icacls.exe D:\
+icacls.exe c:\
