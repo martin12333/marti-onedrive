@@ -7200,3 +7200,13 @@ git push   -vv
 bash -c df
 bash -c df -m
 bash -c 'df -m'
+git commit -v -a -m ...
+git push   -vv
+git show --name-only
+git add 'ps-mylen-mar\vscode-Host_history.txt'
+git commit -v -a -m add
+git push   -vv
+conda env list
+conda info -v
+conda info
+conda list

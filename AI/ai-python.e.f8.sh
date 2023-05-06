@@ -11,8 +11,18 @@ bash -c 'df -m'
 
 
 old #C:\Users\marti\OneDrive\ps-mylen-mar\Visual Studio Code Host_history.txt
-git add 'ps-mylen-mar\vscode-Host_history.txt'
+#git add 'ps-mylen-mar\vscode-Host_history.txt'
+#https://github.com/martin12333/marti-onedrive/blob/main2/ps-mylen-mar/vscode-Host_history.txt
 https://github.com/martin12333/marti-onedrive/blob/main2/AI/myenv.ps1
+
+conda env list
+
+conda info -v
+conda info
+
+conda list
+
+
 
 
 
