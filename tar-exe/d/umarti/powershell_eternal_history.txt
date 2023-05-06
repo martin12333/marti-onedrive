@@ -7196,3 +7196,7 @@ git commit -v -a -m add
 git push   -vv
 python -i   -u
 git commit -v -a -m ...
+git push   -vv
+bash -c df
+bash -c df -m
+bash -c 'df -m'

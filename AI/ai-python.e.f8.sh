@@ -5,7 +5,13 @@ pwsh
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate 'D:\conda'
 
 
-#C:\Users\marti\OneDrive\ps-mylen-mar\Visual Studio Code Host_history.txt
+bash -c 'df -m'
+
+
+
+
+old #C:\Users\marti\OneDrive\ps-mylen-mar\Visual Studio Code Host_history.txt
+https://github.com/martin12333/marti-onedrive/blob/main2/AI/myenv.ps1
 
 
 
