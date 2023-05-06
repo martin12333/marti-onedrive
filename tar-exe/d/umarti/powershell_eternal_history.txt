@@ -7249,3 +7249,6 @@ dir d:\conda /a
 cmd /c dir d:\conda /a
 git commit -v -a -m ...
 git push   -vv
+git commit -v -a -m ...
+git push   -vv
+git show --name-only

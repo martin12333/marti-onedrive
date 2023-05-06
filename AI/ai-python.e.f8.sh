@@ -54,13 +54,26 @@ Get-ChildItem -Path d:\conda -Directory |  ForEach-Object {    cmd /c rmdir  $_ 
 uninst anaconda
 fail
 
-screenshots
 
+previous was  deleted from  the command line as well
+
+
+screenshots
+C:\Users\marti\Pictures\Screenshots
 
 
 install miniconda
 C:\Users\marti\miniconda3
 D:\conda
+
+C:\Users\marti\OneDrive\conda-dotfiles\copy-details-to-clipb-mini-235.log
+image.png
+C:\Users\marti\Pictures\Screenshots
+
+
+
+
+
 
 
 
