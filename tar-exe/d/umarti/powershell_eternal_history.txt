@@ -7273,3 +7273,11 @@ pip3 list
 pip list
 conda list
 conda install jupyterlab
+git commit -v -a -m ...
+git push   -vv
+conda install  ipywidgets
+jupyter nbextension list
+conda search numpy
+conda install numpy
+conda search pandas
+conda install pandas

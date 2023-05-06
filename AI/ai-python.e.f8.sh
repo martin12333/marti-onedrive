@@ -129,17 +129,21 @@ pip3 list
 conda search jupyterlab
 conda install jupyterlab
 
+conda install  ipywidgets
+
+# whether automatically ?? jupyter nbextension enable --py widgetsnbextension
+jupyter nbextension list
+
+conda search numpy
+conda install numpy
+
+conda search pandas
+conda install pandas
 
 
 
 
-
-conda install jupyterlab
-
-
-
-
-
+conda create --name myenv2 --clone myenv
 
 
 C:\Users\marti\OneDrive\conn\mynotes-mart,j.txt
