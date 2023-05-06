@@ -7191,3 +7191,8 @@ git commit -v -a -m " fix"
 git push   -vv
 git show --name-only
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate 'D:\conda'
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+python -i   -u
+git commit -v -a -m ...

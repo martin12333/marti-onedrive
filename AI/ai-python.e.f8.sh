@@ -1,16 +1,13 @@
-ai-python.e.f8.sh
 
 exit
 
 pwsh
-
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate 'D:\conda'
 
 
-
-
-
 #C:\Users\marti\OneDrive\ps-mylen-mar\Visual Studio Code Host_history.txt
+
+
 
 
 
@@ -19,12 +16,16 @@ conda create --name myenv2 --clone myenv
 
 
 
-bash -i
-  python --help | grep -C 3 intera
 
+
+
+
+python -i   -u
+#quit()
+bash -i
+ python --help | grep -C 3 intera
 # -i     : inspect interactively after running script; forces a prompt even
 #         if stdin does not appear to be a terminal; also PYTHONINSPECT=x
-
 -u     : force the stdout and stderr streams to be unbuffered;
 
 
