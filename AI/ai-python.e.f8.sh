@@ -51,7 +51,7 @@ Get-ChildItem -Path d:\conda -Directory |  ForEach-Object {    cmd /c rmdir  $_ 
 
 
 uninst anaconda
-fail
+no exe
 
 previous was  deleted from  the command line as well
 
@@ -70,12 +70,15 @@ C:\Users\marti\OneDrive\conda-dotfiles\copy-details-to-clipb-mini-235.log
 image.png
 C:\Users\marti\Pictures\Screenshots
 
+https://photos.google.com/share/AF1QipP3Ukkz4Wl11BGaGVu31yhFLj7H6Oy6soSuR1uQk1_nJeLYuQA7HpciBNXGp_wM_w?key=b0t4Q1M1Nk1nS2JLaUhFSmRmc1k4Smdfb3J3NXBR
+
 pseudo
 restore-point
 
+bash -c 'du -sm  /d/conda'
 
 
-
+https://github.com/martin12333/marti-onedrive/blob/main2/AI/ai-python.e.f8.sh
 
 
 
@@ -92,8 +95,10 @@ conda env list -v -v
 conda info -v
 conda info
 
-conda list
 
+
+conda list
+python                    3.10.10              h966fe2a_2
 
 
 cat ~\.condarc
@@ -104,15 +109,25 @@ conda config --show|findstr ugg
 conda config --show-sources
 
 
+
+conda create --help
+
+
 conda create -n jupsci_nonpip1
+
 conda activate jupsci_nonpip1
 
-conda update  conda
+conda list
+0
 
-fail
-
+conda install pip
+conda list
+python                    3.11.3               h966fe2a_0
+pip list
+pip3 list
 
 conda search jupyterlab
+conda install jupyterlab
 
 
 

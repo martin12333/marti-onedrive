@@ -7254,3 +7254,22 @@ git push   -vv
 git show --name-only
 git commit -v -a -m ...
 git push   -vv
+bash -c 'df -m'
+git commit -v -a -m ...
+git push   -vv
+cmd /c dir d:\conda /a
+conda list
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate 'D:\conda'
+conda list
+conda create --help
+bash -c 'du -sm  /d/conda'
+conda create -n jupsci_nonpip1
+conda activate jupsci_nonpip1
+conda list
+pip list
+pip3 list
+conda install pip
+pip3 list
+pip list
+conda list
+conda install jupyterlab

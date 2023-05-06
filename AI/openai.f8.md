@@ -1,6 +1,27 @@
 
 
 
+gpt3
+powershell for each directory in directory c:\temp do something:
+
+$path = 'C:\temp'
+Get-ChildItem -Path $path -Directory | ForEach-Object {
+    # Do something with each directory
+    # e.g.
+    Write-Host "Directory: $_"
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Given a prompt, extrapolate as many relationships as possible from it and provide a list of updates.
