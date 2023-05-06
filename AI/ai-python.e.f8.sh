@@ -143,7 +143,25 @@ conda install pandas
 
 
 
-conda create --name myenv2 --clone myenv
+conda create --name torch_nonpip1 --clone jupsci_nonpip1
+conda activate torch_nonpip1
+
+conda search pytorch
+conda search pytorch  -c pytorch   | findstr -i
+
+
+pytorch                       1.12.1 cpu_py310h5e1f01c_0  pkgs/main
+
+pytorch                       1.12.1 cpu_py310h5e1f01c_1  pkgs
+pytorch                       1.13.1    py3.10_cpu_0  pytorch
+pytorch                       1.13.1     py3.9_cpu_0  pytorch
+
+pytorch                        2.0.0    py3.10_cpu_0  pytorch
+
+conda search --help
+conda search --help
+
+??conda install pytorch cpuonly -c pytorch
 
 
 C:\Users\marti\OneDrive\conn\mynotes-mart,j.txt
@@ -166,7 +184,9 @@ bash -i
 
 
 
-
+import torch
+x = torch.rand(5, 3)
+print(x)
 
 
 

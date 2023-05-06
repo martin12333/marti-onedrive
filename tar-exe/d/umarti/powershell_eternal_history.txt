@@ -7281,3 +7281,11 @@ conda search numpy
 conda install numpy
 conda search pandas
 conda install pandas
+git commit -v -a -m ...
+git push   -vv
+conda create --name torch_nonpip1 --clone jupsci_nonpip1
+conda activate torch_nonpip1
+conda search pytorch
+conda search --help
+conda search pytorch  -c pytorch
+conda search pytorch  -c pytorch   | findstr -i cpu
