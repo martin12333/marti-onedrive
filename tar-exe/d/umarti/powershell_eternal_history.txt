@@ -7289,3 +7289,11 @@ conda search pytorch
 conda search --help
 conda search pytorch  -c pytorch
 conda search pytorch  -c pytorch   | findstr -i cpu
+git commit -v -a -m ...
+git push   -vv
+conda search pytorch  -c pytorch   | findstr -i "3.11"
+conda search pytorch  -c pytorch   | findstr -i "311"
+conda search pytorch  -c pytorch-nightly   | findstr -i "3.11"
+conda search pytorch  -c pytorch-nightly   | findstr -i "311"
+bash -c 'du -sm  /d/conda'
+bash -c 'df -m'
