@@ -7313,3 +7313,20 @@ conda env remove --help
 conda env remove -n jupsci_nonpip1
 conda activate base
 bash -c 'df -m'
+git commit -v -a -m ...
+git push   -vv
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate 'D:\conda'
+bash -c 'df -m'
+conda env remove -n torch_nonpip1
+bash -c 'df -m'
+conda env remove -n jupsci_nonpip1
+conda env remove -n jupsci_nonpip1
+conda env list
+dir    D:\conda\envs\jupsci_nonpip1
+cmd /c rmdir      D:\conda\envs\jupsci_nonpip1
+cmd /c rmdir      D:\conda\envs\jupsci_nonpip1   /s
+bash -c 'df -m'
+conda clean
+conda clean --help
+conda clean   --dry-run -v -v -v
+conda clean   --dry-run -v -v -v   --all

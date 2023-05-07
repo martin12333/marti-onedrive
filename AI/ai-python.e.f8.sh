@@ -161,17 +161,32 @@ conda activate base
 #conda deactivate
 
 conda env remove --help
-conda env remove -n jupsci_nonpip1
 
 conda env remove -n torch_nonpip1
 
 #conda remove -h
 
+conda env remove -n jupsci_nonpip1
 
 
+DirectoryNotACondaEnvironmentError: The target directory exists, but it is not a conda environment.
+Use 'conda create' to convert the directory to a conda environment.
+  target directory: D:\conda\envs\jupsci_nonpip1
 
+dir    D:\conda\envs\jupsci_nonpip1
+cmd /c rmdir /?
 
+cmd /c rmdir      D:\conda\envs\jupsci_nonpip1   /s
+y
 
+conda clean --help
+conda clean   --dry-run -v -v -v   --all
+conda clean   --dry-run -v -v -v      --tarballs   --packages
+                        package caches. WARNING: This does not
+                        check for packages installed using
+                        symlinks back to the package cache.
+conda clean    -v -v -v      --tarballs   --packages
+y
 
 
 
