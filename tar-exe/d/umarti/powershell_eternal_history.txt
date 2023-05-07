@@ -7348,3 +7348,14 @@ conda env list -v -v
 conda info -v
 conda info
 python
+conda --version
+conda env list -v -v
+conda list
+pip list
+pip list -v
+pip3 list
+pip list
+pip3 list
+jupyter nbextension list
+git commit -v -a -m ...
+git push   -vv
