@@ -17,10 +17,22 @@ https://www.kaggle.com/page/GPU-tips-and-tricks
 
 
 
-
+setti
  won't get new packages, but your code is less likely to break.
 
-Internet off
+
+
+Using a standard package installer
+In the Notebook Editor, make sure "Internet" is enabled in the Settings pane (it will be by default if it's a new notebook).
+
+For Python, you can run arbitrary shell commands by prepending ! to a code cell. For instance, to install a new package using pip, run !pip install my-new-package. You can also upgrade or downgrade an existing package by running !pip install my-existing-package==X.Y.Z.
+
+
+
+
+https://www.kaggle.com/code/martinnovy/kaggle-pip-list/edit
+
+python                    3.10.10         he550d4f_0_cpython    conda-forge
 
 
 !conda --version
@@ -43,9 +55,13 @@ x = torch.rand(5, 3)
 print(x)
 
 
+
+
 maybe dont
 !env
 KAGGLE_USER_SECRETS_TOKEN=
+
+
 
 
 HOME=/root

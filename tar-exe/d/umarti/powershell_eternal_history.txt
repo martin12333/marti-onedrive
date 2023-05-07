@@ -7359,3 +7359,6 @@ pip3 list
 jupyter nbextension list
 git commit -v -a -m ...
 git push   -vv
+git commit -v -a -m ...
+git push   -vv
+git show --name-only
