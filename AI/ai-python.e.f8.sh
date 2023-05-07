@@ -14,17 +14,22 @@ cmd /c dir d:\conda /a
 
 
 bash -c 'df -m'
+#bash -c 'free -m'
 
 D:                       78056    72048      6009   93% /d
 D:                       78056    73763      4294   95% /d
 D:                       78056    72159      5898   93% /d
 
 
+
+conda --version
 ==> WARNING: A newer version of conda exists. <==
   current version: 4.12.0
   latest version: 23.3.1
 
 conda update -n base -c defaults conda
+
+
 
 still
 
@@ -135,6 +140,8 @@ conda env list -v -v
 conda info -v
 conda info
 
+                        https://repo.anaconda.com/pkgs/msys2/win-64
+                          https://repo.anaconda.com/pkgs/msys2/noarch
 
 
 conda list
@@ -196,8 +203,7 @@ conda clean    -v -v -v      --tempfiles
 
 
 
-conda install python=x.x
-conda install python=3.8 to install python version 3.8
+conda install python=3.10
 
 
 
@@ -264,7 +270,7 @@ conda activate torch_nonpip1
 
 
 
-bash -c 'du -sm  /d/conda'
+#bash -c 'du -sm  /d/conda'
 171     /d/conda
 
 
@@ -369,6 +375,11 @@ tf_bert_for_sequence_classification/bert/encoder/layer_._0/attention/self/key/ke
 (768, 12, 64)
 tf_bert_for_sequence_classification/bert/encoder/layer_._0/attention/self/key/bias:0
 (12, 64)
+
+
+
+
+
 
 
 

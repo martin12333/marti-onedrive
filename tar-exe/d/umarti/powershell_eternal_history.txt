@@ -7338,3 +7338,13 @@ bash -c 'df -m'
 conda clean --help
 conda clean    -v -v -v      --tempfiles
 conda doctor
+cd ~/OneDrive
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+bash -c 'free -m'
+conda --version
+conda env list -v -v
+conda info -v
+conda info
+python
