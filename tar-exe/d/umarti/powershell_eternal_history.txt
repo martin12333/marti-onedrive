@@ -7297,3 +7297,19 @@ conda search pytorch  -c pytorch-nightly   | findstr -i "3.11"
 conda search pytorch  -c pytorch-nightly   | findstr -i "311"
 bash -c 'du -sm  /d/conda'
 bash -c 'df -m'
+git commit -v -a -m ...
+git push   -vv
+conda remove
+conda remove -h
+conda activate base
+conda env
+conda env remove
+conda activate jupsci_nonpip1
+bash -c 'df -m'
+conda env remove
+conda deactivate
+conda env remove
+conda env remove --help
+conda env remove -n jupsci_nonpip1
+conda activate base
+bash -c 'df -m'

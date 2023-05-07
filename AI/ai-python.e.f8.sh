@@ -97,6 +97,16 @@ restore-point
 bash -c 'du -sm  /d/conda'
 171     /d/conda
 
+
+
+
+
+
+
+
+
+
+
 https://github.com/martin12333/marti-onedrive/blob/main2/AI/ai-python.e.f8.sh
 
 
@@ -106,7 +116,17 @@ old #C:\Users\marti\OneDrive\ps-mylen-mar\Visual Studio Code Host_history.txt
 #https://github.com/martin12333/marti-onedrive/blob/main2/ps-mylen-mar/vscode-Host_history.txt
 https://github.com/martin12333/marti-onedrive/blob/main2/AI/myenv.ps1
 
+
+
 https://github.com/martin12333/marti-onedrive/blob/main2/ps-mylen-mar/ConsoleHost_history.txt
+
+
+
+
+
+
+
+
 
 conda env list
 conda env list -v -v
@@ -126,6 +146,34 @@ conda config --help
 conda config --show
 conda config --show|findstr ugg
 conda config --show-sources
+
+
+
+
+
+
+bash -c 'df -m'
+D:                       78056    73766      4291   95% /d
+
+conda activate base
+
+#conda activate jupsci_nonpip1
+#conda deactivate
+
+conda env remove --help
+conda env remove -n jupsci_nonpip1
+
+conda env remove -n torch_nonpip1
+
+#conda remove -h
+
+
+
+
+
+
+
+
 
 
 
