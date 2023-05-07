@@ -7330,3 +7330,11 @@ conda clean
 conda clean --help
 conda clean   --dry-run -v -v -v
 conda clean   --dry-run -v -v -v   --all
+conda clean   --dry-run -v -v -v      --tarballs   --packages
+conda clean    -v -v -v      --tarballs   --packages
+git commit -v -a -m ...
+git push   -vv
+bash -c 'df -m'
+conda clean --help
+conda clean    -v -v -v      --tempfiles
+conda doctor

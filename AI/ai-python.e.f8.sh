@@ -16,8 +16,9 @@ cmd /c dir d:\conda /a
 bash -c 'df -m'
 
 D:                       78056    72048      6009   93% /d
-
 D:                       78056    73763      4294   95% /d
+D:                       78056    72159      5898   93% /d
+
 
 ==> WARNING: A newer version of conda exists. <==
   current version: 4.12.0
@@ -154,7 +155,7 @@ conda config --show-sources
 
 bash -c 'df -m'
 D:                       78056    73766      4291   95% /d
-
+D:                       78056    72159      5898   93% /d
 conda activate base
 
 #conda activate jupsci_nonpip1
@@ -187,7 +188,16 @@ conda clean   --dry-run -v -v -v      --tarballs   --packages
                         symlinks back to the package cache.
 conda clean    -v -v -v      --tarballs   --packages
 y
+conda clean    -v -v -v      --tempfiles
 
+
+
+
+
+
+
+conda install python=x.x
+conda install python=3.8 to install python version 3.8
 
 
 
