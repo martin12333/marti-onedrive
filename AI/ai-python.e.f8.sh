@@ -260,6 +260,20 @@ pandas                         1.5.3 py311heda8569_0  pkgs/main
 pandas                         1.5.3  py38hf11a4ad_0  pkgs/main
 pandas                         1.5.3  py39hf11a4ad_0  pkgs/main
 
+
+
+
+
+Towards Data Science
+What’s new in Pandas 2.0?
+The five things to know about the big release
+·5 min read·Apr 10
+
+
+
+
+
+
 conda install pandas
 
 

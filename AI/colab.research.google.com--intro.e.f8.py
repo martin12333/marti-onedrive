@@ -1,5 +1,7 @@
 
 
+?colab Stop interactive sessions prior to closing the window
+
 
 
 . ACTIVATE GPU AND TPU
