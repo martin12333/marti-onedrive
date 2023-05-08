@@ -1,5 +1,13 @@
 
 
+
+
+todo to ipynb 's' bottom
+backlink
+https://github.com/martin12333/marti-onedrive/blob/main2/AI/colab.research.google.com--intro.e.f8.py
+
+
+
 ?colab Stop interactive sessions prior to closing the window
 
 

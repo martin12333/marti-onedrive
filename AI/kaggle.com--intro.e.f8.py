@@ -88,6 +88,17 @@ torch                                  2.0.0+cpu                                
 
 
 
+
+
+
+
+!pip uninstall torch -y
+
+
+
+
+
+
 xorg-libx11               1.8.4                h0b41bf4_0    conda-forge
 libsystemd0               253                  h8c4010b_1    conda-forge
 

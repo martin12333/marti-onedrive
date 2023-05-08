@@ -398,3 +398,5 @@ tf_bert_for_sequence_classification/bert/encoder/layer_._0/attention/self/key/bi
 
 
 
+#conda search wget
+
