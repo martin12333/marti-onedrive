@@ -87,6 +87,7 @@ pytorch-lightning                      2.0.1.post0                              
 torch                                  2.0.0+cpu                                /opt/conda/lib/python3.10/site-packages pip
 
 
+pandas                    1.5.3                    pypi_0    pypi
 
 
 
@@ -168,4 +169,42 @@ Quick Save skips the top-to-bottom notebook execution and just takes a snapshot 
 
 Save & Run All creates a new session with a completely clean state and runs your notebook from top to bottom. This is perfect for major milestones or when you want to share your work, as it gives you (and anyone else who reads your notebook) the confidence that your notebook can be run reproducibly. In order to save successfully, the entire Notebook must execute within 12 hours (9 hours for TPU notebooks). Save & Run All is identical to the “Commit” behavior you may have used previously on Kaggle.
 
+
+
+
+
+
+
+
+
+top -n 1
+
+top --help
+top -h
+top -d 1
+q
+bash
+exit
+
+vmstat
+!vmstat -w 5
+vmstat -w 5
+vmstat 1 10
+
+cat /proc/loadavg
+
+cat /proc/stat
+
+
+echo '-------- section --------'
+
+# i use a container
+podman machine start
+
+podman start   -ai    cmy22b
+n
+
+wsl -d Ubuntu-22.04
+
+echo '-------- section --------'
 

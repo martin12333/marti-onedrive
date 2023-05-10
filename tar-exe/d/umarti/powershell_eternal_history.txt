@@ -7366,3 +7366,7 @@ git commit -v -a -m ...
 git push   -vv
 git commit -v -a -m ...
 conda search wget
+git push   -vv
+podman machine start
+podman start   -ai    cmy22b
+bash
