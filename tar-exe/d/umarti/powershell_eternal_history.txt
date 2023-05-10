@@ -7421,3 +7421,24 @@ conda install numpy
 conda search pandas
 conda install pandas
 conda uninstall pandas
+git commit -v -a -m ...
+git push   -vv
+cd
+git clone https://github.com/jaymody/picoGPT
+cd picoGPT
+pip install   --dry-run   -r requirements.txt
+code requirements.txt
+pip list
+pip list|grep num
+pip list|findstr   num
+pip install   --dry-run   -r requirements.txt
+conda create --name torch_nonpip310 --clone jupsci_nonpip310
+bash -c 'df -m'
+conda activate torch_nonpip310
+conda activate torch_nonpip310
+pip install   --dry-run   git+https://github.com/neelnanda-io/TransformerLens
+bash
+conda search pytorch
+conda search pytorch  -c pytorch   | findstr -i cpu
+bash -c 'df -m'
+conda install pytorch==1.13.1   cpuonly -c pytorch

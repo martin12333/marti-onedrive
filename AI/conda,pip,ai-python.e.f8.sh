@@ -319,25 +319,40 @@ conda install pandas
 
 
 
+https://github.com/neelnanda-io/TransformerLens/blob/main/poetry.lock#L4029
+[[package]]
+name = "torch"
+version = "1.13.1"
 
-conda create --name torch_nonpip1 --clone jupsci_nonpip1
-conda activate torch_nonpip1
 
 
 
+
+conda create --name torch_nonpip310 --clone jupsci_nonpip310
+
+conda activate torch_nonpip310
+
+bash -c 'df -m'
+
+D:                       78056    73749      4308   95% /d
 #bash -c 'du -sm  /d/conda'
 171     /d/conda
 
 
+
+
+
+
+
+
+
+
+conda search pytorch  -c pytorch
 conda search pytorch
 conda search pytorch  -c pytorch   | findstr -i cpu
 
-
 pytorch                       1.12.1 cpu_py310h5e1f01c_0  pkgs/main
-
 pytorch                       1.12.1 cpu_py310h5e1f01c_1  pkgs
-
-
 pytorch                       1.12.1 cpu_py39h5e1f01c_0  pkgs/main
 pytorch                       1.12.1 cpu_py39h5e1f01c_1  pkgs/main
 
@@ -351,28 +366,56 @@ conda search pytorch  -c pytorch-nightly   | findstr -i "3.11"
 ##conda search pytorch  -c pytorch   | findstr -i "311"
 
 pytorch              2.1.0.dev20230506    py3.11_cpu_0  pytorch-nightly
+  libuv              pkgs/main/win-64::libuv-1.44.2-h2bbff1b_0
+
 
 
 
 conda search --help
 
+https://github.com/neelnanda-io/TransformerLens/blob/main/poetry.lock#L4029
+[[package]]
+name = "torch"
+version = "1.13.1"
 
+https://pytorch.org/get-started/previous-versions/
 
-conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 cpuonly -c pytorch
+conda install pytorch==1.13.1   cpuonly -c pytorch
+
+#conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 cpuonly -c pytorch
 #conda install pytorch torchvision torchaudio cpuonly -c pytorch
-?conda install pytorch cpuonly -c pytorch
-??pip3 install torch torchvision torchaudio
-????pip install torch==1.13.1
-
-??pip install torch==1.13.1+cpu torchvision==0.14.1+cpu torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cpu
+#conda install pytorch cpuonly -c pytorch
+#??pip3 install torch torchvision torchaudio
+#????pip install torch==1.13.1
+#??pip install torch==1.13.1+cpu torchvision==0.14.1+cpu torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cpu
 
 
 # !pip install my-existing-package==X.Y.Z.
 
 
-https://pytorch.org/get-started/previous-versions/
 https://pytorch.org/get-started/locally/
 
+
+
+
+
+
+
+
+
+
+
+
+AI\gpt-from-scratch.e.f8.py
+  Downloading tensorflow_intel-2.11.0-cp310-cp310-win_amd64.whl (266.3 MB)
+
+exit
+bash
+pip install   --dry-run   git+https://github.com/neelnanda-io/TransformerLens
+
+Collecting torch>=1.10
+  Downloading torch-2.0.1-cp310-cp310-win_amd64.whl (172.3 MB
+###################
 
 
 
