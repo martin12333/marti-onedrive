@@ -7401,3 +7401,10 @@ conda clean   --dry-run -v -v -v      --packages
 conda clean      -v -v -v     --packages
 git commit -v -a -m ...
 git push   -vv
+bash -c 'df -m'
+conda create -n jupsci_nonpip310
+conda activate jupsci_nonpip310
+conda list
+git commit -v -a -m ...
+git push   -vv
+conda install  python==3.10.10

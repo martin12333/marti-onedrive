@@ -118,7 +118,7 @@ bash -c 'du -sm  /d/conda'
 
 
 
-# https://github.com/martin12333/marti-onedrive/blob/main2/AI/ai-python.e.f8.sh
+# https://github.com/martin12333/marti-onedrive/blob/main2/AI/    ai-python.e.f8.sh
 
 
 
@@ -257,8 +257,11 @@ conda activate jupsci_nonpip310
 conda list
 0
 
+ todo =  ==  ???
+conda install  python==3.10.10
 
-3.10.10 todo 
+ pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 cpuonly -c pytorch
+
 
 
 
@@ -376,7 +379,6 @@ conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 cpuonly -c 
 
 https://pytorch.org/get-started/previous-versions/
 https://pytorch.org/get-started/locally/
-
 
 
 
