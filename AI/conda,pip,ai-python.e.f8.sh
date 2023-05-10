@@ -467,6 +467,10 @@ conda install      -c huggingface transformers==4.28.1
 
 
 
+
+
+
+
 regex==2017.4.5 # used by the bpe tokenizer
 
 pip list |findstr rege

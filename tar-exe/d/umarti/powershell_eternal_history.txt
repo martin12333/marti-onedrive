@@ -7501,3 +7501,14 @@ conda install --dry-run   -c huggingface transformers==4.28.1
 conda install      -c huggingface transformers==4.28.1
 git commit -v -a -m ...
 git push   -vv
+cd ~/OneDrive
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+from transformers import pipeline, set_seed
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate 'D:\conda'
+conda activate pip310
+python -i -u
