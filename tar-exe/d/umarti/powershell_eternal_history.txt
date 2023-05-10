@@ -7408,3 +7408,16 @@ conda list
 git commit -v -a -m ...
 git push   -vv
 conda install  python==3.10.10
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+conda list
+pip list
+conda install jupyterlab
+conda install  ipywidgets
+jupyter nbextension list
+conda search numpy
+conda install numpy
+conda search pandas
+conda install pandas
+conda uninstall pandas

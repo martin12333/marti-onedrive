@@ -257,16 +257,15 @@ conda activate jupsci_nonpip310
 conda list
 0
 
- todo =  ==  ???
+#In PEP 440, pip's version specification operators include only == which means to match the exact version specified. Conda's package matching specifications include == which is the same as PEP 440's == for exact version specification and their own operator, =, which is for fuzzy package matching.
+Package match specifications
+This match specification is not the same as the syntax used at the command line with conda install, such as conda install python=3.4. Internally, conda translates the command line syntax to the spec defined in this section.
+EXAMPLE: python=3.4 is translated to python 3.4*.
+
+
 conda install  python==3.10.10
 
- pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 cpuonly -c pytorch
-
-
-
-
-
-conda install pip
+#conda install pip
 conda list
 python                    3.11.3               h966fe2a_0
 python                    3.10.10              h966fe2a_2
@@ -278,12 +277,15 @@ conda search jupyterlab
 conda install jupyterlab
 
 conda install  ipywidgets
+    ---------------------------|-----------------
+    ipywidgets-8.0.4           |  py310haa95532_0         200 KB
+    jupyterlab_widgets-3.0.5   |  py310haa95532_0         179 KB
+    widgetsnbextension-4.0.5   |  py310haa95532_0         862 KB
 
 # whether automatically ?? jupyter nbextension enable --py widgetsnbextension
 jupyter nbextension list
 
 conda search numpy
-
 
 numpy                         1.24.3 py310h055cbcc_1  pkgs/main
 numpy                         1.24.3 py310hdc03b94_0  pkgs/main
@@ -295,22 +297,15 @@ numpy                         1.24.3  py39h79a8e48_1  pkgs/main
 numpy                         1.24.3  py39hf95b240_0  pkgs/main
 
 
-
-
-
 conda install numpy
 
-conda search pandas
 
+conda search pandas
 
 pandas                         1.5.3 py310h4ed8f06_0  pkgs/main
 pandas                         1.5.3 py311heda8569_0  pkgs/main
 pandas                         1.5.3  py38hf11a4ad_0  pkgs/main
 pandas                         1.5.3  py39hf11a4ad_0  pkgs/main
-
-
-
-
 
 Towards Data Science
 What’s new in Pandas 2.0?
@@ -318,9 +313,7 @@ The five things to know about the big release
 ·5 min read·Apr 10
 
 
-
-
-
+conda uninstall pandas
 
 conda install pandas
 
