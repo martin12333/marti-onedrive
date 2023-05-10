@@ -168,7 +168,10 @@ conda config --show-sources
 bash -c 'df -m'
 D:                       78056    73766      4291   95% /d
 D:                       78056    72159      5898   93% /d
+D:                       78056    72729      5328   94% /d
 conda activate base
+
+conda env list -v -v
 
 #conda activate jupsci_nonpip1
 #conda deactivate
@@ -180,6 +183,7 @@ conda env remove -n torch_nonpip1
 #conda remove -h
 
 conda env remove -n jupsci_nonpip1
+conda env remove -n jupsci_nonpip310
 
 
 DirectoryNotACondaEnvironmentError: The target directory exists, but it is not a conda environment.
@@ -196,6 +200,10 @@ y
 
 conda clean --help
 conda clean   --dry-run -v -v -v   --all
+
+conda clean   --dry-run -v -v -v      --packages
+conda clean      -v -v -v     --packages
+
 conda clean   --dry-run -v -v -v      --tarballs   --packages
                         package caches. WARNING: This does not
                         check for packages installed using

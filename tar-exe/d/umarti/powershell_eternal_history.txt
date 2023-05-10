@@ -7391,3 +7391,7 @@ conda rename --help
 conda rename --name jupsci_nonpip1   jupsci_nonpip310
 conda activate 
 bash -c 'df -m'
+git commit -v -a -m ...
+git push   -vv
+git show --name-only
+conda env list -v -v
