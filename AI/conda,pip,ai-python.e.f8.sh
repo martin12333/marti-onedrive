@@ -227,6 +227,25 @@ conda clean    -v -v -v      --tempfiles
 
 
 
+pip cache   --help
+
+explorer   $( pip cache dir)
+cmd /c dir  $( pip cache dir)http /a  /s
+cmd /c dir  $( pip cache dir) /a  /s
+
+exit
+bash
+du -m     $( pip cache dir) |  sort -n
+
+| findstr tens
+  pip cache info
+  pip cache list "tensorflow*"
+  pip cache remove tensorflow_intel
+  pip cache purge  --help
+  pip cache purge
+
+
+
 
 conda search python
 ##conda install python=3.10
@@ -241,12 +260,16 @@ D:                       78056    72429      5628   93% /d
 D:                       78056    72803      5254   94% /d
 D:                       78056    72269      5788   93% /d
 
-next time py e.g. 3.10.10
-next time
+
+#next time py e.g. 3.10.10
+#next time
 conda create -n jupsci_nonpip310
 
+conda activate jupsci_nonpip310
 
-blind_alley
+
+
+#blind_alley
 ##conda create -n jupsci_nonpip1   --clone    base
 The following packages cannot be cloned out of the root environment:
  - defaults/win-64::conda-23.3.1-py310haa95532_0
@@ -261,7 +284,6 @@ D:                       78056    72803      5254   94% /d
 
 
 
-conda activate jupsci_nonpip310
 
 
 conda list

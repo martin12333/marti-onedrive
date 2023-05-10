@@ -7469,3 +7469,22 @@ conda activate torch_nonpip310
 conda list|  findstr tqdm
 conda list|  findstr fire
 conda env remove -n pip310
+git commit -v -a -m ...
+git push   -vv
+pip clean --help
+pip cache   --help
+pip cache dir
+pip cache info
+pip cache list tensorflow_intel
+ls  $( pip cache dir)
+ls  $( pip cache dir)/http
+ls  $( pip cache dir)http
+ls  $( pip cache dir)http/http
+cmd /c dir  $( pip cache dir)http  /s
+cmd /c dir  $( pip cache dir)http  /s  | findstr tens
+explorer   $( pip cache dir)
+cmd /c dir  $( pip cache dir)http /a  /s  | findstr tens
+cmd /c dir  $( pip cache dir)http /a  /s
+cmd /c dir  $( pip cache dir) /a  /s
+bash
+conda create --name pip310  --clone torch_nonpip310
