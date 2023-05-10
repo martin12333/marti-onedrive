@@ -184,6 +184,7 @@ conda env remove -n torch_nonpip1
 
 conda env remove -n jupsci_nonpip1
 conda env remove -n jupsci_nonpip310
+conda env remove -n pip310
 
 
 DirectoryNotACondaEnvironmentError: The target directory exists, but it is not a conda environment.
@@ -196,6 +197,15 @@ cmd /c rmdir /?
 
 cmd /c rmdir      D:\conda\envs\jupsci_nonpip1   /s
 y
+
+
+
+
+
+
+
+
+
 
 
 conda clean --help
@@ -331,6 +341,7 @@ version = "1.13.1"
 conda create --name torch_nonpip310 --clone jupsci_nonpip310
 
 conda activate torch_nonpip310
+conda activate base
 
 bash -c 'df -m'
 
@@ -401,6 +412,8 @@ https://pytorch.org/get-started/locally/
 
 
 
+
+
 conda create --name pip310  --clone torch_nonpip310
 
 conda activate pip310
@@ -409,23 +422,41 @@ bash -c 'df -m'
 D:                       78056    74743      3314   96% /d
 
 
+
+regex==2017.4.5 # used by the bpe tokenizer
+
+pip list |findstr rege
+conda list |findstr rege
+conda search regex| findstr py310
+
+conda install --dry-run  regex==2017.4.5 # used by the bpe tokenizer
+conda install     regex==2021.8.3
+
+
+
+
+
 AI\gpt-from-scratch.e.f8.py
 dry run
   Downloading tensorflow_intel-2.11.0-cp310-cp310-win_amd64.whl (266.3 MB)
 
 
 cd ~/picoGPT
-pip install   --dry-run   -r requirements.txt
-pip install     -r requirements.txt
+#pip install   --dry-run   -r requirements.txt
+########pip install     -r requirements.txt
 
+    D:\conda\envs\pip310\lib\site-packages\setuptools\dist.py:529: UserWarning: Normalizing '2017.04.05' to '2017.4.5'
+        warnings.warn(tmpl.format(**locals()))
 
+      building '_regex' extension
+      error: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
 
 
 
 
 exit
 bash
-pip install   --dry-run   git+https://github.com/neelnanda-io/TransformerLens
+#pip install   --dry-run   git+https://github.com/neelnanda-io/TransformerLens
 
 Collecting torch>=1.10
   Downloading torch-2.0.1-cp310-cp310-win_amd64.whl (172.3 MB

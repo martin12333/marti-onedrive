@@ -7450,3 +7450,22 @@ conda activate pip310
 bash -c 'df -m'
 pip install   --dry-run   -r requirements.txt
 pip install     -r requirements.txt
+git commit -v -a -m ...
+git push   -vv
+bash -c 'df -m'
+pip install     -r requirements.txt
+bash -c 'df -m'
+pip list |findstr rege
+conda list |findstr rege
+conda search regex
+conda search regex| findstr py310
+bash -c 'df -m'
+pip install     -r requirements.txt
+conda activate torch_nonpip310
+conda list|  findstr reque
+conda activate base
+conda list|  findstr requests
+conda activate torch_nonpip310
+conda list|  findstr tqdm
+conda list|  findstr fire
+conda env remove -n pip310
