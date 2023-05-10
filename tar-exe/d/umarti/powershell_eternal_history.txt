@@ -7499,3 +7499,5 @@ conda search  -c huggingface transformers
 conda install --dry-run   -c huggingface transformers==4.24.0
 conda install --dry-run   -c huggingface transformers==4.28.1
 conda install      -c huggingface transformers==4.28.1
+git commit -v -a -m ...
+git push   -vv
