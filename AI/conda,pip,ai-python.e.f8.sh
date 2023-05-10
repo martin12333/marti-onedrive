@@ -434,11 +434,12 @@ https://pytorch.org/get-started/locally/
 
 
 
-
+mamba
 
 conda create --name pip310  --clone torch_nonpip310
 
 conda activate pip310
+
 
 bash -c 'df -m'
 D:                       78056    74743      3314   96% /d
@@ -459,12 +460,12 @@ conda install     regex==2021.8.3
 
 
 AI\gpt-from-scratch.e.f8.py
-dry run
-  Downloading tensorflow_intel-2.11.0-cp310-cp310-win_amd64.whl (266.3 MB)
+##dry run
+  ##Downloading tensorflow_intel-2.11.0-cp310-cp310-win_amd64.whl (266.3 MB)
 
 
 cd ~/picoGPT
-#pip install   --dry-run   -r requirements.txt
+###pip install   --dry-run   -r requirements.txt
 ########pip install     -r requirements.txt
 
     D:\conda\envs\pip310\lib\site-packages\setuptools\dist.py:529: UserWarning: Normalizing '2017.04.05' to '2017.4.5'
