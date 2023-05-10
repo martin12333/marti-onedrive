@@ -7370,3 +7370,24 @@ git push   -vv
 podman machine start
 podman start   -ai    cmy22b
 bash
+git commit -v -a -m ...
+git push   -vv
+git show --name-only
+cmd /c dir d:\conda /a
+bash -c 'df -m'
+conda search python
+conda create -n jupsci_nonpip1   --clone    base
+conda activate jupsci_nonpip1
+conda list
+cmd /c dir d:\conda /a
+bash -c 'df -m'
+conda list
+pip list
+conda search jupyterlab
+conda install jupyterlab
+conda deactivate
+conda env --help
+conda rename --help
+conda rename --name jupsci_nonpip1   jupsci_nonpip310
+conda activate 
+bash -c 'df -m'

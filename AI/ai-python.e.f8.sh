@@ -11,7 +11,8 @@ cmd /c dir d:\conda /a
                2 Dir(s)   6,540,431,360 bytes free
 
               16 Dir(s)   6,300,471,296 bytes free
-
+ 6,159,814,656 bytes free
+  5,901,340,672 bytes free
 
 bash -c 'df -m'
 #bash -c 'free -m'
@@ -19,6 +20,8 @@ bash -c 'df -m'
 D:                       78056    72048      6009   93% /d
 D:                       78056    73763      4294   95% /d
 D:                       78056    72159      5898   93% /d
+D:                       78056    72182      5875   93% /d
+D:                       78056    72429      5628   93% /d
 
 
 
@@ -75,6 +78,8 @@ D:\conda\envs, Are you sure (Y/N)? y
 ...
 
 
+
+
 uninst anaconda
 no exe
 
@@ -113,7 +118,7 @@ bash -c 'du -sm  /d/conda'
 
 
 
-https://github.com/martin12333/marti-onedrive/blob/main2/AI/ai-python.e.f8.sh
+# https://github.com/martin12333/marti-onedrive/blob/main2/AI/ai-python.e.f8.sh
 
 
 
@@ -181,11 +186,13 @@ DirectoryNotACondaEnvironmentError: The target directory exists, but it is not a
 Use 'conda create' to convert the directory to a conda environment.
   target directory: D:\conda\envs\jupsci_nonpip1
 
+
 dir    D:\conda\envs\jupsci_nonpip1
 cmd /c rmdir /?
 
 cmd /c rmdir      D:\conda\envs\jupsci_nonpip1   /s
 y
+
 
 conda clean --help
 conda clean   --dry-run -v -v -v   --all
@@ -203,25 +210,48 @@ conda clean    -v -v -v      --tempfiles
 
 
 
-conda install python=3.10
-
-
-
+conda search python
+##conda install python=3.10
 
 conda create --help
 
 
+##conda create -n jupsci_nonpip1   --clone    base
+bash -c 'df -m'
+D:                       78056    72182      5875   93% /d
+D:                       78056    72429      5628   93% /d
+D:                       78056    72803      5254   94% /d
+
+next time py e.g. 3.10.10
+next time
 conda create -n jupsci_nonpip1
 
-conda activate jupsci_nonpip1
+
+#conda create -n jupsci_nonpip1   --clone    base
+The following packages cannot be cloned out of the root environment:
+ - defaults/win-64::conda-23.3.1-py310haa95532_0
+#conda create -n jupsci_nonpip1   --clone    base
+Files: 5
+
+
+conda deactivate
+
+conda env --help
+conda rename --help
+##conda rename --name jupsci_nonpip1   jupsci_nonpip310
+D:                       78056    72429      5628   93% /d
+D:                       78056    72803      5254   94% /d
+
+conda activate jupsci_nonpip310
+
 
 conda list
-0
+#0
 
 conda install pip
 conda list
 python                    3.11.3               h966fe2a_0
-
+python                    3.10.10              h966fe2a_2
 
 pip list
 pip3 list
