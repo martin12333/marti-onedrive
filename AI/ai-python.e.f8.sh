@@ -229,32 +229,39 @@ bash -c 'df -m'
 D:                       78056    72182      5875   93% /d
 D:                       78056    72429      5628   93% /d
 D:                       78056    72803      5254   94% /d
+D:                       78056    72269      5788   93% /d
 
 next time py e.g. 3.10.10
 next time
-conda create -n jupsci_nonpip1
+conda create -n jupsci_nonpip310
 
 
-#conda create -n jupsci_nonpip1   --clone    base
+blind_alley
+##conda create -n jupsci_nonpip1   --clone    base
 The following packages cannot be cloned out of the root environment:
  - defaults/win-64::conda-23.3.1-py310haa95532_0
 #conda create -n jupsci_nonpip1   --clone    base
 Files: 5
-
-
 conda deactivate
-
 conda env --help
 conda rename --help
 ##conda rename --name jupsci_nonpip1   jupsci_nonpip310
 D:                       78056    72429      5628   93% /d
 D:                       78056    72803      5254   94% /d
 
+
+
 conda activate jupsci_nonpip310
 
 
 conda list
-#0
+0
+
+
+3.10.10 todo 
+
+
+
 
 conda install pip
 conda list

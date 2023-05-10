@@ -7395,3 +7395,9 @@ git commit -v -a -m ...
 git push   -vv
 git show --name-only
 conda env list -v -v
+conda env remove -n jupsci_nonpip310
+bash -c 'df -m'
+conda clean   --dry-run -v -v -v      --packages
+conda clean      -v -v -v     --packages
+git commit -v -a -m ...
+git push   -vv
