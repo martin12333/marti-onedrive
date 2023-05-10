@@ -401,13 +401,27 @@ https://pytorch.org/get-started/locally/
 
 
 
+conda create --name pip310  --clone torch_nonpip310
 
+conda activate pip310
 
-
+bash -c 'df -m'
+D:                       78056    74743      3314   96% /d
 
 
 AI\gpt-from-scratch.e.f8.py
+dry run
   Downloading tensorflow_intel-2.11.0-cp310-cp310-win_amd64.whl (266.3 MB)
+
+
+cd ~/picoGPT
+pip install   --dry-run   -r requirements.txt
+pip install     -r requirements.txt
+
+
+
+
+
 
 exit
 bash

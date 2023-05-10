@@ -7442,3 +7442,11 @@ conda search pytorch
 conda search pytorch  -c pytorch   | findstr -i cpu
 bash -c 'df -m'
 conda install pytorch==1.13.1   cpuonly -c pytorch
+git commit -v -a -m ...
+git push   -vv
+bash -c 'df -m'
+conda create --name pip310  --clone torch_nonpip310
+conda activate pip310
+bash -c 'df -m'
+pip install   --dry-run   -r requirements.txt
+pip install     -r requirements.txt
