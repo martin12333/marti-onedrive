@@ -349,15 +349,26 @@ conda uninstall pandas
 
 conda install pandas
 
-
-
+https://github.com/neelnanda-io/TransformerLens/blob/9e034eef796ed32b0e473ca9f3c9d31e5d5046e7/poetry.lock
+9e034eef796ed32b0e473ca9f3c9d31e5d5046e7
 https://github.com/neelnanda-io/TransformerLens/blob/main/poetry.lock#L4029
 [[package]]
 name = "torch"
 version = "1.13.1"
 
+[[package]]
+name = "transformers"
+version = "4.28.1"
 
+files = [
+    {file = "transformers-4.28.1-py3-none-any.whl", hash = "sha256:f30a006220d0475789ac0e7c874f51bf5143956797616d89975b637883ce0be6"},
+    {file = "transformers-4.28.1.tar.gz", hash = "sha256:7334f8730cff7ac31d9ba5c12f2113fcb7a7a5b61eeb5dbbdb162117c3aaa2d1"},
+]
 
+regex = "!=2019.12.17"
+tqdm = ">=4.27"
+torch = ["torch (>=1.9,!=1.12.0)"]
+"tensorflow (>=2.4,<2.13)",
 
 
 conda create --name torch_nonpip310 --clone jupsci_nonpip310
@@ -434,7 +445,7 @@ https://pytorch.org/get-started/locally/
 
 
 
-mamba
+#mamba
 
 conda create --name pip310  --clone torch_nonpip310
 
@@ -443,6 +454,16 @@ conda activate pip310
 
 bash -c 'df -m'
 D:                       78056    74743      3314   96% /d
+
+
+conda search  -c huggingface transformers
+###conda install --dry-run   -c huggingface transformers==4.24.0
+ regex              pkgs/main/win-64::regex-2022.7.9
+  tqdm               pkgs/main/win-64::tqdm-4.65.0-
+
+conda install --dry-run   -c huggingface transformers==4.28.1
+conda install      -c huggingface transformers==4.28.1
+
 
 
 
@@ -459,12 +480,20 @@ conda install     regex==2021.8.3
 
 
 
+
+
+
+
+
+
+
+
 AI\gpt-from-scratch.e.f8.py
 ##dry run
   ##Downloading tensorflow_intel-2.11.0-cp310-cp310-win_amd64.whl (266.3 MB)
 
 
-cd ~/picoGPT
+#cd ~/picoGPT
 ###pip install   --dry-run   -r requirements.txt
 ########pip install     -r requirements.txt
 
