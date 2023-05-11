@@ -7512,3 +7512,11 @@ from transformers import pipeline, set_seed
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate 'D:\conda'
 conda activate pip310
 python -i -u
+git commit -v -a -m ...
+git push   -vv
+conda activate base
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate 'D:\conda'
+conda activate pip310
+python -i -u
+ipython -i -u
+ipython -i
