@@ -7530,3 +7530,9 @@ python -i -u
 git commit -v -a -m ...
 conda activate base
 D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
+git commit -v -a -m ...
+git push   -vv
+bash -c 'df -m'
+conda search  -c conda-forge    poetry
+conda config --describe channel_priority
+bash

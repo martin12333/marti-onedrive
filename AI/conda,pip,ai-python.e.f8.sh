@@ -7,6 +7,22 @@ pwsh
 
 
 
+
+
+
+
+https://stackoverflow.com/questions/66390775/does-setting-channel-priority-to-strict-affect-all-conda-environments
+nd yes, switching to conda-forge as your highest priority channel when your base was originally from Anaconda is formidable. Better off leaving base with the defaults channel prioritized or switching to Miniforge.
+
+conda config --describe channel_priority
+
+conda config --env --set channel_priority strict
+
+
+
+
+
+
 cmd /c dir d:\conda /a
                2 Dir(s)   6,540,431,360 bytes free
 
@@ -26,6 +42,20 @@ D:                       78056    72429      5628   93% /d
 D:                       78056  74691      3366  96% /d
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 conda --version
 ==> WARNING: A newer version of conda exists. <==
   current version: 4.12.0
@@ -40,6 +70,18 @@ still
 ==> WARNING: A newer version of conda exists. <==
   current version: 4.12.0
   latest version: 23.3.1
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -446,15 +488,8 @@ https://pytorch.org/get-started/locally/
 
 
 
-#mamba
-
-conda create --name pip310  --clone torch_nonpip310
-
-conda activate pip310
 
 
-bash -c 'df -m'
-D:                       78056    74743      3314   96% /d
 
 
 conda search  -c huggingface transformers
@@ -472,6 +507,43 @@ conda install      -c huggingface transformers==4.28.1
 
 
 
+
+
+
+
+
+
+
+
+
+
+#mamba
+
+conda create --name pip310  --clone torch_nonpip310
+
+conda activate pip310
+
+
+bash -c 'df -m'
+D:                       78056    74743      3314   96% /d
+
+
+
+
+
+
+conda search  -c conda-forge    poetry
+
+##conda install poetry='1.*' -c conda-forge
+
+
+
+
+
+
+
+
+
 regex==2017.4.5 # used by the bpe tokenizer
 
 pip list |findstr rege
@@ -481,8 +553,8 @@ conda search regex| findstr py310
 conda install --dry-run  regex==2017.4.5 # used by the bpe tokenizer
 conda install     regex==2021.8.3
 
-
-
+exit()
+quit()
 
 
 
@@ -513,12 +585,12 @@ AI\gpt-from-scratch.e.f8.py
 
 exit
 bash
-#pip install   --dry-run   git+https://github.com/neelnanda-io/TransformerLens
+pip install   --dry-run   git+https://github.com/neelnanda-io/TransformerLens
+pip install      git+https://github.com/neelnanda-io/TransformerLens
 
-Collecting torch>=1.10
-  Downloading torch-2.0.1-cp310-cp310-win_amd64.whl (172.3 MB
-###################
-
+#Collecting torch>=1.10
+ # Downloading torch-2.0.1-cp310-cp310-win_amd64.whl (172.3 MB
+Requirement already satisfied: torch>=1.10 in d:\conda\envs\pip310\lib\site-packages (from transformer-lens==0.0.0) (1.13.1)
 
 
 
