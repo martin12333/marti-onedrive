@@ -7527,3 +7527,6 @@ bash -c 'df -m'
 bash -c 'df -m'
 dir(generator.model)
 python -i -u
+git commit -v -a -m ...
+conda activate base
+D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
