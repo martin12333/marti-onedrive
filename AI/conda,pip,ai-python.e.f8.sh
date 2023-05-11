@@ -561,10 +561,15 @@ exit
 
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
 
+bash -c 'df -m'
+C:/Program Files/Git    151328 116045     35284  77% /
+D:                       78056  75451      2606  97% /d
 
 
 
 
+
+default_text = "The following is a list of powers of 10: 1, 10, 100, 1000, 10000, 100000, 1000000, 10000000"
 
 
 
