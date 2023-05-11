@@ -2,7 +2,8 @@
 exit
 
 pwsh
-& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate 'D:\conda'
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
+#& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate 'D:\conda'
 
 
 
@@ -542,7 +543,8 @@ pip install      git+https://github.com/neelnanda-io/TransformerLens
 Requirement already satisfied: torch>=1.10 in d:\conda\envs\pip310\lib\site-packages (from transformer-lens==0.0.0) (1.13.1)
 
 
-
+pip install   --dry-run   gradio
+pip install     gradio
 
 
 
@@ -550,10 +552,14 @@ Requirement already satisfied: torch>=1.10 in d:\conda\envs\pip310\lib\site-pack
 cd d:\
 jupyter lab
 
+cd d:\AI
+
+git clone https://github.com/neelnanda-io/TransformerLens
+
+exit
 
 
-
-
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
 
 
 
@@ -682,3 +688,4 @@ tf_bert_for_sequence_classification/bert/encoder/layer_._0/attention/self/key/bi
 
 #conda search wget
 
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310

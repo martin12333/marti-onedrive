@@ -7539,3 +7539,14 @@ bash
 git commit -v -a -m ...
 git push   -vv
 jupyter lab
+d:\
+cd d:\
+jupyter lab
+git commit -v -a -m ...
+git push   -vv
+cd d:\
+cd d:\AI
+git clone https://github.com/neelnanda-io/TransformerLens
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate 'D:\conda'
+conda activate base
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310

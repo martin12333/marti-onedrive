@@ -3493,3 +3493,4 @@ $fuj ??= "aaa"  ;   dir $fuj
 git ls-files
 pwsh
 exit
+dir
