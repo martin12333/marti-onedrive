@@ -7556,3 +7556,6 @@ git commit -v -a -m ...
 git push   -vv
 bash -c 'df -m'
 bash -c 'df -m'
+git commit -v -a -m ...
+git push   -vv
+git add -vv  'AI*/*.ipynb'
