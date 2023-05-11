@@ -7520,3 +7520,10 @@ conda activate pip310
 python -i -u
 ipython -i -u
 ipython -i
+cd ~/OneDrive
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+bash -c 'df -m'
+bash -c 'df -m'
+dir(generator.model)
+python -i -u

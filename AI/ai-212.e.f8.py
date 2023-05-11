@@ -11,9 +11,10 @@ python -i -u
 #ipython -i -u
 ipython -i
 
+
+
 model_name = "gpt2"    ##small
 
-from pyexpat import model
 from transformers import pipeline, set_seed
 
 generator = pipeline('text-generation', model=model_name)
@@ -50,9 +51,66 @@ Out[4]: <transformers.pipelines.text_generation.TextGenerationPipeline at 0x21e8
 
 generator.model
 
-x=model.weights
 
-for y in x:
+
+GPT2LMHeadModel(
+  (transformer): GPT2Model(
+    (wte): Embedding(50257, 768)
+    (wpe): Embedding(1024, 768)
+    (drop): Dropout(p=0.1, inplace=False)
+    (h): ModuleList(
+
+
+      (0): GPT2Block(
+        (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (act): NewGELUActivation()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+
+
+
+
+
+      (11): GPT2Block(
+
+
+
+      )
+    )
+    (ln_f): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+  )
+  (lm_head): Linear(in_features=768, out_features=50257, bias=False)
+)
+
+
+
+
+dir(generator.model)
+generator.model.lm_head
+generator.model.transformer.wte
+dir(generator.model.transformer.wte)
+generator.model.transformer.wte.weight
+
+Parameter containing:
+tensor([[-0.1101, -0.0393,  0.0331,  ..., -0.1364,  0.0151,  0.0453],
+        [ 0.0403, -0.0486,  0.0462,  ...,  0.0861,  0.0025,  0.0432],
+        [-0.1275,  0.0479,  0.1841,  ...,  0.0899, -0.1297, -0.0879],
+
+
+#x=model.weights
+
+#for y in x:
     print(y.name)
     print(y.shape)
 

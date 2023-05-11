@@ -13,6 +13,7 @@ cmd /c dir d:\conda /a
               16 Dir(s)   6,300,471,296 bytes free
  6,159,814,656 bytes free
   5,901,340,672 bytes free
+quit()
 
 bash -c 'df -m'
 #bash -c 'free -m'
@@ -22,7 +23,7 @@ D:                       78056    73763      4294   95% /d
 D:                       78056    72159      5898   93% /d
 D:                       78056    72182      5875   93% /d
 D:                       78056    72429      5628   93% /d
-
+D:                       78056  74691      3366  96% /d
 
 
 conda --version
