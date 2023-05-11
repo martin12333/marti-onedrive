@@ -7536,3 +7536,6 @@ bash -c 'df -m'
 conda search  -c conda-forge    poetry
 conda config --describe channel_priority
 bash
+git commit -v -a -m ...
+git push   -vv
+jupyter lab

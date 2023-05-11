@@ -526,6 +526,42 @@ conda activate pip310
 
 bash -c 'df -m'
 D:                       78056    74743      3314   96% /d
+D:                       78056  75283      2774  97% /d
+
+
+
+
+
+exit
+bash
+pip install   --dry-run   git+https://github.com/neelnanda-io/TransformerLens
+pip install      git+https://github.com/neelnanda-io/TransformerLens
+
+#Collecting torch>=1.10
+ # Downloading torch-2.0.1-cp310-cp310-win_amd64.whl (172.3 MB
+Requirement already satisfied: torch>=1.10 in d:\conda\envs\pip310\lib\site-packages (from transformer-lens==0.0.0) (1.13.1)
+
+
+
+
+
+
+
+cd d:\
+jupyter lab
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -580,17 +616,6 @@ AI\gpt-from-scratch.e.f8.py
       building '_regex' extension
       error: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
 
-
-
-
-exit
-bash
-pip install   --dry-run   git+https://github.com/neelnanda-io/TransformerLens
-pip install      git+https://github.com/neelnanda-io/TransformerLens
-
-#Collecting torch>=1.10
- # Downloading torch-2.0.1-cp310-cp310-win_amd64.whl (172.3 MB
-Requirement already satisfied: torch>=1.10 in d:\conda\envs\pip310\lib\site-packages (from transformer-lens==0.0.0) (1.13.1)
 
 
 
