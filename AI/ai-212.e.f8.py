@@ -126,15 +126,29 @@ tensor([[-0.1101, -0.0393,  0.0331,  ..., -0.1364,  0.0151,  0.0453],
 
 
 
+https://github.com/neelnanda-io/TransformerLens/blob/main/demos/Interactive_Neuroscope.ipynb
 
+http://localhost:8888/lab/tree/Dokumenty/AI/Interactive_Neuroscope.ipynb
 
-
+https://github.com/martin12333/marti-onedrive/blob/main2/AI/Interactive_Neuroscope.ipynb
 
 default_text = "The following is a list of powers of 10: 1, 10, 100, 1000, 10000, 100000, 1000000, 10000000"
 default_text = "The following is a list of powers of 10: 1, 10, 100, 1000, 10000, 100000, 1000000, 10000000, 100000000000000000000000000000000000000000000"
+The following is a list of powers of 10: 1, 10, 100, 1000, 10000, 100000, 1000000, 10000000, 1000000000000000100000000,00001,2,3,4,5,6,7, 100 00, 50, 500, 5000, 0000000
+
+
+
+GitPython is a python library used to interact with git repositories, high-level like git-porcelain, or low-level like git-plumbing.
 
 
 
 
+
+
+
+
+Using pad_token, but it is not set yet.
+
+C:\Users\marti\AppData\Local\Temp\ipykernel_23140\1796901329.py:16: DeprecationWarning: `magic(...)` is deprecated since IPython 0.13 (warning added in 8.1), use run_line_magic(magic_name, parameter_s).
 
 quit()
