@@ -167,4 +167,35 @@ demo.launch(share=False , height=1000)
 
 C:\Users\marti\AppData\Local\Temp\ipykernel_23140\1796901329.py:16: DeprecationWarning: `magic(...)` is deprecated since IPython 0.13 (warning added in 8.1), use run_line_magic(magic_name, parameter_s).
 
+
+
+
+
+    def caching_hook(act, hook):
+        #cache["activation"] = act[0, :, neuron_index]
+        cache["activation"] = act[0, :,  neuron_index: neuron_index2]
+        mym[0] += 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+    * All models are trained on 22B tokens of data, 80% from C4 (web text) and 20% from Python Code
+
+
+
+
+
+
+
+
+
 quit()

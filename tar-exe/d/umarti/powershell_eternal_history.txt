@@ -7568,3 +7568,10 @@ pip install    circuitsvis
 pip install    --dry-run   plotly
 pip install    plotly
 bash -c 'df -m'
+git add -vv  'AI*/*.ipynb'
+git commit -v -a -m add
+git push
+git add -vv  'AI*/*.ipynb'
+git show --name-only
+git commit -v -a -m ...
+git push   -vv
