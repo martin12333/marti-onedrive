@@ -7561,3 +7561,10 @@ git push   -vv
 git add -vv  'AI*/*.ipynb'
 git commit -v -a -m add
 git push
+git commit -v -a -m ...
+git push
+pip install   --dry-run    circuitsvis
+pip install    circuitsvis
+pip install    --dry-run   plotly
+pip install    plotly
+bash -c 'df -m'

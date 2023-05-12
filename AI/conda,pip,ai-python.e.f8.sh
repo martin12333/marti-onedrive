@@ -568,20 +568,33 @@ D:                       78056  75451      2606  97% /d
 
 
 
-
+C:\Users\marti\OneDrive\AI\ai-212.e.f8.py
 default_text = "The following is a list of powers of 10: 1, 10, 100, 1000, 10000, 100000, 1000000, 10000000"
 
 
 
 
 
+pip install   --dry-run    circuitsvis
+pip install    circuitsvis
+
+  # PySvelte is an unmaintained visualization library, use it as a backup if circuitsvis isn't working\n",
+
+ Attempting uninstall: importlib-metadata
+    Found existing installation: importlib-metadata 6.0.0
+    Uninstalling importlib-metadata-6.0.0:
+      Successfully uninstalled importlib-metadata-6.0.0
+Successfully installed circuitsvis-1.39.1 importlib-metadata-5.2.0
+
+pip install    --dry-run   plotly
+pip install    plotly
 
 
 
 
-conda search  -c conda-forge    poetry
 
-##conda install poetry='1.*' -c conda-forge
+#conda search  -c conda-forge    poetry
+###conda install poetry='1.*' -c conda-forge
 
 
 
