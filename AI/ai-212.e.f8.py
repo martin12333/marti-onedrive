@@ -2,6 +2,11 @@
 
 
 
+
+
+
+
+
 pwsh
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate 'D:\conda'
 

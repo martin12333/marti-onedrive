@@ -1,5 +1,5 @@
 
-for Mar only ... at the end  ... setting up the org?
+// a note for Martin only ... at the end  ... setting up an openai  org?
 
 
 
@@ -18,6 +18,31 @@ me definitely not the plus plan $20/month
 
 
 ###############
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EXAMPLES of neurons in language models, that activate on known text patterns (mechanistic interpretability)
+
+
 
 
 
