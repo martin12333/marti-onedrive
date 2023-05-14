@@ -109,7 +109,8 @@
 
   (setq rcirc-default-nick "martin_milan")
   (setq ee-libera-ichannels "#eev")
-
+  
+  (find-libera-3a "#eev")
 
 
 ;You need to give them keys. [see Emacs: How to Define Keybinding] A great hand saver is to bind them to single keys. Like this:

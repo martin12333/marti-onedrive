@@ -5,6 +5,16 @@ SCRATCH IS NOT PERSISTENT
 
 # !! @Martin12333 :  '# !!' MEANS a START OF EDITS
 
+
+
+
+
+ (eepitch-eshell)
+ (eepitch-kill)
+ (eepitch-eshell)
+
+
+
 «»
 
 (find-martifile "eev-f8/find-kla-intro.e.el")
@@ -26,11 +36,6 @@ D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
  "D:\instu\emacs-28.2\emacs-28.2\bin\runemacs.exe"
 
 «»
-
-
- (eepitch-eshell)
- (eepitch-kill)
- (eepitch-eshell)
 
 
 «todo-send»

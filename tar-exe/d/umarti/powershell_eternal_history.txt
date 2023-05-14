@@ -7595,3 +7595,6 @@ D:\msys64\msys2_shell.cmd -mingw64     -c  "D:/instu/emacs-28.2/emacs-28.2/bin/r
 git add -vv  '*.f8.*'
 git commit -v -a -m ...
 git push   -vv
+D:\msys64\msys2_shell.cmd -mingw64     -c  "D:/instu/emacs-28.2/emacs-28.2/bin/runemacs.exe"
+git commit -v -a -m ...
+git push   -vv

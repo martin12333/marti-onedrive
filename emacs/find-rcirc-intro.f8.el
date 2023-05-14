@@ -2,6 +2,12 @@
 # !! @Martin12333 :  '# !!' MEANS a START OF EDITS
 
 
+alt-e
+  (find-libera-3a "#eev")
+
+
+
+
 (Re)generate: (find-rcirc-intro)
 Source code:  (find-efunction 'find-rcirc-intro)
 More intros:  (find-eev-quick-intro)
@@ -57,7 +63,11 @@ connecting to an IRC server; the second sets the set of "initial
 channels" on LiberaChat to just one channel, #eev - a channel
 that is usually empty, but that doesn't require authentication;
 
+
+
   (find-libera-3a "#eev")
+
+
 
 the third sexp is a "sexp hyperlink to the LiberaChat channel
 #eev". The third sexp:
