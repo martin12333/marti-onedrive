@@ -66,7 +66,12 @@ using this
 learning now how to use irc for the first time)
 
 (i am reading and using M-e now, in my  Emacs,
-at my	~/OneDrive/emacs/find-rcirc-intro.f8.el,
+   at my
+
+
+(find-martifile "emacs/find-rcirc-intro.f8.el")
+
+   ~/OneDrive/emacs/find-rcirc-intro.f8.el,
 at the first
 
 ```

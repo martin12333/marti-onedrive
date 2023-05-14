@@ -7,17 +7,27 @@ SCRATCH IS NOT PERSISTENT
 
 «»
 
+(find-martifile "eev-f8/find-kla-intro.e.el")
+(find-martifile "emacs/find-rcirc-intro.f8.el")
+(find-marti "eev-f8/w32.e.el" "!!234.t")
+
+
+«»
+
+
+
 startup links?
 no, rather ~~mycode.ps1
 C:\Users\marti\OneDrive\ps-mylen-mar\myconda-code.ps1
 
 D:\msys64\msys2_shell.cmd -mingw64     -c  "D:/instu/emacs-28.2/emacs-28.2/bin/runemacs.exe"
 
-#D:\msys64\msys2_shell.cmd -mingw64     -c  "D:\instu\emacs-28.2\emacs-28.2\bin\runemacs.exe"
 D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
  "D:\instu\emacs-28.2\emacs-28.2\bin\runemacs.exe"
 
 «»
+
+
  (eepitch-eshell)
  (eepitch-kill)
  (eepitch-eshell)
