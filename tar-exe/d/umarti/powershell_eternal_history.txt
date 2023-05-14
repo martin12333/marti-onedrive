@@ -7606,3 +7606,6 @@ git commit -v -a -m ...
 git show --name-only
 podman machine start
 where.exe podman
+git commit -v -a -m ...
+git push   -vv
+git show --name-only

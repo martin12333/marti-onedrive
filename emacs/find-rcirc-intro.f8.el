@@ -1,10 +1,56 @@
 «»
 # !! @Martin12333 :  '# !!' MEANS a START OF EDITS
 
-alt-e
-(find-libera-3a "#eev")
+alt-e (find-libera-3a "#eev")
 
-(find-libera-2a "#eev")
+alt-e (find-libera-2a "#eev")
+
+
+other buf!
+
+m-e (find-martifile "emacs/todo--irc.libera.chat--")
+
+23:03 *** 311 edrx ~Eduardo 2804:18:4807:2c04:8497:6195:5fed:324b *
+              0
+23:03 *** 319 edrx #eev
+23:03 *** 312 edrx lithium.libera.chat London, UK
+23:03 *** 338 edrx 2804:18:4807:2c04:8497:6195:5fed:324b actually
+              using host
+23:03 *** 330 edrx edrx is logged in as
+23:03 *** 318 edrx End of /WHOIS list.
+23:25 <edrx> do you think that this is worth trying?
+23:25 <edrx> (find-eev "eev-tlinks.el" "ee-0x0-upload-region")
+
+
+
+
+THAT IS PROBABLY WHEN I SAVED ~~ C-X C-S
+23:26 *** martin_milan PART #eev Changed major mode
+
+00:18 *** martin_milan PART #eev Changed major mode
+
+NORMAL BUF
+00:20 *** martin_milan JOIN
+00:20 *** NAMES bandali edrx martin_milan
+> 
+
+Wrote c:/Users/marti/OneDrive/emacs/find-rcirc-intro.f8.el
+error in process filter: rcirc-process-server-response: Wrong type argument: number-or-marker-p, nil
+error in process filter: Wrong type argument: number-or-marker-p, nil
+
+I WILL RESTART EMACS
+
+
+
+
+
+
+
+
+23:38 <martin_milan>
+(ee-rcirc-save-buffer)
+no, i would have to be in that buf
+
 
 /quit [message]
 close emacs
@@ -36,6 +82,7 @@ i will send to faceb
 /help command
 /reconnect
 /away food
+/away i-have-to-rest-in-bed-now
 /away resting-in-bed
 /away other-reasons
 /away 
