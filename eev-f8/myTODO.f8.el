@@ -24,7 +24,7 @@ SCRATCH IS NOT PERSISTENT
 
 «»
 
-
+where.exe podman
 
 startup links?
 no, rather ~~mycode.ps1

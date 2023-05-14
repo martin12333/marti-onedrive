@@ -7,9 +7,18 @@ exit
  (eepitch-kill)
  (eepitch-eshell)
 
+$env:path
 
 
+D:\msys64\mingw64\bin;D:\msys64\usr\local\bin;D:\msys64\usr\bin;D:\msys64\usr\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\msys64\usr\bin\site_perl;D:\msys64\usr\bin\vendor_perl;D:\msys64\usr\bin\core_perl
+
+
+C:\Pf\RedHat\Podman\podman.exe
+
+powershell
+pwsh.exe
 podman machine start
+# your 131072x1 screen size is bogus. expect trouble
 # your 131072x1 screen size is bogus. expect trouble
 
 podman start   -ai    cmy22b

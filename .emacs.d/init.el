@@ -109,7 +109,7 @@
 
   (setq rcirc-default-nick "martin_milan")
   (setq ee-libera-ichannels "#eev")
-  
+
   (find-libera-3a "#eev")
 
 
@@ -118,5 +118,25 @@
 (global-set-key (kbd "<f3>") 'xah-copy-line-or-region) ; copy
 (global-set-key (kbd "<f4>") 'yank) ; paste
 ;This is now part of ergoemacs-mode and Emacs: Xah Fly Keys.
+
+
+
+
+
+(defun ee-rcirc-save-buffer (&rest args)
+  "Like save-buffer, but doesn't changes the buffer name or the major mode."
+  (interactive "p")
+  (let ((bname (buffer-name))
+	(change-major-mode-with-file-name nil))
+    (save-excursion (apply 'save-buffer args))
+    (rename-buffer bname)))
+
+
+
+
+
+
+;  maybe i should put last the newest things
+; and check parens match
 
 (message "my debug ... end of init.el"  )

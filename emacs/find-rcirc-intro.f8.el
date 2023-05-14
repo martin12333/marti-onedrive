@@ -2,8 +2,10 @@
 # !! @Martin12333 :  '# !!' MEANS a START OF EDITS
 
 alt-e
-  (find-libera-3a "#eev")
-  (find-libera-2a "#eev")
+(find-libera-3a "#eev")
+
+(find-libera-2a "#eev")
+
 /quit [message]
 close emacs
 /users
@@ -19,40 +21,59 @@ myerror?
 20:45 *** martin_milan PART #eev Changed major mode
 > 
 
+ (eepitch-freenode)
 
-maybe I wish there was 
-eepitch-irc   ??
+
+i am trying irc again, 
+maybe I wish there was
+* (eepitch-irc)
  (eepitch-irc)
+ (eepitch-rcirc)
+ (eepitch-shell)
 
-
-space at the beginning =>
- /command  fails
-
-
-
+i will send to faceb
 /help
-/join #eev
-
-
-
+/help command
+/reconnect
 /away food
+/away resting-in-bed
+/away other-reasons
 /away 
-This sets your status as “being away” if you provide a reason,
+# i forgot /away  means, that i am back
+/quit have to work
+/quit sleep
+# disconnects from server
 
-or sets your status as “being back” if you do not. People can use the C-c C-w command to check your status. Example:
 
+# space at the beginning =>
+ /command  fails (is posted)
 
+/join #eev
 
 
 
  
 
-/quit [message]
+# !!
 
-Disconnects you from IRC
-server
-and will give the optional message as the reason for your departure. (this message only appears to people who are on the same channels as you).
+ (eepitch-to-buffer "#eev@irc.libera.chat")
 
+
+i try  (eepitch-to-buffer "#eev@irc.libera.chat")
+but 
+
+/help
+/query fsbot
+
+can you see this line "235.e22"?
+
+ok
+seems that texts work with f8, but irc commands dont
+/whois edrx
+maybe irc commands from my windows emacs  get sent by f8 ...  as text? ... to the channel
+?
+
+/join #emacs
 
 
 
