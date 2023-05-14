@@ -1,9 +1,108 @@
 «»
 # !! @Martin12333 :  '# !!' MEANS a START OF EDITS
 
-
 alt-e
   (find-libera-3a "#eev")
+  (find-libera-2a "#eev")
+/quit [message]
+close emacs
+/users
+21:00 *** 265 2081 2774 Current local users 2081, max 2774
+
+
+20:52 *** martin_milan JOIN
+20:52 *** NAMES bandali martin_milan
+> 
+
+
+myerror?
+20:45 *** martin_milan PART #eev Changed major mode
+> 
+
+
+maybe I wish there was 
+eepitch-irc   ??
+ (eepitch-irc)
+
+
+space at the beginning =>
+ /command  fails
+
+
+
+/help
+/join #eev
+
+
+
+/away food
+/away 
+This sets your status as “being away” if you provide a reason,
+
+or sets your status as “being back” if you do not. People can use the C-c C-w command to check your status. Example:
+
+
+
+
+
+ 
+
+/quit [message]
+
+Disconnects you from IRC
+server
+and will give the optional message as the reason for your departure. (this message only appears to people who are on the same channels as you).
+
+
+
+
+ 
+
+/whois nickname
+
+Shows you information about a nickname.
+
+
+
+/help part
+
+
+
+/reconnect 
+This reconnects after you have lost the connection.
+
+If you’re chatting from a laptop, then you might be familiar with this problem: When your laptop falls asleep and wakes up later, your IRC client doesn’t realize that it has been disconnected. It takes several minutes until the client decides that the connection has in fact been lost. The simple solution is to use M-x rcirc. The problem is that this opens an additional connection, so you’ll have two copies of every channel buffer, one dead and one live.
+
+One option therefore, is the /reconnect command.
+
+An other approach is to set rcirc-reconnect-delay to a value greater than 0, and allow rcirc to reconnect when it detects that the connection has been closed. By default it will try to do this three times (as specified by rcirc-reconnect-attempts), before giving up.
+
+
+
+20:40 <martin_milan>
+/help part
+
+
+20:44 *** 705 part PART requires at least a channel argument to be
+given. It will
+
+20:41 <martin_milan> /help quit
+20:41 <martin_milan> /help
+20:41 /reconnect
+> 
+part
+who
+whois
+whowas
+
+
+
+
+
+
+
+
+
 
 
 
@@ -29,7 +128,9 @@ support for rcirc (and no support for ERC).
 
 The eev support for rcirc consists mainly of three high-level
 functions that connect to Freenode (the IRC server where most
-discussion of free software projects USED TO happen), and three
+discussion of free software projects USED TO happen),
+
+and three
 high-level functions that connect to LiberaChat (the IRC server
 where most discussion of free software projects were moved to).
 These functions are called:
@@ -44,6 +145,7 @@ For a good explanation of what IRC is, see:
 
 
 
+
 1. The example that I use in workshops
 ======================================
 Let's start with an example. In
@@ -52,11 +154,12 @@ Let's start with an example. In
 
 
 # !!
-
- rcirc-default-nick 
+;did put in init.el
 
   (setq rcirc-default-nick "martin_milan")
   (setq ee-libera-ichannels "#eev")
+
+; alt-e M-e  rcirc-default-nick 
 
 the first sexp tells rcirc to use the nickname "hakuryo" when
 connecting to an IRC server; the second sets the set of "initial
@@ -64,9 +167,7 @@ channels" on LiberaChat to just one channel, #eev - a channel
 that is usually empty, but that doesn't require authentication;
 
 
-
   (find-libera-3a "#eev")
-
 
 
 the third sexp is a "sexp hyperlink to the LiberaChat channel
@@ -95,16 +196,25 @@ the third sexp is a "sexp hyperlink to the LiberaChat channel
        (find-multiwindow-intro "3. High-level words")
        (find-multiwindow-intro "3. High-level words" "find-3a")
 
+
+
 The connection process takes time - about 20 seconds at my
 machine - but you will be able to see in window "B" the server
 messages as they appear, and in window "C" the messages of the
 #eev channel. You can then use the window "C" to interact with
 the other users in #eev, and to experiment with commands. See:
 
-  (find    rcircnode "Internet Relay Chat" "Once you have joined a channel")
+
+# !!
+
+
+https://www.gnu.org/software/emacs/manual/html_node/rcirc/rcirc-commands.html
+
+  (find-rcircnode "Internet Relay Chat" "Once you have joined a channel")
   (find-node "Internet Relay Chat" "Once you have joined a channel") 
  (find-rcircnode "Getting started with rcirc" "To talk in a channel")
   (find-rcircnode "rcirc commands" "/join #emacs")
+
 
 
 
