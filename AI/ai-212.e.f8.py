@@ -1,16 +1,13 @@
 
-
-
-
-
-
-
-
-
 pwsh
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate 'D:\conda'
 
 conda activate pip310
+
+
+
+cd d:\  ;   jupyter lab
+
 
 python -i -u
 #ipython -i -u

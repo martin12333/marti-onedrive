@@ -36,11 +36,39 @@ me definitely not the plus plan $20/month
 
 
 
+https://www.alignmentforum.org/posts/Qup9gorqpd9qKAEav/200-cop-in-mi-studying-learned-features-in-language-models#comments
+
+> People often use “neuron” to refer to many different parts of a transformer. I specifically mean the hidden state of the MLP layers, after the activation function. I do not mean the residual stream, layer outputs, keys, queries or values, attention pattern, etc.
+
+
+(?)
+
+EXAMPLES of neurons in language models, that activate on known text patterns (mechanistic interpretability) (comment thread)
+
+https://colab.research.google.com/github/neelnanda-io/TransformerLens/blob/main/demos/Interactive_Neuroscope.ipynb#scrollTo=nMe4aKQNvZJX
+
+https://transformer-circuits.pub/2022/solu/index.html#section-6-3
 
 
 
 
-EXAMPLES of neurons in language models, that activate on known text patterns (mechanistic interpretability)
+https://neuroscope.io/gpt2-medium/22/3082.html
+
+640+3072
+
+
+https://neuroscope.io/gpt2-medium/22/1034.html
+
+https://neuroscope.io/gpt2-medium/22/2058.html
+
+
+
+https://neuroscope.io/gpt2-medium/22/640.html
+
+
+
+
+
 
 
 

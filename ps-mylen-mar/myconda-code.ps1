@@ -50,6 +50,13 @@ sleep 20
 
 
 
+
+D:\msys64\msys2_shell.cmd -mingw64     -c  "D:/instu/emacs-28.2/emacs-28.2/bin/runemacs.exe"
+
+
+sleep 20
+
+
 #pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymycron.ps1
 
 

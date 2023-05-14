@@ -6,7 +6,13 @@ SCRATCH IS NOT PERSISTENT
 # !! @Martin12333 :  '# !!' MEANS a START OF EDITS
 
 «»
+
+startup links?
+no, rather ~~mycode.ps1
+C:\Users\marti\OneDrive\ps-mylen-mar\myconda-code.ps1
+
 D:\msys64\msys2_shell.cmd -mingw64     -c  "D:/instu/emacs-28.2/emacs-28.2/bin/runemacs.exe"
+
 #D:\msys64\msys2_shell.cmd -mingw64     -c  "D:\instu\emacs-28.2\emacs-28.2\bin\runemacs.exe"
 D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
  "D:\instu\emacs-28.2\emacs-28.2\bin\runemacs.exe"
