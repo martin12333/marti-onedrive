@@ -26,6 +26,10 @@ after DESUSPEND
 (mapcar #'buffer-name
 	(buffer-list)
 	)
+http://endlessparentheses.com/get-in-the-habit-of-using-sharp-quote.html
+https://www.gnu.org/software/emacs/manual/html_node/elisp/Anonymous-Functions.html#index-function
+
+
 
 
 (switch-to-buffer
