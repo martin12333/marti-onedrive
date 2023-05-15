@@ -17,11 +17,15 @@ after DESUSPEND
 
 
  (progn     (set-buffer  "#eev@irc.libera.chat"  )     (ee-rcirc-save-buffer))
-
+;235.f
 ;;;M-e (ee-rcirc-save-buffer)  ;no, i would have to be in that buf
 
 
 
+
+;235.f todo tidy-up
+«»
+todo move
 
 (mapcar #'buffer-name
 	(buffer-list)
@@ -29,13 +33,12 @@ after DESUSPEND
 http://endlessparentheses.com/get-in-the-habit-of-using-sharp-quote.html
 https://www.gnu.org/software/emacs/manual/html_node/elisp/Anonymous-Functions.html#index-function
 
-
-
+ #'buffer-name
+'buffer-name
 
 (switch-to-buffer
  "#eev@irc.libera.chat"
  )
-
 
 (switch-to-buffer
  (other-buffer)
@@ -45,7 +48,8 @@ https://www.gnu.org/software/emacs/manual/html_node/elisp/Anonymous-Functions.ht
 
 
 
-
+;235.f
+«»
 
 if: Wrong type argument: processp, nil [4 times]
 eval: eepitch not set up
@@ -53,7 +57,8 @@ rcirc-send-string: Network connection to irc.libera.chat is not open
 
 
 
-
+;235.f
+«»
 
 other buf!
 see with
@@ -97,13 +102,16 @@ I WILL RESTART EMACS
 
 
 
-
+;235.f
+«»
 /quit [message]
 close emacs
 /users
 21:00 *** 265 2081 2774 Current local users 2081, max 2774
 
 
+;235.f
+«»
 20:52 *** martin_milan JOIN
 20:52 *** NAMES bandali martin_milan
 > 
@@ -154,6 +162,7 @@ i will send to faceb
 
 
 
+;235.f
 /help
 /query fsbot
 
@@ -275,7 +284,8 @@ Let's start with an example. In
 ; alt-e M-e  rcirc-default-nick 
 
 the first sexp tells rcirc to use the nickname "hakuryo" when
-connecting to an IRC server; the second sets the set of "initial
+connecting to an IRC server;
+the second sets the set of "initial
 channels" on LiberaChat to just one channel, #eev - a channel
 that is usually empty, but that doesn't require authentication;
 
@@ -351,6 +361,9 @@ It creates a window setting like
 which is nice for when you don't want to follow the irc server
 messages.
 
+;235.f
+# !! 235.f but f8 can send to the buf of the  the irc server
+messages.
 
 
 
