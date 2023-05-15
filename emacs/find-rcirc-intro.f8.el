@@ -1,24 +1,24 @@
 «»
-# !! @Martin12333 :  '# !!' MEANS a START OF EDITS
 
-DESUSPEND
+
+after DESUSPEND
 
  (eepitch-to-buffer "#eev@irc.libera.chat")
 /reconnect
+
+
+
 
  (find-libera-3a "#eev")
 
  (find-libera-2a "#eev")
 
-/whowas edrx
 
 
-(progn
-  (set-buffer  "#eev@irc.libera.chat"  )
-  (ee-rcirc-save-buffer))
 
-m-e (ee-rcirc-save-buffer)
-no, i would have to be in that buf
+ (progn     (set-buffer  "#eev@irc.libera.chat"  )     (ee-rcirc-save-buffer))
+
+;;;M-e (ee-rcirc-save-buffer)  ;no, i would have to be in that buf
 
 
 
@@ -148,7 +148,6 @@ i will send to faceb
 
 
 
-# !!
 
 
 /help
@@ -197,7 +196,8 @@ given. It will
 20:41 <martin_milan> /help quit
 20:41 <martin_milan> /help
 20:41 /reconnect
-> 
+/whowas edrx
+/whois edrx
 part
 who
 whois
@@ -213,6 +213,7 @@ whowas
 
 
 
+# !! @Martin12333 :  '# !!' MEANS a START OF EDITS
 
 
 (Re)generate: (find-rcirc-intro)
