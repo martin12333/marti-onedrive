@@ -1,15 +1,60 @@
 «»
 # !! @Martin12333 :  '# !!' MEANS a START OF EDITS
 
-alt-e (find-libera-3a "#eev")
+DESUSPEND
 
-alt-e (find-libera-2a "#eev")
+ (eepitch-to-buffer "#eev@irc.libera.chat")
+/reconnect
+
+ (find-libera-3a "#eev")
+
+ (find-libera-2a "#eev")
+
+/whowas edrx
+
+
+(progn
+  (set-buffer  "#eev@irc.libera.chat"  )
+  (ee-rcirc-save-buffer))
+
+m-e (ee-rcirc-save-buffer)
+no, i would have to be in that buf
+
+
+
+
+(mapcar #'buffer-name
+	(buffer-list)
+	)
+
+
+(switch-to-buffer
+ "#eev@irc.libera.chat"
+ )
+
+
+(switch-to-buffer
+ (other-buffer)
+ )
+
+
+
+
+
+
+
+if: Wrong type argument: processp, nil [4 times]
+eval: eepitch not set up
+rcirc-send-string: Network connection to irc.libera.chat is not open
+
+
+
 
 
 other buf!
-
+see with
+alt-e (find-libera-3a "#eev")
 m-e (find-martifile "emacs/todo--irc.libera.chat--")
-
 23:03 *** 311 edrx ~Eduardo 2804:18:4807:2c04:8497:6195:5fed:324b *
               0
 23:03 *** 319 edrx #eev
@@ -29,6 +74,7 @@ THAT IS PROBABLY WHEN I SAVED ~~ C-X C-S
 
 00:18 *** martin_milan PART #eev Changed major mode
 
+
 NORMAL BUF
 00:20 *** martin_milan JOIN
 00:20 *** NAMES bandali edrx martin_milan
@@ -47,10 +93,6 @@ I WILL RESTART EMACS
 
 
 
-23:38 <martin_milan>
-(ee-rcirc-save-buffer)
-no, i would have to be in that buf
-
 
 /quit [message]
 close emacs
@@ -63,7 +105,7 @@ close emacs
 > 
 
 
-myerror?
+myerror
 20:45 *** martin_milan PART #eev Changed major mode
 > 
 
@@ -72,9 +114,9 @@ myerror?
 
 i am trying irc again, 
 maybe I wish there was
-* (eepitch-irc)
- (eepitch-irc)
- (eepitch-rcirc)
+# * (eepitch-irc)
+#  (eepitch-irc)
+#  (eepitch-rcirc)
  (eepitch-shell)
 
 i will send to faceb
@@ -92,6 +134,7 @@ i will send to faceb
 # disconnects from server
 
 
+
 # space at the beginning =>
  /command  fails (is posted)
 
@@ -101,13 +144,12 @@ i will send to faceb
 
  
 
+
+
+
+
 # !!
 
- (eepitch-to-buffer "#eev@irc.libera.chat")
-
-
-i try  (eepitch-to-buffer "#eev@irc.libera.chat")
-but 
 
 /help
 /query fsbot
@@ -117,8 +159,9 @@ can you see this line "235.e22"?
 ok
 seems that texts work with f8, but irc commands dont
 /whois edrx
-maybe irc commands from my windows emacs  get sent by f8 ...  as text? ... to the channel
-?
+maybe irc commands from my windows emacs  get sent by f8 ...  as text? ... to
+the channel ??
+to another buf
 
 /join #emacs
 
@@ -126,9 +169,6 @@ maybe irc commands from my windows emacs  get sent by f8 ...  as text? ... to th
 
  
 
-/whois nickname
-
-Shows you information about a nickname.
 
 
 
