@@ -7635,3 +7635,7 @@ conda activate base
 git commit -v -a -m ...
 git push   -vv
 cd d:\  ;   jupyter lab
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+python -i -u
