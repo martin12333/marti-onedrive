@@ -4,6 +4,9 @@ pwsh
 #& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate 'D:\conda'
 
 
+cd d:\  ;   jupyter lab
+
+
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;  conda activate pip310;  code AI
 $env:path
 
@@ -34,7 +37,6 @@ np.
 
 #%%
 
-cd d:\  ;   jupyter lab
 
 
 python -i -u
