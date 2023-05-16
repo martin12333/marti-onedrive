@@ -7621,3 +7621,14 @@ git commit -v -a -m ...
 git push   -vv
 git commit -v -a -m ...
 git push   -vv
+icacls  "C:\Users\Public\Documents\RSIGuard\MiscSettings.ini"
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;  conda activate pip310;  code AI
+conda activate base
+$env:path
+conda activate pip310;
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;  conda activate pip310
+conda activate base
+& D:/conda/python.exe

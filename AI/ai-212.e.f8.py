@@ -1,10 +1,38 @@
 
 pwsh
-& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate 'D:\conda'
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;  conda activate pip310
+#& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate 'D:\conda'
 
-conda activate pip310
+
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;  conda activate pip310;  code AI
+$env:path
+
+f1 py sel interpr
 
 
+
+#& 'D:\conda\shell\condabin\conda-hook.ps1'  ;  conda activate pip310
+
+
+import sys, os
+
+sys.st
+
+
+import torch
+
+torch.
+
+
+#%%
+import numpy as np
+
+np.
+
+
+
+
+#%%
 
 cd d:\  ;   jupyter lab
 
