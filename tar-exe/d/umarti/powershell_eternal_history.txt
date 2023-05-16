@@ -7639,3 +7639,5 @@ git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push   -vv
 python -i -u
+git commit -v -a -m ...
+git push   -vv

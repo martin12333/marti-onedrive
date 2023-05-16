@@ -28,16 +28,33 @@ import re
 
 #text = "[CLS] Who was Jim Henson ? [SEP] Jim Henson was a puppeteer [SEP]"
 
-text = "[CLS] Who was Jim Henson ? [SEP]  \n Jim Henson was a puppeteer [SEP]"
-
+#text = "Hermione Jean Granger (/hɜːrˈmaɪəni ˈɡreɪndʒər/ hur-MY-ə-nee GRAYN-jər) is a fictional character in J. K. Rowling's Harry Potter series."
+text = "Hermione Jean Granger is a fictional character in J. K. Rowling's Harry Potter series."
 text=text.lower()
+text=re.sub(  r'[^a-z]'  ,   '`' , text)
+text=re.sub(  r'[iouy]'  ,   'e' , text)
+text=re.sub(  r'[g-z]'  ,   'g' , text)
+text
 
-###re.sub(  r'^[a-z]'  ,   '`' , text)
+#text=re.sub(  r'[eiouy]'  ,   'a' , text)
+text=re.sub(  r'[e]'  ,   'a' , text)
+text=re.sub(  r'[c-z]'  ,   'b' , text)
+text
 
-# The mistake is that the re.sub should use the '^' character at the beginning of the pattern to indicate that the pattern should match at the beginning of the string. Additionally, the pattern should include the '$' character at the end to indicate that the pattern should match at the end of the string.
 
-
-re.sub(  r'[^a-z]'  ,   '`' , text)
 
 
 torch.
+
+
+quit()
+###harmaana factaanal fecteenal
+quit()
+
+###re.sub(  r'^[a-z]'  ,   '`' , text)
+
+# what mistake is in the re.sub
+
+#gpt3
+
+# The mistake is that the re.sub should use the '^' character at the beginning of the pattern to indicate that the pattern should match at the beginning of the string. Additionally, the pattern should include the '$' character at the end to indicate that the pattern should match at the end of the string.
