@@ -54,6 +54,12 @@ ascii_codes = [ord(c) for c in text]
 ascii_codes
 np.array(ascii_codes) - 96
 
+
+
+
+text=re.sub(  r'[`]'  ,   ' ' , text)
+
+
 torch.
 
 
@@ -67,6 +73,29 @@ print(type(tokenizer.backend_tokenizer))
 
 tokenizer = AutoTokenizer.from_pretrained("gpt2")
 tokenizer.backend_tokenizer.pre_tokenizer.pre_tokenize_str("Hello, how are  you?")
+
+
+
+
+#tokenizer = Tokenizer(models.BPE())
+tokenizer = tokenizers.Tokenizer( tokenizers.models.BPE())
+
+#tokenizer.pre_tokenizer = pre_tokenizers.ByteLevel(add_prefix_space=False)
+tokenizer.pre_tokenizer = tokenizers.pre_tokenizers.ByteLevel(add_prefix_space=True)
+tokenizers.models
+tokenizers.pre_tokenizers
+
+tokenizer.pre_tokenizer.pre_tokenize_str("Let's test pre-tokenization!")
+
+#trainer = trainers.BpeTrainer(vocab_size=25000, special_tokens=["<|endoftext|>"])
+trainer = tokenizers.trainers.BpeTrainer(vocab_size=25, special_tokens=["<|endoftext|>"])
+trainer = tokenizers.trainers.BpeTrainer(vocab_size=10, special_tokens=["<|endoftext|>"])
+tokenizer.train(["minitext-1.txt"], trainer=trainer)
+
+encoding = tokenizer.encode("Let's test this tokenizer.")
+encoding = tokenizer.encode("Letgeggeege geag ggaggeg eg a fecgeegag cgagacgeg eg g  g  geggegg g gagge geggeg gegeeger.")
+print(encoding.tokens)
+
 
 
 

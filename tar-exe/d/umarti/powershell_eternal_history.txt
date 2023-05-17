@@ -7647,3 +7647,6 @@ conda activate base
 shutdown( /?)
 shutdown  /?
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
+git commit -v -a -m ...
+git push   -vv
+conda activate pip310
