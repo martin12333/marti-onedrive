@@ -60,7 +60,6 @@ np.array(ascii_codes) - 96
 text=re.sub(  r'[`]'  ,   ' ' , text)
 
 
-torch.
 
 
 
@@ -90,11 +89,86 @@ tokenizer.pre_tokenizer.pre_tokenize_str("Let's test pre-tokenization!")
 #trainer = trainers.BpeTrainer(vocab_size=25000, special_tokens=["<|endoftext|>"])
 trainer = tokenizers.trainers.BpeTrainer(vocab_size=25, special_tokens=["<|endoftext|>"])
 trainer = tokenizers.trainers.BpeTrainer(vocab_size=10, special_tokens=["<|endoftext|>"])
+trainer = tokenizers.trainers.BpeTrainer(vocab_size=9, special_tokens=["<|endoftext|>"])
 tokenizer.train(["minitext-1.txt"], trainer=trainer)
 
 encoding = tokenizer.encode("Let's test this tokenizer.")
-encoding = tokenizer.encode("Letgeggeege geag ggaggeg eg a fecgeegag cgagacgeg eg g  g  geggegg g gagge geggeg gegeeger.")
+encoding = tokenizer.encode(
+    "Let"
+"geggeeg"
+"egeaggg"
+"aggeg e"
+"g a fe"
+"g "
+" g "
+" g"
+" a"
+" fe"
+
+"cgee"
+"gag cgagacgeg eg g"
+"  g  geggegg g gagge geggeg gegeege"
+)
+encoding = tokenizer.encode(
+    "Letgeggeege geag ggaggeg eg a fecgeegag cgag"
+"acgeg eg g  g  geggegg g gagge geggeg gegeeger."
+)
+
+
+
+
 print(encoding.tokens)
+
+['Ġ', 'e', 'geg', 'ge', 'ege', 'Ġge', 'ag', 'Ġg', 'gag', 'geg', 'Ġeg', 'Ġ', 'a', 'Ġ', 'f', 'e', 'cgeeg', 'ag', 'Ġ', 'cgag', 'ac', 'geg', 'Ġeg', 'Ġg', 'Ġ', 'Ġg', 'Ġ', 'Ġgeggeg', 'g', 'Ġg', 'Ġg', 'ag', 'ge', 'Ġgeggeg', 'Ġge', 'ge', 'ege']
+>>>
+
+
+>>> print(encoding.tokens)
+['Ġ', 'e', 'g', 'e', 'g', 'g', 'e', 'e', 'g', 'e', 'Ġ', 'g', 'e', 'a', 'g', 'Ġ', 'g', 'g', 'a', 'g', 'g', 'e', 'g', 'Ġ', 'e', 'g', 'Ġ', 'a', 'Ġ', 'f', 'e', 'c', 'g', 'e', 'e', 'g', 'a', 'g', 'Ġ', 'c', 'g', 'a', 'g', 'a', 'c', 'g', 'e', 'g', 'Ġ', 'e', 'g', 'Ġ', 'g', 'Ġ', 'Ġ', 'g', 'Ġ', 'Ġ', 'g', 'e', 'g', 'g', 'e', 'g', 'g', 'Ġ', 'g', 'Ġ', 'g', 'a', 'g', 'g', 'e', 'Ġ', 'g', 'e', 'g', 'g', 'e', 'g', 'Ġ', 'g', 'e', 'g', 'e', 'e', 'g', 'e']
+>>>
+
+
+
+old_tokenizer = AutoTokenizer.from_pretrained("gpt2")
+
+GPT2Tokenizer.
+#chars = [ ‘a’, ‘b’, ‘c’, …]
+chars = [ 'a', 'b', 'c', ' ' ]
+#new_tokenizer = tokenizer.train_new_from_iterator(batch_iterator(), vocab_size=len(chars), initial_alphabet=chars)
+#new_tokenizer =   old_tokenizer.train_new_from_iterator(batch_iterator(), vocab_size=len(chars), initial_alphabet=chars)
+tokenizer =   old_tokenizer.train_new_from_iterator(
+      ["minitext-1.txt"],
+      "minitext-1.txt" ,
+      "geggeege geag ggaggeg eg a fecgeegag cgagacgeg eg g  g  geggegg g gagge geggeg gegeeger ",
+        vocab_size=len(chars), initial_alphabet=chars)
+
+encoding = tokenizer.encode("Letgeggeege geag ggaggeg eg a fecgeegag cgagacgeg eg g  g  geggegg g gagge geggeg gegeeger.")
+
+
+
+
+
+print(encoding)
+tokenizer.to_str()
+tokenizer.get_vocab()
+dir(tokenizer)
+type(tokenizer)
+t=tokenizers.Tokenizer.from_file("code-search-net-tokenizer.json")
+
+t0=tokenizer
+tokenizer=t
+
+tokenizer.save("code-search-net-tokenizer.json")
+
+
+
+
+
+
+tokenizer.save_pretrained("code-search-net-tokenizer")
+
+[44, 69, 84, 71, 69, 71, 71, 69, 69, 71, 69, 221, 71, 69, 65, 71, 221, 71, 71, 65, 71, 71, 69, 71, 221, 69, 71, 221, 65, 221, 70, 69, 67, 71, 69, 69, 71, 65, 71, 221, 67, 71, 65, 71, 65, 67, 71, 69, 71, 221, 69, 71, 221, 71, 221, 221, 71, 221, 221, 71, 69, 71, 71, 69, 71, 71, 221, 71, 221, 71, 65, 71, 71, 69, 221, 71, 69, 71, 71, 69, 71, 221, 71, 69, 71, 69, 69, 71, 69, 82, 14]
+>>>
 
 
 
