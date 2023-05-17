@@ -106,6 +106,7 @@ tokenizer.train([
     ], trainer=trainer)
 encoding = tokenizer.encode("Let's test this tokenizer.")
 encoding.tokens
+encoding.ids
 
 
 
@@ -140,7 +141,18 @@ tokenizer=tokenizers.Tokenizer.from_file(tokname)
 
 encoding = tokenizer.encode(    "Letgeggeege geag ggaggeg eg a fecgeegag cgag" "acgeg eg g  g  geggegg g gagge geggeg gegeeger."    )
 print(encoding.tokens)
-['Ġ', 'e', 'g', 'e', 'g', 'g', 'e', 'e', 'g', 'e', 'Ġ', 'g', 'e', 'a', 'g', 'Ġ', 'g', 'g', 'a', 'g', 'g', 'e', 'g', 'Ġ', 'e', 'g', 'Ġ', 'a', 'Ġ', 'f', 'e', 'c', 'g', 'e', 'e', 'g', 'a', 'g', 'Ġ', 'c', 'g', 'a', 'g', 'a', 'c', 'g', 'e', 'g', 'Ġ', 'e', 'g', 'Ġ', 'g', 'Ġ', 'Ġ', 'g', 'Ġ', 'Ġ', 'g', 'e', 'g', 'g', 'e', 'g', 'g', 'Ġ', 'g', 'Ġ', 'g', 'a', 'g', 'g', 'e', 'Ġ', 'g', 'e', 'g', 'g', 'e', 'g', 'Ġ', 'g', 'e', 'g', 'e', 'e', 'g', 'e']
+encoding.ids
+
+tokenizer.decode([1, 2, 8,2, 2])
+
+
+vsc completi 0
+tokenizer.   0
+tokenizers.pre_   0
+tokenizers.pre_tokenizers  f8 exists
+
+
+##['Ġ', 'e', 'g', 'e', 'g', 'g', 'e', 'e', 'g', 'e', 'Ġ', 'g', 'e', 'a', 'g', 'Ġ', 'g', 'g', 'a', 'g', 'g', 'e', 'g', 'Ġ', 'e', 'g', 'Ġ', 'a', 'Ġ', 'f', 'e', 'c', 'g', 'e', 'e', 'g', 'a', 'g', 'Ġ', 'c', 'g', 'a', 'g', 'a', 'c', 'g', 'e', 'g', 'Ġ', 'e', 'g', 'Ġ', 'g', 'Ġ', 'Ġ', 'g', 'Ġ', 'Ġ', 'g', 'e', 'g', 'g', 'e', 'g', 'g', 'Ġ', 'g', 'Ġ', 'g', 'a', 'g', 'g', 'e', 'Ġ', 'g', 'e', 'g', 'g', 'e', 'g', 'Ġ', 'g', 'e', 'g', 'e', 'e', 'g', 'e']
 >>>
 
 
