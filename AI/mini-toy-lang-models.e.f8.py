@@ -31,7 +31,7 @@ import re
 import numpy as np
 
 
-model_name1='gpt2'
+#model_name1='gpt2'
 
 
 #text = "[CLS] Who was Jim Henson ? [SEP] Jim Henson was a puppeteer [SEP]"
@@ -96,11 +96,14 @@ tokenizer.pre_tokenizer = tokenizers.pre_tokenizers.ByteLevel( add_prefix_space=
 tokenizer.pre_tokenizer.pre_tokenize_str("Let's test pre-tokenization!")
 
 #trainer = trainers.BpeTrainer(vocab_size=25000, special_tokens=["<|endoftext|>"])
-trainer = tokenizers.trainers.BpeTrainer(vocab_size=25, special_tokens=["<|endoftext|>"])
-trainer = tokenizers.trainers.BpeTrainer(vocab_size=10, special_tokens=["<|endoftext|>"])
+#trainer = tokenizers.trainers.BpeTrainer(vocab_size=25, special_tokens=["<|endoftext|>"])
+#trainer = tokenizers.trainers.BpeTrainer(vocab_size=10, special_tokens=["<|endoftext|>"])
 trainer = tokenizers.trainers.BpeTrainer(vocab_size=9, special_tokens=["<|endoftext|>"])
-tokenizer.train(["minitext-1.txt"], trainer=trainer)
-
+#trainer = tokenizers.trainers.BpeTrainer(vocab_size=11, special_tokens=["<|endoftext|>"])
+tokenizer.train([
+"minitext-ABCDEF.txt"
+ #   "minitext-1.txt"
+    ], trainer=trainer)
 encoding = tokenizer.encode("Let's test this tokenizer.")
 encoding.tokens
 
@@ -112,10 +115,10 @@ encoding.tokens
 
 
 
-#%%
 
-25
-print(encoding.tokens)
+
+#25
+#print(encoding.tokens)
 ['Ġ', 'e', 'geg', 'ge', 'ege', 'Ġge', 'ag', 'Ġg', 'gag', 'geg', 'Ġeg', 'Ġ', 'a', 'Ġ', 'f', 'e', 'cgeeg', 'ag', 'Ġ', 'cgag', 'ac', 'geg', 'Ġeg', 'Ġg', 'Ġ', 'Ġg', 'Ġ', 'Ġgeggeg', 'g', 'Ġg', 'Ġg', 'ag', 'ge', 'Ġgeggeg', 'Ġge', 'ge', 'ege']
 >>>
 
@@ -127,17 +130,16 @@ tokenizer.get_vocab()
 dir(tokenizer)
 type(tokenizer)
 
-tokenizer.save("code-search-net-tokenizer.json")
+tokname="abcdef.f8.tokenizer.json"
+tokenizer.save(tokname)
 
 #IMPORTANT
-t=tokenizers.Tokenizer.from_file("code-search-net-tokenizer.json")
-
-t0=tokenizer
-tokenizer=t
+tokenizer=tokenizers.Tokenizer.from_file(tokname)
 
 
 
->>> print(encoding.tokens)
+encoding = tokenizer.encode(    "Letgeggeege geag ggaggeg eg a fecgeegag cgag" "acgeg eg g  g  geggegg g gagge geggeg gegeeger."    )
+print(encoding.tokens)
 ['Ġ', 'e', 'g', 'e', 'g', 'g', 'e', 'e', 'g', 'e', 'Ġ', 'g', 'e', 'a', 'g', 'Ġ', 'g', 'g', 'a', 'g', 'g', 'e', 'g', 'Ġ', 'e', 'g', 'Ġ', 'a', 'Ġ', 'f', 'e', 'c', 'g', 'e', 'e', 'g', 'a', 'g', 'Ġ', 'c', 'g', 'a', 'g', 'a', 'c', 'g', 'e', 'g', 'Ġ', 'e', 'g', 'Ġ', 'g', 'Ġ', 'Ġ', 'g', 'Ġ', 'Ġ', 'g', 'e', 'g', 'g', 'e', 'g', 'g', 'Ġ', 'g', 'Ġ', 'g', 'a', 'g', 'g', 'e', 'Ġ', 'g', 'e', 'g', 'g', 'e', 'g', 'Ġ', 'g', 'e', 'g', 'e', 'e', 'g', 'e']
 >>>
 
