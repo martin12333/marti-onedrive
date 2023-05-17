@@ -61,7 +61,7 @@ text=re.sub(  r'[`]'  ,   ' ' , text)
 
 
 
-
+#%%
 
 
 FAIL
@@ -83,16 +83,15 @@ tokenizer.backend_tokenizer.pre_tokenizer.pre_tokenize_str("Hello, how are  you?
 
 
 
-
+#%%
  SUCCESS AFTER LONG FIGHT
 #tokenizer = Tokenizer(models.BPE())
 tokenizer = tokenizers.Tokenizer( tokenizers.models.BPE())
 
 #tokenizer.pre_tokenizer = pre_tokenizers.ByteLevel(add_prefix_space=False)
 tokenizer.pre_tokenizer = tokenizers.pre_tokenizers.ByteLevel( add_prefix_space=True )
-tokenizers.models
-tokenizers.pre_tokenizers
-
+#tokenizers.models
+#tokenizers.pre_tokenizers
 
 tokenizer.pre_tokenizer.pre_tokenize_str("Let's test pre-tokenization!")
 
@@ -108,6 +107,56 @@ encoding.tokens
 
 
 
+
+
+
+
+
+#%%
+
+25
+print(encoding.tokens)
+['Ġ', 'e', 'geg', 'ge', 'ege', 'Ġge', 'ag', 'Ġg', 'gag', 'geg', 'Ġeg', 'Ġ', 'a', 'Ġ', 'f', 'e', 'cgeeg', 'ag', 'Ġ', 'cgag', 'ac', 'geg', 'Ġeg', 'Ġg', 'Ġ', 'Ġg', 'Ġ', 'Ġgeggeg', 'g', 'Ġg', 'Ġg', 'ag', 'ge', 'Ġgeggeg', 'Ġge', 'ge', 'ege']
+>>>
+
+
+
+print(encoding)
+tokenizer.to_str()
+tokenizer.get_vocab()
+dir(tokenizer)
+type(tokenizer)
+
+tokenizer.save("code-search-net-tokenizer.json")
+
+#IMPORTANT
+t=tokenizers.Tokenizer.from_file("code-search-net-tokenizer.json")
+
+t0=tokenizer
+tokenizer=t
+
+
+
+>>> print(encoding.tokens)
+['Ġ', 'e', 'g', 'e', 'g', 'g', 'e', 'e', 'g', 'e', 'Ġ', 'g', 'e', 'a', 'g', 'Ġ', 'g', 'g', 'a', 'g', 'g', 'e', 'g', 'Ġ', 'e', 'g', 'Ġ', 'a', 'Ġ', 'f', 'e', 'c', 'g', 'e', 'e', 'g', 'a', 'g', 'Ġ', 'c', 'g', 'a', 'g', 'a', 'c', 'g', 'e', 'g', 'Ġ', 'e', 'g', 'Ġ', 'g', 'Ġ', 'Ġ', 'g', 'Ġ', 'Ġ', 'g', 'e', 'g', 'g', 'e', 'g', 'g', 'Ġ', 'g', 'Ġ', 'g', 'a', 'g', 'g', 'e', 'Ġ', 'g', 'e', 'g', 'g', 'e', 'g', 'Ġ', 'g', 'e', 'g', 'e', 'e', 'g', 'e']
+>>>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#%%
 SAVE AND FROM_ HELPED TO GET RID OF THIS ERROR
 >>> encoding = tokenizer.encode(
 ... " g"
@@ -138,29 +187,6 @@ encoding = tokenizer.encode(    "Letgeggeege geag ggaggeg eg a fecgeegag cgag"
 )
 
 
-print(encoding.tokens)
-['Ġ', 'e', 'geg', 'ge', 'ege', 'Ġge', 'ag', 'Ġg', 'gag', 'geg', 'Ġeg', 'Ġ', 'a', 'Ġ', 'f', 'e', 'cgeeg', 'ag', 'Ġ', 'cgag', 'ac', 'geg', 'Ġeg', 'Ġg', 'Ġ', 'Ġg', 'Ġ', 'Ġgeggeg', 'g', 'Ġg', 'Ġg', 'ag', 'ge', 'Ġgeggeg', 'Ġge', 'ge', 'ege']
->>>
-
-print(encoding)
-tokenizer.to_str()
-tokenizer.get_vocab()
-dir(tokenizer)
-type(tokenizer)
-
-tokenizer.save("code-search-net-tokenizer.json")
-
-#IMPORTANT
-t=tokenizers.Tokenizer.from_file("code-search-net-tokenizer.json")
-
-t0=tokenizer
-tokenizer=t
-
-
-
->>> print(encoding.tokens)
-['Ġ', 'e', 'g', 'e', 'g', 'g', 'e', 'e', 'g', 'e', 'Ġ', 'g', 'e', 'a', 'g', 'Ġ', 'g', 'g', 'a', 'g', 'g', 'e', 'g', 'Ġ', 'e', 'g', 'Ġ', 'a', 'Ġ', 'f', 'e', 'c', 'g', 'e', 'e', 'g', 'a', 'g', 'Ġ', 'c', 'g', 'a', 'g', 'a', 'c', 'g', 'e', 'g', 'Ġ', 'e', 'g', 'Ġ', 'g', 'Ġ', 'Ġ', 'g', 'Ġ', 'Ġ', 'g', 'e', 'g', 'g', 'e', 'g', 'g', 'Ġ', 'g', 'Ġ', 'g', 'a', 'g', 'g', 'e', 'Ġ', 'g', 'e', 'g', 'g', 'e', 'g', 'Ġ', 'g', 'e', 'g', 'e', 'e', 'g', 'e']
->>>
 
 
 
@@ -169,6 +195,12 @@ tokenizer=t
 
 
 
+
+
+
+
+
+#%%
 
 
 this FQAILED 256 SIZE OF VOCAB
