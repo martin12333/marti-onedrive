@@ -591,6 +591,31 @@ pip install    --dry-run   plotly
 pip install    plotly
 
 
+pip install     --dry-run    tokenizers
+#pip install tokenizers
+
+cd AI
+wget https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt
+
+
+
+
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -17,6 +17,7 @@ f1 py sel interpr
 #& 'D:\conda\shell\condabin\conda-hook.ps1'  ;  conda activate pip310
 
 
+from logging import shutdown
 import sys, os
 
 sys.st
@@ -225,7 +226,7 @@ C:\Users\marti\AppData\Local\Temp\ipykernel_23140\1796901329.py:16: DeprecationW
 
 
 
-
+##shutdown  /?
 
 
 

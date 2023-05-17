@@ -18,12 +18,20 @@ $env:path
 python -i -u
 
 
+from transformers import AutoTokenizer
+from transformers import GPT2Tokenizer
+
+import tokenizers
+
 import torch
 
 #from transformers import AutoModelForCausalLM, AutoConfig, AutoTokenizer
 
 import re
+import numpy as np
 
+
+model_name1='gpt2'
 
 
 #text = "[CLS] Who was Jim Henson ? [SEP] Jim Henson was a puppeteer [SEP]"
@@ -41,10 +49,25 @@ text=re.sub(  r'[e]'  ,   'a' , text)
 text=re.sub(  r'[c-z]'  ,   'b' , text)
 text
 
-
-
+# convert a string named `text` to a list of ascii codes
+ascii_codes = [ord(c) for c in text]
+ascii_codes
+np.array(ascii_codes) - 96
 
 torch.
+
+
+
+
+
+#tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
+tokenizer = AutoTokenizer.from_pretrained(model_name1)
+print(type(tokenizer.backend_tokenizer))
+##print(tokenizer.backend_tokenizer.normalizer.normalize_str("Héllò hôw are ü?"))
+
+tokenizer = AutoTokenizer.from_pretrained("gpt2")
+tokenizer.backend_tokenizer.pre_tokenizer.pre_tokenize_str("Hello, how are  you?")
+
 
 
 quit()
@@ -58,3 +81,4 @@ quit()
 #gpt3
 
 # The mistake is that the re.sub should use the '^' character at the beginning of the pattern to indicate that the pattern should match at the beginning of the string. Additionally, the pattern should include the '$' character at the end to indicate that the pattern should match at the end of the string.
+
