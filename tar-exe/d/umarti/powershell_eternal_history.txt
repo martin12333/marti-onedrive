@@ -7682,3 +7682,5 @@ git push   -vv
 git add -vv  'AI*/*.ipynb'
 git commit -v -a -m add
 git push   -vv
+git commit -v -a -m ...
+git push   -vv
