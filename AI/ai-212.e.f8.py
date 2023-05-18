@@ -4,7 +4,9 @@ pwsh
 #& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate 'D:\conda'
 
 
-cd d:\  ;   jupyter lab
+cd ~\Onedrive\AI   ;   jupyter lab
+#cd ~\Onedrive   ;   jupyter lab
+#cd d:\  ;   jupyter lab
 
 
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;  conda activate pip310;  code AI
