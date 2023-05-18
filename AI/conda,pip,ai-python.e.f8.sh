@@ -5,9 +5,10 @@ pwsh
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
 #& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate 'D:\conda'
 
-cd d:\  ;   jupyter lab
 
-
+cd ~\Onedrive\AI   ;   jupyter lab
+#cd ~\Onedrive   ;   jupyter lab
+#cd d:\  ;   jupyter lab
 
 
 
@@ -42,7 +43,7 @@ D:                       78056    72159      5898   93% /d
 D:                       78056    72182      5875   93% /d
 D:                       78056    72429      5628   93% /d
 D:                       78056  74691      3366  96% /d
-
+D:                       78056  75711      2346  97% /d
 
 
 
