@@ -16,37 +16,13 @@ f1 py sel interpr
 
 
 
-#& 'D:\conda\shell\condabin\conda-hook.ps1'  ;  conda activate pip310
-
-
-from logging import shutdown
-import sys, os
-
-sys.st
-
-
-import torch
-
-torch.
-
-
-#%%
-import numpy as np
-
-np.
-
-
-
-
-#%%
-
-
-
 python -i -u
 #ipython -i -u
 ipython -i
 
 
+
+#%%
 
 model_name = "gpt2"    ##small
 
