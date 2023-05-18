@@ -7675,3 +7675,7 @@ git commit -v -a -m add
 git push   -vv
 git commit -v -a -m ...
 git push   -vv
+conda activate base
+bash -c 'df -m'
+git commit -v -a -m ...
+git push   -vv
