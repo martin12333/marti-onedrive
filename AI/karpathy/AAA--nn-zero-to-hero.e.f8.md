@@ -15,9 +15,12 @@
 
 **\###** my errors
 
-**#todo**
+**#todo** my todos
 
 
+(I should check my notations, whether they aren't already used  in 
+ \*.f8.\*
+)
 
 
 # karpathy/nn-zero-to-hero
@@ -53,4 +56,3 @@ https://discord.com/channels/1020383067459821711/1029849706404249621
 https://github.com/search?q=karpathy--hero&type=repositories&s=updated&o=desc
 
 
-#mm test: searched for \#aaaa  in \*.f8.\*
