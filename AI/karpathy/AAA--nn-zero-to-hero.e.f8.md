@@ -1,5 +1,5 @@
 
-\# !! my edits in others' code  '
+\#mm my edits in others' code  '   //   formerly "# !!"
 
 \# my highlights
  #aa
@@ -22,6 +22,7 @@ random.seed(1337)
 
 https://github.com/karpathy/nn-zero-to-hero
 https://github.com/karpathy/nn-zero-to-hero/tree/master/lectures/makemore
+
 https://github.com/karpathy/micrograd
 https://github.com/karpathy/makemore
 
