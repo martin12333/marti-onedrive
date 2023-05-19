@@ -15,11 +15,10 @@
 
 **\###** my errors
 
-**#todo** my todos
+**#mmtodo** my todos
 
 
-(I should check my notations, whether they aren't already used  in 
- \*.f8.\*
+(I should check my notations, whether they are not already used, with a different meaning,  by other authors  in  the local files
 )
 
 
