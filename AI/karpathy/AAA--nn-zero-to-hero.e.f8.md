@@ -15,6 +15,11 @@
 
 **\###** my errors
 
+**#todo**
+
+
+
+
 # karpathy/nn-zero-to-hero
 
 #aaa
