@@ -1,5 +1,5 @@
 
-\#mm my edits in others' code  '   //   formerly "# !!"
+\#mm MartinMilan's edits in others' code     //   formerly "# !!"
 
 \# my highlights
  #aa
@@ -12,12 +12,16 @@
 http://karpathy.github.io/2019/04/25/recipe/
 A Recipe for Training Neural Networks
 
-#aaa
+#aaaa
 ```
-torch. ...?
 np.random.seed(1337)
 random.seed(1337)
+g = torch.Generator().manual_seed(2147483647)
+p = torch.rand(3, generator=g)
+
 ```
+https://stackoverflow.com/questions/71625027/why-cant-i-use-g-torch-generator-g-manual-seed0-torch-randint-100-10
+
 
 
 https://github.com/karpathy/nn-zero-to-hero
