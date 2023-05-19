@@ -1,4 +1,6 @@
 
+### my annotations marked with '#'
+
 \#mm MartinMilan's edits in others' code     //   formerly "# !!"
 
 \# my highlights
@@ -7,6 +9,9 @@
  #aaaa  //searched in \*.f8.\*
  #aaaa.a
 
+\### my errors
+
+## karpathy/nn-zero-to-hero
 
 #aaa
 http://karpathy.github.io/2019/04/25/recipe/
