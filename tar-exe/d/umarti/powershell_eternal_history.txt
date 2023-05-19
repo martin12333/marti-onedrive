@@ -7713,3 +7713,10 @@ git commit -v -a -m ...
 git push   -vv
 git commit -v -a -m ...
 git push   -vv
+git commit -v -a -m ...
+git push   -vv
+git show --name-only
+cd karpathy
+conda activate pip310
+mv lide OLDlide
+ls

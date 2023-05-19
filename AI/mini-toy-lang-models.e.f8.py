@@ -268,3 +268,11 @@ quit()
 
 # The mistake is that the re.sub should use the '^' character at the beginning of the pattern to indicate that the pattern should match at the beginning of the string. Additionally, the pattern should include the '$' character at the end to indicate that the pattern should match at the end of the string.
 
+conda activate pip310
+
+
+cd karpathy
+mv lide OLDlide
+ls
+
+
