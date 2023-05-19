@@ -1,17 +1,21 @@
 
-### my annotations marked with '#'
+## my annotations marked with '#'
 
-\#mm MartinMilan's edits in others' code     //   formerly "# !!"
+**\#mm** ... MartinMilan's edits in others' code     //   formerly "# !!"
 
-\# my highlights
- #aa
- #aaa
- #aaaa  //searched in \*.f8.\*
- #aaaa.a
+**\#aa**
 
-\### my errors
+**\#aaa**
 
-## karpathy/nn-zero-to-hero
+**\#aaaa** 
+
+**\#aaaa.a**
+
+ ... my highlights
+
+**\###** my errors
+
+# karpathy/nn-zero-to-hero
 
 #aaa
 http://karpathy.github.io/2019/04/25/recipe/
@@ -43,3 +47,5 @@ https://discord.com/channels/1020383067459821711/1029849706404249621
 
 https://github.com/search?q=karpathy--hero&type=repositories&s=updated&o=desc
 
+
+#mm test: searched for \#aaaa  in \*.f8.\*
