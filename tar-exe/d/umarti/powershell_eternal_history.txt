@@ -7720,3 +7720,6 @@ cd karpathy
 conda activate pip310
 mv lide OLDlide
 ls
+git commit -v -a -m ...
+git push   -vv
+git add -vv  'AI*/*.ipynb'
