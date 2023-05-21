@@ -573,6 +573,16 @@ conda create --name pip310  --clone torch_nonpip310
 conda activate pip310
 
 
+
+
+
+https://pip.pypa.io/en/stable/topics/caching/#avoiding-caching
+
+pip tries to use its cache whenever possible, and it is designed do the right thing by default.
+
+
+
+
 bash -c 'df -m'
 D:                       78056    74743      3314   96% /d
 D:                       78056  75283      2774  97% /d
