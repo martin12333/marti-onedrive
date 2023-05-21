@@ -55,3 +55,11 @@ https://discord.com/channels/1020383067459821711/1029849706404249621
 https://github.com/search?q=karpathy--hero&type=repositories&s=updated&o=desc
 
 
+
+
+
+
+
+https://lossfunctions.tumblr.com/
+
+
