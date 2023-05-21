@@ -7788,3 +7788,5 @@ conda config  --verbose   --env --set channel_priority strict
 conda config --env --get channel_priority
 conda activate pip310
 git add -vv  '*.f8.*'
+git commit -v -a -m  refactor
+git push   -vv
