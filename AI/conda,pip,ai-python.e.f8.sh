@@ -410,13 +410,6 @@ conda install pandas
 
 
 
-
-
-
-
-
-
-
 next time
 
 
@@ -431,6 +424,18 @@ probably ... because scikit-learn
 
 conda search scipy
 1.10
+
+
+
+conda search ipympl
+#pip install --dry-run ipympl
+#pip list
+
+
+
+
+
+
 
 
 
@@ -463,6 +468,15 @@ regex = "!=2019.12.17"
 tqdm = ">=4.27"
 torch = ["torch (>=1.9,!=1.12.0)"]
 "tensorflow (>=2.4,<2.13)",
+
+
+
+
+
+
+
+
+
 
 
 conda create --name torch_nonpip310 --clone jupsci_nonpip310
