@@ -278,13 +278,17 @@ WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 	git commit -v -a -m add
 	git push   -vv
 
+	git add -vv  'AI*/*.ipynb'
+
 	git commit -v -a -m ...
 	git push   -vv
 
 	git commit -v -a -m add
 	git add -vv  'AI*/my*.ps1'
 	git add -vv  'AI*/ls-l*.txt'
+
 	git add -vv  'AI*/*.ipynb'
+
 
 	git show --name-only
 	git show
