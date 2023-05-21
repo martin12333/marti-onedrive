@@ -7771,3 +7771,20 @@ git push   -vv
 git add -vv  '*.f8.*'
 git commit -v -a -m  partial-refactor
 git push   -vv
+git add -vv  '*.f8.*'
+git commit -v -a -m  refactor
+git push   -vv
+conda config --describe channel_priority
+conda config --env --get channel_priority
+conda config --env --set channel_priority strict
+conda config --env --get channel_priority
+conda config --describe channel_priority
+conda config --env   --describe channel_priority
+conda config --env --get channel_priority
+conda config  --verbose   --env --set channel_priority strict
+conda config --env --get channel_priority
+conda activate torch_nonpip310
+conda config  --verbose   --env --set channel_priority strict
+conda config --env --get channel_priority
+conda activate pip310
+git add -vv  '*.f8.*'

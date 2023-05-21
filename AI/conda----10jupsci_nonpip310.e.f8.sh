@@ -20,6 +20,11 @@ conda create -n jupsci_nonpip310
 
 conda activate jupsci_nonpip310
 
+next time?
+this env should not use any -c channels
+conda config  --verbose   --env --set channel_priority strict
+conda config --env --get channel_priority
+
 
 
 #blind_alley

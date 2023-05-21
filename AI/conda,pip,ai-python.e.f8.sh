@@ -16,11 +16,25 @@ cd ~\Onedrive\AI   ;   jupyter lab
 
 
 https://stackoverflow.com/questions/66390775/does-setting-channel-priority-to-strict-affect-all-conda-environments
-nd yes, switching to conda-forge as your highest priority channel when your base was originally from Anaconda is formidable. Better off leaving base with the defaults channel prioritized or switching to Miniforge.
+nd yes, switching to conda-forge as your highest priority channel when your base was originally from Anaconda is
+ formidable.
+  Better off leaving base with the defaults channel prioritized or switching to Miniforge.
 
+#conda config --env   --describe channel_priority
 conda config --describe channel_priority
 
-conda config --env --set channel_priority strict
+# # channel_priority (ChannelPriority)
+# #   Accepts values of 'strict', 'flexible', and 'disabled'. The default
+# #   value is 'flexible'. With strict channel priority, packages in lower# #   priority channels are not considered if a package with the same name# #   appears in a higher priority channel. With flexible channel priority,# #   the solver may reach into lower priority channels to fulfill
+# #   dependencies, rather than raising an unsatisfiable error. With channel
+# #   priority disabled, package version takes precedence, and the
+# #   configured priority of channels is used only to break ties. In    # #   previous versions of conda, this parameter was configured as either
+# #   True or False. True is now an alias to 'flexible'.
+
+# ## channel_priority: flexible
+
+conda config  --verbose   --env --set channel_priority strict
+conda config --env --get channel_priority
 
 
 #but i have only the dfaults channel ... not true ... inline -c
@@ -340,6 +354,11 @@ C:\Users\marti\OneDrive\AI\conda----20torch_nonpip310.e.f8.sh
 
 
 
+C:\Users\marti\OneDrive\AI\pip----30pip310.e.f8.sh
+
+https://pip.pypa.io/en/stable/topics/caching/#avoiding-caching
+
+pip tries to use its cache whenever possible, and it is designed do the right thing by default.
 
 
 

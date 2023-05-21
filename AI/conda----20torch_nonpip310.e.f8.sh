@@ -61,7 +61,15 @@ torch = ["torch (>=1.9,!=1.12.0)"]
 conda create --name torch_nonpip310 --clone jupsci_nonpip310
 
 conda activate torch_nonpip310
-conda activate base
+
+next time?
+conda config  --verbose   --env --set channel_priority strict
+conda config --env --get channel_priority
+
+
+
+
+
 
 bash -c 'df -m'
 

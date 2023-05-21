@@ -38,6 +38,10 @@ conda create --name pip310  --clone torch_nonpip310
 conda activate pip310
 
 
+conda config  --verbose   --env --set channel_priority strict
+conda config --env --get channel_priority
+
+
 
 
 
