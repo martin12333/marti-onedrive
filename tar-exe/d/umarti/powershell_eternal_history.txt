@@ -7790,3 +7790,6 @@ conda activate pip310
 git add -vv  '*.f8.*'
 git commit -v -a -m  refactor
 git push   -vv
+git add -vv  '*.f8.*'
+git commit -v -a -m ...
+git push   -vv
