@@ -7762,3 +7762,5 @@ pip list
 git commit -v -a -m ...
 git push   -vv
 cd ~\Onedrive\AI   ;   jupyter lab
+git commit -v -a -m  before-refactor
+git push   -vv
