@@ -283,6 +283,10 @@ exit
 bash
 du -m     $( pip cache dir) |  sort -n
 
+
+
+
+
 | findstr tens
   pip cache info
   pip cache list "tensorflow*"
@@ -544,10 +548,11 @@ probably ...
 
 conda search scikit-learn
 1.2
-conda search scikit-learn -c conda-forge
+#conda search scikit-learn -c conda-forge
+1.2
 
-
-
+pip install --dry-run scikit-learn
+pip install    scikit-learn
 
 
 

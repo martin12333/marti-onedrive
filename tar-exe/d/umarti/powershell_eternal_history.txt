@@ -7740,3 +7740,6 @@ conda search scipy
 conda env list
 conda search scikit-learn
 conda search scikit-learn -c conda-forge
+git commit -v -a -m ...
+git push   -vv
+pip install --dry-run scikit-learn
