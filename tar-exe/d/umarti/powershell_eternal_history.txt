@@ -7768,3 +7768,6 @@ git commit -v -a -m  partial-refactor
 git add -vv  '*.f8.*'
 git commit -v -a -m  partial-refactor
 git push   -vv
+git add -vv  '*.f8.*'
+git commit -v -a -m  partial-refactor
+git push   -vv
