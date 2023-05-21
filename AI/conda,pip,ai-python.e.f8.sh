@@ -89,7 +89,7 @@ still
 
 
 
-pseudo
+pseudosh
 restore-point
 
 off active protection in acronis
@@ -395,6 +395,36 @@ conda uninstall pandas
 
 conda install pandas
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+next time
+probably ... because scikit-learn
+
+conda search scipy
+1.10
+
+
+
+
+
+
+
+
+
+
+
+
 https://github.com/neelnanda-io/TransformerLens/blob/9e034eef796ed32b0e473ca9f3c9d31e5d5046e7/poetry.lock
 9e034eef796ed32b0e473ca9f3c9d31e5d5046e7
 https://github.com/neelnanda-io/TransformerLens/blob/main/poetry.lock#L4029
@@ -509,6 +539,12 @@ conda install      -c huggingface transformers==4.28.1
 
 
 
+next time
+probably ...
+
+conda search scikit-learn
+1.2
+conda search scikit-learn -c conda-forge
 
 
 
@@ -520,6 +556,11 @@ conda install      -c huggingface transformers==4.28.1
 
 
 
+
+
+
+
+conda env list
 #mamba
 
 conda create --name pip310  --clone torch_nonpip310

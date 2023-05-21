@@ -7731,3 +7731,12 @@ git commit -v -a -m ...
 git push   -vv
 git commit -v -a -m ...
 git push   -vv
+git commit -v -a -m ...
+git push   -vv
+conda list
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
+conda env list
+conda search scipy
+conda env list
+conda search scikit-learn
+conda search scikit-learn -c conda-forge
