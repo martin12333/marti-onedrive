@@ -311,6 +311,11 @@ D:                       78056    72803      5254   94% /d
 D:                       78056    72269      5788   93% /d
 
 
+
+
+
+
+
 #next time py e.g. 3.10.10
 #next time
 conda create -n jupsci_nonpip310
@@ -413,6 +418,15 @@ conda install pandas
 
 
 next time
+
+
+
+https://docs.conda.io/projects/conda/en/latest/commands/install.html
+
+Conda attempts to install the newest versions of the requested packages. To accomplish this, it may update some packages that are already installed, or install additional packages. To prevent existing packages from updating, use the --freeze-installed option. This may force conda to install older versions of the requested packages, and it does not prevent additional dependency packages from being installed.
+
+
+
 probably ... because scikit-learn
 
 conda search scipy
