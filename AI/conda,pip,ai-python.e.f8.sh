@@ -22,9 +22,7 @@ conda config --describe channel_priority
 conda config --env --set channel_priority strict
 
 
-
-
-
+#but i have only the dfaults channel ... not true ... inline -c
 
 cmd /c dir d:\conda /a
                2 Dir(s)   6,540,431,360 bytes free
@@ -489,13 +487,6 @@ bash -c 'df -m'
 D:                       78056    73749      4308   95% /d
 #bash -c 'du -sm  /d/conda'
 171     /d/conda
-
-
-
-
-
-
-
 
 
 

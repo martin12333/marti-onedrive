@@ -7757,3 +7757,8 @@ git push   -vv
 git add -vv  'AI*/*.ipynb'
 git commit -v -a -m add
 git push   -vv
+conda search ipympl
+pip list
+git commit -v -a -m ...
+git push   -vv
+cd ~\Onedrive\AI   ;   jupyter lab
