@@ -7764,3 +7764,7 @@ git push   -vv
 cd ~\Onedrive\AI   ;   jupyter lab
 git commit -v -a -m  before-refactor
 git push   -vv
+git commit -v -a -m  partial-refactor
+git add -vv  '*.f8.*'
+git commit -v -a -m  partial-refactor
+git push   -vv

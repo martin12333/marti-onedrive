@@ -1,4 +1,4 @@
-conda----10jupsci_nonpip310.e.f8.sh
+#conda----10jupsci_nonpip310.e.f8.sh
 
 exit
 
@@ -135,39 +135,4 @@ conda search scipy
 
 
 
-
-
-
-
-
-
-https://github.com/neelnanda-io/TransformerLens/blob/9e034eef796ed32b0e473ca9f3c9d31e5d5046e7/poetry.lock
-9e034eef796ed32b0e473ca9f3c9d31e5d5046e7
-https://github.com/neelnanda-io/TransformerLens/blob/main/poetry.lock#L4029
-[[package]]
-name = "torch"
-version = "1.13.1"
-
-[[package]]
-name = "transformers"
-version = "4.28.1"
-
-files = [
-    {file = "transformers-4.28.1-py3-none-any.whl", hash = "sha256:f30a006220d0475789ac0e7c874f51bf5143956797616d89975b637883ce0be6"},
-    {file = "transformers-4.28.1.tar.gz", hash = "sha256:7334f8730cff7ac31d9ba5c12f2113fcb7a7a5b61eeb5dbbdb162117c3aaa2d1"},
-]
-
-regex = "!=2019.12.17"
-tqdm = ">=4.27"
-torch = ["torch (>=1.9,!=1.12.0)"]
-"tensorflow (>=2.4,<2.13)",
-
-
-
-
-
-maybe safer to postpone
-conda search ipympl
-#pip install --dry-run ipympl
-#pip list
 
