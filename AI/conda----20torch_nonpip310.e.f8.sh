@@ -181,16 +181,14 @@ pip install    scikit-learn
 
 
 
-
-
-
-
+kill -name tensorboard
+ tensorboard --logdir mylogdir
 
 conda search  tensorboard
 #pip install --dry-run  tensorboard
 #pip install   tensorboard
 tensorboard --help
-tensorboard 
+tensorboard
 
 TensorFlow installation not found - running with reduced feature set.
  --port PORT           Port to serve TensorBoard on. Pass 0 to
