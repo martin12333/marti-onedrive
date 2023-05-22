@@ -7827,3 +7827,11 @@ cmd
 kill -name tensorboard
 start tensorboard --logdir d:/ai/runs
 start --  tensorboard --logdir d:/ai/runs
+kill -name tensorboard
+cmd /c start tensorboard --logdir d:/ai/runs
+git commit -v -a -m ...
+git push   -vv
+! mkdir "d:/ai/runs"
+kill -name tensorboard
+kill -name tensorboard
+cmd /c start tensorboard --logdir d:/ai/runs

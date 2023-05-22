@@ -5,7 +5,9 @@
 #aaa
 tensorboard --logdir d:/AI/runs 
 
-\#kill -name tensorboard
+kill -name tensorboard
+
+! mkdir "d:/ai/runs"
 
 
 
