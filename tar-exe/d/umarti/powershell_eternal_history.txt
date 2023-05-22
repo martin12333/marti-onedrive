@@ -7851,3 +7851,5 @@ echo CWE-426--Untrusted-Search-Path
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
 code "C:\Users\marti\OneDrive\AI"
 cd ~\Onedrive\AI   ;   jupyter lab
+git commit -v -a -m ...
+git push   -vv
