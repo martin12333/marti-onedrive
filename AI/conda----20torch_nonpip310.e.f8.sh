@@ -183,7 +183,8 @@ conda search  tensorboard
 VS Code now has integrated TensorBoard support. Would you like to launch TensorBoard?  (Tip: Launch TensorBoard anytime by opening the command palette and searching for "Launch TensorBoard".)
 
 kill -name tensorboard
-cmd /c start tensorboard --logdir d:/ai/runs
+cmd /c start tensorboard --logdir d:/ai
+#/runs
 
 cmd
 notepad
@@ -191,8 +192,10 @@ taskkill /?
 taskkill /IM notepad.exe /f
 taskkill /IM "tensorboard*" /f
 !taskkill /IM "tensorboard*" /f
-start tensorboard --logdir d:/ai/runs
-!start tensorboard --logdir d:/ai/runs
+start tensorboard --logdir d:/ai
+#/runs
+!start tensorboard --logdir d:/ai
+#/runs
 exit
 
 tensorboard --help
