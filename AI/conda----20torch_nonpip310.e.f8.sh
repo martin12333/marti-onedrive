@@ -186,6 +186,9 @@ pip install    scikit-learn
 
 
 
+conda search  tensorboard
+#pip install --dry-run  tensorboard
+#pip install   tensorboard
 
 
 
