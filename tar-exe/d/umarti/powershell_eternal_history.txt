@@ -7837,3 +7837,17 @@ kill -name tensorboard
 cmd /c start tensorboard --logdir d:/ai/runs
 git commit -v -a -m ...
 git push   -vv
+git commit -v -a -m ...
+git push   -vv
+cd ~/OneDrive
+git add -vv  'AI*/*.ipynb'
+git commit -v -a -m ...
+git add -vv  '*.f8.*'
+git push   -vv
+#C:\pf\PowerShell\7\pwsh.exe -ExecutionPolicy ByPass  -NoExit -File     C:\Users\marti\OneDrive\ps-mylen-mar\myconda-code.ps1
+#C:\pf\PowerShell\7\pwsh.exe -ExecutionPolicy ByPass  -NoExit -File     C:\Users\marti\OneDrive\ps-mylen-mar\myconda-code.ps1
+# file:///C:\Users\marti\OneDrive\conda-dotfiles\CWE-426--Untrusted-Search-Path.f8.ps1
+echo CWE-426--Untrusted-Search-Path
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
+code "C:\Users\marti\OneDrive\AI"
+cd ~\Onedrive\AI   ;   jupyter lab

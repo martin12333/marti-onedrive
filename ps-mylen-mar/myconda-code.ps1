@@ -44,11 +44,24 @@ code   "C:\Users\marti\OneDrive\backup-f8\"
 sleep 20
 
 
+
+
+
 code "C:\Users\marti\OneDrive"
 #code .
 sleep 20
 
 
+
+#C:\pf\PowerShell\7\pwsh.exe -ExecutionPolicy ByPass  -NoExit -File     C:\Users\marti\OneDrive\ps-mylen-mar\myconda-code.ps1
+# file:///C:\Users\marti\OneDrive\conda-dotfiles\CWE-426--Untrusted-Search-Path.f8.ps1
+echo CWE-426--Untrusted-Search-Path
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
+code "C:\Users\marti\OneDrive\AI"
+
+
+
+sleep 20
 
 
 D:\msys64\msys2_shell.cmd -mingw64     -c  "D:/instu/emacs-28.2/emacs-28.2/bin/runemacs.exe"
