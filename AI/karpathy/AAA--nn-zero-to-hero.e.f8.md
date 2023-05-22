@@ -1,4 +1,15 @@
 
+
+##  tensorboard
+
+#aaa
+tensorboard --logdir d:/AI/runs 
+
+\#kill -name tensorboard
+
+
+
+
 ## my annotations marked with '#'
 
 **\#mm** ... MartinMilan's edits in others' code     //   formerly "# !!"
@@ -20,6 +31,13 @@
 
 (I should check my notations, whether they are not already used, with a different meaning,  by other authors  in  the local files
 )
+
+
+
+
+
+
+
 
 
 # karpathy/nn-zero-to-hero
@@ -61,5 +79,7 @@ https://github.com/search?q=karpathy--hero&type=repositories&s=updated&o=desc
 
 
 https://lossfunctions.tumblr.com/
+
+
 
 

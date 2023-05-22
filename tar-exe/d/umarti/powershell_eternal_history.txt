@@ -7812,3 +7812,18 @@ git commit -v -a -m ...
 git push   -vv
 git commit -v -a -m ...
 git push   -vv
+git commit -v -a -m ...
+git push   -vv
+notepad
+taskkill /?
+taskkill /IM notepad
+taskkill /IM notepad.exe
+taskkill /IM notepad.exe /f
+taskkill /IM "tensorboard*"
+taskkill /IM "tensorboard*" /f
+cmd
+start.exe tensorboard --logdir d:/ai/runs
+cmd
+kill -name tensorboard
+start tensorboard --logdir d:/ai/runs
+start --  tensorboard --logdir d:/ai/runs

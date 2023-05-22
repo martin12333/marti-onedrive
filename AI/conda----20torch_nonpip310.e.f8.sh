@@ -177,18 +177,25 @@ pip install    scikit-learn
 
 
 
-
-
-
-
-kill -name tensorboard
- tensorboard --logdir mylogdir
-
 conda search  tensorboard
 #pip install --dry-run  tensorboard
 #pip install   tensorboard
+
+
+kill -name tensorboard
+cmd /c start tensorboard --logdir d:/ai/runs
+
+cmd
+notepad
+taskkill /?
+taskkill /IM notepad.exe /f
+taskkill /IM "tensorboard*" /f
+!taskkill /IM "tensorboard*" /f
+start tensorboard --logdir d:/ai/runs
+!start tensorboard --logdir d:/ai/runs
+exit
+
 tensorboard --help
-tensorboard
 
 TensorFlow installation not found - running with reduced feature set.
  --port PORT           Port to serve TensorBoard on. Pass 0 to
@@ -197,6 +204,8 @@ TensorFlow installation not found - running with reduced feature set.
                         bind to the default port (6006) but search for
                         a nearby free port if the default port is
                         unavailable. (default: "default").
+
+
 
 
 
