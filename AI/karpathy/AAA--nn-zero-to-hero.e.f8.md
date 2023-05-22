@@ -9,6 +9,7 @@ kill -name tensorboard
 
 ! mkdir "d:/ai/runs"
 
+https://pytorch.org/docs/stable/tensorboard.html
 
 
 
