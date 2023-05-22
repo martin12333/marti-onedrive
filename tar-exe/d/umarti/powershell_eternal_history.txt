@@ -7804,3 +7804,7 @@ tensorboard --help
 tensorboard
 git commit -v -a -m ...
 git push   -vv
+kill -name tensorboard
+kill -name tensorboard
+git commit -v -a -m ...
+git push   -vv
