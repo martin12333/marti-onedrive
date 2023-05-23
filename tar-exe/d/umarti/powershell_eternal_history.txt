@@ -7889,3 +7889,13 @@ git commit -v -a -m " fix"
 git push   -vv
 git add -vv  'AI*/*.ipynb'
 git add -vv  'AI/*/*.ipynb'
+git add -vv  'AI*/*.ipynb'
+git add -vv  'AI/*/*.ipynb'
+git remove -vv --dry-run  'AI/karpathy/*'
+git rm -vv --dry-run  'AI/karpathy/*'
+git rm  --dry-run  'AI/karpathy/*'
+git commit -v -a -m  before-refactor
+git push   -vv
+git show --name-only
+git rm  --dry-run  'AI/karpathy/*'
+git rm   'AI/karpathy/*'
