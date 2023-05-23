@@ -27,7 +27,7 @@ https://pytorch.org/docs/stable/tensorboard.html
 
  ... my highlights
 
-**\###** my errors
+**\###** or **\###x** my errors
 
 **#mmtodo** my todos
 
