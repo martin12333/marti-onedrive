@@ -245,8 +245,9 @@ WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 	git add -vv  'AI*/*.ipynb'
 	git add -vv  'AI/*/*.ipynb'
 
-DELETES FILES
 git rm  --dry-run  'AI/karpathy/*'
+DELETES FILES
+DO MAKE AN EXTRA BACKUP
 #git rm   'AI/karpathy/*'
 
 Exhausting or weary solution.
