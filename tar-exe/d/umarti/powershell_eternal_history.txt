@@ -7921,3 +7921,12 @@ git push   -vv
 git add *173.png
 git add */*173.png
 git add '*/*173.png'
+git add  --dry-run   '*/*.png'
+git add  --dry-run   '*/*png'
+git add  --dry-run   '*/*/*png'
+bash
+git add -f --dry-run   'AI/*/*3.png'
+git add -f    'AI/*/*3.png'
+git add -f  -vv   'AI/*/*3.png'
+git commit -v -a -m ...
+git push   -vv
