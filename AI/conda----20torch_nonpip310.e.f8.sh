@@ -3,7 +3,6 @@
 exit
 
 
-pwsh
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
 #& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate 'D:\conda'
 
@@ -190,7 +189,9 @@ cmd
 notepad
 taskkill /?
 taskkill /IM notepad.exe /f
+
 taskkill /IM "tensorboard*" /f
+
 !taskkill /IM "tensorboard*" /f
 start tensorboard --logdir d:/ai
 #/runs

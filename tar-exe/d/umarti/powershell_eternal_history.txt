@@ -7862,3 +7862,9 @@ git push   -vv
 git add -vv  'AI*/*.ipynb'
 git commit -v -a -m ...
 git push   -vv
+git commit -v -a -m ...
+git push   -vv
+conda activate base
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
+taskkill /IM "tensorboard*" /f
+cmd /c start tensorboard --logdir d:/ai
