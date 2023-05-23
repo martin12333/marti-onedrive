@@ -250,6 +250,12 @@ DELETES FILES
 DO MAKE AN EXTRA BACKUP
 #git rm   'AI/karpathy/*'
 
+git add -f --dry-run   'AI/*/*3.png'
+git add -f  -vv   'AI/*/*3.png'
+# png needs -f
+bash
+exit
+
 Exhausting or weary solution.
 😩 Weary Face
 
