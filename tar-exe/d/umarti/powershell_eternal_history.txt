@@ -7899,3 +7899,14 @@ git push   -vv
 git show --name-only
 git rm  --dry-run  'AI/karpathy/*'
 git rm   'AI/karpathy/*'
+git add -vv  'AI/*/*.ipynb'
+git add -vv  'AI*/*.ipynb'
+git add -vv  '*.f8.*'
+git commit -v -a -m  " rename,move"
+git push   -vv
+DELETES FILES
+DO MAKE AN EXTRA BACKUP
+#git rm   'AI/karpathy/*'
+git push   -vv
+git commit -v -a -m " fix"
+git push   -vv
