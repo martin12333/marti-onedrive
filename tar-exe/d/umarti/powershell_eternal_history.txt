@@ -7877,3 +7877,11 @@ git push   -vv
 kill -name tensorboard
 kill -name tensorboard
 cmd /c start tensorboard --logdir d:/ai
+git commit -v -a -m ...
+git push   -vv
+kill -name tensorboard
+kill -name tensorboard
+cmd /c start tensorboard --logdir d:/ai
+tensorboard --help
+kill -name tensorboard
+cmd /c start tensorboard --logdir d:/ai

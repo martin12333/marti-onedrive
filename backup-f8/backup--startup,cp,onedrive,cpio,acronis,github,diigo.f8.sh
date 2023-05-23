@@ -245,6 +245,11 @@ WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 	git add -vv  'AI*/*.ipynb'
 
 
+Exhausting or weary solution.
+😩 Weary Face
+
+	git commit -v -a -m "🐛 fix"
+	git push   -vv
 
 	git show --name-only
 
