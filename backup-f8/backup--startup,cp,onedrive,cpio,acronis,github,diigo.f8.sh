@@ -243,7 +243,9 @@ WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 	git commit -v -a -m ...
 	git push   -vv
 	git add -vv  'AI*/*.ipynb'
+	git add -vv  'AI/*/*.ipynb'
 
+git rm  --dry-run  'AI/karpathy/*'
 
 Exhausting or weary solution.
 😩 Weary Face

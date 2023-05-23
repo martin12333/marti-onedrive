@@ -7885,3 +7885,7 @@ cmd /c start tensorboard --logdir d:/ai
 tensorboard --help
 kill -name tensorboard
 cmd /c start tensorboard --logdir d:/ai
+git commit -v -a -m " fix"
+git push   -vv
+git add -vv  'AI*/*.ipynb'
+git add -vv  'AI/*/*.ipynb'
