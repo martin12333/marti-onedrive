@@ -73,7 +73,6 @@ D:                       78056  75711      2346  97% /d
 
 
 
-
 conda --version
 ==> WARNING: A newer version of conda exists. <==
   current version: 4.12.0
@@ -81,15 +80,13 @@ conda --version
 
 conda update -n base -c defaults conda
 
-
-
-still
+then still
 
 ==> WARNING: A newer version of conda exists. <==
   current version: 4.12.0
   latest version: 23.3.1
 
-
+so I decided to install miniconda
 
 
 
