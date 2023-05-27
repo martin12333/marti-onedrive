@@ -8055,3 +8055,6 @@ conda list|findstr num
 conda list|findstr tr
 conda list|findstr -i tr
 pip list|findstr -i tra
+git commit -v -a -m ...
+git commit -v -a -m ...
+conda activate pip310
