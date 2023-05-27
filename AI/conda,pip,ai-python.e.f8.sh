@@ -346,14 +346,14 @@ C:\Users\marti\OneDrive\AI\conda----10jupsci_nonpip310.e.f8.sh
 
 
 
-C:\Users\marti\OneDrive\AI\conda----20torch_nonpip310.e.f8.sh
+C:\Users\marti\OneDrive\AI\conda----20torch_nonpip310.e.f8.sh  tensor
 
 
 
 
 
 
-# file:///C:\Users\marti\OneDrive\AI\pip----30pip310.e.f8.sh    tensor
+# file:///C:\Users\marti\OneDrive\AI\pip----30pip310.e.f8.sh
 
 https://pip.pypa.io/en/stable/topics/caching/#avoiding-caching
 
@@ -432,6 +432,7 @@ pip tries to use its cache whenever possible, and it is designed do the right th
 
 
 
+C:\Users\marti\OneDrive\AI\conda----20torch_nonpip310.e.f8.sh  tensor
 
 C:\Users\marti\OneDrive\AI\gpt-from-scratch.e.f8.py
 AI\gpt-from-scratch.e.f8.py
