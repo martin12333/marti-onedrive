@@ -105,7 +105,11 @@ so I decided to install miniconda
 pseudosh
 restore-point
 
+
+
 off active protection in acronis
+
+
 
 exit
 

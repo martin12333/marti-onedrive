@@ -7977,3 +7977,10 @@ tensorboard   --inspect         --logdir d:/ai
 cmd /c start tensorboard          --logdir d:/ai
 pip install caffe2
 bash -c 'df -m'
+git commit -v -a -m ...
+git add -vv  'AI*/*.ipynb'
+git commit -v -a -m ...
+git push   -vv
+taskkill /IM "tensorboard*" /f
+taskkill /IM "tensorboard*" /f
+bash -c 'df -m'

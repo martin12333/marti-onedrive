@@ -175,10 +175,16 @@ conda search ipympl
 
 
 
+CONFLICT tensorflow 2 pytorch 1 because tensorboard
+
+DONT next time: conda install
+DONT conda search  tensorflow
 
 
-next time: conda install
-conda search  tensorflow
+pip uninstall tensorflo
+Y
+
+
 
 taskkill /IM "tensorboard*" /f
 pip list tensorboard
@@ -195,6 +201,46 @@ https://pypi.org/search
 next time: conda install
 pip install  --dry-run tensorflow==2.11.0
 pip install     tensorflow==2.11.0
+
+
+
+
+
+
+(pip310) PS C:\Users\marti\picoGPT> pip uninstall tensorboard
+Found existing installation: tensorboard 2.13.0
+Uninstalling tensorboard-2.13.0:
+  Would remove:
+    d:\conda\envs\pip310\lib\site-packages\tensorboard-2.13.0.dist-info\*
+    d:\conda\envs\pip310\lib\site-packages\tensorboard\*
+    d:\conda\envs\pip310\scripts\tensorboard.exe
+Proceed (Y/n)? Y
+  Successfully uninstalled tensorboard-2.13.0
+
+
+
+
+  Attempting uninstall: tensorboard-data-server
+    Found existing installation: tensorboard-data-server 0.7.0
+    Uninstalling tensorboard-data-server-0.7.0:
+      Successfully uninstalled tensorboard-data-server-0.7.0
+  Attempting uninstall: protobuf
+    Found existing installation: protobuf 3.20.3
+    Uninstalling protobuf-3.20.3:
+      Successfully uninstalled protobuf-3.20.3
+  Attempting uninstall: google-auth-oauthlib
+    Found existing installation: google-auth-oauthlib 1.0.0
+    Uninstalling google-auth-oauthlib-1.0.0:
+      Successfully uninstalled google-auth-oauthlib-1.0.0
+
+
+Successfully installed astunparse-1.6.3 flatbuffers-23.5.26 gast-0.4.0 google-auth-oauthlib-0.4.6 google-pasta-0.2.0 h5py-3.8.0 keras-2.11.0 libclang-16.0.0 opt-einsum-3.3.0 protobuf-3.19.6 tensorboard-2.11.2 tensorboard-data-server-0.6.1 tensorboard-plugin-wit-1.8.1 tensorflow-2.11.0 tensorflow-estimator-2.11.0 tensorflow-intel-2.11.0 tensorflow-io-gcs-filesystem-0.31.0 termcolor-2.3.0 wrapt-1.15.0
+
+
+
+
+
+
 
 keras-2.11.0
  opt-einsum-3.3.0
