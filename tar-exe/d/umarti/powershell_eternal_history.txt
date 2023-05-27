@@ -7984,3 +7984,13 @@ git push   -vv
 taskkill /IM "tensorboard*" /f
 taskkill /IM "tensorboard*" /f
 bash -c 'df -m'
+git commit -v -a -m ...
+git push   -vv
+git show --name-only
+taskkill /IM "tensorboard*" /f
+conda activate base
+conda env remove -n pip310
+conda env list -v -v
+bash -c 'df -m'
+conda env list -v -v
+taskkill /IM "tensorboard*" /f

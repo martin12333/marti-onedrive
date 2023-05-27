@@ -109,6 +109,10 @@ restore-point
 
 off active protection in acronis
 
+save jup
+kill tensorboard
+
+
 
 
 exit
@@ -152,8 +156,13 @@ previous was  deleted from  the command line as well
 screenshots
 C:\Users\marti\Pictures\Screenshots
 
+
+
+
 forgot secu
 maybe i could choose 1 or 2 versions back, not the latest
+
+
 
 install miniconda
 C:\Users\marti\miniconda3
@@ -164,6 +173,9 @@ image.png
 C:\Users\marti\Pictures\Screenshots
 
 https://photos.google.com/share/AF1QipP3Ukkz4Wl11BGaGVu31yhFLj7H6Oy6soSuR1uQk1_nJeLYuQA7HpciBNXGp_wM_w?key=b0t4Q1M1Nk1nS2JLaUhFSmRmc1k4Smdfb3J3NXBR
+
+
+
 
 pseudo
 restore-point
@@ -232,6 +244,13 @@ bash -c 'df -m'
 D:                       78056    73766      4291   95% /d
 D:                       78056    72159      5898   93% /d
 D:                       78056    72729      5328   94% /d
+D:                       78056  75188      2869  97% /d
+
+
+
+
+
+
 conda activate base
 
 conda env list -v -v
@@ -247,7 +266,12 @@ conda env remove -n torch_nonpip1
 
 conda env remove -n jupsci_nonpip1
 conda env remove -n jupsci_nonpip310
+
+
+
+
 conda env remove -n pip310
+
 
 
 
@@ -339,7 +363,13 @@ next time
 
 https://docs.conda.io/projects/conda/en/latest/commands/install.html
 
-Conda attempts to install the newest versions of the requested packages. To accomplish this, it may update some packages that are already installed, or install additional packages. To prevent existing packages from updating, use the --freeze-installed option. This may force conda to install older versions of the requested packages, and it does not prevent additional dependency packages from being installed.
+Conda attempts to install the newest versions of the requested packages. To accomplish this, it may update some packages that are already installed, or install additional packages. To prevent existing packages from updating, use the
+
+--freeze-installed
+
+option. This may force conda to install older versions of the requested packages, and it does not prevent additional dependency packages from being installed.
+
+
 
 
 
@@ -358,7 +388,7 @@ C:\Users\marti\OneDrive\AI\conda----20torch_nonpip310.e.f8.sh  tensor
 
 
 
-# file:///C:\Users\marti\OneDrive\AI\pip----30pip310.e.f8.sh
+file:///C:\Users\marti\OneDrive\AI\pip----30pip310.e.f8.sh
 
 https://pip.pypa.io/en/stable/topics/caching/#avoiding-caching
 

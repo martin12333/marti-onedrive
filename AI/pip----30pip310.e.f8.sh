@@ -45,6 +45,8 @@ conda config --env --get channel_priority
 
 
 
+
+
 https://pip.pypa.io/en/stable/topics/caching/#avoiding-caching
 
 pip tries to use its cache whenever possible, and it is designed do the right thing by default.
@@ -52,9 +54,38 @@ pip tries to use its cache whenever possible, and it is designed do the right th
 
 
 
+
+
+
+
 bash -c 'df -m'
 D:                       78056    74743      3314   96% /d
 D:                       78056  75283      2774  97% /d
+
+
+
+
+
+
+#pip install --dry-run  tensorboard
+pip install   tensorboard
+kill -name tensorboard
+taskkill /IM "tensorboard*" /f
+###cmd /c start tensorboard   --inspect         --logdir d:/ai
+cmd /c start tensorboard          --logdir d:/ai
+#/runs
+
+tensorboard   --inspect         --logdir d:/ai
+
+
+
+
+
+
+##conda search ipympl
+pip install --dry-run ipympl
+pip install --dry-run ipympl
+
 
 
 
@@ -180,4 +211,21 @@ pip install caffe2
           from tools.setup_helpers.env import check_env_flag, check_negative_env_flag
       ModuleNotFoundError: No module named 'tools'
       [end of output]
+
+
+
+
+
+
+
+
+
+#conda search scikit-learn
+1.2
+#conda search scikit-learn -c conda-forge
+1.2
+
+pip install --dry-run scikit-learn
+pip install    scikit-learn
+
 

@@ -120,7 +120,11 @@ next time
 
 https://docs.conda.io/projects/conda/en/latest/commands/install.html
 
-Conda attempts to install the newest versions of the requested packages. To accomplish this, it may update some packages that are already installed, or install additional packages. To prevent existing packages from updating, use the --freeze-installed option. This may force conda to install older versions of the requested packages, and it does not prevent additional dependency packages from being installed.
+Conda attempts to install the newest versions of the requested packages. To accomplish this, it may update some packages that are already installed, or install additional packages. To prevent existing packages from updating, use the
+
+ --freeze-installed
+
+  option. This may force conda to install older versions of the requested packages, and it does not prevent additional dependency packages from being installed.
 
 
 

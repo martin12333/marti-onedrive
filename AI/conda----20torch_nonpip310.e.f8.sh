@@ -150,24 +150,18 @@ conda install      -c huggingface transformers==4.28.1
 
 
 
+
+
+
 next time
-probably ...
 
-conda search scikit-learn
-1.2
-#conda search scikit-learn -c conda-forge
-1.2
+https://docs.conda.io/projects/conda/en/latest/commands/install.html
 
-pip install --dry-run scikit-learn
-pip install    scikit-learn
+Conda attempts to install the newest versions of the requested packages. To accomplish this, it may update some packages that are already installed, or install additional packages. To prevent existing packages from updating, use the
 
+--freeze-installed
 
-
-
-
-conda search ipympl
-#pip install --dry-run ipympl
-#pip list
+option. This may force conda to install older versions of the requested packages, and it does not prevent additional dependency packages from being installed.
 
 
 
@@ -175,21 +169,27 @@ conda search ipympl
 
 
 
-CONFLICT tensorflow 2 pytorch 1 because tensorboard
+
+CONFLICT tensorflow 2 pytorch 1  tensorboard
 
 DONT next time: conda install
 DONT conda search  tensorflow
+DONT pip uninstall tensorfl DONT
 
 
-pip uninstall tensorflo
-Y
+
+TODO REFACTOR THIS TO A NEW FOILE
+24TF_NONPIP310
+
+
+
 
 
 
 taskkill /IM "tensorboard*" /f
-pip list tensorboard
-pip --help | findstr unin
-pip uninstall tensorboard
+###pip list tensorboard
+###pip --help | findstr unin
+###pip uninstall tensorboard
 Y
 
 C:\Users\marti\OneDrive\AI\gpt-from-scratch.e.f8.py
@@ -198,15 +198,15 @@ C:\Users\marti\picoGPT\requirements.txt
 https://pypi.org/search
 #pip search tensorflow
 
-next time: conda install
-pip install  --dry-run tensorflow==2.11.0
-pip install     tensorflow==2.11.0
+####next time: conda install
+###pip install  --dry-run tensorflow==2.11.0
+###pip install     tensorflow==2.11.0
 
 
 
 
 
-
+DONT
 (pip310) PS C:\Users\marti\picoGPT> pip uninstall tensorboard
 Found existing installation: tensorboard 2.13.0
 Uninstalling tensorboard-2.13.0:
@@ -216,9 +216,6 @@ Uninstalling tensorboard-2.13.0:
     d:\conda\envs\pip310\scripts\tensorboard.exe
 Proceed (Y/n)? Y
   Successfully uninstalled tensorboard-2.13.0
-
-
-
 
   Attempting uninstall: tensorboard-data-server
     Found existing installation: tensorboard-data-server 0.7.0
@@ -233,14 +230,7 @@ Proceed (Y/n)? Y
     Uninstalling google-auth-oauthlib-1.0.0:
       Successfully uninstalled google-auth-oauthlib-1.0.0
 
-
 Successfully installed astunparse-1.6.3 flatbuffers-23.5.26 gast-0.4.0 google-auth-oauthlib-0.4.6 google-pasta-0.2.0 h5py-3.8.0 keras-2.11.0 libclang-16.0.0 opt-einsum-3.3.0 protobuf-3.19.6 tensorboard-2.11.2 tensorboard-data-server-0.6.1 tensorboard-plugin-wit-1.8.1 tensorflow-2.11.0 tensorflow-estimator-2.11.0 tensorflow-intel-2.11.0 tensorflow-io-gcs-filesystem-0.31.0 termcolor-2.3.0 wrapt-1.15.0
-
-
-
-
-
-
 
 keras-2.11.0
  opt-einsum-3.3.0
@@ -248,7 +238,8 @@ keras-2.11.0
 
 
 
-conda search  tensorboard
+MOVED TO 30PIP
+##conda search  tensorboard
 #pip install --dry-run  tensorboard
 #pip install   tensorboard
 
@@ -284,12 +275,6 @@ tensorboard --help
 
 TensorFlow installation not found - running with reduced feature set.
  --port PORT           Port to serve TensorBoard on. Pass 0 to
-                        request an unused port selected by the
-                        operating system, or pass "default" to try to
-                        bind to the default port (6006) but search for
-                        a nearby free port if the default port is
-                        unavailable. (default: "default").
-
 
 
 
