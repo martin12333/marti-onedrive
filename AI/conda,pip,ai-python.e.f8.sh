@@ -59,7 +59,7 @@ D:                       78056    72182      5875   93% /d
 D:                       78056    72429      5628   93% /d
 D:                       78056  74691      3366  96% /d
 D:                       78056  75711      2346  97% /d
-
+D:                       78056  76254      1803  98% /d
 
 
 
@@ -353,7 +353,7 @@ C:\Users\marti\OneDrive\AI\conda----20torch_nonpip310.e.f8.sh
 
 
 
-C:\Users\marti\OneDrive\AI\pip----30pip310.e.f8.sh
+# file:///C:\Users\marti\OneDrive\AI\pip----30pip310.e.f8.sh    tensor
 
 https://pip.pypa.io/en/stable/topics/caching/#avoiding-caching
 
@@ -433,7 +433,7 @@ pip tries to use its cache whenever possible, and it is designed do the right th
 
 
 
-
+C:\Users\marti\OneDrive\AI\gpt-from-scratch.e.f8.py
 AI\gpt-from-scratch.e.f8.py
 ##dry run
   ##Downloading tensorflow_intel-2.11.0-cp310-cp310-win_amd64.whl (266.3 MB)

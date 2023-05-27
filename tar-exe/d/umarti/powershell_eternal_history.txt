@@ -7944,3 +7944,19 @@ git add -vv  'AI*/*.ipynb'
 git commit -v -a -m ...
 git show --name-only
 git commit -v -a -m ...
+git push   -vv
+git show --name-only
+bash -c 'df -m'
+cd picoGPT
+cd
+cd picoGPT
+code requirements.txt
+pip search tensorflow
+pip install  --dry-run tensorflow==2.11.0
+taskkill /IM "tensorboard*" /f
+pip list tensorboard
+pip --help | findstr remo
+pip --help | findstr unin
+pip uninstall tensorboard
+pip install     tensorflow==2.11.0
+conda search  tensorflow

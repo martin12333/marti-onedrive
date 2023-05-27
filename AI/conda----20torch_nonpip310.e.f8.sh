@@ -165,6 +165,9 @@ pip install    scikit-learn
 
 
 
+conda search ipympl
+#pip install --dry-run ipympl
+#pip list
 
 
 
@@ -172,6 +175,30 @@ pip install    scikit-learn
 
 
 
+
+
+next time: conda install
+conda search  tensorflow
+
+taskkill /IM "tensorboard*" /f
+pip list tensorboard
+pip --help | findstr unin
+pip uninstall tensorboard
+Y
+
+C:\Users\marti\OneDrive\AI\gpt-from-scratch.e.f8.py
+C:\Users\marti\picoGPT\requirements.txt
+
+https://pypi.org/search
+#pip search tensorflow
+
+next time: conda install
+pip install  --dry-run tensorflow==2.11.0
+pip install     tensorflow==2.11.0
+
+keras-2.11.0
+ opt-einsum-3.3.0
+ tensorboard-plugin-wit-1.8.1
 
 
 
@@ -213,12 +240,5 @@ TensorFlow installation not found - running with reduced feature set.
                         unavailable. (default: "default").
 
 
-
-
-
-
-conda search ipympl
-#pip install --dry-run ipympl
-#pip list
 
 
