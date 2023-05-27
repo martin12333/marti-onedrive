@@ -67,9 +67,10 @@ D:                       78056  75283      2774  97% /d
 
 
 
-#pip install --dry-run  tensorboard
+pip install --dry-run  tensorboard
 pip install   tensorboard
-kill -name tensorboard
+
+
 taskkill /IM "tensorboard*" /f
 ###cmd /c start tensorboard   --inspect         --logdir d:/ai
 cmd /c start tensorboard          --logdir d:/ai
@@ -84,7 +85,10 @@ tensorboard   --inspect         --logdir d:/ai
 
 ##conda search ipympl
 pip install --dry-run ipympl
-pip install --dry-run ipympl
+pip install     ipympl
+
+
+
 
 
 
@@ -107,9 +111,11 @@ pip install     gradio
 
 
 
+
+cd ~\Onedrive\AI   ;   jupyter lab
+
 cd d:\
 jupyter lab
-
 cd d:\AI
 
 git clone https://github.com/neelnanda-io/TransformerLens
@@ -126,6 +132,8 @@ D:                       78056  75451      2606  97% /d
 
 
 
+
+
 C:\Users\marti\OneDrive\AI\ai-212.e.f8.py
 default_text = "The following is a list of powers of 10: 1, 10, 100, 1000, 10000, 100000, 1000000, 10000000"
 
@@ -137,6 +145,7 @@ pip install   --dry-run    circuitsvis
 pip install    circuitsvis
 
   # PySvelte is an unmaintained visualization library, use it as a backup if circuitsvis isn't working\n",
+
 
  Attempting uninstall: importlib-metadata
     Found existing installation: importlib-metadata 6.0.0
@@ -179,8 +188,7 @@ wget https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab
 
 
 
-unnecessary
-
+unnecessary...
 something else brought-in the regex
 
 regex==2017.4.5 # used by the bpe tokenizer

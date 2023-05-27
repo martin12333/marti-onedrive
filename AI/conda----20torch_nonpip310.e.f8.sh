@@ -172,6 +172,10 @@ option. This may force conda to install older versions of the requested packages
 
 CONFLICT tensorflow 2 pytorch 1  tensorboard
 
+AttributeError: module 'tensorflow._api.v2.io.gfile' has no attribute 'get_filesystem'
+
+
+
 DONT next time: conda install
 DONT conda search  tensorflow
 DONT pip uninstall tensorfl DONT
@@ -276,5 +280,24 @@ tensorboard --help
 TensorFlow installation not found - running with reduced feature set.
  --port PORT           Port to serve TensorBoard on. Pass 0 to
 
+
+
+
+
+conda activate torch_nonpip310
+
+
+
+DONT
+conda search scipy
+##conda install  --dry-run scipy
+Collecting package metadata (current_repodata.json): done
+Solving environment: failed with initial frozen solve. Retrying with flexible solve.
+Solving environment: failed with repodata from current_repodata.json, will retry with next repodata source.
+Collecting package metadata (repodata.json): done
+Solving environment: failed with initial frozen solve. Retrying with flexible solve.
+Solving environment: /
+Found conflicts! Looking for incompatible packages.
+This can take several minutes.  Press CTRL-C to abort.
 
 

@@ -7994,3 +7994,23 @@ conda env list -v -v
 bash -c 'df -m'
 conda env list -v -v
 taskkill /IM "tensorboard*" /f
+git commit -v -a -m  refactor
+git push   -vv
+conda search scipy
+conda install  --dry-run scipy
+conda activate torch_nonpip310
+conda install  --dry-run scipy
+conda create --name pip310  --clone torch_nonpip310
+conda activate pip310
+conda config  --verbose   --env --set channel_priority strict
+conda config --env --get channel_priority
+bash -c 'df -m'
+pip install --dry-run  tensorboard
+pip install   tensorboard
+taskkill /IM "tensorboard*" /f
+tensorboard   --inspect         --logdir d:/ai
+cmd /c start tensorboard          --logdir d:/ai
+pip install --dry-run ipympl
+pip install     ipympl
+bash -c 'df -m'
+cd ~\Onedrive\AI   ;   jupyter lab
