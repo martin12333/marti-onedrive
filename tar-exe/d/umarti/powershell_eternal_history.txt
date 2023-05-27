@@ -8019,3 +8019,10 @@ conda list | findstr note
 conda search notebook
 git commit -v -a -m " fix"
 git push   -vv
+git add -vv  '*.f8.*'
+git add -vv  'AI*/*.ipynb'
+git commit -v -a -m add
+git push   -vv
+git commit -v -a -m ...
+git push   -vv
+conda list | findstr jup

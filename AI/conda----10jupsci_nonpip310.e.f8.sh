@@ -65,6 +65,9 @@ python                    3.10.10              h966fe2a_2
 
 
 
+notebook != lab
+
+Following the feedback from the community, it was decided in late 2021 to continue developing the Jupyter Notebook application and sunrise it as Notebook 7.
 
 Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
 
@@ -73,6 +76,9 @@ https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
 Please note that updating to Notebook 7 might break some of your extensions.
 
 conda list | findstr jup
+
+jupyterlab                3.5.3           py310haa95532_0
+
 conda list | findstr note
 notebook                  6.5.4           py310haa95532_0
 
