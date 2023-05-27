@@ -168,4 +168,16 @@ quit()
 
 
 
+pip install caffe2
+
+  × python setup.py egg_info did not run successfully.
+  │ exit code: 1
+  ╰─> [6 lines of output]
+      Traceback (most recent call last):
+        File "<string>", line 2, in <module>
+        File "<pip-setuptools-caller>", line 34, in <module>
+        File "C:\Users\marti\AppData\Local\Temp\pip-install-o_7dytgm\caffe2_58588de945b1445393e493cf9ef8d65a\setup.py", line 108, in <module>
+          from tools.setup_helpers.env import check_env_flag, check_negative_env_flag
+      ModuleNotFoundError: No module named 'tools'
+      [end of output]
 

@@ -7964,3 +7964,16 @@ git commit -v -a -m ...
 git push   -vv
 git commit -v -a -m ...
 git push   -vv
+git add -vv  'AI*/*.ipynb'
+git commit -v -a -m ...
+git push   -vv
+bash -c 'df -m'
+bash -c 'df -m'
+taskkill /IM "tensorboard*" /f
+tensorboard --help
+#/runs
+cmd /c start tensorboard   --inspect         --logdir d:/ai
+tensorboard   --inspect         --logdir d:/ai
+cmd /c start tensorboard          --logdir d:/ai
+pip install caffe2
+bash -c 'df -m'

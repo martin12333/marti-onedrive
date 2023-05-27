@@ -210,12 +210,15 @@ VS Code now has integrated TensorBoard support. Would you like to launch TensorB
 
 
 
+
+
 kill -name tensorboard
 taskkill /IM "tensorboard*" /f
-cmd /c start tensorboard --logdir d:/ai
+###cmd /c start tensorboard   --inspect         --logdir d:/ai
+cmd /c start tensorboard          --logdir d:/ai
 #/runs
 
-
+tensorboard   --inspect         --logdir d:/ai
 
 cmd
 #notepad
@@ -228,6 +231,8 @@ cmd
 #!start tensorboard --logdir d:/ai
 #/runs
 exit
+
+
 
 tensorboard --help
 
