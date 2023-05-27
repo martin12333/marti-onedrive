@@ -148,15 +148,6 @@ Conda attempts to install the newest versions of the requested packages. To acco
 
 
 
-probably ... because scikit-learn
-
-conda search scipy
-1.10
-
-
-
-
-
 
 
 

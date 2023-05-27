@@ -8026,3 +8026,32 @@ git push   -vv
 git commit -v -a -m ...
 git push   -vv
 conda list | findstr jup
+git commit -v -a -m ...
+git push   -vv
+git add -vv  'AI*/*.ipynb'
+git commit -v -a -m ...
+git push   -vv
+conda list |findstr tra
+conda activate torch_nonpip310
+conda list |findstr tra
+conda config --env --get channel_priority
+conda config  --verbose   --env --set channel_priority default
+conda config  --verbose   --env --set channel_priority flexible
+conda config --env --get channel_priority
+conda list |findstr tra
+pip list
+conda activate pip310
+conda list
+conda activate torch_nonpip310
+conda list
+conda activate jupsci_nonpip310
+conda list
+pip list
+pip list  --verbose
+conda activate torch_nonpip310
+conda config --env --get channel_priority
+conda config  --verbose   --env --set channel_priority strict
+conda list|findstr num
+conda list|findstr tr
+conda list|findstr -i tr
+pip list|findstr -i tra

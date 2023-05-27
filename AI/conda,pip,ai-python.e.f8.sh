@@ -553,3 +553,10 @@ tf_bert_for_sequence_classification/bert/encoder/layer_._0/attention/self/key/bi
 #conda search wget
 
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
+conda activate jupsci_nonpip310
+conda activate torch_nonpip310
+conda activate pip310
+
+conda list|findstr -i tr
+pip list|findstr -i tra
+--verbose

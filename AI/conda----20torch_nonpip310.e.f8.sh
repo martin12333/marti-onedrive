@@ -63,8 +63,10 @@ conda activate torch_nonpip310
 
 next time?
 conda config  --verbose   --env --set channel_priority strict
+
 conda config --env --get channel_priority
 
+conda config  --verbose   --env --set channel_priority flexible
 
 
 
@@ -136,14 +138,6 @@ https://pytorch.org/get-started/locally/
 
 
 
-conda search  -c huggingface transformers
-###conda install --dry-run   -c huggingface transformers==4.24.0
- regex              pkgs/main/win-64::regex-2022.7.9
-  tqdm               pkgs/main/win-64::tqdm-4.65.0-
-
-conda install --dry-run   -c huggingface transformers==4.28.1
-conda install      -c huggingface transformers==4.28.1
-
 
 
 
@@ -169,6 +163,22 @@ option. This may force conda to install older versions of the requested packages
 
 
 
+NEXT TIME
+
+conda search  -c huggingface transformers
+###conda install --dry-run   -c huggingface transformers==4.24.0
+ regex              pkgs/main/win-64::regex-2022.7.9
+  tqdm               pkgs/main/win-64::tqdm-4.65.0-
+
+conda install --dry-run   -c huggingface transformers==4.28.1   --freeze-installed
+conda install      -c huggingface transformers==4.28.1    --freeze-installed
+
+
+
+
+
+
+
 
 CONFLICT tensorflow 2 pytorch 1  tensorboard
 
@@ -182,7 +192,7 @@ DONT pip uninstall tensorfl DONT
 
 
 
-TODO REFACTOR THIS TO A NEW FOILE
+TODO REFACTOR THIS TO A NEW FILE
 24TF_NONPIP310
 
 
