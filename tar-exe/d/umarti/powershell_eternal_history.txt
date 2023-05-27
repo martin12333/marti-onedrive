@@ -8014,3 +8014,8 @@ pip install --dry-run ipympl
 pip install     ipympl
 bash -c 'df -m'
 cd ~\Onedrive\AI   ;   jupyter lab
+conda list | findstr jup
+conda list | findstr note
+conda search notebook
+git commit -v -a -m " fix"
+git push   -vv
