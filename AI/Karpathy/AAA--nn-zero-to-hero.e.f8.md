@@ -86,3 +86,7 @@ https://lossfunctions.tumblr.com/
 
 
 
+https://karpathy.ai/zero-to-hero.html
+
+
+
