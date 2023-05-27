@@ -395,7 +395,8 @@ https://pip.pypa.io/en/stable/topics/caching/#avoiding-caching
 pip tries to use its cache whenever possible, and it is designed do the right thing by default.
 
 
-
+JUP-NOTE-235.f8.py
+C:\Users\marti\OneDrive\AI\JUP-NOTE-235.f8.py
 
 
 

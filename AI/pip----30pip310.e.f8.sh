@@ -237,3 +237,8 @@ pip install --dry-run scikit-learn
 pip install    scikit-learn
 
 
+
+
+
+file:///C:\Users\marti\OneDrive\AI\JUP-NOTE-235.f8.py
+

@@ -1,5 +1,5 @@
 
-after reinstall env pip310 
+after reinstall env pip310  file:///C:\Users\marti\OneDrive\AI\conda,pip,ai-python.e.f8.sh
 
 opened nb
     Kar/Antimat/makemore_nlp
