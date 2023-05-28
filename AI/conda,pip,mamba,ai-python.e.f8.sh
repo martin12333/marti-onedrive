@@ -357,6 +357,24 @@ D:                       78056    72269      5788   93% /d
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 next time
 
 
@@ -368,6 +386,23 @@ Conda attempts to install the newest versions of the requested packages. To acco
 --freeze-installed
 
 option. This may force conda to install older versions of the requested packages, and it does not prevent additional dependency packages from being installed.
+
+
+
+
+
+
+
+Is it possible to install TensorFlow and Pytorch in the same ...
+
+Apr 15, 2018 — Yes, it is possible. However, you may encounter some issues if you require some specific version of each of them that, in turn, require different versions ...
+
+
+
+
+
+
+
 
 
 
@@ -560,3 +595,5 @@ conda activate pip310
 conda list|findstr -i tr
 pip list|findstr -i tra
 --verbose
+
+conda --version
