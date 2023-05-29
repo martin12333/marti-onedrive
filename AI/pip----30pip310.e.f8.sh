@@ -241,16 +241,16 @@ pip install    scikit-learn
 
 
 
+https://huggingface.co/docs/transformers/installation#install-with-pip
+pip install --dry-run  transformers
+pip install   transformers
 
-https://pypi.org/search
-#pip search tensorfl
-pip install --dry-run  # name?  transformers
-
-
-
+pip install   --dry-run scipy
+pip install    scipy
 
 file:///C:\Users\marti\OneDrive\AI\JUP-NOTE-235.f8.py
 
 
+conda activate pip310
 
 kill -name msedge

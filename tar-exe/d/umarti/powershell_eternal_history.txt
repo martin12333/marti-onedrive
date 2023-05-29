@@ -8066,3 +8066,12 @@ kill -name msedge
 git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push   -vv
+git commit -v -a -m ...
+git push   -vv
+cd ~/OneDrive
+bash -i
+conda activate pip310
+pip install --dry-run  transformers
+pip install   transformers
+pip install   --dry-run scipy
+pip install    scipy
