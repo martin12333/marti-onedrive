@@ -16,6 +16,20 @@ cd ~\Onedrive\AI   ;   jupyter lab
 
 
 
+NEXT TIME : LINUX
+
+
+
+
+https://github.com/conda/conda-libmamba-solver/issues/131
+Solver installs pytorch CUDA variants when CPU ones are requested via `cpuonly` · Issue #131 · conda/conda-libmamba-solver
+
+DIIGO
+should i use mamba or micromamba for local pytorch development
+
+https://www.anaconda.com/blog/a-faster-conda-for-a-growing-community
+
+
 
 https://stackoverflow.com/questions/66390775/does-setting-channel-priority-to-strict-affect-all-conda-environments
 nd yes, switching to conda-forge as your highest priority channel when your base was originally from Anaconda is

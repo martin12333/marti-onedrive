@@ -8060,3 +8060,6 @@ git commit -v -a -m ...
 conda activate pip310
 conda --version
 git add -vv  '*.f8.*'
+git commit -v -a -m  " rename,move"
+git push   -vv
+kill -name msedge

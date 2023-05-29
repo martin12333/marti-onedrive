@@ -253,3 +253,4 @@ file:///C:\Users\marti\OneDrive\AI\JUP-NOTE-235.f8.py
 
 
 
+kill -name msedge
