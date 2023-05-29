@@ -42,8 +42,11 @@ You can modify this code to use your own basis by changing the values in the arr
 I hope this helps!
 
 Source: Conversation with Bing, 5/29/2023
+
 (1) How do I find a dual basis given the following basis?. https://math.stackexchange.com/questions/1286100/how-do-i-find-a-dual-basis-given-the-following-basis.
+
 (2) GitHub - thchang/DualSimplex: Fortran 90 code for solving the asymetric .... https://github.com/thchang/DualSimplex.
+
 (3) math - Numerical integration in Fortran 90 - Stack Overflow. https://stackoverflow.com/questions/36367177/numerical-integration-in-fortran-90.
 
 
@@ -51,6 +54,7 @@ Source: Conversation with Bing, 5/29/2023
 
 
 What is a dual basis?
+
 Can you explain how this code works?
 
 

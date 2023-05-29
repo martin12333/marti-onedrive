@@ -8063,3 +8063,6 @@ git add -vv  '*.f8.*'
 git commit -v -a -m  " rename,move"
 git push   -vv
 kill -name msedge
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv

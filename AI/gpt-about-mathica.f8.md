@@ -21,14 +21,18 @@ The above code defines a basis and then computes its dual basis using the `Inver
 I hope this helps! Let me know if you have any other questions.
 
 Source: Conversation with Bing, 5/29/2023
+
 (1) Dual Basis -- from Wolfram MathWorld. https://mathworld.wolfram.com/DualBasis.html.
+
 (2) How do I find a dual basis given the following basis?. https://math.stackexchange.com/questions/1286100/how-do-i-find-a-dual-basis-given-the-following-basis.
+
 (3) Orthogonalize—Wolfram Language Documentation. https://reference.wolfram.com/language/ref/Orthogonalize.html.
 
 
 
 
 What is a dual basis?
+
 Can you explain how the code works?
 
 
