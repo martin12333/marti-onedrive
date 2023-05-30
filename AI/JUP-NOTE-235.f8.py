@@ -10,6 +10,9 @@ and the upstream i can open in vsc
 ##torch.QUInt2x4Storage.
 
 #    844     # Caffe2 models do not have the 'forward' method
+ 
+    
+#     logits = gpt(x) # forward the gpt neural net
 
     
     

@@ -8077,3 +8077,6 @@ pip install   --dry-run scipy
 pip install    scipy
 git commit -v -a -m ...
 git commit -v -a -m ...
+cd ~/OneDrive
+git add -vv  'AI*/*.ipynb'
+git push   -vv
