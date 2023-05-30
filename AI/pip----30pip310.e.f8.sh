@@ -252,5 +252,3 @@ file:///C:\Users\marti\OneDrive\AI\JUP-NOTE-235.f8.py
 
 
 conda activate pip310
-
-kill -name msedge
