@@ -8096,3 +8096,9 @@ git commit -v -a -m ...
 git push   -vv
 git commit -v -a -m ...
 git push   -vv
+kill -Name RSIGuard
+kill -Name RSIGuard
+& "C:\Program Files (x86)\RSIGuard\RSIGuard.exe"
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
