@@ -8194,3 +8194,11 @@ cmd /c set | findstr -i con
 cmd /c set | findstr COND
 python -v
 cmd /c set | findstr PYT
+git commit -v -a -m " fix"
+python -v
+cd -
+cat 1
+cat 1| findstr -i pth
+python -v 2>2
+conda activate base
+cat 2| findstr -i pth

@@ -293,7 +293,12 @@ $env:
 cmd /c set | findstr COND
 cmd /c set | findstr PYT
 
-python -v
+
+
+cat 1| findstr -i pth
+cat 2| findstr -i pth
+
+python -v 2>2
 
 python --help >1
 
@@ -304,16 +309,22 @@ PYTHONPATH   : ';'-separated list of directories prefixed to the
                default module search path.  The result is sys.path.
 
 
-
-
-
-
 import sys
 sys.path
+
 for x in sys.path:
   print(x)
 
+
 quit()
+
+
+
+cp   c:\Users\marti\OneDrive\mmilanutil\mmilanutil.pth
+D:\conda\envs\pip310\
+D:\conda\envs\pip310\Lib\site-packages\
+
+ls D:\conda\envs\pip310\mmi*
 
 
 
