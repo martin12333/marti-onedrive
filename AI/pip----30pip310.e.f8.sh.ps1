@@ -257,8 +257,11 @@ touch AI/Karpathy/__init__.py
 exit
 
 
+
+
+
 .\OLD
-explorer.exe
+explorer.exe c:
 
 
 cmd /c mklink /j node_modules 'C:\Users\marti\onedr_node_modules'
@@ -330,12 +333,18 @@ for x in sys.path:
 
 
 
+import mmilanutil
+from mmilanutil import *
 import mmilanutil.mmilanutil
 mmilanutil
 mmilanutil.mmilanutil
 mmilanutil.mmilanutil.mmptmaxabs
+mmilanutil.mmptmaxabs
+mmptmaxabs
 
 quit()
+
+cd .\python-idle--has-nothing-like-f8
 python
 
 
@@ -345,6 +354,7 @@ cp   -Verbose  c:\Users\marti\OneDrive\mmilanutil\mmilanutil.pth  D:\conda\envs\
 ##D:\conda\envs\pip310\Lib\site-packages\
 
 ls D:\conda\envs\pip310\mmi*
+ls D:\conda\envs\pip310\sit*
 
 
 

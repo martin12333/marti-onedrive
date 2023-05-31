@@ -8228,3 +8228,12 @@ sys.path
 for x in sys.path:
   print(x)
 python
+cmd /c dir /a D:\conda\envs\pip310\m*
+git commit -v -a -m ...
+git push
+name
+git show --name-only
+ls D:\conda\envs\pip310\sit*
+cd .\python-idle--has-nothing-like-f8
+python
+explorer.exe c:
