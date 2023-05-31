@@ -8145,3 +8145,7 @@ git commit -v -a -m  partial-refactor
 git push   -vv
 git commit -v -a -m  refactor
 git push   -vv
+git commit -v -a -m  refactor
+git push   -vv
+conda activate base
+conda activate pip310
