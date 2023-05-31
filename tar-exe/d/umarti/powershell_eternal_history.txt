@@ -8108,3 +8108,5 @@ git add -vv --dry-run 'AI*/*arpathy/*.py'
 git add -vv  'AI*/*arpathy/*.py'
 git commit -v -a -m add
 git push
+git commit -v -a -m ...
+git push

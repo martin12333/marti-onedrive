@@ -6,6 +6,6 @@ import torch
 
 # pytorch Compute the maximum absolute value of x
 def mmptmaxabs(x):
-    return torch.max(torch.abs(x.detach().cpu().flatten()  )) .item()
+    return torch.max(torch.abs(x.detach().flatten()  )) .item()
     #np.abs(x.detach().numpy().flatten()).max()
 
