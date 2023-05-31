@@ -9,3 +9,5 @@ def mmptmaxabs(x):
     return torch.max(torch.abs(x.detach().flatten()  )) .item()
     #np.abs(x.detach().numpy().flatten()).max()
 
+
+

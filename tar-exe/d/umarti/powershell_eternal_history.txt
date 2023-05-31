@@ -8140,3 +8140,6 @@ cmd /c dir /a ai\Karpathy\Antimatter*
 cmd /c mklink /j AI\Karpathy\Antimatter543\mmilanutil  'C:\Users\marti\OneDrive\mmilanutil'
 cmd /c dir /a ai\Karpathy\Antimatter*
 cmd /c dir /a ai\Karpathy\Antimatter543\
+git add -vv  'mm*/*.py'
+git commit -v -a -m  partial-refactor
+git push   -vv
