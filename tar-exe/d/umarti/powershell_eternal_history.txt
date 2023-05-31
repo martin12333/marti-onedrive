@@ -8163,3 +8163,15 @@ bash
 cd D:\conda\envs\pip310
 cmd /c mklink /j       D:\conda\envs\pip310\mmilanutil     'C:\Users\marti\OneDrive\mmilanutil'
 explorer.exe D:\conda\envs\pip310\mmilanutil
+git commit -v -a -m " fix"
+cd -
+cd -
+conda config --show-sources
+conda config --show
+conda config --show|findstr -i path
+conda config --show|findstr -i env
+conda config --show|findstr -i var
+cmd /c dir /a D:\conda\envs\pip310\mmilanutil
+cmd /c dir /a D:\conda\envs\pip310\mmilanutil*
+cmd /c dir /a D:\conda\envs\pip310\mm*
+cmd /c dir /a D:\conda\envs\pip310\m*

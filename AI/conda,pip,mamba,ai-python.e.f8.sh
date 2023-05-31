@@ -247,7 +247,14 @@ conda config
 conda config --help
 conda config --show
 conda config --show|findstr ugg
+conda config --show|findstr -i path
+conda config --show|findstr -i env
+conda config --show|findstr -i var
 conda config --show-sources
+
+==> D:\conda\envs\pip310\.condarc <==
+
+
 
 
 

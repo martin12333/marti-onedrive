@@ -267,19 +267,25 @@ cmd /c mklink /j AI\Karpathy\Antimatter543\mmilanutil  'C:\Users\marti\OneDrive\
 explorer.exe D:\conda\envs\pip310\mmilanutil
 # deleted the junct
 # c: survived
+cmd /c dir /a D:\conda\envs\pip310\mmilanutil*
+cmd /c dir /a D:\conda\envs\pip310\m*
 
 
 
 
-pip install -e 'C:\Users\marti\OneDrive\mmilanutil'
-
+##pip install -e 'C:\Users\marti\OneDrive\mmilanutil'
  /path/to/locations/repo
+
 
 cd D:\conda\envs\pip310
 bash
+ls -ld .*rc
+ls -ld ~/.*rc
+cat ~/.yarnrc
 ls */*/__init__*
 exit
 cd -
+
 
 
 python
