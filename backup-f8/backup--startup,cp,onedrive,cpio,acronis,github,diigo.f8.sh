@@ -146,6 +146,8 @@ cd ~/OneDrive
 	git add -vv  '*.code-wo*'
 	git add -vv  '*/*desktop.ini'
 	git add -vv  --dry-run  '*/*desktop.ini'
+	git add -vv  'AI*/*arpathy/*.py'
+	git add -vv --dry-run 'AI*/*arpathy/*.py'
 
 WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 
