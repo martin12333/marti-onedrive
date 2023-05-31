@@ -8149,3 +8149,17 @@ git commit -v -a -m  refactor
 git push   -vv
 conda activate base
 conda activate pip310
+import torch
+git commit -v -a -m  refactor
+git push   -vv
+git commit -v -a -m  refactor
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
+python
+conda activate base
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
+pip install -e 'C:\Users\marti\OneDrive\mmilanutil'
+cd d:\conda\envs\pip310
+bash
+cd D:\conda\envs\pip310
+cmd /c mklink /j       D:\conda\envs\pip310\mmilanutil     'C:\Users\marti\OneDrive\mmilanutil'
+explorer.exe D:\conda\envs\pip310\mmilanutil

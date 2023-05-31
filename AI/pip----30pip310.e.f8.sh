@@ -260,6 +260,35 @@ exit
 cmd /c mklink /j node_modules 'C:\Users\marti\onedr_node_modules'
 mmilanutil
 
+cmd /c mklink /j AI\Karpathy\Antimatter543\mmilanutil  'C:\Users\marti\OneDrive\mmilanutil'
+
+###cmd /c mklink /j       D:\conda\envs\pip310\mmilanutil     'C:\Users\marti\OneDrive\mmilanutil'
+##afraid what happens if i delete env
+explorer.exe D:\conda\envs\pip310\mmilanutil
+# deleted the junct
+# c: survived
+
+
+
+
+pip install -e 'C:\Users\marti\OneDrive\mmilanutil'
+
+ /path/to/locations/repo
+
+cd D:\conda\envs\pip310
+bash
+ls */*/__init__*
+exit
+cd -
+
+
+python
+
+import sys
+sys.path
+for x in sys.path:
+  print(x)
 
 conda activate pip310
 
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
