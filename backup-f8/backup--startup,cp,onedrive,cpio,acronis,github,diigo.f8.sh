@@ -149,9 +149,12 @@ cd ~/OneDrive
 	git add -vv  'AI*/*arpathy/*.py'
 	git add -vv  'AI*/*arpathy/*/*.py'
 	git add -vv  'mm*/*.py'
+	git add -vv  'mm*/*.pth'
 	git add -vv --dry-run 'AI*/*arpathy/*.py'
 
 WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
+
+	git commit -v -a -m add
 
 cd ~/OneDrive
 	git add -vv  '*.f8.*'

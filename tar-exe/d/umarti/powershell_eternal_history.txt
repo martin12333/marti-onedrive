@@ -8202,3 +8202,17 @@ cat 1| findstr -i pth
 python -v 2>2
 conda activate base
 cat 2| findstr -i pth
+cd ~/OneDrive
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+cp -WhatIf  c:\Users\marti\OneDrive\mmilanutil\mmilanutil.pth  D:\conda\envs\pip310\
+cp -WhatIf  -Confirm  -Verbose  c:\Users\marti\OneDrive\mmilanutil\mmilanutil.pth  D:\conda\envs\pip310\
+cp  -Confirm  -Verbose  c:\Users\marti\OneDrive\mmilanutil\mmilanutil.pth  D:\conda\envs\pip310\
+ls D:\conda\envs\pip310\mmi*
+cp   -Verbose  c:\Users\marti\OneDrive\mmilanutil\mmilanutil.pth  D:\conda\envs\pip310\
+ls D:\conda\envs\pip310\mmi*
+cat 2| findstr -i pth
+python -v 2>2
+cat 2| findstr -i pth
+python -v

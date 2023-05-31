@@ -299,9 +299,11 @@ cat 1| findstr -i pth
 cat 2| findstr -i pth
 
 python -v 2>2
+python -v
 
 python --help >1
 
+Processing .pth file: 'D:\\conda\\envs\\pip310\\mmilanutil.pth'
 
 Other environment variables:
 PYTHONSTARTUP: file executed on interactive startup (no default)
@@ -316,12 +318,18 @@ for x in sys.path:
   print(x)
 
 
+
+import mmilanutil
+import mmilanutil.mmilanutil
+mmilanutil
+mmilanutil.mmilanutil
+mmilanutil.mmilanutil.mmptmaxabs
 quit()
+python
 
+-WhatIf   -Confirm
+cp   -Verbose  c:\Users\marti\OneDrive\mmilanutil\mmilanutil.pth  D:\conda\envs\pip310\
 
-
-cp   c:\Users\marti\OneDrive\mmilanutil\mmilanutil.pth
-D:\conda\envs\pip310\
 D:\conda\envs\pip310\Lib\site-packages\
 
 ls D:\conda\envs\pip310\mmi*
