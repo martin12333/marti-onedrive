@@ -8216,3 +8216,15 @@ cat 2| findstr -i pth
 python -v 2>2
 cat 2| findstr -i pth
 python -v
+python
+git add -vv  'mm*/*.pth'
+git commit -v -a -m add
+git push
+cp   -Verbose  c:\Users\marti\OneDrive\mmilanutil\mmilanutil.pth  D:\conda\envs\pip310\
+ls D:\conda\envs\pip310\mmi*
+python
+import sys
+sys.path
+for x in sys.path:
+  print(x)
+python

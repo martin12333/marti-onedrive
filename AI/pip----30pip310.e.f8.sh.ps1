@@ -257,10 +257,16 @@ touch AI/Karpathy/__init__.py
 exit
 
 
+.\OLD
+explorer.exe
+
+
 cmd /c mklink /j node_modules 'C:\Users\marti\onedr_node_modules'
 mmilanutil
 
 cmd /c mklink /j AI\Karpathy\Antimatter543\mmilanutil  'C:\Users\marti\OneDrive\mmilanutil'
+
+
 
 ###cmd /c mklink /j       D:\conda\envs\pip310\mmilanutil     'C:\Users\marti\OneDrive\mmilanutil'
 ##afraid what happens if i delete env
@@ -268,6 +274,7 @@ explorer.exe D:\conda\envs\pip310\mmilanutil
 # deleted the junct
 # c: survived
 cmd /c dir /a D:\conda\envs\pip310\mmilanutil*
+
 cmd /c dir /a D:\conda\envs\pip310\m*
 
 
@@ -303,13 +310,17 @@ python -v
 
 python --help >1
 
+
 Processing .pth file: 'D:\\conda\\envs\\pip310\\mmilanutil.pth'
+
 
 Other environment variables:
 PYTHONSTARTUP: file executed on interactive startup (no default)
 PYTHONPATH   : ';'-separated list of directories prefixed to the
                default module search path.  The result is sys.path.
+.
 
+python
 
 import sys
 sys.path
@@ -319,18 +330,19 @@ for x in sys.path:
 
 
 
-import mmilanutil
 import mmilanutil.mmilanutil
 mmilanutil
 mmilanutil.mmilanutil
 mmilanutil.mmilanutil.mmptmaxabs
+
 quit()
 python
+
 
 -WhatIf   -Confirm
 cp   -Verbose  c:\Users\marti\OneDrive\mmilanutil\mmilanutil.pth  D:\conda\envs\pip310\
 
-D:\conda\envs\pip310\Lib\site-packages\
+##D:\conda\envs\pip310\Lib\site-packages\
 
 ls D:\conda\envs\pip310\mmi*
 
