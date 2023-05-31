@@ -8240,3 +8240,6 @@ explorer.exe c:
 git commit -v -a -m ...
 git push   -vv
 ls D:\conda\envs\pip310\lib\sit*
+git commit -v -a -m ...
+git push   -vv
+python

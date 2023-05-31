@@ -327,8 +327,8 @@ python
 
 import sys
 sys.path
-
->>> print('\n'.join(sys.path))
+sys.prefix
+print('\n'.join(sys.path))
 
 for x in sys.path:
   print(x)
@@ -358,11 +358,14 @@ It starts by constructing up to four directories from a head and a tail part. Fo
 
 -WhatIf   -Confirm
 
-cp   -Verbose  c:\Users\marti\OneDrive\mmilanutil\mmilanutil.pth  D:\conda\envs\pip310\
+cp   -Verbose  c:\Users\marti\OneDrive\mmilanutil\mmilanutil.pth  D:\conda\envs\pip310\Lib\site-packages\
 
 #site-packages
+
 alternaa
-cp   -Verbose  c:\Users\marti\OneDrive\mmilanutil\mmilanutil.pth  D:\conda\envs\pip310\Lib\site-packages\
+///would get sllight earlier in path order
+
+cp   -Verbose  c:\Users\marti\OneDrive\mmilanutil\mmilanutil.pth  D:\conda\envs\pip310\
 
 
 
