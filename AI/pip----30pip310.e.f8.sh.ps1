@@ -248,6 +248,9 @@ pip install   transformers
 pip install   --dry-run scipy
 pip install    scipy
 
+
+
+
 file:///C:\Users\marti\OneDrive\AI\JUP-NOTE-235.f8.py
 
 
@@ -375,6 +378,12 @@ cp   -Verbose  c:\Users\marti\OneDrive\mmilanutil\mmilanutil.pth  D:\conda\envs\
 ls D:\conda\envs\pip310\mmi*
 ls D:\conda\envs\pip310\sit*
 ls D:\conda\envs\pip310\lib\sit*
+
+cd -
+cmd /c dir /b /s __ini*
+
+
+
 
 
 
