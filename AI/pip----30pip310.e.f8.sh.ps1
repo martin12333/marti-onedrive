@@ -259,17 +259,17 @@ exit
 
 
 
-
+----------------------------------
 .\OLD
 explorer.exe c:
-
+deleted junct
 
 cmd /c mklink /j node_modules 'C:\Users\marti\onedr_node_modules'
 mmilanutil
 
 cmd /c mklink /j AI\Karpathy\Antimatter543\mmilanutil  'C:\Users\marti\OneDrive\mmilanutil'
 
-
+-------------------------
 
 ###cmd /c mklink /j       D:\conda\envs\pip310\mmilanutil     'C:\Users\marti\OneDrive\mmilanutil'
 ##afraid what happens if i delete env
@@ -280,7 +280,7 @@ cmd /c dir /a D:\conda\envs\pip310\mmilanutil*
 
 cmd /c dir /a D:\conda\envs\pip310\m*
 
-
+--------------------------
 
 
 ##pip install -e 'C:\Users\marti\OneDrive\mmilanutil'
@@ -328,6 +328,8 @@ python
 import sys
 sys.path
 
+>>> print('\n'.join(sys.path))
+
 for x in sys.path:
   print(x)
 
@@ -348,13 +350,28 @@ cd .\python-idle--has-nothing-like-f8
 python
 
 
+duplicates are OK allegedly
+
+
+https://docs.python.org/3/library/site.html#module-site
+It starts by constructing up to four directories from a head and a tail part. For the head part, it uses sys.prefix and sys.exec_prefix; empty heads are skipped. For the tail part, it uses the empty string and then lib/site-packages (on Windows) or lib/pythonX.Y/site-packages (on Unix and macOS). For each of the distinct head-tail combinations, it sees if it refers to an existing directory, and if so, adds it to sys.path and also inspects the newly added path for configuration files.
+
 -WhatIf   -Confirm
+
 cp   -Verbose  c:\Users\marti\OneDrive\mmilanutil\mmilanutil.pth  D:\conda\envs\pip310\
 
-##D:\conda\envs\pip310\Lib\site-packages\
+#site-packages
+alternaa
+cp   -Verbose  c:\Users\marti\OneDrive\mmilanutil\mmilanutil.pth  D:\conda\envs\pip310\Lib\site-packages\
+
+
+
+
+
 
 ls D:\conda\envs\pip310\mmi*
 ls D:\conda\envs\pip310\sit*
+ls D:\conda\envs\pip310\lib\sit*
 
 
 

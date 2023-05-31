@@ -8237,3 +8237,6 @@ ls D:\conda\envs\pip310\sit*
 cd .\python-idle--has-nothing-like-f8
 python
 explorer.exe c:
+git commit -v -a -m ...
+git push   -vv
+ls D:\conda\envs\pip310\lib\sit*
