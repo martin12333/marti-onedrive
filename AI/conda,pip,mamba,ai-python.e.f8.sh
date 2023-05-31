@@ -608,17 +608,6 @@ tf_bert_for_sequence_classification/bert/encoder/layer_._0/attention/self/key/bi
 
 #conda search wget
 
-& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
-conda activate jupsci_nonpip310
-conda activate torch_nonpip310
-conda activate pip310
-
-conda list|findstr -i tr
-pip list|findstr -i tra
---verbose
-
-conda --version
-
 
 bash
 touch mmilanutil/__init__.py
@@ -626,6 +615,8 @@ touch AI/Karpathy/__init__.py
 exit
 
 
+
+--------------OBSOLETE
 cmd /c mklink /j AI\mmilanutil  'C:\Users\marti\OneDrive\mmilanutil'
 
 cmd /c dir /a no*
@@ -639,8 +630,20 @@ cmd /c mklink /j AI\Karpathy\Antimatter543\mmilanutil  'C:\Users\marti\OneDrive\
 cmd /c dir /a ai\Karpathy\mmilanut*
 cmd /c dir /a ai\Karpathy\Antimatter543\
 
-
+-----------------
 
 
 conda activate pip310
 
+
+
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
+conda activate jupsci_nonpip310
+conda activate torch_nonpip310
+conda activate pip310
+
+conda list|findstr -i tr
+pip list|findstr -i tra
+--verbose
+
+conda --version
