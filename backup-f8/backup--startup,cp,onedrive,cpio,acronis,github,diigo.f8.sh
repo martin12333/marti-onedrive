@@ -148,6 +148,7 @@ cd ~/OneDrive
 	git add -vv  --dry-run  '*/*desktop.ini'
 	git add -vv  'AI*/*arpathy/*.py'
 	git add -vv  'AI*/*arpathy/*/*.py'
+	git add -vv  'mm*/*.py'
 	git add -vv --dry-run 'AI*/*arpathy/*.py'
 
 WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
@@ -276,6 +277,7 @@ Exhausting or weary solution.
 	git commit -v -a -m  rewrite
 	git commit -v -a -m  before-find-and-replace
 	git commit -v -a -m  find-and-replace
+
 
 	git commit -v -a -m  before-refactor
 	git commit -v -a -m  partial-refactor

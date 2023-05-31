@@ -252,9 +252,14 @@ file:///C:\Users\marti\OneDrive\AI\JUP-NOTE-235.f8.py
 
 
 bash
-touch AI/__init__.py
+touch mmilanutil/__init__.py
 touch AI/Karpathy/__init__.py
 exit
+
+
+cmd /c mklink /j node_modules 'C:\Users\marti\onedr_node_modules'
+mmilanutil
+
 
 conda activate pip310
 

@@ -611,3 +611,28 @@ pip list|findstr -i tra
 --verbose
 
 conda --version
+
+
+bash
+touch mmilanutil/__init__.py
+touch AI/Karpathy/__init__.py
+exit
+
+
+cmd /c mklink /j AI\mmilanutil  'C:\Users\marti\OneDrive\mmilanutil'
+
+cmd /c dir /a no*
+cmd /c dir /a ai\mmilanut*
+cmd /c dir /a ai\mmilanutil
+
+cmd /c mklink /j AI\Karpathy\mmilanutil  'C:\Users\marti\OneDrive\mmilanutil'
+cmd /c mklink /j AI\Karpathy\Antimatter543\mmilanutil  'C:\Users\marti\OneDrive\mmilanutil'
+
+
+cmd /c dir /a ai\Karpathy\mmilanut*
+cmd /c dir /a ai\Karpathy\Antimatter543\
+
+
+
+conda activate pip310
+
