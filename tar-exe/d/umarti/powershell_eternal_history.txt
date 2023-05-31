@@ -8114,3 +8114,7 @@ git commit -v -a -m ...
 git push
 touch dlgfdkdjgl
 bash
+git add -vv  'AI*/*arpathy/*.py'
+git commit -v -a -m add
+git add -vv  'AI*/*.ipynb'
+git push
