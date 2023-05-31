@@ -287,13 +287,35 @@ exit
 cd -
 
 
+$env:*
+echo $env:
+$env:
+cmd /c set | findstr COND
+cmd /c set | findstr PYT
 
-python
+python -v
+
+python --help >1
+
+
+Other environment variables:
+PYTHONSTARTUP: file executed on interactive startup (no default)
+PYTHONPATH   : ';'-separated list of directories prefixed to the
+               default module search path.  The result is sys.path.
+
+
+
+
+
 
 import sys
 sys.path
 for x in sys.path:
   print(x)
+
+quit()
+
+
 
 conda activate pip310
 

@@ -8175,3 +8175,22 @@ cmd /c dir /a D:\conda\envs\pip310\mmilanutil
 cmd /c dir /a D:\conda\envs\pip310\mmilanutil*
 cmd /c dir /a D:\conda\envs\pip310\mm*
 cmd /c dir /a D:\conda\envs\pip310\m*
+bash
+cd D:\conda\envs\pip310
+bash
+git commit -v -a -m " fix"
+python --help
+python --help >1
+$env:path
+$env:path | findstr -i con
+$env: | findstr -i con
+$env
+$env:
+$env:*`
+ls $env
+ls $env:
+echo $env:
+cmd /c set | findstr -i con
+cmd /c set | findstr COND
+python -v
+cmd /c set | findstr PYT
