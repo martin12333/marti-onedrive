@@ -8260,3 +8260,6 @@ cmd /c dir /a AI\pok*
 cat .\AI\pokus.py
 cmd /c mklink /?
 explorer.exe AI
+cmd /c dir /a AI\pok*
+git commit -v -a -m ...
+git push   -vv
