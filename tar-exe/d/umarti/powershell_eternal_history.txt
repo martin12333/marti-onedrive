@@ -8253,3 +8253,10 @@ git push   -vv
 cd -
 cmd /c dir /s __ini*
 cmd /c dir /b /s __ini*
+git commit -v -a -m ...
+git push   -vv
+cmd /c mklink /j AI\pokus.py  'C:\Users\marti\OneDrive\mmilanutil\mmilanutil.py'
+cmd /c dir /a AI\pok*
+cat .\AI\pokus.py
+cmd /c mklink /?
+explorer.exe AI

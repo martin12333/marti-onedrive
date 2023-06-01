@@ -251,6 +251,30 @@ pip install    scipy
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 file:///C:\Users\marti\OneDrive\AI\JUP-NOTE-235.f8.py
 
 
@@ -263,12 +287,26 @@ exit
 
 
 ----------------------------------
-.\OLD
+.\OLD   OBSOLE
 explorer.exe c:
 deleted junct
 
 cmd /c mklink /j node_modules 'C:\Users\marti\onedr_node_modules'
 mmilanutil
+
+
+explorer.exe AI
+######cmd /c mklink /j AI\pokus.py  'C:\Users\marti\OneDrive\mmilanutil\mmilanutil.py'
+
+cmd /c dir /a AI\pok*
+FAIL cat .\AI\pokus.py
+
+cmd /c mklink /?
+ADM /D      Creates a directory symbolic link.  Default is a file
+symbolic link.
+/H      Creates a hard link instead of a symbolic link.
+/J      Creates a Directory Junction.
+
 
 cmd /c mklink /j AI\Karpathy\Antimatter543\mmilanutil  'C:\Users\marti\OneDrive\mmilanutil'
 
