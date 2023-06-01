@@ -23,8 +23,7 @@ C:\Users\marti\OneDrive\AI\INTRO\pro.ipynb
 
 !pip list -v
 
-C:\Users\marti\OneDrive\AI\INTRO\colab_pip_list (1).ipynb
-
+C:\Users\marti\OneDrive\AI\colab_pip_list(1).ipynb
 
 
 
