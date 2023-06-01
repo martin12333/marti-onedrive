@@ -647,3 +647,5 @@ pip list|findstr -i tra
 --verbose
 
 conda --version
+
+cd ~\Onedrive\AI   ;   jupyter lab

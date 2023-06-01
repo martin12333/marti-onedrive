@@ -428,3 +428,5 @@ cmd /c dir /b /s __ini*
 conda activate pip310
 
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
+
+cd ~\Onedrive\AI   ;   jupyter lab

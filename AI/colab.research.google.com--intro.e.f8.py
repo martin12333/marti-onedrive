@@ -8,7 +8,7 @@ https://github.com/martin12333/marti-onedrive/blob/main2/AI/colab.research.googl
 
 
 
-?colab Stop interactive sessions prior to closing the window
+colab: it is possible: Stop interactive sessions prior to closing the window
 
 
 
@@ -19,12 +19,16 @@ Click on: “Runtime” → “Change runtime type” → “Hardware accelerato
 
 
 
-
+C:\Users\marti\OneDrive\AI\INTRO\pro.ipynb
 
 !pip list -v
 
+C:\Users\marti\OneDrive\AI\INTRO\colab_pip_list (1).ipynb
 
 
+
+
+      jupyterlab-plotly/extension  enabled
 
 
 CHANGE DISPLAY MODE
@@ -43,4 +47,20 @@ Dark mode: a lot of people prefer this mode because is more relaxing for their e
 
 
 https://colab.research.google.com/github/data-psl/lectures2020/blob/master/notebooks/01_python_basics.ipynb
+
+
+
+
+
+echo '-------- section --------'
+
+# i use a container
+podman machine start
+
+podman start   -ai    cmy22b
+n
+
+wsl -d Ubuntu-22.04
+
+echo '-------- section --------'
 
