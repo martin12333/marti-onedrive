@@ -17,7 +17,6 @@ https://pytorch.org/docs/stable/tensorboard.html
 
 **\#mm** ... MartinMilan's edits in others' code     //   formerly "# !!"
 
-**\#aa**
 
 **\#aaa**
 
@@ -48,6 +47,9 @@ https://pytorch.org/docs/stable/tensorboard.html
 #aaa
 http://karpathy.github.io/2019/04/25/recipe/
 A Recipe for Training Neural Networks
+
+https://huggingface.co/transformers/v3.2.0/main_classes/trainer.html#transformers.set_seed
+
 
 #aaaa
 ```
