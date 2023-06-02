@@ -8303,3 +8303,20 @@ git push   -vv
 git commit -v -a -m ...
 vv
 git push   -vv
+git commit -v -a -m ...
+git push   -vv
+Get-Process -name msedge
+Get-Process -id 1156
+(Get-Process -id 1156).CommandLine
+Get-Process -name msedge
+(Get-Process -id 30104).CommandLine
+(Get-Process -id 30104).MainWindowTitle
+(Get-Process -name msedge).MainWindowTitle
+(Get-Process -id 30104).Name
+powershell.exe
+Get-Process | Where {$_.MainWindowTitle }
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
+lab
+cd ~\Onedrive\AI   ;   jupyter lab
+cd ~/OneDrive
+git add -vv  '*.f8.*'

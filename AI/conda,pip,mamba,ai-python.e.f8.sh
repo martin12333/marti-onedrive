@@ -638,6 +638,7 @@ conda activate pip310
 
 
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
+
 conda activate jupsci_nonpip310
 conda activate torch_nonpip310
 conda activate pip310

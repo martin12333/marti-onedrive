@@ -3494,3 +3494,7 @@ git ls-files
 pwsh
 exit
 dir
+(Get-Process -name msedge).MainWindowTitle
+exit
+(Get-Process -name msedge).MainWindowTitle
+
