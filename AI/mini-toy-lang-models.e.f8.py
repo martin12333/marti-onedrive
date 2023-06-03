@@ -15,6 +15,7 @@ $env:path
 #f1 py sel interpr
 
 
+
 python -i -u
 
 
@@ -74,6 +75,8 @@ print(type(tokenizer.backend_tokenizer))
 
 OK
 tokenizer = AutoTokenizer.from_pretrained("gpt2")
+
+#aaa
 tokenizer.backend_tokenizer.pre_tokenizer.pre_tokenize_str("Hello, how are  you?")
 
 
