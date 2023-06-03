@@ -76,9 +76,9 @@ print(type(tokenizer.backend_tokenizer))
 OK
 tokenizer = AutoTokenizer.from_pretrained("gpt2")
 
-#aaa
-tokenizer.backend_tokenizer.pre_tokenizer.pre_tokenize_str("Hello, how are  you?")
 
+tokenizer.backend_tokenizer.pre_tokenizer.pre_tokenize_str("Hello, how are  you?")  #aaa
+http://localhost:8888/lab/tree/gpt2-embedding-wte-236.ipynb
 
 
 
@@ -87,7 +87,11 @@ tokenizer.backend_tokenizer.pre_tokenizer.pre_tokenize_str("Hello, how are  you?
 
 
 #%%
+
+#tokenizer.train([
+#
  SUCCESS AFTER LONG FIGHT
+
 #tokenizer = Tokenizer(models.BPE())
 tokenizer = tokenizers.Tokenizer( tokenizers.models.BPE())
 
@@ -107,6 +111,7 @@ tokenizer.train([
 "minitext-ABCDEF.txt"
  #   "minitext-1.txt"
     ], trainer=trainer)
+
 encoding = tokenizer.encode("Let's test this tokenizer.")
 encoding.tokens
 encoding.ids
