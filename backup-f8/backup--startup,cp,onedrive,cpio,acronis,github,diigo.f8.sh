@@ -148,7 +148,9 @@ cd ~/OneDrive
 	git add -vv  --dry-run  '*/*desktop.ini'
 	git add -vv  'AI*/*arpathy/*.py'
 	git add -vv  'AI*/*arpathy/*/*.py'
-	git add -vv  'mm*/*.py'
+	git add -vv  '*/setup.py'
+	git add -vv  '*/requirements.txt'
+	git add -vv  'mm*/*.pth'
 	git add -vv  'mm*/*.pth'
 	git add -vv --dry-run 'AI*/*arpathy/*.py'
 
