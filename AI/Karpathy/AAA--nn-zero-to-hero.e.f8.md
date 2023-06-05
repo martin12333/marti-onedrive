@@ -22,7 +22,7 @@ https://pytorch.org/docs/stable/tensorboard.html
 
 **\#aaaa** 
 
-**\#aaaa.a**
+**\#aaaa!a**
 
  ... my highlights
 
@@ -48,10 +48,8 @@ https://pytorch.org/docs/stable/tensorboard.html
 http://karpathy.github.io/2019/04/25/recipe/
 A Recipe for Training Neural Networks
 
-https://huggingface.co/transformers/v3.2.0/main_classes/trainer.html#transformers.set_seed
+https://huggingface.co/transformers/v3.2.0/main_classes/trainer.html#transformers.set_seed    #aaaa
 
-
-#aaaa
 ```
 np.random.seed(1337)
 random.seed(1337)
@@ -59,7 +57,7 @@ g = torch.Generator().manual_seed(2147483647)
 p = torch.rand(3, generator=g)
 
 ```
-https://stackoverflow.com/questions/71625027/why-cant-i-use-g-torch-generator-g-manual-seed0-torch-randint-100-10
+https://stackoverflow.com/questions/71625027/why-cant-i-use-g-torch-generator-g-manual-seed0-torch-randint-100-10  #aaaa
 
 
 

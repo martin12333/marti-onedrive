@@ -633,6 +633,28 @@ cmd /c dir /a ai\Karpathy\Antimatter543\
 -----------------
 
 
+
+
+
+
+
+
+
+$env:Path
+$env:Path+';'+"C:\pf\Git\bin"
+$env:Path=$env:Path+';'+"C:\pf\Git\bin"
+$env:Path
+
+
+
+
+
+
+
+
+
+
+
 conda activate pip310
 
 
