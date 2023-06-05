@@ -24,6 +24,7 @@ conda config --env --get channel_priority
 
 
 
+pip list | measure-object
 
 
 
@@ -430,21 +431,11 @@ nbdiff-web .\AI\Karpathy\makemore_part1_bigrams.ipynb  .\AI\Karpathy\smallest-da
 
 
 
-pip install --dry-run ecco
-
-raise distutils.errors.DistutilsPlatformError(
-	distutils.errors.DistutilsPlatformError: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
-	[end of output]
-
-
-cd
-git clone https://github.com/jalammar/ecco.git
-cd ecco
-
-pip install --dry-run .
 
 
 
+
+$env:Path+';'+"C:\pf\Git\bin"
 
 conda activate pip310
 

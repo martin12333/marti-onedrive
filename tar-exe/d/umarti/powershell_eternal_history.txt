@@ -8405,3 +8405,19 @@ pip install --dry-run ecco
 pip install --dry-run ./ecco
 cd ecco
 pip install --dry-run .
+conda create --name pip310ecco  --clone pip310
+conda activate base
+bash -c 'df -m'
+dir u:
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+conda activate pip310ecco
+conda config  --verbose   --env --set channel_priority strict
+conda config --env --get channel_priority
+pip list | wc
+pip list | measure-object
+conda activate pip310
+pip list | measure-object
+conda activate pip310ecco
+pip install --dry-run .
