@@ -8395,3 +8395,13 @@ git commit -v -a -m ...
 git push   -vv
 git commit -v -a -m ...
 git commit -v -a -m jup-ok-overwrite
+git commit -v -a -m ...
+git push   -vv
+pip install ecco
+pip install --dry-run ecco
+cd
+git clone https://github.com/jalammar/ecco.git
+pip install --dry-run ecco
+pip install --dry-run ./ecco
+cd ecco
+pip install --dry-run .

@@ -457,6 +457,8 @@ C:\Users\marti\OneDrive\AI\JUP-NOTE-235.f8.py
 
 
 
+file:///C:\Users\marti\OneDrive\AI\pip----31pip310ecco.e.f8.sh
+
 
 
 
