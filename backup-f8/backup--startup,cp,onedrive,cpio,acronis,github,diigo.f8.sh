@@ -247,6 +247,7 @@ WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 	git gui
 	git push --tags
 
+	git commit -v -a -m jup-ok-overwrite
 	git commit -v -a -m ...
 	git push   -vv
 	git add -vv  'AI*/*.ipynb'
