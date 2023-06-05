@@ -8421,3 +8421,8 @@ conda activate pip310
 pip list | measure-object
 conda activate pip310ecco
 pip install --dry-run .
+pip install    .
+cd ~\Onedrive\AI   ;   jupyter lab
+git commit -v -a -m ...
+git push   -vv
+git add -vv  'AI*/*.ipynb'
