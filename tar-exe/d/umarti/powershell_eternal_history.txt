@@ -8364,3 +8364,16 @@ git push   -vv
 git add -vv  'AI*/*.ipynb'
 git commit -v -a -m ...
 git push   -vv
+git commit -v -a -m ...
+git push   -vv
+pip install nbdime
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
+pip install nbdime
+nbdiff-web
+$env:Path
+$env:Path=$env:Path';'C:\pf
+env:Path
+$env:Path
+$env:Path';'C:\pf
+$env:Path+';'+C:\pf
+$env:Path+';'+"C:\pf"

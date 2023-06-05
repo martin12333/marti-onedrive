@@ -425,6 +425,38 @@ cmd /c dir /b /s __ini*
 
 
 
+
+
+
+
+
+
+
+
+
+pip install nbdime
+
+#jupyter-server-mathjax-0.2.6 nb
+
+$env:Path
+$env:Path+';'+"C:\pf\Git\bin"
+$env:Path=$env:Path+';'+"C:\pf\Git\bin"
+$env:Path
+nbdiff-web --help
+
+nbdiff-web .\ai\AutoTokenizer-1.ipynb  .\ai\AutoTokenizer-1.ipynb
+
+
+
+
+
+
+
+
+
+
+
+
 conda activate pip310
 
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
