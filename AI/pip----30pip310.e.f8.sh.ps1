@@ -444,7 +444,7 @@ $env:Path=$env:Path+';'+"C:\pf\Git\bin"
 $env:Path
 nbdiff-web --help
 
-nbdiff-web .\ai\AutoTokenizer-1.ipynb  .\ai\AutoTokenizer-1.ipynb
+nbdiff-web .\AI\Karpathy\makemore_part1_bigrams.ipynb  .\AI\Karpathy\smallest-data--makemore_part1_bigrams.ipynb
 
 
 

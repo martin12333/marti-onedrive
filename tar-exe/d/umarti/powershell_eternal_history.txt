@@ -8377,3 +8377,11 @@ $env:Path
 $env:Path';'C:\pf
 $env:Path+';'+C:\pf
 $env:Path+';'+"C:\pf"
+$env:Path+';'+"C:\pf\Git\bin"
+$env:Path=$env:Path+';'+"C:\pf\Git\bin"
+$env:Path
+nbdiff-web
+nbdiff-web --help
+git commit -v -a -m ...
+git push   -vv
+nbdiff-web .\AI\Karpathy\makemore_part1_bigrams.ipynb  .\AI\Karpathy\smallest-data--makemore_part1_bigrams.ipynb
