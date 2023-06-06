@@ -8431,3 +8431,7 @@ git push   -vv
 git commit -v -a -m ...
 git push   -vv
 git show --name-only
+git add -vv  '*/setup.py'
+git add -vv  '*/requirements.txt'
+git commit -v -a -m add
+git push
