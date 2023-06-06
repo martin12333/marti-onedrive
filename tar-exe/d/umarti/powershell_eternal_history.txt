@@ -8441,3 +8441,6 @@ git commit -v -a -m add
 git push
 git commit -v -a -m ...
 git push
+git commit -v -a -m ...
+git push
+git pull
