@@ -1,6 +1,13 @@
-#conda----10jupsci_nonpip310.e.f8.sh
 
+# f8_text_file
+# (an f8_text_file is-not meant to be run as a whole)
+)
 exit
+
+(selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
+
+echo '-------- section --------'
+
 
 
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
