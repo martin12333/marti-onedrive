@@ -8435,3 +8435,9 @@ git add -vv  '*/setup.py'
 git add -vv  '*/requirements.txt'
 git commit -v -a -m add
 git push
+git add -vv  '*.f8.*'
+git add -vv  'AI*/*.ipynb'
+git commit -v -a -m add
+git push
+git commit -v -a -m ...
+git push
