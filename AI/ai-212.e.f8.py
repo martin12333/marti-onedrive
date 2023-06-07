@@ -38,6 +38,7 @@ ipython -i
 
 model_name = "gpt2"    ##small
 
+from importlib.metadata import metadata
 from transformers import pipeline, set_seed
 
 generator = pipeline('text-generation', model=model_name)
@@ -202,8 +203,8 @@ C:\Users\marti\AppData\Local\Temp\ipykernel_23140\1796901329.py:16: DeprecationW
 
 
 
-
-
+bash
+sort metadata3.tsv >gpt2vocab4.tsv
 
 
 
