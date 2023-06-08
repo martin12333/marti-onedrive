@@ -2,6 +2,8 @@ exit
 
 kill -Name RSIGuard
 & "C:\Program Files (x86)\RSIGuard\RSIGuard.exe"
+or win-q
+
 
 
 powershell.exe

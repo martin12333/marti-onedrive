@@ -8476,3 +8476,4 @@ git push
 git commit -v -a -m ...
 sort metadata3.tsv
 bash
+kill -Name RSIGuard
