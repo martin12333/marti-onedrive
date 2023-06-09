@@ -299,9 +299,50 @@ TensorFlow installation not found - running with reduced feature set.
 
 
 
+python
+ipython
+
+import torch
 
 
-conda activate torch_nonpip310
+print(*torch.__config__.show().split("\n"), sep="\n")
+
+>>> print(*torch.__config__.show().split("\n"), sep="\n")
+PyTorch built with:
+  - Intel(R) MKL-DNN v2.6.0 (Git Hash 52b5f107dd9cf10910aaa19cb47f3abf9b349815)
+  - CPU capability usage: AVX2
+  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, CXX_COMPILER=C:/cb/pytorch_1000000000000/work/tmp_bin/sccache-cl.exe, CXX_FLAGS=/DWIN32 /D_WINDOWS /GR /EHsc /w /bigobj -DUSE_PTHREADPOOL -openmp:experimental
+  
+  , USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=OFF, USE_NNPACK=OFF, USE_OPENMP=ON,
+
+
+
+
+torch.__config__.parallel_info().splitlines()
+
+
+In [3]: torch.__config__.parallel_info().splitlines()
+   ...:
+Out[3]:
+['ATen/Parallel:',
+ '\tat::get_num_threads() : 6',
+ '\tat::get_num_interop_threads() : 3',
+ 'OpenMP 2019',
+ '\tomp_get_max_threads() : 6',
+ 'Intel(R) Math Kernel Library Version 2020.0.2 Product Build 20200624 for Intel(R) 64 architecture applications',
+ '\tmkl_get_max_threads() : 6',
+ 'Intel(R) MKL-DNN v2.6.0 (Git Hash 52b5f107dd9cf10910aaa19cb47f3abf9b349815)',
+ 'std::thread::hardware_concurrency() : 6',
+ 'Environment variables:',
+ '\tOMP_NUM_THREADS : [not set]',
+ '\tMKL_NUM_THREADS : [not set]',
+ 'ATen parallel backend: OpenMP']
+
+In [4]:
+
+
+quit()
+
 
 
 
@@ -318,3 +359,8 @@ Found conflicts! Looking for incompatible packages.
 This can take several minutes.  Press CTRL-C to abort.
 
 
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;  conda activate torch_nonpip310
+
+conda activate pip310ecco
+
+conda activate torch_nonpip310

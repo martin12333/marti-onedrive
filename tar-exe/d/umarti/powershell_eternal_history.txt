@@ -8477,3 +8477,14 @@ git commit -v -a -m ...
 sort metadata3.tsv
 bash
 kill -Name RSIGuard
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
+python
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;  conda activate torch_nonpip310
+conda activate torch_nonpip310
+python
+ipython
+python
