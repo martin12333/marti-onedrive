@@ -11,7 +11,7 @@ echo '-------- section --------'
 
 
 pwsh
-& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
 #& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate 'D:\conda'
 # file:///C:\Users\marti\OneDrive\conda-dotfiles\CWE-426--Untrusted-Search-Path.f8.ps1
 echo CWE-426--Untrusted-Search-Path
@@ -20,6 +20,49 @@ echo CWE-426--Untrusted-Search-Path
 cd ~\Onedrive\AI   ;   jupyter lab
 #cd ~\Onedrive   ;   jupyter lab
 #cd d:\  ;   jupyter lab
+
+
+
+
+
+
+##conda config --debug
+
+conda  --help| findstr log
+
+conda config --show-sources
+
+==> C:\Users\marti\.condarc <==
+auto_update_conda: False
+ssl_verify: True
+channels:
+  - defaults
+
+==> D:\conda\envs\pip310ecco\.condarc <==
+channel_priority: strict
+
+
+
+(pip310ecco) PS C:\Users\marti\OneDrive> pip config debug
+env_var:
+env:
+global:
+  C:\ProgramData\pip\pip.ini, exists: False
+site:
+  D:\conda\envs\pip310ecco\pip.ini, exists: False
+user:
+  C:\Users\marti\pip\pip.ini, exists: False
+  C:\Users\marti\AppData\Roaming\pip\pip.ini, exists: False
+
+
+
+
+
+
+
+
+
+
 
 
 

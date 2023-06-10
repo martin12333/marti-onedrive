@@ -8522,3 +8522,17 @@ git commit -v -a -m add
 git push
 git commit -v -a -m ...
 git push
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
+pip config list --debug
+pip config debug
+conda config --show-sources
+conda config
+conda config debug
+conda config --debug
+conda config --show-sources
+conda install --help
+conda install --help| findstr log
+conda  --help| findstr log
