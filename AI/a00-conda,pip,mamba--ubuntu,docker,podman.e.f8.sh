@@ -17,6 +17,9 @@ python -m http.server 8888
 conda
 
 
+bash -c 'df -m'
+
+
 
 file:///C:\Users\marti\OneDrive\tar-exe\w\home\martin\eternalCopy.zsh_history.f8.sh
 
