@@ -8488,3 +8488,11 @@ conda activate torch_nonpip310
 python
 ipython
 python
+cd ~/OneDrive
+git add -vv  '*.f8.*'
+git add -vv  'AI*/*.ipynb'
+git commit -v -a -m add
+git push
+podman machine start
+podman ps --all
+podman ps --all  |grep 22b

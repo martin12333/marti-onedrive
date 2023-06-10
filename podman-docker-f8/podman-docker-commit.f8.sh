@@ -24,6 +24,8 @@ echo '-------- section --------'
 echo '-------- section --------'
 
 podman ps --all
+podman ps --all  |grep 22b
+podman ps --all  |findstr 22b
 
 
 podman image history imy22b11  ##>1
@@ -42,13 +44,20 @@ podman ps --all  |grep 22b
 #podman container list --all |grep 22b
 
 podman images | grep 22b
+podman images | findstr 22b
+
+
 podman stop cmy22b
 
 x=`podman commit cmy22b   `
+$x=podman commit cmy22b
+
+
 echo $x
-podman tag $x imy22b13
+podman tag $x imy22b236
 
 podman images | grep 22b
+podman images | findstr 22b
 
 
 
