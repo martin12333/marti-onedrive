@@ -8516,3 +8516,4 @@ git add -vv  '*.f8.*'
 git add -vv  '*.f8.*'
 cd ~/OneDrive
 git add -vv  '*.f8.*'
+git commit -v -a -m add
