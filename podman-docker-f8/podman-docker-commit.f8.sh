@@ -1,5 +1,10 @@
 
-
+# google search, bing chat ~~ failed
+# docker pet container workflow to commit and then create modifiedly
+# docker pet-container life-cycle stages
+# docker "pet-container" lifecycle  ... the commit  stage
+# docker pet container workflow to commit and then create with a  modified port
+# docker commit to change port
 
 # f8_text_file
 # (an f8_text_file is-not meant to be run as a whole)
@@ -15,6 +20,10 @@ echo '-------- section --------'
 # i use  a container
 podman machine start
 #podman start   -ai    cmy22b
+
+
+vsc terminal podman-machine
+
 
 echo '-------- section --------'
 
@@ -62,11 +71,11 @@ podman images | findstr 22b
 
 
 if revert or port-forward
-then edit create.sh editline imy22b13+
+	#then edit create.sh editline imy22b13+
+	f1 backspace   create cmy22b
+		code C:\Users\marti\OneDrive\podman-container\12-docker-create-cmy22b.sh
 
-	f1 <   create
-		C:\Users\marti\OneDrive\podman-container\12-docker-create-cmy22b.sh
-
+podman ps --all  |grep 22b
 podman container rm cmy22b
 podman ps --all  |grep 22b
 

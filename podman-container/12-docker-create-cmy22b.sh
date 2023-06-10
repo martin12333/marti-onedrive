@@ -50,12 +50,14 @@ create
 
 -v  '/mnt/c:/rocdrive:ro'
 
-# port
+# port "... " yaml base 60
 -p "5001:5000"
- -p 9229:9229
+ -p "9229:9229"
+ -p "8888:8888"
 
 
-imy22b13
+imy22b236
+#imy22b13
 #imy22b
 #imy22b11
 
@@ -63,6 +65,6 @@ imy22b13
 
 )
 
-echo --  "${args[@]}"
+#echo --  "${args[@]}"
 
 podman     "${args[@]}"

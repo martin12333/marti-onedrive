@@ -8496,3 +8496,15 @@ git push
 podman machine start
 podman ps --all
 podman ps --all  |grep 22b
+podman ps --all  |findstr 22b
+podman images | findstr 22b
+podman stop cmy22b
+x=`podman commit cmy22b   ``
+
+$x=podman commit cmy22b
+echo $x
+podman tag $x imy22b236
+podman images | findstr 22b
+git commit -v -a -m ...
+git push
+code C:\Users\marti\OneDrive\podman-container\12-docker-create-cmy22b.sh
