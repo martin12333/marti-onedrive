@@ -6,6 +6,15 @@ podman machine start
 podman start   -ai    cmy22b
 n
 
+python
+quit()
+
+ipython
+jupyter
+
+python -m http.server 8888
+
+
 
 
 bash

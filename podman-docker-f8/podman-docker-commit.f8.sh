@@ -1,3 +1,13 @@
+# f8_text_file
+# (an f8_text_file is-not meant to be run as a whole)
+)
+exit
+
+(selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
+
+
+
+echo '-------- section --------'
 
 # google search, bing chat ~~ failed
 # docker pet container workflow to commit and then create modifiedly
@@ -6,12 +16,13 @@
 # docker pet container workflow to commit and then create with a  modified port
 # docker commit to change port
 
-# f8_text_file
-# (an f8_text_file is-not meant to be run as a whole)
-)
-exit
+give an example, that uses docker stop, commit, tag, rm, create
 
-(selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
+docker stop <container_name>
+docker commit <container_name> <new_image_name>
+docker tag <new_image_name> <new_tag_name>
+docker rm <container_name>
+docker create --name <new_container_name> -p 8080:80 -t <new_tag_name>
 
 
 
@@ -28,7 +39,6 @@ vsc terminal podman-machine
 echo '-------- section --------'
 
 
-echo '-------- section --------'
 
 echo '-------- section --------'
 
