@@ -8543,3 +8543,6 @@ git commit -v -a -m add
 git push
 bash -c 'df -m'
 bash -c 'df -m'
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push

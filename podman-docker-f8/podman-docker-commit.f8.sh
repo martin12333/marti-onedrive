@@ -40,19 +40,17 @@ echo '-------- section --------'
 
 
 
+# optional
 echo '-------- section --------'
 
 podman ps --all
 podman ps --all  |grep 22b
 podman ps --all  |findstr 22b
 
-
 podman image history imy22b11  ##>1
 podman image history imy22b  ##>1
 podman image history --no-trunc imy22b >1
-
 less 1
-
 ##man dirmngr
 q
 
@@ -78,6 +76,8 @@ podman tag $x imy22b236
 podman images | grep 22b
 podman images | findstr 22b
 
+
+echo '-------- section --------'
 
 
 if revert or port-forward
