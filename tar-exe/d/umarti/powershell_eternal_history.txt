@@ -8508,3 +8508,11 @@ podman images | findstr 22b
 git commit -v -a -m ...
 git push
 code C:\Users\marti\OneDrive\podman-container\12-docker-create-cmy22b.sh
+git commit -v -a -m ...
+git push
+bash
+podman start   -ai    cmy22b
+git add -vv  '*.f8.*'
+git add -vv  '*.f8.*'
+cd ~/OneDrive
+git add -vv  '*.f8.*'
