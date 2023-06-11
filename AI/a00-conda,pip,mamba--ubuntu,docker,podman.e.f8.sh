@@ -72,6 +72,16 @@ drvfs             151328 117244     34085  78% /mnt/c
 drvfs              78056  77217       840  99% /mnt/d
 
 
+env| grep -i hist
+set|grep -i hist
+###HISTFILE=/home/m-----artin/eternal.zsh_history
+HISTFILE=$HOME/eternal.zsh_history
+###HISTFILE=/home/m--------artin/zsh_eternal_history
+HISTSIZE=198000
+SAVEHIST=198000
+
+
+
 echo $PATH
 
 which python
