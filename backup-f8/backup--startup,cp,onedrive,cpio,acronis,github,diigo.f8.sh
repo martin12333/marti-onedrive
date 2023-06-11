@@ -164,7 +164,7 @@ cd ~/OneDrive
 	git commit -v -a -m add
 	git push
 
-	/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
+bash '/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh'
 
 	git commit -v -a -m ...
 	git push

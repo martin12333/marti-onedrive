@@ -8559,3 +8559,9 @@ git push
 git commit -v -a -m ...
 git push
 bash -c 'df -m'
+git commit -v -a -m ...
+git push
+.\bash-c\/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
+.\bash-c\'/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh'
+bash
+bash '/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh'
