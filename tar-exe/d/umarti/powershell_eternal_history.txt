@@ -8551,3 +8551,6 @@ git push
 podman start   -ai    cmy22b
 git commit -v -a -m ...
 git push
+git commit -v -a -m ...
+git push
+podman start   -ai    cmy22b

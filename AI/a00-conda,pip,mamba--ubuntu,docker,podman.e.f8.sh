@@ -6,6 +6,10 @@ podman machine start
 podman start   -ai    cmy22b
 n
 
+# podman stop cmy22b
+
+echo '-------- section --------'
+
 python
 quit()
 
@@ -15,6 +19,24 @@ jupyter
 python -m http.server 8888
 
 conda
+
+echo '-------- section --------'
+
+###curl  https://repo.anaconda.com/miniconda/Miniconda3-py310_23.3.1-0-Linux-x86_64.sh
+# dumps to stdout
+
+
+curl -O  https://repo.anaconda.com/miniconda/Miniconda3-py310_23.3.1-0-Linux-x86_64.sh
+
+curl -o /path/to/directory/file.zip https://example.com/file.zip
+
+curl  https://repo.anaconda.com/miniconda/Miniconda3-py310_23.3.1-0-Linux-x86_64.sh    | bash
+
+
+echo '-------- section --------'
+
+
+echo '-------- section --------'
 
 
 bash -c 'df -m'
@@ -63,3 +85,4 @@ vscode ➜ ~ $
 print(*torch.__config__.show().split("\n"), sep="\n")
 
 
+echo '-------- section --------'
