@@ -78,12 +78,13 @@ podman images | findstr 22b
 
 
 echo '-------- section --------'
+if revert or port-forward or mount
 
 
-if revert or port-forward
-	#then edit create.sh editline imy22b13+
-	f1 backspace   create cmy22b
-		code C:\Users\marti\OneDrive\podman-container\12-docker-create-cmy22b.sh
+#then edit create.sh editline imy22b13+
+f1 backspace   create cmy22b
+code C:\Users\marti\OneDrive\podman-container\12-docker-create-cmy22b.sh
+
 
 podman ps --all  |grep 22b
 podman container rm cmy22b
