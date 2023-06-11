@@ -8577,3 +8577,8 @@ git show --name-only
 git add -v "C:\Users\marti\OneDrive\nslash_home\bkup-home\.zshrc"
 git commit -v -a -m add
 git push
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
+podman stop cmy22b
+podman start   -ai    cmy22b

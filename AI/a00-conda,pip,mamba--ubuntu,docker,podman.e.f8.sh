@@ -6,7 +6,7 @@ podman machine start
 podman start   -ai    cmy22b
 n
 
-# podman stop cmy22b
+#podman stop cmy22b
 
 
 bash -c 'df -m'
@@ -68,6 +68,14 @@ manual copy from "P:\home\user\.local\share\containers\storage\volumes\nslash_ho
 
 
 ==> For changes to take effect, close and re-open your current shell. <==
+
+exit
+podman stop cmy22b
+podman start   -ai    cmy22b
+
+
+
+
 If you'd prefer that conda's base environment not be activated on startup,
    set the auto_activate_base parameter to false:
 
@@ -79,6 +87,7 @@ drvfs             151328 117244     34085  78% /mnt/c
 drvfs              78056  77217       840  99% /mnt/d
 
 
+# that is the fedora
 env| grep -i hist
 set|grep -i hist
 ###HISTFILE=/home/m-----artin/eternal.zsh_history
@@ -86,6 +95,7 @@ HISTFILE=$HOME/eternal.zsh_history
 ###HISTFILE=/home/m--------artin/zsh_eternal_history
 HISTSIZE=198000
 SAVEHIST=198000
+
 
 
 
@@ -99,7 +109,6 @@ echo '-------- section --------'
 
 
 bash -c 'df -m'
-
 
 
 file:///C:\Users\marti\OneDrive\tar-exe\w\home\martin\eternalCopy.zsh_history.f8.sh
