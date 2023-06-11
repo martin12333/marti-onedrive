@@ -8565,3 +8565,6 @@ git push
 .\bash-c\'/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh'
 bash
 bash '/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh'
+git commit -v -a -m ...
+git push
+bash '/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh'
