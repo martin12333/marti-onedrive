@@ -153,6 +153,7 @@ cd ~/OneDrive
 	git add -vv  'mm*/*.pth'
 	git add -vv  'mm*/*.pth'
 	git add -vv --dry-run 'AI*/*arpathy/*.py'
+	git add -v "C:\Users\marti\OneDrive\nslash_home\bkup-home\.zshrc"
 
 WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 
