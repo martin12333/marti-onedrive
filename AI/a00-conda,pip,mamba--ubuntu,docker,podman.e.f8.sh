@@ -35,6 +35,13 @@ curl  https://repo.anaconda.com/miniconda/Miniconda3-py310_23.3.1-0-Linux-x86_64
 
 echo '-------- section --------'
 
+bash Miniconda3-py310_23.3.1-0-Linux-x86_64.sh
+
+echo $PATH
+
+which python
+
+conda list
 
 echo '-------- section --------'
 
