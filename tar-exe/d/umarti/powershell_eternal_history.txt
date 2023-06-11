@@ -8571,3 +8571,9 @@ bash '/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh'
 git commit -v -a -m ...
 git push
 git show --name-only
+git commit -v -a -m ...
+git push
+git show --name-only
+git add -v "C:\Users\marti\OneDrive\nslash_home\bkup-home\.zshrc"
+git commit -v -a -m add
+git push

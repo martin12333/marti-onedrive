@@ -60,6 +60,13 @@ no change     /home/vscode/miniconda3/lib/python3.10/site-packages/xontrib/conda
 no change     /home/vscode/miniconda3/etc/profile.d/conda.csh
 modified      /home/vscode/.zshrc
 
+
+	git add -v "C:\Users\marti\OneDrive\nslash_home\bkup-home\.zshrc"
+manual copy from "P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\.zshrc" to "C:\Users\marti\OneDrive\nslash_home\bkup-home\.zshrc"
+
+
+
+
 ==> For changes to take effect, close and re-open your current shell. <==
 If you'd prefer that conda's base environment not be activated on startup,
    set the auto_activate_base parameter to false:
