@@ -8,10 +8,15 @@ n
 
 # podman stop cmy22b
 
+
+bash -c 'df -m'
+C:/Program Files/Git    151328   117922     33407   78% /
+D:                       78056    77217       840   99% /d
+
 echo '-------- section --------'
 
 python
-quit()
+#quit()
 
 ipython
 jupyter
@@ -35,7 +40,37 @@ curl  https://repo.anaconda.com/miniconda/Miniconda3-py310_23.3.1-0-Linux-x86_64
 
 echo '-------- section --------'
 
+
+bash -c 'df -m'
+
 bash Miniconda3-py310_23.3.1-0-Linux-x86_64.sh
+
+yes
+yes
+
+
+no change     /home/vscode/miniconda3/condabin/conda
+no change     /home/vscode/miniconda3/bin/conda
+no change     /home/vscode/miniconda3/bin/conda-env
+no change     /home/vscode/miniconda3/bin/activate
+no change     /home/vscode/miniconda3/bin/deactivate
+no change     /home/vscode/miniconda3/shell/condabin/Conda.psm1
+no change     /home/vscode/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/vscode/miniconda3/lib/python3.10/site-packages/xontrib/conda.xsh
+no change     /home/vscode/miniconda3/etc/profile.d/conda.csh
+modified      /home/vscode/.zshrc
+
+==> For changes to take effect, close and re-open your current shell. <==
+If you'd prefer that conda's base environment not be activated on startup,
+   set the auto_activate_base parameter to false:
+
+#conda config --set auto_activate_base false
+
+bash -c 'df -m'
+
+drvfs             151328 117244     34085  78% /mnt/c
+drvfs              78056  77217       840  99% /mnt/d
+
 
 echo $PATH
 
