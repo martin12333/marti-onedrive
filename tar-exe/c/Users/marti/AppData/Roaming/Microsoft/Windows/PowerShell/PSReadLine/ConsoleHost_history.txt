@@ -3498,3 +3498,7 @@ dir
 exit
 (Get-Process -name msedge).MainWindowTitle
 
+kill -name python
+kill -name jupyter
+kill -name python
+kill -name code
