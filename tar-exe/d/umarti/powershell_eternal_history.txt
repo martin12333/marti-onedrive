@@ -8591,3 +8591,5 @@ git push
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
 cd ~\Onedrive\AI   ;   jupyter lab
 bash -c 'df -m'
+git commit -v -a -m ...
+git push
