@@ -1,0 +1,26 @@
+
+exit
+
+https://projector.tensorflow.org/
+
+^(man|men|he|his|boy)$
+^(wom.n|she|her|girl)$
+^(king|queen)$
+^(person|.*omeone)$
+
+
+
+{
+"cameraDef":{"orthographic":true,"position":[0,2.4492935982947064e-16,4],"target":[0,0,0],"zoom":1},"selectedColorOptionName":"No color map","selectedLabelOption":"word","customSelectedSearchByMetadataOption":"word","customXLeftText":"
+^man$
+","customXLeftRegex":true,"customXRightText":"
+^woman$
+","customXRightRegex":true,"customYUpText":"
+^king$
+","customYUpRegex":true,"customYDownText":"
+^person$
+","customYDownRegex":true}]
+
+{
+
+	"customXLeftText":"^man$","customXLeftRegex":true,"customXRightText":"^woman$","customXRightRegex":true,"customYUpText":"^king$","customYUpRegex":true,"customYDownText":"^worker$","customYDownRegex":true},

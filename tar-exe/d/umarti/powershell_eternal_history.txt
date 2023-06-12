@@ -8582,3 +8582,5 @@ git commit -v -a -m add
 git push
 podman stop cmy22b
 podman start   -ai    cmy22b
+git commit -v -a -m ...
+git push

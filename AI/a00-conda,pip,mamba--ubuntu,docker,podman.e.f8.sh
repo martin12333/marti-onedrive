@@ -108,6 +108,22 @@ conda list
 echo '-------- section --------'
 
 
+
+Windows: conda activate snowflakes
+
+macOS and Linux: conda activate snowflakes
+
+Note
+
+conda activate only works on conda 4.6 and later versions.
+
+echo '-------- section --------'
+
+
+
+
+
+
 bash -c 'df -m'
 
 
