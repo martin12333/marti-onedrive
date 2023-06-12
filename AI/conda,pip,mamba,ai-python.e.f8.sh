@@ -22,6 +22,7 @@ cd ~\Onedrive\AI   ;   jupyter lab
 #cd d:\  ;   jupyter lab
 
 
+bash -c 'df -m'
 
 
 

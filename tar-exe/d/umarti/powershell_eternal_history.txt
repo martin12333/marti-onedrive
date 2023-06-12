@@ -8584,3 +8584,10 @@ podman stop cmy22b
 podman start   -ai    cmy22b
 git commit -v -a -m ...
 git push
+cd ~/OneDrive
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
+cd ~\Onedrive\AI   ;   jupyter lab
+bash -c 'df -m'
