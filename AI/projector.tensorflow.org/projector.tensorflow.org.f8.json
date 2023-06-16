@@ -49,6 +49,14 @@ word2vec all
 
 1000 points around psychosis
 
+^hypomania$
+^anxiet
+^psychosi
+^patient$
+
+
+hypomania	26
+
 
 
 ^mania$

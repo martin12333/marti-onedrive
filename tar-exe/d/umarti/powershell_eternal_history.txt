@@ -8602,3 +8602,31 @@ bash -c 'df -m'
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
 cd ~\Onedrive\AI   ;   jupyter lab
 git commit -v -a -m ...
+git push
+git show --name-only
+conda activate pip310
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
+cd ~\Onedrive\AI   ; start.exe  jupyter lab
+cd ~\Onedrive\AI   ; start  jupyter lab
+start  tensorboard --logdir d:/ai
+start  tensorboard --logdir d:\ai
+Get-Alias
+Start-Processecho  tensorboard  --%   --logdir d:\ai
+Start-Process echo  tensorboard  --%   --logdir d:\ai
+Start-Process cmd /c echo  tensorboard  --%   --logdir d:\ai
+Start-Process cmd --% /c echo  tensorboard  --%   --logdir d:\ai
+Start-Process cmd -- /c echo  tensorboard  --%   --logdir d:\ai
+Start-Process cmd -- /c echo  tensorboard  --   --logdir d:\ai
+Start-Process cmd -- /c echo tensorboard  --   --logdir d:\ai
+Start-Process cmd -- /c echo  tensorboard
+Start-Process cmd  /c echo  tensorboard
+help Start-Process
+Start-Process cmd  /c echo
+Start-Process cmd
+Start-Process cmd  /c echo
+Start-Process cmd  -- /c echo
+Start-Process cmd   "/c echo"
+Start-Process cmd   "/c echo dfgg ;  pause"
+Start-Process "tensorboard     --logdir d:/ai"
+Start-Process tensorboard     "--logdir d:/ai"
+help Start-Process

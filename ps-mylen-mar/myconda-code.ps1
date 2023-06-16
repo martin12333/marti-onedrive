@@ -56,7 +56,33 @@ sleep 20
 #C:\pf\PowerShell\7\pwsh.exe -ExecutionPolicy ByPass  -NoExit -File     C:\Users\marti\OneDrive\ps-mylen-mar\myconda-code.ps1
 # file:///C:\Users\marti\OneDrive\conda-dotfiles\CWE-426--Untrusted-Search-Path.f8.ps1
 echo CWE-426--Untrusted-Search-Path
-& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
+
+
+cd ~\Onedrive\AI   ; start  jupyter lab
+
+
+# Start-Process cmd1 "arg2 arg3"
+
+
+sleep 10
+
+
+#help Start-Process
+#q
+####Start-Process cmd  -- /c echo
+#Start-Process cmd   "/c echo dfgg "
+##Start-Process cmd   "/c echo dfgg ;  pause"
+#Get-Alias
+######Start-Process cmd --% /c echo  tensorboard  --%   --logdir d:\ai
+#####Start-Process cmd -- /c echo tensorboard  --   --logdir d:\ai
+Start-Process tensorboard     "--logdir d:/ai"
+
+# stop-parsing (--%) token
+# end-of-parameters token (--)
+
+
+sleep 10
 
 
 
