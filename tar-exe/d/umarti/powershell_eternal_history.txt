@@ -8630,3 +8630,8 @@ Start-Process cmd   "/c echo dfgg ;  pause"
 Start-Process "tensorboard     --logdir d:/ai"
 Start-Process tensorboard     "--logdir d:/ai"
 help Start-Process
+Start-Process tensorboard     "--logdir d:/ai"
+git commit -v -a -m add
+git push
+git show --name-only
+conda activate pip310
