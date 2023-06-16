@@ -8658,3 +8658,30 @@ bash
 conda activate pip310
 cd  C:\Users\marti\.cache\my
 dir
+git commit -v -a -m ...
+git push   -vv
+Start-Process tensorboard     "--logdir d:/ai"
+Start-Process tensorboard     "--logdir c:/Users/marti/.cache"
+Start-Process tensorboard     "--logdir c:/Users/marti/.cache/my"
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;  conda activate pip310ecco
+python
+cmd /c dir /s
+cmd /c dir /s
+cmd /c dir /s ten*
+cmd /c dir /s .\glove3\
+Start-Process tensorboard     "--logdir c:/Users/marti/.cache/my"
+writer = SummaryWriter("C:\\Users\\marti\\.cache\\my\\glove5")
+cd glove4\00000\default
+dir
+head -n 10000 .\metadata.tsv
+bash
+conda activate pip310
+Start-Process tensorboard     "--logdir c:/Users/marti/.cache/my"
+kill -Name tensorboard
+kill -Name python
+exit
+Start-Process tensorboard     "--logdir c:/Users/marti/.cache/my"
+Start-Process tensorboard     "--logdir d:/ai"
+Start-Process tensorboard     "--logdir c:/Users/marti/.cache/my"
+Start-Process tensorboard     "--logdir c:\Users\marti\.cache\my"
+Start-Process tensorboard     "--logdir c:/Users/marti/.cache/my"
