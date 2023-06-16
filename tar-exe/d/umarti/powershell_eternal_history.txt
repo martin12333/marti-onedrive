@@ -8645,3 +8645,16 @@ bash
 mkdir C:\Users\marti\.cache\my
 cmd /c mklink /j d:\ai\cee  C:\Users\marti\.cache\my
 cmd /c dir d:\ai\c*
+cd  C:\Users\marti\.cache\my
+bash
+cd ~/OneDrive
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+cd D:\ai\gpt2-embedding-wte-10k\00000\default
+bash
+cd  C:\Users\marti\.cache\my
+bash
+conda activate pip310
+cd  C:\Users\marti\.cache\my
+dir
