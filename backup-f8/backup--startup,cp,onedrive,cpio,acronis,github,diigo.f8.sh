@@ -238,6 +238,7 @@ WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 	code .gitignore
 	bash
 	find . -name   'ne*.f8.*' | xxd
+
 	cd ~/OneDrive
 	git add -vv  '*.f8.*'
 	#git add -vv  '*/*.f8.*'

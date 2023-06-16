@@ -8635,3 +8635,13 @@ git commit -v -a -m add
 git push
 git show --name-only
 conda activate pip310
+cd ~/OneDrive
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+conda activate pip310
+cd D:\ai\gpt2-embedding-wte-10k\00000\default
+bash
+mkdir C:\Users\marti\.cache\my
+cmd /c mklink /j d:\ai\cee  C:\Users\marti\.cache\my
+cmd /c dir d:\ai\c*

@@ -15,3 +15,9 @@ http://localhost:6006/#projector
 ^Ġking$
 
 
+cd D:\ai\gpt2-embedding-wte-10k\00000\default
+bash
+wc -l *
+ls
+
+
