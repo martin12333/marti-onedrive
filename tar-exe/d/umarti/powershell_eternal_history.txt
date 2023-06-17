@@ -8685,3 +8685,9 @@ Start-Process tensorboard     "--logdir d:/ai"
 Start-Process tensorboard     "--logdir c:/Users/marti/.cache/my"
 Start-Process tensorboard     "--logdir c:\Users\marti\.cache\my"
 Start-Process tensorboard     "--logdir c:/Users/marti/.cache/my"
+git commit -v -a -m ...
+git push   -vv
+tensorboard --inspect
+tensorboard --inspect  --logdir .
+tensorboard --inspect  --logdir d:\ai
+tensorboard --inspect  --logdir d:/ai

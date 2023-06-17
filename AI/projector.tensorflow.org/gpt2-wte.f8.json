@@ -8,6 +8,8 @@ exit
 10000
 
 
+https://projector.tensorflow.org/
+
 http://localhost:6006/#projector
 
 
@@ -20,4 +22,10 @@ bash
 wc -l *
 ls
 
+
+
+^_?(man|men|he|his|boy)$
+^_?(wom.n|she|her|girl)$
+^_?(king|queen)$
+^_?(person|.*omeone)$
 

@@ -6,6 +6,8 @@ Start-Process tensorboard     "--logdir d:/ai"
 #kill -Name python
 it was bash
 
+tensorboard --inspect  --logdir .
+tensorboard --inspect  --logdir d:/ai
 
 
 Start-Process tensorboard     "--logdir c:/Users/marti/.cache/my"
