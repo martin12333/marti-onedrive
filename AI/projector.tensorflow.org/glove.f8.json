@@ -8,6 +8,22 @@ https://projector.tensorflow.org/
 
 
 
+
+^(man)$
+^(woman)$
+^(king)$
+^(man)$
+
+
+
+^(man|men|his|boy)$
+^(woman|she|her|girl)$
+^(king)$
+^(person|.*omeone)$
+
+
+
+
 ^(man|men|he|his|boy)$
 ^(wom.n|she|her|girl)$
 ^(king|queen)$

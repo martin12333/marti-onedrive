@@ -23,6 +23,11 @@ wc -l *
 ls
 
 
+^_?(man|men|his|boy)$
+^_?(woman)$
+^_?(king)$
+^_?(person)$
+
 
 ^_?(man|men|he|his|boy)$
 ^_?(wom.n|she|her|girl)$

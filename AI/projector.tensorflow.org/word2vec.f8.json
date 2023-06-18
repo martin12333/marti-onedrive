@@ -3,7 +3,24 @@ exit
 
 https://projector.tensorflow.org/
 
+word2vec 10k
+
+
+^man$
+^woman$
+^king$
+^man$
+
+
+
+
+
 word2vec all
+
+
+
+
+
 
 ^(man|men|he|his|boy)$
 ^(wom.n|she|her|girl)$
