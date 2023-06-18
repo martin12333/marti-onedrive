@@ -8713,3 +8713,5 @@ git push   -vv
 pip install    scikit-learn
 pip install --dry-run seaborn
 cd ~\Onedrive\AI   ; start  jupyter lab
+git add -vv  'AI*/*.ipynb'
+git commit -v -a -m ...
