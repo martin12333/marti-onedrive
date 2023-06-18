@@ -66,7 +66,33 @@ pip install    .
 
 
 
-  conda activate pip310ecco
+
+
+pip install --dry-run gensim
+pip install  gensim
+
+
+
+
+# sklearn
+#conda search scikit-learn
+1.2
+#conda search scikit-learn -c conda-forge
+1.2
+
+pip install --dry-run scikit-learn
+pip install    scikit-learn
+
+
+
+
+
+pip install --dry-run
+pip install --dry-run
+
+
+conda activate pip310ecco
+
 
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
 

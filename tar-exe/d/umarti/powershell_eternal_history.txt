@@ -8694,3 +8694,12 @@ tensorboard --inspect  --logdir d:/ai
 git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push   -vv
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+git add -vv  'AI*/*.ipynb'
+git commit -v -a -m add
+git push   -vv
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
+pip install --dry-run gensim
+pip install  gensim
