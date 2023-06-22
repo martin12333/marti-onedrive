@@ -8736,3 +8736,9 @@ git commit -v -a -m ...
 git add -vv  '*.f8.*'
 git commit -v -a -m ...
 conda activate pip310
+git push   -vv
+git add -vv  'AI*/*.ipynb'
+cd ~/OneDrive
+git add -vv  'AI*/*.ipynb'
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
+python

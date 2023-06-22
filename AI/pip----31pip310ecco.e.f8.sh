@@ -89,6 +89,22 @@ pip install --dry-run seaborn
 
 
 
+
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
+
+python
+import gensim.downloader as api
+wv = api.load('word2vec-google-news-300')
+
+
+
+
+
+
+
+
+
+
 pip install --dry-run
 pip install --dry-run
 
