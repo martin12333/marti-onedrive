@@ -98,6 +98,8 @@ GPT2-medium is an autoregressive decoder only transformer. It has 24 blocks cons
 
 
 # Commented out IPython magic to ensure Python compatibility.
+
+
 # get everything set up
 # more rapidly install node
 !curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -; sudo apt-get install -y nodejs
@@ -124,7 +126,34 @@ Requirement already satisfied: pandas in d:\conda\envs\pip310ecco\lib\site-packa
 !git clone https://github.com/BerenMillidge/svd_directions
 # %cd svd_directions
 
-!bash setup.sh
+
+
+
+
+#aaa
+pip install   --dry-run  tabulate
+pip install     tabulate
+#!bash setup.sh
+
+#%cd svd_directions
+
+
+# this resets up the site so you don't have to restart the runtime to use pysvelte
+#import site
+#site.main()
+#import pysvelte
+
+
+
+
+
+def get_model_tokenizer_embedding(model_name="gpt2"):
+
+
+OV_top_singular_vectors(W_V_heads, W_O_heads, emb, layer_idx=10, head_idx=10,k=20, N_singular_vectors=15, all_tokens = all_tokens,    use_visualization=False  )
+
+
+
 
 import torch
 from collections import Counter

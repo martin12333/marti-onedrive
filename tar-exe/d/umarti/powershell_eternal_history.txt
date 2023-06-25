@@ -8788,3 +8788,9 @@ pip install datasets
 pip install   --dry-run  datasets
 pip install     datasets
 git add -vv  'AI*/*.ipynb'
+git add -vv  'AI*/*.ipynb'
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
+pip install   --dry-run  tabulate
+pip install     tabulate
