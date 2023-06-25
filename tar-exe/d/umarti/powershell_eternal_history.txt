@@ -8794,3 +8794,6 @@ git commit -v -a -m add
 git push   -vv
 pip install   --dry-run  tabulate
 pip install     tabulate
+git add -vv  'AI*/*.ipynb'
+git commit -v -a -m add
+git push   -vv
