@@ -5,6 +5,8 @@
 
 
 
+I now have a dream project: something like ... linear algebra, for neural networks, in the form of Jupyter notebooks.
+
 
 
 
