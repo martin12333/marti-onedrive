@@ -256,6 +256,7 @@ WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 	git push   -vv
 	git add -vv  'AI*/*.ipynb'
 	#git add -vv  'AI/*/*.ipynb'
+	cd ~/OneDrive
 
 	git show --name-only
 
