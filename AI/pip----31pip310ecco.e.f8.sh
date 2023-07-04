@@ -123,6 +123,11 @@ pip install --dry-run  sentence-transformers
 pip install sentence-transformers
 
 
+
+Successfully installed click-8.1.3 nltk-3.8.1 sentence-transformers-2.2.2 sentencepiece-0.1.99
+
+
+
 ##(from torchvision->sentence-transformers) (9.5.0)
 Collecting torch>=1.6.0
   Downloading torch-2.0.1-cp310-cp310-win_amd64.whl (172.3 MB)
