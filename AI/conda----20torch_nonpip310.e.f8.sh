@@ -120,14 +120,22 @@ version = "1.13.1"
 
 https://pytorch.org/get-started/previous-versions/
 
-conda install pytorch==1.13.1   cpuonly -c pytorch
 
-#conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 cpuonly -c pytorch
-#conda install pytorch torchvision torchaudio cpuonly -c pytorch
-#conda install pytorch cpuonly -c pytorch
-#??pip3 install torch torchvision torchaudio
-#????pip install torch==1.13.1
-#??pip install torch==1.13.1+cpu torchvision==0.14.1+cpu torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cpu
+conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 cpuonly -c pytorch
+
+##conda install pytorch==1.13.1   cpuonly -c pytorch
+TORCHVISION NEEDED FOR
+	pip install sentence-transformers
+OTHERWISE
+	#pip install sentence-transformers
+	PIP BEHAVED slightly strangely
+	LOST AN HOUR
+
+##conda install pytorch torchvision torchaudio cpuonly -c pytorch
+##conda install pytorch cpuonly -c pytorch
+###??pip3 install torch torchvision torchaudio
+####????pip install torch==1.13.1
+#?pip install torch==1.13.1+cpu torchvision==0.14.1+cpu torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cpu
 
 
 # !pip install my-existing-package==X.Y.Z.
@@ -312,7 +320,7 @@ PyTorch built with:
   - Intel(R) MKL-DNN v2.6.0 (Git Hash 52b5f107dd9cf10910aaa19cb47f3abf9b349815)
   - CPU capability usage: AVX2
   - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, CXX_COMPILER=C:/cb/pytorch_1000000000000/work/tmp_bin/sccache-cl.exe, CXX_FLAGS=/DWIN32 /D_WINDOWS /GR /EHsc /w /bigobj -DUSE_PTHREADPOOL -openmp:experimental
-  
+
   , USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=OFF, USE_NNPACK=OFF, USE_OPENMP=ON,
 
 

@@ -8930,3 +8930,6 @@ pip install       torchvision==0.14.1+cpu torchaudio==0.13.1 --extra-index-url h
 pip uninstall --dry-run  sentence-transformers
 pip uninstall   sentence-transformers
 pip install --dry-run  sentence-transformers
+pip install sentence-transformers
+git commit -v -a -m ...
+git push   -vv
