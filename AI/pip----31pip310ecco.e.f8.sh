@@ -102,6 +102,71 @@ quit()
 
 
 
+#torch==1.13.1+cpu
+#  --dry-run
+pip install       torchvision==0.14.1+cpu torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cpu
+
+####pip install --dry-run  'torchvision==1.13.1'
+
+
+pip uninstall --dry-run  sentence-transformers
+pip uninstall   sentence-transformers
+y
+
+
+
+##Collecting torchvision
+  Using cached torchvision-0.15.2-cp310-cp310-win_amd64.whl (1.2 MB)
+
+
+pip install --dry-run  sentence-transformers
+pip install sentence-transformers
+
+
+##(from torchvision->sentence-transformers) (9.5.0)
+Collecting torch>=1.6.0
+  Downloading torch-2.0.1-cp310-cp310-win_amd64.whl (172.3 MB)
+     ━╸━━━━━━━━ 33.8/172.3 6.4 MB/s eta 0:00:22
+                MB
+
+
+
+
+pip list | findstr tor
+
+torch                   1.13.1
+
+
+
+
+##pip install --dry-run    --upgrade-strategy only-if-needed  sentence-transformers
+
+
+
+
+
+pip install  --no-deps --dry-run    sentence-transformers
+#pip install  --no-deps   sentence-transformers
+
+pip show sentence-transformers
+pip show --files  sentence-transformers
+
+
+  sentence_transformers-2.2.2.dist-info\WHEEL
+
+  Building wheel for sentence-transformers (setup.py) ... done
+
+ https://github.com/UKPLab/sentence-transformers
+
+Location: d:\conda\envs\pip310ecco\lib\site-packages
+Requires: huggingface-hub, nltk, numpy, scikit-learn, scipy, sentencepiece, torch, torchvision, tqdm, transformers
+Required-by:
+
+
+
+
+
+
 
 
 
@@ -116,3 +181,13 @@ conda activate pip310ecco
 
 cd ~\Onedrive\AI   ;   jupyter lab
 
+ pip install -h
+
+  -U, --upgrade          Upgrade all
+                         specified packages
+                         to the newest
+                         available version.
+                         The handling of
+                         dependencies depends
+                         on the upgrade-
+                         strategy used.

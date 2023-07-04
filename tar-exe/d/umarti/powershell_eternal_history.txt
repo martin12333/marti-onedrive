@@ -8901,3 +8901,32 @@ git push   -vv
 git add -vv  'AI*/*.ipynb'
 git commit -v -a -m ...
 git push   -vv
+git add -vv  'AI*/*.ipynb'
+git commit -v -a -m ...
+git push   -vv
+pip install -h
+conda activate base
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
+pip install -h
+pip install --dry-run  sentence-transformers
+pip list
+pip list torch
+pip list | findstr tor
+pip install --dry-run    --upgrade-strategy only-if-needed  sentence-transformers
+pip list | findstr tor
+pip install  --no-deps --dry-run    sentence-transformers
+pip install  --no-deps   sentence-transformers
+pip show  sentence-transformers
+pip install --dry-run  torchvision=1.13.1
+pip install --dry-run  'torchvision=1.13.1'
+pip install --dry-run  'torchvision==1.13.1'
+pip uninstall --dry-run  sentence-transformers
+pip show  sentence-transformers
+pip show --files  sentence-transformers
+pip list | findstr tor
+pip install  --dry-run     torch==1.13.1+cpu torchvision==0.14.1+cpu torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cpu
+pip install  --dry-run      torchvision==0.14.1+cpu torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cpu
+pip install       torchvision==0.14.1+cpu torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cpu
+pip uninstall --dry-run  sentence-transformers
+pip uninstall   sentence-transformers
+pip install --dry-run  sentence-transformers

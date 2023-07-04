@@ -11,6 +11,7 @@ And I am very interested in analogies between GPTs and human brain.
 pretrained
 embeddings instead of 
 
+EDIT: I FORGOT TO ASK: PRETRAINED? do you want to use pretrained embeddings? (I didn't research the training of one's own embeddings, I apologize)
 
 heart
 Oh, I am researching this topic for many days now.
