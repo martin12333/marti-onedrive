@@ -3,6 +3,26 @@
 
 
 
+Hi everyone!
+(I used to be an ML student.) (Antidepressants did to me more harm than good.) Now I am trying to understand better today's neural networks, especially the GPTs. I am editing jupyter notebooks ... doing little experimets. 
+And I am very interested in analogies between GPTs and human brain.
+
+
+pretrained
+embeddings instead of 
+
+
+heart
+Oh, I am researching this topic for many days now.
+(Are you at reddit? fast.ai?  kaggle? lesswrong?  github? )
+What level do you want?
+
+I do like this notebook  https://github.com/jalammar/jalammar.github.io/blob/master/notebooks/nlp/01_Exploring_Word_Embeddings.ipynb
+> 2019 update: This turned out to be a misconception. The result is actually closer to "king" than it is to "queen", it's just that the code rules out the input vectors as possible outputs
+
+hrozi misunderstanding ... ja jsem needitoval ten 2019
+( i have edited my copy of the notebook beyond recognition  now  ;-)   )
+
 
 
 I now have a dream project: something like ... linear algebra, for neural networks, in the form of Jupyter notebooks.
