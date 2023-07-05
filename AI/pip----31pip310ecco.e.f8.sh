@@ -138,6 +138,7 @@ Collecting torch>=1.6.0
 
 
 pip list | findstr tor
+pip list | findstr trans
 
 torch                   1.13.1
 
@@ -168,6 +169,10 @@ Requires: huggingface-hub, nltk, numpy, scikit-learn, scipy, sentencepiece, torc
 Required-by:
 
 
+
+
+pip install --dry-run transformer_utils
+pip install   transformer_utils
 
 
 
