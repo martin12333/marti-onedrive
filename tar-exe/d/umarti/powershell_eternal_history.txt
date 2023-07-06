@@ -8966,3 +8966,7 @@ git add -vv  '*.f8.*'
 git add -vv  'AI*/*.ipynb'
 git commit -v -a -m ...
 git push   -vv
+git commit -v -a -m ...
+git push   -vv
+dir $env:TEMP\.tensorboard-info\*
+explorer  $env:TEMP\.tensorboard-info

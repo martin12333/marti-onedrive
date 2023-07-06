@@ -175,7 +175,8 @@ pip install --dry-run transformer_utils
 pip install   transformer_utils
 
 
-
+explorer  $env:TEMP\.tensorboard-info
+dir $env:TEMP\.tensorboard-info\*
 
 
 
