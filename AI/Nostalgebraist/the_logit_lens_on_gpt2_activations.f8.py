@@ -82,7 +82,7 @@ nostalgebraist, august 30 2020
 """setup: install, clone repo, etc."""
 
 # Commented out IPython magic to ensure Python compatibility.
-# %tensorflow_version 1.x
+# %tensorflow_version 1.x     #aaaa
 
 !pip install colorcet
 
@@ -135,7 +135,7 @@ import matplotlib.pyplot as plt
 def kl_div(p, q, axis=-1):
   return np.sum(p*np.log(p/q), axis=axis)
 
-"""next cell is my code, but mostly edited copy/paste of the openai model defn.
+"""next cell is my code, but mostly edited copy/paste of the openai model defn.      #aaaa
 
 it modifies it to store and return intermediate activations multiplied by the embedding matrix
 """
