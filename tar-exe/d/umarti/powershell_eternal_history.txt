@@ -8970,3 +8970,6 @@ git commit -v -a -m ...
 git push   -vv
 dir $env:TEMP\.tensorboard-info\*
 explorer  $env:TEMP\.tensorboard-info
+git add -vv  'AI*/*.ipynb'
+git commit -v -a -m ...
+git push   -vv
