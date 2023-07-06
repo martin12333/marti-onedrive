@@ -8953,3 +8953,6 @@ git push   -vv
 pip list | findstr trans
 pip install --dry-run transformer_utils
 pip install   transformer_utils
+git add -vv  'AI*/*.ipynb'
+git commit -v -a -m add
+git push   -vv
