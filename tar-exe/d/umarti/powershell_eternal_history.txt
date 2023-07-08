@@ -8983,3 +8983,10 @@ git add -vv  '*.f8.*'
 git add -vv  'AI*/*.ipynb'
 git commit -v -a -m ...
 git push   -vv
+git add -vv  '*.f8.*'
+git add -vv  --dry-run  '*.f8.jpg'
+git add -vv  --dry-run --force '*.f8.jpg'
+git add -vv  --dry-run --force '*.f8.png'
+git add -vv   --force '*.f8.png'
+git commit -v -a -m add
+git push
