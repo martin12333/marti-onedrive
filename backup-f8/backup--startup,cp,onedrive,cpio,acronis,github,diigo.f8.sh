@@ -154,6 +154,10 @@ cd ~/OneDrive
 	git add -vv  'mm*/*.pth'
 	git add -vv --dry-run 'AI*/*arpathy/*.py'
 	git add -v "C:\Users\marti\OneDrive\nslash_home\bkup-home\.zshrc"
+	git add -vv   --force '*.f8.png'
+	git add -vv  --dry-run --force '*.f8.png'
+
+#add 'AI/Highly-theoretical-justifications-for-having-fun/logit-lens.f8.png'
 
 WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 
