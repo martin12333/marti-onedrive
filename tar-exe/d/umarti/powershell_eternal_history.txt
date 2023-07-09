@@ -8990,3 +8990,6 @@ git add -vv  --dry-run --force '*.f8.png'
 git add -vv   --force '*.f8.png'
 git commit -v -a -m add
 git push
+git add -vv  'AI*/*.ipynb'
+git commit -v -a -m add
+git push
