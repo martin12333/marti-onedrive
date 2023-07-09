@@ -159,6 +159,11 @@ cd ~/OneDrive
 
 #add 'AI/Highly-theoretical-justifications-for-having-fun/logit-lens.f8.png'
 
+acronis
+this  dialog box has showed ... "Report a problem" ... but, I don't remember any problem
+
+
+
 WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 
 	git commit -v -a -m add
