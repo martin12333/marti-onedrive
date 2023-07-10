@@ -8,6 +8,21 @@ Hi everyone!
 And I am very interested in analogies between GPTs and human brain.
 
 
+bash
+grep -oE --no-filename -R 'cmap[=]........{,3}' | sort|uniq -c  | sort -n
+
+```python
+      4 cmap=\"Blues\")
+      4 cmap=\"cet_\" +
+      4 cmap=plt.cm.Spe
+      4 cmap='RdBu_r')
+      4 cmap='YlOrBr' )
+      5 cmap='Blues')"
+      8 cmap='Blues')\n
+     12 cmap='RdBu', vm
+     14 cmap='gray', in
+```
+
 pretrained
 embeddings instead of 
 
