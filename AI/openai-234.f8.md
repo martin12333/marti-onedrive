@@ -22,6 +22,10 @@ grep -oE --no-filename -R 'cmap[=]........{,3}' | sort|uniq -c  | sort -n
      12 cmap='RdBu', vm
      14 cmap='gray', in
 ```
+', 'RdYlBu', 'RdYlBu_r', 'RdYlGn', 'RdYlGn_r',
+BrBG', 'BrBG_r
+RdBu', 'RdBu_r'
+
 
 pretrained
 embeddings instead of 

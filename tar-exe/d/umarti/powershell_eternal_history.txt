@@ -8998,3 +8998,6 @@ git add -vv  'AI*/*.ipynb'
 git commit -v -a -m add
 git push
 bash
+git add -vv  'AI*/*.ipynb'
+git commit -v -a -m add
+git push
