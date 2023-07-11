@@ -9030,3 +9030,7 @@ git commit -v -a -m backup
 git push
 cd ~\Onedrive\AI   ;  start  jupyter lab
 git add -vv  'AI*/*.ipynb'
+git add -vv  'AI*/*.ipynb'
+git commit -v -a -m move
+push
+git push
