@@ -9044,3 +9044,7 @@ git push
 git add -vv  'AI*/*.ipynb'
 git commit -v -a -m backup
 git push
+git add -vv  'AI*/*.ipynb'
+backup
+git commit -v -a -m backup
+git push
