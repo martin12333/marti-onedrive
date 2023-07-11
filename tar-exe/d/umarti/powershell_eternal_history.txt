@@ -9038,3 +9038,6 @@ git add -vv  'AI*/*.ipynb'
 git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push
+git add -vv  'AI*/*.ipynb'
+git commit -v -a -m backup
+git push
