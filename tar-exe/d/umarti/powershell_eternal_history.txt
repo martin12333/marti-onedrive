@@ -9023,3 +9023,10 @@ pip install   --dry-run    Pillow
 git add -vv  'AI*/*.ipynb'
 git commit -v -a -m add
 git push
+git add -vv  'AI*/*.ipynb'
+git commit -v -a -m ...
+git push
+git commit -v -a -m backup
+git push
+cd ~\Onedrive\AI   ;  start  jupyter lab
+git add -vv  'AI*/*.ipynb'

@@ -203,7 +203,7 @@ conda activate pip310ecco
 
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
 
-cd ~\Onedrive\AI   ;   jupyter lab
+cd ~\Onedrive\AI   ;  start  jupyter lab
 
  pip install -h
 
