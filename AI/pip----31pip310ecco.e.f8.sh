@@ -183,8 +183,8 @@ dir $env:TEMP\.tensorboard-info\*
 pip install   --dry-run   einops
 pip install      einops
 
-
-
+#pip install --upgrade Pillow
+pip install   --dry-run    Pillow
 
 
 

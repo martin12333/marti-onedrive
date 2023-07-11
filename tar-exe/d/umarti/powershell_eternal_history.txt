@@ -9016,3 +9016,7 @@ git commit -v -a -m add
 git push
 pip install   --dry-run   einops
 pip install      einops
+git add -vv  'AI*/*.ipynb'
+git commit -v -a -m move
+git push
+pip install   --dry-run    Pillow
