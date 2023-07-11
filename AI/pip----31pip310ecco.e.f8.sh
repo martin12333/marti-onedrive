@@ -180,6 +180,19 @@ dir $env:TEMP\.tensorboard-info\*
 
 
 
+pip install   --dry-run   einops
+pip install      einops
+
+
+
+
+
+
+
+
+
+
+
 
 pip install --dry-run
 pip install --dry-run
