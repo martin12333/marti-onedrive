@@ -170,8 +170,9 @@ WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 
 cd ~/OneDrive
 	git add -vv  '*.f8.*'
-	git add -vv  'AI*/*.ipynb'
 	git commit -v -a -m add
+	git add -vv  'AI*/*.ipynb'
+	git commit -v -a -m backup
 	git push
 	git commit -v -a -m move
 
