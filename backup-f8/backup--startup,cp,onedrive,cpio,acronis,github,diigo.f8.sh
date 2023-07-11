@@ -172,8 +172,8 @@ cd ~/OneDrive
 	git add -vv  '*.f8.*'
 	git add -vv  'AI*/*.ipynb'
 	git commit -v -a -m add
-	git commit -v -a -m move
 	git push
+	git commit -v -a -m move
 
 bash '/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh'
 

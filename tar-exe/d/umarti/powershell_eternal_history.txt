@@ -9020,3 +9020,6 @@ git add -vv  'AI*/*.ipynb'
 git commit -v -a -m move
 git push
 pip install   --dry-run    Pillow
+git add -vv  'AI*/*.ipynb'
+git commit -v -a -m add
+git push
