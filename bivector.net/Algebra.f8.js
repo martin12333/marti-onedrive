@@ -1,3 +1,25 @@
+
+cd bivector.net
+node
+
+f8-notebook
+do-not run this file as a whole
+debugger;
+.exit
+
+node --inspect
+node --help
+.help
+
+zsh
+node
+
+
+
+Algebra = require('./ganja.js')
+
+
+
 Algebra(1,0,()=>{
   return this.graph((x,y)=>{
     var n=15, z=0e1, c=x*10.875-1+y*10e1;
