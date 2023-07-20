@@ -9136,3 +9136,9 @@ git add -vv  'AI*/*.ipynb'
 git commit -v -a -m add
 git commit -v -a -m backup
 git push
+cd bivector.net
+node
+node --inspect
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
+git push

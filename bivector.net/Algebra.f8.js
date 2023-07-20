@@ -18,7 +18,26 @@ node
 
 Algebra = require('./ganja.js')
 
+Algebra(1,0,0).describe()
 
+
+Complex = Algebra(0,1);
+
+console.log( Algebra, Complex  );
+console.log(  Complex  );
+	//debugger;
+
+	a = new Complex([3,2]);     // 3+2i
+
+	a.Length
+
+	Object.getOwnPropertyNames(	Object.getPrototypeOf(a)    )
+
+   Complex.toEl(a)
+
+   Object.getPrototypeOf(a)
+
+   Object.getOwnPropertyNames(Complex)
 
 Algebra(1,0,()=>{
   return this.graph((x,y)=>{
