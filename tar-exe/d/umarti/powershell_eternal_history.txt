@@ -9142,3 +9142,5 @@ node --inspect
 git add -vv  '*.f8.*'
 git commit -v -a -m backup
 git push
+git commit -v -a -m backup
+git push
