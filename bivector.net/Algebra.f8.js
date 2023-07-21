@@ -14,6 +14,11 @@ node --help
 zsh
 node
 
+https://crucialflow.com/Fatou.jl/
+
+https://github.com/enkimute/ganja.js/blob/master/ganja.js#L108
+
+
 
 
 Algebra = require('./ganja.js')
@@ -58,6 +63,55 @@ Algebra(1,0,()=>{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		https://enkimute.github.io/ganja.js/examples/coffeeshop.html#quaternion_hue
+
+// In Vector space R3, rotate a color around the hue axis and output
+// the result using the graph function.
+Algebra(3,()=>{
+	var axis=(1e12+1e23-1e13).Normalized;
+	document.body.appendChild(this.graph((x,y)=>{
+	  var xx= Math.atan2(y,x);
+	  var c=1e1, rot=Math.cos(xx/2) + Math.sin(xx/2)*axis;
+	  return ((2-(x**2+y**2)**0.5)*(rot>>>c)).Vector;
+	}));
+
+  });
+
+
+
+
+
+
+
+
+
+
+  https://enkimute.github.io/ganja.js/examples/coffeeshop.html#quaternion_mandelbrot
 
 // In quaternion space H, we calculate the mandelbrot set and use the
 // iteration count for colorisation.
@@ -335,4 +389,3 @@ Algebra(0,2,()=>{
 
 
 
-  
