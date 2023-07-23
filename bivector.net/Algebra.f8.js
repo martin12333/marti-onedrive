@@ -387,5 +387,31 @@ Algebra(0,2,()=>{
 
 
 
+  Algebra(1,0,()=>{
+	return this.graph((x,y)=>{
+	  var n=  4 // 3
+	  var c=x*4+y*4e1;
+	  // var n=3, z=0e1, c=x*4+y*4e1;
+	  var   z=0e1
+	  while (z < 10 && n--) {
+		//z=z.Conjugate*z*z*z*z*z*z*z+c;
+		z=z*z*z.Conjugate*z*z*z*z*z+c;
+		/////z=z*z*z*z*z*z*z*z+c;
+	  }  //z**3+c;   //z**2+c;
+	  return (n/10);
+	},
+					 { width:512, height:512}
+					 );
+  })
+
+
+
+
+
+  
+
+
+
+
 
 
