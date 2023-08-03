@@ -20,6 +20,7 @@ cat eev-f8/anggtwu.net--e.txt|  grep 'e$' |grep -i coq
 
 
 
+cat eev-f8/anggtwu.net--e.txt|  grep 'e$' |grep Jul| grep '[:]'
 cat eev-f8/anggtwu.net--e.txt|  grep 'e$' |grep May| grep '[:]'
 cat eev-f8/anggtwu.net--e.txt|  grep 'e$' |grep Apr| grep '[:]'
 

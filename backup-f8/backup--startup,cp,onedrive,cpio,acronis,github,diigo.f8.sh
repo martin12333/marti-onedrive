@@ -231,7 +231,10 @@ git commit -a -m "⚗️  :alembic: Perform experiments"
 Exhausting or weary solution.
 😩 Weary Face
 
+cd ~/OneDrive
+
 	git commit -v -a -m "🐛 fix"
+	git commit -v -a -m "🐛 OneDrive-problem"
 	git push   -vv
 
 	git commit -v -a -m "☀ fix-comments"
