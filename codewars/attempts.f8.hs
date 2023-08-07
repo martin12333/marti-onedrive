@@ -26,9 +26,11 @@ ghci
 
 zsh
 ls
+ls  /onedri/codewars
 
 ghci
 
+cd  /onedri/codewars
 ghci -W f5.hs
 
 

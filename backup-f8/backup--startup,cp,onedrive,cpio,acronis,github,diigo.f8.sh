@@ -156,6 +156,8 @@ cd ~/OneDrive
 	git add -v "C:\Users\marti\OneDrive\nslash_home\bkup-home\.zshrc"
 	git add -vv   --force '*.f8.png'
 	git add -vv  --dry-run --force '*.f8.png'
+	git add -vv  --dry-run --force '*.hs'
+	git add -vv   '*.hs'
 
 #add 'AI/Highly-theoretical-justifications-for-having-fun/logit-lens.f8.png'
 

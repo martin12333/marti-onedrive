@@ -9172,3 +9172,7 @@ bash -c 'df -m'
 cd ~/OneDrive
 git commit -v -a -m ...
 git push   -vv
+git add -vv  '*.f8.*'
+git commit -v -a -m  " rename,move"
+git push   -vv
+git add -vv  --dry-run --force '*.hs'
