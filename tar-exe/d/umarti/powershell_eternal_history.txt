@@ -9160,3 +9160,12 @@ git add -vv  'AI*/*.ipynb'
 git commit -v -a -m backup
 git push
 bash -i
+cd ~/OneDrive
+git commit -v -a -m " OneDrive-problem"
+git add -vv  '*.f8.*'
+git add -vv  'AI*/*.ipynb'
+git commit -v -a -m " OneDrive-warning"
+git push   -vv
+podman machine start
+podman start   -ai    cmy22b
+bash -c 'df -m'
