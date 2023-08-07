@@ -9169,3 +9169,6 @@ git push   -vv
 podman machine start
 podman start   -ai    cmy22b
 bash -c 'df -m'
+cd ~/OneDrive
+git commit -v -a -m ...
+git push   -vv

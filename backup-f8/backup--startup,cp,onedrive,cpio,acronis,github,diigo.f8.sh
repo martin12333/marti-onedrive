@@ -333,7 +333,7 @@ WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 
 	git add -vv  'AI*/*.ipynb'
 
-	git commit -v -a -m ...
+	git commit -v -a -m backup
 	git push   -vv
 
 	git commit -v -a -m add
