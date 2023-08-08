@@ -176,6 +176,7 @@ this  dialog box has showed ... "Report a problem" ... but, I don't remember any
 WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 
 	git commit -v -a -m add
+	git push
 
 cd ~/OneDrive
 	git add -vv  '*.f8.*'

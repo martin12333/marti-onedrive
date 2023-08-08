@@ -9181,3 +9181,9 @@ git commit -v -a -m add
 git push
 git add -vv   --dry-run   'AI*/*.ipynb'
 git add -vv   --dry-run   '*/*.ipynb'
+git add -vv   --dry-run   'ju*/*.ipynb'
+git add -vv     'ju*/*.ipynb'
+git commit -v -a -m add
+git push
+bash
+dir -recurse 'hy*.f8.*'
