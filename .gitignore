@@ -23,6 +23,8 @@ history*.json
 
 #OLD*/
 OLD*
+BIG
+
 
 .ipynb_checkpoints/
 overwrite/

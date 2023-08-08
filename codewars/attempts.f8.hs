@@ -28,39 +28,26 @@ zsh
 ls
 ls  /onedri/codewars
 
-ghci
+: 1660158942:0;ghci --help
+: 1660159127:0;ghci --show-options
 
 cd  /onedri/codewars
-ghci -W f5.hs
 
-
-
-
+ghci
 :h
 :?
 :q
 
-
-
-
-
-F5 run and debug
-safety measures to not run this entire file
-probably unnecessary
-node --inspect
-.exit  -- error
-quit()
-exit
-debugger;
-breakpoint()
-console.log(456)
+ghci -W f5.hs
 
 -- module Factorial where
 
 --factorial :: Integer -> Integer
 --factorial x = if x > 0 then x * factorial (x - 1) else 1
 
-factorial 5
+factorial 700
+
+
 
 
 

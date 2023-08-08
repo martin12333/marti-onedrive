@@ -9176,3 +9176,8 @@ git add -vv  '*.f8.*'
 git commit -v -a -m  " rename,move"
 git push   -vv
 git add -vv  --dry-run --force '*.hs'
+git add -vv   '*.hs'
+git commit -v -a -m add
+git push
+git add -vv   --dry-run   'AI*/*.ipynb'
+git add -vv   --dry-run   '*/*.ipynb'

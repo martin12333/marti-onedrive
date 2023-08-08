@@ -130,16 +130,18 @@ cd ~/OneDrive
 	git add -vv  'sb*/conf*'
 	git add -vv --dry-run  '*/*config'
 
+ --dry-run
 	git add -vv --dry-run  'ps*/*.ps1'
 	git add -vv  'ps*/*.ps1'
 	git add -vv  'AI*/my*.ps1'
 	git add -vv  'AI*/ls-l*.txt'
-	git add -vv  'AI*/*.ipynb'
+	git add -vv   --dry-run   '*/*.ipynb'
 	git add -vv -f  'AI*/old.git'
 
 	git add -vv --dry-run  ro*p/*.lnk
 	git add -vv   ro*p/*.lnk
 
+ --dry-run
 	git add -vv   '*/*config.mk'
 	git add -vv   '*/*xah.el'
 	git add -vv   '*/*sha256'
@@ -164,6 +166,11 @@ cd ~/OneDrive
 acronis
 this  dialog box has showed ... "Report a problem" ... but, I don't remember any problem
 
+
+
+	git add -vv   --dry-run   '*/*.ipynb'
+	git add -vv   --dry-run   'ju*/*.ipynb'
+	git add -vv     'ju*/*.ipynb'
 
 
 WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
