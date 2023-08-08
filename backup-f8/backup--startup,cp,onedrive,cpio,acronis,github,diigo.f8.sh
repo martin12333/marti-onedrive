@@ -168,9 +168,13 @@ this  dialog box has showed ... "Report a problem" ... but, I don't remember any
 
 
 
+	git add -vv    'co*/f?.*'
+	git add -vv   --dry-run   '*/*lock.json'
 	git add -vv   --dry-run   '*/*.ipynb'
 	git add -vv   --dry-run   'ju*/*.ipynb'
 	git add -vv     'ju*/*.ipynb'
+	git add -vv    'co*/*lock.json'
+	git add -vv   --dry-run   'co*/f?.*'
 
 
 WILL NOT ADD, IF THERE IS A .GIT IN THE DIR

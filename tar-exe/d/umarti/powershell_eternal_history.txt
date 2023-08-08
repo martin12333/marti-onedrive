@@ -9225,3 +9225,8 @@ git commit -v -a -m backup
 git push   -vv
 git commit -v -a -m backup
 git push   -vv
+git add -vv  'AI*/*.ipynb'
+git add -vv  '*.f8.*'
+git commit -v -a -m  " rename,move"
+git add -vv   --dry-run   '*/*lock.json'
+git add -vv   --dry-run   'co*/*lock.json'
