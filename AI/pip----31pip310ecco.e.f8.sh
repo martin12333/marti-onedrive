@@ -189,7 +189,7 @@ pip install   --dry-run    Pillow
 pip install   --dry-run    html5lib
 pip install   html5lib
 
-
+dir  -recurse  hyper*.ipynb
 
 
 
