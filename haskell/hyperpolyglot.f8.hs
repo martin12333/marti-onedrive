@@ -1,6 +1,6 @@
+-- #mm #aaa
 
-
-# from http://hyperpolyglot.org
+-- # from http://hyperpolyglot.org
 
 exit
 
@@ -107,6 +107,11 @@ list = [Just(3), Nothing, Just(-4)]
 list
 --  [Just 3,Nothing,Just (-4)]
 
+
+
+
+
+
 238.817
 
 -- null test
@@ -116,26 +121,31 @@ import Data.Maybe
 
  let foo = Just(3)
  raises exception if Nothing:
- fromJust foo
+ fromJust foo   --???
 
  let intId x = x
  evaluates to 0 if Nothing:
- maybe 0 intId foo
+ maybe 0 intId foo  --???
 
 -- nullif
 
 -- expression type declaration
 1 :: Double
 
--- let ... in ...
+-- let ... in ...    #aaaa
 z = let x = 3.0
   y = 2.0 * x
   in x * y
 
--- where
+-- where   #aaaa
 z = x * y
   where x = 3.0
   y = 2.0 * x
+
+
+
+
+
 
 -- arithmetic and logic
 arithmetic and logic

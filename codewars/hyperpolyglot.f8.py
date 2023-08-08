@@ -1,3 +1,4 @@
+#mm #aaa
 
 #%%
 python
@@ -53,7 +54,6 @@ use triple quote string literal:
 
 section: variables and expressions
 # variables and expressions
-variables and expressions
 
 #
 python
@@ -117,6 +117,13 @@ raises NameError
 
 # conditional expression
 x if x > 0 else -x
+
+
+
+
+
+
+238.819
 
 section: arithmetic and logic
 # arithmetic and logic
@@ -463,8 +470,14 @@ table = {ord(ch): None for ch in "aeiou"}
  "disemvowel me".translate(table)
 
 # squeeze characters
-re.sub('(\s)+', r'\1',
+re.sub(r'(\s)+', r'\1',
   'too much space')
+
+
+
+
+#mm #aaaa!a   it seems to me, regexes in str literals here often need the r'' prefix  r'  ... \x ...'   !!!
+
 
 section: regular expressions
 # regular expressions
@@ -551,11 +564,14 @@ s = 'dolor sit amet'
 # backreference in match and substitution
 none
 
- rx = re.compile('(\w+) (\w+)')
+ rx = re.compile(r'(\w+) (\w+)')
  rx.sub(r'\2 \1', 'do re')
 
 # recursive regex
 none
+
+
+
 
 section: dates and time
 # dates and time
