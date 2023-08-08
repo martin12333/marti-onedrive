@@ -78,7 +78,8 @@
 		"*.gram": "javascript",
 		"*.ohayo": "javascript",
 		"*.sh-session": "shellscript",
-		"*.tasker": "ini"
+		"*.tasker": "ini",
+		"*.sage": "python"
 	},
 
 
