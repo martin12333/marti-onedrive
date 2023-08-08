@@ -9189,3 +9189,6 @@ bash
 dir -recurse 'hy*.f8.*'
 git commit -v -a -m backup
 git push
+git add -vv   --dry-run   'ju*/*.ipynb'
+git add -vv  'AI*/*.ipynb'
+git commit -v -a -m add
