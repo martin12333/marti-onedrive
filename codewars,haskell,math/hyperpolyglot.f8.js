@@ -1,3 +1,11 @@
+#mm #aaa
+
+#%%
+
+# from http://hyperpolyglot.org
+
+238.820
+
 # version used
 6.11
 
@@ -11,7 +19,7 @@ $ node --version
 # grammar and execution
 grammar and execution
 
-# 
+#
 node.js
 
 # interpreter
@@ -28,9 +36,9 @@ $ node -e "console.log('hi!');"
 
 # statement separator
 ; or newline
- 
+
  newline not separator inside (), [], {}, "", '', or after binary operator
- 
+
  newline sometimes not separator when following line would not parse as a valid statement
 
 # source code encoding
@@ -46,21 +54,21 @@ source is always UTF-8
 # variables and expressions
 variables and expressions
 
-# 
+#
 node.js
 
 # local variable
 // new in ES6:
  let x = 1;
  let y = 2, z = 3;
- 
+
  // older alternative to let:
  var x = 1;
- 
+
  // let local scope is nearest
  // enclosing block; var local scope
  // is nearest function body
-. 
+.
  // var variables are visible to all code
  // in the function body; even code
  // preceding the var statement.
@@ -68,12 +76,12 @@ node.js
 # file scope variable
 // outside any function body:
  let n = 1;
- 
+
  incrFileVar () { n++; }
 
 # global variable
 global.g = 1;
- 
+
  incrGlobal () { global.g++; }
 
 # constant
@@ -111,7 +119,7 @@ v === null
 
 # undefined variable
 Evaluates as undefined
- 
+
  Use the triple equality === operator to test for this value.
 
 # conditional expression
@@ -120,7 +128,7 @@ x > 0 ? x : -x
 # arithmetic and logic
 arithmetic and logic
 
-# 
+#
 node.js
 
 # true and false
@@ -134,14 +142,14 @@ false null undefined '' 0 NaN
 
 # relational operators
 === !== < > >= <=
- 
+
  perform type coercion:
  == !=
 
 # min and max
 Math.min(1, 2, 3)
  Math.max(1, 2, 3)
- 
+
  Math.min.apply(Math, [1, 2, 3])
  Math.max.apply(Math, [1, 2, 3])
 
@@ -157,7 +165,7 @@ none
 
 # integer division by zero
 Returns Infinity, NaN, or -Infinity depending upon sign of dividend
-. 
+.
  There are literals for Infinity and NaN.
 
 # float division
@@ -237,7 +245,7 @@ none
 # strings
 strings
 
-# 
+#
 node.js
 
 # string type
@@ -251,7 +259,7 @@ don\'t say "no"'
 // backquote literals only:
  `first line
  second line`
- 
+
  // Backslashes can be used to break
  // long strings.
 
@@ -319,7 +327,7 @@ value: ' + 8
 # string to number
 7 + parseInt('12;, 10)
  73.9 + parseFloat('.037')
- 
+
  // 12:
  parseInt('12A')
  // NaN:
@@ -331,7 +339,7 @@ value: ' + 8
 # split
 // [ 'do', 're', '', 'mi', '' ]:
  'do re mi '.split(' ')
- 
+
  // [ 'do', 're', 'mi', '' ]:
  'do re mi '.split(/\s+/)
 
@@ -390,7 +398,7 @@ none
 # regular expressions
 regular expressions
 
-# 
+#
 node.js
 
 # literal, custom delimited literal
@@ -455,7 +463,7 @@ let a = 'dolor sit amet'.match(/\w+/g);
 
 # backreference in match and substitution
 /(\w+) \1/.exec('do do')
- 
+
  'do re'.replace(/(\w+) (\w+)/, '$2 $1')
 
 # recursive regex
@@ -464,7 +472,7 @@ none
 # dates and time
 dates and time
 
-# 
+#
 node.js
 
 # broken-down datetime type
@@ -486,7 +494,7 @@ let epoch = 1315716177;
 # format datetime
 // npm install moment
  let moment = require('moment');
- 
+
  let t = moment(new Date());
  let fmt = 'YYYY-MM-DD HH:mm:ss';
  console.log(t.format(fmt));
@@ -494,7 +502,7 @@ let epoch = 1315716177;
 # parse datetime
 // npm install moment
  let moment = require('moment');
- 
+
  let fmt = 'YYYY-MM-DD HH:mm:ss';
  let s = '2011-05-03 10:00:00';
  let t = moment(s, fmt);
@@ -536,25 +544,25 @@ TZ environment variable or host time zone
 # nonlocal time zone
 
 # time zone info
- 
+
  name and UTC offset
 
 # daylight savings test
 // npm install moment
  let moment = require('moment');
- 
+
  moment(new Date()).isDST()
 
 # microseconds
 t.getMilliseconds() * 1000
- 
+
  // [sec, nanosec] since system boot:
  process.hrtime()
 
 # arrays
 arrays
 
-# 
+#
 node.js
 
 # literal
@@ -577,7 +585,7 @@ a[0] = 'lorem'
 returns undefined
 
 # element index
- 
+
  first and last occurrence
 // return -1 if not found:
  [6, 7, 7, 8].indexOf(7)
@@ -622,7 +630,7 @@ parameter contains address copy
 [6, 7, 8].forEach((n) => {
   console.log(n);
  });
- 
+
  // new in ES6:
  for (let n of [6, 7, 8]) {
   console.log(n);
@@ -632,7 +640,7 @@ parameter contains address copy
 for (let i = 0; i < a.length; ++i) {
   console.log(a[i]);
  }
- 
+
  // indices not guaranteed to be in order:
  for (let i in a) {
   console.log(a[i]);
@@ -647,7 +655,7 @@ let a = _.range(1, 11);
 # reverse
  non-destructive, in-place
 let a = [1, 2, 3];
- 
+
  let a2 = a.slice(0).reverse();
  a.reverse();
 
@@ -656,14 +664,14 @@ let a = [1, 2, 3];
  in-place,
  custom comparision
 let a = [3, 1, 4, 2];
- 
+
  let a2 = a.slice(0).sort();
  a.sort();
 
 # dedupe
  non-destructive, in-place
 let a = [1, 2, 2, 3];
- 
+
  let a2 = _.uniq(a);
  a = _.uniq(a);
 
@@ -693,33 +701,33 @@ a.reduce((m, o) => m + o, 0)
 
 # universal and existential tests
 let a = [1, 2, 3, 4];
- 
+
  a.every((n) => n % 2 === 0)
  a.some((n) => n % 2 === 0)
 
 # shuffle and sample
 let a = [1, 2, 3, 4];
- 
+
  a = _.shuffle(a);
  let samp = _.sampleSize([1, 2, 3, 4], 2);
 
 # flatten
  one level, completely
 let a = [1, [2, [3, 4]]];
- 
+
  let a2 = _.flatten(a);
  let a3 = _.flattenDeep(a);
 
 # zip
 let a = _.zip([1, 2, 3], ['a', 'b', 'c']);
- 
+
  // shorter array padded with undefined:
  _.zip([1, 2, 3], ['a', 'b'])
 
 # dictionaries
 dictionaries
 
-# 
+#
 node.js
 
 # literal
@@ -735,7 +743,7 @@ _.size(d)
 # lookup
 d.hasOwnProperty("t") ? d["t"] : undefined
  d.hasOwnProperty("t") ? d.t : undefined
- 
+
  // JavaScript dictionaries are objects
  // and inherit properties from Object.
 
@@ -760,7 +768,7 @@ delete d["t"];
 # from array of pairs, from even length array
 let a = [['a', 1], ['b', 2], ['c', 3]];
  let d = _.fromPairs(a);
- 
+
  none
 
 # merge
@@ -785,7 +793,7 @@ Object.keys(d)
 # sort by values
 let cmp = (a, b) => a[1] - b[1];
  let d = {t: 1, f: 0};
- 
+
  for (let p of _.toPairs(d).sort(cmp)) {
   console.log(p);
  }
@@ -796,7 +804,7 @@ none
 # functions
 functions
 
-# 
+#
 node.js
 
 # define
@@ -828,7 +836,7 @@ function firstAndLast() {
   console.log('last: ' + arguments[1]);
   }
  }
- 
+
  // ... operator new in ES6:
  function firstAndLast(...a) {
   if (a.length >= 1) {
@@ -841,7 +849,7 @@ function firstAndLast() {
 
 # pass array elements as separate arguments
 let a = [1, 2, 3];
- 
+
  let sum = add3(...a);
 
 # parameter alias
@@ -852,30 +860,30 @@ none
 
 # return value
 return arg or undefined
-. 
+.
  If invoked with new and return value not an object, returns this.
 
 # multiple return values
 function firstAndSecond(a) {
   return [a[0], a[1]];
  }
- 
+
  let [x, y] = firstAndSecond([6, 7, 8]);
 
 # anonymous function literal
 let square = function (x) {
   return x * x;
  };
- 
+
  // => new in ES6:
  let square = (x) => { return x * x; };
- 
+
  // expression body variant:
  let square = (x) => x * x;
 
 # invoke anonymous function
 square(2)
- 
+
  ((x) => (x * x)(2)
 
 # function as value
@@ -886,20 +894,20 @@ function counter() {
   counter.i += 1;
   return counter.i;
  }
- 
+
  counter.i = 0;
  console.log(counter());
 
 # closure
 function makeCounter () {
   let i = 0;
- 
+
   return function () {
   i += 1;
   return i;
   };
  }
- 
+
  let nays = makeCounter();
  console.log(nays());
 
@@ -910,7 +918,7 @@ function * makeCounter () {
   yield ++i;
   }
  }
- 
+
  let nays = makeCounter();
  for (let cnt of nays) {
   console.log(cnt);
@@ -928,7 +936,7 @@ none
 # execution control
 execution control
 
-# 
+#
 node.js
 
 # if
@@ -984,7 +992,7 @@ none
 # exceptions
 exceptions
 
-# 
+#
 node.js
 
 # base exception
@@ -1025,7 +1033,7 @@ none
 function Bam(msg) {
   this.message = msg;
  }
- 
+
  Bam.prototype = new Error;
 
 # handle exception
@@ -1051,7 +1059,7 @@ acquireResource();
 # threads
 threads
 
-# 
+#
 node.js
 
 # start thread
@@ -1062,15 +1070,15 @@ node.js
 
 # timeout
 
-# 
+#
 _____________________________________________________
 
-# 
+#
 node.js
 
 # read from stdin
 let readline = require('readline');
- 
+
  let rl = readline.createInterface({
   input: process.stdin
  });
@@ -1090,7 +1098,7 @@ console.error('bam!');
 
 # open for reading bytes
 let fs = require('fs');
- 
+
  let f = fs.openSync("/etc/hosts", "r");
 
 # read line
@@ -1098,7 +1106,7 @@ let fs = require('fs');
 # iterate by line
 const readline = require('readline');
  const fs = require('fs');
- 
+
  let f = fs.createReadStream('/etc/hosts');
  const rl = readline.createInterface({
   input: f
@@ -1109,7 +1117,7 @@ const readline = require('readline');
 
 # read file into string
 let fs = require('fs');
- 
+
  let s = fs.readFileSync('/etc/hosts', 'utf8');
 
 # read file into array of strings
@@ -1124,28 +1132,28 @@ let buf = Buffer.alloc(100);
 
 # read serialized data
 let fs = require('fs');
- 
+
  let s = fs.readFileSync("/tmp/data.json");
  let data = JSON.parse(s);
 
 # open for writing
 let fs = require('fs');
- 
+
  let f = fs.openSync("/tmp/test", "w");
 
 # open for writing bytes
 let fs = require('fs');
- 
+
  let f = fs.openSync("/tmp/test", "w");
 
 # open for appending
 et fs = require('fs');
- 
+
  let f = fs.openSync("/tmp/test", "a");
 
 # write string
 fs.writeSync(f, 'lorem ipsum');
- 
+
  // writeSync() takes String or Buffer arg
 . // A String is encoded as UTF-8.
 
@@ -1158,7 +1166,7 @@ fs.writeSync(f, 'lorem ipsum\n');
 
 # write serialized data
 let fs = require('fs');
- 
+
  let s = JSON.stringify({foo: [1, 2, 3]});
  fs.writeFileSync("/tmp/data.json", s);
 
@@ -1171,10 +1179,10 @@ fs.closeSync(f);
 writeSync() isn't buffered
 
 # position
- 
+
  get, set
 // no get
- 
+
  let buf = Buffer.alloc(100);
  // 5th arg is where in file to start read:
  fs.readSync(f, buf, 0, 100, 0);
@@ -1185,7 +1193,7 @@ writeSync() isn't buffered
 // npm install tmp
  let tmp = require('tmp');
  let fs = require('fs');
- 
+
  let file = tmp.fileSync();
  fs.writeSync(file.fd, 'lorem ipsum');
  console.log(`tmp file: ${file.name}`);
@@ -1196,7 +1204,7 @@ writeSync() isn't buffered
 # asynchronous events
 asynchronous events
 
-# 
+#
 node.js
 
 # start event loop
@@ -1210,25 +1218,25 @@ node.js
 # files
 files
 
-# 
+#
 node.js
 
 # file exists test, file regular test
 let fs = require('fs');
- 
+
  let exists = fs.existsSync('/etc/hosts');
  let stat = fs.statSync('/etc/hosts');
  let regular = stat.isFile();
 
 # file size
 let fs = require('fs');
- 
+
  let stat = fs.statSync('/etc/hosts');
  let size = stat.size;
 
 # is file readable, writable, executable
 let fs = require('fs');
- 
+
  // no return values; exception thrown
  // if not readable, writable, or executable:
  fs.accessSync('/etc/hosts',
@@ -1240,26 +1248,26 @@ let fs = require('fs');
 
 # set file permissions
 let fs = require('fs');
- 
+
  fs.chmodSync('/tmp/foo', parseInt('755', 8));
 
 # last modification time
 let fs = require('fs');
- 
+
  let stat = fs.statSync('/etc/hosts');
  let dt = stat.mtime;
 
 # copy file, remove file, rename file
 // npm install fs-extra
  let fs = require('fs-extra');
- 
+
  fs.copySync('/tmp/foo', '/tmp/bar');
  fs.unlinkSync('/tmp/foo');
  fs.renameSync('/tmp/bar', '/tmp/foo');
 
 # create symlink, symlink test, readlink
 let fs = require('fs');
- 
+
  fs.symlinkSync('/etc/hosts', '/tmp/hosts');
  let lstat = fs.lstatSync('/tmp/hosts');
  let isLink = lstat.isSymbolicLink();
@@ -1273,14 +1281,14 @@ let fs = require('fs');
 # file formats
 file formats
 
-# 
+#
 node.js
 
 # parse csv
 let fs = require('fs');
  // npm install csv
  let csv = require('csv');
- 
+
  let path = 'no-header.csv';
  let f = fs.createReadStream(path);
  f.pipe(csv.parse()).pipe(
@@ -1308,7 +1316,7 @@ let data = {'t': 1, 'f': 0};
 // npm install xmldom xpath
  let dom = require('xmldom').DOMParser;
  let xpath = require('xpath');
- 
+
  let xml = '<a><b><c ref="3">foo</c></b></a>';
  let doc = new dom().parseFromString(xml);
  let nodes = xpath.select('/a/b/c', doc);
@@ -1318,7 +1326,7 @@ let data = {'t': 1, 'f': 0};
 # generate xml
 // npm install xmlbuilder
  let builder = require('xmlbuilder');
- 
+
  let xml = builder.create('a').ele('b', {id: 123}, 'foo').end();
 
 # parse html
@@ -1326,22 +1334,22 @@ let data = {'t': 1, 'f': 0};
 # directories
 directories
 
-# 
+#
 node.js
 
 # working directory
 let old_dir = process.cwd();
- 
+
  process.chdir("/tmp");
 
 # build pathname
 let path = require('path');
- 
+
  path.join('/etc', 'hosts');
 
 # dirname and basename
 let path = require('path');
- 
+
  path.dirname('/etc/hosts')
  path.basename('/etc/hosts')
 
@@ -1350,7 +1358,7 @@ let path = require('path');
 
 # iterate over directory by file
 let fs = require('fs');
- 
+
  fs.readdirSync('/etc').forEach(
   function(s) { console.log(s); }
  );
@@ -1358,7 +1366,7 @@ let fs = require('fs');
 # glob paths
 // npm install glob
  let glob = require('glob');
- 
+
  glob('/etc/*', function(err, paths) {
   paths.forEach(function(path) {
   console.log(path);
@@ -1367,7 +1375,7 @@ let fs = require('fs');
 
 # make directory
 const fs = require('fs');
- 
+
  if (!fs.existsSync('/tmp/foo')) {
   fs.mkdirSync('/tmp/foo', 0755);
  }
@@ -1377,7 +1385,7 @@ const fs = require('fs');
 
 # remove empty directory
 const fs = require('fs');
- 
+
  fs.rmdirSync('/tmp/foodir');
 
 # remove directory and contents
@@ -1386,7 +1394,7 @@ const fs = require('fs');
 
 # generate unused directory
 const fs = require('fs');
- 
+
  const dir = fs.mkdtemp('/tmp/foo');
 
 # system temporary file directory
@@ -1394,7 +1402,7 @@ const fs = require('fs');
 # processes and environment
 processes and environment
 
-# 
+#
 node.js
 
 # command line arguments
@@ -1404,10 +1412,10 @@ process.argv.slice(2)
  // process.argv[0] contains "node"
 
 # environment variable
- 
+
  get, set
 process.env["HOME"]
- 
+
  process.env["PATH"] = "/bin";
 
 # get pid, parent pid
@@ -1430,25 +1438,25 @@ process.exit(0);
 # option parsing
 option parsing
 
-# 
+#
 node.js
 
 # boolean flag
 // $ npm install commander
  program = require('commander');
- 
+
  program.option('-v, --verbose')
   .parse(process.argv);
- 
+
  let verbose = program.verbose;
 
 # string option
 // $ npm install commander
  program = require('commander');
- 
+
  program.option('-f, --file <file>')
   .parse(process.argv);
- 
+
  let file = program.file;
 
 # numeric option
@@ -1459,7 +1467,7 @@ node.js
  program.option('-r, --ratio <n>',
   'a ratio', parseFloat);
  program.parse(process.argv);
- 
+
  if (program.count)
   console.log(program.count);
  if (program.ratio)
@@ -1473,10 +1481,10 @@ node.js
 const fs = require('fs');
  // $ npm install commander
  const program = require('commander');
- 
+
  program.option('-i, --input <input>')
  program.parse(process.argv);
- 
+
  if (program.input) {
   let f = fs.openSync(program.input, 'r');
  } else {
@@ -1488,7 +1496,7 @@ const fs = require('fs');
 # default option
 // $ npm install commander:
  const program = require('commander');
- 
+
  program.option('-H, --hosts <hosts>',
   'the hosts file', '/etc/hosts');
  program.parse(process.argv);
@@ -1497,11 +1505,11 @@ const fs = require('fs');
 # delimited options
 // $ npm install commander
  const program = require('commander');
- 
+
  function comma_split(val) {
   return val.split(',');
  }
- 
+
  program.option('-w, --words <words>',
   'comma-delimited', comma_split);
  program.parse(process.argv);
@@ -1510,12 +1518,12 @@ const fs = require('fs');
 # repeated options
 // $ npm install commander
  const program = require('commander');
- 
+
  function collect(val, memo) {
   memo.push(val);
   return memo;
  }
- 
+
  // $ node twiddle.js -w one -w two -w three
  program.option('-w, --words <words>',
   'repeatable flag', collect, []);
@@ -1534,14 +1542,14 @@ const fs = require('fs');
 # usage
 // $ npm install commander
  program = require('commander');
- 
+
  // The flags -h and --help are generated
  // automatically
 . program.option('-i, --input <input>')
   .parse(process.argv);
- 
+
  let input = program.input;
- 
+
  if (!input) {
   program.outputHelp();
   process.exit(1);
@@ -1552,12 +1560,12 @@ const fs = require('fs');
 # libraries and namespaces
 libraries and namespaces
 
-# 
+#
 node.js
 
 # load library
 let foo = require('./foo.js');
- 
+
  let foo = require('foo');
 
 # load library in subdirectory
@@ -1611,7 +1619,7 @@ none
 # objects
 objects
 
-# 
+#
 node.js
 
 # define class
@@ -1635,7 +1643,7 @@ public
  this.plus = function(v) {
   return this.value + v;
  };
- 
+
  // outside constructor:
  Int.prototype.plus = function (v) {
   return this.value + v;
@@ -1663,7 +1671,7 @@ i.plus(3);
 # reflection
 reflection
 
-# 
+#
 node.js
 
 # object id
@@ -1679,7 +1687,7 @@ number
  undefined
  function
  object
- 
+
  // these evaluate as 'object':
  typeof(null)
  typeof([])
@@ -1724,7 +1732,7 @@ let d = {"lorem": 1, "ipsum": [2, 3]};
 # net and web
 net and web
 
-# 
+#
 node.js
 
 # get local hostname, dns lookup, reverse dns lookup
@@ -1732,7 +1740,7 @@ node.js
 # http get
 // npm install request
  let request = require('request');
- 
+
  request('http://www.google.com',
   function(err, resp, body) {
   if (!err && resp.statusCode == 200) {
@@ -1760,7 +1768,7 @@ node.js
 # databases
 databases
 
-# 
+#
 node.js
 
 # mysql
@@ -1772,12 +1780,12 @@ node.js
 # unit tests
 unit tests
 
-# 
+#
 node.js
 
 # test class
 // npm install -g nodeunit
- 
+
  exports.testFoo = function(test) {
   test.ok(true, 'not true!.');
   test.done();
@@ -1785,7 +1793,7 @@ node.js
 
 # run tests, run test method
 $ nodeunit test_foo.js
- 
+
  $ nodeunit -t testFoo test_foo.js
 
 # equality assertion
@@ -1815,7 +1823,7 @@ exports.tearDown = function(callback) {
 # debugging
 debugging
 
-# 
+#
 node.js
 
 # check syntax
@@ -1844,5 +1852,5 @@ console.time('product');
 $ node --prof foo.js
  $ node --prof-process *v8.log
 
-# 
+#
 ____________________________________________________

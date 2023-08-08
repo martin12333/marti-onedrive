@@ -112,7 +112,6 @@ list
 
 
 
-238.817
 
 -- null test
 
@@ -132,12 +131,12 @@ import Data.Maybe
 -- expression type declaration
 1 :: Double
 
--- let ... in ...    #aaaa
+-- let ... in ...   todo  #aaaa
 z = let x = 3.0
   y = 2.0 * x
   in x * y
 
--- where   #aaaa
+-- where  todo  #aaaa
 z = x * y
   where x = 3.0
   y = 2.0 * x
@@ -145,6 +144,7 @@ z = x * y
 
 
 
+238.820
 
 
 -- arithmetic and logic
