@@ -7,7 +7,7 @@ $ ghc --version
 -- grammar and invocation
 grammar and invocation
 
--- 
+--
 haskell
 
 -- interpreter
@@ -52,14 +52,18 @@ offside rule or { }
 -- variables and expressions
 variables and expressions
 
--- 
+--
 haskell
 
 -- write-once variable
 n = 3
+n = 36
+n
 
 -- modifiable variable
-n <- return 3
+n <- return 7
+n
+print n
 
 -- unit type and value
 ()
@@ -68,6 +72,7 @@ n <- return 3
 -- conditional expression
 n = -3
  let absn = if n < 0 then -n else n
+absn
 
 -- branch type mismatch
 -- compilation error:
@@ -78,6 +83,8 @@ Nothing
 
 -- nullable type
 list = [Just(3), Nothing, Just(-4)]
+list
+--  [Just 3,Nothing,Just (-4)]
 
 -- null test
 
@@ -112,7 +119,7 @@ z = x * y
 -- arithmetic and logic
 arithmetic and logic
 
--- 
+--
 haskell
 
 -- boolean type
@@ -301,7 +308,7 @@ none
 -- strings
 strings
 
--- 
+--
 haskell
 
 -- string type
@@ -388,7 +395,7 @@ Char.ord 'a'
 -- dates and time
 dates and time
 
--- 
+--
 haskell
 
 -- date and time types
@@ -407,7 +414,7 @@ import System.Time
 -- arrays
 arrays
 
--- 
+--
 haskell
 
 -- literal
@@ -428,7 +435,7 @@ haskell
 -- lists
 lists
 
--- 
+--
 haskell
 
 -- literal
@@ -529,7 +536,7 @@ any (\x -> x > 2) [1, 2, 3]
 -- tuples
 tuples
 
--- 
+--
 haskell
 
 -- literal
@@ -545,13 +552,13 @@ fst (12, "December")
 -- dictionaries
 dictionaries
 
--- 
+--
 haskell
 
 -- functions
 functions
 
--- 
+--
 haskell
 
 -- define function
@@ -618,7 +625,7 @@ arg1 x y = seq y x
 -- execution control
 execution control
 
--- 
+--
 haskell
 
 -- if
@@ -657,7 +664,7 @@ do
 -- exceptions
 exceptions
 
--- 
+--
 haskell
 
 -- raise error
@@ -681,13 +688,13 @@ error "bam!"
 -- concurrency
 concurrency
 
--- 
+--
 haskell
 
 -- file handles
 file handles
 
--- 
+--
 haskell
 
 -- standard file handles
@@ -778,7 +785,7 @@ s = "hello out\n"
 -- files
 files
 
--- 
+--
 haskell
 
 -- file test, regular file test
@@ -836,7 +843,7 @@ import System.Posix.Files
 -- directories
 directories
 
--- 
+--
 haskell
 
 -- build pathname
@@ -883,7 +890,7 @@ import System
 -- processes and environment
 processes and environment
 
--- 
+--
 haskell
 
 -- command line arguments
@@ -950,7 +957,7 @@ import System.Cmd
 -- libraries and namespaces
 libraries and namespaces
 
--- 
+--
 haskell
 
 -- namespace example
@@ -1007,7 +1014,7 @@ $ cabal list parsec
 -- user-defined types
 user-defined types
 
--- 
+--
 haskell
 
 -- type synonym
@@ -1071,7 +1078,7 @@ c = Green
 -- objects
 objects
 
--- 
+--
 haskell
 
 -- class definition
@@ -1089,7 +1096,7 @@ haskell
 -- inheritance and polymorphism
 inheritance and polymorphism
 
--- 
+--
 haskell
 
 -- overload function
@@ -1101,25 +1108,25 @@ haskell
 -- net and web
 net and web
 
--- 
+--
 haskell
 
 -- unit test
 unit test
 
--- 
+--
 haskell
 
 -- debugging and profiling
 debugging and profiling
 
--- 
+--
 haskell
 
 -- repl
 repl
 
--- 
+--
 haskell
 
 -- invoke repl
@@ -1157,5 +1164,5 @@ let a = 3
 -- set search path on command line
 
 
--- 
+--
 _______________________________________________
