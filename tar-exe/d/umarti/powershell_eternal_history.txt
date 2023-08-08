@@ -9212,3 +9212,6 @@ git add -vv  'AI*/*.ipynb'
 git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push   -vv
+git commit -v -a -m ...
+git push   -vv
+git show --name-only
