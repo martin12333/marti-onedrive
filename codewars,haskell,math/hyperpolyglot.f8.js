@@ -6,58 +6,58 @@
 
 238.820
 
-# version used
+// version used
 6.11
 
-# show version
+// show version
 $ node --version
 
-# implicit prologue
+// implicit prologue
 // npm install lodash
  const _ = require('lodash');
 
-# grammar and execution
+// grammar and execution
 grammar and execution
 
-#
+//
 node.js
 
-# interpreter
+// interpreter
 $ node foo.js
 
-# repl
+// repl
 $ node
 
-# command line program
+// command line program
 $ node -e "console.log('hi!');"
 
-# block delimiters
+// block delimiters
 {}
 
-# statement separator
+// statement separator
 ; or newline
 
  newline not separator inside (), [], {}, "", '', or after binary operator
 
  newline sometimes not separator when following line would not parse as a valid statement
 
-# source code encoding
+// source code encoding
 source is always UTF-8
 
-# end-of-line comment
+// end-of-line comment
 // comment
 
-# multiple line comment
+// multiple line comment
 /* line
  another line */
 
-# variables and expressions
+// variables and expressions
 variables and expressions
 
-#
+//
 node.js
 
-# local variable
+// local variable
 // new in ES6:
  let x = 1;
  let y = 2, z = 3;
@@ -73,189 +73,189 @@ node.js
  // in the function body; even code
  // preceding the var statement.
 
-# file scope variable
+// file scope variable
 // outside any function body:
  let n = 1;
 
  incrFileVar () { n++; }
 
-# global variable
+// global variable
 global.g = 1;
 
  incrGlobal () { global.g++; }
 
-# constant
+// constant
 // new in ES6
  const PI = 3.14;
 
-# assignment
+// assignment
 v = 1;
 
-# parallel assignment
+// parallel assignment
 // new in ES6:
  let [x, y, z] = [1, 2, 3];
 
-# swap
+// swap
 // new in ES6:
  [x, y] = [y, x];
 
-# compound assignment
+// compound assignment
  arithmetic, string, logical, bit
 += -= *= /= none %=
  +=
  none
  <<= >>= &= |= ^=
 
-# increment and decrement
+// increment and decrement
 let x = 1;
  let y = ++x;
  let z = --y;
 
-# null
+// null
 null
 
-# null test
+// null test
 v === null
 
-# undefined variable
+// undefined variable
 Evaluates as undefined
 
  Use the triple equality === operator to test for this value.
 
-# conditional expression
+// conditional expression
 x > 0 ? x : -x
 
-# arithmetic and logic
+// arithmetic and logic
 arithmetic and logic
 
-#
+//
 node.js
 
-# true and false
+// true and false
 true false
 
-# falsehoods
+// falsehoods
 false null undefined '' 0 NaN
 
-# logical operators
+// logical operators
 && || !
 
-# relational operators
+// relational operators
 === !== < > >= <=
 
  perform type coercion:
  == !=
 
-# min and max
+// min and max
 Math.min(1, 2, 3)
  Math.max(1, 2, 3)
 
  Math.min.apply(Math, [1, 2, 3])
  Math.max.apply(Math, [1, 2, 3])
 
-# arithmetic operators
+// arithmetic operators
  addition, subtraction, multiplication, float division, quotient, remainder
 + - * / none %
 
-# integer division
+// integer division
 Math.floor(22 / 7)
 
-# divmod
+// divmod
 none
 
-# integer division by zero
+// integer division by zero
 Returns Infinity, NaN, or -Infinity depending upon sign of dividend
 .
  There are literals for Infinity and NaN.
 
-# float division
+// float division
 22 / 7
 
-# float division by zero
+// float division by zero
 same behavior as for integers
 
-# power
+// power
 Math.pow(2, 32)
 
-# sqrt
+// sqrt
 Math.sqrt(2)
 
-# sqrt -1
+// sqrt -1
 NaN
 
-# transcendental functions
+// transcendental functions
 Math.exp Math.log Math.sin Math.cos Math.tan Math.asin Math.acos Math.atan Math.atan2
 
-# transcendental constants
+// transcendental constants
  π and e
 Math.PI
  Math.E
 
-# float truncation
+// float truncation
 none
  Math.round(3.1)
  Math.floor(3.1)
  Math.ceil(3.1)
 
-# absolute value
+// absolute value
 Math.abs(-3)
 
-# integer overflow
+// integer overflow
 all numbers are floats
 
-# float overflow
+// float overflow
 Infinity
 
-# rational construction
+// rational construction
 none
 
-# rational decomposition
+// rational decomposition
 none
 
-# complex construction
+// complex construction
 none
 
-# complex decomposition
+// complex decomposition
  real and imaginary component, argument, absolute value, conjugate
 none
 
-# random number
+// random number
  uniform integer, uniform float, normal float
 Math.floor(Math.random() * 100)
  Math.random()
  none
 
-# random seed
+// random seed
  set, get, restore
 none
 
-# bit operators
+// bit operators
 << >> & | ^ ~
 
-# binary, octal, and hex literals
+// binary, octal, and hex literals
 none
  052 // deprecated
  0x2a
 
-# radix
+// radix
  convert integer to and from string with radix
 (42).toString(7)
  parseInt('60', 7)
 
-# strings
+// strings
 strings
 
-#
+//
 node.js
 
-# string type
+// string type
 String
 
-# string literal
+// string literal
 don\'t say "no"'
  "don't say \"no\""
 
-# newline in literal
+// newline in literal
 // backquote literals only:
  `first line
  second line`
@@ -263,68 +263,68 @@ don\'t say "no"'
  // Backslashes can be used to break
  // long strings.
 
-# literal escapes
+// literal escapes
 single and double quotes:
  \b \f \n \r \t \v \xhh \" \' \\
  \uhhhh \u{hhhhh}
 
-# here document
+// here document
 none
 
-# variable interpolation
+// variable interpolation
 let count = 3;
  let item = 'ball';
  let s = `${count} ${item}s`;
 
-# expression interpolation
+// expression interpolation
 `1 + 1 = ${1 + 1}`
 
-# format string
+// format string
 // None; use string concatenation
 . // Evaluates to "12.35":
  12.3456.toFixed(2)
 
-# are strings mutable?
+// are strings mutable?
 no
 
-# copy string
+// copy string
 none
 
-# concatenate
+// concatenate
 s = 'Hello, ' + 'World!';
 
-# replicate
+// replicate
 let hbar = _.repeat('-', 80);
 
-# translate case
+// translate case
  to upper, to lower
 lorem'.toUpperCase()
  'LOREM'.toLowerCase()
 
-# capitalize
+// capitalize
  string, words
 _.capitalize('lorem');
  none
 
-# trim
+// trim
  both sides, left, right
  lorem '.trim()
  ' lorem'.trimLeft()
  'lorem '.trimRight()
 
-# pad
+// pad
  on right, on left, centered
 _.padStart('lorem', 10)
  _.padEnd('lorem', 10)
  _.pad('lorem', 10)
 
-# number to string
+// number to string
 value: ' + 8
 
-# format float
+// format float
 ' + Math.round(Math.PI * 100) / 100
 
-# string to number
+// string to number
 7 + parseInt('12;, 10)
  73.9 + parseFloat('.037')
 
@@ -333,78 +333,78 @@ value: ' + 8
  // NaN:
  parseInt('A')
 
-# string join
+// string join
 ['do', 're', 'mi'].join(' ')
 
-# split
+// split
 // [ 'do', 're', '', 'mi', '' ]:
  'do re mi '.split(' ')
 
  // [ 'do', 're', 'mi', '' ]:
  'do re mi '.split(/\s+/)
 
-# split in two
+// split in two
 do re mi fa'.split(/\s+/, 2)
 
-# split and keep delimiters
+// split and keep delimiters
 none
 
-# prefix and suffix test
+// prefix and suffix test
 foobar'.startsWith('foo')
  'foobar'.endsWith('bar')
 
-# length
+// length
 lorem'.length
 
-# index of substring
+// index of substring
  first, last
 // returns -1 if not found:
  'lorem ipsum'.indexOf('ipsum')
 
-# extract substring
+// extract substring
  by start and length, by start and end, by successive starts
 lorem ipsum'.substr(6, 5)
  'lorem ipsum'.substring(6, 11)
 
-# byte array type
+// byte array type
 Buffer
 
-# byte array to string
+// byte array to string
 let a = Buffer.from([0xce, 0xbb]);
  let s = a.toString('utf-8');
 
-# string to byte array
+// string to byte array
 a = Buffer.from('\u03bb')
 
-# character lookup
+// character lookup
 lorem ipsum'[6]
 
-# chr and ord
+// chr and ord
 String.fromCharCode(65)
  'A'.charCodeAt(0)
 
-# to array of characters
+// to array of characters
 abcd'.split('')
 
-# translate characters
+// translate characters
 none
 
-# delete characters
+// delete characters
 none
 
-# squeeze characters
+// squeeze characters
 none
 
-# regular expressions
+// regular expressions
 regular expressions
 
-#
+//
 node.js
 
-# literal, custom delimited literal
+// literal, custom delimited literal
 /lorem|ipsum/
 
-# ascii character class abbreviations
+// ascii character class abbreviations
 . [^\n]
  \d [0-9]
  \D [^0-9]
@@ -413,85 +413,85 @@ node.js
  \w [A-Za-z0-9_]
  \W [^A-Za-z0-9_]
 
-# unicode character class abbreviations
+// unicode character class abbreviations
 none
 
-# anchors
+// anchors
 ^ start of string or line with m modifier
  $ end of string or line with m modifier
  \b word boundary: \w\W or \W\w
  \B non word boundary
 
-# match test
+// match test
 if (s.match(/1999/)) {
   console.log('party!');
  }
 
-# case insensitive match test
+// case insensitive match test
 Lorem'.match(/lorem/i)
 
-# modifiers
+// modifiers
 g used for global substitution and scanning
  i make case insensitive
  m change meaning of ^ and $
  u \u{} syntax and astral character support
  y used to scan in loop
 
-# substitution
+// substitution
 s = 'do re mi mi mi';
  s.replace(/mi/g, 'ma');
 
-# match, prematch, postmatch
+// match, prematch, postmatch
 m = /\d{4}/.exec(s);
  if (m) {
   match = m[0];
   // no prematch or postmatch
  }
 
-# group capture
+// group capture
 rx = /^(\d{4})-(\d{2})-(\d{2})$/;
  m = rx.exec('2009-06-03');
  yr = m[1];
  mo = m[2];
  dy = m[3];
 
-# named group capture
+// named group capture
 none
 
-# scan
+// scan
 let a = 'dolor sit amet'.match(/\w+/g);
 
-# backreference in match and substitution
+// backreference in match and substitution
 /(\w+) \1/.exec('do do')
 
  'do re'.replace(/(\w+) (\w+)/, '$2 $1')
 
-# recursive regex
+// recursive regex
 none
 
-# dates and time
+// dates and time
 dates and time
 
-#
+//
 node.js
 
-# broken-down datetime type
+// broken-down datetime type
 Date
 
-# current datetime
+// current datetime
 let t = new Date();
 
-# current unix epoch
+// current unix epoch
 (new Date()).getTime() / 1000
 
-# broken-down datetime to unix epoch
+// broken-down datetime to unix epoch
 Math.round(t.getTime() / 1000)
 
-# unix epoch to broken-down datetime
+// unix epoch to broken-down datetime
 let epoch = 1315716177;
  let t2 = new Date(epoch * 1000);
 
-# format datetime
+// format datetime
 // npm install moment
  let moment = require('moment');
 
@@ -499,7 +499,7 @@ let epoch = 1315716177;
  let fmt = 'YYYY-MM-DD HH:mm:ss';
  console.log(t.format(fmt));
 
-# parse datetime
+// parse datetime
 // npm install moment
  let moment = require('moment');
 
@@ -507,20 +507,20 @@ let epoch = 1315716177;
  let s = '2011-05-03 10:00:00';
  let t = moment(s, fmt);
 
-# parse datetime w/o format
+// parse datetime w/o format
 let t = new Date('July 7, 1999');
 
-# date parts
+// date parts
 t.getFullYear()
  t.getMonth() + 1
  t.getDate() // getDay() is day of week
 
-# time parts
+// time parts
 t.getHours()
  t.getMinutes()
  t.getSeconds()
 
-# build broken-down datetime
+// build broken-down datetime
 let yr = 1999;
  let mo = 9;
  let dy = 10;
@@ -530,103 +530,103 @@ let yr = 1999;
  let t = new Date(yr, mo - 1, dy,
   hr, mi, ss);
 
-# datetime subtraction
+// datetime subtraction
 number containing time difference in milliseconds
 
-# add duration
+// add duration
 let t1 = new Date();
  let delta = (10 * 60 + 3) * 1000;
  let t2 = new Date(t1.getTime() + delta);
 
-# local time zone determination
+// local time zone determination
 TZ environment variable or host time zone
 
-# nonlocal time zone
+// nonlocal time zone
 
-# time zone info
+// time zone info
 
  name and UTC offset
 
-# daylight savings test
+// daylight savings test
 // npm install moment
  let moment = require('moment');
 
  moment(new Date()).isDST()
 
-# microseconds
+// microseconds
 t.getMilliseconds() * 1000
 
  // [sec, nanosec] since system boot:
  process.hrtime()
 
-# arrays
+// arrays
 arrays
 
-#
+//
 node.js
 
-# literal
+// literal
 a = [1, 2, 3, 4]
 
-# size
+// size
 a.length
 
-# empty test
+// empty test
 // TypeError if a is null or undefined:
  a.length === 0
 
-# lookup
+// lookup
 a[0]
 
-# update
+// update
 a[0] = 'lorem'
 
-# out-of-bounds behavior
+// out-of-bounds behavior
 returns undefined
 
-# element index
+// element index
 
  first and last occurrence
 // return -1 if not found:
  [6, 7, 7, 8].indexOf(7)
  [6, 7, 7, 8].lastIndexOf(7)
 
-# slice
+// slice
  by endpoints, by length
 // select 3rd and 4th elements:
  ['a', 'b', 'c', 'd'].slice(2, 4)
  none
 
-# slice to end
+// slice to end
 ['a', 'b', 'c', 'd'].slice(1)
 
-# manipulate back
+// manipulate back
 a = [6, 7, 8];
  a.push(9);
  i = a.pop();
 
-# manipulate front
+// manipulate front
 a = [6, 7, 8];
  a.unshift(5);
  i = a.shift();
 
-# concatenate
+// concatenate
 a = [1, 2, 3].concat([4, 5, 6]);
 
-# replicate
+// replicate
 Array(10).fill(null)
 
-# copy
+// copy
  address copy, shallow copy, deep copy
 a = [1, 2, [3, 4]];
  a2 = a;
  a3 = a.slice(0);
  a4 = JSON.parse(JSON.stringify(a));
 
-# array as function argument
+// array as function argument
 parameter contains address copy
 
-# iterate over elements
+// iterate over elements
 [6, 7, 8].forEach((n) => {
   console.log(n);
  });
@@ -636,7 +636,7 @@ parameter contains address copy
   console.log(n);
  }
 
-# iterate over indices and elements
+// iterate over indices and elements
 for (let i = 0; i < a.length; ++i) {
   console.log(a[i]);
  }
@@ -646,20 +646,20 @@ for (let i = 0; i < a.length; ++i) {
   console.log(a[i]);
  }
 
-# iterate over range
+// iterate over range
 not space efficient; use C-style for loop
 
-# instantiate range as array
+// instantiate range as array
 let a = _.range(1, 11);
 
-# reverse
+// reverse
  non-destructive, in-place
 let a = [1, 2, 3];
 
  let a2 = a.slice(0).reverse();
  a.reverse();
 
-# sort
+// sort
  non-destructive,
  in-place,
  custom comparision
@@ -668,129 +668,129 @@ let a = [3, 1, 4, 2];
  let a2 = a.slice(0).sort();
  a.sort();
 
-# dedupe
+// dedupe
  non-destructive, in-place
 let a = [1, 2, 2, 3];
 
  let a2 = _.uniq(a);
  a = _.uniq(a);
 
-# membership
+// membership
 a.includes(7)
 
-# intersection
+// intersection
 _.intersection([1, 2], [2, 3, 4])
 
-# union
+// union
 _.union([1, 2], [2, 3, 4])
 
-# relative complement, symmetric difference
+// relative complement, symmetric difference
 _.difference([1, 2, 3], [2])
  none
 
-# map
+// map
 // callback gets 3 args:
  // value, index, array
  a.map((x) => x * x)
 
-# filter
+// filter
 a.filter((x) => x > 1)
 
-# reduce
+// reduce
 a.reduce((m, o) => m + o, 0)
 
-# universal and existential tests
+// universal and existential tests
 let a = [1, 2, 3, 4];
 
  a.every((n) => n % 2 === 0)
  a.some((n) => n % 2 === 0)
 
-# shuffle and sample
+// shuffle and sample
 let a = [1, 2, 3, 4];
 
  a = _.shuffle(a);
  let samp = _.sampleSize([1, 2, 3, 4], 2);
 
-# flatten
+// flatten
  one level, completely
 let a = [1, [2, [3, 4]]];
 
  let a2 = _.flatten(a);
  let a3 = _.flattenDeep(a);
 
-# zip
+// zip
 let a = _.zip([1, 2, 3], ['a', 'b', 'c']);
 
  // shorter array padded with undefined:
  _.zip([1, 2, 3], ['a', 'b'])
 
-# dictionaries
+// dictionaries
 dictionaries
 
-#
+//
 node.js
 
-# literal
+// literal
 d = {t: 1, f: 0};
  // keys do not need to be quoted if they
  // are a legal JavaScript variable name
  // and not a reserved word
 
-# size
+// size
 _.size(d)
  Object.getOwnPropertyNames(d).length
 
-# lookup
+// lookup
 d.hasOwnProperty("t") ? d["t"] : undefined
  d.hasOwnProperty("t") ? d.t : undefined
 
  // JavaScript dictionaries are objects
  // and inherit properties from Object.
 
-# update
+// update
 d['t'] = 2;
  d.t = 2;
 
-# missing key behavior
+// missing key behavior
 let d = {};
  // undefined:
  d["lorem"];
  // adds key/value pair:
  d["lorem"] = "ipsum";
 
-# is key present
+// is key present
 d.hasOwnProperty("t");
 
-# delete
+// delete
 delete d["t"];
  delete d.t;
 
-# from array of pairs, from even length array
+// from array of pairs, from even length array
 let a = [['a', 1], ['b', 2], ['c', 3]];
  let d = _.fromPairs(a);
 
  none
 
-# merge
+// merge
 let d1 = {a: 1, b: 2};
  let d2 = {b: 3, c: 4};
  // d2 overwrites shared keys in d1:
  d1 = _.assignIn(d1, d2);
 
-# invert
+// invert
 let let2num = {t: 1, f: 0};
  let num2let = _.invert(let2num);
 
-# iterate
+// iterate
 for (let k in d) {
   console.log(`value at ${k} is ${d[k]}`);
  }
 
-# keys and values as arrays
+// keys and values as arrays
 Object.keys(d)
  _.values(d)
 
-# sort by values
+// sort by values
 let cmp = (a, b) => a[1] - b[1];
  let d = {t: 1, f: 0};
 
@@ -798,36 +798,36 @@ let cmp = (a, b) => a[1] - b[1];
   console.log(p);
  }
 
-# default value, computed value
+// default value, computed value
 none
 
-# functions
+// functions
 functions
 
-#
+//
 node.js
 
-# define
+// define
 function add3 (x1, x2, x3) {
   return x1 + x2 + x3;
  }
 
-# invoke
+// invoke
 add3(1, 2, 3)
 
-# missing argument behavior
+// missing argument behavior
 set to undefined
 
-# extra argument behavior
+// extra argument behavior
 ignored
 
-# default argument
+// default argument
 // new in ES6:
  function myLog (x, base = 10) {
   return Math.log(x) / Math.log(base);
  }
 
-# variadic function
+// variadic function
 function firstAndLast() {
   if (arguments.length >= 1) {
   console.log('first: ' + arguments[0]);
@@ -847,30 +847,30 @@ function firstAndLast() {
   }
  }
 
-# pass array elements as separate arguments
+// pass array elements as separate arguments
 let a = [1, 2, 3];
 
  let sum = add3(...a);
 
-# parameter alias
+// parameter alias
 none
 
-# named parameters
+// named parameters
 none
 
-# return value
+// return value
 return arg or undefined
 .
  If invoked with new and return value not an object, returns this.
 
-# multiple return values
+// multiple return values
 function firstAndSecond(a) {
   return [a[0], a[1]];
  }
 
  let [x, y] = firstAndSecond([6, 7, 8]);
 
-# anonymous function literal
+// anonymous function literal
 let square = function (x) {
   return x * x;
  };
@@ -881,15 +881,15 @@ let square = function (x) {
  // expression body variant:
  let square = (x) => x * x;
 
-# invoke anonymous function
+// invoke anonymous function
 square(2)
 
  ((x) => (x * x)(2)
 
-# function as value
+// function as value
 let func = add3;
 
-# function with private state
+// function with private state
 function counter() {
   counter.i += 1;
   return counter.i;
@@ -898,7 +898,7 @@ function counter() {
  counter.i = 0;
  console.log(counter());
 
-# closure
+// closure
 function makeCounter () {
   let i = 0;
 
@@ -911,7 +911,7 @@ function makeCounter () {
  let nays = makeCounter();
  console.log(nays());
 
-# generator
+// generator
 function * makeCounter () {
   let i = 0;
   while (true) {
@@ -927,19 +927,19 @@ function * makeCounter () {
   }
  }
 
-# decorator
+// decorator
 none
 
-# invoke operator like function
+// invoke operator like function
 none
 
-# execution control
+// execution control
 execution control
 
-#
+//
 node.js
 
-# if
+// if
 if (n === 0) {
   console.log('no hits');
  } else if (n === 1) {
@@ -948,7 +948,7 @@ if (n === 0) {
   console.log(n + ' hits');
  }
 
-# switch
+// switch
 switch (n) {
  case 0:
   console.log('no hits\n;);
@@ -960,17 +960,17 @@ switch (n) {
   console.log(n + ' hits\n');
  }
 
-# while
+// while
 while (i < 100) {
   i += 1;
  }
 
-# for
+// for
 for (let i = 0; i < 10; ++i) {
   console.log(i);
  }
 
-# break
+// break
 for (let i = 30; i < 50; ++i) {
   if (i % 7 === 0) {
   console.log('first multiple: ' + i);
@@ -978,7 +978,7 @@ for (let i = 30; i < 50; ++i) {
   }
  }
 
-# continue
+// continue
 for (let i = 30; i < 50; ++i) {
   if (i % 7 === 0) {
   continue;
@@ -986,19 +986,19 @@ for (let i = 30; i < 50; ++i) {
   console.log('not divisible: ' + i);
  }
 
-# statement modifiers
+// statement modifiers
 none
 
-# exceptions
+// exceptions
 exceptions
 
-#
+//
 node.js
 
-# base exception
+// base exception
 Any value can be thrown.
 
-# predefined exceptions
+// predefined exceptions
 Error
   EvalError
   RangeError
@@ -1007,10 +1007,10 @@ Error
   TypeError
   URIError
 
-# raise exception
+// raise exception
 throw new Error("bad arg");
 
-# catch-all handler
+// catch-all handler
 try {
   risky();
  } catch (e) {
@@ -1018,7 +1018,7 @@ try {
   'risky failed: ' + e.message);
  }
 
-# re-raise exception
+// re-raise exception
 try {
   throw new Error("bam!");
  } catch (e) {
@@ -1026,17 +1026,17 @@ try {
   throw e;
  }
 
-# global variable for last exception
+// global variable for last exception
 none
 
-# define exception
+// define exception
 function Bam(msg) {
   this.message = msg;
  }
 
  Bam.prototype = new Error;
 
-# handle exception
+// handle exception
 try {
   throw new Bam("bam!");
  } catch (e) {
@@ -1048,7 +1048,7 @@ try {
   }
  }
 
-# finally block
+// finally block
 acquireResource();
  try {
   risky();
@@ -1056,27 +1056,27 @@ acquireResource();
   releaseResource();
  }
 
-# threads
+// threads
 threads
 
-#
+//
 node.js
 
-# start thread
+// start thread
 
-# wait on thread
+// wait on thread
 
-# sleep
+// sleep
 
-# timeout
+// timeout
 
-#
+//
 _____________________________________________________
 
-#
+//
 node.js
 
-# read from stdin
+// read from stdin
 let readline = require('readline');
 
  let rl = readline.createInterface({
@@ -1086,24 +1086,24 @@ let readline = require('readline');
   // this code executes once for each line
  });
 
-# write to stdout
+// write to stdout
 console.log('Hello, World!');
 
-# write format to stdout
+// write format to stdout
 
-# write to stderr
+// write to stderr
 console.error('bam!');
 
-# open for reading
+// open for reading
 
-# open for reading bytes
+// open for reading bytes
 let fs = require('fs');
 
  let f = fs.openSync("/etc/hosts", "r");
 
-# read line
+// read line
 
-# iterate by line
+// iterate by line
 const readline = require('readline');
  const fs = require('fs');
 
@@ -1115,70 +1115,70 @@ const readline = require('readline');
   console.log(line);
  });
 
-# read file into string
+// read file into string
 let fs = require('fs');
 
  let s = fs.readFileSync('/etc/hosts', 'utf8');
 
-# read file into array of strings
+// read file into array of strings
 
-# read fixed length
+// read fixed length
 let buf = Buffer.alloc(100);
  // 3rd arg is offset into buf:
  let n = fs.readSync(f, buf, 0, 100);
  let s = buf.toString('utf-8', 0, n);
 
-# read char
+// read char
 
-# read serialized data
+// read serialized data
 let fs = require('fs');
 
  let s = fs.readFileSync("/tmp/data.json");
  let data = JSON.parse(s);
 
-# open for writing
+// open for writing
 let fs = require('fs');
 
  let f = fs.openSync("/tmp/test", "w");
 
-# open for writing bytes
+// open for writing bytes
 let fs = require('fs');
 
  let f = fs.openSync("/tmp/test", "w");
 
-# open for appending
+// open for appending
 et fs = require('fs');
 
  let f = fs.openSync("/tmp/test", "a");
 
-# write string
+// write string
 fs.writeSync(f, 'lorem ipsum');
 
  // writeSync() takes String or Buffer arg
 . // A String is encoded as UTF-8.
 
-# write line
+// write line
 fs.writeSync(f, 'lorem ipsum\n');
 
-# write format
+// write format
 
-# write char
+// write char
 
-# write serialized data
+// write serialized data
 let fs = require('fs');
 
  let s = JSON.stringify({foo: [1, 2, 3]});
  fs.writeFileSync("/tmp/data.json", s);
 
-# close
+// close
 fs.closeSync(f);
 
-# close on block exit
+// close on block exit
 
-# flush
+// flush
 writeSync() isn't buffered
 
-# position
+// position
 
  get, set
 // no get
@@ -1189,7 +1189,7 @@ writeSync() isn't buffered
  // 3rd arg is where in file to start write:
  fs.writeSync(f2, buf, 0);
 
-# open temporary file
+// open temporary file
 // npm install tmp
  let tmp = require('tmp');
  let fs = require('fs');
@@ -1199,42 +1199,42 @@ writeSync() isn't buffered
  console.log(`tmp file: ${file.name}`);
  fs.closeSync(file.fd);
 
-# open in memory file
+// open in memory file
 
-# asynchronous events
+// asynchronous events
 asynchronous events
 
-#
+//
 node.js
 
-# start event loop
+// start event loop
 
-# read file asynchronously
+// read file asynchronously
 
-# write file asynchronously
+// write file asynchronously
 
-# promise
+// promise
 
-# files
+// files
 files
 
-#
+//
 node.js
 
-# file exists test, file regular test
+// file exists test, file regular test
 let fs = require('fs');
 
  let exists = fs.existsSync('/etc/hosts');
  let stat = fs.statSync('/etc/hosts');
  let regular = stat.isFile();
 
-# file size
+// file size
 let fs = require('fs');
 
  let stat = fs.statSync('/etc/hosts');
  let size = stat.size;
 
-# is file readable, writable, executable
+// is file readable, writable, executable
 let fs = require('fs');
 
  // no return values; exception thrown
@@ -1246,18 +1246,18 @@ let fs = require('fs');
  fs.accessSync('/etc/hosts',
   fs.constants.X_OK);
 
-# set file permissions
+// set file permissions
 let fs = require('fs');
 
  fs.chmodSync('/tmp/foo', parseInt('755', 8));
 
-# last modification time
+// last modification time
 let fs = require('fs');
 
  let stat = fs.statSync('/etc/hosts');
  let dt = stat.mtime;
 
-# copy file, remove file, rename file
+// copy file, remove file, rename file
 // npm install fs-extra
  let fs = require('fs-extra');
 
@@ -1265,7 +1265,7 @@ let fs = require('fs');
  fs.unlinkSync('/tmp/foo');
  fs.renameSync('/tmp/bar', '/tmp/foo');
 
-# create symlink, symlink test, readlink
+// create symlink, symlink test, readlink
 let fs = require('fs');
 
  fs.symlinkSync('/etc/hosts', '/tmp/hosts');
@@ -1273,18 +1273,18 @@ let fs = require('fs');
  let isLink = lstat.isSymbolicLink();
  let path = fs.readlinkSync('/tmp/hosts');
 
-# generate unused file name
+// generate unused file name
 // npm install tempfile
  let tempfile = require('tempfile');
  let path = tempfile();
 
-# file formats
+// file formats
 file formats
 
-#
+//
 node.js
 
-# parse csv
+// parse csv
 let fs = require('fs');
  // npm install csv
  let csv = require('csv');
@@ -1297,21 +1297,21 @@ let fs = require('fs');
   })
  );
 
-# generate csv
+// generate csv
 
-# parse json
+// parse json
 let s = '{"t":1,"f":0}';
  let data = JSON.parse(s);
 
-# generate json
+// generate json
 let data = {'t': 1, 'f': 0};
  let s = JSON.stringify(data);
 
-# parse yaml
+// parse yaml
 
-# generate yaml
+// generate yaml
 
-# parse xml
+// parse xml
  all nodes matching xpath query; first node matching xpath query
 // npm install xmldom xpath
  let dom = require('xmldom').DOMParser;
@@ -1323,47 +1323,47 @@ let data = {'t': 1, 'f': 0};
  nodes.length;
  nodes[0].firstChild.data;
 
-# generate xml
+// generate xml
 // npm install xmlbuilder
  let builder = require('xmlbuilder');
 
  let xml = builder.create('a').ele('b', {id: 123}, 'foo').end();
 
-# parse html
+// parse html
 
-# directories
+// directories
 directories
 
-#
+//
 node.js
 
-# working directory
+// working directory
 let old_dir = process.cwd();
 
  process.chdir("/tmp");
 
-# build pathname
+// build pathname
 let path = require('path');
 
  path.join('/etc', 'hosts');
 
-# dirname and basename
+// dirname and basename
 let path = require('path');
 
  path.dirname('/etc/hosts')
  path.basename('/etc/hosts')
 
-# absolute pathname
+// absolute pathname
  and tilde expansion
 
-# iterate over directory by file
+// iterate over directory by file
 let fs = require('fs');
 
  fs.readdirSync('/etc').forEach(
   function(s) { console.log(s); }
  );
 
-# glob paths
+// glob paths
 // npm install glob
  let glob = require('glob');
 
@@ -1373,7 +1373,7 @@ let fs = require('fs');
   });
  });
 
-# make directory
+// make directory
 const fs = require('fs');
 
  if (!fs.existsSync('/tmp/foo')) {
@@ -1381,67 +1381,67 @@ const fs = require('fs');
  }
  fs.mkdirSync('/tmp/foo/bar', 0755);
 
-# recursive copy
+// recursive copy
 
-# remove empty directory
+// remove empty directory
 const fs = require('fs');
 
  fs.rmdirSync('/tmp/foodir');
 
-# remove directory and contents
+// remove directory and contents
 
-# directory test
+// directory test
 
-# generate unused directory
+// generate unused directory
 const fs = require('fs');
 
  const dir = fs.mkdtemp('/tmp/foo');
 
-# system temporary file directory
+// system temporary file directory
 
-# processes and environment
+// processes and environment
 processes and environment
 
-#
+//
 node.js
 
-# command line arguments
+// command line arguments
  and script name
 process.argv.slice(2)
  process.argv[1]
  // process.argv[0] contains "node"
 
-# environment variable
+// environment variable
 
  get, set
 process.env["HOME"]
 
  process.env["PATH"] = "/bin";
 
-# get pid, parent pid
+// get pid, parent pid
 process.pid
  none
 
-# user id and name
+// user id and name
 
-# exit
+// exit
 process.exit(0);
 
-# set signal handler
+// set signal handler
 
-# external command
+// external command
 
-# shell-escaped external command
+// shell-escaped external command
 
-# command substitution
+// command substitution
 
-# option parsing
+// option parsing
 option parsing
 
-#
+//
 node.js
 
-# boolean flag
+// boolean flag
 // $ npm install commander
  program = require('commander');
 
@@ -1450,7 +1450,7 @@ node.js
 
  let verbose = program.verbose;
 
-# string option
+// string option
 // $ npm install commander
  program = require('commander');
 
@@ -1459,7 +1459,7 @@ node.js
 
  let file = program.file;
 
-# numeric option
+// numeric option
 // $ npm install commander
  program = require('commander');
  program.option('-c, --count <n>',
@@ -1473,11 +1473,11 @@ node.js
  if (program.ratio)
   console.log(program.ratio);
 
-# unrecognized option behavior
+// unrecognized option behavior
 // error message and exit
  // with nonzero status
 
-# required option
+// required option
 const fs = require('fs');
  // $ npm install commander
  const program = require('commander');
@@ -1493,7 +1493,7 @@ const fs = require('fs');
   process.exit(1);
  }
 
-# default option
+// default option
 // $ npm install commander:
  const program = require('commander');
 
@@ -1502,7 +1502,7 @@ const fs = require('fs');
  program.parse(process.argv);
  console.log('hosts: ' + program.hosts);
 
-# delimited options
+// delimited options
 // $ npm install commander
  const program = require('commander');
 
@@ -1515,7 +1515,7 @@ const fs = require('fs');
  program.parse(process.argv);
  console.log(program.words.length);
 
-# repeated options
+// repeated options
 // $ npm install commander
  const program = require('commander');
 
@@ -1530,16 +1530,16 @@ const fs = require('fs');
  program.parse(process.argv);
  console.log(program.words.length);
 
-# positional parameters
+// positional parameters
 // Processing stops at
  // first positional arg
 . //
  // Positional arguments are
  // in program.args.
 
-# positional parameters as array
+// positional parameters as array
 
-# usage
+// usage
 // $ npm install commander
  program = require('commander');
 
@@ -1555,90 +1555,90 @@ const fs = require('fs');
   process.exit(1);
  }
 
-# subcommand
+// subcommand
 
-# libraries and namespaces
+// libraries and namespaces
 libraries and namespaces
 
-#
+//
 node.js
 
-# load library
+// load library
 let foo = require('./foo.js');
 
  let foo = require('foo');
 
-# load library in subdirectory
+// load library in subdirectory
 let bar = require('./foo/bar.js');
 
-# hot patch
+// hot patch
 delete require.cache[require.resolve('./foo.js')];
  let foo = require('./foo.js');
 
-# load error
+// load error
 raises Errror exception
 
-# main routine in library
+// main routine in library
 if (require.main == module) {
   code
  }
 
-# library path
+// library path
 none
 
-# library path environment variable
+// library path environment variable
 $ NODE_PATH=~/lib node foo.js
 
-# library path command line option
+// library path command line option
 none
 
-# simple global identifiers
+// simple global identifiers
 
-# multiple label identifiers
+// multiple label identifiers
 
-# label separator
+// label separator
 
-# root namespace definition
+// root namespace definition
 
-# namespace declaration
+// namespace declaration
 
-# child namespace declaration
+// child namespace declaration
 
-# import definitions
+// import definitions
 
-# import all definitions in namespace
+// import all definitions in namespace
 
-# import all subnamespaces
+// import all subnamespaces
 
-# shadow avoidance
+// shadow avoidance
 
-# list installed packages, install a package
+// list installed packages, install a package
 
-# package specification format
+// package specification format
 
-# objects
+// objects
 objects
 
-#
+//
 node.js
 
-# define class
+// define class
 function Int(i) {
   this.value = i === undefined ? 0 : i;
  }
 
-# create object
+// create object
 let i = new Int();
  let i2 = new Int(7);
 
-# get and set instance variable
+// get and set instance variable
 let v = i.value;
  i.value = v + 1;
 
-# instance variable visibility
+// instance variable visibility
 public
 
-# define method
+// define method
 // inside constructor:
  this.plus = function(v) {
   return this.value + v;
@@ -1649,38 +1649,38 @@ public
   return this.value + v;
  }
 
-# invoke method
+// invoke method
 i.plus(3);
 
-# define class method
+// define class method
 
-# invoke class method
+// invoke class method
 
-# define class variable
+// define class variable
 
-# get and set class variable
+// get and set class variable
 
-# handle undefined method invocation
+// handle undefined method invocation
 
-# alias method
+// alias method
 
-# destructor
+// destructor
 
-# subclass
+// subclass
 
-# reflection
+// reflection
 reflection
 
-#
+//
 node.js
 
-# object id
+// object id
 none
 
-# inspect type
+// inspect type
 typeof([]) === 'object'
 
-# basic types
+// basic types
 number
  string
  boolean
@@ -1693,51 +1693,51 @@ number
  typeof([])
  typeof({})
 
-# inspect class
+// inspect class
 // returns prototype object:
  Object.getPrototypeOf(o)
 
-# inspect class hierarchy
+// inspect class hierarchy
 let pa = Object.getPrototypeOf(o)
  // prototype's of prototype object:
  let grandpa = Object.getPrototypeOf(pa)
 
-# has method?
+// has method?
 o.reverse && typeof(o.reverse) === 'function'
 
-# message passing
+// message passing
 not a standard feature
 
-# eval
+// eval
 eval('1 + 1')
 
-# list object methods
+// list object methods
 
-# list object attributes
+// list object attributes
 
-# list loaded libraries
+// list loaded libraries
 
-# list loaded namespaces
+// list loaded namespaces
 
-# inspect namespace
+// inspect namespace
 
-# pretty-print
+// pretty-print
 let d = {"lorem": 1, "ipsum": [2, 3]};
  console.log(JSON.stringify(d, null, 2));
 
-# source line number and file name
+// source line number and file name
 
-# command line documentation
+// command line documentation
 
-# net and web
+// net and web
 net and web
 
-#
+//
 node.js
 
-# get local hostname, dns lookup, reverse dns lookup
+// get local hostname, dns lookup, reverse dns lookup
 
-# http get
+// http get
 // npm install request
  let request = require('request');
 
@@ -1749,41 +1749,41 @@ node.js
   }
  );
 
-# http post
+// http post
 
-# serve working directory
+// serve working directory
 
-# absolute url
+// absolute url
  from base and relative url
 
-# parse url
+// parse url
 
-# url encode/decode
+// url encode/decode
 
-# html escape
+// html escape
  escape character data, escape attribute value, unescape html entities
 
-# base64 encode/decode
+// base64 encode/decode
 
-# databases
+// databases
 databases
 
-#
+//
 node.js
 
-# mysql
+// mysql
 
-# mongodb
+// mongodb
 
-# redis
+// redis
 
-# unit tests
+// unit tests
 unit tests
 
-#
+//
 node.js
 
-# test class
+// test class
 // npm install -g nodeunit
 
  exports.testFoo = function(test) {
@@ -1791,56 +1791,56 @@ node.js
   test.done();
  }
 
-# run tests, run test method
+// run tests, run test method
 $ nodeunit test_foo.js
 
  $ nodeunit -t testFoo test_foo.js
 
-# equality assertion
+// equality assertion
 let s = 'do re mi';
  test.equals(s, 'do re mi');
 
-# approximate assertion
+// approximate assertion
 
-# regex assertion
+// regex assertion
 
-# exception assertion
+// exception assertion
 
-# mock method
+// mock method
 
-# setup
+// setup
 exports.setUp = function(callback) {
   console.log('setting up...');
   callback();
  }
 
-# teardown
+// teardown
 exports.tearDown = function(callback) {
   console.log('tearing down...');
   callback();
  }
 
-# debugging
+// debugging
 debugging
 
-#
+//
 node.js
 
-# check syntax
+// check syntax
 $ node -c foo.js
 
-# check for errors
+// check for errors
 $ npm install -g semistandard
  $ semistandard foo.js
 
-# check style
+// check style
 $ npm install -g semistandard
  $ semistandard foo.js
 
-# run debugger
+// run debugger
 $ node debug foo.js
 
-# benchmark code
+// benchmark code
 console.time('product');
  let n = 1;
  for (let i = 1; i < 1000*1000; ++i) {
@@ -1848,9 +1848,9 @@ console.time('product');
  }
  console.timeEnd('product');
 
-# profile code
+// profile code
 $ node --prof foo.js
  $ node --prof-process *v8.log
 
-#
+//
 ____________________________________________________
