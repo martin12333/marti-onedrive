@@ -9236,3 +9236,6 @@ git add -vv   --dry-run   'co*/f?.*'
 git add -vv    'co*/f?.*'
 git commit -v -a -m  " rename,move"
 git push   -vv
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv
