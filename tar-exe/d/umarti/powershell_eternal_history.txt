@@ -9192,3 +9192,11 @@ git push
 git add -vv   --dry-run   'ju*/*.ipynb'
 git add -vv  'AI*/*.ipynb'
 git commit -v -a -m add
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
+conda activate pip310ecco
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
+conda activate pip310ecco
+pip install   --dry-run    html5lib
+pip install   html5lib
