@@ -9218,3 +9218,6 @@ git show --name-only
 git commit -v -a -m ...
 git push   -vv
 git show --name-only
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv

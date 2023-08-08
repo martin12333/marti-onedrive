@@ -15,27 +15,22 @@ bash -c 'df -m'
 sudo apt update
 sudo apt install ghc
 
-ghci
-:t 1
-
-### vsc terminal ubuntu
 
  (eepitch-shell)
  (eepitch-kill)
  (eepitch-shell)
 
-zsh
+cd  /onedri/codewars
 ls
-ls  /onedri/codewars
 
 : 1660158942:0;ghci --help
 : 1660159127:0;ghci --show-options
 
-cd  /onedri/codewars
-
 ghci
 :h
 :?
+:t 1
+
 :q
 
 ghci -W f5.hs

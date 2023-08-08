@@ -1,3 +1,4 @@
+
 #%%
 python
 
@@ -7,71 +8,42 @@ breakpoint()
 #quit()
 #%%
 
-
-
-#
-python
-
-
-
-
-
 # from http://hyperpolyglot.org
-
-
-
-# version used
-3.6
-
 
 # show version
 $ python -V
  $ python --version
-
 
 # implicit prologue
 import os, re, sys
 
 section: grammar and execution
 # grammar and execution
-grammar and execution
-
-
-#
-python
-
 
 # interpreter
 $ python foo.py
 
-
 # repl
 $ python
-
 
 # command line program
 $ python -c 'print("hi!")'
 
-
 # block delimiters
 : and offside rule
-
 
 # statement separator
 newline or ;
 
  newlines not separators inside (), [], {}, triple quote literals, or after backslash: \
 
-
 # source code encoding
 Python 3 source is UTF-8 by default; Python 2 source is US-ASCII
 
  # -*- coding: us-ascii -*-
 
-
 # end-of-line comment
 # comment
-
 
 # multiple line comment
 use triple quote string literal:
@@ -83,20 +55,16 @@ section: variables and expressions
 # variables and expressions
 variables and expressions
 
-
 #
 python
-
 
 # local variable
 # in function body:
  x = 1
  y, z = 2, 3
 
-
 # file scope variable
 none
-
 
 # global variable
 g = 1
@@ -105,18 +73,15 @@ g = 1
   global g
   g += 1
 
-
 # constant
 # uppercase identifiers
  # constant by convention
  PI = 3.14
 
-
 # assignment
 # assignments can be chained
  # but otherwise don't return values:
  v = 1
-
 
 # parallel assignment
 x, y, z = 1, 2, 3
@@ -127,10 +92,8 @@ x, y, z = 1, 2, 3
  # raises ValueError:
  x, y, z = 1, 2
 
-
 # swap
 x, y = y, x
-
 
 # compound assignment
  arithmetic, string, logical, bit
@@ -140,22 +103,17 @@ x, y = y, x
  &= |= ^=
  <<= >>= &= |= ^=
 
-
 # increment and decrement
 none
-
 
 # null
 None
 
-
 # null test
 v is None
 
-
 # undefined variable
 raises NameError
-
 
 # conditional expression
 x if x > 0 else -x
@@ -164,27 +122,21 @@ section: arithmetic and logic
 # arithmetic and logic
 arithmetic and logic
 
-
 #
 python
-
 
 # true and false
 True False
 
-
 # falsehoods
 False None 0 0.0 '' [] {}
-
 
 # logical operators
 and or not
 
-
 # relational operators
 relational operators are chainable:
  == != > < >= <=
-
 
 # min and max
 min(1, 2, 3)
@@ -193,25 +145,20 @@ min(1, 2, 3)
  min([1, 2, 3])
  max([1, 2, 3])
 
-
 # arithmetic operators
  addition, subtraction, multiplication, float division, quotient, remainder
 + - * / // %
 
  In Python 2, / performs integer division.
 
-
 # integer division
 22 // 7
-
 
 # divmod
 q, r = divmod(22, 7)
 
-
 # integer division by zero
 raises ZeroDivisionError
-
 
 # float division
 22 / 7
@@ -219,20 +166,16 @@ raises ZeroDivisionError
  # Python 2:
  float(22) / 7
 
-
 # float division by zero
 raises ZeroDivisionError
 
-
 # power
 2 ** 32
-
 
 # sqrt
 import math
 
  math.sqrt(2)
-
 
 # sqrt -1
 # raises ValueError:
@@ -243,18 +186,15 @@ import math
  import cmath
  cmath.sqrt(-1)
 
-
 # transcendental functions
 from math import exp, log, \
  sin, cos, tan, asin, acos, atan, atan2
-
 
 # transcendental constants
  π and e
 import math
 
  math.pi math.e
-
 
 # float truncation
 import math
@@ -264,33 +204,26 @@ import math
  math.ceil(x)
  math.floor(x)
 
-
 # absolute value
 abs(x)
-
 
 # integer overflow
 becomes arbitrary length integer of type long
 
-
 # float overflow
 raises OverflowError
-
 
 # rational construction
 from fractions import Fraction
 
  x = Fraction(22, 7)
 
-
 # rational decomposition
 x.numerator
  x.denominator
 
-
 # complex construction
 z = 1 + 1.414j
-
 
 # complex decomposition
  real and imaginary component, argument, absolute value, conjugate
@@ -302,7 +235,6 @@ import cmath
  abs(z)
  z.conjugate()
 
-
 # random number
  uniform integer, uniform float, normal float
 import random
@@ -310,7 +242,6 @@ import random
  random.randint(0, 99)
  random.random()
  random.gauss(0, 1)
-
 
 # random seed
  set, get, restore
@@ -320,16 +251,13 @@ import random
  seed = random.getstate()
  random.setstate(seed)
 
-
 # bit operators
 << >> & | ^ ~
-
 
 # binary, octal, and hex literals
 0b101010
  0o52 # also 052 in Python 2
  0x2a
-
 
 # radix
  convert integer to and from string with radix
@@ -340,17 +268,14 @@ section: strings
 # strings
 strings
 
-
 #
 python
-
 
 # string type
 str
 
  # Python 2:
  unicode
-
 
 # string literal
 'don\'t say "no"'
@@ -361,7 +286,6 @@ str
  u'lorem'
  u"ipsum"
 
-
 # newline in literal
 # triple quote literals only:
  '''first line
@@ -370,16 +294,13 @@ str
  """first line
  second line"""
 
-
 # literal escapes
 \newline \\ \' \" \a \b \f \n \r \t \v \ooo \xhh \uhhhh \Uhhhhhhhh
 
  In Python 2, \u and \U only available in string literals with u prefix
 
-
 # here document
 none
-
 
 # variable interpolation
 count = 3
@@ -390,13 +311,11 @@ count = 3
  # Python 3.6:
  print(f'{count} {item}s')
 
-
 # expression interpolation
 '1 + 1 = {}'.format(1 + 1)
 
  # Python 3.6:
  f'1 + 1 = {1 + 1}'
-
 
 # format string
 'lorem %s %d %f' % ('ipsum', 13, 3.7)
@@ -404,14 +323,11 @@ count = 3
  fmt = 'lorem {0} {1} {2}'
  fmt.format('ipsum', 13, 3.7)
 
-
 # are strings mutable?
 no
 
-
 # copy string
 none
-
 
 # concatenate
 s = 'Hello, '
@@ -421,16 +337,13 @@ s = 'Hello, '
  # concatenate literals:
  s2 = 'Hello, ' "World!"
 
-
 # replicate
 hbar = '-' * 80
-
 
 # translate case
  to upper, to lower
 'lorem'.upper()
  'LOREM'.lower()
-
 
 # capitalize
  string, words
@@ -439,13 +352,11 @@ import string
  'lorem'.capitalize()
  string.capwords('lorem ipsum')
 
-
 # trim
  both sides, left, right
 ' lorem '.strip()
  ' lorem'.lstrip()
  'lorem '.rstrip()
-
 
 # pad
  on right, on left, centered
@@ -453,10 +364,8 @@ import string
  'lorem'.rjust(10)
  'lorem'.center(10)
 
-
 # number to string
 'value: ' + str(8)
-
 
 # format float
 import math
@@ -465,7 +374,6 @@ import math
  '{:.3}'.format(math.pi)
  # Python 3.6:
  f'{math.pi:.{3}}'
-
 
 # string to number
 7 + int('12')
@@ -476,13 +384,11 @@ import math
  # raises ValueError:
  int('A')
 
-
 # string join
 ' '.join(['do', 're', 'mi', 'fa'])
 
  # raises TypeError:
  ' '.join([1, 2, 3])
-
 
 # split
 # ['do', 're', '', 'mi', '']:
@@ -491,23 +397,18 @@ import math
  # ['do', 're', 'mi']:
  'do re mi '.split()
 
-
 # split in two
 'do re mi fa'.split(None, 1)
 
-
 # split and keep delimiters
 re.split('(\s+)', 'do re mi fa')
-
 
 # prefix and suffix test
 'foobar'.startswith('foo')
  'foobar'.endswith('bar')
 
-
 # length
 len('lorem')
-
 
 # index of substring
  first, last
@@ -519,23 +420,19 @@ len('lorem')
  'do re re'.find('re')
  'do re re'.rfind('re')
 
-
 # extract substring
  by start and length, by start and end, by successive starts
 none
  none
  'lorem ipsum'[6:11]
 
-
 # byte array type
 bytes
 
  # In Python 2, str also byte array type
 
-
 # byte array to string
 s = b'\xce\xbb'.decode('utf-8')
-
 
 # string to byte array
 a = '\u03bb'.encode('utf-8')
@@ -543,19 +440,15 @@ a = '\u03bb'.encode('utf-8')
  # Python 2:
  a = u'\u03bb'.encode('utf-8')
 
-
 # character lookup
 'lorem ipsum'[6]
-
 
 # chr and ord
 chr(65)
  ord('A')
 
-
 # to array of characters
 list('abcd')
-
 
 # translate characters
 from string import ascii_lowercase
@@ -565,11 +458,9 @@ from string import ascii_lowercase
  table = str.maketrans(ins, outs)
  'hello'.translate(table)
 
-
 # delete characters
 table = {ord(ch): None for ch in "aeiou"}
  "disemvowel me".translate(table)
-
 
 # squeeze characters
 re.sub('(\s)+', r'\1',
@@ -579,15 +470,12 @@ section: regular expressions
 # regular expressions
 regular expressions
 
-
 #
 python
-
 
 # literal, custom delimited literal
 re.compile(r'lorem|ipsum')
  none
-
 
 # ascii character class abbreviations
 . [^\n] with re.S modifier matches all chars
@@ -600,7 +488,6 @@ re.compile(r'lorem|ipsum')
 
  In Python 3, the above definitions are used when re.A is in effect.
 
-
 # unicode character class abbreviations
 . [^\n] with re.S modifier matches all chars
  \d [Nd] Nd: Number, decimal digit
@@ -612,7 +499,6 @@ re.compile(r'lorem|ipsum')
 
  In Python 2, the above definitions are used when re.U is in effect.
 
-
 # anchors
 ^ start of string or line with re.M
  $ end of string or line with re.M
@@ -621,15 +507,12 @@ re.compile(r'lorem|ipsum')
  \B non word boundary
  \Z end of string
 
-
 # match test
 if re.search('1999', s):
   print('party!')
 
-
 # case insensitive match test
 re.search('lorem', 'Lorem', re.I)
-
 
 # modifiers
 re.A change meaning of \b \B \d \D \s \S \w \W
@@ -638,11 +521,9 @@ re.A change meaning of \b \B \d \D \s \S \w \W
  re.S change meaning of
 . re.X ignore whitespace outside char class
 
-
 # substitution
 s = 'do re mi mi mi'
  s = re.compile('mi').sub('ma', s)
-
 
 # match, prematch, postmatch
 m = re.search('\d{4}', s)
@@ -651,12 +532,10 @@ m = re.search('\d{4}', s)
   prematch = s[0:m.start(0)]
   postmatch = s[m.end(0):len(s)]
 
-
 # group capture
 rx = '(\d{4})-(\d{2})-(\d{2})'
  m = re.search(rx, '2010-06-03')
  yr, mo, dy = m.groups()
-
 
 # named group capture
 rx = '^(?P<file>.+)\.(?P<suffix>.+)$'
@@ -665,18 +544,15 @@ rx = '^(?P<file>.+)\.(?P<suffix>.+)$'
  m.groupdict()['file']
  m.groupdict()['suffix']
 
-
 # scan
 s = 'dolor sit amet'
  a = re.findall('\w+', s)
-
 
 # backreference in match and substitution
 none
 
  rx = re.compile('(\w+) (\w+)')
  rx.sub(r'\2 \1', 'do re')
-
 
 # recursive regex
 none
@@ -685,14 +561,11 @@ section: dates and time
 # dates and time
 dates and time
 
-
 #
 python
 
-
 # broken-down datetime type
 datetime.datetime
-
 
 # current datetime
 import datetime
@@ -700,27 +573,22 @@ import datetime
  t = datetime.datetime.now()
  utc = datetime.datetime.utcnow()
 
-
 # current unix epoch
 import datetime
 
  t = datetime.datetime.now()
  epoch = int(t.strftime("%s"))
 
-
 # broken-down datetime to unix epoch
 from datetime import datetime as dt
 
  epoch = int(t.strftime("%s"))
 
-
 # unix epoch to broken-down datetime
 t = dt.fromtimestamp(1304442000)
 
-
 # format datetime
 t.strftime('%Y-%m-%d %H:%M:%S')
-
 
 # parse datetime
 from datetime import datetime
@@ -729,7 +597,6 @@ from datetime import datetime
  fmt = '%Y-%m-%d %H:%M:%S'
  t = datetime.strptime(s, fmt)
 
-
 # parse datetime w/o format
 # pip install python-dateutil
  import dateutil.parser
@@ -737,18 +604,15 @@ from datetime import datetime
  s = 'July 7, 1999'
  t = dateutil.parser.parse(s)
 
-
 # date parts
 t.year
  t.month
  t.day
 
-
 # time parts
 t.hour
  t.minute
  t.second
-
 
 # build broken-down datetime
 import datetime
@@ -761,12 +625,10 @@ import datetime
  ss = 0
  t = datetime.datetime(yr, mo, dy, hr, mi, ss)
 
-
 # datetime subtraction
 datetime.timedelta object
 
  use total_seconds() method to convert to float representing difference in seconds
-
 
 # add duration
 import datetime
@@ -776,10 +638,8 @@ import datetime
   seconds=3)
  t = datetime.datetime.now() + delta
 
-
 # local time zone determination
 a datetime object has no time zone information unless a tzinfo object is provided when it is created
-
 
 # nonlocal time zone
 # pip install pytz
@@ -793,7 +653,6 @@ a datetime object has no time zone information unless a tzinfo object is provide
   tzinfo=pytz.utc)
  jp_dt = utc_dt.astimezone(tmz)
 
-
 # time zone info
 
  name and UTC offset
@@ -804,14 +663,12 @@ import time
  time.tzname[tm.tm_isdst]
  (time.timezone / -3600) + tm.tm_isdst
 
-
 # daylight savings test
 import time
 
  tm = time.localtime()
 
  tm.tm_isdst
-
 
 # microseconds
 t.microsecond
@@ -820,23 +677,18 @@ section: arrays
 # arrays
 arrays
 
-
 #
 python
-
 
 # literal
 a = [1, 2, 3, 4]
 
-
 # size
 len(a)
-
 
 # empty test
 # None tests as empty:
  not a
-
 
 # lookup
 a[0]
@@ -844,10 +696,8 @@ a[0]
  # returns last element:
  a[-1]
 
-
 # update
 a[0] = 'lorem'
-
 
 # out-of-bounds behavior
 a = []
@@ -855,7 +705,6 @@ a = []
  a[10]
  # raises IndexError:
  a[10] = 'lorem'
-
 
 # element index
 
@@ -866,40 +715,33 @@ a = ['x', 'y', 'y', 'z']
  a.index('y')
  none
 
-
 # slice
  by endpoints, by length
 # select 3rd and 4th elements:
  a[2:4]
  a[2:2 + 2]
 
-
 # slice to end
 a[1:]
-
 
 # manipulate back
 a = [6, 7, 8]
  a.append(9)
  a.pop()
 
-
 # manipulate front
 a = [6, 7, 8]
  a.insert(0, 5)
  a.pop(0)
-
 
 # concatenate
 a = [1, 2, 3]
  a2 = a + [4, 5, 6]
  a.extend([4, 5, 6])
 
-
 # replicate
 a = [None] * 10
  a = [None for i in range(0, 10)]
-
 
 # copy
  address copy, shallow copy, deep copy
@@ -910,33 +752,27 @@ import copy
  a3 = list(a)
  a4 = copy.deepcopy(a)
 
-
 # array as function argument
 parameter contains address copy
-
 
 # iterate over elements
 for i in [1, 2, 3]:
   print(i)
-
 
 # iterate over indices and elements
 a = ['do', 're', 'mi', 'fa']
  for i, s in enumerate(a):
   print('%s at index %d' % (s, i))
 
-
 # iterate over range
 # use range() in Python 3:
  for i in xrange(1, 1000001):
   code
 
-
 # instantiate range as array
 a = range(1, 11)
  Python 3:
  a = list(range(1, 11))
-
 
 # reverse
  non-destructive, in-place
@@ -944,7 +780,6 @@ a = [1, 2, 3]
 
  a[::-1]
  a.reverse()
-
 
 # sort
  non-destructive,
@@ -958,7 +793,6 @@ a = ['b', 'A', 'a', 'B']
  # removed from Python 3:
  a.sort(key=str.lower)
 
-
 # dedupe
  non-destructive, in-place
 a = [1, 2, 2, 3]
@@ -966,35 +800,28 @@ a = [1, 2, 2, 3]
  a2 = list(set(a))
  a = list(set(a))
 
-
 # membership
 7 in a
-
 
 # intersection
 {1, 2} & {2, 3, 4}
 
-
 # union
 {1, 2} | {2, 3, 4}
-
 
 # relative complement, symmetric difference
 {1, 2, 3} - {2}
  {1, 2} ^ {2, 3, 4}
-
 
 # map
 map(lambda x: x * x, [1, 2, 3])
  # or use list comprehension:
  [x * x for x in [1, 2, 3]]
 
-
 # filter
 filter(lambda x: x > 1, [1, 2, 3])
  # or use list comprehension:
  [x for x in [1, 2, 3] if x > 1]
-
 
 # reduce
 # import needed in Python 3 only
@@ -1002,11 +829,9 @@ filter(lambda x: x > 1, [1, 2, 3])
 
  reduce(lambda x, y: x + y, [1, 2, 3], 0)
 
-
 # universal and existential tests
 all(i % 2 == 0 for i in [1, 2, 3, 4])
  any(i % 2 == 0 for i in [1, 2, 3, 4])
-
 
 # shuffle and sample
 from random import shuffle, sample
@@ -1015,11 +840,9 @@ from random import shuffle, sample
  shuffle(a)
  samp = sample([1, 2, 3, 4], 2)
 
-
 # flatten
  one level, completely
 none
-
 
 # zip
 list(zip([1, 2, 3], ['a', 'b', 'c']))
@@ -1031,29 +854,23 @@ section: dictionaries
 # dictionaries
 dictionaries
 
-
 #
 python
-
 
 # literal
 d = {'t': 1, 'f': 0}
 
-
 # size
 len(d)
 
-
 # lookup
 d['t']
-
 
 # update
 d['t'] = 2
 
  # provide default to avoid KeyError:
  d.get('t', None)
-
 
 # missing key behavior
 d = {}
@@ -1062,15 +879,12 @@ d = {}
  # adds key/value pair:
  d['lorem'] = 'ipsum'
 
-
 # is key present
 'y' in d
-
 
 # delete
 d = {1: True, 0: False}
  del d[1]
-
 
 # from array of pairs, from even length array
 a = [['a', 1], ['b', 2], ['c', 3]]
@@ -1079,12 +893,10 @@ a = [['a', 1], ['b', 2], ['c', 3]]
  a = ['a', 1, 'b', 2, 'c', 3]
  d = dict(zip(a[::2], a[1::2]))
 
-
 # merge
 d1 = {'a': 1, 'b': 2}
  d2 = {'b': 3, 'c': 4}
  d1.update(d2)
-
 
 # invert
 to_num = {'t': 1, 'f': 0}
@@ -1092,13 +904,11 @@ to_num = {'t': 1, 'f': 0}
  to_let = {v: k for k, v
   in to_num.items()}
 
-
 # iterate
 for k, v in d.items():
   print('value at {} is {}'.format(k, v)
 
  # Python 2: use iteritems()
-
 
 # keys and values as arrays
 list(d.keys())
@@ -1107,7 +917,6 @@ list(d.keys())
  # keys() and values return iterators
  # in Python 3 and lists in Python 2
 
-
 # sort by values
 from operator import itemgetter
 
@@ -1115,7 +924,6 @@ from operator import itemgetter
 
  for k, v in pairs:
   print('{}: {}'.format(k, v))
-
 
 # default value, computed value
 from collections import defaultdict
@@ -1136,27 +944,21 @@ section: functions
 # functions
 functions
 
-
 #
 python
-
 
 # define
 def add3(x1, x2, x3):
   return x1 + x2 + x3
 
-
 # invoke
 add3(1, 2, 3)
-
 
 # missing argument behavior
 raises TypeError if number of arguments doesn't match function arity
 
-
 # extra argument behavior
 raises TypeError if number of arguments doesn't match function arity
-
 
 # default argument
 import math
@@ -1167,7 +969,6 @@ import math
  my_log(42)
  my_log(42, math.e)
 
-
 # variadic function
 def first_and_last(*a):
 
@@ -1176,7 +977,6 @@ def first_and_last(*a):
 
   if len(a) >= 2:
   print('last: ' + str(a[-1]))
-
 
 # pass array elements as separate arguments
 a = [2, 3]
@@ -1187,10 +987,8 @@ a = [2, 3]
  # and must appear after other
  # unnamed arguments
 
-
 # parameter alias
 none
-
 
 # named parameters
 def fequal(x, y, eps=0.01):
@@ -1199,10 +997,8 @@ def fequal(x, y, eps=0.01):
  fequal(1.0, 1.001)
  fequal(1.0, 1.001, eps=0.1**10)
 
-
 # return value
 return arg or None
-
 
 # multiple return values
 def first_and_second(a):
@@ -1210,21 +1006,17 @@ def first_and_second(a):
 
  x, y = first_and_second([6, 7, 8])
 
-
 # anonymous function literal
 # body must be an expression:
  square = lambda x: x * x
-
 
 # invoke anonymous function
 square(2)
 
  (lambda x: x * x)(2)
 
-
 # function as value
 func = add3
-
 
 # function with private state
 # state not private:
@@ -1234,7 +1026,6 @@ func = add3
 
  counter.i = 0
  print(counter())
-
 
 # closure
 def make_counter():
@@ -1248,7 +1039,6 @@ def make_counter():
 
  nays = make_counter()
  print(nays())
-
 
 # generator
 # cf. itertools library
@@ -1271,7 +1061,6 @@ def make_counter():
  # Returning without yielding raises
  # StopIteration exception.
 
-
 # decorator
 def logcall(f):
   def wrapper(*a, **opts):
@@ -1283,7 +1072,6 @@ def logcall(f):
  @logcall
  def square(x):
   return x * x
-
 
 # invoke operator like function
 import operator
@@ -1297,10 +1085,8 @@ section: execution control
 # execution control
 execution control
 
-
 #
 python
-
 
 # if
 if 0 == n:
@@ -1310,28 +1096,22 @@ if 0 == n:
  else:
   print(str(n) + ' hits')
 
-
 # switch
 none
-
 
 # while
 while i < 100:
   i += 1
 
-
 # for
 for i in range(1, 11):
   print(i)
 
-
 # break
 break
 
-
 # continue
 continue
-
 
 # statement modifiers
 none
@@ -1340,10 +1120,8 @@ section: exceptions
 # exceptions
 exceptions
 
-
 #
 python
-
 
 # base exception
 BaseException
@@ -1351,7 +1129,6 @@ BaseException
  User-defined exceptions should subclass Exception
 .
  In Python 2 old-style classes can be thrown.
-
 
 # predefined exceptions
 BaseException
@@ -1386,17 +1163,14 @@ BaseException
   KeyboardInterrupt
   SystemExit
 
-
 # raise exception
 raise Exception('bad arg')
-
 
 # catch-all handler
 try:
   risky()
  except:
   print('risky failed')
-
 
 # re-raise exception
 try:
@@ -1405,23 +1179,19 @@ try:
   print('re-raising...')
   raise
 
-
 # global variable for last exception
 last exception: sys.exc_info()[1]
-
 
 # define exception
 class Bam(Exception):
   def __init__(self):
   super(Bam, self).__init__('bam!')
 
-
 # handle exception
 try:
   raise Bam()
  except Bam as e:
   print(e)
-
 
 # finally block
 acquire_resource()
@@ -1434,10 +1204,8 @@ section: threads
 # threads
 threads
 
-
 #
 python
-
 
 # start thread
 class sleep10(threading.Thread):
@@ -1447,16 +1215,13 @@ class sleep10(threading.Thread):
  thr = sleep10()
  thr.start()
 
-
 # wait on thread
 thr.join()
-
 
 # sleep
 import time
 
  time.sleep(0.5)
-
 
 # timeout
 import signal, time
@@ -1475,7 +1240,6 @@ import signal, time
  except Timeout:
   pass
  signal.alarm(0)
-
 
 #
 _____________________________________________________

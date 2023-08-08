@@ -1,11 +1,32 @@
+
+
+# from http://hyperpolyglot.org
+
+exit
+
+podman machine start
+
+podman start   -ai    cmy22b
+n
+
+#podman stop cmy22b
+
+bash -c 'df -m'
+
+---echo '-------- section --------'
+
+ (eepitch-ghci)
+ (eepitch-kill)
+ (eepitch-ghci)
+
 -- version used
 7.4
 
 -- show version
 $ ghc --version
 
+section: grammar and execution
 -- grammar and invocation
-grammar and invocation
 
 --
 haskell
@@ -86,13 +107,9 @@ list = [Just(3), Nothing, Just(-4)]
 list
 --  [Just 3,Nothing,Just (-4)]
 
-
-
 238.817
 
-
 -- null test
-
 
 -- coalesce
 import Data.Maybe
@@ -106,7 +123,6 @@ import Data.Maybe
  maybe 0 intId foo
 
 -- nullif
-
 
 -- expression type declaration
 1 :: Double
@@ -253,9 +269,7 @@ Complex Double
 
 -- complex constants
 
-
 -- complex operators
-
 
 -- complex construction
 import Data.Complex
@@ -309,7 +323,6 @@ none
 
 -- radix
 
-
 -- strings
 strings
 
@@ -351,14 +364,11 @@ import Data.Char
 
 -- capitalize
 
-
 -- trim
  both sides, left, right
 
-
 -- pad
  on left, on right
-
 
 -- number to string
 "two: " ++ (show 2)
@@ -371,9 +381,7 @@ import Data.Char
 
 -- join
 
-
 -- split
-
 
 -- character type
 Char
@@ -385,7 +393,6 @@ Char
 length "hello"
 
 -- index of substring
-
 
 -- extract substring
 drop 0 (take 4 "hello")
@@ -424,18 +431,13 @@ haskell
 
 -- literal
 
-
 -- size
-
 
 -- lookup
 
-
 -- update
 
-
 -- out-of-bounds
-
 
 -- lists
 lists
@@ -483,7 +485,6 @@ import Data.list
  elemIndex 10 [7, 8, 9]
 
 -- update
-
 
 -- concatenate
  two lists, list of lists
@@ -593,7 +594,6 @@ range a b = if a > b then [] else a : range (a+1) b
 
 -- mutually-recursive-functions
 
-
 -- anonymous function
 \x y -> (x+y) / 2.0
 
@@ -653,18 +653,13 @@ do
 
 -- while
 
-
 -- for
-
 
 -- for in reverse
 
-
 -- list iteration
 
-
 -- loop
-
 
 -- exceptions
 exceptions
@@ -677,18 +672,13 @@ error "bam!"
 
 -- handle error
 
-
 -- type of exceptions
-
 
 -- user defined exception
 
-
 -- standard exceptions
 
-
 -- assert
-
 
 -- concurrency
 concurrency
@@ -715,12 +705,10 @@ when last data is returned, hIsEOF will return True. Reading after end-of-file t
 
 -- chomp
 
-
 -- write line to stdout
 putStrLn "lorem ipsum"
 
 -- write formatted string to stdout
-
 
 -- open file for reading
 import System.IO
@@ -744,7 +732,6 @@ import System.IO
 
 -- i/o errors
 
-
 -- read line
 import IO
 
@@ -763,15 +750,11 @@ import IO
 
 -- iterate over file by line
 
-
 -- read file into array of strings
-
 
 -- read file into string
 
-
 -- write string
-
 
 -- write line
 s = "hello out\n"
@@ -780,12 +763,9 @@ s = "hello out\n"
 
 -- flush file handle
 
-
 -- end-of-file test
 
-
 -- get and set filehandle position
-
 
 -- files
 files
@@ -844,7 +824,6 @@ import System.Posix.Files
 
 -- generate unused file name
 
-
 -- directories
 directories
 
@@ -891,7 +870,6 @@ import System
 
 -- temporary directory
 
-
 -- processes and environment
 processes and environment
 
@@ -917,7 +895,6 @@ import System
  s <- getProgName
 
 -- getopt
-
 
 -- get and set environment variable
 import System.Posix.Env
@@ -947,7 +924,6 @@ import System.Exit
 
 -- set signal handler
 
-
 -- external command
 import System.Cmd
 
@@ -955,9 +931,7 @@ import System.Cmd
 
 -- escaped external command
 
-
 -- backticks
-
 
 -- libraries and namespaces
 libraries and namespaces
@@ -994,7 +968,6 @@ import Data.Bytestring
 
 -- namespace creation
 
-
 -- namespace alias
 import qualified Data.Bytestring as B
 
@@ -1003,9 +976,7 @@ import qualified Data.Bytestring as B
 
 -- subnamespace
 
-
 -- package manager setup
-
 
 -- package manager
  search; install; list installed
@@ -1014,7 +985,6 @@ $ cabal list parsec
  $ cabal list --installed
 
 -- compile app using package
-
 
 -- user-defined types
 user-defined types
@@ -1072,7 +1042,6 @@ c = Red
 
 -- pattern match product type
 
-
 -- pattern match guard
 none, use if or piecewise function definition
 
@@ -1088,15 +1057,11 @@ haskell
 
 -- class definition
 
-
 -- object creation
-
 
 -- method invocation
 
-
 -- field access
-
 
 -- inheritance and polymorphism
 inheritance and polymorphism
@@ -1106,9 +1071,7 @@ haskell
 
 -- overload function
 
-
 -- inheritance
-
 
 -- net and web
 net and web
@@ -1148,13 +1111,11 @@ it
 
 -- quit
 
-
 -- inspect type
 let a = 3
  :type a
 
 -- inspect namespace
-
 
 -- load source file
 :edit hello.hs
@@ -1162,12 +1123,9 @@ let a = 3
 
 -- load package
 
-
 -- search path
 
-
 -- set search path on command line
-
 
 --
 _______________________________________________

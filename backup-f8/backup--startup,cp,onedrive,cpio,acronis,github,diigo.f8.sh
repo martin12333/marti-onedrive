@@ -279,7 +279,7 @@ WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 	git commit -v -a -m jup-ok-overwrite
 
 	git add -vv  'AI*/*.ipynb'
-	git commit -v -a -m ...
+	git commit -v -a -m backup
 	git push   -vv
 	#git add -vv  'AI/*/*.ipynb'
 	cd ~/OneDrive
