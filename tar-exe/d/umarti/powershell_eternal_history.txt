@@ -9230,3 +9230,9 @@ git add -vv  '*.f8.*'
 git commit -v -a -m  " rename,move"
 git add -vv   --dry-run   '*/*lock.json'
 git add -vv   --dry-run   'co*/*lock.json'
+git add -vv    'co*/*lock.json'
+git add -vv   --dry-run   '*/f?.*'
+git add -vv   --dry-run   'co*/f?.*'
+git add -vv    'co*/f?.*'
+git commit -v -a -m  " rename,move"
+git push   -vv
