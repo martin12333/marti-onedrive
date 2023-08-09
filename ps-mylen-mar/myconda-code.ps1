@@ -59,7 +59,8 @@ echo CWE-426--Untrusted-Search-Path
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
 
 
-cd ~\Onedrive\AI   ; start  jupyter lab
+#cd ~\Onedrive\AI   ; start  jupyter lab
+cd ~\Onedrive\   ; start  jupyter lab
 
 
 # Start-Process cmd1 "arg2 arg3"

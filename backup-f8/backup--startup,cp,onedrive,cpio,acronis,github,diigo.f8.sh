@@ -159,7 +159,11 @@ cd ~/OneDrive
 	git add -vv   --force '*.f8.png'
 	git add -vv  --dry-run --force '*.f8.png'
 	git add -vv  --dry-run --force '*.hs'
+	git add -vv  'hy*/*.f8.*'
+	git add -vv  --dry-run  'hy*/*.f8.*'
 	git add -vv   '*.hs'
+
+	git commit -v -a -m  "🚚 rename,move"
 
 #add 'AI/Highly-theoretical-justifications-for-having-fun/logit-lens.f8.png'
 

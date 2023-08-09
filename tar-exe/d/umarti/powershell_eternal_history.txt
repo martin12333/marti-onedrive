@@ -9252,3 +9252,7 @@ git add -vv  '*.f8.*'
 git commit -v -a -m backup
 git push   -vv
 git show --name-only
+git commit -v -a -m backup
+git show --name-only
+git push   -vv
+cd ~\Onedrive\   ; start  jupyter lab
