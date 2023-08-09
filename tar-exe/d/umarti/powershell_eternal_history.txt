@@ -9260,3 +9260,9 @@ git add -vv  --dry-run  'hy*/*.f8.*'
 git add -vv  'hy*/*.f8.*'
 git commit -v -a -m  " rename,move"
 git push
+git add -vv  'hy*/*.ipynb'
+git commit -v -a -m  " rename,move"
+git push
+git commit -v -a -m  " rename,move"
+git add -vv  'hy*/*.f8.*'
+git commit -v -a -m  " rename,move"
