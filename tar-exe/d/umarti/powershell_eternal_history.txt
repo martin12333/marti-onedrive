@@ -9256,3 +9256,7 @@ git commit -v -a -m backup
 git show --name-only
 git push   -vv
 cd ~\Onedrive\   ; start  jupyter lab
+git add -vv  --dry-run  'hy*/*.f8.*'
+git add -vv  'hy*/*.f8.*'
+git commit -v -a -m  " rename,move"
+git push
