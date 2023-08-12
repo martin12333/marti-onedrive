@@ -33,7 +33,7 @@ echo '-------- section --------'
 
 Weeks ago, I made the ecco *.ipynb mostly work.
 Locally. In a conda env with many other programs.
-I remember having problems with version numbers of dependencies. I had to edit  the req file(s) of ecco:  maybe setup.py, maybe requirements.txt
+I remember having problems with version numbers of dependencies. I had to edit  the req file(s) of ecco: as a false-beginner, I probably edited both setup.py,  and requirements.txt
 
 ##pip install --dry-run ecco
 ##raise distutils.errors.DistutilsPlatformError(
