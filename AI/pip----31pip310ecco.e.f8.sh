@@ -31,6 +31,9 @@ pip list | measure-object
 
 echo '-------- section --------'
 
+Weeks ago, I made the ecco *.ipynb mostly work.
+Locally. In a conda env with many other programs.
+I remember having problems with version numbers of dependencies. I had to edit  the req file(s) of ecco:  maybe setup.py, maybe requirements.txt
 
 ##pip install --dry-run ecco
 ##raise distutils.errors.DistutilsPlatformError(
@@ -39,8 +42,6 @@ echo '-------- section --------'
 cd
 git clone https://github.com/jalammar/ecco.git
 cd ecco
-
-# VERSION NUMBERS PROBLEMS: I had to edit  the req file(s):  maybe setup.py, maybe requirements.txt
 
 pip install --dry-run .
 pip install    .
