@@ -1,61 +1,46 @@
-#pip----30pip310.e.f8.sh
-
 # f8_text_file
 # (an f8_text_file is-not meant to be run as a whole)
 )
 exit
 
-(selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
+# (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
+
+echo '-------- section --------'
+
+# a conda env with ecco and many other programs
+
+pwsh
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
+
+
+
+echo '-------- section --------'
+
+#Filesystem           1M-blocks     Used Available  Use% Mounted on
+#D:                       78056    76777      1280   99% /d
+
+# once
+conda create --name pip310ecco  --clone pip310
+conda activate pip310ecco
+conda config  --verbose   --env --set channel_priority strict
+conda config --env --get channel_priority
+pip list | measure-object
+133
+
+
 
 echo '-------- section --------'
 
 
-pwsh
-& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
-#& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate 'D:\conda'
-
-
-
-
-Filesystem           1M-blocks     Used Available  Use% Mounted on
-D:                       78056    76777      1280   99% /d
-
-
-
-
-conda create --name pip310ecco  --clone pip310
-
-conda activate pip310ecco
-
-
-
-
-conda config  --verbose   --env --set channel_priority strict
-conda config --env --get channel_priority
-
-
-pip list | measure-object
-133
-133
-
-
-
-
-
-
-
-
-
-#pip install --dry-run ecco
-
-raise distutils.errors.DistutilsPlatformError(
-	distutils.errors.DistutilsPlatformError: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
-	[end of output]
-
+##pip install --dry-run ecco
+##raise distutils.errors.DistutilsPlatformError(
+#	distutils.errors.DistutilsPlatformError: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
 
 cd
 git clone https://github.com/jalammar/ecco.git
 cd ecco
+
+# VERSION NUMBERS PROBLEMS: I had to edit  the req file(s):  maybe setup.py, maybe requirements.txt
 
 pip install --dry-run .
 pip install    .
@@ -63,8 +48,12 @@ pip install    .
 
 
 
+# ecco needs jup classic noteb
 
 
+
+
+echo '-------- section --------'
 
 
 
@@ -96,7 +85,7 @@ python
 import gensim.downloader as api
 wv = api.load('word2vec-google-news-300')
 
-quit()
+#quit()
 
 
 
@@ -205,6 +194,7 @@ conda activate pip310ecco
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
 
 cd ~\Onedrive\AI   ;  start  jupyter lab
+# but ecco needs jup classic noteb
 
  pip install -h
 

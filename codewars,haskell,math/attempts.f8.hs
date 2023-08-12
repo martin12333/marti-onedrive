@@ -15,13 +15,18 @@ bash -c 'df -m'
 sudo apt update
 sudo apt install ghc
 
+---echo '-------- section --------'
 
  (eepitch-shell)
  (eepitch-kill)
  (eepitch-shell)
 
-cd  /onedri/codewars
-ls
+cd  /onedri/codewars*
+
+(base) vscode ➜ /onedri/codewars,haskell,math $
+ls /
+ls -latr /onedri
+
 
 : 1660158942:0;ghci --help
 : 1660159127:0;ghci --show-options
@@ -30,7 +35,11 @@ ghci
 :h
 :?
 :t 1
-
+:k Integer
+:k Integer -> Integer
+---- :k (->)
+---- :k (+)
+:k (*)
 :q
 
 ghci -W f5.hs
@@ -53,6 +62,8 @@ Today I learned, finally: what are monads (of functional programming).
 An example that helped me:
 ```
 [1, 2, 3] >>= \a -> [a, 0 - a]
+[1, 2, 3] >>= \a -> [a,  - a]
+[1, 2, 3] >>= \a -> [a,  -a]
 ----- [1,-1,2,-2,3,-3]
 ```
 
@@ -81,6 +92,42 @@ Prelude|
 Prelude>
 
 
-putStrLn
+putStrLn "4"
+print 4
+
+------1,1
+----x :: Integer
+  ----x ::    Char#
+     ---- Char#,
+      ----  gtChar#,
+
+--ord 'a'
+
+-----print 5 1, 2
+----times 2 5
+
+sqrt 15
+10 & sqrt & exp
+import Data.Function
+:t (&)
+:i (&)
+:h (&)
+:doc (&)
+:i (`)
 
 
+
+  Options for ':set' and ':unset':
+
+    +m            allow multiline commands
+    +r            revert top-level expressions after each evaluation  Options for ':set' and ':unset':
+
+  +t            print type after evaluation
+
+
+
+:show language
+
+   :showi language             show language flags for interactive evaluation
+
+   
