@@ -9321,3 +9321,6 @@ git push
 bash -c 'df -m'
 podman start   -ai    cmy22b
 bash '/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh'
+git commit -v -a -m backup
+git push
+git show --name-only

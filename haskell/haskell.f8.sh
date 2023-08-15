@@ -89,5 +89,36 @@ session as well as your shell configuration (e.g. ~/.bashrc).
 
 
 git commit -a -m bashrc,zshrc
+exit
 
+podman start   -ai    cmy22b
+n
+
+ghci --version
+ghci
+
+:h
+:?
+:t 1
+:k Integer
+:k Integer -> Integer
+---- :k (->)
+---- :k (+)
+:k (*)
+
+2^^100
+2**100
+2^100
+
+
+ghci>
+ghci> 2^^100
+1.2676506002282294e30
+ghci> 2**100
+1.2676506002282294e30
+ghci> 2^100
+1267650600228229401496703205376
+ghci>
+
+:q
 
