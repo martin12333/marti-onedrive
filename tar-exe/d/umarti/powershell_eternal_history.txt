@@ -9306,3 +9306,7 @@ podman start   -ai    cmy22b
 podman stop cmy22b
 podman machine stop
 podman machine start
+git commit -v -a -m backup
+git push
+podman machine start
+podman start   -ai    cmy22b
