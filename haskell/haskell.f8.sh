@@ -26,6 +26,16 @@ curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org >haskell.org.
 cat haskell.org.sh
 head -n 20 haskell.org.sh
 
+
+exist minimal
+ory Specification
+#   * BOOTSTRAP_HASKELL_VERBOSE - any nonzero value for more verbose installation
+#   * r to install latest hls
+#   * BOOTSTRAP_HASKELL_ADJUST_BASHRC - whether to adjust PATH in bashrc (prepend)
+#   *
+
+
+
 git ls-files
 ls -ld *git*
 ls -ld .*git*
