@@ -129,9 +129,16 @@ Collecting torch>=1.6.0
 
 pip list | findstr tor
 pip list | findstr trans
+pip list | findstr numpy
+pip list | findstr sciki
+pip list | findstr -i pyya
 
+
+numpy                   1.24.3
+scikit-learn            1.2.2
+transformers            4.29.2
 torch                   1.13.1
-
+PyYAML                  6.0
 
 
 

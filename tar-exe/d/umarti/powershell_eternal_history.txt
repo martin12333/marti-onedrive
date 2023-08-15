@@ -1,4 +1,4 @@
-ipconfig
+eipconfig
 ipconfig -all
 getmac.exe
 getmac.exe /?
@@ -5834,7 +5834,7 @@ echo "alt1..9"
 " -/\``$(  ) 1"
 " -/\``$( ygg ) 1"
 ×
-× 
+×
 × ;
 ・B
 ♣
@@ -7389,7 +7389,7 @@ conda deactivate
 conda env --help
 conda rename --help
 conda rename --name jupsci_nonpip1   jupsci_nonpip310
-conda activate 
+conda activate
 bash -c 'df -m'
 git commit -v -a -m ...
 git push   -vv
@@ -9290,3 +9290,19 @@ git commit -v -a -m backup
 git push
 git commit -v -a -m backup
 git push
+git commit -v -a -m backup
+git push
+pip list | findstr trans
+conda activate base
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
+pip list | findstr trans
+pip list | findstr numpy
+pip list | findstr sciki
+pip list | findstr -i pyya
+conda activate base
+podman machine start
+bash -c 'df -m'
+podman start   -ai    cmy22b
+podman stop cmy22b
+podman machine stop
+podman machine start

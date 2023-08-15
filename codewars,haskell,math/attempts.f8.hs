@@ -10,10 +10,6 @@ n
 
 bash -c 'df -m'
 
----echo '-------- section --------'
-
-sudo apt update
-sudo apt install ghc
 
 ---echo '-------- section --------'
 
@@ -130,4 +126,4 @@ import Data.Function
 
    :showi language             show language flags for interactive evaluation
 
-   
+
