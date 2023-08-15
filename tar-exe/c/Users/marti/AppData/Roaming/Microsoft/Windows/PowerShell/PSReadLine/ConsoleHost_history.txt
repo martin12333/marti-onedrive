@@ -3503,3 +3503,4 @@ kill -name jupyter
 kill -name python
 kill -name code
 kill -name msedge
+pwsh

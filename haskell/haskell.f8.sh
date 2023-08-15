@@ -78,3 +78,16 @@ Also see https://haskell-language-server.readthedocs.io/en/stable/
 
  sudo apt install build-essential curl libffi-dev libffi8ubuntu1 libgmp-dev libgmp10 libncurses-dev libncurses5 libtinfo5
 
+
+
+
+
+In order to run ghc and cabal, you need to adjust your PATH variable.
+To do so, you may want to run 'source /home/vscode/.ghcup/env' in your current terminal
+session as well as your shell configuration (e.g. ~/.bashrc).
+
+
+
+git commit -a -m bashrc,zshrc
+
+

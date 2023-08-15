@@ -9316,3 +9316,8 @@ git commit -v -a -m add
 git push
 git commit -v -a -m backup
 git push
+git commit -v -a -m backup
+git push
+bash -c 'df -m'
+podman start   -ai    cmy22b
+bash '/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh'
