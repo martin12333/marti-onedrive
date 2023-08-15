@@ -9324,3 +9324,4 @@ bash '/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh'
 git commit -v -a -m backup
 git push
 git show --name-only
+git commit -v -a -m backup

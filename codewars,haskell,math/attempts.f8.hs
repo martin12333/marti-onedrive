@@ -113,6 +113,11 @@ import Data.Function
 
 
 
+
+
+stack exec --package asyncgdfgfd --package saygdfgfd -- ghci
+
+
   Options for ':set' and ':unset':
 
     +m            allow multiline commands
@@ -126,4 +131,19 @@ import Data.Function
 
    :showi language             show language flags for interactive evaluation
 
+
+
+
+
+
+4
+We can write multi-line code by surrounding it with :{ and :}:
+ghci> :{
+| map f list =
+|     case list of
+|         [] -> []
+|         x : xs -> f x : map f xs
+| :}
+ghci> map (+1) [1, 2, 3]
+[2,3,4]
 

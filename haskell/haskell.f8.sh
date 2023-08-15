@@ -1,4 +1,3 @@
-
 exit
 
 bash -c 'df -m'
@@ -6,14 +5,18 @@ bash -c 'df -m'
 podman machine start
 #podman machine stop
 
+podman start   -ai    cmy22b
+n
+
+git commit -a -m bashrc,zshrc
+
+
 reboot helped
 API forwarding for Docker API clients is not available due to the following startup failures.
         CreateFile \\.\pipe\docker_engine: All pipe instances are busy.
 Error: failed to connect: dial tcp [::1]:61617: connectex: No connection could be made because the target machine actively refused it.
 
 
-podman start   -ai    cmy22b
-n
 
 #podman stop cmy22b
 
@@ -21,6 +24,9 @@ n
 
 sudo apt update
 ##sudo apt install ghc
+apt show ghc
+sudo apt remove ghc
+df -m
 
 
 
@@ -121,4 +127,13 @@ ghci> 2^100
 ghci>
 
 :q
+
+#ls du -m /usr/share/h*
+#ls -latrd  /usr/share/*`which -a ghci`
+du -m /usr/lib/gh*
+ls -l du m /usr/bin/gh*
+du -m /usr/bin/gh*
+cat /usr/bin/gh*
+
+exit
 
