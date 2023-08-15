@@ -9310,3 +9310,9 @@ git commit -v -a -m backup
 git push
 podman machine start
 podman start   -ai    cmy22b
+cd ~/OneDrive
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
+git commit -v -a -m backup
+git push

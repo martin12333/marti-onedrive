@@ -22,6 +22,8 @@ n
 sudo apt update
 ##sudo apt install ghc
 
+
+
 curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org >haskell.org.sh  # | sh
 cat haskell.org.sh
 head -n 20 haskell.org.sh
@@ -40,7 +42,10 @@ git ls-files
 ls -ld *git*
 ls -ld .*git*
 git init
+
+ghci --version
 ls -latr
+mv -iv  OLD.ghc  .ghc
 mv -iv .ghc OLD.ghc
 
 git add .bashrc
@@ -48,5 +53,28 @@ git add .zshrc
 git commit -a -m bashrc,zshrc
 
 
+BOOTSTRAP_HASKELL_VERBOSE=1 curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org  | sh
 
+
+  * stack - A cross-platform program for developing Haskell projects (similar to cabal)
+  * hls   - (optional) A language server for developers to integrate with their editor/IDE
+
+ghcup installs only into the following directory,
+which can be removed anytime:
+  /home/vscode/.ghcup
+
+Press ENTER to proceed or ctrl-c to abort.
+Note that this script can be re-run at any given time.
+
+
+Do you want to install haskell-language-server (HLS)?
+HLS is a language-server that provides IDE-like functionality
+and can integrate with different editors, such as Vim, Emacs, VS Code, Atom, ...
+Also see https://haskell-language-server.readthedocs.io/en/stable/
+
+
+
+ Please ensure the following distro packages are installed before continuing (you can exit ghcup and return at any time):
+
+ sudo apt install build-essential curl libffi-dev libffi8ubuntu1 libgmp-dev libgmp10 libncurses-dev libncurses5 libtinfo5
 
