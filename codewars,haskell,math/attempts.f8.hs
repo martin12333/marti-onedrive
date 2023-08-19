@@ -20,6 +20,7 @@ bash -c 'df -m'
 cd  /onedri/codewars*
 
 (base) vscode ➜ /onedri/codewars,haskell,math $
+
 ls /
 ls -latr /onedri
 
@@ -104,12 +105,37 @@ print 4
 
 sqrt 15
 10 & sqrt & exp
+
+
 import Data.Function
 :t (&)
 :i (&)
 :h (&)
 :doc (&)
-:i (`)
+----:i (`)
+
+
+ghci
+10//3
+-- err
+(//) = div
+10//3
+-- works
+
+:t div
+:i Integral
+---:t Integral
+:k Integral
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -147,3 +173,4 @@ ghci> :{
 ghci> map (+1) [1, 2, 3]
 [2,3,4]
 
+:q

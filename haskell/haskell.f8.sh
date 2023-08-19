@@ -137,3 +137,13 @@ cat /usr/bin/gh*
 
 exit
 
+
+
+pwd
+cd ~/.cabal/packages/hackage.haskell.org
+
+
+grep   --text  -o -E "Math[.][-._a-zA-Z]+" 01-index.tar|sort | uniq -c| sort -n
+
+
+grep --help|grep bina

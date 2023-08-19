@@ -1,3 +1,42 @@
+#help commands
+
+
+#check (tt,ff)    -- tt : bool
+#check true    --  true : Prop
+----#check True
+
+
+#check bnot
+#check not
+#check \not
+
+#check  tt&&tt
+#eval tt&&tt
+#print tt
+#reduce tt&&tt
+
+
+
+
+
+import init.data.int
+---import init.data.
+
+#reduce 0
+#check 0
+#eval 0
+#print  nat
+#print nat
+
+#reduce (-1:int)
+#check  (-1:int)
+#eval  (-1:int)
+#print  int
+
+
+
+
+
 --import  data.vector
 ------import  init.meta.vm
 
@@ -202,52 +241,23 @@ variables n: nat
 
 
 #check 1==1
-
 #check 1=1
 
-
 #check A∧B
-
 end
-
 /\
-
 \and
-
-
-
-
 #check ¬  C
-
 #check ¬A
-
 #check not B
-
 #check  true: Prop
-
-false
-
-
-
-
-
 ¬
-
-
 not
-
 \not, \neg
 
-
-
-
 #check A ∧ ¬ fgf → C ;
-
 --end
-
 Unicode
-
 Ascii
-
 Lean input
 
