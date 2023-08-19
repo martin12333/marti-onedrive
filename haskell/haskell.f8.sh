@@ -5,6 +5,7 @@ bash -c 'df -m'
 podman machine start
 #podman machine stop
 
+
 podman start   -ai    cmy22b
 n
 
@@ -139,6 +140,8 @@ exit
 
 
 
+
+
 pwd
 cd ~/.cabal/packages/hackage.haskell.org
 
@@ -147,3 +150,5 @@ grep   --text  -o -E "Math[.][-._a-zA-Z]+" 01-index.tar|sort | uniq -c| sort -n
 
 
 grep --help|grep bina
+
+ghci

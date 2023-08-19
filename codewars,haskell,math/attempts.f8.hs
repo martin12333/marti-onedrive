@@ -127,6 +127,151 @@ ghci
 ---:t Integral
 :k Integral
 
+:h otherwise
+:i otherwise
+print ( otherwise == True)
+
+-- :i bool
+--import Data.Bool
+bool :: a -> a -> Bool -> a     -- Defined in `Data.Bool'
+
+
+ghci> :i Bool
+type Bool :: *
+data Bool = False | True
+        -- Defined in `GHC.Types'
+instance Eq Bool -- Defined in `GHC.Classes'
+instance Ord Bool -- Defined in `GHC.Classes'
+instance Enum Bool -- Defined in `GHC.Enum'
+instance Show Bool -- Defined in `GHC.Show'
+instance Read Bool -- Defined in `GHC.Read'
+instance Bounded Bool -- Defined in `GHC.Enum'
+ghci>
+
+:i (>)
+:i (==)
+:i (+)
+--- :i (=)
+
+
+
+:i Int
+:i Word
+:i Integer
+
+
+ghci> :i Int
+type Int :: *
+data Int = GHC.Types.I# GHC.Prim.Int#
+        -- Defined in `GHC.Types'
+instance Eq Int -- Defined in `GHC.Classes'
+instance Ord Int -- Defined in `GHC.Classes'
+instance Enum Int -- Defined in `GHC.Enum'
+instance Num Int -- Defined in `GHC.Num'
+instance Real Int -- Defined in `GHC.Real'
+instance Show Int -- Defined in `GHC.Show'
+instance Read Int -- Defined in `GHC.Read'
+instance Bounded Int -- Defined in `GHC.Enum'
+instance Integral Int -- Defined in `GHC.Real'
+ghci>
+ghci> :i Word
+type Word :: *
+data Word = GHC.Types.W# GHC.Prim.Word#
+        -- Defined in `GHC.Types'
+instance Eq Word -- Defined in `GHC.Classes'
+instance Ord Word -- Defined in `GHC.Classes'
+instance Enum Word -- Defined in `GHC.Enum'
+instance Num Word -- Defined in `GHC.Num'
+instance Real Word -- Defined in `GHC.Real'
+instance Show Word -- Defined in `GHC.Show'
+instance Read Word -- Defined in `GHC.Read'
+instance Bounded Word -- Defined in `GHC.Enum'
+instance Integral Word -- Defined in `GHC.Real'
+ghci>
+ghci> :i Integer
+type Integer :: *
+data Integer
+  = GHC.Num.Integer.IS GHC.Prim.Int#
+  | GHC.Num.Integer.IP GHC.Prim.ByteArray#
+  | GHC.Num.Integer.IN GHC.Prim.ByteArray#
+        -- Defined in `GHC.Num.Integer'
+instance Eq Integer -- Defined in `GHC.Num.Integer'
+instance Ord Integer -- Defined in `GHC.Num.Integer'
+instance Enum Integer -- Defined in `GHC.Enum'
+instance Num Integer -- Defined in `GHC.Num'
+instance Real Integer -- Defined in `GHC.Real'
+instance Show Integer -- Defined in `GHC.Show'
+instance Read Integer -- Defined in `GHC.Read'
+instance Integral Integer -- Defined in `GHC.Real'
+ghci>
+
+
+:i Monoid
+
+
+ghci> :i Monoid
+type Monoid :: * -> Constraint
+class Semigroup a => Monoid a where
+  mempty :: a
+  mappend :: a -> a -> a
+  mconcat :: [a] -> a
+Defined in `GHC.Base'
+instance Monoid a => Monoid (IO a) -- Defined in `GHC.Base'
+instance Monoid b => Monoid (a -> b) -- Defined in `GHC.Base'
+instance (Monoid a, Monoid b, Monoid c, Monoid d, Monoid e) =>
+         Monoid (a, b, c, d, e)
+  -- Defined in `GHC.Base'instance (Monoid a, Monoid b, Monoid c, Monoid d) =>
+         Monoid (a, b, c, d)
+  -- Defined in `GHC.Base'
+instance (Monoid a, Monoid b, Monoid c) => Monoid (a, b, c)
+  -- Defined in `GHC.Base'
+instance (Monoid a, Monoid b) => Monoid (a, b)
+  -- Defined in `GHC.Base'
+instance Monoid () -- Defined in `GHC.Base'
+ghci>
+
+
+
+
+
+
+:i GHC.Prim.Int#
+
+:i All
+:h All
+
+:i Monoid
+
+import GHC.Monoid
+import Data.Monoid
+
+:i GHC
+import GHC
+
+
+instance Num a => Monoid (Sum a)
+  -- Defined in `base-4.16.4.0:Data.Semigroup.Internal'
+instance Num a => Monoid (Product a)
+  -- Defined in `base-4.16.4.0:Data.Semigroup.Internal'
+
+
+
+instance Monoid Any
+  -- Defined in `base-4.16.4.0:Data.Semigroup.Internal'
+instance Monoid All
+  -- Defined in `base-4.16.4.0:Data.Semigroup.Internal'
+instance Monoid [a] -- Defined in `GHC.Base'
+instance Monoid a => M
+
+
+:i All
+:i Sum
+:i Any
+----:i Sum 4
+:t Sum 4
+:t Sum (4 :: Int)
+ Sum (4 :: Int)
+
 
 
 
@@ -143,24 +288,16 @@ ghci
 
 stack exec --package asyncgdfgfd --package saygdfgfd -- ghci
 
-
-  Options for ':set' and ':unset':
+ Options for ':set' and ':unset':
 
     +m            allow multiline commands
     +r            revert top-level expressions after each evaluation  Options for ':set' and ':unset':
 
   +t            print type after evaluation
 
-
-
 :show language
 
    :showi language             show language flags for interactive evaluation
-
-
-
-
-
 
 4
 We can write multi-line code by surrounding it with :{ and :}:
@@ -174,3 +311,4 @@ ghci> map (+1) [1, 2, 3]
 [2,3,4]
 
 :q
+ghci

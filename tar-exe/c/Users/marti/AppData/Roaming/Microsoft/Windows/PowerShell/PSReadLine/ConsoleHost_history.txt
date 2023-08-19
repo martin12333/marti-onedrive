@@ -3504,3 +3504,4 @@ kill -name python
 kill -name code
 kill -name msedge
 pwsh
+kill -name  taskmgr

@@ -9328,3 +9328,9 @@ git commit -v -a -m backup
 git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push   -vv
+git commit -v -a -m backup
+git push   -vv
+wsl --shutdown   # to reload
+wsl --shutdown
+podman machine start
+podman start   -ai    cmy22b
