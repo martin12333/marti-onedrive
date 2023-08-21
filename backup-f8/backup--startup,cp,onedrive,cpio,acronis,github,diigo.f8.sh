@@ -163,9 +163,12 @@ cd ~/OneDrive
 	git add -vv  'hy*/*.ipynb'
 	git add -vv  --dry-run  'hy*/*.f8.*'
 	git add -vv   '*.hs'
+	git add -vv    'Dokumenty234/Au*.ahk'
+	git add -vv  --dry-run  'Dokumenty234/Au*.ahk'
 
 	git commit -v -a -m  "🚚 rename,move"
 	git push
+cd ~/OneDrive
 
 #add 'AI/Highly-theoretical-justifications-for-having-fun/logit-lens.f8.png'
 
