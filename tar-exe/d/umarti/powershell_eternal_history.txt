@@ -9334,3 +9334,4 @@ wsl --shutdown   # to reload
 wsl --shutdown
 podman machine start
 podman start   -ai    cmy22b
+git commit -v -a -m backup

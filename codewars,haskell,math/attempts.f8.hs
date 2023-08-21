@@ -206,6 +206,31 @@ instance Integral Integer -- Defined in `GHC.Real'
 ghci>
 
 
+
+
+
+:i Real
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 :i Monoid
 
 
@@ -242,11 +267,11 @@ ghci>
 
 :i Monoid
 
-import GHC.Monoid
+i----mport GHC.Monoid
 import Data.Monoid
 
-:i GHC
-import GHC
+:----i GHC
+i----mport GHC
 
 
 instance Num a => Monoid (Sum a)
