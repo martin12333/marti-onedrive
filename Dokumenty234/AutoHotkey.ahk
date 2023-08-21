@@ -84,6 +84,7 @@ $NumpadSub::Send {~}
 
 ;test  reload in ahk and try the last command \ """"""
 ; sx hilite is of *.ini
+;	git add -vv  --dry-run  'Dokumenty234/Au*.ahk'
 ; then git commit
 
 

@@ -9336,3 +9336,11 @@ podman machine start
 podman start   -ai    cmy22b
 git commit -v -a -m backup
 git commit -v -a -m backup
+git show --name-only
+git add -vv  --dry-run  'Au*.ahk'
+cd ~/OneDrive
+git add -vv  --dry-run  'Au*.ahk'
+git add -vv  --dry-run  'Dokumenty234/Au*.ahk'
+git add -vv    'Dokumenty234/Au*.ahk'
+git commit -v -a -m  " rename,move"
+git push
