@@ -168,6 +168,7 @@ cd ~/OneDrive
 
 	git commit -v -a -m  "🚚 rename,move"
 	git push
+	git show --name-only
 cd ~/OneDrive
 
 #add 'AI/Highly-theoretical-justifications-for-having-fun/logit-lens.f8.png'
@@ -190,6 +191,7 @@ WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 
 	git commit -v -a -m add
 	git push
+	git show --name-only
 
 cd ~/OneDrive
 	git add -vv  '*.f8.*'
@@ -198,11 +200,13 @@ cd ~/OneDrive
 	git commit -v -a -m backup
 	git push
 	git commit -v -a -m move
+	git show --name-only
 
 bash '/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh'
 
-	git commit -v -a -m ...
+	git commit -v -a -m backup
 	git push
+	git show --name-only
 
 
 	git commit -v -a -m  before-manip-dirs
@@ -217,6 +221,7 @@ bash '/c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh'
 
 	git commit -v -a -m ...
 	git push   -vv
+	git show --name-only
 
 	git commit -v -a -m gitignore
 
@@ -260,6 +265,7 @@ cd ~/OneDrive
 	git commit -v -a -m "🐛 OneDrive-problem"
 	git commit -v -a -m "🐛 OneDrive-warning"
 	git push   -vv
+	git show --name-only
 
 	git commit -v -a -m "☀ fix-comments"
 	git commit -v -a -m patch-simplify-code
@@ -282,6 +288,7 @@ WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 	#git add -vv  '*/*.f8.*'
 	git commit -v -a -m add
 	git push   -vv
+	git show --name-only
 
 	git add -vv  '*.e.*'
 
@@ -333,6 +340,7 @@ Exhausting or weary solution.
 	git commit -v -a -m  partial
 
 	git push   -vv
+	git show --name-only
 
 https://github.com/martin12333/marti-onedrive/blob/main2/backup-f8/backup--startup,cp,onedrive,cpio,acronis,github,diigo.f8.sh#L170
 
@@ -347,6 +355,7 @@ pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mym
 	git commit -v -a -m zshrc
 
 	git push   -vv
+	git show --name-only
 
 WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 	cd ~/OneDrive
