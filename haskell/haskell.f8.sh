@@ -5,7 +5,6 @@ bash -c 'df -m'
 podman machine start
 #podman machine stop
 
-
 podman start   -ai    cmy22b
 n
 

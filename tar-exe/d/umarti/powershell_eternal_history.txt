@@ -9344,3 +9344,8 @@ git add -vv  --dry-run  'Dokumenty234/Au*.ahk'
 git add -vv    'Dokumenty234/Au*.ahk'
 git commit -v -a -m  " rename,move"
 git push
+git commit -v -a -m backup
+git push
+git commit -v -a -m backup
+git push
+git show --name-only
