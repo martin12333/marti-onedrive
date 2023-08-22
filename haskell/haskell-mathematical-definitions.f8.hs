@@ -1,27 +1,30 @@
 
-exit
-
 podman machine start
-
 podman start   -ai    cmy22b
-n
+ghci
 
-#podman stop cmy22b
-
-bash -c 'df -m'
-
-
----echo '-------- section --------'
-
- (eepitch-shell)
+ (eepitch-ghci)
  (eepitch-kill)
- (eepitch-shell)
+ (eepitch-ghci)
 
-cd  /onedri/haskell
 
-ls /
-ls -latr /onedri
-: 1660158942:0;ghci --help
+
+:all-types
+
+:complete repl 0-5 ""
+:complete repl  ""
+
+:i True
+
+:i 1
+:i (1)
+:t 1
+
+:t 1 % 2
+import Data.Ratio
+:t 1 % 2
+
+
 
 ghci
 :h

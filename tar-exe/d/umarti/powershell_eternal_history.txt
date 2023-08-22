@@ -9354,3 +9354,6 @@ git commit -v -a -m add
 git commit -v -a -m backup
 git push
 git show --name-only
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
