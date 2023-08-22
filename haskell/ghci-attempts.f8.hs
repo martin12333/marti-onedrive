@@ -1,5 +1,4 @@
 
-exit
 
 podman machine start
 
@@ -17,6 +16,8 @@ bash -c 'df -m'
  (eepitch-kill)
  (eepitch-shell)
 
+---echo '-------- section --------'
+
 cd  /onedri/codewars*
 
 (base) vscode ➜ /onedri/codewars,haskell,math $
@@ -30,7 +31,16 @@ ls -latr /onedri
 
 ghci
 :h
-:?
+
+:all-types
+
+:complete repl 0-5 ""
+:complete repl  ""
+
+
+:q
+
+-- :?
 :t 1
 :k Integer
 :k Integer -> Integer

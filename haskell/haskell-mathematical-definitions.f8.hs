@@ -7,12 +7,7 @@ ghci
  (eepitch-kill)
  (eepitch-ghci)
 
-
-
-:all-types
-
-:complete repl 0-5 ""
-:complete repl  ""
+:h
 
 :i True
 
@@ -25,10 +20,6 @@ import Data.Ratio
 :t 1 % 2
 
 
-
-ghci
-:h
-:t 1
 :q
 
 ghci -W f5.hs
@@ -77,3 +68,5 @@ data Bool = False | True
 
 
 
+ghci
+:q
