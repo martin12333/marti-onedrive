@@ -32,10 +32,35 @@ ls -latr /onedri
 ghci
 :h
 
+
+https://downloads.haskell.org/~ghc/latest/docs/users_guide/ghci.html#ghci-commands
+
 :all-types
 
 :complete repl 0-5 ""
 :complete repl  ""
+:complete repl  "import Data"
+
+
+:show imports
+
+:show modules
+
+:show packages
+
+:show paths
+
+:showi language
+
+base language is: GHC2021
+with the following modifiers:
+  -XExtendedDefaultRules
+  -XNoMonomorphismRestriction
+
+:show targets
+
+:set +t
+
 
 
 :q

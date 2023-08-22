@@ -9,20 +9,55 @@ ghci
 
 :h
 
-:i True
+:set +t
 
-:i 1
-:i (1)
+
+
+:showi language
+
+base language is: GHC2021
+with the following modifiers:
+  -XExtendedDefaultRules
+  -XNoMonomorphismRestriction
+
+
+ghci> :i True
+type Bool :: *
+data Bool = ... | True
+        -- Defined in `GHC.Types'
+
+----:i 1
 :t 1
+1
 
 :t 1 % 2
 import Data.Ratio
 :t 1 % 2
+1 % 2
+
+--it :: Integral a => Ratio a
+
+1 % 2 + 1
+it+1000000
+it*it
+it*it*it
+
+64000576002160004320004860002916000729 % 64
+it :: Integral a => Ratio a
+
+1 % 2 + 1 :: Rational
+
+
+
+
+
+
+
+
 
 
 :q
 
-ghci -W f5.hs
 
 
 
@@ -67,6 +102,7 @@ data Bool = False | True
 
 
 
+ghci -W f5.hs
 
 ghci
 :q
