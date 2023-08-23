@@ -33,6 +33,10 @@ ghci
 :h
 
 
+https://hoogle.haskell.org/?hoogle=sizeOf
+
+
+
 https://downloads.haskell.org/~ghc/latest/docs/users_guide/ghci.html#ghci-commands
 
 :all-types
