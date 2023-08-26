@@ -12,6 +12,11 @@ ghci
 :set +t
 
 
+bidirectional link
+hyperpolyglot / contrib. Math, Lean, Sage, Haskell
+https://docs.google.com/spreadsheets/d/15bXZNm1Ftn1Szs9-ML_oOdt2-pfoofGCdighs8YA1b4/edit?usp=sharing
+
+
 
 
 https://www.haskell.org/tutorial/goodies.html
@@ -20,6 +25,16 @@ https://www.haskell.org/tutorial/goodies.html
 Because Haskell is a purely functional language, all computations are done via the evaluation of expressions (syntactic terms) to yield values (abstract entities that we regard as answers). Every value has an associated type. (Intuitively, we can think of types as sets of values.) Examples of expressions include atomic values such as the integer 5, the character 'a', and the function \x -> x+1, as well as structured values such as the list [1,2,3] and the pair ('b',4).
 Just as expressions denote values, type expressions are syntactic terms that denote type values (or just types). Examples of type expressions include the atomic types Integer (infinite-precision integers), Char (characters), Integer->Integer (functions mapping Integer to Integer), as well as the structured types [Integer] (homogeneous lists of integers) and (Char,Integer) (character, integer pairs).
 All Haskell values are "first-class"---they may be passed as arguments to functions, returned as results, placed in data structures, etc. Haskell types, on the other hand, are not first-class. Types in a sense describe values, and the association of a value with its type is called a typing.
+
+
+
+
+
+
+-- #empty
+import Data.Void
+:i Void
+file:///P:/home/user/.local/share/containers/storage/volumes/nslash_home/_data/vscode/.ghcup/ghc/9.2.8/share/doc/ghc-9.2.8/html/libraries/base-4.16.4.0/src/Data-Void.html
 
 
 
@@ -34,6 +49,7 @@ data Maybe a = Nothing | Just a
         -- Defined in `GHC.Maybe'
 
 
+-- #bottom
 
 ghci>
  :i undefined

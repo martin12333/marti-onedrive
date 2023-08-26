@@ -1,6 +1,30 @@
 #help commands
 
 
+
+
+
+
+
+
+#eval unit
+#check unit
+#print unit
+#reduce unit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #check (tt,ff)    -- tt : bool
 #check true    --  true : Prop
 ----#check True
