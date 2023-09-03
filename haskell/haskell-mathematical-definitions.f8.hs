@@ -1,4 +1,9 @@
 
+-- f8_text_file
+
+-- (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
+
+
 podman machine start
 podman start   -ai    cmy22b
 ghci

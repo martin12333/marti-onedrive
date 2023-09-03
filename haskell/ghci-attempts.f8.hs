@@ -341,12 +341,71 @@ instance Monoid a => M
 
 
 
+http://blog.sigfpe.com/2008/01/type-that-should-not-be.html
+> import Prelude hiding ((^))
+
+data U = U { f :: U -> Bool }
+
+:t U
+U :: (U -> Bool) -> U
+
+:t f
+f :: U -> U -> Bool
+
+ phi = U $ const False
+
+ x `e` y = f y x
+e :: U -> U -> Bool
 
 
+ neg a = U $ \x -> not (x `e` a)
+ a \/ b = U $ \x -> x `e` a || x `e` b
+ a /\ b = U $ \x -> x `e` a && x `e` b
+
+----neg phi
+----:t  neg phi
+
+ nphi = U $ const True
+
+----phi /\ phi
+----:t phi /\ phi
+
+---phi
+:t phi
 
 
+ c a = U $ \x -> a `e` x
+
+nphi `e` nphi
+phi `e` phi
+
+c phi  `e`  phi
+c phi  `e` c phi
+ phi  `e` c phi
+c nphi  `e` (c nphi)
+c nphi  `e` (  c (c nphi))
+
+(  c (c nphi))  `e`  c nphi
 
 
+(c^m) (neg phi) `e` (c^n) phi
+ (nphi) `e` (c) phi
+ (nphi) `e` c phi
+ (nphi) `e` (c phi)
+ (neg phi) `e` (c phi)
+
+==> True
+
+cph = c phi
+
+f cph nphi
+f cph cph
+f cph phi
+f nphi cph
+f nphi nphi
+---f cph
+
+nph = neg phi
 
 
 
