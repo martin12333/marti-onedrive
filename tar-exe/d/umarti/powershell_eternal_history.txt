@@ -9376,3 +9376,6 @@ git push
 git commit -v -a -m backup
 git push
 git show --name-only
+git commit -v -a -m backup
+cd d:\umarti\dowNLOADS--SYMLINKED\
+C:\pf\Git\bin\bash.exe
