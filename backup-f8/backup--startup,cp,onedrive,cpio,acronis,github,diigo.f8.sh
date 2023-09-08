@@ -185,6 +185,8 @@ this  dialog box has showed ... "Report a problem" ... but, I don't remember any
 	git add -vv     'ju*/*.ipynb'
 	git add -vv    'co*/*lock.json'
 	git add -vv   --dry-run   'co*/f?.*'
+	git add -vv      'hyperpolyglot-f8/*.csv'
+	git add -vv   --dry-run   'hyperpolyglot-f8/*.csv'
 
 
 WILL NOT ADD, IF THERE IS A .GIT IN THE DIR

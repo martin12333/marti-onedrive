@@ -9379,3 +9379,8 @@ git show --name-only
 git commit -v -a -m backup
 cd d:\umarti\dowNLOADS--SYMLINKED\
 C:\pf\Git\bin\bash.exe
+cd ~/OneDrive
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
+cd ~/OneDrive
