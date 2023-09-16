@@ -9384,3 +9384,9 @@ git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push
 cd ~/OneDrive
+git add -vv   --dry-run   'hyperpolyglot-f8/*.csv'
+git add -vv      'hyperpolyglot-f8/*.csv'
+git commit -v -a -m add
+git push
+podman machine start
+podman start   -ai    cmy22b

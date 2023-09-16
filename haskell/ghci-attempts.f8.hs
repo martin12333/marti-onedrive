@@ -25,11 +25,16 @@ cd  /onedri/codewars*
 ls /
 ls -latr /onedri
 
-
 : 1660158942:0;ghci --help
 : 1660159127:0;ghci --show-options
 
+
+
 ghci
+
+:set +t
+
+
 :h
 
 
@@ -44,6 +49,8 @@ https://downloads.haskell.org/~ghc/latest/docs/users_guide/ghci.html#ghci-comman
 :complete repl 0-5 ""
 :complete repl  ""
 :complete repl  "import Data"
+:complete repl  "import Data.F"
+
 
 
 :show imports
@@ -63,7 +70,6 @@ with the following modifiers:
 
 :show targets
 
-:set +t
 
 
 
@@ -77,6 +83,8 @@ with the following modifiers:
 ---- :k (+)
 :k (*)
 :q
+
+
 
 ghci -W f5.hs
 
@@ -113,6 +121,7 @@ Related notions that helped me:
 
 
 
+
 2.4.3. Multiline input
 Apart from the :{ ... :} syntax for multi-line input mentioned above, GHCi also has a multiline mode, enabled by :set +m, in which GHCi detects automatically when the current statement is unfinished and allows further lines to be added. A multi-line input is terminated with an empty line. For example:
 
@@ -142,8 +151,45 @@ print 4
 -----print 5 1, 2
 ----times 2 5
 
+import Data.Function
+
 sqrt 15
-10 & sqrt & exp
+1 & sqrt & exp
+4 & sqrt & sqrt
+
+ -----sqrt & sqrt $ 4
+-----( sqrt & sqrt) $ 4
+-------h = sqrt & sqrt
+ sqrt $ sqrt $ 4
+ ----------h=sqrt $ sqrt
+ sqrt . sqrt $ 4
+ h = sqrt . sqrt
+ h 4
+ h 2.7
+ h= sqrt >>> sqrt
+ h= sqrt >>> log
+ h= log >>> sqrt
+
+------- 4 log >>> sqrt
+-------- 4.0 log >>> sqrt
+
+
+
+log 2.7
+sqrt $ log 2.7
+log $ sqrt 2.7
+
+ --------sqrt . sqrt . 4
+
+ sqrt >>> sqrt $ 4
+(sqrt >>> sqrt)  4
+
+
+import Control.Arrow
+:t (>>>)
+:i (&)
+:h (&)
+:doc (&)
 
 
 import Data.Function
