@@ -173,6 +173,46 @@ sqrt 15
 ------- 4 log >>> sqrt
 -------- 4.0 log >>> sqrt
 
+:i curry
+:i (>>>)
+:t (>>>)
+ You can define
+
+:{
+(>>>) = flip (.)
+infixr 1 >>>
+:}
+
+
+(>>>) = flip (.)
+infixr 1 >>>
+error
+
+-----infixr 1 (>>>)
+
+
+
+:q
+ghci
+
+
+
+
+https://hackage.haskell.org/package/ghc-9.6.1/docs/src/GHC.Data.TrieMap.html
+(>.>) :: (a -> b) -> (b -> c) -> a -> c
+-- Reverse function composition (do f first, then g)
+infixr 1 >.>
+(f >.> g) x = g (f x)
+infixr 1 |>, |>>
+
+(|>) :: a -> (a->b) -> b     -- Reverse application
+x |> f = f x
+
+
+
+
+
+
 
 
 log 2.7
@@ -187,7 +227,11 @@ log $ sqrt 2.7
 
 import Control.Arrow
 :t (>>>)
-:i (&)
+:i (>>>)
+
+   -- Defined in `Control.Category'
+-- infixr 1 >>>
+
 :h (&)
 :doc (&)
 
