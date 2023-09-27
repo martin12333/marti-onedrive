@@ -9392,3 +9392,5 @@ podman machine start
 podman start   -ai    cmy22b
 git commit -v -a -m backup
 git push
+git commit -v -a -m backup
+git push
