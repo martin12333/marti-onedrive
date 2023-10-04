@@ -35,6 +35,9 @@ where.exe ssh
 $Env:Path   -split ';'
 C:\Windows\System32\OpenSSH\ssh.exe   $(cat ~/bcloudREADONLY/alma.txt)
 
+
+a7 papirek *A*lma
+
 yes
 to connect wout adding
 
@@ -95,39 +98,11 @@ id
 
 
 
+sftp
+scp
+
 cat /proc/cpuinfo
 
-
-
-processor       : 3
-vendor_id       : GenuineIntel
-cpu family      : 6
-model           : 42
-model name      : Intel(R) Core(TM) i5-2400 CPU @ 3.10GHz
-stepping        : 7
-microcode       : 0x28
-cpu MHz         : 1600.000
-cache size      : 6144 KB
-physical id     : 0
-siblings        : 4
-core id         : 3
-cpu cores       : 4
-apicid          : 6
-initial apicid  : 6
-fdiv_bug        : no
-hlt_bug         : no
-f00f_bug        : no
-coma_bug        : no
-fpu             : yes
-fpu_exception   : yes
-cpuid level     : 13
-wp              : yes
-flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe nx rdtscp lm constant_tsc arch_perfmon pebs bts xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid
-bogomips        : 6185.66
-clflush size    : 64
-cache_alignment : 64
-address sizes   : 36 bits physical, 48 bits virtual
-power management:
 
 
 #winscp

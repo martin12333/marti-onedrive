@@ -9409,3 +9409,5 @@ echo   $(cat ~/bcloudREADONLY/alma.txt)
 where.exe ssh
 $Env:Path   -split ';'
 C:\Windows\System32\OpenSSH\ssh.exe   $(cat ~/bcloudREADONLY/alma.txt)
+git commit -v -a -m backup
+git push
