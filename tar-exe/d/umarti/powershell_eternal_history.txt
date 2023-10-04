@@ -9394,3 +9394,18 @@ git commit -v -a -m backup
 git push
 git commit -v -a -m backup
 git push
+cd ~/OneDrive
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
+code backup-f8
+code alma-222\.bash_history
+dir alma-222
+dir alma*
+cmd /c dir alma*
+code alma-233c\.bash_history
+cat ~/bcloudREADONLY/alma.txt
+echo   $(cat ~/bcloudREADONLY/alma.txt)
+where.exe ssh
+$Env:Path   -split ';'
+C:\Windows\System32\OpenSSH\ssh.exe   $(cat ~/bcloudREADONLY/alma.txt)

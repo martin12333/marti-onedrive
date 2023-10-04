@@ -7,6 +7,8 @@ exit
 # (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
 echo '-------- section --------'
+
+
 code backup-f8
 
 
@@ -22,8 +24,9 @@ C:\Users\marti\OneDrive\alma-222\create_backup.sh
 
 
 echo '-------- section --------'
-code alma-222\.bash_history
 
+code alma-233c\.bash_history
+cmd /c dir alma*
 
 cat ~/bcloudREADONLY/alma.txt
 echo   $(cat ~/bcloudREADONLY/alma.txt)
@@ -38,7 +41,7 @@ to connect wout adding
 
 
 history
-cp -iv .bash_history OLD/1history
+cp -iv .bash_history OLD/23history23a3
 
 
 #sudo apt-get update
@@ -48,6 +51,13 @@ cp -iv .bash_history OLD/1history
 
 
 
+
+cat /etc/passwd |grep mm
+cat /etc/group |grep mm
+
+
+neni nic takoveho na alme
+zeby wsl?
 yyy6666667777
 sudo adduser adminmmm
 sudo adduser adminmmm sudo
@@ -56,6 +66,7 @@ echo wsl ubu kopie obrazovky
 
 sudo adduser adminmmm adm
 sudo adduser adminmmm mm
+
 
 
 
@@ -82,6 +93,43 @@ y
 
 id
 
+
+
+cat /proc/cpuinfo
+
+
+
+processor       : 3
+vendor_id       : GenuineIntel
+cpu family      : 6
+model           : 42
+model name      : Intel(R) Core(TM) i5-2400 CPU @ 3.10GHz
+stepping        : 7
+microcode       : 0x28
+cpu MHz         : 1600.000
+cache size      : 6144 KB
+physical id     : 0
+siblings        : 4
+core id         : 3
+cpu cores       : 4
+apicid          : 6
+initial apicid  : 6
+fdiv_bug        : no
+hlt_bug         : no
+f00f_bug        : no
+coma_bug        : no
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 13
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe nx rdtscp lm constant_tsc arch_perfmon pebs bts xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid
+bogomips        : 6185.66
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 36 bits physical, 48 bits virtual
+power management:
+
+
 #winscp
 # not mc f5 in vscode
 mc
@@ -89,6 +137,7 @@ sudo -i mc
 sudo -i
 zsh
 ufw status
+
 ps -ef >ps-ef
 mount
 
