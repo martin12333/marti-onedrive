@@ -9411,3 +9411,7 @@ $Env:Path   -split ';'
 C:\Windows\System32\OpenSSH\ssh.exe   $(cat ~/bcloudREADONLY/alma.txt)
 git commit -v -a -m backup
 git push
+git commit -v -a -m backup
+git push
+podman machine start
+podman start   -ai    cmy22b

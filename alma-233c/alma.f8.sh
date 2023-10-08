@@ -105,6 +105,8 @@ cat /proc/cpuinfo
 
 
 
+mc --version
+
 #winscp
 # not mc f5 in vscode
 mc

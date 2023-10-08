@@ -35,6 +35,10 @@ ghci
 :set +t
 
 
+?
+import Data.Function
+
+
 :h
 
 
@@ -151,7 +155,9 @@ print 4
 -----print 5 1, 2
 ----times 2 5
 
+
 import Data.Function
+
 
 sqrt 15
 1 & sqrt & exp
@@ -496,6 +502,75 @@ f nphi nphi
 ---f cph
 
 nph = neg phi
+
+
+
+
+
+
+
+
+
+
+
+
+
+import Control.Category
+import Control.Arrow
+
+:i Category
+:k Category
+--- :t Category
+
+:i Functor
+:i Arrow
+:i Kleisli
+--- :t Category
+
+x=5
+--- ~(1,5,4)
+--- ~(x,y)
+:i (~)
+
+-- :i Control.Category
+-- :k Control.Category-
+--  :t Control.Category
+
+
+
+
+--- :i (Category (->)).id
+---- :t (Category (->)).id
+
+:i Control.Category.id
+:t Control.Category.id
+
+:i Functor
+:i Functor
+
+
+
+:i id
+---- :i cat
+
+:i (->)
+-- .id
+:k (->)
+ -- .id
+---  :t (->).id
+
+-- :i (=>)
+-- :k (=>)
+--  :t (=>)
+
+:i (,)
+:k (,)
+:t (,)
+
+:i sin
+f = sin
+f = (sin, sin)
+
 
 
 
