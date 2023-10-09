@@ -9415,3 +9415,5 @@ git commit -v -a -m backup
 git push
 podman machine start
 podman start   -ai    cmy22b
+git commit -v -a -m backup
+git push

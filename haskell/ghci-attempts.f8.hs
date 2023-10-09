@@ -574,6 +574,50 @@ f = (sin, sin)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:set -XDataKinds
+
+:k Symbol
+:k Nat
+:i Symbol
+:i Nat
+
+import GHC.TypeNats
+import GHC.TypeLits
+
+import Data.Type.Bool
+:k Bool
+:k 'True
+:i tru
+ :k '[ 'True]
+
+ :kind! "hi"
+  -- "hi" is a type-level string
+"hi" :: GHC.Types.Symbol
+ :kind! 123
+ :kind 123
+  -- 123 is a type-level natural number
+123 :: GHC.Types.Nat
+
+
+
 stack exec --package asyncgdfgfd --package saygdfgfd -- ghci
 
  Options for ':set' and ':unset':
