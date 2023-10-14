@@ -7,9 +7,51 @@
 
 
 
+
+tion: check result
+1 = 1 : Prop
+
+#reduce Sort 0
+Prop
+
+#check Prop
+Prop : Type
+Type : Type 1
+
+#print Prop
+~~~1024
+
+
+
+
+
+
+
+#print empty
+
+
+
+
+
+
+
+
+
+variable A: Prop
+#check (A  → A) : Prop
+
+
+
+
 #eval unit
 #check unit
 #print unit
+
+@[inline, reducible]
+def unit : Type :=
+punit
+
+
 #reduce unit
 
 
@@ -20,6 +62,13 @@
 
 
 
+#print nat
+ctive nat : Type
+constructors:
+nat.zero : ℕ
+nat.succ : ℕ → ℕ
+
+
 
 
 
@@ -28,6 +77,7 @@
 #check (tt,ff)    -- tt : bool
 #check true    --  true : Prop
 ----#check True
+inductive bool : Type
 
 
 #check bnot
@@ -38,6 +88,13 @@
 #eval tt&&tt
 #print tt
 #reduce tt&&tt
+
+
+
+
+
+
+
 
 
 
@@ -244,6 +301,13 @@ variables n: nat
 -- 115792089237316195423570985008687907853269984665640564039457584007913129639936
 -- 2256 = 115,792,089,237,316,195,423,570,985,008,687,907,853,269,984,665,640,564,039,457,584,007,913,129,639,936
 -- The total number of different possible keys in the AES 256-bit key space (symmetric cipher).
+
+
+
+
+
+
+
 
 
 

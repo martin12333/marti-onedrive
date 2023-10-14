@@ -9417,3 +9417,7 @@ podman machine start
 podman start   -ai    cmy22b
 git commit -v -a -m backup
 git push
+git commit -v -a -m backup
+podman machine start
+podman start   -ai    cmy22b
+& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'  --disable-remote-fonts

@@ -841,3 +841,7 @@ done
 : 1681297681:0;bash
 : 1681298288:0;set
 : 1691413704:0;ghci
+: 1696975958:0;# wget --verbose https://omfbrfhmu.foto-show.pl
+: 1696975961:0;cd
+: 1696975963:0;pwd
+: 1696975974:0;wget --verbose https://omfbrfhmu.foto-show.pl

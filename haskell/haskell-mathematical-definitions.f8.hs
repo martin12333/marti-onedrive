@@ -26,11 +26,14 @@ Hyperpolyglot-CSV--ML Dialects and Haskell_ SML, OCaml, F#, Haskell
 https://docs.google.com/spreadsheets/d/1VolTlhdf7tG7ifuxkC1OJa5KLDffl4Z8FmmUH4TRdhU/edit#gid=1800143334
 
 
-
+https://hoogle.haskell.org/
 
 
 todo glossary
 exists on paper in "krouzkovy sesit"
+
+
+
 
 
 
@@ -128,6 +131,71 @@ In Python, the bottom type is `typing.NoReturn (typing.Never since version 3.11)
 
 
 
+
+
+
+
+
+-- #unit
+:k! ()
+:t  ()
+:i  ()
+data () = ()
+        -- Defined in `GHC.Tuple'
+
+instance Eq () -- Defined in `GHC.Classes'
+instance Monoid () -- Defined in `GHC.Base'
+instance Ord () -- Defined in `GHC.Classes'
+instance Semigroup () -- Defined in `GHC.Base'
+
+
+
+import Data.Semigroup
+import Data.Monoid
+
+-- #bool
+
+ghci>
+ :i True
+type Bool :: *
+data Bool = ... | True
+        -- Defined in `GHC.Types'
+ :i Bool
+
+data Bool = False | True
+        -- Defined in `GHC.Types'
+instance Eq Bool -- Defined in `GHC.Classes'
+
+
+ :i Any
+ :i All
+
+newtype All = All {getAll :: Bool}
+newtype Any = Any {getAny :: Bool}
+        -- Defined in `base-4.16.4.0:Data.Semigroup.Internal'
+instance Monoid Any
+  -- Defined in `base-4.16.4.0:Data.Semigroup.Internal'
+
+
+
+
+-- #bool---type-level
+
+:set -XDataKinds
+
+import Data.Type.Bool
+:k Bool
+:k 'True
+ :k '[ 'True]
+
+
+
+
+
+
+
+
+
 -- #maybe
 
 ghci>
@@ -151,29 +219,6 @@ instance Monad Maybe -- Defined in `GHC.Base'
 
 
 -- #top
-
--- #unit
-:k! ()
-:t  ()
-
-
-
-
-
-ghci> :i True
-type Bool :: *
-data Bool = ... | True
-        -- Defined in `GHC.Types'
-
-
-:set -XDataKinds
-
-import Data.Type.Bool
-:k Bool
-:k 'True
- :k '[ 'True]
-
-
 
 
 
@@ -281,10 +326,10 @@ import GHC.TypeLits
 
 
 
-
-
-
-
+:i (:)
+:i []
+:i head
+data [] a = [] | a : [a]
 
 
 

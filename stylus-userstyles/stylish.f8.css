@@ -1,0 +1,132 @@
+
+
+
+
+
+ASEMTOG_F700
+CcfSymbolFont_ASEMTOG_F700
+
+/* f12 */
+th::before {
+  content: "@@@";
+}
+
+p::before {
+  content: "fusekle ";
+}
+/* 225 */
+
+p::before {content: counter(chapter_counter); }
+
+
+@font-face {
+  font-family: ASEMTOG_F700;
+  src: url('ASEMTOG_F700.ttf')  format('truetype')  ;
+}
+
+
+
+
+
+
+George Sutton
+@font-face {
+    font-family:'Helvetica';
+    src: local('ASEMTOG38');
+}
+with the Stylish (web browser extension: Firefox, Chrome, ... ) you can add your fonts to any website
+
+
+
+
+
+
+
+
+TEMPORARY codepoints, test
+====
+Stylish
+@-moz-document domain("facebook.com") {
+* {
+    font-family: CYMBALS4_temporary_F1_D21, sans-serif !important;
+}
+}
+test https://en.wikibooks.org/.../Character_reference/F1000-F1FFF
+F1D2x  󱴠  󱴡  󱴢  󱴣  󱴤  󱴥  󱴦  󱴧  󱴨  󱴩  󱴪  󱴫  󱴬  󱴭  󱴮  󱴯
+F1D3x  󱴰  󱴱  󱴲  󱴳  󱴴  󱴵  󱴶  󱴷  󱴸  󱴹  󱴺  󱴻  󱴼  󱴽  󱴾  󱴿
+F1D4x  󱵀  󱵁  󱵂  󱵃  󱵄  󱵅  󱵆  󱵇  󱵈  󱵉  󱵊  󱵋  󱵌  󱵍  󱵎  󱵏
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family:'docs-Merriweather';
+    src: local("CcfSymbolFont bliss 2012");
+}
+
+
+
+.ui-keyboard-button {
+  font-family: ASEMTOG38, sans-serif !important;
+}
+
+@font-face {
+    font-family:'Comic Sans MS';
+    src: local('ASEMTOG38');
+}
+
+*.style1-abc {
+  font-family: ASEMTOG38, sans-serif;
+}
+.style1-abc
+
+
+<button type="submit" id="submit-code" class="btn btn-success">Submit Your Code</button>
+<textarea class="form-control1"></textarea>
+<textarea class="form-control2"></textarea>
+form-contro
+form-contro
+form-control1
+
+.for-
+
+'docs-Amatic SC'
+Lora
+Spectral
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link type="text/css" rel="stylesheet" href="resources/sheet.css" >
+<style type="text/css">.ritz .waffle a { color: inherit; }.ritz .waffle .s1{background-color:#ffffff;text-align:left;color:#000000;font-family:'docs-Montserrat',Arial;font-size:24pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s0{background-color:#ffffff;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}</style>
+
+
+
+
+@font-face {
+    font-family:'docs-Montserrat';
+    src: local("CcfSymbolFont bliss 2012");
+}
+
+
+@font-face {
+    font-family:'docs-Montserrat';
+    src: local('CYMBALS4_temporary_F1_D21');
+}
+
+
+
+
+@font-face {
+    font-family:'Comic Sans MS';
+    src: local('ASEMTOG38');
+}
+
+
+
