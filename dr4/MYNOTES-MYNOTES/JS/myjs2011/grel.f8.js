@@ -1,6 +1,5 @@
 
 
-martin.novy.80@gmail.com
 
 \ t
 \ n
@@ -9,14 +8,14 @@ martin.novy.80@gmail.com
 value.slice(1)
 value.replace(/^bliss\\//i,'').replace(/.svg$/i,'')
 
-git config --global user.email martin12333@users.noreply.github.com
+git config --global user.email martin12333@users.noreply...
 git config --global user.email
 
 
 
 
 Find & Replace
-\n --- 
+\n ---
 Represents a line break that was inserted with the Shift+Enter key combination. To change a line break into a paragraph break, enter \n in the Search for and Replace with boxes, and then perform a search and replace.
 \n in the Search for text box stands for a line break that was inserted with the Shift+Enter key combination.
 \n in the Replace with text box stands for a paragraph break that can be entered with the Enter or Return key.
