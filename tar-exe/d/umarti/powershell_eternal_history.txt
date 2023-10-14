@@ -9421,3 +9421,6 @@ git commit -v -a -m backup
 podman machine start
 podman start   -ai    cmy22b
 & 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'  --disable-remote-fonts
+cd ~/OneDrive
+git add -vv  '*.f8.*'
+git commit -v -a -m add
