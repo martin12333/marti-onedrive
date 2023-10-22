@@ -123,6 +123,15 @@ $SC02B::Send {"}
 ; experiments unrelated to layout
 
 #IfWinActive ahk_exe msedge.exe
+
+;^p::
+;{
+;	Send, {a}
+	;;;;;;;;;;;;;;;;;;;;{aaaa}
+;	Send, {b}
+;	return
+;}
+
 ;^t::  ;^t new tab
 ;F9:: ; hand ache
 ;^p::
@@ -134,9 +143,8 @@ $SC02B::Send {"}
 
 
 
-
 ;does #IfWinActive ahk_exe msedge.exe
 ;apply to the following statements e.g.
 ;$SC02B::Send {"}
-;?   \\\\\YES!  \\""
+;?   \\\\\YES!  \\""  """" """"
 
