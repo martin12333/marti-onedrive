@@ -490,3 +490,5 @@ prepis 22ar
  (eepitch-shell)
  (eepitch-kill)
 
+cd ../softwareheritage
+git clone https://github.com/martin12333/marti-onedrive

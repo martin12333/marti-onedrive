@@ -1,6 +1,15 @@
 exit
 
+
 http://anggtwu.net/e/
+
+^c
+
+file:///C:\Users\marti\OneDrive\eev-f8\anggtwu.net--e.txt
+
+///
+site:angg.twu.net mathematics philosophy
+edrx
 
 
  (eepitch-shell)
@@ -20,6 +29,8 @@ cat eev-f8/anggtwu.net--e.txt|  grep 'e$' |grep -i coq
 
 
 
+cat eev-f8/anggtwu.net--e.txt|  grep 'e$' |grep Oct| grep '[:]'
+cat eev-f8/anggtwu.net--e.txt|  grep 'e$' |grep Sep| grep '[:]'
 cat eev-f8/anggtwu.net--e.txt|  grep 'e$' |grep Jul| grep '[:]'
 cat eev-f8/anggtwu.net--e.txt|  grep 'e$' |grep May| grep '[:]'
 cat eev-f8/anggtwu.net--e.txt|  grep 'e$' |grep Apr| grep '[:]'
