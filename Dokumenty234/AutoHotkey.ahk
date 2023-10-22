@@ -123,12 +123,15 @@ $SC02B::Send {"}
 ; experiments unrelated to layout
 
 #IfWinActive ahk_exe msedge.exe
-^t::
+;^t::  ;^t new tab
+;F9:: ; hand ache
+;^p::
+#p::
 {
   Send, {Click 3}
   return
 }
-;^t new tab
+
 
 
 
