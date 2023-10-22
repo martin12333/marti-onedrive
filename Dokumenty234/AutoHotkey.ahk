@@ -1,7 +1,9 @@
 ﻿; my keyb layout ver 0.6
 
+; ahk 1.1
 
-; C:\Users\marti\OneDrive\Dokumenty234\AutoHotkey.ahk  23a.m still true
+; C:\Users\marti\OneDrive\Dokumenty234\AutoHotkey.ahk  23a.m still true path
+
 
 
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
@@ -80,16 +82,6 @@ $NumpadSub::Send {~}
 
 
 
-;test
-;test
-;test
-
-
-;test  reload in ahk and try the last command \ """"""
-; sx hilite is of *.ini
-;	git add -vv  --dry-run  'Dokumenty234/Au*.ahk'
-; then git commit
-
 
 ;6F  135	 	d	8.31	NumpadDiv
 ;6F  135	 	u	0.19	NumpadDiv
@@ -112,15 +104,17 @@ $NumpadSub::Send {~}
 ;not E2  056	 	u	0.16	\   backslash
 ;test ......;.;.;:::;;""""\\""\\""\\;;;  """"""""
 
-; sx hilite is of *.ini   in vsc
-;enter, backspace for (un)commenting
-;
+; sx hilite is of *.ini  not *.ahk   in vsc
 $SC02B::Send {"}
-
+; "
+; this "" is for :  the  sx hilite  of *.ini   in vsc
+;
 
 
 ; 2023-10-22 =~= 23a.m
 ; experiments unrelated to layout
+
+;~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~
 
 #IfWinActive ahk_exe msedge.exe
 
@@ -132,9 +126,14 @@ $SC02B::Send {"}
 ;	return
 ;}
 
+
+;v1: return-is-needed
+
+
 ;^t::  ;^t new tab
 ;F9:: ; hand ache
 ;^p::
+
 #p::
 {
   Send, {Click 3}
@@ -148,3 +147,14 @@ $SC02B::Send {"}
 ;$SC02B::Send {"}
 ;?   \\\\\YES!  \\""  """" """"
 
+
+
+;test ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+;test
+;test
+
+
+;test :   win+q AutoHotkey  reload in ahk and try the last command \ """"""  #p
+; sx hilite is of *.ini
+;	git add -vv  --dry-run  'Dokumenty234/Au*.ahk'
+; then git commit
