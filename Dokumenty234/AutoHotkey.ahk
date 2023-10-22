@@ -1,5 +1,9 @@
 ﻿; my keyb layout ver 0.6
 
+
+; C:\Users\marti\OneDrive\Dokumenty234\AutoHotkey.ahk  23a.m still true
+
+
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 
 #Warn  ; Enable warnings to assist with detecting common errors.
@@ -9,8 +13,9 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
-; //// mk restore point recommended  ?
+; //// unnecessary: mk restore point
 ; C:\Users\marti\OneDrive\Dokumenty234\AutoHotkey.ahk
+
 
 ; Remapping numbers and symbols - Ask for Help - AutoHotkey Community
 
@@ -75,8 +80,6 @@ $NumpadSub::Send {~}
 
 
 
-
-
 ;test
 ;test
 ;test
@@ -103,8 +106,34 @@ $NumpadSub::Send {~}
 ;; keybindings.json off
 
 
+
+
 ;DC  02B	 	u	0.13	\         backslash
 ;not E2  056	 	u	0.16	\   backslash
 ;test ......;.;.;:::;;""""\\""\\""\\;;;  """"""""
-; sx hilite is of *.ini
+
+; sx hilite is of *.ini   in vsc
+;enter, backspace for (un)commenting
+;
 $SC02B::Send {"}
+
+
+
+; 2023-10-22 =~= 23a.m
+; experiments unrelated to layout
+
+#IfWinActive ahk_exe msedge.exe
+^t::
+{
+  Send, {Click 3}
+  return
+}
+;^t new tab
+
+
+
+;does #IfWinActive ahk_exe msedge.exe
+;apply to the following statements e.g.
+;$SC02B::Send {"}
+;?   \\\\\YES!  \\""
+

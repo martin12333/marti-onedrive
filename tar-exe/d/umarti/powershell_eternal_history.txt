@@ -9431,3 +9431,7 @@ git push
 cd ../softwareheritage
 git clone https://github.com/martin12333/marti-onedrive
 bash -i
+cd ~/OneDrive
+git add -vv  '*.f8.*'
+git commit -v -a -m  " rename,move"
+git push   -vv
