@@ -9450,3 +9450,9 @@ git commit -v -a -m " fix"
 git push   -vv
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
 pip install --dry-run pyautogui
+pip install    pyautogui
+git commit -v -a -m backup
+git push   -vv
+python
+ipython
+python
