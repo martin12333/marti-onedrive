@@ -22,6 +22,24 @@ cd ~\Onedrive\AI   ;   jupyter lab
 #cd d:\  ;   jupyter lab
 
 
+
+# file:///C:\Users\marti\OneDrive\AI\conda,pip,mamba,ai-python.e.f8.sh
+
+# file:///C:\Users\marti\OneDrive\AI\pip----31pip310ecco.e.f8.sh
+
+ pip install -h
+
+  -U, --upgrade          Upgrade all
+                         specified packages
+                         to the newest
+                         available version.
+                         The handling of
+                         dependencies depends
+                         on the upgrade-
+                         strategy used.
+
+
+
 bash -c 'df -m'
 
 
@@ -727,3 +745,17 @@ pip list|findstr -i tra
 conda --version
 
 cd ~\Onedrive\AI   ;   jupyter lab
+
+
+
+ pip install -h
+
+  -U, --upgrade          Upgrade all
+                         specified packages
+                         to the newest
+                         available version.
+                         The handling of
+                         dependencies depends
+                         on the upgrade-
+                         strategy used.
+

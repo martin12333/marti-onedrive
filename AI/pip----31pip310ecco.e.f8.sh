@@ -14,6 +14,27 @@ pwsh
 
 
 
+
+# file:///C:\Users\marti\OneDrive\AI\conda,pip,mamba,ai-python.e.f8.sh
+# file:///C:\Users\marti\OneDrive\AI\pip----31pip310ecco.e.f8.sh
+
+ pip install -h
+
+  -U, --upgrade          Upgrade all
+                         specified packages
+                         to the newest
+                         available version.
+                         The handling of
+                         dependencies depends
+                         on the upgrade-
+                         strategy used.
+
+
+
+
+# GO TO THE END OF THIS FILE
+
+
 echo '-------- section --------'
 
 #Filesystem           1M-blocks     Used Available  Use% Mounted on
@@ -188,6 +209,8 @@ pip install   html5lib
 
 dir  -recurse  hyper*.ipynb
 
+pip install --dry-run pyautogui
+pip install    pyautogui
 
 
 
@@ -198,10 +221,11 @@ pip install --dry-run
 
 conda activate pip310ecco
 
-
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
 
 cd ~\Onedrive\AI   ;  start  jupyter lab
+# start cmd args
+# start
 # but ecco needs jup classic noteb
 
  pip install -h

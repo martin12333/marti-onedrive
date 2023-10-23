@@ -16,11 +16,7 @@ echo '-------- section --------'
 
 
 
-
-
-
-
-
+# file:///C:\Users\marti\OneDrive\AI\conda,pip,mamba,ai-python.e.f8.sh
 
 https://github.com/neelnanda-io/TransformerLens/blob/9e034eef796ed32b0e473ca9f3c9d31e5d5046e7/poetry.lock
 9e034eef796ed32b0e473ca9f3c9d31e5d5046e7
