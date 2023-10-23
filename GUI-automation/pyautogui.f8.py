@@ -2,6 +2,7 @@
 
 # f8_text_file
 # (an f8_text_file is-not meant to be run as a whole)
+from logging import WARNING
 from platform import python_branch
 
 
@@ -25,7 +26,7 @@ Successfully installed EasyProcess-1.1 entrypoint2-1.1 mouseinfo-0.1.3 mss-9.0.1
 
 python
 ###ipython
-import pyautogui
+import pyautogui,  time
 
 #quit()
 
@@ -37,19 +38,36 @@ Size(width=1920, height=1080)
  wh.width
 1920
 
-for i in range(10): # Move mouse in a square.
-       pyautogui.moveTo(100, 100, duration=0.25)
-       pyautogui.moveTo(200, 100, duration=0.25)
-       pyautogui.moveTo(200, 200, duration=0.25)
-       pyautogui.moveTo(100, 200, duration=0.25)
+
+
+WARNING
+# warning: the anti-RSI tool,  installed on *my* comp ... autoclicks!!! (after pyautogui.move*)
+# at least, at the end, it definitely ... sets a breakpoint in vscode
+# other autoclicks depend on, whether the cursor sleeps somewhere in the middle
+
+dur=1.8
+
+pyautogui.moveTo(100, 200, duration=dur)
+time.sleep(1)
+pyautogui.moveTo(100, 300, duration=dur)
+
 
 
 
 
 pyautogui.getAllTitles()
 
-###cscript
 
+
+
+
+
+
+
+
+
+# old, could become forbidden? by w11 secu?
+###cscript
 ###wscript
 
 
