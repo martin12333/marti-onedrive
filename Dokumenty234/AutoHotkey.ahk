@@ -2,22 +2,44 @@
 
 ; ahk 1.1
 
-; C:\Users\marti\OneDrive\Dokumenty234\AutoHotkey.ahk  23a.m still true path
+; at C:\Users\marti\OneDrive\Dokumenty234\AutoHotkey.ahk
 
 
+
+
+
+
+;============================== Start Auto-Execution Section ==============================
 
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+; Avoids checking empty variables to see if they are environment variables.
 
 #Warn  ; Enable warnings to assist with detecting common errors.
 
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+; Makes a script unconditionally use its own folder as its working directory.
 
 
-; //// unnecessary: mk restore point
-; C:\Users\marti\OneDrive\Dokumenty234\AutoHotkey.ahk
+; see also ;Blank Template written by GroggyOtter
 
+; sets title matching to search for "containing" instead of "exact"
+;SetTitleMatchMode, 2
+
+
+
+; //// my, unnecessary: mk restore point ... could just rename  C:\Users\marti\OneDrive\Dokumenty234\AutoHotkey.ahk
+
+
+
+
+
+
+;============================== Main Script ==============================
+
+; Global hotkeys
+; Global hotstrings
 
 ; Remapping numbers and symbols - Ask for Help - AutoHotkey Community
 
@@ -80,9 +102,6 @@ $NumpadSub::Send {~}
 ;test <>~  /*-  -->  --->  >==>  >>= ==> +++~~+++
 
 
-
-
-
 ;6F  135	 	d	8.31	NumpadDiv
 ;6F  135	 	u	0.19	NumpadDiv
 ;6A  037	 	d	0.92	NumpadMult
@@ -98,8 +117,6 @@ $NumpadSub::Send {~}
 ;; keybindings.json off
 
 
-
-
 ;DC  02B	 	u	0.13	\         backslash
 ;not E2  056	 	u	0.16	\   backslash
 ;test ......;.;.;:::;;""""\\""\\""\\;;;  """"""""
@@ -110,6 +127,12 @@ $SC02B::Send {"}
 ; this "" is for :  the  sx hilite  of *.ini   in vsc
 ;
 
+
+
+
+
+
+;============================== chrome ==============================
 
 ; 2023-10-22 =~= 23a.m
 ; experiments unrelated to layout
@@ -149,12 +172,26 @@ $SC02B::Send {"}
 
 
 
-;test ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-;test
-;test
+
+; The second #IfWinActive is to indicate anything past this
+; point will work in any program.
+#IfWinActive
 
 
-;test :   win+q AutoHotkey  reload in ahk and try the last command \ """"""  #p
+
+
+;============================== OLD  ==============================
+
 ; sx hilite is of *.ini
 ;	git add -vv  --dry-run  'Dokumenty234/Au*.ahk'
 ; then git commit
+
+
+
+
+
+;============================== DO TEST BECAUSE IT IS AUTORUN  ==============================
+
+;test :   win+q AutoHotkey  reload in ahk and try the last command \ """"""  #p  ""
+
+
