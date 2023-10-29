@@ -9471,3 +9471,6 @@ D:\instu\emacs-28.2\emacs-28.2\bin\runemacs.exe
 git add -vv  '*.f8.*'
 git commit -v -a -m backup
 git push   -vv
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push   -vv

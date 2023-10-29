@@ -9,10 +9,12 @@ echo '-------- section --------'
 
 
 
-OPENED IN EMACS?
+OPENED IN EMACS
 
 
-file:///C:\Users\marti\OneDrive\emacs\emacs---runemacs.f8.ps1
+
+
+code C:\Users\marti\OneDrive\emacs\emacs---runemacs.f8.ps1
 
 
 
@@ -21,31 +23,12 @@ file:///C:\Users\marti\OneDrive\emacs\emacs---runemacs.f8.ps1
  (eepitch-eshell)
 
 
-?
+
+
 cmd.exe
-powershell.exe
-exit
-
-
-
-echo $PATH
-env
-set
-
-
-
 C:\Users\marti\maxima\bin\maxima.bat
 
 5*7 ;
-#cd
-
-cmd.exe
- powershell
-  pwsh
-   node -i
-    .exit
-
-
 
 
 
@@ -58,10 +41,28 @@ cmd.exe
 
 
 
+
+
+
+
+
+opened in emacs
 C:\Users\marti\OneDrive\eev-f8\w32.e.el
 
-file:///C:\Users\marti\OneDrive\eev-f8\msys2-problem--msys2-cmd.f8.ps1
 
+
+echo $PATH
+env
+set
+
+
+   node -i
+    .exit
+
+
+
+
+file:///C:\Users\marti\OneDrive\eev-f8\msys2-problem--msys2-cmd.f8.ps1
 where.exe cmd
 D:\msys64\usr\bin\cmd
 C:\Windows\System32\cmd.exe
