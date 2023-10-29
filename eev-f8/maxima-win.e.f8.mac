@@ -14,7 +14,7 @@ OPENED IN EMACS
 
 
 
-code C:\Users\marti\OneDrive\emacs\emacs---runemacs.f8.ps1
+# code "C:\Users\marti\OneDrive\emacs\emacs---runemacs.f8.ps1"
 
 
 
@@ -25,13 +25,15 @@ code C:\Users\marti\OneDrive\emacs\emacs---runemacs.f8.ps1
 
 
 
-cmd.exe
-C:\Users\marti\maxima\bin\maxima.bat
+#cmd.exe /c a.bat
+###cmd  a.bat
+
+cmd.exe  /c  "C:\Users\marti\maxima\bin\maxima.bat"
 
 5*7 ;
 
 
-
+quit();
 
 
 	file:///C:\Users\marti\OneDrive\eev-f8\maxima.e.mac
