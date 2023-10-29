@@ -1,7 +1,7 @@
 
 exit
 
-
+OPENED IN EMACS
 
  (eepitch-shell)
  (eepitch-kill)

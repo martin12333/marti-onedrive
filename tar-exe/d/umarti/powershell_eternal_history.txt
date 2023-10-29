@@ -9468,3 +9468,6 @@ git push   -vv
 cd
 C:\Users\marti\maxima\bin\maxima.bat
 D:\instu\emacs-28.2\emacs-28.2\bin\runemacs.exe
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
+git push   -vv
