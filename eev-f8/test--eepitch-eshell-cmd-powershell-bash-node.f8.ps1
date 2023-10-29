@@ -12,7 +12,7 @@ echo '-------- section --------'
  (eepitch-kill)
  (eepitch-eshell)
 
-cmd
+cmd.exe
  powershell
   pwsh
    node -i

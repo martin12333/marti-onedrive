@@ -12,7 +12,46 @@ echo '-------- section --------'
  (eepitch-kill)
  (eepitch-eshell)
 
-cmd
+
+?
+cmd.exe
+powershell.exe
+exit
+
+
+?
+// search
+emacs.*exe
+*.ps1
+
+?
+D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
+
+?
+D:\msys64\msys2_shell.cmd -mingw64     -c  "D:/instu/emacs-28.2/emacs-28.2/bin/runemacs.exe"
+
+
+//start
+D:\instu\emacs-28.2\emacs-28.2\bin\runemacs.exe
+40 seconds
+"D:\instu\emacs-28.2\emacs-28.2\bin\runemacs.exe"
+
+# D:\instu\emacs-28.2\emacs-28.2\bin\runemacs.exe  --debug-init
+
+
+
+echo $PATH
+env
+set
+
+
+
+C:\Users\marti\maxima\bin\maxima.bat
+
+5*7 ;
+#cd
+
+cmd.exe
  powershell
   pwsh
    node -i
@@ -24,8 +63,10 @@ cmd
 
 
 
-
-
+	file:///C:\Users\marti\OneDrive\eev-f8\maxima.e.mac
+	http://anggtwu.net/e/maxima.e.html
+	colv([entries]) := covect(entries);
+	w : covect([2, 3]); A . w; transpose(v) . w; dotproduct(v, w);
 
 
 
@@ -33,3 +74,6 @@ C:\Users\marti\OneDrive\eev-f8\w32.e.el
 
 file:///C:\Users\marti\OneDrive\eev-f8\msys2-problem--msys2-cmd.f8.ps1
 
+where.exe cmd
+D:\msys64\usr\bin\cmd
+C:\Windows\System32\cmd.exe
