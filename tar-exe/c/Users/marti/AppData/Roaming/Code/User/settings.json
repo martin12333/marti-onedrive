@@ -80,7 +80,8 @@
 		"*.sh-session": "shellscript",
 		"*.tasker": "ini",
 		"*.sage": "python",
-		"*.ahk": "ini"
+		"*.ahk": "ini",
+		"*.mac": "javascript"
 	},
 
 

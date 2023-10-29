@@ -1,5 +1,12 @@
 
+# f8_text_file
+# (an f8_text_file is-not meant to be run as a whole)
+)
 exit
+
+# (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
+
+echo '-------- section --------'
 
  (eepitch-eshell)
  (eepitch-kill)
@@ -42,7 +49,8 @@ https://www.diigo.com/user/martin12333?query=%23todo234
 
 https://www.diigo.com/user/martin12333?query=%23eev
 
-https://www.google.com/search?q=emacs+windows+%22python+-i%22&newwindow=1&sxsrf=APwXEdcpCdnCaNhiI088gRskLOrVEoJYRA%3A1680740920945&ei=OBIuZKOlOc74qwHWuo34Bw&ved=0ahUKEwijobXs_5P-AhVO_CoKHVZdA38Q4dUDCA8&uact=5&oq=emacs+windows+%22python+-i%22&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzoKCAAQRxDWBBCwA0oECEEYAFDLB1jLB2DsCmgBcAF4AIABY4gBY5IBATGYAQCgAQHIAQjAAQE&sclient=gws-wiz-serp
+https://www.google.com/search?q=emacs+windows+%22python+-i%22
+
 
 emacs+windows+%22python+-i%22
 
