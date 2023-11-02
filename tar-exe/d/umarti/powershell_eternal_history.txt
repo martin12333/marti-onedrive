@@ -9479,3 +9479,8 @@ git commit -v -a -m backup
 git push   -vv
 cmd /c a.bat
 cmd  a.bat
+git commit -v -a -m backup
+git push   -vv
+.\maxima-5.45.1s-win64.exe /?  --help   
+.\maxima-5.45.1s-win64.exe /?  
+.\maxima-5.45.1s-win64.exe  --help   
