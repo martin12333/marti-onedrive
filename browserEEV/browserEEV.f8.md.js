@@ -3,49 +3,60 @@
 
 early drafts
 
-browserEEV will be something like `eev`, but in a web browser ... analogies of Emacs `eev`
 
-...
-
-JS functions and hotkeys,
+(my new  project)
+browserEEV could be something a little bit like `eev`, but in a web browser ...  distant analogie(s) of Emacs `eev`:
+javascript function(s) and hotkey(s),
 to send ...
 a line of text (or, perhaps, a block of text),
 from an embedded editor widget,
 to the eval() of the browser javascript,
 (or maybe to an embedded wasm Lua, wasm Python, jslinux terminal in a web page?)
+https://github.com/martin12333/marti-onedrive/blob/main2/browserEEV/browserEEV.f8.md.js
 
 
 
-# searches
+
+
+
+
+
+# AI
 
 https://www.bing.com/search?q=Bing+AI&showconv=1
-a simple web page with a Codemirror editor, and javascript code to `eval()` the selected text, when the user presses the F8? (meaning in browsers?) key
+a simple web page with a Codemirror editor, and javascript code to `eval()` the selected text, when the user presses the F8 key
 
 "C:\Users\marti\OneDrive\browserEEV\Conversation (16).txt"
 
 
+https://codepen.io/martin_m_n_novy/pen/eYxdMYj
+
+CodeMirror
+Monaco-editor
+CodeMirror 6 seems too new for gpt
+ace
+CodeMirror/5
+
+
+F8? (meaning in browsers?)
 https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly#firefox:win11:fx118
 todo chrome
 todo edge
 
 
------
+
+
+
+
+
+# searches
 
 site:codepen.io ace-editor   "eval" selection
 CodeMirror
-Monaco-editor
-
-monaco seems baroque?
-CodeMirror 6 seems too new for gpt
-
-ace
-CodeMirror/5
-
-https://codepen.io/martin_m_n_novy/pen/eYxdMYj
+Monaco-editor ... the api of monaco-editor seems too complex vs codemirror?
 
 https://codepen.io/martin_m_n_novy/pen/RwvGQqb
 forked
-
 
 https://observablehq.com/@tophtucker/eval-in-place
 //// forked  https://observablehq.com/d/3555200f7e68f405
