@@ -43,8 +43,8 @@ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-qu
 todo chrome
 todo edge
 
-
-
+http://dmcritchie.mvps.org/firefox/keyboard.htm
+https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts#Browsers_/_Go_menu
 
 
 
