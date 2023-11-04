@@ -86,11 +86,52 @@ JupyterLite Python, Lua
 
 
 
+# document.getElementsByClassName('CodeMirror')
+3
+document.getElementsByClassName('CodeMirror')[0].CodeMirror
+Yo {options: {…}, doc: Hl, display: jr, state: {…}, curOp: null, …}
+!!! *****************************************************************
+
+// older
+ p=temp3.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement
+ <div class=​"CodeMirror cm-s-default CodeMirror-wrap CodeMirror-simplescroll" translate=​"no">​…​</div>​
+
+ p.CodeMirror
+ Yo {options: {…}, doc: Hl, display: jr, state: {…}, curOp: null, …}
+ !!! *****************************************************************
+
+ p.className
+ 'CodeMirror cm-s-default CodeMirror-wrap CodeMirror-simplescroll'
+
+ #box-js > div.code-wrap.notranslate >
+
+ div.CodeMirror.cm-s-default.CodeMirror-wrap.CodeMirror-simplescroll
+
+ > div.CodeMirror-scroll > div.CodeMirror-sizer > div > div > div > div.CodeMirror-code.CodeMirror-crosshair > div:nth-child(6) > pre > span > span.cm-string
+
+ document.querySelector("#box-js > div.code-wrap.notranslate > div.CodeMirror.cm-s-default.CodeMirror-wrap.CodeMirror-simplescroll > div.CodeMirror-scroll > div.CodeMirror-sizer > div > div > div > div.CodeMirror-code > div:nth-child(6) > pre > span > span.cm-string")
+
+                            //*[@id="box-js"]/div[2]/div[1]/div[6]/div[1]/div/div/div/div[5]/div[6]/pre/span/span[2]
+ /html/body/div[2]/div/div[2]/div[6]/div[2]/div[1]/div[6]/div[1]/div/div/div/div[5]/div[6]/pre/span/span[2]
 
 
+ CodeMirror.commands.goLineDown
+
+ CodeMirror.version
 
 
+ temmm=document.getElementById('editor')
+ temmm.nextElementSibling.CodeMirror
+ !!! *****************************************************************
 
+ cm=temp3.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.CodeMirror
+ Yo {options: {…}, doc: Hl, display: jr, state: {…}, curOp: null, …}
+ !!! *****************************************************************
+
+ cm.state.keyMaps[0]
+ {Backspace: ƒ, Enter: ƒ, '(': ƒ, ')': ƒ, '[': ƒ, …}
+ cm.options.extraKeys
+ {Ctrl-Space: 'autocomplete', Enter: 'emmetInsertLineBreak', Ctrl-Up: 'emmetIncrementNumber1', Alt-Shift-Up: 'emmetIncrementNumber01', Tab: ƒ, …}
 
 
 
