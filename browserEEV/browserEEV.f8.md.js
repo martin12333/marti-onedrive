@@ -1,17 +1,25 @@
 
+
+
 # browserEEV ideas
 
 early drafts
 
 
 (my new  project)
-browserEEV could be something a little bit like `eev`, but in a web browser ...  distant analogie(s) of Emacs `eev`:
+(an opportunity for me to learn javascript a bit better)
+*browserEEV* could be something a little bit like `eev`, but in a web browser ...  distant analogie(s) of Emacs `eev`:
 javascript function(s) and hotkey(s),
 to send ...
 a line of text (or, perhaps, a block of text),
 from an embedded editor widget,
 to the eval() of the browser javascript,
 (or maybe to an embedded wasm Lua, wasm Python, jslinux terminal in a web page?)
+
+v0.0.1 https://codepen.io/martin_m_n_novy/pen/eYxdMYj
+
+
+
 https://github.com/martin12333/marti-onedrive/blob/main2/browserEEV/browserEEV.f8.md.js
 
 
@@ -23,8 +31,8 @@ https://github.com/martin12333/marti-onedrive/blob/main2/browserEEV/browserEEV.f
 
 # AI
 
-https://www.bing.com/search?q=Bing+AI&showconv=1
-a simple web page with a Codemirror editor, and javascript code to `eval()` the selected text, when the user presses the F8 key
+// https://www.bing.com/search?q=Bing+AI&showconv=1
+// a simple web page with a Codemirror editor, and javascript code to `eval()` the selected text, when the user presses the F8 key
 
 "C:\Users\marti\OneDrive\browserEEV\Conversation (16).txt"
 
@@ -61,6 +69,10 @@ forked
 https://observablehq.com/@tophtucker/eval-in-place
 //// forked  https://observablehq.com/d/3555200f7e68f405
 
+https://github.com/XYZTwt/DesCode
+//// https://raw.githubusercontent.com/martin12333/PUBLIC-group-of-gists/main/DesCode.js
+
+
 
 
 ## compare
@@ -71,6 +83,15 @@ JupyterLite Python, Lua
 
 
 
+## 23b.5
+
+code "c:\Users\marti\AppData\Local\Google\Chrome\User Data\Profile 4\Extensions\"
+
+code "C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Extensions"
+
+*manife*
+"manifest_version": 2
+"manifest_version": 3
 
 
 
@@ -79,7 +100,15 @@ JupyterLite Python, Lua
 
 
 
+# chrome.tabs.query
 
+C:\Users\marti\OneDrive\browserEEV\chrome.tabs.query---cplklnmnlbnpmjogncfgfijoopmnlemp-1699224824284.log
+
+chrome.tabs.query({}, function(tabs) {
+	tabs.forEach(function(tab) {
+	  console.log(tab.url);
+	});
+  });
 
 
 
@@ -160,3 +189,68 @@ editor.focus();
 editor.setValue('dsfdsffds\nijkjlkjkjkjkjkj\nlkjkjjl\n')
 editor.setCursor({line: 1, ch: 5});
 
+
+
+
+
+
+https://www.squarefree.com/bookmarklets/limits.html
+100 000+
+chrome
+edge
+
+
+
+
+console.log(
+        this
+        ,
+        globalThis
+        ,
+        window
+        ,
+        document
+        ,
+        document.getElementsByTagName('iframe')
+        ,
+        document.getElementsByTagName('textarea')
+
+      )
+
+
+console.log(this,globalThis,window,document,document.getElementsByTagName("iframe"),document.getElementsByTagName("textarea"))
+
+online bookmarklet generator
+
+https://caiorss.github.io/bookmarklet-maker/
+javascript:(function()%7Bconsole.log(this%2CglobalThis%2Cwindow%2Cdocument%2Cdocument.getElementsByTagName(%22iframe%22)%2Cdocument.getElementsByTagName(%22textarea%22))%7D)()%3B
+
+javascript:(function()%7Bvar%20md%20%3D%20%22%5B%5B%22%20%2B%20document.URL%20%2B%20%22%5D%5B%22%20%2B%20document.title%20%2B%20%22%5D%5D%22%20%3B%0Aprompt(%22Enter%20Ctrl%2BC%20to%20copy%20this%20org-mode%20hyperlink.%20%3A%22%2C%20md)%3B%7D)()%3B
+
+var md = "[[" + document.URL + "][" + document.title + "]]" ;
+prompt("Enter Ctrl+C to copy this org-mode hyperlink. :", md);
+
+
+
+
+
+
+https://gh.japnaa.dev/Userscripts/pages/bookmarklets/
+
+//javascript:
+//void
+"
+"
+eval("!function(){const e=['console.log(this,globalThis,window,document,document.getElementsByTagName(\"iframe\"),document.getElementsByTagName(\"textarea\"));'],n=[[[],[]]],t=\"0.07555085998718059-1699449015896-userscripts-ran\",o=e.length;function r(e,n){const[t,o]=e;for(const e of o)if(i(e,n))return!1;for(const e of t)if(i(e,n))return!0;return 0===t.length}function i(e,n){let t;return t=e.startsWith(\"/\")&&e.endsWith(\"/\")?new%20RegExp(e.slice(1,-1)):function(e){let%20n=e;for(let%20e=0;e%3Cs.length;e++){const%20t=s[e],o=c[e];n=n.replace(o,\%22\\\\\%22+t)}return%20new%20RegExp(\%22^\%22+n.replace(/\\*/g,\%22.*\%22)+\%22$\%22,\%22i\%22)}(e),t.test(n)}const%20s=Array.from(\%22\\\\.+?^$()[]{}|\%22),c=s.map((e=%3Enew%20RegExp(\%22\\\\\%22+e,\%22g\%22)));!function(){if(!window[t]||confirm(\%22Are%20you%20sure%20you%20want%20to%20run%20the%20userscripts%20again?\%22)){window[t]=!0,window.isRunningAsBookmarkletUserscript=!0;for(let%20t=0;t%3Co;t++){const%20o=e[t];if(r(n[t],location.href))try{window.eval(o)}catch(e){console.error(e)}}delete%20window.isRunningAsBookmarkletUserscript}}()}();%22"
+
+)
+
+
+
+javascript:void eval("window.isRunningAsBookmarkletUserscript=!0;for(const e of['console.log(this,globalThis,window,document,document.getElementsByTagName(\"iframe\"),document.getElementsByTagName(\"textarea\"));'])try{window.eval(e)}catch(e){console.error(e)}delete window.isRunningAsBookmarkletUserscript;")
+"
+
+
+"
+
+console.log(this,globalThis,window,document,document.getElementsByTagName(\"iframe\"),document.getElementsByTagName(\"textarea\"))

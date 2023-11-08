@@ -29,6 +29,7 @@ cat eev-f8/anggtwu.net--e.txt|  grep 'e$' |grep -i coq
 
 
 
+cat eev-f8/anggtwu.net--e.txt|  grep 'e$' |grep "Nov  1"| grep '[:]'
 cat eev-f8/anggtwu.net--e.txt|  grep 'e$' |grep Oct| grep '[:]'
 cat eev-f8/anggtwu.net--e.txt|  grep 'e$' |grep Sep| grep '[:]'
 cat eev-f8/anggtwu.net--e.txt|  grep 'e$' |grep Jul| grep '[:]'
