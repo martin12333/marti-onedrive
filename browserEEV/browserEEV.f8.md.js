@@ -3,6 +3,8 @@
 
 # browserEEV ideas
 
+
+
 early drafts
 
 
@@ -17,8 +19,13 @@ from an  editor widget in  a web page/app,
 to the eval() of the browser javascript,
 (or maybe to an embedded wasm Lua, wasm Python, jslinux terminal in a web page?)
 
-v0.0.1+ https://codepen.io/martin_m_n_novy/pen/eYxdMYj
 
+
+# https://codepen.io/martin_m_n_novy/pen/eYxdMYj
+
+      // EDIT 0.0.2 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval#direct_and_indirect_eval
+
+	// EDIT 0.0.3: docs: Closest known tools
 
 
 
