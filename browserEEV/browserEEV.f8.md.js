@@ -1,4 +1,4 @@
-
+// this file is https://github.com/martin12333/marti-onedrive/blob/main2/browserEEV/browserEEV.f8.md.js
 
 
 # browserEEV ideas
@@ -9,21 +9,42 @@ early drafts
 (my new  project)
 (an opportunity for me to learn javascript a bit better)
 *browserEEV* could be something a little bit like `eev`, but in a web browser ...  distant analogie(s) of Emacs `eev`:
+
 javascript function(s) and hotkey(s),
 to send ...
 a line of text (or, perhaps, a block of text),
-from an embedded editor widget,
+from an  editor widget in  a web page/app,
 to the eval() of the browser javascript,
 (or maybe to an embedded wasm Lua, wasm Python, jslinux terminal in a web page?)
 
-v0.0.1 https://codepen.io/martin_m_n_novy/pen/eYxdMYj
+v0.0.1+ https://codepen.io/martin_m_n_novy/pen/eYxdMYj
 
 
 
-https://github.com/martin12333/marti-onedrive/blob/main2/browserEEV/browserEEV.f8.md.js
 
 
 
+
+
+# EDIT 0.0.3: Closest known tools:
+
+* chrome devtools snippets
+
+** https://developer.chrome.com/docs/devtools/javascript/snippets/
+** https://developer.chrome.com/blog/devtools-tips-26/
+> If you find yourself running the same code in the Console repeatedly, consider saving the code as a snippet instead. Snippets have access to the page's JavaScript context. They are an alternative to bookmarklets.
+** chrome devtools snippets site:stackoverflow.com
+*** https://stackoverflow.com/a/16425844/3796855
+**** https://github.com/paulirish/devtools-addons/wiki/Snippets#grepjs
+
+more distantly related
+
+* devtools-on-devtools
+** https://stackoverflow.com/a/67422751/3796855
+
+* bookmarklets
+
+* userscripts (greasemonkey, tampermonkey)
 
 
 
@@ -254,3 +275,27 @@ javascript:void eval("window.isRunningAsBookmarkletUserscript=!0;for(const e of[
 "
 
 console.log(this,globalThis,window,document,document.getElementsByTagName(\"iframe\"),document.getElementsByTagName(\"textarea\"))
+
+
+
+
+
+
+javascript:(function () {var script=document.createElement('script');script.src="//cdn.jsdelivr.net/npm/eruda";document.body.appendChild(script); script.onload = function () { eruda.init() } })();
+
+
+javascript:try{e=eval(unescape('%s')); alert("Properties of "+e+":\n\n"+props(e));}catch(er){alert(er);} function props(e){/*slightly modified from javascript shell*/var s="";var a=[["Functions","",""],["Variables","",""],["Unreachables","",""]];for(i in e){var proto=((e.__proto__)&&(i in e.__proto__))?2:1;var type=1;try{if((typeof e[i])=="function")type=0;}catch(er){type=2;}a[type][proto]+=(a[type][proto]?", ":"")+i;}for(i=0;i<a.length;++i){if(a[i][1])s+=a[i][0]+":\n"+a[i][1]+"\n\n";if(a[i][2])s+=a[i][0]+" of prototype:\n"+a[i][2]+"\n\n";}return s;}
+
+javascript:try{alert(eval(unescape('%s')))}catch(er){alert(er)}
+
+
+{google:baseURL}search?q=%s&{google:RLZ}{google:originalQueryForSuggestion}{google:assistedQueryStats}{google:searchboxStats}{google:searchFieldtrialParameter}{google:iOSSearchLanguage}{google:prefetchSource}{google:searchClient}{google:sourceId}{google:contextualSearchVersion}ie={inputEncoding}
+
+
+
+
+
+
+site:anggtwu.net/ "bookmarklets"
+
+https://www.squarefree.com/bookmarklets/
