@@ -159,8 +159,23 @@ $SC02B::Send {"}
 
 #p::
 {
-  Send, {Click 3}{AppsKey}
-  return
+	Send, {Click 3}
+
+	Sleep, 200
+
+	; Open the popup menu
+	;Click, right
+	Send, {AppsKey}
+
+	Sleep, 600
+
+	Send, d
+
+	Sleep, 600
+
+	Send, h
+
+	return
 }
 
 
