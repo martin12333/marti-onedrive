@@ -159,7 +159,7 @@ $SC02B::Send {"}
 
 #p::
 {
-  Send, {Click 3}
+  Send, {Click 3}{AppsKey}
   return
 }
 
