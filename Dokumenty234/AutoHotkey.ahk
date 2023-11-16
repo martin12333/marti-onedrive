@@ -6,6 +6,14 @@
 
 
 
+; https://www.autohotkey.com/docs/v1/lib/SendMode.htm
+; I am using SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+
+; https://www.autohotkey.com/docs/v1/lib/Send.htm
+; https://github.com/martin12333/PUBLIC-group-of-gists/blob/main/www.autohotkey.com/docs/v1/lib/Send.htm.md
+
+; As with other commands, the comma in front of the first parameter is optional.
+
 
 
 
@@ -143,9 +151,10 @@ $SC02B::Send {"}
 
 ;^p::
 ;{
+;	Send, a
 ;	Send, {a}
-	;;;;;;;;;;;;;;;;;;;;{aaaa}
-;	Send, {b}
+;;;;;;;;;;;;;;;;;;;;{aaaa}
+;	Send, b
 ;	return
 ;}
 
@@ -180,12 +189,10 @@ $SC02B::Send {"}
 
 
 
-;does #IfWinActive ahk_exe msedge.exe
+;does the line "" #IfWinActive ahk_exe msedge.exe  ""
 ;apply to the following statements e.g.
 ;$SC02B::Send {"}
 ;?   \\\\\YES!  \\""  """" """"
-
-
 
 
 ; The second #IfWinActive is to indicate anything past this
