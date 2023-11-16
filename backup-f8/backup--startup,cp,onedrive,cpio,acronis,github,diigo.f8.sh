@@ -329,7 +329,7 @@ Exhausting or weary solution.
 	git show --name-only
 
 
-
+	git add -vv  '*.f8.*'
 	git commit -v -a -m  "🚚 rename,move"
 	git commit -v -a -m  rewrite
 	git commit -v -a -m  before-find-and-replace
