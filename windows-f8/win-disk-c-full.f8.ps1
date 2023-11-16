@@ -9,15 +9,90 @@ exit
 echo '-------- section --------'
 
 
-file:///C:\Users\marti\OneDrive\F8-documents\Windows-Update--disk-c-full.f8.ps1
-
-
 WIN-Q ise rclick admin open
 COPY PASTE INTO admin ise / admin-ise--adminsaves.f8.ps1
 #file:///
 c:\Users\marti\admin-ise--adminsaves.f8.ps1
 #file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 #win-x admin
+
+
+
+echo '-------- section --------'
+
+
+
+
+
+
+file:///C:\Users\marti\OneDrive\windows-f8\Windows-Update--20-BEFORE--disk-c-full.f8.ps1
+
+
+acronis, defender
+
+
+But here we are discussing cleanup. If you have SentinelOne (S1) installed on this machine, you need to know that S1 considers deletion of volume shadows to be very bad actor behavior. This is because it often is a way that cryptolockers and others delete last-known-good checkpoints. S1 will not let you clear SVI, unless you disable it first, and it will complain very loudly if you try. Instructions for disabling S1, are at the end of this article. There may well be other security tools which will behave similarly, and need similar interaction beforehand.
+
+echo '-------- section --------'
+
+
+
+cmd /c dir c:\pagefile.sys /a
+23b.g
+1 File(s) 13,161,967,616 bytes
+0 Dir(s)  18,629,300,224 bytes free
+
+
+
+note: respoints gui 2 GB
+ autom way exists
+ admin
+PowerShell.exe
+
+### Get-ComputerRestorePoint | Measure-Object -Property "RestorePointSize" -Sum
+PowerShell
+win-x
+
+
+
+
+Get-CimInstance -ClassName Win32_LogicalDisk | Select-Object -Property DeviceID,FreeSpace
+
+Get-CimInstance -ClassName Win32_LogicalDisk | Select-Object -Property DeviceID,@{'Name' = 'FreeSpace (GB)'; Expression= { [int]($_.FreeSpace / 1GB) }}
+
+0 Dir(s)  18,629,300,224 bytes free
+
+Get-CimInstance -Class Win32_LogicalDisk -ComputerName (Get-Content -Path 'C:\Temp\Servers.txt') | Select-Object @{Name="Size(GB)";Expression={$_.size/1gb}}, @{Name="Free Space(GB)";Expression={$_.freespace/1gb}}, @{Name="Free (%)";Expression={"{0,6:P0}" -f(($_.freespace/1gb) / ($_.size/1gb))}}, DeviceID, DriveType, SystemName | Where-Object DriveType -EQ '3' | Out-GridView
+
+
+# file:///C:\Windows\Logs\DISM\dism.log
+
+
+vssadmin list shadows
+
+vssadmin list shadowstorage
+" reports 0MB used for shadows, max 1% storage for shadows
+
+compare ubu?
+win re boot?
+WIN-Q acronis System report
+System Restorepoint size
+
+
+
+
+win-x setti storag
+nevidi inet caches
+even clean nevidi inet caches
+
+
+
+
+
+
+
+
+
 
 
 
@@ -101,9 +176,6 @@ cd ..
 
 
 
-win-x setti storag
-nevidi inet caches
-even clean nevidi inet caches
 
 
 

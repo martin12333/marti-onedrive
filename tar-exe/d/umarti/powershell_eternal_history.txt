@@ -9532,3 +9532,14 @@ git push   -vv
 conda activate base
 Compact.exe /CompactOS:Query
 . "c:\Users\marti\OneDrive\windows-f8\Windows-Update--disk-c-full.f8.ps1"
+exit
+cd ~/OneDrive
+git add -vv  '*.f8.*'
+git commit -v -a -m  " rename,move"
+git push   -vv
+cmd /c dir c:\ /a
+cmd /c dir c:\pagefile.sys /a
+Get-ComputerRestorePoint
+Get-ComputerRestorePoint | Measure-Object -Property "RestorePointSize" -Sum
+PowerShell
+Get-WindowsReservedStorageState

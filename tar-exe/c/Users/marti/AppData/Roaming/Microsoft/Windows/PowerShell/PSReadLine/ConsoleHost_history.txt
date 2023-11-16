@@ -3506,3 +3506,47 @@ kill -name msedge
 pwsh
 kill -name  taskmgr
 edge
+Get-ComputerRestorePoint | Measure-Object -Property "RestorePointSize" -Sum
+Get-ComputerRestorePoint
+(Get-ComputerRestorePoint)
+(Get-ComputerRestorePoint)[0]
+(Get-ComputerRestorePoint)[1]
+(Get-ComputerRestorePoint).`
+
+$x=Get-ComputerRestorePoint
+$x[0]
+$x.ToString()
+& type
+$x.GetType()
+pwsh
+Get-ComputerRestorePoint
+Get-WindowsReservedStorageState
+Get-WindowsReservedStorageState -help
+Get-WindowsUpdateLog
+Get-WindowsReservedStorageState -Online
+Get-WindowsReservedStorageState -LogLevel 2
+$y=Get-WindowsReservedStorageState -LogLevel 2
+$y.LogPath
+$y.ReservedStorageState
+$y.ScratchDirectory
+$y.GetType()
+$y.ToString()
+$y.LogLevel
+$y=Get-WindowsReservedStorageState -LogLevel 1
+$y.LogLevel
+Get-WindowsReservedStorageState -LogLevel 2
+Get-CimInstance -ClassName Win32_LogicalDisk | Select-Object -Property DeviceID,FreeSpace
+Get-CimInstance -ClassName Win32_LogicalDisk | Select-Object -Property DeviceID,FreeSpace / 1000
+Get-CimInstance -ClassName Win32_LogicalDisk | Select-Object -Property DeviceID,FreeSpace) < 1000
+Get-CimInstance -ClassName Win32_LogicalDisk | Select-Object -Property DeviceID,FreeSpace) / 1000
+Get-CimInstance -ClassName Win32_LogicalDisk | Select-Object -Property DeviceID,@{'Name' = 'FreeSpace (GB)'; Expression= { [int]($_.FreeSpace / 1GB) }}
+cmd /c dir c:\pagefile.sys /a
+vssadmin list shadows
+vssadmin list shadowstorage
+vssadmin list shadows
+Get-WindowsReservedStorageState.loglevel
+(Get-WindowsReservedStorageState).loglevel
+Get-WindowsReservedStorageState -LogLevel 2
+Get-WindowsReservedStorageState -LogLevel 1
+(Get-WindowsReservedStorageState).loglevel
+Get-WindowsReservedStorageState -LogLevel 0
