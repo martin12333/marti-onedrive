@@ -1,7 +1,3 @@
-Windows-Update--disk-c-full.f8.ps1
-
-
-
 
 # f8_text_file
 # (an f8_text_file is-not meant to be run as a whole)
@@ -13,44 +9,19 @@ exit
 echo '-------- section --------'
 
 
-pseudosh
-	reboot
-	Restorepoint
-	23+ 0 3
-	23+ 0 10
-	create 'post-boot'
-	23- 0+ 10
+
+windows update pause updates site:reddit.com
 
 
-
-
-
-pseudosh
-
-	Restorepoint
-
-
-	check docker is working
-
-	wait 10 days
-
-cmd /c dir C:\Windows.old
-
-	Restorepoint
-
-
-
-
-
-file:///C:\Users\marti\OneDrive\F8_text_file\win-disk-c-full.f8.ps1
+cleanup is good , proof: otherwise all respnts are wiped by the sys sometimes
 
 
 
 
 
 
+file:///C:\Users\marti\OneDrive\windows-f8\win-disk-c-full.f8.ps1
 
-#exists Troubleshoot Windows Update
 
 
 
@@ -174,14 +145,6 @@ cmd /c dir C:\Windows.old
 
 
 
-respnt
-
-cmd /c dir C:\Windows.old
-#cmd /c dir C:\Windows.old /a /s
-C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64    C:\Windows.old
-
-respnt
-
 
 
 
@@ -223,9 +186,4 @@ Size on disk: 15,633,711,104 bytes
 
 
 16 Dir(s)  52,263,280,640 bytes free
-
-
-respnt
-10dni po
-
 

@@ -9519,3 +9519,16 @@ git commit -v -a -m add
 git push   -vv
 git commit -v -a -m backup
 git push   -vv
+git commit -v -a -m backup
+git push   -vv
+git commit -v -a -m backup
+git push   -vv
+git add -vv  '*.f8.*'
+git commit -v -a -m  " rename,move"
+git push   -vv
+git add -vv  '*.f8.*'
+git commit -v -a -m  " rename,move"
+git push   -vv
+conda activate base
+Compact.exe /CompactOS:Query
+. "c:\Users\marti\OneDrive\windows-f8\Windows-Update--disk-c-full.f8.ps1"
