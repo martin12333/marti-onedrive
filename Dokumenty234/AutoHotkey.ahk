@@ -6,6 +6,13 @@
 
 
 
+; https://www.autohotkey.com/docs/v1/Hotkeys.htm
+;https://github.com/martin12333/PUBLIC-group-of-gists/blob/main/www.autohotkey.com/docs/v1/Hotkeys.htm.md
+;  $   This is usually only necessary if the script uses the Send command to send the keys that comprise the hotkey itself, which might otherwise cause it to trigger itself. The $ prefix forces the keyboard hook to be used to implement this hotkey, which as a side-effect prevents the Send command from triggering it. The $ prefix is equivalent to having specified [#UseHook](lib/_UseHook.htm) somewhere above the definition of this hotkey.
+
+
+
+
 ; https://www.autohotkey.com/docs/v1/lib/SendMode.htm
 ; I am using SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 
@@ -149,14 +156,6 @@ $SC02B::Send {"}
 
 #IfWinActive ahk_exe msedge.exe
 
-;^p::
-;{
-;	Send, a
-;	Send, {a}
-;;;;;;;;;;;;;;;;;;;;{aaaa}
-;	Send, b
-;	return
-;}
 
 
 ;v1: return-is-needed
@@ -189,6 +188,19 @@ $SC02B::Send {"}
 
 
 
+;; OLD
+;^p::
+;{
+;	Send, a
+;	Send, {a}
+;;;;;;;;;;;;;;;;;;;;{aaaa}
+;	Send, b
+;	return
+;}
+
+
+
+
 ;does the line "" #IfWinActive ahk_exe msedge.exe  ""
 ;apply to the following statements e.g.
 ;$SC02B::Send {"}
@@ -212,7 +224,7 @@ $SC02B::Send {"}
 
 
 
-;============================== DO TEST BECAUSE IT IS AUTORUN  ==============================
+;============================== DO TEST, BECAUSE IT IS AUTORUN  ==============================
 
 ;test :   win+q AutoHotkey  reload in ahk and try the last command \ """"""  #p  ""
 
