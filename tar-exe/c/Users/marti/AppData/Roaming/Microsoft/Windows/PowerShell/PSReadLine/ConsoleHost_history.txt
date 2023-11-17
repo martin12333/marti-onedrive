@@ -3556,3 +3556,5 @@ Get-WindowsReservedStorageState -LogLevel 0
 du64
 du64.exe
 C:\pf\Git\bin\bash.exe -c 'df -m'
+cmd /c dir c:\pagefile.sys /a
+C:\pf\Git\bin\bash.exe -c 'df -m'

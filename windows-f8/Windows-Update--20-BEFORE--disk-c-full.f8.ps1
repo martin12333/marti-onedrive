@@ -8,16 +8,9 @@ exit
 
 echo '-------- section --------'
 
-
-
 windows update pause updates site:reddit.com
 
-
-cleanup is good ...   proof: otherwise all respnts are wiped by the sys sometimes
-
-
-
-
+cleanup is good ...   proof: otherwise all respnts are wiped by the sys sometimes?
 
 
 file:///C:\Users\marti\OneDrive\windows-f8\win-disk-c-full.f8.ps1

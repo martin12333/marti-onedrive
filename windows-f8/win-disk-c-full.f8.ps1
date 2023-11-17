@@ -6,22 +6,28 @@ exit
 
 (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
+echo '-------- section --------'
+
+windows update pause updates
+
+cleanup is good ...   proof: otherwise all respnts are wiped by the sys sometimes?
 
 echo '-------- section --------'
 
-
 admin
-a better method, than win-x admin terminal:
+*.f8.ps1
+admin PowerShell ISE
+is a better method, than win-x admin terminal:
+and safer (paste errors)
 
-
-WIN-Q ise rclick admin open
+WIN-Q ise rclick[|||] admin open
 Files menu / "recent"
 admin-ise--adminsaves.f8.ps1
-COPY PASTE INTO
+COPY PASTE INTO admin-ise--adminsaves.f8.ps1
 
 ###file:///c:\Users\marti\admin-ise--adminsaves.f8.ps1
 
-probably add new to the end
+probably add new lines to the *end*
 
 
 # file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
@@ -46,6 +52,7 @@ echo '-------- section --------'
 
 
 
+
 cmd /c dir c:\pagefile.sys /a
 23b.g
 1 File(s) 13,161,967,616 bytes
@@ -55,12 +62,19 @@ cmd /c dir c:\pagefile.sys /a
 
 note: respoints gui 2 GB
  autom way exists
- admin
-PowerShell.exe
+ admin ise
+ vssadmin
 
 ### Get-ComputerRestorePoint | Measure-Object -Property "RestorePointSize" -Sum
-PowerShell
-win-x
+
+
+
+todo
+explain
+```
+(Get-ChildItem c:\pokus\pok | measure Length -s).sum
+```
+
 
 
 
@@ -76,7 +90,6 @@ Get-CimInstance -Class Win32_LogicalDisk -ComputerName (Get-Content -Path 'C:\Te
 
 
 
-vssadmin list shadows
 
 vssadmin list shadowstorage
 
@@ -92,6 +105,7 @@ e5}\
    Allocated Shadow Copy Storage space: 2.53 GB (1%)
    Maximum Shadow Copy Storage space: 11.8 GB (8%)
 
+#   vssadmin list shadows
 
 
 
