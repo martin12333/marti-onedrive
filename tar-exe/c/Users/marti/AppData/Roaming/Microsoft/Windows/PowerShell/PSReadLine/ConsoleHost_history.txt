@@ -3551,3 +3551,8 @@ Get-WindowsReservedStorageState -LogLevel 1
 (Get-WindowsReservedStorageState).loglevel
 Get-WindowsReservedStorageState -LogLevel 0
 (Get-WindowsReservedStorageState).loglevel
+& "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64"
+./du64
+du64
+du64.exe
+C:\pf\Git\bin\bash.exe -c 'df -m'

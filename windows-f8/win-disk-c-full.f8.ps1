@@ -79,12 +79,59 @@ Get-CimInstance -Class Win32_LogicalDisk -ComputerName (Get-Content -Path 'C:\Te
 vssadmin list shadows
 
 vssadmin list shadowstorage
-" reports 0MB used for shadows, max 1% storage for shadows
+
+PS C:\WINDOWS\system32> vssadmin list shadowstorage
+vssadmin 1.1 - Volume Shadow Copy Service administrative command-line tool
+(C) Copyright 2001-2013 Microsoft Corp.
+
+Shadow Copy Storage association
+   For volume: (C:)\\?\Volume{986da89b-2336-4410-9417-d5dbf1f5f3e5}\
+   Shadow Copy Storage volume: (C:)\\?\Volume{986da89b-2336-4410-9417-d5dbf1f5f3
+e5}\
+   Used Shadow Copy Storage space: 2.06 GB (1%)
+   Allocated Shadow Copy Storage space: 2.53 GB (1%)
+   Maximum Shadow Copy Storage space: 11.8 GB (8%)
+
+
+
+
 
 compare ubu?
 win re boot?
-WIN-Q acronis System report
 System Restorepoint size
+
+
+WIN-Q acronis System report
+
+Partition 1-3: file system
+  FS:                NTFS
+  FSSize:            309919737 (148G)
+  BlockCount:        38739967 (148G)
+  FreeBlockCount:    5901034 (23G)
+  CheckPerformed:    1
+  UsefulInformation: 301732651302 (281G)
+  BadBlockCount:     0 (0b)
+  FilesCount:        580887
+  DirectoriesCount:  144901
+  HardLinkCount:     53831
+  JournalSize:       16384 (64M)
+
+
+  Partition 1-5: file system
+  FS:                NTFS
+  FSSize:            159858681 (76G)
+  BlockSize:         8 (4K)
+  BlockCount:        19982335 (76G)
+  FreeBlockCount:    132739 (519M)
+  CheckPerformed:    1
+  UsefulInformation: 157433108728 (147G)
+  BadBlockCount:     0 (0b)
+
+  C:\pf\Git\bin\bash.exe -c 'df -m'
+  cmd /c dir c:\pagefile.sys /a
+
+
+
 
 
 & "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64"
