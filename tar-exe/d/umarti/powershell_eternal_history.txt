@@ -9546,3 +9546,9 @@ Get-WindowsReservedStorageState
 git commit -v -a -m backup
 git push   -vv
 git commit -v -a -m backup
+git push   -vv
+$PSVersionTable
+Get-ChildItem   c:\pagefile.sys
+Get-ChildItem -force  c:\pagefile.sys
+PowerShell
+Get-ChildItem -force  c:\pagefile.sys

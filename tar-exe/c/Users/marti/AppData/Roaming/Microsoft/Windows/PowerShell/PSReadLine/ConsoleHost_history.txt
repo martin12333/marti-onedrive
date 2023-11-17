@@ -3558,3 +3558,15 @@ du64.exe
 C:\pf\Git\bin\bash.exe -c 'df -m'
 cmd /c dir c:\pagefile.sys /a
 C:\pf\Git\bin\bash.exe -c 'df -m'
+dir /a /s C:\ProgramData\Acronis\ActiveProtection\Logs\
+cmd /c dir /a /s C:\ProgramData\Acronis\ActiveProtection\Logs\
+C:\pf\totalcmd\TOTALCMD64.EXE C:\ProgramData\Acronis\ActiveProtection\Logs\
+cmd /c dir /a /s C:\ProgramData\Acronis\TrueImageHome\Logs\ti_monitor
+cmd /c dir /a /s C:\ProgramData\Acronis\TrueImageHome\Logs\
+C:\pf\totalcmd\TOTALCMD64.EXE C:\ProgramData\Acronis\TrueImageHome\Logs\
+cmd /c dir c:\pagefile.sys /a
+Get-ChildItem c:\pagefile.sys
+$PSVersionTable
+exit
+Get-ChildItem -force  c:\pagefile.sys
+exit

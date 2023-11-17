@@ -8,6 +8,13 @@ exit
 
 echo '-------- section --------'
 
+$PSVersionTable
+
+C:\pf\totalcmd\TOTALCMD64.EXE
+
+
+echo '-------- section --------'
+
 windows update pause updates
 
 cleanup is good ...   proof: otherwise all respnts are wiped by the sys sometimes?
@@ -18,7 +25,7 @@ admin
 *.f8.ps1
 admin PowerShell ISE
 is a better method, than win-x admin terminal:
-and safer (paste errors)
+and safer (if paste-errors)
 
 WIN-Q ise rclick[|||] admin open
 Files menu / "recent"
@@ -31,9 +38,14 @@ probably add new lines to the *end*
 
 
 # file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
-
+PowerShell.exe
+exit
 
 echo '-------- section --------'
+
+
+
+
 
 
 
@@ -43,14 +55,21 @@ echo '-------- section --------'
 file:///C:\Users\marti\OneDrive\windows-f8\Windows-Update--20-BEFORE--disk-c-full.f8.ps1
 
 
-acronis, defender
 
-
+acronis?, defender?
 But here we are discussing cleanup. If you have SentinelOne (S1) installed on this machine, you need to know that S1 considers deletion of volume shadows to be very bad actor behavior. This is because it often is a way that cryptolockers and others delete last-known-good checkpoints. S1 will not let you clear SVI, unless you disable it first, and it will complain very loudly if you try. Instructions for disabling S1, are at the end of this article. There may well be other security tools which will behave similarly, and need similar interaction beforehand.
 
 echo '-------- section --------'
 
 
+
+
+##PowerShell
+##exit
+(Get-ChildItem -force  c:\pagefile.sys) | select *
+(Get-ChildItem -force  c:\pagefile.sys).Length
+(Get-ChildItem -force  c:\*.sys).Length
+(Get-ChildItem -force  c:\*.sys) | foreach {	$_.Length }
 
 
 cmd /c dir c:\pagefile.sys /a
@@ -75,6 +94,14 @@ explain
 (Get-ChildItem c:\pokus\pok | measure Length -s).sum
 ```
 
+
+
+
+cmd /c dir /a /s C:\ProgramData\Acronis\ActiveProtection\Logs\
+C:\pf\totalcmd\TOTALCMD64.EXE C:\ProgramData\Acronis\ActiveProtection\Logs\
+
+cmd /c dir /a /s C:\ProgramData\Acronis\TrueImageHome\Logs\
+C:\pf\totalcmd\TOTALCMD64.EXE C:\ProgramData\Acronis\TrueImageHome\Logs\
 
 
 
