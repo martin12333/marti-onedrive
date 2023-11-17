@@ -9552,3 +9552,35 @@ Get-ChildItem   c:\pagefile.sys
 Get-ChildItem -force  c:\pagefile.sys
 PowerShell
 Get-ChildItem -force  c:\pagefile.sys
+(Get-ChildItem -force  c:\pagefile.sys) | select *
+(Get-ChildItem -force  c:\pagefile.sys).Length
+(Get-ChildItem -force  c:\*.sys).Length
+$_.Length
+(Get-ChildItem -force  c:\*.sys) | foreach {$_.Length }
+git commit -v -a -m backup
+git push   -vv
+get-date
+Measure-command {cmd /c dir}
+Measure-command -seconds {cmd /c dir}
+C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64
+du64
+Get-Process -Name *novo*
+Get-Process -Name *mode*
+Get-Process -Name *edge*
+dir D:\umarti\*du*
+C:\pf\totalcmd\TOTALCMD64.EXE D:\umarti
+get-date; Measure-command  {`
+$lev=2 ; .\du64.exe -l $lev   c:\Temp >D:\umarti\adm-unsort-du64-l-${lev}--c--.txt`
+} ; get-date
+cd "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\"
+& "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64"
+& "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64"   c:\pf\git
+& "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64"  -l 2 c:\pf\git
+& "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64"
+& "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64"  -nobanner
+& "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64"  -nobanner    -l 2 c:\pf\git
+& "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64"  -nobanner
+& "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64"   -c
+-l 2 c:& "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64"   -c  -l 2 c:\pf\git
+& "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   -c  -l 2 c:\pf\git   "
+& C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   -c  -l 2 c:\pf\git

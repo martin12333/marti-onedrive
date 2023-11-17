@@ -6,16 +6,23 @@ exit
 
 (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
+
+echo '-------- section --------'
+
+
+windows update pause updates
+
+
 echo '-------- section --------'
 
 $PSVersionTable
 
-C:\pf\totalcmd\TOTALCMD64.EXE
-
+dir D:\umarti\*du*
+C:\pf\totalcmd\TOTALCMD64.EXE D:\umarti
+#D:\umarti\232du64\after\adm-unsort-du64-l-2--c--.txt
 
 echo '-------- section --------'
 
-windows update pause updates
 
 cleanup is good ...   proof: otherwise all respnts are wiped by the sys sometimes?
 
@@ -36,10 +43,43 @@ COPY PASTE INTO admin-ise--adminsaves.f8.ps1
 
 probably add new lines to the *end*
 
+F8
+^i
+^s
+
+PROBABLY FALSE ALARM in RED
+when a NativeCommand tries to display progress-bar
+RED
+.\du64.exe : Processing...
+At line:1 char:1
++ .\du64.exe  C:\pf\Git
++ ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Processing...:String) [], RemoteE
+   xception
+    + FullyQualifiedErrorId : NativeCommandError
+
+no error for du64 -c
+
+
 
 # file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 PowerShell.exe
 exit
+
+
+COPY PASTE INTO admin-ise--adminsaves.f8.ps1
+----
+cd "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\"
+
+get-date; Measure-command  {
+	$lev=2 ; .\du64.exe -l $lev   c:\Temp >D:\umarti\adm-unsort-du64-l-${lev}--c--.txt
+} ; get-date
+#-se
+.\du64.exe  C:\pf\Git
+& C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   -c  -l 2 c:\pf\git
+
+-nobanner
+
 
 echo '-------- section --------'
 
@@ -61,6 +101,11 @@ But here we are discussing cleanup. If you have SentinelOne (S1) installed on th
 
 echo '-------- section --------'
 
+
+get-date
+
+Measure-command  {cmd /c dir}
+#-seconds
 
 
 
@@ -211,7 +256,8 @@ even clean nevidi inet caches
 
 
 
-C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   C:\Users\milan_rxtipwr
+C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64
+ C:\Users\milan_rxtipwr
 
 
 
@@ -576,6 +622,10 @@ unsort-du64-l-2--c--.txt   >D:\umarti\du64-l-2--c--.txt
 
 cat  D:\umarti\unsort-du64-l-2--c--.txt
 cat  D:\umarti\adm-unsort-du64-l-2--c--.txt
+
+
+
+
 
 
 

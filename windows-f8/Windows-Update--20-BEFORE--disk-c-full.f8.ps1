@@ -162,21 +162,3 @@ PS C:\Users\marti\OneDrive>
 dir C:\Users\marti\.vscode
 
 
-
-
-
-PS C:\Users\marti\OneDrive> C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64    C:\Windows.old
-
-DU v1.62 - Directory disk usage reporter
-Copyright (C) 2005-2018 Mark Russinovich
-Sysinternals - www.sysinternals.com
-
-Files:        151809
-Directories:  84387
-Size:         16,422,158,062 bytes
-Size on disk: 15,633,711,104 bytes
-
-
-
-16 Dir(s)  52,263,280,640 bytes free
-
