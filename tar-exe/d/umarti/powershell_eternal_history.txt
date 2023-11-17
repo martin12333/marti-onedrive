@@ -9584,3 +9584,10 @@ cd "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\"
 -l 2 c:& "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64"   -c  -l 2 c:\pf\git
 & "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   -c  -l 2 c:\pf\git   "
 & C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   -c  -l 2 c:\pf\git
+git commit -v -a -m backup
+git push   -vv
+& C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64
+& C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64 -n  -l 2 c:\pf\git
+& C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64 -n  c:\pf\git
+& C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64  -q   c:\pf\git
+dir D:\umarti\*du*

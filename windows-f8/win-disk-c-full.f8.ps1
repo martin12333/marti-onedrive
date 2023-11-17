@@ -7,10 +7,12 @@ exit
 (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
 
+
 echo '-------- section --------'
 
 
 windows update pause updates
+
 
 
 echo '-------- section --------'
@@ -21,15 +23,18 @@ dir D:\umarti\*du*
 C:\pf\totalcmd\TOTALCMD64.EXE D:\umarti
 #D:\umarti\232du64\after\adm-unsort-du64-l-2--c--.txt
 
-echo '-------- section --------'
 
+echo '-------- section --------'
 
 cleanup is good ...   proof: otherwise all respnts are wiped by the sys sometimes?
 
+
 echo '-------- section --------'
 
+todo vscode search
 admin
 *.f8.ps1
+
 admin PowerShell ISE
 is a better method, than win-x admin terminal:
 and safer (if paste-errors)
@@ -38,15 +43,17 @@ WIN-Q ise rclick[|||] admin open
 Files menu / "recent"
 admin-ise--adminsaves.f8.ps1
 COPY PASTE INTO admin-ise--adminsaves.f8.ps1
+then
+F8
+^i
+^s
 
 ###file:///c:\Users\marti\admin-ise--adminsaves.f8.ps1
 
 probably add new lines to the *end*
 
-F8
-^i
-^s
 
+ PowerShell ISE
 PROBABLY FALSE ALARM in RED
 when a NativeCommand tries to display progress-bar
 RED
@@ -64,27 +71,38 @@ no error for du64 -c
 
 # file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 PowerShell.exe
+$PSVersionTable
 exit
+$PSVersionTable
 
 
 COPY PASTE INTO admin-ise--adminsaves.f8.ps1
 ----
-cd "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\"
+admin works
+user fails
+##cd "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\"
 
 get-date; Measure-command  {
-	$lev=2 ; .\du64.exe -l $lev   c:\Temp >D:\umarti\adm-unsort-du64-l-${lev}--c--.txt
+	$lev=2 ; .\du64.exe -l $lev   c:\Tmp >D:\umarti\adm-unsort-du64-l-${lev}--c--.txt
 } ; get-date
-#-se
-.\du64.exe  C:\pf\Git
-& C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   -c  -l 2 c:\pf\git
 
--nobanner
+##.\du64.exe  C:\pf\Git
+& C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   c:\pf\git
+##-q
+-n
+-c
+##-nobanner
 
+$lev=2 ;get-date; Measure-command  {  .\du64.exe -l $lev   c:\  >D:\umarti\adm-unsort-du64-l-${lev}--c--.txt  } ; get-date
+
+TotalMinutes      : 5.97514633
+
+
+$lev=2 ;get-date; Measure-command  {  .\du64.exe -l $lev   c:\users  >D:\umarti\adm-unsort-du64-l-${lev}--c--use.txt  } ; get-date
+
+$lev=2 ;get-date; Measure-command  {  .\du64.exe -l $lev   c:\pf\git  >D:\umarti\adm-unsort-du64-l-${lev}--c--.txt  } ; get-date
 
 echo '-------- section --------'
-
-
-
 
 
 
@@ -110,7 +128,9 @@ Measure-command  {cmd /c dir}
 
 
 ##PowerShell
+$PSVersionTable
 ##exit
+# fails in v5, works in v7:  -force  c:\pagefile.sys
 (Get-ChildItem -force  c:\pagefile.sys) | select *
 (Get-ChildItem -force  c:\pagefile.sys).Length
 (Get-ChildItem -force  c:\*.sys).Length
