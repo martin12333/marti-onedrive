@@ -3550,3 +3550,4 @@ Get-WindowsReservedStorageState -LogLevel 2
 Get-WindowsReservedStorageState -LogLevel 1
 (Get-WindowsReservedStorageState).loglevel
 Get-WindowsReservedStorageState -LogLevel 0
+(Get-WindowsReservedStorageState).loglevel

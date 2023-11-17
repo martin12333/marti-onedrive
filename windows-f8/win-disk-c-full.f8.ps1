@@ -6,16 +6,25 @@ exit
 
 (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
+
 echo '-------- section --------'
 
 
-WIN-Q ise rclick admin open
-COPY PASTE INTO admin ise / admin-ise--adminsaves.f8.ps1
-#file:///
-c:\Users\marti\admin-ise--adminsaves.f8.ps1
-#file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
-#win-x admin
+admin
+a better method, than win-x admin terminal:
 
+
+WIN-Q ise rclick admin open
+Files menu / "recent"
+admin-ise--adminsaves.f8.ps1
+COPY PASTE INTO
+
+###file:///c:\Users\marti\admin-ise--adminsaves.f8.ps1
+
+probably add new to the end
+
+
+# file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 
 
 echo '-------- section --------'
@@ -65,7 +74,6 @@ Get-CimInstance -ClassName Win32_LogicalDisk | Select-Object -Property DeviceID,
 Get-CimInstance -Class Win32_LogicalDisk -ComputerName (Get-Content -Path 'C:\Temp\Servers.txt') | Select-Object @{Name="Size(GB)";Expression={$_.size/1gb}}, @{Name="Free Space(GB)";Expression={$_.freespace/1gb}}, @{Name="Free (%)";Expression={"{0,6:P0}" -f(($_.freespace/1gb) / ($_.size/1gb))}}, DeviceID, DriveType, SystemName | Where-Object DriveType -EQ '3' | Out-GridView
 
 
-# file:///C:\Windows\Logs\DISM\dism.log
 
 
 vssadmin list shadows
@@ -77,6 +85,25 @@ compare ubu?
 win re boot?
 WIN-Q acronis System report
 System Restorepoint size
+
+
+& "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64"
+##./du64
+###du64.exe
+
+echo '-------- section --------'
+OLD
+DONT WORRY, PROBABLY NO PERSISTENT EFFECT FROM ADMIN
+Get-WindowsReservedStorageState.loglevel
+(Get-WindowsReservedStorageState).loglevel
+Get-WindowsReservedStorageState -LogLevel 2
+Get-WindowsReservedStorageState -LogLevel 1
+(Get-WindowsReservedStorageState).loglevel
+Get-WindowsReservedStorageState -LogLevel 0
+(Get-WindowsReservedStorageState).loglevel
+# file:///C:\Windows\Logs\DISM\dism.log
+ALWAYS CONTAINED INFO
+echo '-------- section --------'
 
 
 
