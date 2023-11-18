@@ -9593,3 +9593,5 @@ git push   -vv
 dir D:\umarti\*du*
 git commit -v -a -m backup
 git push   -vv
+git commit -v -a -m backup
+git push   -vv
