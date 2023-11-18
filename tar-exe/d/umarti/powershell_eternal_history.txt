@@ -9591,3 +9591,5 @@ git push   -vv
 & C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64 -n  c:\pf\git
 & C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64  -q   c:\pf\git
 dir D:\umarti\*du*
+git commit -v -a -m backup
+git push   -vv

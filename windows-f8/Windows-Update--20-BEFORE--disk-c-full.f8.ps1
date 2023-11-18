@@ -8,9 +8,20 @@ exit
 
 echo '-------- section --------'
 
-windows update pause updates site:reddit.com
+
+ windows update pause updates
+
+
+
+https://support.microsoft.com/en-us/topic/kb5027397-feature-update-to-windows-11-version-23h2-by-using-an-enablement-package-b9e76726-3c94-40de-b40b-99decba3db9d
+
+ Windows 11, versions 22H2 and 23H2 share a common core operating system with an identical set of system files. Therefore, the new features in Windows 11, version 23H2 are included in the latest monthly quality update for Windows 11, version 22H2 but are in an inactive and dormant state. These new features will remain dormant until they are turned on through the “enablement package,” a small, quick-to-install “master switch” that activates the Windows 11, version 23H2 features.
+
+ The enablement package is a great option for installing a scoped feature update like Windows 11, version 23H2 as it enables an update from version 22H2 to version 23H2 with a single restart, reducing update downtime.
+
 
 cleanup is good ...   proof: otherwise all respnts are wiped by the sys sometimes?
+
 
 
 file:///C:\Users\marti\OneDrive\windows-f8\win-disk-c-full.f8.ps1

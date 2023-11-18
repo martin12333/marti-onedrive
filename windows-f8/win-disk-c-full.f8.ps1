@@ -10,13 +10,6 @@ exit
 
 echo '-------- section --------'
 
-
-windows update pause updates
-
-
-
-echo '-------- section --------'
-
 $PSVersionTable
 
 dir D:\umarti\*du*
@@ -39,34 +32,34 @@ admin PowerShell ISE
 is a better method, than win-x admin terminal:
 and safer (if paste-errors)
 
-WIN-Q ise rclick[|||] admin open
-Files menu / "recent"
-admin-ise--adminsaves.f8.ps1
-COPY PASTE INTO admin-ise--adminsaves.f8.ps1
-then
-F8
-^i
-^s
+	WIN-Q ise rclick[|||] admin open
+	Files menu / "recent"
+	admin-ise--adminsaves.f8.ps1
+	COPY PASTE INTO admin-ise--adminsaves.f8.ps1
+	then
+	F8
+	^i
+	^s
 
 ###file:///c:\Users\marti\admin-ise--adminsaves.f8.ps1
 
 probably add new lines to the *end*
 
 
- PowerShell ISE
+PowerShell ISE
 PROBABLY FALSE ALARM in RED
-when a NativeCommand tries to display progress-bar
-RED
-.\du64.exe : Processing...
-At line:1 char:1
-+ .\du64.exe  C:\pf\Git
-+ ~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (Processing...:String) [], RemoteE
-   xception
-    + FullyQualifiedErrorId : NativeCommandError
+	when a NativeCommand tries to display progress-bar
+	RED
+	.\du64.exe : Processing...
+	At line:1 char:1
+	+ .\du64.exe  C:\pf\Git
+	+ ~~~~~~~~~~~~~~~~~~~~~
+		+ CategoryInfo          : NotSpecified: (Processing...:String) [], RemoteE
+	xception
+		+ FullyQualifiedErrorId : NativeCommandError
 
-no error for du64 -c
-
+	no error for du64 -c
+.
 
 
 # file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
@@ -78,29 +71,29 @@ $PSVersionTable
 
 COPY PASTE INTO admin-ise--adminsaves.f8.ps1
 ----
-admin works
-user fails
-##cd "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\"
+	admin works
+	user fails
+	##cd "C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\"
 
-get-date; Measure-command  {
+	get-date; Measure-command  {
 	$lev=2 ; .\du64.exe -l $lev   c:\Tmp >D:\umarti\adm-unsort-du64-l-${lev}--c--.txt
-} ; get-date
+	} ; get-date
 
 ##.\du64.exe  C:\pf\Git
-& C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   c:\pf\git
-##-q
--n
--c
-##-nobanner
+	& C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   c:\pf\git
+	##-q
+	-n
+	-c
+	##-nobanner
 
 $lev=2 ;get-date; Measure-command  {  .\du64.exe -l $lev   c:\  >D:\umarti\adm-unsort-du64-l-${lev}--c--.txt  } ; get-date
 
-TotalMinutes      : 5.97514633
+	TotalMinutes      : 5.97514633
 
 
 $lev=2 ;get-date; Measure-command  {  .\du64.exe -l $lev   c:\users  >D:\umarti\adm-unsort-du64-l-${lev}--c--use.txt  } ; get-date
 
-$lev=2 ;get-date; Measure-command  {  .\du64.exe -l $lev   c:\pf\git  >D:\umarti\adm-unsort-du64-l-${lev}--c--.txt  } ; get-date
+	$lev=2 ;get-date; Measure-command  {  .\du64.exe -l $lev   c:\pf\git  >D:\umarti\adm-unsort-du64-l-${lev}--c--.txt  } ; get-date
 
 echo '-------- section --------'
 
