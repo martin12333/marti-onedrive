@@ -31,7 +31,9 @@
 
 #Warn  ; Enable warnings to assist with detecting common errors.
 
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+
+;EDIT SendMode changed to default BECAUSE OF https://www.autohotkey.com/board/topic/55491-windows-key-still-pressed-after-script-execution/
+;;SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; Makes a script unconditionally use its own folder as its working directory.
@@ -164,8 +166,21 @@ $SC02B::Send {"}
 ;^t::  ;^t new tab
 ;F9:: ; hand ache
 ;^p::
+;#p::
+;overload  Send {>}  >>>>>>
+;$NumpadMult::
 
 #p::
+{
+	Send, {Click 3}
+
+	Sleep, 200
+
+	return
+}
+
+
+$Insert::
 {
 	Send, {Click 3}
 
