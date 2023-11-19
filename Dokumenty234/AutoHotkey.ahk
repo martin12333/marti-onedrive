@@ -14,7 +14,9 @@
 
 
 ; https://www.autohotkey.com/docs/v1/lib/SendMode.htm
+; EDIT: NOT NOW
 ; I am using SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+; EDIT: NOT NOW
 
 ; https://www.autohotkey.com/docs/v1/lib/Send.htm
 ; https://github.com/martin12333/PUBLIC-group-of-gists/blob/main/www.autohotkey.com/docs/v1/lib/Send.htm.md

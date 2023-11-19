@@ -9597,3 +9597,7 @@ git commit -v -a -m backup
 git push   -vv
 git commit -v -a -m backup
 git push   -vv
+git commit -v -a -m " fix"
+git push   -vv
+git show --name-only
+git push   -vv
