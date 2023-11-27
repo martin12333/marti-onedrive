@@ -330,7 +330,7 @@ Exhausting or weary solution.
 
 	git show --name-only
 
-
+cd ..
 	git add -vv  '*.f8.*'
 	git commit -v -a -m  "🚚 rename,move"
 	git commit -v -a -m  rewrite

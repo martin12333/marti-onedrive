@@ -9601,3 +9601,7 @@ git commit -v -a -m " fix"
 git push   -vv
 git show --name-only
 git push   -vv
+git commit -v -a -m " fix"
+git push   -vv
+cd ..
+git add -vv  '*.f8.*'
