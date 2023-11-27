@@ -15,6 +15,20 @@ O1:O1029
 = $O1 < -1.1
 
 
+https://support.google.com/docs/answer/78413?hl=en
+Note: Formulas can only reference the same sheet, using standard notation "(='sheetname'!cell)." To reference another sheet in the formula, use the INDIRECT function.
+Often, you will need to add dollar signs ($) in front of letters and numbers in formulas so that the formatting is applied using absolute references as opposed to relative references (A1 to B1, A2 to B2).
+
+
+
+
+LAMBDA(name, formula_expression)
+
+=MAP(A1:B2, LAMBDA(cell, cell*2))
+
+LET(name1, value_expression1, [name2, …], [value_expression2, …], formula_expression )
+
+
 
 
 
