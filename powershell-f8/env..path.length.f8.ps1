@@ -1,5 +1,5 @@
 
-# issue: windows: surprisingly low limits on the length of the env variable PATH 
+# issue: windows: surprisingly low limits on the length of the env variable PATH
 
 
 # f8_text_file
@@ -13,6 +13,17 @@ exit
  (eepitch-shell)
 
 ### (eepitch-eshell)
+
+
+
+echo '-------- section --------'
+
+powershell
+
+$env:Path.Length
+829
+$env:Path
+
 
 echo '-------- section --------'
 
@@ -66,7 +77,7 @@ maybe sometimes paste a copy of your PATH  into this file
 echo '-------- section --------'
 
 by the way,
-a mitigation 
+a mitigation
 to reduce
 the path length:
 C:\Users\marti\OneDrive\powershell-f8\alias,function.f8.ps1

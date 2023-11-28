@@ -9609,3 +9609,27 @@ git commit -v -a -m add
 git push
 git commit -v -a -m " fix"
 git push   -vv
+git commit -v -a -m " fix"
+git push   -vv
+conda activate base
+conda activate base$env:Path.Length
+$env:Path.Length
+$PSVersionTable
+$username = 'userklic'
+net user $username
+$username = 'micha'
+net user $username
+$username = 'martin'
+net user $username
+$username = 'marti'
+net user $username
+Get-LocalUser
+net user
+net user /help
+net user $username
+$x=Get-LocalUser -Name $username
+$x.PrincipalSource
+$x|select *
+$username = 'userklic'
+$x=Get-LocalUser -Name $username
+$x | select *

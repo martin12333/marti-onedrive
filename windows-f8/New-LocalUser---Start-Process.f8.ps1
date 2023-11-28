@@ -1,10 +1,13 @@
-
 # f8_text_file
+
 # (an f8_text_file is-not meant to be run as a whole)
 )
 exit
 
 (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
+
+# *User*.ps1
+# vsc U not u ... not  *user*.ps1
 
 echo '-------- section --------'
 
@@ -16,7 +19,7 @@ file:///D:\umarti\powershell_eternal_history.txt
 
 
 
-$username = 'micha'
+#$username = 'micha'
 
 $username = 'userklic'
 $pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
@@ -29,10 +32,7 @@ $credential = [PSCredential]::New($username,$password)
 
 
 
-
-
-
-
+echo '-------- section --------'
 
 
 WIN-Q ise admin open
@@ -43,7 +43,7 @@ COPY PASTE INTO admin ise / admin-ise--adminsaves.f8.ps1
 
 
 resto.point
-pre New-LocalUser
+"pre New-LocalUser"
 inst
 reboot
 resto.point
@@ -108,16 +108,30 @@ $password = ConvertTo-SecureString "LazyAdminPwd123!" -AsPlainText -Force  # Sup
 
 
 
+$username = 'marti'
 $username = 'micha'
 $username = 'userklic'
 
+net user /help
+net user
 net user $username
 
 Get-LocalUser
 $x=Get-LocalUser -Name $username
 $x.
+$x | select *
 
 -WhatIf
+
+
+
+
+
+PrincipalSource        : MicrosoftAccount
+
+PrincipalSource        : Local
+
+
 
 
 #file:///c:\Users\marti\admin-ise--adminsaves.f8.ps1
