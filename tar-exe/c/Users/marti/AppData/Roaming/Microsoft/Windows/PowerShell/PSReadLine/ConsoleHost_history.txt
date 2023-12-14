@@ -3570,3 +3570,4 @@ $PSVersionTable
 exit
 Get-ChildItem -force  c:\pagefile.sys
 exit
+kill -name msedge

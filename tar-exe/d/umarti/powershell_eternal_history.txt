@@ -9633,3 +9633,5 @@ $x|select *
 $username = 'userklic'
 $x=Get-LocalUser -Name $username
 $x | select *
+git commit -v -a -m ...
+git push   -vv
