@@ -6,6 +6,20 @@ excel
 
 
 
+
+
+=24*A3+B3-24*A2-B2-24
+
+=MOD(C3-B3,24)
+
+=mod(B3-C2,24)
+
+=C3-C2
+=if(H3>param!$C$3,H3, H3+24)
+
+
+	
+
 gsh
 custom formula
 O1:O1029

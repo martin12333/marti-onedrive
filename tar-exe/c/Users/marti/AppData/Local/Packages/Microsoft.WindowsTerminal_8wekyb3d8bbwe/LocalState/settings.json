@@ -4,6 +4,10 @@
     "actions": 
     [
         {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
             "command": 
             {
                 "action": "splitPane",
@@ -31,15 +35,17 @@
                 "singleLine": false
             },
             "keys": "ctrl+c"
-        },
-        {
-            "command": "find",
-            "keys": "ctrl+shift+f"
         }
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
     "profiles": 
     {
         "defaults": {},
@@ -97,9 +103,9 @@
                 "source": "Windows.Terminal.Wsl"
             },
             {
-                "guid": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
+                "guid": "{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}",
                 "hidden": false,
-                "name": "Ubuntu 22.04.2 LTS",
+                "name": "Ubuntu 22.04.3 LTS",
                 "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc"
             }
         ]

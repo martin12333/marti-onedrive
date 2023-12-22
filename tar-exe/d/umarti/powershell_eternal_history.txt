@@ -9635,3 +9635,7 @@ $x=Get-LocalUser -Name $username
 $x | select *
 git commit -v -a -m ...
 git push   -vv
+cd ~/OneDrive
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
