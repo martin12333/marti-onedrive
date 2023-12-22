@@ -6,6 +6,30 @@ excel
 
 
 
+=ArrayFormula({'Form Responses 1'!A2:A})
+=ArrayFormula({Sheet5!A1:B})
+
+
+=ArrayFormula({B3:B778} -  {B2:B777})
+=ArrayFormula({B3:B777;""} -  {B2:B777})
+=ArrayFormula({B3:B999;""} -  {B2:B999})
+
+EATS MEMORY!!!
+50500 ROWS
+{*:b;""}
+=ArrayFormula({B3:B;""} -  {B2:B})
+{B3:B;""}
+=ArrayFormula({B2:B;""} -  {B1:B})
+#ref
+
+=ArrayFormula(query(
+	{{A2:A},{A3:A;""},
+		{A3:A;""}-{A2:A}
+	}
+	,"select Col1,Col2 where Col3>1 label Col1 'Start Date',Col2 'End Date'"))
+
+
+
 
 
 =24*A3+B3-24*A2-B2-24
@@ -18,7 +42,7 @@ excel
 =if(H3>param!$C$3,H3, H3+24)
 
 
-	
+
 
 gsh
 custom formula
