@@ -14,19 +14,46 @@ excel
 =ArrayFormula({B3:B777;""} -  {B2:B777})
 =ArrayFormula({B3:B999;""} -  {B2:B999})
 
-EATS MEMORY!!!
+
+THIS MAKES 1000- OF 0
+0
+0
+0
+0
+#N/A   once
+=ArrayFormula( {Sheet5!B3:B} -  {Sheet5!B2:B} )
+
+
+
+BUT, THE FOLLOWING EATS MEMORY!!!
+PROBABLY A SHEET IS EXPANDING ITSELF!
+~~bug!
+Error "Result was not expanded automatically, please ..."
 50500 ROWS
 {*:b;""}
 =ArrayFormula({B3:B;""} -  {B2:B})
 {B3:B;""}
+
+=ArrayFormula({B3:B7776;""} -  {B2:B7776})
+GETS AUTOMODIFIED TO
+=ArrayFormula({B3:B57276;""} -  {B2:B57276})
+
 =ArrayFormula({B2:B;""} -  {B1:B})
-#ref
+#ref   .... asi narazil na 1000 v sheet12
+
 
 =ArrayFormula(query(
 	{{A2:A},{A3:A;""},
 		{A3:A;""}-{A2:A}
 	}
 	,"select Col1,Col2 where Col3>1 label Col1 'Start Date',Col2 'End Date'"))
+
+
+
+
+
+	=INDEX(FILTER($A:$A,$B,$B=$D$1),COUNTA(FILTER($A:$A,$B:$B-$D$1)),1)
+
 
 
 
