@@ -6,6 +6,36 @@ excel
 
 
 
+
+
+
+
+
+
+=ARRAY_CONSTRAIN(A:A, COUNTA( A:A ) , 1)
+
+=rows( ARRAY_CONSTRAIN(A:A, COUNTA( A:A ) , 1) )
+
+
+
+=ArrayFormula( Sheet5!B14:B22 -  Sheet5!B13:B22 )
+
+=index({Sheet5!A14:B24},,1 )
+
+
+
+
+= ROWS( ARRAYFORMULA( 1 + ARRAY_CONSTRAIN(A9:A, COUNTA( A9:A ) , 1) ) )
+= ARRAYFORMULA( 1 + ARRAY_CONSTRAIN(A11:A, COUNTA( A11:A ) , 1) )
+
+
+
+
+=ARRAY_CONSTRAIN(A:A, COUNTA( A:A ) , 1)
+=rows( ARRAY_CONSTRAIN(A:A, COUNTA( A:A ) , 1) )
+=rows(A:A)
+
+
 =ArrayFormula({'Form Responses 1'!A2:A})
 =ArrayFormula({Sheet5!A1:B})
 
@@ -30,6 +60,9 @@ PROBABLY A SHEET IS EXPANDING ITSELF!
 ~~bug!
 Error "Result was not expanded automatically, please ..."
 50500 ROWS
+
+https://www.diigo.com/user/martin12333   50500
+
 {*:b;""}
 =ArrayFormula({B3:B;""} -  {B2:B})
 {B3:B;""}
