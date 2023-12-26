@@ -6,18 +6,21 @@ excel
 
 
 discord server
+2
 
 
 reddit
 which
 which subreddit for google-sheets
-
+2
 
 https://www.reddit.com/r/googlesheets/wiki/postguide/
 https://www.reddit.com/r/googlesheets/about/rules
 
 
-lambda array  functional
+lambda
+ array
+  functional
 matlab
 numpy
 pandas
@@ -25,12 +28,12 @@ pandas
 
 
 
+https://support.google.com/docs/thread/53725030/how-to-limit-number-or-rows-and-columns-in-sheets-i-ve-seen-the-answers-i-can-t-delete-a-zillion?hl=en
 
 
 
 
-
-=  CHOOSEROWS( QUERY('Form Responses 1'!A:D,"SELECT A,D WHERE D is not null ") , 1 ,-4, -3, -2 ,-1 )  
+=  CHOOSEROWS( QUERY('Form Responses 1'!A:D,"SELECT A,D WHERE D is not null ") , 1 ,-4, -3, -2 ,-1 )
 
 =ARRAY_CONSTRAIN(A:A, COUNTA( A:A ) , 1)
 
