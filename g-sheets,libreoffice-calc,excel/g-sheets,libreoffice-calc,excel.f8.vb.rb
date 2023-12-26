@@ -5,12 +5,32 @@ libreoffice calc
 excel
 
 
+discord server
+
+
+reddit
+which
+which subreddit for google-sheets
+
+
+https://www.reddit.com/r/googlesheets/wiki/postguide/
+https://www.reddit.com/r/googlesheets/about/rules
+
+
+lambda array  functional
+matlab
+numpy
+pandas
 
 
 
 
 
 
+
+
+
+=  CHOOSEROWS( QUERY('Form Responses 1'!A:D,"SELECT A,D WHERE D is not null ") , 1 ,-4, -3, -2 ,-1 )  
 
 =ARRAY_CONSTRAIN(A:A, COUNTA( A:A ) , 1)
 
