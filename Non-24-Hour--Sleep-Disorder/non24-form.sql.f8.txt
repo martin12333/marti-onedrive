@@ -1,0 +1,54 @@
+
+^a
+
+non24-form
+uprav budíky
+mám neurózu. bug reports. Nohavica: stěžuju si
+
+Question
+
+Question Type
+Rows
+1.
+sleep
+2.
+medic.
+3.
+food
+4.
+granny
+5.
+fear
+6.
+iMPRT
+7.
+LEARN
+8.
+JB
+9.
+LB
+10.
+Laifr
+11.
+postma.
+12.
+work2
+13.
+hobbyW
+14.
+social
+15.
+TODO
+16.
+toedit
+17.
+Columns
+1
+2
+3
+9
+0.5
+info
+Gboard mikrofon třetí pokus
+
+.
