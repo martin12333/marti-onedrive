@@ -9653,3 +9653,8 @@ git commit -v -a -m add
 git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push
+cmd /c dir c:
+cmd /c dir c:pagefile.sys  /a
+cmd /c dir c:\pagefile.sys  /a
+git add -vv  '*.f8.*'
+git commit -v -a -m add
