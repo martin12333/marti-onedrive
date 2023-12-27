@@ -1,3 +1,15 @@
+podman machine start
+
+podman start   -ai    cmy22b
+n
+
+#podman stop cmy22b
+
+bash -c 'df -m'
+
+
+---echo '-------- section --------'
+
 
 
 
