@@ -9663,3 +9663,6 @@ git commit -v -a -m add
 git push
 podman machine start
 podman start   -ai    cmy22b
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
