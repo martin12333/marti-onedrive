@@ -17,10 +17,17 @@ IsPublic IsSerial Name
 -------- -------- ----
 True     True     TimeSpan
 
+
+
+Also regard to use hh instead of HH for hours, because HH will cause a FormatException. It's a pitfall, because for DateTime the HH is used for the 24 hours format.'
+
+
+
+
 $time.ToString()
 #$time.TryFormat()
 ##$time.ToString("HH:mm")
-##$time.ToString(" HH")
+##$time.ToString("HH")
 $time.ToString("hh\:mm")
 "hh\:mm"[3]
 "hh\\:mm"[3]
@@ -33,9 +40,8 @@ $time.ToString("hh\:mm")
 $time.ToString("g")
 $time.ToString("t")
 
-Format-Custom $time
+##Format-Custom $time
 
--GroupBy
 
 $date.Date
 $date.GetDateTimeFormats()
@@ -44,10 +50,32 @@ $date.ToShortDateString()
 #$date.TryFormat
 ##$date.ToString("g")
 
+-GroupBy
+ToShortDateString()
 
-Get-ChildItem      "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"| ForEach-Object {     $date = $_.LastWriteTime.Date.ToShortDateString() ;      $time = $_.LastWriteTime.TimeOfDay ;     [PSCustomObject]@{         Date = $date  ;          Time = $time      }  }
+Get-ChildItem      "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"  | Select-Object LastWriteTime | Sort-Object LastWriteTime |
 
+ Group-Object {$_.LastWriteTime.ToString("MM/dd/yyyy HH")       } | ForEach-Object {      $date = $_.Name ;
+    $time = ($_.Group | Measure-Object LastWriteTime -Maximum).Maximum.TimeOfDay.ToString("hh\:mm")
+    [PSCustomObject]@{         Date = $date;         Time = $time     } }
+
+
+	Select-Object -Last 10 |
+
+	ForEach-Object {     $date = $_.LastWriteTime.Date.ToShortDateString() ;      $time = $_.LastWriteTime.TimeOfDay.ToString("hh\:mm")  ;     [PSCustomObject]@{         Date = $date  ;          Time = $time      }  }
+
+	 #Group-Object {$_.LastWriteTime.ToString("yyyy-MM-dd")} | ForEach-Object {
+
+Get-ChildItem "C:\path\to\directory" |
         #Name = $_.Name
+
+
+
+		Select-Object -First 10  |  ConvertTo-Csv
+
+
+
+
 
 
 
@@ -60,6 +88,9 @@ Get-ChildItem     "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default
 
 >dir--Cache_Data.txt
 dir ?
+
+
+
 
 %SystemRoot%\System32\Winevt\Logs\System.evtx
 40960

@@ -9769,3 +9769,44 @@ $time.ToString("hh\:mm")
 "hh\\:mm"[3]
 "hh\:mm"[3]
 $time.ToString("hh\:mm")
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
+$time.ToString()
+$time.ToString("hh\:mm")
+Format-Custom $time
+Get-ChildItem      "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"| ForEach-Object {     $date = $_.LastWriteTime.Date.ToShortDateString() ;      $time = $_.LastWriteTime.TimeOfDay ;     [PSCustomObject]@{         Date = $date  ;          Time = $time      }  }
+Get-ChildItem      "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"| ForEach-Object {     $date = $_.LastWriteTime.Date.ToShortDateString() ;      $time = $_.LastWriteTime.TimeOfDay.ToString("hh\:mm")  ;     [PSCustomObject]@{         Date = $date  ;          Time = $time      }  }
+Get-ChildItem      "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"
+Get-ChildItem      "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\" | Sort-Object LastWriteTime
+Get-ChildItem      "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"  | Select-Object LastWriteTime | Sort-Object LastWriteTime
+Get-ChildItem      "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"  | Select-Object LastWriteTime | Sort-Object LastWriteTime | Select-Object -Last 10
+Get-ChildItem      "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"  | Select-Object LastWriteTime | Sort-Object LastWriteTime | Select-Object -Last 10 |`
+Group-Object {$_.LastWriteTime.ToString("yyyy-MM-dd")} | ForEach-Object {`
+$date = $_.Name`
+$time = ($_.Group | Measure-Object LastWriteTime -Maximum).Maximum.TimeOfDay.ToString("hh\:mm")`
+[PSCustomObject]@{`
+Date = $date`
+Time = $time`
+} }
+Get-ChildItem      "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"  | Select-Object LastWriteTime | Sort-Object LastWriteTime |`
+Group-Object {$_.LastWriteTime.ToString("yyyy-MM-dd")} | ForEach-Object {`
+Group-Object {$_.LastWriteTime.ToString("yyyy-MM-dd")} | ForEach-Object {`
+$date = $_.Name`
+$time = ($_.Group | Measure-Object LastWriteTime -Maximum).Maximum.TimeOfDay.ToString("hh\:mm")`
+[PSCustomObject]@{         Date = $date;         Time = $time     } }`
+`
+[PSCustomObject]@{         Date = $date;         Time = $time     } }
+Get-ChildItem      "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"  | Select-Object LastWriteTime | Sort-Object LastWriteTime |`
+Group-Object {$_.LastWriteTime.ToString("yyyy-MM-dd")} | ForEach-Object {`
+$date = $_.Name`
+$time = ($_.Group | Measure-Object LastWriteTime -Maximum).Maximum.TimeOfDay.ToString("hh\:mm")`
+[PSCustomObject]@{         Date = $date;         Time = $time     } }
+Get-ChildItem      "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"  | Select-Object LastWriteTime | Sort-Object LastWriteTime |`
+Group-Object {$_.LastWriteTime.ToShortDateString() } | ForEach-Object {      $date = $_.Name ;`
+$time = ($_.Group | Measure-Object LastWriteTime -Maximum).Maximum.TimeOfDay.ToString("hh\:mm")`
+[PSCustomObject]@{         Date = $date;         Time = $time     } }
+Get-ChildItem      "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"  | Select-Object LastWriteTime | Sort-Object LastWriteTime |`
+Group-Object {$_.LastWriteTime.ToString("MM/dd/yyyy HH")       } | ForEach-Object {      $date = $_.Name ;`
+$time = ($_.Group | Measure-Object LastWriteTime -Maximum).Maximum.TimeOfDay.ToString("hh\:mm")`
+[PSCustomObject]@{         Date = $date;         Time = $time     } }
