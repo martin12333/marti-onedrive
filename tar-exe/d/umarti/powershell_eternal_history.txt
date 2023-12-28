@@ -9666,3 +9666,106 @@ podman start   -ai    cmy22b
 git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push
+git commit -v -a -m add
+git push
+cmd /c dir   "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"
+dir   "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"
+cmd /c dir   "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"
+cmd /c dir   "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"   /ot
+cmd /c dir   "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"   /o:t
+cmd /c dir   "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"   /?
+md /c dir   "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"   /od
+cmd /c dir   "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"   /od
+cmd /c dir   "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"   /o-d
+dir   "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\" -sort
+dir   "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\" -help
+dir   "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\" -order
+Get-ChildItem     "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\" |  Sort-Object -Property LastWriteTime
+Get-ChildItem     "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\" |  Sort-Object -Property LastWriteTime -Descending
+cmd /c dir   "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"   /o-d
+cmd /c dir   "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"   /od
+Get-ChildItem     "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\" |  Sort-Object -Property LastWriteTime
+cmd /c dir   "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"   /o-d
+Get-ChildItem     "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\" |  Sort-Object -Property LastWriteTime -Descending
+Get-ChildItem     "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\" |  Sort-Object -Property LastWriteTime -Descending   >1
+dir 1
+cmd /c dir   "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"   /o-d  >2
+dir 1 2
+dir ?
+Get-ChildItem     "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\" |  Sort-Object -Property LastWriteTime -Descending   >dir--Cache_Data.txt
+Get-ChildItem     "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\" |  Sort-Object -Property LastWriteTime
+dir "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"
+Get-ChildItem      "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"
+Get-ChildItem      "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\" | Select-Object LastWriteTime
+Get-ChildItem      "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\" | Select-Object LastWriteTimeGet-ChildItem      "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\" | Select-Object LastWriteTime | ConvertTo-Csv
+Get-ChildItem      "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\" | Select-Object LastWriteTime | ConvertTo-Csv
+Get-ChildItem      "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\" | Select-Object LastWriteTime |   Select-Object -First 10  |  ConvertTo-Csv
+Get-ChildItem     "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\" |  Sort-Object -Property LastWriteTime -Descending | Select-Object LastWriteTime |   Select-Object -First 10  |  ConvertTo-Csv
+Get-ChildItem      "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"| ForEach-Object {`
+$date = $_.LastWriteTime.Date`
+$time = $_.LastWriteTime.TimeOfDay`
+[PSCustomObject]@{`
+#Name = $_.Name`
+Date = $date`
+Time = $time      }  }
+$item = Get-Item -Path "C:\path\to\file.txt"
+$item = Get-Item -Path "C:\pagefile.sys"
+$item = Get-Item -Path "C:\pagefile.sys" -Force
+$date = $item.LastWriteTime.Date
+$time = $item.LastWriteTime.TimeOfDay
+$time
+$time.ToString()
+$date.Date
+$date.Kind
+$date.GetDateTimeFormats()
+$time.TryFormat()
+$date.ToLongDateString()
+$date.ToShortDateString()
+Get-ChildItem      "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"| ForEach-Object {     $date = $_.LastWriteTime.Date.ToShortDateString() ;      $time = $_.LastWriteTime.TimeOfDay ;     [PSCustomObject]@{         Date = $date  ;`
+Time = $time      }  }
+Get-ChildItem      "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\"| ForEach-Object {     $date = $_.LastWriteTime.Date.ToShortDateString() ;      $time = $_.LastWriteTime.TimeOfDay ;     [PSCustomObject]@{         Date = $date  ;          Time = $time      }  }
+$time.ToString("hh:mm")
+$time.ToString("HH:MM")
+$time.ToString("HH:mm")
+$time.ToString("%H:%m")
+$time.ToString("g")
+$time.ToString("t")
+$time.ToString("H:m")
+$time.ToString("HH:mm")
+$time.ToString("HH")
+$time.ToString("H")
+$time.ToString(" HH")
+$date.ToString("g")
+$time.ToString()
+$time.ToString("HH:mm")
+$time.ToString(" HH")
+$time.ToString("H")
+$time.ToString("H:m")
+$time.ToString("%H:%m")
+$time.ToString("%H")
+$time.ToString("g")
+$time.ToString("t")
+format
+format $time
+Format-Custom $time
+$time.GetType()
+$date.Date
+$time.ToString(" hh")
+$time.ToString("hh")
+$time.ToString("hh\\:mm")
+$time.ToString("hh\:mm")
+("hh\:mm")
+"hh\\:mm"
+"hh\:mm"[2]
+"hh\\:mm"[]
+"hh\\:mm"[2]
+@"hh\\:mm"[2]
+@"hh\\:mm"@[2]
+@"hh\\:mm"@
+@"hh\\:mm"
+(@"hh\\:mm")`
+
+"hh\\:mm"[2]
+"hh\\:mm"[3]
+"hh\:mm"[3]
+$time.ToString("hh\:mm")
