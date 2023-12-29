@@ -9811,3 +9811,22 @@ Group-Object {$_.LastWriteTime.ToString("MM/dd/yyyy HH")       } | ForEach-Objec
 $time = ($_.Group | Measure-Object LastWriteTime -Maximum).Maximum.TimeOfDay.ToString("hh\:mm")`
 [PSCustomObject]@{         Date = $date;         Time = $time     } }
 git commit -v -a -m add
+git commit -v -a -m backup
+git push
+Get-EventLog System
+Get-EventLog System | Measure-Object
+Get-EventLog System -Newest 10 | Measure-Object
+Get-EventLog System -Newest 10
+Get-EventLog System -Newest 10  -Source Kernel-Power  | Measure-Object
+Get-EventLog System   -Source Kernel-Power  | Measure-Object
+Get-EventLog System   -Source Kernel-Power   | Measure-Object
+Get-EventLog System     -Source Kernel-Power
+Get-EventLog System     -Source Kernel-General
+Get-EventLog System     -Source Kernel-General   | Measure-Object
+Get-EventLog System | Measure-Object
+Get-EventLog System
+Get-EventLog System   | Measure-Object
+Get-EventLog System -Newest 1000  | Measure-Object
+Get-EventLog System -Newest 10000  | Measure-Object
+Get-EventLog System   | Measure-Object
+git add -vv  '*.f8.*'
