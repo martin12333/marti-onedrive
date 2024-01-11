@@ -72,6 +72,7 @@ Get-ChildItem "C:\path\to\directory" |
 
 
 		Select-Object -First 10  |  ConvertTo-Csv
+		 ? -QuoteFields $false -UseQuotes AsNeeded -Delimiter
 
 
 
@@ -90,8 +91,8 @@ Get-ChildItem     "c:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default
 dir ?
 
 
-
-
+%SystemRoot%\System32\Winevt\Logs\Security.evtx
+%SystemRoot%\System32\Winevt\Logs\Application.evtx
 %SystemRoot%\System32\Winevt\Logs\System.evtx
 40960
 

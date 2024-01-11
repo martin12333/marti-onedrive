@@ -1,11 +1,24 @@
 exit
 
+
+edge://restart
+
+
 https://sleepdiary.github.io/docs/create/reconstruct.html#desktop-operating-systems
 
 
 
 
- Get-EventLog System   | Measure-Object
+Get-EventLog System -Newest 100| Where-Object
+
+
+ ForEach-Object {
+
+ }
+
+
+
+ | Measure-Object
  -Newest 10000
 
  ###    -Source Kernel-General
@@ -28,3 +41,5 @@ if ( $out_path = [System.Environment]::GetFolderPath([System.Environment+Special
 	write "You can close PowerShell now."
   }
   # Now press enter twice
+
+

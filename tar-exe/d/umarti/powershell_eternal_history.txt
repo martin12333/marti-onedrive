@@ -9830,3 +9830,8 @@ Get-EventLog System -Newest 1000  | Measure-Object
 Get-EventLog System -Newest 10000  | Measure-Object
 Get-EventLog System   | Measure-Object
 git add -vv  '*.f8.*'
+git commit -v -a -m add
+cmd /c dir c:\pagefile.sys  /a
+Get-EventLog System -Newest 1000
+Get-EventLog System -Newest 100
+git add -vv  '*.f8.*'

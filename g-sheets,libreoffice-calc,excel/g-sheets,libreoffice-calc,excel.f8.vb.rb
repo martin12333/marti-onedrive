@@ -33,6 +33,14 @@ https://support.google.com/docs/thread/53725030/how-to-limit-number-or-rows-and-
 
 
 
+
+= ARRAYFORMULA( 24 * ( MEDICINES() -  QUERY(        MEDICINES()              ,"OFFSET 1 ", 0)))
+
+
+
+= ARRAYFORMULA( 24 *  (MEDICINES() -  QUERY(        MEDICINES()              ,"OFFSET 2 ", 0))  + 24)
+
+
 =  CHOOSEROWS( QUERY('Form Responses 1'!A:D,"SELECT A,D WHERE D is not null ") , 1 ,-4, -3, -2 ,-1 )
 
 =ARRAY_CONSTRAIN(A:A, COUNTA( A:A ) , 1)
