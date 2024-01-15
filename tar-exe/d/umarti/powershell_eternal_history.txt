@@ -9840,3 +9840,4 @@ git push
 net user
 whoami
 msinfo32
+git commit -v -a -m add
