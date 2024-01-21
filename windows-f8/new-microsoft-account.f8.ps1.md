@@ -51,7 +51,7 @@ win+x > settings > accounts > (1.) Vaše informace
 
 a případně ještě 
 
-win+x > settings > accounts > Family and other users
+win+x > settings > accounts > (Family and) other users
 
 klidně stačí na mobil
 
@@ -198,3 +198,160 @@ Otazka:
 
 
 ---------- Původní e-mail ----------
+
+
+napadlo mne , že 
+
+1. se asi pokoušíte odstranit *posledního* admin uživatele, který má právo vytvářet nové uživatele ... dobře , že to nešlo
+ 
+2.
+Opakuji:
+při jakékoli nejasnosti: prosím fotit ty hlášky a formuláře (okna), které  Windows zobrazují, klidně na mobil
+
+3.
+kdyby něco nechodilo,, vyfoť prosím,
+na tom počítači sekretářky,  ještě 
+
+win+x > settings > accounts > (1.) Vaše informace
+
+a případně ještě 
+
+win+x > settings > accounts > (Family and) other users
+
+klidně stačí na mobil
+
+4.  Psík asi může poradit, zda by nemělo smysl 
+"Join this device to Azure Active Directory"
+pak byste mohli se hlásit k microsoftu snadno pomoci jmen typu
+jmeno.prijm@matfyz.cuni.cz
+
+
+1. 
+1. 
+1. 
+1. 
+1. 
+1. 
+1. 
+1. 
+1. 
+1. 
+
+2. není potřeba ho odstraňovat , lze spojit dodatečně
+
+
+
+
+no, jak chcete, no ...
+
+Pozn.:
+Jestli o tom chcete ještě někdy mluvit, udělej prosím ty snímky obrazovky:
+
+na tom počítači sekretářky,  ještě 
+
+win + x > nastavení > účty > Vaše informace
+
+a  ještě 
+
+win + x > nastavení > účty > Rodina a jiní uživatelé
+
+klidně stačí na mobil
+nebo 
+"V závislosti na hardwaru můžete použít klávesu s logem Windows + PRTSCN jako klávesovou zkratku pro pořízení screenshotu obrazovky. Pokud vaše zařízení tlačítko nebo klávesu PRTSCN nemá, ......"
+
+Mám Ti poslat analogické snímky z Tvého pc doma?
+Bez těchto obrázků o tom mluvit nebudu.
+
+
+mohl bys, zatímco budu spát, 
+1. download thunderbird
+2. instalovat na domacim počítači na disk D:
+.....
+/// potřebuju, aby v mailech jsi mohl klikat na odkazy, které posílám
+
+win+x > settings > accounts > (Family and) other users
+win+x > settings > accounts > (1.) Vaše informace
+
+100 snímků obrazovky
+
+s MS cloudem už bojuju asi 2 týdny
+
+pořídil jsem asi 100 snímků obrazovky
+
+nakopíroval jsem je z alba v google-photos do podadresáře v microsoft Onedrive
+
+asi 10 obrázků jsem vybral jako důležité teď
+
+https://onedrive.live.com/?id=4B12298D932A2860%2118753&cid=4B12298D932A2860
+
+MSEdge-Workspace-JVB-MB - OneDrive
+
+
+
+
+nevím, zda je to teď pro nás důležité, ale existuje návod od Microsoftu: 
+Přidání nebo odebrání účtů na počítači
+https://support.microsoft.com/cs-cz/windows/p%C5%99id%C3%A1n%C3%AD-nebo-odebr%C3%A1n%C3%AD-%C3%BA%C4%8Dt%C5%AF-na-po%C4%8D%C3%ADta%C4%8Di-104dc19f-6430-4b49-6a2b-e4dbd1dcdf32#ID0EDHBBDDBD
+
+překvapilo mne
+"""
+Přidání uživatelů na pracovní nebo školní počítač
+
+Nejlepším řešením je, když má každý, kdo sdílí počítač v práci nebo škole, svůj vlastní **účet Microsoft (Microsoft account)**. Další informace o účtech Microsoft najdete v tématu Přihlášení pomocí účtu Microsoft.
+
+Přidání uživatele s existujícím účtem Microsoft:
+
+Vyberte Start  > Nastavení  > Účty  > **Jiní uživatelé (v některých edicích Windows může být označená jako Jiní lidé nebo Rodina & jiní uživatelé).**
+
+V části Pracovní nebo školní uživatelé > Přidat pracovní nebo školní účet vyberte Přidat účet. 
+
+Zadejte účet uživatele, vyberte typ účtu a pak vyberte Přidat.
+"""
+
+
+#ID0EDHBBDDBD
+
+
+
+
+
+
+Pozn.:
+Jestli o tom chcete ještě někdy mluvit, udělej prosím ty snímky obrazovky:
+
+na tom počítači sekretářky,  ještě 
+
+win + x > nastavení > účty > Vaše informace
+
+a  ještě 
+
+win + x > nastavení > účty > Rodina a jiní uživatelé
+
+
+Vyberte Start > Nastavení > Účty > **Jiní uživatelé (v některých edicích Windows může být označená jako Jiní lidé nebo Rodina & jiní uživatelé).**
+
+klidně stačí na mobil
+
+Mám Ti poslat analogické snímky z Tvého pc doma?
+
+Bez těchto obrázků o tom mluvit nebudu.
+
+
+
+
+
+
+
+
+
+
+https://apps.microsoft.com/detail/9MZ95KL8MR0L?hl=en-US&gl=US
+
+Snipping Tool
+Microsoft Corporation
+
+Windows 11 version 22000.0 or higher
+
+
+Mám Ti poslat analogické snímky z Tvého pc doma?
+Bez těchto obrázků o tom mluvit nebudu.
