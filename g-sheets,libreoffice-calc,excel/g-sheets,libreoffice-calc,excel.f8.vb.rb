@@ -31,7 +31,8 @@ pandas
 https://support.google.com/docs/thread/53725030/how-to-limit-number-or-rows-and-columns-in-sheets-i-ve-seen-the-answers-i-can-t-delete-a-zillion?hl=en
 
 
-
+MEDICINES()
+=QUERY('Form Responses 1'!$A$2:$B,"SELECT A,B WHERE B=1 OR B=3 " , 0 )
 
 
 = ARRAYFORMULA( 24 * ( MEDICINES() -  QUERY(        MEDICINES()              ,"OFFSET 1 ", 0)))

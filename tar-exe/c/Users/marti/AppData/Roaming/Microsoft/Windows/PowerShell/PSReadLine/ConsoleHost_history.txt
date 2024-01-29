@@ -3571,3 +3571,6 @@ exit
 Get-ChildItem -force  c:\pagefile.sys
 exit
 kill -name msedge
+cmd
+dir c:\ /a /od
+cmd /c dir c:\ /a /od

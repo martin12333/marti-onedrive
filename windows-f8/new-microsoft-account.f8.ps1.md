@@ -313,45 +313,159 @@ Zadejte účet uživatele, vyberte typ účtu a pak vyberte Přidat.
 
 
 
-
-
-
 Pozn.:
 Jestli o tom chcete ještě někdy mluvit, udělej prosím ty snímky obrazovky:
 
+
+
+Děkuji za snímky obrazovky pomocí mobilu 
+
+potřeboval bych ještě 1 snímek
+
 na tom počítači sekretářky,  ještě 
 
-win + x > nastavení > účty > Vaše informace
-
-a  ještě 
-
-win + x > nastavení > účty > Rodina a jiní uživatelé
-
-
-Vyberte Start > Nastavení > Účty > **Jiní uživatelé (v některých edicích Windows může být označená jako Jiní lidé nebo Rodina & jiní uživatelé).**
+win + x > Nastavení > Účty > Jiní uživatelé (v některých edicích Windows může být označená jako Jiní lidé nebo -R-o-d-i-n-a--&--j-i-n-í--u-ž--i-v-a-t-e-l-é).
 
 klidně stačí na mobil
 
-Mám Ti poslat analogické snímky z Tvého pc doma?
+pro srovnání posílám fotku z mého win11
 
-Bez těchto obrázků o tom mluvit nebudu.
-
-
+Bez  obrázků o tom mluvit nebudu.
 
 
+------------
 
 
+jiri.vlastimil
+
+rozhodl  jsem se , že Ti začnu psát z adresy 
+milan.bok.75@gmail.com
+nikoli adresy
+milan.bok@seznam.cz
+
+budeme muset sahnout do mailerových kontaktů
+* Outlook
+* thunderbird
+* gmail
 
 
-
+---------------
 
 https://apps.microsoft.com/detail/9MZ95KL8MR0L?hl=en-US&gl=US
 
 Snipping Tool
 Microsoft Corporation
 
+w10home preinstalled ... screenshots
+
 Windows 11 version 22000.0 or higher
 
+~~~~~~~
+
+
+after I press windows key + printscreen, i can easily get to the folder, where are the screenshots stored, even in localized windows, using windows key + q and typing: screenshots
+snimky
+obrazovky
+C:\Users\marti\OneDrive\Obrázky\Snímky obrazovky
+
+----------------
+
+
+přesněji řečeno, já mohu asistovat na dálku pomocí programu Microsoft Quick Assist
+
+" Rychlý pomocník " Microsoft Quick Assist
+
+potřeboval bych raději ověřit, že na tom počítači, kde je potřeba pomoci,  je už předinstalovaná aplikace
+" Rychlý pomocník " neboli "Quick Assist"
+....
+"""
+Vyberte Start , zadejte Rychlý pomocník a pak ji vyberte v seznamu výsledků (nebo stiskněte klávesu Windows + Ctrl + Q).
+"""
+spustí se nějaká aplikace?
+
+
+
+
+
+ Vyberte Někomu pomoct a pak nasdílejte 6místný kód s osobou, které pomáháte. Po zadání kódu počkejte, až osoba, které pomáháte, povolí připojení, a nasdílejte jeho obrazovku.
+
+
+pošlu mail sám sobě asi
+abych se na něj dostal  z win/mb
+já jim to snad raději posílat nebudu když nevěří na existenci serverů v datacentrech patřících microsoftu
+
+
+
+předpokládám, že asi zkusím zadat
+
+kucerova@karlov.mff.cuni.cz
+
+kdyby to selhalo, 
+
+hana.kucerova@matfyz.cuni.cz
+
+
+
+
+
+microsoft-account: nevadi gmail
+
+jeste k tematu 
+Re: Delete-administrator-account-windows 11
+
+napadlo mne, ...
+
+proč jste vlastně chtěli vymazat
+z toho počítače
+ten účet
+spojený s Microsoft accountem "jiri.vlastimil.bok@gmail.com"
+...
+snad ne kvůli tomu "gmail"
+...
+sám microsoft povoluje gmail
+
+důkazy: citáty z microsoft . com :
+
+"""
+You don't need to create a new email account or use the outlook.com or hotmail.com domains for your new Microsoft Account. In fact, you can even use a Gmail address to register for a Microsoft Account: 
+"""
+
+"""
+You can create an Outlook.com or Microsoft account with a new email address or use an existing email address from a third-party email account, such as Gmail or Yahoo
+"""
+
+
+
+:večerní léky budu brát nejdřív v 14:00
+
+podezírám, že ten externí disk by mohl být vadný ... budeme řešit jindy, snad  někdo máte flashdisk
+
+
+trvám na tom,že nejdřív je potřeba zachránit soubory.//////remote control na windows 7(?) by nebylo snadne////screen sharing mozna nadejnejsi////je tam chrome?mohl bych radit po telefonu ci videotelefonu ... mobil
+možná zvládneš sám zkusím googlit 
+příkazový řádek
+explorer %appdata%
+kliknout pravym tlačítkem myši na Thundrebird
+odeslat na .... flashdisk
+
+2 gib by mělo být 
+cmd /c dir c:\ /a /od
+
+ xcopy /?
+xcopy "C:\Users\%username%\AppData\Roaming\Thunderbird\*.*" "\TB_backup\" /s/h/e/k/f/c
+
+%backupcmd% "%AppData%\Thunderbird" "%CD%\Thunderbird"
+
+
+
+
+
+chkdsk c:
+chkdsk f:
+
+---------------
+Jestli o tom chcete ještě někdy mluvit, udělej prosím ty snímky obrazovky:
 
 Mám Ti poslat analogické snímky z Tvého pc doma?
-Bez těchto obrázků o tom mluvit nebudu.
+
+Bez obrázků o tom mluvit nebudu.
