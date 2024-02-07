@@ -34,12 +34,26 @@ https://support.google.com/docs/thread/53725030/how-to-limit-number-or-rows-and-
 MEDICINES()
 =QUERY('Form Responses 1'!$A$2:$B,"SELECT A,B WHERE B=1 OR B=3 " , 0 )
 
+QUERY(data, query, [headers])
+
+
+headers - [ OPTIONAL ] - The number of header rows at the top of data. If omitted or set to -1, the value is guessed based on the content of data.
 
 = ARRAYFORMULA( 24 * ( MEDICINES() -  QUERY(        MEDICINES()              ,"OFFSET 1 ", 0)))
 
 
 
 = ARRAYFORMULA( 24 *  (MEDICINES() -  QUERY(        MEDICINES()              ,"OFFSET 2 ", 0))  + 24)
+
+
+
+
+=ARRAYFORMULA(MEDI!A:B)
+=ARRAYFORMULA(MEDI!E3:E)
+
+
+= ARRAYFORMULA(  (  QUERY(       'med2'!A:F        ,"SELECT * WHERE B=1 ", 1)))
+
 
 
 =  CHOOSEROWS( QUERY('Form Responses 1'!A:D,"SELECT A,D WHERE D is not null ") , 1 ,-4, -3, -2 ,-1 )

@@ -9844,3 +9844,6 @@ git commit -v -a -m add
 dir *ms*
 cmd /c dir c:\ /a /od
 xcopy /?
+git commit -v -a -m add
+git push
+conda activate base
