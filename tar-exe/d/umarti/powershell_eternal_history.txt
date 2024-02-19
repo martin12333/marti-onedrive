@@ -9847,3 +9847,5 @@ xcopy /?
 git commit -v -a -m add
 git push
 conda activate base
+git commit -v -a -m backup
+git push

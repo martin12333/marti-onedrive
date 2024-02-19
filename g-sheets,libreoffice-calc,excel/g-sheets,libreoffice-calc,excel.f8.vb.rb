@@ -5,6 +5,28 @@ libreoffice calc
 excel
 
 
+------------
+HYPERPOLYGLOT-CSV-README-ISSUES
+Hyperpolyglot
+https://docs.google.com/spreadsheets/d/1w4MAxWcWjX3aMBRkOsqjwcAabFtY4WT4JloPRd944og/edit#gid=377285990
+
+numerical1,2+spreadsheets,excel
+google-sheets // A NEW COLUMN
+https://docs.google.com/spreadsheets/d/14oQlf9ujdUgeC2f18dAk0BlDPG_kxFf0KFC0bC_FRjw/edit#gid=268802438
+
+https://clarkgrubb.com/spreadsheets#logic
+
+
+--------------
+
+
+
+google sheets
+libreoffice calc
+excel
+
+
+
 discord server
 2
 
@@ -18,7 +40,9 @@ https://www.reddit.com/r/googlesheets/wiki/postguide/
 https://www.reddit.com/r/googlesheets/about/rules
 
 
-lambda
+
+
+lambda, let
  array
   functional
 matlab
@@ -29,6 +53,11 @@ pandas
 
 
 https://support.google.com/docs/thread/53725030/how-to-limit-number-or-rows-and-columns-in-sheets-i-ve-seen-the-answers-i-can-t-delete-a-zillion?hl=en
+
+
+
+
+https://script.google.com/u/0/home/projects/1oLeoU4sXJWm9JOkRYV6d7pp8UuhTUeidFT98r1NFhavnOSUwsNTaagK1/edit
 
 
 MEDICINES()
@@ -56,7 +85,12 @@ headers - [ OPTIONAL ] - The number of header rows at the top of data. If omitte
 
 
 
+=CHOOSEROWS(MEDICINES(),-3,-2,-1)
+
 =  CHOOSEROWS( QUERY('Form Responses 1'!A:D,"SELECT A,D WHERE D is not null ") , 1 ,-4, -3, -2 ,-1 )
+
+
+
 
 =ARRAY_CONSTRAIN(A:A, COUNTA( A:A ) , 1)
 
@@ -237,3 +271,67 @@ If you enter the array formula directly into the cell, you must use the key comb
 
 
 
+
+
+=gsSQL("select  booksales.invoice as 'Invoice', booksales.quantity as 'Quantity', booksales.price as 'Price', booksales.quantity * booksales.price as 'Sales', booksales.date, books.title, customers.name, authors.first_name + ' ' + authors.last_name as 'Author', translators.first_name + ' ' + translators.last_name as 'Translator', editors.first_name + ' ' + editors.last_name as 'Editor'
+from booksales left join books on booksales.book_id = books.id
+left join customers on booksales.customer_id = customers.id
+left join authors on books.author_id = authors.id
+left join translators on books.translator_id = translators.id
+left join editors on books.editor_id = editors.id
+where booksales.date >= ?1 and booksales.date <= ?2
+union all select 'Total', SUM(booksales.quantity), avg(booksales.price), SUM(booksales.quantity * booksales.price), '' ,'', '', '', '', '' from booksales
+where booksales.date >= ?1 and booksales.date <= ?2",
+ , true, startDate, endDate, refreshGsSQL)
+
+
+
+ /**
+ * Process SQL SELECT using new command line syntax.  Using this syntax ensures that the select data is refreshed
+ * if any of the selected table data changes - and is therefore the recommended usage.
+ * /
+
+ Ok, I made a change to gsSQL() source code so that any change to your source table data will automatically trigger Google Sheets to re-run the custom function. In order for the trigger to happen, we just need to include regular sheet ranges for the table (i.e. not entered as a STRING like my previous version - which is still supported BTW)
+
+=gsSQL("select date, recipe.ingredient, sum(sales.quantity * recipe.inputs) as 'Used Inventory' from sales join recipe on sales.menu = recipe.menu where date >= ?1 and date <= ?2 group by sales.date, recipe.ingredient", "sales", A216:C225, "recipe", E216:H229, true, B215, F215)
+
+https://script.google.com/home/projects/1-r9aswbLJskGi2ble8rjhStPZmPU_KagH2Vpq9GfA2gRrG9FjSYJpUyK/edit?pli=1
+2024~02~14
+the same as github
+but
+  "timeZone": "America/Toronto",
+  but
+
+
+
+
+  {
+	"timeZone": "Europe/Prague",
+	"dependencies": {},
+	"exceptionLogging": "STACKDRIVER",
+	"runtimeVersion": "V8",
+	"sheets": {
+	  "macros": [
+		{
+		  "menuName": "try3",
+		  "functionName": "try3"
+		},
+		{
+		  "menuName": "d1",
+		  "functionName": "d1"
+		},
+		{
+		  "menuName": "d2",
+		  "functionName": "d2"
+		},
+		{
+		  "menuName": "sanity",
+		  "functionName": "sanity"
+		},
+		{
+		  "menuName": "decimal",
+		  "functionName": "decimal"
+		}
+	  ]
+	}
+  }
