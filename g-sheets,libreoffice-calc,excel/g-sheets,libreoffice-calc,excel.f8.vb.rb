@@ -7,15 +7,15 @@ excel
 
 ------------
 HYPERPOLYGLOT-CSV-README-ISSUES
-Hyperpolyglot
 https://docs.google.com/spreadsheets/d/1w4MAxWcWjX3aMBRkOsqjwcAabFtY4WT4JloPRd944og/edit#gid=377285990
 
-numerical1,2+spreadsheets,excel
-google-sheets // A NEW COLUMN
+numerical1,2+google-sheets,excel,libreoffice-calc
+google-sheets //  NEW COLUMNs
+libreoffice-calc
+excel
 https://docs.google.com/spreadsheets/d/14oQlf9ujdUgeC2f18dAk0BlDPG_kxFf0KFC0bC_FRjw/edit#gid=268802438
 
-https://clarkgrubb.com/spreadsheets#logic
-
+https://clarkgrubb.com/spreadsheets
 
 --------------
 

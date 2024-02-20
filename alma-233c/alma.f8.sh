@@ -220,19 +220,17 @@ drwxr-xr-x   7 root    root      4096 Oct 13 13:00 apache2
 https://github.com/FUUK/fuuk
 
 
+echo '-------- section --------'
 
 
-
-
-
-
+sudo /etc/init.d/apache2 restart
 
 
 echo '-------- section --------'
 
+su.mff.cuni.cz
 
-echo '-------- section --------'
-
+google-forms
 
 echo '-------- section --------'
 
