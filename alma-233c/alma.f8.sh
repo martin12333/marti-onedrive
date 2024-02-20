@@ -9,6 +9,21 @@ exit
 echo '-------- section --------'
 
 
+
+
+
+
+migrace!
+242.L
+
+su.mff.cuni.cz
+
+google-forms
+
+
+
+
+
 code backup-f8
 
 
@@ -227,6 +242,8 @@ sudo /etc/init.d/apache2 restart
 
 
 echo '-------- section --------'
+
+migrace
 
 su.mff.cuni.cz
 
