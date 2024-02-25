@@ -20,6 +20,13 @@ import html
 glo=r"c:\Users\marti\OneDrive\808-diigo-pinned\tr-sed-iconv\*.xml"
 glo=r"c:\Users\marti\OneDrive\808-diigo-pinned\tr-sed-iconv\nu*.xml"
 glo=r"d:\umarti\dowNLOADS--SYMLINKED\808*.xml"
+
+glo=r"d:\umarti\dowNLOADS--SYMLINKED\808*.xml"
+# dlho 170MB
+
+glo=r"c:\Users\marti\OneDrive\808-diigo-pinned\tr-sed-iconv\head*.xml"
+
+
 file_list = glob.glob(glo)
 print(file_list)
 file_path = file_list[0]    # "your_file.txt"  # Replace with the actual path to your text file
@@ -82,7 +89,7 @@ textl=[
     BeautifulSoup(
         html_parser.unescape(
             x.find('description').string
-        )
+        ), features='html'    #!!!
     ).get_text()
     for x in soup.findAll('item')
 ]
@@ -108,14 +115,16 @@ linelist = [ " ".join(s.split())
 
 # In[6]:
 
-with open("rss2lines,h4a.lines.txt", "w") as f:
+outfile=r'd:\umarti\dowNLOADS--SYMLINKED\' + "rss2lines-242.lines.txt"
+
+with open( outfile  , "w") as f:
     for line in linelist:
         print(line, file=f)# line file
 
 
 # In[7]:
 
-r = " ".join(linelist)
+#r = " ".join(linelist)
 
 
 # In[8]:
@@ -131,55 +140,7 @@ r = " ".join(linelist)
 
 # In[10]:
 
-tokens = word_tokenize(r.lower())
-#print(raw)
-#print(tokens)
-#%history
-
-
-# In[20]:
-
-sst=sorted(set(tokens))
-
-
-# In[21]:
-
-print(len(sst))
-len(tokens)
-
-
-# In[22]:
-
-text = nltk.Text(tokens)
-
-
-# In[23]:
-
-text.collocations(num=100)
-
-
-# In[ ]:
-
-
-
-
-# In[7]:
-
-from nltk.book import *
-fdist1 = FreqDist(text)
-print(fdist1)
-
-fdist1.most_common(50)
-
-
-# In[8]:
-
-text5=text
-fdist5 = FreqDist(text5)
-sorted(w for w in set(text5) if len(w) > 9 and fdist5[w] > 7)
-
-
-# In[ ]:
+#tokens = word_tokenize(r.lower())
 
 #>>> import feedparser
 
@@ -189,16 +150,9 @@ sorted(w for w in set(text5) if len(w) > 9 and fdist5[w] > 7)
 #>>> llog = feedparser.parse("file:///mnt/dee/Downloads/s.f/8089759_xml_2015_07_22_b841c.xml")
 
 
-# In[14]:
-
-#>>> len(llog.entries)
-
-
-# In[63]:
-
 #e=llog.entries[0]
-get_ipython().magic('psearch e.v*')
-get_ipython().magic('pinfo e.description')
+#get_ipython().magic('psearch e.v*')
+#get_ipython().magic('pinfo e.description')
 #dir(e)
 
 
@@ -206,53 +160,4 @@ get_ipython().magic('pinfo e.description')
 
 #>>> import logging
 #>>> logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
-
-
-# In[28]:
-
-
-#from lxml import etree
-#from lxml.html import parse
-#with open(path, 'rb') as f:
- #   tree = etree.parse(f)
-
-
-# In[58]:
-
-
-#doc = tree.getroot()
-
-#links = doc.findall(".//title")
-
-
-# In[47]:
-
-#soup.findAll('item')
-#soup
-with open("out.xml", "w") as fw:
-    fw.write(soup.prettify())
-
-
-# In[ ]:
-
-
-
-
-# In[33]:
-
-get_ipython().magic('pinfo soup.findAll')
-
-
-# In[ ]:
-
-
-
-
-# In[43]:
-
-#print( ' %r' % y)
-#print(type(y.string))
-
-#print(unescaped)
-y.string = u
 

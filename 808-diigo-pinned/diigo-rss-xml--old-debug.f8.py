@@ -161,7 +161,7 @@ textl=[
             x.find('description').string
         ), features='html'    #!!!
     ).get_text()
-    for x in soup.findAll('item')[:50]
+    for x in soup.findAll('item')[:10]   #!!!
 ]
 
 print(textl)
