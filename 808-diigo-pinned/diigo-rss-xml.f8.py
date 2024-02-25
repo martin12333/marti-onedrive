@@ -99,6 +99,10 @@ content
 
 # file:///C:\Users\marti\OneDrive\808-diigo-pinned\dis-DIIGO-thunderbird-rss\rss2lines.py
 
+from bs4 import BeautifulSoup    #, CData
+
+soup = BeautifulSoup(open(path,'r'),  'xml')
+
 
 
 
