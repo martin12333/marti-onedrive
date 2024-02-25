@@ -47,6 +47,9 @@ ipython -i
 #%%
 
 import glob, re
+#import nltk, re, pprint
+#from nltk import word_tokenize
+
 
 # Get a list of all matching file names
 
@@ -72,31 +75,38 @@ len(content)
 
 content.count("\x00")
 content.count("\x01")
-content.count("\x02")
 content.count("\x09")
 content.count("\x0a")
 content.count("\x0d")
 content.count("\x41")
 
+
 content= re.sub(r"[\x00-\x08\x0b-\x1f\x7f]", "*", content)
 
 
-8089759_xml-bez-cntrl.xml
+# 8089759_xml-bez-cntrl.xml
+
+#%%
 
 content = "This is a test string with some \x01\x02\x03 special \x0d characters -\x08\x0b-\x1f\x7f   \x00 ."
 content
-
 >>> content.count("\x00")
 393
->>> content.count("\x41")
-942805
 >>> content.count("\x01")
 96
 
+#%%
+
+# file:///C:\Users\marti\OneDrive\808-diigo-pinned\dis-DIIGO-thunderbird-rss\rss2lines.py
 
 
-""
-'\x00'
+
+
+
+#%%
+
+
+
 #%%
 
 quit()
