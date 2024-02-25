@@ -33,6 +33,14 @@ from bs4 import BeautifulSoup    #, CData
 #import html.parser
 import html
 import pdb
+import time
+
+
+
+
+# Get the current time
+current_time = time.strftime("%H:%M:%S")
+print(f"Current time: {current_time}")
 
 
 # Get a list of all matching file names
@@ -44,7 +52,7 @@ glo=r"c:\Users\marti\OneDrive\808-diigo-pinned\tr-sed-iconv\8*.xml"
 glo=r"d:\umarti\dowNLOADS--SYMLINKED\808*.xml"
 # dlho 170MB
 
-glo=r"c:\Users\marti\OneDrive\808-diigo-pinned\tr-sed-iconv\head*.xml"
+#glo=r"c:\Users\marti\OneDrive\808-diigo-pinned\tr-sed-iconv\head*.xml"
 
 
 file_list = glob.glob(glo)
@@ -151,6 +159,11 @@ y=soup.findAll('item')
 len(y)
 
 
+# Get the current time
+current_time = time.strftime("%H:%M:%S")
+print(f"Current time: {current_time}")
+
+
 
 textl=[
     #x.find('link').string + ' en ' +
@@ -159,14 +172,38 @@ textl=[
     BeautifulSoup(
         html_parser.unescape(
             x.find('description').string
-        ), features='html'    #!!!
+        )  ##, features='html'    #!!!
     ).get_text()
     for x in soup.findAll('item')[:10]   #!!!
 ]
+#print(textl)
+print(len(textl))
 
-print(textl)
+
+
+# Get the current time
+current_time = time.strftime("%H:%M:%S")
+print(f"Current time: {current_time}")
+
+
+textl=[
+    #x.find('link').string + ' en ' +
+    x.find('link').string + '  ' +
+    x.find('title').string+ '  ' +
+    BeautifulSoup(
+        html_parser.unescape(
+            x.find('description').string
+        )  ##, features='html'    #!!!
+    ).get_text()
+    for x in soup.findAll('item')[:1000]   #!!!
+]
+#print(textl)
 print(len(textl))
-print(len(textl))
+
+
+# Get the current time
+current_time = time.strftime("%H:%M:%S")
+print(f"Current time: {current_time}")
 
 
 #pdb.set_trace()  # This line will pause execution and open the debugger prompt

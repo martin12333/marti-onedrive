@@ -9913,3 +9913,8 @@ ipython  -i  C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f
 git add -vv  '*.f8.*'
 git commit -v -a -m backup
 git push
+git commit -v -a -m backup
+git push
+ c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '54633' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py' 
+ c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '58323' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py' 
+ c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '58722' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py' 
