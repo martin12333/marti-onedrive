@@ -2,7 +2,14 @@
 exit
 
 see also
-C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml.f8.py
+file:///C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml.f8.py
+
+
+c:\Users\marti\OneDrive\808-diigo-pinned\tr-sed-iconv\
+
+d:\umarti\doWNLOA--20s--SYMLINKED--20s--allyears\808-diigo\
+
+d:\umarti\dr4\dis-DIIGO-thunderbird-rss\dis-DIIGO-thunderbird-rss\
 
 
 
