@@ -9926,3 +9926,7 @@ git commit -v -a -m backup
 outfile=r'd:\umarti\dowNLOADS--SYMLINKED/' + "rss2lines-242.--.txt"
  c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '53426' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\rss2lines-x00-latin-1.py' 
  c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '53991' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\rss2lines-x00-latin-1.py' 
+print(outfile)
+ c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '54643' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\rss2lines-x00-latin-1.py' 
+ c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '55664' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\rss2lines-x00-latin-1.py' 
+git commit -v -a -m backup
