@@ -174,7 +174,7 @@ textl=[
             x.find('description').string
         )  ##, features='html'    #!!!
     ).get_text()
-    for x in soup.findAll('item')[:10]   #!!!
+    for x in soup.findAll('item')[:10000]   #!!!
 ]
 #print(textl)
 print(len(textl))
@@ -195,7 +195,7 @@ textl=[
             x.find('description').string
         )  ##, features='html'    #!!!
     ).get_text()
-    for x in soup.findAll('item')[:1000]   #!!!
+    for x in soup.findAll('item')  ##[:1000]   #!!!
 ]
 #print(textl)
 print(len(textl))
@@ -207,6 +207,26 @@ print(f"Current time: {current_time}")
 
 
 #pdb.set_trace()  # This line will pause execution and open the debugger prompt
+
+
+
+
+
+# In[5]:
+
+linelist = [ " ".join(s.split())
+ for s in textl
+]
+
+
+# In[6]:
+
+outfile=r'd:\umarti\dowNLOADS--SYMLINKED\' + "rss2lines-242.--.txt"
+ # "rss2lines-242.lines.txt"
+
+with open( outfile  , "w") as f:
+    for line in linelist:
+        print(line, file=f)# line file
 
 
 #%%
