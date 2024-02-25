@@ -80,6 +80,9 @@ content.count("\x41")
 
 content= re.sub(r"[\x00-\x08\x0b-\x1f\x7f]", "*", content)
 
+
+8089759_xml-bez-cntrl.xml
+
 content = "This is a test string with some \x01\x02\x03 special \x0d characters -\x08\x0b-\x1f\x7f   \x00 ."
 content
 
