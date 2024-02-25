@@ -221,7 +221,7 @@ linelist = [ " ".join(s.split())
 
 # In[6]:
 
-outfile=r'd:\umarti\dowNLOADS--SYMLINKED\' + "rss2lines-242.--.txt"
+outfile=r'd:\umarti\dowNLOADS--SYMLINKED\1' + "rss2lines-242.--.txt"
  # "rss2lines-242.lines.txt"
 
 with open( outfile  , "w") as f:

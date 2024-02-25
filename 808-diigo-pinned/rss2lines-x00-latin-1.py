@@ -24,7 +24,7 @@ glo=r"d:\umarti\dowNLOADS--SYMLINKED\808*.xml"
 glo=r"d:\umarti\dowNLOADS--SYMLINKED\808*.xml"
 # dlho 170MB
 
-glo=r"c:\Users\marti\OneDrive\808-diigo-pinned\tr-sed-iconv\head*.xml"
+#glo=r"c:\Users\marti\OneDrive\808-diigo-pinned\tr-sed-iconv\head*.xml"
 
 
 file_list = glob.glob(glo)
@@ -115,11 +115,12 @@ linelist = [ " ".join(s.split())
 
 # In[6]:
 
-outfile=r'd:\umarti\dowNLOADS--SYMLINKED\' + "rss2lines-242.--.txt"
+outfile=r'd:\umarti\dowNLOADS--SYMLINKED/' + "rss2lines-242.--.txt"
  # "rss2lines-242.lines.txt"
 
+print(outfile)
 
-with open( outfile  , "w") as f:
+with open( outfile  , "w", encoding='utf-8'  ) as f:
     for line in linelist:
         print(line, file=f)# line file
 
