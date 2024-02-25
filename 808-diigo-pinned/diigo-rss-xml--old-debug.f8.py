@@ -40,8 +40,13 @@ import pdb
 glo=r"c:\Users\marti\OneDrive\808-diigo-pinned\tr-sed-iconv\*.xml"
 glo=r"c:\Users\marti\OneDrive\808-diigo-pinned\tr-sed-iconv\nu*.xml"
 glo=r"c:\Users\marti\OneDrive\808-diigo-pinned\tr-sed-iconv\8*.xml"
-glo=r"c:\Users\marti\OneDrive\808-diigo-pinned\tr-sed-iconv\head*.xml"
+
 glo=r"d:\umarti\dowNLOADS--SYMLINKED\808*.xml"
+# dlho 170MB
+
+glo=r"c:\Users\marti\OneDrive\808-diigo-pinned\tr-sed-iconv\head*.xml"
+
+
 file_list = glob.glob(glo)
 file_list
 file_path = file_list[0]    # "your_file.txt"  # Replace with the actual path to your text file
@@ -154,7 +159,7 @@ textl=[
     BeautifulSoup(
         html_parser.unescape(
             x.find('description').string
-        ), features='html'
+        ), features='html'    #!!!
     ).get_text()
     for x in soup.findAll('item')[:50]
 ]

@@ -9898,3 +9898,15 @@ uyiuyi c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe'
  c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '52127' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py' 
  c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '52276' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py' 
  c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '52849' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py' 
+ c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '53143' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py' 
+conda activate pip310ecco
+conda activate pip310ecco
+git commit -v -a -m backup
+conda activate pip310ecco
+ & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '53957' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py' 
+ c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '54628' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py' 
+ipython  -i  C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
+ipython  -i  C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py
+ c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '58539' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py' 
+ c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '58774' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py' 

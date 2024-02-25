@@ -32,6 +32,12 @@ dir d:\umarti\dowNLOADS--SYMLINKED\808*.xml
 file:///C:\Users\marti\OneDrive\808-diigo-pinned\rss2lines-x00-latin-1.py
 
 
+
+matouci ... dlho nahrava ten 170MB
+
+#ipython  -i  C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py
+
+
 python -i -u
 #ipython -i -u
 ipython -i
