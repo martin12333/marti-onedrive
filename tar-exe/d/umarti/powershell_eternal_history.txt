@@ -9872,3 +9872,4 @@ cd d:\umarti\dowNLOADS--SYMLINKED\
 C:\pf\Git\bin\bash.exe
 dir d:\umarti\dowNLOADS--SYMLINKED\808*.xml
 python -i -u
+git commit -v -a -m backup
