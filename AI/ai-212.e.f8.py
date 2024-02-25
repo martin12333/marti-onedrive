@@ -31,7 +31,8 @@ cd ~\Onedrive\AI   ;   jupyter lab
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;  conda activate pip310;  code AI
 $env:path
 
-f1 py sel interpr
+
+??f1 py sel interpr
 
 
 

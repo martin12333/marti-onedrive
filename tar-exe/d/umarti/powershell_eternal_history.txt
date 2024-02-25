@@ -9858,3 +9858,10 @@ git push
 git add -vv  '*.f8.*'
 git commit -v -a -m backup
 git push
+git commit -v -a -m backup
+git push
+cd d:\umarti\dowNLOADS--SYMLINKED\
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
+$env:path
+python -i -u
+dir 808*.xml
