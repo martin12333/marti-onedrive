@@ -1,5 +1,12 @@
 
 exit
+
+see also
+C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml.f8.py
+
+
+
+
 cd d:\umarti\dowNLOADS--SYMLINKED\
 C:\pf\Git\bin\bash.exe
 exit

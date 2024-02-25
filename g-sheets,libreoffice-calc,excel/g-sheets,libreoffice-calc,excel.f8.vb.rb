@@ -335,3 +335,44 @@ but
 	  ]
 	}
   }
+
+
+
+
+  https://www.reddit.com/r/sheets/comments/1aclkvq/need_to_edit_output_format_of_very_long_formula/
+
+
+  =let(
+ setRows,lambda(d,n,byrow(sequence(n),lambda(i,iferror(index(d,i,0))))),
+ data, 'Build Sample Here'!A3:J24,
+ numLists, H2,
+ numTuplesPerList, G2,
+ headers_, lambda(i, hstack(if(i, "List " & i, "Unassigned"), "Cat", "", "Age", "Pro", "Leader", "Follower", "Studio", "Instructor (if AA)", "(Level)")),
+ sortKeys_, lambda(d, ifna(match(choosecols(d, 10), 'Build Sample Here'!M28:M33, 0))),
+ firstCol_, lambda(d, choosecols(d, 1)),
+ leaders_, lambda(d, choosecols(d, 6)),
+ followers_, lambda(d, choosecols(d, 7)),
+ leadersAndFollowers_, lambda(d, vstack(leaders_(d), followers_(d))),
+ filtered, filter(data, len(leaders_(data)), len(followers_(data))),
+ table, sort(filtered,
+   countif(followers_(filtered), followers_(filtered)), false,
+   countif(leaders_(filtered), leaders_(filtered)), false
+ ),
+ blankRow, wraprows(, columns(table), ),
+ nullRow, tocol(æ, 2),
+ reduce(nullRow, sequence(numLists + 1), lambda(result, i,
+  let(remaining, filter(table, iserror(match(firstCol_(table), firstCol_(result), 0))),
+      unsorted,reduce(nullRow,sequence(rows(remaining)),lambda(list, j,
+       let(assigned, leadersAndFollowers_(list),
+           candidate, index(remaining, j),
+        if(rows(list) = numTuplesPerList, list,
+         if(countif(assigned, leaders_(candidate)), list,
+          if(countif(assigned, followers_(candidate)), list,
+           vstack(list, candidate))))))),
+      sorted, sort(unsorted, sortKeys_(unsorted), true),
+      nowRemaining, filter(table, iserror(match(firstCol_(table), firstCol_(sorted), 0))),
+   if(iserror(nowRemaining) + (i > numLists),
+    if(iserror(nowRemaining), result, ifna(vstack(result, blankRow, headers_(0),setRows(remaining,7)))),
+      vstack(result, blankRow, headers_(i), setRows(if(rows(unsorted), sorted, remaining),7)))))))
+
+
