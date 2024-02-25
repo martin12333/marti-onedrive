@@ -5,7 +5,12 @@
 
 #import nltk, re, pprint
 #from nltk import word_tokenize
-import glob, re
+import glob, re, codecs
+from bs4 import BeautifulSoup    #, CData
+#import html.parser
+import html
+
+
 
 
 # In[1]:
@@ -19,21 +24,41 @@ file_list = glob.glob(glo)
 print(file_list)
 file_path = file_list[0]    # "your_file.txt"  # Replace with the actual path to your text file
 
+# In[1]:
+
+# Specify the filename and desired mode ('r' for reading)
+filename =file_path # 'your_damaged_file.txt'
+
+try:
+    # Open the file with UTF-8 encoding and ignore any errors
+    with codecs.open(filename, mode='r', encoding='utf-8', errors='ignore') as file:
+        content = file.read()
+        ##print(content)  # Process the content as needed
+except FileNotFoundError:
+    print(f"File '{filename}' not found.")
+except UnicodeDecodeError:
+    print(f"Error decoding '{filename}' as UTF-8.")
+
+
+
+content= re.sub(r"[\x00-\x08\x0b-\x1f\x7f]", "�", content)
+
+
+
 
 #path = '/mnt/dee/Downloads/s.f/8089759_xml_2015_09_13_8f09c.xml'
 #path = '/home/martin/Downloads/1997 LETTER TO SHAREHOLDERS_2015_09_02_6e847 (copy).xml'
 #/home/martin/Downloads/tr-cduvozmezera-~uvoz.xml
 #path = '/home/martin/Downloads/tr.xml'
-path = '/home/martin/Dropbox/dis-DIIGO.g6/2017_04_08-bez-cntrl.xml'
-
-from bs4 import BeautifulSoup, CData
-
-soup = BeautifulSoup(open(path,'r'),  'xml')
+#path = '/home/martin/Dropbox/dis-DIIGO.g6/2017_04_08-bez-cntrl.xml'
 
 
+#soup = BeautifulSoup(   open(path,'r'),  'xml')
+soup = BeautifulSoup( content,  'xml')
 
-import html.parser
-html_parser = html.parser.HTMLParser()
+
+#html_parser = html.parser.HTMLParser()
+html_parser = html
 
 
 # In[2]:
@@ -61,6 +86,7 @@ textl=[
     ).get_text()
     for x in soup.findAll('item')
 ]
+
 
 
 # In[4]:

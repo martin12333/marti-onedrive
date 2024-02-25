@@ -9876,3 +9876,25 @@ git commit -v -a -m backup
 git push
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
 dir d:\umarti\dowNLOADS--SYMLINKED\808*.xml
+cd ..\808-diigo-pinned\
+git add .\rss2lines-x00-latin-1.py
+git commit -v -a -m backup
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
+git push
+conda activate pip310ecco
+ & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '52213' '--' 'C:\Users\marti\OneDrive\codewars,haskell,math\vscode-python-cells.f8.py' 
+ c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '53051' '--' 'C:\Users\marti\OneDrive\codewars,haskell,math\vscode-python-cells.f8.py' 
+ c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '53478' '--' 'C:\Users\marti\OneDrive\codewars,haskell,math\vscode-python-cells.f8.py' 
+ c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '53740' '--' 'C:\Users\marti\OneDrive\codewars,haskell,math\vscode-python-cells.f8.py' 
+ c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '55726' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py' 
+ c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '56203' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py' 
+ c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '56840' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py' 
+ c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '58031' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py' 
+uyiuyi c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '59829' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py' 
+ c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '63299' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py' 
+ c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '49452' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py' 
+ c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '50799' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py' 
+ c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '52127' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py' 
+ c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '52276' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py' 
+ c:; cd 'c:\Users\marti\OneDrive'; & 'D:\conda\envs\pip310ecco\python.exe' 'c:\Users\marti\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '52849' '--' 'C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py' 
