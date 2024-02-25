@@ -1,9 +1,12 @@
 
 exit
 
-see also
-file:///C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml.f8.py
+echo '-------- section --------'
 
+old debug
+
+file:///
+C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py
 
 c:\Users\marti\OneDrive\808-diigo-pinned\tr-sed-iconv\
 
@@ -11,7 +14,28 @@ d:\umarti\doWNLOA--20s--SYMLINKED--20s--allyears\808-diigo\
 
 d:\umarti\dr4\dis-DIIGO-thunderbird-rss\dis-DIIGO-thunderbird-rss\
 
+echo '-------- section --------'
 
+
+
+
+#pwsh
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
+#echo CWE-426--Untrusted-Search-Path
+$env:path
+
+
+f1 py sel interpr
+
+dir d:\umarti\dowNLOADS--SYMLINKED\808*.xml
+
+file:///C:\Users\marti\OneDrive\808-diigo-pinned\rss2lines-x00-latin-1.py
+
+
+python -i -u
+#ipython -i -u
+ipython -i
+quit()
 
 
 cd d:\umarti\dowNLOADS--SYMLINKED\
