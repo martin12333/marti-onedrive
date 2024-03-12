@@ -1,7 +1,63 @@
 visual_conlangs.f8.md
 
 
+
+
 EDIT: it's interesting to paste what I have written into the https://lingojam.com/EmojiTranslator%28Iconic%29
+
+
+a nice quote: "Supporting Bliss means performing an important service to mankind" - Bertrand Russell (1950)
+
+
+I have to remind myself, what I wrote months ago: the first post was https://www.facebook.com/groups/381043692614545/posts/1295299234522315/
+
+
+
+i have edited my post #2 :   EDIT: but if you prefer/are on a mobile, there is owencm intro https://owencm.github.io/bliss-book , and some youtube videos .. https://www.youtube.com/watch?v=hdiO_PYcOI8
+EDIT: and there is a good dictinary at Xelify https://blissary.com/blissdictionary/?q=inspir
+
+
+Oh that is beautiful Thank you for this
+
+i hope, i havent overloaded you with too much Bliss links
+
+ (. I am still New to emojis . And their meanings .but they are important for visual conlangs)
+
+
+My Dream project is to make con Languages, that are Crossover of blissymbols and emojis
+
+
+In Bliss and EmojiBliss:
+
+* 💛 [feeling](https://www.xelify.se/blissdictionary/?q=feeling)
+
+*  °💛 [heart](https://www.xelify.se/blissdictionary/?q=heart) ... thing-indicator(feeling)
+
+* -💛->  [love](https://www.xelify.se/blissdictionary/?q=love) ... feeling(arrow)
+
+
+
+
+Oh, that is cool, and how may I help?
+
+re: cool help
+
+I would suggest moving this discussion into some **group**
+I know about these possibilities:
+
+1. reddit visual_conlangs, public, 100+ people
+2. facebook visual conlangs, public, 100- people
+3. facebook daily visual conlangs, public, a few people historically
+4. facebook "post-bliss", Private, a few people historically
+5. reddit daily visual conlangs, public, 2? people historically
+6. facebook-messenger  "post-bliss", Private, a few people historically
+
+(i would prefer a **public** group)
+
+which possibilities would you prefer?
+
+
+
 
 
 
@@ -76,6 +132,33 @@ In Bliss and EmojiBliss:
 * -💛->  [love](https://www.xelify.se/blissdictionary/?q=love) ... feeling(arrow)
 
 
+
+EmojiBliss
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ... Some symbols like ❤️ love are widely used, ...
 In Bliss and EmojiBliss:
 - 💛 feeling
@@ -106,7 +189,7 @@ EDIT: another interesting experiment is to search through Iconic.ahk for an emoj
 
 
 
-"C:\Users\marti\OneDrive\Visual_Conlangs\Iconic.ahk"
+file:///C:\Users\marti\OneDrive\Visual_Conlangs\Iconic.ahk
 
 
 
