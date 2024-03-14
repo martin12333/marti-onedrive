@@ -27,6 +27,19 @@ i hope, i havent overloaded you with too much Bliss links
 My Dream project is to make con Languages, that are Crossover of blissymbols and emojis
 
 
+>... Some symbols like ❤️ `love` are widely used, ...
+
+For a comparison, some related words, expressed in the standard Bliss, ... and in  UnicodeBliss (UnicodeBliss  are rough approximations to the standard Bliss, using today's Unicode):
+
+* [feeling](https://www.xelify.se/blissdictionary/?q=feeling) ... 💛
+* [heart](https://www.xelify.se/blissdictionary/?q=heart) ... thing-indicator(feeling) ...  ▫️💛
+* [love](https://www.xelify.se/blissdictionary/?q=love) ... feeling(arrow) ... ⤚💛→
+
+EDIT: it's interesting to paste what I have written into the [https://lingojam.com/EmojiTranslator%28Iconic%29](https://lingojam.com/EmojiTranslator%28Iconic%29)
+
+EDIT: another interesting experiment is to search through Iconic.ahk for an emoji Unicode string, e.g. ❤️⭐
+
+
 In Bliss and EmojiBliss:
 
 * 💛 [feeling](https://www.xelify.se/blissdictionary/?q=feeling)
