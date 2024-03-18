@@ -111,6 +111,22 @@ doufám, že moje zprávy **nerozsvítí** v noci vaše mobily ...
 
 
 
+# vsc VIEWER QUIRK   ::thread::
+    std::cout << "Number of CPU Cores: " << std::thread::hardware_concurrency() << std::endl;
+
+
+    std::ifstream cpuinfo("/proc/cpuinfo");
+#include <thread>
+    std::cout << "Number of CPU Cores: " << std::thread::hardware_concurrency() << std::endl;
+
+
+    extern char **environ;
+    int i = 0;
+    while (environ[i] != NULL) {
+        std::cout << environ[i] << std::endl;
+        i++;
+    }
+
 
 # todo
 
@@ -127,14 +143,14 @@ https://codedamn.com/news/company/how-to-use-codedamn-playgrounds
 https://codedamn.com/playground/hHntHNXwrILBGG6wqoNQm
 
 
-// todo: google-search "bits/stdc++.h"
-It is basically a header file that includes every standard library. In programming contests, using this file is a good idea, when you want to reduce the time wasted in doing chores; especially when your rank is time sensitive.Jun 13, 2022
-#include <bits/stdc++.h>
-
-
 
 ```cpp
 
+
+//  google-search "bits/stdc++.h" ...
+// It is basically a header file that includes every standard library. ...
+//// MB: commented-out
+//// #include <bits/stdc++.h>
 
 #include <iostream>
 #include <cstdlib>
@@ -145,8 +161,7 @@ int main()
 {
    cout << "Hello world from  codedamn.com/playground "  << endl;
 
-
-    // from https://codedamn.com/ai
+    // copied from Ai   https://codedamn.com/ai
     // edited
     std::cout << "getenv MACHTYPE: " << std::getenv("MACHTYPE") << std::endl;
 
@@ -154,6 +169,8 @@ int main()
 
    return 0;
 }
+
+
 
 
 ```
