@@ -1,13 +1,70 @@
 
-
-
-můžete mi občas něco z těch programů poslat ... slibuju, že nebudu kritizovat
-
+# můžete mi občas něco z těch programů poslat ... slibuju, že nebudu kritizovat
 
 
 
+https://www.diigo.com/user/martin12333?query=
+#todoTODO
+
+https://www.diigo.com/user/martin12333?query=
+#into-g.....  -chat
 
 
+
+
+
+
+
+
+
+
+
+# chat
+
+Ahoj Edo,
+zapoměl jsem říct, že na Youtube je spousta kurzů programování pro začátečníky, např. Javascript, ale to asi víš.
+(Javascript je teď asi vedoucí jazyk, C a C++ byli jeho předkové)
+(there are a lot of beginner programming courses at Youtube, eg Javascript)
+
+
+
+
+# r/dadforaminute
+
+Anyone here learning programming? What language? What course do you use?
+
+(My nephew is learning programming.)
+
+What have you written?
+(Of course, I won't criticize, I promise.)
+
+
+
+
+# https://mail.google.com/chat/u/0/#chat/space/AAAAKqmKeeY
+
+# Displaying Do you want icecream.txt.
+
+```cpp
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    char yn;
+    char y = 'y';
+    char n = 'n';
+    cout << "(You and your friend are walking on the street) Hej! I'm hungry, do you want some icecream? (y/n)" << endl;
+
+   cin >> yn;
+    if(yn == y){
+        cout << "Okay! (You go up to the icecream van down the street but your friend doesn't have anymore money left)" << endl;
+        cout << "Hej! I don't have any money left! Can you give me some money? (y/n)" << endl;
+        cin >> yn;
+        if(yn == y){
+            cout << "(You give some money to your friend) Thanks! (And you two eat your icecream) [end]" << endl;
+...
+```
 
 
 
@@ -21,41 +78,10 @@ Edo, co teď čteš Ty? Umíš okopírovat webovou adresu sem do tohoto chatu po
 
 
 
-
-
-
-
-
-
-
-
-
-r/dadforaminute
-
-Anyone here learning programming? What language? What course do you use?
-
-(My nephew is learning programming.)
-
-What have you written?
-(Of course, I won't criticize, I promise.)
-
-
-
-
-Ahoj Edo,
-zapoměl jsem říct, že na Youtube je spousta kurzů programování pro začátečníky, např. Javascript, ale to asi víš.
-(Javascript je teď asi vedoucí jazyk, C a C++ byli jeho předkové)
-(there are a lot of beginner programming courses at Youtube, eg Javascript)
-
-
-
-
-
 mám teď bohužel přetočený režim dne a noci ...
  doufám, že moje zprávy *nerozsvítí* vaše mobily ... zkusím to otestovat ... přidat do skupinky i Milana-Boka-75
 * dá se nastavit v Androidu hodiny od-do pro režim "Do not disturb" == "*Nerušit*" ...
 * mohu nahrát video-záznam obrazovky mobilu, jak se to nastavuje
-
 
 
 
@@ -67,20 +93,6 @@ webová adresa je
 https://chat.google.com
 
 )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 tasks
@@ -95,6 +107,39 @@ jen info:
 doufám, že moje zprávy **nerozsvítí** v noci vaše mobily ... 
 * dá se nastavit v Androidu hodiny od-do pro režim "Do not disturb" == "**Nerušit**" ...
 * mohu nahrát video-záznam obrazovky mobilu, jak se to nastavuje
+
+
+
+
+
+# todo
+
+
+https://codedamn.com/news/company/how-to-use-codedamn-playgrounds
+
+https://codedamn.com/playground/hHntHNXwrILBGG6wqoNQm
+
+```cpp
+
+#include <iostream>
+// #include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+   cout << "Hello world from  codedamn.com/playground "  << endl;
+   return 0;
+}
+
+
+```
+
+
+https://codedamn.com/learn/cpp-language/c-syntax-and-structure/variables-declaring-and-initializing-variables-data-types-and-type-casting.lsRYf3yLoPAfPTi_S2EQv
+
+
+
 
 
 můžete mi občas něco z těch programů poslat ... slibuju, že nebudu kritizovat
