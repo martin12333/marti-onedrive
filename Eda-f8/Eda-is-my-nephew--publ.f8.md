@@ -161,14 +161,19 @@ int main()
 {
    cout << "Hello world from  codedamn.com/playground "  << endl;
 
-    // copied from Ai   https://codedamn.com/ai
-    // edited
-    std::cout << "getenv MACHTYPE: " << std::getenv("MACHTYPE") << std::endl;
+   // copied from Ai   https://codedamn.com/ai
+   // edited heavily
 
+   ////cout << "getenv : " << getenv("OSTYPE") << endl;
+   cout << "getenv : " << getenv("PATH") << endl;
+   ////cout << "getenv MACHTYPE: " << getenv("MACHTYPE") << endl;
+   ////std::cout << "getenv MACHTYPE: " << std::getenv("MACHTYPE") << std::endl;
 
+   cout << "---------------\n==== "  << endl;
 
    return 0;
 }
+
 
 
 
