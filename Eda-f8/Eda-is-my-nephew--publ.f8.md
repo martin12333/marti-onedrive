@@ -7,7 +7,7 @@ https://www.diigo.com/user/martin12333?query=
 #todoTODO
 
 https://www.diigo.com/user/martin12333?query=
-#into-g.....  -chat
+#into-chat
 
 
 
@@ -115,20 +115,43 @@ doufám, že moje zprávy **nerozsvítí** v noci vaše mobily ...
 # todo
 
 
+
+https://codedamn.com/ai
+
+
+Are there any standard C++ libraries (modules) to get info about the computer system and machine type?
+
+
 https://codedamn.com/news/company/how-to-use-codedamn-playgrounds
 
 https://codedamn.com/playground/hHntHNXwrILBGG6wqoNQm
 
+
+// todo: google-search "bits/stdc++.h"
+It is basically a header file that includes every standard library. In programming contests, using this file is a good idea, when you want to reduce the time wasted in doing chores; especially when your rank is time sensitive.Jun 13, 2022
+#include <bits/stdc++.h>
+
+
+
 ```cpp
 
+
 #include <iostream>
-// #include <bits/stdc++.h>
+#include <cstdlib>
 
 using namespace std;
 
 int main()
 {
    cout << "Hello world from  codedamn.com/playground "  << endl;
+
+
+    // from https://codedamn.com/ai
+    // edited
+    std::cout << "getenv MACHTYPE: " << std::getenv("MACHTYPE") << std::endl;
+
+
+
    return 0;
 }
 
