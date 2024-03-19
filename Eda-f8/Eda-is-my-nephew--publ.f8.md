@@ -110,6 +110,7 @@ doufám, že moje zprávy **nerozsvítí** v noci vaše mobily ...
 
 
 
+# extra
 
 # vsc VIEWER QUIRK   ::thread::
     std::cout << "Number of CPU Cores: " << std::thread::hardware_concurrency() << std::endl;
@@ -131,26 +132,41 @@ doufám, že moje zprávy **nerozsvítí** v noci vaše mobily ...
 # todo
 
 
+Nevěděl jsem, že codedamn.com má i vlastní  umělou inteligenci ...
+https://codedamn.com/ai
 
 https://codedamn.com/ai
 
 
 Are there any standard C++ libraries (modules) to get info about the computer system and machine type?
 
-
-https://codedamn.com/news/company/how-to-use-codedamn-playgrounds
-
-https://codedamn.com/playground/hHntHNXwrILBGG6wqoNQm
-
-
-
-```cpp
+====
 
 
 //  google-search "bits/stdc++.h" ...
 // It is basically a header file that includes every standard library. ...
 //// MB: commented-out
 //// #include <bits/stdc++.h>
+
+    cout << "---------------\n==== "  << endl;
+
+
+# todo
+
+Ahoj Edo, 
+
+**vše nejlepší k svátku Ti přeje strejda Milan i babička.**
+
+Můžeš sem někdy poslat ještě nějaký další svůj program.
+
+Já jsem také připravil prográmek.
+Nevěděl jsem, že codedamn.com nabízí zdarma online playgrounds.
+https://codedamn.com/news/company/how-to-use-codedamn-playgrounds
+
+(můj prográmek vypisuje nějakou info o tom playgroundu)
+https://codedamn.com/playground/hHntHNXwrILBGG6wqoNQm
+
+```cpp
 
 #include <iostream>
 #include <cstdlib>
@@ -159,26 +175,32 @@ using namespace std;
 
 int main()
 {
-   cout << "Hello world from  codedamn.com/playground "  << endl;
-
-   // copied from Ai   https://codedamn.com/ai
-   // edited heavily
-
-   ////cout << "getenv : " << getenv("OSTYPE") << endl;
-   cout << "getenv : " << getenv("PATH") << endl;
-   ////cout << "getenv MACHTYPE: " << getenv("MACHTYPE") << endl;
-   ////std::cout << "getenv MACHTYPE: " << std::getenv("MACHTYPE") << std::endl;
-
-   cout << "---------------\n==== "  << endl;
-
-   return 0;
+    cout << "Hello world from  codedamn.com/playground "  << endl;
+    
+    // some lines are copied from Ai   https://codedamn.com/ai
+    // edited heavily
+    // some lines are commented-out
+    
+    ////cout << "getenv : " << getenv("OSTYPE") << endl;
+    cout << "getenv : " << getenv("PATH") << endl;
+   
+    return 0;
 }
-
-
-
-
-
 ```
+
+
+
+
+# todo 
+
+However, this does not mean that playgrounds are not powerful. They are beasts. This is because these cloud development environments are:
+
+Available at a URL – from any device, anywhere in the world
+Syncs to AWS cloud securely.
+Uses dedicated compute for your code only (no CPU sharing with a heavy chrome browser running on your laptop)
+Can be easily scaled on CPU/RAM on the cloud
+Works on mobile phones
+Full Linux environments at your fingertips
 
 
 https://codedamn.com/learn/cpp-language/c-syntax-and-structure/variables-declaring-and-initializing-variables-data-types-and-type-casting.lsRYf3yLoPAfPTi_S2EQv
