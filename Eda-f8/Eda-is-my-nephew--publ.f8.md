@@ -3,11 +3,68 @@
 
 
 
-https://www.diigo.com/user/martin12333?query=
-#todoTODO
+https://www.diigo.com/user/martin12333?query=%23todoTODO
 
-https://www.diigo.com/user/martin12333?query=
-#into-chat
+https://www.diigo.com/user/martin12333?query=%23into-chat
+
+https://www.diigo.com/user/martin12333?query=%23Eda
+
+http://christianrubiales.com/hyperpoly/?q=cpp,typescript,javascript
+
+
+https://betaveros.github.io/hyperpolymorph/
+
+
+
+github
+EL-issues
+
+
+
+
+:+1:
+👍
+👎
+❓
+🕊️ Dove Emoji: Symbolizes peace
+
+
+
+
+# REACJI
+
+
+ahoj Edo,
+když napíšu něco sem do "skupinky", dozvíš se o tom? ... Nemusíš mi odpovídat slovně, stačí mi třeba 1 emoji, např.
+
+:+1:  👍
+:-1:  👎
+:question: emoji ❓  ?
+:ok: 🆗  ok
+
+nebo 
+emojis with the meaning: "I am busy" ....
+
+👨‍💻
+🏃
+🔕
+
+nebo, pochopím i emoji typu ⛔ ... chápu, že často píšu o věcech moc "vzdálených":
+
+⛔: Represents a stop sign, indicating that you’re unavailable or occupied.
+🚫: The no-entry sign, conveying that you’re not open for additional tasks.
+❌
+🔴
+📵
+📴
+
+
+
+
+
+
+
+
 
 
 
@@ -204,6 +261,8 @@ Full Linux environments at your fingertips
 
 
 https://codedamn.com/learn/cpp-language/c-syntax-and-structure/variables-declaring-and-initializing-variables-data-types-and-type-casting.lsRYf3yLoPAfPTi_S2EQv
+
+
 
 
 

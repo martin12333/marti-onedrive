@@ -9957,3 +9957,7 @@ git push
 git commit -v -a -m backup
 git push
 cd '.\screen-recorder,steps-recorder\'
+git add .\gitpinned-presso-settings.xml
+git commit -v -a -m backup
+git push
+když nap
