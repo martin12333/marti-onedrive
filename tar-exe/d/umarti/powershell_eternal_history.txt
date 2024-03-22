@@ -9961,3 +9961,8 @@ git add .\gitpinned-presso-settings.xml
 git commit -v -a -m backup
 git push
 když nap
+git commit -v -a -m backup
+git push
+podman start   -ai    cmy22b
+podman machine start
+podman start   -ai    cmy22b

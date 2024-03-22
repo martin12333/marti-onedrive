@@ -1,6 +1,14 @@
 
 # můžete mi občas něco z těch programů poslat ... slibuju, že nebudu kritizovat
 
+exit
+
+
+už několik dní píšu zprávy do toho **space in google-chat** , např. 
+https://chat.google.com/room/AAAAKqmKeeY/VgPdMqiepXg/VgPdMqiepXg?cls=10
+...   viděl jsi je  ?
+
+
 
 
 https://www.diigo.com/user/martin12333?query=%23todoTODO
@@ -21,6 +29,10 @@ EL-issues
 
 
 
+file:///C:\Users\marti\OneDrive\Eda-2022-nonshared\nonshar--Eda-is-my-nephew.md
+
+
+
 
 :+1:
 👍
@@ -33,12 +45,16 @@ EL-issues
 
 # REACJI
 
+https://chat.google.com/room/AAAAKqmKeeY/VgPdMqiepXg/VgPdMqiepXg?cls=10
+
+tasks
 
 ahoj Edo,
 když napíšu něco sem do "skupinky", dozvíš se o tom? ... Nemusíš mi odpovídat slovně, stačí mi třeba 1 emoji, např.
 
 :+1:  👍
 :-1:  👎
+:shrug:  🤷
 :question: emoji ❓  ?
 :ok: 🆗  ok
 
@@ -54,11 +70,23 @@ nebo, pochopím i emoji typu ⛔ ... chápu, že často píšu o věcech moc "vz
 ⛔: Represents a stop sign, indicating that you’re unavailable or occupied.
 🚫: The no-entry sign, conveying that you’re not open for additional tasks.
 ❌
-🔴
 📵
 📴
 
 
+:stop_button:
+:stop_sign:
+⏹️
+🛑
+
+::black
+:negative_squared_cross_mark:
+::cross
+
+
+😶
+
+::no
 
 
 
@@ -264,6 +292,12 @@ https://codedamn.com/learn/cpp-language/c-syntax-and-structure/variables-declari
 
 
 
+
+C:\Users\marti\OneDrive\Eda-f8\cpp.f8.sh.cpp
+
+
+
+C:\Users\marti\OneDrive\Eda-f8\codedamn.f8.sh
 
 
 
