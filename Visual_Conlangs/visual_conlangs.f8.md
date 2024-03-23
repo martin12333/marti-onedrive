@@ -2,6 +2,10 @@ visual_conlangs.f8.md
 
 
 
+My dream project is to make conlangs, that are crossovers of Blissymbols and Emojis.
+
+
+
 
 EDIT: it's interesting to paste what I have written into the https://lingojam.com/EmojiTranslator%28Iconic%29
 
@@ -69,6 +73,39 @@ I know about these possibilities:
 
 which possibilities would you prefer?
 
+
+
+so, i a few days, i hope i will make a post to "2. facebook visual conlangs, public, 100- people" ... then i will copy a link to the post here
+
+
+
+
+or rather:
+i plan to post several items, firstly only to the group
+"3. facebook daily visual conlangs, public, a few people historically".
+I will paste links to the new posts here.
+
+https://www.facebook.com/groups/381043692614545/posts/1391155861603318/
+
+
+@
+@Gamulot
+you know
+My dream project is to make conlangs, that are crossovers of Blissymbols and Emojis.
+
+During years,  I have made several attempts.
+
+Firstly, I will  collect links to the posts, that are scattered at Facebook, reddit, and google-drive (google-sheets).
+
+But this time, I will keep
+the **symbol-order**
+from the standard Blissymbolics
+unchanged.
+
+
+
+ ... as much as possible ...
+, especially 
 
 
 
