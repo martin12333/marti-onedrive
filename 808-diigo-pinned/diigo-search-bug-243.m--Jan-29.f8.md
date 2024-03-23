@@ -22,13 +22,29 @@ https://groups.diigo.com/group/Diigo_HQ?view=recent&type=topic
 
 
 # DONT EDIT TITLE, IT CHANGES THE URL, PINNED BY the BUG REPORT TO CONTACT
-diigo.com bug: search ......
-60000+ items ??
+diigo.com: 2 problems with search, 66000+ bookmarks
 
 tags
 bug
 
-I use diigo everyday. I have 66892 items.
+I use diigo everyday. I have 66892 items (bookmarks)
+
+Does anybody have so many bookmarks?
+
+now, when I search for a word, it seems, only items among the ~ 66000 firstly-created (oldest) items are searched (items before ~ Feb 1 for me)
+
+more specific estimate : 
+65696
+
+is there any known limit of the number of searched items?
+
+
+and the 2nd problem: when I search for a tag, I get
+
+Page 1 of 0 results for "#ANY_TAG_I_TRIED"
+There's no item!
+
+-----------------
 
 
 
@@ -72,11 +88,10 @@ https://www.diigo.com/user/martin12333?query=%23CONNECT
 
 
 
-https://www.diigo.com/user/martin12333?query=todo
 
-https://www.diigo.com/user/martin12333?query=the
+bash
 
-<pubDate>Mon, 29 Jan 2024 11:05:01 +0000</pubDate>
+nl "D:\umarti\dowNLOADS--SYMLINKED\8089rss2lines-242.p.txt" | grep -i   todo  | head -n 55
 
 
 https://www.diigo.com/user/martin12333?query=the&snapshot=yes
@@ -85,18 +100,9 @@ Date Created
 Feb 1, 2024
 Elon Musk (part 2) | Vatnik Soup1
 
-
-
-
-bash
-
-nl "D:\umarti\dowNLOADS--SYMLINKED\8089rss2lines-242.p.txt" | grep -i   todo  | head -n 55
-
 nl "D:\umarti\dowNLOADS--SYMLINKED\8089rss2lines-242.p.txt" | grep -i vatnik
 
-nl "D:\umarti\dowNLOADS--SYMLINKED\8089rss2lines-242.p.txt" | grep -i @seznam.cz  | head
 
-nl "D:\umarti\dowNLOADS--SYMLINKED\8089rss2lines-242.p.txt" | tail
 
 
 565
@@ -114,9 +120,29 @@ nl "D:\umarti\dowNLOADS--SYMLINKED\8089rss2lines-242.p.txt" | tail
 65656
 65650
 
+
+
+
+https://www.diigo.com/user/martin12333?query=todo
+
+nl "D:\umarti\dowNLOADS--SYMLINKED\8089rss2lines-242.p.txt" | grep -i @seznam.cz  | head
+
    621  @seznam.cz ";Annotations and Sticky notes:Highlight:Bcc: Milan.Bok@seznam.cz
 66261 - 621
 65640
+
+
+
+
+https://www.diigo.com/user/martin12333?query=the
+
+<pubDate>Mon, 29 Jan 2024 11:05:01 +0000</pubDate>
+
+#nl "D:\umarti\dowNLOADS--SYMLINKED\8089rss2lines-242.p.txt" | grep -i "Mon, 29 Jan 2024 11:05:01" | head
+
+
+
+nl "D:\umarti\dowNLOADS--SYMLINKED\8089rss2lines-242.p.txt" | tail
 
 66261  http://help.diigo.com/no-toolbar-simple-diigolet/getting-started-with-the-diigolet Getting Started with Diigolet - Diigo help Tags:Diigo,diigolet;Description:;Annotations and Sticky notes:
 
