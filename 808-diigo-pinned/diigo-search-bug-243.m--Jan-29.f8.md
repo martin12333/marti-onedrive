@@ -26,10 +26,15 @@ diigo.com: 2 problems with search, 66000+ bookmarks
 
 tags
 bug
+// resolved
 
+VISIBLE WORDS IN SNIPPETS ... GROUP VIEW Diigo_HQ
 I use diigo everyday. I have 66892 items (bookmarks)
 
 Does anybody have so many bookmarks?
+
+VISIBLE WORDS IN SNIPPETS ... GROUP VIEW Diigo_HQ
+~~~~~~~~~~~~
 
 now, when I search for a word, it seems, only items among the ~ 66000 firstly-created (oldest) items are searched (items before ~ Feb 1 for me)
 
@@ -50,7 +55,7 @@ There's no item!
 google search
 site:https://groups.diigo.com/group/Diigo_HQ/content 
 30 attempts
-
+"diigo" "search" 66000
 
 
 
