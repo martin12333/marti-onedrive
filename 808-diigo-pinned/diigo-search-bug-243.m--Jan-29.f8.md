@@ -35,6 +35,7 @@ now, when I search for a word, it seems, only items among the ~ 66000 firstly-cr
 
 more specific estimate : 
 65696
+65696
 
 is there any known limit of the number of searched items?
 
@@ -45,6 +46,11 @@ Page 1 of 0 results for "#ANY_TAG_I_TRIED"
 There's no item!
 
 -----------------
+
+google search
+site:https://groups.diigo.com/group/Diigo_HQ/content 
+30 attempts
+
 
 
 
