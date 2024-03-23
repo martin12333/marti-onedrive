@@ -6,6 +6,21 @@ diigo.com discussion forums
 https://groups.diigo.com/group/Diigo_HQ?view=recent&type=topic
 
 
+
+
+
+<item>
+<title>About Diigo | Diigo</title>
+<link>https://www.diigo.com/about</link>
+<description> <p></p> <strong>Annotations:</strong> <ul class="diigo-annotations" > <li> <div class="diigoContent"><div class="diigoContentInner"><p>Pronounced as Dee'go, it is an abbreviation for "Digest of Internet Information, Groups and Other stuff." You see, we especially like the "Other stuff" part, which gives us an open mandate to relentlessly innovate and provide better and better value to our users. </p>&nbsp;&nbsp; <h2></h2></div></div> </li> <li> <div class="diigoContent"><div class="diigoContentInner"><p>We are a 12-person team with diverse experience in software development, marketing, academia, and investment management, who share the common traits of information junkies :-) . We are developing Diigo to scratch our personal itch - how to make our life of working with information effortless.</p>&nbsp; <p></p></div></div> </li> </ul> </description>
+<pubDate>Sat, 23 Mar 2024 00:02:40 +0000</pubDate>
+<guid>https://www.diigo.com/about</guid>
+</item>
+
+
+
+
+
 # DONT EDIT TITLE, IT CHANGES THE URL, PINNED BY the BUG REPORT TO CONTACT
 diigo.com bug: search ......
 60000+ items ??
@@ -60,11 +75,50 @@ https://www.diigo.com/user/martin12333?query=%23CONNECT
 https://www.diigo.com/user/martin12333?query=todo
 
 https://www.diigo.com/user/martin12333?query=the
+
+<pubDate>Mon, 29 Jan 2024 11:05:01 +0000</pubDate>
+
+
 https://www.diigo.com/user/martin12333?query=the&snapshot=yes
 
 Date Created
 Feb 1, 2024
 Elon Musk (part 2) | Vatnik Soup1
+
+
+
+
+bash
+
+nl "D:\umarti\dowNLOADS--SYMLINKED\8089rss2lines-242.p.txt" | grep -i   todo  | head -n 55
+
+nl "D:\umarti\dowNLOADS--SYMLINKED\8089rss2lines-242.p.txt" | grep -i vatnik
+
+nl "D:\umarti\dowNLOADS--SYMLINKED\8089rss2lines-242.p.txt" | grep -i @seznam.cz  | head
+
+nl "D:\umarti\dowNLOADS--SYMLINKED\8089rss2lines-242.p.txt" | tail
+
+
+565
+65696
+
+ 566  https://vatniksoup.com/en/soups/203/ Elon Musk (part 2) | Vatnik Soup Tags:no_tag;Description:;Annotations and Sticky notes:Highlight:
+66261 - 566  
+65695
+
+66261 - 603
+65658
+
+??
+65700
+65656
+65650
+
+   621  @seznam.cz ";Annotations and Sticky notes:Highlight:Bcc: Milan.Bok@seznam.cz
+66261 - 621
+65640
+
+66261  http://help.diigo.com/no-toolbar-simple-diigolet/getting-started-with-the-diigolet Getting Started with Diigolet - Diigo help Tags:Diigo,diigolet;Description:;Annotations and Sticky notes:
 
 
 

@@ -9975,3 +9975,9 @@ git add -vv  '*.f8.*'
 git commit -v -a -m backup
 git push
 git commit -v -a -m backup
+git push
+bash
+1+1
+66261 - 566
+66261 - 621
+66261 - 603
