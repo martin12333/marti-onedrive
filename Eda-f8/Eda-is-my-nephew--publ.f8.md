@@ -1,9 +1,10 @@
 
 # můžete mi občas něco z těch programů poslat ... slibuju, že nebudu kritizovat
 
-## jde mi o to ... najit spolecna temata
+## jde mi o to ... najít společná témata
 
 exit
+
 
 
 🌟 Edd's studio replied: "I use OBS!"
@@ -14,46 +15,43 @@ I plan to use OBS too.
 
 
 
-už několik dní píšu zprávy do toho **space in google-chat** , např. 
-https://chat.google.com/room/AAAAKqmKeeY/VgPdMqiepXg/VgPdMqiepXg?cls=10
-...   viděl jsi je  ?
+Výhledově bychom možná mohli někdy zkusit spolupracovat ve VSCode pomocí  Microsoft Live Share.
 
 
 
+
+
+
+#  bohužel, diigo query teď zrovna nějak nefunguje, už jsem vyplnil bug-report
 
 https://www.diigo.com/user/martin12333?query=%23todoTODO
-
 https://www.diigo.com/user/martin12333?query=%23into-chat
-
 https://www.diigo.com/user/martin12333?query=%23Eda
 
+# Výhledově?
 http://christianrubiales.com/hyperpoly/?q=cpp,typescript,javascript
-
-
-https://betaveros.github.io/hyperpolymorph/
+//// https://betaveros.github.io/hyperpolymorph/
 
 
 
 github
 EL-issues
 
+nebo raději založit rodinný subreddit?
 
 
-file:///C:\Users\marti\OneDrive\Eda-2022-nonshared\nonshar--Eda-is-my-nephew.md
-
-
-
-
-:+1:
-👍
-👎
-❓
-🕊️ Dove Emoji: Symbolizes peace
 
 
 
 
 # REACJI
+
+
+🕊️ Dove Emoji: Symbolizes peace
+
+
+
+
 
 https://chat.google.com/room/AAAAKqmKeeY/VgPdMqiepXg/VgPdMqiepXg?cls=10
 
@@ -96,7 +94,7 @@ nebo, pochopím i emoji typu ⛔ ... chápu, že často píšu o věcech moc "vz
 
 😶
 
-::no
+// ::no  completions
 
 
 
@@ -174,29 +172,10 @@ Edo, co teď čteš Ty? Umíš okopírovat webovou adresu sem do tohoto chatu po
 
 
 mám teď bohužel přetočený režim dne a noci ...
- doufám, že moje zprávy *nerozsvítí* vaše mobily ... zkusím to otestovat ... přidat do skupinky i Milana-Boka-75
-* dá se nastavit v Androidu hodiny od-do pro režim "Do not disturb" == "*Nerušit*" ...
-* mohu nahrát video-záznam obrazovky mobilu, jak se to nastavuje
 
-
-
-
-
-(tohle asi všichni víte: 
-google-chat lze používat nejen na Androidu, ale i na počítači ....
-webová adresa je 
-https://chat.google.com
-
-)
 
 
 tasks
-
-jen info:
-tohle asi všichni víte: 
-google-chat lze používat nejen na Androidu, ale i na počítači ....
-webová adresa je 
-https://chat.google.com
 
 jen info:
 doufám, že moje zprávy **nerozsvítí** v noci vaše mobily ... 
@@ -207,7 +186,7 @@ doufám, že moje zprávy **nerozsvítí** v noci vaše mobily ...
 
 # extra
 
-# vsc VIEWER QUIRK   ::thread::
+# VSCode VIEWER QUIRK   ::thread::
     std::cout << "Number of CPU Cores: " << std::thread::hardware_concurrency() << std::endl;
 
 
@@ -230,7 +209,6 @@ doufám, že moje zprávy **nerozsvítí** v noci vaše mobily ...
 Nevěděl jsem, že codedamn.com má i vlastní  umělou inteligenci ...
 https://codedamn.com/ai
 
-https://codedamn.com/ai
 
 
 Are there any standard C++ libraries (modules) to get info about the computer system and machine type?
@@ -288,14 +266,13 @@ int main()
 
 # todo 
 
-However, this does not mean that playgrounds are not powerful. They are beasts. This is because these cloud development environments are:
+> However, this does not mean that playgrounds are not powerful. They are beasts. This is because these cloud development environments are:
 
 Available at a URL – from any device, anywhere in the world
-Syncs to AWS cloud securely.
-Uses dedicated compute for your code only (no CPU sharing with a heavy chrome browser running on your laptop)
-Can be easily scaled on CPU/RAM on the cloud
-Works on mobile phones
-Full Linux environments at your fingertips
+
+* Syncs to AWS cloud securely.
+* Works on mobile phones
+* Full Linux environments at your fingertips
 
 
 https://codedamn.com/learn/cpp-language/c-syntax-and-structure/variables-declaring-and-initializing-variables-data-types-and-type-casting.lsRYf3yLoPAfPTi_S2EQv
@@ -312,5 +289,43 @@ C:\Users\marti\OneDrive\Eda-f8\codedamn.f8.sh
 
 
 
-můžete mi občas něco z těch programů poslat ... slibuju, že nebudu kritizovat
+Ahoj Edo, včera jsem viděl Tvé nové video ... zmiňoval jsi  powerpoint ... znamená to, že už máš microsoftský účet?
 
+Já také mám microsoftský účet ... jako emailovou adresu má nastavenu 
+martin.....
+
+Mohli bychom sdílet 1 složku (folder) v OneDrive ... se soubory, které se týkají Codedamn.com .
+
+...
+
+Mimochodem, letos asi začnu platit Microsoft-365 pro naši rodinu ... vy už to také máte?
+
+
+
+jakou emailovou adresu má nastavenu Tvůj microsoftí účet? 
+https://account.microsoft.com/profile
+
+zkusim nasdilet 1 folder z meho onedrive pro  tuto emailovou adresu
+
+zatím jsem to nasdílel jen readonly, protože je tam chaos ... budu muset ty textove soubory ještě trochu editovat ... vyčistit
+( https://onedrive.live.com/    )
+
+
+
+
+
+# todo?
+
+google  L. site:codedamn
+https://codedamn.com/learn/intermediate-cpp
+
+https://codedamn.com/learn/linux-cli-fundamentals
+
+https://codedamn.com/learn/nodejs-fundamentals
+
+
+
+file:///C:\Users\marti\OneDrive\Eda-2022-nonshared\nonshar--Eda-is-my-nephew.md
+
+můžete mi občas něco z těch programů poslat ... slibuju, že nebudu kritizovat
+## jde mi o to ... najít společná témata

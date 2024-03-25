@@ -4,16 +4,13 @@
 )
 exit
 
+# in a Codedamn playground
 #  ^Sp
-#  ^Sp   F1
+#   F1
 
-# (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
+# (selected lines from this file can be run in a terminal ... e.g. in VSCode, by the F8 key, customly bound to runSelectedText  )
 
 echo '-------- section --------'
-
-## file:///C:\Users\marti\OneDrive\alma-233c\alma.f8.sh
-
-
 
 
 ls -la
@@ -63,3 +60,4 @@ OSTYPE=linux-gnu
 
 
 
+## file:///C:\Users\marti\OneDrive\alma-233c\alma.f8.sh

@@ -2,10 +2,12 @@ cpp.f8.sh.cpp
 
 exit
 
-file:///C:\Users\marti\OneDrive\Eda-f8\Eda-is-my-nephew--publ.f8.md
 
-todo
-presun do jineho souboru asi
+
+
+
+// experiments in my local-playground ... Linux
+
 
 
 podman machine start
@@ -88,7 +90,7 @@ grep -i max  /usr/include/limits.h
 #  undef LDBL_MIN_10_EXP
 
 ls /usr/include/f*
-ls /usr/include/*flo*
+#   ls /usr/include/ *flo*
 ls /usr/include/finclude
 head -n 87 /usr/include/math.h
 
