@@ -118,7 +118,7 @@ I am glad, that the symbol-order is the English-like, and not the opposite, like
 I am glad, that the symbol-order (inside words) here is English-like ... like "ADJECTIVE NOUN" ... and not the opposite, like in Bliss ... like NOUN(ADJECTIVE) .... I mean https://www.reddit.com/r/visual_conlangs/comments/i73ipj/btw_i_believe_bliss_has_an_unfortunate/
 
 
-
+EDIT 2024: not unfortunate ... Toki Pona, and Unicode Emoji ZWJ sequences, have the same symbol-order as Bliss
 
 BTW, I believe Bliss has an unfortunate symbol-order ... just the opposite of the English word-order ... e.g. work-day in Bliss is [day][work]
 ... in Bliss, the symbol order inside words, e.g. [day][work], is ... like NOUN(ADJECTIVE) ... like NOUN (of) ADJECTIVE ... day of work ... basically, a day

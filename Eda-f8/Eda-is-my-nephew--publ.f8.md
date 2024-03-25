@@ -1,7 +1,17 @@
 
 # můžete mi občas něco z těch programů poslat ... slibuju, že nebudu kritizovat
 
+## jde mi o to ... najit spolecna temata
+
 exit
+
+
+🌟 Edd's studio replied: "I use OBS!"
+
+# TODO
+I plan to use OBS too.
+
+
 
 
 už několik dní píšu zprávy do toho **space in google-chat** , např. 
