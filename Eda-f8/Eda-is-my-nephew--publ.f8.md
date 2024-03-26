@@ -6,9 +6,14 @@
 exit
 
 
-(zkousim ruzne metody predavani a sdileni souboru == files)
+# (zkousim ruzne metody predavani a sdileni souboru == files)
+tasks
+ways of file sharing
+////only Eda can edit
+sel all vvvvv
+---------------
 
-# task: ways of file sharing
+
 
 * zalozka files na https://mail.google.com/chat/u/0/#chat/space/AAAAKqmKeeY
   * kde ta zalozka je videt https://photos.app.goo.gl/exA8yaMJYSVWWeJ96
@@ -20,13 +25,36 @@ https://1drv.ms/f/s!AmAoKpONKRJL8S6G1YxpC-ocl7cN?e=7gUcjF
 anyone with the link can view
 
 * OneDrive folder ...writable-folder
-https://onedrive.live.com/?id=4B12298D932A2860%2119717&cid=4B12298D932A2860
-only Eda can edit
+https://1drv.ms/f/s!AmAoKpONKRJLgZoFwXgom2mJidYj0Q?e=SOpyvw
+anyone with the link can edit
+
+
+
+* google drive Martin Milan -- everybody
+https://drive.google.com/drive/folders/1E3pbV3m7Aj5NTUUWb79o9JfGqbqocCsZ?usp=sharing
+anyone w link can view
+
+
+* google drive Martin Milan -- INBOX
+https://drive.google.com/drive/folders/1W7-TuBPvtfx9QrQqbSleB6v6PqZOLSbn?usp=sharing
+anyone w link can edit
+
+* (google drive Martin Milan to Eda, Iva, Jiří, Vašek (alphabetically))
+some people can view, but Lj cannot
+todo add the new g/Eda
+https://drive.google.com/drive/folders/0B2VSGZcS6HOTZlMtWDlBalFEOGs?resourcekey=0-pQfCDl-HTgx8Y7eZNqwtEg&usp=sharing
+
 
 * google photos album tech--Laifrovi,Bokovi 
 https://photos.app.goo.gl/c3GSoAhj3cGCvEhB9
 
+* oldest ways: LAN filesharing, email, flashdisk
 
+
+
+
+----------------------------------
+^^^^^^^^^^^
 
 # 🌟 Edd's studio replied: "I use OBS!"
 
