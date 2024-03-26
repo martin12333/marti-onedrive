@@ -31,10 +31,14 @@
 
 ;============================== Start Auto-Execution Section ==============================
 
-#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+#NoEnv
+
+ ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; Avoids checking empty variables to see if they are environment variables.
 
-#Warn  ; Enable warnings to assist with detecting common errors.
+#Warn
+
+ ; Enable warnings to assist with detecting common errors.
 
 
 ;EDIT SendMode changed to default BECAUSE OF https://www.autohotkey.com/board/topic/55491-windows-key-still-pressed-after-script-execution/
@@ -117,6 +121,8 @@ $;::Send {:}
 
 ;2023-08 =~= 238
 
+;  TODO CHANGE THESE TO CUT COPY PASTE ^x  ^c  ^v
+
 $NumpadDiv::Send {<}
 $NumpadMult::Send {>}
 $NumpadSub::Send {~}
@@ -139,6 +145,9 @@ $NumpadSub::Send {~}
 ;; keybindings.json off
 
 
+
+
+;  I HAVE AN EURO KEYBOARD
 ;DC  02B	 	u	0.13	\         backslash
 ;not E2  056	 	u	0.16	\   backslash
 ;test ......;.;.;:::;;""""\\""\\""\\;;;  """"""""
@@ -160,6 +169,7 @@ $SC02B::Send {"}
 ; experiments unrelated to layout
 
 ;~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~
+
 
 #IfWinActive ahk_exe msedge.exe
 
@@ -229,6 +239,8 @@ $Insert::
 
 ; The second #IfWinActive is to indicate anything past this
 ; point will work in any program.
+
+
 #IfWinActive
 
 
@@ -243,9 +255,11 @@ $Insert::
 
 
 
-
+; @@@@@@@@@@@@@@@
+; *********************************************
 ;============================== DO TEST, BECAUSE IT IS AUTORUN  ==============================
 
-;test :   win+q AutoHotkey  reload in ahk and try the last command \ """"""  #p  ""
+;test :   win+q AutoHotkey run the app ... it asks to reload this ahk file; and then try the last command \ """"""  #p  ""
 
-
+; ^`    f1 togg terminal
+; git commit
