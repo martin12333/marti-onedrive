@@ -6,8 +6,29 @@
 exit
 
 
+(zkousim ruzne metody predavani a sdileni souboru == files)
 
-🌟 Edd's studio replied: "I use OBS!"
+# task: ways of file sharing
+
+* zalozka files na https://mail.google.com/chat/u/0/#chat/space/AAAAKqmKeeY
+  * kde ta zalozka je videt https://photos.app.goo.gl/exA8yaMJYSVWWeJ96
+  * kupodivu 1 fail ... nevlozil, kdyz file byl obrazek ... nezbylo nez hodit obrazek do chatu a do google photos
+
+
+* OneDrive folder Eda-f8
+https://1drv.ms/f/s!AmAoKpONKRJL8S6G1YxpC-ocl7cN?e=7gUcjF
+anyone with the link can view
+
+* OneDrive folder ...writable-folder
+https://onedrive.live.com/?id=4B12298D932A2860%2119717&cid=4B12298D932A2860
+only Eda can edit
+
+* google photos album tech--Laifrovi,Bokovi 
+https://photos.app.goo.gl/c3GSoAhj3cGCvEhB9
+
+
+
+# 🌟 Edd's studio replied: "I use OBS!"
 
 # TODO
 I plan to use OBS too.
@@ -15,7 +36,10 @@ I plan to use OBS too.
 
 
 
-Výhledově bychom možná mohli někdy zkusit spolupracovat ve VSCode pomocí  Microsoft Live Share.
+# Výhledově bychom možná mohli někdy zkusit spolupracovat ve VSCode pomocí  Microsoft Live Share.
+
+
+
 
 
 
@@ -24,9 +48,14 @@ Výhledově bychom možná mohli někdy zkusit spolupracovat ve VSCode pomocí  
 
 #  bohužel, diigo query teď zrovna nějak nefunguje, už jsem vyplnil bug-report
 
+https://groups.diigo.com/group/Diigo_HQ/content/diigo-com-2-problems-with-search-66000-bookmarks-20226820
+
 https://www.diigo.com/user/martin12333?query=%23todoTODO
 https://www.diigo.com/user/martin12333?query=%23into-chat
 https://www.diigo.com/user/martin12333?query=%23Eda
+
+
+
 
 # Výhledově?
 http://christianrubiales.com/hyperpoly/?q=cpp,typescript,javascript
@@ -34,10 +63,9 @@ http://christianrubiales.com/hyperpoly/?q=cpp,typescript,javascript
 
 
 
-github
-EL-issues
+# github EL-issues
 
-nebo raději založit rodinný subreddit?
+# nebo raději založit rodinný subreddit?
 
 
 
@@ -312,23 +340,6 @@ zatím jsem to nasdílel jen readonly, protože je tam chaos ... budu muset ty t
 
 
 
-
-tasks
-ways of file sharing
-
-* https://mail.google.com/chat/u/0/#chat/space/AAAAKqmKeeY
-  * https://photos.app.goo.gl/exA8yaMJYSVWWeJ96
-
-* OneDrive folder Eda-f8
-https://1drv.ms/f/s!AmAoKpONKRJL8S6G1YxpC-ocl7cN?e=7gUcjF
-anyone with the link can view
-
-* OneDrive folder ...writable-folder
-https://onedrive.live.com/?id=4B12298D932A2860%2119717&cid=4B12298D932A2860
-only Eda can edit
-
-* google photos album tech--Laifrovi,Bokovi 
-https://photos.app.goo.gl/c3GSoAhj3cGCvEhB9
 
 
 
