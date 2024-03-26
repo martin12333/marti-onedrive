@@ -313,6 +313,24 @@ zatím jsem to nasdílel jen readonly, protože je tam chaos ... budu muset ty t
 
 
 
+tasks
+ways of file sharing
+
+* https://mail.google.com/chat/u/0/#chat/space/AAAAKqmKeeY
+  * https://photos.app.goo.gl/exA8yaMJYSVWWeJ96
+
+* OneDrive folder Eda-f8
+https://1drv.ms/f/s!AmAoKpONKRJL8S6G1YxpC-ocl7cN?e=7gUcjF
+anyone with the link can view
+
+* OneDrive folder ...writable-folder
+https://onedrive.live.com/?id=4B12298D932A2860%2119717&cid=4B12298D932A2860
+only Eda can edit
+
+* google photos album tech--Laifrovi,Bokovi 
+https://photos.app.goo.gl/c3GSoAhj3cGCvEhB9
+
+
 
 # todo?
 
