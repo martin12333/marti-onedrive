@@ -7,6 +7,8 @@ exit
 
 
 # (zkousim ruzne metody predavani a sdileni souboru == files)
+tech_La_Bo
+tech.La.Bo.1024 at gm
 tasks
 ways of file sharing
 ////only Eda can edit
@@ -43,6 +45,8 @@ anyone w link can edit
 some people can view, but Lj cannot
 todo add the new g/Eda
 https://drive.google.com/drive/folders/0B2VSGZcS6HOTZlMtWDlBalFEOGs?resourcekey=0-pQfCDl-HTgx8Y7eZNqwtEg&usp=sharing
+
+
 
 
 * google photos album tech--Laifrovi,Bokovi 
