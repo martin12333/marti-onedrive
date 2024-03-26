@@ -2,7 +2,10 @@
 
 ; ahk 1.1
 
-; at C:\Users\marti\OneDrive\Dokumenty234\AutoHotkey.ahk
+
+; win + e / martin personal / documents ---> location ->
+; C:\Users\marti\OneDrive\Dokumenty234
+; this file is  at C:\Users\marti\OneDrive\Dokumenty234\AutoHotkey.ahk
 
 
 
