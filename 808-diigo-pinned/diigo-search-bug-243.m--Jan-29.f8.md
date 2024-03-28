@@ -26,12 +26,21 @@ diigo.com: 2 problems with search, 66000+ bookmarks
 
 tags
 bug
-// resolved
+// resolved?
 
 VISIBLE WORDS IN SNIPPETS ... GROUP VIEW Diigo_HQ
 I use diigo everyday. I have 66892 items (bookmarks)
 
 Does anybody have so many bookmarks?
+
+------
+EDIT: NO REPLIES?
+EDIT: THE NUMBER OF YOUR ITEMS (BOOKMARKS) IS AT THE BOTTOM OF YOUR "Library" PAGE, e.g.
+ 
+66935 items, 24 items/page  1 2 ... 2789
+
+( https://www.diigo.com/user/YOUR_USERNAME )
+------
 
 VISIBLE WORDS IN SNIPPETS ... GROUP VIEW Diigo_HQ
 ~~~~~~~~~~~~

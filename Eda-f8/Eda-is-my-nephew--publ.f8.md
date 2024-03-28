@@ -17,30 +17,41 @@ sel all vvvvv
 
 
 
+it's PUBL F8 here => DONT PUT 'ANYONE' LINKS HERE
+
+
 * zalozka files na https://mail.google.com/chat/u/0/#chat/space/AAAAKqmKeeY
   * kde ta zalozka je videt https://photos.app.goo.gl/exA8yaMJYSVWWeJ96
   * kupodivu 1 fail ... nevlozil, kdyz file byl obrazek ... nezbylo nez hodit obrazek do chatu a do google photos
 
 
+PUBL F8 DONT 'ANYONE LINKS
+
 * OneDrive folder Eda-f8
-https://1drv.ms/f/s!AmAoKpONKRJL8S6G1YxpC-ocl7cN?e=7gUcjF
 anyone with the link can view
 
 * OneDrive folder ...writable-folder
-https://1drv.ms/f/s!AmAoKpONKRJLgZoFwXgom2mJidYj0Q?e=SOpyvw
 anyone with the link can edit
 
 
 
+
+PUBL F8 DONT 'ANYONE LINKS
+
+todo add files
+* tech--Laifrovi,Bokovi--gdrive - Google Drive
+anyone with the link can  comment
+
+
+CUT OUT
 * google drive Martin Milan -- everybody
-https://drive.google.com/drive/folders/1E3pbV3m7Aj5NTUUWb79o9JfGqbqocCsZ?usp=sharing
 anyone w link can view
 
 
 * google drive Martin Milan -- INBOX
-https://drive.google.com/drive/folders/1W7-TuBPvtfx9QrQqbSleB6v6PqZOLSbn?usp=sharing
 anyone w link can edit
 
+LATER ... CONTROV
 * (google drive Martin Milan to Eda, Iva, Jiří, Vašek (alphabetically))
 some people can view, but Lj cannot
 todo add the new g/Eda
@@ -51,6 +62,7 @@ https://drive.google.com/drive/folders/0B2VSGZcS6HOTZlMtWDlBalFEOGs?resourcekey=
 
 * google photos album tech--Laifrovi,Bokovi 
 https://photos.app.goo.gl/c3GSoAhj3cGCvEhB9
+
 
 * oldest ways: LAN filesharing, email, flashdisk
 
