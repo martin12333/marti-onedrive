@@ -17,7 +17,7 @@ sel all vvvvv
 
 
 
-it's PUBL F8 here => DONT PUT 'ANYONE' LINKS HERE
+it's PUBL F8 here => DONT PUT 'ANYONE' LINKS HERE, @, 
 
 
 * zalozka files na https://mail.google.com/chat/u/0/#chat/space/AAAAKqmKeeY
@@ -55,13 +55,12 @@ LATER ... CONTROV
 * (google drive Martin Milan to Eda, Iva, Jiří, Vašek (alphabetically))
 some people can view, but Lj cannot
 todo add the new g/Eda
-https://drive.google.com/drive/folders/0B2VSGZcS6HOTZlMtWDlBalFEOGs?resourcekey=0-pQfCDl-HTgx8Y7eZNqwtEg&usp=sharing
 
 
 
+PUBL F8 DONT 'ANYONE LINKS
 
 * google photos album tech--Laifrovi,Bokovi 
-https://photos.app.goo.gl/c3GSoAhj3cGCvEhB9
 
 
 * oldest ways: LAN filesharing, email, flashdisk
@@ -107,9 +106,12 @@ http://christianrubiales.com/hyperpoly/?q=cpp,typescript,javascript
 
 
 
-# github EL-issues
+# github EL-issues??
 
-# nebo raději založit rodinný subreddit?
+# nebo raději 
+todo add files
+* tech--Laifrovi,Bokovi--gdrive - Google Drive
+anyone with the link can  comment
 
 
 
@@ -379,7 +381,10 @@ https://account.microsoft.com/profile
 
 zkusim nasdilet 1 folder z meho onedrive pro  tuto emailovou adresu
 
-zatím jsem to nasdílel jen readonly, protože je tam chaos ... budu muset ty textove soubory ještě trochu editovat ... vyčistit
+ jsem to nasdílel jen readonly, protože je tam chaos 
+A PROTOZE JA  EDIT V VSCode
+;;
+... budu muset ty textove soubory ještě trochu editovat ... vyčistit
 ( https://onedrive.live.com/    )
 
 
@@ -401,4 +406,5 @@ https://codedamn.com/learn/nodejs-fundamentals
 file:///C:\Users\marti\OneDrive\Eda-2022-nonshared\nonshar--Eda-is-my-nephew.md
 
 můžete mi občas něco z těch programů poslat ... slibuju, že nebudu kritizovat
+
 ## jde mi o to ... najít společná témata
