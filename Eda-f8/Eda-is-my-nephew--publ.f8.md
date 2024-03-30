@@ -5,6 +5,10 @@
 
 exit
 
+Ahoj Edo, 
+jsem rád  💛⬆️    , že se shodneme na hned několika dalších věcech, jako jsou např. VSCode, Gemini, diagramy s šipkami, Powershell, emojis, ...
+A už roky jsem asi neměl s kým mluvit o programovacích jazycích ...
+
 
 # (zkousim ruzne metody predavani a sdileni souboru == files)
 tech_La_Bo
@@ -107,11 +111,52 @@ http://christianrubiales.com/hyperpoly/?q=cpp,typescript,javascript
 
 
 # github EL-issues??
+https://github.com/martin12333/EL-issues/issues
 
-# nebo raději 
+# a/nebo raději 
 todo add files
 * tech--Laifrovi,Bokovi--gdrive - Google Drive
 anyone with the link can  comment
+
+
+
+
+💛⬆️ Up Arrow Emoji
+><💛❗‼️👍>
+
+viz ř.  11
+jsem rád  💛⬆️    , že se shodneme na hned několika dalších věcech, jako jsou např. VSCode, Gemini, diagramy s šipkami, Powershell, emojis, ...
+
+
+Takže, až Tě omrzí problémy s `delete` v C++, ...
+
+Včera jsem slíbil, že přijdu na to, jak udělat v Javascriptu ` cin >> yn; ` , tedy něco jako je `input` v Basicu a Pythonu.
+
+Ukázalo se, že to je asi jediná věc, která je v Javascriptu mnohem těžší, než by člověk považoval za rozumné.
+
+Podle mne je ve 3. měsíci studia ještě brzo na **callbacks** apod.
+
+Říká se, že programátor by měl navrhnout několik možností.
+
+Podíval jsem se na https://codedamn.com/playgrounds 
+
+přícházely by v úvahu
+
+* HTML/CSS/JS
+
+*
+
+* Python
+
+
+
+
+
+
+
+
+
+
 
 
 
