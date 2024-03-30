@@ -228,6 +228,7 @@
 	"workbench.panel.defaultLocation": "right",
 	"terminal.integrated.tabs.focusMode": "singleClick",
 	"window.zoomLevel": 1,
+	"workbench.colorTheme": "Default Light+",
 
 
 

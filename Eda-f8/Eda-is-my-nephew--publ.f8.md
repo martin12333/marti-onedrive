@@ -124,9 +124,10 @@ anyone with the link can  comment
 💛⬆️ Up Arrow Emoji
 ><💛❗‼️👍>
 
-viz ř.  11
-jsem rád  💛⬆️    , že se shodneme na hned několika dalších věcech, jako jsou např. VSCode, Gemini, diagramy s šipkami, Powershell, emojis, ...
 
+
+Ahoj Edo, 
+jsem rád  💛⬆️    , že se celkem **shodneme** na hned několika dalších věcech, jako jsou např. VSCode, Gemini, diagramy s šipkami, Powershell, emojis, ...
 
 Takže, až Tě omrzí problémy s `delete` v C++, ...
 
@@ -142,16 +143,42 @@ Podíval jsem se na https://codedamn.com/playgrounds
 
 přícházely by v úvahu
 
-* HTML/CSS/JS
+* HTML/CSS/JS  `prompt()`
 
-*
+* nodejs či bun s `npm i readline-sync`
 
-* Python
+* Python 
+
+* Java 
+
+* příbuzní of Java
+
+(pozn.: podle mého názoru, ani polo-programátor, jako jsem teď já, se dnes neobejde bez *částečné* znalosti jak Javascriptu, tak i Pythonu)
+
+a musím vzít v úvahu i jiná zajímavá témata na searching:
+javascript text adventure game
+javascript text adventure game using `prompt` and `alert`
+
+https://codepen.io/martin_m_n_novy/pen/GRLMaEL
+C++ cin simulation ... JavaScript prompt
+
+backup in diigo
+raw.githubusercontent.com+ tag
+6 minutes ago
+version 0.6 - Google Search
+www.google.com+ tag
+7 minutes ago
+function outendl(s){ console.log(s); } function outin(s){ var x = prompt(s); console.log(s,x); return x; } function main(){ var yn = outin( "do you want some icecream? (y/n)" ); outendl("reply:" + yn); //console.log(yn) //out("aaa"); ////var yn=process.st
 
 
+https://codepen.io/erdrag/pen/MwwGBG
+https://codepen.io/martin_m_n_novy/pen/ExJwJpg
+
+https://github.com/JSR-2-14/u1_project_CYOA
+// Wrap your whole game in a function, then call your function at the end...
 
 
-
+https://github.com/LauraCole1900/textAdventure/blob/main/assets/js/script.js
 
 
 
