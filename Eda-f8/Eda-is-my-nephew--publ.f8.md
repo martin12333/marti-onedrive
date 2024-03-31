@@ -146,8 +146,14 @@ přícházely by v úvahu
 * HTML/CSS/JS  `prompt()`
 
 * nodejs či bun s `npm i readline-sync`
+https://www.npmjs.com/package/readline-sync
+var userName = readlineSync.question('May I have your name? ');
+
+stackblitz webcontainer
+
 
 * Python 
+//pmp-p
 
 * Java 
 
@@ -157,25 +163,103 @@ přícházely by v úvahu
 
 a musím vzít v úvahu i jiná zajímavá témata na searching:
 javascript text adventure game
+javascript text adventure game site:www.reddit.com
+
+
+
+
+
+
+
+// https://en.wikipedia.org/wiki/Interactive_fiction
+// Zork has been described as "by far the most famous piece of [interactive fiction]" and "the father figure of the genre".[47] Game historian Matt Barton contended that "to say that Zork is an influential adventure game is like saying the Iliad is an influential poem".[39]
+
+
+// https://www.makeuseof.com/tag/browser-text-based-games/#:~:text=Text%2Dbased%20adventure%20games%20(also,and%20enjoyable%20on%20modern%20devices.
+If you're ever unsure of what you can do, try entering about when the game starts for basic instructions. Most games also have a help command that will provide more information.
+https://pr-if.org/doc/play-if-card/play-if-card.pdf
+
+
+
+http://brasslantern.org/beginners/playta1.html
+
+
+
+https://quuxplusone.github.io/Advent/play.html
+The first Adventure program was developed by Willie Crowther.
+Most of the features of the current program were added by Don Woods.
+This particular program was translated from Fortran to CWEB by
+Don Knuth, and then from CWEB to ANSI C by Arthur O'Dwyer.
+
+http://gobberwarts.com/index-430.html
+// https://adventure.chalifoux.dev/
+// https://rickadams.org/adventure/advent/
+
+text adventure site:textadventures.co.uk
+
+
+
+
+https://moonblade.github.io/textAdventure/
+
+
+-------------------------------------
+ Javascript interactive fiction game engines. 
+
+http://twinery.org/
+
+http://textadventures.co.uk/squiffy
+
+https://www.ficdown.com/
+
+http://versificator.net/
+
+https://steveasleep.com/jumbogrove/
+
+https://github.com/pistacchio/Dedalus
+
+https://axma.info/en/
+
+https://github.com/crabcode/TinyStory
+
+
+-------------------------------------------------------
+
+
+
 javascript text adventure game using `prompt` and `alert`
 
+
+https://blog.codepen.io/documentation/console/
+One of the big benefits compared to the native browser console is that it’s always in the correct “context”. Every time the preview refreshes, the native browser console resets to the context of the parent page, not the preview, which means you would need to manually change it to be working in the preview again.
+
+
+// https://blog.codepen.io/documentation/debug-view/
+
+https://cz.pinterest.com/martinnovy/tech-labo/
+
+
+
+********FUNGUJE********
 https://codepen.io/martin_m_n_novy/pen/GRLMaEL
 C++ cin simulation ... JavaScript prompt
 
 backup in diigo
+function outendl(s){ console.log(s); }
+function outin(s){ var x = prompt(s); console.log(s,x); return x; }
+function main(){ var yn = outin( "do you want some icecream? (y/n)" ); outendl("reply:" + yn); }
 raw.githubusercontent.com+ tag
 6 minutes ago
 version 0.6 - Google Search
 www.google.com+ tag
 7 minutes ago
-function outendl(s){ console.log(s); } function outin(s){ var x = prompt(s); console.log(s,x); return x; } function main(){ var yn = outin( "do you want some icecream? (y/n)" ); outendl("reply:" + yn); //console.log(yn) //out("aaa"); ////var yn=process.st
 
 
 https://codepen.io/erdrag/pen/MwwGBG
-https://codepen.io/martin_m_n_novy/pen/ExJwJpg
+// kopie: https://codepen.io/martin_m_n_novy/pen/ExJwJpg
 
 https://github.com/JSR-2-14/u1_project_CYOA
-// Wrap your whole game in a function, then call your function at the end...
+// Wrap your whole game in a function, then call your function at the end...  ?
 
 
 https://github.com/LauraCole1900/textAdventure/blob/main/assets/js/script.js
