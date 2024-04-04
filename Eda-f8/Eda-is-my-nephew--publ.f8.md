@@ -126,6 +126,83 @@ anyone with the link can  comment
 
 
 
+post na reddit nedaily 
+https://www.reddit.com/r/visual_conlangs/
+
+a faceb daily
+@Filipinec
+https://www.facebook.com/groups/381043692614545/
+
+NEBO RADEJI POSTNOUT TY CLANKY FUN EMOJI JS
+https://dev.to/muhammadmp/js-plays-with-emojis-2poh
+
+a  observablehq
+
+https://twitter.com/observablehq/status/1234871585472802817
+
+> 3. Cell output is shown *above* the code.
+...
+>  cell outputs are always shown while code can be hidden,
+...
+>  it can be jarring at first!
+
+
+///nebo codepen
+jsfiddle0
+
+
+https://www.soscisurvey.de/tools/view-chars.php
+https://emojidissector.com/
+
+Javascript
+https://dev.to/muhammadmp/js-plays-with-emojis-2poh
+
+
+Modifier Sequences
+Some emoji are formed via a combination of an existing emoji and a modifier, to cut down on the number of code points issued. For instance, skin tone variations are formed using a "base" emoji like 👍 combined with a skin tone emoji: 🏽. 
+For instance, some of the "profession emojis": 👩‍🔬 (female scientist) is 👩 (woman) and 🔬 (microscope) separated by U+200D, the zero-width joiner, AKA the "zwidge". 👨‍💻 is 👱‍♂️ (man) ZWJ 💻 (laptop). This can intersect with modifier sequences, so you can have 👩🏽‍🔬 (woman + medium tone ZWJ science), and 👨‍💻 is actually 👱‍ (person) modified by with ♂️ (male symbol) joined with 💻.
+
+My favorite are the "family" emojis, 👨‍👨‍👦‍👦 is actually 11 codepoints: man join man join boy join boy.
+
+These also function similarly in environments that don't support them -- if the join can't be made, it simply renders as everything next to each other: 👱‍♂️👱‍♂️👦👦.
+
+
+
+later 
+
+https://observablehq.com/@a1ip/zero-width-joiner
+
+https://observablehq.com/@crotger/emoji-in-javascript
+byts.toString(2)
+
+
+  Array.from(testString).map(async d => ({
+      'Character': html`<kbd>${d}</kbd>`,
+      'Decimal': d.codePointAt(0).toString(10),
+      'Hex': d.codePointAt(0).toString(16),
+      'Name': html`<a href="https://codepoints.net/U+${d.codePointAt(0).toString(16)}" target="_blank">
+        ${await getName(d.codePointAt(0).toString(16))}   </a>`,
+    }))
+
+// neni videt pri tmavem pozadi, ze ta doktorka ma delsi vlasy
+
+unicode emoji zwj sequences and javascript ...  "👩🏾‍⚕️".replace("👩", "👨")   // ... "👨🏾‍⚕️"
+https://github.com/w3c/adapt/issues/240#issuecomment-1738167219
+
+
+https://onlinetools.com/unicode#tools
+
+
+
+> "👩‍⚕️".replace("👩", "👨")
+< "👨‍⚕️"
+
+> "👩🏾‍⚕️".replace("👩", "👨")
+< "👨🏾‍⚕️"
+> "👩🏾‍⚕️".replace("🏾‍", "🏼")
+< "👩🏼‍⚕️"
+
+
 Ahoj Edo, 
 jsem rád  💛⬆️    , že se celkem **shodneme** na hned několika dalších věcech, jako jsou např. VSCode, Gemini, diagramy s šipkami, Powershell, emojis, ...
 

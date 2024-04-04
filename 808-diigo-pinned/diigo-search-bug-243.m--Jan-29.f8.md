@@ -5,6 +5,23 @@ diigo.com discussion forums
 
 https://groups.diigo.com/group/Diigo_HQ?view=recent&type=topic
 
+https://groups.diigo.com/group/Diigo_HQ/content/diigo-com-2-problems-with-search-66000-bookmarks-20226820
+
+
+
+
+
+2024 04 01 
+still fails
+UPDATE: a week later, the problem 1 persists, but interestingly,
+the problem 1 now goes away if I switch-on the **full text** search , e.g. the difference between
+
+https://www.diigo.com/user/martin12333?privacy=public&query=reddit&snapshot=yes
+
+and
+
+https://www.diigo.com/user/martin12333?privacy=public&query=reddit
+
 
 
 
@@ -24,11 +41,19 @@ https://groups.diigo.com/group/Diigo_HQ?view=recent&type=topic
 # DONT EDIT TITLE, IT CHANGES THE URL, PINNED BY the BUG REPORT TO CONTACT
 diigo.com: 2 problems with search, 66000+ bookmarks
 
+https://groups.diigo.com/group/Diigo_HQ/content/diigo-com-2-problems-with-search-66000-bookmarks-20226820
+
+
 tags
 bug
 // resolved?
+// partially-resolved
 
-VISIBLE WORDS IN SNIPPETS ... GROUP VIEW Diigo_HQ
+i should make  some good word
+VISIBLE WORDS IN preview SNIPPETS ... GROUP VIEW Diigo_HQ
+https://groups.diigo.com/group/Diigo_HQ?view=recent&type=topic
+
+
 I use diigo everyday. I have 66892 items (bookmarks)
 
 Does anybody have so many bookmarks?
@@ -45,6 +70,32 @@ EDIT: THE NUMBER OF YOUR ITEMS (BOOKMARKS) IS AT THE BOTTOM OF YOUR "Library" PA
 VISIBLE WORDS IN SNIPPETS ... GROUP VIEW Diigo_HQ
 ~~~~~~~~~~~~
 
+
+
+------
+
+PROBLEM 1:
+
+UPDATE: a week later, the problem 1 persists, but interestingly,
+the problem 1 now goes away if I switch-on the **full text** search , e.g. the difference between
+
+https://www.diigo.com/user/martin12333?privacy=public&query=reddit&snapshot=yes
+
+and
+
+https://www.diigo.com/user/martin12333?privacy=public&query=reddit
+
+note: the word "reddit" is often in the *url* of some of the non-shown young bookmarks,
+sometimes even in the *title* of the non-shown young bookmarks
+
+
+PROBLEM 1
+
+
+
+
+
+
 now, when I search for a word, it seems, only items among the ~ 66000 firstly-created (oldest) items are searched (items before ~ Feb 1 for me)
 
 more specific estimate : 
@@ -54,7 +105,29 @@ more specific estimate :
 is there any known limit of the number of searched items?
 
 
-and the 2nd problem: when I search for a tag, I get
+EDIT:
+(OR perhaps a limit for the size of my data ?)
+(when exported, I have ~~40 MB zip file)
+(when exported, I have ~~40 MB zip file, ~~170 MB xml file)
+
+
+
+for a comparison
+Evernote:
+/// no, that's for 1 note! The Personal and Professional plan note limit is 200MB.
+There is also a limit of the number of notes you can store in Evernote and its a very large 100,000! For the free plan this is 50 so you can try it out.
+
+
+
+
+~~~~~~~~~~
+and the 2nd problem:
+EDIT: THIS WORKS NOW, THANKS
+////when I searched for a tag, I got
+//// Page 1 of 0 results for "#...ANY_TAG_I_TRIED..." There's no item
+
+
+nd the 2nd problem: when I search for a tag, I get
 
 Page 1 of 0 results for "#ANY_TAG_I_TRIED"
 There's no item!
@@ -93,13 +166,18 @@ There's no item!
 
 2nd bug
 unrelated??
+
+EDIT: THIS WORKS NOW, THANKS
 https://www.diigo.com/user/martin12333?privacy=public&query=%23skyblue
 
+EDIT: THIS WORKS NOW, THANKS
 https://www.diigo.com/user/martin12333?query=%23todo
 
+EDIT: THIS WORKS NOW, THANKS
 https://www.diigo.com/user/martin12333?privacy=public&query=%23D9diigo
 
 
+EDIT: THIS WORKS NOW, THANKS
 https://www.diigo.com/user/martin12333?query=%23CONNECT
 
 
@@ -114,6 +192,7 @@ bash
 nl "D:\umarti\dowNLOADS--SYMLINKED\8089rss2lines-242.p.txt" | grep -i   todo  | head -n 55
 
 
+EDIT: THIS WORKS NOW, THANKS
 https://www.diigo.com/user/martin12333?query=the&snapshot=yes
 
 Date Created
