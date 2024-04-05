@@ -660,15 +660,41 @@ A PROTOZE JA  EDIT V VSCode
 
 
 
+
+
+z diskuse jinde ... Takže  bys chtěl tvořit webové stránky ... Výborně 💛   ... na to je potřeba trocha HTML, popřípadě CSS, a trocha Javascriptu
+
+mohu Ti poslat na ukázku webové adresy několika stránek s JS, které jsem vytvořil před mnoha měsíci
+
+
+ale bude potřeba začít něčím ještě jednodušším než jsou ty moje starší stránky ...
+jako třeba to , co jsem vyrobil před týdnem
+
+pouhé 2 řádky HTML, 10 řádek JS ...
+
+? Můžeš teď kliknout na to 
+
+https://codepen.io/martin_m_n_novy/pen/GRLMaEL?editors=1011
+?
+
+
+
+
 # todo?
 
 google  L. site:codedamn
+
+https://codedamn.com/learn/javascript-basics
+
+https://codedamn.com/learn/html-css
+
 https://codedamn.com/learn/intermediate-cpp
 
 https://codedamn.com/learn/linux-cli-fundamentals
 
 https://codedamn.com/learn/nodejs-fundamentals
 
+https://codedamn.com/learn/http-fundamentals
 
 
 file:///C:\Users\marti\OneDrive\Eda-2022-nonshared\nonshar--Eda-is-my-nephew.md
@@ -676,3 +702,5 @@ file:///C:\Users\marti\OneDrive\Eda-2022-nonshared\nonshar--Eda-is-my-nephew.md
 můžete mi občas něco z těch programů poslat ... slibuju, že nebudu kritizovat
 
 ## jde mi o to ... najít společná témata
+můžeš si na codepen také založit "účet", jako já, je to zadarmo
+(registrovat se)

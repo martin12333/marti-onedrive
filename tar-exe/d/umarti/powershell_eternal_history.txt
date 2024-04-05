@@ -10025,3 +10025,5 @@ dir d:\umarti\dowNLOADS--SYMLINKED\808*.xml
 dir d:\umarti\dowNLOADS--SYMLINKED\*\808*.xml
 dir d:\umarti\dowNLOADS--SYMLINKED\*\808*.xml -Verbose
 dir d:\umarti\dowNLOADS--SYMLINKED\*\808*.xml -Verbose -Debug
+git commit -v -a -m backup
+git push
