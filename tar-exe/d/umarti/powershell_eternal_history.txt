@@ -10015,3 +10015,5 @@ git commit -v -a -m backup
 git push
 dir /a .git
 cmd /c dir  .git /a
+git commit -v -a -m backup
+git push

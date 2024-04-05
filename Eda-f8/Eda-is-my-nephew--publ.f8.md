@@ -88,6 +88,13 @@ I plan to use OBS too.
 
 
 
+dostal jsem sms ... Hi.I'm Rosalind from Flex  Jobs.Are you interested in flexible remote job?Reply to get more information.Thank  you ... 
+
+zkusil jsem to vygooglit ... i googled, there are many scams  like this
+Beware of This Job Scam Using FlexJobs' Name
+FlexJobs
+https://www.flexjobs.com › blog › post › beware-increa...
+We need to inform our readers about a common job scam that has unfortunately been using our name. Please don't fall for this scam!
 
 
 
@@ -138,6 +145,8 @@ https://dev.to/muhammadmp/js-plays-with-emojis-2poh
 
 a  observablehq
 
+//ja select all cells, pin, fork
+
 https://twitter.com/observablehq/status/1234871585472802817
 
 > 3. Cell output is shown *above* the code.
@@ -171,6 +180,9 @@ These also function similarly in environments that don't support them -- if the 
 later 
 
 https://observablehq.com/@a1ip/zero-width-joiner
+html`<div style="font-size: 96px">${join.split(/\s+/g).join('\u200D')}</div>`
+[...join]
+
 
 https://observablehq.com/@crotger/emoji-in-javascript
 byts.toString(2)
