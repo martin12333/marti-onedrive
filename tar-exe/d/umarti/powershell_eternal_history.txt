@@ -10017,3 +10017,11 @@ dir /a .git
 cmd /c dir  .git /a
 git commit -v -a -m backup
 git push
+git commit -v -a -m backup
+git push
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
+$env:path
+dir d:\umarti\dowNLOADS--SYMLINKED\808*.xml
+dir d:\umarti\dowNLOADS--SYMLINKED\*\808*.xml
+dir d:\umarti\dowNLOADS--SYMLINKED\*\808*.xml -Verbose
+dir d:\umarti\dowNLOADS--SYMLINKED\*\808*.xml -Verbose -Debug

@@ -1,12 +1,19 @@
 
 exit
 
+
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
+
+f1 py sel interpr
+
+file:///C:\Users\marti\OneDrive\808-diigo-pinned\rss2lines-x00-latin-1.py
+
+
 echo '-------- section --------'
 
 old debug
 
-file:///
-C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py
+old  file:///C:\Users\marti\OneDrive\808-diigo-pinned\diigo-rss-xml--old-debug.f8.py
 
 c:\Users\marti\OneDrive\808-diigo-pinned\tr-sed-iconv\
 
@@ -20,7 +27,10 @@ echo '-------- section --------'
 
 
 #pwsh
+
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
+# & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
+
 #echo CWE-426--Untrusted-Search-Path
 $env:path
 
@@ -28,12 +38,12 @@ $env:path
 f1 py sel interpr
 
 dir d:\umarti\dowNLOADS--SYMLINKED\808*.xml
+dir d:\umarti\dowNLOADS--SYMLINKED\*\808*.xml
 
-file:///C:\Users\marti\OneDrive\808-diigo-pinned\rss2lines-x00-latin-1.py
 
 matouci ... dlho nahrava ten 170MB ... 1 min
 
-lze puzit F5 ... upravil jsen ho na F5
+lze pouzit F5 ... upravil jsen ho na F5
 
 zpracuje 10000 / 1 min
 

@@ -5,9 +5,31 @@
 
 exit
 
+Ahoj Edo, napadlo mne pár otázek ... Můžeš hlasovat pomocí emoji. Můžeš zvolit víc než jednu možnost.
+
+Chceš mít programování jako hobby?
+
+Chceš si přivydělávat pomocí programování?
+
+Chtěl bys tvořit webové stránky?
+
+🔕❓🔇
+:+1:  👍
+:-1:  👎
+///:shrug:  🤷
+:question: emoji ❓  ?
+//:ok: 🆗  ok
+nebo 
+emojis with the meaning: "I am busy" ....
+//👨‍💻
+//🏃
+🔕
+
+
 Ahoj Edo, 
 jsem rád  💛⬆️    , že se shodneme na hned několika dalších věcech, jako jsou např. VSCode, Gemini, diagramy s šipkami, Powershell, emojis, ...
 A už roky jsem asi neměl s kým mluvit o programovacích jazycích ...
+
 
 
 # (zkousim ruzne metody predavani a sdileni souboru == files)
@@ -87,8 +109,9 @@ I plan to use OBS too.
 
 
 
+# aale, Milane, uklidni se, nebud jako pisnicka od Jonas Brothers
 
-dostal jsem sms ... Hi.I'm Rosalind from Flex  Jobs.Are you interested in flexible remote job?Reply to get more information.Thank  you ... 
+Milan: dostal jsem sms ... Hi.I'm Rosalind from Flex  Jobs.Are you interested in flexible remote job?Reply to get more information.Thank  you ... 
 
 zkusil jsem to vygooglit ... i googled, there are many scams  like this
 Beware of This Job Scam Using FlexJobs' Name

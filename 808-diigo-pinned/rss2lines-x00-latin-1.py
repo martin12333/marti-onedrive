@@ -1,5 +1,18 @@
-
 # coding: utf-8
+
+# this is NOT AN F8 FILE
+
+# file:///C:\Users\marti\OneDrive\808-diigo-pinned\diigo.f8.sh
+
+#matouci ... dlho nahrava ten 170MB ... 1 min
+
+#lze pouzit F5 ... upravil jsen ho na F5
+
+#zpracuje 10000 / 1 min
+
+
+
+
 
 # In[1]:
 
