@@ -154,7 +154,7 @@ anyone with the link can  comment
 💛⬆️ Up Arrow Emoji
 ><💛❗‼️👍>
 
-
+👨🏻‍💻 👩🏾‍💻 👨🏼‍💻👩🏿‍💻 👨🏽‍💻 👨🏿‍💻 👩🏻‍💻 👩🏼‍💻 👨🏾‍💻 👩🏽‍💻
 
 post na reddit nedaily 
 https://www.reddit.com/r/visual_conlangs/
@@ -678,14 +678,38 @@ https://codepen.io/martin_m_n_novy/pen/GRLMaEL?editors=1011
 ?
 
 
+pozor markdon neco znamena na zac radky ~~~
+
+Ahoj Edo,
+pročetl jsem Tvé programy v zip balíku z 29.3., které jsou v
+<onedrive writable>
+a jsou docela dobré. 👍
+
+Můžeš mi poslat ještě nějaký zdrojový text programu (source code)
+
+Nevadí, když bude částečně/úplně napsaný třeba od a.i., nebo od jiného člověka
+
+Dnes je důležitější umět **číst** cizí programy a částečně rozumět cizím programům, a později je upravovat. // Není tak důležité  muset nutně všechno psát sám od prázdného papíru (prázdného souboru) (from scratch)
+
+Můžeš nějaký program prostě nakopírovat  sem do chatu, nebo do toho onedrive folderu ... mělo by fungovat ctrl-c  ctrl-v  , (a také by mělo fungovat drag and drop)
+
+Já také zkusím něco najít, nebo upravit, nebo vyrobit.
+
+
+
+
+
+
 
 
 # todo?
 
 google  L. site:codedamn
 
+bought
 https://codedamn.com/learn/javascript-basics
 
+bought
 https://codedamn.com/learn/html-css
 
 https://codedamn.com/learn/intermediate-cpp
@@ -696,6 +720,36 @@ https://codedamn.com/learn/nodejs-fundamentals
 
 https://codedamn.com/learn/http-fundamentals
 
+
+https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/learn-basic-javascript-by-building-a-role-playing-game/step-1
+
+
+https://www.khanacademy.org/computing/computer-programming/programming/becoming-a-community-coder/a/ask-for-program-help
+
+
+
+
+# js
+
+
+https://observablehq.com/@notionparallax/halp-i-dont-jnow-any-javascript-at-all
+
+https://observablehq.com/@martin12333/halp-i-dont-know-any-javascript-at-all
+///https://observablehq.com/d/e8dd8ee12fcefb4b
+/////https://observablehq.com/d/9a2022984578fe4c
+Fork of HALP, I don't know any javascript at all
+
+all cells (their code parts) are opened and pinned
+
+results are always above the code (HTML, Markdown, JS)
+
+https://observablehq.com/user/@martin12333
+
+https://observablehq.com/@cesandoval/4-182-week-0-introduction-to-observable
+
+https://observablehq.com/@cesandoval/4-182-week-1a-introduction-to-html-and-javascript
+
+# footer
 
 file:///C:\Users\marti\OneDrive\Eda-2022-nonshared\nonshar--Eda-is-my-nephew.md
 
