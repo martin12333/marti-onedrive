@@ -733,13 +733,35 @@ https://www.khanacademy.org/computing/computer-programming/programming/becoming-
 https://www.freecodecamp.org/news/escape-tutorial-purgatory/
 
 
+C++ `auto` ... can also be written in the almost exact same typeless way as C# since C++11, if you're referring to using the 'var' keyword in C#
 
 
 
-# js
+
+# js ... or wasm?
+
+https://prosetech.gumroad.com/l/eARLnA Tiny Introduction to JavaScript with Exercises and Puzzles (2nd edition)
 
 
-C:\Users\marti\OneDrive\Eda-f8\10-classic-games-recreated-in-javascript-22414c038c.html.txt
+
+https://www.freecodecamp.org/news/how-to-use-codepen/#differences-between-pens-and-projects
+
+"RPG - Dragon Repeller"  site:codepen.io
+
+
+https://github.com/proyecto26/awesome-jsgames?tab=readme-ov-file#other-awesome-lists
+https://github.com/DaRaFF/jsgamewiki
+https://github.com/leereilly/games
+
+
+
+
+
+wasm? https://classic.minecraft.net/?join=yxsuY36dXJosdjjj
+
+file:///C:\Users\marti\OneDrive\Eda-f8\10-classic-games-recreated-in-javascript-22414c038c.html.txt
+
+https://en.wikipedia.org/wiki/List_of_browser_games#Single-player_games
 
 https://en.wikipedia.org/wiki/Friday_Night_Funkin%27
 https://en.wikipedia.org/wiki/You_Are_Jeff_Bezos
@@ -750,7 +772,6 @@ https://en.wikipedia.org/wiki/Neurocracy
 
 
 
-https://en.wikipedia.org/wiki/List_of_browser_games#Single-player_games
 
 Around 2015 a multiplayer game, Agar.io, spawned many other games with a similar multiplayer playstyle that used the .io domain, such as Diep.io, Slither.io, Surviv.io, and ZombsRoyale.io. Such games are collectively called ".io games".[22]
 
@@ -783,7 +804,11 @@ https://funtech.co.uk/latest/does-minecraft-use-java-or-javascript#:~:text=%E2%8
 
 
 
-https://classic.minecraft.net/?join=yxsuY36dXJosdjjj
+
+
+
+
+
 
 https://observablehq.com/@notionparallax/halp-i-dont-jnow-any-javascript-at-all
 
@@ -801,6 +826,8 @@ https://observablehq.com/user/@martin12333
 https://observablehq.com/@cesandoval/4-182-week-0-introduction-to-observable
 
 https://observablehq.com/@cesandoval/4-182-week-1a-introduction-to-html-and-javascript
+
+
 
 # footer
 Chceš mít programování jako hobby?
