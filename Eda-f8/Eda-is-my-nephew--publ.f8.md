@@ -5,13 +5,15 @@
 
 exit
 
+# pozor markdown neco znamena na zac radky ~~~
+
 Ahoj Edo, napadlo mne pár otázek ... Můžeš hlasovat pomocí emoji. Můžeš zvolit víc než jednu možnost.
 
 Chceš mít programování jako hobby?
 
-Chceš si přivydělávat pomocí programování?
 
 Chtěl bys tvořit webové stránky?
+Chtěl bys programovat hry?
 
 🔕❓🔇
 :+1:  👍
@@ -678,7 +680,7 @@ https://codepen.io/martin_m_n_novy/pen/GRLMaEL?editors=1011
 ?
 
 
-pozor markdon neco znamena na zac radky ~~~
+# pozor markdown neco znamena na zac radky ~~~
 
 Ahoj Edo,
 pročetl jsem Tvé programy v zip balíku z 29.3., které jsou v
@@ -726,11 +728,62 @@ https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/
 
 https://www.khanacademy.org/computing/computer-programming/programming/becoming-a-community-coder/a/ask-for-program-help
 
+# todo?2
+
+https://www.freecodecamp.org/news/escape-tutorial-purgatory/
+
+
 
 
 
 # js
 
+
+C:\Users\marti\OneDrive\Eda-f8\10-classic-games-recreated-in-javascript-22414c038c.html.txt
+
+https://en.wikipedia.org/wiki/Friday_Night_Funkin%27
+https://en.wikipedia.org/wiki/You_Are_Jeff_Bezos
+https://en.wikipedia.org/wiki/Infinite_Craft
+https://en.wikipedia.org/wiki/Grimace%27s_Birthday
+https://en.wikipedia.org/wiki/Neurocracy
+
+
+
+
+https://en.wikipedia.org/wiki/List_of_browser_games#Single-player_games
+
+Around 2015 a multiplayer game, Agar.io, spawned many other games with a similar multiplayer playstyle that used the .io domain, such as Diep.io, Slither.io, Surviv.io, and ZombsRoyale.io. Such games are collectively called ".io games".[22]
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.minecraft.net/en-us/article/scripting-api-now-public-beta#:~:text=The%20Minecraft%20Script%20Engine%20uses,different%20parts%20of%20the%20game.
+
+
+https://www.quora.com/What-are-Minecraft-Bedrock-add-ons-programmed-in-I-know-the-MC-bedrock-add-on-is-scripted-in-JavaScript-and-the-game-itself-in-C#:~:text=Minecraft%20Bedrock%20was%20created%20essentially,in%20C%2B%2B%20to%20copy%20from.
+
+
+https://www.dragonflydb.io/game-dev/engines/free
+
+
+https://www.udemy.com/course/game-development-with-javascript-for-beginners/?couponCode=LETSLEARNNOW
+
+https://funtech.co.uk/latest/what-coding-language-does-minecraft-use#:~:text=The%20core%20coding%20language%20that,in%20conjunction%20with%20other%20languages.
+
+https://funtech.co.uk/latest/does-minecraft-use-java-or-javascript#:~:text=%E2%80%9CThe%20Minecraft%20Script%20Engine%20uses,different%20parts%20of%20the%20game.%E2%80%9D
+
+
+
+https://classic.minecraft.net/?join=yxsuY36dXJosdjjj
 
 https://observablehq.com/@notionparallax/halp-i-dont-jnow-any-javascript-at-all
 
@@ -750,6 +803,8 @@ https://observablehq.com/@cesandoval/4-182-week-0-introduction-to-observable
 https://observablehq.com/@cesandoval/4-182-week-1a-introduction-to-html-and-javascript
 
 # footer
+Chceš mít programování jako hobby?
+viz nahore
 
 file:///C:\Users\marti\OneDrive\Eda-2022-nonshared\nonshar--Eda-is-my-nephew.md
 
