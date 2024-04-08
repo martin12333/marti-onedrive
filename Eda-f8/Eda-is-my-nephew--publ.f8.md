@@ -729,7 +729,7 @@ https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/
 https://www.khanacademy.org/computing/computer-programming/programming/becoming-a-community-coder/a/ask-for-program-help
 
 
-# todo?2
+# todo??2
 
 https://www.freecodecamp.org/news/escape-tutorial-purgatory/
 
@@ -749,7 +749,6 @@ https://gamedevacademy.org/csharp-definitive-guide/   prijemny uvod s examply
 https://github.com/search?q=game&type=repositories
 3.2m
 
-
 https://github.com/search?q=game+language%3AJavaScript&type=repositories&l=JavaScript&s=stars&o=desc&p=3
 790k results
 
@@ -762,7 +761,6 @@ ts 70
 
 
 
-https://github.com/codecombat/codecombat/wiki/Dev-Setup:-General-Information
 
 
 
