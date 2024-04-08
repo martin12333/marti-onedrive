@@ -728,6 +728,7 @@ https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/
 
 https://www.khanacademy.org/computing/computer-programming/programming/becoming-a-community-coder/a/ask-for-program-help
 
+
 # todo?2
 
 https://www.freecodecamp.org/news/escape-tutorial-purgatory/
@@ -737,8 +738,45 @@ C++ `auto` ... can also be written in the almost exact same typeless way as C# s
 
 
 
+https://www.dragonflydb.io/game-dev/engines
+https://www.dragonflydb.io/game-dev/engines/free
+https://www.dragonflydb.io/game-dev/engines/3d  c#  c++ js
+https://www.dragonflydb.io/game-dev/engines/browser
+ai
+6 most popular languages for game development
+https://gamedevacademy.org/csharp-definitive-guide/   prijemny uvod s examply
 
-# js ... or wasm?
+https://github.com/search?q=game&type=repositories
+3.2m
+
+
+https://github.com/search?q=game+language%3AJavaScript&type=repositories&l=JavaScript&s=stars&o=desc&p=3
+790k results
+
+py 362k results
+c# 310
+j 300
+c++ 160
+ts 70
+
+
+
+
+https://github.com/codecombat/codecombat/wiki/Dev-Setup:-General-Information
+
+
+
+# js ... or wasm? or streamed??
+
+https://github.com/search?q=game+language%3AJavaScript&type=repositories&l=JavaScript&s=stars&o=desc&p=3
+
+Learn HTML5 by Mozilla -
+Learn CSS by Mozilla - 
+Learn Javscript by Mozilla -
+
+
+https://arcade.makecode.com/javascript/variables
+
 
 https://prosetech.gumroad.com/l/eARLnA Tiny Introduction to JavaScript with Exercises and Puzzles (2nd edition)
 
@@ -749,17 +787,17 @@ https://www.freecodecamp.org/news/how-to-use-codepen/#differences-between-pens-a
 "RPG - Dragon Repeller"  site:codepen.io
 
 
-https://github.com/proyecto26/awesome-jsgames?tab=readme-ov-file#other-awesome-lists
-https://github.com/DaRaFF/jsgamewiki
-https://github.com/leereilly/games
+https://github.com/proyecto26/awesome-jsgames?tab=readme-ov-file
+
+https://github.com/AlexNisnevich/untrusted
 
 
-
-
-
-wasm? https://classic.minecraft.net/?join=yxsuY36dXJosdjjj
+streamed? https://classic.minecraft.net/?join=yxsuY36dXJosdjjj
 
 file:///C:\Users\marti\OneDrive\Eda-f8\10-classic-games-recreated-in-javascript-22414c038c.html.txt
+
+
+
 
 https://en.wikipedia.org/wiki/List_of_browser_games#Single-player_games
 
@@ -792,8 +830,6 @@ https://www.minecraft.net/en-us/article/scripting-api-now-public-beta#:~:text=Th
 
 https://www.quora.com/What-are-Minecraft-Bedrock-add-ons-programmed-in-I-know-the-MC-bedrock-add-on-is-scripted-in-JavaScript-and-the-game-itself-in-C#:~:text=Minecraft%20Bedrock%20was%20created%20essentially,in%20C%2B%2B%20to%20copy%20from.
 
-
-https://www.dragonflydb.io/game-dev/engines/free
 
 
 https://www.udemy.com/course/game-development-with-javascript-for-beginners/?couponCode=LETSLEARNNOW
