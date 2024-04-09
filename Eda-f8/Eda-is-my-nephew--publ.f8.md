@@ -759,6 +759,8 @@ c++ 160
 ts 70
 
 
+upwork.com
+
 
 
 
@@ -860,6 +862,10 @@ https://observablehq.com/user/@martin12333
 https://observablehq.com/@cesandoval/4-182-week-0-introduction-to-observable
 
 https://observablehq.com/@cesandoval/4-182-week-1a-introduction-to-html-and-javascript
+
+
+
+
 
 
 

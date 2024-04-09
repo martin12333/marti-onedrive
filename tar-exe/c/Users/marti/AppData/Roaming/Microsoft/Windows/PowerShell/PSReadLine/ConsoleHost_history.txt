@@ -3574,3 +3574,7 @@ kill -name msedge
 cmd
 dir c:\ /a /od
 cmd /c dir c:\ /a /od
+.\IntelGraphicsAGS.exe /?
+.\IntelGraphicsAGS.exe --help
+.\IntelGraphicsAGS.exe 
+vulkaninfo.exe /?
