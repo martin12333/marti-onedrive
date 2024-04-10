@@ -10059,3 +10059,7 @@ vulkaninfo  --help
 vulkaninfo  /?
 systeminfo.exe
 msinfo32.exe
+MRINFO.EXE
+MRINFO.EXE -?
+git commit -v -a -m backup
+mkdir twitter.com
