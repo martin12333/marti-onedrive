@@ -174,7 +174,7 @@ cd ~/OneDrive
 #add 'AI/Highly-theoretical-justifications-for-having-fun/logit-lens.f8.png'
 
 acronis
-this  dialog box has showed ... "Report a problem" ... but, I don't remember any problem
+this  dialog box has showed ... "Report a problem" ... but, I don't 'remember any problem
 
 
 
@@ -188,8 +188,9 @@ this  dialog box has showed ... "Report a problem" ... but, I don't remember any
 	git add -vv      'hyperpolyglot-f8/*.csv'
 	git add -vv   --dry-run   'hyperpolyglot-f8/*.csv'
 
-
+### !!!
 WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
+### !!!
 
 	git commit -v -a -m add
 	git push
@@ -282,7 +283,11 @@ errmsg(s) stopped because PSReadLine crashed
 
 😩 Weary Face
 
+
+### !!!
 WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
+### !!!
+
 	code .gitignore
 	bash
 	find . -name   'ne*.f8.*' | xxd
@@ -361,7 +366,11 @@ pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mym
 	git push   -vv
 	git show --name-only
 
+
+### !!!
 WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
+### !!!
+
 	cd ~/OneDrive
 	git add -vv  '*.f8.*'
 	git commit -v -a -m add

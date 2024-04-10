@@ -10064,3 +10064,5 @@ MRINFO.EXE -?
 git commit -v -a -m backup
 mkdir twitter.com
 git commit -v -a -m backup
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
