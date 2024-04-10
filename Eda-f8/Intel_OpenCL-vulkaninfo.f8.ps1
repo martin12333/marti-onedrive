@@ -1,10 +1,19 @@
 exit
 
+# *info*.exe
+Get-ComputerInfo
+Get-StorageDiagnosticInfo
+
+# network  # MRINFO.EXE -?
+msinfo32.exe
+systeminfo.exe
+
 
 vulkaninfo.exe  --summary
 ''
        #   Show a summary of the instance and GPU's on a system.
 
+vulkaninfo  --help
 
 vulkaninfo  /?
 vulkaninfo  /? >vulkaninfo2.txt
@@ -34,6 +43,7 @@ Intel-GFX-Info%4System.evtx
 ze_intel_gpu64.dll
 "C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b0745509839d43bd\ze_intel_gpu64.dll"
 oneapi
+
 
 
 libwsl_compute_helper.so
