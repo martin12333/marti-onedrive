@@ -6,6 +6,10 @@
 exit
 
 
+file:///C:\Users\marti\OneDrive\Eda-f8\codedamn-bug-244b--lost-the-files-in--codedamn-lab.f8.md
+
+file:///C:\Users\marti\OneDrive\Eda-f8\ms-vscode.cpptools-extension-pack.f8.md
+
 file:///C:\Users\marti\OneDrive\.vscode\c_cpp_properties.json
 
             "includePath": [
