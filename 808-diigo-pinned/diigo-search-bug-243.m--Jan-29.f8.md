@@ -7,9 +7,14 @@ exit
 
 
 rychle
-mail.google
 
-vymazat 200
+vymazat 
+100
+200
+
+https://www.diigo.com/user/martin12333?query=%22mail.google%22
+
+https://www.diigo.com/user/martin12333?query=mail.google&snapshot=yes
 
 
 
