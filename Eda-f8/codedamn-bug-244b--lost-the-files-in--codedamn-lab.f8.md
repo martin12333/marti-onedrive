@@ -13,7 +13,15 @@ thankfully, there is **settings -> Download playground** button, //but then the 
 // Follow the Instructions to solve the lab and execute the code
 
 
-copy by shift-click
+I admit, first time, I played with shell, not with g++
+
+maybe drag-drop files is not enough ... they have to be edited?
+
+another experiment
+reload
+both files survived
+.cdmrc started to work
+
 
 
 
@@ -38,4 +46,35 @@ https://codedamn.com/playgrounds
 https://codedamn.com/playground/hHntHNXwrILBGG6wqoNQm
 https://codedamn.com/playground/fbK0xJacNMUgzpTFUCKir
 
+
+
+
+
+
+
+
+----------
+damner@codedamn:/home/damner/code$ ls -la
+total 20
+drwxr-xr-x 1 damner damner 4096 Apr 11 20:00 .
+drwxr-x--- 1 damner damner 4096 Apr  9 09:03 ..
+drwxr-xr-x 2 damner damner 4096 Apr 11 20:00 .vscode
+-rw-r--r-- 1 damner damner 1363 Apr 11 20:00 a
+damner@codedamn:/home/damner/code$ ls -la
+total 32
+drwxr-xr-x 1 damner damner 4096 Apr 11 20:07 .
+drwxr-x--- 1 damner damner 4096 Apr  9 09:03 ..
+drwxr-x--- 4 damner damner 4096 Apr 11 20:07 .ccls-cache
+-rwxr-xr-x 1 damner damner   69 Apr 11 20:07 .cdmrc
+drwxr-xr-x 2 damner damner 4096 Apr 11 20:00 .vscode
+-rw-r--r-- 1 damner damner 1363 Apr 11 20:00 a
+-rwxr-xr-x 1 damner damner  134 Apr 11 20:07 def.cpp
+
+run active file
+damner@codedamn:/home/damner/code$ '/home/damner/code/def.cpp'
+/home/damner/code/def.cpp: line 2: using: command not found
+/home/damner/code/def.cpp: line 5: //: Is a directory
+/home/damner/code/def.cpp: line 6: syntax error near unexpected token `('
+/home/damner/code/def.cpp: line 6: `int main()'
+damner@codedamn:/home/damner/code$ 
 

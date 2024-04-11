@@ -1,9 +1,15 @@
 
 ms-vscode.cpptools-extension-pack
+https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack
+https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
 
 
 
+see also
 file:///C:\Users\marti\OneDrive\Eda-f8\code-runner.f8.md
+
+
+
 
 ms-vscode.cpptools
 
