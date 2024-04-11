@@ -13,18 +13,25 @@ thankfully, there is **settings -> Download playground** button, //but then the 
 // Follow the Instructions to solve the lab and execute the code
 
 
+copy by shift-click
 
 
 
+C:\Users\marti\OneDrive\Eda-f8\understanding-logical-operators\main.cpp
 
 
-
-https://codedamn.com/learn/cpp-language/c-syntax-and-structure/switch-statements.fRHCBwclLUL8BRA9h5Fp6
 
 https://codedamn.com/learn/cpp-language/c-syntax-and-structure/playing-with-variables.1wCR2wTDPn6vDNj1XLxI9
 
 
+https://codedamn.com/learn/cpp-language/c-syntax-and-structure/switch-statements.fRHCBwclLUL8BRA9h5Fp6
 
+
+
+
+
+
+--------
 
 didnt lose anything
 https://codedamn.com/playgrounds
