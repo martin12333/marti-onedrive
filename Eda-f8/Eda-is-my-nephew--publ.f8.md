@@ -135,8 +135,7 @@ Set the value of `result` to the result of the expression (c || (x = 42)).
 trochu chytak ... v js bude hodnota result asi jina
 
 
-💡
-shows Hint: ... ,  not solution
+💡shows Hint: ... ,  not solution
 
 
 
