@@ -20,7 +20,7 @@ file:///C:\Users\marti\OneDrive\.vscode\c_cpp_properties.json
 
 
 
-# pozor markdown neco znamena na zac radky ~~~
+# pozor \~\~~  markdown neco znamena ...  na zac radky? ~~~ nebo je to skrtnuti  ~~aaaaaa~~
 
 Ahoj Edo, napadlo mne pár otázek ... Můžeš hlasovat pomocí emoji. Můžeš zvolit víc než jednu možnost.
 
@@ -114,9 +114,44 @@ PUBL F8 DONT 'ANYONE LINKS
 ----------------------------------
 ^^^^^^^^^^^
 
-# 🌟 Edd's studio replied: "I use OBS!"
 
-# TODO
+
+# codedamn-lab
+
+
+
+
+# playgrounds about
+
+
+
+https://codedamn.com/contact
+
+
+
+You as a user can create an unlimited number of playgrounds at Codedamn, and they will be persisted forever (until you chose to delete them manually),
+we offer 1200 Cloud Execution minutes (20 hours) per month for free users on our platform, the Cloud execution minutes for pro users is not capped.
+
+You can invite your friends and collaborator to the playground together in real time.
+
+
+
+> However, this does not mean that playgrounds are not powerful. They are beasts. This is because these cloud development environments are:
+
+Available at a URL – from any device, anywhere in the world
+
+* Syncs to AWS cloud securely.
+* Works on mobile phones
+* Full Linux environments at your fingertips
+
+
+
+
+
+
+
+# TODO 🌟 Edd's studio replied: "I use OBS!"
+
 I plan to use OBS too.
 
 
@@ -151,7 +186,7 @@ https://www.diigo.com/user/martin12333?query=%23Eda
 
 
 
-# Výhledově?
+# Výhledově? hyperpolyglot
 http://christianrubiales.com/hyperpoly/?q=cpp,typescript,javascript
 //// https://betaveros.github.io/hyperpolymorph/
 
@@ -160,13 +195,13 @@ http://christianrubiales.com/hyperpoly/?q=cpp,typescript,javascript
 # github EL-issues??
 https://github.com/martin12333/EL-issues/issues
 
-# a/nebo raději 
+# a/nebo raději gdrive?
 todo add files
 * tech--Laifrovi,Bokovi--gdrive - Google Drive
 anyone with the link can  comment
 
 
-
+# subreddit _family ?
 
 💛⬆️ Up Arrow Emoji
 ><💛❗‼️👍>
@@ -562,7 +597,7 @@ doufám, že moje zprávy **nerozsvítí** v noci vaše mobily ...
     }
 
 
-# todo
+# todo Are there any standard C++ libraries (modules) to get info about the computer system and machine type?
 
 
 Nevěděl jsem, že codedamn.com má i vlastní  umělou inteligenci ...
@@ -570,7 +605,6 @@ https://codedamn.com/ai
 
 
 
-Are there any standard C++ libraries (modules) to get info about the computer system and machine type?
 
 ====
 
@@ -583,11 +617,10 @@ Are there any standard C++ libraries (modules) to get info about the computer sy
     cout << "---------------\n==== "  << endl;
 
 
-# todo
+# todo Můžeš sem někdy poslat ještě nějaký další svůj program.
 
-Ahoj Edo, 
 
-**vše nejlepší k svátku Ti přeje strejda Milan i babička.**
+# sent Ahoj Edo, **vše nejlepší k svátku Ti přeje strejda Milan i babička.**
 
 Můžeš sem někdy poslat ještě nějaký další svůj program.
 
@@ -624,28 +657,6 @@ int main()
 
 
 # todo 
-
-
-
-https://codedamn.com/contact
-
-
-
-You as a user can create an unlimited number of playgrounds at Codedamn, and they will be persisted forever (until you chose to delete them manually),
-we offer 1200 Cloud Execution minutes (20 hours) per month for free users on our platform, the Cloud execution minutes for pro users is not capped.
-
-You can invite your friends and collaborator to the playground together in real time.
-
-
-
-> However, this does not mean that playgrounds are not powerful. They are beasts. This is because these cloud development environments are:
-
-Available at a URL – from any device, anywhere in the world
-
-* Syncs to AWS cloud securely.
-* Works on mobile phones
-* Full Linux environments at your fingertips
-
 
 https://codedamn.com/learn/cpp-language/c-syntax-and-structure/variables-declaring-and-initializing-variables-data-types-and-type-casting.lsRYf3yLoPAfPTi_S2EQv
 
