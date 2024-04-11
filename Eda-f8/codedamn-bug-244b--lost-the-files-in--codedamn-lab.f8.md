@@ -1,21 +1,18 @@
 
-codedamn-bug
-lost-the-files
-in a codedamn-lab
+# codedamn-bug lost-the-files in a codedamn-lab
 at 
 https://codedamn.com/learn/cpp-language/c-syntax-and-structure/understanding-logical-operators-in-c.cB7CMvBB7ZebGozIMvLbG
 
-lost my files twice,
-thankfully, there is **settings -> Download playground** button, //but then the terminal disappears
-
+lost my files twice, 
+but thankfully, there is **settings -> Download playground** button, 
+//but then the terminal disappears, and the  *run* hangs
 
 //    understanding-logical-operators
 // Follow the Instructions to solve the lab and execute the code
 
+I admit, the first time, I played with shell, not with g++
 
-I admit, first time, I played with shell, not with g++
-
-maybe drag-drop files is not enough ... they have to be edited?
+# maybe drag-drop files is not enough ... they have to be edited??
 
 another experiment
 reload
@@ -23,9 +20,10 @@ both files survived
 .cdmrc started to work
 
 
+https://codedamn.com/playground/YsqJT_Dec9Wmh-XDxopfv
 
 
-C:\Users\marti\OneDrive\Eda-f8\understanding-logical-operators\main.cpp
+file:///C:\Users\marti\OneDrive\Eda-f8\understanding-logical-operators\main.cpp
 
 
 

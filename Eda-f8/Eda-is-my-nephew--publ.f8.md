@@ -118,6 +118,25 @@ PUBL F8 DONT 'ANYONE LINKS
 
 # codedamn-lab
 
+https://codedamn.com/learn/cpp-language/c-syntax-and-structure/understanding-logical-operators-in-c.cB7CMvBB7ZebGozIMvLbG
+
+
+https://codedamn.com/playground/YsqJT_Dec9Wmh-XDxopfv
+
+
+file:///C:\Users\marti\OneDrive\Eda-f8\codedamn-bug-244b--lost-the-files-in--codedamn-lab.f8.md
+
+
+Set the value of `result` to the result of the expression (c || (x = 42)).
+
+```
+	result = (c || (x = 42)) ;
+```
+trochu chytak ... v js bude hodnota result asi jina
+
+
+💡
+shows Hint: ... ,  not solution
 
 
 
