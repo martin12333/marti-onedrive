@@ -11,26 +11,25 @@ or press F1 and then select/type Run Code,
 or right click the Text Editor and then click Run Code in editor context menu
 or click Run Code button in editor title menu
 or click Run Code button in context menu of file explorer
-To stop the running code:
+
+# To stop the running code:
 use shortcut Ctrl+Alt+M
 or press F1 and then select/type Stop Code Run
 or click Stop Code Run button in editor title menu
 or right click the Output Channel and then click Stop Code Run in context menu
 
 
-output
-code
-
+# Output
+Code
 [Running] cd "c:\Users\marti\OneDrive\Eda-f8\understanding-logical-operators\" && g++ main.cpp -o main && "c:\Users\marti\OneDrive\Eda-f8\understanding-logical-operators\"main
 'g++' is not recognized as an internal or external command,
 operable program or batch file.
-
 [Done] exited with code=1 in 0.121 seconds
 
 
 
 
-
+# from readme
 
 Run selected code snippet in Text Editor
 Run code per Shebang
@@ -48,7 +47,7 @@ code-runner.ignoreSelection: Whether to ignore selection to always run entire fi
 
 
 
-TODO ??
+# TODO ??
 
 [REPL support] To set whether to run code in Integrated Terminal (only support to run whole file in Integrated Terminal, neither untitled file nor code snippet) (default is false):
 {

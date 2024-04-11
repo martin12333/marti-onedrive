@@ -76,7 +76,7 @@ https://codedamn.com/learn/cpp-language/c-syntax-and-structure/switch-statements
 
 
 
-# run active file ... needs a shell script
+# BTW, `Run active file` ... expects a shell script
 
 damner@codedamn:/home/damner/code$ '/home/damner/code/def.cpp'
 /home/damner/code/def.cpp: line 2: using: command not found

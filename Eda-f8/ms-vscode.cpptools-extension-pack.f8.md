@@ -5,24 +5,42 @@ https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
 
 
 
-see also
+# see also
 file:///C:\Users\marti\OneDrive\Eda-f8\code-runner.f8.md
 
 
 
 
-ms-vscode.cpptools
-
-226 MB
-
-c:\Users\marti\.vscode\extensions\ms-vscode.cpptools-1.19.9-win32-x64\walkthrough\devcommandprompt\
+# ms-vscode.cpptools  226 MB c:\Users\marti\.vscode\extensions\ms-vscode.cpptools-1.19.9-win32-x64\walkthrough\devcommandprompt\
 
 
 
 
 
-output
-shared
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Output  ...  not very important
+Shared
 
 2024-04-11 19:35:20.371 [info] Getting Manifest... ms-vscode.cpptools-extension-pack
 2024-04-11 19:35:20.563 [info] Installing extension: ms-vscode.cpptools-extension-pack
