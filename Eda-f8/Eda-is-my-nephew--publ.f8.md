@@ -185,7 +185,7 @@ I plan to use OBS too.
 
 
 
-# aale, Milane, uklidni se, nebud jako pisnicka od Jonas Brothers
+# divna SMS, aale, Milane, uklidni se, nebud jako pisnicka od Jonas Brothers
 
 Milan: dostal jsem sms ... Hi.I'm Rosalind from Flex  Jobs.Are you interested in flexible remote job?Reply to get more information.Thank  you ... 
 
