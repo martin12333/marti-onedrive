@@ -10080,3 +10080,7 @@ git commit -v -a -m backup
 git push   -vv
 git commit -v -a -m backup
 git push   -vv
+cd .\Eda-f8\
+git add .\understanding-logical-operators\main.cpp
+git commit -v -a -m backup
+git push   -vv

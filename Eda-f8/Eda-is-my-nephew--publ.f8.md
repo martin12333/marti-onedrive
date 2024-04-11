@@ -5,6 +5,17 @@
 
 exit
 
+
+file:///C:\Users\marti\OneDrive\.vscode\c_cpp_properties.json
+
+            "includePath": [
+                "${workspaceFolder}/**"  EDIT
+            ],
+                "${workspaceFolder}/Eda-f8/**"
+
+
+
+
 # pozor markdown neco znamena na zac radky ~~~
 
 Ahoj Edo, napadlo mne pár otázek ... Můžeš hlasovat pomocí emoji. Můžeš zvolit víc než jednu možnost.
