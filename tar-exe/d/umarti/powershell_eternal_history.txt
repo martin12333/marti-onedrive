@@ -10098,3 +10098,6 @@ git push   -vv
 git commit -v -a -m backup
 git push   -vv
 cd ..\.vscode\
+git add .\c_cpp_properties.json
+git commit -v -a -m backup
+git push   -vv

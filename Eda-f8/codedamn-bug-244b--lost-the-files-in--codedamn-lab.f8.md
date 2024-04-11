@@ -15,9 +15,9 @@ I admit, the first time, I played with shell, not with g++
 
 # maybe drag-drop files is not enough ... they have to be edited??
 
-another experiment
-reload
-both files survived
+another experiment,
+reload,
+both files survived,
 .cdmrc started to work
 
 
@@ -26,7 +26,7 @@ both files survived
 
 --------
 
-# didnt lose anything
+# didnt lose anything at playgrounds
 
 https://codedamn.com/playgrounds
 

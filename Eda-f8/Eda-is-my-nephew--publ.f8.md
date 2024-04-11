@@ -50,11 +50,17 @@ A už roky jsem asi neměl s kým mluvit o programovacích jazycích ...
 
 
 # (zkousim ruzne metody predavani a sdileni souboru == files)
+
 tech_La_Bo
+
 tech.La.Bo.1024 at gm
+
 tasks
+
 ways of file sharing
+
 ////only Eda can edit
+
 sel all vvvvv
 ---------------
 
