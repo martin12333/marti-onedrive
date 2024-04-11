@@ -610,6 +610,19 @@ int main()
 
 # todo 
 
+
+
+https://codedamn.com/contact
+
+
+
+You as a user can create an unlimited number of playgrounds at Codedamn, and they will be persisted forever (until you chose to delete them manually),
+we offer 1200 Cloud Execution minutes (20 hours) per month for free users on our platform, the Cloud execution minutes for pro users is not capped.
+
+You can invite your friends and collaborator to the playground together in real time.
+
+
+
 > However, this does not mean that playgrounds are not powerful. They are beasts. This is because these cloud development environments are:
 
 Available at a URL – from any device, anywhere in the world
