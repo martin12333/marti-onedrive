@@ -158,6 +158,7 @@ we offer 1200 Cloud Execution minutes (20 hours) per month for free users on our
 You can invite your friends and collaborator to the playground together in real time.
 
 
+## from blog post
 
 > However, this does not mean that playgrounds are not powerful. They are beasts. This is because these cloud development environments are:
 
