@@ -10101,3 +10101,13 @@ cd ..\.vscode\
 git add .\c_cpp_properties.json
 git commit -v -a -m backup
 git push   -vv
+git commit -v -a -m backup
+git push   -vv
+git commit -v -a -m backup
+git push   -vv
+git commit -v -a -m backup
+git push   -vv
+podman machine start
+podman start   -ai    cmy22b
+conda activate pip310ecco
+vulkaninfo.exe

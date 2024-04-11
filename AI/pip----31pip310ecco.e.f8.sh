@@ -58,7 +58,8 @@ I remember having problems with version numbers of dependencies. I had to edit  
 
 ##pip install --dry-run ecco
 ##raise distutils.errors.DistutilsPlatformError(
-#	distutils.errors.DistutilsPlatformError: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+
+distutils.errors.DistutilsPlatformError: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/        my#msvc
 
 cd
 git clone https://github.com/jalammar/ecco.git

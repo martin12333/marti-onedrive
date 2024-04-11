@@ -15,6 +15,11 @@ file:///C:\Users\marti\OneDrive\Eda-f8\code-runner.f8.md
 
 
 
+# todo
+
+distutils.errors.DistutilsPlatformError: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/        my# py msvc
+
+
 
 
 

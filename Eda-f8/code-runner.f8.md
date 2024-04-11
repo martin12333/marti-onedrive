@@ -5,6 +5,13 @@ https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
 
 
 
+# todo
+
+distutils.errors.DistutilsPlatformError: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/        my# py msvc
+
+
+
+
 To run code:
 use shortcut Ctrl+Alt+N
 or press F1 and then select/type Run Code,
