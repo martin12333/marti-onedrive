@@ -10166,3 +10166,5 @@ cmd /c dir /a  ..\.config*
 cmd /c dir /a  .\.config*
 cmd /c dir /a  .\.config
 cmd /c dir /a  .\.config\git
+git commit -v -a -m backup
+git push
