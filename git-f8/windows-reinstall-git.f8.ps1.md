@@ -5,7 +5,7 @@ exit
 
 
 
-I recommend to create a windows restore point before and after an installation
+# I recommend to create a windows restore point before and after an installation
 
 https://www.bing.com/search?q=Bing+AI
 &
@@ -30,8 +30,9 @@ dir 'C:\Program Files\Git*'
 
 
 
+
+# MY UNNECESSARY, FALSE ALARM cd 'C:\Program Files\Git'
 cd 'C:\Program Files\Git'
-MY UNNECESSARY, FALSE ALARM
 file:///C:\Users\marti\OneDrive\git-f8\Git\etc\gitconfig
 
 
@@ -41,13 +42,11 @@ todo diigo
 bash
 cat ~/.gitconfig | grep crlf
 
-this is more important
-[core]
-        autocrlf = input
+# this is more important [core]         autocrlf = input
 
 
 
-MY UNNECESSARY, FALSE ALARM
+# MY UNNECESSARY, FALSE ALARM
 bash
 cd 'C:\Program Files\Git'
 diff etc/gitconfig  etc/gitconfig.0
@@ -71,7 +70,9 @@ bash
 system  core.autocrlf=true
 global  core.autocrlf=input
 
-: 1615210727:0;git config --list --show-origin | grep crlf
+# 1615210727:0;git config --list --show-origin | grep crlf
+
+git config --list --show-origin | grep crlf
 
 file:C:/Program Files/Git/etc/gitconfig core.autocrlf=true
 file:C:/Users/marti/.gitconfig  core.autocrlf=input
@@ -81,7 +82,7 @@ file:C:/Users/marti/.gitconfig  core.autocrlf=input
 
 
 
-MY UNNECESSARY, FALSE ALARM
+# MY UNNECESSARY, FALSE ALARM
 powershell get all paths of files named 'gitconfig' in subdirectories of onedrive
 
 Get-ChildItem -Path "." -Filter 'gitconfig' -Recurse
@@ -93,7 +94,7 @@ cmd /c dir /a  .\.config
 
 05/08/2022  17:03                 0
 
-this-DIR-IS-TARGET-OF-mklink
+# this-DIR-IS-TARGET-OF-mklink
 
 
 cmd /c dir /a  .\.config\git
@@ -138,7 +139,7 @@ C:\Users\marti\OneDrive\zsh-newuser-install\OHMYZ-install.sh\config
 
 
 
-file:///C:\Users\marti\OneDrive\git-f8\Git\etc\install-options.txt
+# file:///C:\Users\marti\OneDrive\git-f8\Git\etc\install-options.txt
 
 Path Option: BashOnly
 Use Credential Manager: Core
@@ -159,27 +160,35 @@ Enable Symlinks: Disabled
 Enable Pseudo Console Support: Disabled
 
 
-
-
+# rename-c--pf--git and 1dr/.config because of config files
+# 
 "C:\Users\marti\OneDrive\git-f8\rename-NOTUNINST--c--pf--git---because-cfg-files"
-rename-c--pf--git because config files
 also
 Milan 2021
 secu-rename-NOTUNINST-244 due to security bug from 2021
-
-mk restore point
-before rename git2021
-
 todo
 
 download vstudio commu
 
-last git backup
+last 
+git commit
+git push
 
-rename 'C:\Program Files\Git'
 
-& 'C:\Program Files\totalcmd\TOTALCMD64.EXE'  'C:\Program Files\Git'
+mk restore point
+before rename git2021
 
+## begin manual transaction
+
+rename
+dir 'C:\Program Files\Git*'
+rename
+dir C:\Users\marti\OneDrive\.config\git*
+dir C:\Users\marti\OneDrive\.config\git*\*
+
+& 'C:\Program Files\totalcmd\TOTALCMD64.EXE'  'C:\Program Files\Git'  C:\Users\marti\OneDrive\.config
+
+## end manual transaction
 
 
 mk restore point?
