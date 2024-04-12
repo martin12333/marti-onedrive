@@ -143,6 +143,21 @@ file:///C:\Users\marti\OneDrive\git-f8\Git\etc\install-options.txt
 Path Option: BashOnly
 Use Credential Manager: Core
 
+Editor Option: VisualStudioCode
+Custom Editor Path: 
+Default Branch Option: main
+Path Option: BashOnly
+SSH Option: OpenSSH
+Tortoise Option: false
+CURL Option: OpenSSL
+CRLF Option: CRLFCommitAsIs
+Bash Terminal Option: MinTTY
+Git Pull Behavior Option: Merge
+Use Credential Manager: Core
+Performance Tweaks FSCache: Enabled
+Enable Symlinks: Disabled
+Enable Pseudo Console Support: Disabled
+
 
 
 
