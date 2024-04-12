@@ -10114,3 +10114,17 @@ vulkaninfo.exe
 git commit -v -a -m backup
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
 D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
+git commit -v -a -m backup
+git push   -vv
+where.exe git
+Get-Alias git
+Get-Alias -Verbose git
+Get-Alias -Verbose bash
+where.exe git.exe
+where.exe where
+dir 'C:\Program Files\Git'
+tc
+& 'C:\Program Files\totalcmd\TOTALCMD64.EXE'  'C:\Program Files\Git'
+dir /a
+cmd /c dir /a
+dir 'C:\Program Files\Git*'
