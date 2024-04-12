@@ -17,7 +17,8 @@ That's a great recommendation! Creating a **Windows Restore Point** before and a
 ...
 
 
-
+git --version
+2.30
 
 # nearly nothing
 where.exe git.exe
@@ -50,8 +51,50 @@ $ diff etc/gitconfig  etc/gitconfig.0
 
 
 
+powershell get all paths of files named 'gitconfig' in subdirectories of onedrive
+
+Get-ChildItem -Path "." -Filter 'gitconfig' -Recurse
+Get-ChildItem -Path "." -Filter 'config' -Recurse
+Get-ChildItem -Path "." -Filter 'gitconfig' -Recurse  | ForEach-Object { $_.FullName }
+Get-ChildItem -Path "." -Filter '*config' -Recurse  | ForEach-Object { $_.FullName }
+Get-ChildItem -Path "." -Filter '*config'  | ForEach-Object { $_.FullName }
+cmd /c dir /a  .\.config
+
+05/08/2022  17:03                 0 this-DIR-IS-TARGET-OF-mklink
+
+cmd /c dir /a  .\.config\git
+
+cmd /c dir /a  .\.config*
+cmd /c dir /a  ..\.config*
+
+Directory of C:\Users\marti
+05/06/2022  17:11    <JUNCTION>     .config [C:\Users\marti\OneDrive\.config]
+
+cmd /c dir /a 'C:\Program Files\Git*'
+cmd /c dir /a 'C:\Program Files\Git'
+cmd /c dir /a 'C:\Program Files\Git\etc'
+
+exit
+
+C:\Users\marti\OneDrive\conn\gitconfig
+C:\Users\marti\OneDrive\git-bash-dotfiles\c-PF-git\etc\gitconfig
+C:\Users\marti\OneDrive\git-bash-dotfiles\github-2137\embedd\gitconfig
+C:\Users\marti\OneDrive\git-bash-dotfiles\github-2137\git2.30\gitconfig
+C:\Users\marti\OneDrive\git-bash-dotfiles\github-2137\old\gitconfig
+C:\Users\marti\OneDrive\git-f8\Git\etc\gitconfig
+C:\Users\marti\OneDrive\OLDgit-bash-dotfiles - Copyl\c-PF-git\etc\gitconfig
+C:\Users\marti\OneDrive\OLDgit-bash-dotfiles - Copyl\github-2137\embedd\gitconfig
+C:\Users\marti\OneDrive\OLDgit-bash-dotfiles - Copyl\github-2137\git2.30\gitconfig
+C:\Users\marti\OneDrive\OLDgit-bash-dotfiles - Copyl\github-2137\old\gitconfig
 
 
+
+C:\Users\marti\OneDrive\antidepresiva-slovnik-2021\renamed.git\config
+C:\Users\marti\OneDrive\extract-vmlinux\wsl2249\config
+C:\Users\marti\OneDrive\hyperpolyglot--VZOR--\wikidot-to-html\.git\config
+C:\Users\marti\OneDrive\mylen-mar.git\config
+C:\Users\marti\OneDrive\zsh-newuser-install\OHMYZ-clone\config
+C:\Users\marti\OneDrive\zsh-newuser-install\OHMYZ-install.sh\config
 
 
 

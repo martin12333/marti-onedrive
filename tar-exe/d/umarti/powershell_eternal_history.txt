@@ -10144,3 +10144,25 @@ https://www.bing.com/search?q=Bing+AI&
 https://www.bing.com/search?q=Bing+AI
 bash
 git commit -v -a -m backup
+git push   -vv
+git commit -v -a -m backup
+git push   -vv
+Get-ChildItem -Path "." -Filter 'gitconfig' -Recurse
+Get-ChildItem -Path "." -Filter 'gitconfig' -Recurse  | ForEach-Object { $_.FullName }
+git --version
+Get-ChildItem -Path "." -Filter 'config' -Recurse
+Get-ChildItem -Path "." -Filter 'config' -Recurse  | ForEach-Object { $_.FullName }
+Get-ChildItem -Path "." -Filter '*config' -Recurse  | ForEach-Object { $_.FullName }
+Get-ChildItem -Path "." -Filter '*config'  | ForEach-Object { $_.FullName }
+cmd /c dir /a  .\.config
+cmd /c dir /a  .\.config*
+cmd /c dir /a  ~\.config*
+cmd /c dir /a  ..\.config*
+cmd /c dir /a 'C:\Program Files\Git'
+cmd /c dir /a 'C:\Program Files\Git*'
+cmd /c dir /a 'C:\Program Files\Git\etc'
+cmd /c dir /a  .\.config*
+cmd /c dir /a  ..\.config*
+cmd /c dir /a  .\.config*
+cmd /c dir /a  .\.config
+cmd /c dir /a  .\.config\git
