@@ -10111,3 +10111,6 @@ podman machine start
 podman start   -ai    cmy22b
 conda activate pip310ecco
 vulkaninfo.exe
+git commit -v -a -m backup
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
+D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start

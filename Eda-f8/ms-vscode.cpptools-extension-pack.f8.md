@@ -10,6 +10,12 @@ file:///C:\Users\marti\OneDrive\Eda-f8\code-runner.f8.md
 
 
 
+D:\msys64\msys2_shell.cmd -mingw64 -defterm  -no-start
+gcc  --version
+g++    --version
+which g++
+gdb
+
 
 # ms-vscode.cpptools  226 MB c:\Users\marti\.vscode\extensions\ms-vscode.cpptools-1.19.9-win32-x64\walkthrough\devcommandprompt\
 
