@@ -160,7 +160,7 @@ Enable Symlinks: Disabled
 Enable Pseudo Console Support: Disabled
 
 
-# rename-c--pf--git and 1dr/.config because of config files
+# rename-c--pf--git and 1dr/.config/git because of config files
 # 
 "C:\Users\marti\OneDrive\git-f8\rename-NOTUNINST--c--pf--git---because-cfg-files"
 also
@@ -180,9 +180,9 @@ before rename git2021
 
 ## begin manual transaction
 
-rename
+rename to git2021OLD
 dir 'C:\Program Files\Git*'
-rename
+rename TO git2021OLD
 dir C:\Users\marti\OneDrive\.config\git*
 dir C:\Users\marti\OneDrive\.config\git*\*
 
