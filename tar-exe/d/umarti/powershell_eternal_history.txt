@@ -10168,3 +10168,7 @@ cmd /c dir /a  .\.config
 cmd /c dir /a  .\.config\git
 git commit -v -a -m backup
 git push
+git commit -v -a -m backup
+https://kkk&jjjjjjjjj
+: 1615208019:0;git config --get-all core.autocrlf
+bash

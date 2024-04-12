@@ -3,12 +3,9 @@
 exit
 
 
-# file:///C:\Users\marti\OneDrive\git-f8\windows-reinstall-git.f8.ps1
 
 
 I recommend to create a windows restore point before and after an installation
-
-
 
 https://www.bing.com/search?q=Bing+AI
 &
@@ -19,6 +16,7 @@ That's a great recommendation! Creating a **Windows Restore Point** before and a
 
 git --version
 2.30
+
 
 # nearly nothing
 where.exe git.exe
@@ -32,15 +30,27 @@ dir 'C:\Program Files\Git*'
 
 
 
-
-
+cd 'C:\Program Files\Git'
+MY UNNECESSARY, FALSE ALARM
 file:///C:\Users\marti\OneDrive\git-f8\Git\etc\gitconfig
 
-autocrlf = true
+
+
+todo diigo
+
+bash
+cat ~/.gitconfig | grep crlf
+
+this is more important
+[core]
+        autocrlf = input
+
+
+
+MY UNNECESSARY, FALSE ALARM
 bash
 cd 'C:\Program Files\Git'
 diff etc/gitconfig  etc/gitconfig.0
-
 marti@len20 MINGW64 / not__git_ps1
 $ diff etc/gitconfig  etc/gitconfig.0
 12c12
@@ -49,8 +59,29 @@ $ diff etc/gitconfig  etc/gitconfig.0
 >       autocrlf = false
 
 
+https://github.com/search?q=owner%3Amartin12333%20autocrlf%20&type=code
+
+git.*show-origin
 
 
+bash
+
+: 1615210740:0;git config --list --show-scope | grep crlf
+
+system  core.autocrlf=true
+global  core.autocrlf=input
+
+: 1615210727:0;git config --list --show-origin | grep crlf
+
+file:C:/Program Files/Git/etc/gitconfig core.autocrlf=true
+file:C:/Users/marti/.gitconfig  core.autocrlf=input
+
+
+
+
+
+
+MY UNNECESSARY, FALSE ALARM
 powershell get all paths of files named 'gitconfig' in subdirectories of onedrive
 
 Get-ChildItem -Path "." -Filter 'gitconfig' -Recurse
@@ -60,7 +91,10 @@ Get-ChildItem -Path "." -Filter '*config' -Recurse  | ForEach-Object { $_.FullNa
 Get-ChildItem -Path "." -Filter '*config'  | ForEach-Object { $_.FullName }
 cmd /c dir /a  .\.config
 
-05/08/2022  17:03                 0 this-DIR-IS-TARGET-OF-mklink
+05/08/2022  17:03                 0
+
+this-DIR-IS-TARGET-OF-mklink
+
 
 cmd /c dir /a  .\.config\git
 
@@ -98,6 +132,12 @@ C:\Users\marti\OneDrive\zsh-newuser-install\OHMYZ-install.sh\config
 
 
 
+
+
+
+
+
+
 file:///C:\Users\marti\OneDrive\git-f8\Git\etc\install-options.txt
 
 Path Option: BashOnly
@@ -105,9 +145,49 @@ Use Credential Manager: Core
 
 
 
+
+"C:\Users\marti\OneDrive\git-f8\rename-NOTUNINST--c--pf--git---because-cfg-files"
+rename-c--pf--git because config files
+also
 Milan 2021
 secu-rename-NOTUNINST-244 due to security bug from 2021
-restore point
+
+mk restore point
 before rename git2021
 
+todo
 
+download vstudio commu
+
+last git backup
+
+rename 'C:\Program Files\Git'
+
+& 'C:\Program Files\totalcmd\TOTALCMD64.EXE'  'C:\Program Files\Git'
+
+
+
+mk restore point?
+after rename git2021
+
+i will not edit
+gitconfig
+autocrlf
+
+ai
+To comment out a line in a gitconfig file, you can use the # symbol at the start of the line.
+
+
+
+
+
+
+
+-------------------------
+
+f8 on file:/// does ~~nothing in powershell
+file:///C:\Users\marti\OneDrive\git-f8\windows-reinstall-git.f8.ps1
+
+f8 on
+https://kkk&jjjjjjjjj
+does ~~nothing in powershell
