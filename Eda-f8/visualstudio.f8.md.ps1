@@ -22,7 +22,10 @@ Remember, it's always a good idea to create restore points regularly and especia
 
 
 
-todo  file:///C:\Users\marti\OneDrive\git-f8\windows-reinstall-git.f8.ps1.md
+todo  file:///C:\Users\marti\OneDrive\git-f8\windows-reinstall-git.f8.ps1
+
+
+.md
 
 
 
