@@ -30,8 +30,6 @@ dir 'C:\Program Files\Git*'
 
 
 
-file:///C:\Users\marti\OneDrive\git-f8\Git\etc\install-options.txt
-
 
 
 
@@ -48,6 +46,20 @@ $ diff etc/gitconfig  etc/gitconfig.0
 <       autocrlf = true
 ---
 >       autocrlf = false
+
+
+
+
+
+
+
+
+
+file:///C:\Users\marti\OneDrive\git-f8\Git\etc\install-options.txt
+
+Path Option: BashOnly
+Use Credential Manager: Core
+
 
 
 Milan 2021
