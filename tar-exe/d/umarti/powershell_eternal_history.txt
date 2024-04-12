@@ -10128,3 +10128,17 @@ tc
 dir /a
 cmd /c dir /a
 dir 'C:\Program Files\Git*'
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
+bash
+file:///C:\Users\marti\OneDrive\git-f8\windows-reinstall-git.f8.ps1
+https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx
+showconv
+https://www.bing.com/search?q=Bing+AI
+https://www.bing.com/search?q=Bing+AI&showconv=1
+https://www.bing.com/search?q=Bing+AI&showconv=
+https://www.bing.com/search?q=Bing+AI&showconv
+https://www.bing.com/search?q=Bing+AI&
+https://www.bing.com/search?q=Bing+AI
