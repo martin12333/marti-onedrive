@@ -5,6 +5,19 @@
 
 exit
 
+// press ctrl+s to enable playground autosave?
+Co tam vidis ... muzes mi poslat screenshot? (prtscr  ctrl+v)
+
+
+//  prevzato od jineho autora, editovano (czech)
+
+# (něco nového? jestli ne, nevadí ... o prázdninách bude víc času)
+(já jsem rozdělal několik věcí na papíře, ale hotového mám málo)
+( https://codedamn.com/playground/fbK0xJacNMUgzpTFUCKir  )
+
+# (btw, codedamn playgrounds and labs have a download button ... maybe some of your programs have survived there? e.g.  https://codedamn.com/learn/cpp-language/c-syntax-and-structure/understanding-logical-operators-in-c.cB7CMvBB7ZebGozIMvLbG   )
+
+
 
 file:///C:\Users\marti\OneDrive\Eda-f8\codedamn-bug-244b--lost-the-files-in--codedamn-lab.f8.md
 

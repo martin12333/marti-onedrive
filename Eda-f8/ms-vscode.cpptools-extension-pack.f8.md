@@ -27,9 +27,7 @@ cd "C:\Program Files\Microsoft Visual Studio\2022\Community\"
 
 # todo
 
-
-## cl.exe build and debug is only usable when VS Code is run from the Developer Command Prompt for VS.
-
+# cl.exe build and debug is only usable when VS Code is run from the Developer Command Prompt for VS.
 
 todo
 **********************************************************************
@@ -40,6 +38,7 @@ todo fix
 todo open dir
 code c:\Users\marti\OneDrive\Eda-f8\understanding-logical-operators\
 
+old
 
 Executing task: C/C++: cl.exe build active file 
 

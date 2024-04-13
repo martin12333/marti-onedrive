@@ -1,5 +1,7 @@
 
-# codedamn-bug lost-the-files in a codedamn-lab
+# codedamn-bug lost-the-files 
+
+in a codedamn-lab
 
 at 
 https://codedamn.com/learn/cpp-language/c-syntax-and-structure/understanding-logical-operators-in-c.cB7CMvBB7ZebGozIMvLbG
