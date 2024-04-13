@@ -143,13 +143,14 @@ C:\Users\marti\OneDrive\zsh-newuser-install\OHMYZ-install.sh\config
 
 
 
-dir 'C:\Program Files\Git\cmd'
 
 
 # file:///C:\Users\marti\OneDrive\git-f8\Git\etc\install-options.txt
 
-
+$env:Path.Length
+767
 $env:Path -split ';'  | findstr.exe -i git
+dir 'C:\Program Files\Git\cmd'
 
 
 Path Option: BashOnly
@@ -175,6 +176,28 @@ Enable Symlinks: Disabled
 Enable Pseudo Console Support: Disabled
 
 
+
+
+Editor Option: VisualStudioCode
+Custom Editor Path:
+Default Branch Option: main
+Path Option: Cmd
+SSH Option: OpenSSH
+Tortoise Option: false
+CURL Option: OpenSSL
+CRLF Option: CRLFCommitAsIs
+Bash Terminal Option: MinTTY
+Git Pull Behavior Option: Merge
+Use Credential Manager: Enabled
+Performance Tweaks FSCache: Enabled
+Enable Symlinks: Disabled
+Enable Pseudo Console Support: Disabled
+Enable FSMonitor: Disabled
+
+
+
+
+
 # rename-c--pf--git and 1dr/.config/git because of config files
 #
 "C:\Users\marti\OneDrive\git-f8\rename-NOTUNINST--c--pf--git---because-cfg-files"
@@ -183,7 +206,7 @@ Milan 2021
 secu-rename-NOTUNINST-244 due to security bug from 2021
 todo
 
-NOT YET download vstudio community... yu will forget to do this:
+NOT YET download vstudio community... you will forget to do this:
 
 last
 git commit
@@ -213,7 +236,9 @@ mk restore point
 after rename git2021
 
 
+
 Switch off acronis active prot
+
 
 
 i will not edit

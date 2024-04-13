@@ -10205,3 +10205,10 @@ $env:Path -split ';'
 $env:Path -split ';'  | findstr.exe -i git
 dir C:\Program Files\Git\cmd
 dir 'C:\Program Files\Git\cmd'
+Get-Alias -Verbose bash
+Get-Alias -Verbose git
+where.exe git.exe
+where.exe where
+git commit -v -a -m backup
+git push
+$env:Path.Length
