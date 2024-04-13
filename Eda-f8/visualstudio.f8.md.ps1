@@ -18,6 +18,7 @@ exit
 
 exit
 
+
 # I recommend to create a windows restore point before and after an installation
 
 https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx
@@ -37,11 +38,13 @@ Remember, it's always a good idea to create restore points regularly and especia
 
 
 
-todo  file:///C:\Users\marti\OneDrive\git-f8\windows-reinstall-git.f8.ps1
-
-
+done  file:///C:\Users\marti\OneDrive\git-f8\windows-reinstall-git.f8.ps1
 .md
 
+
+
+
+https://learn.microsoft.com/en-us/visualstudio/install/import-export-installation-configurations?view=vs-2022
 
 
 
@@ -52,7 +55,9 @@ todo  file:///C:\Users\marti\OneDrive\git-f8\windows-reinstall-git.f8.ps1
 ---------------
 
 
-cd "C:\Program Files\Microsoft VS Code"
+https://learn.microsoft.com/en-us/cpp/build/building-on-the-command-line?view=msvc-170
+
+#cd "C:\Program Files\Microsoft VS Code"
 
 cd "C:\Program Files\Microsoft Visual Studio\2022\Community\"
 
@@ -63,4 +68,7 @@ find . -name '*.exe'
 |less
 exit
 
-explorer "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Developer PowerShell for VS 2022.lnk"
+explorer "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\VC\x64 Native Tools Command Prompt for VS 2022.lnk"
+pwsh
+
+##"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Developer PowerShell for VS 2022.lnk"
