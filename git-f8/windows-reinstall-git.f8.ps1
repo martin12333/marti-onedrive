@@ -145,7 +145,7 @@ Path Option: BashOnly
 Use Credential Manager: Core
 
 Editor Option: VisualStudioCode
-Custom Editor Path: 
+Custom Editor Path:
 Default Branch Option: main
 Path Option: BashOnly
 SSH Option: OpenSSH
@@ -161,20 +161,20 @@ Enable Pseudo Console Support: Disabled
 
 
 # rename-c--pf--git and 1dr/.config/git because of config files
-# 
+#
 "C:\Users\marti\OneDrive\git-f8\rename-NOTUNINST--c--pf--git---because-cfg-files"
 also
 Milan 2021
 secu-rename-NOTUNINST-244 due to security bug from 2021
 todo
 
-download vstudio commu
+NOT YET download vstudio community... yu will forget to do this:
 
-last 
+last
 git commit
 git push
 
-
+#
 mk restore point
 before rename git2021
 
