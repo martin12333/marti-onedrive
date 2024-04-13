@@ -27,7 +27,19 @@ cd "C:\Program Files\Microsoft Visual Studio\2022\Community\"
 
 # todo
 
-distutils.errors.DistutilsPlatformError: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/        my# py msvc
+
+## cl.exe build and debug is only usable when VS Code is run from the Developer Command Prompt for VS.
+
+Executing task: C/C++: cl.exe build active file 
+
+Starting build...
+cmd /c chcp 65001>nul && cl.exe /Zi /EHsc /nologo /FeC:\Users\marti\OneDrive\Eda-f8\understanding-logical-operators\OLD\main.exe C:\Users\marti\OneDrive\Eda-f8\understanding-logical-operators\OLD\main.cpp
+'cl.exe' is not recognized as an internal or external command,
+operable program or batch file.
+
+
+
+## ~~done distutils.errors.DistutilsPlatformError: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/        my# py msvc
 
 
 

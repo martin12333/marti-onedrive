@@ -7,6 +7,18 @@ https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
 
 # todo
 
+
+settings.json   wrong *****
+	"code-runner.executorMap": {
+
+		"javascript": "node",
+		"java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+		"c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"zig": "zig run",
+*****		"cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+...
+}
+
 distutils.errors.DistutilsPlatformError: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/        my# py msvc
 
 
