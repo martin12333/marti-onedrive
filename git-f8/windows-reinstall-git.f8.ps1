@@ -32,6 +32,13 @@ Get-Alias -Verbose bash
 Get-Alias -Verbose git
 
 dir 'C:\Program Files\Git*'
+cd 'C:\Program Files\Git'
+
+
+# MY UNNECESSARY, FALSE ALARM ... hardlinks changed to sth.
+bash
+du -smc *
+
 
 
 & 'C:\Program Files\totalcmd\TOTALCMD64.EXE'  'C:\Program Files\Git'  C:\Users\marti\OneDrive\.config

@@ -10214,3 +10214,7 @@ git push
 $env:Path.Length
 git commit -v -a -m backup
 git push
+git commit -v -a -m backup
+git push
+cd 'C:\Program Files\Git'
+bash
