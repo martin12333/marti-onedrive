@@ -14,6 +14,10 @@ exit
 
 # Installation
 
+
+https://visualstudio.microsoft.com/downloads/#visual-studio-community-2022
+
+
 # todo make a google-photos album ... selected screeenshots
 
 exit
@@ -55,9 +59,26 @@ https://learn.microsoft.com/en-us/visualstudio/install/import-export-installatio
 ---------------
 
 
+
+
+https://learn.microsoft.com/en-us/cpp/build/vscpp-step-1-create?view=msvc-170#next-steps
+
+
+https://learn.microsoft.com/en-us/cpp/overview/visual-cpp-samples?view=msvc-170#crt-samples
+
+
+
+
+
+
+
 https://learn.microsoft.com/en-us/cpp/build/building-on-the-command-line?view=msvc-170
 
 #cd "C:\Program Files\Microsoft VS Code"
+
+#cd ~/.dotnet/tools
+
+dir
 
 cd "C:\Program Files\Microsoft Visual Studio\2022\Community\"
 
@@ -72,3 +93,13 @@ explorer "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 202
 pwsh
 
 ##"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Developer PowerShell for VS 2022.lnk"
+
+
+#where.exe dotnet
+#where.exe dotnet-interactive.exe
+$env:Path
+
+where.exe /?
+
+#dotnet-interactive.exe  --help
+##dotnet-interactive.exe  stdio
