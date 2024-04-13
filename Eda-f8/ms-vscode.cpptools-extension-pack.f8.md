@@ -30,6 +30,17 @@ cd "C:\Program Files\Microsoft Visual Studio\2022\Community\"
 
 ## cl.exe build and debug is only usable when VS Code is run from the Developer Command Prompt for VS.
 
+
+todo
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+
+todo fix
+
+todo open dir
+code c:\Users\marti\OneDrive\Eda-f8\understanding-logical-operators\
+
+
 Executing task: C/C++: cl.exe build active file 
 
 Starting build...
