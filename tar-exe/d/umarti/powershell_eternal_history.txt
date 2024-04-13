@@ -10193,3 +10193,15 @@ git add -vv  '*.f8.*'
 git push
 & 'C:\Program Files\totalcmd\TOTALCMD64.EXE'  'C:\Program Files\Git'  C:\Users\marti\OneDrive\.config
 dir 'C:\Program Files\Git*'
+git commit -v -a -m backup
+git push
+git --version
+dir 'C:\Program Files\Git*'
+& 'C:\Program Files\totalcmd\TOTALCMD64.EXE'  'C:\Program Files\Git'
+: 1615210740:0;git config --list --show-scope | grep crlf
+bash
+$env:Path
+$env:Path -split ';'
+$env:Path -split ';'  | findstr.exe -i git
+dir C:\Program Files\Git\cmd
+dir 'C:\Program Files\Git\cmd'

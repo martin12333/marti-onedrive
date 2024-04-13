@@ -16,17 +16,25 @@ That's a great recommendation! Creating a **Windows Restore Point** before and a
 
 git --version
 2.30
+2.43
 
 
-# nearly nothing
+
+
+# https://photos.google.com/album/AF1QipPLPh_GgR4Z18hzUvCH8IbwEdQyMci-22QgeRpj
+all prtscr for install vstudio and git - Google Photos
+
+
+#
 where.exe git.exe
 where.exe where
 Get-Alias -Verbose bash
+Get-Alias -Verbose git
 
 dir 'C:\Program Files\Git*'
 
-& 'C:\Program Files\totalcmd\TOTALCMD64.EXE'  'C:\Program Files\Git'
 
+& 'C:\Program Files\totalcmd\TOTALCMD64.EXE'  'C:\Program Files\Git'  C:\Users\marti\OneDrive\.config
 
 
 
@@ -64,21 +72,20 @@ git.*show-origin
 
 
 bash
-
 : 1615210740:0;git config --list --show-scope | grep crlf
 
 system  core.autocrlf=true
+false
 global  core.autocrlf=input
 
 # 1615210727:0;git config --list --show-origin | grep crlf
-
 git config --list --show-origin | grep crlf
 
 file:C:/Program Files/Git/etc/gitconfig core.autocrlf=true
 file:C:/Users/marti/.gitconfig  core.autocrlf=input
 
 
-
+exit
 
 
 
@@ -136,13 +143,21 @@ C:\Users\marti\OneDrive\zsh-newuser-install\OHMYZ-install.sh\config
 
 
 
-
+dir 'C:\Program Files\Git\cmd'
 
 
 # file:///C:\Users\marti\OneDrive\git-f8\Git\etc\install-options.txt
 
+
+$env:Path -split ';'  | findstr.exe -i git
+
+
 Path Option: BashOnly
+Path Option: Cmd
+
 Use Credential Manager: Core
+Use Credential Manager: Enabled
+
 
 Editor Option: VisualStudioCode
 Custom Editor Path:
