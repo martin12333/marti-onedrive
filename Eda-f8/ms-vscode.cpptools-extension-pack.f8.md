@@ -20,6 +20,23 @@ gdb
 # ms-vscode.cpptools  226 MB c:\Users\marti\.vscode\extensions\ms-vscode.cpptools-1.19.9-win32-x64\walkthrough\devcommandprompt\
 
 
+cd "C:\Program Files\Microsoft Visual Studio\2022\Community\"
+
+dir ../..
+
+### C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe -noe -c "&{Import-Module """C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\Microsoft.VisualStudio.DevShell.dll"""; Enter-VsDevShell a78507db}"
+
+$env:path
+exit
+
+## & "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Developer PowerShell for VS 2022.lnk"
+
+## start "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Developer PowerShell for VS 2022.lnk"
+
+explorer "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Developer PowerShell for VS 2022.lnk"
+
+
+
 
 # todo
 

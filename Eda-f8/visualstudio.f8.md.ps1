@@ -2,6 +2,10 @@
 exit
 
 
+Installation
+
+todo make a google-photos album ... selected screeenshots
+
 
 I recommend to create a windows restore point before and after an installation
 
@@ -29,3 +33,11 @@ todo  file:///C:\Users\marti\OneDrive\git-f8\windows-reinstall-git.f8.ps1
 
 
 
+
+
+
+
+
+---------------
+
+explorer "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Developer PowerShell for VS 2022.lnk"
