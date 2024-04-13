@@ -10212,3 +10212,5 @@ where.exe where
 git commit -v -a -m backup
 git push
 $env:Path.Length
+git commit -v -a -m backup
+git push

@@ -89,19 +89,33 @@ exit
 
 
 
+
+
 # MY UNNECESSARY, FALSE ALARM
 powershell get all paths of files named 'gitconfig' in subdirectories of onedrive
 
 Get-ChildItem -Path "." -Filter 'gitconfig' -Recurse
-Get-ChildItem -Path "." -Filter 'config' -Recurse
 Get-ChildItem -Path "." -Filter 'gitconfig' -Recurse  | ForEach-Object { $_.FullName }
+
+
+cmd /c dir /a 'C:\Program Files\Git*'
+cmd /c dir /a 'C:\Program Files\Git'
+cmd /c dir /a 'C:\Program Files\Git\etc'
+
+
+
+# MY exaggerated ALARM  .config
+
+Get-ChildItem -Path "." -Filter 'config' -Recurse
 Get-ChildItem -Path "." -Filter '*config' -Recurse  | ForEach-Object { $_.FullName }
 Get-ChildItem -Path "." -Filter '*config'  | ForEach-Object { $_.FullName }
-cmd /c dir /a  .\.config
 
-05/08/2022  17:03                 0
 
 # this-DIR-IS-TARGET-OF-mklink
+cmd /c dir /a  .\.config
+
+05/08/2022  17:03                 0  this-DIR-IS-TARGET-OF-mklink
+
 
 
 cmd /c dir /a  .\.config\git
@@ -112,11 +126,9 @@ cmd /c dir /a  ..\.config*
 Directory of C:\Users\marti
 05/06/2022  17:11    <JUNCTION>     .config [C:\Users\marti\OneDrive\.config]
 
-cmd /c dir /a 'C:\Program Files\Git*'
-cmd /c dir /a 'C:\Program Files\Git'
-cmd /c dir /a 'C:\Program Files\Git\etc'
 
 exit
+
 
 C:\Users\marti\OneDrive\conn\gitconfig
 C:\Users\marti\OneDrive\git-bash-dotfiles\c-PF-git\etc\gitconfig
