@@ -177,8 +177,12 @@ git push
 #
 mk restore point
 before rename git2021
+image.png
+I recommend to create a windows restore point before inst
 
 ## begin manual transaction
+
+& 'C:\Program Files\totalcmd\TOTALCMD64.EXE'  'C:\Program Files\Git'  C:\Users\marti\OneDrive\.config
 
 rename to git2021OLD
 dir 'C:\Program Files\Git*'
@@ -186,13 +190,16 @@ rename TO git2021OLD
 dir C:\Users\marti\OneDrive\.config\git*
 dir C:\Users\marti\OneDrive\.config\git*\*
 
-& 'C:\Program Files\totalcmd\TOTALCMD64.EXE'  'C:\Program Files\Git'  C:\Users\marti\OneDrive\.config
 
 ## end manual transaction
 
 
-mk restore point?
+mk restore point
 after rename git2021
+
+
+Switch off acronis active prot
+
 
 i will not edit
 gitconfig

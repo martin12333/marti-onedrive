@@ -10189,3 +10189,7 @@ git add -vv  '*.f8.*'
 git commit -v -a -m backup
 git add -vv  '*.f8.*'
 git commit -v -a -m backup
+git add -vv  '*.f8.*'
+git push
+& 'C:\Program Files\totalcmd\TOTALCMD64.EXE'  'C:\Program Files\Git'  C:\Users\marti\OneDrive\.config
+dir 'C:\Program Files\Git*'
