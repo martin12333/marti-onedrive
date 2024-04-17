@@ -4,11 +4,13 @@
 )
 exit
 
-# (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
+# (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText IN MY keybindings.json for VSCode  )
+
+# or, a safer alternative, in VSCode:
+#  F1 run select
+# AND LATER JUST PRESS: F1 ENTER
 
 echo '-------- section --------'
-
-
 
 
 net user
