@@ -15,7 +15,7 @@ f6 *info ctrl-space
 f6 *info*.exe ctrl-space
 # *info*.exe
 Get-ComputerInfo
-Get-StorageDiagnosticInfo
+##help Get-StorageDiagnosticInfo
 
 # network  # MRINFO.EXE -?
 msinfo32.exe

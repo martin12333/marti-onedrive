@@ -10359,3 +10359,38 @@ git commit -v -a -m backup
 git push
 git commit -v -a -m backup
 git push
+git commit -v -a -m backup
+git push
+conda activate pip310ecco
+vulkaninfo.exe | clip
+Get-Clipboard
+Get-StorageDiagnosticInfo
+help Get-StorageDiagnosticInfo
+Get-ComputerInfo | clip
+Get-Clipboard
+vulkaninfo.exe | clip
+Get-Clipboard
+Get-ComputerInfo
+help Get-ComputerInfo
+about_CommonParameters
+about CommonParameters
+help CommonParameters
+help about
+help about_CommonParameters
+help about_should
+Get-ComputerInfo | findstr -i intel
+Get-ComputerInfo | findstr -i intel |clip
+Get-Clipboard
+Get-ComputerInfo | findstr -i cpu
+systeminfo.exe | findstr.exe -i cpu
+systeminfo.exe | findstr.exe -i intel
+Get-ComputerInfo | findstr -i gpu
+systeminfo.exe | findstr.exe -i gpu
+vulkaninfo.exe | findstr.exe -i intel
+vulkaninfo.exe | findstr.exe -i cpu
+vulkaninfo.exe | findstr.exe -i gpu
+vulkaninfo.exe | findstr.exe -i sycl
+vulkaninfo.exe | findstr.exe -i opencl
+vulkaninfo.exe | findstr.exe -i info
+vulkaninfo.exe|clip
+systeminfo.exe | findstr.exe -i info
