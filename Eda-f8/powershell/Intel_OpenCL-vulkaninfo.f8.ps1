@@ -4,12 +4,15 @@
 )
 exit
 
-# (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
+# (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText IN MY keybindings.json for VSCode  )
+
+file:///C:\Users\marti\OneDrive\Eda-f8\powershell\24-4-explain-f8_text_file.f8.ps1
 
 echo '-------- section --------'
 
 
-
+f6 *info ctrl-space
+f6 *info*.exe ctrl-space
 # *info*.exe
 Get-ComputerInfo
 Get-StorageDiagnosticInfo
@@ -20,6 +23,9 @@ systeminfo.exe
 
 
 vulkaninfo.exe  --summary
+
+echo '-------- section --------'
+FROM vulkaninfo HELP
 ''
        #   Show a summary of the instance and GPU's on a system.
 
@@ -39,9 +45,13 @@ vulkaninfo  --html
 vulkaninfo.exe        --show-formats
 Display the format properties of each physical device.
 
+echo '-------- section --------'
 
 
 
+
+echo '-------- section --------'
+FROM FILE SEARCHES
 
 Intel_OpenCL_ICD64.dll
 "C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b0745509839d43bd\Intel_OpenCL_ICD64.dll"
@@ -61,3 +71,10 @@ opencl-clang64.dll
 vulkan-1-64.dll
 Intel_OpenCL
 vulkaninfo-64.exe
+
+echo '-------- section --------'
+
+
+
+
+echo '-------- section --------'

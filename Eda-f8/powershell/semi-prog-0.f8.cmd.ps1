@@ -10,6 +10,8 @@ exit
 #  F1 run select
 # AND LATER JUST PRESS: F1 ENTER
 
+file:///C:\Users\marti\OneDrive\Eda-f8\powershell\24-4-explain-f8_text_file.f8.ps1
+
 echo '-------- section --------'
 
 
@@ -20,7 +22,7 @@ where.exe net
 whoami.exe /all
 
 
-demo todo
+# demo todo
 ping
 
 
