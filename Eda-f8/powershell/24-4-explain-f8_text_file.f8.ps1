@@ -6,9 +6,12 @@ exit
 
 # (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText IN MY keybindings.json for VSCode  )
 
-# or, a safer alternative, in VSCode:
+# or, a safer alternative, for beginners, in VSCode:
 #  F1 run select
-# AND LATER JUST PRESS: F1 ENTER
+# AND LATER: JUST PRESS: F1 ENTER
+
+# could this VSCode setting be useful ? harmful ? "workbench.commandPalette.preserveInput": true,
+
 
 echo '-------- section --------'
 

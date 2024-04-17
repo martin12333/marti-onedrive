@@ -10394,3 +10394,5 @@ vulkaninfo.exe | findstr.exe -i opencl
 vulkaninfo.exe | findstr.exe -i info
 vulkaninfo.exe|clip
 systeminfo.exe | findstr.exe -i info
+git commit -v -a -m backup
+git push
