@@ -19,7 +19,28 @@ Co tam vidis ... muzes mi poslat screenshot? (prtscr  ctrl+v)
 
 
 
+
+
+
+(asi jsem zapoměl říct, že jsem vystudoval informatiku ... týmový projekt jsme programovali v Delphi/Pascalu, diplomovou práci jsem programoval v C++, v roce 2000, ale nejraději jsem měl Matlab/Octave/Python 💛 )
+(pak jsem se pokusil o postgraduální studium ... neuronové sítě; ale antidepresíva mi přinesly víc škody než užitku)
+
+
+
+
 file:///C:\Users\marti\OneDrive\Eda-f8\codedamn-bug-244b--lost-the-files-in--codedamn-lab.f8.md
+
+
+(
+nainstaloval jsem si
+https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
+https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
+a pak jsem nainstaloval
+Microsoft Visual C++ (MSVC) ... VisualStudio ...
+https://visualstudio.microsoft.com/downloads/
+...  jde to mit zaroven s VSCode
+)
+
 
 file:///C:\Users\marti\OneDrive\Eda-f8\ms-vscode.cpptools-extension-pack.f8.md
 
