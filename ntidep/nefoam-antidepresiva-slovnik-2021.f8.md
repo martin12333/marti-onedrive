@@ -12,7 +12,7 @@ na konci kapitola backups
 -----------------------------
 
 
-# Akathisia, tardive
+# Akathisia, tardive 💀
 
 // dopamine
 
@@ -29,7 +29,7 @@ Antidepressants	Venlafaxine, tricyclics, trazodone, and mirtazapine[17]
 
 
 
-# Breggin, dr.
+# Breggin, M.D.
 
 -10% / měsíc
 
@@ -42,7 +42,7 @@ Antidepressants	Venlafaxine, tricyclics, trazodone, and mirtazapine[17]
 
 
 
-# dyskinesia, tardive
+# dyskinesia, tardive 💀?
 
 // dopamine
 
@@ -85,7 +85,7 @@ vrátil jsem krabičku dr. S.
 
 
 
-# Glenmullen, dr.
+# Glenmullen,  M.D. ⭐
 
 Ta kniha doktora Glenmullena
 je docela zajímavá (Koupil jsem si elektronickou knihu)...
@@ -100,6 +100,14 @@ https://www.drglenmullen.com/?page_id=7
 
 #adaptation-theory
 
+Your Kindle Notes For:
+The Antidepressant Solution: A Step-by-Step Guide to Safely Overcoming Antidepressant Withdrawal, Dependence, and &#34;Addiction&#34;
+Joseph Glenmullen
+Last accessed on Thursday September 26, 2019
+168 Highlight(s) | 0 Note(s)Import to Diigo
+
+About the Author JOSEPH GLENMULLEN, M.D., is a clinical instructor in psychiatry at Harvard Medical School, on the staff of Harvard University Health Services, and in private practice in Harvard Square. A nationally recognized authority on antidepressant side effects, Dr. Glenmullen testified at the Federal Drug Administration hearing that resulted in the FDA’s spring 2004 warning on the dangers, especially suicidal tendencies, of using these drugs. Dr. Glenmullen won the 2001 Annual Achievement Award from the American Academy for the Advancement of Medicine for his efforts in warning physicians and patients of the potential dangers of antidepressants in his widely acclaimed book Prozac Backlash. 
+
 
 
 # Google Keep
@@ -110,14 +118,14 @@ https://www.drglenmullen.com/?page_id=7
 
 # mirtazapine
 
-díky němu spím dobře, přestože venlafaxine kazí spánek
+jen díky němu spím dobře ... i přestože venlafaxine kazí spánek
 
 # nikotin
 
 > ... decided I’d never smoke one again. That was two years of deep pain, six months of excruciating pain. Because it’s more addicting than heroin.
 
 
-# pharmaceutical settlements
+# pharmaceutical settlements !
 
 // soudní vyrovnání
 
@@ -137,13 +145,21 @@ https://en.wikipedia.org/wiki/Bad_Pharma
 
 
 
-# poor CYP2D6 metabolizers
+# poor CYP2D6 metabolizers ?!
 
 https://www.google.com/search?q=poor+CYP2D6+metabolizers
 
 
+# Shipko, M.D.
 
-# Study 329
+ Your Kindle Notes For:
+Dr. Shipko's Informed Consent for SSRI Antidepressants
+Stuart Shipko M.D.
+Tuesday February 27, 2024
+
+
+
+# Study 329 !!
 
 skandál, soud
 
@@ -157,7 +173,7 @@ https://ssristories.org/how-do-ssris-and-other-medications-cause-violence-and-wh
 
 
 
-# SurvivingAntidepressants.org
+# SurvivingAntidepressants.org ⭐
 
 
 
@@ -170,7 +186,7 @@ WjdXrmD3G1FGmQ0k6YtynM/edit
 
 
 
-# Traci Johnson
+# Traci Johnson 🕯️
 
 zdrava dobrovolnice
 
@@ -235,9 +251,9 @@ https://en.wikipedia.org/wiki/Vortioxetine
 
 
 
-# Wikipedia
+# Wikipedia ⭐
 
-jen z recenzovaných zdrojů
+pravidla W.: jen udaje z recenzovaných zdrojů
 
 
 ----------------------------------------
