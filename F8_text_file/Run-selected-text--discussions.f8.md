@@ -12,6 +12,8 @@ echo '-------- section --------'
 
 
 
+C:\Users\marti\OneDrive\Eda-f8\powershell\24-4-explain-f8_text_file.f8.ps1
+
 
 
 

@@ -21,6 +21,31 @@ where.exe net
 
 whoami.exe /all
 
+echo '-------- section ----CLIPBOARD----'
+
+google what is  clip.exe
+where.exe is  clip.exe
+
+clip /?
+echo dkfjdkgjkdf | clip
+
+dir c:\
+#dir c:\pag*.*
+dir c:\  | clip
+
+cmd /c dir c:\pag*.* /a
+cmd /c dir c:\pag*.* /a  | clip
+cmd /c dir c:\pag*.* /a  | findstr free | clip
+
+Get-Clipboard
+
+			  0 Dir(s)     801,185,792 bytes free
+
+help Get-Clipboard
+
+help Set-Clipboard
+
+echo '-------- section --------'
 
 # demo todo
 ping
@@ -33,3 +58,4 @@ tracert
 
 
 
+echo '-------- section --------'
