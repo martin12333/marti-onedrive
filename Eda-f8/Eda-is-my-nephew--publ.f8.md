@@ -55,7 +55,10 @@ C:\Users\marti\.vscode\extensions\ms-vscode.cpptools-1.19.9-win32-x64\walkthroug
 
 <p><strong data-loc-id="walkthrough.windows.note2">Note</strong>: <span data-loc-id="walkthrough.windows.note2.text">To use MSVC from the command line or VS Code, you must run from a <strong data-loc-id="walkthrough.windows.command.prompt.name2">Developer Command Prompt for VS</strong>. An ordinary shell such as <span>PowerShell</span>, <span>Bash</span>, or the Windows command prompt does not have the necessary path environment variables set.</span></p>
 
-MY: I CAN RUN MY (VS)CODE.EXE FROM THAT Developer Command Prompt
+C:\Users\marti\OneDrive\Eda-f8\visualstudio.f8.md.ps1
+
+MY TODO: I CAN RUN MY (VS)CODE.EXE FROM THAT Developer Command Prompt
+
 
 file:///C:\Users\marti\OneDrive\Eda-f8\ms-vscode.cpptools-extension-pack.f8.md
 

@@ -12,6 +12,23 @@ echo '-------- section --------'
 exit
 
 
+
+
+
+
+
+
+MY TODO: I CAN RUN MY (VS)CODE.EXE FROM THAT Developer Command Prompt
+
+
+
+
+
+
+
+
+
+
 # Installation
 
 
