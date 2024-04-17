@@ -1,5 +1,4 @@
 
-# for my nephew
 
 whoami.exe /all
 
