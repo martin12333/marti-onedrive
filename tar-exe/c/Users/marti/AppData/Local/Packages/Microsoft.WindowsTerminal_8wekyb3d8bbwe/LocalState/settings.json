@@ -4,10 +4,6 @@
     "actions": 
     [
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
             "command": 
             {
                 "action": "splitPane",
@@ -15,6 +11,18 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
         },
         {
             "command": "unbound",
@@ -27,14 +35,6 @@
         {
             "command": "paste",
             "keys": "ctrl+v"
-        },
-        {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
         }
     ],
     "copyFormatting": "none",
@@ -107,6 +107,18 @@
                 "hidden": false,
                 "name": "Ubuntu 22.04.3 LTS",
                 "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc"
+            },
+            {
+                "guid": "{52b2c787-b3ca-5d64-afbe-b82ae8264b30}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{572bebcc-7cad-5b1f-8fcd-5f04d2035546}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },

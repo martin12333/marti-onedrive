@@ -15,6 +15,13 @@ echo '-------- section --------'
 echo '-------- section --------'
 
 
+https://raw.githubusercontent.com/martin12333/marti-onedrive/main2/tar-exe/c/Users/marti/AppData/Roaming/Code/User/settings.json
+
+"powershell.integratedConsole.showOnStartup": false,
+"workbench.commandPalette.preserveInput": true,
+
+
+
 echo '-------- section --------'
 OLD EXPLANATIONS
 

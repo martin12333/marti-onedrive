@@ -3578,3 +3578,7 @@ cmd /c dir c:\ /a /od
 .\IntelGraphicsAGS.exe --help
 .\IntelGraphicsAGS.exe 
 vulkaninfo.exe /?
+$env:path
+exit
+$env:Path
+$env:Path.Length

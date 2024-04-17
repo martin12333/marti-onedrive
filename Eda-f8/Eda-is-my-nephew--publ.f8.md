@@ -1,4 +1,43 @@
 
+- [můžete mi občas něco z těch programů poslat ... slibuju, že nebudu kritizovat](#můžete-mi-občas-něco-z-těch-programů-poslat--slibuju-že-nebudu-kritizovat)
+- [jde mi o to ... najít společná témata](#jde-mi-o-to--najít-společná-témata)
+- [press ctrl+s to enable playground autosave?](#press-ctrls-to-enable-playground-autosave)
+- [(něco nového? jestli ne, nevadí ... o prázdninách bude víc času)](#něco-nového-jestli-ne-nevadí--o-prázdninách-bude-víc-času)
+- [(btw, codedamn playgrounds and labs have a download button ... maybe some of your programs have survived there? e.g.  https://codedamn.com/learn/cpp-language/c-syntax-and-structure/understanding-logical-operators-in-c.cB7CMvBB7ZebGozIMvLbG   )](#btw-codedamn-playgrounds-and-labs-have-a-download-button--maybe-some-of-your-programs-have-survived-there-eg--httpscodedamncomlearncpp-languagec-syntax-and-structureunderstanding-logical-operators-in-ccb7cmvbb7zebgozimvlbg---)
+- [todo](#todo)
+- [pozor \~\~~  markdown neco znamena ...  na zac radky? ~~~ nebo je to skrtnuti  ~~aaaaaa~~](#pozor---markdown-neco-znamena---na-zac-radky--nebo-je-to-skrtnuti--aaaaaa)
+- [(zkousim ruzne metody predavani a sdileni souboru == files)](#zkousim-ruzne-metody-predavani-a-sdileni-souboru--files)
+	- [sel all vvvvv](#sel-all-vvvvv)
+- [codedamn-lab](#codedamn-lab)
+- [playgrounds about](#playgrounds-about)
+	- [from blog post](#from-blog-post)
+- [TODO 🌟 Edd's studio replied: "I use OBS!"](#todo--edds-studio-replied-i-use-obs)
+- [Výhledově bychom možná mohli někdy zkusit spolupracovat ve VSCode pomocí  Microsoft Live Share.](#výhledově-bychom-možná-mohli-někdy-zkusit-spolupracovat-ve-vscode-pomocí--microsoft-live-share)
+- [divna SMS, aale, Milane, uklidni se, nebud jako pisnicka od Jonas Brothers](#divna-sms-aale-milane-uklidni-se-nebud-jako-pisnicka-od-jonas-brothers)
+- [bohužel, diigo query teď zrovna nějak nefunguje, už jsem vyplnil bug-report](#bohužel-diigo-query-teď-zrovna-nějak-nefunguje-už-jsem-vyplnil-bug-report)
+- [Výhledově? hyperpolyglot](#výhledově-hyperpolyglot)
+- [github EL-issues??](#github-el-issues)
+- [a/nebo raději gdrive?](#anebo-raději-gdrive)
+- [subreddit _family ?](#subreddit-_family-)
+- [REACJI](#reacji)
+- [chat](#chat)
+- [r/dadforaminute](#rdadforaminute)
+- [https://mail.google.com/chat/u/0/#chat/space/AAAAKqmKeeY](#httpsmailgooglecomchatu0chatspaceaaaakqmkeey)
+- [Displaying Do you want icecream.txt.](#displaying-do-you-want-icecreamtxt)
+- [extra](#extra)
+- [VSCode VIEWER QUIRK   ::thread::](#vscode-viewer-quirk---thread)
+- [todo Are there any standard C++ libraries (modules) to get info about the computer system and machine type?](#todo-are-there-any-standard-c-libraries-modules-to-get-info-about-the-computer-system-and-machine-type)
+- [todo Můžeš sem někdy poslat ještě nějaký další svůj program.](#todo-můžeš-sem-někdy-poslat-ještě-nějaký-další-svůj-program)
+- [sent Ahoj Edo, **vše nejlepší k svátku Ti přeje strejda Milan i babička.**](#sent-ahoj-edo-vše-nejlepší-k-svátku-ti-přeje-strejda-milan-i-babička)
+- [todo](#todo-1)
+- [pozor markdown neco znamena na zac radky ~~~](#pozor-markdown-neco-znamena-na-zac-radky-)
+- [todo?](#todo-2)
+- [todo??2](#todo2)
+- [js ... or wasm? or streamed??](#js--or-wasm-or-streamed)
+- [footer](#footer)
+	- [jde mi o to ... najít společná témata](#jde-mi-o-to--najít-společná-témata-1)
+
+
 # můžete mi občas něco z těch programů poslat ... slibuju, že nebudu kritizovat
 
 # jde mi o to ... najít společná témata
@@ -11,27 +50,16 @@ exit
 
 Co tam vidis ... muzes mi poslat screenshot? (prtscr  ctrl+v)
 
-
 //  prevzato od jineho autora, editovano (czech)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 (já jsem rozdělal několik věcí na papíře, ale 
 hotového mám málo)
 ( https://codedamn.com/playground/fbK0xJacNMUgzpTFUCKir  )
+
+
+# vscode markdown
+    "markdown.extension.toc.updateOnSave": false,   // to be lightweight
+
 
 # (btw, codedamn playgrounds and labs have a download button ... maybe some of your programs have survived there? e.g.  https://codedamn.com/learn/cpp-language/c-syntax-and-structure/understanding-logical-operators-in-c.cB7CMvBB7ZebGozIMvLbG   )
 

@@ -10218,3 +10218,144 @@ git commit -v -a -m backup
 git push
 cd 'C:\Program Files\Git'
 bash
+git commit -v -a -m backup
+git push
+MScd "C:\Program Files\Microsoft Visual Studio\2022\Community\"
+cd "C:\Program Files\Microsoft Visual Studio\2022\Community\"
+dir
+dir ..
+dir ../..
+C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe -noe -c "&{Import-Module """C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\Microsoft.VisualStudio.DevShell.dll"""; Enter-VsDevShell a78507db}"
+& "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Developer PowerShell for VS 2022.lnk"
+start.exe "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Developer PowerShell for VS 2022.lnk"
+start "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Developer PowerShell for VS 2022.lnk"
+explorer "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Developer PowerShell for VS 2022.lnk"
+git commit -v -a -m backup
+cd
+cd .\OneDrive\
+git commit -v -a -m backup
+git push
+- Open the **Start Menu** and type 'Create a restore point' and click on it.
+1. **Before Installation:**
+explorer "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Developer PowerShell for VS 2022.lnk"
+Get-ChildItem -Filter '*.exe' -Recurse -path "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Developer PowerShell for VS 2022.lnk"
+Get-ChildItem -Filter '*.exe' -Recurse -path  "C:\Program Files\Microsoft Visual Studio\2022\Community\"
+Get-ChildItem -Filter '*.exe' -Recurse -path  "C:\Program Files\Microsoft Visual Studio\2022\Community\"  | ForEach-Object { $_.FullName }
+cd "C:\Program Files\Microsoft Visual Studio\2022\Community\"
+Get-ChildItem -Filter '*.exe' -Recurse   | ForEach-Object { $_.FullName }
+explorer "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Developer PowerShell for VS 2022.lnk"
+bash
+cd "C:\Program Files\Microsoft Visual Studio\2022\Community\"
+cd "C:\Program Files\Microsoft VisualStudioCode\"
+cd "C:\Program Files\VisualStudioCode\"
+cd "C:\Program Files\VisualStudioCode"
+cd "C:\Program Files\Microsoft VS Code"
+bash
+cd
+cd .\OneDrive\
+git commit -v -a -m backup
+git push
+explorer "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\VC\x64 Native Tools Command Prompt for VS 2022.lnk"
+$env:path
+exit
+$env:path
+$env:path.Length
+cl.exe --help
+cl.exe 
+cd
+cd .\OneDrive\
+nmake --help
+git commit -v -a -m backup
+git push
+cd ~/.dotnet
+Get-ChildItem -Filter '*.exe' -Recurse   | ForEach-Object { $_.FullName }
+where.exe dotnet
+where.exe dotnet-interactive.exe
+$env:pa
+$env:Path
+cd ~/.dotnet/tools
+dir
+where.exe /?
+dotnet.exe  /?
+dotnet-interactive.exe  --help
+dotnet-interactive.exe
+dotnet-interactive.exe  stdio
+cd
+cd .\OneDrive\
+git commit -v -a -m backup
+git push
+git commit -v -a -m backup
+git push
+git commit -v -a -m backup
+git push
+git commit -v -a -m backup
+git push
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
+git push
+whoami.exe /all
+net user
+net user
+Get-LocalUser
+demo todo
+ping
+tracert
+where.exe net
+git commit -v -a -m backup
+git push
+#  F1 run select
+net user
+Get-LocalUser
+where.exe net
+conda activate pip310ecco
+git commit -v -a -m backup
+git push
+vulkaninfo.exe
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
+.\clipwhat is  clip.exe
+what is  clip.exe
+where.exe is  clip.exe
+clip /?
+what is  clip.exe
+Get-Clipboard
+Set-Clipboard -help
+help Set-Clipboard -help
+help Set-Clipboard 
+google what is  clip.exe
+where.exe is  clip.exe
+clip /?
+echo dkfjdkgjkdf | clip
+Get-Clipboard
+history
+help Get-Clipboard
+help Set-Clipboard
+dir c:\
+cmd /c dir c:\
+dir c:\
+dir c:\  | clip
+Get-Clipboard
+cmd /c dir c:\
+cmd /c dir c:\ /a
+cmd /c dir c:\ /a pag*
+cmd /c dir c:\ /a pag*.*
+cmd /c dir c:\  pag*.* /a
+cmd /c dir c:\pag*.* /a
+dir c:\pag*.*
+cmd /c dir c:\pag*.* /a
+cmd /c dir c:\pag*.* /a  | clip
+cmd /c dir c:\pag*.* /a  | findstr free
+cmd /c dir c:\pag*.* /a  | findstr free | clip
+Get-Clipboard
+cmd /c dir c:\pag*.* /a  | findstr free | clip
+Get-Clipboard
+git commit -v -a -m backup
+git push
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
+git push
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
+git push
+git commit -v -a -m backup
+git push
