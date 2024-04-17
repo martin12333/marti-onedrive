@@ -1,18 +1,36 @@
 
 # můžete mi občas něco z těch programů poslat ... slibuju, že nebudu kritizovat
 
-## jde mi o to ... najít společná témata
+# jde mi o to ... najít společná témata
 
 exit
 
-// press ctrl+s to enable playground autosave?
+# press ctrl+s to enable playground autosave?
+
+# (něco nového? jestli ne, nevadí ... o prázdninách bude víc času)
+
 Co tam vidis ... muzes mi poslat screenshot? (prtscr  ctrl+v)
 
 
 //  prevzato od jineho autora, editovano (czech)
 
-# (něco nového? jestli ne, nevadí ... o prázdninách bude víc času)
-(já jsem rozdělal několik věcí na papíře, ale hotového mám málo)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(já jsem rozdělal několik věcí na papíře, ale 
+hotového mám málo)
 ( https://codedamn.com/playground/fbK0xJacNMUgzpTFUCKir  )
 
 # (btw, codedamn playgrounds and labs have a download button ... maybe some of your programs have survived there? e.g.  https://codedamn.com/learn/cpp-language/c-syntax-and-structure/understanding-logical-operators-in-c.cB7CMvBB7ZebGozIMvLbG   )
