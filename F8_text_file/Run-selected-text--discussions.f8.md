@@ -275,3 +275,19 @@ http://nyx.net/cgi-bin/webhost.cgi
 // i have 3 facebook account, and a simple web tool at github.io
 
 
+
+
+
+
+
+
+https://stackoverflow.com/a/75103679/3796855
+
+Or: A different Visual Studio Code extension has remapped the F8 key to submit the active editor's selection line by line to the active shell.
+
+To see if it is the still the PowerShell extension's F8 key mapping is in effect, execute "PowerShell: Run Selection" from the command palette (Ctrl-Shift-P) and see it shows "F8" to the right.
+
+Conversely, to see what F8 is currently bound to, execute
+"Preferences: Open Keyboard Shortcuts" from the command palette (Ctrl-K, Ctrl-S), click on the keyboard icon icon to the right of the search field and press F8, and see what command(s) show up with the word "editorTextFocus" in the "When" column.
+
+If a different extension has indeed remapped F8, either uninstall that extension or remap the key as desired.
