@@ -15,6 +15,14 @@ file:///C:\Users\marti\OneDrive\Eda-f8\powershell\24-4-explain-f8_text_file.f8.p
 echo '-------- section --------'
 
 
+
+	dir $HOME\.vscode\extensions
+
+
+
+echo '-------- section --------'
+
+
 	net user
 	Get-LocalUser
 	where.exe net
@@ -80,3 +88,15 @@ tracert
 
 
 echo '-------- section --------'
+
+	bash
+		cd Eda-f8
+		cd *programming\ stuff
+		file *.exe
+		file output/*.exe
+	exit
+
+
+
+	# GNU C++14 6.3.0 -mtune=generic -march=i586 -g3
+

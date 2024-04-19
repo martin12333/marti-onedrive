@@ -12,6 +12,8 @@ exit
 
 # could this VSCode setting be useful ? harmful ? "workbench.commandPalette.preserveInput": true,
 
+f1 >prefer def sett
+"workbench.commandPalette.history": 50,
 
 echo '-------- section --------'
 

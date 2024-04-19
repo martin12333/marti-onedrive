@@ -10396,3 +10396,14 @@ vulkaninfo.exe|clip
 systeminfo.exe | findstr.exe -i info
 git commit -v -a -m backup
 git push
+git commit -v -a -m backup
+git push
+$HOME
+$HOME\.vscode
+echo $HOME\.vscode
+dir $HOME\.vscode
+dir $HOME\.vscode\extensions
+bash
+cd Eda-f8
+cd *programming\ stuff
+file *.exe

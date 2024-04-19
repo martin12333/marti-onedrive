@@ -194,6 +194,7 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "workbench.commandPalette.preserveInput": true,
+    //"workbench.commandPalette.preserveInput": true,
     /////////"git.enableSmartCommit": true
 
 
