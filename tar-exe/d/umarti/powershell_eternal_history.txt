@@ -10427,3 +10427,7 @@ $env
 $envdir Env:
 dir Env:
 dir Env: | findstr.exe -i marti
+"e ab c" | clip
+"echo `n ab c" | ForEach-Object { Write-Output ".${_}." }
+git commit -v -a -m backup
+git push
