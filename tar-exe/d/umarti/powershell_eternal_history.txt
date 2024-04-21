@@ -10407,3 +10407,23 @@ bash
 cd Eda-f8
 cd *programming\ stuff
 file *.exe
+git commit -v -a -m backup
+git add -vv  '*.f8.*'
+git push
+bash
+"abc" | ForEach-Object { Write-Output $_ }
+"ab c" | ForEach-Object { Write-Output $_ }
+echo "ab c" | ForEach-Object { Write-Output $_ }
+echo ab c | ForEach-Object { Write-Output $_ }
+echo ab c | ForEach-Object { Write-Output ".${_}." }
+"echo ab c" | ForEach-Object { Write-Output ".${_}." }
+$HOME
+$env
+$env:
+dir $env:
+dir $env
+$env:
+$env
+$envdir Env:
+dir Env:
+dir Env: | findstr.exe -i marti

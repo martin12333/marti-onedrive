@@ -15,7 +15,12 @@ file:///C:\Users\marti\OneDrive\Eda-f8\powershell\24-4-explain-f8_text_file.f8.p
 echo '-------- section --------'
 
 
+	dir
 
+	dir Env:
+	dir Env: | findstr.exe -i marti
+
+	$HOME
 	dir $HOME\.vscode\extensions
 
 
@@ -76,6 +81,14 @@ q
 
 echo '-------- section --------'
 
+"e ab c" | clip
+# e ab c
+
+
+"echo `n ab c" | ForEach-Object { Write-Output ".${_}." }
+
+
+
 # demo todo
 ping
 
@@ -89,6 +102,9 @@ tracert
 
 echo '-------- section --------'
 
+
+	# GNU C++14 6.3.0 -mtune=generic -march=i586 -g3
+
 	bash
 		cd Eda-f8
 		cd *programming\ stuff
@@ -98,5 +114,4 @@ echo '-------- section --------'
 
 
 
-	# GNU C++14 6.3.0 -mtune=generic -march=i586 -g3
 
