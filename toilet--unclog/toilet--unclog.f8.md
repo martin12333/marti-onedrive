@@ -1,5 +1,5 @@
 
-
+https://keep.google.com/#NOTE/1rbNE709fNS3B8VuroXW2rX0gtOakBQUO7vsCRj3Aorqn-P7APRQbFyZjLOwr9w
 
 # objevy mesice pro mne		pokusy 26.4.24 244q
 
@@ -13,6 +13,10 @@ papírový kapesníček se **nerozpadá**
 
  (keywords: unclog a toilet, ..., toilet snake, toilet auger, ...   , flange plunger)
 
+https://mail.google.com/chat/u/0/#chat/dm/5Jf9bgAAAAE
+ po 18ti hodinách ve vodě,
+běžný toaletní papír  se rozpadá (foto: kelímek A);
+papírový kapesníček se nerozpadá
 
 
 
