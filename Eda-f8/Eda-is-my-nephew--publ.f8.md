@@ -149,6 +149,38 @@ emojis with the meaning: "I am busy" ....
 🔕
 
 
+WIN+.
+
+WIN+.❗❗(★‿★)
+(●◡●)
+ƪ ( ˘⌣˘ ) ʃ
+(❁◡❁)
+
+@@@###$$$!!!%%%^^^&&&***[][][]{}{}{}
+::: >>> <<<>>> ???
+QQQ WWW
+EEE TTT UUU OOO AAA DDD GGG HHH
+ZZZ XXX VVV 
+‼️⁉️❗❗
+❗‼️
+💚
+💙
+🧡🩵🩶🤍
+💟💟
+💢💥💤💦💫🕳️🛐♾️
+⚛️✴️💮🪷
+⛔🛑❌⭕🚫🔇
+🔅🔆⚠️🔰❇️✳️❎✅💠🌐
+🆗🆒🆕
+⏹️⏺️
+◀️🔼⬆️⤴️ℹ️🔣🔃
+☑️✔️🔘
+🔴🟠🟡🟢⚪
+🟥🟧🟨🟩⬜
+◼️◻️◾◽▪️▫️🔶🔸🔷🔹🔺🔻
+🔲🔳
+💭🗯️💬🗨️👁️‍🗨️
+
 Ahoj Edo, 
 jsem rád  💛⬆️    , že se shodneme na hned několika dalších věcech, jako jsou např. VSCode, Gemini, diagramy s šipkami, Powershell, emojis, ...
 A už roky jsem asi neměl s kým mluvit o programovacích jazycích ...
@@ -158,6 +190,7 @@ A už roky jsem asi neměl s kým mluvit o programovacích jazycích ...
 # (zkousim ruzne metody predavani a sdileni souboru == files)
 
 tech_La_Bo
+tech_La_Bo_daily
 
 tech.La.Bo.1024 at gm
 
