@@ -10480,3 +10480,5 @@ where.exe ssh
 conda activate pip310ecco
 & 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
 py
+git commit -v -a -m backup
+git push

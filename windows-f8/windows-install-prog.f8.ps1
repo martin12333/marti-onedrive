@@ -24,7 +24,7 @@ $env:Path -split ';'
 # see also
 	paper notebook a5  > beginning > 5comp > inst
 
-	Switch off acronis active prot?
+#	Switch off acronis active prot?  (for a few hours ... remember my conda uninstall failure)
 
 
 # https://photos.google.com/share/AF1QipNNl6K1O6u44TD_llRU4fePuYU5YpgyOaMk_zsxb4AnE4eKjw8tACli48bLA8gNbA?key=Y3k4NDNaWk83Z0I2dThyUmJkZkU1c2FPT1J5eUx3
