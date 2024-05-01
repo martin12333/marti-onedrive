@@ -1,17 +1,19 @@
 
+# f8_text_file
+# (an f8_text_file is-not meant to be run as a whole)
 )
 exit
 
+(selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
+echo '-------- section --------'
+
+
+
+file:///C:\Users\marti\OneDrive\windows-f8\windows-install-prog.f8.ps1
 
 
 # I recommend to create a windows restore point before and after an installation
-
-https://www.bing.com/search?q=Bing+AI
-&
-
-That's a great recommendation! Creating a **Windows Restore Point** before and after an installation can help protect your system. If the installation causes any issues, you can use the restore point to return your system to the state it was in before the installation. This can be a lifesaver when dealing with problematic software or updates. Here's a brief guide on how to
-...
 
 
 git --version
@@ -52,7 +54,10 @@ file:///C:\Users\marti\OneDrive\git-f8\Git\etc\gitconfig
 
 
 
+
 todo diigo
+
+
 
 bash
 cat ~/.gitconfig | grep crlf

@@ -9,7 +9,12 @@ exit
 echo '-------- section --------'
 
 
-exit
+# I recommend to create a windows restore point before and after an installation
+
+
+# https://photos.google.com/album/AF1QipPLPh_GgR4Z18hzUvCH8IbwEdQyMci-22QgeRpj
+
+
 
 
 
@@ -35,7 +40,10 @@ MY TODO: I CAN RUN MY (VS)CODE.EXE FROM THAT Developer Command Prompt
 https://visualstudio.microsoft.com/downloads/#visual-studio-community-2022
 
 
+
 # todo make a google-photos album ... selected screeenshots
+
+
 
 exit
 
