@@ -10449,3 +10449,24 @@ exit
 $env:Path.Length
 conda activate pip310ecco
 $env:Path -split ';'  | findstr.exe -i git
+git commit -v -a -m backup
+$env:Path -split ';'  | findstr.exe -i git
+$env:Path -split ';'
+conda activate pip310ecco
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
+$env:Path -split ';'
+icacls.exe D:\conda
+icacls.exe D:\instu
+icacls.exe C:\Users
+icacls.exe c:\*
+icacls.exe /?
+dir C:\conda
+icacls.exe /?
+icacls.exe c:\*  /c
+icacls.exe /?
+icacls.exe c:\*  /c
+icacls.exe c:\*  /c | clip
+icacls.exe C:\Users\*    /c | clip
+icacls.exe C:\Users\*    /c
+icacls.exe C:\Users\*    /c | clip
+conda activate pip310ecco

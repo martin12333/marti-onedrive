@@ -20,6 +20,8 @@ file:///C:\Users\marti\OneDrive\windows-f8\windows-install-prog.f8.ps1
 respnt
 
 maybe inst outlk first
+	win+q
+	2 versions already installed
 
 dont inst portable .... wanna see file asssoc
 
