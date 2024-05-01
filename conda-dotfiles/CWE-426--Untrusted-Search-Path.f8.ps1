@@ -2,10 +2,11 @@
 exit
 
 
-code C:\Users\marti\OneDrive\ps-mylen-mar\myconda-code.ps1
-echo CWE-426--Untrusted-Search-Path
-#& 'D:\conda\shell\condabin\conda-hook.ps1'
-#conda activate 'D:\conda'
+code ps-mylen-mar\myconda-code.ps1
+
+	echo CWE-426--Untrusted-Search-Path
+	#& 'D:\conda\shell\condabin\conda-hook.ps1'
+	#conda activate 'D:\conda'
 
 
 $env:Path
@@ -14,11 +15,12 @@ conda activate 'D:\conda'
 $env:Path
 
 
+cmd
 echo %PATH%
 D:/conda/Scripts/activate
 conda activate base
 echo %PATH%
-
+exit
 
 
 ###???
@@ -39,6 +41,8 @@ ls D:/conda/condabin /c/Users/marti/bin
 
 CWE-426--Untrusted-Search-Path
 CWE-427: Uncontrolled Search Path Element
+// CWE-428: Unquoted Search Path or Element: 
+
 
 CWE
 What Is CWE?

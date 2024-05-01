@@ -29,6 +29,9 @@ $env:Path -split ';'
 
 # https://photos.google.com/share/AF1QipNNl6K1O6u44TD_llRU4fePuYU5YpgyOaMk_zsxb4AnE4eKjw8tACli48bLA8gNbA?key=Y3k4NDNaWk83Z0I2dThyUmJkZkU1c2FPT1J5eUx3
 	install Milan Windows 2020 Lenovo ThinkCentre M720q acronis uefi efi linux ubuntu. Microsoft account to Windows - Google Photos
+https://photos.google.com/album/AF1QipMGbTbwFisJtwzNxVruozV94cfbu6-ecSZ7BKZ-
+	https://photos.google.com/share/AF1QipO6ynuYXve9zKOMLBsFxJOc9lrPDpdZK_BJZNuP7xvQgYKE6XyU_bb3X6eDy0D3uA?key=VFJfLXlfekRpNlJYUmdlYVMtSlJpUEx5NWRFNDJn
+
 
 
 # I recommend to create a windows restore point before and after an installation
@@ -87,7 +90,7 @@ C:\Users\Public BUILTIN\Administrators:(OI)(CI)(F)
 				LEN20\marti:(OI)(CI)(F)
 				S-1-15-3-65536-3852923496-3228631905-2361761901-1328441031-2492177081-392074989-583479735-4232454157:(S,X)
 
-				
+
 
 
 

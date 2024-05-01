@@ -10470,3 +10470,13 @@ icacls.exe C:\Users\*    /c | clip
 icacls.exe C:\Users\*    /c
 icacls.exe C:\Users\*    /c | clip
 conda activate pip310ecco
+git commit -v -a -m backup
+git push
+code ps-mylen-mar\myconda-code.ps1
+echo %PATH%
+cmd
+echo $PATH
+where.exe ssh
+conda activate pip310ecco
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
+py
