@@ -18,7 +18,7 @@ $env:Path.Length
 $env:Path -split ';'
  | findstr.exe -i git
 
-
+cmd /c dir c:\ | findstr.exe -i free
 
 
 # see also
@@ -56,9 +56,40 @@ https://photos.google.com/album/AF1QipMGbTbwFisJtwzNxVruozV94cfbu6-ecSZ7BKZ-
 #dir C:\conda
 icacls.exe /?
 
+S - synchronize
+
+GR - generic read
+GW - generic write
+GE - generic execute
+
+RD - read data/list directory
+
+X - execute/traverse
+
+inheritance rights may precede either form and are applied
+only to directories:
+		(OI) - object inherit
+		(CI) - container inherit
+		(IO) - inherit only
+		(NP) - don't propagate inherit'
+		(I) - permission inherited from parent container
+
+
+
 #icacls.exe c:\*  /c | clip
 /C indicates that this operation will continue on all file errors.
 
+
+
+
+icacls.exe  d:\Users\Eda\SteamLibrary
+
+
+icacls.exe C:\Users\Public\experi\prase
+C:\Users\Public\experi\prase LEN20\jhgjghgjhgjgh:(I)(OI)(CI)(DENY)(DE,WDAC,WO,WD,DC)
+
+
+icacls.exe C:\Users\marti
 
 
 icacls.exe C:\Users
@@ -71,12 +102,14 @@ S-1-15-3-65536-3323407561-2172269196-3486974656-4132058316-2250862433-3856296919
 
 
 
+C:\Users\marti\OneDrive\windows-f8\admin.icacls.txt
+su
+win+x adm
 icacls.exe C:\Users\*    /c | clip
 icacls.exe C:\Users\*    /c
 
 C:\Users\Public BUILTIN\Administrators:(OI)(CI)(F)
                 CREATOR OWNER:(OI)(CI)(IO)(F)
-                NT AUTHORITY\SYSTEM:(OI)(CI)(F)
                 NT AUTHORITY\INTERACTIVE:(OI)(CI)(IO)(M,DC)
                 NT AUTHORITY\INTERACTIVE:(RX,WD,AD)
                 NT AUTHORITY\SERVICE:(OI)(CI)(IO)(M,DC)

@@ -10482,3 +10482,12 @@ conda activate pip310ecco
 py
 git commit -v -a -m backup
 git push
+git commit -v -a -m backup
+git push
+cmd /c dir c:\ | findstr.exe -i free
+icacls.exe /?
+icacls.exe  c:\Users\Eda\SteamLibrary
+icacls.exe  d:\Users\Eda\SteamLibrary
+icacls.exe /?
+icacls.exe C:\Users\Public\experi\prase
+icacls.exe C:\Users\marti
