@@ -10496,3 +10496,9 @@ git commit -v -a -m backup
 
 cmdkey
 cmdkey /list
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
+git push
+bash -c 'df -m'
+$env:Path -split ';'
+ls C:\Users\marti\AppData\Local\Microsoft\WindowsApps

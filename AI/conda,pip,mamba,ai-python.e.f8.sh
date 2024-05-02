@@ -87,7 +87,8 @@ user:
 
 
 
-NEXT TIME : LINUX
+NEXT TIME : mainly LINUX?
+
 
 
 
