@@ -10491,3 +10491,8 @@ icacls.exe  d:\Users\Eda\SteamLibrary
 icacls.exe /?
 icacls.exe C:\Users\Public\experi\prase
 icacls.exe C:\Users\marti
+conda activate pip310ecco
+git commit -v -a -m backup
+
+cmdkey
+cmdkey /list
