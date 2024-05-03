@@ -43,21 +43,6 @@ CWE-427: Uncontrolled Search Path Element
 
 
 
-ai
-
-* I have to install Python in Windows into the D drive, e.g. into a directory named D:\.install\python
-* but, there are weak folder permissions (weak folder security) by default in the root directory of the drives
-* and, weak folder permissions (security) means a danger of e.g. DLL hijacking
-
-please, give me `icacls` commands to set secure permissions on the "D:\.install\python" directory
-
-
-////How can I mitigate this security weakness?
-
-
-
-
-
 
 https://www.bing.com/search?q=Python%20security%20best%20practices&qs=ds&form=ATCVAJ
 	Open a Command Prompt as an Administrator:
