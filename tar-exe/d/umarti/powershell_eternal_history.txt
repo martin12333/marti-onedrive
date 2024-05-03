@@ -10502,3 +10502,10 @@ git push
 bash -c 'df -m'
 $env:Path -split ';'
 ls C:\Users\marti\AppData\Local\Microsoft\WindowsApps
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
+git push
+[a quote]
+I usually check if the software gets installed in the root directory such as Python. Because if a folder is created in the root directory, it is writable for all authenticated users by default. And software like Python, Ruby, Perl etc. usually added to the PATH variable.
+One last check left. We should ensure if the C:\Python27 directory is added in the PATH environment variable. The easiest way to do this, typing python -h in the shell. If the help page is displayed successfully it means the directory is added to the PATH:
+accesschk.exe /?
