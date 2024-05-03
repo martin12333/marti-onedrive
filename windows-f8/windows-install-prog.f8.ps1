@@ -59,13 +59,3 @@ https://photos.google.com/album/AF1QipMGbTbwFisJtwzNxVruozV94cfbu6-ecSZ7BKZ-
 
 
 
-
-
--------------------------
-
-f8 on file:/// does ~~nothing in powershell
-file:///C:\Users\marti\OneDrive\git-f8\windows-reinstall-git.f8.ps1
-
-f8 on
-https://kkk&jjjjjjjjj
-does ~~nothing in powershell
