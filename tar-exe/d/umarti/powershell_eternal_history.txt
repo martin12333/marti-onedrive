@@ -10526,3 +10526,5 @@ C:\Users
 C:\Users\marti
 git commit -v -a -m backup
 git push
+git commit -v -a -m backup
+git push

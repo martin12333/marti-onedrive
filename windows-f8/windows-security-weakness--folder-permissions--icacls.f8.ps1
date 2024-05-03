@@ -28,8 +28,6 @@ $env:Path -split ';'
 todo
 links
 
-	https://www.reddit.com/r/Anaconda_fans/comments/loxzft/how_to_not_install_and_reinstall_anaconda_in/
-
 
 	https://www.greyhathacker.net/?p=738
 		Elevating privileges by exploiting weak folder permissions – GreyHatHacker.NET
@@ -51,6 +49,15 @@ links
 		One last check left. We should ensure if the C:\Python27 directory is added in the PATH environment variable.
 
 
+
+
+
+		https://www.reddit.com/r/Anaconda_fans/comments/loxzft/how_to_not_install_and_reinstall_anaconda_in/
+
+		https://www.facebook.com/groups/488811872114264/posts/488821202113331/
+
+
+		
 accesschk.exe /?
 
 
