@@ -12,8 +12,15 @@
 
 break out of hyperfocus? site:www.reddit.com
 
+
 todo diigo
 
+
+search terms
+	DLL hijacking
+		wikipedia
+	weak folder permissions
+	file * permission weakness
 
 
 seealso
@@ -26,33 +33,29 @@ $env:Path.Length
 $env:Path -split ';'
 
 
+todo
+links
 
-https://www.reddit.com/r/Anaconda_fans/comments/loxzft/how_to_not_install_and_reinstall_anaconda_in/
+	https://www.reddit.com/r/Anaconda_fans/comments/loxzft/how_to_not_install_and_reinstall_anaconda_in/
 
+	https://www.greyhathacker.net/?p=738
+		Elevating privileges by exploiting weak folder permissions – GreyHatHacker.NET
 
+	https://github.com/msys2/msys2-installer/issues/51
 
+	http://webcache.googleusercontent.com/search?q=cache:DkaQ9X0mWO0J:https://medium.com/@dasagreeva/windows-privilege-escalation-methods-2e93c954a287&hl=en&gl=cz&strip=1&vwsrc=0
 
-https://www.greyhathacker.net/?p=738
-Elevating privileges by exploiting weak folder permissions – GreyHatHacker.NET
+		Windows Privilege Escalation Methods | by Dasagreeva
+		medium.com
+		2021
 
-https://github.com/msys2/msys2-installer/issues/51
+		Security Consultant | Synack Red Member | Trainer
 
+		[a quote]
+		I usually check if the software gets installed in the root directory such as Python. Because if a folder is created in the root directory, it is writable for all authenticated users by default. And software like Python, Ruby, Perl etc. usually added to the PATH variable.
 
-
-
-http://webcache.googleusercontent.com/search?q=cache:DkaQ9X0mWO0J:https://medium.com/@dasagreeva/windows-privilege-escalation-methods-2e93c954a287&hl=en&gl=cz&strip=1&vwsrc=0
-
-	Windows Privilege Escalation Methods | by Dasagreeva
-	medium.com
-	2021
-
-	Security Consultant | Synack Red Member | Trainer
-
-	[a quote]
-	I usually check if the software gets installed in the root directory such as Python. Because if a folder is created in the root directory, it is writable for all authenticated users by default. And software like Python, Ruby, Perl etc. usually added to the PATH variable.
-
-	[a quote]
-	One last check left. We should ensure if the C:\Python27 directory is added in the PATH environment variable. The easiest way to do this, typing  ‘python -h’  in the shell. If the help page is displayed successfully it means the directory is added to the PATH.
+		[a quote]
+		One last check left. We should ensure if the C:\Python27 directory is added in the PATH environment variable.
 
 
 accesschk.exe /?
@@ -76,10 +79,6 @@ please, give me `icacls` commands to set secure permissions on the "D:\.install\
 
 
 
-
-
-
-
 https://www.bing.com/search?q=Python%20security%20best%20practices&qs=ds&form=ATCVAJ
 	Open a Command Prompt as an Administrator:
 	Press Win + X and choose “Command Prompt (Admin)” or “Windows PowerShell (Admin)”.
@@ -90,6 +89,9 @@ https://www.bing.com/search?q=Python%20security%20best%20practices&qs=ds&form=AT
 	/inheritance:r: Removes inherited permissions.
 	/grant: Grants specific permissions to the specified groups or users.
 	"Authenticated Users:(OI)(CI)(RX)": Allows read and execute permissions for all authenticated users.
+
+
+TODO: /grant "THEUSER:(OI)(CI)(F)"
 
 
 isn't it necessary to do
@@ -116,23 +118,18 @@ icacls "C:\Test" /inheritance:r
 
 
 
-BUT, there is a danger of e.g. DLL hijacking
 
 
 ai
 You're right, weak folder permissions can be a security risk. Here's how you can address this while installing Python on your D drive:
 
-pen_spark
-
-
-
+....
 1. Mitigate Permissions for D Drive (Not Recommended):
 
 Technically, you could adjust permissions on the D drive root. However, this is generally not recommended for several reasons:
 
 Complexity: Windows permissions can be intricate, and modifying them incorrectly can lead to unintended consequences.
-Unnecessary Risk: Most applications don't require write access to the entire drive root.'
-Limited Impact: Even with stricter permissions, other vulnerabilities might exist.
+//////Unnecessary Risk: Most applications don't require write access to the entire drive root.'
 
 
 
@@ -178,8 +175,10 @@ only to directories:
 icacls.exe  d:\Users\Eda\SteamLibrary
 
 
-icacls.exe C:\Users\Public\experi\prase
-C:\Users\Public\experi\prase LEN20\jhgjghgjhgjgh:(I)(OI)(CI)(DENY)(DE,WDAC,WO,WD,DC)
+a teacher cautioned us against the DENY,
+	me did not found any other DENY anywhere in my C: D:
+	icacls.exe C:\Users\Public\experi\prase
+	C:\Users\Public\experi\prase LEN20\jhgjghgjhgjgh:(I)(OI)(CI)(DENY)(DE,WDAC,WO,WD,DC)
 
 
 icacls.exe C:\Users\marti
@@ -224,40 +223,40 @@ C:\Users\Public BUILTIN\Administrators:(OI)(CI)(F)
 
 
 
-				235
-				icacls.exe c:\
+235
+icacls.exe c:\
 
-					c:\ S-1-15-3-65536-1888954469-739942743-1668119174-2468466756-4239452838-1296943325-355587736-700089176:(S,RD,X,RA)
-					BUILTIN\Users:(OI)(CI)(RX)
-					NT AUTHORITY\Authenticated Users:(OI)(CI)(IO)(RX)
-					Mandatory Label\High Mandatory Level:(OI)(NP)(IO)(NW)
-
-
-
-				icacls.exe D:\
-				D:\ NT AUTHORITY\Authenticated Users:(OI)(CI)(IO)(RX)
-					BUILTIN\Users:(OI)(CI)(RX)
+	c:\ S-1-15-3-65536-1888954469-739942743-1668119174-2468466756-4239452838-1296943325-355587736-700089176:(S,RD,X,RA)
+	BUILTIN\Users:(OI)(CI)(RX)
+	NT AUTHORITY\Authenticated Users:(OI)(CI)(IO)(RX)
+	Mandatory Label\High Mandatory Level:(OI)(NP)(IO)(NW)
 
 
-				icacls.exe D:\instu
-				D:\conda LEN20\marti:(OI)(CI)(F)
-				NT AUTHORITY\Authenticated Users:(I)(OI)(CI)(RX)
-				BUILTIN\Users:(I)(OI)(CI)(RX)
+
+icacls.exe D:\
+D:\ NT AUTHORITY\Authenticated Users:(OI)(CI)(IO)(RX)
+	BUILTIN\Users:(OI)(CI)(RX)
 
 
-				icacls.exe D:\conda
-					D:\conda LEN20\marti:(OI)(CI)(F)
-					NT AUTHORITY\Authenticated Users:(I)(OI)(CI)(RX)
-					BUILTIN\Users:(I)(OI)(CI)(RX)
+icacls.exe D:\instu
+D:\conda LEN20\marti:(OI)(CI)(F)
+NT AUTHORITY\Authenticated Users:(I)(OI)(CI)(RX)
+BUILTIN\Users:(I)(OI)(CI)(RX)
 
 
-					D:\conda\envs\pip310ecco
-					D:\conda\envs\pip310ecco\Library\mingw-w64\bin
-					D:\conda\envs\pip310ecco\Library\usr\bin
-					D:\conda\envs\pip310ecco\Library\bin
-					D:\conda\envs\pip310ecco\Scripts
-					D:\conda\envs\pip310ecco\bin
-					D:\conda\condabin
+icacls.exe D:\conda
+	D:\conda LEN20\marti:(OI)(CI)(F)
+	NT AUTHORITY\Authenticated Users:(I)(OI)(CI)(RX)
+	BUILTIN\Users:(I)(OI)(CI)(RX)
+
+
+	D:\conda\envs\pip310ecco
+	D:\conda\envs\pip310ecco\Library\mingw-w64\bin
+	D:\conda\envs\pip310ecco\Library\usr\bin
+	D:\conda\envs\pip310ecco\Library\bin
+	D:\conda\envs\pip310ecco\Scripts
+	D:\conda\envs\pip310ecco\bin
+	D:\conda\condabin
 
 
 
