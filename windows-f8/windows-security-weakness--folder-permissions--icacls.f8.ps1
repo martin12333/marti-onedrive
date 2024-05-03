@@ -10,6 +10,7 @@
 # echo '-------- section --------'
 
 
+break out of hyperfocus? site:www.reddit.com
 
 todo diigo
 
@@ -18,26 +19,40 @@ todo diigo
 seealso
 	code conda-dotfiles\CWE-426--Untrusted-Search-Path---conda.f8.ps1
 
+#
 
 
-	$env:Path.Length
-	$env:Path -split ';'
+$env:Path.Length
+$env:Path -split ';'
+
+
+
+https://www.reddit.com/r/Anaconda_fans/comments/loxzft/how_to_not_install_and_reinstall_anaconda_in/
+
+
+
+
+https://www.greyhathacker.net/?p=738
+Elevating privileges by exploiting weak folder permissions – GreyHatHacker.NET
+
+https://github.com/msys2/msys2-installer/issues/51
+
 
 
 
 http://webcache.googleusercontent.com/search?q=cache:DkaQ9X0mWO0J:https://medium.com/@dasagreeva/windows-privilege-escalation-methods-2e93c954a287&hl=en&gl=cz&strip=1&vwsrc=0
 
-Windows Privilege Escalation Methods | by Dasagreeva
-medium.com
-2021
+	Windows Privilege Escalation Methods | by Dasagreeva
+	medium.com
+	2021
 
-Security Consultant | Synack Red Member | Trainer
+	Security Consultant | Synack Red Member | Trainer
 
-[a quote]
-I usually check if the software gets installed in the root directory such as Python. Because if a folder is created in the root directory, it is writable for all authenticated users by default. And software like Python, Ruby, Perl etc. usually added to the PATH variable.
+	[a quote]
+	I usually check if the software gets installed in the root directory such as Python. Because if a folder is created in the root directory, it is writable for all authenticated users by default. And software like Python, Ruby, Perl etc. usually added to the PATH variable.
 
-[a quote]
-One last check left. We should ensure if the C:\Python27 directory is added in the PATH environment variable. The easiest way to do this, typing  ‘python -h’  in the shell. If the help page is displayed successfully it means the directory is added to the PATH.
+	[a quote]
+	One last check left. We should ensure if the C:\Python27 directory is added in the PATH environment variable. The easiest way to do this, typing  ‘python -h’  in the shell. If the help page is displayed successfully it means the directory is added to the PATH.
 
 
 accesschk.exe /?
@@ -265,3 +280,23 @@ C:\Users\Public BUILTIN\Administrators:(OI)(CI)(F)
 					f8 on
 					https://kkk&jjjjjjjjj
 					does ~~nothing in powershell
+
+
+
+
+
+
+
+
+#
+
+https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=msys2
+https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=git
+https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=anaconda
+
+
+#
+
+
+
+https://github.com/git-for-windows/git/security/advisories/GHSA-9w66-8mq8-5vm8
