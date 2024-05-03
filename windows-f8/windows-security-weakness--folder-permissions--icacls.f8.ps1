@@ -116,7 +116,7 @@ pen_spark
 Technically, you could adjust permissions on the D drive root. However, this is generally not recommended for several reasons:
 
 Complexity: Windows permissions can be intricate, and modifying them incorrectly can lead to unintended consequences.
-Unnecessary Risk: Most applications don't require write access to the entire drive root.
+Unnecessary Risk: Most applications don't require write access to the entire drive root.'
 Limited Impact: Even with stricter permissions, other vulnerabilities might exist.
 
 
@@ -201,6 +201,48 @@ C:\Users\Public BUILTIN\Administrators:(OI)(CI)(F)
 				LEN20\marti:(OI)(CI)(F)
 				S-1-15-3-65536-3852923496-3228631905-2361761901-1328441031-2492177081-392074989-583479735-4232454157:(S,X)
 
+
+
+
+
+
+
+
+
+				235
+				icacls.exe c:\
+
+					c:\ S-1-15-3-65536-1888954469-739942743-1668119174-2468466756-4239452838-1296943325-355587736-700089176:(S,RD,X,RA)
+					BUILTIN\Users:(OI)(CI)(RX)
+					NT AUTHORITY\Authenticated Users:(OI)(CI)(IO)(RX)
+					Mandatory Label\High Mandatory Level:(OI)(NP)(IO)(NW)
+
+
+
+				icacls.exe D:\
+				D:\ NT AUTHORITY\Authenticated Users:(OI)(CI)(IO)(RX)
+					BUILTIN\Users:(OI)(CI)(RX)
+
+
+				icacls.exe D:\instu
+				D:\conda LEN20\marti:(OI)(CI)(F)
+				NT AUTHORITY\Authenticated Users:(I)(OI)(CI)(RX)
+				BUILTIN\Users:(I)(OI)(CI)(RX)
+
+
+				icacls.exe D:\conda
+					D:\conda LEN20\marti:(OI)(CI)(F)
+					NT AUTHORITY\Authenticated Users:(I)(OI)(CI)(RX)
+					BUILTIN\Users:(I)(OI)(CI)(RX)
+
+
+					D:\conda\envs\pip310ecco
+					D:\conda\envs\pip310ecco\Library\mingw-w64\bin
+					D:\conda\envs\pip310ecco\Library\usr\bin
+					D:\conda\envs\pip310ecco\Library\bin
+					D:\conda\envs\pip310ecco\Scripts
+					D:\conda\envs\pip310ecco\bin
+					D:\conda\condabin
 
 
 
