@@ -10519,3 +10519,8 @@ icacls.exe c:\
 icacls.exe D:\
 git commit -v -a -m backup
 git push
+git commit -v -a -m backup
+git push
+file:///C:\Users\marti\OneDrive\dflkjdskfjfds
+C:\Users
+C:\Users\marti

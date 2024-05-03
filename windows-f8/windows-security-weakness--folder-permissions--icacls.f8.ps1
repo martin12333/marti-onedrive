@@ -99,7 +99,6 @@ first?
 
 
 
-	https://gemini.google.com/app/0f5fc1a833190786
 
 
 icacls "C:\Test" /reset /T
@@ -114,15 +113,16 @@ icacls "C:\Test" /inheritance:r
 
 
 ai
+	##https://gemini.google.com/app/0f5fc1a833190786
+
 You're right, weak folder permissions can be a security risk. Here's how you can address this while installing Python on your D drive:
 
 ....
-1. Mitigate Permissions for D Drive (Not Recommended):
+1. Mitigate Permissions for D Drive
 
-Technically, you could adjust permissions on the D drive root. However, this is generally not recommended for several reasons:
+Technically, you could adjust permissions on the D drive root. However, this is generally ...
 
 Complexity: Windows permissions can be intricate, and modifying them incorrectly can lead to unintended consequences.
-//////Unnecessary Risk: Most applications don't require write access to the entire drive root.'
 
 
 
@@ -263,18 +263,18 @@ icacls.exe D:\conda
 
 
 
+####################
 
-					-------------------------
-
-					f8 on file:/// does ~~nothing in powershell
-					file:///C:\Users\marti\OneDrive\git-f8\windows-reinstall-git.f8.ps1
+					f8 on file:///xyz does ~~nothing in powershell, e.g.
+					file:///C:\Users\marti\OneDrive\dflkjdskfjfds
+					C:\Users\marti
 
 					f8 on
 					https://kkk&jjjjjjjjj
 					does ~~nothing in powershell
 
 
-
+############
 
 
 
@@ -294,14 +294,15 @@ https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=anaconda
 https://github.com/git-for-windows/git/security/advisories/GHSA-9w66-8mq8-5vm8
 
 
-		# an EDIT 3 years later: the default folder permissions for D:\ are a security weakness ... I will put a web link into a comment
+
+# an EDIT 3 years later: the default folder permissions for D:\ are a security weakness ... I will put a web link into a comment
 
 
 
 break out of hyperfocus? site:www.reddit.com
 
-
 todo diigo
+
 
 
 
