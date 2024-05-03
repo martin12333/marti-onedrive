@@ -10,11 +10,6 @@
 # echo '-------- section --------'
 
 
-break out of hyperfocus? site:www.reddit.com
-
-
-todo diigo
-
 
 search terms
 	DLL hijacking
@@ -22,9 +17,6 @@ search terms
 	weak folder permissions
 	file * permission weakness
 
-
-seealso
-	code conda-dotfiles\CWE-426--Untrusted-Search-Path---conda.f8.ps1
 
 #
 
@@ -37,6 +29,7 @@ todo
 links
 
 	https://www.reddit.com/r/Anaconda_fans/comments/loxzft/how_to_not_install_and_reinstall_anaconda_in/
+
 
 	https://www.greyhathacker.net/?p=738
 		Elevating privileges by exploiting weak folder permissions – GreyHatHacker.NET
@@ -299,3 +292,20 @@ https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=anaconda
 
 
 https://github.com/git-for-windows/git/security/advisories/GHSA-9w66-8mq8-5vm8
+
+
+		# an EDIT 3 years later: the default folder permissions for D:\ are a security weakness ... I will put a web link into a comment
+
+
+
+break out of hyperfocus? site:www.reddit.com
+
+
+todo diigo
+
+
+
+######################
+seealso
+
+	code conda-dotfiles\CWE-426--Untrusted-Search-Path---conda.f8.ps1

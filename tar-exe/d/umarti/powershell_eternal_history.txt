@@ -10517,3 +10517,5 @@ git add -vv  '*.f8.*'
 git commit -v -a -m backup
 icacls.exe c:\
 icacls.exe D:\
+git commit -v -a -m backup
+git push
