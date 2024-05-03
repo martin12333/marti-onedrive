@@ -107,6 +107,9 @@ icacls "C:\Test" /inheritance:r
 
 
 
+# https://github.com/ContinuumIO/salt/blob/develop/pkg/windows/installer/Salt-Minion-Setup.nsi
+icacls c:\salt /inheritance:r /grant:r "BUILTIN\Administrators":(OI)(CI)F /grant:r "NT AUTHORITY\SYSTEM":(OI)(CI)F
+
 
 
 

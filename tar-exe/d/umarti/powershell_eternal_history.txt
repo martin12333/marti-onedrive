@@ -10524,3 +10524,5 @@ git push
 file:///C:\Users\marti\OneDrive\dflkjdskfjfds
 C:\Users
 C:\Users\marti
+git commit -v -a -m backup
+git push
