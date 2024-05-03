@@ -10,6 +10,9 @@
 # echo '-------- section --------'
 
 
+seealso
+	code windows-f8\windows-security-weakness--folder-permissions--icacls.f8.ps1
+
 
 todo diigo
 
@@ -46,82 +49,6 @@ https://photos.google.com/album/AF1QipMGbTbwFisJtwzNxVruozV94cfbu6-ecSZ7BKZ-
 		That's a great recommendation! Creating a **Windows Restore Point** before and after an installation can help protect your system. If the installation causes any issues, you can use the restore point to return your system to the state it was in before the installation. This can be a lifesaver when dealing with problematic software or updates. Here's a brief guide on how to
 		...
 
-
-
-
-
-245
-
-
-#dir C:\conda
-icacls.exe /?
-
-S - synchronize
-
-GR - generic read
-GW - generic write
-GE - generic execute
-
-RD - read data/list directory
-
-X - execute/traverse
-
-inheritance rights may precede either form and are applied
-only to directories:
-		(OI) - object inherit
-		(CI) - container inherit
-		(IO) - inherit only
-		(NP) - don't propagate inherit'
-		(I) - permission inherited from parent container
-
-
-
-#icacls.exe c:\*  /c | clip
-/C indicates that this operation will continue on all file errors.
-
-
-
-
-icacls.exe  d:\Users\Eda\SteamLibrary
-
-
-icacls.exe C:\Users\Public\experi\prase
-C:\Users\Public\experi\prase LEN20\jhgjghgjhgjgh:(I)(OI)(CI)(DENY)(DE,WDAC,WO,WD,DC)
-
-
-icacls.exe C:\Users\marti
-
-
-icacls.exe C:\Users
-
-BUILTIN\Users:(RX)
-BUILTIN\Users:(OI)(CI)(IO)(GR,GE)
-Everyone:(RX)
-Everyone:(OI)(CI)(IO)(GR,GE)
-S-1-15-3-65536-3323407561-2172269196-3486974656-4132058316-2250862433-3856296919-434318741-3760235072:(S,RD,X)
-
-
-
-C:\Users\marti\OneDrive\windows-f8\admin.icacls.txt
-su
-win+x adm
-icacls.exe C:\Users\*    /c | clip
-icacls.exe C:\Users\*    /c
-
-C:\Users\Public BUILTIN\Administrators:(OI)(CI)(F)
-                CREATOR OWNER:(OI)(CI)(IO)(F)
-                NT AUTHORITY\INTERACTIVE:(OI)(CI)(IO)(M,DC)
-                NT AUTHORITY\INTERACTIVE:(RX,WD,AD)
-                NT AUTHORITY\SERVICE:(OI)(CI)(IO)(M,DC)
-                NT AUTHORITY\SERVICE:(RX,WD,AD)
-                NT AUTHORITY\BATCH:(OI)(CI)(IO)(M,DC)
-                NT AUTHORITY\BATCH:(RX,WD,AD)
-
-
-				C:\Users\marti NT AUTHORITY\SYSTEM:(OI)(CI)(F)
-				BUILTIN\Administrators:(OI)(CI)(F)
-				LEN20\marti:(OI)(CI)(F)
-				S-1-15-3-65536-3852923496-3228631905-2361761901-1328441031-2492177081-392074989-583479735-4232454157:(S,X)
 
 
 
