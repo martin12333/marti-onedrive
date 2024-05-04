@@ -10590,3 +10590,7 @@ Get-Item C:\Users | get-acl | select -ExpandProperty Access | ? inheritanceflags
 Get-Item C:\Users | get-acl | select -ExpandProperty Access | ? inheritanceflags -eq $none
 Get-Item C:\Users | get-acl | select -ExpandProperty Access | ? inheritanceflags -eq none
 Get-Item C:\Users | get-acl | select -ExpandProperty Access
+git commit -v -a -m backup
+git push
+cd .\Obrázky
+echo sdsf >>aaaaaaa

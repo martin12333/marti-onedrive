@@ -359,6 +359,7 @@ https://github.com/git-for-windows/git/security/advisories/GHSA-9w66-8mq8-5vm8
 
 # an EDIT 3 years later: the default folder permissions for D:\ are a security weakness ... I will put a web link into a comment
 
+# an EDIT 3 years later: maybe the indexer won't index AppData and dotfolders?
 
 
 break out of hyperfocus? site:www.reddit.com
