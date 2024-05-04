@@ -79,6 +79,15 @@ q
 
 	help Set-Clipboard
 
+
+
+	#245.4
+	help Get-Clipboard
+	help about_CommonParameters
+	Get-Clipboard -OutVariable x
+	$x.Length
+
+
 echo '-------- section --------'
 
 "e ab c" | clip

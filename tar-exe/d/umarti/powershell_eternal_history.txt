@@ -10528,3 +10528,65 @@ git commit -v -a -m backup
 git push
 git commit -v -a -m backup
 git push
+git commit -v -a -m backup
+git push
+cacls D:\CACLS-TEST\
+Get-Clipboard -OutVariable x
+$x.Length
+Get-Clipboard -OutBuffer x
+Get-Clipboard -Raw
+cacls
+cacls.exe  'C:\'
+cacls.exe  'C:\Program Files'
+cacls.exe  'C:\Pf'
+cacls.exe C:\Users
+Get-Acl   C:\Users
+Get-Acl   C:\Users | select *
+Get-Acl   C:\Users | select *| findstr.exe -i inher
+icacls c:\  /inheritance
+cacls c:\  /inheritance
+icacls c:\
+icacls C:\Users
+icacls 'C:\Program Files'
+icacls 'C:\Program Files'  |  findstr.exe -i user
+icacls c:\  |  findstr.exe -i user
+icacls C:\Users |  findstr.exe -i user
+icacls C:\Windows |  findstr.exe -i user
+ls c:\
+icacls C:\tmp  |  findstr.exe -i user
+icacls C:\mytemp  |  findstr.exe -i user
+icacls C:\conda  |  findstr.exe -i user
+Get-Acl   C:\Users  |  select AreAccessRulesProtected
+Get-Acl   C:\Users,c:\  |  select AreAccessRulesProtected
+Get-Acl   c:\,C:\Users,c:\  |  select AreAccessRulesProtected
+Get-Acl   c:\,C:\Users,'C:\Program Files'  |  select AreAccessRulesProtected
+Get-Acl   c:\,C:\Users,'C:\Program Files',C:\conda  |  select AreAccessRulesProtected
+Get-Acl   c:\,C:\Users,'C:\Program Files',C:\conda,C:\mytemp,C:\tmp  |  select AreAccessRulesProtected
+Get-Acl   c:\,C:\Users,'C:\Program Files',C:\conda,C:\mytemp,C:\tmp,C:\Windows  |  select AreAccessRulesProtected
+Get-Acl   c:,C:\Users,'C:\Program Files',C:\conda,C:\mytemp,C:\tmp,C:\Windows  |  select AreAccessRulesProtected
+Get-Acl   c:,C:..,'C:\Program Files',C:\conda,C:\mytemp,C:\tmp,C:\Windows  |  select AreAccessRulesProtected
+Get-Acl   c:,C:..,C:\Users\marti\OneDrive\AAAAcontac,C:\mytemp,C:\tmp,C:\Windows  |  select AreAccessRulesProtected
+Get-Acl   c:,C:..,C:\Users\marti\OneDrive\AAAAcontac,C:\Users\marti\OneDrive\eev-f8,  |  select AreAccessRulesProtected
+Get-Acl   c:,C:..,C:\Users\marti\OneDrive\AAAAcontac,C:\Users\marti\OneDrive\eev-f8  |  select AreAccessRulesProtected
+Get-Acl   c:\,C:\Users,'C:\Program Files',C:\conda,C:\mytemp,C:\tmp,C:\Windows  |  select AreAccessRulesProtected
+Get-Acl   c:*  |  select AreAccessRulesProtected
+(Get-Item c:\fso | get-acl).Access | ? inheritanceflags -eq none
+(Get-Item c:\u | get-acl).Access | ? inheritanceflags -eq none
+(Get-Item C:\Users | get-acl).Access | ? inheritanceflags -eq none
+Get-Item C:\Users | get-acl | select Access | ? inheritanceflags -eq none
+Get-Item C:\Users | get-acl | select Access
+Get-Item C:\Users | get-acl | select Access | select inheritanceflags
+Get-Item C:\ | get-acl | select Access | select inheritanceflags
+Get-Acl   c:\,C:\Users,'C:\Program Files',C:\conda,C:\mytemp,C:\tmp,C:\Windows  |  select AreAccessRulesProtected
+(Get-Item C:\Users | get-acl).Access | ? inheritanceflags -eq none
+(Get-Item C:\Users | get-acl).Access
+Get-Item C:\Users | get-acl | select Access
+Get-Item C:\Users | get-acl | select Access| sos
+Get-Item C:\Users | get-acl | select Access| sff
+Get-Item C:\Users | get-acl | select Access| oss
+Get-Item C:\Users | get-acl | select -ExpandProperty Access
+Get-Item C:\Users | get-acl | select -ExpandProperty Access | select inheritanceflags
+Get-Item C:\Users | get-acl | select -ExpandProperty Access | ? inheritanceflags -eq none
+Get-Item C:\Users | get-acl | select -ExpandProperty Access | ? inheritanceflags -eq $none
+Get-Item C:\Users | get-acl | select -ExpandProperty Access | ? inheritanceflags -eq none
+Get-Item C:\Users | get-acl | select -ExpandProperty Access

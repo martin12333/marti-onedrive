@@ -2571,7 +2571,9 @@ Get-Clipboard
 Get-Clipboard -Raw
 Get-Clipboard -Verbose
 Get-Clipboard -Debug
-Get-Clipboard -OutBuffer $x
+###Get-Clipboard -OutBuffer $x
+###Get-Clipboard -OutBuffer x
+
 help Get-Clipboard
 help about_CommonParameters
 Get-Clipboard -OutVariable x

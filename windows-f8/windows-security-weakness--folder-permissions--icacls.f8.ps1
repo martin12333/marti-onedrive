@@ -32,6 +32,8 @@ links
 	https://www.greyhathacker.net/?p=738
 		Elevating privileges by exploiting weak folder permissions – GreyHatHacker.NET
 
+		It gets interesting when applications gets installed in the root and add its path to the system path environment. This now opens the attack surface for a large number of applications that may have DLL hijacking vulnerabilities. One scenario is software getting pushed onto machines, with the likes of Marimba, Landesk, etc. which use a Windows service running with system privileges to install the software. Since it runs with system privileges software pushed onto machines such as Perl, Python or Ruby it will add to the system path environment if adding the path had been set in the package along with being installed on the root as default. Or it could be an IT support personnel installs the software with their admin rights for the user. If a user installs manually (if possible) with non-admin rights then it may be added to user path environment and then exploitation would not be possible
+
 	https://github.com/msys2/msys2-installer/issues/51
 
 	http://webcache.googleusercontent.com/search?q=cache:DkaQ9X0mWO0J:https://medium.com/@dasagreeva/windows-privilege-escalation-methods-2e93c954a287&hl=en&gl=cz&strip=1&vwsrc=0
@@ -57,7 +59,12 @@ links
 		https://www.facebook.com/groups/488811872114264/posts/488821202113331/
 
 
-		
+
+
+		https://github.com/TairikuOokami/Windows/blob/main/Windows%20Setup%201.bat
+		https://github.com/TairikuOokami/Windows/blob/main/Windows%20Setup%202.bat
+		https://github.com/TairikuOokami/Windows/blob/main/Windows%20Tweaks.bat
+
 accesschk.exe /?
 
 
@@ -83,7 +90,10 @@ https://www.bing.com/search?q=Python%20security%20best%20practices&qs=ds&form=AT
 	Open a Command Prompt as an Administrator:
 	Press Win + X and choose “Command Prompt (Admin)” or “Windows PowerShell (Admin)”.
 	Run the Following Command:
+
+
 	icacls D:\.install\python /inheritance:r /grant "Authenticated Users:(OI)(CI)(RX)" "SYSTEM:(OI)(CI)(F)" "Administrators:(OI)(CI)(F)"
+
 
 	This command does the following:
 	/inheritance:r: Removes inherited permissions.
@@ -140,10 +150,52 @@ Complexity: Windows permissions can be intricate, and modifying them incorrectly
 
 
 
-
+EXPERIM
 
 
 245
+
+
+
+
+Get-Acl   c:\,C:\Users,'C:\Program Files',C:\conda,C:\mytemp,C:\tmp,C:\Windows  |  select AreAccessRulesProtected
+
+Get-Acl   c:,C:..,C:\Users\marti\OneDrive\AAAAcontac,C:\Users\marti\OneDrive\eev-f8  |  select AreAccessRulesProtected
+
+Get-Acl   c:*  |  select AreAccessRulesProtected
+Get-Acl   c:*  |  select AreAccessRulesProtected
+
+ls c:\
+
+icacls c:\  |  findstr.exe -i user
+icacls 'C:\Program Files'  |  findstr.exe -i user
+
+icacls C:\conda  |  findstr.exe -i user
+icacls C:\mytemp  |  findstr.exe -i user
+icacls C:\tmp  |  findstr.exe -i user
+icacls C:\Windows |  findstr.exe -i user
+icacls C:\Users |  findstr.exe -i user
+
+
+cacls.exe  'C:\'
+cacls
+cacls.exe  'C:\Program Files'
+cacls.exe  'C:\Pf'
+
+cacls.exe C:\Users
+Get-Acl   C:\Users | select *| findstr.exe -i inher
+
+#less interesting meaning of inherit
+Get-Item C:\Users | get-acl | select -ExpandProperty Access
+| ? inheritanceflags -eq none
+| select inheritanceflags
+
+(Get-Item C:\Users | get-acl).Access
+
+
+#icacls.exe  'C:\Program Files' /L
+#icacls.exe  'C:\Pf' /L
+
 
 
 #dir C:\conda
