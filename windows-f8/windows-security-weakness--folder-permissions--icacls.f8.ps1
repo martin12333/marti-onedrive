@@ -6,10 +6,14 @@
 
 	(selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
-
 # echo '-------- section --------'
 
 
+maybe this text file should have been markdown rather than .ps1
+
+
+# my issue win2451
+win2451--security-weakness--folder-permissions
 
 search terms
 	DLL hijacking
@@ -73,7 +77,7 @@ accesschk.exe /?
 
 
 
-ai
+Ai/
 
 * I have to install Python in Windows into the D drive, e.g. into a directory named D:\.install\python
 * but, there are weak folder permissions (weak folder security) by default in the root directory of the drives
@@ -101,13 +105,38 @@ https://www.bing.com/search?q=Python%20security%20best%20practices&qs=ds&form=AT
 	"Authenticated Users:(OI)(CI)(RX)": Allows read and execute permissions for all authenticated users.
 
 
+#####################################
+
+?maybe or maybe not: ASK the ai AGAIN???
+
+/// is it really "Authenticated Users:(OI)(CI)(RX)" ?
+/// why not "Authenticated Users:(OI)(CI)RX" ?
+
+BUT
+my comment:
+icacls.exe itself often prints "(RX)"
+e.g.
+
+icacls.exe D:\
+D:\ NT AUTHORITY\Authenticated Users:(OI)(CI)(IO)(RX)
+	BUILTIN\Users:(OI)(CI)(RX)
+icacls.exe C:\Users
+	BUILTIN\Users:(RX)
+icacls.exe D:\Users
+
+#####################################
+
+
+
 TODO: /grant "THEUSER:(OI)(CI)(F)"
 
 
+__HUMAN__
 isn't it necessary to do
 icacls.exe "D:\.install\python"  /reset /T
 first?
 
+__AI__
 	Before applying the permissions, it’s a good practice to reset the existing permissions on the directory. You can do this using the following command:
 
 	icacls "D:\.install\python" /reset /T
@@ -117,6 +146,7 @@ first?
 
 
 
+#from googling
 
 icacls "C:\Test" /reset /T
 icacls "C:\Test" /grant "User":(OI)(CI)RX
@@ -156,6 +186,40 @@ EXPERIM
 245
 
 
+Get-Acl   c:\*  |  foreach{
+
+
+
+	 Select -ExpandProperty Access | Where { $_.IsInherited }
+}
+
+).Count
+
+select AreAccessRulesProtected,Path  |
+
+Get-ChildItem C:\temp -recurse | Select @{Name='Path';Expression={$_.FullName}},@{Name='InheritedCount';Expression={(Get-Acl $_.FullName | Select -ExpandProperty Access | Where { $_.IsInherited }).Count}}
+
+ | Where { $_.InheritedCount -eq 0 } | Select Path
+
+
+Get-ChildItem C:\temp -recurse | Select @{Name='Path';Expression={$_.FullName}},@{Name='InheritedCount';Expression={(Get-Acl $_.FullName | Select -ExpandProperty Access | Where { $_.IsInherited }).Count}} | Where { $_.InheritedCount -eq 0 } | Select Path
+
+
+echo    c:\,C:\Users,'C:\Program Files',C:\conda,C:\mytemp,C:\tmp,C:\Windows  | foreach {echo $_}
+echo    c:\,C:\Users,'C:\Program Files',C:\conda,C:\mytemp,C:\tmp,C:\Windows  | foreach {icacls $_}
+
+   findstr.exe -i "(i)"
+
+
+Get-Acl   c:\,C:\Users,'C:\Program Files',C:\conda,C:\mytemp,C:\tmp,C:\Windows
+
+  |  select AreAccessRulesProtected
+
+#
+
+Get-Acl   c:\*  |  select AreAccessRulesProtected,Path
+(path+'')
+.ToString()
 
 
 Get-Acl   c:\,C:\Users,'C:\Program Files',C:\conda,C:\mytemp,C:\tmp,C:\Windows  |  select AreAccessRulesProtected
@@ -362,11 +426,28 @@ https://github.com/git-for-windows/git/security/advisories/GHSA-9w66-8mq8-5vm8
 # an EDIT 3 years later: maybe the indexer won't index AppData and dotfolders?
 
 
+
+https://capec.mitre.org/data/definitions/159.html
+https://capec.mitre.org/data/definitions/38.html
+
+Likelihood Of Attack
+High
+
++ Typical Severity
+Very High
+
+
+
+
+
+
+
 break out of hyperfocus? site:www.reddit.com
 
 todo diigo
 
 
+(my Likelihood:  conditional)
 
 
 ######################

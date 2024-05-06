@@ -10594,3 +10594,34 @@ git commit -v -a -m backup
 git push
 cd .\Obrázky
 echo sdsf >>aaaaaaa
+git add -vv  '*.f8.*'
+cd ..
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
+git push
+Get-Acl   c:\,C:\Users,'C:\Program Files',C:\conda,C:\mytemp,C:\tmp,C:\Windows  |  findstr.exe -i "(i)"
+icacls.exe   c:\,C:\Users,'C:\Program Files',C:\conda,C:\mytemp,C:\tmp,C:\Windows  |  findstr.exe -i "(i)"
+c:\,C:\Users,'C:\Program Files',C:\conda,C:\mytemp,C:\tmp,C:\Windows  | echo $_
+echo    c:\,C:\Users,'C:\Program Files',C:\conda,C:\mytemp,C:\tmp,C:\Windows  | echo $_
+echo    c:\,C:\Users,'C:\Program Files',C:\conda,C:\mytemp,C:\tmp,C:\Windows  | foreach {echo $_}
+echo    c:\,C:\Users,'C:\Program Files',C:\conda,C:\mytemp,C:\tmp,C:\Windows  | foreach {icacls $_}
+Get-Acl   c:\,C:\Users,'C:\Program Files',C:\conda,C:\mytemp,C:\tmp,C:\Windows
+echo    c:\,C:\Users,'C:\Program Files',C:\conda,C:\mytemp,C:\tmp,C:\Windows  | foreach {echo $_}
+echo    c:\,C:\Users,'C:\Program Files',C:\conda,C:\mytemp,C:\tmp,C:\Windows  | foreach {icacls $_}
+findstr.exe -i "(i)"
+Get-Acl   c:\,C:\Users,'C:\Program Files',C:\conda,C:\mytemp,C:\tmp,C:\Windows
+Get-Acl   c:\,C:\Users,'C:\Program Files',C:\conda,C:\mytemp,C:\tmp,C:\Windows  |  select AreAccessRulesProtected
+Get-Acl   c:\*  |  select AreAccessRulesProtected
+Get-Acl   c:\*  |  select path,AreAccessRulesProtected
+Get-Acl   c:\*  |  select AreAccessRulesProtected,path
+Get-Acl   c:\*  |  select AreAccessRulesProtected,path.ToString
+Get-Acl   c:\*  |  select AreAccessRulesProtected,path.ToString()
+Get-Acl   c:\*  |  select AreAccessRulesProtected,path+''
+Get-Acl   c:\*  |  select AreAccessRulesProtected,(path+'')
+Get-Acl   c:\*  |  select AreAccessRulesProtected,Name
+Get-Acl   c:\*  | Select -ExpandProperty Access
+Get-Acl   c:\*  | Select -ExpandProperty Access | Where { $_.IsInherited }
+echo 8. V době očkování nesmíte brát antibiotika.
+echo https://www.ockovacicentrum.cz/cz/objednavka/Potvrzeni?
+icacls.exe D:\
+icacls.exe C:\Users
