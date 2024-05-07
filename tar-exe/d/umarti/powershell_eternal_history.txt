@@ -10670,3 +10670,8 @@ dir     *cuni*| select Name
 dir     *cz*| select Name
 . "c:\Users\marti\OneDrive\onedrive.live.com--itself\OneDrive.f8.ps1"
 git commit -v -a -m backup
+. "c:\Users\marti\OneDrive\onedrive.live.com--itself\OneDrive.f8.ps1"
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
+git push
+. "c:\Users\marti\OneDrive\onedrive.live.com--itself\OneDrive.f8.ps1"
