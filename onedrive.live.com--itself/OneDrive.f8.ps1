@@ -9,6 +9,7 @@ dir     *oUTlook*| select Name
 dir     *jvb*| select Name
 dir     *microso*| select Name
 
+dir     *bok*| select Name
 dir     *jirk*| select Name
 dir     *jilen*| select Name
 dir     *len*| select Name
