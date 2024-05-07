@@ -10625,3 +10625,6 @@ echo 8. V době očkování nesmíte brát antibiotika.
 echo https://www.ockovacicentrum.cz/cz/objednavka/Potvrzeni?
 icacls.exe D:\
 icacls.exe C:\Users
+icacls.exe D:\Users
+git commit -v -a -m backup
+git push
