@@ -10668,3 +10668,5 @@ dir     *mff*| select Name
 dir     *matf*| select Name
 dir     *cuni*| select Name
 dir     *cz*| select Name
+. "c:\Users\marti\OneDrive\onedrive.live.com--itself\OneDrive.f8.ps1"
+git commit -v -a -m backup
