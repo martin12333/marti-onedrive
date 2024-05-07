@@ -10638,3 +10638,10 @@ cmd /c dir | clip.exe
 git add -vv  '*.f8.*'
 git commit -v -a -m backup
 git push
+git commit -v -a -m backup
+cmd /c dir  *onedr*
+dir  *onedr*
+dir     *onedr*| select Name
+dir     *onedr*| select NameString
+dir     *onedri*| select Name
+git push
