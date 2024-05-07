@@ -1,6 +1,8 @@
 
 exit
 
+domain--mff.cuni.cz
+mff.cuni.cz,outLOOK.live.com
 
 f1 fuzz
 
