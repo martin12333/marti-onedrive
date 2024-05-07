@@ -4,7 +4,11 @@ exit
 f1 fuzz
 
 dir     *onedri*| select Name
+dir     *oUTlook*| select Name
 dir     *jvb*| select Name
+
+
+
 
 cmd /c dir  *onedr*
 dir     *onedr*| select NameString
