@@ -10650,3 +10650,21 @@ dir     *jvb*| select Name
 git commit -v -a -m backup
 git add -vv  '*.f8.*'
 git push
+dir     *oUTlook*| select Name
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
+git push
+dir     *microso*| select Name
+dir     *onedri*| select Name
+dir     *oUTlook*| select Name
+dir     *jvb*| select Name
+dir     *microso*| select Name
+dir     *jirk*| select Name
+dir     *jilen*| select Name
+dir     *len*| select Name
+dir     *alma*| select Name
+dir     *karl*| select Name
+dir     *mff*| select Name
+dir     *matf*| select Name
+dir     *cuni*| select Name
+dir     *cz*| select Name

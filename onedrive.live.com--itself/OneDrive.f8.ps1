@@ -1,3 +1,4 @@
+
 exit
 
 
@@ -6,6 +7,18 @@ f1 fuzz
 dir     *onedri*| select Name
 dir     *oUTlook*| select Name
 dir     *jvb*| select Name
+dir     *microso*| select Name
+
+dir     *jirk*| select Name
+dir     *jilen*| select Name
+dir     *len*| select Name
+
+dir     *alma*| select Name
+dir     *karl*| select Name
+dir     *mff*| select Name
+dir     *matf*| select Name
+dir     *cuni*| select Name
+dir     *cz*| select Name
 
 
 
