@@ -90,6 +90,6 @@ funguje to
 
 
 
-
+C:\Users\marti\OneDrive\mff.cuni.cz,outLOOK.live.com\smtp-mail.outlook.com.f8.md
 
 
