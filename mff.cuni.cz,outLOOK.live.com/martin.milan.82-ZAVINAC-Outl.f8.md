@@ -42,7 +42,8 @@ Create a new email address and add it as an alias
 
 
 martin.milan.82
-martin.milan.82-ZAVINAC-outlook.com.f8.md  
+C:\Users\marti\OneDrive\mff.cuni.cz,outLOOK.live.com\martin.milan.82-ZAVINAC-Outl.f8.md
+.com
 nikoli .cz
 google
 site:mff.cuni.cz "outlook.com"
