@@ -10688,3 +10688,9 @@ dir     *@*| select Name
 dir  -recurse   *@*| select Name
 cmd /c dir *@* /s
 bash
+conda activate pip310ecco
+git --ls-files  | findstr  "[@]"
+git ls-files  | findstr  "[@]"
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
+git push
