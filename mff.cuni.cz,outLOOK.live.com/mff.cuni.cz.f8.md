@@ -2,7 +2,10 @@
 // Milan: "...@" edited, repeatedly
 
 
+
 file:///C:\Users\marti\OneDrive\mff.cuni.cz,outLOOK.live.com\martin.milan.82-ZAVINAC-outlook.com.f8.md
+
+
 
 
 outlook deaktivuje odkazy vedouci do keepu
@@ -38,7 +41,7 @@ dir     *cz*| select Name
 
 
 
-asi trochu zavadejici  a.i.
+asi trosicku zavadejici  a.i.
 https://www.bing.com/chat?q=create%20outlook%20email%20alias&qs=ds&form=ATCVAJ
 export
 ## You

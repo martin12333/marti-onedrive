@@ -22,7 +22,7 @@ https://account.microsoft.com/profile?lang=en-US#main-content-landing-react
 Scroll down to the “Account info” section and click “Edit account info” on the right side of the screen.
 
 https://account.live.com/names/manage?mkt=en-US&refd=account.microsoft.com&refp=profile&uaid=80f18e567ba243b0806050f9b1b0ae17
-Manage how you sign in to Microsoft
+Manage how you sign in to Microsoft.
 An account alias is an email address or phone number that you use to sign in to your Microsoft account. You can have multiple aliases, and use any of them with Microsoft services such as Outlook.com, Skype, OneDrive, Office, Xbox, Windows and more.
 Your account's primary alias is displayed on your Microsoft devices (such as a Windows PC, Xbox, or Windows Phone), and you can choose a different alias to be the primary one at any time. Learn more about account aliases.
 
@@ -32,7 +32,7 @@ The section labeled “Account alias” will have a link to click labeled “Add
 
 You have the option to create a new Outlook email address or add an existing email address as your Microsoft account alias. Whichever you choose will be your new primary email address.
 
-POZOR JAK SE BUDU HLASIT PRIMARY
+// zbytecna obava  JAK SE BUDU HLASIT PRIMARY
 
 https://account.live.com/AddAssocId
 
@@ -80,7 +80,10 @@ Use another account
 Terms of usePrivacy & cookies...
 
 
+
 https://outlook.live.com/mail/0/options/mail/accounts?actSwt=true
+
+set default "FROM" address
 
 funguje poslani mailu na gmail i  zpet
 funguje to
