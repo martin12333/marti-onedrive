@@ -10681,3 +10681,10 @@ git push
 dir     *bok*| select Name
 git add -vv  '*.f8.*'
 git commit -v -a -m backup
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
+git push
+dir     *@*| select Name
+dir  -recurse   *@*| select Name
+cmd /c dir *@* /s
+bash

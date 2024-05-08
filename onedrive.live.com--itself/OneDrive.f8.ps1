@@ -7,6 +7,15 @@ mff.cuni.cz,outLOOK.live.com
 f1 fuzz
 
 dir     *onedri*| select Name
+dir  -recurse   *@*| select Name
+
+cmd /c dir *@* /s
+
+bash
+find . -name "*.f8.*" | grep "[@]"
+
+git ls-files  | findstr  "[@]"
+
 dir     *oUTlook*| select Name
 dir     *jvb*| select Name
 dir     *microso*| select Name
