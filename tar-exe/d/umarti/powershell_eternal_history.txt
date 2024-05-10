@@ -10724,3 +10724,6 @@ Get-Item C:\Users | get-acl | select -ExpandProperty Access
 Get-Item C:\Users | get-acl | select -ExpandProperty Access |gm
 help gm
 help get-item
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
+git push

@@ -1,5 +1,10 @@
 
+
+
 cout << "
+cout:
+
+OR
 
 " << endl;
 :
@@ -16,5 +21,37 @@ if(yn == y){
 
 else{
 else:
+
+}}}
+
+
+
+
+      1/4/2024   5:24 PM                bleastprogram.cpp-compiler-1.6.3
+d-----          2/5/2024   3:29 PM                danielpinto8zz6.c-cpp-compile-run-1.0.58
+d-----         4/11/2024   3:35 PM                formulahendry.code-runner-0.12.2
+d-----          1/7/2024   9:42 AM                gverduci.c64basicv2-0.7.1
+
+
+
+d-----          1/4/2024   5:39 PM                MinGW
+d-----         4/20/2024   8:28 PM                MSI
+
+
+
+d-----          2/3/2023   1:48 AM                User Manual
+
+
+{
+    "workbench.colorTheme": "Visual Studio Dark - c64basicv2",
+    "workbench.editor.empty.hint": "hidden",
+    "extensions.ignoreRecommendations": true,
+    "files.autoSave": "afterDelay",
+    "code-runner.runInTerminal": true
+
+}
+// Place your key bindings in this file to override the defaults
+[
+]
 
 
