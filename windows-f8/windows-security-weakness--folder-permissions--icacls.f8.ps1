@@ -257,6 +257,20 @@ Get-Item C:\Users | get-acl | select -ExpandProperty Access
 (Get-Item C:\Users | get-acl).Access
 
 
+
+# learning powershell
+help gm
+help get-item
+q
+Get-Acl c:\ | gm
+Get-Acl C:\Users | select *
+Get-Acl C:\Users | select * |gm
+
+Get-Item C:\Users | get-acl | select -ExpandProperty Access |gm
+
+
+
+
 #icacls.exe  'C:\Program Files' /L
 #icacls.exe  'C:\Pf' /L
 

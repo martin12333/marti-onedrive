@@ -1,0 +1,20 @@
+
+cout << "
+
+" << endl;
+:
+
+
+cin >> yn;
+
+if(yn == y){
+  y:
+
+
+  else if(yn == n){
+  n:
+
+else{
+else:
+
+

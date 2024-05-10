@@ -10703,3 +10703,24 @@ git commit -v -a -m backup
 git add -vv  '*.f8.*'
 git push
 git commit -v -a -m backup
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
+git push
+a -knows b
+a -split b
+'a' -knows b
+a -split b
+'a' -split b
+'a' -split ':'
+$a -knows b
+(a -knows b)
+$(a -knows b)
+Get-Acl c:\
+Get-Acl c:\ | gm
+Get-Acl c:\ | select *
+Get-Acl C:\Users | select *
+Get-Acl C:\Users | select * |gm
+Get-Item C:\Users | get-acl | select -ExpandProperty Access
+Get-Item C:\Users | get-acl | select -ExpandProperty Access |gm
+help gm
+help get-item

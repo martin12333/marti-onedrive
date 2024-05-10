@@ -6,6 +6,7 @@
 file:///C:\Users\marti\OneDrive\mff.cuni.cz,outLOOK.live.com\martin.milan.82-ZAVINAC-Outl.f8.md
 
 
+[forwarding](outlook-mail-forwarding.f8.md)
 
 
 outlook deaktivuje odkazy vedouci do keepu
