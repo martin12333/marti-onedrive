@@ -192,7 +192,8 @@ A už roky jsem asi neměl s kým mluvit o programovacích jazycích ...
 tech_La_Bo
 tech_La_Bo_daily
 
-tech.La.Bo.1024 at gm
+tech.La.Bo.1024 
+ at g
 
 tasks
 
@@ -910,18 +911,21 @@ Já také zkusím něco najít, nebo upravit, nebo vyrobit.
 
 # ahoj Edo, až teď jsem konečně měl čas
 
-ahoj Edo, až teď jsem konečně měl čas kouknout znovu na 
+ahoj Edo, až teď jsem konečně měl čas kouknout znovu na ten folder
+
 // do chatu mohu dat url na onedrive dir
+https://onedrive.live.com/...
 // na github nemohu dat url na ten onedrive dir
-... hlavně na ten [my_simple_ai.cpp](kopie--programming%20stuff/my_simple_ai.cpp) ... zajímavé 💛 ... pomalu začnu psát komentáře
 
-(1/n) 1 komentář ohledně Maců ... Mac OS X je OS unixového typu, a můj oblíbený Linux je také OS  unixového typu, takže můžeme mít další společné téma 💛  ... od roku 2020 jsem sice ve windows, ale mám 4 cesty jak používat unix-like software
+... a hlavně na ten [my_simple_ai.cpp](kopie--programming%20stuff/my_simple_ai.cpp) ... zajímavé 💛 ... pomalu začnu psát komentáře
 
-(2/n) ještě 1 komentář ohledně Maců ... po roce 2020 mají Macy zajímavou, tak trochu novou, architekturu počítače ... Unified RAM memory with a throughput of up to 800 GB/s, which is very good for *local* generative Ai
-(ale pro mne ... já spíš doufám, že to PC konečně začnou dohánět, a uvažuji o Copilot-Pro)
+(1/n) 1 komentář ohledně Maců ... Mac OS X je OS unixového typu, a můj oblíbený Linux je také OS  unixového typu, takže můžeme mít další společné téma 💛  ... od roku 2020 jsem sice ve windows, ale mám asi 4 cesty jak používat unix-like software
+
+(2/n) (ještě 1 komentář ohledně Maců ... po roce 2020 mají Macy zajímavou, tak trochu novou, architekturu počítače ... Unified RAM memory with a throughput of up to 800 GB/s, which is very good for *local* generative Ai inference )
+(ale pro mne ... já  doufám, že to PC konečně začnou dohánět, ... a spíš uvažuji o Copilot-Pro vs. Google ai pricing)
 
 později napíšu o
-(3/n) vlastní funkce
+(3/n) vlastní funkce v c++
 (4/n) výhledově možnost ... datový formát YAML pro programy ve stylu my_simple_ai.cpp
 
 
