@@ -38,6 +38,13 @@
 	- [jde mi o to ... najít společná témata](#jde-mi-o-to--najít-společná-témata-1)
 
 
+
+# vscode markdown
+    "markdown.extension.toc.updateOnSave": false,   // to be lightweight
+
+
+
+
 # můžete mi občas něco z těch programů poslat ... slibuju, že nebudu kritizovat
 
 # jde mi o to ... najít společná témata
@@ -57,9 +64,6 @@ hotového mám málo)
 ( https://codedamn.com/playground/fbK0xJacNMUgzpTFUCKir  )
 
 
-# vscode markdown
-    "markdown.extension.toc.updateOnSave": false,   // to be lightweight
-
 
 # (btw, codedamn playgrounds and labs have a download button ... maybe some of your programs have survived there? e.g.  https://codedamn.com/learn/cpp-language/c-syntax-and-structure/understanding-logical-operators-in-c.cB7CMvBB7ZebGozIMvLbG   )
 
@@ -73,7 +77,7 @@ hotového mám málo)
 
 
 
-
+// old 
 file:///C:\Users\marti\OneDrive\Eda-f8\codedamn-bug-244b--lost-the-files-in--codedamn-lab.f8.md
 
 
@@ -101,7 +105,10 @@ C:\Users\marti\.vscode\extensions\ms-vscode.cpptools-1.19.9-win32-x64\walkthroug
 
 <p><strong data-loc-id="walkthrough.windows.note2">Note</strong>: <span data-loc-id="walkthrough.windows.note2.text">To use MSVC from the command line or VS Code, you must run from a <strong data-loc-id="walkthrough.windows.command.prompt.name2">Developer Command Prompt for VS</strong>. An ordinary shell such as <span>PowerShell</span>, <span>Bash</span>, or the Windows command prompt does not have the necessary path environment variables set.</span></p>
 
+
+// install
 C:\Users\marti\OneDrive\Eda-f8\visualstudio.f8.md.ps1
+
 
 MY TODO: I CAN RUN MY (VS)CODE.EXE FROM THAT Developer Command Prompt
 

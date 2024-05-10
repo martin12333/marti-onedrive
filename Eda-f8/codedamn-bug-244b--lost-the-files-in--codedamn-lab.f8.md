@@ -13,6 +13,7 @@ but thankfully, there is **settings -> Download playground** button,
 //    understanding-logical-operators
 // Follow the Instructions to solve the lab and execute the code
 
+
 I admit, the first time, I played with shell, not with g++
 
 # maybe drag-drop files is not enough ... they have to be edited??
@@ -28,7 +29,7 @@ both files survived,
 
 --------
 
-# didnt lose anything at playgrounds
+# btw, didnt lose anything at playgrounds
 
 https://codedamn.com/playgrounds
 
