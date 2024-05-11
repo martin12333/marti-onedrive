@@ -5,9 +5,22 @@
 
 # https://nodeca.github.io/js-yaml/
 
-some-text-replacements:
+some regex text-replacements:
 
 - '
+
+
+^(\s+)
+$1- -
+
+[{}]
+
+
+$
+:
+
+^[- :]+$
+
 main:
 
 cout << "
