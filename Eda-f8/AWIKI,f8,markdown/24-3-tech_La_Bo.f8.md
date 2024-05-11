@@ -1,4 +1,8 @@
 
+[next](24-5-tech_La_Bo.f8.md)
+
+f1 markdown  toc
+
 - [můžete mi občas něco z těch programů poslat ... slibuju, že nebudu kritizovat](#můžete-mi-občas-něco-z-těch-programů-poslat--slibuju-že-nebudu-kritizovat)
 - [jde mi o to ... najít společná témata](#jde-mi-o-to--najít-společná-témata)
 - [press ctrl+s to enable playground autosave?](#press-ctrls-to-enable-playground-autosave)
@@ -39,10 +43,15 @@
 
 
 
+# jsem rád  💛⬆️, že se shodneme na několika dalších věcech
+ jako jsou např. VSCode, Gemini, diagramy s šipkami, Powershell, emojis, ...
+A už roky jsem asi neměl s kým mluvit o programovacích jazycích ...
+
 # vscode markdown
     "markdown.extension.toc.updateOnSave": false,   // to be lightweight
 
 
+# markdown pozn.: vlnky \~\~~  v  markdownu neco znamena ...  na zac radky? ~~~ nebo je to skrtnuti  ~~aaaaaa~~
 
 
 # můžete mi občas něco z těch programů poslat ... slibuju, že nebudu kritizovat
@@ -51,7 +60,7 @@
 
 exit
 
-# press ctrl+s to enable playground autosave?
+# Codedamn playgrounds: press ctrl+s to enable playground autosave?
 
 # (něco nového? jestli ne, nevadí ... o prázdninách bude víc času)
 
@@ -81,6 +90,25 @@ hotového mám málo)
 file:///C:\Users\marti\OneDrive\Eda-f8\codedamn-bug-244b--lost-the-files-in--codedamn-lab.f8.md
 
 
+# todo VisualStudio (VStudio)
+
+
+// install
+file:///C:\Users\marti\OneDrive\Eda-f8\visualstudio.f8.md.ps1
+
+
+MY TODO: I CAN RUN MY (VS)CODE.EXE FROM THAT Developer Command Prompt
+
+
+file:///C:\Users\marti\OneDrive\Eda-f8\ms-vscode.cpptools-extension-pack.f8.md
+
+file:///C:\Users\marti\OneDrive\.vscode\c_cpp_properties.json
+
+            "includePath": [
+                "${workspaceFolder}/**"  EDIT
+            ],
+                "${workspaceFolder}/Eda-f8/**"
+
 (
 nainstaloval jsem si
 https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
@@ -106,25 +134,8 @@ C:\Users\marti\.vscode\extensions\ms-vscode.cpptools-1.19.9-win32-x64\walkthroug
 <p><strong data-loc-id="walkthrough.windows.note2">Note</strong>: <span data-loc-id="walkthrough.windows.note2.text">To use MSVC from the command line or VS Code, you must run from a <strong data-loc-id="walkthrough.windows.command.prompt.name2">Developer Command Prompt for VS</strong>. An ordinary shell such as <span>PowerShell</span>, <span>Bash</span>, or the Windows command prompt does not have the necessary path environment variables set.</span></p>
 
 
-// install
-C:\Users\marti\OneDrive\Eda-f8\visualstudio.f8.md.ps1
 
 
-MY TODO: I CAN RUN MY (VS)CODE.EXE FROM THAT Developer Command Prompt
-
-
-file:///C:\Users\marti\OneDrive\Eda-f8\ms-vscode.cpptools-extension-pack.f8.md
-
-file:///C:\Users\marti\OneDrive\.vscode\c_cpp_properties.json
-
-            "includePath": [
-                "${workspaceFolder}/**"  EDIT
-            ],
-                "${workspaceFolder}/Eda-f8/**"
-
-
-
-# todo
 
 distutils.errors.DistutilsPlatformError: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/        my# py msvc
 
@@ -133,9 +144,12 @@ distutils.errors.DistutilsPlatformError: Microsoft Visual C++ 14.0 or greater is
 
 
 
-# pozor \~\~~  markdown neco znamena ...  na zac radky? ~~~ nebo je to skrtnuti  ~~aaaaaa~~
 
-Ahoj Edo, napadlo mne pár otázek ... Můžeš hlasovat pomocí emoji. Můžeš zvolit víc než jednu možnost.
+
+
+# Můžeš hlasovat pomocí emoji. Můžeš zvolit víc než jednu možnost.
+
+Ahoj Edo, napadlo mne pár otázek ... 
 
 Chceš mít programování jako hobby?
 
@@ -156,18 +170,11 @@ emojis with the meaning: "I am busy" ....
 🔕
 
 
+# barevne emoji
+
 WIN+.
 
 WIN+.❗❗(★‿★)
-(●◡●)
-ƪ ( ˘⌣˘ ) ʃ
-(❁◡❁)
-
-@@@###$$$!!!%%%^^^&&&***[][][]{}{}{}
-::: >>> <<<>>> ???
-QQQ WWW
-EEE TTT UUU OOO AAA DDD GGG HHH
-ZZZ XXX VVV 
 ‼️⁉️❗❗
 ❗‼️
 💚
@@ -188,9 +195,19 @@ ZZZ XXX VVV
 🔲🔳
 💭🗯️💬🗨️👁️‍🗨️
 
-Ahoj Edo, 
-jsem rád  💛⬆️    , že se shodneme na hned několika dalších věcech, jako jsou např. VSCode, Gemini, diagramy s šipkami, Powershell, emojis, ...
-A už roky jsem asi neměl s kým mluvit o programovacích jazycích ...
+chrome zvyrazneni
+
+(●◡●)
+ƪ ( ˘⌣˘ ) ʃ
+(❁◡❁)
+
+@@@###$$$!!!%%%^^^&&&***[][][]{}{}{}
+::: >>> <<<>>> ???
+QQQ WWW
+EEE TTT UUU OOO AAA DDD GGG HHH
+ZZZ XXX VVV 
+
+
 
 
 
