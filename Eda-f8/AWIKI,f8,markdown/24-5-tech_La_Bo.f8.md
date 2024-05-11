@@ -43,9 +43,7 @@ You could talk about the history of Unix and how it influenced both macOS and Li
 
 # reddit 245B
 
-https://www.reddit.com/r/WholeBrainEmulation/comments/1comnnw/hello_is_there_anyone_there/
-
-
+https://www.reddit.com/r/WholeBrainEmulation
 
 r/transhumanism r/singularity r/Futurology
 
