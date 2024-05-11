@@ -3,13 +3,17 @@
 
 f1 markdown  toc
 
+- [jsem rád  💛⬆️, že se shodneme na několika dalších věcech](#jsem-rád--️-že-se-shodneme-na-několika-dalších-věcech)
+- [vscode markdown](#vscode-markdown)
+- [markdown pozn.: vlnky \~\~~  v  markdownu neco znamena ...  na zac radky? ~~~ nebo je to skrtnuti  ~~aaaaaa~~](#markdown-pozn-vlnky---v--markdownu-neco-znamena---na-zac-radky--nebo-je-to-skrtnuti--aaaaaa)
 - [můžete mi občas něco z těch programů poslat ... slibuju, že nebudu kritizovat](#můžete-mi-občas-něco-z-těch-programů-poslat--slibuju-že-nebudu-kritizovat)
 - [jde mi o to ... najít společná témata](#jde-mi-o-to--najít-společná-témata)
-- [press ctrl+s to enable playground autosave?](#press-ctrls-to-enable-playground-autosave)
+- [Codedamn playgrounds: press ctrl+s to enable playground autosave?](#codedamn-playgrounds-press-ctrls-to-enable-playground-autosave)
 - [(něco nového? jestli ne, nevadí ... o prázdninách bude víc času)](#něco-nového-jestli-ne-nevadí--o-prázdninách-bude-víc-času)
 - [(btw, codedamn playgrounds and labs have a download button ... maybe some of your programs have survived there? e.g.  https://codedamn.com/learn/cpp-language/c-syntax-and-structure/understanding-logical-operators-in-c.cB7CMvBB7ZebGozIMvLbG   )](#btw-codedamn-playgrounds-and-labs-have-a-download-button--maybe-some-of-your-programs-have-survived-there-eg--httpscodedamncomlearncpp-languagec-syntax-and-structureunderstanding-logical-operators-in-ccb7cmvbb7zebgozimvlbg---)
-- [todo](#todo)
-- [pozor \~\~~  markdown neco znamena ...  na zac radky? ~~~ nebo je to skrtnuti  ~~aaaaaa~~](#pozor---markdown-neco-znamena---na-zac-radky--nebo-je-to-skrtnuti--aaaaaa)
+- [todo VisualStudio (VStudio)](#todo-visualstudio-vstudio)
+- [Můžeš hlasovat pomocí emoji. Můžeš zvolit víc než jednu možnost. 🔕❓🔇](#můžeš-hlasovat-pomocí-emoji-můžeš-zvolit-víc-než-jednu-možnost-)
+- [barevne emoji](#barevne-emoji)
 - [(zkousim ruzne metody predavani a sdileni souboru == files)](#zkousim-ruzne-metody-predavani-a-sdileni-souboru--files)
 	- [sel all vvvvv](#sel-all-vvvvv)
 - [codedamn-lab](#codedamn-lab)
@@ -33,9 +37,10 @@ f1 markdown  toc
 - [todo Are there any standard C++ libraries (modules) to get info about the computer system and machine type?](#todo-are-there-any-standard-c-libraries-modules-to-get-info-about-the-computer-system-and-machine-type)
 - [todo Můžeš sem někdy poslat ještě nějaký další svůj program.](#todo-můžeš-sem-někdy-poslat-ještě-nějaký-další-svůj-program)
 - [sent Ahoj Edo, **vše nejlepší k svátku Ti přeje strejda Milan i babička.**](#sent-ahoj-edo-vše-nejlepší-k-svátku-ti-přeje-strejda-milan-i-babička)
-- [todo](#todo-1)
+- [todo](#todo)
 - [pozor markdown neco znamena na zac radky ~~~](#pozor-markdown-neco-znamena-na-zac-radky-)
-- [todo?](#todo-2)
+- [ahoj Edo, až teď jsem konečně měl čas](#ahoj-edo-až-teď-jsem-konečně-měl-čas)
+- [todo?](#todo-1)
 - [todo??2](#todo2)
 - [js ... or wasm? or streamed??](#js--or-wasm-or-streamed)
 - [footer](#footer)
@@ -147,7 +152,7 @@ distutils.errors.DistutilsPlatformError: Microsoft Visual C++ 14.0 or greater is
 
 
 
-# Můžeš hlasovat pomocí emoji. Můžeš zvolit víc než jednu možnost.
+# Můžeš hlasovat pomocí emoji. Můžeš zvolit víc než jednu možnost. 🔕❓🔇
 
 Ahoj Edo, napadlo mne pár otázek ... 
 
@@ -170,16 +175,16 @@ emojis with the meaning: "I am busy" ....
 🔕
 
 
-# barevne emoji
+# barevne emoji 💚💙🧡🩵🩶🤍
 
-WIN+.
+trick: emojis in browser bookmarks
+trick: emojis in chapter titles
 
-WIN+.❗❗(★‿★)
+klavesa WIN+.
+
 ‼️⁉️❗❗
 ❗‼️
-💚
-💙
-🧡🩵🩶🤍
+💚💙🧡🩵🩶🤍
 💟💟
 💢💥💤💦💫🕳️🛐♾️
 ⚛️✴️💮🪷
@@ -195,8 +200,7 @@ WIN+.❗❗(★‿★)
 🔲🔳
 💭🗯️💬🗨️👁️‍🗨️
 
-chrome zvyrazneni
-
+WIN+.❗❗(★‿★)
 (●◡●)
 ƪ ( ˘⌣˘ ) ʃ
 (❁◡❁)

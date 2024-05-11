@@ -1,15 +1,24 @@
 
-some-text-replacements: -|
+# https://yaml-multiline.info/
 
+# https://onlineyamltools.com/convert-yaml-to-json
+
+# https://nodeca.github.io/js-yaml/
+
+some-text-replacements:
+
+- '
 main:
 
 cout << "
+
 cout:
 
 OR
 
 " << endl;
 :
+
 
 cin >> yn;
 
@@ -24,12 +33,13 @@ else:
 
 }}}
 
+'
 
 
-from google chat:
+- from google chat:
 
           1/4/2024   5:24 PM                bleastprogram.cpp-compiler-1.6.3
-    d-----          2/5/2024   3:29 PM                danielpinto8zz6.c-cpp-compile-run-1.0.58
+    d-----          2/5/2024   3:# 29 PM                danielpinto8zz6.c-cpp-compile-run-1.0.58
     d-----         4/11/2024   3:35 PM                formulahendry.code-runner-0.12.2
     d-----          1/7/2024   9:42 AM                gverduci.c64basicv2-0.7.1
 
