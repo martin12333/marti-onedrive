@@ -33,12 +33,18 @@ C:\Users\marti\OneDrive\Eda-f8\icecream.f8.yaml
 
 
 
+
+
+https://gemini.google.com/app/a201a44cb78befa7
+
+You could talk about the history of Unix and how it influenced both macOS and Linux.
+
+
+
 # reddit 245B
 
 https://www.reddit.com/r/WholeBrainEmulation/comments/1comnnw/hello_is_there_anyone_there/
 
-> hello! Is there anyone there?
-> I'm worried about the extremely low amount of activity and the small number of people, but I still write with expectations. I would like to know more about WBE. Carbon Copies is the only organization I know of. Is there more? Or the latest technology or latest news? Anything is okay.
 
 
 r/transhumanism r/singularity r/Futurology
