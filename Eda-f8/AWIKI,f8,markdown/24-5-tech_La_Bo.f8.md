@@ -23,6 +23,41 @@ f1 markdown  toc
 A už roky jsem asi neměl s kým mluvit o programovacích jazycích ...
 
 
+# https://old.reddit.com/subreddits/create
+
+tech_La_...
+
+daily
+
+a very small subreddit, will be restricted or private ... link dumps, screenshots, demos, unfinished things, unexplained things
+
+... 
+facebook
+here in this group should be posted things,
+that cannot be posted yet even in the group
+https://www.facebook.com/groups/2172741019486751 ,
+because:
+(a) they are too unfinished or too unexplained,
+or (b) they should wait for the weekend
+
+
+
+# todo 
+
+
+odkaz na moji gih / awiki
+
+založil jsem nový subreddit pro nás ... 
+url
+... pro sbírání vzdáleně souvisejících webových odkazů, pro nedodělané příspěvky, a pro příspěvky, které by měly počkat na víkend, nebo na prázdniny
+
+...
+Edo, máš účet na Redditu? (je to zdarma)
+
+a jen EL@g
+
+w/m3
+
 
 
 

@@ -1,9 +1,27 @@
 
 food-vs-mood.f8.md
+on  venlafaxine
+
 
 
 
 https://www.google.com/search?q=break+out+of+hyperfocus?+site:www.reddit.com&newwindow=1&sca_esv=b944e575ace96cca&sca_upv=1&sxsrf=ACQVn0_E9L-4iG0vZoGmtcPkJ2vKpnC3SA:1714520179528&sa=X&ved=2ahUKEwi6_IqyjeuFAxXO0gIHHTznBtEQrQIoBHoECB0QBQ&biw=1389&bih=644&dpr=1.38
+
+
+
+
+# https://www.calculator.net/anorexic-bmi-calculator.html
+https://www.calculator.net/anorexic-bmi-calculator.html?cage=48&csex=m&cheightfeet=5&cheightinch=10&cpound=160&cheightmeter=174&ckg=48&ctype=metric&x=Calculate
+
+# Copilot
+
+Body Mass Index (BMI): A BMI below 15 kg/m² is often a critical indicator for considering inpatient treatment rather than partial hospitalization or outpatient care1. Additionally, a BMI below 13.5 can lead to organ failure, while a BMI below 12 can be life-threatening2.
+
+
+# https://www.google.com/search?q=BMI%3A+A+BMI+less+than+13+kg%2Fm2+is+a+severe+indicator+and+might+be+grounds+for+involuntary+care.&oq=BMI%3A+A+BMI+less+than+13+kg%2Fm2+is+a+severe+indicator+and+might+be+grounds+for+involuntary+care.&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg6qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+BMI < 13 is an indicatior for certification under the Mental Health Act if the patient refuses admission although BMI < 13 alone is not enough for admission.
+
 
 
 
@@ -20,5 +38,13 @@ Anorexia nervosa has the highest mortality rate of any psychiatric illness. Pred
 
 
 
+
+
+# a reddit post about anorexia caused by Eff...
+
+
+Effexor May Cause Anorexia
+Carey Danis & Lowe
+https://careydanis.com › blog ›
 
 
