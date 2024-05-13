@@ -45,14 +45,12 @@ or (b) they should wait for the weekend
 # todo 
 
 
-odkaz na moji gih / awiki
 
 založil jsem nový subreddit pro nás ... 
-url
+[url](https://www.reddit.com/r/tech_La_Bo_daily/)
 ... pro sbírání vzdáleně souvisejících webových odkazů, pro nedodělané příspěvky, a pro příspěvky, které by měly počkat na víkend, nebo na prázdniny
+... Edo, máš účet na Redditu? (je to zdarma)
 
-...
-Edo, máš účet na Redditu? (je to zdarma)
 
 a jen EL@g
 

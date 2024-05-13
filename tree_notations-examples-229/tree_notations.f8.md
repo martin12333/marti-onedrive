@@ -1,7 +1,7 @@
 various tree_notations
 "training set" of examples
 
-
+was .edn
 
 
 https://pandoc.org/try/
