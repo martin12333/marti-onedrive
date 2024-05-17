@@ -265,6 +265,8 @@ dir "C:\Windows\ServiceProfiles\LocalService\AppData\Roaming\Microsoft\UPnP Devi
 xcopy  "C:\Windows\ServiceProfiles\LocalService\AppData\Roaming\Microsoft\UPnP Device Host\upnphost\udhisapi.dll"   c:\tmp
 
 
+DISM.exe /Online /Cleanup-image /Restorehealth
+
 
 
 Loading personal and system profiles took 1083ms.
@@ -277,5 +279,14 @@ Verification 100% complete.
 
 Windows Resource Protection did not find any integrity violations.
 PS C:\Users\marti>
+
+
+cmd /c dir C:\Windows\Logs\CBS
+
+
+image.png
+
+tiworker is not ATI
+
 
 

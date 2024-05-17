@@ -10781,3 +10781,8 @@ echo >a.txt
 echo fsdf >a.txt
 xcopy   a.txt c:\tmp
 git add -vv  '*.f8.*'
+. "c:\Users\marti\OneDrive\powershell-f8\admin-ise--adminsaves.f8.ps1"
+git commit -v -a -m backup
+git push
+dir C:\Windows\Logs\CBS
+cmd /c dir C:\Windows\Logs\CBS

@@ -3585,3 +3585,8 @@ $env:Path.Length
 icacls.exe C:\Users\*  
 icacls.exe C:\Users\*  |clip
 sfc /scannow
+Dism.exe  /online   /cleanup-image  /restorehealth 
+procexp.exe
+sfc /scannow
+procexp.exe
+sfc /scannow
