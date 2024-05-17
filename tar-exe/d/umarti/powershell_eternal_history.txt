@@ -10774,3 +10774,10 @@ git push
 explorer   "C:\Windows\ServiceProfiles\LocalService\AppData\Roaming\Microsoft\UPnP Device Host\upnphost\udhisapi.dll"
 explorer   "C:\Windows\ServiceProfiles\LocalService\AppData\Roaming\Microsoft\UPnP Device Host\upnphost\"
 dir "C:\Windows\ServiceProfiles\LocalService\AppData\Roaming\Microsoft\UPnP Device Host\upnphost\"
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
+git push
+echo >a.txt
+echo fsdf >a.txt
+xcopy   a.txt c:\tmp
+git add -vv  '*.f8.*'

@@ -3584,3 +3584,4 @@ $env:Path
 $env:Path.Length
 icacls.exe C:\Users\*  
 icacls.exe C:\Users\*  |clip
+sfc /scannow
