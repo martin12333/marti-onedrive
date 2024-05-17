@@ -10769,3 +10769,8 @@ cd .\OneDrive\
 git commit -v -a -m backup
 git push
 git add -vv  '*.f8.*'
+git commit -v -a -m backup
+git push
+explorer   "C:\Windows\ServiceProfiles\LocalService\AppData\Roaming\Microsoft\UPnP Device Host\upnphost\udhisapi.dll"
+explorer   "C:\Windows\ServiceProfiles\LocalService\AppData\Roaming\Microsoft\UPnP Device Host\upnphost\"
+dir "C:\Windows\ServiceProfiles\LocalService\AppData\Roaming\Microsoft\UPnP Device Host\upnphost\"
