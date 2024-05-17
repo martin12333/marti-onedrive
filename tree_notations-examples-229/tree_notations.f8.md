@@ -4,6 +4,190 @@ various tree_notations
 was .edn
 
 
+git ls-files | findstr -i tree
+
+
+
+https://jtree.treenotation.org/sandbox/
+
+Sa
+ fo
+  Ri
+  in l
+  in f
+
+asYaml
+%YAML 1.2
+---
+- Sa:
+   fo:
+    - Ri:
+    - in: l
+    - in: f
+- :
+- :
+
+
+
+https://jsonformatter.org/yaml-formatter
+In this case, the error message and location is a bit of red-herring.
+
+https://stackoverflow.com/questions/73838503/yaml-syntax-can-not-read-a-block-mapping-entry-a-multiline-key-may-not-be-an
+
+
+rror is actually caused by a string that was accidentally terminated because of an unescaped quote symbol within the string. A hint for this is the syntax highlighting of 'We'll do cool stuff'.
+
+
+
+https://www.convertjson.com/yaml-to-json.htm
+
+
+https://nodeca.github.io/js-yaml/
+
+- s2:
+   f:
+    - r
+    - i f
+   f2: |
+    r
+    i f
+
+- a: {b: , : , c , d }
+
+- s: {f:
+	[
+	r,
+    i l,
+    i f
+    
+    ]
+}
+
+- template: bedrock-test-init.yml
+- bash: |
+    # Fail if any of these files have warnings
+    find . -path ./gopath -prune -o -path ./get_helm.sh -prune -o -type f \( -name "*.sh" -o -name "*.bash" -o -name "*.ksh" \) -print |
+        while IFS="" read -r file
+        do
+        shellcheck "$file"
+        done
+    displayName: 'Run Shell Linting (ShellCheck)'
+- script: |
+
+- a:
+   b    b
+    c   c
+    d
+    w
+            
+- afr: '
+  b
+   df '
+
+
+
+
+- b: |
+   dffdg
+   dsfs
+   dfg
+
+
+
+[ { s2: { f: [ 'r', 'i f' ], f2: 'r\ni f\n' } },
+  { a: { b: null, null: null, c: null, d: null } },
+  { s: { f: [ 'r', 'i l', 'i f' ] } },
+  { template: 'bedrock-test-init.yml' },
+  { bash: '# Fail if any of these files have warnings\nfind . -path ./gopath -prune -o -path ./get_helm.sh -prune -o -type f \\( -name "*.sh" -o -name "*.bash" -o -name "*.ksh" \\) -print |\n    while IFS="" read -r file\n    do\n    shellcheck "$file"\n    done\ndisplayName: \'Run Shell Linting (ShellCheck)\'\n' },
+  { script: '' },
+  { a: 'b    b c   c d w' },
+  { afr: ' b df ' },
+  { b: 'dffdg\ndsfs\ndfg\n' } ]
+
+
+
+
+
+.
+ all the files
+  in this repo
+ are shared
+  in the hope
+   that they will be useful to you
+  but WITHOUT ANY WARRANTY
+  without even the implied warranty
+   of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE
+
+
+   
+
+
+Tree notations in computing, preferably HUMAN READABLE: Alternatives to XML, alternative S-expression notations, alternatives to JSON ...  JSON5, JSON6, HJSON, YAML, EDN, ...
+
+ JSON
+  JSONC
+   JSON5
+    JSON6
+     HJSON
+      YAML-flow
+       YAML-block
+        NOON
+  TOML
+   ArchieML
+
+ XML
+  HTML
+   Markdown
+
+ (edited again)
+ S-expressions
+  i-expressions
+   Wisp (whitespace Lisp)
+    Tree Notation
+    OGDL
+   Cirru
+  EDN
+   Rebol data
+   Tcl data
+
+ (how to name this group ... general string tree?)
+  Jevko
+
+
+
+
+
+
+
+- template: bedrock-test-init.yml
+- bash: |
+	# Fail if any of these files have warnings
+	find . -path ./gopath -prune -o -path ./get_helm.sh -prune -o -type f \( -name "*.sh" -o -name "*.bash" -o -name "*.ksh" \) -print |
+		while IFS="" read -r file
+		do
+		shellcheck "$file"
+		done
+	displayName: 'Run Shell Linting (ShellCheck)'
+- script: |
+
+- a:
+  b    b 
+      c   c   
+    d
+      w
+- afr: '
+  b
+   df '
+
+- b: |
+  dffdg
+   dsfs
+  dfg
+
+
+
+
+
 https://pandoc.org/try/
 
 ## h2
