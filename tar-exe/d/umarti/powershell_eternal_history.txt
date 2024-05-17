@@ -10764,3 +10764,8 @@ git commit -v -a -m backup
 git push
 git ls-files | findstr -i tree
 bash
+git commit -v -a -m backup
+cd .\OneDrive\
+git commit -v -a -m backup
+git push
+git add -vv  '*.f8.*'
