@@ -10786,3 +10786,6 @@ git commit -v -a -m backup
 git push
 dir C:\Windows\Logs\CBS
 cmd /c dir C:\Windows\Logs\CBS
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
+vssadmin list shadows
