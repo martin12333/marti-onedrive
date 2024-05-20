@@ -61,6 +61,16 @@ w/m3
 
 # todo
 
+
+   getline(cin, text);
+
+## gitconfig
+	......./programming stuff/Programming apps/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+
+	[credential "https://dev.azure.com"]
+
+
+
 https://jsoncrack.com/editor
 C:\Users\marti\OneDrive\Eda-f8\icecream.f8.yaml
 
