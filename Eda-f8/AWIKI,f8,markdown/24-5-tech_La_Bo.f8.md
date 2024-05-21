@@ -23,6 +23,19 @@ f1 markdown  toc
 A už roky jsem asi neměl s kým mluvit o programovacích jazycích ...
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 # https://old.reddit.com/subreddits/create
 
 tech_La_...
@@ -63,6 +76,46 @@ w/m3
 
 
    getline(cin, text);
+
+
+
+
+
+
+
+
+
+
+https://translate.google.com/?sl=cs&tl=en&text=asi%20den%20jsem%20v%C3%A1hal%2C%20zda%20obt%C4%9B%C5%BEovat%20lidi%20s%20touto%20nep%C5%99%C3%ADjemnou%20zpr%C3%A1vou&op=translate
+Detect language
+
+Czech
+
+English
+
+Spanish
+
+English
+
+Czech
+
+Esperanto
+asi den jsem váhal, zda obtěžovat lidi s touto nepříjemnou zprávou
+66 / 5,000
+I hesitated for about a day whether to bother people with this unpleasant news
+I hesitated for about a day whether to bother people with this unpleasant news
+Asi den jsem váhal, zda mám lidi obtěžovat touto nepříjemnou zprávou
+for about a day I hesitated whether to bother people with this unpleasant news
+asi den jsem váhal, zda obtěžovat lidi touto nepříjemnou zprávou
+Send feedback
+
+
+
+
+
+
+
+
 
 ## gitconfig
 	......./programming stuff/Programming apps/Git/mingw64/etc/ssl/certs/ca-bundle.crt

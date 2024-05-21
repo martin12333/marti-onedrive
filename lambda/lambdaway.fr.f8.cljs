@@ -6,6 +6,17 @@ lisp  .fr   wiki
 
 
 
+https://lambdaway.fr/workshop/index.php?view=sandbox
+
+agora
+
+
+
+https://lambdaway.fr/workshop/index.php?view=lambdacode
+
+
+
+
 
 
 
@@ -24,6 +35,41 @@ THE LIB IS CHANGING AND CHANGING!!!
 
 
 
+https://lambdaway.fr/workshop/index.php?view=download
+2021
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{array.disp  {array.new   {lib}} }
+
+{lib}
+
+
+{array.new   {s t d l} forged {ring} [] {in the land}  }
+
+
+
+
+
+
 
 
 
@@ -36,6 +82,17 @@ https://lambdaway.fr/workshop/index.php
 //// LAMBDATALK & LAMBDATANK version 2021/11/11
 
 
+/\{([^\s{}]*)(?:[\s]*)([^{}]*)\}/g
+More about that in « Less is more! »
+
+
+
+
+
+
+
+
+https://lambdaway.fr/workshop/index.php?view=levithan
 
 
 
@@ -61,6 +118,50 @@ cons, cons?, car, cdr, cons.disp,
   lisp, forum, editable, sheet, lc, turtle ]
 
 
+6) INTERACTING WITH JAVASCRIPT
+
+{input
+ {@ id="smart_hello"
+    type = "text"
+    placeholder = "Please, enter your name"
+     onkeyup = "document.getElementById('yourName').innerHTML =
+      'Hello ' + document.getElementById('smart_hello').value + ' !'" }}
+{h1 {@ id="yourName"}}
+
+{div {@ id="time_output" style="color:red;"}time: }
+{input
+ {@ type="submit"
+    value="start"
+    onclick="document.chrono = window.setInterval(
+     function() '{
+       document.getElementById('time_output').innerHTML =
+         'time: ' + MICROTALK.evaluate('{date}').val
+     }, 1000 );"
+}}
+{input
+ {@ type="submit"
+    value="stop"
+    onclick="window.clearInterval( document.chrono)"
+}}
+
+// using {JS ...} to inline some javascript code
+{def Lphi {/ {+ 1 {sqrt 5}} 2}} -> {Lphi}
+{def Jphi
+ {javascript (1+Math.sqrt(5))/2
+}} -> {Jphi}
+
+{def Lhypo {lambda {:a :b} {sqrt {+ {* :a :a} {* :b :b}}}}} -> {Lhypo 3 4}
+{def Jhypo
+ {lambda {:a :b}
+  {javascript  Math.sqrt(:a*:a+:b*:b)
+}}} -> {Jhypo 3 4}
+
+{def Lfac {lambda {:n} {if {< :n 1} then 1 else {* :n {Lfac {- :n 1}}}}}} -> {Lfac 6}
+{def Jfac
+ {lambda {:n}
+  {javascript  function fac(n) '{ return (n < 1)? 1 : n*fac(n-1) }
+       fac(:n)
+}}} -> {Jfac 6}
 
 
 
@@ -73,9 +174,8 @@ cons, cons?, car, cdr, cons.disp,
 
 
 
-{array.disp  {array.new   {lib}} }
 
-{lib}
+
 
 
 
@@ -92,6 +192,11 @@ http://epsilonwiki.free.fr/lambdaway/?view=underground
 	We have seen in overview, lambdatalk two and lambdatalk three that lambdatalk can do some things and cannot do some others.
 	For instance, lambdas can be passed and returned as values, they are natively curried and partially callable, but they don't define closures. ifs are nestable but inner lambdas can't be evaluated and must be externalized. Inner defs are not local to outer functions, but lets can be used to create local variables, not always. Workarounds can be often found to compensate these weaknesses, and most of structures found in true Lisp dialects can be built in a similar way. But what can be said about the predictability of coding in such a language? Looking in the Javascript underground code may help to define precisely lambdatalk's capabilities, its weaknesses and some workarounds to compensate them.
 
+
+
+
+
+	Lambdatalk works in the environment defined by a wiki named lambdatank, closely intermixed with some PHP code on the server side. In order to keep things simple and keep the focus on the language itself, we will analyze the little brother of lambdatalk, microtalk, which is called by a simple HTML file and can be easily integrated in another environment.
 
 
 
@@ -347,9 +452,14 @@ https://rosettacode.org/wiki/Tree_traversal#Lambdatalk
 
 
 
-
+https://www.reddit.com/r/PHP/comments/190he0g/is_there_a_place_to_host_a_php_website_for_free/
 
 20 years ago!   free php website hosting
 today "free" php hosting ...  could sell my email address
 diigo reddit
+
+> I’ve never had so many breaches and spam emails until I put some half assed site on there 8 years ago. I STILL to this day, get emails from bots from china, russia, and the netherlands.
+
+
+
 
