@@ -67,19 +67,52 @@ založil jsem nový subreddit pro nás ...
 
 a jen EL@g
 
-w/m3
+wiki/m3
 
 
 
 
-# todo
-
-
-   getline(cin, text);
 
 
 
 
+
+
+
+
+
+
+
+# vím, že bych neměl dělat poplachy příliš brzo, a příliš často
+
+# ochrana  souborů (files) je tak trochu moje polo-profese (pro mne důležitější, než programování)
+
+git a github mi v tom pomáhají,  
+
+ ale
+
+# problem-2024-05-21: beginners delete ... files, by misusing Git, especially in VSCode
+
+
+ někteří začátečníci (malá část) si nechtěně vymazali některé/všechny svoje soubory  nešťastným  použitím Git, zejmena ve VSCode
+
+sbírám články na redditu
+
+## několik možných zmírňování toho problému
+
+// placeny OneDrive ma 30 dni historii
+
+* zakládat foldery v OneDrive // to často dělám 
+* zakládat foldery v OneDrive\Dokumenty  // to chci znovu zkusit
+* nebo přesunout nektere foldery do OneDrive
+* nebo často kopírovat nektere foldery do OneDrive
+* 
+* 
+
+
+----old ochrana  souborů (of data, files) je tak trochu moje polo-profese (pro mne důležitější, než programování)
+// old 
+// the "git-2024-05-21" is merely *my* problem numbering ... definitely *not some official* problem numbering 
 
 
 
@@ -125,6 +158,9 @@ You may manually check this directory to retrieve the latest changes to file. Or
 
 
 
+# https://hackernoon.com/understanding-git-fcffd87c15a3
+
+
 
 
 ## gitconfig
@@ -154,5 +190,14 @@ https://www.reddit.com/r/WholeBrainEmulation
 r/transhumanism r/singularity r/Futurology
 
 (just a comment ... human brain has ~~ 100e12 synapses, gpt-3 had 170e9 ~ ~ synapses ... I hope, in 10-20 years, we could meet first digital people here ...)
+
+
+
+
+
+# todo
+
+
+   getline(cin, text);
 
 
