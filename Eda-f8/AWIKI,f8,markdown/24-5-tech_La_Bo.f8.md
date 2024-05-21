@@ -86,7 +86,7 @@ w/m3
 
 
 
-https://translate.google.com/?sl=cs&tl=en&text=asi%20den%20jsem%20v%C3%A1hal%2C%20zda%20obt%C4%9B%C5%BEovat%20lidi%20s%20touto%20nep%C5%99%C3%ADjemnou%20zpr%C3%A1vou&op=translate
+# https://translate.google.com/?sl=cs&tl=en&text=asi%20den%20jsem%20v%C3%A1hal%2C%20zda%20obt%C4%9B%C5%BEovat%20lidi%20s%20touto%20nep%C5%99%C3%ADjemnou%20zpr%C3%A1vou&op=translate
 Detect language
 
 Czech
@@ -111,6 +111,16 @@ Send feedback
 
 
 
+
+# https://stackoverflow.com/questions/45976869/restore-deleted-files-in-visual-studio-code-in-the-code-management-menu
+
+Open VSCode's command menu, and type "Local History" and select "Local History: Find Entry to Restore." Then type the name of the file you deleted.
+
+VSCode internally keeps the history of any file which has been opened and changed in the editor. In my case, i deleted some files accidentally without adding them ever to git. So to recover such files, We can check in path: C:\Users\<user name>\AppData\Roaming\Code\User\History
+
+This directory contains a lot of individual sub-folder, each of which belongs to a specific file path, which is denoted using the hash as the folder name. For each such subFolder, it has a entries.json file, which keeps track of historical file snapshots. This also contains the path of the original file.
+
+You may manually check this directory to retrieve the latest changes to file. Or, it should be possible to write some small code snippet as well to create directory snapshot by reading all such JSONs. Hope it helps.
 
 
 
