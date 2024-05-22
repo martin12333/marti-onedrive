@@ -10803,3 +10803,6 @@ git add -vv  '*.f8.*'
 git commit -v -a -m backup
 git push
 conda activate pip310ecco
+git commit -v -a -m backup
+git push
+bash -i
