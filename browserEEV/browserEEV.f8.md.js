@@ -12,6 +12,8 @@ early drafts
 (an opportunity for me to learn javascript a bit better)
 *browserEEV* could be something a little bit like `eev`, but in a web browser ...  distant analogie(s) of Emacs `eev`:
 
+
+
 javascript function(s) and hotkey(s),
 to send ...
 a line of text (or, perhaps, a block of text),
@@ -19,6 +21,11 @@ from an  editor widget in  a web page/app,
 to the eval() of the browser javascript,
 (or maybe to an embedded wasm Lua, wasm Python, jslinux terminal in a web page?)
 
+
+
+edit 245n ... F8  or M-e  or both  ?
+
+edit 245n ... what about AHK hotkey(s)
 
 
 # https://codepen.io/martin_m_n_novy/pen/eYxdMYj
@@ -43,6 +50,7 @@ to the eval() of the browser javascript,
 ** chrome devtools snippets site:stackoverflow.com
 *** https://stackoverflow.com/a/16425844/3796855
 **** https://github.com/paulirish/devtools-addons/wiki/Snippets#grepjs
+
 
 more distantly related
 
@@ -91,8 +99,11 @@ site:codepen.io ace-editor   "eval" selection
 CodeMirror
 Monaco-editor ... the api of monaco-editor seems too complex vs codemirror?
 
+
+
 https://codepen.io/martin_m_n_novy/pen/RwvGQqb
 forked
+
 
 https://observablehq.com/@tophtucker/eval-in-place
 //// forked  https://observablehq.com/d/3555200f7e68f405
@@ -103,11 +114,13 @@ https://github.com/XYZTwt/DesCode
 
 
 
+
 ## compare
 
 google search
 JupyterLite Python, Lua
  (the **Lite** in "JupyterLite" is important)
+
 
 
 
@@ -263,6 +276,7 @@ prompt("Enter Ctrl+C to copy this org-mode hyperlink. :", md);
 
 
 
+
 https://gh.japnaa.dev/Userscripts/pages/bookmarklets/
 
 //javascript:
@@ -296,7 +310,42 @@ javascript:try{e=eval(unescape('%s')); alert("Properties of "+e+":\n\n"+props(e)
 javascript:try{alert(eval(unescape('%s')))}catch(er){alert(er)}
 
 
+
+
+
+
+
+
+
+https://webapps.stackexchange.com/questions/8974/what-do-these-google-search-operators-attributes-mean
+
+@Pacerier: It was buried so deep within the Chromium source that I can't replicate the discovery path anymore. –
+
+chrome://settings/searchEngines
+edge://settings/searchEngines?search=goog
+
 {google:baseURL}search?q=%s&{google:RLZ}{google:originalQueryForSuggestion}{google:assistedQueryStats}{google:searchboxStats}{google:searchFieldtrialParameter}{google:iOSSearchLanguage}{google:prefetchSource}{google:searchClient}{google:sourceId}{google:contextualSearchVersion}ie={inputEncoding}
+
+
+{bing:baseURL}search?q=%s&{bing:cvid}{bing:msb}{google:assistedQueryStats}
+
+https://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=%s&crid=34D3YLSUKQFRQ&sprefix=john+virapen%2Caps%2C455
+
+http://conemu.github.io/search.html?q=%s&key/value%20pairs=%s
+
+
+https://github.com/search?q=%s&ref=opensearch
+
+
+
+https://yandex.ru/{yandex:searchPath}?text=%s&{yandex:referralID}
+
+
+javascript:try{alert(eval(unescape('%s')))}catch(er){alert(er)}
+
+
+
+
 
 
 
