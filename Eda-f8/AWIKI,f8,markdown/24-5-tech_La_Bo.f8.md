@@ -158,8 +158,14 @@ You may manually check this directory to retrieve the latest changes to file. Or
 
 
 
-# https://hackernoon.com/understanding-git-fcffd87c15a3
+# ?? https://hackernoon.com/understanding-git-fcffd87c15a3
 
+	
+There are plenty of “git tutorials” out there already, but most of them simply tell you to copy/paste specific things to do one-off tasks. Anyone with a keyboard can copy/paste; to really understand how git works and what it can do for you, you need a slightly deeper understanding.
+
+They also tend to throw vocabulary at you without explaining what the words really mean.
+
+This guide aims to give you a workable understanding of the basic phrases and commands you’ll use frequently. It’s impossible to learn such a powerful and complex tool in just one sitting, so I encourage you to take your time and enjoy the journey.
 
 
 
@@ -170,16 +176,16 @@ You may manually check this directory to retrieve the latest changes to file. Or
 
 
 
-https://jsoncrack.com/editor
+# https://jsoncrack.com/editor
 C:\Users\marti\OneDrive\Eda-f8\icecream.f8.yaml
 
 
 
 
 
+# You could talk about the history of Unix and how it influenced both macOS and Linux.
 https://gemini.google.com/app/a201a44cb78befa7
 
-You could talk about the history of Unix and how it influenced both macOS and Linux.
 
 
 
