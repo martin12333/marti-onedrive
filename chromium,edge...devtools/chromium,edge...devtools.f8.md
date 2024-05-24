@@ -1,0 +1,8 @@
+
+
+
+edge://history/recentlyClosed
+
+
+
+

@@ -1,5 +1,12 @@
 
 
+titlese???
+	legalese
+	headlinese
+
+
+
+
 my pseudolang
 
 
@@ -37,6 +44,14 @@ The syntax of newspaper headlines in English displays features which, on a super
 
 
 
-titlese
-filenamese
-"" "identifierese"
+titlese ???
+filenamese ???
+"" "identifierese"  ???
+
+2,262909,5/24/2024,20:59:09,Officialese - Wikipedia,https://en.wikipedia.org/wiki/Officialese,1,0,link
+11,262900,5/24/2024,20:58:07,Academese - Wikipedia,https://en.wikipedia.org/wiki/Academese,1,0,link
+
+
+edge://history/recentlyClosed
+
+
