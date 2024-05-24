@@ -10828,3 +10828,5 @@ git commit -v -a -m backup
 git push
 git add -vv  '*.f8.*'
 git commit -v -a -m backup
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
