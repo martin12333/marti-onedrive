@@ -1,5 +1,28 @@
 
 
+
+
+
+
+
+
+https://www.reddit.com/r/Windows_diaries/comments/1ch6zl3/comment/l5hbpj7/
+...............
+ter doing this and it had the OAuth2 authentication method in it where it wasn't available when I set it up as a hotmail account. TB/Mozilla needs to fix it's TB account setup defaults for hotmail to be like outlook.com
+
+Upvote
+2
+
+u/martin_m_n_novy
+
+( https://support.mozilla.org/en-US/products/thunderbird#search ) ... I will have to connect ThB to @ outlook or to @ gmail , for my dad, but it could take weeks , before i will get to this work
+
+
+
+
+
+
+
 https://support.microsoft.com/en-us/office/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040
 
 

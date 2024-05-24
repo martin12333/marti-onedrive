@@ -207,3 +207,12 @@ r/transhumanism r/singularity r/Futurology
    getline(cin, text);
 
 
+
+
+
+
+https://en.wikipedia.org/wiki/Category:Computer_jargon
+
+
+
+https://en.wikipedia.org/wiki/Jargon_File
