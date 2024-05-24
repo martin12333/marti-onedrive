@@ -10,12 +10,23 @@ a TODO file
 myTODO.f8.el
 TODO.f8.ps1
 
-
-
-
 edge://history/recentlyClosed
 
 
+
+https://onedrive.live.com/?authkey=%21Ai8zRexloo2qSy4&id=79E151E1DB9C98B0%21226&cid=79E151E1DB9C98B0&sb=lastModifiedDateTime&sd=2
+
+		UnAuth
+		UnAuth
+		my Microsoft account
+
+falsealarm ? 
+i was in a someone else's folder
+
+
+
+
+https://en.wikipedia.org/wiki/Syntactic_noise
 
 
 # @Martin12333 :  '# !!' MEANS a START OF EDITS

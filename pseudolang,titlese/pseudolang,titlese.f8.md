@@ -1,19 +1,21 @@
 
 
-titlese???
-	legalese
-	headlinese
+this file name:
+	titlese??
+		legalese
+		headlinese
 
 
 
 
-my pseudolang
-
+my computer pseudolangs
+	one-line form
+	multiline form
 
 influenced by:  Wisp (":"), EDN, Markdown
 
 
-examples
+examples:	the one-line form
 
 a reddit post : I made in google-forms : a form for recording medicine and sleep : it adds the time itself, it is used from a mobile browser
 
@@ -22,7 +24,7 @@ in technical writing : chapter titles : rules
 
 
 
-in chapter titles: what about English articles: a, the
+in chapter titles: what about the English articles: a, the
 
 
 
@@ -54,4 +56,7 @@ filenamese ???
 
 edge://history/recentlyClosed
 
+
+
+https://en.wikipedia.org/wiki/Syntactic_noise
 
