@@ -22,7 +22,10 @@ trick: emojis in chapter titles
 ⚠️ 🚧
 
 
-⚠️// "C:\Users\marti\OneDrive\Eda-f8\backups\etc.zip"
+
+# vím, že bych neměl dělat poplachy příliš brzo, a příliš často   🦉   🧙‍♂️
+
+// "C:\Users\marti\OneDrive\Eda-f8\backups\etc.zip"
 ⚠️gitconfig
 ⚠️//[credential "https://dev.azure.com"]
 

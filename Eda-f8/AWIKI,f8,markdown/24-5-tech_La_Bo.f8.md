@@ -108,7 +108,7 @@ wiki/m3
 
 
 
-# vím, že bych neměl dělat poplachy příliš brzo, a příliš často
+# vím, že bych neměl dělat poplachy příliš brzo, a příliš často    🦉   🧙‍♂️
 
 # ochrana  souborů (files) je tak trochu moje polo-profese (pro mne důležitější, než programování)
 
