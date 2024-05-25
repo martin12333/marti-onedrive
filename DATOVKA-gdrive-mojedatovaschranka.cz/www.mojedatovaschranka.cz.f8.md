@@ -1,10 +1,13 @@
-www.mojedatovaschranka.cz.f8.md
 
 
 
 
 https://www.diigo.com/user/martin12333
 
+
+
+https://photos.google.com/share/AF1QipOKeiZDgYptx7S6DjNZfgn9wQ7YoYTNTJs4DVD2EpUM4HKx9_ZKl2PyA9cVBzDy4g
+... name https://www.mojedatovaschranka.cz/portal/ISDS/nastaveni/dudz/kredit/zmena/1 datova schranka - Google Photos
 
 
 
