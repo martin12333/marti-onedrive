@@ -1,12 +1,37 @@
 
 
-[previous](24-3-tech_La_Bo.f8.md)
+[previous was](24-3-tech_La_Bo.f8.md)
+
 
 f1 markdown  toc
-
+- [barevne emoji 💚💙🧡🩵🩶🤍](#barevne-emoji-)
 - [vscode markdown](#vscode-markdown)
 - [Codedamn playgrounds: press ctrl+s to enable playground autosave?](#codedamn-playgrounds-press-ctrls-to-enable-playground-autosave)
-- [jsem rád  💛⬆️, že se shodneme na několika dalších věcech](#jsem-rád--️-že-se-shodneme-na-několika-dalších-věcech)- [vscode markdown](#vscode-markdown)
+- [jsem rád  💛⬆️, že se shodneme na několika dalších věcech](#jsem-rád--️-že-se-shodneme-na-několika-dalších-věcech)
+- [https://old.reddit.com/subreddits/create](#httpsoldredditcomsubredditscreate)
+- [todo](#todo)
+- [vím, že bych neměl dělat poplachy příliš brzo, a příliš často](#vím-že-bych-neměl-dělat-poplachy-příliš-brzo-a-příliš-často)
+- [ochrana  souborů (files) je tak trochu moje polo-profese (pro mne důležitější, než programování)](#ochrana--souborů-files-je-tak-trochu-moje-polo-profese-pro-mne-důležitější-než-programování)
+- [problem-2024-05-21: beginners delete ... files, by misusing Git, especially in VSCode](#problem-2024-05-21-beginners-delete--files-by-misusing-git-especially-in-vscode)
+	- [několik možných zmírňování toho problému](#několik-možných-zmírňování-toho-problému)
+- [https://translate.google.com/?sl=cs&tl=en&text=asi%20den%20jsem%20v%C3%A1hal%2C%20zda%20obt%C4%9B%C5%BEovat%20lidi%20s%20touto%20nep%C5%99%C3%ADjemnou%20zpr%C3%A1vou&op=translate](#httpstranslategooglecomslcstlentextasi20den20jsem20vc3a1hal2c20zda20obtc49bc5beovat20lidi20s20touto20nepc599c3adjemnou20zprc3a1vouoptranslate)
+- [https://stackoverflow.com/questions/45976869/restore-deleted-files-in-visual-studio-code-in-the-code-management-menu](#httpsstackoverflowcomquestions45976869restore-deleted-files-in-visual-studio-code-in-the-code-management-menu)
+- [?? https://hackernoon.com/understanding-git-fcffd87c15a3](#-httpshackernooncomunderstanding-git-fcffd87c15a3)
+	- [gitconfig](#gitconfig)
+- [https://jsoncrack.com/editor](#httpsjsoncrackcomeditor)
+- [codereview245o.f8.md](#codereview245of8md)
+- [You could talk about the history of Unix and how it influenced both macOS and Linux.](#you-could-talk-about-the-history-of-unix-and-how-it-influenced-both-macos-and-linux)
+- [reddit 245B](#reddit-245b)
+- [todo](#todo-1)
+
+
+# barevne emoji 💚💙🧡🩵🩶🤍
+trick: emojis in browser bookmarks
+trick: emojis in chapter titles
+klavesa WIN+.
+
+
+
 
 # vscode markdown
     "markdown.extension.toc.updateOnSave": false,   // to be lightweight

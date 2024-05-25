@@ -5,6 +5,17 @@ https://onedrive.live.com/
 programming stuff - OneDrive
 
 
+
+
+# barevne emoji 💚💙🧡🩵🩶🤍
+
+trick: emojis in browser bookmarks
+trick: emojis in chapter titles
+
+klavesa WIN+.
+
+
+
 tempCodeRunnerFile.cpp
 
                     getline(cin, text);
@@ -14,6 +25,10 @@ tempCodeRunnerFile.cpp
 // "C:\Users\marti\OneDrive\Eda-f8\backups\etc.zip"
 gitconfig
 //[credential "https://dev.azure.com"]
+
+proc ne nejdriv github?
+
+mozna bych si to mel pozdeji take poridit?
 
 
 
@@ -40,7 +55,7 @@ append.cpp
 
 
     hello.append(" world"s);
-string literal
+""s // string literal?
 
 namespaces_function_example.cpp
 substring_example.cpp

@@ -12,8 +12,27 @@
 maybe this text file should have been markdown rather than .ps1
 
 
-# my issue win2451
-win2451--security-weakness--folder-permissions
+
+
+todo
+
+
+https://github.com/search?q=icacls+%22%2Finheritance%3Ar%22+rx+%22authenticated+Users%22&type=code
+https://gist.github.com/search?q=icacls++%22%2Finheritance%3Ar%22+%22Users%22+++%22rx%22++&ref=searchresults
+
+
+
+
+
+
+
+
+
+
+in this file:
+# my issue win2451:
+mmb:win2451--security-weakness--folder-permissions
+
 
 search terms
 	DLL hijacking

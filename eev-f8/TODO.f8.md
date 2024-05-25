@@ -12,14 +12,26 @@ TODO.f8.ps1
 
 edge://history/recentlyClosed
 
+file:///C:\Users\marti\OneDrive\toilet--unclog\toilet--unclog.f8.md
+https://keep.google.com/#NOTE/1rbNE709fNS3B8VuroXW2rX0gtOakBQUO7vsCRj3Aorqn-P7APRQbFyZjLOwr9w
+
+goog search
+dTest toaletní papír
+ 
+https://www.idnes.cz/ekonomika/test-a-spotrebitel/test-toaletnich-papiru-ktery-je-nejlepsi.A160201_174049_test_rts
+
+
+
+
+file:///C:\Users\marti\OneDrive\windows-f8\windows-security-weakness--folder-permissions--icacls.f8.ps1
+
+
 
 
 https://onedrive.live.com/?authkey=%21Ai8zRexloo2qSy4&id=79E151E1DB9C98B0%21226&cid=79E151E1DB9C98B0&sb=lastModifiedDateTime&sd=2
-
 		UnAuth
 		UnAuth
 		my Microsoft account
-
 falsealarm ? 
 i was in a someone else's folder
 
