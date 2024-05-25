@@ -10882,3 +10882,5 @@ history[0]
 (history)[0]|Set-Clipboard
 (history)|Set-Clipboard
 history|Set-Clipboard
+(history)[0]|Clip
+git commit -v -a -m backup
