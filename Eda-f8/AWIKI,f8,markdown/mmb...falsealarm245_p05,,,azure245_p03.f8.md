@@ -1,7 +1,5 @@
+
 mmb...falsealarm245_p05,azure245_p03.f8.md
-
-
-
 
 
 
@@ -26,7 +24,7 @@ muj c pf gitconfig
 	useHttpPath = true
 */
 
-MYLNE JSEM SE DOMNIVAL, ZE EDUV GIT CRED. MANAGER JE NEJAK SPOJENY S Azure NIKOLI S GITHUB ...  ALE O 2 HOD POZDEJI JSEM ZJISTIL, ZE
+~~MYLNE JSEM SE DOMNIVAL, ZE EDUV GIT CRED. MANAGER JE NEJAK SPOJENY S Azure NIKOLI S GITHUB ...  ALE O 2 HOD POZDEJI JSEM ZJISTIL, ZE
 JA TO MAM take
 //[credential "https://dev.azure.com"]
 prestoze POUZIVAM GITHUB nikoli Azure
@@ -39,18 +37,17 @@ gitconfig
 //[credential "https://dev.azure.com"]
 //	useHttpPath = true
 
+
+
 btw, nez azure, radeji
  nejdriv github   github pages   github codespaces
-
  codedamn playgrounds
 
-oBSOLETE mozna bych si to mel pozdeji take poridit??
-OBSOLETE kdo to doporucil? proc?
+
 
 https://azure.microsoft.com/en-us/free/free-account-faq
 
 https://learn.microsoft.com/en-us/answers/questions/1582156/unpaid-bill
-
 
 
 
@@ -69,6 +66,8 @@ I am just a hobbyist. Is there a way to set a hard limit on spending at Microsof
 		pen_spark
 
 
+
+
 https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx
 
 Is this true? ...		Unfortunately, Azure doesn't offer a hard spending limit. This means you can't set a specific amount and have Azure automatically shut down spending once you reach it.
@@ -77,6 +76,14 @@ Is this true? ...		Unfortunately, Azure doesn't offer a hard spending limit. Thi
 You’re absolutely right! I appreciate your attention to detail. Unfortunately, Azure doesn’t provide a hard spending limit that automatically shuts down spending once a specific amount is reached. Instead, users have to rely on other methods to manage their costs effectively.
 ...
 Remember that the spending limit isn’t available for subscriptions with commitment plans or pay-as-you-go pricing.
+
+
+
+
+
+
+
+
 
 https://azure.microsoft.com/en-us/support/legal/offer-details/
 
@@ -115,3 +122,5 @@ If an Azure in Open subscription reaches a zero balance the services will be sus
 
 
 
+oBSOLETE mozna bych si to mel pozdeji take poridit??
+OBSOLETE kdo to doporucil? proc?
