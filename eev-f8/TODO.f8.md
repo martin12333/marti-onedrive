@@ -19,6 +19,17 @@ https://www.diigo.com/user/martin12333?query=%23todoTODO
 https://www.diigo.com/user/martin12333?query=%23todo
 
 
+https://www.diigo.com/user/martin12333?query=%23iforgot_that_it_exists
+
+
+
+mk f8
+exists?no
+https://dontkillmyapp.com/samsung#android-pie-and-10
+https://play.google.com/store/apps/details?id=com.urbandroid.dontkillmyapp
+
+
+
 
 file:///C:\Users\marti\OneDrive\DATOVKA-gdrive-mojedatovaschranka.cz\www.mojedatovaschranka.cz.f8.md
 
