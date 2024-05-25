@@ -12,11 +12,32 @@ exit
 
 file:///C:\Users\marti\OneDrive\Eda-f8\powershell\24-4-explain-f8_text_file.f8.ps1
 
+
+echo '-------- section --------'
+
+
+
+
 echo '-------- section --------'
 
 
 	dir
 
+	powershell.exe
+
+	dir Env:
+	#dir     Env:
+	##dir $Env:
+	##dir $Env:*
+	dir Env:*
+
+		ps5 umi
+		ps7 umi
+
+		laptop nefungo s $ ... $Env ...  dir  $Env:
+		mimochodem ... nebyl na laptopu asi v cmd.exe ??
+
+	dir Env:
 	dir Env:
 	dir Env: | findstr.exe -i marti
 	dir Env: | findstr.exe -i Ed
@@ -25,6 +46,76 @@ echo '-------- section --------'
 	$HOME
 	dir $HOME\.vscode\extensions
 	dir $HOME\.vscode\extensions | clip
+
+
+
+echo '-------- section --------'
+
+
+
+echo '-------- section --------'
+
+dotnet.exe
+
+
+code C:\Users\eduar\OneDrive\
+code 'C:\Users\eduar\OneDrive\programming stuff'
+
+##dir $Env:
+
+Cmd /c set
+
+min
+
+C:\Program Files\Common Files\Oracle\Java\javapath
+C:\Windows\system32
+C:\Windows
+C:\Windows\System32\Wbem
+C:\Windows\System32\WindowsPowerShell\v1.0\
+C:\Windows\System32\OpenSSH\
+C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR
+C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\
+C:\Program Files\dotnet\
+C:\MinGW\bin
+C:\Eduard laifr\programming stuff\Programming apps\Git\cmd
+C:\Program Files\nodejs\
+C:\Users\eduar\AppData\Local\Microsoft\WindowsApps
+C:\Users\eduar\.dotnet\tools
+C:\Users\eduar\AppData\Local\Programs\Microsoft VS Code\bin
+C:\Users\eduar\AppData\Local\GitHubDesktop\bin
+C:\Users\eduar\AppData\Roaming\npm
+
+
+where.exe node
+
+
+$Env:Path -split ';' | clip
+$Env:Path.Length
+
+C:\Program Files\Common Files\Oracle\Java\javapath
+C:\Windows\system32
+C:\Windows
+C:\Windows\System32\Wbem
+C:\Windows\System32\WindowsPowerShell\v1.0\
+C:\Windows\System32\OpenSSH\
+C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR
+C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\
+C:\Program Files\dotnet\
+C:\MinGW\bin
+C:\Users\eduar\AppData\Local\Microsoft\WindowsApps
+dir C:\Users\eduar\.dotnet\tools\
+C:\Users\eduar\AppData\Local\Programs\Microsoft VS Code\bin
+java
+
+	dir
+
+	dir Env:
+	dir Env: | findstr.exe -i marti
+
+	$HOME
+	dir $HOME\.vscode\extensions
 
 
 
@@ -51,20 +142,11 @@ echo '-------- section ----CLIPBOARD----'
 
 	cmd /c dir c:\pag*.* /a
 	cmd /c dir c:\pag*.* /a  | clip
-	cmd /c dir c:\pag*.* /a  | findstr free 
 	cmd /c dir c:\pag*.* /a  | findstr free | clip
 
-	vulkaninfo.exe >>b.txt
 	vulkaninfo.exe | clip
-
-
-	cd ".\OneDrive\programming stuff\"
-
-
-	dir *.txt
-	Get-ComputerInfo >>a.txt
+	Get-ComputerInfo
 	help Get-ComputerInfo
-	Get-ComputerInfo | findstr -i intel 
 	Get-ComputerInfo | findstr -i intel |clip
 	Get-ComputerInfo | findstr -i cpu
 	Get-ComputerInfo | findstr -i gpu
@@ -90,6 +172,15 @@ q
 	help Get-Clipboard
 
 	help Set-Clipboard
+
+
+
+	#245.4
+	help Get-Clipboard
+	help about_CommonParameters
+	Get-Clipboard -OutVariable x
+	$x.Length
+
 
 echo '-------- section --------'
 
@@ -124,6 +215,6 @@ echo '-------- section --------'
 		file output/*.exe
 	exit
 
-g++
+
 
 

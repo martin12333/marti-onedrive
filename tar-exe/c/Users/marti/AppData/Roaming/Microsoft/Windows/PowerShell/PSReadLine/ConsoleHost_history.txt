@@ -3590,3 +3590,7 @@ procexp.exe
 sfc /scannow
 procexp.exe
 sfc /scannow
+dir Env:
+dir $Env:
+dir $Env:*
+dir Env:*
