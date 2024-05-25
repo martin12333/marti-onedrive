@@ -118,7 +118,9 @@ echo '-------- section --------'
 		ps7 umi
 
 		laptop nefungo s $ ... $Env ...  dir  $Env:
-		mimochodem ... nebyl na laptopu asi v cmd.exe ??
+		bez $ by asi fungovalo
+		mimochodem ... ??nebyl jsem na laptopu v cmd.exe ??
+			ne: wt +  WindowsPowerShell ... screenshot
 
 	dir Env:
 	dir Env:
@@ -161,11 +163,15 @@ C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR
 C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\
 C:\Program Files\dotnet\
 C:\MinGW\bin
+
+
 C:\Eduard laifr\programming stuff\Programming apps\Git\cmd
 C:\Program Files\nodejs\
+
 C:\Users\eduar\AppData\Local\Microsoft\WindowsApps
 C:\Users\eduar\.dotnet\tools
 C:\Users\eduar\AppData\Local\Programs\Microsoft VS Code\bin
+
 C:\Users\eduar\AppData\Local\GitHubDesktop\bin
 C:\Users\eduar\AppData\Roaming\npm
 
