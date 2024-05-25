@@ -1,14 +1,10 @@
 
 
+https://www.calculator.net/anorexic-bmi-calculator.html?cage=48&csex=f&cheightfeet=5&cheightinch=10&cpound=160&cheightmeter=180&ckg=48&ctype=metric&x=Calculate
 
 
-a TODO file
-# "SCRATCH" file IS NOT PERSISTENT
+https://www.google.com/search?q=break+out+of+hyperfocus?+site:www.reddit.com
 
-
-##see also
-myTODO.f8.el
-TODO.f8.ps1
 
 edge://history/recentlyClosed
 
@@ -28,6 +24,12 @@ exists?no
 https://dontkillmyapp.com/samsung#android-pie-and-10
 https://play.google.com/store/apps/details?id=com.urbandroid.dontkillmyapp
 
+
+
+https://docs.google.com/spreadsheets/d/1qk_y0SToSfnF_5LjijxyYrjTxmQUMmYANT0oboZknkU/edit#gid=1726063795
+
+
+https://neklid.net/
 
 
 
@@ -53,6 +55,10 @@ file:///C:\Users\marti\OneDrive\windows-f8\windows-security-weakness--folder-per
 
 
 
+https://en.wikipedia.org/wiki/Syntactic_noise
+
+
+
 https://onedrive.live.com/?authkey=%21Ai8zRexloo2qSy4&id=79E151E1DB9C98B0%21226&cid=79E151E1DB9C98B0&sb=lastModifiedDateTime&sd=2
 		UnAuth
 		UnAuth
@@ -63,7 +69,6 @@ i was in a someone else's folder
 
 
 
-https://en.wikipedia.org/wiki/Syntactic_noise
 
 
 # @Martin12333 :  '# !!' MEANS a START OF EDITS
@@ -105,3 +110,10 @@ done partially, with some notes, marked # !!
 
 
 
+
+a TODO file
+# Emacs "SCRATCH" file IS NOT PERSISTENT
+
+##see also
+myTODO.f8.el
+TODO.f8.ps1
