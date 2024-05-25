@@ -17,7 +17,7 @@ prestoze POUZIVAM GITHUB nikoli Azure
 // [credential
 // *gitconfig
 /*
-muj c pf gitconfig
+muj c:\pf\ gitconfig
 [credential]
 	helper = manager
 [credential "https://dev.azure.com"]
@@ -28,6 +28,10 @@ muj c pf gitconfig
 JA TO MAM take
 //[credential "https://dev.azure.com"]
 prestoze POUZIVAM GITHUB nikoli Azure
+
+navic se mi "pletly"  soubory
+* c:\pf\git\etc\gitconfig
+* c:\Users\*\.gitconfig
 
 
 // "C:\Users\marti\OneDrive\Eda-f8\backups\etc.zip"
