@@ -12,6 +12,12 @@ TODO.f8.ps1
 
 edge://history/recentlyClosed
 
+
+
+https://www.diigo.com/user/martin12333?query=%23todo
+
+
+
 file:///C:\Users\marti\OneDrive\toilet--unclog\toilet--unclog.f8.md
 https://keep.google.com/#NOTE/1rbNE709fNS3B8VuroXW2rX0gtOakBQUO7vsCRj3Aorqn-P7APRQbFyZjLOwr9w
 
@@ -24,6 +30,7 @@ https://www.idnes.cz/ekonomika/test-a-spotrebitel/test-toaletnich-papiru-ktery-j
 
 
 file:///C:\Users\marti\OneDrive\windows-f8\windows-security-weakness--folder-permissions--icacls.f8.ps1
+
 
 
 

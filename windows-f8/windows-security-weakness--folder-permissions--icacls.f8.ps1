@@ -17,6 +17,9 @@ maybe this text file should have been markdown rather than .ps1
 todo
 
 
+https://www.diigo.com/user/martin12333?query=authenticated
+
+
 https://github.com/search?q=icacls+%22%2Finheritance%3Ar%22+rx+%22authenticated+Users%22&type=code
 https://gist.github.com/search?q=icacls++%22%2Finheritance%3Ar%22+%22Users%22+++%22rx%22++&ref=searchresults
 
