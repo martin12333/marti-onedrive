@@ -29,17 +29,41 @@ trick: emojis in chapter titles
 ⚠️gitconfig
 ⚠️//[credential "https://dev.azure.com"]
 
-proc ne nejdriv github?
+proc ne nejdriv github?   github pages ?  github codespaces ?
+
+proc ne codedamn playgrounds?
 
 mozna bych si to mel pozdeji take poridit?
 
 https://azure.microsoft.com/en-us/free/free-account-faq
 
+https://learn.microsoft.com/en-us/answers/questions/1582156/unpaid-bill
+
+I am just a hobbyist. Is there a way to set a hard limit on spending at Microsoft Azure?
+
+https://gemini.google.com/app/6ec8432ee5fcff1e
+
+		Unfortunately, Azure doesn't offer a hard spending limit in the way you might expect for most accounts. This means you can't set a specific amount and have Azure automatically shut down spending once you reach it.
+
+		This means you can't set a specific amount and have Azure automatically shut down spending once you reach it.
+
+		pen_spark
+
+		Budgets: Azure Cost Management lets you set budgets for your account. This isn't a hard limit, but it will send you alerts when you reach a certain percentage of your budget. You can then take manual steps to control spending, like disabling unused resources.  '   https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/spending-limit
+
+		pen_spark
 
 
 
 
-reviewed👍
+
+
+
+
+
+
+
+
 reviewed:+1:  👍
 //  "C:\Users\marti\OneDrive\Eda-f8\backups\assignments.zip"
 

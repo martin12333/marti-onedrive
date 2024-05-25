@@ -85,9 +85,13 @@ CSVW and PROV
 
 
 
-# https://en.wikipedia.org/wiki/Syntactic_noise
-# 
+
 https://en.wikipedia.org/wiki/Category:Computer_folklore
+
+
+
+
+# https://martinfowler.com/bliki/SyntacticNoise.html
 
 https://en.wikipedia.org/wiki/Syntactic_sugar
 https://en.wikipedia.org/wiki/Category:Natural_language_and_computing
