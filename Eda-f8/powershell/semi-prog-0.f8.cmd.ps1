@@ -13,17 +13,54 @@ exit
 file:///C:\Users\marti\OneDrive\Eda-f8\powershell\24-4-explain-f8_text_file.f8.ps1
 
 
-echo '-------- section --------'
+echo '-------- section 245p+ --------'
 
-(history)[0]|Clip
+$PSVersionTable|Set-Clipboard
 
-Id     Duration CommandLine
---     -------- -----------
- 1        0.380 try { . "c:\Program Files\Microsoft VS Code\resourcΓÇª
+System.Management.Automation.PSVersionHashTable
+
+$PSVersionTable|  select * |Set-Clipboard
+
+@{WSManStackVersion=3.0; GitCommitId=7.2.6; PSVersion=7.2.6; OS=Microsoft Windows 10.0.22631; PSRemotingProtocolVersion=2.3; PSCompatibleVersions=System.Version[]; Platform=Win32NT; SerializationVersion=1.1.0.1; PSEdition=Core}
+
+$PSVersionTable|  oss |Set-Clipboard
+
+Name                           Value
+----                           -----
+PSVersion                      7.2.6
+PSEdition                      Core
+GitCommitId                    7.2.6
+OS                             Microsoft Wi…
+Platform                       Win32NT
+PSCompatibleVersions           {1.0, 2.0, 3…
+PSRemotingProtocolVersion      2.3
+SerializationVersion           1.1.0.1
+WSManStackVersion              3.0
+
+
+$PSVersionTable|clip
+
+Name                           Value
+----                           -----
+PSVersion                      7.2.6
+PSEdition                      Core
+GitCommitId                    7.2.6
+OS                             Microsoft WiΓÇª
+Platform                       Win32NT
+PSCompatibleVersions           {1.0, 2.0, 3ΓÇª
+PSRemotingProtocolVersion      2.3
+SerializationVersion           1.1.0.1
+WSManStackVersion              3.0
 
 
 (history)[0]|Set-Clipboard
 try { . "c:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+
+(history)[0]|Clip
+Id     Duration CommandLine
+ 1        0.380 try { . "c:\Program Files\Microsoft VS Code\resourcΓÇª
+
+
 
 
 history|Set-Clipboard

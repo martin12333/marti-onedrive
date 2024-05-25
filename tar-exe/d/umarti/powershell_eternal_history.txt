@@ -10884,3 +10884,9 @@ history[0]
 history|Set-Clipboard
 (history)[0]|Clip
 git commit -v -a -m backup
+$PSVersionTable
+$PSVersionTable|Set-Clipboard
+$PSVersionTable|clip
+$PSVersionTable|  select * |Set-Clipboard
+$PSVersionTable|  oss
+$PSVersionTable|  oss |Set-Clipboard
