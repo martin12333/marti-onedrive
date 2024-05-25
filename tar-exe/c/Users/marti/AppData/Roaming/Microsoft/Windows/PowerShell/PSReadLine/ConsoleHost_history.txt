@@ -3594,3 +3594,11 @@ dir Env:
 dir $Env:
 dir $Env:*
 dir Env:*
+git ls-files
+
+exit
+history
+$PROFILE
+pwsh
+$PROFILE| select *|clip.exe
+exit

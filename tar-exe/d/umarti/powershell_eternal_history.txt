@@ -10863,3 +10863,22 @@ git commit -v -a -m backup
 git push
 dir Env:
 powershell.exe
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
+git push
+$PROFILE
+$Env:Path.Length
+dir Env:
+$PROFILE
+$PROFILE | clip
+$PROFILE| select *
+$PROFILE| select *|clip.exe
+powershell.exe
+history
+history|clip
+history[0]
+(history)[0]
+(history)[0]|clip
+(history)[0]|Set-Clipboard
+(history)|Set-Clipboard
+history|Set-Clipboard

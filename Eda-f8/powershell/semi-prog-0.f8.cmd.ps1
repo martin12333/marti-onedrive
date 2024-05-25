@@ -15,6 +15,52 @@ file:///C:\Users\marti\OneDrive\Eda-f8\powershell\24-4-explain-f8_text_file.f8.p
 
 echo '-------- section --------'
 
+(history)[0]|Clip
+
+Id     Duration CommandLine
+--     -------- -----------
+ 1        0.380 try { . "c:\Program Files\Microsoft VS Code\resourcΓÇª
+
+
+(history)[0]|Set-Clipboard
+try { . "c:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+
+
+history|Set-Clipboard
+
+try { . "c:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+.......
+
+$PROFILE | clip
+C:\Users\marti\OneDrive\Dokumenty234\PowerShell\Microsoft.PowerShell_profile.ps1
+$PROFILE| select *|clip
+
+AllUsersAllHosts       : C:\Program Files\PowerShell\7\profile.ps1
+AllUsersCurrentHost    : C:\Program Files\PowerShell\7\Microsoft.PowerShell_profile.ps1
+CurrentUserAllHosts    : C:\Users\marti\OneDrive\Dokumenty234\PowerShell\profile.ps1
+CurrentUserCurrentHost : C:\Users\marti\OneDrive\Dokumenty234\PowerShell\Microsoft.PowerShell_profile.ps1
+Length                 : 80
+
+
+powershell.exe
+$PROFILE| select *|clip.exe
+
+
+AllUsersAllHosts       : C:\Windows\System32\WindowsP
+                         owerShell\v1.0\profile.ps1
+AllUsersCurrentHost    : C:\Windows\System32\WindowsP
+                         owerShell\v1.0\Microsoft.Pow
+                         erShell_profile.ps1
+CurrentUserAllHosts    : C:\Users\marti\OneDrive\Doku
+                         menty234\WindowsPowerShell\p
+                         rofile.ps1
+CurrentUserCurrentHost : C:\Users\marti\OneDrive\Doku
+                         menty234\WindowsPowerShell\M
+                         icrosoft.PowerShell_profile.
+                         ps1
+Length                 : 87
+
+exit
 
 
 
@@ -53,7 +99,7 @@ echo '-------- section --------'
 
 
 
-echo '-------- section --------'
+echo '-------- section 24-05-25 --------'
 
 dotnet.exe
 
@@ -65,7 +111,7 @@ code 'C:\Users\eduar\OneDrive\programming stuff'
 
 Cmd /c set
 
-min
+mingw
 
 C:\Program Files\Common Files\Oracle\Java\javapath
 C:\Windows\system32
@@ -92,6 +138,7 @@ where.exe node
 
 $Env:Path -split ';' | clip
 $Env:Path.Length
+600+
 
 C:\Program Files\Common Files\Oracle\Java\javapath
 C:\Windows\system32
