@@ -10895,3 +10895,6 @@ git push
 ($env:Path  -split ';').length
 ($env:Path  -split ';')
 ($env:Path  -split ';')|clip
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
+git push
