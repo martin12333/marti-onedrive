@@ -3602,3 +3602,5 @@ $PROFILE
 pwsh
 $PROFILE| select *|clip.exe
 exit
+$env:Path  -split ';'
+($env:Path  -split ';').length

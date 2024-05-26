@@ -15,6 +15,44 @@ file:///C:\Users\marti\OneDrive\Eda-f8\powershell\24-4-explain-f8_text_file.f8.p
 
 echo '-------- section 245p+ --------'
 
+
+
+
+
+
+($env:Path  -split ';').length
+($env:Path  -split ';')|clip
+
+MILAN'S PC   '
+LEN20 not MSI24
+C:\Program Files\PowerShell\7
+C:\WINDOWS\system32
+C:\WINDOWS
+C:\WINDOWS\System32\Wbem
+C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+C:\WINDOWS\System32\OpenSSH\
+C:\Program Files (x86)\Common Files\Acronis\VirtualFile\
+C:\Program Files (x86)\Common Files\Acronis\VirtualFile64\
+C:\Program Files (x86)\Common Files\Acronis\FileProtector\
+C:\Program Files (x86)\Common Files\Acronis\FileProtector64\
+C:\Program Files (x86)\Common Files\Acronis\SnapAPI\
+C:\Program Files\dotnet\
+C:\Program Files\PowerShell\7\
+C:\Program Files\RedHat\Podman\
+C:\Program Files\Tailscale\
+C:\Program Files\nodejs\
+C:\Program Files\Microsoft VS Code\bin
+C:\Program Files\Git\cmd
+C:\Users\marti\AppData\Local\Microsoft\WindowsApps
+C:\Users\marti\.dotnet\tools
+C:\Users\marti\AppData\Roaming\npm
+
+
+
+
+
+
+
 $PSVersionTable|Set-Clipboard
 
 System.Management.Automation.PSVersionHashTable
@@ -102,6 +140,9 @@ exit
 
 
 echo '-------- section --------'
+
+drag drop
+d:\umarti\Videos\Screenpresso\2024-05-26_02h16_48.png
 
 
 	dir
