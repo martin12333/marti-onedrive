@@ -1,16 +1,32 @@
-visual_conlangs.f8.md
-
 
 
 My dream project is to make conlangs, that are crossovers of Blissymbols and Emojis.
 
 
+poll
+
+
+I realized, I need some of the most common blissymbols ... to be available in  plain text editors (VSCode, Notepad, ...) .
+
+I am going to take our  ASEMTOG_F700.ttf  font from 2021 ... as an amateur standard, available, unchanging, for many years   //  @  George Sutton
+
+You can see the font, since 2021, at  https://martin12333.github.io/symbol_boards/
+
+But I am definitely  going to **rename** the "ASEMTOG_F700" font ...  what new font name would you prefer:
+
+
+MiniBliss baby
+
+SmallBliss
+SimpleBliss
+MostCommonBliss
+BlissSubset
+BlissymbolSubset
+Other name ... please comment
 
 
 
 
-
-I realized I need
 
 
 

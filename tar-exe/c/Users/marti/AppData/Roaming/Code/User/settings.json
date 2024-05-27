@@ -204,7 +204,9 @@
 
     // emacs Courier New
 
-    "editor.fontFamily": "'segoe ui',calibri,'Lucida sans','Lucida sans unicode',Arial,'microsoft sans serif',Consolas, 'Courier New', monospace",
+
+
+    "editor.fontFamily": "'segoe ui',CcfSymbolFont_ASEMTOG_F700,calibri,'Lucida sans','Lucida sans unicode',Arial,'microsoft sans serif',Consolas, 'Courier New', monospace",
     "diffEditor.ignoreTrimWhitespace": false,
 
     //"terminal.integrated.automationProfile.osx": {    },

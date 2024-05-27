@@ -10919,3 +10919,12 @@ git add --dry-run  dfd.ttf
 git add --dry-run   -vv  dfd.ttf
 git add --dry-run  -vv  '*.ttf'
 git commit -v -a -m backup
+git add --dry-run  -vv  'bli*/*.ttf'
+git add --dry-run  -vv  'bli*/*/*.ttf'
+git add --dry-run  -vv  'Bli*/*/*.ttf'
+git add --dry-run  -vv  'Bli*/f*/*.ttf'
+git commit -v -a -m backup
+git add  -vv  'Bli*/f*/*.ttf'
+git commit -v -a -m backup
+git push
+git add -vv  '*.f8.*'
