@@ -1,15 +1,22 @@
 Ed...path245p--reboot,restart.f8.md
 
-node.js missing in path ... do i have to restart the computer? or re-login ? 
 
  (issue Ed:path245p )
 
+pořád mi vrtá hlavou, proč nešel spustit ten node z toho VSCode
 
+zkusil jsem se zeptat Bing+AI:
 
+node.js missing in path ... do i have to restart the computer? or re-login ? 
 
-https://stackoverflow.com/questions/37823194/cannot-find-runtime-node-on-path-visual-studio-code-and-node-js
+pak jsem googlil
 
-I tried restarting VSCode and that didnt work for me. **Restarting my computer worked.** I'm also on MacOS big sur on an M1 Mac – 
+našel jsem např.
+
+>I tried restarting VSCode and that didnt work for me. **Restarting my computer worked.**
+
+//  https://stackoverflow.com/questions/37823194/cannot-find-runtime-node-on-path-visual-studio-code-and-node-js
+
 
 
 "Cannot find runtime 'node' on PATH" VSCode  site:github.com
