@@ -7,6 +7,32 @@ My dream project is to make conlangs, that are crossovers of Blissymbols and Emo
 
 
 
+
+
+
+I realized I need
+
+
+
+
+```powershell
+
+
+
+git add --dry-run   -vv  dfd.ttf
+git add --dry-run  -vv  '*.ttf'
+
+get-co
+git ls-files  |  findstr -i    asem
+git ls-files  |  findstr -i    blis
+git ls-files  |  findstr -i    asem
+git ls-files  |  findstr -i    asem
+
+```
+
+
+
+
 EDIT: it's interesting to paste what I have written into the https://lingojam.com/EmojiTranslator%28Iconic%29
 
 
