@@ -18,6 +18,8 @@ I realized I need
 ```powershell
 
 
+it commit -v -a -m backup
+
 
 git add --dry-run   -vv  dfd.ttf
 git add --dry-run  -vv  '*.ttf'
