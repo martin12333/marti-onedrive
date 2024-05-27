@@ -10940,3 +10940,9 @@ git add -vv    '*/tasks.json'
 git commit -v -a -m add
 git show --name-only
 git push
+Christian_charity_
+conda activate base
+Christian_charity_
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
