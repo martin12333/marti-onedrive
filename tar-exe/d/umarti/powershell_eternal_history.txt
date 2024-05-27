@@ -10928,3 +10928,15 @@ git add  -vv  'Bli*/f*/*.ttf'
 git commit -v -a -m backup
 git push
 git add -vv  '*.f8.*'
+git commit -v -a -m backup
+git push
+git show --name-only
+git add -vv   --dry-run   '**/*-f8-dir'
+git add -vv   --dry-run   '**/*-f8-dir/*'
+git add -vv   --dry-run   '*/*-f8-dir/*'
+git add -vv   --dry-run   'tasks.json'
+git add -vv   --dry-run   '*/tasks.json'
+git add -vv    '*/tasks.json'
+git commit -v -a -m add
+git show --name-only
+git push

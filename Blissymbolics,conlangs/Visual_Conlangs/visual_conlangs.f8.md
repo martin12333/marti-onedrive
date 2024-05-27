@@ -1,6 +1,59 @@
 
+# My dream project is to make conlangs, that are crossovers of Blissymbols and Emojis.
 
-My dream project is to make conlangs, that are crossovers of Blissymbols and Emojis.
+# ASEMTOG_F700.ttf     
+
+lyrics
+Save Ginny Weasley
+by Harry and the Potters
+ Are you scared to walk through the hallways?
+Are you worried that the spiders run away?
+Are you petrified of being petrified?
+Are we going to have to save the school again?
+
+The Beatles Lyrics
+"Norwegian Wood (This Bird Has Flown)"
+ once had a girl
+Or should I say
+She once had me
+
+
+# "editor.fontFamily": "'segoe ui',CcfSymbolFont_ASEMTOG_F700,calibri,'Lucida sans','Lucida sans unicode',Arial,'microsoft sans serif',Consolas, 'Courier New', monospace",
+
+
+
+
+
+file:///C:\Users\marti\OneDrive\Blissymbolics,conlangs\symbol_boards\completion-test.txt.coffee
+
+# https://www.reddit.com/r/visual_conlangs/comments/cgbsvd/logographic_fonts_texteditor_wordcompletion/
+
+# completion slightly depends on file format  ... the filename extension
+# vscode *.md ... completion of words with emojis fails
+# vscode *.coffee OK   *.edn OK
+
+# words with emojis
+
+good1_👍
+good2_👼🤲
+
+# some more of testing identifiers, that contain non-ascii characters
+# E5 ... PUA
+# 1f3 ... emojis
+
+abc4E_人_1 abcAC_가_2 abcE5__3 abc1f3_🌀_4
+
+------
+
+EDIT 2023: a cleaner method will be to define a snippet file for the editor, or to modify an emoji-entering editor extension
+
+
+
+
+
+
+
+
 
 
 poll
@@ -19,13 +72,13 @@ MiniBliss baby
 
 SmallBliss
 SimpleBliss
-MostCommonBliss
-BlissSubset
-BlissymbolSubset
 Other name ... please comment
 
-
-
+google search 0
+github search 1 ... my
+	MostCommonBliss
+	BlissSubset
+	BlissymbolSubset
 
 
 
