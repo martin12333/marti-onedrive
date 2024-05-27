@@ -10946,3 +10946,5 @@ Christian_charity_
 git add -vv  '*.f8.*'
 git commit -v -a -m add
 git push
+git commit -v -a -m add
+git push

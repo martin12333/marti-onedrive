@@ -1,11 +1,19 @@
 
 
-completion
+completion in VSCode works even in another file *.tsv   !!!
 
 Blissymbolics_
-dictionary
+dictionary_📖
 vocabulary
-word
+
+# completion slightly depends on file format  ... the filename extension
+# vscode *.md ... completion of words with emojis fails
+# vscode OK: *.coffee    *.edn *.tsv
+
+file:///C:\Users\marti\OneDrive\Blissymbolics,conlangs\CcfSymbolFont_ASEMTOG_F700-workspace-dir\completion---another-file--test.f8.txt.tsv
+
+
+
 
 categ	ASEMT	Engl_Bliss	notes	i
 		forward_	right_, movement3	63232
