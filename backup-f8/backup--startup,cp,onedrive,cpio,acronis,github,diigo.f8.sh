@@ -188,6 +188,10 @@ this  dialog box has showed ... "Report a problem" ... but, I don't 'remember an
 	git add -vv   --dry-run   'co*/f?.*'
 	git add -vv      'hyperpolyglot-f8/*.csv'
 	git add -vv   --dry-run   'hyperpolyglot-f8/*.csv'
+	git add -vv   --dry-run   '**/*-f8-dir/*'
+	git add -vv   --dry-run   '*/*-f8-dir/*'
+	git add -vv   --dry-run   '*/tasks.json'
+	git add -vv    '*/tasks.json'
 
 ### !!!
 WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
