@@ -10914,3 +10914,8 @@ git push
 git ls-files
 git ls-files  |  findstr -i    asem
 git ls-files  |  findstr -i    blis
+git add --dry-run
+git add --dry-run  dfd.ttf
+git add --dry-run   -vv  dfd.ttf
+git add --dry-run  -vv  '*.ttf'
+git commit -v -a -m backup

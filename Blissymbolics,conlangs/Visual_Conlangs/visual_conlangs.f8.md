@@ -18,11 +18,11 @@ I realized I need
 ```powershell
 
 
-it commit -v -a -m backup
-
+git commit -v -a -m backup
 
 git add --dry-run   -vv  dfd.ttf
-git add --dry-run  -vv  '*.ttf'
+git add --dry-run  -vv  'Bli*/f*/*.ttf'
+git add --dry-run  -vv  'Bli*/f*/*.ttf'
 
 get-co
 git ls-files  |  findstr -i    asem
