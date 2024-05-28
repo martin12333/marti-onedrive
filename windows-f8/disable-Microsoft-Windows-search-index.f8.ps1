@@ -11,6 +11,12 @@ exit
 echo '-------- section --------'
 
 
+
+EDIT 245
+	MAYBE appdata is excluded by default?
+	
+
+
 #disable Microsoft Windows search index in "c:\users"
 	explorer.exe
 		#20 minutes applying attributes
