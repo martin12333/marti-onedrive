@@ -1,16 +1,16 @@
 
 
-# https://www.calculator.net/anorexic-bmi-calculator.html?cage=48&csex=f&cheightfeet=5&cheightinch=10&cpound=160&cheightmeter=180&ckg=48&ctype=metric&x=Calculate
+# (R) https://www.calculator.net/anorexic-bmi-calculator.html?cage=48&csex=f&cheightfeet=5&cheightinch=10&cpound=160&cheightmeter=180&ckg=48&ctype=metric&x=Calculate
 
 
-# https://www.google.com/search?q=break+out+of+hyperfocus?+site:www.reddit.com
+# (R)  https://www.google.com/search?q=break+out+of+hyperfocus?+site:www.reddit.com
 
 
 edge://history/recentlyClosed
 
 
 
-# https://www.diigo.com/user/martin12333?query=%23todoTODO
+# (R)  https://www.diigo.com/user/martin12333?query=%23todoTODO
 
 https://www.diigo.com/user/martin12333?query=%23todo
 
@@ -19,9 +19,24 @@ https://www.diigo.com/user/martin12333?query=%23iforgot_that_it_exists
 
 
 
-mk f8
+
+# (R)  marketplace
+	palette
+
+
+# (R)  mk f8  MK F8
+
+# 
+mkdir TODO-TOMOVE-f8-dir
+
+## zda bliss  .zbl  .tsv (R)
+
+## name mitigate.f8.zbl.tsv
+uz zalozim ctrl-t
+
+
 exists?no
-# https://dontkillmyapp.com/samsung#android-pie-and-10
+## https://dontkillmyapp.com/samsung#android-pie-and-10
 https://play.google.com/store/apps/details?id=com.urbandroid.dontkillmyapp
 
 
