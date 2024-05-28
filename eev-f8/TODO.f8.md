@@ -26,8 +26,25 @@ https://www.diigo.com/user/martin12333?query=%23iforgot_that_it_exists
 
 # (R)  mk f8  MK F8
 
-# 
+## mkdir
+ls     '*todo*'
 mkdir TODO-TOMOVE-f8-dir
+
+## git commit
+cd ~/OneDrive
+	git add -vv      '*/*-f8-dir/*'
+	git add -vv   --dry-run   '*/*-f8-dir/*'
+### !!! WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
+	git add -vv  '*.f8.*'
+	git commit -v -a -m add
+	git add -vv  'AI*/*.ipynb'
+	git commit -v -a -m backup
+	git push
+	git commit -v -a -m move
+	git show --name-only
+
+
+
 
 ## zda bliss  .zbl  .tsv (R)
 

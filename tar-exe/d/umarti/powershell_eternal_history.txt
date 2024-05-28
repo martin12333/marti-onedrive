@@ -10952,3 +10952,13 @@ git add -vv  '*.f8.*'
 git commit -v -a -m add
 mkdir TODO-TOMOVE-f8-dir
 conda activate pip310ecco
+git add -vv  '*.f8.*'
+cd ..
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+ls '*todo'
+ls '*todo*'
+ls     '*todo*'
+ls     '*miti*'
+mkdir daily-life---mitigate
+git add -vv   --dry-run   '*/*-f8-dir/*'

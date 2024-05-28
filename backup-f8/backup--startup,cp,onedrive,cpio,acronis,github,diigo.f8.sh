@@ -189,17 +189,15 @@ this  dialog box has showed ... "Report a problem" ... but, I don't 'remember an
 	git add -vv      'hyperpolyglot-f8/*.csv'
 	git add -vv   --dry-run   'hyperpolyglot-f8/*.csv'
 	git add -vv   --dry-run   '**/*-f8-dir/*'
-	git add -vv   --dry-run   '*/*-f8-dir/*'
 	git add -vv   --dry-run   '*/tasks.json'
 	git add -vv    '*/tasks.json'
 
-### !!!
-WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
-### !!!
+	git add -vv      '*/*-f8-dir/*'
+	git add -vv   --dry-run   '*/*-f8-dir/*'
 
-	git commit -v -a -m add
-	git push
-	git show --name-only
+### !!!
+❗❗❗WILL NOT ADD, IF THERE IS A .GIT IN THE DIR❗❗❗
+### !!!
 
 cd ~/OneDrive
 	git add -vv  '*.f8.*'
