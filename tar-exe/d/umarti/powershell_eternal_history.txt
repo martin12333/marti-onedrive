@@ -10962,3 +10962,7 @@ ls     '*todo*'
 ls     '*miti*'
 mkdir daily-life---mitigate
 git add -vv   --dry-run   '*/*-f8-dir/*'
+git add -vv  '*.f8.*'
+git commit -v -a -m move
+git show --name-only
+git push

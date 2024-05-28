@@ -37,11 +37,12 @@ cd ~/OneDrive
 ### !!! WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 	git add -vv  '*.f8.*'
 	git commit -v -a -m add
-	git add -vv  'AI*/*.ipynb'
+	git push
+	git show --name-only
+
 	git commit -v -a -m backup
 	git push
 	git commit -v -a -m move
-	git show --name-only
 
 
 
