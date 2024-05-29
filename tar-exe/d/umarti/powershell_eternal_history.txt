@@ -10966,3 +10966,6 @@ git add -vv  '*.f8.*'
 git commit -v -a -m move
 git show --name-only
 git push
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git show --name-only
