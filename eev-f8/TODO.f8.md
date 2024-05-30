@@ -18,6 +18,8 @@ https://www.diigo.com/user/martin12333?query=%23todo
 https://www.diigo.com/user/martin12333?query=%23iforgot_that_it_exists
 
 
+# (R)  mynotes
+prosím nebalit do *krabice* ... raději balit např. opět do tašky ... (nemáme auto) ... děkuji Vám
 
 
 # (R)  marketplace
