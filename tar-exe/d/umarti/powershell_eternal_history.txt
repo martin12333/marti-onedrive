@@ -11025,3 +11025,6 @@ git ls-files | findstr.exe -i power
 git ls-files | findstr.exe -i    PowerShell0.ipynb
 git ls-files | findstr.exe -i    jupyte
 dotnet-interactive.exe
+git commit -v -a -m backup
+git add -vv  '*.f8.*'
+git commit -v -a -m backup
