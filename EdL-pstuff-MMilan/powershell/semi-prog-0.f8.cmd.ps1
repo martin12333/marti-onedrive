@@ -175,6 +175,11 @@ d:\umarti\Videos\Screenpresso\2024-05-26_02h16_48.png
 
 	dir Env:
 	dir Env:
+
+
+	https://mcsaguru.com/powershell-output-truncated/
+	
+
 	cmd /c set | findstr.exe -i .
 	cmd /c set | findstr.exe -i marti
 
@@ -195,7 +200,7 @@ d:\umarti\Videos\Screenpresso\2024-05-26_02h16_48.png
 	dir $HOME\.vscode\extensions
 	dir $HOME\.vscode\extensions | clip
 
-	
+
 	cmd /c dir $env:USERPROFILE\.vscode\extensions | clip
 
 echo '-------- section -- MB vscode\extensions ------'
