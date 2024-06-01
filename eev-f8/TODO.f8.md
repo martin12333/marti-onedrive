@@ -48,7 +48,6 @@ cd ~/OneDrive
 ### !!! WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 	git add -vv  '*.f8.*'
 	git commit -v -a -m add
-	git commit -v -a -m EdL-powershell
 	git push
 	git show --name-only
 

@@ -3604,3 +3604,16 @@ $PROFILE| select *|clip.exe
 exit
 $env:Path  -split ';'
 ($env:Path  -split ';').length
+dir Env: | findstr.exe -i .
+dir Env: | oss | findstr.exe -i .
+dir Env: | findstr.exe -i marti
+cmd /c set
+cmd /c set | findstr.exe -i .
+cmd /c set | findstr.exe -i marti
+$env:USERPROFILE
+cmd /c dir $env:USERPROFILE\.vscode\extensions
+cmd /c dir $env:USERPROFILE\.vscode\extensions | clip
+dir Env: | oss | findstr.exe -i .
+dir Env: | oss | sls .
+dir Env: | oss | sls mart
+cmd /c dir $env:USERPROFILE\.vscode\extensions | clip

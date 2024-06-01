@@ -10973,3 +10973,16 @@ git commit -v -a -m backup
 git push
 git add -vv  '*.f8.*'
 git commit -v -a -m backup
+git add -vv  '*.f8.*'
+git commit -v -a -m EdL-powershell
+git push
+$HOME
+dir Env: | findstr.exe -i Edu
+dir Env: | findstr.exe -i marti
+dir Env:
+dir Env: | findstr.exe -i marti
+dir Env: |oss| findstr.exe -i marti
+dir Env: |oss
+dir Env: | findstr.exe -i .
+dir Env: | oss | findstr.exe -i .
+powershell.exe
