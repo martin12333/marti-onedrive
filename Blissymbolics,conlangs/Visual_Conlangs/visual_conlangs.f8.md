@@ -1,6 +1,9 @@
 
 # My dream project is to make conlangs, that are crossovers of Blissymbols and Emojis.
 
+a nice quote: "Supporting Bliss means performing an important service to mankind" - Bertrand Russell (1950)
+
+
 # ASEMTOG_F700.ttf     
 
 lyrics
@@ -25,6 +28,8 @@ The Beatles Lyrics
 
 
 file:///C:\Users\marti\OneDrive\Blissymbolics,conlangs\symbol_boards\completion-test.txt.coffee
+
+
 
 
 
@@ -67,9 +72,22 @@ EDIT 2023: a cleaner method will be to define a snippet file for the editor, or 
 poll
 
 
-I realized, I need some of the most common blissymbols ... to be available in  plain text editors (VSCode, Notepad, ...) .
+How should I name a font , that contains a subset of blissymbols
 
-I am going to take our  ASEMTOG_F700.ttf  font from 2021 ... as an amateur standard, available, unchanging, for many years   //  @  George Sutton
+I realized, I need some of the most common blissymbols ... to be available in plain text editors (VSCode,  ...) .
+
+I am going to take the ASEMTOG_F700.ttf font from 2019 ... as an amateur standard, available unchanging for many future years // @ George Sutton
+
+You can see the font, since 2019, at https://martin12333.github.io/symbol_boards/
+
+But I am definitely going to **rename** the "ASEMTOG_F700" font ... what new font name would you prefer:
+
+
+
+
+I realized, I need some of the most common blissymbols ... to be available in  plain text editors (VSCode,  ...) .
+
+I am going to take the ASEMTOG_F700.ttf  font from 2019 ... as an amateur standard, available, unchanging, for many years   //  @  George Sutton
 
 You can see the font, since 2021, at  https://martin12333.github.io/symbol_boards/
 
@@ -116,7 +134,6 @@ git ls-files  |  findstr -i    asem
 EDIT: it's interesting to paste what I have written into the https://lingojam.com/EmojiTranslator%28Iconic%29
 
 
-a nice quote: "Supporting Bliss means performing an important service to mankind" - Bertrand Russell (1950)
 
 
 I have to remind myself, what I wrote months ago: the first post was https://www.facebook.com/groups/381043692614545/posts/1295299234522315/

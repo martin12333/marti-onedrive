@@ -28,6 +28,15 @@ prosím nebalit do *krabice* ... raději balit např. opět do tašky ... (nemá
 
 # (R)  mk f8  MK F8
 
+
+
+
+https://www.psas.cz/index.cfm/sluzby-firmam/odpady/svoz-bioodpadu/uzavreni-smlouvy-online/
+
+
+
+
+
 ## mkdir
 ls     '*todo*'
 mkdir TODO-TOMOVE-f8-dir
@@ -39,6 +48,7 @@ cd ~/OneDrive
 ### !!! WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 	git add -vv  '*.f8.*'
 	git commit -v -a -m add
+	git commit -v -a -m EdL-powershell
 	git push
 	git show --name-only
 
@@ -58,6 +68,11 @@ uz zalozim ctrl-t
 exists?no
 ## https://dontkillmyapp.com/samsung#android-pie-and-10
 https://play.google.com/store/apps/details?id=com.urbandroid.dontkillmyapp
+installed, runned
+
+# https://keep.google.com/#NOTE/1qSh6R8oQ79GNobSz2ujnJqHI_MDyazN0uKNbZBsFnAYJdj8y_n-FOE_QfXlz5g
+
+google search: česká spořitelna - George, jak investovat do akcií "Microsoftu" 
 
 
 
@@ -70,11 +85,8 @@ https://play.google.com/store/apps/details?id=com.urbandroid.dontkillmyapp
 
 # file:///C:\Users\marti\OneDrive\toilet--unclog\toilet--unclog.f8.md
 https://keep.google.com/#NOTE/1rbNE709fNS3B8VuroXW2rX0gtOakBQUO7vsCRj3Aorqn-P7APRQbFyZjLOwr9w
-
-goog search
-dTest toaletní papír
- 
-https://www.idnes.cz/ekonomika/test-a-spotrebitel/test-toaletnich-papiru-ktery-je-nejlepsi.A160201_174049_test_rts
+done dTest toaletní papír
+done https://www.idnes.cz/ekonomika/test-a-spotrebitel/test-toaletnich-papiru-ktery-je-nejlepsi.A160201_174049_test_rts
 
 
 
