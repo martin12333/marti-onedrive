@@ -7,7 +7,7 @@ exit
 # (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText IN MY keybindings.json for VSCode  )
 
 # or, a safer alternative, in VSCode:
-#  F1 run select
+#  F1 run selected text
 # AND LATER JUST PRESS: F1 ENTER
 
 file:///C:\Users\marti\OneDrive\Eda-f8\powershell\24-4-explain-f8_text_file.f8.ps1
@@ -215,7 +215,12 @@ v5 nepomohlo moc
 	cmd /c dir $env:USERPROFILE\.vscode\extensions | clip
 
 
+	code $env:USERPROFILE\.vscode\extensions\extensions.json
+
+
 	echo '-------- section -- EL vscode\extensions ------'
+
+	dir $HOME\.vscode\extensions | clip
 
 https://mail.google.com/chat/u/0/#chat/space/AAAAKqmKeeY
 
@@ -237,6 +242,8 @@ d-----          1/4/2024   4:17 PM                twxs.cmake-0.0.17
 -a----         4/11/2024   3:35 PM           6025 extensions.json
 
 echo '-------- section -- MB vscode\extensions 2461  ------'
+
+	cmd /c dir $env:USERPROFILE\.vscode\extensions | clip
 
 Volume in drive C is Windows
 Volume Serial Number is 2480-D21D
@@ -273,11 +280,54 @@ Directory of C:\Users\marti\.vscode\extensions
 07/30/2022  19:37    <JUNCTION>     mmon1 [C:\Users\marti\OneDrive\mmon1]
 07/21/2022  15:01    <DIR>          ms-azure-devops.azure-pipelines-1.208.0
 07/12/2022  19:03    <DIR>          ms-azuretools.vscode-docker-1.22.1
+
+
+c:\Users\marti\.vscode\extensions\ms-dotnettools.dotnet-interactive-vscode-1.0.3362040\
+
+https://github.com/dotnet/interactive/
+
+"C:\Users\marti\.vscode\extensions\ms-dotnettools.csharp-1.25.0-win32-x64\.omnisharp\1.39.0-net6.0\OmniSharp.exe"
+
+https://github.com/dotnet/vscode-csharp
+
+
+"C:\Users\marti\.vscode\extensions\d3v.pastespecial-0.9.1\bin\win32\winclip.exe"
+
+
+
+##where.exe   csi
+##where.exe   fsi
+where.exe   dotnet
+C:\Program Files\dotnet\dotnet.exe
+
+##dotnet  csi
+dotnet  fsi
+
+
+
 07/22/2022  16:33    <DIR>          ms-dotnettools.csharp-1.25.0-win32-x64
 07/16/2022  15:13    <DIR>          ms-dotnettools.dotnet-interactive-vscode-1.0.3362040
+
+
 07/15/2022  17:12    <DIR>          ms-python.python-2022.10.1
 07/21/2022  15:01    <DIR>          ms-python.vscode-pylance-2022.7.40
+
 07/15/2022  22:02    <DIR>          ms-toolsai.jupyter-2022.6.1201981810
+
+
+github.com/microsoft/vscode-jupyter
+
+The Jupyter Extension uses the [built-in notebook support](https://code.visualstudio.com/api/extension-guides/notebook#:~:text=The%20Notebook%20API%20allows%20Visual%20Studio%20Code%20extensions,allows%20for%20similar%20experiences%20inside%20Visual%20Studio%20Code.) from VS Code. This UI gives a number of advantages to users of notebooks:
+
+
+To start a lightweight debugging session and run code cells line by line in Python notebooks, press `F10` while selecting a cell or click the Run by Line button on the cell toolbar. It also supports remote kernels.
+
+To see all available Jupyter Notebook commands, open the Command Palette and type `Jupyter` or `Notebook`.
+
+-   [IntelliSense](https://code.visualstudio.com/docs/python/editing#_autocomplete-and-intellisense): Edit your code with auto-completion, code navigation, syntax checking and more.
+
+
+
 12/23/2021  16:22    <DIR>          ms-toolsai.jupyter-keymap-1.0.0
 07/21/2022  15:01    <DIR>          ms-toolsai.jupyter-renderers-1.0.9
 05/17/2022  15:29    <DIR>          ms-vscode-remote.remote-wsl-0.66.3

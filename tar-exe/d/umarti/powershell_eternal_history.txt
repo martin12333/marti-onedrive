@@ -11005,3 +11005,23 @@ dir Env: | findstr.exe -i marti
 dir Env: | findstr.exe -i Ed
 $HOME
 dir $HOME\.vscode\extensions
+conda activate pip310ecco
+git commit -v -a -m backup
+git push
+code $env:USERPROFILE\.vscode\extensions\extensions.json
+where.exe   csi
+where.exe   fsi
+where.exe   dotnet
+dotnet  csi
+dotnet  fsi
+where.exe   dotnet
+conda activate pip310ecco
+# fdgfdg
+where.exe dotnet
+# markdown
+[gc]::GetTotalAllocatedBytes()
+git ls-files
+git ls-files | findstr.exe -i power
+git ls-files | findstr.exe -i    PowerShell0.ipynb
+git ls-files | findstr.exe -i    jupyte
+dotnet-interactive.exe
