@@ -177,20 +177,31 @@ d:\umarti\Videos\Screenpresso\2024-05-26_02h16_48.png
 	dir Env:
 
 
+
+	pwsh2461 powershell-output-truncated
+
+	vypada slozity problem
+
+	1. pomoc:  udelat sirsi terminal, nebo pouzit cmd /c
+
 	https://mcsaguru.com/powershell-output-truncated/
-	
+
 
 	cmd /c set | findstr.exe -i .
 	cmd /c set | findstr.exe -i marti
 
-	powershell.exe
-	dir Env: |oss
-	| findstr.exe -i marti
-	dir Env: | findstr.exe -i .
+##	powershell.exe
+##	exit
+v5 nepomohlo moc
 
-	dir Env: | oss | findstr.exe -i .
+	##dir Env: |oss
+	| findstr.exe -i marti
+	####dir Env: | findstr.exe -i .
+
+	####dir Env: | oss | findstr.exe -i .
 	dir Env: | oss | sls .
 	dir Env: | oss | sls mart
+	dir Env: | oss | sls marti
 
 	dir Env: | findstr.exe -i marti
 	dir Env: | findstr.exe -i Ed
@@ -203,7 +214,30 @@ d:\umarti\Videos\Screenpresso\2024-05-26_02h16_48.png
 
 	cmd /c dir $env:USERPROFILE\.vscode\extensions | clip
 
-echo '-------- section -- MB vscode\extensions ------'
+
+	echo '-------- section -- EL vscode\extensions ------'
+
+https://mail.google.com/chat/u/0/#chat/space/AAAAKqmKeeY
+
+	Directory: C:\Users\eduar\.vscode\extensions
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         3/12/2024   3:05 PM                .8878c46d-d471-4c18-aad2-dcaac9117356
+d-----         4/11/2024   3:35 PM                alefragnani.pascal-9.8.0
+d-----          1/4/2024   5:24 PM                bleastprogram.cpp-compiler-1.6.3
+d-----          2/5/2024   3:29 PM                danielpinto8zz6.c-cpp-compile-run-1.0.58
+d-----         4/11/2024   3:35 PM                formulahendry.code-runner-0.12.2
+d-----          1/7/2024   9:42 AM                gverduci.c64basicv2-0.7.1
+d-----          3/5/2024   1:31 PM                ms-vscode.cmake-tools-1.17.17
+d-----         3/21/2024  12:13 PM                ms-vscode.cpptools-1.19.9-win32-x64
+d-----          1/4/2024   4:17 PM                ms-vscode.cpptools-extension-pack-1.3.0
+d-----          1/4/2024   4:17 PM                ms-vscode.cpptools-themes-2.0.0
+d-----          1/4/2024   4:17 PM                twxs.cmake-0.0.17
+-a----         4/11/2024   3:35 PM           6025 extensions.json
+
+echo '-------- section -- MB vscode\extensions 2461  ------'
+
 Volume in drive C is Windows
 Volume Serial Number is 2480-D21D
 

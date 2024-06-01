@@ -3617,3 +3617,4 @@ dir Env: | oss | findstr.exe -i .
 dir Env: | oss | sls .
 dir Env: | oss | sls mart
 cmd /c dir $env:USERPROFILE\.vscode\extensions | clip
+exit
