@@ -168,6 +168,40 @@ function main() { // note, this code was created by chatGPT
     });
 
 
+
+jeste poznamka k
+my1.js
+
+function main() { // note, this code was created by chatGPT
+
+    const readline = require('readline');
+....
+    rl.question("Is JavaScript amazing or terrible? ", function(answer) {
+        if (answer.toLowerCase() === "amazing") {
+			......
+
+nojo, to jsou ty callbacky  v  nodejs
+
+clovek by si pral nejaky hezci ekvivalent
+pro
+cin >> answer;
+
+** browser-javascript a Deno maji funkci
+answer = prompt();
+
+and ** JScript and  V8 and QuickJS also have a simple function for reading from the standard input
+
+a kdyz pujdeme mimo JavaScript,
+
+jine jazyky  maji
+ a simple function for reading from the standard input
+...   C#, Java, Kotlin, Python, Powershell, ...
+
+
+
+
+
+
 // mb:2461
 // oh, a  nodejs  callback
 //  deno, v8, qjs has a function for `cin >> x`

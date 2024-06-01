@@ -11031,3 +11031,13 @@ git commit -v -a -m backup
 f8
 dotnet  fsi
 git commit -v -a -m backup
+git push
+cscript.exe
+wscript.exe
+wscript.exe   /?
+wscript.exe
+*script
+fdgfdgdg
+dotnet jsc
+dotnet js
+dotnet jsi
