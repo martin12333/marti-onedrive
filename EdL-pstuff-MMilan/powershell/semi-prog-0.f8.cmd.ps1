@@ -300,8 +300,26 @@ https://github.com/dotnet/vscode-csharp
 where.exe   dotnet
 C:\Program Files\dotnet\dotnet.exe
 
-##dotnet  csi
 dotnet  fsi
+
+
+
+##dotnet  csi
+				**********************************************************************
+				** Visual Studio 2022 Developer Command Prompt v17.9.6
+				** Copyright (c) 2022 Microsoft Corporation
+				**********************************************************************
+				[vcvarsall.bat] Environment initialized for: 'x64'
+
+				C:\Program Files\Microsoft Visual Studio\2022\Community>csi
+				Microsoft (R) Visual C# Interactive Compiler version 4.9.0-3.24121.1 ()
+
+
+
+
+
+
+
 
 
 
