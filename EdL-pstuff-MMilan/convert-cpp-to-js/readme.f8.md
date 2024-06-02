@@ -3,15 +3,11 @@
 
 # (vylepšil jsem  https://codepen.io/martin_m_n_novy/pen/GRLMaEL   ,funguje to,  zbývá jen vyčistit a vysvětlit)
 
-# manual sync
 
-"C:\Users\marti\OneDrive\Eda-f8\MAIN"
-
-"C:\Users\marti\OneDrive\EdL-pstuff-MMilan"
 
 # nakonec misto ai pouziju editor search + replace
 
-... pro praci popsanou v C:\Users\marti\OneDrive\Eda-f8\MAIN\convert-cpp-to-js\20--ai.prompt.f8.md
+
 
 
 

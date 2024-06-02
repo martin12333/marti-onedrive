@@ -8,6 +8,9 @@ myTODO.f8.el
 
 
 
+.dib
+
+
 
 a new kind of programming environment -wolfram -quantum
 
@@ -58,7 +61,12 @@ ok  except ## edited  (find-psne-intro)
 
 
 
+$env:pathext | clip
 
+
+.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+
+dir Env:
 
 
 

@@ -11056,3 +11056,15 @@ git push
 git add -vv  '*.f8.*'
 git commit -v -a -m move
 git push
+git add -vv  '*.f8.*'
+git commit -v -a -m add
+git push
+$env:comspec
+dir Env:
+$env:pathext
+$env:pathext | clip
+mkdir 10-MAIN
+mkdir 10-MAIN.f8.dir
+mkdir 10main
+mkdir 0000
+mkdir 0000/Jscript
