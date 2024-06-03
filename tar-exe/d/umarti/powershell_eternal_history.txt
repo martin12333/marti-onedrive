@@ -11093,3 +11093,7 @@ git commit -v -a -m backup
 git push
 dir
 dir m*
+git add -vv  '*.f8.*'    0000
+git commit -v -a -m backup
+git push
+dir m*
