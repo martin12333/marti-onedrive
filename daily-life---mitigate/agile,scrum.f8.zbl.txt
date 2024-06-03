@@ -8,7 +8,12 @@ Agile approach
 
 
 
+https://innolution.com/blog/agile-risk-management-antifragile
 
+the triad of fragile, robust, and antifragile
+
+
+ap
 
 Agile is defined by the Agile Manifesto - four values. It focusses on individual and interactions, working product in short iterations, ...
 
