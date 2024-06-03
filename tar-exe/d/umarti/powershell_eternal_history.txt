@@ -11074,3 +11074,11 @@ git push
 assoc .msc
 ftype MSCFile
 cmd.exe
+git add -vv  '*.f8.*'    0000
+git commit -v -a -m add
+git push
+assoc .js
+$env:path -split ';'
+dir 'C:\Program Files\dotnet\*.exe'
+cmd /c dir 'C:\Program Files\dotnet\*.exe'
+dotnet csc

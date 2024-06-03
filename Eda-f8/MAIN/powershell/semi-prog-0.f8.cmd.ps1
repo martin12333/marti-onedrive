@@ -315,21 +315,13 @@ dotnet  fsi
 				Microsoft (R) Visual C# Interactive Compiler version 4.9.0-3.24121.1 ()
 
 
-jsc
-js
-cscript.exe
-wscript.exe
-wscript.exe   /?
 
-*script
-.\google-search-f8
-#gpscript.exe
-#ScriptRunner.exe
 
-dotnet jsc
-dotnet js
-dotnet jsi
+				C:\Users\marti\OneDrive\0000\Jscript\Jscript.f8.ps1
 
+
+
+				
 07/22/2022  16:33    <DIR>          ms-dotnettools.csharp-1.25.0-win32-x64
 07/16/2022  15:13    <DIR>          ms-dotnettools.dotnet-interactive-vscode-1.0.3362040
 
