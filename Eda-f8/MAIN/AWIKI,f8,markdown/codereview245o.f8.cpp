@@ -1,6 +1,10 @@
 
 f8_text_file
 
+https://rosettacode.org/wiki/User_input/Text#Java
+
+https://rosettacode.org/wiki/Guess_the_number/With_feedback#C#
+
 
 codereview
 
@@ -20,6 +24,8 @@ trick: emojis in chapter titles
 :question: emoji ❓
 //:ok: 🆗  ok
 ⚠️ 🚧
+
+
 
 
 
@@ -206,7 +212,7 @@ EDIT: (moznosti v zavorce maji mensi pocet tutorialu )
 
 
 
-
+(https://github.com/GoogleChromeLabs/jsvu?tab=readme-ov-file)
 
 
 
@@ -240,4 +246,11 @@ chtěl bych se zeptat, zda už jde
 
 
 🚧2461
+
+
+
+
+
+
+
 
