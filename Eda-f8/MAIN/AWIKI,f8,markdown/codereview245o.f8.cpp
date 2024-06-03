@@ -158,65 +158,60 @@ making_text_backwards.cpp
 my1.js
 
 
-function main() { // note, this code was created by chatGPT
 
-    const readline = require('readline');
 
-    const rl = readline.createInterface({
-        input: process.stdin,
-        output: process.stdout
-    });
+
 
 
 
 jeste poznamka k
 my1.js
-
+--------------
 function main() { // note, this code was created by chatGPT
 
     const readline = require('readline');
 ....
     rl.question("Is JavaScript amazing or terrible? ", function(answer) {
         if (answer.toLowerCase() === "amazing") {
-			......
+            ......
+------------------
 
 nojo, to jsou ty callbacky  v  nodejs
 
-clovek by si pral nejaky hezci ekvivalent
-pro
+clovek by si pral nejaky hezci ekvivalent pro
 cin >> answer;
 
-** browser-javascript a Deno maji funkci
+----
+
+** browser-javascript (and also Deno) have function
 answer = prompt();
 
-and ** JScript and  V8 and QuickJS also have a simple function for reading from the standard input
+----
+
+/// (QuickJS also has a simple function for reading from the standard input)
+
+/// (and also JScript ... a preinstalled JS interpreter in Windows, but very old ... has "WScript.StdIn.ReadLine"  )
+
+----
 
 a kdyz pujdeme mimo JavaScript,
 
-jine jazyky  maji
- a simple function for reading from the standard input
-...   C#, Java, Kotlin, Python, Powershell, ...
+jine jazyky take  maji
+ a simple function for reading from the standard input ...
+...   C#, Java, (Kotlin), Python, ...
+
+EDIT: odmazal jsem moznosti, ktere asi nemaji officialni download pro windows, nebo nemaji compiler/linter
+
+EDIT: (moznosti v zavorce maji mensi pocet tutorialu )
 
 
 
 
 
 
-// mb:2461
-// oh, a  nodejs  callback
-//  deno, v8, qjs has a function for `cin >> x`
 
-    rl.question("Is JavaScript amazing or terrible? ", function(answer) {
-        if (answer.toLowerCase() === "amazing") {
-            console.log("JavaScript is amazing!");
-        } else if (answer.toLowerCase() === "terrible") {
-            console.log("JavaScript is terrible!!!");
-        } else {
-            console.log("Invalid input. Please enter 'amazing' or 'terrible'.");
-        }
-        rl.close();
-    });
-}
+
+
 
 
 

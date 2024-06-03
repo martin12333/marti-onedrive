@@ -11082,3 +11082,6 @@ $env:path -split ';'
 dir 'C:\Program Files\dotnet\*.exe'
 cmd /c dir 'C:\Program Files\dotnet\*.exe'
 dotnet csc
+git add -vv  '*.f8.*'    0000
+git commit -v -a -m add
+git push

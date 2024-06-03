@@ -1,5 +1,5 @@
 
-
+// https://learn.microsoft.com/en-us/previous-versions//skwz6sz4(v=vs.85)?redirectedfrom=MSDN    ReadLine Method (Windows Script Host) | Microsoft Learn
 
 var dt = new Date();
 
