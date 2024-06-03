@@ -1,9 +1,10 @@
 
 f8_text_file
 
-https://rosettacode.org/wiki/User_input/Text#Java
 
 https://rosettacode.org/wiki/Guess_the_number/With_feedback#C#
+https://rosettacode.org/wiki/User_input/Text#Java ... tezko pochopitelny text u #Python
+
 
 
 codereview
