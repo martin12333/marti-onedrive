@@ -11161,3 +11161,8 @@ dir *.exe   -Recurse   | Set-Clipboard
 dir do*.exe   -Recurse   | Set-Clipboard
 "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Developer PowerShell for VS 2022.lnk"
 & "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Developer PowerShell for VS 2022.lnk"
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
+conda activate pip310ecco
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
+git commit -v -a -m backup
+git push
