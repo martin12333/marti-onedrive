@@ -3619,3 +3619,8 @@ dir Env: | oss | sls mart
 cmd /c dir $env:USERPROFILE\.vscode\extensions | clip
 exit
 pwsh
+ls
+ls ..
+($env:Path  -split ';').length
+($env:Path  -split ';')
+cmd

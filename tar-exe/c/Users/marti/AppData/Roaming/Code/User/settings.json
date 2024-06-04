@@ -294,6 +294,29 @@
 		"gleam": "gleam run -m $fileNameWithoutExt"
 	},
 	"window.zoomLevel": 2,
+	"dotnet-interactive.kernelTransportArgs": [
+
+		"{dotnet_path}",
+		"tool",
+		"run",
+		"dotnet-interactive",
+		"--",
+		"[vscode]",
+		"stdio",
+		"--working-dir",
+		"{working_dir}"
+	],
+	"dotnet-interactive.notebookParserArgs": [
+
+		"{dotnet_path}",
+		"tool",
+		"run",
+		"dotnet-interactive",
+		"--",
+		"notebook-parser"
+	],
+	"polyglot-notebook.defaultNotebookExtension": ".dib",
+	"polyglot-notebook.defaultNotebookLanguage": "pwsh",
 
 
 

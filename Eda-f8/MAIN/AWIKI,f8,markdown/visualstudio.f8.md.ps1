@@ -117,7 +117,17 @@ exit
 explorer "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\VC\x64 Native Tools Command Prompt for VS 2022.lnk"
 pwsh
 
-##"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Developer PowerShell for VS 2022.lnk"
+
+
+###win+q
+	###deve
+###proc jsem to ## vzdyt to funguje  ..  ale ps5
+DOTNET 32 BIT
+###asi ... pise no ps readline
+####ale kdyz pak spustim pwsh
+#####tak asi je psreadline
+#######& "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Developer PowerShell for VS 2022.lnk"
+
 
 
 #where.exe dotnet

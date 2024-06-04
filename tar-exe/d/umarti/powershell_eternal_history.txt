@@ -11097,3 +11097,67 @@ git add -vv  '*.f8.*'    0000
 git commit -v -a -m backup
 git push
 dir m*
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
+git commit -v -a -m backup
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
+git commit -v -a -m backup
+git push
+dotnet.exe
+dotnet.exe --info
+dir 'C:\Program Files\dotnet\sdk\'
+dir .\dotnet\net8.0\runtime\dotnet.exe
+explorer.exe
+explorer.exe .
+$env:path -split ';'
+dir */*
+dir */* | findstr -i bat
+dir * | findstr -i bat
+dir */*/* | findstr -i bat
+dir */*/*/* | findstr -i bat
+dir */*/*/vcvar* | findstr -i bat
+dir */*/*/vcvar* | select *
+history
+cd "C:\Program Files\Microsoft Visual Studio\2022\Community"
+dir */*/*/vcvar* | findstr -i bat
+dir */*/*/* | findstr -i bat
+dir */*/*/*
+dir */*/*/vcvar* | select *
+dir */*/*/vcvars* | select *
+dir */*/*/vcvars* | select name
+dir */*/*/vcvars64.bat | select path
+dir */*/*/vcvars64.bat | select fullpath
+dir */*/*/vcvars64.bat | select fullname
+dir */*/*/vcvars64.bat | select fullname | set-clipboard
+& "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars64.bat"
+$env:Path -split ';'
+$env:Path -split ';'  | Set-Clipboard
+$env:Path -split ';'
+conda activate pip310ecco
+& "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat"
+& "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat"   x64
+$env:Path -split ';'
+$env:Path.Length
+cmd
+$env:Path.Length
+$env:Path -split ';'
+$env:Path -split ';'  | Set-Clipboard
+cd "C:\Program Files\Microsoft Visual Studio\2022\Community"
+dir */*/*/*.bat
+dir */*/*.bat
+dir *.bat   -Recurse
+dir *.bat   -Recurse   | Set-Clipboard
+exit
+$env:Path.Length
+$env:Path -split ';'
+$env:Path.Length
+$env:Path -split ';'
+conda activate pip310ecco
+where.exe   dotnet
+where.exe   /?
+where.exe   bash
+cd "C:\Program Files\Microsoft Visual Studio\2022\Community"
+dir *.exe   -Recurse   | Set-Clipboard
+dir do*.exe   -Recurse   | Set-Clipboard
+"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Developer PowerShell for VS 2022.lnk"
+& "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022\Visual Studio Tools\Developer PowerShell for VS 2022.lnk"
