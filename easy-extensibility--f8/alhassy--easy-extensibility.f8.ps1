@@ -1,8 +1,43 @@
 exit
 
+related   file:///C:\Users\marti\OneDrive\vscode-f8\command-colon--vscode-colon-url.f8.md
+
+
+Name: easy-extensibility
+Id: alhassy.easy-extensibility
+Description: Extend VSCode without the ceremony of making a full extension! Just write your code anywhere and it'll be part of VSCode!
+Version: 1.2.12
+Publisher: Musa Al-hassy
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=alhassy.easy-extensibility   '
+
+
+alhassy.easy-extensibility
+
+@ext:alhassy.easy-extensibility
+
+"easy-extensibility.dateCommand.windows": "cmd /c date /T"
+date /T
+cmd /c date /T
+
+"easy-extensibility.rcFile": "~/.init.js"
+radeji pozdeji C:\Users\marti\OneDrive\easy-extensibility--f8\.....
+
+dir ~/*ini*
+jde symlink
+
+
+"easy-extensibility.npmCommand": "npm"
+
+
+
+
+
+
 
 [aaaaaaaa](command:workbench.action.keybindingsReference)
 
+^c
+^ins
 
 2024-06-05 10:46:46.241 [info] [KeybindingService]: / Soft dispatching keyboard event
 2024-06-05 10:46:46.242 [info] [KeybindingService]: | Resolving ctrl+C
@@ -18,30 +53,32 @@ exit
 inter1965
 
 
-related   file:///C:\Users\marti\OneDrive\vscode-f8\command-colon--vscode-colon-url.f8.md
 
 
-cd ..
+should have done git clone directly ro 1drive
+explorer.exe  C:\Users\marti\.vscode\extensions
+delete the symlik
+mkdir .\easy-extensibility--f8\inter1965--JUNCT-TARGET
+copy
+
+
 git clone https://github.com/inter1965/easy-extensibility
 
-cmd /c mklink /j   C:\Users\marti\.vscode\extensions\inter1965--easy-extensibility   C:\Users\marti\easy-extensibility
 
-inter1965
-inter1965
+cmd /c mklink /j   C:\Users\marti\.vscode\extensions\inter1965--easy-extensibility-JUNCT    "C:\Users\marti\OneDrive\easy-extensibility--f8\inter1965--JUNCT-TARGET\easy-extensibility"
 
-inter1965
+###C:\Users\marti\easy-extensibility
 
-inter1965
+dir   C:\Users\marti\.vscode\extensions\*easy*
 
-dir inter1965
+f1  deve reloa
 
-.\mmon1
-C:\Users\marti\OneDrive\mmon1
+^C
+^ins
 
 
 
-cd ~\.vscode\extensions
-dir  *ju*
-cmd /c mklink /j    hello-executecommand--junct   "c:\Users\marti\hello-executecommand"
+
+
 
 

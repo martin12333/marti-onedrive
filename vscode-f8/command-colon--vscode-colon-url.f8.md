@@ -11,14 +11,12 @@ keyb
 # DOES WORK [AAA](COMMAND:SDKJFHKJFDSH)... BUT ONLY by ctrl in EDITOR NOT IN PREVIEW
 
 
-C:\Users\marti\OneDrive\vscode-f8\command-colon--vscode-colon-url.f8.md
 
-[DOES fdss]
-[FAIL aaaaaaaa](command:workbench.action.openGlobalKeybindings)
 
 [aaaaaaaa](command:workbench.action.keybindingsReference)
 
 [aaaaaaaa](command:workbench.action.toggleKeybindingsLog)
+[FAIL aaaaaaaa](command:workbench.action.openGlobalKeybindings)
 
 [aaaaaaaa](command:markdown.showPreview)
 [aaaaaaaa](command:markdown.showPreviewToSide)

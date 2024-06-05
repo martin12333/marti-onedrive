@@ -11181,3 +11181,15 @@ git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
 git commit -v -a -m backup
 git push
 cmd /c mklink /j   C:\Users\marti\.vscode\extensions\inter1965--easy-extensibility   C:\Users\marti\easy-extensibility
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
+git commit -v -a -m backup
+git push
+dir   C:\Users\marti\.vscode\extensions\inte*
+date /T
+cmd /c date /T
+dir ~/*ini*
+explorer.exe  C:\Users\marti\.vscode\extensions
+mkdir .\easy-extensibility--f8\inter1965
+mkdir .\easy-extensibility--f8\inter1965--JUNCT-TARGET
+cmd /c mklink /j   C:\Users\marti\.vscode\extensions\inter1965--easy-extensibility-JUNCT    "C:\Users\marti\OneDrive\easy-extensibility--f8\inter1965--JUNCT-TARGET\easy-extensibility"
+dir   C:\Users\marti\.vscode\extensions\*easy*
