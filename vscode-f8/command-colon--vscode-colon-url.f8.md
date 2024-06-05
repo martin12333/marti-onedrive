@@ -7,6 +7,28 @@ f1
 keyb
 
 
+
+# DOES WORK [AAA](COMMAND:SDKJFHKJFDSH)... BUT ONLY by ctrl in EDITOR NOT IN PREVIEW
+
+
+C:\Users\marti\OneDrive\vscode-f8\command-colon--vscode-colon-url.f8.md
+
+[DOES fdss]
+[FAIL aaaaaaaa](command:workbench.action.openGlobalKeybindings)
+
+[aaaaaaaa](command:workbench.action.keybindingsReference)
+[aaaaaaaa](command:workbench.action.toggleKeybindingsLog)
+[aaaaaaaa](command:markdown.showPreview)
+[aaaaaaaa](command:markdown.showPreviewToSide)
+[aaaaaaaa](command:workbench.action.terminal.openNativeConsole)
+[aaaaaaaa](command:workbench.action.quickOpen)
+[aaaaaaaa](command:workbench.action.gotoLine)
+[aaaaaaaa](command:copyFilePath)
+[aaaaaaaa](command:emojisense.quickEmoji)
+[aaaaaaaa](command:PowerShell.ShowSessionConsole)
+
+
+
 # file:///C:\Users\marti\OneDrive\vscode-f8\ps1--fail--command-colon-url.f8.ps1
 
 
@@ -21,22 +43,27 @@ command:vscode.open?["https://aka.ms/codetour"]
 ####[fdgd](command:workbench.  type?["hgjgjhgjhgjhgjgjhgz"])
 
 [Open URL](command:vscode.open?["https://aka.ms/codetour"])
-[Open URL](command:vscode.open?["file:///c:/users"])
+
+
+
+
+
+
+[DOES Open URL BUT ONLY IN EDITOR NOT IN PREVIEW](command:vscode.open?["file:///c:/users"])
+
 ####[Open URL](command:vscode.open)
 ####[Open URL](command:vscode.open?{"uri":"file:///c:/users"})
 #####[Open URL](command:vscode.open?{"url":"file:///c:/users"})
 uri
 
 
-
-
-
-
-
 command:workbench.action.url.openUrl
-[fdss](command:workbench.action.url.openUrl)
+
+[DOES fdss](command:workbench.action.url.openUrl)
+
 [fdss](command:workbench.action.openDefaultKeybindingsFile)
-[fdss](command:cursorPageDownSelect)
+
+[DOES fdss](command:cursorPageDownSelect)
 
 #####[fdss](command://workbench.action.url.openUrl)
 
@@ -53,6 +80,9 @@ command:workbench.action.url.openUrl
     //{ "key": "y",           "command": "type", "args": { "text": "z" }, "when": "editorTextFocus" },
 ###[fdss](command:type?args=qytwrqyetqrq)
 <!--#[fdss](command:workbench.action.url.openUrl?args=qytwrqyetqrq) -->
+
+
+
 
 
 
@@ -84,6 +114,8 @@ command:workbench.action.url.openUrl
   "key": "",
   "command": "workbench.action.toggleKeybindingsLog"
 }
+
+
 
 
 

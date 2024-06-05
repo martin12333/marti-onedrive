@@ -23,6 +23,19 @@ mkdir TODO-TOMOVE-f8-dir
 
 
 
+
+
+nug
+wing
+where.exe   nuget
+where.exe   winget
+winget
+
+
+
+
+
+
 where.exe   dotnet
 where.exe   /?
 where.exe   bash
