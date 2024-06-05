@@ -11172,3 +11172,12 @@ git push
 where.exe   nuget
 where.exe   winget
 winget
+cd ..
+git clone https://github.com/inter1965/easy-extensibility
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
+cd
+cd .\OneDrive\
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
+git commit -v -a -m backup
+git push
+cmd /c mklink /j   C:\Users\marti\.vscode\extensions\inter1965--easy-extensibility   C:\Users\marti\easy-extensibility

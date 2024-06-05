@@ -17,7 +17,9 @@ C:\Users\marti\OneDrive\vscode-f8\command-colon--vscode-colon-url.f8.md
 [FAIL aaaaaaaa](command:workbench.action.openGlobalKeybindings)
 
 [aaaaaaaa](command:workbench.action.keybindingsReference)
+
 [aaaaaaaa](command:workbench.action.toggleKeybindingsLog)
+
 [aaaaaaaa](command:markdown.showPreview)
 [aaaaaaaa](command:markdown.showPreviewToSide)
 [aaaaaaaa](command:workbench.action.terminal.openNativeConsole)

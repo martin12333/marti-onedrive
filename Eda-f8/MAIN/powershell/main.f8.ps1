@@ -17,6 +17,37 @@ cd ~/OneDrive
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#
+
+[aaaaaaaa](command:workbench.action.keybindingsReference)
+
+2024-06-05 10:46:46.241 [info] [KeybindingService]: / Soft dispatching keyboard event
+2024-06-05 10:46:46.242 [info] [KeybindingService]: | Resolving ctrl+C
+2024-06-05 10:46:46.242 [info] [KeybindingService]: \ From 10 keybinding entries, matched chord, when: no when condition, source: user extension alhassy.easy-extensibility.
+2024-06-05 10:46:46.244 [info] [KeybindingService]: / Received  keydown event - modifiers: [ctrl], code: KeyC, keyCode: 67, key: c
+2024-06-05 10:46:46.244 [info] [KeybindingService]: | Converted keydown event - modifiers: [ctrl], code: KeyC, keyCode: 33 ('C')
+2024-06-05 10:46:46.245 [info] [KeybindingService]: | Resolving ctrl+C
+2024-06-05 10:46:46.245 [info] [KeybindingService]: \ From 10 keybinding entries, matched chord, when: no when condition, source: user extension alhassy.easy-extensibility.
+2024-06-05 10:46:46.246 [info] [KeybindingService]: + Entering chord mode...
+
+
+
 ## mkdir
 ls     '*todo*'
 mkdir TODO-TOMOVE-f8-dir
