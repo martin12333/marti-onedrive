@@ -65,7 +65,8 @@ copy
 git clone https://github.com/inter1965/easy-extensibility
 
 
-cmd /c mklink /j   C:\Users\marti\.vscode\extensions\inter1965--easy-extensibility-JUNCT    "C:\Users\marti\OneDrive\easy-extensibility--f8\inter1965--JUNCT-TARGET\easy-extensibility"
+-JUNCT    
+cmd /c mklink /j   C:\Users\marti\.vscode\extensions\inter1965--easy-extensibility    "C:\Users\marti\OneDrive\easy-extensibility--f8\inter1965--JUNCT-TARGET\easy-extensibility"
 
 ###C:\Users\marti\easy-extensibility
 
@@ -76,6 +77,21 @@ f1  deve reloa
 ^C
 ^ins
 
+extensions.json
+"C:\Users\marti\.vscode\extensions\extensions.json"
+{
+	"identifier": {
+		"id": "alhassy.easy-extensibility"
+	},
+	"version": "1.2.12",
+	"location": {
+		"$mid": 1,
+		"path": "/c:/Users/marti/.vscode/extensions/inter1965--easy-extensibility",
+		"scheme": "file"
+	},
+	"relativeLocation": "inter1965--easy-extensibility"
+}
+]
 
 
 
