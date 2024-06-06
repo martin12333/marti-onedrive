@@ -11195,3 +11195,7 @@ cmd /c mklink /j   C:\Users\marti\.vscode\extensions\inter1965--easy-extensibili
 dir   C:\Users\marti\.vscode\extensions\*easy*
 git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
 git commit -v -a -m backup
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
+git commit -v -a -m backup
+git push
+npm

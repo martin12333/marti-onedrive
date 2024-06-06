@@ -238,13 +238,35 @@ r/transhumanism r/singularity r/Futurology
 (just a comment ... human brain has ~~ 100e12 synapses, gpt-3 had 170e9 ~ ~ synapses ... I hope, in 10-20 years, we could meet first digital people here ...)
 
 
+# google: dnes napr. asi: python klub Praha
+
+on-line Programujeme v Minecraftu ... Dům dětí a mládeže Praha 6
+
+# hlásím se do junior.guru
+
+
+později pozvat do klubu i mého synovce
+
+je to něco, jako kdysi pro mne býval třeba Atari klub Praha ... škoda, že jsem si to tenkrát neužil víc
+
+Jsem zvědavý na ty večerní akce "online, na hodinku". //// Citáty účastníků vypadají nadějně, jsou zajímavé, např. "Ty diskuze jsou úžasné. Když to lidi zaplatí, tak je to úplně jiné."
+
+faq o Stripe
+
+na chvili vypnu edge clipbo manager_?
+
+https://account.microsoft.com/billing/payments/?refd=account.microsoft.com
+
+B.. MILAN
+
+https://juniorguru.memberful.com/account/card/edit
+
 
 
 
 # todo
 
 
-   getline(cin, text);
 
 
 

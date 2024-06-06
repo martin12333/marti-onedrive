@@ -5,8 +5,7 @@ exit
 wsl
 zsh
 
-# C:\Users\marti\OneDrive\f8-notebooks\writing22.f8.md
-
+# file:///C:\Users\marti\OneDrive\conn\mynotes.f8.md
 
 drafts to be posted later
 
