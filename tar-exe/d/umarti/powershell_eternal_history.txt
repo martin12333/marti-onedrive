@@ -11199,3 +11199,7 @@ git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
 git commit -v -a -m backup
 git push
 npm
+conda activate pip310ecco
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
+git commit -v -a -m backup
+git push
