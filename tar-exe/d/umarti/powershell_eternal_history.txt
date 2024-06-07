@@ -11241,3 +11241,32 @@ subst.exe /?
 dir \\Jirka\d..Eda\aaaatari
 dir \\wsl$\
 cmd /c dir \\wsl$\
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
+git commit -v -a -m backup
+echo $x
+$x=$z
+echo $x
+dir ../*$x*
+dir ../*/*$x*
+cd
+cd D:\umarti
+cd D:\umarti\OneDrive--robo
+dir ../*$x*
+dir ../*/*$x*
+explorer.exe D:\umarti\f8_text_file--clouddrive--monorepo
+$x="nonsh"
+dir ../*$x*
+cmd /c dir ..\*$x*     /b
+dir ../*/*$x*
+echo $x
+$x=$z
+echo $x
+dir ../*$x*
+dir ../*/*$x*
+dir ../*/*$x*  |  findstr.exe $x
+dir ../*/*/*$x*  |  findstr.exe $x
+bash
+$x="nonsh"
+dir ../*/*$x*  |  findstr.exe $x
+dir ../*/*/*$x*  |  findstr.exe $x
+bash

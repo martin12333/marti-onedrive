@@ -1,14 +1,18 @@
 
 exit
 
+cd
+
+cd D:\umarti\OneDrive--robo
+
 
 2467
 
-###$x=nonsha
-$y="nonsha"
+###$x=nonsh
+$x="nonsh"
 $z="a"
 
-$x=$y
+$x="nonsh"
 $x=$z
 echo $x
 
@@ -16,7 +20,25 @@ dir ../*$x*
 cmd /c dir ..\*$x*     /b
 ###cmd /c dir ..\*\*$x*     /b
 
-dir ../*/*$x*
+dir ../*/*$x*  |  findstr.exe $x
+dir ../*/*/*$x*  |  findstr.exe $x
+
+bash
+z="a"
+
+x="nonsh"
+x=$z
+echo $x
+
+ls ../*$x*
+
+echo  ../*/*$x*
+ls ../*/*$x*
+ |  findstr.exe $x
+ls ../*/*$x*  |  findstr.exe $x
+ls ../*/*/*$x*  |  findstr.exe $x
+
+exit
 
 dir \\len20\
 dir \\Jirka\3telesa
@@ -36,3 +58,6 @@ subst.exe /?
 
 cmd /c dir \\len20\
 cmd /c dir \\wsl$\
+
+
+explorer.exe D:\umarti\f8_text_file--clouddrive--monorepo
