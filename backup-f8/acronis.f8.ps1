@@ -1,11 +1,12 @@
-acronis.f8.ps1
+
+C:\Users\marti\OneDrive\backup-f8\acro2468--probl.f8.ps1
 
 
 dir acro-sett
 
 zapnu prot
 
-2. pujde mi backup ?
+2. pujde "mi" backup ?
 
-#. pujde dif f  backu mar?
+3. pujde diff  backu mar?
 

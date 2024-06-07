@@ -11305,3 +11305,5 @@ git ls-files  >git---ls-files-2467.txt
 git commit -v -a -m backup
 git push
 dir acro-sett
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
+git commit -v -a -m add
