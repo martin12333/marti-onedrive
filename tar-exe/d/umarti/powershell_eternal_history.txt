@@ -11203,3 +11203,41 @@ conda activate pip310ecco
 git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
 git commit -v -a -m backup
 git push
+git commit -v -a -m backup
+git push
+$x=nonsha
+$x="nonsha"
+$x="Eda"
+dir ../*$a*
+cmd /c dir ../*$a*     /b
+dir ../*$x*
+$z="Eda"
+$y="nonsha"
+$x=$y
+$x=$z
+echo $x
+$x=$y
+echo $x
+$x=$z
+echo $x
+dir ../*$x*
+$x=$y
+echo $x
+dir ../*$x*
+dir ../*/*$x*
+cmd /c dir ../*$x*     /b
+cmd /c dir ..\*$x*     /b
+cmd /c dir ..\*\*$x*     /b
+dir \\len20
+cmd /c dir \\len20
+dir \\len20\
+cmd /c dir \\len20\
+dir \\Jirka\3telesa
+dir \\Jirka\ADMIN$
+dir \\Jirka\C$
+dir \\Jirka\d..Eda
+subst.exe
+subst.exe /?
+dir \\Jirka\d..Eda\aaaatari
+dir \\wsl$\
+cmd /c dir \\wsl$\
