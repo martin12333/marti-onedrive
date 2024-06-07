@@ -1,14 +1,14 @@
 
 exit
 
-cd
-
 cd C:\Users\marti\OneDrive
-c:
-d:
-C:\Users\marti\OneDrive
+git commit -v -a -m backup
+ git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
 git commit
 
+#cmd z bash
+c:
+d:
 $env:path
 
 
