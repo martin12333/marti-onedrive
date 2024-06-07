@@ -1,10 +1,10 @@
 
 exit
 
+cd ~/OneDrive
 cd C:\Users\marti\OneDrive
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
 git commit -v -a -m backup
- git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
-git commit
 
 #cmd z bash
 c:
