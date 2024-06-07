@@ -3,7 +3,19 @@ exit
 
 cd
 
+cd C:\Users\marti\OneDrive
+c:
+d:
+C:\Users\marti\OneDrive
+git commit
+
+$env:path
+
+
 cd D:\umarti\OneDrive--robo
+dir D:\umarti\OneDrive--robo\nons*
+
+dir D:\umarti\OneDrive--robo\people-will-put-up-another-wind-chime-so-you-have-double-the-trouble\
 
 
 2467
@@ -23,7 +35,19 @@ cmd /c dir ..\*$x*     /b
 dir ../*/*$x*  |  findstr.exe $x
 dir ../*/*/*$x*  |  findstr.exe $x
 
+cmd /c dir  .git  /a
+dir  ../.git
+dir  ../../.git
+
+
+
 bash
+
+ls  -ld  .git
+ls  -ld  ../.git
+ls  -ld  ../../.git
+
+
 z="a"
 
 x="nonsh"

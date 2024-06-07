@@ -11270,3 +11270,21 @@ $x="nonsh"
 dir ../*/*$x*  |  findstr.exe $x
 dir ../*/*/*$x*  |  findstr.exe $x
 bash
+dir ..\on*
+dir D:\umarti\OneDrive--robo\people-will-put-up-another-wind-chime-so-you-have-double-the-trouble\
+dir D:\umarti\OneDrive--robo\nons*
+bash
+git commit -v -a -m backup
+dir  .git
+dir  ../.git
+dir  ../../.git
+bash
+dir  .git
+bash
+cd C:\Users\marti\OneDrive
+c:
+d:
+c:
+cd C:\Users\marti\OneDrive
+git commit
+$env:path
