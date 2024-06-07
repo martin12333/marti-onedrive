@@ -11288,3 +11288,4 @@ c:
 cd C:\Users\marti\OneDrive
 git commit
 $env:path
+git commit -v -a -m backup
