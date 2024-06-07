@@ -9,6 +9,11 @@ byl jsem jinde
 
 oprava
 
+
+git ls-files | findstr.exe -i mirmi
+git ls-files  >git---ls-files-2467.txt
+
+
 necham byt
 
 cd C:\Users\marti\OneDrive

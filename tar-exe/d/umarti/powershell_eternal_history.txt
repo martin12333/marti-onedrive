@@ -11291,3 +11291,13 @@ $env:path
 git commit -v -a -m backup
 git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
 git commit -v -a -m backup
+cd D:\umarti\OneDrive--robo
+cd C:\Users\marti\OneDrive
+cd ~/OneDrive
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
+cd ~/OneDrive
+git commit -v -a -m backup
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
+git commit -v -a -m backup
+git ls-files
+git ls-files | findstr.exe -i mirmi
