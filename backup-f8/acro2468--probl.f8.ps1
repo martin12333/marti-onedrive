@@ -32,9 +32,16 @@ trash recyc
 
 
 export settings
-acro-sett--acro2468-prb--after-del-setti-of-milan
+acro-sett--acro2468-prb--after-del-setti-of-milan.f8.zip.rename
 
-REDO BKUP OF MARTIN  after editing this file
 
 REDELeTE exceptions for allowing tc.exe,  dlljhost to modify tib*
 
+export settings
+C:\Users\marti\OneDrive\acro-sett\acro-sett--acro2468-prb--after-del-setti-of-milan.f8.zip.rename
+
+REDO BKUP OF MARTIN  after editing this file
+	
+
+look inside the 1.7g ... too late
+filelist?

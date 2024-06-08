@@ -11314,3 +11314,6 @@ git commit -v -a -m add
 git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
 git commit -v -a -m prb
 git push
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
+git commit -v -a -m prb
+git push
