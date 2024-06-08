@@ -16,6 +16,7 @@ exit
 	git show --name-only
 
 	cd ~/OneDrive
+	git commit -v -a -m prb
 	git commit -v -a -m backup
 	git push
 	git commit -v -a -m move
