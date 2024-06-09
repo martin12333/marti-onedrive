@@ -2,6 +2,9 @@
 // Milan: "...@" edited, repeatedly
 
 
+Note: If you use a work or school account to sign in to Microsoft 365, you're using Outlook on the web. If you're using an Outlook.com, Hotmail, Live, or MSN account, see Use inbox rules in Outlook.com.
+
+
 
 
 
@@ -32,7 +35,9 @@ The section labeled “Account alias” will have a link to click labeled “Add
 
 You have the option to create a new Outlook email address or add an existing email address as your Microsoft account alias. Whichever you choose will be your new primary email address.
 
+
 // zbytecna obava  JAK SE BUDU HLASIT PRIMARY
+
 
 https://account.live.com/AddAssocId
 
@@ -75,7 +80,7 @@ Martin Milan
 marti@gmail.com
 Signed in
 	
-outlook_4B122980@outlook.com
+outlook_4B122 @
 	
 Use another account
 Terms of usePrivacy & cookies...

@@ -11328,3 +11328,5 @@ dir C:/Users/milan_rxtipwr/OneDrive/tar-exe
 dir C:/Users/milan_rxtipwr/OneDrive/
 dir C:/Users/*/OneDrive/tar-exe
 dir C:/Users/marti/OneDrive/tar-exe
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
+git commit -v -a -m add
