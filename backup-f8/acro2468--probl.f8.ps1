@@ -47,6 +47,9 @@ look inside the 1.7g ... too late
 filelist?
 "C:\Users\marti\OneDrive\backup-f8\divnyMILAN-222-onedri-to-D_inc_b17_s2_v1.tib.txt"
 
+dir C:/Users/milan_rxtipwr/OneDrive/tar-exe
+dir C:/Users/milan_rxtipwr/OneDrive/
+dir C:/Users/marti/OneDrive/tar-exe
 
 "C:\Users\marti\OneDrive\backup-f8\acro2468--probl\2024-06-07_23h10_47.png"
 
@@ -63,4 +66,5 @@ strings from gui
 
 
 
+	REDELeTE exceptions for allowing tc.exe,  dlljhost to modify tib*
 
