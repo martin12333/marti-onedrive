@@ -10,13 +10,17 @@ echo '-------- section --------'
 
 
 
-
+https://keep.google.com/#NOTE/1lXoEIxE8WvRZLa57ajSK-h8gjH98PbgnB-EUVYHFb8msFNWNfAwsQRBc17QZEbE
 
 
 migrace!
 242.L
 
-su.mff.cuni.cz
+soubory
+sdileni souboru mezi uzivateli
+	su.mff.cuni.cz
+	dropbox
+	OneDrive
 
 google-forms
 

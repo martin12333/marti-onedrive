@@ -1,5 +1,7 @@
 
 // Milan: "...@" edited, repeatedly
+outlook.com
+martin.milan.82@zavinac.com
 
 
 Note: If you use a work or school account to sign in to Microsoft 365, you're using Outlook on the web. If you're using an Outlook.com, Hotmail, Live, or MSN account, see Use inbox rules in Outlook.com.
@@ -46,7 +48,7 @@ Your account can have multiple aliases, each of which lets you sign in to all th
 Create a new email address and add it as an alias
 
 
-martin.milan.82
+martin.milan.82 ZAVINAC o c 
 C:\Users\marti\OneDrive\mff.cuni.cz,outLOOK.live.com\martin.milan.82-ZAVINAC-Outl.f8.md
 .com
 nikoli .cz

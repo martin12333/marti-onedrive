@@ -32,8 +32,7 @@ prosím nebalit do *krabice* ... raději balit např. opět do tašky ... (nemá
 
 
 https://www.psas.cz/index.cfm/sluzby-firmam/odpady/svoz-bioodpadu/uzavreni-smlouvy-online/
-
-
+https://www.psas.cz/index.cfm/sluzby-firmam/odpady/svoz-bioodpadu/uzavreni-smlouvy-online/
 
 
 
@@ -90,10 +89,23 @@ done https://www.idnes.cz/ekonomika/test-a-spotrebitel/test-toaletnich-papiru-kt
 
 
 
+
 https://docs.google.com/spreadsheets/d/1qk_y0SToSfnF_5LjijxyYrjTxmQUMmYANT0oboZknkU/edit#gid=1726063795
 
 
 https://neklid.net/
+
+
+
+
+rickdate. site:ycombinator.com
+
+
+
+https://www.benu.cz/lekarna-benu-praha-2-jugoslavska
+
+
+
 
 
 
