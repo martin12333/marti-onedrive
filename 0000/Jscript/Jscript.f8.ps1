@@ -2,6 +2,12 @@
 exit
 
 
+
+WARNING:  VERY OLD
+/// (and also JScript ... a preinstalled JS interpreter in Windows, but very old ... has "WScript.StdIn.ReadLine"  )
+
+
+
 cscript.exe   .\0000\Jscript\jscript.js
 cscript.exe   .\0000\Jscript\jscript.js   //i
 cscript.exe /?

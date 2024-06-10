@@ -19,8 +19,27 @@ echo '-------- section --------'
 # I recommend to create a windows restore point before and after an installation
 
 
-wrong instuninst-runti-dotnet8
-todo
+///wrong inst uninst-runti-dotnet8
+
+ai
+what are recommended ways to install .net sdk version 8 ?
+
+Visual Studio (Recommended for Windows Users):
+ Visual Studio Installer
+  install .NET 8.0 through the “Individual Components” tab
+
+ai
+	why not install dotnet sdk using visual studio ?
+
+	i meant using "visual studio installer "
+
+	i meant: win + q , "visual studio installer ", there is "visual studio community ", i click on Modify, then i click on Individual components, then i search for .net sdk
+
+
+
+	dotnet --list-sdks
+	dotnet --list-runtimes
+
 
 sdk dotnet8
 

@@ -11334,3 +11334,8 @@ git push
 git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
 git commit -v -a -m add
 git push
+git commit -v -a -m add
+git push
+dotnet --list-sdks
+dotnet --list-runtimes
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
