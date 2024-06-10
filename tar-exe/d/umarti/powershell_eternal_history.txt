@@ -11339,3 +11339,9 @@ git push
 dotnet --list-sdks
 dotnet --list-runtimes
 git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
+git commit -v -a -m add
+dir 'C:\Program Files\dotnet'
+dir 'C:\Program Files\dotnet\shared'
+dir 'C:\Program Files\dotnet\shared\*'
+dir 'C:\Program Files\dotnet\shared\*\*'
+dotnet.exe   --info

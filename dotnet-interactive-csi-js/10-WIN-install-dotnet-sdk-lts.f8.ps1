@@ -39,7 +39,8 @@ ai
 
 	dotnet --list-sdks
 	dotnet --list-runtimes
-
+dir 'C:\Program Files\dotnet\shared\*\*'
+dotnet.exe   --info
 
 sdk dotnet8
 
