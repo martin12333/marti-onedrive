@@ -11345,3 +11345,27 @@ dir 'C:\Program Files\dotnet\shared'
 dir 'C:\Program Files\dotnet\shared\*'
 dir 'C:\Program Files\dotnet\shared\*\*'
 dotnet.exe   --info
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
+git commit -v -a -m backup
+git push
+dotnet-interactive.exe --help
+dotnet-interactive.exe  --version
+where.exe  dotnet-interactive
+dir ~/.dotnet
+dir ~/.dotne*
+dir ~/.dotnet
+dotnet-interactive.exe --help
+dotnet-interactive.exe   stdio   --verbose
+conda activate pip310ecco
+process.env.Path
+conda activate pip310ecco
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
+bash
+gitk.exe
+gitk.exe   --help
+git-gui.exe  --help
+gitk.exe  --help
+git-gui.exe   browser
+git-gui.exe
+bash
+git ls-files | findstr.exe -i ijava

@@ -1,7 +1,40 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"name":"csharp"}]}}
+
+#!pwsh
+
+cd ~/OneDrive
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
+git commit -v -a -m backup
+git push
+
 #!javascript
 
-code.
+//vscode.
+//code.
+cons
 
-#!javascript
+#!markdown
 
-wo
+[aaaaaaaa](command:workbench.action.toggleKeybindingsLog)
+[FAIL aaaaaaaa](command:workbench.action.openGlobalKeybindings)
+[aaaaaaaa](command:workbench.action.keybindingsReference)
+
+
+[aaaaaaaa](command:markdown.showPreview)
+[aaaaaaaa](command:markdown.showPreviewToSide)
+[aaaaaaaa](command:workbench.action.terminal.openNativeConsole)
+[aaaaaaaa](command:workbench.action.quickOpen)
+[aaaaaaaa](command:workbench.action.gotoLine)
+[aaaaaaaa](command:copyFilePath)
+[aaaaaaaa](command:emojisense.quickEmoji)
+[aaaaaaaa](command:PowerShell.ShowSessionConsole)
+
+#!pwsh
+
+get-ch
+
+#!pwsh
+
+'sffs'.Chars(2)

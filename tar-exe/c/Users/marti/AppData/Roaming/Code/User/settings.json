@@ -293,7 +293,6 @@
 		"pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
 		"gleam": "gleam run -m $fileNameWithoutExt"
 	},
-	"window.zoomLevel": 1,
 	"dotnet-interactive.kernelTransportArgs": [
 
 		"{dotnet_path}",
@@ -318,6 +317,7 @@
 	"polyglot-notebook.defaultNotebookExtension": ".dib",
 	"polyglot-notebook.defaultNotebookLanguage": "pwsh",
 	"easy-extensibility.dateCommand.windows": "cmd /c date /T",
+	"window.zoomLevel": 1,
 
 
 
