@@ -11369,3 +11369,6 @@ git-gui.exe   browser
 git-gui.exe
 bash
 git ls-files | findstr.exe -i ijava
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
+git commit -v -a -m backup
+git push
