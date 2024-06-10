@@ -58,7 +58,7 @@ gonna experiment
 
 
 
-about alma - pokus zda funguje rules v outlook . * . com
+about alma - 2.pokus zda funguje rules v outlook . * . com
 
 jen pokus, about alma - pokus zda funguje rules v outlook . * . com
 posilam To:"martin.milan.82@outlook.com" <martin.milan.82@outlook.com>, Jiří Bok <jiri.vlastimil.bok@gmail.com>, Jiří Bok <bok@karlov.mff.cuni.cz>
@@ -66,8 +66,36 @@ posilam To:"martin.milan.82@outlook.com" <martin.milan.82@outlook.com>, Jiří B
 1. zda bude v inbox2. zda se posle kopie mne
 
 
+1. pokus byl  z mb75
+ na mb75 se nevratilo nic ... hodiny
+na mn80 forward ok
+
+1.pokus ... rules nefunguji zatim ... nekolik hodin nic
+zkusim poslet z jine adresy
+pozdeji jeste z @ou
+
+2. pokus z mn80
+
+
+(2. pokus ok, 1. pokus asi selhal jen kvuli harpin-forwarding (routing) sender1=mb75 rule2-receiver=mb75 == sender1 )
+ted uz zbyva jen otazka, zda se nevymazal z Tveho inboxu, ale hadam, ze ne 
+
+
+3. pokus ohledne outlook rules
+
+(2. pokus ok, 1. pokus asi selhal jen kvuli harpin-forwarding (routing) sender1=mb75 rule2-receiver=mb75 == sender1 )
+ted uz zbyva jen otazka, zda se 2.pokus nevymazal z Tveho inboxu, ale hadam, ze ne
+
+https://gemini.google.com/app/c374d635cf422d0a
+
+https://en.wikipedia.org/wiki/Hairpin_turn
+
+
+
 https://outlook.live.com/mail/0/inbox/id/AQQkADAwATM3ZmYAZS0wM2M4LTI4ZTEtMDACLTAwCgAQAMugdqrY699AuuQi5Kc%2FnTU%3D
 
 https://keep.google.com/#NOTE/1L9oOkFMlillVxgbbBgXo4FmQn0oWzdjXFboiYFOo6zyib8w6-HKW8E_h7yy11Gw
+
+
 
 
