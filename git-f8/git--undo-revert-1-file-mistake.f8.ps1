@@ -1,6 +1,7 @@
 
 exit
 
+"C:\Users\marti\OneDrive\jupyter-notebooks\.ipynb_checkpoints\ijavascript-227-checkpoint.ipynb"
 
 
 acronis
@@ -20,6 +21,5 @@ git-gui.exe
 
 git ls-files | findstr.exe -i ijava
 
-"C:\Users\marti\OneDrive\jupyter-notebooks\.ipynb_checkpoints\ijavascript-227-checkpoint.ipynb"
 
 
