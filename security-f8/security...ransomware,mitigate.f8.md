@@ -5,23 +5,33 @@
 
 mail 
 
-mozna jsi mel pravdu
+ransomware ... mozna jsi mel pravdu o Remote desktop
 
 googlil jsem
 
 What Are the Most Common Attack Vectors for Ransomware?
 
-**UNSECURED REMOTE DESKTOP PROTOCOL CONNECTIONS**
+a. **unsecured remote desktop protocol connections**
+... ale porad mi to neni moc jasne ... zeby slabe nastaveni ?
 
-EMAIL PHISHING
+b. email phishing
 
-EXPLOITATION OF SOFTWARE VULNERABILITIES
+c. exploitation of software vulnerabilities
 
-co si mysli PSIK ?
+--------
+
+v teto situaci bych odpojil od siti minimalne ty 3 postizene pocitace + tu Almu
 
 ----
 
-mimocho
+byly postizeny nejake dalsi pocitace?
+
+co si mysli PSIK ?
+
+
+
+----
+
 
 
 
@@ -47,7 +57,11 @@ Report the Incident: Notify your organization’s IT/security team. They can gui
 
 
 
-So, experts are urging the victims to either hibernate their infected PCs or power them down as it helps save a copy of the memory where usually most of the ransomware strains store their encryption keys. Symantec Survey says that experts are recommending against PC reboots as it does worse than good.
+So, experts are urging the victims to either hibernate their infected PCs or power them down 
+
+
+ Symantec Survey says that experts are recommending against PC reboots as it does worse than good.
+
 
 
 
@@ -55,7 +69,11 @@ So, experts are urging the victims to either hibernate their infected PCs or pow
 
 ai
 
-Imagine a ransomware attack at a small university in the third world. Their IT staff won't help for hours. Would it be advisable to consider disconnecting from the network and hibernating *many* of the personal computers, not only those that already show a ransom message?
+Imagine a ransomware attack on a personal computer in an organization, where their IT staff won't help for hours. Would it be advisable to consider disconnecting from the network of *many* of the personal computers?
+
+ and hibernating 
+
+, not only those that already show a ransom message?
 edit
 
 
