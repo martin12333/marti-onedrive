@@ -25,6 +25,15 @@ f1 markdown  toc
 - [todo](#todo-1)
 
 
+
+# antifragile
+přeju ...
+a také možná antifragilitu (antifragile ... to je něco jako ~~filosofie, o které teď čtu)
+
+
+
+
+
 # barevne emoji 💚💙🧡🩵🩶🤍
 trick: emojis in browser bookmarks
 trick: emojis in chapter titles
