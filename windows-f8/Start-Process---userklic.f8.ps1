@@ -48,16 +48,51 @@ echo '-------- section --------'
 
 
 
-246  todo
+246
 -UseNewEnvironment
-Indicates that this cmdlet uses new environment variables specified for the process. By default, the started process runs with the environment variables inherited from the parent process.
-On Windows, when you use UseNewEnvironment, the new process starts only containing the default environment variables defined for the Machine scope.
-!!!!!!!!!!   This has the side effect that the $env:USERNAME is set to SYSTEM.
+####   This has the side effect that the $env:USERNAME is set to SYSTEM.
+noooo, false-alarm ,  experim
+USERNAME=userklic
+:love:
 
 
 
 
 
+
+
+
+
+
+Start-Process "conhost.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment  -LoadUserProfile
+
+
+
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Users\$username   -UseNewEnvironment   -ArgumentList "/C",set   -RedirectStandardOutput "c:\Users\public\$username.env.OVERWRITE.txt"
+
+
+file:///C:\Users\Public\userklic.env.OVERWRITE.txt
+mart 0
+
+
+APPDATA=C:\Users\userklic\AppData\Roaming
+
+HOMEDRIVE=C:
+HOMEPATH=\Users\userklic
+LOCALAPPDATA=C:\Users\userklic\AppData\Local
+NUMBER_OF_PROCESSORS=6
+OneDrive=C:\Users\userklic\OneDrive
+
+TEMP=C:\Users\userklic\AppData\Local\Temp
+TMP=C:\Users\userklic\AppData\Local\Temp
+USERDOMAIN=LEN20
+USERNAME=userklic
+USERPROFILE=C:\Users\userklic
+
+Path=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile64\;C:\Program Files (x86)\Common Files\Acronis\FileProtector\;C:\Program Files (x86)\Common Files\Acronis\FileProtector64\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files\dotnet\;C:\Program Files\PowerShell\7\;C:\Program Files\RedHat\Podman\;C:\Program Files\Tailscale\;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\userklic\AppData\Local\Microsoft\WindowsApps
+
+
+$PSVersionTable
 
 246 continue?
 https://www.diigo.com/user/martin12333?query=Start-Process+.exe+Credential+
@@ -293,3 +328,12 @@ Get-Alias  cat
 
 #Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment
 ###Start-Process node.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment -ArgumentList '-i'
+
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\Users   -UseNewEnvironment   -ArgumentList "/C",set   -RedirectStandardOutput "c:\Users\public\a"
+
+HOMEDRIVE=D:
+HOMEPATH=\Users
+
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",pause   #works
+
+https://www.itdroplets.com/run-a-command-as-a-different-user-in-powershell/

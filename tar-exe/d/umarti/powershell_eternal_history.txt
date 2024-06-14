@@ -11416,3 +11416,9 @@ Start-Process "notepad.exe" -Credential $credential   -WorkingDirectory D:\ -Use
 Start-Process powershell.exe -Credential $Credential  -ArgumentList "-Command","Write-host 'Hello Profile'"
 Start-Process powershell.exe -Credential $Credential  -ArgumentList "-Command","Write-host 'Hello Profile'"     -WorkingDirectory D:\
 Start-Process powershell.exe -Credential $Credential  -ArgumentList "-Command","Write-host 'Hello Profile' ;  sleep 10 "     -WorkingDirectory D:\
+$PSVersionTable
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\   -UseNewEnvironment   -ArgumentList "/C",set
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\   -UseNewEnvironment   -ArgumentList "/C",set   -RedirectStandardOutput "c:\Users\public\a"
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\Users   -UseNewEnvironment   -ArgumentList "/C",set   -RedirectStandardOutput "c:\Users\public\a"
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Users\$username   -UseNewEnvironment   -ArgumentList "/C",set   -RedirectStandardOutput "c:\Users\public\a"
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",pause   #works
