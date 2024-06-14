@@ -107,6 +107,21 @@ cmd /c dir /s
 cmd /c dir /s /a
 
 
+fail  0  semi   numdot
+fail ahk
+
+dir env/
+dir envenv/
+dir envenvenv/`
+echo `!@#$%^&*()
+echo '`!@#$%^&*()-=[{C:\pf\totalcmd\TOTALCMD64.EXE}]'
+echo '`!@#$%^&*()-=[{C:\pf\totalcmd\TOTALCMD64.E''""XE}]'
+echo '`!@#$%^&*()-=[{C:\pf\totalcmd\TOTALCMD64.E''""XE}]''""'
+echo '`!@#$%^&*()-=[{C:\pf\totalcmd\TOTALCM,.//D64.E''""XE}]''""'
+echo '`!@#$%^&*()-=[{C:\pf\totalcmd\TOTALCM,.//D64.E''""XE}]''"```"'
+exit
+
+
 
 
 
@@ -189,26 +204,10 @@ Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\ -Argumen
 -WorkingDirectory D:\umarti   -UseNewEnvironment
 
 
-#############################
+
 https://stackoverflow.com/questions/72842792/activate-local-user-just-after-creating-it-with-powershell
 
-
-Hello when I create a user in powershell with New-LocalUser, I was wondering if there was a way to "activate" that user without connecting to it.
-
-New-LocalUser -Name $UNameLocal -Description $UDescription -Password $Password -AccountNeverExpires -Confirm
-
-$Password = ConvertTo-SecureString -AsPlainText $pass -Force
-New-LocalUser $user -Password $Password -PasswordNeverExpires
-
-
-
-
-$username = 'NewUsername'
-$password = 'NewProfilePassword' | ConvertTo-SecureString -AsPlainText -Force
-
-$credential = [PSCredential]::New($username,$password)
-
-Start-Process powershell.exe -Credential $Credential  -ArgumentList "-Command","Write-host 'Hello Profile'"
+Start-Process powershell.exe -Credential $Credential  -ArgumentList "-Command","Write-host 'Hello Profile' ;  sleep 10 "     -WorkingDirectory D:\
 
 
 ########################

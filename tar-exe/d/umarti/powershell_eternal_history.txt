@@ -11410,3 +11410,6 @@ net user $username
 $username = 'techl'
 net user $username
 $username = 'userklic'
+Start-Process "conhost.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment  -LoadUserProfile
+Start-Process "cmd.exe" -Credential $credential  -WorkingDirectory C:\Users\userklic   -UseNewEnvironment -ArgumentList "/C",dir,/a,/s,'&',pause   #works
+Start-Process "notepad.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment   -LoadUserProfile

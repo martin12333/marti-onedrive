@@ -317,7 +317,7 @@
 	"polyglot-notebook.defaultNotebookExtension": ".dib",
 	"polyglot-notebook.defaultNotebookLanguage": "pwsh",
 	"easy-extensibility.dateCommand.windows": "cmd /c date /T",
-	"window.zoomLevel": 1,
+	"window.zoomLevel": 2,
 
 
 

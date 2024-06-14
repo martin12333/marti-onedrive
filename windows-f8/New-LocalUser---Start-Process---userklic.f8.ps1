@@ -324,3 +324,25 @@ $credential = [PSCredential]::New($username,$password)
 
 
 
+#############################
+https://stackoverflow.com/questions/72842792/activate-local-user-just-after-creating-it-with-powershell
+
+
+Hello when I create a user in powershell with New-LocalUser, I was wondering if there was a way to "activate" that user without connecting to it.
+
+New-LocalUser -Name $UNameLocal -Description $UDescription -Password $Password -AccountNeverExpires -Confirm
+
+$Password = ConvertTo-SecureString -AsPlainText $pass -Force
+New-LocalUser $user -Password $Password -PasswordNeverExpires
+
+
+
+
+$username = 'NewUsername'
+$password = 'NewProfilePassword' | ConvertTo-SecureString -AsPlainText -Force
+
+$credential = [PSCredential]::New($username,$password)
+
+
+
+
