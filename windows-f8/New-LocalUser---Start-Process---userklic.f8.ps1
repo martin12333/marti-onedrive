@@ -125,7 +125,7 @@ $username = 'techl'
 
 
 
-
+probably same as net user
 
 Get-LocalUser
 $x=Get-LocalUser -Name $username
@@ -150,7 +150,7 @@ code powershell-f8\admin-ise--adminsaves.f8.ps1
 
 
 BETTER COPY PASTE INTO admin ise / admin-ise--adminsaves.f8.ps1
-file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+####file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 
 powershell.exe
 $PSVersionTable
@@ -190,9 +190,6 @@ icacls.exe  C:\Users\userklic   /grant 'marti:(oi)(ci)(f)'
 
 icacls.exe  C:\Users\techl   /grant 'marti:(oi)(ci)(f)'
 
-
-
-
 "C:\Users\userklic.zip"
 
 
@@ -202,6 +199,18 @@ icacls.exe  C:\Users\techl   /grant 'marti:(oi)(ci)(f)'
 
 
 
+$username = 'marti'
+$username = 'Eda'
+$username = 'micha'
+$username = 'userklic'
+$username = 'techl'
+
+
+$username = 'userklic'
+
+
+
+$username
 net user /help
 net user
 net user $username
@@ -247,7 +256,10 @@ Logon hours allowed          All
 Local Group Memberships      *nonadmins1
 *Users
 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 papir a5 group deny udajne nefunguji
+
 
 Global Group memberships     *None
 
@@ -268,6 +280,8 @@ $x.
 
 Get-StorageDiagnosticInfo
 Get-PSHostProcessInfo
+
+
 
 
 
@@ -304,6 +318,11 @@ $Cred = New-Object System.Management.Automation.PSCredential ("$username", $Pass
 
 
 $credential = [PSCredential]::New($username,$password)
+
+
+
+
+
 
 
 

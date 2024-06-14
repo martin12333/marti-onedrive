@@ -11402,3 +11402,11 @@ net user $username
 Get-LocalUser
 $x=Get-LocalUser -Name $username
 $x | select *
+net user $username
+$username
+$username = 'marti'
+$username
+net user $username
+$username = 'techl'
+net user $username
+$username = 'userklic'
