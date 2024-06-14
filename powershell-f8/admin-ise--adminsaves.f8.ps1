@@ -25,14 +25,25 @@ todo vscode search
 admin
 *.f8.ps1
 
-#file:///c:\Users\marti\admin-ise--adminsaves.f8.ps1
+
+
+
+
+code powershell-f8\admin-ise--adminsaves.f8.ps1
+
+####NOT ONEDRIVE
+####file:///c:\Users\marti\admin-ise--adminsaves.f8.ps1
+
+
+
+
 
 
 admin PowerShell ISE
 is a better method, than win-x admin terminal:
 and safer (if paste-errors)
 
-	WIN-Q ise rclick[|||] admin open
+	WIN-Q    ise    keyboard right   or   rclick[|||] admin open
 	Files menu / "recent"
 	admin-ise--adminsaves.f8.ps1
 	COPY PASTE INTO admin-ise--adminsaves.f8.ps1
@@ -135,7 +146,10 @@ C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   C:\Users\Eda
 C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   C:\Users\milan_rxtipwr
 C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   C:\Users\userklic
 
+
+
 icacls.exe  C:\Users\userklic   /grant 'marti:(oi)(ci)(f)'
+icacls.exe  C:\Users\techl /grant 'marti:(oi)(ci)(f)'
 
 
 Add-LocalGroupMember -Group Users -Member $username

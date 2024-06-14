@@ -11398,3 +11398,7 @@ dir d:\umarti\dowNLOADS--SYMLINKED\808*.txt
 code powershell-f8\Start-Process.f8.ps1
 $username = 'userklic'
 $pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
+net user $username
+Get-LocalUser
+$x=Get-LocalUser -Name $username
+$x | select *

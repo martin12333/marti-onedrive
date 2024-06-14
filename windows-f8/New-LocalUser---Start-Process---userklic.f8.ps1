@@ -114,13 +114,18 @@ $password = ConvertTo-SecureString "LazyAdminPwd123!" -AsPlainText -Force  # Sup
 
 
 
+
+
 $username = 'marti'
+$username = 'Eda'
 $username = 'micha'
 $username = 'userklic'
+$username = 'techl'
 
-net user /help
-net user
-net user $username
+
+
+
+
 
 Get-LocalUser
 $x=Get-LocalUser -Name $username
@@ -130,9 +135,6 @@ $x | select *
 -WhatIf
 
 
-
-
-
 PrincipalSource        : MicrosoftAccount
 
 PrincipalSource        : Local
@@ -140,12 +142,21 @@ PrincipalSource        : Local
 
 
 
-#file:///c:\Users\marti\admin-ise--adminsaves.f8.ps1
+code powershell-f8\admin-ise--adminsaves.f8.ps1
+
+####NOT ONEDRIVE
+####file:///c:\Users\marti\admin-ise--adminsaves.f8.ps1
+
+
+
 BETTER COPY PASTE INTO admin ise / admin-ise--adminsaves.f8.ps1
 file:///c:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 
 powershell.exe
 $PSVersionTable
+
+
+
 
 $username = 'userklic'
 $pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
@@ -168,7 +179,20 @@ C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   C:\Users\milan
 C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   C:\Users\userklic
 
 
+
+
+
+
+
+
+
 icacls.exe  C:\Users\userklic   /grant 'marti:(oi)(ci)(f)'
+
+icacls.exe  C:\Users\techl   /grant 'marti:(oi)(ci)(f)'
+
+
+
+
 "C:\Users\userklic.zip"
 
 
@@ -178,6 +202,9 @@ icacls.exe  C:\Users\userklic   /grant 'marti:(oi)(ci)(f)'
 
 
 
+net user /help
+net user
+net user $username
 
 net user $username
 
@@ -187,10 +214,10 @@ Workstations allowed         All
 Logon script
 User profile
 Home directory
-Last logon                   Never
+###Last logon                   Never
 
 
-Local Group Memberships
+Local Group Memberships   *Users
 Global Group memberships     *None
 
 
