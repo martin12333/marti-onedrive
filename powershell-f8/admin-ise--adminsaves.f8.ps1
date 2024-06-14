@@ -119,6 +119,8 @@ Set-LocalUser -Name Eda -PasswordNeverExpires $true
 
 
 
+# safer ... better sth like  get-content   than   `cat`
+Get-Alias  cat
 
 $username = 'userklic'
 $pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"

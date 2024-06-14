@@ -15,6 +15,11 @@ wt.exe
 
 file:///D:\umarti\powershell_eternal_history.txt
 
+
+# safer ... better sth like  get-content   than   `cat`
+Get-Alias  cat
+
+
 $username = 'userklic'
 $pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
 $Password=ConvertTo-SecureString $pass -AsPlainText -Force -Verbose

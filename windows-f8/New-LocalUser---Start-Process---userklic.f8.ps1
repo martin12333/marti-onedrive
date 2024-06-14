@@ -6,6 +6,8 @@ exit
 
 (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
+
+## probably vsc find in files ... filenames seem case sensitive
 # *User*.ps1
 # vsc U not u ... not  *user*.ps1
 
@@ -18,6 +20,8 @@ wt.exe
 file:///D:\umarti\powershell_eternal_history.txt
 
 
+# safer ... better sth like  get-content   than   `cat`
+Get-Alias  cat
 
 #$username = 'micha'
 
@@ -25,6 +29,10 @@ $username = 'userklic'
 $pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
 $Password=ConvertTo-SecureString $pass -AsPlainText -Force -Verbose
 $credential = [PSCredential]::New($username,$password)
+
+
+# why comment-out
+# maybe i forgot, that in windows, to do ~~runas, i have to make a new window /// or perhaps  use the windows sudo, which is very new now
 
 #Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment
 ###Start-Process node.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment -ArgumentList '-i'
@@ -63,6 +71,10 @@ echo fdgf > "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
 
 file:///C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i
 #mc
+
+
+# safer ... better sth like  get-content   than   `cat`
+Get-Alias  cat
 
 echo $(cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i")
 
