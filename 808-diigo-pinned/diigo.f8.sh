@@ -37,8 +37,25 @@ $env:path
 
 f1 py sel interpr
 
+grep.*808
+*.sh
+
 dir d:\umarti\dowNLOADS--SYMLINKED\808*.xml
+
+
+dir d:\umarti\dowNLOADS--SYMLINKED\808*.txt
+
+
+cmd
+exit
+
+dir d:\umarti\dowNLOADS--SYMLINKED\808*.*
+
+
+
+
 dir d:\umarti\dowNLOADS--SYMLINKED\*\808*.xml
+dir d:\umarti\dowNLOADS--SYMLINKED\*\808*.txt
 
 
 matouci ... dlho nahrava ten 170MB ... 1 min
@@ -80,3 +97,23 @@ grep -REo '.{0,10}grep.{0,20}015.{0,10}'
 
 
 : 1624460564:0;tr '\n\r\t' '   '  <8089759_xml_*.xml    |sed  --regexp-extended   's/([[:cntrl:]])/_/g' >8089759_xml-bez-cntrl.xml
+
+
+
+
+
+
+: 1624459922:0;history;  cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep '.'  ; ls -lA /mnt/c/Users/marti/OneDrive/wsl-dotfiles
+: 1624460170:0;zsh
+: 1624460176:0;grep  --null-data   --count '.' *
+
+
+: 1624460222:0;grep  --null-data   --count '.' 8089759_xml_2021_06_23_4d232.xml
+
+
+: 1624460228:0;history;  cat ~/.zsh_history | tee /mnt/c/Users/marti/OneDrive/wsl-dotfiles/.zsh_history | grep '.'  ; ls -lA /mnt/c/Users/marti/OneDrive/wsl-dotfiles
+: 1624460467:0;cd /mnt/d/umarti/down21/808-diigo
+: 1624460470:0;ll
+: 1624460564:0;tr '\n\r\t' '   '  <8089759_xml_*.xml    |sed  --regexp-extended   's/([[:cntrl:]])/_/g' >8089759_xml-bez-cntrl.xml
+: 1624460578:0;ll
+: 1624460597:0;wc *

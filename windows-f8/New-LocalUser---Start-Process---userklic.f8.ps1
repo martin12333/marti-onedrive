@@ -1,5 +1,5 @@
-# f8_text_file
 
+# f8_text_file
 # (an f8_text_file is-not meant to be run as a whole)
 )
 exit
@@ -13,23 +13,20 @@ exit
 
 echo '-------- section --------'
 
-see also
-
+246 dont go to
+##see also
 f1 <
-userklic
+#userklic
+#start pr f8 ps1
+
+246 done
+code powershell-f8\Start-Process.f8.ps1
+
+
 
 echo '-------- section --------'
 
-
-wt.exe
-
-file:///D:\umarti\powershell_eternal_history.txt
-
-
-# safer ... better sth like  get-content   than   `cat`
-Get-Alias  cat
-
-#$username = 'micha'
+246  do this  F8
 
 $username = 'userklic'
 $pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
@@ -37,16 +34,41 @@ $Password=ConvertTo-SecureString $pass -AsPlainText -Force -Verbose
 $credential = [PSCredential]::New($username,$password)
 
 
-# why comment-out
-# maybe i forgot, that in windows, to do ~~runas, i have to make a new window /// or perhaps  use the windows sudo, which is very new now
 
-#Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment
-###Start-Process node.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment -ArgumentList '-i'
+todo?
+$username = 'techl'
+
+
+
 
 
 
 
 echo '-------- section --------'
+
+
+
+246  todo
+-UseNewEnvironment
+Indicates that this cmdlet uses new environment variables specified for the process. By default, the started process runs with the environment variables inherited from the parent process.
+On Windows, when you use UseNewEnvironment, the new process starts only containing the default environment variables defined for the Machine scope.
+!!!!!!!!!!   This has the side effect that the $env:USERNAME is set to SYSTEM.
+
+
+
+
+
+
+246 continue?
+https://www.diigo.com/user/martin12333?query=Start-Process+.exe+Credential+
+
+
+
+
+
+
+
+echo '-------- section --------'  ONCE,  DONE   
 
 
 WIN-Q ise admin open
@@ -413,6 +435,9 @@ Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\ -Argumen
 
 
 #############################
+https://stackoverflow.com/questions/72842792/activate-local-user-just-after-creating-it-with-powershell
+
+
 Hello when I create a user in powershell with New-LocalUser, I was wondering if there was a way to "activate" that user without connecting to it.
 
 New-LocalUser -Name $UNameLocal -Description $UDescription -Password $Password -AccountNeverExpires -Confirm
@@ -425,6 +450,11 @@ New-LocalUser $user -Password $Password -PasswordNeverExpires
 
 $username = 'NewUsername'
 $password = 'NewProfilePassword' | ConvertTo-SecureString -AsPlainText -Force
+
+$credential = [PSCredential]::New($username,$password)
+
+Start-Process powershell.exe -Credential $Credential  -ArgumentList "-Command","Write-host 'Hello Profile'"
+
 
 ########################
 
@@ -558,3 +588,26 @@ win-x admin
 
 
 
+C:\pf\totalcmd\TOTALCMD64.EXE D:\umarti
+
+
+wt.exe
+
+file:///D:\umarti\powershell_eternal_history.txt
+
+
+# safer ... better sth like  get-content   than   `cat`
+Get-Alias  cat
+
+#$username = 'micha'
+
+
+
+
+
+
+# why comment-out
+# maybe i forgot, that in windows, to do ~~runas, i have to make a new window /// or perhaps  use the windows sudo, but that is very new now
+
+#Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment
+###Start-Process node.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment -ArgumentList '-i'

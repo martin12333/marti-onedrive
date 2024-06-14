@@ -1,6 +1,4 @@
 
-
-
 # f8_text_file
 # (an f8_text_file is-not meant to be run as a whole)
 )
@@ -10,10 +8,10 @@ exit
 
 echo '-------- section --------'
 
-see also
 
-f1 <
-userklic
+246 probably go to:
+code windows-f8\New-LocalUser---Start-Process---userklic.f8.ps1
+
 
 echo '-------- section --------'
 
@@ -32,6 +30,9 @@ $pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
 $Password=ConvertTo-SecureString $pass -AsPlainText -Force -Verbose
 $credential = [PSCredential]::New($username,$password)
 
+
+# why comment-out
+# maybe i forgot, that in windows, to do ~~runas, i have to make a new window /// or perhaps  use the windows sudo, but that is very new now
 
 #Start-Process pwsh.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment
 ###Start-Process node.exe -Credential $Credential -WorkingDirectory d:\    -Verbose -UseNewEnvironment -ArgumentList '-i'

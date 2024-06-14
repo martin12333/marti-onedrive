@@ -11389,3 +11389,12 @@ Get-LocalUser
 git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
 git commit -v -a -m backup
 git push
+dir d:\umarti\dowNLOADS--SYMLINKED\808*.xml
+dir d:\umarti\dowNLOADS--SYMLINKED\*\808*.xml
+dir d:\umarti\dowNLOADS--SYMLINKED\808*.*
+cmd
+dir d:\umarti\dowNLOADS--SYMLINKED\*\808*.txt
+dir d:\umarti\dowNLOADS--SYMLINKED\808*.txt
+code powershell-f8\Start-Process.f8.ps1
+$username = 'userklic'
+$pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
