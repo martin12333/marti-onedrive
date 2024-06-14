@@ -11386,3 +11386,6 @@ whoami  /ALL
 Get-Alias cat
 Get-Alias  cat
 Get-LocalUser
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
+git commit -v -a -m backup
+git push

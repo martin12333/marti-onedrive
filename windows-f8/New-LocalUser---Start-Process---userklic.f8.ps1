@@ -13,6 +13,12 @@ exit
 
 echo '-------- section --------'
 
+see also
+
+f1 <
+userklic
+
+echo '-------- section --------'
 
 
 wt.exe
