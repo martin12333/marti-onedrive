@@ -207,6 +207,10 @@ Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\ -Argumen
 
 https://stackoverflow.com/questions/72842792/activate-local-user-just-after-creating-it-with-powershell
 
+
+
+
+
 Start-Process powershell.exe -Credential $Credential  -ArgumentList "-Command","Write-host 'Hello Profile' ;  sleep 10 "     -WorkingDirectory D:\
 
 
@@ -232,88 +236,8 @@ Start-Process powershell.exe -Credential $Credential  -ArgumentList "-Command","
 
 
 
-AAAAps-jilen\ConsoleHost_history.txt:
 
 
-net user
-net user /help
-net user
-net user Ljuba /add /active:yes
-net user Ljuba *
-net localgroup
-net localgroup users
-net localgroup users Ljuba
-net localgroup users Ljuba /delete
-net localgroup users
-net localgroup users Ljuba /add
-net localgroup users
-net localgroup users Ljuba /delete
-net localgroup guests Ljuba /add
-net localgroup guests
-
-
-
-
-net user Eda /add /active:yes
-e:
-net user Eda /add /active:yes
-net user Eda /add /active:yes
-net user Eda *
-net user Eda *
-net user Ljuba *
-net localgroup users Ljuba /add
-net localgroup guests Ljuba /delete
-net localgroup guests
-net localgroup users
-
-
-
-
-
-
-
-
-
-
-tar-exe\d\umarti\powershell_eternal_history.txt:
-
-
-net user pokus9 /add /active:yes
-echo anaconda
-net user pokus9 /add /active:yes
-net user pokus9 *
-net localgroup users
-
-
-
-
-
-
-
-
-
-BUG BUUUUUUUUUUUUUUUUG  DIIGO
-
-runas  /showtrustlevels
-The following trust levels are available on your system:
-0x20000 (Basic User)
-BUG BUUUUUUUUUUUUUUUUG  DIIGO
-
-
-
-/savecred         to use credentials previously saved by the user.
-
-
-/env              to use current environment instead of user's.'
-
-/noprofile        specifies that the user's profile should not be loaded.
-This causes the application to load more quickly, but
-can cause some applications to malfunction.
-
-/profile          specifies that the user's profile should be loaded.
-This is the default.
-
-HKCU?
 
 
 
@@ -338,6 +262,10 @@ win-x admin
 
 
 11/11/2022  18:45         2,395,536 procexp.exe
+
+
+
+
 
 
 
