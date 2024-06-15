@@ -4,6 +4,10 @@
 
 #!pwsh
 
+git push
+
+#!pwsh
+
 cd ~/OneDrive
 git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
 git commit -v -a -m backup

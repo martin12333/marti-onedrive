@@ -1,28 +1,33 @@
-﻿; my keyb layout ver 0.6
+﻿; my keyb layout ver 0.7
 
 ; ahk 1.1
 
 
 ; win + e / martin personal / documents ---> location ->
-; C:\Users\marti\OneDrive\Dokumenty234
-; this file is  at C:\Users\marti\OneDrive\Dokumenty234\AutoHotkey.ahk
+	; C:\Users\marti\OneDrive\Dokumenty234
+; this file:  THE  MAIN COPY is  at C:\Users\marti\OneDrive\Dokumenty234\AutoHotkey.ahk
+
+
+
+; AT THE END OF THIS FILE IS A MANUAL TEST
+;============================== DO TEST, BECAUSE IT IS AUTORUN  ==============================
 
 
 
 ; https://www.autohotkey.com/docs/v1/Hotkeys.htm
-;https://github.com/martin12333/PUBLIC-group-of-gists/blob/main/www.autohotkey.com/docs/v1/Hotkeys.htm.md
+	;https://github.com/martin12333/PUBLIC-group-of-gists/blob/main/www.autohotkey.com/docs/v1/Hotkeys.htm.md
 ;  $   This is usually only necessary if the script uses the Send command to send the keys that comprise the hotkey itself, which might otherwise cause it to trigger itself. The $ prefix forces the keyboard hook to be used to implement this hotkey, which as a side-effect prevents the Send command from triggering it. The $ prefix is equivalent to having specified [#UseHook](lib/_UseHook.htm) somewhere above the definition of this hotkey.
 
 
 
 
 ; https://www.autohotkey.com/docs/v1/lib/SendMode.htm
-; EDIT: NOT NOW
-; I am using SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+	; EDIT: NOT NOW
+	; I am using SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 ; EDIT: NOT NOW
 
 ; https://www.autohotkey.com/docs/v1/lib/Send.htm
-; https://github.com/martin12333/PUBLIC-group-of-gists/blob/main/www.autohotkey.com/docs/v1/lib/Send.htm.md
+	; https://github.com/martin12333/PUBLIC-group-of-gists/blob/main/www.autohotkey.com/docs/v1/lib/Send.htm.md
 
 ; As with other commands, the comma in front of the first parameter is optional.
 
@@ -33,16 +38,15 @@
 
 #NoEnv
 
- ; Recommended for performance and compatibility with future AutoHotkey releases.
+ 	; Recommended for performance and compatibility with future AutoHotkey releases.
 ; Avoids checking empty variables to see if they are environment variables.
 
 #Warn
-
- ; Enable warnings to assist with detecting common errors.
+; Enable warnings to assist with detecting common errors.
 
 
 ;EDIT SendMode changed to default BECAUSE OF https://www.autohotkey.com/board/topic/55491-windows-key-still-pressed-after-script-execution/
-;;SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+;;;;SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; Makes a script unconditionally use its own folder as its working directory.
@@ -50,12 +54,13 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; see also ;Blank Template written by GroggyOtter
 
-; sets title matching to search for "containing" instead of "exact"
-;SetTitleMatchMode, 2
+
+;;; sets title matching to search for "containing" instead of "exact"
+;;SetTitleMatchMode, 2
 
 
 
-; //// my, unnecessary: mk restore point ... could just rename  C:\Users\marti\OneDrive\Dokumenty234\AutoHotkey.ahk
+; //// my, unnecessary: mk win restore point ... could just rename  C:\Users\marti\OneDrive\Dokumenty234\AutoHotkey.ahk
 
 
 
@@ -97,6 +102,7 @@ $0::Send {_}
 ; edge f12 ()()()()()___(())(())()()()()()
 
 
+
 ; http://xahlee.info/kbd/best_way_to_insert_brackets.html
 ; insert paren, move cursor in between
 ; F8::Send (){Left} ; insert paren
@@ -114,12 +120,13 @@ $[::Send []{Left}      ;;; insert square brackets
 ; edge f12 ok
 
 
+
 $NumpadDot::Send {;}
 $;::Send {:}
 
 
 
-;2023-08 =~= 238
+;2023-08 =~~= 238
 
 ;  TODO CHANGE THESE TO CUT COPY PASTE ^x  ^c  ^v
 
@@ -130,6 +137,7 @@ $NumpadSub::Send {~}
 ;test <>~  /*-  -->  --->  >==>  >>= ==> +++~~+++
 
 
+
 ;6F  135	 	d	8.31	NumpadDiv
 ;6F  135	 	u	0.19	NumpadDiv
 ;6A  037	 	d	0.92	NumpadMult
@@ -137,8 +145,10 @@ $NumpadSub::Send {~}
 ;6D  04A	 	d	0.92	NumpadSub
 ;6D  04A	 	u	0.14	NumpadSub
 
+
 ;f12  ok
 ; win terminal ok
+
 
 ;; powertoys 2021-08 cannot  ()
 
@@ -148,15 +158,17 @@ $NumpadSub::Send {~}
 
 
 ;  I HAVE AN EURO KEYBOARD
+
 ;DC  02B	 	u	0.13	\         backslash
 ;not E2  056	 	u	0.16	\   backslash
 ;test ......;.;.;:::;;""""\\""\\""\\;;;  """"""""
 
-; sx hilite is of *.ini  not *.ahk   in vsc
+
 $SC02B::Send {"}
 ; "
-; this "" is for :  the  sx hilite  of *.ini   in vsc
-;
+; this "" in the comment is for :  the  sx hilite  of *.ini   in vsc
+; my VSC: sx hilite is of *.ini ...  not  of *.ahk
+
 
 
 
@@ -166,7 +178,8 @@ $SC02B::Send {"}
 ;============================== chrome ==============================
 
 ; 2023-10-22 =~= 23a.m
-; experiments unrelated to layout
+; experiments unrelated to layout ...
+; ... paragraphs, and diigo
 
 ;~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~
 
@@ -246,11 +259,9 @@ $Insert::
 
 
 
-;============================== OLD  ==============================
 
-; sx hilite is of *.ini
+; OLD
 ;	git add -vv  --dry-run  'Dokumenty234/Au*.ahk'
-; then git commit
 
 
 

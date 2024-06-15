@@ -71,6 +71,9 @@ Start-Process "conhost.exe" -Credential $credential   -WorkingDirectory D:\ -Use
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Users\$username   -UseNewEnvironment   -ArgumentList "/C",set   -RedirectStandardOutput "c:\Users\public\$username.env.OVERWRITE.txt"
 
 
+
+
+
 file:///C:\Users\Public\userklic.env.OVERWRITE.txt
 mart 0
 
@@ -92,9 +95,12 @@ USERPROFILE=C:\Users\userklic
 Path=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile64\;C:\Program Files (x86)\Common Files\Acronis\FileProtector\;C:\Program Files (x86)\Common Files\Acronis\FileProtector64\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files\dotnet\;C:\Program Files\PowerShell\7\;C:\Program Files\RedHat\Podman\;C:\Program Files\Tailscale\;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\userklic\AppData\Local\Microsoft\WindowsApps
 
 
+
+
+
 $PSVersionTable
 
-246 continue?
+246 continue??
 https://www.diigo.com/user/martin12333?query=Start-Process+.exe+Credential+
 
 
@@ -109,6 +115,7 @@ https://www.diigo.com/user/martin12333?query=Start-Process+.exe+Credential+
 #******************
 
 Start-Process "conhost.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment  -LoadUserProfile
+Start-Process "conhost.exe" -Credential $credential   -WorkingDirectory C:\Users\$username   -UseNewEnvironment  -LoadUserProfile
 
 #**************
 file:///c:\Users\userklic\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
@@ -199,7 +206,7 @@ Total Files Listed:
 ###Start-Process "notepad.exe" -Credential $credential   -WorkingDirectory D:\
 
 
-Start-Process "notepad.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment   -LoadUserProfile
+Start-Process "notepad.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment   -LoadUserProfile      # works
 
 #Start-Process "wt.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment  -LoadUserProfile
 

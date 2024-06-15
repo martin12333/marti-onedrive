@@ -11422,3 +11422,6 @@ Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\   -UseNe
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory D:\Users   -UseNewEnvironment   -ArgumentList "/C",set   -RedirectStandardOutput "c:\Users\public\a"
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Users\$username   -UseNewEnvironment   -ArgumentList "/C",set   -RedirectStandardOutput "c:\Users\public\a"
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNewEnvironment -ArgumentList "/C",pause   #works
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Users\$username   -UseNewEnvironment   -ArgumentList "/C",set   -RedirectStandardOutput "c:\Users\public\$username.env.OVERWRITE.txt"
+Start-Process "notepad.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment   -LoadUserProfile
+Start-Process "conhost.exe" -Credential $credential   -WorkingDirectory C:\Users\$username   -UseNewEnvironment  -LoadUserProfile
