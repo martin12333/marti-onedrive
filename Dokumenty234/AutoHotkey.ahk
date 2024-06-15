@@ -11,6 +11,7 @@
 
 ; AT THE END OF THIS FILE IS A MANUAL TEST
 ;============================== DO TEST, BECAUSE IT IS AUTORUN  ==============================
+;test :   win+q AutoHotkey run the app ... it asks to reload this ahk file
 
 
 
@@ -125,17 +126,20 @@ $NumpadDot::Send {;}
 $;::Send {:}
 
 
+;2024-06 =~~= 246    CUT COPY PASTE ^x  ^c  ^v
 
-;2023-08 =~~= 238
+$NumpadDiv::Send ^x
+$NumpadMult::Send ^c
+$NumpadSub::Send ^v
 
-;  TODO CHANGE THESE TO CUT COPY PASTE ^x  ^c  ^v
 
-$NumpadDiv::Send {<}
-$NumpadMult::Send {>}
-$NumpadSub::Send {~}
+;;;old 2023-08 =~~= 238   ARROWS
+
+;$NumpadDiv::Send {<}
+;$NumpadMult::Send {>}
+;$NumpadSub::Send {~}
 
 ;test <>~  /*-  -->  --->  >==>  >>= ==> +++~~+++
-
 
 
 ;6F  135	 	d	8.31	NumpadDiv
@@ -147,7 +151,7 @@ $NumpadSub::Send {~}
 
 
 ;f12  ok
-; win terminal ok
+; win+x win terminal ok
 
 
 ;; powertoys 2021-08 cannot  ()
@@ -270,7 +274,8 @@ $Insert::
 ; *********************************************
 ;============================== DO TEST, BECAUSE IT IS AUTORUN  ==============================
 
-;test :   win+q AutoHotkey run the app ... it asks to reload this ahk file; and then try the last command \ """"""  #p  ""
+;test :   win+q AutoHotkey run the app ... it asks to reload this ahk file
+; and then try in the browser the last command \ """"""  #p  ""
 
 ; ^`    f1 togg terminal
 ; git commit

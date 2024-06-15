@@ -13,6 +13,10 @@ git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
 git commit -v -a -m backup
 git push
 
+#!pwsh
+
+git ls-files  |   findstr.exe -i autohot
+
 #!javascript
 
 //return vscode
