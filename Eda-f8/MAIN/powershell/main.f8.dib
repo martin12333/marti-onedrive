@@ -11,8 +11,8 @@ git push
 cd ~/OneDrive
 git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
 git commit -v -a -m backup
-	git show --name-only
 git push
+	git show --name-only
 
 #!pwsh
 

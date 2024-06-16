@@ -246,8 +246,41 @@ chtěl bych se zeptat, zda už jde
 
 
 
-🚧2461
 
+
+246g
+
+
+screenshot
+ctrl v
+
+
+
+je něco nového?   soubory?   nebo čteš nějaké url? screenshot?
+
+díval jsem se na
+Tvuj onedrive
+
+ale tam jsou modified 21 days ago, to už jsem asi všechno četl
+
+
+já jsem připravil pár nových věcí, ale nejdřív se musím zeptat ... zkoušel jsi někdy v browseru
+file-URL ...
+např.
+file:///c:/Users
+
+
+
+
+
+
+
+pak se muzes zkusit na svem pocitaci proklikat az do file:///C:/Users/Eduar/OneDrive/programming%20stuff/EdL-pstuff-MMilan/
+snad jsem tu path napsal spravne  (... zkusil jsem to na svem pocitaci nasimulovat pomoci mklink ... takze tento screenshot je opravdu z meho pocitace, kupodivu, )
+
+ jinak na mem pocitaci to je totez, jako  file:///C:/Users/marti/onedrive/EdL-pstuff-MMilan/ )
+
+🚧
 
 
 
