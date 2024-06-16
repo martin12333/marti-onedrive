@@ -26,34 +26,44 @@ google-forms
 
 
 
+246c ransomware
+245 mail Hruska
+
+
 
 
 code backup-f8
 
 
 
-C:\Users\milan_rxtipwr\OneDrive\alma-222-mi75
-D:\Users\milanlocal\alma-222-mb75-dee
+
+
+dir C:\Users\milan_rxtipwr\OneDrive\alma-222-mi75
+dir D:\Users\milanlocal\alma-222-mb75-dee
 
 C:\Users\marti\OneDrive\alma-222\alma.f8.sh
-C:\Users\marti\OneDrive\alma-222\nef8.sh
-C:\Users\marti\OneDrive\alma-222\create_backup.sh
+
+code alma-233c\nef8.sh
+
+
+code alma-233c\create_backup.sh
+
 
 
 
 
 echo '-------- section --------'
 
-code alma-233c\.bash_history
 cmd /c dir alma*
 
 cat ~/bcloudREADONLY/alma.txt
 echo   $(cat ~/bcloudREADONLY/alma.txt)
 
 where.exe ssh
-$Env:Path   -split ';'
-C:\Windows\System32\OpenSSH\ssh.exe   $(cat ~/bcloudREADONLY/alma.txt)
+#$Env:Path   -split ';'
 
+
+C:\Windows\System32\OpenSSH\ssh.exe   $(cat ~/bcloudREADONLY/alma.txt)
 
 a7 papirek *A*lma
 
@@ -61,6 +71,9 @@ yes
 to connect wout adding
 
 
+vmstat 1
+who
+w --help
 
 history
 cp -iv .bash_history OLD/23history23a3
@@ -76,6 +89,9 @@ cp -iv .bash_history OLD/23history23a3
 
 cat /etc/passwd |grep mm
 cat /etc/group |grep mm
+
+
+echo '-------- section --------'
 
 
 neni nic takoveho na alme
@@ -124,12 +140,25 @@ cat /proc/cpuinfo
 
 
 
+
+echo '-------- section --------'
+
 mc --version
 
 #winscp
-# not mc f5 in vscode
-mc
+
+# win+x terminal
+pwsh
+
+# not mc f5 in vscode !!!
+
+mc -b
 sudo -i mc
+
+
+echo '-------- section --------'
+
+
 sudo -i
 zsh
 ufw status
@@ -179,6 +208,7 @@ unit: sectors
 
 
 
+echo '-------- section --------'
 
 du -m /etc
 du -m /var/log
@@ -188,14 +218,33 @@ cat .mysql_history|tee 2229.mysql
 
 netstat --listen >netstat--listen
 
+
+
+
+echo '-------- section --------'
+
+ls -latr
+ls -latr OLD
+
 tar cvf ~/etc.tar etc/
 
 #tar cvf ~/var-log.tar /var/log/
+tar cvf   OLD/neroot-246g--var-log.tar     /var/log/
 tar cvf   OLD/neroot-233c--var-log.tar     /var/log/
+sudo tar cvf   OLD/246g--var-log.tar     /var/log/
 sudo tar cvf   OLD/233c--var-log.tar     /var/log/
 
-sudo chmod o-r var-log.tar
-sudo chown --verbose root:adm var-log.tar
+
+sudo chmod o+r  --verbose  OLD/*var-log.tar
+
+asi mel udelat az potom, co bych ty sory downloadioval
+
+sudo chmod o-r  --verbose  OLD/*var-log.tar
+sudo chown --verbose root:adm OLD/*var-log.tar
+
+
+
+
 
 dmesg >dmesg
 dmesg |grep -i sda
@@ -264,5 +313,6 @@ echo '-------- section --------'
 
 echo '-------- section --------'
 
+code alma-233c\.bash_history
 
 echo '-------- section --------'

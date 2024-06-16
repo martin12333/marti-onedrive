@@ -11425,3 +11425,18 @@ Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory d:\   -UseNe
 Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Users\$username   -UseNewEnvironment   -ArgumentList "/C",set   -RedirectStandardOutput "c:\Users\public\$username.env.OVERWRITE.txt"
 Start-Process "notepad.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment   -LoadUserProfile
 Start-Process "conhost.exe" -Credential $credential   -WorkingDirectory C:\Users\$username   -UseNewEnvironment  -LoadUserProfile
+code C:\Users\marti\OneDrive\alma-222\nef8.sh
+code alma-233c\create_backup.sh
+code alma-233c\.bash_history
+cmd /c dir alma*
+cat ~/bcloudREADONLY/alma.txt
+where.exe ssh
+C:\Windows\System32\OpenSSH\ssh.exe   $(cat ~/bcloudREADONLY/alma.txt)
+conda activate pip310ecco
+dir C:\Users\milan_rxtipwr\OneDrive\alma-222-mi75
+dir D:\Users\milanlocal\alma-222-mb75-dee
+C:\Windows\System32\OpenSSH\ssh.exe   --help   $(cat ~/bcloudREADONLY/alma.txt)
+ping alma.karlov.mff.cuni.cz
+ping biophysics.mff.cuni.cz
+icacls.exe
+icacls.exe .
