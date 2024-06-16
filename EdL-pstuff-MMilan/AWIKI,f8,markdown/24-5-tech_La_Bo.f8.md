@@ -4,13 +4,17 @@
 
 
 f1 markdown  toc
+
+- [jejda 🤭😲, asi jsem neměl psát do google-chatu v čase přibl. 5-8 ráno](#jejda--asi-jsem-neměl-psát-do-google-chatu-v-čase-přibl-5-8-ráno)
+- [já se polepším](#já-se-polepším)
 - [barevne emoji 💚💙🧡🩵🩶🤍](#barevne-emoji-)
+- [antifragile  💚](#antifragile--)
 - [vscode markdown](#vscode-markdown)
 - [Codedamn playgrounds: press ctrl+s to enable playground autosave?](#codedamn-playgrounds-press-ctrls-to-enable-playground-autosave)
 - [jsem rád  💛⬆️, že se shodneme na několika dalších věcech](#jsem-rád--️-že-se-shodneme-na-několika-dalších-věcech)
 - [https://old.reddit.com/subreddits/create](#httpsoldredditcomsubredditscreate)
 - [todo](#todo)
-- [vím, že bych neměl dělat poplachy příliš brzo, a příliš často](#vím-že-bych-neměl-dělat-poplachy-příliš-brzo-a-příliš-často)
+- [vím, že bych neměl dělat poplachy příliš brzo, a příliš často    🦉   🧙‍♂️](#vím-že-bych-neměl-dělat-poplachy-příliš-brzo-a-příliš-často-------️)
 - [ochrana  souborů (files) je tak trochu moje polo-profese (pro mne důležitější, než programování)](#ochrana--souborů-files-je-tak-trochu-moje-polo-profese-pro-mne-důležitější-než-programování)
 - [problem-2024-05-21: beginners delete ... files, by misusing Git, especially in VSCode](#problem-2024-05-21-beginners-delete--files-by-misusing-git-especially-in-vscode)
 	- [několik možných zmírňování toho problému](#několik-možných-zmírňování-toho-problému)
@@ -22,14 +26,39 @@ f1 markdown  toc
 - [codereview245o.f8.md](#codereview245of8md)
 - [You could talk about the history of Unix and how it influenced both macOS and Linux.](#you-could-talk-about-the-history-of-unix-and-how-it-influenced-both-macos-and-linux)
 - [reddit 245B](#reddit-245b)
+- [google: dnes napr. asi: python klub Praha](#google-dnes-napr-asi-python-klub-praha)
+- [hlásím se do junior.guru](#hlásím-se-do-juniorguru)
 - [todo](#todo-1)
+
+
+
+# jejda😲, asi jsem neměl psát do google-chatu v čase přibl. 5-8 ráno
+... mohlo to někoho rušit mimo nastavený Režim Nerušit v Androidu ...
+
+# já se polepším
+
+Ahoj Vašku, až Tě budou *rušit* oznámení o zprávách z té naší skupinky **tech--Laifrovi,Bokovi**, můžeš si klidně, na PC,  v  nastavení té skupinky, pro **Oznámení**, přepnout: z volby
+1. of 3 ... **Všechno**
+na volbu
+2. of 3 ... (jen) **Sledované** ... zavináčové **@zmínky**
+...
+mohu poslat screenshoty;
+asi to stačí nastavit na PC, a  pak to asi platí i pro mobil
+
+
 
 
 # barevne emoji 💚💙🧡🩵🩶🤍
 trick: emojis in browser bookmarks
 trick: emojis in chapter titles
 klavesa WIN+.
+⛔🛑❌⭕🚫🔇
+🍸
 
+
+# antifragile  💚
+přeju ...
+a také možná antifragilitu (antifragile ... to je něco jako ~~filosofie, o které teď čtu)
 
 
 
@@ -238,13 +267,35 @@ r/transhumanism r/singularity r/Futurology
 (just a comment ... human brain has ~~ 100e12 synapses, gpt-3 had 170e9 ~ ~ synapses ... I hope, in 10-20 years, we could meet first digital people here ...)
 
 
+# google: dnes napr. asi: python klub Praha
+
+on-line Programujeme v Minecraftu ... Dům dětí a mládeže Praha 6
+
+# hlásím se do junior.guru
+
+
+později pozvat do klubu i mého synovce
+
+je to něco, jako kdysi pro mne býval třeba Atari klub Praha ... škoda, že jsem si to tenkrát neužil víc
+
+Jsem zvědavý na ty večerní akce "online, na hodinku". //// Citáty účastníků vypadají nadějně, jsou zajímavé, např. "Ty diskuze jsou úžasné. Když to lidi zaplatí, tak je to úplně jiné."
+
+faq o Stripe
+
+na chvili vypnu edge clipbo manager_?
+
+https://account.microsoft.com/billing/payments/?refd=account.microsoft.com
+
+B.. MILAN
+
+https://juniorguru.memberful.com/account/card/edit
+
 
 
 
 # todo
 
 
-   getline(cin, text);
 
 
 

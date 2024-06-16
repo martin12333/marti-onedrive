@@ -3,6 +3,7 @@
 
 f1 markdown  toc
 
+- [barevne emoji 💚💙🧡🩵🩶🤍](#barevne-emoji-)
 - [jsem rád  💛⬆️, že se shodneme na několika dalších věcech](#jsem-rád--️-že-se-shodneme-na-několika-dalších-věcech)
 - [vscode markdown](#vscode-markdown)
 - [markdown pozn.: vlnky \~\~~  v  markdownu neco znamena ...  na zac radky? ~~~ nebo je to skrtnuti  ~~aaaaaa~~](#markdown-pozn-vlnky---v--markdownu-neco-znamena---na-zac-radky--nebo-je-to-skrtnuti--aaaaaa)
@@ -13,7 +14,6 @@ f1 markdown  toc
 - [(btw, codedamn playgrounds and labs have a download button ... maybe some of your programs have survived there? e.g.  https://codedamn.com/learn/cpp-language/c-syntax-and-structure/understanding-logical-operators-in-c.cB7CMvBB7ZebGozIMvLbG   )](#btw-codedamn-playgrounds-and-labs-have-a-download-button--maybe-some-of-your-programs-have-survived-there-eg--httpscodedamncomlearncpp-languagec-syntax-and-structureunderstanding-logical-operators-in-ccb7cmvbb7zebgozimvlbg---)
 - [todo VisualStudio (VStudio)](#todo-visualstudio-vstudio)
 - [Můžeš hlasovat pomocí emoji. Můžeš zvolit víc než jednu možnost. 🔕❓🔇](#můžeš-hlasovat-pomocí-emoji-můžeš-zvolit-víc-než-jednu-možnost-)
-- [barevne emoji](#barevne-emoji)
 - [(zkousim ruzne metody predavani a sdileni souboru == files)](#zkousim-ruzne-metody-predavani-a-sdileni-souboru--files)
 	- [sel all vvvvv](#sel-all-vvvvv)
 - [codedamn-lab](#codedamn-lab)
@@ -45,6 +45,46 @@ f1 markdown  toc
 - [js ... or wasm? or streamed??](#js--or-wasm-or-streamed)
 - [footer](#footer)
 	- [jde mi o to ... najít společná témata](#jde-mi-o-to--najít-společná-témata-1)
+
+
+
+# barevne emoji 💚💙🧡🩵🩶🤍
+
+trick: emojis in browser bookmarks
+trick: emojis in chapter titles
+
+klavesa WIN+.
+
+‼️⁉️❗❗
+❗‼️
+💚💙🧡🩵🩶🤍
+💟💟
+💢💥💤💦💫🕳️🛐♾️
+⚛️✴️💮🪷
+⛔🛑❌⭕🚫🔇
+🔅🔆⚠️🔰❇️✳️❎✅💠🌐
+🆗🆒🆕
+⏹️⏺️
+◀️🔼⬆️⤴️ℹ️🔣🔃
+☑️✔️🔘
+🔴🟠🟡🟢⚪
+🟥🟧🟨🟩⬜
+◼️◻️◾◽▪️▫️🔶🔸🔷🔹🔺🔻
+🔲🔳
+💭🗯️💬🗨️👁️‍🗨️
+
+WIN+.❗❗(★‿★)
+(●◡●)
+ƪ ( ˘⌣˘ ) ʃ
+(❁◡❁)
+
+@@@###$$$!!!%%%^^^&&&***[][][]{}{}{}
+::: >>> <<<>>> ???
+QQQ WWW
+EEE TTT UUU OOO AAA DDD GGG HHH
+ZZZ XXX VVV 
+
+
 
 
 
@@ -173,46 +213,6 @@ emojis with the meaning: "I am busy" ....
 //👨‍💻
 //🏃
 🔕
-
-
-# barevne emoji 💚💙🧡🩵🩶🤍
-
-trick: emojis in browser bookmarks
-trick: emojis in chapter titles
-
-klavesa WIN+.
-
-‼️⁉️❗❗
-❗‼️
-💚💙🧡🩵🩶🤍
-💟💟
-💢💥💤💦💫🕳️🛐♾️
-⚛️✴️💮🪷
-⛔🛑❌⭕🚫🔇
-🔅🔆⚠️🔰❇️✳️❎✅💠🌐
-🆗🆒🆕
-⏹️⏺️
-◀️🔼⬆️⤴️ℹ️🔣🔃
-☑️✔️🔘
-🔴🟠🟡🟢⚪
-🟥🟧🟨🟩⬜
-◼️◻️◾◽▪️▫️🔶🔸🔷🔹🔺🔻
-🔲🔳
-💭🗯️💬🗨️👁️‍🗨️
-
-WIN+.❗❗(★‿★)
-(●◡●)
-ƪ ( ˘⌣˘ ) ʃ
-(❁◡❁)
-
-@@@###$$$!!!%%%^^^&&&***[][][]{}{}{}
-::: >>> <<<>>> ???
-QQQ WWW
-EEE TTT UUU OOO AAA DDD GGG HHH
-ZZZ XXX VVV 
-
-
-
 
 
 # (zkousim ruzne metody predavani a sdileni souboru == files)
