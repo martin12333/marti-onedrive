@@ -11444,3 +11444,13 @@ ping fu.mff.cuni.cz
 ping biophysics.mff.cuni.cz
 rem wsl --shutdown
 wsl --list --all --verbose
+$username = 'userklic'
+$pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Users\$username   -UseNewEnvironment   -LoadUserProfile   -ArgumentList "/C",set   -RedirectStandardOutput "c:\Users\public\$username.env.OVERWRITE.txt"
+where.exe  dotnet  node
+where.exe  dotnet  node  npm
+dir C:\Users\marti\AppData\Roaming\npm
+where.exe  dotnet  node  npm  code
+Start-Process "code" -Credential $credential   -WorkingDirectory  C:\Users\$username  -UseNewEnvironment  -LoadUserProfile
+mkdir userklic
+code userklic\userklic-edits.f8.ps1

@@ -46,36 +46,36 @@ echo '-------- section --------'
 
 echo '-------- section --------'
 
-
-
+MARKDOWN
 246
--UseNewEnvironment
+# -UseNewEnvironment
 ####   This has the side effect that the $env:USERNAME is set to SYSTEM.
 noooo, false-alarm ,  experim
 USERNAME=userklic
 :love:
 
 
-
-
-
-
-
+echo '-------- section --------'
 
 
 
 Start-Process "conhost.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment  -LoadUserProfile
 
-
-
-Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Users\$username   -UseNewEnvironment   -ArgumentList "/C",set   -RedirectStandardOutput "c:\Users\public\$username.env.OVERWRITE.txt"
-
-
-
+echo '-------- section --------'
 
 
 file:///C:\Users\Public\userklic.env.OVERWRITE.txt
 mart 0
+saveas noload
+saveas load
+
+
+Start-Process "cmd.exe" -Credential $credential   -WorkingDirectory C:\Users\$username   -UseNewEnvironment   -LoadUserProfile   -ArgumentList "/C",set   -RedirectStandardOutput "c:\Users\public\$username.env.OVERWRITE.txt"
+
+
+
+
+
 
 
 APPDATA=C:\Users\userklic\AppData\Roaming
@@ -96,20 +96,65 @@ Path=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32
 
 
 
+where.exe  dotnet  node  npm  code
+
+dir C:\Users\marti\AppData\Roaming\npm
 
 
 $PSVersionTable
+
+echo '-------- section --------'
+
+
+
+Start-Process "code" -Credential $credential   -WorkingDirectory  C:\Users\$username  -UseNewEnvironment  -LoadUserProfile
+
+C:\Users\userklic\userklic-edits.f8.ps1
+code userklic\userklic-edits.f8.ps1
+
+mkdir userklic
+
+
+
+$env:Path -split ';'
+
+C:\Users\userklic\AppData\Local\Microsoft\WindowsApps
+
+
+
+whoami.exe
+whoami.exe /all
+
+
+
+ahk works !!!
+ahk works in internal terminal !!!
+
+# `!@#$%^&*(__-=[{:""}])
+''''''""
+''''''""
+''''''""
+++78;;;"''""",./;
+5455454
+5455454
+
+
+
+
+echo '-------- section --------'
 
 246 continue??
 https://www.diigo.com/user/martin12333?query=Start-Process+.exe+Credential+
 
 
+echo '-------- section --------'
 
 
 
 
 
 
+echo '-------- section --------'
 
 
 #******************

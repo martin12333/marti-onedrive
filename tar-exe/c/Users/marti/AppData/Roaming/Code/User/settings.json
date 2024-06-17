@@ -206,8 +206,7 @@
 
 
 
-    "editor.fontFamily": "'segoe ui',CcfSymbolFont_ASEMTOG_F700,calibri,'Lucida sans','Lucida sans unicode',Arial,'microsoft sans serif',Consolas, 'Courier New', monospace",
-    "diffEditor.ignoreTrimWhitespace": false,
+	"editor.fontFamily": "'segoe ui',CcfSymbolFont_ASEMTOG_F700,calibri,'Lucida sans','Lucida sans unicode',Arial,'microsoft sans serif',Consolas, 'Courier New', monospace",
 
     //"terminal.integrated.automationProfile.osx": {    },
 
@@ -318,6 +317,7 @@
 	"polyglot-notebook.defaultNotebookLanguage": "pwsh",
 	"easy-extensibility.dateCommand.windows": "cmd /c date /T",
 	"window.zoomLevel": 2,
+	"diffEditor.ignoreTrimWhitespace": false,
 
 
 
