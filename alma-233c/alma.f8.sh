@@ -15,6 +15,7 @@ https://keep.google.com/#NOTE/1lXoEIxE8WvRZLa57ajSK-h8gjH98PbgnB-EUVYHFb8msFNWNf
 
 migrace!
 242.L
+duvod: kazdych 5s pokus o prunik pres ssh, kazde 2s pres httpd
 
 soubory
 sdileni souboru mezi uzivateli
@@ -303,6 +304,15 @@ su.mff.cuni.cz
 google-forms
 
 echo '-------- section --------'
+
+/var/log/apache2/*.log
+
+jsem pojal male podezreni, ktere zda se ping potvrzuje:
+# na alme asi jsou weby pro nekolik ruznych slovnich adres
+napr.
+ping biophysics.mff.cuni.cz
+...
+...
 
 
 echo '-------- section --------'

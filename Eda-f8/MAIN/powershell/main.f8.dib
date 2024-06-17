@@ -18,6 +18,11 @@ git push
 
 git ls-files  |   findstr.exe -i autohot
 
+#!pwsh
+
+wsl --list --all --verbose
+wsl --shutdown
+
 #!javascript
 
 //return vscode

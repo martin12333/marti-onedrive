@@ -11440,3 +11440,7 @@ ping alma.karlov.mff.cuni.cz
 ping biophysics.mff.cuni.cz
 icacls.exe
 icacls.exe .
+ping fu.mff.cuni.cz
+ping biophysics.mff.cuni.cz
+rem wsl --shutdown
+wsl --list --all --verbose
