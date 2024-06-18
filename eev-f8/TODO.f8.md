@@ -22,17 +22,7 @@ https://www.diigo.com/user/martin12333?query=%23iforgot_that_it_exists
 prosím nebalit do *krabice* ... raději balit např. opět do tašky ... (nemáme auto) ... děkuji Vám
 
 
-# (R)  marketplace
-	palette
-
-
 # (R)  mk f8  MK F8
-
-
-
-
-https://www.psas.cz/index.cfm/sluzby-firmam/odpady/svoz-bioodpadu/uzavreni-smlouvy-online/
-https://www.psas.cz/index.cfm/sluzby-firmam/odpady/svoz-bioodpadu/uzavreni-smlouvy-online/
 
 
 
@@ -63,6 +53,17 @@ cd ~/OneDrive
 uz zalozim ctrl-t
 
 
+
+
+
+
+
+https://www.psas.cz/index.cfm/sluzby-firmam/odpady/svoz-bioodpadu/uzavreni-smlouvy-online/
+https://www.psas.cz/index.cfm/sluzby-firmam/odpady/svoz-bioodpadu/uzavreni-smlouvy-online/
+
+
+
+
 exists?no
 ## https://dontkillmyapp.com/samsung#android-pie-and-10
 https://play.google.com/store/apps/details?id=com.urbandroid.dontkillmyapp
@@ -73,6 +74,10 @@ installed, runned
 google search: česká spořitelna - George, jak investovat do akcií "Microsoftu" 
 
 
+
+
+# (R)  marketplace
+	palette
 
 
 

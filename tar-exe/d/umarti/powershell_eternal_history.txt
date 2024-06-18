@@ -11454,3 +11454,7 @@ where.exe  dotnet  node  npm  code
 Start-Process "code" -Credential $credential   -WorkingDirectory  C:\Users\$username  -UseNewEnvironment  -LoadUserProfile
 mkdir userklic
 code userklic\userklic-edits.f8.ps1
+$env:Path -split ';'
+whoami.exe
+whoami.exe /all
+git ls-files | findstr -i tree

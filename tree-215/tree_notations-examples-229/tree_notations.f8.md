@@ -8,6 +8,23 @@ git ls-files | findstr -i tree
 
 
 
+(c-expression 
+  (int main ((int argc) ((array (pointer char)) argv)
+    (block
+      (printf "%d arguments\n" argc)
+      (if (argc >= 1)
+        (printf "The first arg is %s\n" (ref argv 1)))
+      (return 0)))))
+
+
+
+(header stdio)
+(main
+  (@printf (str "Hello, world!"))
+  (return 0))
+
+  
+
 https://jtree.treenotation.org/sandbox/
 
 Sa
