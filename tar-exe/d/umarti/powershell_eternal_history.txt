@@ -11459,3 +11459,8 @@ whoami.exe
 whoami.exe /all
 git ls-files | findstr -i tree
 dir Env:
+git ls-files | findstr -i startup
+git ls-files | findstr -i mystartup
+git ls-files | findstr -i startup
+git ls-files | findstr -i mystartup
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
