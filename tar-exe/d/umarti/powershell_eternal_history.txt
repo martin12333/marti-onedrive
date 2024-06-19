@@ -11458,3 +11458,4 @@ $env:Path -split ';'
 whoami.exe
 whoami.exe /all
 git ls-files | findstr -i tree
+dir Env:

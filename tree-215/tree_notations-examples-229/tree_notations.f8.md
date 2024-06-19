@@ -24,6 +24,14 @@ git ls-files | findstr -i tree
   (return 0))
 
   
+  ; The "=" macro compiles to a variable declaration.
+(var x (+ 1 (* 2 3)))
+
+; Calling the result of a property access expression
+((. console log) "hi")
+
+
+
 
 https://jtree.treenotation.org/sandbox/
 

@@ -3625,3 +3625,4 @@ ls ..
 ($env:Path  -split ';')
 cmd
 pwsh
+dir ..

@@ -321,7 +321,7 @@ dotnet  fsi
 
 
 
-				
+
 07/22/2022  16:33    <DIR>          ms-dotnettools.csharp-1.25.0-win32-x64
 07/16/2022  15:13    <DIR>          ms-dotnettools.dotnet-interactive-vscode-1.0.3362040
 
@@ -386,35 +386,45 @@ dotnet.exe
 
 
 code C:\Users\eduar\OneDrive\
-code 'C:\Users\eduar\OneDrive\programming stuff'
+
+* code 'C:\Users\eduar\OneDrive\programming stuff'
 
 ##dir $Env:
+dir Env:
 
 Cmd /c set
 
 mingw
 
 C:\Program Files\Common Files\Oracle\Java\javapath
+
 C:\Windows\system32
 C:\Windows
 C:\Windows\System32\Wbem
 C:\Windows\System32\WindowsPowerShell\v1.0\
 C:\Windows\System32\OpenSSH\
+
 C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
 C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR
 C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\
-C:\Program Files\dotnet\
+
+* C:\Program Files\dotnet\
+
 C:\MinGW\bin
 
 
 C:\Eduard laifr\programming stuff\Programming apps\Git\cmd
-C:\Program Files\nodejs\
+
+* C:\Program Files\nodejs\
 
 C:\Users\eduar\AppData\Local\Microsoft\WindowsApps
-C:\Users\eduar\.dotnet\tools
+
+***   C:\Users\eduar\.dotnet\tools
+
 C:\Users\eduar\AppData\Local\Programs\Microsoft VS Code\bin
 
 C:\Users\eduar\AppData\Local\GitHubDesktop\bin
+
 C:\Users\eduar\AppData\Roaming\npm
 
 
@@ -437,7 +447,9 @@ C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\
 C:\Program Files\dotnet\
 C:\MinGW\bin
 C:\Users\eduar\AppData\Local\Microsoft\WindowsApps
+
 dir C:\Users\eduar\.dotnet\tools\
+
 C:\Users\eduar\AppData\Local\Programs\Microsoft VS Code\bin
 java
 

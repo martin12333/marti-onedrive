@@ -280,11 +280,31 @@ snad jsem tu path napsal spravne  (... zkusil jsem to na svem pocitaci nasimulov
 
  jinak na mem pocitaci to je totez, jako  file:///C:/Users/marti/onedrive/EdL-pstuff-MMilan/ )
 
+
+
+
+
+
+246j
+
+"C:\Users\marti\OneDrive\Eda-f8\kopie--programming stuff\other\Lucy_Charlotte_Jessica_partial_evaluation.cpp"
+
+"C:\Users\marti\OneDrive\Eda-f8\kopie--programming stuff\other\lambda_example.cpp"
+
+"C:\Users\marti\OneDrive\Eda-f8\kopie--programming stuff\other\static_cast-int-_example.cpp"
+
+"C:\Users\marti\OneDrive\Eda-f8\kopie--programming stuff\other\partial_evaluation_example.cpp"
+"C:\Users\marti\OneDrive\Eda-f8\kopie--programming stuff\other\friend_class_example.cpp"
+
+"C:\Users\marti\OneDrive\Eda-f8\kopie--programming stuff\other\functor_example.cpp"
+"C:\Users\marti\OneDrive\Eda-f8\kopie--programming stuff\other\script.js"
+"C:\Users\marti\OneDrive\Eda-f8\kopie--programming stuff\other\copy_assingment_default_constructor_example.cpp"
+
+"C:\Users\marti\OneDrive\Eda-f8\kopie--programming stuff\other\substring_search_example.cpp"
+"C:\Users\marti\OneDrive\Eda-f8\kopie--programming stuff\other\back_inserter_example.cpp"
+
+
+
+
+
 🚧
-
-
-
-
-
-
-

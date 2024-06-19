@@ -14,10 +14,23 @@ podman machine start
 /c/Users/marti/OneDrive/git-bash-dotfiles/mymyrsync.sh
 #pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
 
+
+echo '-------- section --------' 246j
+
+
+git ls-files | findstr -i startup
+
+git ls-files | findstr -i mystartup
+
+
+backup-f8/experim--mystartup,mymy,cp,cpio,tar.f8.sh
+git-bash-dotfiles/mystartup.sh
+ps-mylen-mar/mystartup--mymy.f8.sh.f8.ps1
+ps-mylen-mar/mystartup.ps1
+roam-ms-wi-sta-p-startup/mystartup.ps1  PowerShell7.lnk
+roam-ms-wi-sta-p-startup/mystartup.sh.lnk
+
 echo '-------- section --------'
-
-
-
 
 
 ## mymy*.* should be named  my-pseudo-*.*
@@ -41,3 +54,38 @@ ls "C:\Users\marti\OneDrive\*robocopy*"
 du -- *robocopy*
 du -- ../*robocopy*
 
+
+
+
+
+echo '-------- section --------'
+C:\Users\marti\OneDrive\ps-mylen-mar\startup.dir.lnk.txt
+
+
+
+%windir%\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy ByPass -NoExit -Command "& 'D:\conda\shell\condabin\conda-hook.ps1' ; conda activate 'D:\conda' "
+
+
+%HOMEPATH%
+
+
+
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File     C:\Users\marti\OneDrive\ps-mylen-mar\mystartup.ps1
+
+%HOMEDRIVE%%HOMEPATH%
+
+
+
+C:\PF\PowerShell\7\pwsh.exe -ExecutionPolicy ByPass  -NoExit -File     C:\Users\marti\OneDrive\ps-mylen-mar\myconda-code.ps1
+
+C:\Users\marti\OneDrive\javascript-js-224
+
+
+
+
+"C:\Program Files\PowerShell\7\pwsh.exe" -WorkingDirectory ~
+
+
+
+
+C:\PF\PowerShell\7\pwsh.exe -ExecutionPolicy RemoteSigned
