@@ -4,6 +4,8 @@
 
 #!markdown
 
+PO "STOP CELL EXEC" POMOHLO F1 DEVEL RELOAD	
+
 git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
 fatal: Unable to create 'D:/GIT-bk04/marti-onedrive.git/index.lock': File exists.
 
