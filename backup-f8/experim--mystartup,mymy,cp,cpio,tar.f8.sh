@@ -59,6 +59,7 @@ du -- ../*robocopy*
 
 
 echo '-------- section --------'
+was
 C:\Users\marti\OneDrive\ps-mylen-mar\startup.dir.lnk.txt
 
 

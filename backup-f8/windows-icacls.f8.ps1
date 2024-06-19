@@ -9,6 +9,13 @@ exit
 
 echo '-------- section --------'
 
+
+lepsi metoda
+code powershell-f8\admin-ise--adminsaves.f8.ps1
+win+q ise admin
+
+OLD
+
 where.exe powershell.exe
 powershell.exe
 

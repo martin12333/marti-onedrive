@@ -9,9 +9,29 @@ exit
 echo '-------- section --------'
 
 
+^i
+
+echo '-------- section --------'
 
 
-#pozor rozleze verze toto a c:marti
+win+q ise admin
+	file
+		~~recent
+		C:\Users\marti\admin-ise--adminsaves.f8.ps1
+
+#pozor rozleze verze
+C:\Users\marti\admin-ise--adminsaves.f8.ps1
+jiny dir C:\Users\marti\OneDrive\powershell-f8\admin-ise--adminsaves.f8.ps1
+
+
+echo '-------- section --------'
+
+mkdir d:\2222
+
+
+
+echo '-------- section --------'
+
 
 echo fsdf >a.txt
 xcopy   a.txt c:\tmp
@@ -148,8 +168,10 @@ C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   C:\Users\userk
 
 
 
-icacls.exe  C:\Users\userklic   /grant 'marti:(oi)(ci)(f)'
+icacls.exe  C:\Users\userklic  /grant 'marti:(oi)(ci)(f)'
 icacls.exe  C:\Users\techl /grant 'marti:(oi)(ci)(f)'
+icacls.exe   d:\2222   /grant 'marti:(oi)(ci)(f)'
+
 
 
 Add-LocalGroupMember -Group Users -Member $username

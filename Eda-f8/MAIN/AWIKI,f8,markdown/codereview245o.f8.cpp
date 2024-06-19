@@ -287,6 +287,8 @@ snad jsem tu path napsal spravne  (... zkusil jsem to na svem pocitaci nasimulov
 
 246j
 
+EDIT: RADEJI ZALOZIM GIT REPO
+
 "C:\Users\marti\OneDrive\Eda-f8\kopie--programming stuff\other\Lucy_Charlotte_Jessica_partial_evaluation.cpp"
 
 "C:\Users\marti\OneDrive\Eda-f8\kopie--programming stuff\other\lambda_example.cpp"
@@ -303,7 +305,9 @@ snad jsem tu path napsal spravne  (... zkusil jsem to na svem pocitaci nasimulov
 "C:\Users\marti\OneDrive\Eda-f8\kopie--programming stuff\other\substring_search_example.cpp"
 "C:\Users\marti\OneDrive\Eda-f8\kopie--programming stuff\other\back_inserter_example.cpp"
 
+......
 
+EDIT: RADEJI ZALOZIM GIT REPO
 
 
 
