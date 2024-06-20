@@ -11466,3 +11466,8 @@ git ls-files | findstr -i mystartup
 git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
 code powershell-f8\admin-ise--adminsaves.f8.ps1
 mkdir d:\2222
+code browserEEV\dist\script.js
+code browserEEV\dist\index.html
+git add  "browserEEV\dist\index.html"
+git add -v "browserEEV\dist\script.js"
+git add -v "browserEEV\dist\index.html"

@@ -90,6 +90,23 @@ git add -v "browserEEV\dist\script.js"
 code browserEEV\dist\index.html
 git add -v "browserEEV\dist\index.html"
 
+/////////////////
+undefined
+pen.js:23 Window {window: Window, self: Window, document: document, name: 'CodePen', location: Location, …}
+pen.js:29   CodeMirror.version
+*  pen.js:34 5.62.0
+////////////////////////
+
+pen.js:29   CodeMirror.version
+*  pen.js:34 5.62.0
+
+thats the version that i imported
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/codemirror.min.js'></script>
+
+EDIT:
+the version of codemirror(?) of codepen itself could be quite different
+
 
 
 CodeMirror
