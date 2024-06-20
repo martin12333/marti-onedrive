@@ -14,18 +14,23 @@ early drafts
 
 
 
+
 javascript function(s) and hotkey(s),
+
+	EDIT: and autohotkey macro hotkeys,
+
 to send ...
 a line of text (or, perhaps, a block of text),
-from an  editor widget in  a web page/app,
+from an  editor widget in  a web page/app/Devtools,
 to the eval() of the browser javascript,
+
 (or maybe to an embedded wasm Lua, wasm Python, jslinux terminal in a web page?)
 
 
 
 edit 245n ... F8  or M-e  or both  ?
 
-edit 245n ... what about AHK hotkey(s)
+edit 246k ... what about AHK hotkey(s)
 
 
 # https://codepen.io/martin_m_n_novy/pen/eYxdMYj
@@ -34,8 +39,9 @@ edit 245n ... what about AHK hotkey(s)
 
 	// EDIT 0.0.3: docs: Closest known tools
 
+	// a simple web page with a Codemirror editor, and javascript code to `eval()` the selected text, when the user presses the F8 key
 
-
+	// see below in this file browserEEV
 
 
 
@@ -61,6 +67,7 @@ more distantly related
 
 * userscripts (greasemonkey, tampermonkey)
 
+* EDIT	https://github.com/alhassy/easy-extensibility
 
 
 
