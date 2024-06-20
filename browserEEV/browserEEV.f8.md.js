@@ -82,6 +82,16 @@ more distantly related
 
 https://codepen.io/martin_m_n_novy/pen/eYxdMYj
 
+
+code browserEEV\dist\script.js
+git add -v "browserEEV\dist\script.js"
+
+
+code browserEEV\dist\index.html
+git add -v "browserEEV\dist\index.html"
+
+
+
 CodeMirror
 Monaco-editor
 CodeMirror 6 seems too new for gpt
