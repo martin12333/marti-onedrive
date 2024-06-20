@@ -1,5 +1,7 @@
 // this file is https://github.com/martin12333/marti-onedrive/blob/main2/browserEEV/browserEEV.f8.md.js
 
+const { debug } = require("console")
+
 
 # browserEEV ideas
 
@@ -389,3 +391,35 @@ javascript:try{alert(eval(unescape('%s')))}catch(er){alert(er)}
 site:anggtwu.net/ "bookmarklets"
 
 https://www.squarefree.com/bookmarklets/
+
+
+
+
+
+246k
+
+vscode
+f1
+debug open link
+file:///C:\Users\marti\OneDrive\browserEEV\dist\index.html
+
+debug open browser Devtools
+
+debug console
+
+evaluate in debug console
+
+
+CodeMirror.commands
+
+5688*654
+5688*6541
+5688*65444
+5688*6544444
+
+
+
+
+
+
+

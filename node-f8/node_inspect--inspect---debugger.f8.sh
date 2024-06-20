@@ -35,7 +35,7 @@ y
 
 .exit
 node --inspect=0.0.0.0:9229
-
+# 9229  not 9222
 
 
 

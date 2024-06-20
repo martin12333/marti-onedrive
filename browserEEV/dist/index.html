@@ -2,54 +2,44 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - browserEEV editor eval selected text </title>
+  <title>CodePen - browserEEV editor eval selected text  (non-forked)</title>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/codemirror.min.css'>
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-ver 0.0.1, the F8 key calls eval() for the selected text, more info <a href=https://github.com/martin12333/marti-onedrive/blob/main2/browserEEV/browserEEV.f8.md.js>https://github.com/martin12333/marti-onedrive/blob/main2/browserEEV/browserEEV.f8.md.js</a>
+ver 0.0.3, (the F12 key opens devtools, please keep the devtools open,) the F8 key calls eval() for the selected text; more info 0.0.3 <a href=https://github.com/martin12333/marti-onedrive/blob/main2/browserEEV/browserEEV.f8.md.js>https://github.com/martin12333/.../browserEEV.f8.md.js</a>
 <textarea id="editor">
-
-
-
-
-
-	54*46
-	10 ** 50
-	10n ** 50n
-	a.b.c.d
-
-	CodeMirror.version
-
-	var searchEngine = "https://www.google.com/"
-	var searchEngine = "https://www.bing.com/"
-	var query = "emacs eev"
-	window.open(searchEngine + "?q=" + query, '_blank');
-
-	console.log(
-		  this
-		  ,
-		  globalThis
-		  ,
-		  window
-		  ,
-		  document
-		  ,
-		  document.getElementsByTagName('iframe')
-		  ,
-		  document.getElementsByTagName('textarea')
-
-		)
-
-
-	//document.getElementById("search-engine").value;
-
-
-
-
-
-
+  54*46
+  10 ** 50
+  10n ** 50n
+  a.b.c.d
+  
+  CodeMirror.version
+  
+  var searchEngine = "https://www.google.com/" 
+  var searchEngine = "https://www.bing.com/" 
+  var query = "emacs eev" 
+  window.open(searchEngine + "?q=" + query, '_blank');
+  
+  console.log(
+        this
+        ,
+        globalThis
+        ,
+        window
+        ,
+        document
+        ,
+        document.getElementsByTagName('iframe')
+        ,
+        document.getElementsByTagName('textarea')
+        
+      )
+      
+  
+  //document.getElementById("search-engine").value;
+  
 </textarea>
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/codemirror.min.js'></script>
