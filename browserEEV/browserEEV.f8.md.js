@@ -1,6 +1,8 @@
 // this file is https://github.com/martin12333/marti-onedrive/blob/main2/browserEEV/browserEEV.f8.md.js
 
+// added by vsc probably
 const { debug } = require("console")
+const { version } = require("os")
 
 
 # browserEEV ideas
@@ -33,6 +35,13 @@ to the eval() of the browser javascript,
 edit 245n ... F8  or M-e  or both  ?
 
 edit 246k ... what about AHK hotkey(s)
+
+
+NEW
+browserEEV246k
+
+
+
 
 
 # https://codepen.io/martin_m_n_novy/pen/eYxdMYj
@@ -396,14 +405,42 @@ https://www.squarefree.com/bookmarklets/
 
 
 
-246k
+
+
+
+browserEEV246k
+
+
+
+start  procexp.exe
+
+//process explorer
+
+// & 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe' --disable-web-security  --disable-gpu --disable-features=IsolateOrigins,site-per-process  --user-data-dir=C:\Users\marti\chr-cors-profile1
+
+mkdir C:\Users\marti\chr-cors-profile1
+dir "c:\tmp"
+
+////& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'  --help
+////& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'  --version
+
+/////& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'   --headless=new --disable-gpu --repl --crash-dumps-dir="c:\tmp"    --user-data-dir=C:\Users\marti\chr-cors-profile1   https://www.chromestatus.com/
+
+//start pwsh
+//exit
+
+
+
+
+
+
 
 vscode
 f1
 debug open link
 file:///C:\Users\marti\OneDrive\browserEEV\dist\index.html
 
-debug open browser Devtools
+//debug open browser Devtools
 
 debug console
 
@@ -419,7 +456,135 @@ CodeMirror.commands
 
 
 
+// & 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'   --disable-web-security  --disable-gpu --disable-features=IsolateOrigins,site-per-process  --user-data-dir=C:\Users\marti\remote-debug-profile1
 
+mkdir  C:\Users\marti\remote-debug-profile1
+
+
+
+
+
+
+////& 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'    --help
+
+//& 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'     --disable-gpu   --user-data-dir=C:\Users\marti\remote-debug-profile1  --remote-debugging-port=9222
+
+
+////& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'  --version
+
+
+>togg prim bar visi
+
+//& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'    --disable-gpu --repl --crash-dumps-dir="c:\tmp"    --user-data-dir=C:\Users\marti\chr-cors-profile1   https://www.chromestatus.com/
+& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'    --disable-gpu --repl --crash-dumps-dir="c:\tmp"   --remote-debugging-port=9222      https://www.chromestatus.com/
+
+
+
+
+https://code.visualstudio.com/docs/nodejs/browser-debugging
+
+"type": "msedge",
+f1 launch.json
+
+{
+	"type": "chrome",
+	"request": "attach",
+	"name": "Attach to browser",
+	"port": 9222
+  }
+
+
+RUN AND DEBUG
+
+ location.href
+
+
+Object.keys(window)
+
+  Navigated to
+  edge://system/
+  chrome://system/
+  ////////////systemInfo
+  [8].statValue
+  systemInfo[8].statValue
+  systemInfo[8].statValue
+
+file:///C:\Users\marti\OneDrive\browserEEV\dist\index.html
+https://www.mff.cuni.cz
+https://en.wikipedia.org/wiki/Sugar_Association
+https://www.diigo.com/user/martin12333
+https://www.pilulka.cz/hipp-bio-prvni-kase-nemlecna-100-kukuricna-od-uk-4-6-mesice
+
+https://www.leicspart.nhs.uk/autism-space/health-and-lifestyle/autistic-fatigue-and-burnout-coping-strategies/
+
+https://www.calculator.net/anorexic-bmi-calculator.html
+
+
+
+ symbols
+
+
+ location.href
+
+
+--allow-chrome-scheme-url
+
+
+typeof Clipboard
+typeof Document
+typeof FileSystemHandle
+
+typeof SpeechSynthesisUtterance
+
+
+console.log(
+	this
+	,
+	globalThis
+	,
+	window
+	,
+	document
+	,
+	,
+	document.getElementsByTagName('textarea')
+	document.getElementsByTagName('p')
+	document.getElementsByTagName('h2')
+	document.getElementsByTagName('h3')
+
+
+	document.getElementsByTagName('iframe')
+	location.href
+
+
+  )
+
+
+
+
+  document.getElementsByTagName('iframe')
+  HTMLCollection(1) [iframe#contextMenuHideIframe, contextMenuHideIframe: iframe#contextMenuHideIframe]
+   location.href
+  'https://groups.diigo.com/group/Diigo_HQ'
+
+
+
+
+
+  9: h2.i18n-subreddit-rule-title.flex.text-neutral-content-weak.m-0
+
+  innerHTML: 'This is awesome. I love this kind of stuffs, especially when it ...'
+
+  rickdate
+
+
+
+  var searchEngine = "https://www.google.com/"
+//  var searchEngine = "https://www.bing.com/"
+  var query = "emacs eev"
+  window.open(searchEngine + "?q=" + query, '_blank');
+
+w=  window.open( "chrome://chrome-urls"  , '_blank');
 
 
 

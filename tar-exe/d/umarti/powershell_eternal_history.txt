@@ -11471,3 +11471,31 @@ code browserEEV\dist\index.html
 git add  "browserEEV\dist\index.html"
 git add -v "browserEEV\dist\script.js"
 git add -v "browserEEV\dist\index.html"
+dir C:\Users\marti\remote-debug-profile1
+mkdir  C:\Users\marti\remote-debug-profile1
+& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'   --headless --disable-gpu --repl --crash-dumps-dir="c:\tmp"  https://www.chromestatus.com/
+dir "c:\tmp"
+& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'   --headless --disable-gpu --repl --crash-dumps-dir="c:\tmp"
+pwsh
+exit
+start pwsh
+& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'   --headless --disable-gpu --repl --crash-dumps-dir="c:\tmp"
+& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'  --help  --headless --disable-gpu --repl --crash-dumps-dir="c:\tmp"
+mkdir C:\Users\marti\chr-cors-profile1
+& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'  --help  --headless --disable-gpu --repl --crash-dumps-dir="c:\tmp"   --user-data-dir=C:\Users\marti\chr-cors-profile1
+& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'  --help  --headless --disable-gpu  --crash-dumps-dir="c:\tmp"   --user-data-dir=C:\Users\marti\chr-cors-profile1
+& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'  --help  --disable-gpu  --crash-dumps-dir="c:\tmp"   --user-data-dir=C:\Users\marti\chr-cors-profile1
+& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'  --help  --headless --disable-gpu --repl --crash-dumps-dir="c:\tmp"   --user-data-dir=C:\Users\marti\chr-cors-profile1
+& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'  --help  --headless --disable-gpu  --crash-dumps-dir="c:\tmp"   --user-data-dir=C:\Users\marti\chr-cors-profile1
+& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'  --help  --disable-gpu  --crash-dumps-dir="c:\tmp"   --user-data-dir=C:\Users\marti\chr-cors-profile1
+& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'   --headless=new --disable-gpu --repl --crash-dumps-dir="c:\tmp"
+procexp.exe
+& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'  --help
+& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'   --headless=new --disable-gpu --repl --crash-dumps-dir="c:\tmp"    --user-data-dir=C:\Users\marti\chr-cors-profile1
+start  procexp.exe
+& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'   --headless=new --disable-gpu --repl --crash-dumps-dir="c:\tmp"    --user-data-dir=C:\Users\marti\chr-cors-profile1   https://www.chromestatus.com/
+& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'  --version
+& 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'    --help
+& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'    --disable-gpu --repl --crash-dumps-dir="c:\tmp"    --user-data-dir=C:\Users\marti\chr-cors-profile1   https://www.chromestatus.com/
+& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'    --disable-gpu --repl --crash-dumps-dir="c:\tmp"       https://www.chromestatus.com/
+& 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'    --disable-gpu --repl --crash-dumps-dir="c:\tmp"   --remote-debugging-port=9222      https://www.chromestatus.com/
