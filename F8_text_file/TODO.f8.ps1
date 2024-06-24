@@ -57,6 +57,8 @@ ok  except ## edited  (find-psne-intro)
 
 
 
+Get-ChildItem -Path 'Registry::HKEY_CLASSES_ROOT/*'  |  findstr -i  'url:'   | clip
+
 
 
 

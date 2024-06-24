@@ -11499,3 +11499,19 @@ start  procexp.exe
 & 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'    --disable-gpu --repl --crash-dumps-dir="c:\tmp"    --user-data-dir=C:\Users\marti\chr-cors-profile1   https://www.chromestatus.com/
 & 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'    --disable-gpu --repl --crash-dumps-dir="c:\tmp"       https://www.chromestatus.com/
 & 'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe'    --disable-gpu --repl --crash-dumps-dir="c:\tmp"   --remote-debugging-port=9222      https://www.chromestatus.com/
+Get-ChildItem -Path 'Registry::HKEY_CLASSES_ROOT'
+Get-ChildItem -Path 'Registry::HKEY_CLASSES_ROOT/ht*'
+Get-ChildItem -Path 'Registry::HKEY_CLASSES_ROOT/ht*'  |  findstr -i  'url:'
+Get-ChildItem -Path 'Registry::HKEY_CLASSES_ROOT/h*'  |  findstr -i  'url:'
+Get-ChildItem -Path 'Registry::HKEY_CLASSES_ROOT/*'  |  findstr -i  'url:'
+Get-ChildItem -Path 'Registry::HKEY_CLASSES_ROOT/*'  |  findstr -i  'url:'   | clip
+start  vscode://
+start  vscode://c:\
+start  vscode://c:\Users
+start  vscode:c:\Users
+start vscode:file/open/c:/users
+start vscode:file/c:/users
+start   vscode://file/c:/myProject/package.json
+start vscode://file/c:/users
+start vscode://file/c:/users/
+start ms-quick-assist:
