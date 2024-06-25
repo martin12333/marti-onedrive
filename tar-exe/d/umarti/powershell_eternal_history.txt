@@ -11521,3 +11521,4 @@ start 'vscode://command:workbench.action.toggleKeybindingsLog'
 start   'vscode://file/c:/myProject/package.json'
 start command:workbench.action.toggleKeybindingsLog
 C:\Windows\System32\OpenSSH\ssh.exe   $(cat ~/bcloudREADONLY/alma.txt)
+cmd /c dir /s

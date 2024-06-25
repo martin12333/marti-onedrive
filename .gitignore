@@ -13,6 +13,7 @@
 #*.xsd
 
 /Dokumenty/PowerShell/Help
+/alma-233c/var
 
 *#
 *~
