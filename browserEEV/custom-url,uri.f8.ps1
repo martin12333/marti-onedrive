@@ -4,7 +4,13 @@ exit
 
 start vscode://file/c:/users/
 
-start   vscode://file/c:/myProject/package.json
+start   'vscode://file/c:/myProject/package.json'
+
+
+###start vscode://command/workbench.action.toggleKeybindingsLog
+####start 'vscode://command:workbench.action.toggleKeybindingsLog'
+
+start command:workbench.action.toggleKeybindingsLog
 
 start ms-quick-assist:
 

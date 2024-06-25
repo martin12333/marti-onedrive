@@ -28,3 +28,4 @@ BIG
 
 .ipynb_checkpoints/
 overwrite/
+node_modules

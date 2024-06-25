@@ -32,6 +32,14 @@ google-forms
 
 
 
+ls -l   /var/www/
+ls -l   /var/www/*phpinfo*
+sudo  mv -iv   /var/www/phpinfo.php  /var/www/phpinfo.php.123
+sudo  mv -iv   /var/www/phpinfo.php.123  /var/www/phpinfo.php.SOMETHING_RANDOM_IN_TERMIANL
+
+
+
+
 
 code backup-f8
 
@@ -62,6 +70,7 @@ echo   $(cat ~/bcloudREADONLY/alma.txt)
 
 where.exe ssh
 #$Env:Path   -split ';'
+
 
 
 C:\Windows\System32\OpenSSH\ssh.exe   $(cat ~/bcloudREADONLY/alma.txt)
@@ -214,6 +223,16 @@ echo '-------- section --------'
 du -m /etc
 du -m /var/log
 du -m /root/
+
+du -m /var/www   |sort   -n   >1
+
+
+
+
+
+
+
+
 
 cat .mysql_history|tee 2229.mysql
 

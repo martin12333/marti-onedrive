@@ -13,9 +13,11 @@ keyb
 
 
 
-[aaaaaaaa](command:workbench.action.keybindingsReference)
+[opens in edge  aaaaaaaa](command:workbench.action.keybindingsReference)
 
 [aaaaaaaa](command:workbench.action.toggleKeybindingsLog)
+
+
 [FAIL aaaaaaaa](command:workbench.action.openGlobalKeybindings)
 
 [aaaaaaaa](command:markdown.showPreview)
