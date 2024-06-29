@@ -11535,3 +11535,18 @@ dir "C:\Users\marti\AppData\Local\Packages\*\LocalCache\Local\*\*\*\*\*"
 dir "C:\Users\marti\AppData\Local\Packages\*\LocalCache\*\*\*\*\*"
 bash
 accesschk.exe /?
+cd C:\Users\marti\OneDrive
+git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
+git commit -v -a -m backup
+git push
+dir D:\umarti\OneDrive--robo\nons*
+dir D:\umarti\OneDrive--robo\*nons*
+cmd /c dir D:\umarti\OneDrive--robo\*nons*
+cmd /c dir D:\umarti\OneDrive--robo\*jj*
+cmd /c dir D:\umarti\*jj*
+cmd /c dir D:\umarti\OneDrive--robo\*nons*
+cmd /c dir D:\umarti\OneDrive--robo\*jj*
+dir D:\umarti\f8_text_file--clouddrive--monorepo
+icacls.exe "C:\Users\"
+icacls.exe "C:\Users\milan_rxtipwr"
+icacls.exe "d:\Users\"

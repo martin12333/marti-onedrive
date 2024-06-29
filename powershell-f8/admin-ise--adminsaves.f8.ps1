@@ -168,9 +168,10 @@ C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   C:\Users\userk
 
 
 
-icacls.exe  C:\Users\userklic  /grant 'marti:(oi)(ci)(f)'
-icacls.exe  C:\Users\techl /grant 'marti:(oi)(ci)(f)'
-icacls.exe   d:\2222   /grant 'marti:(oi)(ci)(f)'
+
+
+
+
 
 
 
@@ -303,31 +304,41 @@ dir "C:\Windows\ServiceProfiles\LocalService\AppData\Roaming\Microsoft\UPnP Devi
 xcopy  "C:\Windows\ServiceProfiles\LocalService\AppData\Roaming\Microsoft\UPnP Device Host\upnphost\udhisapi.dll"   c:\tmp
 
 
-DISM.exe /Online /Cleanup-image /Restorehealth
 
 
 
-Loading personal and system profiles took 1083ms.
+
+
+
+icacls.exe  C:\Users\userklic   /grant 'marti:(oi)(ci)(f)'
+icacls.exe  C:\Users\techl /grant 'marti:(oi)(ci)(f)'
+icacls.exe   d:\2222   /grant 'marti:(oi)(ci)(f)'
+icacls.exe   D:\Users\marti   /grant 'marti:(oi)(ci)(f)'
+icacls.exe   D:\Users\milanlocal   /grant 'LEN20\milan_rxtipwr:(OI)(CI)(F)'
+icacls.exe   D:\Users\milanlocal   /grant 'marti:(oi)(ci)(rx)'
+
+icacls.exe  d:\Users\Eda\SteamLibrary    /grant 'marti:(oi)(ci)(f)'
+
+
+icacls.exe "D:\Users"  /reset /T
+icacls.exe "D:\Users"  /reset /t    /c
+icacls.exe "D:\Users"  /reset /t    /c  /q
+
+ icacls C:\Users\marti
+ icacls C:\Users\milan_rxtipwr
+
+
+
+
+  url64bit       = 'https://sourceforge.net/projects/maxima/files/Maxima-Windows/5.45.1-Windows/maxima-5.45.1s-win64.exe/download'
+  checksum64     = '60be72a45376e1256a554d79e7da35f7d91cfc86b12b9a9a5501c0f5ed8b6de0'
+
+  DISM.exe /Online /Cleanup-image /Restorehealth
+
 PS C:\Users\marti> sfc /scannow
-
-Beginning system scan.  This process will take some time.
-
-Beginning verification phase of system scan.
-Verification 100% complete.
-
-Windows Resource Protection did not find any integrity violations.
-PS C:\Users\marti>
-
 
 cmd /c dir C:\Windows\Logs\CBS
 
-
-image.png
-
 tiworker is not ATI
 
-
-
 cmd /c mklink /j   "c:\Users\Eduar\OneDrive\programming stuff\EdL-pstuff-MMilan"    "C:\Users\marti\OneDrive\EdL-pstuff-MMilan"
-
-

@@ -5,6 +5,7 @@ cd ~/OneDrive
 cd C:\Users\marti\OneDrive
 git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
 git commit -v -a -m backup
+git push
 
 #cmd z bash
 c:
@@ -12,8 +13,11 @@ d:
 $env:path
 
 
-cd D:\umarti\OneDrive--robo
-dir D:\umarti\OneDrive--robo\nons*
+#cd D:\umarti\OneDrive--robo
+
+cmd /c dir D:\umarti\OneDrive--robo\*nons*
+cmd /c dir D:\umarti\*jj*
+
 
 dir D:\umarti\OneDrive--robo\people-will-put-up-another-wind-chime-so-you-have-double-the-trouble\
 
@@ -84,4 +88,5 @@ cmd /c dir \\len20\
 cmd /c dir \\wsl$\
 
 
-explorer.exe D:\umarti\f8_text_file--clouddrive--monorepo
+explorer.exe
+dir D:\umarti\f8_text_file--clouddrive--monorepo

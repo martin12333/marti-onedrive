@@ -9,7 +9,7 @@
 # echo '-------- section --------'
 
 
-maybe this text file should have been markdown rather than .ps1
+maybe this text file should have been markdown or ipynb  rather than .ps1
 
 
 
@@ -97,6 +97,8 @@ links
 		https://github.com/TairikuOokami/Windows/blob/main/Windows%20Setup%201.bat
 		https://github.com/TairikuOokami/Windows/blob/main/Windows%20Setup%202.bat
 		https://github.com/TairikuOokami/Windows/blob/main/Windows%20Tweaks.bat
+
+
 
 accesschk.exe /?
 
@@ -342,6 +344,10 @@ only to directories:
 
 
 icacls.exe  d:\Users\Eda\SteamLibrary
+
+
+##########
+I set the same ACL with the GUI and with icacls, yet the results are different - The Old New Thing ... Deny ACE ... So the icacls program is lying when it says that it denied Delete (D) permission. It actually denied both Delete and Synchronize.
 
 
 a teacher cautioned us against the DENY,
