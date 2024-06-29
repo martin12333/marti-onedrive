@@ -341,11 +341,11 @@ takeown.exe /f D:\Users     /a  /r
 
 #icacls D:\Users /grant "Authenticated Users:(OI)(CI)(RX)" "SYSTEM:(OI)(CI)(F)" "Administrators:(OI)(CI)(F)"
 icacls D:\Users  /inheritance:r    /grant "Users:(OI)(CI)(RX)" "SYSTEM:(OI)(CI)(F)" "Administrators:(OI)(CI)(F)"
+###333icacls D:\Users\marti  /inheritance:r    /grant "Users:(OI)(CI)(RX)" "SYSTEM:(OI)(CI)(F)" "Administrators:(OI)(CI)(F)"
+icacls D:\Users\marti  /inheritance:r    /grant 'marti:(oi)(ci)(f)' "SYSTEM:(OI)(CI)(F)" "Administrators:(OI)(CI)(F)"
+#icacls.exe   D:\Users\marti   /grant 'marti:(oi)(ci)(f)'
 
 
-
-
-icacls.exe   D:\Users\marti   /grant 'marti:(oi)(ci)(f)'
 icacls.exe   D:\Users\milanlocal   /grant 'LEN20\milan_rxtipwr:(OI)(CI)(F)'
 icacls.exe   D:\Users\milanlocal   /grant 'marti:(oi)(ci)(rx)'
 
