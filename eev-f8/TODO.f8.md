@@ -126,7 +126,8 @@ file:///C:\Users\marti\OneDrive\windows-f8\windows-security-weakness--folder-per
 
 
 
-
+https://www.raspberrypi.org/
+https://my.raspberrypi.org/signup/13-plus
 
 
 

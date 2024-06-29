@@ -313,7 +313,7 @@
 		"--",
 		"notebook-parser"
 	],
-	"polyglot-notebook.defaultNotebookExtension": ".dib",
+	"polyglot-notebook.defaultNotebookExtension": ".ipynb",
 	"polyglot-notebook.defaultNotebookLanguage": "pwsh",
 	"easy-extensibility.dateCommand.windows": "cmd /c date /T",
 	"window.zoomLevel": 2,

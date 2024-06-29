@@ -17,6 +17,12 @@ maybe this text file should have been markdown rather than .ps1
 todo
 
 
+
+
+https://www.diigo.com/user/martin12333?query=icacls+%2Finheritance%3Ar
+
+
+
 https://www.diigo.com/user/martin12333?query=authenticated
 
 
@@ -35,6 +41,7 @@ https://gist.github.com/search?q=icacls++%22%2Finheritance%3Ar%22+%22Users%22+++
 in this file:
 # my issue win2451:
 mmb:win2451--security-weakness--folder-permissions
+mb:win2451--security-weakness--folder-permissions
 
 
 search terms
@@ -115,10 +122,17 @@ please, give me `icacls` commands to set secure permissions on the "D:\.install\
 https://www.bing.com/search?q=Python%20security%20best%20practices&qs=ds&form=ATCVAJ
 	Open a Command Prompt as an Administrator:
 	Press Win + X and choose “Command Prompt (Admin)” or “Windows PowerShell (Admin)”.
+
+
+my: Win+q ISE
+
+
 	Run the Following Command:
 
 
+
 	icacls D:\.install\python /inheritance:r /grant "Authenticated Users:(OI)(CI)(RX)" "SYSTEM:(OI)(CI)(F)" "Administrators:(OI)(CI)(F)"
+
 
 
 	This command does the following:
@@ -483,13 +497,23 @@ break out of hyperfocus? site:www.reddit.com
 
 
 
-todo diigo
 
 
-(my Likelihood:  conditional)
+(my: exploit Likelihood:  conditional)
+
+
+
+
+
+accesschk "Techl" "C:\Users\marti"
+
 
 
 ######################
 seealso
 
 	code conda-dotfiles\CWE-426--Untrusted-Search-Path---conda.f8.ps1
+
+
+todo diigo
+https://github.com/martin12333/marti-onedrive/blob/main2/windows-f8/windows-security-weakness--folder-permissions--icacls.f8.ps1
