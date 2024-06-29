@@ -3576,16 +3576,16 @@ dir c:\ /a /od
 cmd /c dir c:\ /a /od
 .\IntelGraphicsAGS.exe /?
 .\IntelGraphicsAGS.exe --help
-.\IntelGraphicsAGS.exe 
+.\IntelGraphicsAGS.exe
 vulkaninfo.exe /?
 $env:path
 exit
 $env:Path
 $env:Path.Length
-icacls.exe C:\Users\*  
+icacls.exe C:\Users\*
 icacls.exe C:\Users\*  |clip
 sfc /scannow
-Dism.exe  /online   /cleanup-image  /restorehealth 
+Dism.exe  /online   /cleanup-image  /restorehealth
 procexp.exe
 sfc /scannow
 procexp.exe
@@ -3626,3 +3626,10 @@ ls ..
 cmd
 pwsh
 dir ..
+sfjslkfjlkjfsdsf
+powershell.exe
+takeown.exe /f D:\Users     /a  /r
+exit
+powershell.exe
+takeown.exe /f D:\Users     /a  /r
+takeown.exe /f D:\Users\milanlocal\     /a  /r

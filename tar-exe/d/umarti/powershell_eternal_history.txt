@@ -11550,3 +11550,5 @@ dir D:\umarti\f8_text_file--clouddrive--monorepo
 icacls.exe "C:\Users\"
 icacls.exe "C:\Users\milan_rxtipwr"
 icacls.exe "d:\Users\"
+code   C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+takeown.exe /?
