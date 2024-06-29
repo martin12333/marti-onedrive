@@ -320,6 +320,11 @@ icacls.exe   D:\Users\milanlocal
 icacls.exe  d:\Users\Eda\
 icacls.exe  d:\Users\Eda\SteamLibrary
 
+# in debugging
+takeown.exe /f D:\Users     /a  /r
+# maybe the /r  was too much unnecessary?  maybe milan failed becaus eof contro-folde-access ?
+#  /d y   or run not from ISE
+#    /r /d y
 
 #icacls.exe "D:\Users"  /reset /T
 #icacls.exe "D:\Users"  /reset /t    /c
@@ -330,12 +335,6 @@ icacls.exe "D:\Users\marti"  /reset /t    /c  /q
 
 #icacls D:\.install\python /inheritance:r
 ####3333icacls D:\Users /inheritance:r
-
-# in debugging
-takeown.exe /f D:\Users     /a  /r
-# maybe the /r  was too much unnecessary?  maybe milan failed becaus eof contro-folde-access ?
-#  /d y   or run not from ISE
-#    /r /d y
 
 #icacls D:\Users /grant "Authenticated Users:(OI)(CI)(RX)" "SYSTEM:(OI)(CI)(F)" "Administrators:(OI)(CI)(F)"
 icacls D:\Users  /inheritance:r    /grant "Users:(OI)(CI)(RX)" "SYSTEM:(OI)(CI)(F)" "Administrators:(OI)(CI)(F)"
