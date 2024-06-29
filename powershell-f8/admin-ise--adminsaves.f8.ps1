@@ -8,21 +8,25 @@ exit
 
 echo '-------- section --------'
 
+#pozor rozleze verze
+#  sync by hand ?  old
+#  ^a  ^c  @tab ^V
+		C:\Users\marti\admin-ise--adminsaves.f8.ps1
+jiny dir C:\Users\marti\OneDrive\powershell-f8\admin-ise--adminsaves.f8.ps1
 
 ^i
 
 echo '-------- section --------'
 
 
+
 win+q ise admin
 	file
 		~~recent
 		C:\Users\marti\admin-ise--adminsaves.f8.ps1
-
 #pozor rozleze verze
-C:\Users\marti\admin-ise--adminsaves.f8.ps1
+		C:\Users\marti\admin-ise--adminsaves.f8.ps1
 jiny dir C:\Users\marti\OneDrive\powershell-f8\admin-ise--adminsaves.f8.ps1
-
 
 echo '-------- section --------'
 
@@ -33,10 +37,17 @@ mkdir d:\2222
 echo '-------- section --------'
 
 
+
+
+
+
 echo fsdf >a.txt
 xcopy   a.txt c:\tmp
 xcopy   a.txt c:\tmp
 n
+
+
+
 
 
 echo '-------- section --------'
@@ -45,25 +56,14 @@ todo vscode search
 admin
 *.f8.ps1
 
-
-
-
-
-code powershell-f8\admin-ise--adminsaves.f8.ps1
-
-####NOT ONEDRIVE
-####file:///c:\Users\marti\admin-ise--adminsaves.f8.ps1
-
-
-
-
+#file:///c:\Users\marti\admin-ise--adminsaves.f8.ps1
 
 
 admin PowerShell ISE
 is a better method, than win-x admin terminal:
 and safer (if paste-errors)
 
-	WIN-Q    ise    keyboard right   or   rclick[|||] admin open
+	WIN-Q ise        rclick[|||] admin open
 	Files menu / "recent"
 	admin-ise--adminsaves.f8.ps1
 	COPY PASTE INTO admin-ise--adminsaves.f8.ps1
@@ -73,17 +73,16 @@ and safer (if paste-errors)
 	^s
 
 
-	nonadmin code   C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 
+
+
+nonadmin code   C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 
 cmd
 pwsh
 dir ..
 sfjslkfjlkjfsdsf
 powershell.exe
-exit
-powershell.exe
-takeown.exe /f D:\Users     /a  /r
 
 
 
@@ -154,14 +153,10 @@ fdgfdgd
 BETTER COPY PASTE
 
 
-
-
 Set-LocalUser -Name Eda -PasswordNeverExpires $true
 
 
 
-# safer ... better sth like  get-content   than   `cat`
-Get-Alias  cat
 
 $username = 'userklic'
 $pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
@@ -301,10 +296,6 @@ vssadmin list shadows
 
 
 
-
-
-
-
 explorer
 
 dir
@@ -319,23 +310,56 @@ xcopy  "C:\Windows\ServiceProfiles\LocalService\AppData\Roaming\Microsoft\UPnP D
 
 
 
+#TODO  #TOO_LATE
 
-icacls.exe  C:\Users\userklic   /grant 'marti:(oi)(ci)(f)'
-icacls.exe  C:\Users\techl /grant 'marti:(oi)(ci)(f)'
-icacls.exe   d:\2222   /grant 'marti:(oi)(ci)(f)'
+ icacls C:\Users\
+ icacls C:\Users\marti
+
+icacls.exe   D:\Users\
+icacls.exe   D:\Users\marti
+icacls.exe   D:\Users\milanlocal
+
+icacls.exe  d:\Users\Eda\
+icacls.exe  d:\Users\Eda\SteamLibrary
+
+
+#icacls.exe "D:\Users"  /reset /T
+#icacls.exe "D:\Users"  /reset /t    /c
+icacls.exe "D:\Users"  /reset /t    /c  /q
+
+icacls.exe "D:\Users\marti"  /reset /t    /c  /q
+
+
+#icacls D:\.install\python /inheritance:r
+####3333icacls D:\Users /inheritance:r
+
+# in debugging
+takeown.exe /f D:\Users     /a  /r
+# maybe the /r  was too much unnecessary?  maybe milan failed becaus eof contro-folde-access ?
+#  /d y   or run not from ISE
+#    /r /d y
+
+#icacls D:\Users /grant "Authenticated Users:(OI)(CI)(RX)" "SYSTEM:(OI)(CI)(F)" "Administrators:(OI)(CI)(F)"
+icacls D:\Users  /inheritance:r    /grant "Users:(OI)(CI)(RX)" "SYSTEM:(OI)(CI)(F)" "Administrators:(OI)(CI)(F)"
+
+
+
+
 icacls.exe   D:\Users\marti   /grant 'marti:(oi)(ci)(f)'
 icacls.exe   D:\Users\milanlocal   /grant 'LEN20\milan_rxtipwr:(OI)(CI)(F)'
 icacls.exe   D:\Users\milanlocal   /grant 'marti:(oi)(ci)(rx)'
 
 icacls.exe  d:\Users\Eda\SteamLibrary    /grant 'marti:(oi)(ci)(f)'
+icacls.exe  D:\Users\Eda\zoom /grant 'marti:(oi)(ci)(f)'
 
 
-icacls.exe "D:\Users"  /reset /T
-icacls.exe "D:\Users"  /reset /t    /c
-icacls.exe "D:\Users"  /reset /t    /c  /q
 
- icacls C:\Users\marti
- icacls C:\Users\milan_rxtipwr
+
+icacls.exe  C:\Users\userklic   /grant 'marti:(oi)(ci)(f)'
+icacls.exe  C:\Users\techl /grant 'marti:(oi)(ci)(f)'
+icacls.exe   d:\2222   /grant 'marti:(oi)(ci)(f)'
+
+
 
 
 
@@ -343,12 +367,15 @@ icacls.exe "D:\Users"  /reset /t    /c  /q
   url64bit       = 'https://sourceforge.net/projects/maxima/files/Maxima-Windows/5.45.1-Windows/maxima-5.45.1s-win64.exe/download'
   checksum64     = '60be72a45376e1256a554d79e7da35f7d91cfc86b12b9a9a5501c0f5ed8b6de0'
 
-  DISM.exe /Online /Cleanup-image /Restorehealth
+DISM.exe /Online /Cleanup-image /Restorehealth
 
-PS C:\Users\marti> sfc /scannow
-
-cmd /c dir C:\Windows\Logs\CBS
+sfc /scannow
 
 tiworker is not ATI
 
 cmd /c mklink /j   "c:\Users\Eduar\OneDrive\programming stuff\EdL-pstuff-MMilan"    "C:\Users\marti\OneDrive\EdL-pstuff-MMilan"
+
+#  sync by hand ?  old
+#  ^a  ^c  @tab ^V
+		C:\Users\marti\admin-ise--adminsaves.f8.ps1
+jiny dir C:\Users\marti\OneDrive\powershell-f8\admin-ise--adminsaves.f8.ps1
