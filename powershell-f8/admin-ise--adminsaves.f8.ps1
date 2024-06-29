@@ -1,20 +1,20 @@
 
-# (a file in the f8_document pseudo-format)
-do-not run this file as a whole
+# f8_text_file
+# (an f8_text_file is-not meant to be run as a whole)
 )
 exit
 
-(selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
+# (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
 echo '-------- section --------'
 
-#pozor rozleze verze
-#  sync by hand ?  old
-#  ^a  ^c  @tab ^V
-		C:\Users\marti\admin-ise--adminsaves.f8.ps1
-jiny dir C:\Users\marti\OneDrive\powershell-f8\admin-ise--adminsaves.f8.ps1
 
-^i
+#  sync by hand ?!
+#  ^a  ^c  @tab ^V
+
+the MAIN COPY		C:\Users\marti\admin-ise--adminsaves.f8.ps1
+the SUBORDINATE COPY jiny dir C:\Users\marti\OneDrive\powershell-f8\admin-ise--adminsaves.f8.ps1
+
 
 echo '-------- section --------'
 
@@ -24,9 +24,7 @@ win+q ise admin
 	file
 		~~recent
 		C:\Users\marti\admin-ise--adminsaves.f8.ps1
-#pozor rozleze verze
-		C:\Users\marti\admin-ise--adminsaves.f8.ps1
-jiny dir C:\Users\marti\OneDrive\powershell-f8\admin-ise--adminsaves.f8.ps1
+
 
 echo '-------- section --------'
 
@@ -375,7 +373,9 @@ tiworker is not ATI
 
 cmd /c mklink /j   "c:\Users\Eduar\OneDrive\programming stuff\EdL-pstuff-MMilan"    "C:\Users\marti\OneDrive\EdL-pstuff-MMilan"
 
-#  sync by hand ?  old
+##########
+#  sync by hand ?!
 #  ^a  ^c  @tab ^V
-		C:\Users\marti\admin-ise--adminsaves.f8.ps1
-jiny dir C:\Users\marti\OneDrive\powershell-f8\admin-ise--adminsaves.f8.ps1
+
+the MAIN COPY		C:\Users\marti\admin-ise--adminsaves.f8.ps1
+the SUBORDINATE COPY jiny dir C:\Users\marti\OneDrive\powershell-f8\admin-ise--adminsaves.f8.ps1
