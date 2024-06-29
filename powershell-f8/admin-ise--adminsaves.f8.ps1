@@ -307,8 +307,11 @@ xcopy  "C:\Windows\ServiceProfiles\LocalService\AppData\Roaming\Microsoft\UPnP D
 
 
 
-# 246s
-#TODO  #TOO_LATE
+# 246s  CHMOD O-RWX
+
+# 01:30 NEXT TIME, I WILL PROTECT MERELY THE d:\Users\marti\xyz
+
+#TOO_LATE
 
  icacls C:\Users\
  icacls C:\Users\marti
@@ -327,18 +330,20 @@ takeown.exe /f D:\Users     /a  /r
     #  /d y   or run not from ISE
     #    /r /d y
 
-#icacls.exe "D:\Users"  /reset /T
-#icacls.exe "D:\Users"  /reset /t    /c
-icacls.exe "D:\Users"  /reset /t    /c  /q
 
+33#icacls.exe "D:\Users"  /reset /T
+33#icacls.exe "D:\Users"  /reset /t    /c
+#icacls.exe "D:\Users"  /reset /t    /c  /q
+
+# WHAT WOULD HAPPEN WITHOUT THIS /RESET ?
 icacls.exe "D:\Users\marti"  /reset /t    /c  /q
 
 
 #icacls D:\.install\python /inheritance:r
 ####3333icacls D:\Users /inheritance:r
 
-#icacls D:\Users /grant "Authenticated Users:(OI)(CI)(RX)" "SYSTEM:(OI)(CI)(F)" "Administrators:(OI)(CI)(F)"
-icacls D:\Users  /inheritance:r    /grant "Users:(OI)(CI)(RX)" "SYSTEM:(OI)(CI)(F)" "Administrators:(OI)(CI)(F)"
+#####icacls D:\Users /grant "Authenticated Users:(OI)(CI)(RX)" "SYSTEM:(OI)(CI)(F)" "Administrators:(OI)(CI)(F)"
+#icacls D:\Users  /inheritance:r    /grant "Users:(OI)(CI)(RX)" "SYSTEM:(OI)(CI)(F)" "Administrators:(OI)(CI)(F)"
 ###333icacls D:\Users\marti  /inheritance:r    /grant "Users:(OI)(CI)(RX)" "SYSTEM:(OI)(CI)(F)" "Administrators:(OI)(CI)(F)"
 icacls D:\Users\marti  /inheritance:r    /grant 'marti:(oi)(ci)(f)' "SYSTEM:(OI)(CI)(F)" "Administrators:(OI)(CI)(F)"
 #icacls.exe   D:\Users\marti   /grant 'marti:(oi)(ci)(f)'
