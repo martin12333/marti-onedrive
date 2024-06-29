@@ -3633,3 +3633,4 @@ exit
 powershell.exe
 takeown.exe /f D:\Users     /a  /r
 takeown.exe /f D:\Users\milanlocal\     /a  /r
+pwsh

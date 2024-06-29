@@ -11552,3 +11552,13 @@ icacls.exe "C:\Users\milan_rxtipwr"
 icacls.exe "d:\Users\"
 code   C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 takeown.exe /?
+$username = 'userklic'
+$pass= cat "C:\Users\marti\OneDrive\tar-TAR-MA-SOUKR-KLIC\232i"
+Start-Process "conhost.exe"   -Credential $credential   -WorkingDirectory C:\Users\$username   -UseNewEnvironment   -LoadUserProfile
+conhost.exe /?
+conhost.exe /help
+Start-Process "pwsh.exe"   -Credential $credential   -WorkingDirectory C:\Users\$username   -UseNewEnvironment   -LoadUserProfile
+Start-Process "conhost.exe"   -Credential $credential   -WorkingDirectory C:\Users\$username   -UseNewEnvironment   -LoadUserProfile -ArgumentList "pwsh.exe"
+conhost.exe /help
+dir ..\marti\
+code   C:\Users\userklic\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt

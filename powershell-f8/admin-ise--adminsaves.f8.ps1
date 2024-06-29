@@ -309,7 +309,7 @@ xcopy  "C:\Windows\ServiceProfiles\LocalService\AppData\Roaming\Microsoft\UPnP D
 
 
 
-
+# 246s
 #TODO  #TOO_LATE
 
  icacls C:\Users\

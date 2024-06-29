@@ -126,12 +126,14 @@ https://www.bing.com/search?q=Python%20security%20best%20practices&qs=ds&form=AT
 	Press Win + X and choose “Command Prompt (Admin)” or “Windows PowerShell (Admin)”.
 
 
+
 my: Win+q ISE
+	see also
+		code invite246--mitigate\invite246s.f8.ipynb
+
 
 
 	Run the Following Command:
-
-
 
 	icacls D:\.install\python /inheritance:r /grant "Authenticated Users:(OI)(CI)(RX)" "SYSTEM:(OI)(CI)(F)" "Administrators:(OI)(CI)(F)"
 
@@ -511,7 +513,7 @@ break out of hyperfocus? site:www.reddit.com
 
 
 
-accesschk "Techl" "C:\Users\marti"
+###accesschk "Techl" "C:\Users\marti"
 
 
 

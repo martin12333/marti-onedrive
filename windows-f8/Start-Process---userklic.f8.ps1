@@ -24,6 +24,7 @@ echo '-------- section --------'
 
 echo '-------- section --------'
 
+
 246  do this  F8
 
 $username = 'userklic'
@@ -59,7 +60,17 @@ echo '-------- section --------'
 
 
 
-Start-Process "conhost.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment  -LoadUserProfile
+#Start-Process "conhost.exe" -Credential $credential   -WorkingDirectory D:\ -UseNewEnvironment  -LoadUserProfile
+
+conhost.exe /help
+
+Start-Process "pwsh.exe"   -Credential $credential   -WorkingDirectory C:\Users\$username   -UseNewEnvironment   -LoadUserProfile
+
+Start-Process "conhost.exe"   -Credential $credential   -WorkingDirectory C:\Users\$username   -UseNewEnvironment   -LoadUserProfile -ArgumentList "pwsh.exe"
+#,set
+
+#  -ArgumentList "/C",set   -RedirectStandardOutput "c:\Users\public\$username.env.OVERWRITE.txt"
+
 
 echo '-------- section --------'
 
