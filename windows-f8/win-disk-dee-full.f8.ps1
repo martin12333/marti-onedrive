@@ -18,23 +18,33 @@ mkdir D:\umarti\246-du64
 
 # spust hned, trva dlho
 
+
+
+DiskUsage /?
+where.exe diskusage
+where.exe diskext
+
+#diskext.exe
+
+diskusage.exe /a   /h   /t:10
+diskusage.exe   /h   /t:10   C:\Users\marti\OneDrive
+
+
+
 $lev=3 ; du.exe -l $lev   d:\   >D:\umarti\unsort-du64-l-${lev}--d.txt
 
 
 cmd /c dir D:\umarti\*unsort-du64-l-*.txt
 cmd /c dir D:\umarti\unsort-du64-l-*--d.txt
 
-du  D:\umarti\unsort-du64-l-*--d.txt
-du -ct D:\umarti\unsort-du64-l-*--d.txt
--v
-
-The '<' operator is reserved for future use.
-
+#du  D:\umarti\unsort-du64-l-*--d.txt
+#du -ct D:\umarti\unsort-du64-l-*--d.txt
+#-v
+#The '<' operator is reserved for future use.
 
 $lev=3 ; code D:\umarti\unsort-du64-l-${lev}--d.txt
 
-
-$lev=3 ; cat D:\umarti\unsort-du64-l-${lev}--d.txt   | sort
+$lev=3 ; cat D:\umarti\unsort-du64-l-${lev}--d.txt   | sort  | code -
 
 
 exit

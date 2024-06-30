@@ -11587,3 +11587,15 @@ conda activate pip310ecco
 cmd /c dir D:\umarti\unsort-du64-l-*.txt
 cmd /c dir D:\umarti\*unsort-du64-l-*.txt
 get-date; Measure-command  {  $lev=4 ; du.exe -l $lev   c:\  >D:\umarti\unsort-du64-l-${lev}--c--.txt  } ; get-date
+$lev=3 ; cat D:\umarti\unsort-du64-l-${lev}--d.txt   | sort  | code
+$lev=3 ; cat D:\umarti\unsort-du64-l-${lev}--d.txt   | sort  | code -
+DiskUsage /?
+where.exe diskusage
+where.exe diskext
+diskext.exe /?
+diskext.exe
+DiskUsage /?
+diskusage.exe /a
+diskusage.exe   /h   /t:10
+where.exe diskusage
+diskusage.exe   /h   /t:10   C:\Users\marti\OneDrive
