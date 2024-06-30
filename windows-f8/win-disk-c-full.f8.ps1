@@ -8,6 +8,35 @@ exit
 
 
 
+
+# file:///C:\Users\marti\OneDrive\windows-f8\win-disk-c-full.f8.ps1
+
+mkdir D:\umarti\246-du64
+
+#where.exe du
+##where.exe du64
+
+# spust hned, trva dlho
+
+
+get-date; Measure-command  {  $lev=3 ; du.exe -l $lev   c:\  >D:\umarti\unsort-du64-l-${lev}--c--.txt  	} ; get-date
+
+get-date; Measure-command  {  $lev=4 ; du.exe -l $lev   c:\  >D:\umarti\unsort-du64-l-${lev}--c--.txt  	} ; get-date
+
+#$lev=3 ; du.exe -l $lev   d:\   >D:\umarti\unsort-du64-l-${lev}--d.txt
+
+cmd /c dir D:\umarti\*unsort-du64-l-*.txt
+cmd /c dir D:\umarti\unsort-du64-l-*.txt
+
+
+
+
+
+
+
+
+
+
 echo '-------- section --------'
 
 $PSVersionTable
@@ -78,6 +107,16 @@ COPY PASTE INTO admin-ise--adminsaves.f8.ps1
 	get-date; Measure-command  {
 	$lev=2 ; .\du64.exe -l $lev   c:\Tmp >D:\umarti\adm-unsort-du64-l-${lev}--c--.txt
 	} ; get-date
+#
+
+
+
+
+
+
+
+get-date; Measure-command  {  $lev=3 ; du.exe -l $lev   c:\  >D:\umarti\unsort-du64-l-${lev}--c--.txt  	} ; get-date
+
 
 ##.\du64.exe  C:\pf\Git
 	& C:\Users\milan_rxtipwr\OneDrive\Plocha\du64-mujlen-podpisy\du64   c:\pf\git

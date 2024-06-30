@@ -11562,3 +11562,28 @@ Start-Process "conhost.exe"   -Credential $credential   -WorkingDirectory C:\Use
 conhost.exe /help
 dir ..\marti\
 code   C:\Users\userklic\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+mkdir D:\umarti\246-du64
+where.exe du
+where.exe du64
+$lev=3 ; du.exe -l $lev   d:\   >D:\umarti\unsort-du64-l-${lev}--d.txt
+conda activate pip310ecco
+cmd /c dir D:\umarti\unsort-du64-l-${lev}--d.txt
+cmd /c dir D:\umarti\unsort-du64-l-*--d.txt
+du D:\umarti\unsort-du64-l-*--d.txt
+du -ct D:\umarti\unsort-du64-l-*--d.txt
+du -ct -v D:\umarti\unsort-du64-l-*--d.txt
+du -ct -v D:\umarti\unsort-du64-l-*--d.txt
+conda activate pip310ecco
+du -ctD:\umarti\unsort-du64-l-*--d.txt
+du -ct D:\umarti\unsort-du64-l-*--d.txt
+du  D:\umarti\unsort-du64-l-*--d.txt
+cmd /c dir D:\umarti\unsort-du64-l-*--d.txt
+$lev=3 code D:\umarti\unsort-du64-l-${lev}--d.txt
+$lev=3 ; code D:\umarti\unsort-du64-l-${lev}--d.txt
+$lev=3 ; cat D:\umarti\unsort-du64-l-${lev}--d.txt   | sort
+get-date; Measure-command  {  $lev=3 ; .\du64.exe -l $lev   c:\  >D:\umarti\unsort-du64-l-${lev}--c--.txt  } ; get-date
+get-date; Measure-command  {  $lev=3 ; du.exe -l $lev   c:\  >D:\umarti\unsort-du64-l-${lev}--c--.txt  } ; get-date
+conda activate pip310ecco
+cmd /c dir D:\umarti\unsort-du64-l-*.txt
+cmd /c dir D:\umarti\*unsort-du64-l-*.txt
+get-date; Measure-command  {  $lev=4 ; du.exe -l $lev   c:\  >D:\umarti\unsort-du64-l-${lev}--c--.txt  } ; get-date
