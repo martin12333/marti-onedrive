@@ -513,7 +513,38 @@ break out of hyperfocus? site:www.reddit.com
 
 
 
+
 ###accesschk "Techl" "C:\Users\marti"
+
+
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
+
+#py
+
+# & 'D:\conda\shell\condabin\conda-hook.ps1' --help
+
+where.exe  conda
+
+cmd /c dir D:\conda\ /ad
+dir D:\conda\condabin
+dir D:\conda\shell\condabin
+
+dir "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Miniconda3 (64-bit)"
+dir "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Anaconda3 (64-bit)"
+
+
+
+cmd /c dir "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio Code"
+
+where.exe   code
+
+cmd /c dir "C:\Program Files\Microsoft VS Code\bin"
+code  "C:\Program Files\Microsoft VS Code\bin\code.cmd"
+#code  "C:\Program Files\Microsoft VS Code\resources\app\out\cli.js"
+
+cmd /c dir "C:\Users\marti\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar"
+explorer.exe "C:\Users\marti\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar"
+
 
 
 

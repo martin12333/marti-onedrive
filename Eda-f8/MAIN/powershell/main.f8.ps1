@@ -32,7 +32,7 @@ exit
 
 
 
-
+code --help
 
 
 

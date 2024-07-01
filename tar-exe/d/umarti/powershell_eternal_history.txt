@@ -11599,3 +11599,31 @@ diskusage.exe /a
 diskusage.exe   /h   /t:10
 where.exe diskusage
 diskusage.exe   /h   /t:10   C:\Users\marti\OneDrive
+code /?
+code --help
+dir 'D:\conda\shell\condabin\'
+dir "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Anaconda3 (64-bit)"
+where.exe   code
+& 'D:\conda\shell\condabin\conda-hook.ps1'  ;   conda activate pip310ecco
+& 'D:\conda\shell\condabin\conda-hook.ps1' --help
+where.exe  conda
+dir D:\conda\condabin
+dir D:\conda\
+dir D:\conda\ /ad
+cmd /c dir D:\conda\ /ad
+dir D:\conda\shell
+dir D:\conda\shell\condabin
+dir "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Miniconda3 (64-bit)"
+dir "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Anaconda3 (64-bit)"
+dir D:\conda\condabin
+where.exe   code
+dir "C:\Program Files\Microsoft VS Code\bin"
+cmd /c dir "C:\Program Files\Microsoft VS Code\bin"
+code  "C:\Program Files\Microsoft VS Code\bin\code.cmd"
+code  "C:\Program Files\Microsoft VS Code\resources\app\out\cli.js"
+dir "C:\Users\marti\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar"
+cmd /c dir "C:\Users\marti\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar"
+explorer.exe "C:\Users\marti\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar"
+cmd /c dir "C:\Users\marti\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar"
+cmd /c dir "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio Code"
+py
