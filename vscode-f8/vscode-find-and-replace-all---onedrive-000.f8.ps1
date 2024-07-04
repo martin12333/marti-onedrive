@@ -90,10 +90,11 @@ mv -iv ../4  vscode-f8/grep-o-word--debug--fnames.txt
 
 
 cut -d ':'   -f 1  vscode-f8/grep-o--debug--fnames.txt  |  sort -u  |   grep  -Eo  '([.]\w+)+$'  |sort |uniq -c  |  sort -n
-cut -d ':'   -f 1  vscode-f8/grep-o--debug--fnames.txt  |  sort -u  |   grep  -Eo  '([.][-_a-z0-9]+)+$'  |sort |uniq -c  |  sort -n  |grep '[-]'
 
-
-
+#cut -d ':'   -f 1  vscode-f8/grep-o--debug--fnames.txt  |  sort -u  |   grep  -Eo  '([.][-_a-z0-9]+)+$'  |sort |uniq -c  |  sort -n |grep '[-]'
+1 .code-search
+5 false positives
+#1 .f8-checkpoint.py
 
 exit
 
