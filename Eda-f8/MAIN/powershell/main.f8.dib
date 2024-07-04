@@ -22,10 +22,16 @@ git push
 #!pwsh
 
 cd ~/OneDrive
-git add -vv  '*.f8.*'   '*-add-all'   #   "C:\Users\marti\OneDrive\0000"
+git add -vv  '*.f8.*'  #### '*-add-all'   ##   "C:\Users\marti\OneDrive\0000"
 git commit -v -a -m backup
 git push
 	git show --name-only
+
+#!pwsh
+
+cd ~/OneDrive
+$x=Get-ChildItem  -Recurse  '*-add-all'    #### add  '**/*-add-all'   ##   "C:\Users\marti\OneDrive\0000"
+git add -vv   $x.FullName  
 
 #!pwsh
 
