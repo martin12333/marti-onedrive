@@ -11,6 +11,7 @@ echo '-------- section --------'
 
 
 EDIT
+onedr2474z
 2474Z
 CHANGE
 ABANDON PLAN OF REPLACE ONEDRIVE BY ONEDRIVE\000
@@ -18,8 +19,15 @@ ABANDON PLAN OF REPLACE ONEDRIVE BY ONEDRIVE\000
 
 
 
+cmd /c dir .git   /a
+cmd /c dir ..\.git   /a
+	ok
+cd .\a-msklc
+cd ..
 
-seee   older
+
+
+   older
 code   F8_text_file\vscode-find-and-replace-all.f8.sh
 
 

@@ -1,6 +1,12 @@
 
 exit
 
+
+
+code onedrive.live.com--itself\onedr2474z--migr-plan-changed.f8.ps1
+
+
+
 domain--mff.cuni.cz
 mff.cuni.cz,outLOOK.live.com
 

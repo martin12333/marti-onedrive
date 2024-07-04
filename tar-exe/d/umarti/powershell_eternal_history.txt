@@ -11640,3 +11640,13 @@ findstr.exe   -i -R  'c.?.users.marti[\\/]onedrive$'   '*'
 bash
 bash
 conda activate pip310ecco
+dir ../.git
+dir ./.git
+cmd /c dir ./.git
+cmd /c dir .git
+cmd /c dir .git   /a
+cmd /c dir ..\.git   /a
+cd .\a-msklc
+cmd /c dir ..\.git   /a
+cd ..
+dir     *onedri*| select Name
