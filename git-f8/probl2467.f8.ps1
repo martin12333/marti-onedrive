@@ -18,7 +18,7 @@ necham byt
 
 cd C:\Users\marti\OneDrive
 git commit -v -a -m backup
- git add -vv  '*.f8.*'   "C:\Users\marti\OneDrive\0000"
+ git add -vv  '*.f8.*'  ## "C:\Users\marti\OneDrive\0000"
 
 
 byl jsem jinde
