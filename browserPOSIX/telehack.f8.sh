@@ -6,14 +6,17 @@ exit
 
 (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
-echo '-------- section --------'
-
-# i use  a container
+# originally  i used  a container
 podman machine start
 
 podman start   -ai    cmy22b
 
 echo '-------- section --------'
+
+
+
+C:\Windows\System32\OpenSSH\ssh.exe  -p 2222 guest@telehack.com
+
 
 
   Type HELP for a detailed command list.
@@ -43,7 +46,8 @@ Press control-C to interrupt any command.
 More commands become available after login.
 .help
 2048                           sliding tile puzzle game
-?                              show command list
+?
+                         show command list
 a2 <disk|file>                 apple ][ emulator
 advent                         play adventure
 aquarium                       an aquarium/sea animation in ASCII art
@@ -51,9 +55,11 @@ areacode <areacode|location>   look up an areacode or location
 basic                          start the basic interpreter
 bf [code|file]                 brainf*ck interpreter
 c8 [rom]                       launch CHIP-8 emulator
+
 cal [year]                     print a calendar
 calc [expr]                    calculator
 callsign <text>                lookup information for an amateur radio callsign
+
 cat <file>                     dump contents of file
 ching                          The Book of Changes
 clear                          clear screen
@@ -63,10 +69,13 @@ date                           print day and time
 ddate                          convert Gregorian dates to Discordian dates
 delta                          convert timestamp to delta time string
 diff <filea> <fileb>           show the difference between two files
+
 dir                            list files
+
 echo [/lc|uc|title] <text>     display or transform a line of text
 eliza                          converse with an AI psychotherapist
 exit                           terminate and return to previous shell or logout
+
 factor <number>                print the prime factors of a number
 figlet [/font] <message>       make large letters out of ordinary text
 file <filename>                determine file type
@@ -74,9 +83,18 @@ finger [@host]                 show users on current system or <host>
 fnord                          generate a fnord
 geoip [ipaddr]                 show location for an ip address
 gif [search]                   search for a gif
+
 head <file>                    display first lines of a file
-help                           print a list of commands and descriptions
+
+
+help
+     print a list of commands and descriptions
 ipaddr
+
+
+109.81.88.62
+Prague, Czechia
+
           show current ip address
 joke [search]                  show random joke from unified joke database
 liff [search]                  look up a definition from The Meaning of Liff
@@ -99,11 +117,14 @@ morse <message>                encode/decode morse code
 netstat
             show connected hosts
 
-newuser                        create a new telehack account
+newuser
+                    create a new telehack account
 
-notes                          usenet newsreader
+notes
+             usenet newsreader
 
-octopus                        octal/hex/binary/ascii key dumper
+octopus
+         octal/hex/binary/ascii key dumper
 
 phoon                          show phase of the moon
 pig <text>                     convert text into pig latin
@@ -123,20 +144,30 @@ rfc [num]                      Read Internet Request for Comment (RFC)
 rig                            random identity generator
 roll                           roll animated dice
 rot13 <message>                encode/decode rot13 text
-run <program>                  run the specified program (.bas .gam .exe .a2)
+
+
+
+run
+ <program>
+                run the specified program (.bas .gam .exe .a2)
 
 salvo [/host]                  play salvo
 sleep <seconds>                delay for a specified amount of time
 starwars                       ascii movie
 sudoku                         play a game of sudoku
 tail <file>                    display the last part of a file
+
 traceroute <host>              show path to <host>
+
 typespeed                      measures your typing speed
 units                          unit conversion
-uptime                         time telehack has been up since last boot
+uptime
+      time telehack has been up since last boot
+
 usenet                         distributed Internet discussion system
 
-users                          show user table
+users
+        show user table
 
 uumap <host>                   show uumap entry for a host
 
@@ -183,17 +214,29 @@ guest. Also, you can optionally add a public key with the SET KEY command.
 
 
 
-vscode ➜ ~ $ ssh -p 2222 guest@telehack.com
+vscode ➜ ~ $
+
+C:\Windows\System32\OpenSSH\ssh.exe  -p 2222 guest@telehack.com
+
 The authenticity of host '[telehack.com]:2222 ([64.13.139.230]:2222)' can't be established.
 ED25519 key fingerprint is SHA256:7lRupOG7vxiW/9UDBSAVY0wvOHfzCnnqJz6M8RNty+U.
 This key is not known by any other names
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
+yes
+
 Warning: Permanently added '[telehack.com]:2222' (ED25519) to the list of known hosts.'
+
+
+There are 91 local users. There are 26648 hosts on the network.
+
+May the command line live forever.
 
 
 NEWUSER
 
+
+%currently unavailable
 
 Due to high demand, new users must be referred by an existing user.
 Existing users can type REFER to generate a new referral code.
@@ -215,13 +258,30 @@ ls
   pman.man         porthack.exe     privacy.txt
   rogue.gam        rootkit.exe      satcom.man
   showrunning.txt  smile.c8         snowing.vt
-  sstrek.bas       starwars.txt     sysmon.txt
+  sstrek.bas       starwars.txt
+
+  sysmon.txt
+
   telehack.txt     tetris.exe       ttest.vt
-  tunes.bas        underground.txt  unix.txt
+  tunes.bas        underground.txt
+   unix.txt
   wardial.exe      wumpus.bas       xmas.vt
   xmodem.exe       zork.gam
 
 ls -l
+aaaaa
+llll
+a a a a
+h h h
+q
+
+cat sysinfo.bas
+
+#run sysinfo.bas
+
+
+-rw-r--r--  1 bin  bin    16869 Jan 11 19:30 sysinfo.bas
+
 
 .ls -l
 -rw-r--r--  1 bin  bin   138240 Oct 09  2011 advent.gam
@@ -231,7 +291,15 @@ ls -l
 -rw-r--r--  1 bin  bin       48 Aug 30  2018 c8test.c8
 -rw-r--r--  1 bin  bin    34359 Feb 05 18:43 changelog.txt
 -rw-r--r--  1 bin  bin     7339 May 17  2012 colossus.txt
+
 -rw-r--r--  1 bin  bin   216330 Oct 09  2011 command.txt
+
+
+cat command.*
+
+
+
+
 -rw-r--r--  1 bin  bin   680229 Oct 09  2011 crackdown.txt
 -rw-r--r--  1 bin  bin     3020 Oct 09  2011 do-well.txt
 -rw-r--r--  1 bin  bin     2051 Apr 08  2021 dojo.man
@@ -254,7 +322,12 @@ ls -l
 -rw-r--r--  1 bin  bin   285184 Oct 09  2011 lostpig.gam
 -rw-r--r--  1 bin  bin     1940 Sep 02  2019 mastermind.bas
 -rwxr-xr-x  1 bin  bin   251904 Jul 09  2021 mud.exe
+
+
+cat notes.*
+
 -rw-r--r--  1 bin  bin    11473 Mar 01  2012 notes.txt
+
 -rw-r--r--  1 bin  bin   328191 Aug 30  2018 orange-book.txt
 -rw-r--r--  1 bin  bin    20630 Sep 02  2019 oregon.bas
 -rw-r--r--  1 bin  bin      727 Oct 09  2020 pman.man
@@ -269,7 +342,9 @@ ls -l
 -rw-r--r--  1 bin  bin    29618 Mar 04  2021 sstrek.bas
 -rw-r--r--  1 bin  bin    23834 Oct 09  2011 starwars.txt
 -rw-r--r--  1 bin  bin      215 Dec 30  1976 sysmon.txt
+
 -rw-r--r--  1 bin  bin    24578 Dec 24  2022 telehack.txt
+
 -rwxr-xr-x  1 bin  bin    49899 Jun 27  2021 tetris.exe
 -rw-r--r--  1 bin  bin     3189 Jan 11  2015 ttest.vt
 -rw-r--r--  1 bin  bin     1291 Sep 30  2021 tunes.bas
@@ -317,6 +392,7 @@ commands in all-caps.  For example:
 
 You may type DIR or dir to obtain a list of files.
 
+
 In help messages, <> signifies required arguments to commands, whereas
 [] signifies optional arguments.  The pipe symbol | signifies "or" or an
 alternative.  For example:
@@ -358,6 +434,8 @@ The HELP command provides one-line descriptions of command functions,
 including any modifier arguments that may be available. Examples:
 
     @ help
+
+
     @ help telnet
     @ help ftp
 
@@ -367,6 +445,8 @@ Getting Unstuck
 
 Any command may be terminated by typing ^C (control-C).  To log out of a
 remote host or exit a subshell, type ^D (control-D), EXIT or QUIT.
+
+
 
 Note: The Apple II interpreter requires typing ^C twice to exit.
 
@@ -409,10 +489,13 @@ Special control characters:
     ctrl-N         next line
     ctrl-P         previous line
     ctrl-R         quick relay (requires backgrounded relay)
+
     ctrl-T         print system status
+
     ctrl-W         delete word
     (up arrow)     previous line
     (next arrow)   next line
+
 
     (tab)          autocomplete next command/file/user/host
 
@@ -422,6 +505,7 @@ Special control characters:
 
 Quick Fun
 ---------
+
 
 Type STARWARS to view the pinnacle of ASCII-mation, a full-length rendition
 of Star Wars in ASCII.
@@ -438,8 +522,10 @@ Type Aquarium to watch an animated aquarium in ASCII art.
 NLI Lobby
 ---------
 
+
 When you first connect to Telehack, you will be in the not-logged-in
 lobby.  The NLI lobby is indicated by the '.' prompt:
+
 
     $ telnet telehack.com Trying 64.13.147.30...  Connected
     to telehack.com.  Escape character is '^]'.
@@ -469,6 +555,8 @@ lobby.  The NLI lobby is indicated by the '.' prompt:
       zc          zork        zrun
     .
 
+
+
 A limited subset of commands are available in the lobby.
 
 To login or create a new account, type LOGIN.
@@ -488,6 +576,8 @@ any command which produces paginated output.
 
 At the --More-- prompt, the following single-key commands may be typed:
 
+
+
     space   show next page
     b       back one page
     q       quit
@@ -504,6 +594,7 @@ At the --More-- prompt, the following single-key commands may be typed:
 The pager also supports several pipes. These can be appended to commands that
 produce paginated output:
 
+
     grep <pattern>     show lines matching pattern
     grep -c <pattern>  show number of lines matching
     grep -i <pattern>  case insensitive matching
@@ -515,9 +606,14 @@ produce paginated output:
     wc -m              show maximum line length
     wc -w              show number of words
 
+
+
+
 For example:
 
     @ users | grep Mountain View, CA | sort username
+
+
 
 
 Network Hosts
@@ -527,12 +623,17 @@ There are approximately 26,600 virtual hosts on the Telehack network.
 These represent systems that were on the early Usenet/arpanet as well
 as defunct BBS systems from the 80's and 90's.
 
+
+
+
 Type HOSTS to see a partial list of network hosts.  Type HELP HOSTS for
 more information on the hosts command.
 
 A collection of retro files has been distributed across the hosts in the
 network.  The files were sourced from the extensive archive assembled by
 Jason Scott of Textfiles.com as well as other sources.
+
+
 
 
 Telnetting to Hosts
@@ -550,11 +651,16 @@ You may telnet to any host appearing in your netstat list:
        hell      Clinton Reilly Campaigns                   Alameda, CA
        accom     Axial Corp.                                Belmont, CA
 
+
+
+
     @ telnet mimsy
     Trying...
     Connected to MIMSY
 
     Computer Science Dept., University of Maryland, College Park
+
+
     DEC Vax-8600 4.3BSD
 
     login: guest
@@ -576,6 +682,8 @@ user.  The full set of commands on the host may not be available if you are
 logged in as guest.
 
 
+
+
 Dialing a host
 --------------
 
@@ -585,6 +693,8 @@ You may connect to a host by using the DIAL command.
   dialing ATDT (314) 837-2840    CONNECT 9600
 
 Connected to THEOASIS
+
+
 
 
 Hacking a Host
@@ -613,6 +723,8 @@ made available to you, in which you can store these programs.
 
 
 
+
+
 Be careful not to overfill it, check your disk usage with the DF command
 before transferring a file.
 
@@ -635,6 +747,8 @@ ftp> put porthack.exe
 ...
 
 
+
+
 Historical Users
 ----------------
 
@@ -643,10 +757,14 @@ modem dialup, fidonet, uucp/usenet, or on the arpanet in the 1980's and
 90's.  Real people used these systems and could often be seen logged in
 doing work, reading, socializing or playing games.
 
+
+
 Data archaeology applied against the oldest available uucp archives, UUCP
 network maps from the era, as well as other available electronic sources
 has allowed Telehack to reconstruct the online occupants of these vanished
 network hosts.
+
+
 
 To see users logged into a Telehack host, use the FINGER @host command:
 
@@ -677,6 +795,8 @@ To see users logged into a Telehack host, use the FINGER @host command:
     ...
 
 
+
+
 Guessing Passwords
 ------------------
 
@@ -686,6 +806,8 @@ hacking method was to try various common passwords such as "secret",
 
 As well, upon closer inspection of hosts, you might find
 that you don't have to guess. . .'
+
+
 
 
 Z-Code Games
@@ -702,6 +824,8 @@ the .GAM extension:
 
     Welcome to Adventure
 
+
+
     At End Of Road
     You are standing at the end of a road before a small
     brick building. Around you is a forest. A small stream
@@ -717,7 +841,8 @@ BASIC Interpreter
 
 To enter the basic interpreter, type BASIC.
 
-    @ basic
+    @
+	basic
     Dartmouth DTSS TeleBASIC (c) 1964,1966,1969,1970,1971,1979
 
 The basic interpreter subsystem has a number of historical programs
@@ -727,16 +852,34 @@ with LOAD or begin execution with RUN.
 
 Basic commands are:
 
-    > help
+    >
+	help
+
+a a a a a
+
     delete                   delete a user program
-    dir                      directory of basic programs
+
+
+    dir
+	                 directory of basic
+
+
     help                     print this list
-    list                     list the program in memory
+
+    list
+	        list the program in memory
+
     load <file>              load program from file
-    quit                     exit the basic interpreter
+
+    quit            
+	         exit the basic interpreter
+
     renumber [start[,inc]]   renumber the program in memory
+
     run                      run the program in memory
+
     run <program>            load and run the specified program file
+
     save <file>              save a user program
 
 
@@ -744,6 +887,8 @@ Example basic session:
 
     @ basic
     Dartmouth DTSS TeleBASIC (c) 1964,1966,1969,1970,1971,1979
+
+
     > ?
     Command, one of the following:
       delete  dir     help    list    load    quit    run     renumber
@@ -777,16 +922,27 @@ Example basic session:
       ttl-scrl.bas     ucase.bas        uitleg1.bas      uitleg2.bas
       unprotct.bas     war.bas          weekday.bas      windchil.bas
       xfertime.bas     xformer.bas      ykw1.bas         ykw2.bas
-    > load hello.bas
+
+
+    >
+	load hello.bas
+
+
+
+run
+
     Ok
-    > list
-        2  PRINT TAB(33); HELLO
-        4  PRINT TAB(15); CREATIVE COMPUTING  MORRISTOWN, NEW JERSEY
+    >
+	 list
+        2
+		 PRINT TAB(33); HELLO
+        4		  PRINT TAB(15); "CREATIVE COMPUTING  MORRISTOWN, NEW JERSEY"
         6  PRINT: PRINT: PRINT
        10  PRINT  HELLO.  MY NAME IS CREATIVE COMPUTER.
        20  PRINT: PRINT: INPUT  WHAT'S YOUR NAME ;N$: PRINT
        30  PRINT  HI THERE,  ;N$; , ARE YOU ENJOYING YOURSELF HERE ;
-       40  INPUT B$: PRINT
+       40
+	    INPUT B$: PRINT: print b$, b$
        50  IF B$= YES  THEN 70
        55  IF B$= NO  THEN 80
     ...
@@ -796,6 +952,9 @@ Example basic session:
     HELLO.  MY NAME IS CREATIVE COMPUTER.
 
     WHAT'S YOUR NAME?
+
+
+
 
 
 6502 System Monitor
@@ -849,6 +1008,9 @@ the g command:
 
 To return to the Telehack command shell from the system monitor,
 use the r command.
+
+
+
 
 
 Remote Terminal Monitoring
@@ -947,6 +1109,9 @@ Usenet Archive
 
 Type USENET to view the Usenet archive.
 
+
+
+
 The archive was originally collected by Henry Spencer at the University of
 Toronto beginning in 1981. Later it was rescued by David G. Wiseman from
 the University of Western Ontario, who drove two hours in a pickup truck to
@@ -1038,6 +1203,9 @@ https://www.techradar.com/news/networking/hack-virtual-1980s-networks-with-teleh
 https://tymkrs.tumblr.com/post/74842922663/telehack-the-cycle-of-games
 https://personal.garrettfuller.org/blog/2018/03/08/telnet-fun/
 https://medium.com/nerd-for-tech/wanna-be-the-king-of-the-hill-ea775da2392c?sk=56b236c5225ac
+
+
+
 
 
 Movie/TV Show List

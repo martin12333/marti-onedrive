@@ -539,6 +539,8 @@ cmd /c dir "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio C
 where.exe   code
 
 cmd /c dir "C:\Program Files\Microsoft VS Code\bin"
+cmd /c dir "C:\Program Files\Microsoft VS Code\"
+cmd /c dir "C:\Program Files\Microsoft VS Code\resources\app"
 code  "C:\Program Files\Microsoft VS Code\bin\code.cmd"
 #code  "C:\Program Files\Microsoft VS Code\resources\app\out\cli.js"
 

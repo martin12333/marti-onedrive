@@ -11627,3 +11627,10 @@ explorer.exe "C:\Users\marti\AppData\Roaming\Microsoft\Internet Explorer\Quick L
 cmd /c dir "C:\Users\marti\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar"
 cmd /c dir "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio Code"
 py
+cmd /c dir "C:\Program Files\Microsoft VS Code\bin"
+cmd /c dir "C:\Program Files\Microsoft VS Code\"
+cmd /c dir "C:\Program Files\Microsoft VS Code\tools"
+cmd /c dir "C:\Program Files\Microsoft VS Code\resources"
+cmd /c dir "C:\Program Files\Microsoft VS Code\resources\app"
+where.exe ssh
+C:\Windows\System32\OpenSSH\ssh.exe  -p 2222 guest@telehack.com

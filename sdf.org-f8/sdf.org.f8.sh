@@ -30,6 +30,25 @@ yes
 
 
 
+
+
+247
+
+/?q=sdf
+
+http://sdf1.org/index.cgi?vhost
+
+
+https://sdfeu.org/w/tutorials:dotfiles:profile_jbaber
+
+stty erase '^?' echoe
+
+export MAIL PS1 TERM EDITOR VISUAL TZ EMAIL REPLYTO PARINIT
+
+http://webstats.freeshell.org/
+
+
+
 notes -r
 
 p
