@@ -11639,3 +11639,4 @@ findstr.exe   -i -R  'c.?.users.marti[\\/]onedrive$'   .
 findstr.exe   -i -R  'c.?.users.marti[\\/]onedrive$'   '*'
 bash
 bash
+conda activate pip310ecco
