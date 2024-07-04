@@ -11635,3 +11635,6 @@ cmd /c dir "C:\Program Files\Microsoft VS Code\resources\app"
 where.exe ssh
 C:\Windows\System32\OpenSSH\ssh.exe  -p 2222 guest@telehack.com
 dir   '**/*-add-all'    ###  '**/*-add-all'   #   "C:\Users\marti\OneDrive\0000"
+findstr.exe   -i -R  'c.?.users.marti[\\/]onedrive$'   .
+findstr.exe   -i -R  'c.?.users.marti[\\/]onedrive$'   '*'
+bash

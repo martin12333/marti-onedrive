@@ -8,7 +8,7 @@ exit
 ### !!! WILL NOT ADD, IF THERE IS A .GIT IN THE DIR
 
 	cd ~/OneDrive
-	git add -vv  '*.f8.*' ##  "C:\Users\marti\OneDrive\0000"
+	git add -vv  '*.f8.*'  ## "C:\Users\marti\OneDrive\xxxxxxxxxxxxxxx"
 
 	cd ~/OneDrive
 	git commit -v -a -m add

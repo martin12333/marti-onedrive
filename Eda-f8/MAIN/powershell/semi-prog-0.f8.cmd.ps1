@@ -317,7 +317,7 @@ dotnet  fsi
 
 
 
-				C:\Users\marti\OneDrive\0000\Jscript\Jscript.f8.ps1
+				C:\Users\marti\OneDrive\Jscript\Jscript.f8.ps1
 
 
 

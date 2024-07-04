@@ -3,7 +3,7 @@ exit
 
 cd ~/OneDrive
 cd C:\Users\marti\OneDrive
-git add -vv  '*.f8.*'  ## "C:\Users\marti\OneDrive\0000"
+git add -vv  '*.f8.*'  ## "C:\Users\marti\OneDrive\xxxxxxxxxxxxxxx"
 git commit -v -a -m backup
 git push
 

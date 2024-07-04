@@ -11,6 +11,12 @@ exit
 echo '-------- section --------'
 
 
+newer
+code    vscode-f8\vscode-find-and-replace-all---onedrive-000.f8.ps1
+
+
+
+
 f8_document
 "f8_document"
 
@@ -58,8 +64,13 @@ Invoke Replace in Files (under the Edit menu, or with shortcut Ctrl+Shift+H)
 
 
 echo '-------- section --------'
+
+
+
 moved to
 "C:\Users\marti\snippets-from--vscode-find-and-replace-all.f8.sh.ps1"
+
+
 
 CRLF FAIL
 Ctrl+enter
@@ -276,4 +287,6 @@ acronis backup
 
 
 
+
+old
 
