@@ -11638,3 +11638,4 @@ dir   '**/*-add-all'    ###  '**/*-add-all'   #   "C:\Users\marti\OneDrive\0000"
 findstr.exe   -i -R  'c.?.users.marti[\\/]onedrive$'   .
 findstr.exe   -i -R  'c.?.users.marti[\\/]onedrive$'   '*'
 bash
+bash

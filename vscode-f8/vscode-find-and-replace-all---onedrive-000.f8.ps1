@@ -49,24 +49,38 @@ c.{1,2}users.marti[\\/]onedrive[\\/][^'" ]*
 ###findstr.exe   -i -R  'c.?.users.marti[\\/]onedrive$'   '*'
 
 bash
+
+grep --help
+
 ###grep    --count  --no-filename  -i -R -E 'c.{1,2}users.marti[\\/]onedrive$'   .
 grep      -i -R -E 'c.{1,2}users.marti[\\/]onedrive$'   .  |  wc
 grep     --no-filename   -i -R -E -o  'c.{1,2}users.marti[\\/]onedrive(.)'   .  |  sort -u
 
 x='c.{1,2}users.marti[\\/]''onedrive[\\/]'"[^\"' ]*"
-'
+x='c.{1,2}users.marti[\\/]''onedrive[\\/]'"[^\"' ]*"
+x='c.{1,2}users.marti[\\/]''onedrive[\\/]'"[^\"' ]*"
+x='c.{1,2}users.marti[\\/]''onedrive[\\/].{0,1}'"\w*"
 echo $x
 grep     --no-filename   -i -R -E -o  "$x"   .  |  sort -u   >../1
 grep     --no-filename   -i -R -E -o  "$x"   .    >../2
+grep     -i -R -E -o  "$x"   .    >../3
+grep     -i -R -E -o  --text  "$x"   .    >../4
+
 mv -iv 1  ../1
 mv -iv 2  ../2
 y
 mv -iv 1  ../1
 mv -iv ../2  vscode-f8/grep-o--debug.txt
 sort -u  vscode-f8/grep-o--debug.txt  > vscode-f8/grep-o--debug--sorted-u.txt
+mv -iv ../3  vscode-f8/grep-o--debug--fnames.txt
+mv -iv ../4  vscode-f8/grep-o-word--debug--fnames.txt
 
 
-grep --help
+cut -d ':'   -f 1  vscode-f8/grep-o--debug--fnames.txt  |  sort -u  |   grep  -Eo  '([.]\w+)+$'  |sort |uniq -c  |  sort -n
+
+
+
+
 exit
 
 
