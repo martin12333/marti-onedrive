@@ -378,6 +378,12 @@ tiworker is not ATI
 
 cmd /c mklink /j   "c:\Users\Eduar\OneDrive\programming stuff\EdL-pstuff-MMilan"    "C:\Users\marti\OneDrive\EdL-pstuff-MMilan"
 
+
+cmd /c dir /a    C:\Users\marti\.git
+cmd /c dir /a     C:\Users\marti\OneDrive\.git
+cmd /c dir /a   C:\Users\milan_rxtipwr\.git
+cmd /c dir /a   C:\Users\milan_rxtipwr\OneDrive\.git
+
 ##########
 #  sync by hand ?!
 #  ^a  ^c  @tab ^V
