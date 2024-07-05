@@ -98,7 +98,10 @@ mv -iv ../4  vscode-f8/grep-o-word--debug--fnames.txt
 sort -u   ../5   >onedrive.live.com--itself/grep-o--text--5--sorted.txt
 #mv -iv ../5  vscode-f8/grep-o-word--debug--fnames.txt
 
+
+
 cat  onedrive.live.com--itself/grep-o--text--5--sorted.txt    |   grep  -i -E  -o  --text 'users.marti.onedrive.[^\\/]+'  |  tr  A-Z a-z |  grep -o --text  '[^-,. (#)_\\/a-z0-9]'   |  sort -u
+
 cat  onedrive.live.com--itself/grep-o--text--5--sorted.txt    |   grep  -i -E  -o  --text 'users.marti.onedrive.[^\\/]+'  |  tr  A-Z\\ a-z/ |  grep -o -E --text  '[-,. (#)_\\/a-z0-9]+'   |   sort -u   >../7
 
 code ../7
@@ -114,12 +117,23 @@ dir
 '/c'
 dir /b  /ad    >../6
 dir /b  /ad  /s    >../8
+dir /b   /s    >../9
 
+
+bash
  exit
 wc   ../6
 wc   ../8
+cat   ../8
+cat  ../8    |   grep  -i -E  -o  --text 'users.marti.onedrive.[^\\/]+'  |  sort|  uniq -c  |  sort -n
+cat  ../9    |   grep  -i -E  -o  --text 'users.marti.onedrive.[^\\/]+'  |  sort|  uniq -c  |  sort -n
+find .    -type d  |   grep  -i -E  -o  --text 'users.marti.onedrive.[^\\/]+'  |  sort|  uniq -c  |  sort -n
+POMALy
 
-dir 
+|  tr  A-Z\\ a-z/ |  grep -o -E --text  '[-,. (#)_\\/a-z0-9]+'   |   sort -u   >../7
+
+
+dir
 
 
 
