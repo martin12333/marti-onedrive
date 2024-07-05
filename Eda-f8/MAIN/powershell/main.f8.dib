@@ -30,12 +30,36 @@ git push
 #!pwsh
 
 cd ~/OneDrive
-$x=Get-ChildItem  -Recurse  '*-add-all'    #### add  '**/*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
-git add -vv   $x.FullName  
+$x=cmd /c dir  /b   /s      '*-add-all'    #### add  '**/*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
+echo $x
+git add -vv   $x
+
+#!pwsh
+
+(Get-ChildItem  -Recurse C:\Users\marti\OneDrive          ).FullName   >C:\Users\marti\93
+###   7 seconds 
+
+#!pwsh
+
+cd ~/OneDrive
+$x=Get-ChildItem  -Recurse    '*-add-all'    #### add  '**/*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
+#git add -vv   $x.FullName  
+###    44 seconds !!
+
+#!pwsh
+
+#cmd /c dir  C:\Users\marti\OneDrive   /b /ad /s    >C:\Users\marti\8
+cmd /c dir  C:\Users\marti\OneDrive   /b  /s    >C:\Users\marti\82
 
 #!pwsh
 
 git ls-files  |   findstr.exe -i autohot
+
+#!pwsh
+
+cat  ../../../.849c9593-d756-4e56-8d6e-42412f2a707b
+#cat  .849c9593-d756-4e56-8d6e-42412f2a707b
+###cmd /c type ~/.849c9593-d756-4e56-8d6e-42412f2a707b
 
 #!pwsh
 

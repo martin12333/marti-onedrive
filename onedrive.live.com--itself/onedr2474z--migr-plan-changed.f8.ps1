@@ -19,3 +19,13 @@ cd .\a-msklc
 cd ..
 
 
+cmd /c dir *.ipynb /s
+
+bash
+exit
+find . -name  "*.ipynb"    -size +10M   -ls
+
+git ls-files|wc
+git ls-files| grep   -o    '^.*[/]'|sort -u   |wc
+
+cat .849c9593-d756-4e56-8d6e-42412f2a707b

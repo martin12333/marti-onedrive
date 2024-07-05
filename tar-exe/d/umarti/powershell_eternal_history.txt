@@ -11650,3 +11650,7 @@ cd .\a-msklc
 cmd /c dir ..\.git   /a
 cd ..
 dir     *onedri*| select Name
+cmd /c dir *.ipynb /s
+(Get-ChildItem  -Recurse C:\Users\marti\OneDrive ).FullName   >C:\Users\marti\93
+(Get-ChildItem  -Recurse C:\Users\marti\OneDrive ).FullName   >C:\Users\marti\93
+cmd /c dir  C:\Users\marti\OneDrive   /b  /s    >C:\Users\marti\82
