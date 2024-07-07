@@ -54,3 +54,13 @@ https://chat.google.com/dm/5Jf9bgAAAAE/sy3XglmFZ2A/sy3XglmFZ2A?cls=10
 
 na Anděl, tam už jistě nějaké tričko seženu, když ne v C&A, tak Tescu, H&M
 
+code conn\writing22.md
+
+<p>Tentokrát Brumbál vypadal poměrně vážně, jeho obvyklý úsměv chyběl a byl oblečen v pyžamu tmavší a střízlivější barvy než obvykle.</span></p>
+
+"Nejprve: máš s sebou své poznámky o včerejším setkání s Luciusem Malfoyem?"</span></p>
+<p>"Poznámky?" vyhrkl Harry.</span></p>
+<p>"<em>Určitě</em> jsi si si to zapsal..." řekl starý kouzelník a hlas se mu vytratil.</span></p>
+<p>Harry se cítil docela zahanbeně. Ano, po tom, co jste přeškobrtali přes záhadný rozhovor plný významných narážek, kterým jste nerozumněli, <em>zatraceně očividným</em> dalším krokem by bylo všechno si okamžitě zapsat, dříve než vzpomínka vybledne, abyste se mohli pokusit promyslet si to později.</span></p>
+
+

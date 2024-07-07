@@ -799,11 +799,15 @@ date="1594899973930" type="2" subject="null" body="Asi jsem byl pod vlivem antid
 
 
 
+ešní výsadek do obchodu zatím nebyl úspěšný - byla jsem shánět oblečení pro sebe a Edu v C&A na Můstku  - měli tam několik ks pánských bavlněných triček s dlouhým, ale ani jedno XL
 
 XL. Pyžamo pouze s příměsí polyesteru. Pak už všude zavřeli a musela jsem domů. | V pátek jedu shánět další oblečení pro E., na Anděl, tam už jistě nějaké tričko seženu, když ne v C&A, tak Tescu, H&M, nebo něčem jiné
 
 |Prosim nepis,ze chces k narozeninam neco,co mam udelat sama pro sebe,protoze fakt,ze je to neco,co jsem mela uz davno udelat,ale neudelala,bude mit pravdepodobne koreny v tom,ze to zoufale delat nechci :-):-)
 
+https://chat.google.com/dm/5Jf9bgAAAAE/anCh1XGFZ74/anCh1XGFZ74?cls=10
+roušky jsou docela dobré. jsem ochoten koupit dalších 50 roušek za dalších 1000Kč. Hodí se mi i pro studený vzduch a Prašné prostředí.
+nevím zda ti funguje Hangouts 
 
 
 
