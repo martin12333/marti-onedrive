@@ -11658,3 +11658,14 @@ bash
 cmd
 bash
 cmd /c dir D:\umarti\*unsort-du64-l-*.txt
+bash
+conda activate pip310ecco
+cd D:\umarti
+cmd /c dir /b /s  *du-m*
+cd 'D:\A,SMAZAT-V-NOUZI'
+cmd /c dir /b /s  *du-m*
+code   F8_text_file\vscode-find-and-replace-all.f8.sh
+cd ~/OneDrive
+code   F8_text_file\vscode-find-and-replace-all.f8.sh
+echo `  find -name '*.f8.*' -type f     ``
+

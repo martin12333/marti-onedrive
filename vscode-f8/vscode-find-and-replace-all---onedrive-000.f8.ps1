@@ -10,6 +10,9 @@ exit
 echo '-------- section --------'
 
 
+
+
+
 dir .\onedrive.live.com--itself
 
 
@@ -32,6 +35,8 @@ cd ..
 
    older
 code   F8_text_file\vscode-find-and-replace-all.f8.sh
+newer
+code vscode-f8\vscode-find-and-replace--or--grep--or--findstr.f8.ps1
 
 
 

@@ -6,15 +6,23 @@ exit
 
 (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
+###
 
 
+code windows-f8\win-disk---full.f8.ps1.ipynb
 
-# file:///C:\Users\marti\OneDrive\windows-f8\win-disk-c-full.f8.ps1
 
 mkdir D:\umarti\246-du64
 
-#where.exe du
-##where.exe du64
+##where.exe du
+###where.exe du64
+
+
+
+diskusage.exe /a   /h   /t:10
+diskusage.exe   /h   /t:10   C:\Users\marti\OneDrive
+
+
 
 # spust hned, trva dlho
 

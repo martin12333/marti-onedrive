@@ -13,8 +13,9 @@ echo '-------- section --------'
 
 mkdir D:\umarti\246-du64
 
-#where.exe du
-##where.exe du64
+
+##where.exe du
+###where.exe du64
 
 # spust hned, trva dlho
 
@@ -23,7 +24,6 @@ mkdir D:\umarti\246-du64
 DiskUsage /?
 where.exe diskusage
 where.exe diskext
-
 #diskext.exe
 
 diskusage.exe /a   /h   /t:10

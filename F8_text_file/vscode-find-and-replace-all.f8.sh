@@ -13,6 +13,8 @@ echo '-------- section --------'
 
 newer
 code    vscode-f8\vscode-find-and-replace-all---onedrive-000.f8.ps1
+code vscode-f8\vscode-find-and-replace--or--grep--or--findstr.f8.ps1
+
 
 
 
