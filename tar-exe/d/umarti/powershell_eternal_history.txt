@@ -11669,3 +11669,17 @@ cd ~/OneDrive
 code   F8_text_file\vscode-find-and-replace-all.f8.sh
 echo `  find -name '*.f8.*' -type f     ``
 
+dir C:\u\busytex\dist\ALMA246g\var\www\du-m.txt
+cmd
+bash
+dir d:\umarti\dow*
+cmd /c dir d:\umarti\dow*
+mkdir D:\umarti\dowof-c-busytex
+cd
+cd busytex
+cmd /c mklink /j dist    D:\umarti\dowof-c-busytex
+cmd /c mklink /?
+explorer .
+cmd /c mklink /j dist    D:\umarti\dowof-c-busytex
+dir
+cmd /c dir

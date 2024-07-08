@@ -30,10 +30,19 @@ cmd /c dir example
 
 echo '-------- section --------'
 
+
+mkdir D:\umarti\dowof-c-busytex
+
 cd
 cd busytex
 
-cmd /c mklink /j dist  D:\umarti\dowNLOADS--SYMLINKED
+explorer .
+
+cmd /c mklink /j dist    D:\umarti\dowof-c-busytex
+
+cmd /c dir
+cmd /c mklink /?
+
 
 https://github.com/busytex/busytex/issues/1
 
@@ -56,7 +65,10 @@ cd busyide
 FAIL
 
 both
-cmd /c mklink /j dist  D:\umarti\dowNLOADS--SYMLINKED
+
+cmd /c mklink /j dist    D:\umarti\dowof-c-busytex
+
+###cmd /c mklink /j dist  D:\umarti\dowNLOADS--SYMLINKED
 #cmd /c mklink /j dist  D:\umarti\dowNLOADS--SYMLINKED
 
 ##python ../busytex/example/example.py
@@ -81,8 +93,8 @@ echo '-------- section --------'
 cd
 cd busyboxnanozipdiff3
 
-cmd /c mklink /j dist  D:\umarti\dowNLOADS--SYMLINKED
 
+cmd /c mklink /j dist    D:\umarti\dowof-c-busytex
 
 
 #p#ython ../busytex/example/example.py

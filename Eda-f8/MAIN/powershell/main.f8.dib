@@ -66,6 +66,22 @@ cat  ../../../.849c9593-d756-4e56-8d6e-42412f2a707b
 wsl --list --all --verbose
 wsl --shutdown
 
+#!pwsh
+
+cat    C:\Users\marti\OneDrive\tar-exe\d\umarti\powershell_eternal_history.txt    |findstr -i    'mklink'  # 'mklink./d'
+
+#!value
+
+mklink /d C:\u "C:\Users\marti"
+cmd /c mklink /d xxxx  D:\umarti\dowNLOADS--SYMLINKED
+#cmd /c mklink /j xxxx  AppData
+
+#!pwsh
+
+cmd /c dir c:\p*
+cmd /c dir C:\Users\marti   |   findstr.exe  -i   'junc'
+cmd /c dir C:\Users\marti   |   findstr.exe  -i   'syml'
+
 #!javascript
 
 //return vscode
