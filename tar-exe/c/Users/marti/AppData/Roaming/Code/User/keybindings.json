@@ -16,15 +16,20 @@
     // EDIT bugfix: the part "when": "editorTextFocus" is really needed, otherwise awful behavior in ctrl-f
 
 
-    //{ "key": "y",           "command": "type", "args": { "text": "z" }, "when": "editorTextFocus" },
 
-    //// $e#tina czeshtina čeština ů§"¨"¨
-    //// { "key": "3",           "command": "type", "args": { "text": "#" }, "when": "editorTextFocus" },
-    ////{ "key": "4",           "command": "type", "args": { "text": "$" }, "when": "editorTextFocus" },
-    ////{ "key": "9",           "command": "type", "args": { "text": "(" }, "when": "editorTextFocus" },
-    ////{ "key": "0",           "command": "type", "args": { "text": "_" }, "when": "editorTextFocus" },
-    ////{ "key": "]",           "command": "type", "args": { "text": "{" }, "when": "editorTextFocus" },
-    ////{ "key": ";",           "command": "type", "args": { "text": ":" }, "when": "editorTextFocus" },
+
+	// Windows CZ keyboard
+	// LATER: a better fix: INSTALL ALSO cz QWERTz, then cz QWERTY WILL WORK
+
+			//{ "key": "y",           "command": "type", "args": { "text": "z" }, "when": "editorTextFocus" },
+
+			//// $e#tina czeshtina čeština ů§"¨"¨
+			//// { "key": "3",           "command": "type", "args": { "text": "#" }, "when": "editorTextFocus" },
+			////{ "key": "4",           "command": "type", "args": { "text": "$" }, "when": "editorTextFocus" },
+			////{ "key": "9",           "command": "type", "args": { "text": "(" }, "when": "editorTextFocus" },
+			////{ "key": "0",           "command": "type", "args": { "text": "_" }, "when": "editorTextFocus" },
+			////{ "key": "]",           "command": "type", "args": { "text": "{" }, "when": "editorTextFocus" },
+			////{ "key": ";",           "command": "type", "args": { "text": ":" }, "when": "editorTextFocus" },
 
 
 
