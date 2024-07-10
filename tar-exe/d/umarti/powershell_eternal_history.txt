@@ -11683,3 +11683,10 @@ explorer .
 cmd /c mklink /j dist    D:\umarti\dowof-c-busytex
 dir
 cmd /c dir
+code tar-exe/c/Users/marti/AppData/Roaming/Code/User/keybindings.json
+cd
+cd .\OneDrive\
+code tar-exe/c/Users/marti/AppData/Roaming/Code/User/keybindings.json
+code  ..\AppData\Roaming\Code\User\keybindings.json
+code   C:\Users\marti\OneDrive\tar-exe\c\Users\marti\AppData\Roaming\Code\User\keybindings.json
+code  ..\AppData\Roaming\Code\User\keybindings.json

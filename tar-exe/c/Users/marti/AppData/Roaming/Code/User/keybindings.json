@@ -1,4 +1,13 @@
 // Place your key bindings in this file to override the defaults
+
+//  to reduce a danger of random edits here
+	// master copy is   code  ..\AppData\Roaming\Code\User\keybindings.json
+	// git tracked copy is    code   C:\Users\marti\OneDrive\tar-exe\c\Users\marti\AppData\Roaming\Code\User\keybindings.json
+
+	// see https://github.com/martin12333/marti-onedrive/blob/main2/tar-exe/c/Users/marti/AppData/Roaming/Code/User/keybindings.json
+
+
+	
 [
 
     //  !!!!!!!!!! if bugfix here, then also update at  https://www.reddit.com/r/whitespaceLisp/comments/mu5gms/an_ideal_keyboard_layout_for_programming/gv3udve/
