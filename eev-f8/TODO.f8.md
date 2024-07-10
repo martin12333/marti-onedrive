@@ -5,7 +5,8 @@
 
 # (R)  https://www.google.com/search?q=break+out+of+hyperfocus?+site:www.reddit.com
 
-
+?
+edge://reload
 edge://history/recentlyClosed
 
 
