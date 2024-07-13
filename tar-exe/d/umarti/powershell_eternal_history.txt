@@ -11690,3 +11690,6 @@ code tar-exe/c/Users/marti/AppData/Roaming/Code/User/keybindings.json
 code  ..\AppData\Roaming\Code\User\keybindings.json
 code   C:\Users\marti\OneDrive\tar-exe\c\Users\marti\AppData\Roaming\Code\User\keybindings.json
 code  ..\AppData\Roaming\Code\User\keybindings.json
+cd D:\2222
+dir
+dir -Recurse
