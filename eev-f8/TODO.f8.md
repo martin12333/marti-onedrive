@@ -5,11 +5,13 @@
 
 # (R)  https://www.google.com/search?q=break+out+of+hyperfocus?+site:www.reddit.com
 
-?
-edge://reload
+edge://edge-urls
+
+edge://restart/
 edge://history/recentlyClosed
+edge://extensions/shortcuts
 
-
+edge://workspaces-internals/
 
 # (R)  https://www.diigo.com/user/martin12333?query=%23todoTODO
 

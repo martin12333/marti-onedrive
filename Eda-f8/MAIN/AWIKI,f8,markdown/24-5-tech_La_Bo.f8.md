@@ -85,6 +85,71 @@ A už roky jsem asi neměl s kým mluvit o programovacích jazycích ...
 
 
 
+# https://github.com/Tech-La-Bo-Radotin
+
+// first attemps
+tech_La_Bo
+tech-La-Bo
+"tech-La-Bo"
+
+https://www.google.com/search?q=%22tech-La-Bo%22&newwindow=1&sca_esv=cb67a1539fa9fe2a&sca_upv=1&sxsrf=ADLYWIIMflaoPwtnGwcMgampvHBI0aezHQ%3A1720869805686&ei=rWOSZs68KZiG9u8P9Las6AU&ved=0ahUKEwiOx-PL86OHAxUYg_0HHXQbC10Q4dUDCBA&uact=5&oq=%22tech-La-Bo%22&gs_lp=Egxnd3Mtd2l6LXNlcnAiDCJ0ZWNoLUxhLUJvIjINEC4YgAQYxwEYDRivATIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIGEAAYDRgeMgYQABgNGB4yBhAAGA0YHjIGEAAYDRgeMgYQABgNGB4yBhAAGA0YHjIcEC4YgAQYxwEYDRivARiXBRjcBBjeBBjgBNgBAUjPDVCiCVifC3ABeACQAQCYAY4BoAGGAqoBAzAuMrgBA8gBAPgBAZgCA6ACrgLCAhAQLhiABBiwAxjHARgNGK8BwgIKEAAYgAQYsAMYDcICCRAAGLADGA0YHsICCxAAGLADGAoYDRgemAMAiAYBkAYKugYGCAEQARgUkgcDMS4yoAfYEg&sclient=gws-wiz-serp
+
+https://github.com/search?q=%22tech-La-Bo%22&type=topics
+
+https://it.pinterest.com/martinnovy/tech-labo/
+
+
+
+private
+can be public
+Edo, jake je Tvoje uzivatelske  jmeno na githubu ... vytvarim spol.  repo ... // pro srovnani,  moje uziv.  jmeno je martin12333 ... https://github.com/martin12333
+
+
+
+// we are NOT 
+		Diff Quik Chek Complete, Techlabo (D-EIA) was used. The system GeneXpert PCR Cepheid (PCR) was used for confirmation of laboratory findings. Since the ...
+// we are NOT 
+		https://tri.financnik.cz/techlab
+		https://www.financnik.cz/klientska-sekce/techlab/
+		Moulíkova 1 150 00 Praha 5
+		Smichov
+				V dnešní době slyšíme o umělé inteligenci na každém kroku, ale možná jste ještě nezkoušeli, jak hodně může pomoci v tradingu. V dnešním videu jsem připravil ukázku jak pomocí .A.I. chatu připravuji Python skripty, nad kterými bych si jinak lámal hlavu dlouhou dobu.
+
+
+
+site:financnik.cz "praha"
+site:financnik.cz "radotin"
+
+https://www.google.com/search?newwindow=1&sca_esv=e16c6915a66132bd&sca_upv=1&sxsrf=ADLYWIJkbjNHXsot2YT3b6nuhJJhA990ag:1720882979782&q=%22Radotin%22&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J5fCQuDw5vrzPt_cVO2GgWUj9lYp6rkuKNKs7T0vX7Q845kLJJAqBRnwEjSjOQnlkM3AIZ-wzV2Be2JTssvmQChjqUqVy57ejYhuCymjeL76kd7igeofm3YoeUyIQ03U46w6gNU&sa=X&ved=2ahUKEwjSw9bVpKSHAxX9if0HHYGEDLEQtKgLegQIEhAB&biw=1389&bih=644&dpr=1.38
+
+
+////OLD	
+////// https://github.com/Tech-La-Bo-Praha
+
+
+Rename your organization?
+ Unexpected bad things will happen if you don’t read this!
+We will create redirects for your repositories (web and git access).
+You will need to update your local repositories to point to the new location.
+Renaming may take a few minutes to complete.
+
+
+"Radotin"
+////OLD
+////Tech-La-Bo--Praha
+////Tech-La-Bo-Praha
+Tech-La-Bo-Radotin
+
+////OLD
+////https://github.com/search?q=%22Tech-La-Bo-Praha%22&type=users
+//////https://github.com/organizations/Tech-La-Bo-Praha/settings/profile
+// https://github.com/martin12333/EL-programming-repo/transfer
+///////////https://github.com/Tech-La-Bo-Praha/EL-programming-repo
+
+
+https://github.com/Tech-La-Bo-Radotin/EL-programming-repo
+
+
 
 
 

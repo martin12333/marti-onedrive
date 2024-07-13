@@ -39,6 +39,7 @@ url
 
 my qu:
 outlook rules : forward vs. redirect in outlook on the web ... does either the "forward" rule , or the "redirect" rule, mean , that it deletes the mail message from my inbox?
+
 ai:
 	probably not
 	
@@ -96,6 +97,14 @@ https://outlook.live.com/mail/0/inbox/id/AQQkADAwATM3ZmYAZS0wM2M4LTI4ZTEtMDACLTA
 
 https://keep.google.com/#NOTE/1L9oOkFMlillVxgbbBgXo4FmQn0oWzdjXFboiYFOo6zyib8w6-HKW8E_h7yy11Gw
 
+
+
+
+
+alm
+calm
+V_ALm6
+ ?id%3Dh3584b5e7,f143cf7d,6f6f6eab%26e%3DcDE9VW5rbm93bi1mMmgyNC1DUk0tUE8xLVE2QjYtTGF1bmNoLVNlZyZwMj1Vbmtub3duLWYyaDI0LUNSTS1QTzEtUTZCNi1MYXVuY2gtU2VnJnAzPTB4NDUxYWViZTA0MDZmNzUyMzQxODIxOTdlNGJiNmE5M2NmMDFmZmZhZGMwM2NjODFlYzBlMzgwYTUxZmNjYzUxZg%26s%3DK0PLRUp8q4znGXjibhA9hQz9p0Nd5AUSV_ALm6EFPHs&amp;source=gmail&amp;ust=1720894277848000&amp;usg=AOvVaw1UII8yGH7h6tfz9E-jimyD">Ochrana
 
 
 
