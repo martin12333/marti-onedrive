@@ -1,0 +1,87 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"pwsh","items":[{"aliases":[],"languageName":"pwsh","name":"pwsh"}]}}
+
+#!pwsh
+
+# zatim jeste neumim Github-Desktop
+# udelam pomoci git.exe
+
+#!pwsh
+
+cd D:\2222
+git clone https://github.com/Tech-La-Bo-Radotin/EL-programming-repo
+
+#!pwsh
+
+dir -Recurse
+
+#!pwsh
+
+code D:\2222\EL-programming-repo
+
+#!pwsh
+
+cd D:\2222\EL-programming-repo
+git add -vv --dry-run    .  
+echo  -- --dry-run    
+
+#!pwsh
+
+cd D:\2222\EL-programming-repo
+#git add -vv --dry-run    .  
+git add -vv   .  
+echo  -- NONdry-run    
+
+#!pwsh
+
+cd D:\2222\EL-programming-repo
+git add -vv --dry-run    .  
+echo  -- --dry-run    
+
+#!pwsh
+
+cd D:\2222\EL-programming-repo
+#git add -vv --dry-run    .  
+# git add -vv   .  
+##git add -vv  '*.f8.*'  #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
+git commit -v -a -m backup243t2
+git push
+	git show --name-only
+
+#!pwsh
+
+git ls-files  |   findstr.exe -i autohot
+
+#!pwsh
+
+# warning: in the working copy of 'personal projects/class example.cpp', CRLF will be replaced by LF the next time Git touches it
+
+#!pwsh
+
+# experiments
+# C:\Users\marti\OneDrive\Eda-f8\MAIN\powershell\main.f8.dib
+
+#!javascript
+
+// experiments
+return Object.keys(this)
+
+#!markdown
+
+// experiments
+TODO MARKDOWN
+[command:workbench.action.toggleKeybindingsLogaaaaaaaa](command:workbench.action.toggleKeybindingsLog)
+FAIL aaaaaaaa](command:workbench.action.openGlobalKeybindings)
+aaaaaaaa](command:workbench.action.keybindingsReference)
+
+
+
+aaaaaaaa](command:markdown.showPreview)
+aaaaaaaa](command:markdown.showPreviewToSide)
+aaaaaaaa](command:workbench.action.terminal.openNativeConsole)
+aaaaaaaa](command:workbench.action.quickOpen)
+aaaaaaaa](command:workbench.action.gotoLine)
+aaaaaaaa](command:copyFilePath)
+aaaaaaaa](command:emojisense.quickEmoji)
+aaaaaaaa](command:PowerShell.ShowSessionConsole)

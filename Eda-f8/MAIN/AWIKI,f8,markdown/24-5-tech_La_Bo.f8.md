@@ -100,8 +100,8 @@ https://it.pinterest.com/martinnovy/tech-labo/
 
 
 
-private
-can be public
+private !
+////can be public??? but licenses of codepen repos??
 Edo, jake je Tvoje uzivatelske  jmeno na githubu ... vytvarim spol.  repo ... // pro srovnani,  moje uziv.  jmeno je martin12333 ... https://github.com/martin12333
 
 

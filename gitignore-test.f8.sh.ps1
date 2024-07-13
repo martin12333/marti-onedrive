@@ -1,5 +1,4 @@
-gitignore-test.f8.sh.ps1
-
+exit
 
 \#*
 .#*
