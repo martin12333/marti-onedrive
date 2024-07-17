@@ -11693,3 +11693,10 @@ code  ..\AppData\Roaming\Code\User\keybindings.json
 cd D:\2222
 dir
 dir -Recurse
+dir
+conda activate base
+conda activate basecmd /c dir
+cmd /c dir
+cmd /c dir  oth*
+cmd /c dir  Other_code*
+dir  Other_code*/*

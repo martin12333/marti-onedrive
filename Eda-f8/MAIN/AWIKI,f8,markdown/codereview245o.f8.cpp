@@ -183,6 +183,9 @@ function main() { // note, this code was created by chatGPT
             ......
 ------------------
 
+
+
+
 nojo, to jsou ty callbacky  v  nodejs
 
 clovek by si pral nejaky hezci ekvivalent pro
@@ -213,6 +216,8 @@ EDIT: (moznosti v zavorce maji mensi pocet tutorialu )
 
 
 
+
+
 (https://github.com/GoogleChromeLabs/jsvu?tab=readme-ov-file)
 
 
@@ -235,6 +240,10 @@ a prace se stringy je dulezita v kazdem jazyce
 
 mozna si najdu
 	c++ string literal ... the  '"'s   suffix
+
+
+
+
 
 
 MIMOCHODEM:
@@ -309,6 +318,23 @@ EDIT: RADEJI ZALOZIM GIT REPO
 
 EDIT: RADEJI ZALOZIM GIT REPO
 
+247d zalozeno
 
 
 🚧
+
+
+
+https://www.reddit.com/r/careeradvice/comments/wt6qy9/whats_an_appropriate_length_of_time_to_stay_at/
+
+
+https://www.reddit.com/r/selfhosted/comments/1b3yvs8/im_totally_blind_heres_why_i_selfhost/
+
+
+https://www.reddit.com/r/learnprogramming/comments/17maggy/which_is_the_easiest_job_to_realistically_break/
+
+
+
+
+
+

@@ -17,7 +17,7 @@ remove the file manually to continue.
 
 #!pwsh
 
-git show 
+# git show 
 git push
 
 #!pwsh

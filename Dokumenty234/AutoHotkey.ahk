@@ -218,16 +218,20 @@ $Insert::
 
 	Sleep, 200
 
-	; Open the popup menu
-	;Click, right
-	Send, {AppsKey}
+;DIIGO
+	;;; Open the popup menu
+	;;;Click, right
+	;Send, {AppsKey}
 
-	Sleep, 600
+	;Sleep, 600
 
-	Send, d
+	;Send, d
 
-	Sleep, 600
+	;Sleep, 600
 
+;HYPOTHES.IS
+
+;BOTH
 	Send, h
 
 	return
@@ -274,8 +278,11 @@ $Insert::
 ; *********************************************
 ;============================== DO TEST, BECAUSE IT IS AUTORUN  ==============================
 
+
+;TEST
 ;test :   win+q AutoHotkey run the app ... it asks to reload this ahk file
 ; and then try in the browser the last command \ """"""  #p  ""
+
 
 ; ^`    f1 togg terminal
 ; git commit
