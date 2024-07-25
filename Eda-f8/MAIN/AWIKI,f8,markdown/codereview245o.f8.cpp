@@ -335,6 +335,46 @@ https://www.reddit.com/r/learnprogramming/comments/17maggy/which_is_the_easiest_
 
 
 
+ai
+	growth mindset ... i am neither good nor bad , i am growing ?
+
+Copilot
+Sent by Copilot:
+Absolutely! A growth mindset is all about recognizing that abilities and intelligence can be developed through effort, learning, and perseverance. Instead of seeing yourself as inherently “good” or “bad,” you embrace the idea that you’re constantly evolving and improving. 🌱 Keep nurturing that growth mindset! 🌟
+
+
+
+your programs are growing ... they are  getting  more  interesting ...
+
+
+
+Ahoj Edo,
+
+myslím, že už se můžeš přihlásit na Codewars ...
+
+já jsem se také přihlásil, a cvičně si vyřešil několik úloh na úrovni 8 kyu
+
+https://www.codewars.com/users/martin12333
+
+a pokoušel jsem se získat kolegy
+
+https://www.reddit.com/r/learnjavascript/comments/whrw3e/codewars_for_beginners/
+
+...
+samozrejme maji i C++
+...
+
+https://www.reddit.com/r/programming_diaries/comments/w6wmmw/troubleshooting_your_solution_the_codewars_docs/
+
+
+// procetl jsem Tvoje programy,  hlavne personal projects,
+//vidim array literaly,  2D array,
+//dokonce i lambdas (anonymous functions)
+// a vubec jsem neznal ... v roce 2000 jeste nebylo ...
+https://stdcxx.apache.org/doc/stdlibref/find-first-of.html
+
+
+
 
 
 

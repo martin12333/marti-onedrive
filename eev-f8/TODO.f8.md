@@ -5,6 +5,7 @@
 
 # (R)  https://www.google.com/search?q=break+out+of+hyperfocus?+site:www.reddit.com
 
+
 edge://edge-urls
 
 edge://restart/
@@ -13,10 +14,21 @@ edge://extensions/shortcuts
 
 edge://workspaces-internals/
 
+
+# https://www.reddit.com/user/martin_m_n_novy/
+
+
+
+# (R) https://hypothes.is/search?q=tag%3APINNED
+
+https://github.com/settings/appearance
+https://github.com/martin12333/marti-onedrive/blob/main2/eev-f8/TODO.f8.md
+file:///C:/Users/marti/OneDrive/eev-f8/TODO.f8.md
+
+
 # (R)  https://www.diigo.com/user/martin12333?query=%23todoTODO
 
 https://www.diigo.com/user/martin12333?query=%23todo
-
 
 https://www.diigo.com/user/martin12333?query=%23iforgot_that_it_exists
 
