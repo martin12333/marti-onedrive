@@ -1,4 +1,6 @@
-﻿; my keyb layout ver 0.7
+﻿;==================
+
+; my keyb layout ver 0.7
 
 ; ahk 1.1
 
@@ -6,6 +8,26 @@
 ; win + e / martin personal / documents ---> location ->
 	; C:\Users\marti\OneDrive\Dokumenty234
 ; this file:  THE  MAIN COPY is  at C:\Users\marti\OneDrive\Dokumenty234\AutoHotkey.ahk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -31,6 +53,22 @@
 	; https://github.com/martin12333/PUBLIC-group-of-gists/blob/main/www.autohotkey.com/docs/v1/lib/Send.htm.md
 
 ; As with other commands, the comma in front of the first parameter is optional.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -62,6 +100,21 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
 ; //// my, unnecessary: mk win restore point ... could just rename  C:\Users\marti\OneDrive\Dokumenty234\AutoHotkey.ahk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -179,6 +232,25 @@ $SC02B::Send {"}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ;============================== chrome ==============================
 
 ; 2023-10-22 =~= 23a.m
@@ -202,7 +274,10 @@ $SC02B::Send {"}
 ;overload  Send {>}  >>>>>>
 ;$NumpadMult::
 
-#p::
+
+; #p::
+
+$Insert::
 {
 	Send, {Click 3}
 
@@ -212,7 +287,9 @@ $SC02B::Send {"}
 }
 
 
-$Insert::
+; $Insert::
+
+#p::
 {
 	Send, {Click 3}
 
@@ -221,6 +298,7 @@ $Insert::
 ;DIIGO
 	;;; Open the popup menu
 	;;;Click, right
+
 	;Send, {AppsKey}
 
 	;Sleep, 600
@@ -258,8 +336,10 @@ $Insert::
 ;?   \\\\\YES!  \\""  """" """"
 
 
+
 ; The second #IfWinActive is to indicate anything past this
 ; point will work in any program.
+
 
 
 #IfWinActive
@@ -270,6 +350,19 @@ $Insert::
 
 ; OLD
 ;	git add -vv  --dry-run  'Dokumenty234/Au*.ahk'
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

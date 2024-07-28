@@ -317,7 +317,7 @@
 	"polyglot-notebook.defaultNotebookLanguage": "pwsh",
 	"easy-extensibility.dateCommand.windows": "cmd /c date /T",
 	"diffEditor.ignoreTrimWhitespace": false,
-	"window.zoomLevel": 2,
+	"window.zoomLevel": 1,
 
 
 
