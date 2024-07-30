@@ -11700,3 +11700,7 @@ cmd /c dir
 cmd /c dir  oth*
 cmd /c dir  Other_code*
 dir  Other_code*/*
+dir c:\Users\marti\appdata\Local\Microsoft\Edge\User Data\Default\Extensions\ghdpaajjhmlfkogblgeibaabcpjfgldn\10.2.4_0\
+dir "c:\Users\marti\appdata\Local\Microsoft\Edge\User Data\Default\Extensions\ghdpaajjhmlfkogblgeibaabcpjfgldn\10.2.4_0\"
+cmd /c dir "c:\Users\marti\appdata\Local\Microsoft\Edge\User Data\Default\Extensions\ghdpaajjhmlfkogblgeibaabcpjfgldn\10.2.4_0\"
+code "c:\Users\marti\appdata\Local\Microsoft\Edge\User Data\Default\Extensions\ghdpaajjhmlfkogblgeibaabcpjfgldn\10.2.4_0\"
