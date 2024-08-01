@@ -11704,3 +11704,6 @@ dir c:\Users\marti\appdata\Local\Microsoft\Edge\User Data\Default\Extensions\ghd
 dir "c:\Users\marti\appdata\Local\Microsoft\Edge\User Data\Default\Extensions\ghdpaajjhmlfkogblgeibaabcpjfgldn\10.2.4_0\"
 cmd /c dir "c:\Users\marti\appdata\Local\Microsoft\Edge\User Data\Default\Extensions\ghdpaajjhmlfkogblgeibaabcpjfgldn\10.2.4_0\"
 code "c:\Users\marti\appdata\Local\Microsoft\Edge\User Data\Default\Extensions\ghdpaajjhmlfkogblgeibaabcpjfgldn\10.2.4_0\"
+cmd /c dir c:\Users\marti\appdata\Local\Microsoft\Edge\User Data\Default\IndexedDB\chrome-extension_ghdpaajjhmlfkogblgeibaabcpjfgldn_0.indexeddb.leveldb\
+cmd /c dir "c:\Users\marti\appdata\Local\Microsoft\Edge\User Data\Default\IndexedDB\chrome-extension_ghdpaajjhmlfkogblgeibaabcpjfgldn_0.indexeddb.leveldb\"
+dir ../*/.vscode

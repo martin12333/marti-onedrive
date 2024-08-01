@@ -1,8 +1,16 @@
 
 
+# C:\Users\marti\OneDrive\dotfiles\install.sh
+
+dir ../*/.vscode
+
 
 # c:\Users\marti\appdata\Local\Microsoft\Edge\User Data\Default\IndexedDB\chrome-extension_ghdpaajjhmlfkogblgeibaabcpjfgldn_0.indexeddb.leveldb\
 Marius
+
+but there is also a gui button in settings
+
+
 cmd /c dir "c:\Users\marti\appdata\Local\Microsoft\Edge\User Data\Default\IndexedDB\chrome-extension_ghdpaajjhmlfkogblgeibaabcpjfgldn_0.indexeddb.leveldb\"
 
 

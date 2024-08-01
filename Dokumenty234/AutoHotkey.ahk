@@ -257,16 +257,12 @@ $SC02B::Send {"}
 ; experiments unrelated to layout ...
 ; ... paragraphs, and diigo
 
-;~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~
-
-
 #IfWinActive ahk_exe msedge.exe
-
-
 
 ;v1: return-is-needed
 
 
+;;;;;;
 ;^t::  ;^t new tab
 ;F9:: ; hand ache
 ;^p::
@@ -274,46 +270,43 @@ $SC02B::Send {"}
 ;overload  Send {>}  >>>>>>
 ;$NumpadMult::
 
-
 ; #p::
-
-$Insert::
-{
-	Send, {Click 3}
-
-	Sleep, 200
-
-	return
-}
-
-
-; $Insert::
-
+;$Insert::
 #p::
 {
 	Send, {Click 3}
-
 	Sleep, 200
+	return
+}
 
+;TEST  test :   win+q AutoHotkey run the app ... it asks to reload this ahk file
+
+
+; $Insert::
+; #p::
+$Insert::
+{
+	Send, {Click 3}
+	Sleep, 200
 ;DIIGO
 	;;; Open the popup menu
 	;;;Click, right
-
 	;Send, {AppsKey}
-
 	;Sleep, 600
-
 	;Send, d
-
 	;Sleep, 600
-
 ;HYPOTHES.IS
-
 ;BOTH
-	Send, h
+	;Send, h
+; GLASP
+	Send, G
+	Sleep, 200
+	Send, G
 
 	return
 }
+
+;TEST  test :   win+q AutoHotkey run the app ... it asks to reload this ahk file
 
 
 
