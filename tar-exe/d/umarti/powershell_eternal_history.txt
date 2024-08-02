@@ -11707,3 +11707,4 @@ code "c:\Users\marti\appdata\Local\Microsoft\Edge\User Data\Default\Extensions\g
 cmd /c dir c:\Users\marti\appdata\Local\Microsoft\Edge\User Data\Default\IndexedDB\chrome-extension_ghdpaajjhmlfkogblgeibaabcpjfgldn_0.indexeddb.leveldb\
 cmd /c dir "c:\Users\marti\appdata\Local\Microsoft\Edge\User Data\Default\IndexedDB\chrome-extension_ghdpaajjhmlfkogblgeibaabcpjfgldn_0.indexeddb.leveldb\"
 dir ../*/.vscode
+cd ~/OneDrive
