@@ -11708,3 +11708,12 @@ cmd /c dir c:\Users\marti\appdata\Local\Microsoft\Edge\User Data\Default\Indexed
 cmd /c dir "c:\Users\marti\appdata\Local\Microsoft\Edge\User Data\Default\IndexedDB\chrome-extension_ghdpaajjhmlfkogblgeibaabcpjfgldn_0.indexeddb.leveldb\"
 dir ../*/.vscode
 cd ~/OneDrive
+git add -vv  '*.f8.*'  #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
+git commit -v -a -m backup
+git push
+cd ~/OneDrive
+$x=cmd /c dir  /b   /s      '*-add-all'    #### add  '**/*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
+echo $x
+git add -vv   $x
+git commit -v -a -m backup
+git push

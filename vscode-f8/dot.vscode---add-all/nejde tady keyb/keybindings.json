@@ -1,0 +1,42 @@
+// Place your key bindings in this file to override the defaults
+[
+
+    { "key": "3",           "command": "type", "args": { "text": "#" },  },
+ 
+
+    //{ "key": "[Semicolon]",           "command": "type", "args": { "text": "==mojeee==" }, "when": "editorTextFocus" },
+    ///////////////{ "key": "[Semicolon] [Semicolon]",           "command": "type", "args": { "text": "==mojeee==" }, "when": "editorTextFocus" },
+
+    //{ "key": "ctrl+k 1",           "command": "type", "args": { "text": "==111==" }, "when": "editorTextFocus" },
+    //{ "key": "ctrl+k y",           "command": "type", "args": { "text": "==y==" }, "when": "editorTextFocus" },
+    //{ "key": "ctrl+k numpad1",           "command": "type", "args": { "text": "==n1==" }, "when": "editorTextFocus" },
+
+    //{ "key": "ctrl+k numpad1",           "command": "type", "args": { "text": "==n1==" }, "when": "editorTextFocus && editorLangId == 'jade'" },
+    //{ "key": "numpad1",           "command": "type", "args": { "text": "==n1==" }, "when": "editorTextFocus && editorLangId == 'jade'" },
+    //{ "key": "1",           "command": "type", "args": { "text": "==n1==" }, "when": "editorTextFocus && editorLangId == 'jade'" },
+
+
+    { "key": "y",           "command": "type", "args": { "text": "z" }, "when": "editorTextFocus" },
+
+
+    //{ "key": "y",           "command": "type", "args": { "text": "z" }, "when": "editorTextFocus && editorLangId == 'jade'" },
+    //{ "key": "z",           "command": "type", "args": { "text": "y" }, "when": "editorTextFocus && editorLangId == 'jade'" },
+    //4 klav eng yyyy
+    //cz prog yyy4385785 ces csp
+    //ces csq yyyěšěčěšyyyy
+    //ces cs zzzzzčžčžžřčž
+
+
+
+
+
+
+
+
+
+
+    //ZDA ZVLADNE TRAILING COMMA
+
+
+
+]
