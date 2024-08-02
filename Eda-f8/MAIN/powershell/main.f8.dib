@@ -17,7 +17,7 @@ remove the file manually to continue.
 
 #!pwsh
 
-# git show 
+# git show
 git push
 
 #!pwsh
@@ -38,13 +38,13 @@ git add -vv   $x
 #!pwsh
 
 (Get-ChildItem  -Recurse C:\Users\marti\OneDrive          ).FullName   >C:\Users\marti\93
-###   7 seconds 
+###   7 seconds
 
 #!pwsh
 
 cd ~/OneDrive
 $x=Get-ChildItem  -Recurse    '*-add-all'    #### add  '**/*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
-#git add -vv   $x.FullName  
+#git add -vv   $x.FullName
 ###    44 seconds !!
 
 #!pwsh
@@ -104,7 +104,7 @@ return [Object.keys(this.interactive),
 
 //https://github.com/dotnet/interactive/blob/main/docs/javascript-overview.md#using-requirejs
 //////require\(.*vscode
-///////requirejs("vscode") 
+///////requirejs("vscode")
 
 #!markdown
 
