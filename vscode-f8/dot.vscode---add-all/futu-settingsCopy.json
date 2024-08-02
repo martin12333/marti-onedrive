@@ -1,0 +1,180 @@
+{
+
+
+
+
+
+
+
+
+	"editor.letterSpacing": 0,
+
+
+	"markdown.preview.lineHeight": 1.6,
+
+
+
+
+
+
+// !!!!!! POZOR NECO NECHTENE SELECTNU A PAK PASTNU NECO NECEKANEHO NEKDE TERM
+	//"terminal.integrated.copyOnSelection": false,
+
+
+
+
+
+
+
+	// Show a warning dialog when pasting multiple lines into the terminal. The dialog does not show when:
+	//
+	// - Bracketed paste mode is enabled (the shell supports multi-line paste natively)
+	// - The paste is handled by the shell's readline (in the case of pwsh)
+	"terminal.integrated.enableMultiLinePasteWarning": true,
+
+
+	// Controls the number of recently used commands to keep in the terminal command history. Set to 0 to disable terminal command history.
+	"terminal.integrated.shellIntegration.history": 100,
+
+
+
+
+//done 2 mista untested
+    // asi jen pro new files
+	// The default end of line character.
+	//  - \n: LF
+	//  - \r\n: CRLF
+	//  - auto: Uses operating system specific end of line character.
+	////"files.eol": "auto",
+    "files.eol": "\n",
+	// Configure settings to be overridden for [shellscript] language.
+	"[shellscript]":  {
+		"files.eol": "\n"
+	},
+
+
+// done 2 mista untested
+	// When enabled, will trim trailing whitespace when saving a file.
+    "files.trimTrailingWhitespace": true,
+
+
+
+
+// done 2 untest
+	// Controls how terminal reacts to right click.
+	//  - default: Show the context menu.
+	//  - copyPaste: Copy when there is a selection, otherwise paste.
+	//  - paste: Paste on right click.
+	//  - selectWord: Select the word under the cursor and show the context menu.
+	////"terminal.integrated.rightClickBehavior": "copyPaste",
+	"terminal.integrated.rightClickBehavior": "default",
+
+
+
+
+
+
+//done 1
+"editor.wordWrap": "on",
+
+
+
+
+
+// Characters that will be used as word separators when doing word related navigations or operations.
+//"editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+
+
+
+
+//# Suggest
+
+	// Controls form what documents word based completions are computed.
+	//  - currentDocument: Only suggest words from the active document.
+	//  - matchingDocuments: Suggest words from all open documents of the same language.
+	//  - allDocuments: Suggest words from all open documents.
+	//"editor.wordBasedSuggestionsMode": "matchingDocuments",
+
+
+
+
+
+// doen 1 mista netest
+
+	// Configure settings to be overridden for [markdown] language.
+	//"[markdown]":  {
+	//	"editor.wordWrap": "on",
+	//	"editor.quickSuggestions": false
+	//},
+    "[markdown]": {
+
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions":  {
+            "other": true,
+            "comments": true, // false,
+            "strings": true, //false
+        },
+    },
+
+	//
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true, // false,
+        "strings": true, //false
+    },
+
+    // nerozumim ale je to default ok
+    //"editor.suggest.showWords": true,
+
+    //"launch": {}
+	// default "editor.wordBasedSuggestions": true,
+
+
+    // json "editor.suggest.insertMode": "replace"
+
+
+	// Configure settings to be overridden for [python] language.
+	"[python]":  {
+		"editor.wordBasedSuggestions": false
+	},
+
+
+
+
+
+
+    //"editor.tabSize": 4
+
+    // defau "editor.detectIndentation": true
+
+
+
+
+
+
+
+
+	// Configure settings to be overridden for [yaml] language.
+	"[yaml]":  {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2,
+		"editor.autoIndent": "advanced"
+	},
+
+
+	// Controls whether the editor should automatically adjust the indentation when users type, paste, move or indent lines.
+	//  - none: The editor will not insert indentation automatically.
+	//  - keep: The editor will keep the current line's indentation.
+	//  - brackets: The editor will keep the current line's indentation and honor language defined brackets.
+	//  - advanced: The editor will keep the current line's indentation, honor language defined brackets and invoke special onEnterRules defined by languages.
+	//  - full: The editor will keep the current line's indentation, honor language defined brackets, invoke special onEnterRules defined by languages, and honor indentationRules defined by languages.
+//defau	"editor.autoIndent": "full",
+
+
+
+
+
+
+
+
+}
