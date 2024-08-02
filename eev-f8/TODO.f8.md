@@ -84,6 +84,19 @@ exists?no
 https://play.google.com/store/apps/details?id=com.urbandroid.dontkillmyapp
 installed, runned
 
+
+
+
+
+
+
+
+
+# [Feature Request] Extension Permissions, Security Sandboxing & Update Management Proposal · Issue #52116 · microsoft/vscode
+	 file:///C:\Users\marti\OneDrive\vscode-f8\vscode-issues-52116.f8.md  
+
+
+
 # https://keep.google.com/#NOTE/1qSh6R8oQ79GNobSz2ujnJqHI_MDyazN0uKNbZBsFnAYJdj8y_n-FOE_QfXlz5g
 
 google search: česká spořitelna - George, jak investovat do akcií "Microsoftu" 
