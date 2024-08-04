@@ -1,7 +1,41 @@
-mynotes.f8.md
 
 
-What are you working on
+# doprav
+
+
+alza,03r.txt
+Poznámka: zvolili jsme AlzaExpres nikoliv proto, že bychom to potřebovali rychle, ale jen proto, že u jiných dopravců se často nejde dozvědět včas a spolehlivě ani den doručení, natož hodinu. Děkujeme.
+
+(Prosím neměnit zvoleného dopravce ... raději dodat po Vánocích, než měnit dopravce.)
+
+
+
+
+https://www.diigo.com/user/martin12333?query=%23Doprava
+
+/// https://keep.google.com/#NOTE/1-ES3aS6cBXo3-Uj3Q1ayTHxlb9UcpVZl1CO_4-tsKixUDrq8lq4V5qR_2deVDQ
+
+		Přepravní společnost Messenger s doručením do 5 hodin Vám doručí Vaše zboží ještě *dnes*, pokud objednáte do 18:00.
+
+		Liftago *Express* - doručení do 2-3 hodin od přijmutí objednávky. ...
+
+		vám doručíme ještě ten *samý den*. Objednávky přijímáme do 14:30. Rozvoz probíhá v čase od 10:00 do 22:00
+
+		Jakmile kurýr vaši zásilku naloží, pošleme vám notifikaci s informací o doručení s přesností na *90 minut*.
+
+		lepsi samsung ... zapujci mobil , doprava kuryrem
+
+		////  https://www.diigo.com/o/n1079x/doprava%20kur%C3%BDr
+
+
+
+
+
+
+
+
+
+# What are you working on
 
 
 
@@ -10,7 +44,7 @@ Need something to track when I wake up in the morning
 
 
 
-// Jeden herec, se smíšenou neurózou, napsal: někdy nevystavíte popelnici; kdo nezažil, neuvěří
+# // Jeden herec, se smíšenou neurózou, napsal: někdy nevystavíte popelnici; kdo nezažil, neuvěří
 
 //// myslím, že to byl herec  Miroslav Hanuš, dal několik rozhovorů o depresi
 
@@ -18,13 +52,6 @@ Need something to track when I wake up in the morning
 
 Ahoj,
 asi si také zkusím založit web na wz.cz ...  ... hledal jsem , zdá se, že v https://www.webzdarma.cz/forum doporučují utf-8 "bez BOM"
-
-
-
-alza,03r.txt
-Poznámka: zvolili jsme AlzaExpres nikoliv proto, že bychom to potřebovali rychle, ale jen proto, že u jiných dopravců se často nejde dozvědět včas a spolehlivě ani den doručení, natož hodinu. Děkujeme.
-
-(Prosím neměnit zvoleného dopravce ... raději dodat po Vánocích, než měnit dopravce.)
 
 
 

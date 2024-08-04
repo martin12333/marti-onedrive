@@ -57,3 +57,8 @@ Curious to see other solutions too.
 
 
 
+# https://github.com/microsoft/vscode/issues/180233
+
+
+Changes would apply to require("fs") and vscode.workspace.fs.
+
