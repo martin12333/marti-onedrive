@@ -1,5 +1,10 @@
 
 
+https://www.diigo.com/user/martin12333?query=%23CORE
+
+
+
+
 # doprav
 
 
@@ -32,7 +37,15 @@ https://www.diigo.com/user/martin12333?query=%23Doprava
 
 
 
+cz - Alza nabízí široký sortiment papírenského zboží a umožňuje rychlé doručení, často do druhého dne nebo i v den objednávky.
 
+Mall.cz - Tento e-shop má také bohatou nabídku kancelářských a školních potřeb s možností expresního doručení.
+
+Papírnictví.cz - Specializovaný e-shop s papírenským zbožím, který nabízí různé možnosti doručení, včetně rychlých kurýrních služeb.
+
+Kosmas.cz - Přestože se jedná především o knihkupectví, Kosmas.cz nabízí také papírenské zboží a různé formy rychlého doručení.
+
+Papirnictvi-ods.cz - Tento specializovaný e-shop s papírnictvím nabízí také rychlé doručení pros
 
 
 # What are you working on

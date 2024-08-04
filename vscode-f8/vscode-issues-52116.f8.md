@@ -2,8 +2,18 @@
 
 [@command:editor.action.toggleStickyScroll](command:editor.action.toggleStickyScroll)
 
-todo ``~~diigo
 vscode_52116
+
+
+related  , SURPRISE
+https://github.com/microsoft/vscode-remote-release/issues/6608
+https://code.visualstudio.com/remote/advancedcontainers/sharing-git-credentials
+dir ~/.ssh
+dir ~/.gnupg   # sockets
+
+
+
+
 
 # [Feature Request] Extension Permissions, Security Sandboxing & Update Management Proposal · Issue #52116 · microsoft/vscode
 

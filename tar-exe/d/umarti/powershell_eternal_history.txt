@@ -11720,3 +11720,8 @@ git push
 echo skfjdkfdjksfjkfsdsdf
 code --version
 code --version | clip
+dir ~/.ssh
+dir ~/.gn*
+dir ~/.ssh
+dir ~/.gn*
+dir ~/.gnupg
