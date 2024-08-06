@@ -11725,3 +11725,8 @@ dir ~/.gn*
 dir ~/.ssh
 dir ~/.gn*
 dir ~/.gnupg
+explorer.exe  "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+code     C:\Users\marti\OneDrive\ps-mylen-mar\mystartup.ps1
+code C:\Users\marti\OneDrive\ps-mylen-mar\mymycron.ps1
+code  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1 >>~/log/mymyrsync.ps1.log   2>>~/log/mymyrsync.ps1.err.log
+code  C:\Users\marti\OneDrive\ps-mylen-mar\myrobocopy-onedrive.ps1

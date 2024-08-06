@@ -11,6 +11,15 @@ https://code.visualstudio.com/remote/advancedcontainers/sharing-git-credentials
 dir ~/.ssh
 dir ~/.gnupg   # sockets
 
+>  @markjlorenz  https://github.com/microsoft/vscode/issues/52116#issuecomment-2028487842 devcontainers
+
+@phil294 #52116 (comment)
+
+
+( I planned to use devcontainers for security sandboxing, 
+... but now I am very surprised by 
+https://github.com/microsoft/vscode-remote-release/issues/6608 "Document the security model of VSCode Remote Development  "
+)
 
 
 

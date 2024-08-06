@@ -7,11 +7,46 @@ exit
 (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
 
+
+***
+
+
 echo '-------- section --------'
 
-podman machine start
 
-pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
+
+****
+explorer.exe  "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+
+
+	C:\pf\PowerShell\7\pwsh.exe -ExecutionPolicy ByPass  -NoExit -File C:\Users\marti\OneDrive\ps-mylen-mar\myrobocopy-onedrive.ps1
+
+	code  C:\Users\marti\OneDrive\ps-mylen-mar\myrobocopy-onedrive.ps1
+		# a note to myself: do edits, at first, only in  file:///C:\Users\marti\OneDrive\tar-exe\xcopy-robocopy--mymy.f8.ps1
+
+***		Robocopy.exe   C:\Users\mar......
+
+
+
+
+	C:\pf\PowerShell\7\pwsh.exe -ExecutionPolicy Bypass -File     C:\Users\marti\OneDrive\ps-mylen-mar\mystartup.ps1
+
+		code     C:\Users\marti\OneDrive\ps-mylen-mar\mystartup.ps1
+		# a note to myself: do experiments in  file:///C:\Users\marti\OneDrive\ps-mylen-mar\mystartup--mymy.f8.sh.f8.ps1
+
+			pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymycron.ps1
+
+			code C:\Users\marti\OneDrive\ps-mylen-mar\mymycron.ps1
+
+				pwsh.exe -ExecutionPolicy Bypass -File C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1 >>~/log/mymyrsync.ps1.log   2>>~/log/mymyrsync.ps1.err.log
+
+				code  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1 >>~/log/mymyrsync.ps1.log   2>>~/log/mymyrsync.ps1.err.log
+
+				# runs every 270 seconds
+				several roboco withou mon
+
+
+
 
 echo '-------- section --------'
 
@@ -23,9 +58,12 @@ echo '-------- section --------'
 
 
 issue 233a
+
 BUUUUUUUUUUUUUUUUUUUUUUUUUUG
+
 todo
 C:\Users\marti\OneDrive\tar-exe\xcopy-robocopy--mymy.f8.ps1
+
 C:\Users\marti\OneDrive\powershell-f8\powershell-undefined-variable.f8.ps1
 
 
@@ -48,6 +86,7 @@ f1 mymy
 f1 mymyrsync.ps1
 #file:///ps-mylen-mar\mymyrsync.ps1
 file:///C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
+
 
 
 
