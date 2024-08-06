@@ -11742,3 +11742,4 @@ code  d:\000doc24
 echo dkjshfskj >D:\000doc24\robocopy\robocopy-doc24.f8.ps1
 Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive\BACKUP-DONTEDIT-000doc24  /v /e   /mon:1       /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD 'OLD*'
 Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive\BACKUP-DONTEDIT-000doc24   /e   /mot:1       /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD 'OLD*'
+git push

@@ -4,10 +4,20 @@
 
 
 
+
+#  2486   A CHANGE IS PLANNED  here
+#
+#  file:///C:\Users\marti\OneDrive\tar-exe\xcopy-robocopy--mymy.f8.ps1
+#  file:///D:\000doc24\robocopy\robocopy-doc24.f8.ps1
+#
+
+
+
 # a note to myself: do edits, at first, only in  file:///C:\Users\marti\OneDrive\tar-exe\xcopy-robocopy--mymy.f8.ps1
 #  file:///D:\000doc24\robocopy\robocopy-doc24.f8.ps1
 
-# or edit only in comments here
+
+#  a note to myself:  or edit only in comments here  ... THIS FILE IS a *script* and NOT an *f8_text_file*
 
 
 

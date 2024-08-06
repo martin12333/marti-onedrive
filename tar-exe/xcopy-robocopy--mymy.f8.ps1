@@ -10,6 +10,7 @@ exit
 https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy#examples
 
 
+code  d:\000doc24
 code robocopy\robocopy-doc24.f8.ps1
 2486
 
@@ -25,9 +26,17 @@ echo '-------- section --------'
 
 win q ise   admin
 mkdir d:\000doc24
+
 mkdir d:\000doc24\robocopy
-code  d:\000doc24
 echo dkjshfskj >D:\000doc24\robocopy\robocopy-doc24.f8.ps1
+
+
+cd ~/OneDrive
+git add -vv  '*.f8.*'  #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
+git commit -v -a -m backup
+git push
+	git show --name-only
+git push
 
 
 

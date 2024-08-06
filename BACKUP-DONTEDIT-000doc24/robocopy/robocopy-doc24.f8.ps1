@@ -10,6 +10,7 @@ exit
 https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy#examples
 
 
+code C:\Users\marti\OneDrive
 code tar-exe\xcopy-robocopy--mymy.f8.ps1
 
 
@@ -21,12 +22,6 @@ echo '-------- section --------'
 
 
 2486
-
-
-
-
-
-
 
 ai
 Sent by you:
@@ -61,11 +56,11 @@ Sent by you:
 
 
 
+todo
+code  C:\Users\marti\OneDrive\ps-mylen-mar\myrobocopy-onedrive.ps1
 
-			code  C:\Users\marti\OneDrive\ps-mylen-mar\myrobocopy-onedrive.ps1
 
 
-			
 
 
 
@@ -77,6 +72,20 @@ mon waits    1   min
 
 Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive\BACKUP-DONTEDIT-000doc24   /e   /mot:1       /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD 'OLD*'
 
+
+
+
+code "C:\Users\marti\OneDrive\tar-exe\Conversation (37).txt"
+
+code "C:\Users\marti\OneDrive\tar-exe\Conversation (38).txt"
+
+https://www.google.com/search?q=start-job+robocopy&oq=start-job+robocopy+&gs_lcrp=EgZjaHJvbWUyCggAEEUYFhgeGDkyDQgBEAAYhgMYgAQYigUyDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyCggEEAAYgAQYogTSAQkxMTI0OWowajGoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+
+code "C:\Users\marti\OneDrive\tar-exe\history-08_06_24-16-29-52.json"
+f1 format with jsomn lang feat
+\\n
+\n
 
 
 
