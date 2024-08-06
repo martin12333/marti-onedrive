@@ -11730,3 +11730,15 @@ code     C:\Users\marti\OneDrive\ps-mylen-mar\mystartup.ps1
 code C:\Users\marti\OneDrive\ps-mylen-mar\mymycron.ps1
 code  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1 >>~/log/mymyrsync.ps1.log   2>>~/log/mymyrsync.ps1.err.log
 code  C:\Users\marti\OneDrive\ps-mylen-mar\myrobocopy-onedrive.ps1
+ls "C:\Users\marti\*robocopy*"
+ls "C:\Users\marti\OneDrive\*robocopy*"
+explorer.exe   ~/log
+explorer.exe   $env:HOME/log
+ls   $env:HOME/log
+explorer.exe   $env:HOME\log
+mkdir d:\000doc24
+mkdir d:\000doc24\robocopy
+code  d:\000doc24
+echo dkjshfskj >D:\000doc24\robocopy\robocopy-doc24.f8.ps1
+Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive\BACKUP-DONTEDIT-000doc24  /v /e   /mon:1       /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD 'OLD*'
+Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive\BACKUP-DONTEDIT-000doc24   /e   /mot:1       /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD 'OLD*'

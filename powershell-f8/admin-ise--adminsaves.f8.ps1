@@ -10,7 +10,11 @@ echo '-------- section --------'
 
 
 #  sync by hand ?!
-#  ^a  ^c  @tab ^V
+
+^s
+
+#  ^a  ^c  @tab  ^a ^V
+
 
 the MAIN COPY		C:\Users\marti\admin-ise--adminsaves.f8.ps1
 the SUBORDINATE COPY jiny dir C:\Users\marti\OneDrive\powershell-f8\admin-ise--adminsaves.f8.ps1
@@ -29,6 +33,10 @@ win+q ise admin
 echo '-------- section --------'
 
 mkdir d:\2222
+mkdir d:\000doc24
+icacls.exe   d:\2222   /grant 'marti:(oi)(ci)(f)'
+icacls.exe   d:\000doc24   /grant 'marti:(oi)(ci)(f)'
+
 
 
 
@@ -360,6 +368,7 @@ icacls.exe  D:\Users\Eda\zoom /grant 'marti:(oi)(ci)(f)'
 
 icacls.exe  C:\Users\userklic   /grant 'marti:(oi)(ci)(f)'
 icacls.exe  C:\Users\techl /grant 'marti:(oi)(ci)(f)'
+icacls.exe   d:\2222   /grant 'marti:(oi)(ci)(f)'
 icacls.exe   d:\2222   /grant 'marti:(oi)(ci)(f)'
 
 

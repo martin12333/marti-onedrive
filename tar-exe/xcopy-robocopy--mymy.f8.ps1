@@ -7,6 +7,12 @@ exit
 (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
 
+https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy#examples
+
+
+code robocopy\robocopy-doc24.f8.ps1
+2486
+
 
 ***
 
@@ -15,11 +21,26 @@ echo '-------- section --------'
 
 
 
+
+
+win q ise   admin
+mkdir d:\000doc24
+mkdir d:\000doc24\robocopy
+code  d:\000doc24
+echo dkjshfskj >D:\000doc24\robocopy\robocopy-doc24.f8.ps1
+
+
+
 ****
 explorer.exe  "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 
 
+
+
 	C:\pf\PowerShell\7\pwsh.exe -ExecutionPolicy ByPass  -NoExit -File C:\Users\marti\OneDrive\ps-mylen-mar\myrobocopy-onedrive.ps1
+
+			Doesnt exit after running startup commands.
+			powershell.exe   noexit meaning
 
 	code  C:\Users\marti\OneDrive\ps-mylen-mar\myrobocopy-onedrive.ps1
 		# a note to myself: do edits, at first, only in  file:///C:\Users\marti\OneDrive\tar-exe\xcopy-robocopy--mymy.f8.ps1
@@ -37,6 +58,9 @@ explorer.exe  "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Progr
 			pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymycron.ps1
 
 			code C:\Users\marti\OneDrive\ps-mylen-mar\mymycron.ps1
+
+				explorer.exe   $env:HOME\log
+				ls   $env:HOME/log
 
 				pwsh.exe -ExecutionPolicy Bypass -File C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1 >>~/log/mymyrsync.ps1.log   2>>~/log/mymyrsync.ps1.err.log
 
@@ -99,6 +123,7 @@ file:///C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
 
 
 file:///C:\Users\marti\OneDrive\Dokumenty\PowerShell\profile.ps1
+file:///C:\Users\marti\OneDrive\Dokumenty234\PowerShell\profile.ps1
 file:///D:\Dokumenty\PowerShell\profile.ps1
 
 ls "C:\Users\marti\*robocopy*"

@@ -14,6 +14,9 @@
 
 
 
+
+
+
 #zeby-neslo-stat-na-onedr-bez-net  ??
 
 
@@ -56,8 +59,7 @@ cmd /c dir c:\     | findstr.exe -i free
 
 
 
-# CTRL-shift-C
-	# CTRL-C otherwise 5 processes
+# use CTRL-shift-C    ###otherwise CTRL-C 5 processes ?
 
 
 #bash
