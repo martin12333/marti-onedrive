@@ -12,12 +12,18 @@ echo  use CTRL-break  ?    ###otherwise CTRL-C 5 processes ?
 
 rem #zeby-neslo-stat-na-onedr-bez-net  ??
 
-timeout.exe 2
+
+timeout.exe 12
 
 
 start  "000doc24"  /min  /low  Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive\BACKUP-DONTEDIT-000doc24   /e   /mot:1       /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*    /ndl    /nfl
 
+timeout.exe 5
+
 
 start  "OneDrive" /min  /low   Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--robo    /s   /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*    /mot:5    /ndl    /nfl
+
+timeout.exe 5
+
 
 pause
