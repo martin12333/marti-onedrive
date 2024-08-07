@@ -22,6 +22,14 @@ https://ss64.com/nt/robocopy.html
 
 echo '-------- section --------'
 
+pwsh
+Get-Process   -Name Robocopy
+
+kill -Name  Robocopy
+exit
+
+echo '-------- section --------'
+
 
 
 ****.*
@@ -129,10 +137,27 @@ echo Robocopy.exe   Obr*    /XD .git    /XD node_modules   /XD OLD*
 Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive\BACKUP-DONTEDIT-000doc24   /e   /mot:1       /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*
 
 
-
+cmd
 cmd /c
 
+/min
 
+start  "skhdsf"  /low  Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive\BACKUP-DONTEDIT-000doc24   /e   /mot:1       /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*    /ndl    /nfl
+
+
+start  "skhdsf"  /low   Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--robo    /s   /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*    /mot:5    /ndl    /nfl
+
+
+echo '-------- section --------'
+
+
+pwsh.exe  command examples
+
+pwsh
+Get-Process   -Name Robocopy
+
+kill -Name  Robocopy
+exit
 
 echo '-------- section --------'
 

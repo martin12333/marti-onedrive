@@ -20,6 +20,17 @@ code robocopy\robocopy-doc24.f8.ps1
 ***
 
 
+
+echo '-------- section --------'
+
+****.*
+
+pwsh
+Get-Process   -Name Robocopy
+
+kill -Name  Robocopy
+exit
+
 echo '-------- section --------'
 
 
@@ -83,12 +94,50 @@ git add -vv 'C:\Users\marti\OneDrive\ps-mylen-mar\start-robocopy.cmd'
 
 
 
+
+
+
+
+		   Logging options
+
+		   /L : List only - don’t copy, timestamp or delete any files.
+				Comparisons with Destination_folder will only be performed if the folder exists.
+		  /NP : No Progress - don’t display % copied.
+	 /unicode : Display the status output as Unicode text.
+	/LOG:file : Output status to LOG file (overwrite existing log).
+ /UNILOG:file : Output status to Unicode Log file (overwrite)
+   /LOG+:file : Output status to LOG file (append to existing log).
+/UNILOG+:file : Output status to Unicode Log file (append).
+		 /TEE : Output to console window, as well as the log file.
+		  /TS : Include Source file Time Stamps in the output.
+		  /FP : Include Full Pathname of files in the output.
+				Minimising log output with the 'no' options below will speed up the copy.
+		  /NS : No Size - don’t log file sizes.
+		  /NC : No Class - don’t log file classes.
+		 /NFL : No File List - don’t log file names.
+		 /NDL : No Directory List - don’t log directory names.
+		 /NJH : No Job Header, ROBOCOPY © header.
+		 /NJS : No Job Summary: Stats for Copied,Skipped,Mismatch,Failed,Extras.
+		   /X : Report all eXtra files, not just those selected &
+
+/np /ns  /nc   /nfl    /ndl
+
+
+
+
+
+
 # robocopy /L :: List only - don't copy, timestamp or delete any files'
 
 $y='OneDrive'
 Robocopy.exe   C:\Users\marti\$y  D:\umarti\$y--robo    /s   /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD OLD*    /mot:5
 
-Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--robo    /s   /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD OLD*    /mot:5
+cmd /c  start  '"'skhdsf'"'  /low   Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--robo    /s   /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*    /mot:5    /ndl    /nfl
+
+
+cmd.exe
+  start  "skhdsf"  /low   Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--robo    /s   /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*    /mot:5    /ndl    /nfl
+
 
 #  /mot:1  #  /mot:5
 

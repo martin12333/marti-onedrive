@@ -11757,3 +11757,21 @@ $PSVersionTable| oss|  Set-Clipboard
 echo  use CTRL-shift-C  ?    ###otherwise CTRL-C 5 processes ?
 conda activate pip310ecco
 cmd.exe
+conda activate pip310ecco
+git add 'C:\Users\marti\OneDrive\ps-mylen-mar\start-robocopy.cmd'
+git add -vv 'C:\Users\marti\OneDrive\ps-mylen-mar\start-robocopy.cmd'
+Get-Process   -Name Robocopy
+start  "skhdsf"  /low  Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive\BACKUP-DONTEDIT-000doc24   /e   /mot:1       /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*
+Get-Process   -Name Robocopy
+start  "skhdsf"  /low  Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive\BACKUP-DONTEDIT-000doc24   /e   /mot:1       /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*
+cmd
+exit
+Get-Process   -Name Robocopyexit
+Get-Process   -Name Robocopy
+start  "skhdsf"  /low  Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive\BACKUP-DONTEDIT-000doc24   /e   /mot:1       /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*    /ndl
+cmd /c  start  "skhdsf"  /low   Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--robo    /s   /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD OLD*    /mot:5    /ndl
+cmd /c  start  '"'skhdsf'"'  /low   Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--robo    /s   /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*    /mot:5    /ndl
+cmd /c  start  '"'skhdsf'"'  /low   Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--robo    /s   /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*    /mot:5    /ndl    /nfl
+Get-Process   -Name Robocopy
+kill -Name  Robocopy
+Get-Process   -Name Robocopy
