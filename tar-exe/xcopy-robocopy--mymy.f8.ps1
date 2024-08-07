@@ -71,6 +71,10 @@ start  "skhdsf"  /min   /low
 
 
 
+git add -vv 'C:\Users\marti\OneDrive\ps-mylen-mar\start-robocopy.cmd'
+
+
+
 
 /B         Start application without creating a new window. In this case
 		   Ctrl-C will be ignored - leaving Ctrl-Break as the only way to
