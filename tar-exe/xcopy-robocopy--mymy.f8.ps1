@@ -10,6 +10,8 @@ exit
 https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy#examples
 
 
+
+
 code  d:\000doc24
 code robocopy\robocopy-doc24.f8.ps1
 2486
@@ -20,6 +22,76 @@ code robocopy\robocopy-doc24.f8.ps1
 
 echo '-------- section --------'
 
+
+
+
+****.*
+Running Robocopy commands under PowerShell will add quotation marks to the options creating an "invalid parameter" error, [details], this issue is fixed in the latest version of PowerShell 7.2. In most cases you will find it easier to write a simple batch file and call that from PowerShell.
+https://stackoverflow.com/questions/6714165/powershell-stripping-double-quotes-from-command-line-arguments
+
+
+https://ss64.com/nt/start.html
+
+cmd.exe
+
+rem
+
+rem the parent of this was file:///C:\Users\marti\OneDrive\ps-mylen-mar\myrobocopy-onedrive.ps1
+
+echo  use CTRL-shift-C  ?    ###otherwise CTRL-C 5 processes ?
+echo  use CTRL-break  ?    ###otherwise CTRL-C 5 processes ?
+
+
+sleep 2
+timeout.exe 2
+
+
+/ABOVENORMAL Use ABOVENORMAL priority class.
+/BELOWNORMAL Use BELOWNORMAL priority class.
+/HIGH        Use HIGH priority class.
+/REALTIME    Use REALTIME priority class.
+
+
+
+
+rem
+
+rem the parent of this was file:///C:\Users\marti\OneDrive\ps-mylen-mar\myrobocopy-onedrive.ps1
+
+echo  use CTRL-shift-C  ?    ###otherwise CTRL-C 5 processes ?
+echo  use CTRL-break  ?    ###otherwise CTRL-C 5 processes ?
+
+rem #zeby-neslo-stat-na-onedr-bez-net  ??
+
+timeout.exe 2
+
+
+start  "skhdsf"  /min   /low
+
+
+
+
+
+/B         Start application without creating a new window. In this case
+		   Ctrl-C will be ignored - leaving Ctrl-Break as the only way to
+		   interrupt the application.
+
+
+
+
+# robocopy /L :: List only - don't copy, timestamp or delete any files'
+
+$y='OneDrive'
+Robocopy.exe   C:\Users\marti\$y  D:\umarti\$y--robo    /s   /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD OLD*    /mot:5
+
+Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--robo    /s   /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD OLD*    /mot:5
+
+#  /mot:1  #  /mot:5
+
+
+
+
+echo '-------- section --------'
 
 
 
@@ -36,7 +108,6 @@ git add -vv  '*.f8.*'  #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxx
 git commit -v -a -m backup
 git push
 	git show --name-only
-git push
 
 
 

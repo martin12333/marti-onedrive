@@ -11743,3 +11743,17 @@ echo dkjshfskj >D:\000doc24\robocopy\robocopy-doc24.f8.ps1
 Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive\BACKUP-DONTEDIT-000doc24  /v /e   /mon:1       /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD 'OLD*'
 Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive\BACKUP-DONTEDIT-000doc24   /e   /mot:1       /XJ     /XD "Obr*"    /XD .git    /XD node_modules   /XD 'OLD*'
 git push
+git add -vv  '*.f8.*'  #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
+git commit -v -a -m backup
+git push
+cmd.exe
+$myDocs = [environment]::getfolderpath('mydocuments')
+$myDocs
+$myDocs|clip.exe
+$PSVersionTable
+$PSVersionTable|clip.exe
+$PSVersionTable|  Set-Clipboard
+$PSVersionTable| oss|  Set-Clipboard
+echo  use CTRL-shift-C  ?    ###otherwise CTRL-C 5 processes ?
+conda activate pip310ecco
+cmd.exe

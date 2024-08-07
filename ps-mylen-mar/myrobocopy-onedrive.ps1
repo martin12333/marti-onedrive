@@ -1,6 +1,6 @@
 
 
-# use CTRL-shift-C    ###otherwise CTRL-C 5 processes ?
+# use CTRL-shift-C  ?    ###otherwise CTRL-C 5 processes ?
 
 
 
@@ -10,6 +10,9 @@
 #  file:///C:\Users\marti\OneDrive\tar-exe\xcopy-robocopy--mymy.f8.ps1
 #  file:///D:\000doc24\robocopy\robocopy-doc24.f8.ps1
 #
+# file:///C:\Users\marti\OneDrive\ps-mylen-mar\start-robocopy.cmd
+
+
 
 
 
