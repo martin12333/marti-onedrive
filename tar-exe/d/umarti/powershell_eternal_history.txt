@@ -11775,3 +11775,7 @@ cmd /c  start  '"'skhdsf'"'  /low   Robocopy.exe   C:\Users\marti\OneDrive  D:\u
 Get-Process   -Name Robocopy
 kill -Name  Robocopy
 Get-Process   -Name Robocopy
+powershell -command Get-Process   -Name Robocopy
+kill -Name  Robocopy
+powershell -command Get-Process   -Name Robocopy
+Get-Process   -Name Robocopy

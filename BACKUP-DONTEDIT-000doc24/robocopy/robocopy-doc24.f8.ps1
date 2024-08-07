@@ -151,7 +151,7 @@ start  "skhdsf"  /low   Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDri
 echo '-------- section --------'
 
 
-pwsh.exe  command examples
+powershell -command Get-Process   -Name Robocopy
 
 pwsh
 Get-Process   -Name Robocopy
