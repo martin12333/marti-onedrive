@@ -43,8 +43,9 @@ cp \
    \
    --archive \
    --parents --strip-trailing-slashes --target-directory=$HOME/OneDrive/tar-exe/ --update --verbose \
-      `cygpath.exe -f ~/OneDrive/tar-exe/utf8-LF-tc-clip-vsc.txt  `       \
-   \
+  --          `cygpath.exe -f ~/OneDrive/tar-exe/utf8-LF-tc-clip-vsc.txt  `       \
+
+
 #--help   \
 
 
