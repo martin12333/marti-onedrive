@@ -11849,3 +11849,21 @@ cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    """""hello"""""
 cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '""hello""'
 cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '""""hello""""'
 cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '"""""hello"""""'
+cd C:\Users\marti\OneDrive
+cmd /c dir /b /s /a    *target*
+cmd /c dir /b /s /a    *target* | clip
+cmd /c dir /b /s /a    .git   | clip
+cmd /c dir /b /s /ah     | clip
+cmd /c dir /b /s /a   *rsigua*     | clip
+icacls  "C:\Users\Public\Documents\RSIGuard\MiscSettings.ini"
+cmd /c dir /b /s /a   *robocop*     | clip
+code C:\Users\marti\OneDrive\tar-exe\robocopy.txt
+code tar-exe\xcopy-robocopy--mymy.f8.ps1
+code D:\000doc24\robocopy\robocopy-dont-overwrite-newer.f8.ps1
+code  d:\000doc24
+code C:\Users\marti\OneDrive\ps-mylen-mar\mystartup.ps1
+powershell -command Get-Process   -Name Robocopy
+code  ~/OneDrive/tar-exe/utf8-LF-tc-clip-vsc.txt
+code  ~\OneDrive\tar-exe\utf8-LF-tc-clip-vsc.txt
+code  C:\Users\marti\OneDrive\tar-exe\utf8-LF-tc-clip-vsc.txt
+code  C:\Users\marti\log

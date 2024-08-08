@@ -15,6 +15,7 @@ reason:
 appdata roaming asi predelali ... ale co public doc odkazy na start skripty
 
 icacls  "C:\Users\Public\Documents\RSIGuard\MiscSettings.ini"
+C:\Users\Public\Documents\RSIGuard\MiscSettings.ini
 
 
 LEN20\marti:(I)(F)

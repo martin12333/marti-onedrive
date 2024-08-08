@@ -11,9 +11,16 @@ https://learn.microsoft.com/en-us/windows-server/administration/windows-commands
 
 
 
-
+funguje z druheho okna   vsc onedri
 code  d:\000doc24
-code robocopy\robocopy-doc24.f8.ps1
+# code robocopy\robocopy-doc24.f8.ps1
+
+funguje z druheho okna   vsc onedri
+code C:\Users\marti\OneDrive\tar-exe\xcopy-robocopy--mymy.f8.ps1
+ code D:\000doc24\robocopy\robocopy-dont-overwrite-newer.f8.ps1
+
+
+
 2486
 
 

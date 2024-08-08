@@ -11,7 +11,9 @@ https://learn.microsoft.com/en-us/windows-server/administration/windows-commands
 
 
 code C:\Users\marti\OneDrive
-code tar-exe\xcopy-robocopy--mymy.f8.ps1
+funguje z druheho okna   vsc onedri
+code C:\Users\marti\OneDrive\tar-exe\xcopy-robocopy--mymy.f8.ps1
+ code D:\000doc24\robocopy\robocopy-dont-overwrite-newer.f8.ps1
 
 
 https://ss64.com/nt/robocopy.html

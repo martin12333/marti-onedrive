@@ -32,4 +32,5 @@ qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 /n/node/.zshrc
 P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\sbase.wasm\Makefile
 P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\sbase.wasm\config.mk
+C:\Users\Public\Documents\RSIGuard\MiscSettings.ini
 aborts-on-empty-path
