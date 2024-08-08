@@ -40,6 +40,11 @@ echo '-------- section --------'
 Running Robocopy commands under PowerShell will add quotation marks to the options creating an "invalid parameter" error, [details], this issue is fixed in the latest version of PowerShell 7.2. In most cases you will find it easier to write a simple batch file and call that from PowerShell.
 https://stackoverflow.com/questions/6714165/powershell-stripping-double-quotes-from-command-line-arguments
 
+HORROR
+
+code .\powershell-f8\stackoverflow-676714165--powershell-stripping-double-quotes-from-command-line-arguments.f8.ps1
+
+code ps-mylen-mar\start-robocopy.cmd
 
 https://ss64.com/nt/start.html
 
@@ -47,13 +52,6 @@ cmd.exe
 
 rem
 
-rem the parent of this was file:///C:\Users\marti\OneDrive\ps-mylen-mar\myrobocopy-onedrive.ps1
-
-echo  use CTRL-shift-C  ?    ###otherwise CTRL-C 5 processes ?
-echo  use CTRL-break  ?    ###otherwise CTRL-C 5 processes ?
-
-
-sleep 2
 timeout.exe 2
 
 
@@ -67,17 +65,6 @@ timeout.exe 2
 
 rem
 
-rem the parent of this was file:///C:\Users\marti\OneDrive\ps-mylen-mar\myrobocopy-onedrive.ps1
-
-echo  use CTRL-shift-C  ?    ###otherwise CTRL-C 5 processes ?
-echo  use CTRL-break  ?    ###otherwise CTRL-C 5 processes ?
-
-rem #zeby-neslo-stat-na-onedr-bez-net  ??
-
-timeout.exe 2
-
-
-start  "skhdsf"  /min   /low
 
 
 
@@ -142,6 +129,8 @@ cmd.exe
 #  /mot:1  #  /mot:5
 
 
+
+code ps-mylen-mar\start-robocopy.cmd
 
 
 echo '-------- section --------'

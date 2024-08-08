@@ -3635,3 +3635,18 @@ takeown.exe /f D:\Users     /a  /r
 takeown.exe /f D:\Users\milanlocal\     /a  /r
 pwsh
 diskusage.exe   /h   /t:10   C:\Users\marti\OneDrive
+$PSVersionTable
+echo.exe  '"hello"'
+echo.exe  '"'hello'"'
+cmd.exe /c   echo    '"hello"'
+cmd.exe /c   echo    '"'hello'"'
+cmd.exe /c   echo.exe    '"hello"'
+cmd.exe /c   echo.exe    '"'hello'"'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '"hello"'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '"'hello'"'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '""hello""'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '"""hello"""'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    """hello"""
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    """"hello""""
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    """""hello"""""
+exit

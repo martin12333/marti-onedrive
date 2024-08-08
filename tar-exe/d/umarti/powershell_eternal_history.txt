@@ -11779,3 +11779,73 @@ powershell -command Get-Process   -Name Robocopy
 kill -Name  Robocopy
 powershell -command Get-Process   -Name Robocopy
 Get-Process   -Name Robocopy
+Get-ExperimentalFeature
+Get-ExperimentalFeature
+$PSVersionTable| oss|  Set-Clipboard
+$PSNativeCommandArgumentPassing
+Get-ExperimentalFeature|Set-Clipboard
+Get-ExperimentalFeature|oss|Set-Clipboard
+echo.exe
+bash
+echo.exe
+echo.exe  '"hello"'
+cmd.exe
+cmd.exe /c   echo    '"hello"'
+cmd.exe /c   echo.exe    '"hello"'
+where.exe   echo.exe
+where.exe   echo.exe | clip
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '"hello"'
+echo.exe  '"hello"'
+cmd.exe /c   echo    '"hello"'
+cmd.exe /c   echo.exe    '"hello"'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '"hello"'
+echo.exe  '"'hello'"'
+echo.exe  '"hello"'
+cmd.exe /c   echo    '"'hello'"'
+cmd.exe /c   echo    '"hello"'
+cmd.exe /c   echo.exe    '"'hello'"'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '"'hello'"'
+$PSVersionTable
+powershell.exe
+$PSVersionTable
+echo.exe  '"hello"'
+echo.exe  '"'hello'"'
+cmd.exe /c   echo    '"hello"'
+cmd.exe /c   echo    '"'hello'"'
+cmd.exe /c   echo.exe    '"hello"'
+cmd.exe /c   echo.exe    '"'hello'"'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '"hello"'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '"'hello'"'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '"""hello"""'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    """""hello"""""
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '"""""hello"""""'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '""""hello""""'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '""""""hello""""""'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '"""""""hello"""""""'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '"""hello"""'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '""hello""'
+echo.exe  '"hello"'
+echo.exe  '""hello""'
+echo.exe  '"""hello"""'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '""""hello""""'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '"""""hello"""""'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '""""hello""""'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '"""""hello"""""'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '""""hello""""'
+cmd.exe
+$PSVersionTable
+echo.exe  '"""hello"""'
+echo.exe  '"'hello'"'
+C:\Pf\Git\usr\bin\echo.exe    '"hello"'
+C:\Pf\Git\usr\bin\echo.exe    '"""hello"""'
+cmd.exe /c   echo    '"hello"'
+cmd.exe /c   echo    '"'hello'"'
+cmd.exe /c   echo.exe    '"hello"'
+cmd.exe /c   echo.exe    '"'hello'"'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '"hello"'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '"'hello'"'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '"""hello"""'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    """""hello"""""
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '""hello""'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '""""hello""""'
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '"""""hello"""""'
