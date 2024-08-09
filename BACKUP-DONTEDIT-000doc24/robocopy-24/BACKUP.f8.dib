@@ -8,7 +8,23 @@
 
 #!pwsh
 
-Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive\BACKUP-DONTEDIT-000doc24   /e    /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*       /xf .git             /ndl    /nfl  #  /LOG+:C:\Users\marti\log\doc24.log
+Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive\BACKUP-DONTEDIT-000doc24   /e    /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*    /xd .vscode   /xf .git           /XO  /njh   /LOG+:C:\Users\marti\log\doc24.log   /tee    /V  |  findstr.exe  -i   older
+  # /L
+#  /nfl  /ndl
+
+#!value
+
+ Log File : C:\Users\marti\log\doc24.log
+
+	       named      -1	d:\000doc24\.git\
+	       named      -1	d:\000doc24\.vscode\
+	    Newer     		    6235	BACKUP.f8.dib
+	         older		      46	experim-wrong-edit.f8.md
+
+#!pwsh
+
+cd D:\000doc24
+git init
 
 #!pwsh
 

@@ -19,8 +19,8 @@ timeout.exe 12
 
 
 
-rem TO BE CHANGED and tested xf git  gitigno vscode
-start  "000doc24"  /min  /low  Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive\BACKUP-DONTEDIT-000doc24   /e    /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*       /xf .git         /mot:1      /ndl    /nfl    /LOG+:C:\Users\marti\log\doc24.log
+rem TO BE CHANGED and tested xf git  gitigno vscode   xo
+start  "000doc24"  /min  /low  Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive\BACKUP-DONTEDIT-000doc24   /e    /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*       /xf .git   /XO       /mot:1      /ndl    /nfl    /LOG+:C:\Users\marti\log\doc24.log
 
 timeout.exe 5
 

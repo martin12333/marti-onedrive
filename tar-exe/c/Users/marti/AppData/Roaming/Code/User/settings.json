@@ -322,6 +322,7 @@
 	// 30
 	"notebook.output.wordWrap": true,
 	"notebook.lineNumbers": "on",
+	"notebook.output.fontSize": 10,
 
 
 

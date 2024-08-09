@@ -5,6 +5,9 @@
 #!pwsh
 
 # GIT LOCK AFTER "STOP CELL EXEC": POMOHLO F1 DEVEL RELOAD
+#powershell -command
+ Get-Process   -Name Robocopy
+#echo echo  kill -Name  Robocopy
 
 #!pwsh
 
