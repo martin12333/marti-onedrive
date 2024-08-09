@@ -178,6 +178,14 @@ code C:\Users\marti\OneDrive\ps-mylen-mar\mystartup.ps1
 
 code  C:\Users\marti\OneDrive\tar-exe\utf8-LF-tc-clip-vsc.txt
 code  C:\Users\marti\log
+code  C:\Users\marti\log\onedr.log
+
+
+/LOG+:file : Output status to LOG file (append to existing log).
+/LOG+:C:\Users\marti\log\onedr.log
+
+
+file : Output status to LOG file (append to existing log).
 
 
 C:\Users\marti\OneDrive\ps-mylen-mar\start-robocopy.cmd

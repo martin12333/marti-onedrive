@@ -17,6 +17,14 @@ remove the file manually to continue.
 
 #!pwsh
 
+  
+
+#!pwsh
+
+Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive\BACKUP-DONTEDIT-000doc24   /e    /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*       /xf .git             /ndl    /nfl  #  /LOG+:C:\Users\marti\log\doc24.log
+
+#!pwsh
+
 git add -vv 'C:\Users\marti\OneDrive\ps-mylen-mar\start-robocopy.cmd'
 
 # git show
@@ -26,7 +34,7 @@ git push
 
 cd ~/OneDrive
 git add -vv  '*.f8.*'  #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
-git commit -v -a -m backup-before
+git commit -v -a -m backup    #-before
 git push
 	git show --name-only
 
