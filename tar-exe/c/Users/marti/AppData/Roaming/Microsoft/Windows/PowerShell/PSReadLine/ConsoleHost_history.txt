@@ -3650,3 +3650,6 @@ cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    """hello"""
 cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    """"hello""""
 cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    """""hello"""""
 exit
+wsl.exe
+wsl.exe   --list
+wsl -d Ubuntu-22.04
