@@ -8,7 +8,7 @@
 
 #!pwsh
 
-Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive\BACKUP-DONTEDIT-000doc24   /e    /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*    /xd .vscode   /xf .git           /XO  /njh   /LOG+:C:\Users\marti\log\doc24.log   /tee    /V  |  findstr.exe  -i   older
+Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive\BACKUP-DONTEDIT-000doc24   /e    /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*    /xd .vscode   /xf .git  /xf .gitignore         /XO  /njh   /LOG+:C:\Users\marti\log\doc24.log   /tee    /V  # |  findstr.exe  -i   older
   # /L
 #  /nfl  /ndl
 
