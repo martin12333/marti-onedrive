@@ -11869,3 +11869,4 @@ code  C:\Users\marti\OneDrive\tar-exe\utf8-LF-tc-clip-vsc.txt
 code  C:\Users\marti\log
 code C:\Users\marti\log\mymyrsync.sh.err.log
 powershell -command Get-Process   -Name Robocopy
+conda activate pip310ecco

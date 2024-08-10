@@ -3653,3 +3653,4 @@ exit
 wsl.exe
 wsl.exe   --list
 wsl -d Ubuntu-22.04
+conda activate pip310ecco
