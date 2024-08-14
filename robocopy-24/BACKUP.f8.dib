@@ -38,6 +38,10 @@ git init
 
 #!pwsh
 
+Hypothesis activity for the query {"user":"martin_m_n_novy","group":"all","url":"","wildcard_uri":"","tag":"","any":"","max":"999","service":"https://hypothes.is","exactTagSearch":"false","expanded":"false","addQuoteContext":"false","format":"json","_separate_replies":"false","groupName":"All","sortBy":"recency"}
+
+#!pwsh
+
 git add -vv 'C:\Users\marti\OneDrive\ps-mylen-mar\start-robocopy.cmd'
 
 # git show

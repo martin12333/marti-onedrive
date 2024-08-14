@@ -11870,3 +11870,5 @@ code  C:\Users\marti\log
 code C:\Users\marti\log\mymyrsync.sh.err.log
 powershell -command Get-Process   -Name Robocopy
 conda activate pip310ecco
+where.exe   start
+cmd /c dir e:\   /a

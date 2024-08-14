@@ -50,6 +50,11 @@ https://ss64.com/nt/start.html
 
 
 
+
+###where.exe   start
+
+
+
 $PSVersionTable| oss|  Set-Clipboard
 
 Name                           Value
