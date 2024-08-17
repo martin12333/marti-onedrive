@@ -111,6 +111,11 @@ github search 1 ... my
 
 
 ```powershell
+dir
+
+```
+
+```powershell
 
 
 git add --dry-run   -vv  dfd.ttf
@@ -119,6 +124,11 @@ git add  -vv  'Bli*/f*/*.ttf'
 
 git commit -v -a -m backup
 git push
+
+
+
+
+
 
 get-co
 git ls-files  |  findstr -i    asem
