@@ -1,10 +1,29 @@
 
 
-# https://github.com/settings/billing/summary
+markdown all-in-one extension enabled
+i hope it will not interfere with github copilot
+
+
+- [links-chapter is moved to the bottom of the file](#links-chapter-is-moved-to-the-bottom-of-the-file)
+- [GitHub Copilot ... markdown beginner's impressions 🧡](#github-copilot--markdown-beginners-impressions-)
+- [day 1](#day-1)
+	- [if you have an autoclicker, switch it off for just 1 minute, use hover, there is Always Show Toolbar option in the settings](#if-you-have-an-autoclicker-switch-it-off-for-just-1-minute-use-hover-there-is-always-show-toolbar-option-in-the-settings)
+- [day 2](#day-2)
+- [ctrl+l  (L)  VSCode multi-line selection](#ctrll--l--vscode-multi-line-selection)
+- [win+v](#winv)
+- [problems with setting up github copilot](#problems-with-setting-up-github-copilot)
+- [problem with accepting suggestions by  github copilot in markdown files](#problem-with-accepting-suggestions-by--github-copilot-in-markdown-files)
+- [links-chapter](#links-chapter)
+- [bottom of the file](#bottom-of-the-file)
 
 
 
-# GitHub Copilot ... beginner's impressions
+# links-chapter is moved to the bottom of the file
+
+
+
+# GitHub Copilot ... markdown beginner's impressions 💚 💛 🧡 ❤️
+
 
 # day 1
 
@@ -16,10 +35,24 @@
 
 https://github.com/settings/billing/summary
 context menu
-ctrl+i Failed
+/// ctrl+i Failed
 /fix
 can you wrap it as a markdown link?
-.success
+
+:ok:
+:white_check_mark:
+:green_heart:
+:+1:
+💚!
+💚!!
+💚+!
+💚+!!
+💚⬆️
+
+
+
+
+
 
 [https://github.com/settings/billing/summary][githubBillingSummaryLink]
 where is a docs for this kind of markdown link?
@@ -120,8 +153,9 @@ Working in Jupyter notebooks is becoming impossible. Most of the time, there are
 I was having the same issue. For large projects, it seems copilot is too ambitious with the analysis. You can try reducing the scope of the search by changing the file settings (settings.json (USER)):
 
 
+# links-chapter
+ https://github.com/settings/billing/summary
 
-
-
+# bottom of the file
 
 [githubBillingSummaryLink]: https://github.com/settings/billing/summary
