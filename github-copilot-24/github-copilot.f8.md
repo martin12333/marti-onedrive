@@ -1,10 +1,38 @@
 
 
 # https://github.com/settings/billing/summary
+
+
+
+# GitHub Copilot ... beginner's impressions
+
+# day 1
+
+## if you have an autoclicker, switch it off for just 1 minute, use hover, there is Always Show Toolbar option in the settings 
+
+# day 2
+
+
+
 https://github.com/settings/billing/summary
+context menu
+ctrl+i Failed
+/fix
+can you wrap it as a markdown link?
+.success
+
+[https://github.com/settings/billing/summary][githubBillingSummaryLink]
+where is a docs for this kind of markdown link?
+
+// at bottom is []githubBillingSummaryLink]: https://github.com/settings/billing/summary
+.success?
+
+# ctrl+l  (L)  VSCode multi-line selection
+.success
 
 
 # win+v
+.success
 
 
 
@@ -94,3 +122,6 @@ I was having the same issue. For large projects, it seems copilot is too ambitio
 
 
 
+
+
+[githubBillingSummaryLink]: https://github.com/settings/billing/summary
