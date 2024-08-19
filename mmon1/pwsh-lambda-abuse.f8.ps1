@@ -5,6 +5,8 @@ $a={	$b=1
 	$c=2   }
 
 
+### Get-ChildItem -Path C:\Users\mmon1\Documents\GitHub\pwsh-lambda-abuse\*.ps1 -Recurse | ForEach-Object { $a = Get-Content -Path $_.FullName -Raw; $a }
+
  @{ 	b=4 ;c="e45"  }
  @{   '!'=1;  	b=4 ;c='e45'  }
  @{ 	b=4 ;c=e45  }

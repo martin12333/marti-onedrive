@@ -950,7 +950,9 @@ https://onedrive.live.com/...
 (1/n) 1 komentář ohledně Maců ... Mac OS X je OS unixového typu, a můj oblíbený Linux je také OS  unixového typu, takže můžeme mít další společné téma 💛  ... od roku 2020 jsem sice ve windows, ale mám asi 4 cesty jak používat unix-like software
 
 (2/n) (ještě 1 komentář ohledně Maců ... po roce 2020 mají Macy zajímavou, tak trochu novou, architekturu počítače ... Unified RAM memory with a throughput of up to 800 GB/s, which is very good for *local* generative Ai inference )
-(ale pro mne ... já  doufám, že to PC konečně začnou dohánět, ... a spíš uvažuji o Copilot-Pro vs. Google ai pricing)
+(ale pro mne ... já  doufám, že to PC konečně začnou dohánět, ... a spíš uvažuji o   + Copilot-Pro vs. + github Copilot vs.  --- Google ai pricing)
+
+
 
 později napíšu o
 (3/n) vlastní funkce v c++
