@@ -1,5 +1,8 @@
 
 
+
+
+
 markdown all-in-one extension enabled
 i hope it will not interfere with github copilot
 
@@ -22,8 +25,9 @@ i hope it will not interfere with github copilot
 
 
 
-# GitHub Copilot ... markdown beginner's impressions 💚 💛 🧡 ❤️
+# GitHub Copilot ... markdown writer's impressions 💚 💛 🧡 ❤️
 
+//  beginner
 
 # day 1
 
@@ -35,9 +39,8 @@ i hope it will not interfere with github copilot
 
 https://github.com/settings/billing/summary
 context menu
-/// ctrl+i Failed
 /fix
-can you wrap it as a markdown link?
+wrap it as a markdown link
 
 :ok:
 :white_check_mark:
@@ -58,14 +61,17 @@ can you wrap it as a markdown link?
 where is a docs for this kind of markdown link?
 
 // at bottom is []githubBillingSummaryLink]: https://github.com/settings/billing/summary
-.success?
+
+💚⬆️
+
 
 # ctrl+l  (L)  VSCode multi-line selection
-.success
+💚⬆️
+
 
 
 # win+v
-.success
+💚⬆️
 
 
 
@@ -84,7 +90,7 @@ https://github.com/settings/apps/authorizations
 
     Tip: You are entering sudo mode. After you've performed a sudo-protected action, you'll only be asked to re-authenticate again after a few hours of inactivity.
 
-i decided to entering sudo mode only from another windows account
+# i decided to entering sudo mode only from another windows account
     would it help?
     or logging out?
 
@@ -92,19 +98,123 @@ i decided to entering sudo mode only from another windows account
 
 
 
-
-# problem with accepting suggestions by  github copilot in markdown files
+# keyboard # problem with accepting suggestions by  github copilot in markdown files
 
 what is the key to  accepting suggestions by  github copilot in markdown files
 tab
 
 https://code.visualstudio.com/docs/copilot/ai-powered-suggestions
 
-ctrl+right arrow
+but for me, the tab merely inserts the tab
+
+## quickfix?
 
 
+changed control+/
+try it
+
+## quickfix?
+
+command:workbench.action.openGlobalKeybindingsFile
+file:///C:\Users\marti\AppData\Roaming\Code\User\keybindings.json
+
+
+command:workbench.action.openGlobalKeybindings
+
+
+
+"Tab"
+
+{
+  "key": "tab",
+  "command": "editor.action.inlineEdit.accept",
+  "when": "cursorAtInlineEdit && inlineEditVisible && !editorReadonly"
+}
+{
+  "key": "tab",
+  "command": "acceptSelectedSuggestion",
+  "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
+}
+{
+  "key": "tab",
+  "command": "editor.action.inlineSuggest.commit",
+  "when": "inlineSuggestionHasIndentationLessThanTabSize && inlineSuggestionVisible && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible"
+}
+
+
+
+
+## quickfix?
+
+
+{
+  "key": "ctrl+right",
+  "command": "editor.action.inlineSuggest.acceptNextWord",
+  "when": "inlineSuggestionVisible && !editorReadonly"
+}
+
+
+{
+  "key": "",
+  "command": "editor.action.inlineSuggest.acceptNextLine"
+}
+
+
+
+## quickfix?
+
+
+
+{
+  "key": "ctrl+enter",
+  "command": "github.copilot.generate",
+  "when": "editorTextFocus && github.copilot.activated && !commentEditorFocused && !inInteractiveInput && !interactiveEditorFocused"
+}
+
+
+
+## quickfix?
+
+"Control+/"
+{
+  "key": "ctrl+/",
+  "command": "editor.action.commentLine",
+  "when": "editorTextFocus && !editorReadonly"
+}
+github.copilot.activated 
+!github.copilot.activated 
+
+{
+  "key": "ctrl+/",
+  "command": "editor.action.commentLine",
+  "when": "editorTextFocus && !editorReadonly && !github.copilot.activated"
+}
+
+
+
+{
+  "key": "ctrl+/",
+  "command": "editor.action.accessibleViewAcceptInlineCompletion",
+  "when": "accessibleViewIsShown && accessibleViewCurrentProviderId == 'inlineCompletions'"
+}
+{
+  "key": "ctrl+/",
+  "command": "github.copilot.acceptCursorPanelSolution",
+  "when": "github.copilot.activated && github.copilot.panelVisible && activeWebviewPanelId == 'GitHub Copilot Suggestions'"
+}
+
+
+
+@command:workbench.action.toggleKeybindingsLog
+
+wrap it as a uri
+
+[command:workbench.action.toggleKeybindingsLog](command:workbench.action.toggleKeybindingsLog)
+
+
+
+## old
 could it be because of the settings in the settings.json file?
-
 probably not, because it behaves the same way regardless of the settings in the settings.json file
 
 
@@ -116,8 +226,9 @@ Czech Republic
 
 
 
-https://docs.github.com/en/copilot/using-github-copilot/using-github-copilot-in-the-command-line
+# https://docs.github.com/en/copilot/using-github-copilot/using-github-copilot-in-the-command-line
 
+# old
 
 https://github.com/settings/billing/summary
 
@@ -139,7 +250,7 @@ https://github.com/settings/billing/summary
 https://github.com/search?q=repo%3Acommunity%2Fcommunity+markdown++completion+keyboard++ctrl&type=discussions&s=&o=desc&p=1
 
 
-I'm noticing the following pattern while working with Jupyter notebooks: when things get slow, Copilot status icon is spinning.
+# I'm noticing the following pattern while working with Jupyter notebooks: when things get slow, Copilot status icon is spinning.
 
 I have a high-end PC and it still becomes crippling slow. It can be mitigated by reloading VS Code so there must be some underlying bug.
 
@@ -155,6 +266,12 @@ I was having the same issue. For large projects, it seems copilot is too ambitio
 
 # links-chapter
  https://github.com/settings/billing/summary
+
+
+/// ctrl+l is something else
+
+
+
 
 # bottom of the file
 
