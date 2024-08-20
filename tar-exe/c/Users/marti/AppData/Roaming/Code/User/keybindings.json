@@ -7,7 +7,7 @@
 	// see https://github.com/martin12333/marti-onedrive/blob/main2/tar-exe/c/Users/marti/AppData/Roaming/Code/User/keybindings.json
 
 
-	
+
 [
 
     //  !!!!!!!!!! if bugfix here, then also update at  https://www.reddit.com/r/whitespaceLisp/comments/mu5gms/an_ideal_keyboard_layout_for_programming/gv3udve/
@@ -20,7 +20,23 @@
 
     { "key": "f7",
       "command":  "cursorPageDownSelect",   //"cursorBottomSelect",
-      "when": "textInputFocus" },
+	"when": "textInputFocus"
+},
+{
+	"key": "ctrl+/",
+	"command": "editor.action.commentLine",
+	"when": "!github.copilot.activated && editorTextFocus && !editorReadonly"
+},
+{
+	"key": "ctrl+/",
+	"command": "-editor.action.commentLine",
+	"when": "editorTextFocus && !editorReadonly"
+},
+{
+	"key": "alt+'",
+	"command": "editor.action.inlineSuggest.acceptNextLine",
+	"when": "inlineSuggestionVisible && !editorReadonly"
+},
 
     // EDIT bugfix: the part "when": "editorTextFocus" is really needed, otherwise awful behavior in ctrl-f
 

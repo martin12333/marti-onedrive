@@ -11,7 +11,7 @@
 
 #!pwsh
 
-git add -vv 'C:\Users\marti\OneDrive\ps-mylen-mar\start-robocopy.cmd'
+# git add -vv 'C:\Users\marti\OneDrive\ps-mylen-mar\start-robocopy.cmd'
 
 # git show
 git push

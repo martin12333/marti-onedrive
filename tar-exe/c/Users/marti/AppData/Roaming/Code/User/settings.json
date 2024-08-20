@@ -178,11 +178,15 @@
 
         "editor.wordWrap": "on",
         "editor.quickSuggestions":  {
-            "other": true,
+
+            "other":   true, // false, // 248j true,
             "comments": true, // false,
             "strings": true, //false
+
         },
     },
+
+
     "python.analysis.completeFunctionParens": true,
     "githubPullRequests.createOnPublishBranch": "never",
     "editor.unicodeHighlight.invisibleCharacters": false,
@@ -327,6 +331,7 @@
 	"github.copilot.enable": {
 		"markdown": true
 	},
+	"editor.inlineSuggest.showToolbar": "always",
 
 
 

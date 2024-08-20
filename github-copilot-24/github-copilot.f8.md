@@ -75,24 +75,40 @@ where is a docs for this kind of markdown link?
 
 
 
-# problems with setting up github copilot
+# problems? with setting up github copilot
+
+## why does github copilot need access to my private repositories?
+
+https://github.com/microsoft/vscode-copilot-release/issues/813
+
+https://github.com/orgs/community/discussions/106551
+
+**probably wont work without accepting**
 
 
-github copilot sign-out in ide ... how?
+## maybe i clicked on check mark  ['/]  [`/]  [./] [v]  orgs  ... before accepting ? or it was taken as an acceptamce?
 
-Select the Accounts menu in the Activity Bar, and then select Sign out for the account you're currently signed in with for Copilot. Sign in to GitHub in VS Code: Select the Accounts menu in the Activity Bar, and then select Sign in with GitHub to use GitHub Copilot.
+ it works
 
 
+## old //////github copilot sign-out in ide ... how?
 
-clicked on check mark  ['/]  [`/]  [./] [v]  orgs  ... before accepting ?
+///Select the Accounts menu in the Activity Bar, and then select Sign out for the account you're currently signed in with for Copilot. Sign in to GitHub in VS Code: Select the Accounts menu in the Activity Bar, and then select Sign in with GitHub to use GitHub Copilot.
+
+https://docs.github.com/en/copilot/managing-copilot/configure-personal-settings/configuring-github-copilot-in-your-environment?tool=vscode#revoking-github-copilot-authorization
+
+> Visual Studio Code retains authorization to use GitHub Copilot through a particular GitHub account. If you want to prevent your GitHub account being used for GitHub Copilot on a device you no longer have access to, you can revoke authorization and then go through the authorization process again. The device you previously used will not have the new authorization.
+
+After revoking authorization, Visual Studio Code will be able to continue using GitHub Copilot in a current session for a maximum of 30 minutes. After that time, you will need to reauthorize GitHub Copilot for use in Visual Studio Code again.
+
 
 https://github.com/settings/apps/authorizations
 
     Tip: You are entering sudo mode. After you've performed a sudo-protected action, you'll only be asked to re-authenticate again after a few hours of inactivity.
 
-# i decided to entering sudo mode only from another windows account
+## ///i decided to entering sudo mode only from another windows account
     would it help?
-    or logging out?
+    or logging out in browser?
 
 
 
@@ -105,15 +121,10 @@ tab
 
 https://code.visualstudio.com/docs/copilot/ai-powered-suggestions
 
-but for me, the tab merely inserts the tab
-
-## quickfix?
+but for me, the tab merely inserts the tab character, and the suggestions are not accepted
 
 
-changed control+/
-try it
-
-## quickfix?
+## 
 
 command:workbench.action.openGlobalKeybindingsFile
 file:///C:\Users\marti\AppData\Roaming\Code\User\keybindings.json
@@ -121,10 +132,27 @@ file:///C:\Users\marti\AppData\Roaming\Code\User\keybindings.json
 
 command:workbench.action.openGlobalKeybindings
 
+command:workbench.action.toggleKeybindingsLog
+wrap it as a uri
+[command:workbench.action.toggleKeybindingsLog](command:workbench.action.toggleKeybindingsLog)
 
 
-"Tab"
 
+## "Tab"
+
+---
+### couldnt this be important???
+settings.json
+	// Insert spaces when pressing `Tab`. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
+	"editor.insertSpaces": false,   // true,
+
+
+    "editor.detectIndentation": false,   // true,
+
+---
+
+
+### keybindings
 {
   "key": "tab",
   "command": "editor.action.inlineEdit.accept",
@@ -143,6 +171,12 @@ command:workbench.action.openGlobalKeybindings
 
 
 
+## relatively free keys
+
+alt+x
+ctrl+\
+altgr?
+ctrl+alt+m
 
 ## quickfix?
 
@@ -159,6 +193,34 @@ command:workbench.action.openGlobalKeybindings
   "command": "editor.action.inlineSuggest.acceptNextLine"
 }
 
+i will try to use alt+x for accepting suggestions by  github copilot in markdown files
+it works but it is a bit pain
+  "when": "inlineSuggestionVisible && !editorReadonly"
+{
+  "key": "alt+x",
+  "command": "editor.action.inlineSuggest.acceptNextLine",
+  "when": "inlineSuggestionVisible && !editorReadonly"
+}
+
+{
+  "key": "ctrl+'",
+  "command": "editor.action.inlineSuggest.acceptNextLine",
+  "when": "inlineSuggestionVisible && !editorReadonly"
+}
+
+test it
+now just need to remember it, and it will be fine
+
+another possibility alt+a ? pain?
+or alt+'
+try alt+x whether altgr is the same as alt/ yes, or as alt+ctrl/ no
+{
+  "key": "alt+'",
+  "command": "editor.action.inlineSuggest.acceptNextLine",
+  "when": "inlineSuggestionVisible && !editorReadonly"
+}
+test it
+now just need to remember it, and it will be fine
 
 
 ## quickfix?
@@ -171,9 +233,10 @@ command:workbench.action.openGlobalKeybindings
   "when": "editorTextFocus && github.copilot.activated && !commentEditorFocused && !inInteractiveInput && !interactiveEditorFocused"
 }
 
+closed the file ???
 
 
-## quickfix?
+## quickfix?? ... does nothing
 
 "Control+/"
 {
@@ -202,15 +265,6 @@ github.copilot.activated
   "command": "github.copilot.acceptCursorPanelSolution",
   "when": "github.copilot.activated && github.copilot.panelVisible && activeWebviewPanelId == 'GitHub Copilot Suggestions'"
 }
-
-
-
-@command:workbench.action.toggleKeybindingsLog
-
-wrap it as a uri
-
-[command:workbench.action.toggleKeybindingsLog](command:workbench.action.toggleKeybindingsLog)
-
 
 
 ## old
