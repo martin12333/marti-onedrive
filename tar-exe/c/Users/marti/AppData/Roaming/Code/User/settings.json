@@ -37,11 +37,11 @@
     },
 
 
+
 	// Insert spaces when pressing `Tab`. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
 	"editor.insertSpaces": false,   // true,
-
-
     "editor.detectIndentation": false,   // true,
+
 
     "[python]": {
 
@@ -173,6 +173,13 @@
     },
 
     "[markdown]": {
+
+
+		// 248L
+        "editor.detectIndentation": false,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 8,
+
 
 		"files.trimTrailingWhitespace": false,  // hard line breaks
 

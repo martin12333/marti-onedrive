@@ -2,7 +2,6 @@
 
 
 
-
 markdown all-in-one extension enabled
 i hope it will not interfere with github copilot
 
@@ -109,9 +108,9 @@ https://github.com/settings/apps/authorizations
     Tip: You are entering sudo mode. After you've performed a sudo-protected action, you'll only be asked to re-authenticate again after a few hours of inactivity.
 
 ## ///i decided to entering sudo mode only from another windows account
-    would it help?
-    or logging out in browser?
 
+[Link to github.com-24\github.com-sudo-mode,protected-branches.f8.md](../github.com-24/github.com-sudo-mode,protected-branches.f8.md)
+        fix
 
 
 
