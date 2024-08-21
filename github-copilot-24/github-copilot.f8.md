@@ -7,14 +7,30 @@ i hope it will not interfere with github copilot
 
 
 - [links-chapter is moved to the bottom of the file](#links-chapter-is-moved-to-the-bottom-of-the-file)
-- [GitHub Copilot ... markdown beginner's impressions 🧡](#github-copilot--markdown-beginners-impressions-)
+- [GitHub Copilot ... markdown writer's impressions 💚 💛 🧡 ❤️](#github-copilot--markdown-writers-impressions----️)
 - [day 1](#day-1)
-	- [if you have an autoclicker, switch it off for just 1 minute, use hover, there is Always Show Toolbar option in the settings](#if-you-have-an-autoclicker-switch-it-off-for-just-1-minute-use-hover-there-is-always-show-toolbar-option-in-the-settings)
+  - [if you have an autoclicker, you can switch it off for just 1 minute, use hover, there is Always Show Toolbar option in the settings](#if-you-have-an-autoclicker-you-can-switch-it-off-for-just-1-minute-use-hover-there-is-always-show-toolbar-option-in-the-settings)
 - [day 2](#day-2)
 - [ctrl+l  (L)  VSCode multi-line selection](#ctrll--l--vscode-multi-line-selection)
 - [win+v](#winv)
-- [problems with setting up github copilot](#problems-with-setting-up-github-copilot)
-- [problem with accepting suggestions by  github copilot in markdown files](#problem-with-accepting-suggestions-by--github-copilot-in-markdown-files)
+- [problems and doubts during setting-up of github copilot](#problems-and-doubts-during-setting-up-of-github-copilot)
+  - [why does github copilot need access to my private repositories?](#why-does-github-copilot-need-access-to-my-private-repositories)
+  - [maybe i clicked on check mark  \['/\]  \[\`/\]  \[./\] \[v\]  orgs  ... before accepting ? or it was taken as an acceptamce?](#maybe-i-clicked-on-check-mark-------v--orgs---before-accepting--or-it-was-taken-as-an-acceptamce)
+  - [old //////github copilot sign-out in ide ... how?](#old-github-copilot-sign-out-in-ide--how)
+  - [///i decided to entering sudo mode only from another windows account](#i-decided-to-entering-sudo-mode-only-from-another-windows-account)
+- [keyboard # problem with accepting suggestions by  github copilot in markdown files](#keyboard--problem-with-accepting-suggestions-by--github-copilot-in-markdown-files)
+  - [](#)
+  - ["Tab"](#tab)
+    - [couldnt this be important???](#couldnt-this-be-important)
+    - [keybindings](#keybindings)
+  - [relatively free keys](#relatively-free-keys)
+  - [quickfix?](#quickfix)
+  - [quickfix?](#quickfix-1)
+  - [quickfix?? ... does nothing](#quickfix--does-nothing)
+  - [old](#old)
+- [https://docs.github.com/en/copilot/using-github-copilot/using-github-copilot-in-the-command-line](#httpsdocsgithubcomencopilotusing-github-copilotusing-github-copilot-in-the-command-line)
+- [old](#old-1)
+- [I'm noticing the following pattern while working with Jupyter notebooks: when things get slow, Copilot status icon is spinning.](#im-noticing-the-following-pattern-while-working-with-jupyter-notebooks-when-things-get-slow-copilot-status-icon-is-spinning)
 - [links-chapter](#links-chapter)
 - [bottom of the file](#bottom-of-the-file)
 
@@ -91,6 +107,9 @@ https://github.com/orgs/community/discussions/106551
 
 
 ## old //////github copilot sign-out in ide ... how?
+
+
+diag?
 
 https://github.com/settings/apps/authorizations
 
