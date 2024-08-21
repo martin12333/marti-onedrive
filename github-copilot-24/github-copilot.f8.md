@@ -75,7 +75,7 @@ where is a docs for this kind of markdown link?
 
 
 
-# problems? with setting up github copilot
+# problems and doubts during setting-up of github copilot
 
 ## why does github copilot need access to my private repositories?
 
@@ -83,7 +83,7 @@ https://github.com/microsoft/vscode-copilot-release/issues/813
 
 https://github.com/orgs/community/discussions/106551
 
-**probably wont work without accepting**
+**in the future may not  work without accepting??**
 
 
 ## maybe i clicked on check mark  ['/]  [`/]  [./] [v]  orgs  ... before accepting ? or it was taken as an acceptamce?
@@ -92,6 +92,8 @@ https://github.com/orgs/community/discussions/106551
 
 
 ## old //////github copilot sign-out in ide ... how?
+
+https://github.com/settings/apps/authorizations
 
 ///Select the Accounts menu in the Activity Bar, and then select Sign out for the account you're currently signed in with for Copilot. Sign in to GitHub in VS Code: Select the Accounts menu in the Activity Bar, and then select Sign in with GitHub to use GitHub Copilot.
 
