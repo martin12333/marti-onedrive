@@ -1,5 +1,7 @@
 
 
+
+
 - [old //////github copilot sign-out in ide ... how?](#old-github-copilot-sign-out-in-ide--how)
 - [ai: GitHub.com Sudo Mode](#ai-githubcom-sudo-mode)
 - [I have decided to enter sudo mode only from another Windows account](#i-have-decided-to-enter-sudo-mode-only-from-another-windows-account)
@@ -10,14 +12,32 @@
 
 win+q ise
 net user 
-icacls.exe   d:\000doc24   /grant 'milan:(oi)(ci)(f)'
+#####icacls.exe   d:\000doc24   /grant 'milan:(oi)(ci)(f)'
 icacls.exe   d:\000doc24   /grant 'milan_rxtipwr:(oi)(ci)(f)'
+
+win switch users
+tc
+notepad
+
+
+ctrl+s
+
+
+win+v
+
+edge profile
+marti-gih-sudo
+
+https://github.com/martin12333/marti-onedrive/blob/main2/github.com-24/github.com-sudo-mode%2Cprotected-branches.f8.md
 
 
 
 # old //////github copilot sign-out in ide ... how?
 
-code github-copilot-24\github-copilot.f8.md
+##code github-copilot-24\github-copilot.f8.md
+
+
+
 
 https://github.com/settings/apps/authorizations
 
@@ -64,6 +84,15 @@ Here is the markdown that would fit at $PLACEHOLDER$:
 
 
 # and Protected Branches
+
+
+https://github.com/Tech-La-Bo-Radotin/EL-programming-repo/settings/branch_protection_rules/new
+https://github.com/Tech-La-Bo-Radotin/EL-programming-repo/settings/branches
+
+https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets
+
+https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches
+
 
 Regarding protected branches, you can set up branch protection rules to prevent unauthorized changes. Here's how:
 
