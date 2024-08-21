@@ -36,7 +36,8 @@ mkdir d:\2222
 mkdir d:\000doc24
 icacls.exe   d:\2222   /grant 'marti:(oi)(ci)(f)'
 icacls.exe   d:\000doc24   /grant 'marti:(oi)(ci)(f)'
-icacls.exe   d:\000doc24   /grant 'milan:(oi)(ci)(f)'
+###icacls.exe   d:\000doc24   /grant 'milan:(oi)(ci)(f)'
+icacls.exe   d:\000doc24   /grant 'milan_rxtipwr:(oi)(ci)(f)'
 
 
 

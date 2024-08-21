@@ -9,9 +9,10 @@
 # I have decided to enter sudo mode only from another Windows account ... part 1
 
 win+q ise
-
 net user 
 icacls.exe   d:\000doc24   /grant 'milan:(oi)(ci)(f)'
+icacls.exe   d:\000doc24   /grant 'milan_rxtipwr:(oi)(ci)(f)'
+
 
 
 # old //////github copilot sign-out in ide ... how?
