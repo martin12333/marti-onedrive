@@ -30,7 +30,7 @@ i hope it will not interfere with github copilot
 
 # day 1
 
-## if you have an autoclicker, switch it off for just 1 minute, use hover, there is Always Show Toolbar option in the settings 
+## if you have an autoclicker, you can switch it off for just 1 minute, use hover, there is Always Show Toolbar option in the settings 
 
 # day 2
 

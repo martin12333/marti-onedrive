@@ -1,6 +1,15 @@
 
 
 
+code github-copilot-24\github-copilot.f8.md
+
+
+
+- [I have decided to enter sudo mode only from another Windows account](#i-have-decided-to-enter-sudo-mode-only-from-another-windows-account)
+- [GitHub.com Sudo Mode and Protected Branches](#githubcom-sudo-mode-and-protected-branches)
+
+
+
 # I have decided to enter sudo mode only from another Windows account
 
     ... would it help??
