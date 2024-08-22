@@ -1,10 +1,17 @@
 
 
 
-- [old //////github copilot sign-out in ide ... how?](#old-github-copilot-sign-out-in-ide--how)
-- [ai: GitHub.com Sudo Mode](#ai-githubcom-sudo-mode)
+
+- [I have decided to enter sudo mode only from another Windows account ... part 1](#i-have-decided-to-enter-sudo-mode-only-from-another-windows-account--part-1)
+  - [win switch users](#win-switch-users)
+  - [win switch users back](#win-switch-users-back)
+- [old //////github copilot sign-out in ide ... how?  part 1](#old-github-copilot-sign-out-in-ide--how--part-1)
+- [old //////github copilot sign-out in ide ... how?  part 2](#old-github-copilot-sign-out-in-ide--how--part-2)
 - [I have decided to enter sudo mode only from another Windows account](#i-have-decided-to-enter-sudo-mode-only-from-another-windows-account)
 - [and Protected Branches](#and-protected-branches)
+- [ai: GitHub.com Sudo Mode](#ai-githubcom-sudo-mode)
+- [kfdlgjfdlkgjfd](#kfdlgjfdlkgjfd)
+- [kdsjfsf](#kdsjfsf)
 
 
 # I have decided to enter sudo mode only from another Windows account ... part 1
