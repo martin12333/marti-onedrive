@@ -292,7 +292,7 @@ This guide aims to give you a workable understanding of the basic phrases and co
 	......./programming stuff/Programming apps/Git/mingw64/etc/ssl/certs/ca-bundle.crt
 
 	[credential "https://dev.azure.com"]
-
+            //mb false alarm
 
 
 # https://jsoncrack.com/editor
@@ -358,17 +358,3 @@ https://juniorguru.memberful.com/account/card/edit
 
 
 
-# todo
-
-
-
-
-
-
-
-
-https://en.wikipedia.org/wiki/Category:Computer_jargon
-
-
-
-https://en.wikipedia.org/wiki/Jargon_File
