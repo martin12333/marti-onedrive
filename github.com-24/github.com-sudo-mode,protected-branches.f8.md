@@ -1,4 +1,10 @@
 
+agile fragile resilient antifragile 
+agile fragile resilient antifragile robust 
+
+agile, fragile, resilient, antifragile ... software examples 
+
+antifragile software companies examples 
 
 
 
@@ -18,8 +24,8 @@
 
 win+q ise
 net user 
-#####icacls.exe   d:\000doc24   /grant 'milan:(oi)(ci)(f)'
-icacls.exe   d:\000doc24   /grant 'milan_rxtipwr:(oi)(ci)(f)'
+#########icacls.exe   d:\000doc24   /grant 'milan:(oi)(ci)(f)'
+####icacls.exe   d:\000doc24   /grant 'milan_rxtipwr:(oi)(ci)(f)'
 
 ## win switch users
 tc
@@ -93,10 +99,21 @@ fter revoking authorization, Visual Studio Code will be able to continue using G
 
 
 
+Next day:
 
+1. Pressed `Ctrl + Print Screen`.
+2. Pressed `F1` and selected "Developer: Reload Window".
+3. Opened the menu and selected "Sign Out".
 
+(.   )
 
+For managing your GitHub application authorizations, visit:
+[GitHub Application Authorizations](https://github.com/settings/connections/applications/01ab8ac9400c4e429b23)
 
+https://github.com/settings/connections/applications/01ab8ac9400c4e429b23
+
+Permissions
+ Access user email addresses (read-only)
 
 
 

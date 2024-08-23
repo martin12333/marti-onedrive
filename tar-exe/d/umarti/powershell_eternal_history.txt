@@ -11979,3 +11979,7 @@ $a.Keys
 @{   _=1;  b=4 ;c='e45'  }
 @{   '!'=1;  b=4 ;c='e45'  }
 net user
+irm https://deno.land/install.ps1 | iex
+deno --version
+$env:Path
+deno --version
