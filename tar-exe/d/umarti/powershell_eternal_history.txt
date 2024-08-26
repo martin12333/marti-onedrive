@@ -11984,3 +11984,5 @@ deno --version
 $env:Path
 deno --version
 deno
+node.exe
+deno
