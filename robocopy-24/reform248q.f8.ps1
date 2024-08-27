@@ -29,6 +29,19 @@ echo '-------- section --------'
 "C:\Users\marti\OneDrive\JVB,JIRKA,jilen"
 
 
+cd C:\Users\marti\OneDrive
+git ls-files | findstr.exe -i jb
+git ls-files | findstr.exe -i jvb
+git ls-files | findstr.exe -i jvb | findstr.exe -iv '[.]f8[.]'
+git ls-files | findstr.exe -iv '[.]f8[.]'    | findstr.exe -i  jb
+
+history| findstr.exe -iv '[.]json'
+git ls-files | findstr.exe -iv '[.]f8[.]'    | findstr.exe -iv history| findstr.exe -iv '[.]json'
+git ls-files --help
+git ls-files '*.f8.md'
+git ls-files '*.f8.ps1'
+git ls-files '*.f8.py'
+##git ls-files --ignored --others
 
 echo '-------- section --------'
 

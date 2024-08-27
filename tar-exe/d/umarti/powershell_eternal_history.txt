@@ -11986,3 +11986,21 @@ deno --version
 deno
 node.exe
 deno
+cd C:\Users\marti\OneDrive
+git ls-files | findstr.exe -i jb
+git ls-files | findstr.exe -i jvb
+git ls-files | findstr.exe -i jvb | findstr.exe -iv '[.]f8[.]'
+git ls-files --help
+git ls-files --ignored
+git ls-files --ignored --others
+git ls-files '*.f8.md'
+git ls-files '*.f8.ps1'
+git ls-files '*.f8.py'
+git ls-files | findstr.exe -i jvb
+git ls-files | findstr.exe -i jvb | findstr.exe -iv '[.]f8[.]'
+git ls-files | findstr.exe -iv '[.]f8[.]'
+git ls-files | findstr.exe -iv '[.]f8[.]'    | findstr.exe -iv history
+git ls-files | findstr.exe -iv '[.]f8[.]'    | findstr.exe -iv history| findstr.exe -iv '[.]json'
+git ls-files | findstr.exe -iv '[.]f8[.]'    | findstr.exe -i  j
+git ls-files | findstr.exe -iv '[.]f8[.]'    | findstr.exe -i  jv
+git ls-files | findstr.exe -iv '[.]f8[.]'    | findstr.exe -i  jb
