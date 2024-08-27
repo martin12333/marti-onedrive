@@ -17,6 +17,26 @@ echo '-------- section --------'
 
 existing folders
 
+"C:\Users\marti\OneDrive\Eda-f8"
+other folders of eda i cannot see
+
+"C:\Users\marti\OneDrive\invite246--mitigate"
+
+echo '-------- section --------'
+
+"C:\Users\marti\OneDrive\mn80--MSEdge-Workspace-JVB-MB"
+
+"C:\Users\marti\OneDrive\JVB,JIRKA,jilen"
+
+
+
+echo '-------- section --------'
+
+
+"C:\Users\marti\OneDrive\Dokumenty234"
+
+
+echo '-------- section --------'
 
 proposed changes
 
