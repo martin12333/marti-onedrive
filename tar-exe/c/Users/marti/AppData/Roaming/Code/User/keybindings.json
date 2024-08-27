@@ -1,10 +1,12 @@
 // Place your key bindings in this file to override the defaults
 
-//  to reduce a danger of random edits here
-	// master copy is   code  ..\AppData\Roaming\Code\User\keybindings.json
-	// git tracked copy is    code   C:\Users\marti\OneDrive\tar-exe\c\Users\marti\AppData\Roaming\Code\User\keybindings.json
+//  to reduce a danger of random edits in the master copy
 
-	// see https://github.com/martin12333/marti-onedrive/blob/main2/tar-exe/c/Users/marti/AppData/Roaming/Code/User/keybindings.json
+	// master-copy is   file:///c:\Users\marti\AppData\Roaming\Code\User\keybindings.json
+
+	// git-tracked-copy is  file:///C:\Users\marti\OneDrive\tar-exe\c\Users\marti\AppData\Roaming\Code\User\keybindings.json
+
+	//  https://github.com/martin12333/marti-onedrive/blob/main2/tar-exe/c/Users/marti/AppData/Roaming/Code/User/keybindings.json
 
 
 
