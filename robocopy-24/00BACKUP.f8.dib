@@ -5,13 +5,45 @@
 #!pwsh
 
 # GIT LOCK AFTER "STOP CELL EXEC": POMOHLO F1 DEVEL RELOAD
-#powershell -command
- Get-Process   -Name Robocopy
-#echo echo  kill -Name  Robocopy
 
 #!pwsh
 
-# git add -vv 'C:\Users\marti\OneDrive\ps-mylen-mar\start-robocopy.cmd'
+Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive   /e    /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*    /xd .vscode   /xf .git  /xf .gitignore         /XO  /njh   /LOG+:C:\Users\marti\log\doc24.log   /tee    /V  # |  findstr.exe  -i   older
+  # /L
+#  /nfl  /ndl
+## \BACKUP-DONTEDIT-000doc24
+
+#!value
+
+ Log File : C:\Users\marti\log\doc24.log
+
+
+	         named		     253	.gitignore
+
+	       named      -1	d:\000doc24\.git\
+	       named      -1	d:\000doc24\.vscode\
+	    Newer     		    6235	BACKUP.f8.dib
+	         older		      46	experim-wrong-edit.f8.md
+
+	*EXTRA Dir        -1	C:\Users\marti\OneDrive\Diabetes_ 10 warning signs that can appear on your skin\
+
+	         older		     715	000doc24 - Shortcut.lnk
+
+	          same		      45	a.ps1
+	          same		     387	launch.json
+
+#!pwsh
+
+cd D:\000doc24
+git init
+
+#!pwsh
+
+Hypothesis activity for the query {"user":"martin_m_n_novy","group":"all","url":"","wildcard_uri":"","tag":"","any":"","max":"999","service":"https://hypothes.is","exactTagSearch":"false","expanded":"false","addQuoteContext":"false","format":"json","_separate_replies":"false","groupName":"All","sortBy":"recency"}
+
+#!pwsh
+
+git add -vv 'C:\Users\marti\OneDrive\ps-mylen-mar\start-robocopy.cmd'
 
 # git show
 git push
@@ -126,14 +158,3 @@ get-ch
 #!pwsh
 
 'sffs'.Chars(2)
-
-#!markdown
-
-// git add -vv  '*.f8.*'   
-fatal: Unable to create 'D:/GIT-bk04/marti-onedrive.git/index.lock': File exists.
-
-// Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.

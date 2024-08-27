@@ -17,8 +17,33 @@ echo '-------- section --------'
 
 existing folders
 
+
+cd C:\Users\marti\OneDrive
+#git ls-files   --deleted   | findstr.exe -iv '[.]f8[.]'
+git ls-files   --deleted   | findstr.exe -iv '[.]f8[.]'
+git ls-files   --deleted   | findstr.exe -iv '[.]f8[.]m'
+
+
+
+f8_wiki
+
+"D:\000doc24\flat-f8_wiki-248"
+"D:\000doc24\002doc24"
+
+
+
+"C:\Users\marti\OneDrive\invite246--onedrive--mitigated"
+ed
+
+
+
 "C:\Users\marti\OneDrive\Eda-f8"
-other folders of eda i cannot see
+other main folders of eda i cannot see
+
+gh--martin--to--Eda
+
+"C:\Users\marti\OneDrive\gh--martin--to--Eda"
+
 
 "C:\Users\marti\OneDrive\invite246--mitigate"
 
@@ -26,13 +51,13 @@ echo '-------- section --------'
 
 "C:\Users\marti\OneDrive\mn80--MSEdge-Workspace-JVB-MB"
 
-"C:\Users\marti\OneDrive\JVB,JIRKA,jilen"
-
+		"C:\Users\marti\OneDrive\JVB,JIRKA,jilen"
 
 cd C:\Users\marti\OneDrive
 git ls-files | findstr.exe -i jb
 git ls-files | findstr.exe -i jvb
 git ls-files | findstr.exe -i jvb | findstr.exe -iv '[.]f8[.]'
+git ls-files | findstr.exe -iv '[.]f8[.]'
 git ls-files | findstr.exe -iv '[.]f8[.]'    | findstr.exe -i  jb
 
 history| findstr.exe -iv '[.]json'

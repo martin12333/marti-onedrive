@@ -12004,3 +12004,8 @@ git ls-files | findstr.exe -iv '[.]f8[.]'    | findstr.exe -iv history| findstr.
 git ls-files | findstr.exe -iv '[.]f8[.]'    | findstr.exe -i  j
 git ls-files | findstr.exe -iv '[.]f8[.]'    | findstr.exe -i  jv
 git ls-files | findstr.exe -iv '[.]f8[.]'    | findstr.exe -i  jb
+cd C:\Users\marti\OneDrive
+git ls-files   --deleted   | findstr.exe -iv '[.]f8[.]md'
+git ls-files   --deleted   | findstr.exe -iv '[.]f8[.]m'
+git ls-files   --deleted   | findstr.exe -iv '[.]f8[.]'
+git ls-files   --deleted   | findstr.exe -iv '[.]f8[.]m'
