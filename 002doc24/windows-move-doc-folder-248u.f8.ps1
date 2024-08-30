@@ -49,6 +49,14 @@ dir C:\Users\marti\OneDrive\Documents
 
 
 
+# git add
+
+delete mode 100644 Dokumenty234/1desktop.ini
+delete mode 100644 Dokumenty234/AutoHotkey.ahk
+
+cd C:\Users\marti\OneDrive\Dokumenty
+git ad
+
 # relogin
 
 # ahk
