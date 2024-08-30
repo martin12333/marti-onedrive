@@ -56,20 +56,11 @@ delete mode 100644 Dokumenty234/AutoHotkey.ahk
 
 cd C:\Users\marti\OneDrive\Dokumenty
 git add -vv AutoHotkey.ahk
-
-# relogin
-
-# ahk
+# .ahk edited
 
 
 
-
-
-
-# git add
-git add
-git add
-
+# git commit
 
 # acronis true image 2021
 
@@ -78,3 +69,8 @@ git add
 
 wait till finish
 
+# relogin
+
+shutdown.exe /L
+
+# check ahk
