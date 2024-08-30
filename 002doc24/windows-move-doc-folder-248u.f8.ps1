@@ -1,5 +1,13 @@
 
+
 exit
+
+
+# 23
+# 24
+# Windows moved the Documents folder back to OneDrive by itself!
+#
+
 
 
 # git add
@@ -62,10 +70,15 @@ git add -vv AutoHotkey.ahk
 
 # git commit
 
+
+
 # acronis true image 2021
 
 # win r
 # win q
+
+
+
 
 wait till finish
 
