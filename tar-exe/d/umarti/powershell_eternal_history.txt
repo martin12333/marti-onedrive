@@ -12021,3 +12021,4 @@ cd C:\Users\marti\OneDrive\Dokumenty
 git add autohotkey.ahk
 git add -vv autohotkey.ahk
 git add -vv AutoHotkey.ahk
+shutdown.exe /L

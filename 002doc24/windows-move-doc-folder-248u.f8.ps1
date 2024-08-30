@@ -87,3 +87,18 @@ wait till finish
 shutdown.exe /L
 
 # check ahk
+#3 3
+# running win q AutoHotkey   ok
+# !@#$%^&*()-= ok
+
+
+
+moved powershell dirs
+
+shutdown.exe /L
+
+
+dir C:\Users\marti\OneDrive\Dokumenty234
+dir C:\Users\marti\OneDrive\Dokumenty
+dir C:\Users\marti\OneDrive\Documents
+
