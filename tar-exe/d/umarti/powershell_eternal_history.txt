@@ -12009,3 +12009,11 @@ git ls-files   --deleted   | findstr.exe -iv '[.]f8[.]md'
 git ls-files   --deleted   | findstr.exe -iv '[.]f8[.]m'
 git ls-files   --deleted   | findstr.exe -iv '[.]f8[.]'
 git ls-files   --deleted   | findstr.exe -iv '[.]f8[.]m'
+dir C:\Users\marti\OneDrive\Dokumenty
+dir C:\Users\marti\Documents
+dir C:\Users\marti\Dokumenty
+dir C:\Users\marti\OneDrive\Dokumenty234
+dir C:\Users\marti\OneDrive\Dokumenty
+dir C:\Users\marti\OneDrive\Documents
+dir C:\Users\marti\OneDrive\Dokumenty
+dir C:\Users\marti\OneDrive\Dokumenty234

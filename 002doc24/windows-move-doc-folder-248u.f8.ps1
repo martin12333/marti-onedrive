@@ -1,4 +1,5 @@
 
+exit
 
 
 # git add
@@ -21,8 +22,9 @@ wait till finish
 "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Recent\Indexing Options (2).lnk"
 
 
-C:\Users\marti\OneDrive\Dokumenty
-C:\Users\marti\Documents
+dir C:\Users\marti\OneDrive\Dokumenty
+dir C:\Users\marti\Documents
+dir C:\Users\marti\Dokumenty
 
 
 
@@ -40,7 +42,31 @@ search-ms:displayname=Search%20Results%20in%20OneDrive&crumb=System.Generic.Stri
 
 
 
-C:\Users\marti\OneDrive\Dokumenty234
+dir C:\Users\marti\OneDrive\Dokumenty234
+dir C:\Users\marti\OneDrive\Dokumenty
+dir C:\Users\marti\OneDrive\Documents
 
 
+
+
+# relogin
+
+# ahk
+
+
+
+
+
+
+# git add
+git add
+git add
+
+
+# acronis true image 2021
+
+# win r
+# win q
+
+wait till finish
 
