@@ -55,7 +55,7 @@ delete mode 100644 Dokumenty234/1desktop.ini
 delete mode 100644 Dokumenty234/AutoHotkey.ahk
 
 cd C:\Users\marti\OneDrive\Dokumenty
-git add autohotkey.ahk
+git add -vv AutoHotkey.ahk
 
 # relogin
 

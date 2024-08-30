@@ -7,7 +7,9 @@
 
 ; win + e / martin personal / documents ---> location ->
 	; C:\Users\marti\OneDrive\Dokumenty234
+	; C:\Users\marti\OneDrive\Dokumenty
 ; this file:  THE  MAIN COPY is  at C:\Users\marti\OneDrive\Dokumenty234\AutoHotkey.ahk
+; this file:  THE  MAIN COPY is  at C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
 
 
 
