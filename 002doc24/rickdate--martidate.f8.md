@@ -1,8 +1,17 @@
 
-
+# martidate is like rickdate but yymd, yy base 10
+martidate    Dyddiad	Rickdate	EPOC
+7011    1st of January 1970	1iq11	0
+813m    22nd, March 1981	1j13m	354067200000
+94be    November 14, 1994	1jebe	784771200000
+0011    1 Jan 2000	1jk11	946684800000
+158n    23 Aug 2015	1jz8n	1440288000000
+181v    January 31st 2018	1k21v	1517356800000
+2011    1 Jan 2020	1k411	1577836800000
 
 
 # googled "martidate"
+//////# googled "martindate" # a surname
 
 # https://lastres0rt.github.io/rick-date/
 
@@ -12,28 +21,6 @@
 "rickdate" site:github.com
 "rick date" site:github.com
 
-Cymraeg
-
-Rickdate: 88u (Heddiw)
-Gwe, Aws 30 2024
-Rick date. Y dyddiad llawn mewn tair llythyren. Feedback welcomed. [21k_EDR]
-
-
-08/30/2024
-Rickdate
-1k88u
-EPOC
-1724968800000
-
-Engreifftiau
-# martidate    Dyddiad	Rickdate	EPOC
-7011    1st of January 1970	1iq11	0
-813m    22nd, March 1981	1j13m	354067200000
-94be    November 14, 1994	1jebe	784771200000
-0011    1 Jan 2000	1jk11	946684800000
-158n    23 Aug 2015	1jz8n	1440288000000
-181v    January 31st 2018	1k21v	1517356800000
-2011    1 Jan 2020	1k411	1577836800000
 
 
 

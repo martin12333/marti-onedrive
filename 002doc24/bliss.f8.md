@@ -86,6 +86,16 @@ from https://www.reddit.com/r/visual_conlangs/ ... ? would you agree with ...
   "Wine is the milk of> the elderly, the poison of> the young." 
 
 
+Thanks! I also study the "big book" !, the 1965 edition of "Semantography (Blissymbolics)".
+
+I am glad 💛⬆️ , that i am not alone in studying the book.
+
+
+
+
+
+
+
 ve found the link in my archives:
 https://www.the-symbols.net/semantography/
 .... recommended pages are 854, 438, ... maybe it is a bit more complicated, than i thought
