@@ -3655,3 +3655,7 @@ wsl.exe   --list
 wsl -d Ubuntu-22.04
 conda activate pip310ecco
 & python c:\Users\marti\.vscode\extensions\ms-python.python-2024.12.2-win32-x64\python_files\printEnvVariablesToFile.py c:\Users\marti\.vscode\extensions\ms-python.python-2024.12.2-win32-x64\python_files\deactivate\powershell\envVars.txt
+dir C:\Users\marti\OneDrive\Documents
+dir C:\Users\marti\OneDrive\Dokumenty
+dir C:\Users\marti\OneDrive\Dokumenty234
+shutdown.exe /L
