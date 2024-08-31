@@ -174,11 +174,11 @@
 
     "[markdown]": {
 
-
-		// 248L
-        "editor.detectIndentation": false,
-        "editor.insertSpaces": true,
-        "editor.tabSize": 8,
+		// 2491 disabled because .hash.tsv in markdown needs tabs
+		//// 248L added
+        //"editor.detectIndentation": false,
+        //"editor.insertSpaces": true,
+        //"editor.tabSize": 8,
 
 
 		"files.trimTrailingWhitespace": false,  // hard line breaks
@@ -197,7 +197,7 @@
     "python.analysis.completeFunctionParens": true,
     "githubPullRequests.createOnPublishBranch": "never",
     "editor.unicodeHighlight.invisibleCharacters": false,
-    // ??
+    // ?? but i will keep the false ... tried google search and it seems to be ~~frequent
 
     "bashIde.globPattern": "**/*@(.sh|.inc|.bash|.command|.hist)",
     "bashIde.highlightParsingErrors": true,
@@ -352,7 +352,6 @@
 
     // unknown configuration setting: languages
 
-    // onedr
 
 }
 
