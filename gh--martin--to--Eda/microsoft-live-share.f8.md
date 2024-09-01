@@ -1,8 +1,47 @@
 
 
+# live share
+
+it was easy to install and use
+
+// many of the following notes are suggestions by github copilot (AI) 
 
 
-# settings
+## install
+
+1. install live share extension
+2. sign in to microsoft account
+
+## use
+
+1. click on the live share icon in the status bar
+2. share the link with the other person
+
+## features
+
+* 2 people can edit the same file
+* every terminal is initially read-only
+
+## problems
+
+
+## settings
+
+// really not very important
+* `liveshare.launcherClient` specifies the client to launch when clicking on a Live Share URL.
+
+## chat
+
+btw, is there a chat in live share?
+
+a chat tool in vscode?
+
+
+
+
+
+
+# far future 1 settings
 f1
 @command:workbench.action.openGlobalSettings
 @ext:ms-vsliveshare.vsliveshare
@@ -10,9 +49,20 @@ f1
 @command:workbench.action.openRawDefaultSettings
 @command:workbench.action.openSettingsJson
 
-# settings.json
+# far future 1 settings.json
+	// Specifies the client to launch when clicking on a Live Share URL.
+	"liveshare.launcherClient": "web",
 	"liveshare.launcherClient": "visualStudioCode",
 
+
+
+
+# far future 2 edit settings??
+@command:workbench.action.openRawDefaultSettings
+	"liveshare.allowGuestTaskControl": false,
+	"liveshare.diagnosticMode": false,
+	"liveshare.diagnosticLogging": false,
+	"liveshare.notebooks.allowGuestExecuteCells": false,
 
 
 # chat
@@ -35,8 +85,9 @@ Možnosti:
 // byl bych rad, kdybyste někdy aspoň zvážili moznosti spolupráce pres internet ...
 ctrl+win+q jsme cvičně zkoušeli tady s Edou v asi květnu
 
-//live share jsem cvičně vyzkoušel v srpnu
-
+//live share jsem cvičně vyzkoušel 
++ v srpnu
++ 2491
 
 
 
@@ -49,7 +100,7 @@ ctrl+win+q jsme cvičně zkoušeli tady s Edou v asi květnu
 
 
 
-https://github.com/microsoft/live-share/issues
+//// https://github.com/microsoft/live-share/issues
 
 
 
