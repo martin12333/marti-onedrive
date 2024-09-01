@@ -1,4 +1,23 @@
 
+# chat 2491
+
+https://prod.liveshare.vsengsaas.visualstudio.com/join?07F08.........................
+
+// Jen pro úplnost, pro moji biologickou paměť
+20240901_155354.jpg
+20240901_171012.jpg
+
+// jen pro uplnost
+// https://github.com/martin12333/marti-onedrive/blob/main2/gh--martin--to--Eda/microsoft-live-share.f8.md
+// btw, překopal jsem adresáře ve svém onedrive 
+
+
+// me again: (ještě si budu muset skočit na záchod)... A budu muset sníst trochu sacharidů
+,
+ok, a mne: ted se mi pocitac automaticky  zamkne na 30 minut, abych delal prestavky po 45 min prace, ale kdyztak  budu na mobilu
+
+
+
 
 # live share
 
@@ -65,7 +84,7 @@ f1
 	"liveshare.notebooks.allowGuestExecuteCells": false,
 
 
-# chat
+# chat 248
 
 [24-8](24-8-tech_La_Bo.f8.md)
 
