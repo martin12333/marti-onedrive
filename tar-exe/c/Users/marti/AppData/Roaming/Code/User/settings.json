@@ -178,7 +178,9 @@
 		//// 248L added
         //"editor.detectIndentation": false,
         //"editor.insertSpaces": true,
-        //"editor.tabSize": 8,
+        "editor.insertSpaces": false,
+        "editor.tabSize": 8,
+        "editor.detectIndentation": false,
 
 
 		"files.trimTrailingWhitespace": false,  // hard line breaks
@@ -334,7 +336,9 @@
 	"notebook.output.wordWrap": true,
 	"notebook.lineNumbers": "on",
 	"notebook.output.fontSize": 10,
+
 	"liveshare.launcherClient": "visualStudioCode",
+
 	"github.copilot.enable": {
 		"markdown": true
 	},

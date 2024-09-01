@@ -1,5 +1,10 @@
 satisfaction
 
+todo 
+    
+    https://copilot.microsoft.com/?showntbk=1
+        prosím opravte následující český text ... doplňte chybějící háčky a čárky, žádné jiné změny nedělejte:
+    
 
 [previous was](24-5-tech_La_Bo.f8.md)
 
@@ -133,7 +138,7 @@ https://en.wikipedia.org/wiki/Jargon_File
 
 
 
-# techl248m
+# techl248m  kopie google chatu
 
 
 
@@ -330,7 +335,7 @@ Možnosti:
 * google-chat (hovor, videohovor)
 * v kombinaci s windows quick-assist screen sharing
 * v kombinaci s windows quick-assist remote help (klikání přes internet)
-* v kombinaci s vscode liveshare ( 2 lidé editují 1 text, např. program)
+* v kombinaci s vscode live share ( 2 lidé editují 1 text, např. program)
 ,Yesterday 11:07 PM,
 Today
 You
@@ -339,7 +344,8 @@ You
 ,
 // byl bych rad, kdybyste někdy aspoň zvážili moznosti spolupráce pres internet ...
 ctrl+win+q jsme cvičně zkoušeli tady s Edou v asi květnu
-//liveshare jsem cvičně vyzkoušel v srpnu
+
+//live share jsem cvičně vyzkoušel v srpnu
 
 ,3:44 PM,
 CZCB

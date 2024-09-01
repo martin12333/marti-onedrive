@@ -99,6 +99,7 @@ exit
 
 
 //prb: changes focus
+// but better completion
 { "key": "f8",                    "command": "PowerShell.RunSelection",
                                      "when": "editorTextFocus && editorLangId == 'powershell'" },
 
