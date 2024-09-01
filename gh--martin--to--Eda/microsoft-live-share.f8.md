@@ -1,8 +1,17 @@
 
 
-# settings.
-	"liveshare.launcherClient": "visualStudioCode",
 
+
+# settings
+f1
+@command:workbench.action.openGlobalSettings
+@ext:ms-vsliveshare.vsliveshare
+
+@command:workbench.action.openRawDefaultSettings
+@command:workbench.action.openSettingsJson
+
+# settings.json
+	"liveshare.launcherClient": "visualStudioCode",
 
 
 
@@ -41,4 +50,7 @@ ctrl+win+q jsme cvičně zkoušeli tady s Edou v asi květnu
 
 
 https://github.com/microsoft/live-share/issues
+
+
+
 
