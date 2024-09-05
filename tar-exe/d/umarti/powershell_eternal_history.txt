@@ -12022,3 +12022,22 @@ git add autohotkey.ahk
 git add -vv autohotkey.ahk
 git add -vv AutoHotkey.ahk
 shutdown.exe /L
+sort sort2.md
+sort.exe sort2.md
+sort.exe sort.md
+sort.exe sort2.md
+sort.exe sort.md
+sort.exe /?
+sort.exe sort.md    /L C
+sort.exe sort.md    /L C /R
+sort.exe sort2.md    /L C /R
+sort.exe sort.md    /L C /R
+sort.exe sort3.md    /L C /R
+sort /? | clip
+sort /? | clip.exe
+sort /?
+sort.exe /?
+sort.exe /? |clip
+bash
+sort.exe sort4.md    /L C /R
+bash
