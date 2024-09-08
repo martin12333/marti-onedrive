@@ -9,6 +9,9 @@
 # (R) https://www.calculator.net/anorexic-bmi-calculator.html?cage=48&csex=f&cheightfeet=5&cheightinch=10&cpound=160&cheightmeter=180&ckg=48&ctype=metric&x=Calculate
 
 
+# (R) https://www.leicspart.nhs.uk/autism-space/health-and-lifestyle/autistic-fatigue-and-burnout-coping-strategies/
+
+
 # (R)  https://www.google.com/search?q=break+out+of+hyperfocus?+site:www.reddit.com
 
 

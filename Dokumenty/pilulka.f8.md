@@ -19,9 +19,17 @@ milan.b..@s...
 https://www.pilulka.cz/intact-rolicka-hroznovy-cukr-s-vit-c-banan-40g
 
 
+
 Doporučte nám
 Chybí vám na Pilulce oblíbený produkt?
 Hledali jste, ale nenašli – váš produkt na Pilulce zkrátka chybí. Můžeme se ho však pokusit zařadit do nabídky, když nám o něm napíšete. Vyplňte prosím formulář níže a popište nám konkrétní produkty, které byste na Pilulce chtěli vidět. My si projdeme vaše nápady a možná své oblíbence brzy objevíte i v naší nabídce. :)
 
 Děkujeme za váš tip!
+
+
+
+
+zda je pravda, že trávení sacharidů v těle vyčerpává tělesné zásoby nezbytných minerálů a vitamínů, zejména vápníku, hořčíku a vitamínu B1
+
+is it true, that the digestion of carbohydrates in the body depletes the body's reserves of essential minerals and vitamins, especially calcium, magnesium, and vitamin B1
 
