@@ -15,9 +15,10 @@
 # (R)  https://www.google.com/search?q=break+out+of+hyperfocus?+site:www.reddit.com
 
 
-edge://edge-urls
 
 edge://restart/
+
+edge://edge-urls
 edge://history/recentlyClosed
 edge://extensions/shortcuts
 
