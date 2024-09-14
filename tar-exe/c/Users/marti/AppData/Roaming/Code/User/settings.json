@@ -81,7 +81,8 @@
 		"*.tasker": "ini",
 		"*.sage": "python",
 		"*.ahk": "ini",
-		"*.mac": "javascript"
+		"*.mac": "javascript",
+		"*.formulas": "vb"
 	},
 
 

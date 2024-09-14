@@ -12043,3 +12043,4 @@ sort.exe sort4.md    /L C /R
 bash
 dir c:\Users\marti\AppData\Roaming\RSIGuard\
 cmd /c dir c:\Users\marti\AppData\Roaming\RSIGuard\
+cat "C:\Users\marti\AppData\Roaming\RSIGuard\marti-HiRes.txt"

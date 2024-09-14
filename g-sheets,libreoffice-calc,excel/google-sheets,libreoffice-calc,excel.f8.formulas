@@ -1,13 +1,22 @@
 
 
-google sheets
-libreoffice calc
-excel
 
+' google-sheets,libreoffice-calc,excel.f8.formulas
+' g-sheets,libreoffice-calc,excel.f8.vb.rb
+' g-sheets,libreoffice-calc,excel.f8.vb
 
-------------
-HYPERPOLYGLOT-CSV-README-ISSUES
+' google sheets
+' libreoffice calc
+' excel
+
+C:\Users\marti\OneDrive\g-sheets,libreoffice-calc,excel\google-sheets-query.f8.formulas
+
+' ------------
+' HYPERPOLYGLOT-CSV-README-ISSUES
+
 https://docs.google.com/spreadsheets/d/1w4MAxWcWjX3aMBRkOsqjwcAabFtY4WT4JloPRd944og/edit#gid=377285990
+
+
 
 numerical1,2+google-sheets,excel,libreoffice-calc
 google-sheets //  NEW COLUMNs
@@ -15,7 +24,26 @@ libreoffice-calc
 excel
 https://docs.google.com/spreadsheets/d/14oQlf9ujdUgeC2f18dAk0BlDPG_kxFf0KFC0bC_FRjw/edit#gid=268802438
 
+
+https://rosettacode.org/wiki/Category:Excel
+
+https://support.google.com/docs/table/25273
+
+https://support.google.com/docs/answer/6208276?hl=en
+
+
+
+
 https://clarkgrubb.com/spreadsheets
+
+
+
+
+
+
+https://script.google.com/u/0/home/projects/1oLeoU4sXJWm9JOkRYV6d7pp8UuhTUeidFT98r1NFhavnOSUwsNTaagK1/edit
+
+
 
 --------------
 
@@ -57,8 +85,14 @@ https://support.google.com/docs/thread/53725030/how-to-limit-number-or-rows-and-
 
 
 
-https://script.google.com/u/0/home/projects/1oLeoU4sXJWm9JOkRYV6d7pp8UuhTUeidFT98r1NFhavnOSUwsNTaagK1/edit
 
+
+
+
+
+
+
+google-sheets-query.f8.formulas
 
 MEDICINES()
 =QUERY('Form Responses 1'!$A$2:$B,"SELECT A,B WHERE B=1 OR B=3 " , 0 )
@@ -135,7 +169,14 @@ THIS MAKES 1000- OF 0
 
 
 
+
+
+
+
 BUT, THE FOLLOWING EATS MEMORY!!!
+
+WARNING! THIS IS A BUG
+
 PROBABLY A SHEET IS EXPANDING ITSELF!
 ~~bug!
 Error "Result was not expanded automatically, please ..."
@@ -152,7 +193,8 @@ GETS AUTOMODIFIED TO
 =ArrayFormula({B3:B57276;""} -  {B2:B57276})
 
 =ArrayFormula({B2:B;""} -  {B1:B})
-#ref   .... asi narazil na 1000 v sheet12
+#ref   .... maybe it did hit the 1000 limit in  sheet12
+
 
 
 =ArrayFormula(query(
@@ -163,9 +205,17 @@ GETS AUTOMODIFIED TO
 
 
 
-
-
 	=INDEX(FILTER($A:$A,$B,$B=$D$1),COUNTA(FILTER($A:$A,$B:$B-$D$1)),1)
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -196,6 +246,10 @@ O1:O1029
 https://support.google.com/docs/answer/78413?hl=en
 Note: Formulas can only reference the same sheet, using standard notation "(='sheetname'!cell)." To reference another sheet in the formula, use the INDIRECT function.
 Often, you will need to add dollar signs ($) in front of letters and numbers in formulas so that the formatting is applied using absolute references as opposed to relative references (A1 to B1, A2 to B2).
+
+
+
+
 
 
 
