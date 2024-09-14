@@ -2,6 +2,9 @@
 a problem in google sheets
 when I press ctrl+d in browser to bookmark the page
 google sheets deletes the cell content // if the cell above is empty
+## solution ... add a sheet to every important workbook with this info
+https://docs.google.com/spreadsheets/d/1rvUUok2Q5Ek07HbzMgWlL6CFXNDjaFn8M-EQhEUkm-I/edit?gid=353224126#gid=353224126
+
 
 # see also
 ' see also C:\Users\marti\OneDrive\g-sheets,libreoffice-calc,excel\google-sheets,libreoffice-calc,excel.f8.formulas

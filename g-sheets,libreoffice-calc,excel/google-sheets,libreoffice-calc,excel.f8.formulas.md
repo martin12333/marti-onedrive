@@ -8,6 +8,8 @@ is this problem mentioned on the web?
 https://support.google.com/docs/answer/181110?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Cpc-shortcuts
 Fill down	Ctrl + d
 In Microsoft Excel and Google Sheets, pressing Ctrl + D fills and overwrites a cell(s) with the contents of the cell above it in a column. To fill the entire column with the contents of the upper cell, press Ctrl + Shift + Down to select all cells below, and press Ctrl + D .
+## solution ... add a sheet to every important workbook with this info
+https://docs.google.com/spreadsheets/d/1rvUUok2Q5Ek07HbzMgWlL6CFXNDjaFn8M-EQhEUkm-I/edit?gid=353224126#gid=353224126
 
 
 # EXPERIM
