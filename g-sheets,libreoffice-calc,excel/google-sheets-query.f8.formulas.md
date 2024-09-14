@@ -1,20 +1,21 @@
-' google-sheets-query.f8.formulas
-
+# BUG sheets249e ISSUE
+a problem in google sheets
+when I press ctrl+d in browser to bookmark the page
+google sheets deletes the cell content // if the cell above is empty
 
 # see also
-
 ' see also C:\Users\marti\OneDrive\g-sheets,libreoffice-calc,excel\google-sheets,libreoffice-calc,excel.f8.formulas
 
-
 # EXPERIM
-
+https://drive.google.com/drive/folders/1KuSoxDpeTIJG84dmjwAuDJnkdJBqeh2Y
+experim - Google Drive
 "C:\Users\marti\OneDrive\Non-24-Hour--Sleep-Disorder\EXPERIM\non24 experim and old Copy of Responses.xlsx"
 
 
 
 
 
-query...
+# query...
 lines from
 
     MEDICINES()

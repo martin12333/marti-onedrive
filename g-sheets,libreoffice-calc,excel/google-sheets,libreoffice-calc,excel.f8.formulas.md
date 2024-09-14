@@ -1,5 +1,3 @@
-
-
 # BUG sheets249e ISSUE
 a problem in google sheets
 when I press ctrl+d in browser to bookmark the page
@@ -7,16 +5,20 @@ google sheets deletes the cell content // if the cell above is empty
 is this problem mentioned on the web?
 ... asked ~ ~ copilot.microsoft.com
 ... slightly is mentioned on the web
-
 https://support.google.com/docs/answer/181110?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Cpc-shortcuts
 Fill down	Ctrl + d
-
 In Microsoft Excel and Google Sheets, pressing Ctrl + D fills and overwrites a cell(s) with the contents of the cell above it in a column. To fill the entire column with the contents of the upper cell, press Ctrl + Shift + Down to select all cells below, and press Ctrl + D .
 
 
-
 # EXPERIM
+https://drive.google.com/drive/folders/1KuSoxDpeTIJG84dmjwAuDJnkdJBqeh2Y
+experim - Google Drive
 "C:\Users\marti\OneDrive\Non-24-Hour--Sleep-Disorder\EXPERIM\non24 experim and old Copy of Responses.xlsx"
+
+# see also
+C:\Users\marti\OneDrive\g-sheets,libreoffice-calc,excel\google-sheets-query.f8.formulas
+
+
 
 
 
@@ -31,9 +33,6 @@ In Microsoft Excel and Google Sheets, pressing Ctrl + D fills and overwrites a c
 ' excel
 
 
-# see also
-
-C:\Users\marti\OneDrive\g-sheets,libreoffice-calc,excel\google-sheets-query.f8.formulas
 
 
 
