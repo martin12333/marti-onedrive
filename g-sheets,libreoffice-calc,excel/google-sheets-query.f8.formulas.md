@@ -1,7 +1,17 @@
 ' google-sheets-query.f8.formulas
 
 
+# see also
+
 ' see also C:\Users\marti\OneDrive\g-sheets,libreoffice-calc,excel\google-sheets,libreoffice-calc,excel.f8.formulas
+
+
+# EXPERIM
+
+"C:\Users\marti\OneDrive\Non-24-Hour--Sleep-Disorder\EXPERIM\non24 experim and old Copy of Responses.xlsx"
+
+
+
 
 
 query...
@@ -20,8 +30,8 @@ till
 
 
 
+# non24
 diigo
-non24
 
 '''' https://drive.google.com/drive/recent
 '' edge://favorites/?q=non24%20
@@ -30,10 +40,13 @@ edge://history/all?q=non24
 
 		https://drive.google.com/drive/folders/1Ig7nOsknBdhdDr8TBuEwm6ycr2eYaRQQ
 Non-24-Hour--Sleep-Disorder - Google Drive
+https://drive.google.com/drive/folders/1KuSoxDpeTIJG84dmjwAuDJnkdJBqeh2Y
+experim - Google Drive
+
+
 
 Only people with access can open with the link
 https://drive.google.com/drive/folders/13iXCoDGIa0HoKuGWVknwihJEI7ZtVZLN?usp=sharing
-
 
 
 
@@ -43,6 +56,10 @@ to fork a form+sheet, do not copy the form, copy the sheet
 "C:\Users\marti\OneDrive\food-vs-mood\non24-Responses-510 (2).xlsx"
 "C:\Users\marti\OneDrive\Non-24-Hour--Sleep-Disorder\non24-Responses-510 (2).xlsx"
 "C:\Users\marti\OneDrive\Non-24-Hour--Sleep-Disorder\SUBDIR-FOR-RESPONSES\non24-Responses-510 (2).xlsx"
+
+
+
+
 
 
 

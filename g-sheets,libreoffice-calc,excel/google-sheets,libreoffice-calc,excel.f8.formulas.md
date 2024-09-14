@@ -15,7 +15,12 @@ In Microsoft Excel and Google Sheets, pressing Ctrl + D fills and overwrites a c
 
 
 
+# EXPERIM
+"C:\Users\marti\OneDrive\Non-24-Hour--Sleep-Disorder\EXPERIM\non24 experim and old Copy of Responses.xlsx"
 
+
+
+# old names
 
 ' google-sheets,libreoffice-calc,excel.f8.formulas
 ' g-sheets,libreoffice-calc,excel.f8.vb.rb
@@ -25,7 +30,13 @@ In Microsoft Excel and Google Sheets, pressing Ctrl + D fills and overwrites a c
 ' libreoffice calc
 ' excel
 
+
+# see also
+
 C:\Users\marti\OneDrive\g-sheets,libreoffice-calc,excel\google-sheets-query.f8.formulas
+
+
+
 
 https://drive.google.com/drive/recent
 
@@ -102,6 +113,37 @@ pandas
 https://support.google.com/docs/thread/53725030/how-to-limit-number-or-rows-and-columns-in-sheets-i-ve-seen-the-answers-i-can-t-delete-a-zillion?hl=en
 
 
+
+
+
+
+
+
+
+# non24
+diigo
+
+'''' https://drive.google.com/drive/recent
+'' edge://favorites/?q=non24%20
+
+edge://history/all?q=non24
+
+		https://drive.google.com/drive/folders/1Ig7nOsknBdhdDr8TBuEwm6ycr2eYaRQQ
+Non-24-Hour--Sleep-Disorder - Google Drive
+https://drive.google.com/drive/folders/1KuSoxDpeTIJG84dmjwAuDJnkdJBqeh2Y
+
+
+Only people with access can open with the link
+https://drive.google.com/drive/folders/13iXCoDGIa0HoKuGWVknwihJEI7ZtVZLN?usp=sharing
+
+
+
+to fork a form+sheet, do not copy the form, copy the sheet
+    https://support.google.com/docs/thread/12007868/duplicate-google-form-and-responses-sheet?hl=en
+
+"C:\Users\marti\OneDrive\food-vs-mood\non24-Responses-510 (2).xlsx"
+"C:\Users\marti\OneDrive\Non-24-Hour--Sleep-Disorder\non24-Responses-510 (2).xlsx"
+"C:\Users\marti\OneDrive\Non-24-Hour--Sleep-Disorder\SUBDIR-FOR-RESPONSES\non24-Responses-510 (2).xlsx"
 
 
 
