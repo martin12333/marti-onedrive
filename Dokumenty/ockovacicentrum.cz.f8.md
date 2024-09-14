@@ -1,5 +1,24 @@
 
 
+https://vakciny.avenier.cz/cz/aktualne
+
+https://vakciny.avenier.cz/cz/ockovani-proti-chripce-sezona-2024-2025
+
+Aktualizováno: 10. 9. 2024.
+
+pravděpodobně od 2. poloviny září
+
+https://www.ockovacicentrum.cz/cz/ockovani-proti-chripce-sezona-2023-2024
+18.09.2023
+https://web.archive.org/web/20230927024858/https://vakciny.avenier.cz/cz/aktualne
+22.09.2023Aktuality očkování
+
+
+
+
+https://ourworldindata.org/explorers/covid?zoomToSelection=true&time=2020-09-18..latest&facet=none&country=CZE~DEU~ITA~GBR~POL~FRA~SVK&pickerSort=asc&pickerMetric=location&hideControls=true&Metric=Confirmed+cases&Interval=7-day+rolling+average&Relative+to+population=true
+
+
 
  V době očkování není vhodné užívat antibiotika. Pokud právě antibiotika užíváte a máte zájem o očkování, kontaktujte nás na e-mailu info@ockovacicentrum.cz. Konečné rozhodnutí o vhodnosti očkování je na lékaři. 
 
