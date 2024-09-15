@@ -14,6 +14,15 @@ To cancel your Copilot Pro subscription, follow these steps:
 1. **Sign in** to the Microsoft account you used to purchase the subscription.
 2. Go to the **[Services & subscriptions](https://account.microsoft.com/services)** page.
 3. Find your Copilot Pro subscription and select **Manage**.
+
+https://account.microsoft.com/services/copilot/details#billing
+https://account.microsoft.com/services/copilot/cancel?cancelType=DisableAutorenew&fref=billing-aroff
+You turned off recurring billing for your Microsoft Copilot Pro subscription.
+September 25, 2024
+https://support.microsoft.com/en-us/account-billing/turn-recurring-billing-on-or-off-for-a-microsoft-subscription-66f40aee-2317-f74b-40f9-2be7e92f0167
+
+
+
 4. On the next page, select **Cancel**.
 5. Follow the instructions on the page to complete the cancellation process¹².
 
