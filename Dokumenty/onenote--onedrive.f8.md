@@ -1,7 +1,7 @@
 onenote--onedrive.f8.md
 
 
-I am switching to Github-Copilot because of better text prediction ... in markdown files (English, Czech).
+# I need text prediction ... in markdown files (especially English, maybe  also Czech).
 
 
 

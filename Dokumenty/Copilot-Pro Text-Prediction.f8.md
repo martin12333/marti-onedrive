@@ -1,7 +1,8 @@
 Copilot-Pro Text-Prediction.f8.md
 
 
-# I am switching to Github-Copilot because of better text prediction ... in markdown files (English, Czech).
+# I need text prediction ... in markdown files (especially English, maybe  also Czech).
+
 
 # How to cancel the subscription to Copilot-Pro
 
@@ -29,12 +30,16 @@ Source: Conversation with Copilot, 9/15/2024
 
 
 
-"C:\Users\marti\OneDrive\Dokumenty\Enabling Copilot-Pro Text-Prediction.f8.docx"
+
+
+
+
+# "C:\Users\marti\OneDrive\Dokumenty\Enabling Copilot-Pro Text-Prediction.f8.docx"   docx
 
 status bar
 
 text Predictions: on   editor suggestions: on
 
-onenote--onedrive.f8.md
+# onenote--onedrive.f8.md
 
 
