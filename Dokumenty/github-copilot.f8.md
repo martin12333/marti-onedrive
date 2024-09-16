@@ -169,6 +169,8 @@ so what command is invoked    TAB
 2024-09-16 04:11:11.194 [info] [KeybindingService]: \ From 13 keybinding entries, matched insertNestedList, when: editorTextFocus && !inSnippetMode && !suggestWidgetVisible && !vim.active && editorLangId == 'markdown', source: user extension docsmsft.docs-markdown.
 
 btw , 13 keybinding entries ... gui shows only 4
+EDIT: "tab" (recording keys) ... gui shows all 
+
 
 docsmsft.docs-markdown
 
