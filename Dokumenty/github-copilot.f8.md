@@ -173,6 +173,7 @@ EDIT: "tab" (recording keys) ... gui shows all
 
 
 docsmsft.docs-markdown
+https://github.com/microsoft/vscode/issues/143062
 
 disabled the docsmsft.docs-markdown extension
 now tab works as expected

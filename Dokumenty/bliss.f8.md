@@ -102,8 +102,13 @@ https://www.the-symbols.net/semantography/
 
 examples 741< 742<
 
-https://semantographyblissymbolics.com/temp/051-075/semantography_series_065.pdf
-page 3
+
+
+
+
+
+
+
 
 
 
@@ -120,4 +125,69 @@ https://www.the-symbols.net/semantography/
  ? would you agree with :
 * "Kingdom of< the planet of< the apes" ?
 * "Wine is the milk of> the elderly, the poison of> the young." ?
+
+
+
+
+
+# https://semantographyblissymbolics.com/temp/051-075/semantography_series_065.pdf
+page 3
+
+can you get the text from this image
+
+Sure! Here's the text extracted from the image:
+
+---
+
+**PIONEER CORRESPONDENCE COURSE 2nd Lesson December 1951**
+
+Dear Students,
+
+Firstly, I wish to clear up something from the first lesson. The indicator should always appear directly over one symbol, never between two symbols. Therefore:
+
+---
+
+
+
+Sure! Here's the text extracted from the third image:
+
+---
+
+"We are now coming to one little word which gave me the greatest headache, the word 'of.' It is used in the English language for many meanings. The Books of Smith may mean that Smith has written them, that he has published them, that he owns them, that he has them on his bookshelf (although they may be borrowed). It may mean too that there are books in which we learn of the person Mr. Smith, etc. etc. In any case, whatever the different relations between Smith and the Books, we learn from the word 'of' that a relation exists. I have used an internationally recognized mathematical symbol to indicate a relation.
+
+In mathematics we write \(a > b\) and this means that \(a\) in relation to \(b\) is bigger, or \(a < b\) means that \(a\) in relation to \(b\) is smaller. Now, in mathematics we deal with numbers and we can quickly ascertain which number is bigger and which is smaller. We can't do this with many things in relation to each other. Therefore, we shall use the symbol \(>\) (pointing in the direction of our progress in writing a line) for relation. But somehow we can assess in many cases which is the bigger thing, or 'bigger meaning,' and reverse the relation symbol if necessary."
+
+---
+
+
+
+
+**Text from the Image:**
+
+We are now coming to one little word which gave me the greatest headache, the word of. It is used in the English language for many meanings. The Books of Smith may mean that Smith has written them, that he has published them, that he owns them, that he has them on his bookshelf (although they may be borrowed). It may mean too that there are books in which we learn of the person Mr. Smith, etc. etc. In any case, whatever the different relations between Smith and the Books, we learn from the word of that a relation exists.
+
+I have used an internationally recognized mathematical symbol to indicate a relation. In mathematics we write a < b and this means that a in relation to b is smaller, or a > b means that a in relation to b is bigger. Now, in mathematics we deal with numbers and we can quickly ascertain which number is bigger and which is smaller. We can't do this with many things in relation to each other. Therefore we shall use the symbol > pointing in the direction of our progress in writing a line for relation. But somehow we can assess in many cases which is the bigger thing, or "bigger meaning" and reverse the relation symbol if necessary.
+
+
+
+Here is the text from the image:
+
+---
+
+We are now coming to one little word which gave me the greatest headache, the word *of*. It is used in the English language for many meanings. The Books of Smith may mean that Smith has written them, that he has published them, that he owns them, that he has them on his bookshelf (although they may be borrowed). It may mean too that there are books in which we learn of the person Mr. Smith, etc. etc. In any case, whatever the different relations between Smith and the Books, we learn from the word *of* that a *relation* exists.
+
+I have used an internationally recognized mathematical symbol to indicate a *relation*. In mathematics we write a > b and this means that a in relation to b is bigger, or a < b means that a in relation to b is smaller. Now, in mathematics we deal with numbers and we can quickly ascertain which number is bigger and which is smaller. We can’t do this with many things in relation to each other. Therefore we shall use the symbol > pointing in the direction (of our progress in writing a line) for *relation*. But somehow we can assess in many cases which is the *bigger thing*, or *"bigger meaning"* and reverse the relation symbol if necessary.
+
+---
+
+Let me know if you'd like further assistance!
+
+
+
+**Text from the Image:**
+
+## As a simple rule, you may memorize that this symbol > indicates usually about. And this symbol indicates of <.
+
+ However, you will keep in mind that the meaning of both symbols is often vague, especially the of. I speak > books, means I speak about books (or of books) but I have not told in what way I speak about books (their style, their content, or their value, etc.). Similarly we can say the books < Smith (of Smith) and we still don't know in what relation Mr. Smith is mentioned here. The general rule for writers of Semantography is to know that these symbols indicate a vague relationship, and it is the duty of the writer to clear it up for the reader. The writer has the necessary symbols to explain that Smith has written the books (pen symbol), or that he owns them (possession symbol), etc.
+
 
