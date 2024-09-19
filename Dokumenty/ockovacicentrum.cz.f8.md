@@ -1,7 +1,23 @@
 
-https://keep.google.com/#NOTE/1m7CUCVkRIo3rt6NCb9m_92M_usVU7yldSmNNKqbr21agSoiDl_J38Scq_frWVFs
+# links
+
+* https://calendar.google.com/calendar/u/0/r/day/2025/8/26
+mb75
+dne:  26. srp 2025
+obvykle po 10.9. https://keep.google.com/u/0/#NOTE/1m7CUCVkRIo3rt6NCb9m_92M_usVU7yldSmNNKqbr21agSoiDl_J38Scq_frWVFs   
+
+* existuje list v a5 karis bloku "ockovacicentrum.cz" 
+* existuje list v *a6* karis bloku "ockovacicentrum.cz" 
+* this doc https://onedrive.live.com/?cid=4B12298D932A2860&q=ockovacicentrum%2Ecz&scope=drive&id=4B12298D932A2860%2142357&parId=root&parQt=search&o=OneUp
+* this doc https://onedrive.live.com/?cid=4B12298D932A2860&id=4B12298D932A2860%2142357&parId=4B12298D932A2860%2142264&o=OneUp
+* 
+
+# covid
 
 https://ourworldindata.org/explorers/covid?zoomToSelection=true&time=2020-09-18..latest&facet=none&country=CZE~DEU~ITA~GBR~POL~FRA~SVK&pickerSort=asc&pickerMetric=location&hideControls=true&Metric=Confirmed+cases&Interval=7-day+rolling+average&Relative+to+population=true
+
+
+# Nezapomeňte si vzít očkovací průkaz, pokud ho vlastníte.
 
 
 # V době očkování není vhodné užívat antibiotika
@@ -20,7 +36,7 @@ If you are experiencing symptoms of fatigue and/or burnout, it’s important to 
 
 # 2024
 
-# pro zdravotniky! ...     https://vakciny.avenier.cz/cz/aktualne ... já tam lez
+# pro zdravotniky! ...     https://vakciny.avenier.cz/cz/aktualne ... já tam lezu jen kvůli informaci, zda už je chřipková vakcína
     https://vakciny.avenier.cz/cz/ockovani-proti-chripce-sezona-2024-2025
         Aktualizováno: 10. 9. 2024.
     Distribuce do ordinací
@@ -47,23 +63,23 @@ na ~~ 13:45
 
 # todo
 
-* zkontrolovat si, zda je to v pořádku ta mailová zpráva, kterou jsem dostal
 * zapsat do kalendářů
 
-# a zda je to v pořádku ten login na mb75, který ona dnes předělala
 
 
 
 # https://www.ockovacicentrum.cz/cz/user/eop#doporucena
 
-@seznam.cz
-249j   mb75 ?
+dne:249j+ 
+username:  mb75@g 
+
+////////v minulosti drive @seznam.cz
 
 
 # Tetanus		11.06.2024	10 let	Více o nemoci
 ADACEL INJ SUS ISP 1X0,5ML	11.06.2024	
 
-80 pripadu rocne?
+pouhych 80 pripadu rocne?
 
 
 
@@ -95,19 +111,25 @@ pobočky maji: Praha 2, Praha 6, P5 ... https://www.ockovacicentrum.cz/cz/praha-
 chtěli rodné číslo
 
 lze platit kartou
+
 --------
 
 # pozn. 2022
-25. 9.
+dne 25. 9.
 // jsme si psali přes faceb. messenger
+
 -----------
 
 # pozn. 2021 ... jsi v google-hangouts psala toto:
+
 -------------
+...
+
 ...
 
 Objednala jsem se na P6, je to hned u metra. 
 Díky!
+
 -----------------
 
 2020
