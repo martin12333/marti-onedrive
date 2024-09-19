@@ -1,12 +1,58 @@
 
 
-https://vakciny.avenier.cz/cz/aktualne
+https://keep.google.com/#NOTE/1m7CUCVkRIo3rt6NCb9m_92M_usVU7yldSmNNKqbr21agSoiDl_J38Scq_frWVFs
 
-https://vakciny.avenier.cz/cz/ockovani-proti-chripce-sezona-2024-2025
 
-Aktualizováno: 10. 9. 2024.
 
-pravděpodobně od 2. poloviny září
+https://ourworldindata.org/explorers/covid?zoomToSelection=true&time=2020-09-18..latest&facet=none&country=CZE~DEU~ITA~GBR~POL~FRA~SVK&pickerSort=asc&pickerMetric=location&hideControls=true&Metric=Confirmed+cases&Interval=7-day+rolling+average&Relative+to+population=true
+
+
+# V době očkování není vhodné užívat antibiotika
+ . Pokud právě antibiotika užíváte a máte zájem o očkování, kontaktujte nás na e-mailu info@ockovacicentrum.cz. Konečné rozhodnutí o vhodnosti očkování je na lékaři. 
+
+
+# Vakcínu proti chřipce je možné aplikovat v jeden den, do odlišných míst, spolu s vakcínou proti onemocnění covid-19. 
+
+
+# 2024
+
+# pro zdravotniky!     https://vakciny.avenier.cz/cz/aktualne
+    https://vakciny.avenier.cz/cz/ockovani-proti-chripce-sezona-2024-2025
+        Aktualizováno: 10. 9. 2024.
+    Distribuce do ordinací
+    pravděpodobně od 2. poloviny září
+
+# https://www.ockovacicentrum.cz/cz/oc-praha6
+V této ordinaci poskytujeme očkování proti COVID 19. Objednávejte se telefonicky na zákaznické lince +420 545 123 321
+Očkovací centrum Praha 6 | Ordinace *1* jedina proti covid
+Očkovací centrum Praha 6 | Ordinace *2* neni proti covid
+P2    P4 P5  neni proti covid
+
+# call
+předem
+příště zkusím se cvičně objednat na p6 na jinou nemoc, ať mi ukážou, termíny
+
+
+
+19.09.2024
+na ockovacicentrum.cz pořád žádné zvláštní informace o chřipce
+zavolal jsem na zákaznickou linku
+
+## prý už několik dní se lze objednávat na chřipku
+
+objednal jsem se na ~~ 17.10.2024
+na P6
+na ~~ 13:45
+
+zkontrolovat si, zda je to v pořádku ta mailová zpráva, kterou jsem dostal
+zapsat do kalendářů
+
+# a zda je to v pořádku ten login na mb75, který ona dnes předělala
+
+
+
+
+# 2023
 
 https://www.ockovacicentrum.cz/cz/ockovani-proti-chripce-sezona-2023-2024
 18.09.2023
@@ -15,16 +61,45 @@ https://web.archive.org/web/20230927024858/https://vakciny.avenier.cz/cz/aktualn
 
 
 
+20.9.
+na adrese
+https://www.ockovacicentrum.cz/cz/objednavka/nemoc  
+//---> Chřipka ... 
+lze zjistit, že vakcíny už jsou,
+ale:
+" Objednání pouze na naši zákaznické lince 545 123 321. "
+// (v pracovní dny od 6,30 do 17,00 hod)
 
-https://ourworldindata.org/explorers/covid?zoomToSelection=true&time=2020-09-18..latest&facet=none&country=CZE~DEU~ITA~GBR~POL~FRA~SVK&pickerSort=asc&pickerMetric=location&hideControls=true&Metric=Confirmed+cases&Interval=7-day+rolling+average&Relative+to+population=true
+pobočky maji: Praha 2, Praha 6, P5 ... https://www.ockovacicentrum.cz/cz/praha-ordinacni-hodiny
+
+// připravil jsem si termín za 3 týdny
+
+chtěli rodné číslo
+
+lze platit kartou
+--------
+
+pozn. 2022
+25. 9.
+// jsme si psali přes faceb. messenger
+-----------
+
+pozn. 2021 ... jsi v google-hangouts psala toto:
+-------------
+...
+
+Objednala jsem se na P6, je to hned u metra. 
+Díky!
+-----------------
+
+2020
+
+Dne 24.9. 2020 jsme na Zákaznické lince spustili avizovanou rezervaci klientů na očkování proti sezónní chřipce v našich centrech. Během krátké doby jsme vyčerpali celou alokaci vakcín určenou pro tyto rezervace. 
 
 
-
- V době očkování není vhodné užívat antibiotika. Pokud právě antibiotika užíváte a máte zájem o očkování, kontaktujte nás na e-mailu info@ockovacicentrum.cz. Konečné rozhodnutí o vhodnosti očkování je na lékaři. 
-
+-------
 
 
-Vakcínu proti chřipce je možné aplikovat v jeden den, do odlišných míst, spolu s vakcínou proti onemocnění covid-19. 
 
 https://www.zpmvcr.cz/pojistenci/prevence/ockovani/ockovani-proti-chripce
 Vakcínu proti chřipce je možné simultánně aplikovat také s živou, atenuovanou vakcínou proti spalničkám, příušnicím, zarděnkám, planým neštovicím.
@@ -64,6 +139,8 @@ V ČR je již k dispozici nová adaptovaná vakcína Comirnaty JN.1 proti nejnov
 
 
 Vakcína Comirnaty JN.1 je **neživá** mRNA vakcína, určená k ochraně proti koronaviru pro osoby od 12 let.  Vakcína slouží k podání základní i posilovací dávky. Vakcína se očkuje do horní části paže.
+
+
 
 https://www.ockovacicentrum.cz/cz/comirnaty-jn1
 
