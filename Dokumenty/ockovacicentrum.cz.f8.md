@@ -1,8 +1,5 @@
 
-
 https://keep.google.com/#NOTE/1m7CUCVkRIo3rt6NCb9m_92M_usVU7yldSmNNKqbr21agSoiDl_J38Scq_frWVFs
-
-
 
 https://ourworldindata.org/explorers/covid?zoomToSelection=true&time=2020-09-18..latest&facet=none&country=CZE~DEU~ITA~GBR~POL~FRA~SVK&pickerSort=asc&pickerMetric=location&hideControls=true&Metric=Confirmed+cases&Interval=7-day+rolling+average&Relative+to+population=true
 
@@ -14,9 +11,16 @@ https://ourworldindata.org/explorers/covid?zoomToSelection=true&time=2020-09-18.
 # Vakcínu proti chřipce je možné aplikovat v jeden den, do odlišných míst, spolu s vakcínou proti onemocnění covid-19. 
 
 
+# (R) https://www.calculator.net/anorexic-bmi-calculator.html?cage=48&csex=f&cheightfeet=5&cheightinch=10&cpound=160&cheightmeter=180&ckg=48&ctype=metric&x=Calculate
+
+# Autistic Fatigue and Burnout: Coping Strategies
+If you are experiencing symptoms of fatigue and/or burnout, it’s important to make some changes and put some strategies in place to help you to recover.
+
+===============
+
 # 2024
 
-# pro zdravotniky!     https://vakciny.avenier.cz/cz/aktualne
+# pro zdravotniky! ...     https://vakciny.avenier.cz/cz/aktualne ... já tam lez
     https://vakciny.avenier.cz/cz/ockovani-proti-chripce-sezona-2024-2025
         Aktualizováno: 10. 9. 2024.
     Distribuce do ordinací
@@ -28,26 +32,40 @@ Očkovací centrum Praha 6 | Ordinace *1* jedina proti covid
 Očkovací centrum Praha 6 | Ordinace *2* neni proti covid
 P2    P4 P5  neni proti covid
 
-# call
-předem
-příště zkusím se cvičně objednat na p6 na jinou nemoc, ať mi ukážou, termíny
-
-
+# call .... předem příště na webu napůl  objednat na p6 na jinou nemoc, ať mi ukážou termíny
 
 19.09.2024
-na ockovacicentrum.cz pořád žádné zvláštní informace o chřipce
+-- na ockovacicentrum.cz pořád žádné zvláštní informace o chřipce
 zavolal jsem na zákaznickou linku
 
-## prý už několik dní se lze objednávat na chřipku
+# prý už několik dní se lze objednávat na chřipku
 
 objednal jsem se na ~~ 17.10.2024
 na P6
 na ~~ 13:45
 
-zkontrolovat si, zda je to v pořádku ta mailová zpráva, kterou jsem dostal
-zapsat do kalendářů
+
+# todo
+
+* zkontrolovat si, zda je to v pořádku ta mailová zpráva, kterou jsem dostal
+* zapsat do kalendářů
 
 # a zda je to v pořádku ten login na mb75, který ona dnes předělala
+
+
+
+# https://www.ockovacicentrum.cz/cz/user/eop#doporucena
+
+@seznam.cz
+249j   mb75 ?
+
+
+# Tetanus		11.06.2024	10 let	Více o nemoci
+ADACEL INJ SUS ISP 1X0,5ML	11.06.2024	
+
+80 pripadu rocne?
+
+
 
 
 
@@ -79,12 +97,12 @@ chtěli rodné číslo
 lze platit kartou
 --------
 
-pozn. 2022
+# pozn. 2022
 25. 9.
 // jsme si psali přes faceb. messenger
 -----------
 
-pozn. 2021 ... jsi v google-hangouts psala toto:
+# pozn. 2021 ... jsi v google-hangouts psala toto:
 -------------
 ...
 
@@ -94,7 +112,7 @@ Díky!
 
 2020
 
-Dne 24.9. 2020 jsme na Zákaznické lince spustili avizovanou rezervaci klientů na očkování proti sezónní chřipce v našich centrech. Během krátké doby jsme vyčerpali celou alokaci vakcín určenou pro tyto rezervace. 
+# Dne 24.9. 2020 jsme na Zákaznické lince spustili avizovanou rezervaci klientů na očkování proti sezónní chřipce v našich centrech. Během krátké doby jsme vyčerpali celou alokaci vakcín určenou pro tyto rezervace. 
 
 
 -------
@@ -106,25 +124,7 @@ Vakcínu proti chřipce je možné simultánně aplikovat také s živou, atenuo
 
 
 
-# (R) https://www.calculator.net/anorexic-bmi-calculator.html?cage=48&csex=f&cheightfeet=5&cheightinch=10&cpound=160&cheightmeter=180&ckg=48&ctype=metric&x=Calculate
-
-Autistic Fatigue and Burnout: Coping Strategies
-If you are experiencing symptoms of fatigue and/or burnout, it’s important to make some changes and put some strategies in place to help you to recover.
-
-
-# https://www.ockovacicentrum.cz/cz/user/eop#doporucena
-
-@seznam.cz
-
-
-# Tetanus		11.06.2024	10 let	Více o nemoci
-ADACEL INJ SUS ISP 1X0,5ML	11.06.2024	
-
-80 pripadu rocne?
-
-
-
-
+-------------------
 
 
 
