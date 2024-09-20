@@ -13,11 +13,13 @@ many subdirectories, e.g.:
 samsung--chytre-hodinky
 
 
-## JB PC c:\Users\Jirka\OneDrive\JB--MSEdge-Workspace-JVB-MB\
+## JB PC D:\onedrive\JB--MSEdge-Workspace-JVB-MB 
+
+// chybne bylo v tomto dokumentu ## JB PC c:\Users\Jirka\OneDrive\JB--MSEdge-Workspace-JVB-MB\
 
 [JB--MSEdge-Workspace-JVB-MB - OneDrive](https://onedrive.live.com/?id=BD7EC0AC1B4D4A31%21s8ee90528df21466eb3465aa3c889f4d7&cid=BD7EC0AC1B4D4A31)
 
 
-many subdirectories, e.g.:
+some subdirectories, e.g.:
 samsung--chytre-hodinky
 
