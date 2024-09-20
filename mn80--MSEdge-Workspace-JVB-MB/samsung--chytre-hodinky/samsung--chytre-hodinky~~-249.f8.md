@@ -1,11 +1,31 @@
 
+👍 hladina kyslíku v krvi během spánku. ... pro Ivu  ?! 👍
 
+- [todo??](#todo)
+- [done prelito  z JB--MSEdge-Workspace-JVB-MB - OneDrive 247 ---\> do tohoto docu 249](#done-prelito--z-jb--msedge-workspace-jvb-mb---onedrive-247-----do-tohoto-docu-249)
+	- [co znamena u Samsung hodinek monitoring spánku](#co-znamena-u-samsung-hodinek-monitoring-spánku)
+	- [samsung--chytre-hodinky-247g-Jirka.docx](#samsung--chytre-hodinky-247g-jirkadocx)
+	- [file:///C:\\Users\\marti\\OneDrive\\mn80--MSEdge-Workspace-JVB-MB\\AAA-JB-GOOGLE-chat--kopie.md](#filecusersmartionedrivemn80--msedge-workspace-jvb-mbaaa-jb-google-chat--kopiemd)
+		- [https://www.samsung.com/cz/mobile-accessories/galaxy-smarttag2-white-ei-t5600bwegeu/#support](#httpswwwsamsungcomczmobile-accessoriesgalaxy-smarttag2-white-ei-t5600bwegeusupport)
+		- [Budeme muset udělat ještě jeden restore point potom co jsme se odpojili od managementu a ten Windows defender začal chodit](#budeme-muset-udělat-ještě-jeden-restore-point-potom-co-jsme-se-odpojili-od-managementu-a-ten-windows-defender-začal-chodit)
+	- [👍 hladina kyslíku v krvi během spánku. ... pro Ivu  ?! 👍](#-hladina-kyslíku-v-krvi-během-spánku--pro-ivu---)
+
+
+# todo??
+
+https://www.samsung.com/cz/shop-faq/premium-services/
+
+https://www.samsung.com/cz/offer/samsung-care-plus/
+
+
+# done prelito  z JB--MSEdge-Workspace-JVB-MB - OneDrive 247 ---> do tohoto docu 249
 [AAA-ODKAZY](../AAA-ODKAZY.f8.md)
-
 [JB--MSEdge-Workspace-JVB-MB - OneDrive](https://onedrive.live.com/?id=BD7EC0AC1B4D4A31%21s8ee90528df21466eb3465aa3c889f4d7&cid=BD7EC0AC1B4D4A31)
 
 
-# co znamena u Samsung hodinek monitoring spánku
+
+
+## co znamena u Samsung hodinek monitoring spánku
 asi jsem se ptal ai
 
 Kvalitu spánku: Hodinky sledují vaše pohyby během spánku a používají tyto údaje k určení, zda jste spali lehce, hluboce nebo neklidně. 
@@ -35,10 +55,11 @@ Samsung pomáhá lidem ke kvalitnějšímu spánku pomocí svých inovativních 
 
  
 
-# samsung--chytre-hodinky-247g-Jirka.docx
+## samsung--chytre-hodinky-247g-Jirka.docx
 
 [samsung--chytre-hodinky-247g-Jirka.docx](https://onedrive.live.com/personal/bd7ec0ac1b4d4a31/_layouts/15/Doc.aspx?resid=BD7EC0AC1B4D4A31!s7a8c672f62474df484df35c14cd72fc4&cid=bd7ec0ac1b4d4a31&migratedtospo=true&app=Word)
 
+//-----------------
 
 
 https://www.alza.cz/levne-chytre-hodinky-samsung/18869426.htm#f&cst=3&cud=0&pg=1-2&pn=1&prod=&sc=5986.9091796875 
@@ -83,7 +104,6 @@ Podívejte se na pět tipů, jak zlepšit spánek pomocí cvičení, nejnovějš
 
 www.samsung.com 
 
- 
 
  
 
@@ -105,12 +125,37 @@ Nová řada Galaxy Watch5 je nabitá funkcemi – mimo jiné výrazně vylepšuj
 
 news.samsung.com 
 
- 
 
  
 
- 
+## file:///C:\Users\marti\OneDrive\mn80--MSEdge-Workspace-JVB-MB\AAA-JB-GOOGLE-chat--kopie.md
 
  
 
+### https://www.samsung.com/cz/mobile-accessories/galaxy-smarttag2-white-ei-t5600bwegeu/#support
  
+
+### Budeme muset udělat ještě jeden restore point potom co jsme se odpojili od managementu a ten Windows defender začal chodit
+
+
+## 👍 hladina kyslíku v krvi během spánku. ... pro Ivu  ?! 👍
+
+Jiri Bok, Jul 16, 6:32 PM
+
+
+https://www.alza.cz/samsung-galaxy-watch-6-classic-47mm-lte-cerne-d7819674.htm
+
+max Samsung Galaxy Watch 6 Classic 47mm LTE černé
+Chytré hodinky - pro muže i ženy, kompatibilní s Android, 1,47" AMOLED displej, NFC platby skrze Google Pay aplikaci, Bluetooth, GPS, WiFi, LTE, krokoměr, měření krevního tlaku, kyslíku v krvi a EKG, monitoring spánku, měření tepu, vodotěsnost 50 m (5 ATM), maximální výdrž baterie 40 h, s ovládáním v češtině
+ZLEVNĚNO -16 %
+9 990,-11 990,-
+Od 320,- měsíčně
+Do
+
+https://www.alza.cz/samsung-galaxy-watch-6-40mm-zlate-d7819680.htm
+min Samsung Galaxy Watch 6 40mm zlaté
+Chytré hodinky - pro muže i ženy, kompatibilní s Android, 1,31" AMOLED displej, NFC platby skrze Google Pay aplikaci, Bluetooth, GPS, WiFi, volání z hodinek přes telefon spárovaný s Bluetooth, krokoměr, měření krevního tlaku, kyslíku v krvi a EKG, monitoring spánku, měření tepu, vodotěsnost 50 m (5 ATM), maximální výdrž baterie 40 h, s ovládáním v češtině
+5 990,-
+Od 192,- měsíčně
+
+
