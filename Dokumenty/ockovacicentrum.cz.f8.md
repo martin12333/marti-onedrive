@@ -1,5 +1,18 @@
 
+# CTRL+Z je UNDO EDIT 
+// pro sdilene keep.google.com
+
 # links
+
+## poslu Ive odkaz na https://keep.google.com/#NOTE/1m7CUCVkRIo3rt6NCb9m_92M_usVU7yldSmNNKqbr21agSoiDl_J38Scq_frWVFs
+očkování proti chřipce
+### https://www.ockovacicentrum.cz/cz/praha-ordinacni-hodiny
+    https://www.ockovacicentrum.cz/cz/oc-praha6
+    Objednání pouze na našii zákaznické lince 545 123 321. 
+    // (v pracovní dny od 6,30 do 17,00 hod)
+### pro Milana ... existuje version history, existuji kopie ... D:\000doc24\Dokumenty\ockovacicentrum.cz.f8.md  je novejsi , ma vic info, ale mnoho otravnych info ...  https://onedrive.live.com/?cid=4B12298D932A2860&id=4B12298D932A2860%2142357&parId=4B12298D932A2860%2142264&o=OneUp
+
+
 
 * https://calendar.google.com/calendar/u/0/r/day/2025/8/26
 mb75
@@ -63,6 +76,7 @@ na ~~ 13:45
 
 # todo
 
+* podivat na mail
 * zapsat do kalendářů
 
 
