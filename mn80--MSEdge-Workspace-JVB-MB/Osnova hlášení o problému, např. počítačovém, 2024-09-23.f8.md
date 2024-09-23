@@ -37,3 +37,4 @@ https://gemini.google.com/app/d910c43b4785ba4b
 
 https://chatgpt.com/c/66f0e5a7-acac-800e-834b-9ea89adc7d8b
 
+Já si musím na chvíli lehnout
