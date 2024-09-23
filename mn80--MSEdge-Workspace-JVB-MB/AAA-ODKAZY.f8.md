@@ -1,9 +1,8 @@
-
-
+# AAA-ODKAZY.f8.md 
  
 [master version of this file is in OneDrive](https://onedrive.live.com/?cid=4B12298D932A2860&id=4B12298D932A2860%2142441&parId=4B12298D932A2860%2118753&o=OneUp)
 
-# Milan: there are two folders in OneDrive, i will sync them manually?
+# Milan: there are two related folders in OneDrive ... i will sync them manually?
 
 ## MB PC  c:\Users\marti\OneDrive\mn80--MSEdge-Workspace-JVB-MB\
 
