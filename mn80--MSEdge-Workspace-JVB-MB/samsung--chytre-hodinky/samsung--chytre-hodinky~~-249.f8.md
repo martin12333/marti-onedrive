@@ -159,3 +159,4 @@ Chytré hodinky - pro muže i ženy, kompatibilní s Android, 1,31" AMOLED displ
 Od 192,- měsíčně
 
 
+### https://www.samsung.com/cz/mobile-accessories/galaxy-smarttag2-white-ei-t5600bwegeu/#support

@@ -1,4 +1,3 @@
-""
 
 
 cmd /c dir e:\   /a
