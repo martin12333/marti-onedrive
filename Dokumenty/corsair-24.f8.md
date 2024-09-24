@@ -9,6 +9,17 @@ rem  bylo 66MB na zacatku volnych mam pocit
 
 win+q
 acronis true image system report 
+CTRL+c
+---------------------------
+Acronis System Report
+---------------------------
+The system report is successfully generated.
+Report file location: C:\Program Files (x86)\Acronis\TrueImageHome\SystemReport.zip
+---------------------------
+OK   
+---------------------------
+
+
 
 
 # https://photos.google.com/search/
@@ -30,21 +41,12 @@ wmic path softwarelicensingservice get oa3xoriginalproductkey
 Wednesday, March 16, 2022, 8:58 PM
 
 ## by copilot
-diskpart
-	list disk
-	?	select disk 1
-	
-	clean
-	convert gpt
-	create partition primary
-	format fs=ntfs quick
-	assign
-	exit
 
 diskpart
 	lis dis
 	?	sel dis 1
-
+	lis par
+	hel cle
 	clea
 	lis dis
 	conv gpt
@@ -59,7 +61,17 @@ diskpart
 	sel par 1
 	del par
 	lis par
+
+diskpart
+	list disk
+	?	select disk 1
 	
+	clean
+	convert gpt
+	create partition primary
+	format fs=ntfs quick
+	assign
+	exit
 
 
 
