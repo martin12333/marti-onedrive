@@ -3659,3 +3659,9 @@ dir C:\Users\marti\OneDrive\Documents
 dir C:\Users\marti\OneDrive\Dokumenty
 dir C:\Users\marti\OneDrive\Dokumenty234
 shutdown.exe /L
+diskmgmt.msc
+diskpart.exe
+dir e:
+dir E:\ALIDVRS2\
+diskpart.exe
+diskmgmt.msc
