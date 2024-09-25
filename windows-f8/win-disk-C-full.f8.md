@@ -1,7 +1,11 @@
-win-disk-C-full.f8.md
 
 
-older 
+# make a restore point after deleting the old files
+post-uninstall
+po-del-user
+
+
+# older 
 
 code windows-f8\win-disk---full.f8.ps1.ipynb
 
@@ -15,3 +19,9 @@ cmd /c dir *x86* /ad /s /b
 cmd /c dir *x64* /ad /s /b
 cmd /c dir *arm* /ad /s /b
 cd -
+
+cmd /c   dir  "C:\Users\marti\AppData\Local\Microsoft\vscode-cpptools"  /s 
+ms-vscode.cpptools
+uninstalled
+
+
