@@ -16,6 +16,9 @@
 	Stream your video productions on sites like Twitch, YouTube, or Facebook live, or record your videos locally to share.
 
 	Note: OBS requires elevated permission to install, but not to run.
+		
+		"C:\Program Files\obs-studio"
+
 
 # make a restore point after installing the new software
 

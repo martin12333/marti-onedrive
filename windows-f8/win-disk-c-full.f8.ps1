@@ -9,7 +9,15 @@ exit
 ###
 
 
+code .\windows-f8\win-disk-C-full.f8.md
+
+
 code windows-f8\win-disk---full.f8.ps1.ipynb
+
+
+code .\windows-f8\win-disk-c-full.f8.ps1
+
+
 
 
 mkdir D:\umarti\246-du64

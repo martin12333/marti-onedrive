@@ -12045,3 +12045,4 @@ dir c:\Users\marti\AppData\Roaming\RSIGuard\
 cmd /c dir c:\Users\marti\AppData\Roaming\RSIGuard\
 cat "C:\Users\marti\AppData\Roaming\RSIGuard\marti-HiRes.txt"
 icacls e:\
+code windows-f8\win-disk---full.f8.ps1.ipynb
