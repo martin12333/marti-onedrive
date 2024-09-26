@@ -12055,3 +12055,12 @@ cmd /c dir *x64* /ad /s /b
 cd -
 cmd /c   dir  "C:\Users\marti\AppData\Local\Microsoft\vscode-cpptools"
 cmd /c   dir  "C:\Users\marti\AppData\Local\Microsoft\vscode-cpptools"  /s
+dotnet.exe
+dotnet.exe  --list-sdks
+dotnet.exe  --list-runtimes
+dotnet.exe
+dotnet.exe  --help
+dotnet.exe  --info
+dotnet.exe  --list-sdks
+dotnet.exe  --list-runtimes
+dotnet.exe  --info

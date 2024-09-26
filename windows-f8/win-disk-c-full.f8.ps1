@@ -797,5 +797,17 @@ C:\Users\marti\OneDrive\windows-f8\disable-Microsoft-Windows-search-index.f8.ps1
 
 
 
+dotnet.exe  --help
+dotnet.exe  --info
+dotnet.exe  --list-sdks
+dotnet.exe  --list-runtimes
 
+NET SDKs installed:
+  6.0.109 [C:\Program Files\dotnet\sdk]
+  8.0.204 [C:\Program Files\dotnet\sdk]
 
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 6.0.9 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 7.0.18 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 8.0.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  
