@@ -12089,3 +12089,7 @@ dotnet.exe  --info
 dotnet-interactive.exe
 where.exe  winget | clip
 winget --info
+git add -vv  '*.f8.*'  #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
+git commit -v -a -m backup    #-before
+git push
+Restart-Computer
