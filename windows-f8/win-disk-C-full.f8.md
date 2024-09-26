@@ -142,31 +142,17 @@ a
 
 
 # [winget](winget.f8.md)
- where.exe  winget | clip
-C:\Users\marti\AppData\Local\Microsoft\WindowsApps\winget.exe
+i am going back to my method of downloading from the author and not from winget
 
-When running WinGet in an Administrator Command Prompt, you will not see elevation prompts if the application requires it. Always use caution when running your command prompt as an administrator, and only install applications you trust.
+i wish there was some "msget" that would download only from MS
+e.g. from https://dotnetcli.azureedge.net/
 
-
-
-We looked at several other package managers. There were several reasons leading us to create a new solution. One critical concern we had was how to build a repository of trusted applications. We are automatically checking each manifest. We leverage SmartScreen, static analysis, SHA256 hash validation and a few other processes to reduce the likelihood of malicious software making its way into the repository and onto your machine. Another key challenge was all the changes required to be able to deliver the client program as a native Windows application.
-
+winget downloads from ~~ anywhere
+0 nuget.exe
 
 
 
-
-winget --info
-
-winget search Microsoft.DotNet.SDK
-
-winget install Microsoft.DotNet.SDK.8
-	;   Restart-Computer  -Force
-
-
-
-
-
-Install with Visual Studio Code
+# dotnet -- Install with Visual Studio Code
 Visual Studio Code uses the versions of .NET already installed on your system. Install .NET using either .NET Installer or Windows Package Manager. Visual Studio installs its own copy of .NET that can't be used by Visual Studio Code.
 
 .NET apps are created in Visual Studio Code with the C# Dev Kit extension.
@@ -174,10 +160,7 @@ Visual Studio Code uses the versions of .NET already installed on your system. I
 
 
 
-0 nuget.exe
 
-Restart-Computer
--Force
 
 
 

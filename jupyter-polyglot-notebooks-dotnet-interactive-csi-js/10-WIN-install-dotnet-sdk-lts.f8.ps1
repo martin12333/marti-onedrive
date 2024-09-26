@@ -1,8 +1,3 @@
-exit
-
-
-
-
 
 # f8_text_file
 # (an f8_text_file is-not meant to be run as a whole)
@@ -15,8 +10,14 @@ echo '-------- section --------'
 
 
 
-
 # I recommend to create a windows restore point before and after an installation
+
+
+
+# EDIT 249
+# NEXT TIME I WILL INSTALL .NET SDK USING exe from https:// ... Microsoft.com
+and not using Visual Studio Installer
+because i have very little disk space left on C: and VisualStudio is big
 
 
 ///wrong inst uninst-runti-dotnet8
@@ -47,7 +48,7 @@ dotnet-interactive.exe --help
 
 dotnet-interactive.exe  --version
 
-dotnet-interactive.exe   stdio   --verbose 
+dotnet-interactive.exe   stdio   --verbose
 
 
 

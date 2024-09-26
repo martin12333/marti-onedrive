@@ -1,10 +1,29 @@
 # [winget](winget.f8.md)
- where.exe  winget | clip
+
+i am going back to my method of downloading from the author and not from winget
+
+i wish there was some "msget" that would download only from MS
+e.g. from https://dotnetcli.azureedge.net/
+
+winget downloads from ~~ anywhere
+
+# reddit
+
+Here, for comparison, is chocolatey's moderation documentation - the process every new/existing software in the repository has to go through before it is publicly available: https://docs.chocolatey.org/en-us/community-repository/moderation/
+
+It is much more mature and robust than winget's moderation.
+
+(This opinion is based on what I recall from a few hours/days of research that I did on the subject about 6-12 months ago, so take it with a grain of salt)
+
+
+# https://en.wikipedia.org/wiki/Windows_Package_Manager
+
+#  where.exe  winget | clip
 C:\Users\marti\AppData\Local\Microsoft\WindowsApps\winget.exe
 
-When running WinGet in an Administrator Command Prompt, you will not see elevation prompts if the application requires it. Always use caution when running your command prompt as an administrator, and only install applications you trust.
+# When running WinGet in an Administrator Command Prompt, you will not see elevation prompts if the application requires it. Always use caution when running your command prompt as an administrator, and only install applications you trust.
 
-winget --info
+# winget --info
 
 winget search Microsoft.DotNet.SDK
 
@@ -15,12 +34,16 @@ winget install Microsoft.DotNet.SDK.8
 
 
 winget 
-my note: it just takes the exe and runs it with 
+# my note: it just takes the exe from somewhere
+and runs it with 
 something like --quiet
+... maybe i should do that by hand, with more careful somewhere
+... or at least look better at the signature and counter-signature   not diginotar
 
 
 
-We looked at several other package managers. There were several reasons leading us to create a new solution. One critical concern we had was how to build a repository of trusted applications. We are automatically checking each manifest. We leverage SmartScreen, static analysis, SHA256 hash validation and a few other processes to reduce the likelihood of malicious software making its way into the repository and onto your machine. Another key challenge was all the changes required to be able to deliver the client program as a native Windows application.
+# We looked at several other package managers.
+ There were several reasons leading us to create a new solution. One critical concern we had was how to build a repository of trusted applications. We are automatically checking each manifest. We leverage SmartScreen, static analysis, SHA256 hash validation and a few other processes to reduce the likelihood of malicious software making its way into the repository and onto your machine. Another key challenge was all the changes required to be able to deliver the client program as a native Windows application.
 
 
 
