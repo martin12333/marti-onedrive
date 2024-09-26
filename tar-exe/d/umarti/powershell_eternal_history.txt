@@ -12078,3 +12078,14 @@ dotnet.exe  --list-runtimes
 dotnet-interactive.exe
 dotnet.exe  --list-runtimes
 dotnet-interactive.exe
+winget search Microsoft.DotNet.SDK
+dotnet.exe  --info
+winget search Microsoft.DotNet.SDK
+dotnet.exe  --info
+winget install Microsoft.DotNet.SDK.8
+where.exe  winget
+nuget.exe
+dotnet.exe  --info
+dotnet-interactive.exe
+where.exe  winget | clip
+winget --info
