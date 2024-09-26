@@ -810,4 +810,25 @@ NET SDKs installed:
   Microsoft.AspNetCore.App 6.0.9 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
   Microsoft.AspNetCore.App 7.0.18 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
   Microsoft.AspNetCore.App 8.0.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-  
+
+  winget.exe  list >winget-packages.txt
+  winget.exe  export winget-packages.json
+  dir winget-packages.json
+code .\winget-packages.txt
+
+dotnet-interactive.exe
+
+
+PS C:\Users\marti\OneDrive> dotnet-interactive.exe
+You must install or update .NET to run this application.
+
+App: C:\Users\marti\.dotnet\tools\dotnet-interactive.exe
+Architecture: x64
+Framework: 'Microsoft.NETCore.App', version '6.0.0' (x64)
+.NET location: C:\Program Files\dotnet\
+
+To install missing framework, download:
+https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App&framework_version=6.0.0&arch=x64&rid=win-x64&os=win10
+
+https://aka.ms/dotnet-core-applaunch?framework=Microsoft.AspNetCore.App&framework_version=6.0.0&arch=x64&rid=win-x64&os=win10
+

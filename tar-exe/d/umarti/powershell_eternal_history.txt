@@ -12064,3 +12064,17 @@ dotnet.exe  --info
 dotnet.exe  --list-sdks
 dotnet.exe  --list-runtimes
 dotnet.exe  --info
+winget.exe
+winget.exe  list
+winget.exe  export
+winget.exe  export winget-packages.json
+dir winget-packages.json
+winget.exe  list
+winget.exe  list >winget-packages.txt
+code .\winget-packages.txt
+dotnet-interactive.exe
+dotnet.exe  --list-sdks
+dotnet.exe  --list-runtimes
+dotnet-interactive.exe
+dotnet.exe  --list-runtimes
+dotnet-interactive.exe
