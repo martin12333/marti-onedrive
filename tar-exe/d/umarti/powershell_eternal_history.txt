@@ -12093,3 +12093,4 @@ git add -vv  '*.f8.*'  #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxx
 git commit -v -a -m backup    #-before
 git push
 Restart-Computer
+powershell

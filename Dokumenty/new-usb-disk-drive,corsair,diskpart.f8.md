@@ -104,14 +104,39 @@ rem photo with phone
 	format fs=ntfs quick unit=32k
 		rem label="Corsair-24"
 	cre par pri size=11000
+	format fs=ntfs quick
+
+	cre par pri size=21000
+
 	format fs=exfat quick unit=128k
 		rem label="Corsair-24"
+
+	cre par		
 	lis dis
 	exit
 
 diskmgmt.msc
 
 ```
+
+DISKPART> filesyste
+
+Current File System
+
+  Type                 : RAW
+  Allocation Unit Size : 512
+  Flags : 00000000
+
+File Systems Supported for Formatting
+
+  Type                 : NTFS
+  Allocation Unit Sizes: 512, 1024, 2048, 4096 (Default), 8192, 16K, 32K, 64K, 128K, 256K, 512K, 1024K, 2048K
+
+  Type                 : FAT32 (Default)
+  Allocation Unit Sizes: 2048, 4096 (Default), 8192, 16K, 32K, 64K
+
+  Type                 : exFAT
+  Allocation Unit Sizes: 512, 1024, 2048, 4096, 8192, 16K, 32K (Default), 64K, 128K, 256K, 512K, 1024K, 2048K, 4096K, 8192K, 16384K, 32768K
 
 
 

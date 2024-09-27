@@ -3667,3 +3667,9 @@ diskpart.exe
 diskmgmt.msc
 diskpart.exe
 diskmgmt.msc
+fsutil fsinfo ntfsinfo c:
+fsutil fsinfo ntfsinfo e:
+fsutil fsinfo ntfsinfo f:
+fsutil fsinfo ntfsinfo g:
+fsutil fsinfo ntfsinfo h:
+fsutil fsinfo 
