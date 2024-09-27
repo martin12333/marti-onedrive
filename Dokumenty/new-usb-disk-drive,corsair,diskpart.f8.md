@@ -95,13 +95,28 @@ rem photo with phone
 
 	hel cre par pri size=8100
 	cre par pri size=8100
+	rem 
+	filesystems
+	format fs=fat32 quick 
+		rem label="Corsair-24"
 	lis par
+	cre par pri size=71000
+	format fs=ntfs quick unit=32k
+		rem label="Corsair-24"
+	cre par pri size=11000
+	format fs=exfat quick unit=128k
+		rem label="Corsair-24"
 	lis dis
 	exit
 
 diskmgmt.msc
 
 ```
+
+
+
+
+
 
 
 # log

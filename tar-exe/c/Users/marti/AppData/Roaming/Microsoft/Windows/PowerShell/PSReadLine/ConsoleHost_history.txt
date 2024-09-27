@@ -3665,3 +3665,5 @@ dir e:
 dir E:\ALIDVRS2\
 diskpart.exe
 diskmgmt.msc
+diskpart.exe
+diskmgmt.msc
