@@ -8,8 +8,8 @@
 
 [mn80--MSEdge-Workspace-JVB-MB - OneDrive](https://onedrive.live.com/?id=4B12298D932A2860%2118753&cid=4B12298D932A2860)
 
-many subdirectories, e.g.:
-samsung--chytre-hodinky
+* SHARED WITH JB, DIRECT ACCESS, CAN EDIT
+* many subdirectories, e.g.: samsung--chytre-hodinky
 
 
 ## JB PC D:\onedrive\JB--MSEdge-Workspace-JVB-MB 
