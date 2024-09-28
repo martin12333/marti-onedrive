@@ -2,20 +2,28 @@ usb-flash-drive--cluster-size.f8.md
 
 
 
-file:///D:\000doc24\Dokumenty\new-usb-disk-drive,corsair,diskpart.f8.md
+up file:///D:\000doc24\Dokumenty\new-usb-disk-drive,corsair,diskpart.f8.md
 
 
+EDIT 249s 1926
+
+copying 
+many small files
+ to usb flash drive
+any settings I have tried
+ntfs 2000 files 2 minutes
+fat even worse
 
 
-
-EDIT 
+EDIT 249s
 my messing with cluster Sizes
 seems to have done more harm than good
 going back to default settings
 
 usb "flash" drive enable write caching 
-seems to have done more harm than good
+seems to have done more harm than good probably
 going back to default settings
+rebooting
 
 
 

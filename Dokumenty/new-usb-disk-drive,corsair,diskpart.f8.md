@@ -66,6 +66,19 @@ rclick on the title bar .. on the tab label: export text
 
 file:///D:\000doc24\Dokumenty\usb-flash-drive--cluster-size.f8.md
 
+EDIT 249s
+my messing with cluster Sizes
+seems to have done more harm than good
+going back to default settings
+
+usb "flash" drive enable write caching 
+seems to have done more harm than good probably
+going back to default settings
+rebooting
+
+
+
+
 
 
 ```PowerShell
