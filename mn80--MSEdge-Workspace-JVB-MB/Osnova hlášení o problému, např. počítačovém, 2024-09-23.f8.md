@@ -1,8 +1,8 @@
 # Osnova dokumentu o problému, a o jeho řešení, 2024-09-23.f8
 
+## JB PC file:///D:\onedrive\JB--MSEdge-Workspace-JVB-MB\Osnova dokumentu o problému, a o jeho řešení, 2024-09-23.f8.DOCX
 
-
-toto je nejstarší verze, nejnovější je v *DOCX* v adresari of JB  [Osnova dokumentu o problému, a o jeho řešení, 2024-09-23.f8.DOCX](
+toto .md je nejstarší verze, nejnovější je v *DOCX* v adresari of JB  [Osnova dokumentu o problému, a o jeho řešení, 2024-09-23.f8.DOCX](
 		https://onedrive.live.com/?id=BD7EC0AC1B4D4A31%21s8ee90528df21466eb3465aa3c889f4d7&cid=BD7EC0AC1B4D4A31
 	)
 
