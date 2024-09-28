@@ -5,6 +5,13 @@
 toto je starší verze, novější je v *DOCX*  [Osnova dokumentu o problému, a o jeho řešení, 2024-09-23.f8.DOCX](https://onedrive.live.com/edit.aspx?resid=4B12298D932A2860!42453&cid=4b12298d932a2860&CT=1727517782323&OR=ItemsView)
 
 
+pozn.: ale tento má gh-copilota
+
+preview tohoto docu je  na 
+[aaaaaaaaa](https://github.com/martin12333/marti-onedrive/blob/main2/mn80--MSEdge-Workspace-JVB-MB/Osnova hlášení o problému, např. počítačovém, 2024-09-23.f8.md)
+
+# poznámky
+
 Já také mívám někdy "výpadky"
 
 Já si musím na chvíli lehnout
