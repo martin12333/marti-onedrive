@@ -15,6 +15,10 @@ pozn.: ale tento má gh-copilota
 preview tohoto docu je  na 
 [aaaaaaaaa](https://github.com/martin12333/marti-onedrive/blob/main2/mn80--MSEdge-Workspace-JVB-MB/Osnova hlášení o problému, např. počítačovém, 2024-09-23.f8.md)
 
+https://github.com/martin12333/marti-onedrive/blob/main2/mn80--MSEdge-Workspace-JVB-MB/Osnova%20hl%C3%A1%C5%A1en%C3%AD%20o%20probl%C3%A9mu%2C%20nap%C5%99.%20po%C4%8D%C3%ADta%C4%8Dov%C3%A9m%2C%202024-09-23.f8.md
+
+
+
 # poznámky
 
 Já také mívám někdy "výpadky"
@@ -61,6 +65,11 @@ https://copilot.microsoft.com/ ... funguje jen v Edge?
 https://chatgpt.com/c/66f0e5a7-acac-800e-834b-9ea89adc7d8b
 
 https://gemini.google.com/app/d910c43b4785ba4b ... ten se ale málokdy hodí na moje otázky
+
+
+// obsolete?? 
+https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07
+
 
 
 # Osnova hlášení o problému, např. počítačovém
