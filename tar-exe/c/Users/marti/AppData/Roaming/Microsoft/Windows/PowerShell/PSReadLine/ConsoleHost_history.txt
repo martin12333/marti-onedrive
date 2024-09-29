@@ -3673,3 +3673,11 @@ fsutil fsinfo ntfsinfo f:
 fsutil fsinfo ntfsinfo g:
 fsutil fsinfo ntfsinfo h:
 fsutil fsinfo 
+diskpart.exe
+chkdsk e:
+chkdsk h:
+chkdsk f:
+chkdsk d:
+chkdsk c:
+chkdsk g:
+chkdsk f:

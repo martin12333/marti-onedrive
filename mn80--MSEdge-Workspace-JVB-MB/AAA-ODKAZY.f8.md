@@ -35,3 +35,7 @@
 * some subdirectories, e.g.:
 samsung--chytre-hodinky
 
+# https://photos.google.com
+
+https://photos.google.com/share/AF1QipMK19YFhv3MZWmm60ZqA1vFVtHhGcnsE75_D9gRqbtyfVJAmirCjpOeuiWkrq_z4A?key=SXJzNkJKRFhQSThpSTdzMy1uOEprT0dYUkFiTjVn
+
