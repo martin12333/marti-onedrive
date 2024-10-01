@@ -1,3 +1,8 @@
+---
+tags: new
+---
+
+
 vscode pin the file
 
 .f8.md
@@ -7,6 +12,29 @@ vscode pin the file
 
 for completion
 what file should i type my first words into, before saving it as .f8.md?
+
+
+
+## Question
+
+what are semi-structured data records embedded in markdown files?
+
+## Answer
+
+semi-structured data records embedded in markdown files are a way to store data in a human-readable format. This allows for easy access to the data without the need for specialized software. The data is stored in a structured format that can be easily parsed and manipulated. This makes it easy to work with the data in a variety of ways, such as extracting specific information or performing calculations. The data is typically stored in a tabular format, with each record representing a row in the table. This allows for easy access to the data and makes it easy to work with in a variety of ways.
+
+## Question
+
+ alternatives and extensions to markdown file format, that allow embedded data records
+
+## Answer
+
+There are several alternatives and extensions to the markdown file format that allow for embedded data records. Some of the most popular alternatives include YAML, JSON, and CSV. These formats allow for the storage of structured data within a markdown file, making it easy to work with the data in a variety of ways. YAML is a human-readable data serialization format that is commonly used for configuration files. JSON is a lightweight data interchange format that is commonly used for web applications. CSV is a simple file format that is commonly used for storing tabular data. These formats can be easily embedded within a markdown file, allowing for the storage of structured data alongside the text content.
+
+
+
+
+
 
 # mk  file  POWERSHELL-COMPLETION.f8.ps1
 bidi-link from here
