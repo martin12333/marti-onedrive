@@ -6,9 +6,18 @@ Brushite is the original precipitating material in calcium phosphate kidney ston
 
 
 
-question:
+## question
+
 what is the biological half-life of vitamin C in the human body?
-what is the biological half-life of vitamins B in the human body?
+what is the biological half-life of vitamin B6 in the human body?
+what is the *biological* half-life of magnesium in the human body?
+
+// not radioactive half-life
+
+Does magnesium make you pee a lot? site:www.reddit.com
+
+
+
 
 
 

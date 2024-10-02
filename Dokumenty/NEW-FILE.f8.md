@@ -1,11 +1,10 @@
 ---
-tags: new
+tags: aa aaa
 ---
 
 
 vscode pin the file
 
-.f8.md
 .f8.md
 .f8.md
 .f8.md
@@ -16,6 +15,24 @@ what file should i type my first words into, before saving it as .f8.md?
 
 
 ## Question
+
+hierarchical note taking
+
+## Answer
+
+The hierarchy method is a way of note taking that is mainly about: writing on the left side and shifting successive less important points to the right. points are written down one after another, line after line. the more detailed the information, the farther it is from the left.
+
+
+
+
+## Answer
+
+Hierarchical note-taking is a method of organizing information in a hierarchical structure. This allows for easy access to information and makes it easy to navigate through the notes. 
+
+The notes are organized in a tree-like structure, with each note being a child of another note. 
+
+This allows for easy navigation through the notes and makes it easy to find information quickly. Hierarchical note-taking is a popular method of organizing information and is used by many people to keep track of their thoughts and ideas.
+
 
 what are semi-structured data records embedded in markdown files?
 

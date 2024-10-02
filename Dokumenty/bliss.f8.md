@@ -38,7 +38,7 @@ Modified
  by, by means of, of13100
 relation [half-sized], pointing backwards
 
-ai: https://blissymbolics.org/ ... the official site of the Blissymbolics Communication International (BCI) ... the Blissymbolics Communication International (BCI) is a non-profit, charitable organization that has the mission of promoting the use of the Blissymbols for communication and information exchange worldwide.
+ai: https://blissymbolics.org/ ... the official site of the #Blissymbolics Communication International (BCI) ... the Blissymbolics Communication International (BCI) is a non-profit, charitable organization that has the mission of promoting the use of the Blissymbols for communication and information exchange worldwide.
 
 
 
