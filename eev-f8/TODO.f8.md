@@ -15,6 +15,7 @@
 # (R)  https://www.google.com/search?q=break+out+of+hyperfocus?+site:www.reddit.com
 
 If you are experiencing symptoms of fatigue and/or burnout, it’s important to make some changes and put some strategies in place to help you to recover.
+Delayed Reading
 f7
 edge://restart/
 
@@ -263,3 +264,11 @@ a TODO file
 ##see also
 myTODO.f8.el
 TODO.f8.ps1
+# Delayed Reading
+Instead of trying to beat the news cycles and stay up to date, I try to give items some time to boil before reading.
+
+My reading workflow:
+
+go through various RSS feeds using Feedly and save articles I want to read for later
+on any given day, don't read items from the day but items that have been saved from previous days
+The rationale behind this is because my monkey brain goes for clickbaitey titles and wants immediate gratification. By giving things some time to settle, it gives System Two a chance to step in (and remove articles before I read them).

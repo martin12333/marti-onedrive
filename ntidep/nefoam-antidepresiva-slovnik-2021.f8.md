@@ -1,13 +1,33 @@
 
 #antidepressant slovník 2021
 
-// pridat keepove #tagy
+// #todo add google-keep #tags
 
 ---------------
 
-// no longer master copy https://keep.google.com/#NOTE/183HmoJLnf4XXncKlD0Q79SLBrpO5IRzy2ri0vRF3tnzO0Hwnj862ZokZZ6AfKzM
+// no longer master copy: https://keep.google.com/#NOTE/183HmoJLnf4XXncKlD0Q79SLBrpO5IRzy2ri0vRF3tnzO0Hwnj862ZokZZ6AfKzM
 
 na konci kapitola backups
+
+-----------------------------
+
+cmd /c dir ntidep|  clip
+
+ Volume in drive C is Windows
+ Volume Serial Number is 2480-D21D
+
+ Directory of C:\Users\marti\OneDrive\ntidep
+
+04/17/2024  21:28    <DIR>          .
+09/30/2024  01:21    <DIR>          ..
+04/17/2024  21:24            17,996 Dr Shipko s Informed Consent for SSRI An.md
+04/15/2023  18:33             8,746 MUDr. Sykorov├í 22.3. 2017 (1).docx
+04/15/2023  18:33             3,964 MUDr. Sykorov├í 22.3. 2017.txt
+10/06/2024  02:37             6,447 nefoam-antidepresiva-slovnik-2021.f8.md
+04/17/2024  21:31            74,764 The Antidepressant Solution A Step-by-Step Guide to Safely Overcoming Antidepressant Withdrawal, Dependence,.md
+               5 File(s)        111,917 bytes
+               2 Dir(s)  23,385,772,032 bytes free
+
 
 -----------------------------
 
