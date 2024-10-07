@@ -14,7 +14,9 @@ s okamžitým uvolňováním
 site:survivingantidepressants.org venlafaxine immediate release vs extended release
 site:survivingantidepressants.org  immediate release vs extended release
 
+https://www.survivingantidepressants.org/forums/topic/272-tips-for-tapering-off-effexor-and-effexor-xr-venlafaxine/
 https://www.survivingantidepressants.org/forums/topic/272-tips-for-tapering-off-effexor-and-effexor-xr-venlafaxine/page/11/
+
 
 Because its half-life is so short, immediate-release venlafaxine is taken 2 or 3 times a day.
 
@@ -57,9 +59,6 @@ Kód pracoviště:	00000014781
 
 # e-mail
 
-psychiatrie.sykorova@seznam.cz
-from:sykorova
-https://mail.google.com/mail/u/0/#create-filter/from=sykorova&sizeoperator=s_sl&sizeunit=s_smb&query=from%3Asykorova
 
 
 Subject:
