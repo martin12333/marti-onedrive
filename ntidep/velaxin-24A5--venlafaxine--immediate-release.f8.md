@@ -38,7 +38,8 @@ https://photos.google.com/album/AF1QipNXbDLMCjyVG6AwQQlsdTgDL9PW40yDRZ0zIcM1
 
 
 
-# https://pacient.erecept.sukl.cz/suklweb/Pacient/ErpPredpisy/DetailReceptu?idDokladu=PM84POMXP9TK
+# https://pacient.erecept.sukl.cz/suklweb/Pacient/ErpPredpisy/DetailReceptu?idDokladu=PM84POM............
+file:///C:\Users\marti\OneDrive\ntidep\
 
 2x VELAXIN 75MG TBL NOB 56(4X14)
 Diagnóza:	
@@ -47,19 +48,13 @@ Přidružená diagnóza:
 Symboly:	
 Návod:	0-0-1
 
-Adresa:	nám. Osvoboditelů 1xxx, Praha, 15300
-Telefon:	724 000 754
-Email:	
-IČZ:	
-IČP:	05505001
-Kód pracoviště:	00000014781
 
 
 
 
 # e-mail
 
-
+file:///C:\Users\marti\OneDrive\ntidep\
 
 Subject:
 "venlafaxinu s okamžitým uvolňováním"
@@ -336,7 +331,7 @@ vyžadujících hemodialýzu je nutné dávku upravit (viz bod 4.2)
 
 
 
-Reg. číslo: 30/515/07-C Kód SÚKL: 0120369
+# Reg. číslo: 30/515/07-C Kód SÚKL: 0120369
 
 
 
