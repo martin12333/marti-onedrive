@@ -1,7 +1,7 @@
-#velaxin #24A5         
+#issue		 #velaxin #24A5          #aaaaA
 	 #venlafaxine #immediaterelease
 ***
-#aaaaA
+////udela hrule *** na zac radky
 
 Subject: 
 "venlafaxinu s okamžitým uvolňováním"

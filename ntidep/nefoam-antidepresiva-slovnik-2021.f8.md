@@ -18,15 +18,26 @@ cmd /c dir ntidep|  clip
 
  Directory of C:\Users\marti\OneDrive\ntidep
 
-04/17/2024  21:28    <DIR>          .
+10/07/2024  22:48    <DIR>          .
 09/30/2024  01:21    <DIR>          ..
+10/07/2024  16:42             1,014 contacts (2).csv
+10/07/2024  16:49               942 contacts (3).csv
+10/06/2024  08:52             9,370 Conversation (52).txt
 04/17/2024  21:24            17,996 Dr Shipko s Informed Consent for SSRI An.md
-04/15/2023  18:33             8,746 MUDr. Sykorov├í 22.3. 2017 (1).docx
-04/15/2023  18:33             3,964 MUDr. Sykorov├í 22.3. 2017.txt
-10/06/2024  02:37             6,447 nefoam-antidepresiva-slovnik-2021.f8.md
+10/07/2024  22:47    <DIR>          MUDr.P.S. a nejen 22.3. 2017
+10/07/2024  22:48             7,191 nefoam-antidepresiva-slovnik-2021.f8.md
+10/07/2024  13:43            88,197 OckovaciPrukazka.pdf
+10/06/2024  03:31           349,707 PI210176.pdf
+10/07/2024  17:40           446,920 priloha_dlp (12).pdf
+10/07/2024  17:41           349,707 priloha_dlp (13).pdf
+10/07/2024  17:41           200,260 priloha_dlp (14).pdf
+10/06/2024  06:49           448,846 priloha_dlp (8).pdf
+10/06/2024  03:32           446,920 SPC210177.pdf
 04/17/2024  21:31            74,764 The Antidepressant Solution A Step-by-Step Guide to Safely Overcoming Antidepressant Withdrawal, Dependence,.md
-               5 File(s)        111,917 bytes
-               2 Dir(s)  23,385,772,032 bytes free
+10/06/2024  08:27           620,464 Tips for tapering off Effexor and Effexor XR (venlafaxine) - Tapering - Surviving Antidepressants.html
+10/07/2024  22:42            14,421 velaxin-24A5--venlafaxine--immediate-release.f8.md
+              15 File(s)      3,076,719 bytes
+               3 Dir(s)  20,186,660,864 bytes free
 
 
 -----------------------------
