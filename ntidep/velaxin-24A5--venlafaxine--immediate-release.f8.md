@@ -3,7 +3,8 @@
 ***
 #aaaaA
 
-
+Subject: 
+"venlafaxinu s okamžitým uvolňováním"
 
 
 # ##### *****  Because its half-life is so short, immediate-release venlafaxine is taken 2 or 3 times a day.
@@ -41,7 +42,6 @@ Přidružená diagnóza:
 Symboly:	
 Návod:	0-0-1
 
-
 Adresa:	nám. Osvoboditelů 1xxx, Praha, 15300
 Telefon:	724 000 754
 Email:	
@@ -50,6 +50,82 @@ IČP:	05505001
 Kód pracoviště:	00000014781
 
 ?psychiatrie.sykorova@seznam.cz
+podivat na historii
+
+
+# e-mail
+Subject:
+"venlafaxinu s okamžitým uvolňováním"
+
+Vážená paní doktorko,
+
+již několik let beru venlafaxin s **prodlouženým** uvolňováním, (Velaxin tobolky, 75 mg, 1-0-0)
+
+Až teď v neděli  jsem si všiml, že moje následující dávka (krabička) jsou tablety, nikoli tobolky, 
+
+> Reg. číslo: 30/551/05-C Kód SÚKL: 0023817
+
+# Domnívám se, že jsou to tablety s **okamžitým** uvolňováním.
+
+Proč si to myslím
+
+1. v Příbalové informaci, a také na webu sukl . cz  ,  je tato formulace
+
+> Doporučená počáteční dávka je 75 mg denně, rozdělená do dvou nebo tří jednotlivých dávek.
+
+2.  na webu sukl . cz  ,  v  SmPC - Souhrn údajů o přípravku   je tato formulace
+
+>  Doporučenou počáteční dávkou venlafaxinu s okamžitým uvolňováním je 75 mg za den ve dvou nebo 
+třech dílčích dávkách užívaných s jídlem.
+
+Mohu v další zprávě poslat přesné webové odkazy, a přiložit ty dva pdf soubory (bál jsem se, aby moje první zpráva nebyla zařazena automaticky do složky Spam ... Nevyžádaná pošta )
+
+# Nejsem si jistý, na jaké dílčí dávky mám tu tabletu rozdělit
+
+a) 1/2 - 0 - 1/2 -0
+b) 1/4 - 1/4 - 1/4 - 1/4
+c) 1/4 - 1/4 - 1/2 - 0
+
+zatím jsem si vybral variantu c) 1/4 - 1/4 - 1/2 - 0
+
+
+# zároveň beru Mirzaten 0 - 0 - 0 - 1/4
+
+nevím, zda se budou ovlivňovat
+
+Děkuji za odpověď.
+
+S pozdravem,
+
+Martin Novák
+
+
+
+
+
+
+
+> > 
+> 
+> 
+> 
+> > > 
+
+
+
+
+
+Mám dotaz ohledně užívání tohoto léku. Jak často bych měl/a užívat Venlafaxin 75mg tbl nob 56(4x14) a v jakých intervalech?
+
+Děkuji za odpověď.
+
+S pozdravem,
+
+Martina Nováková
+
+
+
+
 
 
 # https://prehledy.sukl.cz/prehled_leciv.html#/leciva/0023817
@@ -147,9 +223,7 @@ https://prehledy.sukl.cz/prehled_leciv.html#/detail-reg/0120369
 
 
 
-# Reg. číslo: 30/551/05-C Kód SÚKL: 0023817
 
-https://prehledy.sukl.cz/prehled_leciv.html#/
 
 
 
