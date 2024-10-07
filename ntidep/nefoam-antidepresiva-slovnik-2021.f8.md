@@ -55,8 +55,7 @@ https://en.wikipedia.org/wiki/Akathisia
 
 může být permanent
 
-SSRIs[15]	Fluoxetine,[15] paroxetine,[8] citalopram, sertraline[16]
-Antidepressants	Venlafaxine, tricyclics, trazodone, and mirtazapine[17]
+## SSRIs[15]	Fluoxetine,[15] paroxetine,[8] citalopram, sertraline[16] Antidepressants	Venlafaxine, tricyclics, trazodone, and mirtazapine[17]
 
 
 
@@ -77,7 +76,7 @@ Antidepressants	Venlafaxine, tricyclics, trazodone, and mirtazapine[17]
 
 // dopamine
 
-Many drugs can cause tardive dyskinesia, including antipsychotics, anti-anxiety medications, **antidepressants**, anticholinergics, Parkinson's drugs, and others.
+## Many drugs can cause tardive dyskinesia, including antipsychotics, anti-anxiety medications, **antidepressants**, anticholinergics, Parkinson's drugs, and others.
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5472076/
 
@@ -180,6 +179,8 @@ https://en.wikipedia.org/wiki/Bad_Pharma
 
 https://www.google.com/search?q=poor+CYP2D6+metabolizers
 
+Rychlí/pomalí metabolizátoři CYP2D6
+
 
 # Shipko, M.D.
 
@@ -211,9 +212,8 @@ https://ssristories.org/how-do-ssris-and-other-medications-cause-violence-and-wh
 # S., dr.
 
 2017 
-https://docs.google.com/document/d/1ibNCksvq08aJDTcllVT71
+https://docs.google.com/document/d/1ibNCksvq08aJDTcllVT71...........
 
-WjdXrmD3G1FGmQ0k6YtynM/edit
 
 
 
