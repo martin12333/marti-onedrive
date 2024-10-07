@@ -32,6 +32,120 @@ https://photos.google.com/album/AF1QipNXbDLMCjyVG6AwQQlsdTgDL9PW40yDRZ0zIcM1
 
 
 
+# https://pacient.erecept.sukl.cz/suklweb/Pacient/ErpPredpisy/DetailReceptu?idDokladu=PM84POMXP9TK
+
+2x VELAXIN 75MG TBL NOB 56(4X14)
+Diagnóza:	
+Přidružená diagnóza:	
+Úhrada:	Základní úhrada
+Symboly:	
+Návod:	0-0-1
+
+
+Adresa:	nám. Osvoboditelů 1xxx, Praha, 15300
+Telefon:	724 000 754
+Email:	
+IČZ:	
+IČP:	05505001
+Kód pracoviště:	00000014781
+
+?psychiatrie.sykorova@seznam.cz
+
+
+# https://prehledy.sukl.cz/prehled_leciv.html#/leciva/0023817
+
+
+
+
+
+## PIL - Příbalová informace
+file_download
+
+Sp. zn. sukls75287/2024, sukls75308/2024 
+ 
+Příbalová informace: informace pro uživatele 
+ 
+Velaxin 37,5 mg tablety 
+Velaxin 50 mg tablety 
+Velaxin 75 mg tablety 
+ 
+venlafaxinum 
+...
+
+3. Jak se Velaxin užívá 
+ 
+Vždy užívejte tento přípravek přesně podle pokynů svého lékaře. Pokud si nejste jistý(á), poraďte se 
+s lékařem nebo lékárníkem. 
+ 
+Doporučená počáteční dávka je 75 mg denně, rozdělená do dvou nebo
+*** tří jednotlivých dávek.
+  Dávka 
+může být lékařem postupně zvýšena, pokud je to nutné, až na maximální dávku 375 mg denně při 
+léčbě deprese. Vzhledem k tomu, že při užívání tablet přípravku Velaxin není možné získat denní 
+dávku 75 mg ve 
+*** třech rozdělených dávkách, má v tomto případě být použitý jiný léčivý přípravek 
+obsahující 25 mg venlafaxinu. 
+ 
+Užívejte Velaxin každý den přibližně ve stejnou denní dobu, ráno a večer. 
+
+
+
+
+
+
+## SmPC - Souhrn údajů o přípravku
+file_download
+
+Sp. zn. sukls75287/2024, sukls75308/2024 
+  
+SOUHRN ÚDAJŮ O PŘÍPRAVKU 
+  
+1. NÁZEV PŘÍPRAVKU 
+ 
+Velaxin 37,5 mg tablety 
+Velaxin 50 mg tablety 
+Velaxin 75 mg tablety 
+ 
+
+4.2 Dávkování a způsob podání 
+ 
+Dávkování 
+ 
+Depresivní epizody 
+ 
+*** Doporučenou počáteční dávkou venlafaxinu s okamžitým uvolňováním je 75 mg za den ve dvou nebo 
+třech dílčích dávkách užívaných s jídlem. Pacientům, kteří nereagují na počáteční denní dávku 75 mg, 
+
+může být dávka zvyšována až na maximálně 375 mg/den. Zvyšování dávek může být prováděno 
+v intervalu alespoň 2 týdnů. Pokud si to klinická závažnost příznaků vyžádá, mohou být dávky zvyšovány 
+v kratších intervalech, ale odstup nesmí být kratší než 4 dny. 
+Vzhledem k tomu, že při užívání tablet přípravku Velaxin není možné získat denní dávku 75 mg ve třech 
+rozdělených dávkách, má v tomto případě být použitý jiný léčivý přípravek obsahující 25 mg venlafaxinu. 
+
+
+
+
+
+
+# https://prehledy.sukl.cz/prehled_leciv.html#/leciva/0120369
+
+
+
+Nahrazující léčivé přípravky
+Poznámka
+ 
+Omezená dostupnost
+Platnost od
+	- 30. 8 .2024
+	- 30.8.2024
+
+https://prehledy.sukl.cz/prehled_leciv.html#/detail-reg/0120369
+
+28 trending_down Připravky s omezenou dostupností na českém trhu.
+30 ukonceno --> nahrada: 0120369
+
+
+
 
 # Reg. číslo: 30/551/05-C Kód SÚKL: 0023817
 
