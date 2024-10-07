@@ -6,6 +6,9 @@
 Subject: 
 "venlafaxinu s okamžitým uvolňováním"
 
+"venlafaxinu s prodlouženým uvolňováním"
+s prodlouženým uvolňováním
+s okamžitým uvolňováním
 
 # ##### *****  Because its half-life is so short, immediate-release venlafaxine is taken 2 or 3 times a day.
 site:survivingantidepressants.org venlafaxine immediate release vs extended release
@@ -64,6 +67,7 @@ již několik let beru venlafaxin s **prodlouženým** uvolňováním, (Velaxin 
 Až teď v neděli  jsem si všiml, že moje následující dávka (krabička) jsou tablety, nikoli tobolky, 
 
 > Reg. číslo: 30/551/05-C Kód SÚKL: 0023817
+> Sp. zn. sukls75287/2024, sukls75308/2024 
 
 # Domnívám se, že jsou to tablety s **okamžitým** uvolňováním.
 
@@ -92,6 +96,9 @@ zatím jsem si vybral variantu c) 1/4 - 1/4 - 1/2 - 0
 # zároveň beru Mirzaten 0 - 0 - 0 - 1/4
 
 nevím, zda se budou ovlivňovat
+
+
+
 
 Děkuji za odpověď.
 
@@ -183,6 +190,7 @@ Velaxin 50 mg tablety
 Velaxin 75 mg tablety 
  
 
+
 4.2 Dávkování a způsob podání 
  
 Dávkování 
@@ -197,6 +205,16 @@ v intervalu alespoň 2 týdnů. Pokud si to klinická závažnost příznaků vy
 v kratších intervalech, ale odstup nesmí být kratší než 4 dny. 
 Vzhledem k tomu, že při užívání tablet přípravku Velaxin není možné získat denní dávku 75 mg ve třech 
 rozdělených dávkách, má v tomto případě být použitý jiný léčivý přípravek obsahující 25 mg venlafaxinu. 
+
+
+
+Změna užívání 
+Pacienti užívající venlafaxin v tabletách s okamžitým uvolňováním mohou být převedeni na léčbu 
+tobolkami s prodlouženým uvolňováním s nejbližší ekvivalentní denní dávkou. Například léčba 
+venlafaxinem v tabletách s okamžitým uvolňováním podávaným v dávce 37,5 mg dvakrát denně může být 
+změněna na podávání tobolek s prodlouženým uvolňováním v dávce 75 mg jednou denně. Někdy může 
+být nutná individuální úprava dávkování. 
+
 
 
 
