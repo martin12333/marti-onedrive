@@ -4,45 +4,15 @@
 #aaaaA
 
 
-# venlafaxine immediate release vs extended release reddit
-
-Elimination: The elimination half-life of venlafaxine varies depending on the formulation and is approximately 5±2 hours for immediate-release, 6.8±1.6 hours for extended-release besylate, and 10.7±3.2 hours for extended-release hydrochloride.Feb 26, 2024
 
 
-
-##### *****  Because its half-life is so short, immediate-release venlafaxine is taken 2 or 3 times a day.
+# ##### *****  Because its half-life is so short, immediate-release venlafaxine is taken 2 or 3 times a day.
 site:survivingantidepressants.org venlafaxine immediate release vs extended release
 site:survivingantidepressants.org  immediate release vs extended release
 
 https://www.survivingantidepressants.org/forums/topic/272-tips-for-tapering-off-effexor-and-effexor-xr-venlafaxine/page/11/
 
 Because its half-life is so short, immediate-release venlafaxine is taken 2 or 3 times a day.
-
-
-
-
-# graphs of the plasma concentration for both immediate release and extended release
-
-a scientific article
-a comparison of venlafaxine immediate release and extended release
-graphs of the plasma concentration of venlafaxine over time for both immediate release and extended release
-a table of the pharmacokinetic parameters of venlafaxine immediate release and extended release
-a discussion of the differences in the pharmacokinetic parameters between immediate release and extended release
-a conclusion summarizing the findings of the study and the implications for clinical practice
-
-a scientific article
-venlafaxine immediate release 
-graphs of the plasma concentration of venlafaxine over time 
-a table of the pharmacokinetic parameters of venlafaxine immediate release
-a discussion of the pharmacokinetic parameters of venlafaxine immediate release
-
-venlafaxine immediate release ... graph of the plasma concentration
-
-a table of the pharmacokinetic parameters of venlafaxine immediate release
-
-venlafaxine IR vs ER
-
-
 
 
 
@@ -69,7 +39,7 @@ https://prehledy.sukl.cz/prehled_leciv.html#/
 
 
 
-https://www.lekinfo.cz/medicine/0023817-velaxin-75mg-tbl-nob-56-4x14
+# https://www.lekinfo.cz/medicine/0023817-velaxin-75mg-tbl-nob-56-4x14
 Tableta (TBL NOB)
 
 VELAXIN 75MG TBL NOB 56(4X14)
@@ -86,7 +56,7 @@ Léková forma
 *** Tableta (TBL NOB)
 
 
-https://www.lekinfo.cz/downloads/PI210176.pdf
+# https://www.lekinfo.cz/downloads/PI210176.pdf
 
 Sp. zn. sukls75287/2024, sukls75308/2024
 
@@ -113,7 +83,7 @@ Doporučenou počáteční dávkou venlafaxinu s okamžitým uvolňováním je 7
 
 
 
-https://www.lekinfo.cz/downloads/SPC210177.pdf
+# https://www.lekinfo.cz/downloads/SPC210177.pdf
 
 
 Absorpce
@@ -170,7 +140,7 @@ Reg. číslo: 30/515/07-C Kód SÚKL: 0120369
 
 
 
-https://www.lekinfo.cz/medicine/0246027-argofan-75mg-tbl-pro-30-2x15
+# https://www.lekinfo.cz/medicine/0246027-argofan-75mg-tbl-pro-30-2x15
 
 ARGOFAN 75MG TBL PRO 30(2X15)
 Základní údaje
@@ -189,9 +159,41 @@ Léková forma
 
 
 
+# venlafaxine immediate release vs extended release reddit
+
+Elimination: The elimination half-life of venlafaxine varies depending on the formulation and is approximately 5±2 hours for immediate-release, 6.8±1.6 hours for extended-release besylate, and 10.7±3.2 hours for extended-release hydrochloride.Feb 26, 2024
 
 
 
+# graphs of the plasma concentration for both immediate release and extended release
+
+a scientific article
+a comparison of venlafaxine immediate release and extended release
+graphs of the plasma concentration of venlafaxine over time for both immediate release and extended release
+a table of the pharmacokinetic parameters of venlafaxine immediate release and extended release
+a discussion of the differences in the pharmacokinetic parameters between immediate release and extended release
+a conclusion summarizing the findings of the study and the implications for clinical practice
+
+a scientific article
+venlafaxine immediate release 
+graphs of the plasma concentration of venlafaxine over time 
+a table of the pharmacokinetic parameters of venlafaxine immediate release
+a discussion of the pharmacokinetic parameters of venlafaxine immediate release
+
+venlafaxine immediate release ... graph of the plasma concentration
+
+a table of the pharmacokinetic parameters of venlafaxine immediate release
+
+venlafaxine IR vs ER
+
+
+
+
+
+
+
+
+# ai ref
 
 
 Administration of Effexor XR (150 mg q24 hours) generally resulted in lower Cmax (150 ng/mL for venlafaxine and 260 ng/mL for 
@@ -214,7 +216,7 @@ https://pharmaeducation.net/plasma-level-time-curve/
 
 
 
-ai
+# ai
 How does food affect the absorption of venlafaxine extended release?
 How does fat digestion affect the absorption of venlafaxine ?
 
