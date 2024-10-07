@@ -52,11 +52,16 @@ IČZ:
 IČP:	05505001
 Kód pracoviště:	00000014781
 
-?psychiatrie.sykorova@seznam.cz
-podivat na historii
+
 
 
 # e-mail
+
+psychiatrie.sykorova@seznam.cz
+from:sykorova
+https://mail.google.com/mail/u/0/#create-filter/from=sykorova&sizeoperator=s_sl&sizeunit=s_smb&query=from%3Asykorova
+
+
 Subject:
 "venlafaxinu s okamžitým uvolňováním"
 
@@ -79,8 +84,7 @@ Proč si to myslím
 
 2.  na webu sukl . cz  ,  v  SmPC - Souhrn údajů o přípravku   je tato formulace
 
->  Doporučenou počáteční dávkou venlafaxinu s okamžitým uvolňováním je 75 mg za den ve dvou nebo 
-třech dílčích dávkách užívaných s jídlem.
+>  Doporučenou počáteční dávkou venlafaxinu s okamžitým uvolňováním je 75 mg za den ve dvou nebo třech dílčích dávkách užívaných s jídlem.
 
 Mohu v další zprávě poslat přesné webové odkazy, a přiložit ty dva pdf soubory (bál jsem se, aby moje první zpráva nebyla zařazena automaticky do složky Spam ... Nevyžádaná pošta )
 
@@ -97,16 +101,15 @@ zatím jsem si vybral variantu c) 1/4 - 1/4 - 1/2 - 0
 
 nevím, zda se budou ovlivňovat
 
+# a další potenciální problém: tablety obsahují laktosu
 
-
+Napadá mne ... nemohla byste mi, pro jistotu, poslat e-recept na 1 krabičku venlafaxinu s **prodlouženým** uvolňováním, 75 mg, 1-0-0   ?
 
 Děkuji za odpověď.
 
 S pozdravem,
 
-Martin Novák
-
-
+tel.
 
 
 
@@ -124,11 +127,6 @@ Martin Novák
 
 Mám dotaz ohledně užívání tohoto léku. Jak často bych měl/a užívat Venlafaxin 75mg tbl nob 56(4x14) a v jakých intervalech?
 
-Děkuji za odpověď.
-
-S pozdravem,
-
-Martina Nováková
 
 
 
