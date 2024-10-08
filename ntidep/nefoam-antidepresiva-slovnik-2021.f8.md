@@ -45,7 +45,17 @@ cmd /c dir ntidep|  clip
 
 # Akathisia, tardive 💀
 
-// dopamine
+a small hope 🤍: poor CYP2D6 metabolizers ????
+
+Question: is it possible that some people are more prone to akathisia (caused by antidepressants) because of their genetics?
+
+ai Answer: Yes, it is possible. Some people are poor CYP2D6 metabolizers, which means they have a genetic variation that makes them less able to metabolize certain drugs. This can make them more prone to akathisia. However, this is not the only factor that can contribute to the development of akathisia. Other factors, such as
+
+another ai answer: Yes, it is possible that genetics can play a role in an individual's susceptibility to akathisia caused by antidepressants. Research suggests that genetic variations, particularly those affecting the dopamine and serotonin systems, may influence how a person responds to these medications³. For example, certain genetic polymorphisms in the dopamine receptor genes (such as DRD2) and serotonin transporter genes (such as SLC6A4) have been associated with an increased risk of developing akathisia³.
+
+
+
+// akathisia is related to dopamine
 
 https://cs.wikipedia.org/wiki/Akatizie video
 
@@ -72,19 +82,46 @@ může být permanent
 
 
 
-# dyskinesia, tardive 💀?
+# dyskinesia, tardive 💀
 
-// dopamine
+a small hope 🤍: poor CYP2D6 metabolizers ????
+
+Question: is it possible that some people are more prone to tardive dyskinesia  (caused by antidepressants) because of their genetics?
+
+ai Answer: Yes, it is possible. Some people are poor CYP2D6 metabolizers, which means they have a genetic variation that makes them less able to metabolize certain drugs. This can make them more prone to tardive dyskinesia. However, this is not the only factor that can contribute to the development of tardive dyskinesia. Other factors, such as 
+
+https://en.wikipedia.org/wiki/Tardive_dyskinesia
+
+
+
+
+
+// dyskinesia is related to dopamine
 
 ## Many drugs can cause tardive dyskinesia, including antipsychotics, anti-anxiety medications, **antidepressants**, anticholinergics, Parkinson's drugs, and others.
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5472076/
 
-As mentioned previously, SSRIs are associated with TD. Fluoxetine, in particular, can lead to TD or symptoms similar to TD, and these symptoms have been reported for up to 1 year after discontinuation and withdrawal from the medication.51 With sertraline, another SSRI associated with TD, increasing age is a significant risk factor for the development of the disorder,52 although TD has also been reported in adolescent patients on this medication.
+
+However, antidepressant-induced TD is common in elderly patients who have a greater likelihood of comorbid conditions. Because older age is associated with changes in the absorption, distribution, metabolism, and excretion of medications, long-term antidepressant exposure may lead to increased medication accumulation and severe side effects. The efficiency of amine transmitter and receptor signaling is also decreased in older patients and can further contribute to unwanted side effects.48 Trazodone, doxepin, clomipramine, and amitriptyline can induce TD in patients with no previous exposure to APDs.34,35 TD symptoms are dose-dependent and exacerbated in individuals who have previously been administered lithium.49 
+
+As mentioned previously, SSRIs are associated with TD. Fluoxetine, in particular, can lead to TD or symptoms similar to TD, and these symptoms have been reported for up to **1 year after discontinuation** and withdrawal from the medication.51 With sertraline, another SSRI associated with TD, increasing age is a significant risk factor for the development of the disorder,52 although TD has also been reported in adolescent patients on this medication.
+
+
+
+
 
 https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-020-02711-z
 
 A potential harmful association was found between movement disorders and use of the antidepressants mirtazapine, vortioxetine, amoxapine, phenelzine, tryptophan, fluvoxamine, citalopram, paroxetine, duloxetine, bupropion, clomipramine, escitalopram, fluoxetine, mianserin, sertraline, venlafaxine and vilazodone.
+
+googling
+
+If you identify the signs of TD early and are able to stop or change your medication, it might eventually go away completely. However, this doesn't happen for everyone and could take a long time. For some people, TD may never go away, even after stopping or changing medication.
+
+Tardive dyskinesia (a motor disorder that is often permanent and debilitating) 
+
+Effexor Side Effects And Class Action Lawsuits
 
 
 
@@ -255,7 +292,7 @@ nedá zbavit
 
 velmi krátký biol. poločas 15 hodin
 
-objevila se možnost tablet 37.5 mg
+///////objevila se možnost tablet 37.5 mg
 
 netroufám si na tu strašnou práci ... budu roky odkladat ////zatím
 
