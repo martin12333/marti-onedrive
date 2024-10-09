@@ -21,7 +21,8 @@ czech programmers keyboard layout
 
 # pripady potizi s placenim
 
-chci amobnotify i pro info@pilulka.
+chci amobnotify2 i pro from:pilulka
+info i zendesk
 protoze #229n
 done martin amobnotify2
 
@@ -94,7 +95,8 @@ m.b.
 ## #24A9
 streda 
 Zlepšujeme Vašeho George Dostupný bude opět v sobotu od 08:00 hodin. Děkujeme za trpělivost.
-ale platba 
+... ale platba byla provedena?
+
 
 
 # https://www.pilulka.cz/form-recommend
