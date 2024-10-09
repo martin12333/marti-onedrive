@@ -68,5 +68,28 @@ https://www.pilulka.cz/centrum
 https://www.pilulka.cz/pilulka-selection
 
 
+<![CDATA[http://help.diigo.com/no-toolbar-simple-diigolet/getting-started-with-the-diigolet]]></link><description><![CDATA[Tags:Diigo,diigolet;Description:;Annotations and Sticky notes:]]></description></item>
+<ttl>3.1415926</ttl>
+           </channel>
+           </rss>
 
+
+
+# do you take any vitamin or mineral supplements?
+
+( some vitamins and minerals wake me too early ... i have to go to the bathroom and then i can't fall asleep again )
+
+
+
+# I can sleep only in a warm room (as a child, I had asthma) (i mean, at least 22 degrees Celsius, that's 72 degrees Fahrenheit)
+
+
+ re: sleep in a cool room ...  I wonder sometimes, am I  the only one in the world , who can sleep only in a warm room ? (as a child, I had asthma)
+
+ai
+It's a common misconception that everyone needs a cold room to sleep well. The ideal temperature can vary significantly from person to person, and your body's unique needs should be your guide.
+
+(i mean, i can sleep in a cold room, but i wake up with a headache and a sore throat)
+
+(i mean, at least 22 degrees Celsius, thats 72 degrees Fahrenheit)
 

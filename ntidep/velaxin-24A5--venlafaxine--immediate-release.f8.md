@@ -1,4 +1,4 @@
-#issue		 #velaxin #24A5          #aaaaA
+#issue		 #velaxin - #24A5          #aaaaA
 	 #venlafaxine #immediaterelease
 ***
 ////udela hrule *** na zac radky
@@ -55,6 +55,22 @@ Návod:	0-0-1
 # e-mail
 
 file:///C:\Users\marti\OneDrive\ntidep\
+
+
+
+
+
+
+
+
+#24A8
+tablety, které máte k dispozici, užívejte i nadále v dávce 1/4-1/4-1/2 tbl. Mirzaten můžete nadále užívat tak, jak jste zvyklý. Aktuálně Vám bohužel nový recept poslat nemohu, protože jsem v pracovní neschopnosti. V případě, že byste cokoli potřeboval, můžete na telefonním čísle 604 274 519 kontaktovat sestru v zastupující ordinaci a domluvit se s ní na potřebném. 
+
+
+
+
+
+
 
 Subject:
 "venlafaxinu s okamžitým uvolňováním"
@@ -311,7 +327,8 @@ konjugovaný ODV (26 %) nebo jako další vedlejší neúčinné metabolity (27 
 clearance ±SD venlafaxinu je 1,3 ±0,6 l/hod/kg a ODV je 0,4 ±0,2 l/hod/kg.
 
 
-Rychlí/pomalí metabolizátoři CYP2D6
+### *** Rychlí/pomalí metabolizátoři CYP2D6
+
 Pomalí metabolizátoři CYP2D6 mají vyšší plazmatické koncentrace venlafaxinu než rychlí metabolizátoři. 
 Protože však celková expozice (AUC) venlafaxinu a ODV je u pomalých a rychlých metabolizátorů 
 podobná, není pro tyto dvě skupiny třeba dvou rozdílných dávkovacích režimů
