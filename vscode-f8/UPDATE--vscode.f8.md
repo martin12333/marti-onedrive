@@ -5,9 +5,17 @@
 
 settings.json
 //24Ad  comment-out  because # i need github copilot updates
-// was: because f8 focus bug 1.75
+// 23 was: because f8 focus bug 1.75
 	//"update.mode": "manual",
 	//"update.enableWindowsBackgroundUpdates": false,
+
+# // 23 was: because f8 focus bug 1.75
+
+mitigation
+question: can i download older versions of vscode to bisect the bug?
+
+answer: yes, you can download older versions of vscode from the vscode archive.  you can download the version you want to test and install it.  The website is https://code.visualstudio.com/updates/v1_75 
+
 
 
 # 23 winmilan
