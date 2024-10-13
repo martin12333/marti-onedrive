@@ -2,9 +2,9 @@
 
     // the most important settings are put first here
 
-	"update.enableWindowsBackgroundUpdates": false,
-	"update.mode": "manual",
-	//"update.mode": "manual", because f8
+//24Ad  comment-out  because # i need github copilot updates
+// was: because f8 focus bug 1.75
+	//"update.mode": "manual",
 	//"update.enableWindowsBackgroundUpdates": false,
 
 	// ~nozaki

@@ -15,6 +15,8 @@
 # (R)  https://www.google.com/search?q=break+out+of+hyperfocus?+site:www.reddit.com
 
 If you are experiencing symptoms of fatigue and/or burnout, it’s important to make some changes and put some strategies in place to help you to recover.
+Time Off: A Practical Guide to Building Your Rest Ethic and Finding Success Without the Stress
+Na duševní únavu si ale organismus nevytvořil žádné senzory. 
 Delayed Reading
 f7
 edge://restart/
