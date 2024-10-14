@@ -344,6 +344,9 @@
 		"markdown": true
 	},
 	"editor.inlineSuggest.showToolbar": "always",
+	"github.copilot.advanced": {
+		
+	},
 
 
 
