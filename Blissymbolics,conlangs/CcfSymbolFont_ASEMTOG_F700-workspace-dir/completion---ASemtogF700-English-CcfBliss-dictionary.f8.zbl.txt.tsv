@@ -1,51 +1,10 @@
 
 
-
+should be immutable
 file:///C:\Users\marti\OneDrive\Blissymbolics,conlangs\ASemtogF700-English-CcfBliss-dictionary.txt.tsv
+copies
 https://www.facebook.com/groups/381043692614545/files/files
 https://drive.google.com/drive/folders/1d26WrNzdqhywa2xEeh-XLPK4U5sI6v6w
-
-
-
-
-
-
-C:\Users\marti\OneDrive\Blissymbolics,conlangs\CcfSymbolFont_ASEMTOG_F700-workspace-dir\completion---ASemtogF700-English-CcfBliss-dictionary.f8.zbl.txt.tsv
-
-
-
-
-
-
-
-"C:\Users\marti\OneDrive\Blissymbolics,conlangs\a,Visual-Conlangs,public,Blissymbolics\mart\ASemtogF700-English-CcfBliss-dictionary - soonold-ASemtogF700-English-CcfBliss-dictionary-not-Geany.tsv"
-
-
-
-
-https://github.com/search?q=ccfsymbolfont&type=code
-
-
-
-
-
-todo
-24Af smaller bug_
-copy the dict to nonf8n.tsv
-copy the dict to nonf8n.txt  maybe
-rename the dict to .f8.renamedextension
-to not contaminate github *.tsv *.txt
-push to github
-
-
-
-
-todo rename?
-martin12333/marti-onedrive · daily-life---mitigate/antifragile.f8.zbl.txt
-martin12333/marti-onedrive · daily-life---mitigate/agile,scrum.f8.zbl.txt
-
-
-
 
 
 
@@ -55,8 +14,21 @@ form
 
 24Ae state
 *.tsv completion works in another file
-*.txt not yet ... should i copy .tsv to .txt?
+*.txt not yet ... should i copy the dictionary .tsv to .txt?
+or todo rename?
+martin12333/marti-onedrive · daily-life---mitigate/antifragile.f8.zbl.txt
+martin12333/marti-onedrive · daily-life---mitigate/agile,scrum.f8.zbl.txt
 
+
+
+-----------------------------------
+done_
+24Af smaller bug_
+done copy the dict to nonf8n.tsv
+obsol rename the dict to .f8.renamedextension
+done_ cut the dict from this file
+to not contaminate github *.tsv *.txt
+push to github
 
 
 -----------------------------------
@@ -140,3 +112,12 @@ vocabulary
 # vscode OK: *.coffee    *.edn *.tsv
 
 file:///C:\Users\marti\OneDrive\Blissymbolics,conlangs\CcfSymbolFont_ASEMTOG_F700-workspace-dir\completion---another-file--test.f8.txt.tsv
+
+
+
+
+
+# old
+
+https://github.com/search?q=ccfsymbolfont&type=code
+
