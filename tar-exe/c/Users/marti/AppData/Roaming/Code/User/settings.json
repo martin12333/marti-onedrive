@@ -173,6 +173,9 @@
         "strings": true, //false
     },
 
+
+//  ok  C:\Users\marti\OneDrive\vscode-f8\vscode-quickSuggestions-completi.f8.md
+
     "[markdown]": {
 
 		// 2491 disabled because .hash.tsv in markdown needs tabs
@@ -345,7 +348,7 @@
 	},
 	"editor.inlineSuggest.showToolbar": "always",
 	"github.copilot.advanced": {
-		
+
 	},
 
 

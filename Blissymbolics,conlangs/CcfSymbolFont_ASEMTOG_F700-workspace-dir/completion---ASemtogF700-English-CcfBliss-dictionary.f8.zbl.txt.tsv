@@ -8,6 +8,12 @@ https://drive.google.com/drive/folders/1d26WrNzdqhywa2xEeh-XLPK4U5sI6v6w
 
 
 
+
+
+C:\Users\marti\OneDrive\vscode-f8\vscode-quickSuggestions-completi.f8.md
+	//  - matchingDocuments: Suggest words from all open documents of the same language.
+
+
 form
 
 
@@ -108,6 +114,9 @@ dictionary_📖
 vocabulary
 
 # completion slightly depends on file format  ... the filename extension
+
+edit: or rather the #language of the file in vscode
+
 # vscode *.md ... completion of words with emojis fails
 # vscode OK: *.coffee    *.edn *.tsv
 
