@@ -12132,3 +12132,4 @@ C:\pf\Git\bin\bash.exe -c 'df -m'   |clip
 Get-ChildItem "D:\umarti\Videos\Screenpresso"
 cmd /c "D:\umarti\Videos\Screenpresso"
 cmd /c dir "D:\umarti\Videos\Screenpresso"
+C:\pf\Git\bin\bash.exe -c 'df -m'   |clip

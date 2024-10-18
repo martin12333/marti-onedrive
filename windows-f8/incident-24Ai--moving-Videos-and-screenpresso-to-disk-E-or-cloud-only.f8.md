@@ -2,6 +2,15 @@ incident-24Ai--moving-Videos-and-screenpresso-to-disk-E-or-cloud-only.f8.md
 
 
 
+ create mode 100644 Videos/Captures/visual_conlangs.f8.md - OneDrive - Visual Studio Code 2024-03-14 20-18-29.mp4
+gitign--visual_conlangs.f8.md - OneDrive - Visual Studio Code 2024-03-14 20-18-29.mp4
+
+gitignore
+/Obr*/
+/Vide*/
+*.mp4
+
+
 
 "D:\umarti\Videos\Screenpresso"
 506 m
