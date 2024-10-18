@@ -774,27 +774,10 @@ du -am
 df -m
 
 
-
-
-
-
-
-
-
 Get-Process -Name *novo*
 Get-Process -Name *mode*
 Get-Process -Name *edge*
-exit
 
-
-
-
-C:\pf\Git\bin\bash.exe -c 'df -m' |findstr -i c:
-
-
-16 Dir(s)  37,975,379,968 bytes free
-PS C:\Users\marti\OneDrive> cmd /c dir c:\| findstr.exe -i free
-              16 Dir(s)  36,459,503,616 bytes free
 
 
 
@@ -806,3 +789,59 @@ C:\Users\marti\OneDrive\windows-f8\disable-Microsoft-Windows-search-index.f8.ps1
 
 
 
+bash
+ls  -d  [A-Z]*
+
+grep '^[A-Z]' <dirad  >2
+
+exit
+code 2
+
+cmd /c dir /b /ad  >dirad
+
+| findstr.exe '^[A-Z]'
+
+Attachments
+Desktop
+
+
+Diabetes_ 10 warning signs that can appear on your skin
+
+Highly-theoretical-justifications-for-having-fun
+
+Obrázky
+
+ROOT
+
+
+Swollen-Battery--li-ion
+
+
+# 24Ah
+https://onedrive.live.com/?id=4B12298D932A2860%21382&cid=4B12298D932A2860
+436
+
+# 24Ai moving Videos to cloud-only
+https://support.microsoft.com/en-us/office/back-up-your-folders-with-onedrive-d61a7930-a6fb-4b95-b28a-6552e77c3057
+"D:\umarti\Videos\Screenpresso"
+506 m
+622 m
+C:\pf\Git\bin\bash.exe -c 'df -m'   |clip
+Filesystem           1M-blocks     Used Available  Use% Mounted on
+C:/Program Files/Git    151328   132471     18858   88% /
+D:                       78056    77208       849   99% /d
+E:                       71000     2743     68258    4% /e
+F:                       20992        1     20992    1% /f
+G:                        8084     2941      5144   37% /g
+H:                       11000     2981      8020   28% /h
+U:                           1 -1024335    971891 1954% /u
+
+
+
+#
+C:\pf\Git\bin\bash.exe -c 'df -m' |findstr -i c:  |clip
+C:/Program Files/Git    151328   133695     17634   89% /
+
+cmd /c dir c:\| findstr.exe -i free | clip
+              16 Dir(s)  36,459,503,616 bytes free
+              18 Dir(s)  18,713,489,408 bytes free
