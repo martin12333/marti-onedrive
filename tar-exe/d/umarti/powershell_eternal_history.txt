@@ -12138,3 +12138,8 @@ echo echo  kill -Name  Robocopy
   kill -Name  Robocopy
 echo echo  kill -Name  Robocopy
 powershell -command Get-Process   -Name Robocopy
+bash
+cmd /c dir "D:\umarti\OneDrive--robo\Videos"
+cmd /c dir "D:\umarti\OneDrive--robo\Videos"   /s /b
+cmd /c dir "D:\umarti\OneDrive--robo\Videos"   /s /b /a
+C:\pf\Git\bin\bash.exe -c 'df -m'   |clip
