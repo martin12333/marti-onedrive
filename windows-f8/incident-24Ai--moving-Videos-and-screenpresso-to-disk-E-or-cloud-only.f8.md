@@ -20,9 +20,14 @@ gitignore
 
 
 
-"D:\umarti\Videos\Screenpresso"
+explorer "D:\umarti\Videos\Screenpresso"
 "D:\umarti\Videos
-"D:\umarti\OneDrive--robo\Videos"
+explorer "D:\umarti\OneDrive--robo\Videos"
+explorer c:\users\marti\OneDrive\Videos
+explorer "C:\Users\marti\OneDrive\Videos\Screenpresso"
+explorer C:\Users\marti\Videos
+E:\umarti\Videos
+explorer
 
 506 m
 622 m
@@ -47,10 +52,63 @@ G:                        8084     2941      5144   37% /g
 H:                       11000     2981      8020   28% /h
 U:                           1 -1024335    971891 1954% /u
 
+Filesystem           1M-blocks     Used Available  Use% Mounted on
+C:/Program Files/Git    151328   132354     18974   88% /
+D:                       78056    76619      1438   99% /d
+E:                       71000     4530     66471    7% /e
+F:                       20992        1     20992    1% /f
+G:                        8084     2941      5144   37% /g
+H:                       11000     2981      8020   28% /h
+J:                      260000    76999    183002   30% /j
+Q:                      693852    33872    659981    5% /q
+T:                      260000    76999    183002   30% /t
+U:                           1 -1024335    971891 1954% /u
+Z:                      120715   108953     11763   91% /z
+
+Filesystem           1M-blocks     Used Available  Use% Mounted on
+C:/Program Files/Git    151328   132695     18634   88% /
+D:                       78056    76619      1438   99% /d
+E:                       71000     4530     66471    7% /e
+F:                       20992        1     20992    1% /f
+G:                        8084     2941      5144   37% /g
+H:                       11000     2981      8020   28% /h
+J:                      260000    76999    183002   30% /j
+Q:                      693852    33872    659981    5% /q
+T:                      260000    76999    183002   30% /t
+U:                           1 -1024335    971891 1954% /u
+Z:                      120715   108956     11760   91% /z
+
+explorer "C:\Users\marti\OneDrive\Videos\Screenpresso"
+
+Filesystem           1M-blocks     Used Available  Use% Mounted on
+C:/Program Files/Git    151328   132231     19098   88% /
+D:                       78056    76619      1438   99% /d
+E:                       71000     4530     66471    7% /e
+F:                       20992        1     20992    1% /f
+G:                        8084     2941      5144   37% /g
+H:                       11000     2981      8020   28% /h
+J:                      260000    76999    183002   30% /j
+Q:                      693852    33872    659981    5% /q
+T:                      260000    76999    183002   30% /t
+U:                           1 -1024335    971891 1954% /u
+Z:                      120715   108956     11760   91% /z
+
+Filesystem           1M-blocks     Used Available  Use% Mounted on
+C:/Program Files/Git    151328   132135     19194   88% /
+D:                       78056    76619      1438   99% /d
+E:                       71000     4579     66422    7% /e
+F:                       20992        1     20992    1% /f
+G:                        8084     2941      5144   37% /g
+H:                       11000     2981      8020   28% /h
+J:                      260000    76999    183002   30% /j
+Q:                      693852    33872    659981    5% /q
+T:                      260000    76999    183002   30% /t
+U:                           1 -1024335    971891 1954% /u
+Z:                      120715   108957     11759   91% /z
 
 
+C:\pf\Git\bin\bash.exe -c 'df -m'   |clip
 
-todo
 
 
 

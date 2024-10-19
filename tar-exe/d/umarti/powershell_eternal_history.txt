@@ -12143,3 +12143,10 @@ cmd /c dir "D:\umarti\OneDrive--robo\Videos"
 cmd /c dir "D:\umarti\OneDrive--robo\Videos"   /s /b
 cmd /c dir "D:\umarti\OneDrive--robo\Videos"   /s /b /a
 C:\pf\Git\bin\bash.exe -c 'df -m'   |clip
+explorer "D:\umarti\Videos\Screenpresso"
+explorer "D:\umarti\OneDrive--robo\Videos"
+explorer c:\users\marti\OneDrive\Videos
+C:\pf\Git\bin\bash.exe -c 'df -m'   |clip
+explorer "C:\Users\marti\OneDrive\Videos\Screenpresso"
+explorer
+C:\pf\Git\bin\bash.exe -c 'df -m'   |clip
