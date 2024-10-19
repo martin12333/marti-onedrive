@@ -706,6 +706,22 @@ cmd /c dir D:\umarti\one*
 du D:\umarti\downloads----------------DOW-link
 explorer.exe  D:\umarti\downloads----------------DOW-link
 
+
+
+
+
+
+
+bash
+tail  -n 50  "C:\Users\marti\log\onedr.log"
+exit
+
+C:\Users\marti\OneDrive\windows-f8\cmd.f8.cmd
+
+
+
+
+
 echo '-------- section END --------'
 # robocopy /L :: List only - don't copy, timestamp or delete any files'
 

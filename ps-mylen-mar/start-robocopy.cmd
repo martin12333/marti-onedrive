@@ -1,7 +1,13 @@
 
 rem
 
+rem "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\start-robocopy.cmd - Shortcut.lnk"
+
 rem the parent of this was file:///C:\Users\marti\OneDrive\ps-mylen-mar\myrobocopy-onedrive.ps1
+
+
+rem do experiments in file:///C:\Users\marti\OneDrive\tar-exe\xcopy-robocopy--mymy.f8.ps1
+
 
 timeout.exe 60
 
@@ -38,4 +44,5 @@ start  "OneDrive" /min  /low   Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti
 timeout.exe 5
 
 
-pause
+rem pause
+
