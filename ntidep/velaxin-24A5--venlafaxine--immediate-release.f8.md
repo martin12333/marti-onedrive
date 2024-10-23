@@ -1,16 +1,51 @@
-#issue		 #velaxin - #24A5          #aaaaA
-	 #venlafaxine #immediaterelease
+
+
+- [##### \*\*\*\*\*  Because its half-life is so short, immediate-release venlafaxine is taken 2 or 3 times a day.](#---because-its-half-life-is-so-short-immediate-release-venlafaxine-is-taken-2-or-3-times-a-day)
+- [google-Keep](#google-keep)
+- [google-photos](#google-photos)
+- [https://pacient.erecept.sukl.cz/suklweb/Pacient/ErpPredpisy/DetailReceptu?idDokladu=PM84POM............](#httpspacientereceptsuklczsuklwebpacienterppredpisydetailreceptuiddokladupm84pom)
+- [e-mail](#e-mail)
+- [Domnívám se, že jsou to tablety s **okamžitým** uvolňováním.](#domnívám-se-že-jsou-to-tablety-s-okamžitým-uvolňováním)
+- [Nejsem si jistý, na jaké dílčí dávky mám tu tabletu rozdělit](#nejsem-si-jistý-na-jaké-dílčí-dávky-mám-tu-tabletu-rozdělit)
+- [zároveň beru Mirzaten 0 - 0 - 0 - 1/4](#zároveň-beru-mirzaten-0---0---0---14)
+- [a další potenciální problém: tablety obsahují laktosu](#a-další-potenciální-problém-tablety-obsahují-laktosu)
+- [https://prehledy.sukl.cz/prehled\_leciv.html#/leciva/0023817](#httpsprehledysuklczprehled_lecivhtmlleciva0023817)
+	- [PIL - Příbalová informace](#pil---příbalová-informace)
+	- [SmPC - Souhrn údajů o přípravku](#smpc---souhrn-údajů-o-přípravku)
+- [https://prehledy.sukl.cz/prehled\_leciv.html#/leciva/0120369](#httpsprehledysuklczprehled_lecivhtmlleciva0120369)
+- [https://www.lekinfo.cz/medicine/0023817-velaxin-75mg-tbl-nob-56-4x14](#httpswwwlekinfoczmedicine0023817-velaxin-75mg-tbl-nob-56-4x14)
+- [https://www.lekinfo.cz/downloads/PI210176.pdf](#httpswwwlekinfoczdownloadspi210176pdf)
+- [https://www.lekinfo.cz/downloads/SPC210177.pdf](#httpswwwlekinfoczdownloadsspc210177pdf)
+		- [\*\*\* Rychlí/pomalí metabolizátoři CYP2D6](#-rychlípomalí-metabolizátoři-cyp2d6)
+- [Reg. číslo: 30/515/07-C Kód SÚKL: 0120369](#reg-číslo-3051507-c-kód-súkl-0120369)
+- [https://www.lekinfo.cz/medicine/0246027-argofan-75mg-tbl-pro-30-2x15](#httpswwwlekinfoczmedicine0246027-argofan-75mg-tbl-pro-30-2x15)
+- [venlafaxine immediate release vs extended release reddit](#venlafaxine-immediate-release-vs-extended-release-reddit)
+- [graphs of the plasma concentration for both immediate release and extended release](#graphs-of-the-plasma-concentration-for-both-immediate-release-and-extended-release)
+- [ai ref](#ai-ref)
+- [ai](#ai)
+
+
+
+# issue		 #velaxin - #24A5          #aaaaA	 #venlafaxine #immediaterelease
+
 ***
-////udela hrule *** na zac radky
+### maybe todo write '#####': similar meaning to '***' in my notes
+### maybe todo write '####': similar meaning to '****' in my notes
+### maybe todo write '###': similar meaning to '*****' in my notes
+### maybe todo write '## ###': similar meaning to '*****.*' in my notes
+### maybe todo write '# ###': similar meaning to '*****.**' in my notes
+
+
+### //// *** udela hrule  na zac radky
 
 Subject: 
-"venlafaxinu s okamžitým uvolňováním"
+# "venlafaxinu s okamžitým uvolňováním"
 
 "venlafaxinu s prodlouženým uvolňováním"
 s prodlouženým uvolňováním
 s okamžitým uvolňováním
 
-# ##### *****  Because its half-life is so short, immediate-release venlafaxine is taken 2 or 3 times a day.
+# ### *****  Because its half-life is so short, immediate-release venlafaxine is taken 2 or 3 times a day.
 site:survivingantidepressants.org venlafaxine immediate release vs extended release
 site:survivingantidepressants.org  immediate release vs extended release
 
@@ -19,6 +54,16 @@ https://www.survivingantidepressants.org/forums/topic/272-tips-for-tapering-off-
 
 
 Because its half-life is so short, immediate-release venlafaxine is taken 2 or 3 times a day.
+
+
+
+# wikipedia
+https://en.wikipedia.org/wiki/Venlafaxine
+https://en.wikipedia.org/wiki/des venlafaxine
+https://en.wikipedia.org/wiki/o-des venlafaxine
+https://en.wikipedia.org/wiki/venlafaxine#Pharmacokinetics
+
+
 
 
 
@@ -35,6 +80,17 @@ private, #aaaa, nemocnice, KPZ, CORE, Shipko
 #velaxin #24A5         
 https://photos.google.com/album/AF1QipNXbDLMCjyVG6AwQQlsdTgDL9PW40yDRZ0zIcM1
 
+
+https://photos.google.com/share/AF1QipMG2V7-eeCJPT1XeKLQoxa_3Xhz4cSgeHjp5hES5F_20SMSMLWl6qemO1G7eKK_gw?key=Z3hqR1R4NTNqbGNubnZVZEk2cUNrRG1oVzZBYnNB
+
+
+
+Prescribed medications:
+OLWEXYA 75 MG CPS PRO 28
+Dosage: 1-0-0 (one capsule in the morning)
+MIRZATEN ORO TAB 15 MG POR TBL DIS 30
+Dosage: 0-0-1/4 (quarter tablet at night)
+Date: 06.03.2019
 
 
 
@@ -54,7 +110,7 @@ Návod:	0-0-1
 
 # e-mail
 
-file:///C:\Users\marti\OneDrive\ntidep\
+/// file:///C:\Users\marti\OneDrive\ntidep\
 
 
 
@@ -187,7 +243,7 @@ Užívejte Velaxin každý den přibližně ve stejnou denní dobu, ráno a več
 ## SmPC - Souhrn údajů o přípravku
 file_download
 
-Sp. zn. sukls75287/2024, sukls75308/2024 
+##### Sp. zn. sukls75287/2024, sukls75308/2024 
   
 SOUHRN ÚDAJŮ O PŘÍPRAVKU 
   
@@ -244,7 +300,7 @@ Platnost od
 https://prehledy.sukl.cz/prehled_leciv.html#/detail-reg/0120369
 
 28 trending_down Připravky s omezenou dostupností na českém trhu.
-30 ukonceno --> nahrada: 0120369
+##### 30 ukonceno --> nahrada: 0120369
 
 
 
@@ -272,7 +328,7 @@ Léková forma
 
 # https://www.lekinfo.cz/downloads/PI210176.pdf
 
-Sp. zn. sukls75287/2024, sukls75308/2024
+##### Sp. zn. sukls75287/2024, sukls75308/2024
 
 
 Velaxin obsahuje laktosu a sodík
@@ -302,36 +358,43 @@ Doporučenou počáteční dávkou venlafaxinu s okamžitým uvolňováním je 7
 
 Absorpce
 Po jednotlivé perorální dávce je nejméně 92 % venlafaxinu s okamžitým uvolňováním absorbováno.
-Vzhledem k metabolismu venlafaxinu v předsystémové oblasti je absolutní biologická dostupnost
-venlafaxinu 40 % až 45 %. Po podání venlafaxinu s okamžitým uvolňováním se dosáhne maximální
-plazmatické koncentrace venlafaxinu do 2 hodin a ODV do 3 hodin. Po podání tobolek venlafaxinu
-s prodlouženým uvolňováním se dosáhne maximální plazmatické koncentrace venlafaxinu do 5,5 hodin a 
-ODV do 9 hodin. Pokud se podají stejné denní dávky venlafaxinu ve formě tablet s okamžitým
+Vzhledem k metabolismu venlafaxinu v předsystémové oblasti je 
+absolutní biologická dostupnost venlafaxinu 40 % až 45 %.
+
+ ### Po podání venlafaxinu s okamžitým uvolňováním se dosáhne maximální plazmatické koncentrace venlafaxinu do 2 hodin a ODV do 3 hodin. 
+
+### Po podání tobolek venlafaxinu s prodlouženým uvolňováním se dosáhne maximální plazmatické koncentrace venlafaxinu do 5,5 hodin a  ODV do 9 hodin. 
+
+Pokud se podají stejné denní dávky venlafaxinu ve formě tablet s okamžitým
 uvolňováním nebo jako tobolky s prodlouženým uvolňováním, tobolky s prodlouženým uvolňováním mají 
 pomalejší absorpci, ale stejný rozsah absorpce jako tablety s okamžitým uvolňováním. Potrava
 neovlivňuje biologickou dostupnost venlafaxinu ani ODV
 
 
 Biotransformace
-Venlafaxin prochází rozsáhlou metabolickou přeměnu v játrech. Studie in vitro a in vivo prokázaly, že
-venlafaxin je biotransformován na svůj hlavní metabolit ODV prostřednictvím CYP2D6. Studie in vitro a 
+
+### Venlafaxin prochází rozsáhlou metabolickou přeměnu v játrech. Studie in vitro a in vivo prokázaly, že venlafaxin je biotransformován na svůj hlavní metabolit ODV prostřednictvím CYP2D6. 
+
+Studie in vitro a 
 Strana 16 (celkem 18)
 in vivo prokázaly, že venlafaxin je metabolizován na svůj vedlejší, méně účinný metabolit Ndesmethylvenlafaxin prostřednictvím CYP3A4. Studie in vitro ukazují, že venlafaxin je slabým
 inhibitorem CYP2D6. Venlafaxin neinhibuje CYP1A2, CYP2C9 ani CYP3A4
 
 
 Eliminace
-Venlafaxin a jeho metabolity jsou vylučovány převážně ledvinami. Do 48 hodin se přibližně 87 % dávky 
-venlafaxinu vyloučí močí, a to jako nezměněný venlafaxin (5 %), nekonjugovaný ODV (29 %),
-konjugovaný ODV (26 %) nebo jako další vedlejší neúčinné metabolity (27 %). Střední plazmatická
+Venlafaxin a jeho metabolity jsou vylučovány převážně ledvinami. 
+
+##### Do 48 hodin se přibližně 87 % dávky venlafaxinu vyloučí močí, a to jako nezměněný venlafaxin (5 %), nekonjugovaný ODV (29 %),
+konjugovaný ODV (26 %) nebo jako další vedlejší neúčinné metabolity (27 %).
+
+ Střední plazmatická
 clearance ±SD venlafaxinu je 1,3 ±0,6 l/hod/kg a ODV je 0,4 ±0,2 l/hod/kg.
 
 
 ### *** Rychlí/pomalí metabolizátoři CYP2D6
 
 Pomalí metabolizátoři CYP2D6 mají vyšší plazmatické koncentrace venlafaxinu než rychlí metabolizátoři. 
-Protože však celková expozice (AUC) venlafaxinu a ODV je u pomalých a rychlých metabolizátorů 
-podobná, není pro tyto dvě skupiny třeba dvou rozdílných dávkovacích režimů
+### Protože však celková expozice (AUC) venlafaxinu a ODV je u pomalých a rychlých metabolizátorů  podobná, není pro tyto dvě skupiny třeba dvou rozdílných dávkovacích režimů
 
 
 Porucha funkce jater
@@ -376,7 +439,7 @@ Léková forma
 
 # venlafaxine immediate release vs extended release reddit
 
-Elimination: The elimination half-life of venlafaxine varies depending on the formulation and is approximately 5±2 hours for immediate-release, 6.8±1.6 hours for extended-release besylate, and 10.7±3.2 hours for extended-release hydrochloride.Feb 26, 2024
+### Elimination: The elimination half-life of venlafaxine varies depending on the formulation and is approximately 5±2 hours for immediate-release, 6.8±1.6 hours for extended-release besylate, and 10.7±3.2 hours for extended-release hydrochloride.Feb 26, 2024
 
 
 
@@ -402,6 +465,12 @@ a table of the pharmacokinetic parameters of venlafaxine immediate release
 venlafaxine IR vs ER
 
 
+Effexor XR vs Effexor IR ... graph of the plasma concentration
+
+a table of the pharmacokinetic parameters of Effexor XR and Effexor IR
+
+
+
 
 
 
@@ -411,10 +480,10 @@ venlafaxine IR vs ER
 # ai ref
 
 
-Administration of Effexor XR (150 mg q24 hours) generally resulted in lower Cmax (150 ng/mL for venlafaxine and 260 ng/mL for 
-ODV) and later Tmax (5.5 hours for venlafaxine and 9 hours for ODV) than for Effexor (immediate release) [Cmax's for immediate 
-release 75 mg q12 hours were 225 ng/mL for venlafaxine and 290 ng/mL for ODV; Tmax's were 2 hours for venlafaxine and 3 hours 
-for ODV]. When equal daily doses of venlafaxine were administered as either an immediate release tablet or the extended-release 
+### Administration of Effexor XR (150 mg q24 hours) generally resulted in lower Cmax (150 ng/mL for venlafaxine and 260 ng/mL for  ODV) and later Tmax (5.5 hours for venlafaxine and 9 hours for ODV) 
+### than for Effexor (immediate release) [Cmax's for immediate  release 75 mg q12 hours were 225 ng/mL for venlafaxine and 290 ng/mL for ODV; Tmax's were 2 hours for venlafaxine and 3 hours  for ODV]. 
+
+When equal daily doses of venlafaxine were administered as either an immediate release tablet or the extended-release 
 capsule, the exposure to both venlafaxine and ODV was similar for the two treatments, and the fluctuation in plasma concentrations 
 was slightly lower with the Effexor XR capsule. Effexor XR, therefore, provides a slower rate of absorption, but the same extent of 
 absorption compared with the immediate release tablet.
