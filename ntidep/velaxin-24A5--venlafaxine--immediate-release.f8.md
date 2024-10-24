@@ -27,6 +27,7 @@
 
 
 # issue		 #velaxin - #24A5          #aaaaA	 #venlafaxine #immediaterelease
+egimens of (R)-(–)-O-desmethylvenlafaxine and racemic O-desmethylvenlafaxine
 
 ***
 ### maybe todo write '#####': similar meaning to '***' in my notes
@@ -48,21 +49,14 @@ s okamžitým uvolňováním
 # ### *****  Because its half-life is so short, immediate-release venlafaxine is taken 2 or 3 times a day.
 site:survivingantidepressants.org venlafaxine immediate release vs extended release
 site:survivingantidepressants.org  immediate release vs extended release
+site:survivingantidepressants.org effexor immediate release vs extended release
+https://www.survivingantidepressants.org/forums/topic/6036-why-taper-sert-transporter-occupancy-studies-show-importance-of-gradual-change-in-plasma-concentration/
 
 https://www.survivingantidepressants.org/forums/topic/272-tips-for-tapering-off-effexor-and-effexor-xr-venlafaxine/
 https://www.survivingantidepressants.org/forums/topic/272-tips-for-tapering-off-effexor-and-effexor-xr-venlafaxine/page/11/
 
 
 Because its half-life is so short, immediate-release venlafaxine is taken 2 or 3 times a day.
-
-
-
-# wikipedia
-https://en.wikipedia.org/wiki/Venlafaxine
-https://en.wikipedia.org/wiki/des venlafaxine
-https://en.wikipedia.org/wiki/o-des venlafaxine
-https://en.wikipedia.org/wiki/venlafaxine#Pharmacokinetics
-
 
 
 
@@ -350,6 +344,29 @@ obsahující 25 mg venlafaxinu
 
 google-search
 Doporučenou počáteční dávkou venlafaxinu s okamžitým uvolňováním je 75 mg za den ve dvou nebo třech dílčích dávkách užívaných s jídlem.
+
+
+
+
+
+
+# wikipedia
+https://en.wikipedia.org/wiki/Venlafaxine
+https://en.wikipedia.org/wiki/des venlafaxine
+https://en.wikipedia.org/wiki/o-des venlafaxine
+https://en.wikipedia.org/wiki/venlafaxine#Pharmacokinetics
+
+
+-desmethylvenlafaxine (ODV), see desvenlafaxine
+### Elimination half-life	5±2 h (parent compound for immediate release preparations), 15±6 h (parent compound for extended release preparations), 11±2 h (active metabolite)[2][6]
+
+Venlafaxine is well absorbed, with at least 92% of an oral dose being absorbed into systemic circulation. It is extensively metabolized in the liver via the CYP2D6 isoenzyme to 
+
+### desvenlafaxine (O-desmethylvenlafaxine, now marketed as a separate medication named Pristiq[84]), which is just as potent an SNRI as the parent compound, meaning that the differences in metabolism between extensive and poor metabolisers are not clinically important in terms of efficacy. Side effects, however, are reported to be more severe in CYP2D6 poor metabolisers.[85][86]
+
+
+ Steady-state concentrations of venlafaxine and its metabolite are attained in the blood within 3 days. Therapeutic effects are usually achieved within 3 to 4 weeks. No accumulation of venlafaxine has been observed during chronic administration in healthy subjects. The primary route of excretion of venlafaxine and its metabolites is via the kidneys.[6] The half-life of venlafaxine is relatively short, so patients are directed to adhere to a strict medication routine, avoiding missing a dose. Even a single missed dose can result in withdrawal symptoms.[87]
+
 
 
 
