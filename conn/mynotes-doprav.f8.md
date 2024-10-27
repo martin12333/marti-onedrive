@@ -94,6 +94,10 @@ https://chat.google.com/dm/5Jf9bgAAAAE/sy3XglmFZ2A/sy3XglmFZ2A?cls=10
 
 na Anděl, tam už jistě nějaké tričko seženu, když ne v C&A, tak Tescu, H&M
 
+
+
+
+
 code conn\writing22.md
 
 <p>Tentokrát Brumbál vypadal poměrně vážně, jeho obvyklý úsměv chyběl a byl oblečen v pyžamu tmavší a střízlivější barvy než obvykle.</span></p>

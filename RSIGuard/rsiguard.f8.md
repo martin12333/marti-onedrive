@@ -1,5 +1,8 @@
 exit
 
+# totalcmd.exe  backup
+c:\Users\marti\AppData\Roaming\RSIGuard\marti-HiRes.txt
+c:\Users\marti\AppData\Roaming\RSIGuard\
 
 cmd /c dir c:\Users\marti\AppData\Roaming\RSIGuard\
 
@@ -7,6 +10,18 @@ cat "C:\Users\marti\AppData\Roaming\RSIGuard\marti-HiRes.txt"
 
 "C:\Users\marti\OneDrive\RSIGuard\eXISTS APPDATA  ROAM\marti-HiRes.txt.csv"
 
+# https://rsiguard.com/productsupport/ 
+
+https://rsiguard.com/documents/help/BreakTimerAnalysis.pdf
+
+## https://rsiguard.com/support/faqs.htm#dl-backup
+
+If your DataLogger data is on a computer without a network, and you are simply switching from one computer to another, you will need to copy the data (and optionally copy/backup your RSIGuard settings as well) from the old computer to the new one. Follow these steps:
+
+Get a blank floppy diskette for your A: drive.
+On your old computer, click on "Tools", "DataLogger Usage Statistics", "Export DataLogger Data to Floppy". RSIGuard will copy your data to the floppy disk.
+On the new computer, insert the floppy disk in the A: drive.
+Click on "Tools", "DataLogger Usage Statistics", "Import DataLogger Data from Floppy". RSIGuard will copy your data from the floppy disk. Remove the disk from the A: drive.
 
 
 
