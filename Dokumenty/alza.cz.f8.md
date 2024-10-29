@@ -15,10 +15,38 @@ https://www.alza.cz/bluetooth-lokatory/18860773.htm
 
 
 
-# sleep bryle
+# sleep bryle, oranžová zarovka
 
 https://www.alza.cz/uvtech-sleep-4b-bryle-blokujici-modre-svetlo-cervene-d12557702.htm
 
+
+# pamatuj
+
+zachrana od zvuku
+https://www.alza.cz/premiumcord-kabel-jack-3-5mm-2xcinch-f-m-20cm-d5242237.htm
+
+
+# experiment 24Ar 24As
+
+Zboží povezeme z více skladů. Abychom doručení nezdržovali, rozdělíme nákup na víc zásilek, které Vám dorazí postupně.
+
+Doprava a platba | Alza.cz
+https://www.alza.cz/Order2.htm
+
+Highlights & Notes
+- Zásilku přivezeme nejvýhodnějším dopravcem až k vám domů. Volíme mezi dopravci AlzaExpres, Česká pošta, DPD, WE|DO, PPL a Messenger.
+
+Zboží povezeme z více skladů, jak chcete zboží doručit?
+
+Doručit co nejrychleji
+Každý sklad vám ihned odešle část nákupu
+Nákup vám dorazí po částech
+Dopravné může být účtováno za každou část
+
+Doručit najednou
+Nákup zkompletujeme a doručíme najednou
+Platíte jednu dopravu
+Termín doručení může být delší
 
 # gkeep-23
 
