@@ -1,6 +1,10 @@
-email.seznam.cz.f8.md
 
 
+.....@..
+(EDIT)
+C:\Users\marti\OneDrive\google.com--mail\mail.google.com.f8.md
+
+[EDIT]
 @
 0slovogmail
 
