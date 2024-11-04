@@ -1,4 +1,27 @@
 
+
+# martidate is like rickdate but yymd, yy base 10
+# experiment ... #hashtags that are all numbers
+
+#2491  foam failed
+#2491_  foam ok
+#2491x  foam ok
+#2491y  foam ok
+
+[[2491]]
+[[249c]]
+[[24A5]]
+[[24B2]]
+[[24B4]]
+[[2491]]
+
+[[241005]]
+"C:\Users\marti\OneDrive\Obrázky\Camera Roll\Screenshot_20241005-102342_Google.jpg"
+[[241005]]
+
+#24A5
+#24B2
+
 # martidate is like rickdate but yymd, yy base 10
 martidate    Dyddiad	Rickdate	EPOC
 7011    1st of January 1970	1iq11	0

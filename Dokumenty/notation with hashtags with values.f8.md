@@ -16,3 +16,5 @@ Other cool features that would be nice: structure extraction (i.e., msg myself `
 
 
 
+Just want to add that in addition to alphanumeric characters and underscore, you can apparently use em dash in a Twitter hashtag like #COVIDー19.
+
