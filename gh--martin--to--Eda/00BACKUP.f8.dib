@@ -24,6 +24,17 @@ Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive   /e    /XJ     /XD Obr*  
 #  /nfl  /ndl
 ## \BACKUP-DONTEDIT-000doc24
 
+#!markdown
+
+falsealarm some. contain "older"
+
+ older		     715	000doc24 - Shortcut.lnk
+
+
+	      modified		    4334	vitamins and minerals rda for older male.f8.md
+	      modified		    1530	windows-move-doc-folder-248u.f8.ps1
+	         older		      46	experim-wrong-edit.f8.md
+
 #!pwsh
 
 cd ~/OneDrive
