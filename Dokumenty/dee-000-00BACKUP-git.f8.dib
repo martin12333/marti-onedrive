@@ -15,7 +15,7 @@ Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive   /e    /XJ     /XD Obr*  
 
 #!value
 
-falsealarm some. contain "older"
+falsealarm some filenames contain "older"
 
 
  Log File : C:\Users\marti\log\doc24.log

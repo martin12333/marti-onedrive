@@ -26,7 +26,7 @@ Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive   /e    /XJ     /XD Obr*  
 
 #!markdown
 
-falsealarm some. contain "older"
+falsealarm some filenames contain "older"
 
  older		     715	000doc24 - Shortcut.lnk
 
