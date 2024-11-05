@@ -1,5 +1,17 @@
 
 
+# experiment
+
+[[241005]]
+//// [[Screenshot_20241005-102342_Google.jpg]]
+//// "C:\Users\marti\OneDrive\Obrázky\Camera Roll\Screenshot_20241005-102342_Google.jpg"
+[[20241009_175323.jpg]]
+[[2024100]]
+![alt text](../Obrázky/Screenpresso/2024-10-19_00h21_35.png)
+
+
+
+
 - [##### \*\*\*\*\*  Because its half-life is so short, immediate-release venlafaxine is taken 2 or 3 times a day.](#---because-its-half-life-is-so-short-immediate-release-venlafaxine-is-taken-2-or-3-times-a-day)
 - [google-Keep](#google-keep)
 - [google-photos](#google-photos)
