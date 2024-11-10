@@ -2,6 +2,7 @@
 
 # experiment
 
+/////////////[Screenshot_20241005]
 [[241005]]
 //// [[Screenshot_20241005-102342_Google.jpg]]
 //// "C:\Users\marti\OneDrive\Obrázky\Camera Roll\Screenshot_20241005-102342_Google.jpg"
@@ -9,6 +10,13 @@
 [[2024100]]
 ![alt text](../Obrázky/Screenpresso/2024-10-19_00h21_35.png)
 
+[[Praha_Top.....NX1TL.pdf]]
+
+[[Antidepressants-and-Non24Hour-Sleep-Disorder (17).xlsx]]
+[[nefoam-antidepresiva-slovnik-2021.f8]]
+- Mylan [[8563244-zdravotni-potize-dospelych-antidepresiva-a-neurol.jpg]]
+[[note-properties]]
+[[antidep]]
 
 
 

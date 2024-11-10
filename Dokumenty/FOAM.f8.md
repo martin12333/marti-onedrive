@@ -32,4 +32,17 @@ file:///C:\Users\marti\OneDrive\antidepresiva-slovnik-2021\docs\features\tags-an
 
 
 
+# experiment
+
+/////////////[Screenshot_20241005]
+[[241005]]
+//// [[Screenshot_20241005-102342_Google.jpg]]
+//// "C:\Users\marti\OneDrive\Obrázky\Camera Roll\Screenshot_20241005-102342_Google.jpg"
+[[20241009_175323.jpg]]
+[[2024100]]
+![alt text](../Obrázky/Screenpresso/2024-10-19_00h21_35.png)
+
+[[Praha_Top.....NX1TL.pdf]]
+
+/// [[2024-08-12_16h23_54.png]]
 
