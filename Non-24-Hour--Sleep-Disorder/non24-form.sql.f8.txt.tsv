@@ -6,6 +6,9 @@
 24bc
 # 	measure myvypadek
 
+https://www.reddit.com/user/martin_m_n_novy/m/ntools_non24/
+
+
 an android app, with AI, for symptom-tracking at home
 an android app, with AI, for sleep and nap symptom-tracking at home, pricing
 an android app, with AI, for elderly care at home, sleep and nap symptom-tracking at home, pricing
@@ -48,6 +51,9 @@ alexa to log events
 bixby to log events
 tasker to log events
 
+https://llamalab.com/automate/doc/block/log_append.html
+
+
 possibilities for tracking time spent in bed
 possibilities for logging when the room is dark
 bixby routine to log when the room is dark
@@ -68,10 +74,34 @@ track time spent in bed with an android app site:www.reddit.com
 
 
 
+Question: what are the possibilities, for a user, to invoke an arbitrary android intent, from a google assistant routine
+
+answer: use tasker, or automate, or IFTTT, or google assistant routines, or bixby routines, or alexa routines, or google assistant shortcuts, or google assistant actions
+
+Question: what do you mean by "automate" in the context of your previous answer
+
+answer: automate is an android app that allows you to create custom android intents, and to invoke them from a google assistant routine
+
+Question: is the automate app available on the google play store
+
+answer: yes, the automate app is available on the google play store
+
+ntools
+
+Question:  bixby routines can be used to invoke an arbitrary android intent ... how ??
+
+answer: bixby routines can be used to invoke an arbitrary android intent by creating a custom bixby routine, and adding an action to invoke the android intent
+
+
+
+
+
+towardsdatascience.com
+How to create your personal habit tracker on google assistant
 
 Question: possibilities to manually track the time spent in bed using google-assistant
 
-
+answer:
 
 
 
