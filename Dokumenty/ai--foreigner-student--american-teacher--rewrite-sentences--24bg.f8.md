@@ -25,6 +25,8 @@ recently, a change in my medication has made me sleep more much more than usual
 
 ## Rewritten text
 
+Recently, a change in my medication has made me sleep much more than usual.
+
 
 
 
@@ -38,6 +40,45 @@ I decided, maybe I could start trying some Android apps to track the time, that 
 
 I thought I could try using some Android apps to track the time I spend sleeping, napping, or resting.
 
+## Original text
+
+a complication is that I have a non-24-hour sleep disorder
+
+## Rewritten text
+
+A complication is that I have a non-24-hour sleep disorder.
+
+## Original text
+
+i found a very helpful reddit post, that discusses the Pros and Cons of various apps
+
+## Rewritten text
+
+I found a very helpful Reddit post that discusses the pros and cons of various apps.
+
+## Original text
 
 
+# todo
 
+One-touch tracking for sleep
+
+I'm a data nerd and enjoy having information and looking at trends.
+
+https://www.reddit.com/user/martin_m_n_novy/m/ntools_non24/
+
+# maybe 
+
+a discord server for people with non-24-hour sleep disorder
+	my old post there
+
+How-do-I-change-the-day-s-start-and-end-times
+
+how could I measure, track my sleep disorder symptoms, the sum of nap times
+
+ ... compare my dad's sleep disorder ... nocturia
+
+# old 
+
+non24 net parental 3 sleep antidepressant dontkillmyapp quantified.self QS smart tracking tracker RSI 24bf
+Pros and Cons of Apps

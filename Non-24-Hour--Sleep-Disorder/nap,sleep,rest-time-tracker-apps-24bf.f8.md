@@ -20,7 +20,7 @@ Pros and Cons of Apps
 	ai--foreigner-student--american-teacher--rewrite-sentences--24bg.f8.md
 ]]
 
- https://www.reddit.com/user/martin_m_n_novy/m/ntools_non24/
+https://www.reddit.com/user/martin_m_n_novy/m/ntools_non24/
 
 todo edit
 https://www.reddit.com/r/parenting/comments/9z1z1v/is_there_an_app_that_tracks_baby_naps/
@@ -35,7 +35,7 @@ https://cz.pinterest.com/martinnovy/naptime-tracker-24bf/
 24bc
 
 
-# my reddit post
+# my new reddit post 24b
 
 
 
@@ -71,13 +71,13 @@ Enable unrestricted battery use
 
 
 
+# https://huckleberrycare.com/blog/baby-sleep-schedule-by-age-nap-and-sleep-chart
 
 Age	Average total sleep	Number of naps	Goal daytime sleep	Wake windows
 <1 month	16 - 17 hours	Varies	Varies	30 - 90 mins
 1 week	16 - 17 hours	Varies	Varies	30 - 90 mins
 2 week	16 - 17 hours	Varies	Varies	30 - 90 mins
 3 week	16 - 17 hours	Varies	Varies	30 - 90 mins
-https://huckleberrycare.com/blog/baby-sleep-schedule-by-age-nap-and-sleep-chart
 
 7 week	16 - 17 hours	Varies	Varies	30 - 90 mins
 2 month	15.5 hours	4 - 5	5 - 6 hours	45 mins - 1.75 hours
@@ -129,16 +129,9 @@ Age	Average total sleep	Number of naps	Goal daytime sleep	Wake windows
 5 years	11.5 - 12 hours	0 (opt for early bedtime)	N/A	12 - 12.5 hours
 
 
-
-
-
-
-
-
-
+# ...............
 
 napper app
-
 
 how could I measure, track my sleep disorder symptoms, the sum of nap times
  ... compare my dad's sleep disorder ... nocturia
