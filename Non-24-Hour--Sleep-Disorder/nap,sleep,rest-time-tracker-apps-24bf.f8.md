@@ -1,9 +1,12 @@
 
-# 	nap,time-tracker-24bf
-nap,sleep,rest-time-tracker-apps-24bf.f8.md
 
 
-## 	measure myvypadek
+[[pros-and-cons-of-apps.f8]]
+
+# 	measure myvypadek
+
+# Pros and Cons of Apps
+
 24bc
 
 https://www.reddit.com/user/martin_m_n_novy/m/ntools_non24/
