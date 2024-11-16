@@ -1,15 +1,47 @@
 
 
 
+- [links](#links)
+- [my reddit post](#my-reddit-post)
+- [measure myvypadek](#measure-myvypadek)
+- [Pros and Cons of Apps](#pros-and-cons-of-apps)
+	- [assistant](#assistant)
+
+# keywords
+
+nap, sleep, rest time tracker apps
+non24 net parental 3 sleep antidepressant dontkillmyapp quantified.self QS smart tracking tracker RSI 24bf
+Pros and Cons of Apps
+
+
+
+# links
+[[
+	ai--foreigner-student--american-teacher--rewrite-sentences--24bg.f8.md
+]]
+
+ https://www.reddit.com/user/martin_m_n_novy/m/ntools_non24/
+
+todo edit
+https://www.reddit.com/r/parenting/comments/9z1z1v/is_there_an_app_that_tracks_baby_naps/
+
 [[pros-and-cons-of-apps.f8]]
 
+https://photos.google.com/album/AF1QipMByFswDHfei7FTlDUeFIQDhEJ4BFAf6VMPeGp3
+
+https://cz.pinterest.com/martinnovy/naptime-tracker-24bf/
+
 # 	measure myvypadek
+24bc
+
+
+# my reddit post
+
+
 
 # Pros and Cons of Apps
 
-24bc
 
-https://www.reddit.com/user/martin_m_n_novy/m/ntools_non24/
 
 
 an android app, with AI, for symptom-tracking at home
