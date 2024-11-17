@@ -31,7 +31,7 @@ How can I track the time I spend in bed sleeping, napping, or resting?
 ## old 
 
 
-# definitions 
+# wikipedia pages and glossary
 
 // by ai, not checked by a native speaker
 
@@ -42,4 +42,8 @@ keyword: a word that is used to find information about a particular subject on t
 glossary: a list of words and their meanings, especially in a book
 
 gloss: a phrase that is used to explain the meaning of a word or phrase
+
+# Reddit subreddits
+
+
 

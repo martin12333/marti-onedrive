@@ -34,7 +34,7 @@ non24 sleep antidepressant dontkillmyapp quantified.self QS smart tracking track
 Pros and Cons of Apps
 actigraphy
 
-# definitions 
+# wikipedia pages and glossary
 
 // by ai, not checked by a native speaker
 
@@ -91,7 +91,7 @@ tracker: a device or software used to monitor and record data
 time tracking: the process of recording the amount of time spent on a particular activity
 
 
-
+# Reddit subreddits
 
 
 # Rewrite sentences
