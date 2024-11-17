@@ -7,12 +7,6 @@
 - [Pros and Cons of Apps](#pros-and-cons-of-apps)
 	- [assistant](#assistant)
 
-# keywords
-
-nap, sleep, rest time tracker apps
-non24 net parental 3 sleep antidepressant dontkillmyapp quantified.self QS smart tracking tracker RSI 24bf
-Pros and Cons of Apps
-
 
 
 # links
@@ -30,6 +24,164 @@ https://www.reddit.com/r/parenting/comments/9z1z1v/is_there_an_app_that_tracks_b
 https://photos.google.com/album/AF1QipMByFswDHfei7FTlDUeFIQDhEJ4BFAf6VMPeGp3
 
 https://cz.pinterest.com/martinnovy/naptime-tracker-24bf/
+
+
+
+# keywords
+
+nap, sleep, rest time tracker apps
+non24 sleep antidepressant dontkillmyapp quantified.self QS smart tracking tracker 24bf
+Pros and Cons of Apps
+actigraphy
+
+# definitions 
+
+// by ai, not checked by a native speaker
+
+actigraphy: a method of monitoring human rest/activity cycles
+https://en.wikipedia.org/wiki/Actigraphy
+
+
+https://en.wikipedia.org/wiki/Postprandial_somnolence
+
+post-lunch dip: a natural decrease in energy levels that occurs after eating lunch
+
+Postprandial somnolence (colloquially known as food coma, after-dinner dip, or "the itis") is a normal state of drowsiness or lassitude following a meal 
+> The exact cause of postprandial somnolence is unknown but there are some scientific hypotheses
+https://en.wikipedia.org/wiki/Sugar_high
+
+siesta: a short nap taken in the early afternoon, often after the midday meal // 
+https://en.wikipedia.org/wiki/File:Business_hours_Greece.JPG
+9-13 17-21
+// Egypt 6 days 6 hours
+
+inactivity: lack of physical or mental energy
+// my misunderstanding ? #aaa
+
+lying (position): be in or assume a horizontal or resting position on a supporting surface
+https://en.wikipedia.org/wiki/Lying_(position)
+
+nap: a short sleep, especially during the day
+
+non-24-hour sleep-wake disorder: a circadian rhythm disorder that affects the sleep-wake cycle
+
+data nerd: a person who is passionate about collecting, analyzing, and interpreting data
+
+nocturia: excessive urination at night
+
+quantified.self: a movement focused on self-tracking and self-improvement through data analysis
+
+QS: an abbreviation for quantified self
+
+rest: cease work or movement in order to relax, refresh oneself, or recover strength
+
+// not
+bed rest: a medical treatment in which a person has to stay in bed for a period of time
+// my misunderstanding #aaa
+
+// not
+sleep hygiene
+
+> However, as of 2021, the empirical evidence for the effectiveness of sleep hygiene is "limited and inconclusive" for the general population[2] and for the treatment of insomnia,[3] despite being the oldest treatment for insomnia.[3] A systematic review by the American Academy of Sleep Medicine concluded that clinicians should not prescribe sleep hygiene for insomnia due to the evidence of absence of its efficacy and potential delaying of adequate treatment, recommending instead that effective therapies such as cognitive behavioral therapy for insomnia should be preferred.[3]
+
+smart tracking: the use of technology to monitor and analyze data related to health and wellness
+
+tracker: a device or software used to monitor and record data
+
+time tracking: the process of recording the amount of time spent on a particular activity
+
+
+
+
+
+# Rewrite sentences
+
+A foreigner student wrote some text for a Facebook post.
+An American teacher is helping the student to rewrite the text in full sentences, and to make them sound more natural.
+
+**Original text**
+
+how can i track the time that i spend in bed ... sleeping, napping, resting
+
+**Rewritten text**
+
+How can I track the time I spend in bed sleeping, napping, or resting?
+
+**Original text**
+
+i have a paper diary, but i don't always remember to write down the times
+
+**Rewritten text**
+
+I have a paper diary, but I don't always remember to write down the times.
+
+**Original text**
+
+recently, a change in my medication has made me sleep more much more than usual
+
+**Rewritten text**
+
+Recently, a change in my medication has made me sleep much more than usual.
+
+
+
+
+**Original text**
+
+I decided, maybe I could start trying some Android apps to track the time, that I spend in sleeping, napping, resting, 
+
+// inactivity
+
+**Rewritten text**
+
+I thought I could try using some Android apps to track the time I spend sleeping, napping, or resting.
+
+**Original text**
+
+a complication is that I have a non-24-hour sleep-wake disorder
+
+**Rewritten text**
+
+
+**Original text**
+
+i found a very helpful reddit post, that discusses the Pros and Cons of various apps
+
+**Rewritten text**
+
+I found a very helpful Reddit post that discusses the pros and cons of various apps.
+
+**Original text**
+
+
+
+## todo
+
+One-touch tracking for sleep
+
+I'm a data nerd and enjoy having information and looking at trends.
+
+https://www.reddit.com/user/martin_m_n_novy/m/ntools_non24/
+
+## maybe 
+
+a discord server for people with non-24-hour sleep disorder
+	my old post there
+
+How-do-I-change-the-day-s-start-and-end-times
+
+how could I measure, track my sleep disorder symptoms, the sum of nap times
+
+ ... compare my dad's sleep disorder ... nocturia
+
+
+google assistant to track time spent in bed
+alexa to track time spent in bed
+bixby to track time spent in bed
+
+## old 
+
+
 
 # 	measure myvypadek
 24bc
@@ -207,3 +359,7 @@ answer:
 
 
 
+# old
+
+non24   parental sleep antidepressant dontkillmyapp quantified.self QS smart tracking tracker 24bf
+Pros and Cons of Apps
