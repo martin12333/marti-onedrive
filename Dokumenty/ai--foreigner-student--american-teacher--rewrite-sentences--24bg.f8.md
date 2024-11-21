@@ -46,4 +46,28 @@ gloss: a phrase that is used to explain the meaning of a word or phrase
 # Reddit subreddits
 
 
+# synonymous phrases
 
+Question: How can I express by a short phrase the following situation: I was very exhausted, so I went to bed, but I didn't sleep, I just rested for a while. 
+
+Question: Summarize: I was very exhausted, so I went to bed, but I didn't sleep, I just rested for a while. Then I got up and continued with my work.
+
+Question: Shorten: I was very exhausted, so I went to bed, but I didn't sleep, I just rested for a while. Then I got up and continued with my work.
+
+Answer: 
+
+bylo poledne, byl jsem velmi vyčerpaný, tak jsem si lehl na postel, ale nespal jsem, jen jsem si odpočinul na chvíli.
+
+it was noon, I was very exhausted, so I lay down on the bed, but I did not sleep, I just rested for a while.
+
+Question: translate to English from Czech: měřit čas, časový interval, časový úsek, dobu strávenou v posteli
+
+Question: translate to English from Czech: měřit celkový čas strávený v posteli
+
+Answer: measure the total time spent in bed
+
+
+
+Byl jsem velmi vyčerpaný, tak jsem si lehl do postele, ale nespal jsem, jen jsem si odpočinul na chvíli.
+
+Answer: I was very exhausted, so I went to bed, but I didn't sleep, I just rested for a while.

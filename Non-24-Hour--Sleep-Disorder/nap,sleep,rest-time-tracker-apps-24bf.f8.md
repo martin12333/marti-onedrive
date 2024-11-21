@@ -1,5 +1,9 @@
 
 
+<textarea data-v-2733d1cb="" id="note" class="textarea" name="note" cols="8" placeholder="Sem můžete uvést bližší upřesnění místa doručení pro řidiče. Slevový kód nelze do objednávky vložit zpětně." autocomplete="off"></textarea>
+
+Čas doručení: Úterý 19. 11. od 16:00 do 18:00
+
 
 - [links](#links)
 - [my reddit post](#my-reddit-post)
@@ -49,10 +53,39 @@ post-lunch dip: a natural decrease in energy levels that occurs after eating lun
 Postprandial somnolence (colloquially known as food coma, after-dinner dip, or "the itis") is a normal state of drowsiness or lassitude following a meal 
 > The exact cause of postprandial somnolence is unknown but there are some scientific hypotheses
 https://en.wikipedia.org/wiki/Sugar_high
+https://en.wikipedia.org/wiki/Reactive_hypoglycemia
+> Reactive hypoglycemia, postprandial hypoglycemia, or sugar crash is a term describing recurrent episodes of symptomatic hypoglycemia occurring within four hours[1] after a high carbohydrate meal in people with and without diabetes.[2] The term is not necessarily a diagnosis since it requires an evaluation to determine the cause of the hypoglycemia.[3]
+
+
+Sugar crashes are not to be confused with the after-effects of consuming large amounts of protein, which produces fatigue akin to a sugar crash, but are instead the result of the body prioritising the digestion of ingested food.[6]
+
+
+
+unclear thinking
+brain fog
+trouble talking
+the need to sleep or 'crash'
+
+
+https://en.wikipedia.org/wiki/Ultramarathon#Nutritional_Demands_of_Ultra-Marathons
+
+Ultra-marathon running requires meticulous attention to nutrition for both training and racing. In training, daily caloric needs are influenced by factors like body weight, training duration, and terrain, with
+ carbohydrates comprising around 60% of the macronutrient distribution.
+ [181] Proper hydration is crucial. In racing, energy intake, carbohydrate availability, protein intake, and strategies to offset dehydration are essential. GI distress can be minimized by avoiding concentrated carbs and saturated fats, with probiotics and prebiotics offering potential relief. Runners should be cautious with supplements and medications, avoiding NSAIDs, and carefully managing caffeine intake. Tailoring nutrition to individual factors is key for ultra-marathon success.
+
+ Attard, Manuel (2023). "Nutrition for Ultra-Marathons: Fueling Ultra Runners". Manuel Attard, Nutritionist & Dietitian. Retrieved 30 October 2023.
+
+https://en.wikipedia.org/wiki/Physiology_of_marathons#Fuel
+
+Some suggest that ingesting monosaccharides at low concentrations during the race could delay glycogen depletion. This lower concentration, as opposed to a high concentration of monosaccharides, is proposed as a means to maintain a more efficient gastric emptying and faster intestinal uptake of this energy source.[11] Carbohydrates may be the most efficient source of energy for ATP. Pasta parties and the consumption of carbohydrates in the days leading up to a marathon are common practice of marathon runners at all levels.[6][18]
+
+ Osowski A. "Recommendations for Marathon Runners" (PDF).
+
+
 
 siesta: a short nap taken in the early afternoon, often after the midday meal // 
 https://en.wikipedia.org/wiki/File:Business_hours_Greece.JPG
-9-13 17-21
+10-13 17-21
 // Egypt 6 days 6 hours
 
 inactivity: lack of physical or mental energy
