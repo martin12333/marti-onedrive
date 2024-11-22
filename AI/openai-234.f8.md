@@ -135,6 +135,17 @@ https://neuroscope.io/gpt2-medium/22/640.html
 
 
 
+# todo split this file from here
+
+# https://help.openai.com/en/articles/4936828-how-do-i-change-my-account-password
+todo 
+
+# https://chatgpt.com/#pricing
+todo
+
+
+
+# older notes related to openai *api* login, that is not openai *chatgpt* login
 
 
 # https://community.openai.com/t/how-to-multiple-members-on-one-openai-billing-account/21751
