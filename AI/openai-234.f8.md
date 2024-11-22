@@ -135,7 +135,7 @@ https://neuroscope.io/gpt2-medium/22/640.html
 
 
 
-# todo split this file from here
+# todo split this file from here into a new file ... openai.com-api,chatgpt-billing--24bm.f8.md
 
 # https://help.openai.com/en/articles/4936828-how-do-i-change-my-account-password
 todo 
@@ -165,7 +165,7 @@ ok 24bm
 
 
 # https://platform.openai.com/settings/organization/billing/overview
-old url  https://platform.openai.com/account/billing/overview
+## old url was  https://platform.openai.com/account/billing/overview
 
 chrome2
 ok 24bm
