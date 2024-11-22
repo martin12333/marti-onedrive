@@ -12150,3 +12150,6 @@ C:\pf\Git\bin\bash.exe -c 'df -m'   |clip
 explorer "C:\Users\marti\OneDrive\Videos\Screenpresso"
 explorer
 C:\pf\Git\bin\bash.exe -c 'df -m'   |clip
+dir C:\Users\Milan_rt*\OneDrive\alma-222-mi75
+dir C:\Users\milan_rxtipwr\dir C:\Users\Milan_rx*\OneDrive\alma-222-mi75
+dir C:\Users\Milan_rx*\OneDrive\alma-222-mi75

@@ -5,6 +5,7 @@
 Čas doručení: Úterý 19. 11. od 16:00 do 18:00
 
 
+
 - [links](#links)
 - [my reddit post](#my-reddit-post)
 - [measure myvypadek](#measure-myvypadek)
@@ -26,9 +27,15 @@ https://www.reddit.com/r/parenting/comments/9z1z1v/is_there_an_app_that_tracks_b
 [[pros-and-cons-of-apps.f8]]
 
 https://photos.google.com/album/AF1QipMByFswDHfei7FTlDUeFIQDhEJ4BFAf6VMPeGp3
+#non24 
 
 https://cz.pinterest.com/martinnovy/naptime-tracker-24bf/
+todo non24
 
+
+
+marathon-food,carbohydrates,fat,protein--24bm.f8.md
+[[]]
 
 
 # keywords
@@ -38,48 +45,26 @@ non24 sleep antidepressant dontkillmyapp quantified.self QS smart tracking track
 Pros and Cons of Apps
 actigraphy
 
+
+
+# wikipedia categories
+
+[by ai, not checked ]
+
+https://en.wikipedia.org/wiki/Category:Sleep_disorders
+https://en.wikipedia.org/wiki/Category:Sleep
+https://en.wikipedia.org/wiki/Category:Sleep_research
+https://en.wikipedia.org/wiki/Category:Sleep_studies
+https://en.wikipedia.org/wiki/Category:Sleeping
+
+
+
 # wikipedia pages and glossary
 
-// by ai, not checked by a native speaker
+// TERM: DEF by ai, not checked by a native speaker
 
 actigraphy: a method of monitoring human rest/activity cycles
 https://en.wikipedia.org/wiki/Actigraphy
-
-
-https://en.wikipedia.org/wiki/Postprandial_somnolence
-
-post-lunch dip: a natural decrease in energy levels that occurs after eating lunch
-
-Postprandial somnolence (colloquially known as food coma, after-dinner dip, or "the itis") is a normal state of drowsiness or lassitude following a meal 
-> The exact cause of postprandial somnolence is unknown but there are some scientific hypotheses
-https://en.wikipedia.org/wiki/Sugar_high
-https://en.wikipedia.org/wiki/Reactive_hypoglycemia
-> Reactive hypoglycemia, postprandial hypoglycemia, or sugar crash is a term describing recurrent episodes of symptomatic hypoglycemia occurring within four hours[1] after a high carbohydrate meal in people with and without diabetes.[2] The term is not necessarily a diagnosis since it requires an evaluation to determine the cause of the hypoglycemia.[3]
-
-
-Sugar crashes are not to be confused with the after-effects of consuming large amounts of protein, which produces fatigue akin to a sugar crash, but are instead the result of the body prioritising the digestion of ingested food.[6]
-
-
-
-unclear thinking
-brain fog
-trouble talking
-the need to sleep or 'crash'
-
-
-https://en.wikipedia.org/wiki/Ultramarathon#Nutritional_Demands_of_Ultra-Marathons
-
-Ultra-marathon running requires meticulous attention to nutrition for both training and racing. In training, daily caloric needs are influenced by factors like body weight, training duration, and terrain, with
- carbohydrates comprising around 60% of the macronutrient distribution.
- [181] Proper hydration is crucial. In racing, energy intake, carbohydrate availability, protein intake, and strategies to offset dehydration are essential. GI distress can be minimized by avoiding concentrated carbs and saturated fats, with probiotics and prebiotics offering potential relief. Runners should be cautious with supplements and medications, avoiding NSAIDs, and carefully managing caffeine intake. Tailoring nutrition to individual factors is key for ultra-marathon success.
-
- Attard, Manuel (2023). "Nutrition for Ultra-Marathons: Fueling Ultra Runners". Manuel Attard, Nutritionist & Dietitian. Retrieved 30 October 2023.
-
-https://en.wikipedia.org/wiki/Physiology_of_marathons#Fuel
-
-Some suggest that ingesting monosaccharides at low concentrations during the race could delay glycogen depletion. This lower concentration, as opposed to a high concentration of monosaccharides, is proposed as a means to maintain a more efficient gastric emptying and faster intestinal uptake of this energy source.[11] Carbohydrates may be the most efficient source of energy for ATP. Pasta parties and the consumption of carbohydrates in the days leading up to a marathon are common practice of marathon runners at all levels.[6][18]
-
- Osowski A. "Recommendations for Marathon Runners" (PDF).
 
 
 
@@ -125,6 +110,21 @@ time tracking: the process of recording the amount of time spent on a particular
 
 
 # Reddit subreddits
+
+
+[by ai, not checked ]
+
+* https://www.reddit.com/r/parenting
+* https://www.reddit.com/r/quantifiedself
+* https://www.reddit.com/r/sleep
+* https://www.reddit.com/r/sleepapnea
+* https://www.reddit.com/r/sleepdeprivation
+* https://www.reddit.com/r/sleepdisorders
+* https://www.reddit.com/r/sleeping
+* https://www.reddit.com/r/sleeptrain
+* https://www.reddit.com/r/sleepy
+* 
+
 
 
 # Rewrite sentences
@@ -185,6 +185,10 @@ i found a very helpful reddit post, that discusses the Pros and Cons of various 
 I found a very helpful Reddit post that discusses the pros and cons of various apps.
 
 **Original text**
+
+
+
+
 
 
 
