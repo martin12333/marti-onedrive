@@ -64,7 +64,7 @@ The metabolic equivalent of task (MET) is the objective measure of the ratio of 
 
 ## https://en.wikipedia.org/wiki/Carbohydrate_loading
 
-Pre-marathon meal
+*** Pre-marathon meal
 
 
 Carbohydrate loading, commonly referred to as carb-loading, or carbo-loading, is a strategy used by endurance athletes, such as marathoners and triathletes, to reduce fatigue during an endurance event by maximizing the storage of glycogen (or energy) in the muscles and liver.[1] Carbohydrate consumption is increased in the days before an endurance event.

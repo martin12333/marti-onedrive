@@ -1,15 +1,31 @@
 
-// a note for Martin only ... at the end  ... setting up an openai  org?
+
+- [// a note for Martin only ... at the end  ... setting up an openai  org?](#-a-note-for-martin-only--at-the-end---setting-up-an-openai--org)
+- [grep -oE --no-filename -R 'cmap\[=\]........{,3}' | sort|uniq -c  | sort -n](#grep--oe---no-filename--r-cmap3--sortuniq--c---sort--n)
+- [I now have a dream project: something like ... linear algebra, for neural networks, in the form of Jupyter notebooks.](#i-now-have-a-dream-project-something-like--linear-algebra-for-neural-networks-in-the-form-of-jupyter-notebooks)
+- [https://www.alignmentforum.org/posts/Qup9gorqpd9qKAEav/200-cop-in-mi-studying-learned-features-in-language-models#comments](#httpswwwalignmentforumorgpostsqup9gorqpd9qkaeav200-cop-in-mi-studying-learned-features-in-language-modelscomments)
+- [https://community.openai.com/t/how-to-multiple-members-on-one-openai-billing-account/21751](#httpscommunityopenaicomthow-to-multiple-members-on-one-openai-billing-account21751)
+- [https://platform.openai.com/account/billing/overview](#httpsplatformopenaicomaccountbillingoverview)
+- [https://platform.openai.com/account/billing/limits](#httpsplatformopenaicomaccountbillinglimits)
+- [https://platform.openai.com/account/billing/preferences](#httpsplatformopenaicomaccountbillingpreferences)
+- [https://openai.com/policies](#httpsopenaicompolicies)
+
+
+
+# // a note for Martin only ... at the end  ... setting up an openai  org?
 
 
 
 Hi everyone!
 (I used to be an ML student.) (Antidepressants did to me more harm than good.) Now I am trying to understand better today's neural networks, especially the GPTs. I am editing jupyter notebooks ... doing little experimets. 
+
 And I am very interested in analogies between GPTs and human brain.
 
 
+
+
+# grep -oE --no-filename -R 'cmap[=]........{,3}' | sort|uniq -c  | sort -n
 bash
-grep -oE --no-filename -R 'cmap[=]........{,3}' | sort|uniq -c  | sort -n
 
 ```python
       4 cmap=\"Blues\")
@@ -38,6 +54,7 @@ Oh, I am researching this topic for many days now.
 What level do you want?
 
 I do like this notebook  https://github.com/jalammar/jalammar.github.io/blob/master/notebooks/nlp/01_Exploring_Word_Embeddings.ipynb
+
 > 2019 update: This turned out to be a misconception. The result is actually closer to "king" than it is to "queen", it's just that the code rules out the input vectors as possible outputs
 
 hrozi misunderstanding ... ja jsem needitoval ten 2019
@@ -45,7 +62,7 @@ hrozi misunderstanding ... ja jsem needitoval ten 2019
 
 
 
-I now have a dream project: something like ... linear algebra, for neural networks, in the form of Jupyter notebooks.
+# I now have a dream project: something like ... linear algebra, for neural networks, in the form of Jupyter notebooks.
 
 
 
@@ -54,12 +71,6 @@ https://www.google.com/search?q=gpt-3+vs+mouse-brain+100b+synapses&newwindow=1&s
 
 
 
-https://community.openai.com/t/how-to-multiple-members-on-one-openai-billing-account/21751
-
-me definitely not the plus plan $20/month
-
-
-###############
 
 
 
@@ -74,11 +85,7 @@ me definitely not the plus plan $20/month
 
 
 
-
-
-
-
-https://www.alignmentforum.org/posts/Qup9gorqpd9qKAEav/200-cop-in-mi-studying-learned-features-in-language-models#comments
+# https://www.alignmentforum.org/posts/Qup9gorqpd9qKAEav/200-cop-in-mi-studying-learned-features-in-language-models#comments
 
 > People often use “neuron” to refer to many different parts of a transformer. I specifically mean the hidden state of the MLP layers, after the activation function. I do not mean the residual stream, layer outputs, keys, queries or values, attention pattern, etc.   #aaaaA
 
@@ -130,6 +137,42 @@ https://neuroscope.io/gpt2-medium/22/640.html
 
 
 
+# https://community.openai.com/t/how-to-multiple-members-on-one-openai-billing-account/21751
+
+https://www.diigo.com/user/martin12333?page=2&query=community.openai.com
+
+me definitely not the plus plan $20/month
+
+EDIT 24bm going for the $20/month plan
+
+###############
+
+
+# https://platform.openai.com/settings/organization/billing/history
+ok 24bm
+ok 24bm
+
+
+# https://platform.openai.com/settings/organization/billing/overview
+old url  https://platform.openai.com/account/billing/overview
+
+chrome2
+ok 24bm
+Pay as you go
+Credit balance
+$9.99
+Auto recharge is off
+When your credit balance reaches $0, your API requests will stop working. 
+
+edge
+ok 24bm
+Pay as you go
+Credit balance
+$0.00
+Auto recharge is off
+When your credit balance reaches $0, your API requests will stop working. En
+
+
 
 edge
 'Profile 2'
@@ -138,7 +181,6 @@ Avast Online Security & Privacy
 
 
 
-https://platform.openai.com/account/billing/overview
 
 openai "set up paid account" "i'm working on behalf of a company"
 
@@ -159,7 +201,7 @@ If you are a business tax registrant, please enter your business tax ID here.
 
 
 
-https://platform.openai.com/account/billing/limits
+# https://platform.openai.com/account/billing/limits
 
 Hard limit
 When your organization reaches this usage threshold each month, subsequent requests will be rejected.
@@ -169,7 +211,7 @@ When your organization reaches this usage threshold each month, a notification e
 $6.00
 
 
-https://platform.openai.com/account/billing/preferences
+# https://platform.openai.com/account/billing/preferences
 
 Company name
 If specified, this name will appear on invoices instead of your organization name.
@@ -199,5 +241,5 @@ remove from clipboard manager
 
 ###ljuba.bokova tel cislo
 
-https://openai.com/policies
+# https://openai.com/policies
 
