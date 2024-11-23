@@ -145,8 +145,8 @@ Endpoints
 tailscale status
 
 PS C:\Users\marti\OneDrive> tailscale status
-100.91.194.58   len20                milan.bok.75@ windows offline
-100.76.23.98    milans-galaxy-s9     milan.bok.75@ android idle, tx 3096068 rx 41525292
+100.91.194.58   len20                milan.bok.75aaa windows offline
+100.76.23.98    milans-galaxy-s9     milan.bok.75aaa android idle, tx 3096068 rx 41525292
 
 # Health check:
 #     - not in map poll

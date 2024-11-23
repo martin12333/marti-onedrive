@@ -137,6 +137,20 @@ https://neuroscope.io/gpt2-medium/22/640.html
 
 # todo split this file from here into a new file ... openai.com-api,chatgpt-billing--24bm.f8.md
 
+
+Jan Nedvěd texty
+  1. Valčíček
+  2. Podvod
+  3. Rodné údolí
+  4. Kohout
+  5. Stánky
+  6. Franky dlouhán
+  7. Písnička na dobrou noc
+  8. Odpusť
+  9. Igelit
+10. Jižní kříž
+
+
 # https://help.openai.com/en/articles/4936828-how-do-i-change-my-account-password
 todo 
 

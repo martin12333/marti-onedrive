@@ -264,7 +264,7 @@ https://www.diigo.com/user/martin12333?query=todo
 
 nl "D:\umarti\dowNLOADS--SYMLINKED\8089rss2lines-242.p.txt" | grep -i @seznam.cz  | head
 
-   621  @seznam.cz ";Annotations and Sticky notes:Highlight:Bcc: Milan.Bok@seznam.cz
+   621  @seznam.cz ";Annotations and Sticky notes:Highlight:Bcc: Milan.Baaaseznam.cz
 66261 - 621
 65640
 

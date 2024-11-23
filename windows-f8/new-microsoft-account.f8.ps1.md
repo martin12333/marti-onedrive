@@ -74,8 +74,8 @@ whoami
 msinfo32
 
 ---------- Původní e-mail ----------
-Od: Jiří Bok <jiri.bok@matfyz.cuni.cz>
-Komu: Milan Bok <milan.bok@seznam.cz>
+Od: Jiří Bok <jiri.baaamatfyz.cuni.cz>
+Komu: Milan Bok <milan.baaaseznam.cz>
 Datum: 11. 1. 2024 9:32:34
 Předmět: Ctvrtek
 
@@ -96,7 +96,7 @@ nastavení je přes klávesu win+x > settings > accounts
 Tvoje username (email)  pro microsoft-account je 
 
 ZMENA: RADEJI j b @matfyz.cuni.cz
-////////////jiri.vlastimil.bok@gmail.com
+////////////jiri.vlastimil.baaagmail.com
 
 6.
 Tvoje heslo pro microsoft-account je tvaru
@@ -339,9 +339,9 @@ Bez  obrázků o tom mluvit nebudu.
 jiri.vlastimil
 
 rozhodl  jsem se , že Ti začnu psát z adresy 
-milan.bok.75@gmail.com
+milan.bok.75aaagmail.com
 nikoli adresy
-milan.bok@seznam.cz
+milan.baaaseznam.cz
 
 budeme muset sahnout do mailerových kontaktů
 * Outlook
@@ -398,11 +398,11 @@ já jim to snad raději posílat nebudu když nevěří na existenci serverů v 
 
 předpokládám, že asi zkusím zadat
 
-kucerova@karlov.mff.cuni.cz
+kucerovakarlov.mff.cuni.cz
 
 kdyby to selhalo, 
 
-hana.kucerova@matfyz.cuni.cz
+hana.kucerovamatfyz.cuni.cz
 
 
 
@@ -418,7 +418,7 @@ napadlo mne, ...
 proč jste vlastně chtěli vymazat
 z toho počítače
 ten účet
-spojený s Microsoft accountem "jiri.vlastimil.bok@gmail.com"
+spojený s Microsoft accountem "jiri.vlastimil.baaagmail.com"
 ...
 snad ne kvůli tomu "gmail"
 ...

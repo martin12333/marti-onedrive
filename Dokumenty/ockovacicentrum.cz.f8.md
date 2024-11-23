@@ -85,7 +85,7 @@ na ~~ 13:45
 # https://www.ockovacicentrum.cz/cz/user/eop#doporucena
 
 dne:249j+ 
-username:  mb75@g 
+username:  mb75aaag 
 
 ////////v minulosti drive @seznam.cz
 

@@ -62,7 +62,7 @@ gonna experiment
 about alma - 2.pokus zda funguje rules v outlook . * . com
 
 jen pokus, about alma - pokus zda funguje rules v outlook . * . com
-posilam To:"martin.milan.82@outlook.com" <martin.milan.82@outlook.com>, Jiří Bok <jiri.vlastimil.bok@gmail.com>, Jiří Bok <bok@karlov.mff.cuni.cz>
+posilam To:"martin.milan.82@outlook.com" <martin.milan.82@outlook.com>, Jiří Bok <jiri.vlastimil.baaagmail.com>, Jiří Bok .mff.cuni.cz>
 
 1. zda bude v inbox2. zda se posle kopie mne
 
