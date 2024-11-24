@@ -29,6 +29,19 @@ google-forms
 
 246c ransomware
 245 mail Hruska
+24bL
+
+
+
+
+
+ping alma.karlov.mff.cuni.cz
+ping biophysics.mff.cuni.cz
+ping fu.mff.cuni.cz
+
+
+24bn
+alterna: synology NAS server ??
 
 
 
@@ -331,10 +344,76 @@ echo '-------- section --------'
 jsem pojal male podezreni, ktere zda se ping potvrzuje:
 # na alme asi jsou weby pro nekolik ruznych slovnich adres
 napr.
+ping alma.karlov.mff.cuni.cz
 ping biophysics.mff.cuni.cz
-...
-...
+ping fu.mff.cuni.cz
+###ping utf.mff.cuni.cz
+###ping quantum.karlov.mff.cuni.cz
 
+24bL
+24bn
+https://www.diigo.com/user/martin12333?query=mff.cuni.cz
+edge://favorites/?q=mff.cuni.cz
+https://mail.google.com/mail/u/0/#search/biophysics.mff.cuni.cz/FMfcgzQXKNDBZRWlzjSfFcTjphSxTJnM
+
+
+http://fu.mff.cuni.cz/theory/people/person/Bok/courses/
+
+http://alma.karlov.mff.cuni.cz/lmft/
+http://fu.mff.cuni.cz/
+http://biophysics.mff.cuni.cz/
+
+"C:\Users\marti\OneDrive\alma-233c\Fyzikální ústav UK_files"
+
+e:\alma246g\
+
+
+
+
+https://web.archive.org/web/*/http://biophysics.mff.cuni.cz/*
+https://web.archive.org/web/20241124031724/http://biophysics.mff.cuni.cz/
+https://web.archive.org/web/20241124031700/http://fu.mff.cuni.cz/
+https://web.archive.org/web/sitemap/http://fu.mff.cuni.cz/
+https://web.archive.org/web/*/http://fu.mff.cuni.cz/*
+https://web.archive.org/web/*/http://alma.karlov.mff.cuni.cz/*
+
+
+
+# todo split to a separate file
+# synology as a web server site:www.reddit.com
+https://mariushosting.com/pay-for-web-hosting-vs-hosting-on-my-synology-nas/
+
+https://quantum.karlov.mff.cuni.cz/note/
+
+I host several web sites on my NAS. For me, it has worked very well. The one thing I have not done is been able to permit HTTPS connections. I would make absolutely sure you use 2 factor authentication, disable any IP address after 2 incorrect log in attempts, and have very long and secure passwords. I have taken the additional step on my router of not allowing connections from IP addresses other than the US and Canada.
+
+If you do want to host it on your Syno, I would recommend using Docker and set up a separate container for your website in a separate network segment. If your site gets hacked, they won’t get further then that.
+
+solutely and it’ll probably be a lot faster than the commercial hosting. On the other hand, it’ll take some time, and you open yourself up to security risks you wouldn’t have with a commercial provider. It’s up to you to figure out the pros and cons.
+
+Marius is a huge fan of doing this… he has a ton on of guides here:
+
+https://mariushosting.com/pay-for-web-hosting-vs-hosting-on-my-synology-nas/
+
+It depends on what kind of content (static or dynamic) and what kind of traffic you get. A higher end synology has the juice to act as a decent web server, but I’d be leery of exposing it directly to the Internet. You could probably use a 4gb raspberry pi 4 as a web server and do pretty well.
+
+
+
+A Synology should never be exposed to the public Internet unless you don’t care about being hacked. Just because you can do something does not mean that you should do something. Even suggesting to do this means that you do not have a good grasp on security and probably don’t have the expertise to securely maintain the environment. You should be looking for a cloud managed solution.
+
+Do you want real information? You have come to the right place. My website, mariushosting, is being hosted from home on a Synology NAS. And it’s doing great with all the visitors it has. Not only is mariushosting a point of reference in the Synology community, but also, according to Alexa stats, it has grown to become a global reference, helping Synology users and enthusiasts from all over the world. I don’t use any cookies, nor any type of tracking. While I can’t know for sure how many visitors I have on mariushosting, I have several other sites hosted at home on the same Synology NAS, and they bring in plenty of traffic.
+
+So, I am doing web hosting from home on my Synology NAS, successfully hosting multiple sites on the same device. I have been online for over a year now. NAS security is a serious advantage. Applications such as MariaDB10, phpMyAdmin, Apache 2.4, WordPress and SSL certificates make web hosting from home a safe and secure process, and professional web hosting has nothing on home-hosting on a Synology NAS which offers cutting-edge security standards, just as good as anything web hosting companies currently provide.
+
+I suggest Tailscale since they have a native package for Synology. I also would not open my NAS to the internet in any way. Too many people will try to break in.
+
+Seconded that a raspberry pi would be a cheaper and better option for just a website.
+
+Put Cloudflare in front of your WebServer and restrict access to your Web server from Cloudflare addresses. Much better that exposing directly your website to tge internet. Ok, it implies moving you domain NS records to Cloudflare, but it takes max 30 min.
+
+Setup docs are aplenty for Synology. Enable the firewall in your SNAS, keep it behind your core hardware firewall and use port forwarding to allow access from the internet. Setup an SSL/TLS certificate and enable 2 factor authentication on all accounts. Backup your NAS data offsite to a OneDrive/Google Drive/Dropbox service. Multicloud will allow you to securely connect to just about any service out there these days. Keep the Synology firmware updated and you’ll be fine. Been running a web server on SNAS’s for 15+ years.
+
+https://www.reddit.com/r/synology/comments/1ck7ozl/how_safe_is_it_to_host_a_webserver_on_a_nas/
 
 echo '-------- section --------'
 

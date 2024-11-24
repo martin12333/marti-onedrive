@@ -152,12 +152,19 @@ Jan Nedvěd texty
 
 
 # https://help.openai.com/en/articles/4936828-how-do-i-change-my-account-password
-todo 
+done
 
 # https://chatgpt.com/#pricing
 todo
+Use custom GPTs
+Have an existing plan? See billing help
 
-
+Early access to new features
+Access to OpenAI o1-preview, OpenAI o1-mini
+Access to GPT-4o, GPT-4o mini, GPT-4
+Up to 5x more messages for GPT‑4o
+Access to data analysis, file uploads, vision, web browsing, and image generation
+Access to Advanced Voice Mode
 
 # older notes related to openai *api* login, that is not openai *chatgpt* login
 
