@@ -1,3 +1,7 @@
+
+Ja take mam problemy ... ty dnesni jsou na papircich s cervenou sponkou 
+
+
 - [existuje nový Google Chat space](#existuje-nový-google-chat-space)
 - [Milan: there are two related folders in OneDrive ... i will sync them manually?](#milan-there-are-two-related-folders-in-onedrive--i-will-sync-them-manually)
 	- [MB PC  c:\\Users\\marti\\OneDrive\\mn80--MSEdge-Workspace-JVB-MB\\](#mb-pc--cusersmartionedrivemn80--msedge-workspace-jvb-mb)
@@ -21,8 +25,16 @@ https://github.com/martin12333/marti-onedrive/blob/main2/mn80--MSEdge-Workspace-
 
 [chat ](https://mail.google.com/chat/u/0/#chat/space/AAAA2NU9Pu0)
 
+# Edge workspace
 
-# Milan: there are two related folders in OneDrive ... i will sync them manually?
+https://aka.ms/edge/workspaceslaunch?code=dHlwZT0xJmlkPWFIUjBjSE02THk5b2IyMWxMbTFwWTNKdmMyOW1kSEJsY25OdmJtRnNZMjl1ZEdWdWRDNWpiMjB2T25VNkwyY3ZZMjl1ZEdWdWRITjBiM0poWjJVdk5rTjZibWxvVGpOMk1IVjVNWHBMTlVaeVVrTmlkelJpTVRJeU9UaGtPVE15WVRJNE5qQjNiM0pyYzNCaFkyVnpMMGxSVEVOME56UnZXSFZaVVZRMk9FVk9UV3hEZDBZd1UwRmxMV2R1YjNseE1WOU5PR2QwYkRORlowNXJMVXh6JnN0b3JlPTUmc291cmNlPVdvcmtzcGFjZXMmcmVkZWVtQ29kZT0mYXBwSWRHdWlkPWI2ZDgzM2NmLWI1NGUtNGNhYi04MTQzLTEzMThlMGJjNTBlMQ%3D%3D&source=Workspaces
+
+jvb @ gm
+
+
+# oneDrive
+
+## Milan: there are two related folders in OneDrive ... i will sync them manually?
 
 ## MB PC  c:\Users\marti\OneDrive\mn80--MSEdge-Workspace-JVB-MB\
 
@@ -48,6 +60,10 @@ https://github.com/martin12333/marti-onedrive/blob/main2/mn80--MSEdge-Workspace-
 
 * some subdirectories, e.g.:
 samsung--chytre-hodinky
+
+
+
+
 
 # https://photos.google.com
 
