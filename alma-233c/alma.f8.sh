@@ -339,6 +339,12 @@ google-forms
 
 echo '-------- section --------'
 
+
+
+# todo split to a separate file
+alma---24bL.f8.txt.md
+
+
 /var/log/apache2/*.log
 
 jsem pojal male podezreni, ktere zda se ping potvrzuje:
