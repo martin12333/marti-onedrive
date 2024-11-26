@@ -1,8 +1,21 @@
-# AAA-ODKAZY.f8.md 
- 
+- [existuje nový Google Chat space](#existuje-nový-google-chat-space)
+- [Milan: there are two related folders in OneDrive ... i will sync them manually?](#milan-there-are-two-related-folders-in-onedrive--i-will-sync-them-manually)
+	- [MB PC  c:\\Users\\marti\\OneDrive\\mn80--MSEdge-Workspace-JVB-MB\\](#mb-pc--cusersmartionedrivemn80--msedge-workspace-jvb-mb)
+	- [JB PC D:\\onedrive\\JB--MSEdge-Workspace-JVB-MB](#jb-pc-donedrivejb--msedge-workspace-jvb-mb)
+- [https://photos.google.com](#httpsphotosgooglecom)
+	- [Lenovo(2017) microsoft windows, internet,034 , network, UEFI BIOS howtogeek boot;; disk errors album jinde, Jiří - Google Photos](#lenovo2017-microsoft-windows-internet034--network-uefi-bios-howtogeek-boot-disk-errors-album-jinde-jiří---google-photos)
+	- [Alma.karlov,su.mff.cuni.cz, web zdarma. cz](#almakarlovsumffcunicz-web-zdarma-cz)
+
+
+# this file 
+
 [master version of this file is in OneDrive](https://onedrive.live.com/?cid=4B12298D932A2860&id=4B12298D932A2860%2142441&parId=4B12298D932A2860%2118753&o=OneUp)
 
 file:///C:\Users\marti\OneDrive\mn80--MSEdge-Workspace-JVB-MB\AAA-ODKAZY.f8.md
+
+https://github.com/martin12333/marti-onedrive/blob/main2/mn80--MSEdge-Workspace-JVB-MB/AAA-ODKAZY.f8.md
+
+
 
 # existuje nový Google Chat space
 
@@ -47,6 +60,7 @@ https://photos.google.com/share/AF1QipMK19YFhv3MZWmm60ZqA1vFVtHhGcnsE75_D9gRqbty
 
 https://photos.google.com/share/AF1QipO8HSdDBUOau-xpbYUQcGIpzTIUFth23DT6At89ztS3arZ4aZaxA-Vk9Ve1RfxQFQ
 
+### new https://github.com/martin12333/marti-onedrive/blob/main2/alma-233c/alma---24bL.f8.txt.md
 
 * file:///C:\Users\marti\OneDrive\alma-233c\alma.f8.sh
   
