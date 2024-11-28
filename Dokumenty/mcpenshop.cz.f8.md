@@ -1,13 +1,22 @@
-mcpenshop prodejna: Praha – Atrium Karlovo náměstí  
+
+
+- [Blok karis A6: prosím nejlépe zelený; případně červený (případně modrý);](#blok-karis-a6-prosím-nejlépe-zelený-případně-červený-případně-modrý)
+- [Versatilka plastová: nejlépe zelenou; případně žlutou; červenou (případně modrou; fialovou);](#versatilka-plastová-nejlépe-zelenou-případně-žlutou-červenou-případně-modrou-fialovou)
+
+
+
+
+# mcpenshop prodejna: Praha – Atrium Karlovo náměstí  
 jiri.vlastimil.bok
 
-!!rucne preposlat na b@k
+# !!rucne preposlat na b@k
 gmail Milan Bok
 
-starsi
+# starsi
 https://keep.google.com/u/0/#NOTE/1UawUjeW3-OaIbvaQ9dMMsYhnraj4OpXl6MjMrmDDCsKuD1laElv0mhSaEc3Rug
 
-https://www.mcpenshop.cz/prehled-objednavek
+# https://www.mcpenshop.cz/prehled-objednavek
+
 
 
 D:\000doc24\Dokumenty\mcpenshop.cz.f8.md
@@ -16,8 +25,8 @@ prodejna: Praha – Atrium Karlovo náměstí
 
 
 
-// Prosíme nepřidávat zápalky ... máme už dvoje
-
+# // Prosíme nepřidávat zápalky ... máme už dvoje
+vratit do prodejny
 Prosíme nepřidávat zápalky ... máme už troje.
 
 
@@ -25,10 +34,18 @@ Balíček pro Vás bude expedován do prodejny během 7 kalendářních dnů.
 
 
 
-chrome://bookmarks/?q=mcpen
+# chrome://bookmarks/?q=mcpen
 
-https://www.mcpenshop.cz/prehled-objednavek
-rok nazpatek
+exportovat do html
+
+"C:\Users\marti\OneDrive\Dokumenty\bookmarks_11_28_24.html"
+
+# https://www.mcpenshop.cz/prehled-objednavek
+
+## 24b proskenil od zacatku casu a prelil sem do f8.md
+
+
+249 rok nazpatek
 
 
 https://www.mcpenshop.cz/hledani?query=anezka
@@ -58,13 +75,24 @@ Kód produktu: 14400001
 EAN: 8595096753074
 
 
+
+# blok karis a5
+
+https://www.mcpenshop.cz/blok-karis-a5-color-office-modra
+
+https://www.mcpenshop.cz/blok-karis-s-poradacem-a5-cerny
+
+https://www.mcpenshop.cz/blok-karis-pastelini-a5-merunkovy
+
+
+
 # Versatilka plastová: nejlépe zelenou; případně žlutou; červenou (případně modrou; fialovou);
 Versatilka plastová 5211 2,0 mm, Mix barev
 Kód produktu: 32600199
 EAN: 8593539818045
 https://www.mcpenshop.cz/psaci-potreby/tuzky/versatilky
 
-Liner Elite 4721, 0,3 mm, Zelený
+# Liner Elite 4721, 0,3 mm, Zelený
 Kód produktu
 14200203
 EAN
@@ -74,7 +102,7 @@ EAN
 //Kód produktu: 14200202
 //EAN: 8595013633014
 
-https://www.mcpenshop.cz/sacky-do-kose-zatahovaci-63-x-73-cm-60-l-10-ks-zelene
+# https://www.mcpenshop.cz/sacky-do-kose-zatahovaci-63-x-73-cm-60-l-10-ks-zelene
 
 
 
@@ -90,3 +118,129 @@ Prosíme nepřidávat zápalky ... máme už troje
 
 prodejna: Praha – Atrium Karlovo náměstí. 
 Versatilka plastová: nejlépe žlutou; případně červenou (případně modrou; zelenou; fialovou).
+
+
+
+
+# dump objednavek  str nejstarsi
+
+dnávky	Datum	Doprava	položek	Stav	Celkem bez DPH	Celkem s DPH			
+2022005926	13. 10. 2022	CZ - Osobní odběr - Prodejna McPen	8	vyřízená	284,22 Kč	343,90 Kč	
+Vytisknout objednávku
+Detail
+Znovu objednat všechny položky objednávky
+2022003408	21. 7. 2022	CZ - Osobní odběr - Prodejna McPen	4	vyřízená	159,86 Kč	193,42 Kč	
+Vytisknout objednávku
+Detail
+Znovu objednat všechny položky objednávky
+2022003407	21. 7. 2022	CZ - Osobní odběr - Prodejna McPen	1	Připraveno k vyzvednutí - prodejna McPen Atrium, Karlovo nám. 10, 120 00 Praha 2	250,45 Kč	303,05 Kč	
+Vytisknout objednávku
+Detail
+Znovu objednat všechny položky objednávky
+2022002737	2. 6. 2022	CZ - Osobní odběr - Prodejna McPen	6	vyřízená	300,00 Kč	363,00 Kč	
+Vytisknout objednávku
+Detail
+Znovu objednat všechny položky objednávky
+2022001914	1. 4. 2022	CZ - Osobní odběr - Prodejna McPen	3	vyřízená	195,90 Kč	237,03 Kč	
+Vytisknout objednávku
+Detail
+Znovu objednat všechny položky objednávky
+2022001182	15. 2. 2022	CZ - Osobní odběr - Prodejna McPen	2	vyřízená	108,91 Kč	131,77 Kč	
+Vytisknout objednávku
+Detail
+Znovu objednat všechny položky objednávky
+1
+2
+Stavy objednávek
+
+
+# dump objednavek  str Detail
+
+– Atrium Karlovo náměstí
+Vybrat vše
+
+/images/mcpen/produkty/15300044.jpg	
+Vložka náhradní do bloků karis A5 linka, 100 listů
+15300044
+
+EAN: 8595096753142
+4 ks
+( 4 ks )	
+Jednotková cena s DPH35,06 Kč
+Celkem bez DPH115,88 Kč
+Celkem s DPH140,22 Kč
+
+/images/mcpen/produkty/32600198.jpg	
+Tuhy do versatilky 8B, 12 ks
+32600198
+
+EAN: 8593539090687
+1 ks
+( 1 ks )	
+Jednotková cena s DPH52,16 Kč
+Celkem bez DPH43,11 Kč
+Celkem s DPH52,16 Kč
+
+/images/mcpen/produkty/18300136.jpg	
+Popisovač permanentní OHP 2637, 1 mm, Černý
+18300136
+
+EAN: 8595013611463
+1 ks
+( 1 ks )	
+Jednotková cena s DPH17,01 Kč
+Celkem bez DPH14,06 Kč
+Celkem s DPH17,01 Kč
+
+/images/mcpen/produkty/14400001.jpg	
+Blok karis A6 lesklý, Mix barev
+14400001
+
+EAN: 8595096753074
+1 ks
+( 1 ks )	
+Jednotková cena s DPH71,16 Kč
+Celkem bez DPH58,81 Kč
+Celkem s DPH71,16 Kč
+
+/images/mcpen/produkty/32600199.jpg	
+Versatilka plastová 5211 2,0 mm, Mix barev
+32600199
+
+EAN: 8593539818045
+1 ks
+( 1 ks )	
+Jednotková cena s DPH61,66 Kč
+Celkem bez DPH50,96 Kč
+Celkem s DPH61,66 Kč
+
+/images/mcpen/produkty/14200202.jpg	
+Liner Elite 4721, 0,3 mm, Modrý
+14200202
+
+EAN: 8595013633014
+1 ks
+( 1 ks )	
+Jednotková cena s DPH20,81 Kč
+Celkem bez DPH17,20 Kč
+Celkem s DPH20,81 Kč
+Cena celkem bez DPH300,00 Kč
+
+
+
+
+https://www.mcpenshop.cz/kelimky-plastove-na-kavu-0-18-l-15-ks-hnede
+
+
+
+# dump objednavek  str 1
+
+https://www.mcpenshop.cz/karty-do-kartoteky-a7-100-listu-bile
+
+https://www.mcpenshop.cz/zapisnik-spiralovy-telefonni-10-x-16-cm-cerny
+
+
+
+https://www.mcpenshop.cz/klipy-kovove-19-mm-10-ks-mix-barev
+
+https://www.mcpenshop.cz/paska-samolepici-reflexni-compass-2-x-90-cm-zluta
