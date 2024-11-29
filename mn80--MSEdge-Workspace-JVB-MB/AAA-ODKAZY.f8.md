@@ -2,6 +2,15 @@
 Ja take mam problemy ... ty dnesni jsou na papircich s cervenou sponkou 
 
 
+
+
+
+
+# mn80--MSEdge-Workspace-JVB-MB - OneDrive
+## People you specify can edit
+
+
+
 - [existuje nový Google Chat space](#existuje-nový-google-chat-space)
 - [Milan: there are two related folders in OneDrive ... i will sync them manually?](#milan-there-are-two-related-folders-in-onedrive--i-will-sync-them-manually)
 	- [MB PC  c:\\Users\\marti\\OneDrive\\mn80--MSEdge-Workspace-JVB-MB\\](#mb-pc--cusersmartionedrivemn80--msedge-workspace-jvb-mb)

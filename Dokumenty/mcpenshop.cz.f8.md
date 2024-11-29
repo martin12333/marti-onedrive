@@ -244,3 +244,8 @@ https://www.mcpenshop.cz/zapisnik-spiralovy-telefonni-10-x-16-cm-cerny
 https://www.mcpenshop.cz/klipy-kovove-19-mm-10-ks-mix-barev
 
 https://www.mcpenshop.cz/paska-samolepici-reflexni-compass-2-x-90-cm-zluta
+
+
+
+
+# "C:\Users\marti\OneDrive\Dokumenty\bookmarks_11_28_24.html"
