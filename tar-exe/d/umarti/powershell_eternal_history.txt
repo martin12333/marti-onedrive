@@ -12183,3 +12183,5 @@ cmd /c dir ..\.Jupyter
 cmd /c dir ..\.Jupyter  /s
 find . -maxdepth 1 -mindepth 1 -type d  -iname '.*'
 bash
+cmd /c dir    /b /s >1
+bash
