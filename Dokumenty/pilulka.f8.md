@@ -19,6 +19,12 @@ czech programmers keyboard layout
 
  // doprava Pilulka Expres je mnohem lepší, než u jiných lékáren, velmi Vám děkuji 💛
 
+
+# links
+
+[[drmax.f8]]
+
+
 # pripady potizi s placenim
 
 chci amobnotify2 i pro from:pilulka

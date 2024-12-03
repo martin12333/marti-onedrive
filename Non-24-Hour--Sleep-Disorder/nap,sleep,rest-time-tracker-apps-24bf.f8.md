@@ -6,11 +6,25 @@
 
 
 
+
+
+
 - [links](#links)
-- [my reddit post](#my-reddit-post)
+- [keywords](#keywords)
+- [wikipedia categories](#wikipedia-categories)
+- [wikipedia pages and glossary](#wikipedia-pages-and-glossary)
+- [Reddit subreddits](#reddit-subreddits)
+- [Rewrite sentences](#rewrite-sentences)
+	- [todo](#todo)
+	- [maybe](#maybe)
+	- [old](#old)
 - [measure myvypadek](#measure-myvypadek)
+- [my new reddit post 24b](#my-new-reddit-post-24b)
 - [Pros and Cons of Apps](#pros-and-cons-of-apps)
+- [https://huckleberrycare.com/blog/baby-sleep-schedule-by-age-nap-and-sleep-chart](#httpshuckleberrycarecomblogbaby-sleep-schedule-by-age-nap-and-sleep-chart)
+- [...............](#)
 	- [assistant](#assistant)
+- [old](#old-1)
 
 
 
@@ -35,8 +49,13 @@ todo non24
 
 
 marathon-food,carbohydrates,fat,protein--24bm.f8.md
-[[]]
+[[24bm]]
 
+
+96
+https://www.diigo.com/user/martin12333?page=49
+C:\Users\marti\OneDrive\Non-24-Hour--Sleep-Disorder\24bu---tracker --- diigo - martin12333 - page 49 Generate Report.md
+[[24bu---tracker --- diigo - martin12333 - page 49 Generate Report]]
 
 # keywords
 
@@ -238,6 +257,22 @@ an android app, with AI, for sleep and nap symptom-tracking at home, pricing
 an android app, with AI, for elderly care at home, sleep and nap symptom-tracking at home, pricing
 
 Is there an app that tracks baby naps?
+
+
+
+
+24bu
+Timeline
+https://babydaybook.app/android-widgets-watch-app/
+
+Instructions: Open the Baby Daybook app on your Android phone. Tap the bell icon at the upper right corner of the Home tab, then tap Sticky notifications at the bottom, and switch on the notifications of activities you want to see on the Lock Screen.
+
+
+
+
+
+
+
 
 One-touch tracking for sleep, breastfeeding, bottles, diapers, pumping, solids, growth, medication and temperature
 

@@ -12159,3 +12159,10 @@ ping alma.karlov.mff.cuni.cz
 ping utf.mff.cuni.cz
 ping karlov.mff.cuni.cz
 ping quantum.karlov.mff.cuni.cz
+cmd /c dir  '*aaaaaa*'   /b /s
+cmd /c dir  'Dokumenty/*.md'
+cmd /c dir  'Dokumenty\*.md'  /b
+bash -c echo  'Dokumenty/*.md'
+bash -c echo  "Dokumenty/*.md"
+bash -c echo  okume
+bash
