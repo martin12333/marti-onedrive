@@ -57,6 +57,28 @@ https://www.diigo.com/user/martin12333?page=49
 C:\Users\marti\OneDrive\Non-24-Hour--Sleep-Disorder\24bu---tracker --- diigo - martin12333 - page 49 Generate Report.md
 [[24bu---tracker --- diigo - martin12333 - page 49 Generate Report]]
 
+# 24bu 
+
+track
+bearable
+N24
+notification
+export
+discord
+
+nov 23 28
+
+
+
+You can use the AutoSheet Tasker plugin to log notifications from specific apps on your phone automatically. For example, you can use it to log notifications from your banking apps to keep track of your daily expenditures. It can also be used to automatically log fitness data, home automation data, and location data. Furthermore, experienced Tasker users can utilize the new plugin to store Tasker Variables in a spreadsheet.
+
+
+
+
+
+
+
+
 # keywords
 
 nap, sleep, rest time tracker apps

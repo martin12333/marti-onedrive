@@ -12166,3 +12166,20 @@ bash -c echo  'Dokumenty/*.md'
 bash -c echo  "Dokumenty/*.md"
 bash -c echo  okume
 bash
+cmd /c dir ..\.ju*
+cmd /c dir ..\.em*
+cmd /c dir ..\.co*
+cmd /c dir ..\.*
+cmd /c dir ..\.*  | findstr jun
+cmd /c dir ..\.*  | findstr -i jun
+cmd /c dir ..\.*  | findstr -i 'jun|sym'
+cmd /c dir ..\.*  | findstr -iE 'jun|sym'
+cmd /c dir ..\.*  | findstr -i 'sym'
+cmd /c dir ..\.em*  | findstr -i 'sym'
+cmd /c dir ..\.emacs.d  | findstr -i 'sym'
+cmd /c dir ..\.jup*
+cmd /c dir ..\.Jupyter  | findstr -i 'sym'
+cmd /c dir ..\.Jupyter
+cmd /c dir ..\.Jupyter  /s
+find . -maxdepth 1 -mindepth 1 -type d  -iname '.*'
+bash
