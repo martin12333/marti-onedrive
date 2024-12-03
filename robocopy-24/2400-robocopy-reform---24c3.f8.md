@@ -51,3 +51,5 @@ git add -vv --dry-run  'Dokumenty/*.md'
 
 goes into subdirs
 
+
+
