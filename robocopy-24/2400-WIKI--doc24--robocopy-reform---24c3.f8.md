@@ -1,11 +1,9 @@
 
-
 # links
 
 file:///C:\Users\marti\OneDrive\robocopy-24\robocopy-doc24.f8.ps1
 
 file:///C:\Users\marti\OneDrive\robocopy-24\reform248q.f8.ps1
-
 
 # echo '-------- section --------'
 
@@ -20,33 +18,32 @@ exit
 code ps-mylen-mar\start-robocopy.cmd
 
 
-echo '-------- section --------'
-
-
-echo '-------- section --------'
+# 24c4
 
 
 
-
-
-# todo
-
-
-
+# todo 24c4
 
 
 relogin
 
+
 "C:\Users\marti\OneDrive\AAAA_GITHUB_WIKI"
+
 
 
 # D:\000doc24\
 D:\000doc24\
 find in files
 
+# FUTURE PLANS 
 
+c:\Users\marti\OneDrive\2400-WIKI
+was 2400---000-slight-abandoned
 
-# 2400-robocopy-reform---24c3.f8.md
+# 24c3
+
+ 2400-robocopy-reform---24c3.f8.md
 
 cmd /c dir    /b /s >1
 cmd /c dir  '*aaaaaa*'   /b /s 
