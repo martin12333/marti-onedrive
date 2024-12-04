@@ -14,3 +14,5 @@ is it true, that the digestion of carbohydrates in the body depletes the body's 
 
 
 https://glasp.co/uhu6drb9cmm389j0/p/2242b8f3aaedc2f88536
+
+[[can gluten cause fatigue.f8]]

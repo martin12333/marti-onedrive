@@ -20,7 +20,7 @@ code ps-mylen-mar\start-robocopy.cmd
 
 # 24c4
 
-
+C:\Users\marti\OneDrive\Dokumenty\c THIS is THE C DRIVE.f8.txt
 
 # todo 24c4
 

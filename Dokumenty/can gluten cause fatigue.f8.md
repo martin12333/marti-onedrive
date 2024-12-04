@@ -1,5 +1,9 @@
 can gluten cause fatigue.f8.md
 
+
+[[digestion of carbohydrates.f8]]
+
+
 how long does it take 
 how many hours does it take to get fatigue after eating gluten
 
