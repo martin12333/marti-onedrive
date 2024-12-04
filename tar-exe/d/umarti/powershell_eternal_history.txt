@@ -12193,3 +12193,4 @@ start  "OneDrive" /min  /low   Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti
 pwd
 pwd | clip
 pwd
+Get-Process   -Name Robocopy

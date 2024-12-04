@@ -23,20 +23,33 @@ code ps-mylen-mar\start-robocopy.cmd
 C:\Users\marti\OneDrive\Dokumenty\c THIS is THE C DRIVE.f8.txt
 
 RENAMED D:DOKu
-
-# todo 24c4
-
-
 relogin
+Get-Process   -Name Robocopy
+
+find in files
+D:\000doc24
+*.ps1,*.sh,*.cmd
+
+C:\Users\marti\OneDrive\powershell-f8\admin-ise--adminsaves.f8.ps1
+
+D[:][\\]000doc24[^\\]
+
+*.f8.*
+*.f8.dib
+*.dib
+D:\000doc24
 
 
-"C:\Users\marti\OneDrive\AAAA_GITHUB_WIKI"
+##  D:\000doc24 might be pinned from techl
 
-
+# todo 24c4+
 
 # D:\000doc24\
-D:\000doc24\
 find in files
+D:\000doc24\
+*.f8.*
+
+
 
 # FUTURE PLANS 
 
@@ -46,6 +59,7 @@ was 2400---000-slight-abandoned
 POSTPONED FUTURE PLAN 24C3+++ MAKE THIS DIR 2400 THE SUCCESSOR TO DOKUME
 POSTPONED FUTURE PLAN 24C3+++ MAKE  2400 THE SUCCESSOR TO DOKUME
 
+"C:\Users\marti\OneDrive\AAAA_GITHUB_WIKI"
 
 # 24c3
 
