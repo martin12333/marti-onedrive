@@ -7,6 +7,24 @@ exit
 (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
 
+echo '-------- section --------'
+
+backlink
+C:\Users\marti\OneDrive\robocopy-24\2400-WIKI--doc24--robocopy-reform---24c3.f8.md
+
+echo '-------- section --------'
+
+exit
+pwsh
+Get-Process   -Name Robocopy
+
+kill -Name  Robocopy
+exit
+
+
+echo '-------- section --------'
+
+
 https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy#examples
 
 
@@ -24,25 +42,26 @@ https://ss64.com/nt/robocopy.html
 
 echo '-------- section --------'
 
-pwsh
-Get-Process   -Name Robocopy
 
-kill -Name  Robocopy
-exit
-
-echo '-------- section --------'
-
-
-
+aaaaA
 ****.*
-Running Robocopy commands under PowerShell will add quotation marks to the options creating an "invalid parameter" error, [details], this issue is fixed in the latest version of PowerShell 7.2. In most cases you will find it easier to write a simple batch file and call that from PowerShell.
-https://stackoverflow.com/questions/6714165/powershell-stripping-double-quotes-from-command-line-arguments
-
-
 
 HORROR
 
 code .\powershell-f8\stackoverflow-676714165--powershell-stripping-double-quotes-from-command-line-arguments.f8.ps1
+
+
+
+
+
+# Running Robocopy commands under PowerShell will add quotation marks to the options creating an "invalid parameter" error, [details], this issue is fixed in the latest version of PowerShell 7.2. In most cases you will find it easier to write a simple batch file and call that from PowerShell.
+https://stackoverflow.com/questions/6714165/powershell-stripping-double-quotes-from-command-line-arguments
+
+
+
+echo '-------- section --------'
+
+
 
 code ps-mylen-mar\start-robocopy.cmd
 

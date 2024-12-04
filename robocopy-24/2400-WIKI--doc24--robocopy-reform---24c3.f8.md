@@ -1,5 +1,30 @@
 
 
+C:\Users\marti\OneDrive\robocopy-24\robocopy-doc24.f8.ps1
+C:\Users\marti\OneDrive\robocopy-24\reform248q.f8.ps1
+
+echo '-------- section --------'
+
+exit
+pwsh
+Get-Process   -Name Robocopy
+
+kill -Name  Robocopy
+exit
+
+echo '-------- section --------'
+
+
+echo '-------- section --------'
+
+
+
+code ps-mylen-mar\start-robocopy.cmd
+
+# D:\000doc24\
+D:\000doc24\
+find in files
+
 
 
 2400-robocopy-reform---24c3.f8.md

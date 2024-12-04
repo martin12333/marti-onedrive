@@ -1,12 +1,13 @@
 
 rem
 
-rem "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\start-robocopy.cmd - Shortcut.lnk"
-
-rem the parent of this was file:///C:\Users\marti\OneDrive\ps-mylen-mar\myrobocopy-onedrive.ps1
-
-
 rem do experiments in file:///C:\Users\marti\OneDrive\tar-exe\xcopy-robocopy--mymy.f8.ps1
+
+rem backlink file:///C:\Users\marti\OneDrive\robocopy-24\2400-WIKI--doc24--robocopy-reform---24c3.f8.md
+
+rem backlink "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\start-robocopy.cmd - Shortcut.lnk"
+
+rem the obsolete predecessor of this .cmd was file:///C:\Users\marti\OneDrive\ps-mylen-mar\myrobocopy-onedrive.ps1
 
 
 timeout.exe 60
@@ -32,8 +33,9 @@ rem  /njh
 
 rem  \BACKUP-DONTEDIT-000doc24
 
-start  "000doc24"  /min  /low  Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive   /e    /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*    /xd .vscode     /xf .gitignore       /xf .git  /XO  /LOG+:C:\Users\marti\log\doc24.log  /mot:1      /ndl    /nfl
-rem start  "000doc24"  /min  /low  Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive\BACKUP-DONTEDIT-000doc24   /e    /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*       /xf .git  /XO  /LOG+:C:\Users\marti\log\doc24.log  /mot:1      /ndl    /nfl
+rem 24c3 start  "000doc24"  /min  /low  Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive   /e    /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*    /xd .vscode     /xf .gitignore       /xf .git  /XO  /LOG+:C:\Users\marti\log\doc24.log  /mot:1      /ndl    /nfl
+
+rem 24?? older  start  "000doc24"  /min  /low  Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive\BACKUP-DONTEDIT-000doc24   /e    /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*       /xf .git  /XO  /LOG+:C:\Users\marti\log\doc24.log  /mot:1      /ndl    /nfl
 
 timeout.exe 5
 

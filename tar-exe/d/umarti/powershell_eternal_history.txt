@@ -12185,3 +12185,8 @@ find . -maxdepth 1 -mindepth 1 -type d  -iname '.*'
 bash
 cmd /c dir    /b /s >1
 bash
+Get-Process   -Name Robocopy
+kill -Name  Robocopy
+Get-Process   -Name Robocopy
+code ps-mylen-mar\start-robocopy.cmd
+start  "OneDrive" /min  /low   Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--robo    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git                    /mot:5    /ndl    /nfl   /LOG+:C:\Users\marti\log\onedr.log
