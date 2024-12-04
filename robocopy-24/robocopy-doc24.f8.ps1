@@ -153,7 +153,7 @@ using cmd.exe,
 
 
 
-todo
+###todo
 code  C:\Users\marti\OneDrive\ps-mylen-mar\myrobocopy-onedrive.ps1
 
 
