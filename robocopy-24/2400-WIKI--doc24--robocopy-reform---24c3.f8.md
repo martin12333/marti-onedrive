@@ -22,6 +22,8 @@ code ps-mylen-mar\start-robocopy.cmd
 
 C:\Users\marti\OneDrive\Dokumenty\c THIS is THE C DRIVE.f8.txt
 
+RENAMED D:DOKu
+
 # todo 24c4
 
 
@@ -40,6 +42,10 @@ find in files
 
 c:\Users\marti\OneDrive\2400-WIKI
 was 2400---000-slight-abandoned
+
+POSTPONED FUTURE PLAN 24C3+++ MAKE THIS DIR 2400 THE SUCCESSOR TO DOKUME
+POSTPONED FUTURE PLAN 24C3+++ MAKE  2400 THE SUCCESSOR TO DOKUME
+
 
 # 24c3
 
