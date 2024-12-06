@@ -44,6 +44,8 @@ D:\000doc24
 
 # todo 24c4+
 
+
+
 # D:\000doc24\
 find in files
 D:\000doc24\
