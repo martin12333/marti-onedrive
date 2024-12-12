@@ -3,8 +3,11 @@
 file:///C:\Users\marti\OneDrive\conn\mynotes-doprav.f8.md
 
 - [cti recenze](#cti-recenze)
-- [sleep bryle](#sleep-bryle)
+- [sleep bryle, oranžová zarovka](#sleep-bryle-oranžová-zarovka)
+- [pamatuj](#pamatuj)
+- [experiment 24Ar 24As](#experiment-24ar-24as)
 - [gkeep-23](#gkeep-23)
+- [boty 219](#boty-219)
 - [dr4 mynotes alza](#dr4-mynotes-alza)
 
 
@@ -12,6 +15,30 @@ file:///C:\Users\marti\OneDrive\conn\mynotes-doprav.f8.md
 # cti recenze
 
 https://www.alza.cz/bluetooth-lokatory/18860773.htm
+
+## aaaaa
+Není to přímo mínus ,ale díky větší hloubce kvůli víčku je malinko krkolomné tam vsunout pravoúhlou vidlici, některé tam nebude možné připojit. Například rozdvojka na to má krátké tělo vidlice. Já mám tento kabel hlavně na propojení mezi bubnem a elektrickým nářadím, a tam jsou vidlice většinou rovné ,tak to není problém.
+
+Někoho může otravovat "funění" větráčku
+
+obsahuje vetrak, ktory nabijany mobil chladi, takze po nabiti ma normalnu izbovu teplotu
+
+nabija Samsung Galaxy Watch 5, obsahuje magnet, ktory hodinky pritiahne na pozadovane miesto
+
+Kabel by mohl být delší nebo alespoň vyměnitelný.
+
+Na nabíjanie je treba telefón na milimetre presne. Akýkoľvek pohyb prestane nabíjať.
+
+když nepoužívám, musím v podstatě neustále vyndavat ze zásuvky (popírá podstatu bezdrátové nabíječky) - jinak strašně nepříjemně píská
+pokud zrovna nenabíjíte vydává v krátkých intervalech nepříjemný zvuk, "píská"
+Obecně je to asi dobrý produkt ale nabíječka je velmi hlučná takže se nehodí na noční nabíjení, hluk ventilátoru se dá eliminovat tím že vypnete rychlé nabíjení na mobilu ale když položíte cokoliv na druhou nabíjecí plochu (i bez mobilu) tak se ventilátor stejně zapne. pak je druhý větší problém a to je takové "cvrlikání" které vydává přímo nabíjecí cívka a je oproti ventilátoru velmi rušivé. Produkt budu tedy nejspíše vracet.
+
+
+
+Nepodporuje starší standart QI (aspoň mě to starší telefon nenabíjelo)
+
+
+
 
 
 
@@ -302,6 +329,147 @@ Celkem bez DPH
 Celkem s DPH
 7 901 Kč
 P-DC1-WEB08
+
+
+
+
+# boty 219
+
+Martin Novy
+Martin Novy
+Alza.cz
+26
+Co hledáte? Např. kabel AlzaPower...
+1
+Košík
+2
+Doprava a platba
+3
+Dodací údaje
+Košík
+(0)
+299
+(17)
+Oblíbené
+(4)
+nimh+nabijecka
+(5)
+23-gkeep
+(36)
+23-alt
+(10)
+key234
+(7)
+recenz,omyl
+(6)
+211
+(9)
+zima230
+(7)
+topen22
+(11)
+...
+GKeep22
+(14)
+alt22gk
+(7)
+GKeep21
+(19)
+done22
+(6)
+Eda227
+(5)
+i4
+(6)
+203
+(6)
+výhled
+(8)
+boty219
+(6)
+alter211
+(22)
+taštička na doklady,i4
+(6)
+taška
+(12)
+bojím
+(5)
+LATER-201
+(6)
+mob21
+(7)
+TV-sluchátka
+(2)
+USB Hub
+(6)
+201
+(5)
+i4ALTERN
+(3)
+19c
+(4)
+Horko,197
+(4)
+197
+(3)
+Nemléčné kaše
+(6)
+2017-08-velke
+(13)
+2017-odkládám
+(3)
+2017-altern
+(8)
+2017-zavrh
+(9)
+Alza TopOffice Mini i
+(3)
+sleep bryle
+(6)
+nenutne23
+(3)
+Adidas Supernova šedá/bílá EU 45,33 / 280 mm
+Adidas Supernova šedá/bílá EU 45,33 / 280 mm
+1
+1
+Prodej skončil
+PUMA Auriz bílá/černá EU 44,5 / 290 mm
+PUMA Auriz bílá/černá EU 44,5 / 290 mm
+1
+1
+Prodej skončil
+Adidas Galaxy 9 modrá/bílá EU 44,67 / 276 mm
+Adidas Galaxy 9 modrá/bílá EU 44,67 / 276 mm
+1
+1
+Prodej skončil
+Adidas Asweetrain bílá/černá EU 45,33 / 280 mm
+Adidas Asweetrain bílá/černá EU 45,33 / 280 mm
+1
+1
+Prodej skončil
+PUMA 365 FUTSAL 2 modrá/zelená EU 45 / 295 mm
+PUMA 365 FUTSAL 2 modrá/zelená EU 45 / 295 mm
+1
+1
+Prodej skončil
+PUMA Explode 2 bílá/černá EU 45 / 295 mm
+PUMA Explode 2 bílá/černá EU 45 / 295 mm
+1
+1
+Prodej skončil
+Celkem bez DPH
+0 Kč
+Celkem s DPH
+0 Kč
+P-DC1-WEB27
+
+
+
+
+
+
 
 
 # dr4 mynotes alza
