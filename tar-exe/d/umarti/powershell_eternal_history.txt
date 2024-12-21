@@ -12194,3 +12194,19 @@ pwd
 pwd | clip
 pwd
 Get-Process   -Name Robocopy
+cmd /c dir *.md /b /s >a
+code a
+cmd /c dir *.f8.md /b /s >a
+start command:workbench.action.toggleKeybindingsLog
+cmd /c dir *,*.f8.md /b /s
+cmd /c dir '*,*.f8.md' /b /s
+cmd /c dir "*,*.f8.md" /b /s
+cmd /c dir "*`,*.f8.md" /b /s
+cmd
+cmd /c dir *.f8.md /b /s | findstr -i ','
+cmd /c dir *.f8.md /b /s | findstr -i '[^-a-z0-9.% ,]'
+cmd /c dir *.f8.md /b /s | findstr -i '[^-a-z0-9.% ]'
+cmd /c dir *.f8.md /b /s | findstr -i ','
+cmd /c dir   /b /s    /ad   | findstr -i ','
+cmd /c dir   /ad   /b /s >d
+code d

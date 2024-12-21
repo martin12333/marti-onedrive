@@ -16,7 +16,24 @@ Dr. Max
 
 
 
+
+# Ověření adresy se nepodařilo
+
+Je nám líto, ale vámi zadanou adresu se nám nepodařilo najít. Prosím, zkontrolujte a upravte adresu.
+Poskytnutá adresa
+15300 Praha 16
+Tuto adresu jsem v naší databázi nenašli. V případě nesprávné adresy může dojít ke zpoždění doručení.
+
+
+
+
+153 00
+
+
+
 # Ověření adresy
+
+Praha
 
 Našli jsme přesnější adresu. Zkontrolujte, prosím, změny vyznačené tučným písmem.
 

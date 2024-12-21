@@ -3,12 +3,15 @@
 file:///C:\Users\marti\OneDrive\conn\mynotes-doprav.f8.md
 
 - [cti recenze](#cti-recenze)
+	- [aaaaa](#aaaaa)
 - [sleep bryle, oranžová zarovka](#sleep-bryle-oranžová-zarovka)
 - [pamatuj](#pamatuj)
 - [experiment 24Ar 24As](#experiment-24ar-24as)
 - [gkeep-23](#gkeep-23)
 - [boty 219](#boty-219)
 - [dr4 mynotes alza](#dr4-mynotes-alza)
+- [https://www.facebook.com/groups/188395662472619/search/?q=philips%20hue](#httpswwwfacebookcomgroups188395662472619searchqphilips20hue)
+- [24ck--  hmotnost alza philips](#24ck----hmotnost-alza-philips)
 
 
 
@@ -61,7 +64,7 @@ Doprava a platba | Alza.cz
 https://www.alza.cz/Order2.htm
 
 Highlights & Notes
-- Zásilku přivezeme nejvýhodnějším dopravcem až k vám domů. Volíme mezi dopravci AlzaExpres, Česká pošta, DPD, WE|DO, PPL a Messenger.
+#aaa - Zásilku přivezeme nejvýhodnějším dopravcem až k vám domů. Volíme mezi dopravci AlzaExpres, Česká pošta, DPD, WE|DO, PPL a Messenger.
 
 Zboží povezeme z více skladů, jak chcete zboží doručit?
 
@@ -98,6 +101,7 @@ Bluetooth lokalizační čip Samsung Galaxy SmartTag2 White (WR621a10)
 
 # gkeep-23
 
+https://www.alza.cz/Order1.htm?listId=87761891
 
 
 SLEEP-1 červené brýle proti modrému světlu
@@ -755,3 +759,41 @@ Prodejny a odběrná místa
 po celé ČR
  1994 - 2017 Alza.cz a.s.
 WEB24
+
+
+
+
+# https://www.facebook.com/groups/188395662472619/search/?q=philips%20hue
+
+•​ Když ji zapnu v noci, bude svítit slabě čistě červenou barvou (RGB mód).
+ noci, červené rgb 
+cirkadianni 
+
+Jaku jo, to prošlapáváme zhruba stejnou cestičku a jsme v podobném bodě. 
+
+Nebo je tady cloud varianta jako ...., ale teda to má zase nevýhodu, že výrobce se rozhodně z nějakého důvodu své služby omezit a v tu chvíli to přestane fungovat 
+
+
+# 24cj  hmotnost alza philips
+  hmotnost alza philips
+
+// https://www.diigo.com/user/martin12333?query=philips
+/// edge://favorites/?q=philips
+// edge://history/all?q=philips
+
+
+edge://history/all?q=hmotnost
+https://www.diigo.com/user/martin12333?query=hmotnost
+
+
+
+929003051401
+https://www.philips-hue.com/cs-cz/p/hue-white-filament-a60-chytra-zarovka-s-patici-e27/8719514342941
+
+
+
+
+https://www.alza.cz/Order1.htm?listId=87761891
+
+
+
