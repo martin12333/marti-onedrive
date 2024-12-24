@@ -2,9 +2,49 @@
 tags: 
 ---
 
+
+- [Discussion: Fixing \[\[wiki-links\]\] in GitHub Web UI · Issue #16 · foambubble/foam](#discussion-fixing-wiki-links-in-github-web-ui--issue-16--foambubblefoam)
+- [martidate is like rickdate but yymd, yy base 10](#martidate-is-like-rickdate-but-yymd-yy-base-10)
+- [experiment ... #hashtags that are all numbers](#experiment--hashtags-that-are-all-numbers)
+- [experiment](#experiment)
+
+
+
 file:///C:\Users\marti\OneDrive\antidepresiva-slovnik-2021\
 
 file:///C:\Users\marti\OneDrive\antidepresiva-slovnik-2021\docs\features\tags-and-tag-explorer.md
+
+241224,5
+00:20
+work
+
+
+# Foam is now a web-extension. Probably one of the most requested features.
+
+# https://discord.com/channels/729975036148056075/729976283613626408
+
+
+
+# getting-started with foam
+https://foambubble.github.io/foam/
+
+Foam is a personal knowledge management and sharing system inspired by Roam Research, built on Visual Studio Code and GitHub.
+
+You can use Foam for organising your research, keeping re-discoverable notes, writing long-form content and, optionally, publishing it to the web.
+
+Further information about our inclusion philosophy, read "Foam is for hackers, not only for programmers" in our Principles bubble. In this workspace, we will discuss code and technology at length, but always remember to be respectful of contributors who aren't experts in it:
+
+Whether you want to build a Second Brain or a Zettelkasten, write a book, or just get better at long-term learning, Foam can help you organise your thoughts if you follow these simple rules:
+
+https://foambubble.github.io/foam/#getting-started
+
+https://github.com/foambubble/foam-template
+
+2400-WIKI
+
+
+
+
 
 
 
@@ -12,6 +52,7 @@ file:///C:\Users\marti\OneDrive\antidepresiva-slovnik-2021\docs\features\tags-an
 # Discussion: Fixing [[wiki-links]] in GitHub Web UI · Issue #16 · foambubble/foam
 https://github.com/foambubble/foam/issues/16
 
+"C:\Users\marti\OneDrive\wiki-f8\github-wiki.f8.sh"
 
 
 # martidate is like rickdate but yymd, yy base 10
