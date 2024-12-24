@@ -350,7 +350,8 @@
 	"github.copilot.advanced": {
 
 	},
-	"foam.graph.titleMaxLength": 26,
+	///"foam.graph.titleMaxLength": 29,
+	///"foam.graph.titleMaxLength": 26,  /// just an experim
 
 
 
