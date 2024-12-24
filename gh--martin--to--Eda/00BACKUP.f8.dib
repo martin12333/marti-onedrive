@@ -23,6 +23,7 @@ git push
 ## /L
 ##  /nfl  /ndl
 ###  \BACKUP-DONTEDIT-000doc24
+	git show --name-only
 
 #!markdown
 

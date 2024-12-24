@@ -93,7 +93,7 @@ ZZZ XXX VVV
 A už roky jsem asi neměl s kým mluvit o programovacích jazycích ...
 
 # vscode markdown
-    "markdown.extension.toc.updateOnSave": false,   // to be lightweight
+    "markdown.extension.toc.updateOnSave": false,   // to be lightweight ... i have autosave
 
 
 # markdown pozn.: vlnky \~\~~  v  markdownu neco znamena ...  na zac radky? ~~~ nebo je to skrtnuti  ~~aaaaaa~~

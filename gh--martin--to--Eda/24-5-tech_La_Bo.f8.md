@@ -2,6 +2,8 @@
 
 [previous was](24-3-tech_La_Bo.f8.md)
 
+[next](24-8-tech_La_Bo.f8.md)
+
 
 f1 markdown  toc
 

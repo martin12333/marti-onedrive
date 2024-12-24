@@ -8,6 +8,12 @@ file:///C:\Users\marti\OneDrive\antidepresiva-slovnik-2021\docs\features\tags-an
 
 
 
+
+# Discussion: Fixing [[wiki-links]] in GitHub Web UI · Issue #16 · foambubble/foam
+https://github.com/foambubble/foam/issues/16
+
+
+
 # martidate is like rickdate but yymd, yy base 10
 # experiment ... #hashtags that are all numbers
 
