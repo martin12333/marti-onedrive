@@ -40,9 +40,16 @@ https://foambubble.github.io/foam/#getting-started
 
 https://github.com/foambubble/foam-template
 
+
+"C:\Users\marti\OneDrive\2400-WIKI-oooold"
+
 2400-WIKI
 
+cd c:\Users\marti\OneDrive
+git clone https://github.com/martin12333/2400-WIKI
 
+"C:\Users\marti\OneDrive\2400-WIKI"
+"D:\GIT-bk04\2400-WIKI.git"
 
 
 

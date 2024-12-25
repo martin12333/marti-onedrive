@@ -12210,3 +12210,5 @@ cmd /c dir *.f8.md /b /s | findstr -i ','
 cmd /c dir   /b /s    /ad   | findstr -i ','
 cmd /c dir   /ad   /b /s >d
 code d
+cd c:\Users\marti\OneDrive
+git clone https://github.com/martin12333/2400-WIKI
