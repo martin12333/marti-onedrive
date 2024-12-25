@@ -10,6 +10,8 @@ exit
 echo '-------- section --------'
 
 
+bash
+
 cd /c/Users/marti/OneDrive/AAAA_GITHUB_WIKI
 cd ..
 mv -iv AAAA_GITHUB_WIKI OLDAAAA_GITHUB_WIKI
@@ -24,7 +26,7 @@ totalcmd64
 
 cat .git
 
-C:\Users\marti\OneDrive\git-f8\git-init--separate-git-dir.f8.sh
+# file:///C:\Users\marti\OneDrive\git-f8\git-init--separate-git-dir.f8.sh
 
 #$ git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.wiki.git
 git remote -vvv add   origin https://github.com/martin12333/marti-onedrive.wiki.git

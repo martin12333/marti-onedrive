@@ -48,8 +48,14 @@ https://github.com/foambubble/foam-template
 cd c:\Users\marti\OneDrive
 git clone https://github.com/martin12333/2400-WIKI
 
+totalcmd64
+
+
 "C:\Users\marti\OneDrive\2400-WIKI"
 "D:\GIT-bk04\2400-WIKI.git"
+gitdir: D:/GIT-bk04/marti-onedrive.git
+gitdir: D:/GIT-bk04/marti-onedrive.wiki.git
+gitdir: C:/Users/marti/OneDrive/mylen-mar.git
 
 
 241224,5
@@ -57,6 +63,33 @@ work
 -1:10
 2:30-
 
+C:\Users\marti\OneDrive\wiki-f8\github-wiki.f8.sh
+
+C:\Users\marti\OneDrive\git-f8\git-init--separate-git-dir.f8.sh
+
+git init --separate-git-dir=/d/GIT-bk04/marti-onedrive.wiki.git
+
+
+gitdir: D:/GIT-bk04/marti-onedrive.wiki.git
+
+
+i want to use the git-dir in a script,
+
+
+
+i need to call `git push` with the full path to the git-dir in an env variable or in a command line argument
+is it possible to set the git-dir in an env variable or in a command line argument?
+
+answer: 
+git --git-dir=/path/to/git-dir --work-tree=/path/to/working-tree push
+
+GIT_DIR=/path/to/git-dir GIT_WORK_TREE=/path/to/working-tree git push
+
+#bash -c 'GIT_DIR=/path/to/git-dir GIT_WORK_TREE=/path/to/working-tree git push'
+
+cd 2400-WIKI
+bash
+export GIT_DIR=D:/GIT-bk04/2400-WIKI.git
 
 
 
