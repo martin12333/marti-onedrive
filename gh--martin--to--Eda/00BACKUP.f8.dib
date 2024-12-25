@@ -59,6 +59,7 @@ git ls-files   --deleted
 
 cd ~/OneDrive
 git add -vv --dry-run  '*00-WIKI/*.md'
+#git add -vv   '*00-WIKI/*.md'
 
 #!pwsh
 
