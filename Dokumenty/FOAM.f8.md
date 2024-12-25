@@ -88,9 +88,12 @@ GIT_DIR=/path/to/git-dir GIT_WORK_TREE=/path/to/working-tree git push
 #bash -c 'GIT_DIR=/path/to/git-dir GIT_WORK_TREE=/path/to/working-tree git push'
 
 ```bash
-cd 2400-WIKI
 bash
+
+cd 2400-WIKI
+
 	export GIT_DIR=D:/GIT-bk04/2400-WIKI.git
+
 	git show --name-only
 	git  status  -vv
 q
@@ -98,6 +101,7 @@ q
 	git commit -v -a -m backup     #-before
 git push
 
+	code .
 
 ```
 
