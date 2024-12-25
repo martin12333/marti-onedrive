@@ -28,13 +28,32 @@ work
 # getting-started with foam
 https://foambubble.github.io/foam/
 
-Foam is a personal knowledge management and sharing system inspired by Roam Research, built on Visual Studio Code and GitHub.
+Foam is a personal
+ knowledge management and sharing 
+ system inspired by Roam Research, built on Visual Studio Code and GitHub.
 
 You can use Foam for organising your research, keeping re-discoverable notes, writing long-form content and, optionally, publishing it to the web.
 
 Further information about our inclusion philosophy, read "Foam is for hackers, not only for programmers" in our Principles bubble. In this workspace, we will discuss code and technology at length, but always remember to be respectful of contributors who aren't experts in it:
 
-Whether you want to build a Second Brain or a Zettelkasten, write a book, or just get better at long-term learning, Foam can help you organise your thoughts if you follow these simple rules:
+Whether you want to build a Second Brain or a Zettelkasten, write a book, or just get better at 
+long-term learning
+, Foam can help you organise your thoughts if you follow these simple rules:
+
+
+The goal of Foam is to be your personal companion on your quest for knowledge.
+
+I am using it as my personal thinking tool. By making it public, I hope to learn from others not only how to improve Foam, but also to improve how I learn and manage information.
+
+
+
+
+To learn more about how to use Foam, read the Recipes.
+
+Getting stuck in the setup? Read the 
+[[freq]]
+[[Frequently Asked Questions]]
+
 
 https://foambubble.github.io/foam/#getting-started
 
@@ -98,10 +117,27 @@ cd 2400-WIKI
 	git  status  -vv
 q
 	git commit -v -a -m settings.json
+	git commit -v -a -m images
 	git commit -v -a -m backup     #-before
 git push
 
 	code .
+
+
+#add.* --dry-run
+	git add -vv       --dry-run       .gitignore    #'install.sh*'
+	git add -vv        .gitignore    #'install.sh*'
+	git add -vv       --dry-run      '*.gitignore'  #'*install.sh'
+	git add -vv       --dry-run       '*/.gitignore'  #'*/install.sh'
+	git add -vv       --dry-run       '*s/.gitignore'  #'*s/install.sh'
+	git add -vv         '*WIKI/.gitignore'  #'*s/install.sh'
+
+
+
+git add -vv --dry-run  './*.md'
+git add -vv --dry-run  '*.md'
+goes into subdirs
+
 
 ```
 

@@ -24,6 +24,7 @@ git push
 ##  /nfl  /ndl
 ###  \BACKUP-DONTEDIT-000doc24
 	git show --name-only
+# file:///C:\Users\marti\OneDrive\gitignore-test.f8.sh.ps1
 
 #!markdown
 
@@ -53,6 +54,11 @@ git ls-files   --deleted
 #git ls-files   --deleted   | findstr.exe -iv '[.]f8[.]'
 #git ls-files   --deleted   | findstr.exe -iv '[.]f8[.]md'
 #echo sdffdsffs
+
+#!pwsh
+
+cd ~/OneDrive
+git add -vv --dry-run  '*00-WIKI/*.md'
 
 #!pwsh
 

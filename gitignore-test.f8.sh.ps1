@@ -1,5 +1,21 @@
 exit
 
+
+#add.* --dry-run
+git add -vv       --dry-run       .gitignore    #'install.sh*'
+git add -vv       --dry-run      '*.gitignore'  #'*install.sh'
+git add -vv       --dry-run       '*/.gitignore'  #'*/install.sh'
+git add -vv       --dry-run       '*WIKI/.gitignore'  #'*s/install.sh'
+git add -vv         '*WIKI/.gitignore'  #'*s/install.sh'
+
+
+
+git add -vv --dry-run  '*00-WIKI/*.md'
+git add -vv --dry-run  '*.md'
+goes into subdirs
+
+
+
 \#*
 .#*
 

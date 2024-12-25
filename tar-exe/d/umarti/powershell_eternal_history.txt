@@ -12214,3 +12214,11 @@ cd c:\Users\marti\OneDrive
 git clone https://github.com/martin12333/2400-WIKI
 cd 2400-WIKI
 bash
+git add -vv       --dry-run       .gitignore    #'install.sh*'
+git add -vv       --dry-run      '*.gitignore'  #'*install.sh'
+git add -vv       --dry-run       '*/.gitignore'  #'*/install.sh'
+git add -vv       --dry-run       '*WIKI/.gitignore'  #'*s/install.sh'
+git add -vv         '*WIKI/.gitignore'  #'*s/install.sh'
+git add -vv --dry-run  '*WIKI/*.md'
+git add -vv --dry-run  '*-WIKI/*.md'
+git add -vv --dry-run  '*00-WIKI/*.md'
