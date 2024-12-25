@@ -89,7 +89,14 @@ GIT_DIR=/path/to/git-dir GIT_WORK_TREE=/path/to/working-tree git push
 
 cd 2400-WIKI
 bash
-export GIT_DIR=D:/GIT-bk04/2400-WIKI.git
+	export GIT_DIR=D:/GIT-bk04/2400-WIKI.git
+	git show --name-only
+	git  status  -vv
+q
+	git commit -v -a -m settings.json
+	git commit -v -a -m backup     #-before
+git push
+
 
 
 
