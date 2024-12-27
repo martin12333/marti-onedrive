@@ -146,9 +146,12 @@ goes into subdirs
 # Discussion: Fixing [[wiki-links]] in GitHub Web UI · Issue #16 · foambubble/foam
 
 
+
 https://foambubble.github.io/foam/user/features/link-reference-definitions#configuration
 
-## f1 foam update wiki-links definitions
+## EDIT: WORKAROUND: maybe push to github-wiki instead
+
+### old: f1 foam update wiki-links definitions
 
 Links with file extensions work better with standard markdown-based tools, such as GitHub web UI.
 
@@ -161,12 +164,20 @@ Links with file extensions work better with standard markdown-based tools, such 
 [[EMAILY.txt.f8]]
 [[ocd,ocpd,obsessive-compulsive-personality.f8]]
 [[pilulka.f8]]
+\[ ocd,ocpd,obsessive-compulsive-personality.f8]: ocd%2Cocpd%2Cobsessive-compulsive-personality.f8.md "The Fifteen-Minute Rule"
+
+The idea is to delay your response to an obsessive thought or to your urge to perform a compulsive behavior by letting some time elapse--preferably at least fifteen minutes--before you even consider acting on the urge or thought. In the beginning or whenever the urges are very intense, you may need to set a shorter waiting time, say five minutes, as your goal. But the principle is always the same: Never perform the compulsion without some time delay.
 
 
+
+BUG 241227 \[ bliss.f8]: bliss.f8.md "Blissary Bliss Dictionary ... the 3 symbols for "of""
+""
+
+BUG 241227
 f12
  delete the linkReferenceDefinitions
 alt + left 
-
+WORKAROUND: maybe push to github-wiki instead
 
 https://github.com/foambubble/foam/issues/16
 
