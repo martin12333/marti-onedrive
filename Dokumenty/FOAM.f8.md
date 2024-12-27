@@ -144,6 +144,17 @@ goes into subdirs
 
 
 # Discussion: Fixing [[wiki-links]] in GitHub Web UI · Issue #16 · foambubble/foam
+
+https://foambubble.github.io/foam/user/features/link-reference-definitions#configuration
+
+Links with file extensions work better with standard markdown-based tools, such as GitHub web UI.
+
+"foam.edit.linkReferenceDefinitions": "withoutExtensions" (default)
+"foam.edit.linkReferenceDefinitions": "withExtensions"
+	"foam.edit.linkReferenceDefinitions": "withExtensions",  // 241227-01
+
+
+
 https://github.com/foambubble/foam/issues/16
 
 "C:\Users\marti\OneDrive\wiki-f8\github-wiki.f8.sh"
