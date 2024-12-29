@@ -11,6 +11,8 @@ take si poslat kopii mailem
 bkup pomoci mailu
 
 https://mail.google.com/mail/u/0/#settings/filters   forward
+https://mail.google.com/mail/u/0/#settings/fwdandpop
+
 
 24At
 zrusim preposilani na mn80

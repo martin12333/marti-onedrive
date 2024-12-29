@@ -4,7 +4,7 @@
 outlook.com
 martin.milan.82@zavinac.com
 
-
+ZAVINAC DAVEJ INTO https://keep.google.com/#NOTE/1L9oOkFMlillVxgbbBgXo4FmQn0oWzdjXFboiYFOo6zyib8w6-HKW8E_h7yy11Gw
 
 
 
@@ -12,14 +12,17 @@ martin.milan.82@zavinac.com
 
 [[martin.milan.82-ZAVINAC-Outlook.f8]]
 
+
+https://mail.google.com/mail/u/0/#settings/filters   
+https://mail.google.com/mail/u/0/#settings/fwdandpop
+
 https://keep.google.com/#NOTE/1L9oOkFMlillVxgbbBgXo4FmQn0oWzdjXFboiYFOo6zyib8w6-HKW8E_h7yy11Gw
 
 https://photos.google.com/share/AF1QipPPI_qww3HKZVPyJ1s2bZ0avga98Gykc3RILqSevXVDlWkd4Y9-DtseaVVmsVIhyw?key=WUk5NUZRWWxhbF8tRmtlUDN3U1ZFZ1phN1RhQUtn
 
 https://github.com/martin12333/marti-onedrive/blob/main2/mff.cuni.cz,outLOOK.live.com/outlook-mail-forwarding.f8.md
 
-
-https://mail.google.com/chat/u/0/#chat/dm/it4biQAAAAE
+https://mail.google.com/chat/u/0/#chat/space/AAAA2NU9Pu0
 
 
 # https://outlook.live.com/mail/0/options/mail/forwarding?actSwt=true
@@ -43,6 +46,9 @@ forwarding?actSwt=true
 url
 /rules/
 
+
+
+## gonna experiment
 
 my qu:
 outlook rules : forward vs. redirect in outlook on the web ... does either the "forward" rule , or the "redirect" rule, mean , that it deletes the mail message from my inbox?
@@ -85,13 +91,13 @@ pozdeji jeste z @ou
 2. pokus z mn80
 
 
-(2. pokus ok, 1. pokus asi selhal jen kvuli harpin-forwarding (routing) sender1=mb75 rule2-receiver=mb75 == sender1 )
+(2. pokus ok, 1. pokus asi selhal jen kvuli hairpin-forwarding (routing) sender1=mb75 rule2-receiver=mb75 == sender1 )
 ted uz zbyva jen otazka, zda se nevymazal z Tveho inboxu, ale hadam, ze ne 
 
 
 3. pokus ohledne outlook rules
 
-(2. pokus ok, 1. pokus asi selhal jen kvuli harpin-forwarding (routing) sender1=mb75 rule2-receiver=mb75 == sender1 )
+(2. pokus ok, 1. pokus asi selhal jen kvuli hairpin-forwarding (routing) sender1=mb75 rule2-receiver=mb75 == sender1 )
 ted uz zbyva jen otazka, zda se 2.pokus nevymazal z Tveho inboxu, ale hadam, ze ne
 
 https://gemini.google.com/app/c374d635cf422d0a
