@@ -2,6 +2,10 @@
 
     // the most important settings are put first here
 
+// related file:///C:\Users\marti\OneDrive\tar-exe\c\Users\marti\AppData\Roaming\Code\User\settings.json
+// related https://github.com/martin12333/marti-onedrive/blob/main2/tar-exe/c/Users/marti/AppData/Roaming/Code/User/settings.json
+
+
 //24Ad  comment-out  because # i need github copilot updates
 // was: because f8 focus bug 1.75
 	//"update.mode": "manual",
@@ -334,7 +338,6 @@
 	"polyglot-notebook.defaultNotebookLanguage": "pwsh",
 	"easy-extensibility.dateCommand.windows": "cmd /c date /T",
 	"diffEditor.ignoreTrimWhitespace": false,
-	"window.zoomLevel": 2,
 	"notebook.output.textLineLimit": 61,
 	// 30
 	"notebook.output.wordWrap": true,
@@ -351,18 +354,18 @@
 
 	},
 
-	"foam.edit.linkReferenceDefinitions": "off", // 241229-17
 	//"foam.edit.linkReferenceDefinitions": "withoutExtensions", //(default)  ... GH wiki?
+	//"foam.edit.linkReferenceDefinitions": "withExtensions",  // 241227-01
+	"foam.edit.linkReferenceDefinitions": "off", // 241229-17
 
-	"foam.edit.linkReferenceDefinitions": "withExtensions",  // 241227-01
+	"window.zoomLevel": 2,
 
-// DONT FORGET THE COMMA AFTER EACH SETTING
+	// DONT FORGET THE COMMA AFTER EACH SETTING
+// related file:///C:\Users\marti\OneDrive\tar-exe\c\Users\marti\AppData\Roaming\Code\User\settings.json
+// related https://github.com/martin12333/marti-onedrive/blob/main2/tar-exe/c/Users/marti/AppData/Roaming/Code/User/settings.json
 
-	///"foam.graph.titleMaxLength": 29,
+
 	///"foam.graph.titleMaxLength": 26,  /// just an experim
-
-
-
 
     // db
     // ## pgm --help -help -h -e -l -p -- :;.,$&O01lI"''`--
