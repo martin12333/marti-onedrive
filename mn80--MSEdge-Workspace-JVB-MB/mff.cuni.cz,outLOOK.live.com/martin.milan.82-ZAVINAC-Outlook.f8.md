@@ -1,7 +1,28 @@
 
 // Milan: "...@" edited, repeatedly
+
+**view info**	- [Click “Your info” on the top navigation bar.](#click-your-info-on-the-top-navigation-bar)
+
 outlook.com
-martin.milan.82@zavinac.com
+**martin.milan.82**
+zavinac.com
+
+**NEW: milan.m.bo.**
+
+
+
+- [links](#links)
+- [https://www.microsoft.com/en-us/microsoft-365-life-hacks/organization/how-to-change-your-email-address-the-easy-way](#httpswwwmicrosoftcomen-usmicrosoft-365-life-hacksorganizationhow-to-change-your-email-address-the-easy-way)
+	- [Click “Your info” on the top navigation bar.](#click-your-info-on-the-top-navigation-bar)
+	- [An account alias is an email address or phone number that you use to sign in to your Microsoft account. You can have multiple aliases, and use any of them with Microsoft services such as Outlook.com, Skype, OneDrive, Office, Xbox, Windows and more.](#an-account-alias-is-an-email-address-or-phone-number-that-you-use-to-sign-in-to-your-microsoft-account-you-can-have-multiple-aliases-and-use-any-of-them-with-microsoft-services-such-as-outlookcom-skype-onedrive-office-xbox-windows-and-more)
+	- [// zbytecna obava  JAK SE BUDU HLASIT PRIMARY](#-zbytecna-obava--jak-se-budu-hlasit-primary)
+	- [Your account can have multiple aliases, each of which lets you sign in to all the devices and services that use Microsoft account. Your aliases share a single password, and you can send and receive mail with each. Learn more about account aliases.](#your-account-can-have-multiple-aliases-each-of-which-lets-you-sign-in-to-all-the-devices-and-services-that-use-microsoft-account-your-aliases-share-a-single-password-and-you-can-send-and-receive-mail-with-each-learn-more-about-account-aliases)
+	- [Account aliases](#account-aliases)
+- [That Microsoft account doesn't exist. Enter a different account or get a new one.](#that-microsoft-account-doesnt-exist-enter-a-different-account-or-get-a-new-one)
+- [outlook\_4B122 @](#outlook_4b122-)
+
+
+# links
 
 
 Note: If you use a work or school account to sign in to Microsoft 365, you're using Outlook on the web. If you're using an Outlook.com, Hotmail, Live, or MSN account, see Use inbox rules in Outlook.com.
@@ -10,22 +31,24 @@ Note: If you use a work or school account to sign in to Microsoft 365, you're us
 [[outlook-mail-forwarding.f8]]
 
 
+# How to create an Outlook alias:
 
-# https://www.microsoft.com/en-us/microsoft-365-life-hacks/organization/how-to-change-your-email-address-the-easy-way
 
-How to create an Outlook alias:
+https://www.microsoft.com/en-us/microsoft-365-life-hacks/organization/how-to-change-your-email-address-the-easy-way#create-outlook-alias
+
 
 Log into your Microsoft account.
 
 https://account.microsoft.com/
 
 
-Click “Your info” on the top navigation bar.
+## Click “Your info” on the top navigation bar.
 
 https://account.microsoft.com/profile?lang=en-US#main-content-landing-react
 
+Scroll down to the “Account info” section 
 
-Scroll down to the “Account info” section and click “Edit account info” on the right side of the screen.
+and click “Edit account info” on the right side of the screen.
 
 https://account.live.com/names/manage?mkt=en-US&refd=account.microsoft.com&refp=profile&uaid=80f18e567ba243b0806050f9b1b0ae17
 Manage how you sign in to Microsoft.
@@ -75,9 +98,8 @@ Add email
 
 
 
-Microsoft
-Pick an account
 # That Microsoft account doesn't exist. Enter a different account or get a new one.
+Pick an account
 	
 Martin Milan
 marti@gmail.com
