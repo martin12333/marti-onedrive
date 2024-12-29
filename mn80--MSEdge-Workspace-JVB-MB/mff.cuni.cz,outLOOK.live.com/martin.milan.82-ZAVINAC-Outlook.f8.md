@@ -3,14 +3,14 @@
 // Milan: "...@" edited, repeatedly
 **ZAVINAC DAVEJ INTO** https://keep.google.com/#NOTE/1L9oOkFMlillVxgbbBgXo4FmQn0oWzdjXFboiYFOo6zyib8w6-HKW8E_h7yy11Gw
 
-**view info**	- [Click “Your info” on the top navigation bar.](#click-your-info-on-the-top-navigation-bar)
+**debug view info**	- [Click “Your info” on the top navigation bar.](#click-your-info-on-the-top-navigation-bar)
 
 outlook.com
 **martin.milan.82**
 zavinac.com
 
 **NEW: milan.m.bo.**
-
+241229
 
 
 - [links](#links)
@@ -84,6 +84,7 @@ Create a new email address and add it as an alias
 martin.milan.82 ZAVINAC o c 
 
 **NEW: milan.m.bo.**
+241229
 
 C:\Users\marti\OneDrive\mff.cuni.cz,outLOOK.live.com\martin.milan.82-ZAVINAC-Outl.f8.md
 ### asi radeji  .com nikoli .cz
@@ -121,7 +122,7 @@ Martin Milan
 marti@gmail.com
 Signed in
 	
-# outlook_4B122 @   marti
+## outlook_4B122 @   marti
 ## mila span class=  	outlook_B4BBB42E...
 	
 	Use another account
@@ -131,17 +132,49 @@ Terms of usePrivacy & cookies...
 
 //// https://outlook.live.com/mail/0/options/mail/accounts?actSwt=true
 
-OLD cannot find outlook setting : set default "FROM" address
-EDIT it is not a setting
-## How do I change the from email address in Outlook?
+
+#  outlook setting : set default "FROM" address
+
+## WORKAROUND: in the compose window, select. > Show From to see the From line.
+### How do I change the from email address in Outlook?
 Send email from a different address in Outlook.com
 ### In the compose window, select. > Show From to see the From line.
 Select From and choose which email address you want to use.
 If you don't see all your accounts or aliases, select Other email address... and start typing the email address or name you want to send from.
 
+# https://outlook.live.com/mail/0/options/mail/forwarding
 
-funguje poslani mailu na gmail i  zpet
-funguje to
+<p class="bHeUs">Sign in and verify your account to forward your email or sync to your devices.</p>
+
+Pick an account
+
+tried various accounts, 
+
+attempt 3
+always
+That Microsoft account doesn't exist. Please enter a different account.
+go further back
+
+attempt 3b
+ok
+
+attempt 2
+
+<p>You can forward your email to another account.</p>
+<span class="ms-Checkbox-text text-306">Keep a copy of forwarded messages</span>
+
+attempt 4
+
+after reload, the Enable forwarding checkbox is unchecked
+
+attempt 5
+ok
+
+# funguje poslani mailu na gmail i  zpet
+funguje to  martin
+
+241229?
+
 
 
 

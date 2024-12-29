@@ -28,6 +28,8 @@ https://mail.google.com/chat/u/0/#chat/space/AAAA2NU9Pu0
 # https://outlook.live.com/mail/0/options/mail/forwarding?actSwt=true
 
 
+241229
+[[martin.milan.82-ZAVINAC-Outlook.f8#https://outlook.live.com/mail/0/options/mail/forwarding]]
 
 Forwarding
 You can forward your email to another account.
@@ -39,19 +41,17 @@ Keep a copy of forwarded messages
 
 
 
+# /rules/
 
 https://outlook.live.com/mail/0/options/mail/
 
-forwarding?actSwt=true
-url
-/rules/
 
 
 
 ## gonna experiment
 
 my qu:
-outlook rules : forward vs. redirect in outlook on the web ... does either the "forward" rule , or the "redirect" rule, mean , that it deletes the mail message from my inbox?
+## outlook rules : forward vs. redirect in outlook on the web ... does either the "forward" rule , or the "redirect" rule, mean , that it deletes the mail message from my inbox?
 
 ai:
 	probably not
@@ -90,7 +90,7 @@ pozdeji jeste z @ou
 
 2. pokus z mn80
 
-
+OLD STR: harpin (hairpin)
 (2. pokus ok, 1. pokus asi selhal jen kvuli hairpin-forwarding (routing) sender1=mb75 rule2-receiver=mb75 == sender1 )
 ted uz zbyva jen otazka, zda se nevymazal z Tveho inboxu, ale hadam, ze ne 
 
