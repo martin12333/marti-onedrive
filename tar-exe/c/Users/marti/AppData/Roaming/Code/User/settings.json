@@ -351,7 +351,12 @@
 
 	},
 
+	"foam.edit.linkReferenceDefinitions": "off", // 241229-17
+	//"foam.edit.linkReferenceDefinitions": "withoutExtensions", //(default)  ... GH wiki?
+
 	"foam.edit.linkReferenceDefinitions": "withExtensions",  // 241227-01
+
+// DONT FORGET THE COMMA AFTER EACH SETTING
 
 	///"foam.graph.titleMaxLength": 29,
 	///"foam.graph.titleMaxLength": 26,  /// just an experim
