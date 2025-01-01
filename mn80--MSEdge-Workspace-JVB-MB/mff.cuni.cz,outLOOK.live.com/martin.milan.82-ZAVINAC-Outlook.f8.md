@@ -174,6 +174,10 @@ ok
 funguje to  martin
 
 241229?
+all works except the forwarding .. maybe because i replied to the mail from the same account ... hairpinning?
+
+
+
 
 
 
