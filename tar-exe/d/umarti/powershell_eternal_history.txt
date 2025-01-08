@@ -12230,3 +12230,6 @@ cat ~/bcloudREADONLY/alma.txt
 echo   $(cat ~/bcloudREADONLY/alma.txt)
 where.exe ssh
 C:\Windows\System32\OpenSSH\ssh.exe   $(cat ~/bcloudREADONLY/alma.txt)
+wsl --list --all --verbose
+wsl --shutdown
+wsl --list --all --verbose
