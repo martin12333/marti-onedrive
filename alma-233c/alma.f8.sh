@@ -74,7 +74,15 @@ code backup-f8
 dir C:\Users\milan_rxtipwr\OneDrive\alma-222-mi75
 dir D:\Users\milanlocal\alma-222-mb75-dee
 
-C:\Users\marti\OneDrive\alma-222\alma.f8.sh
+###dir C:\Users\marti\OneDrive\alma-222\alma.f8.sh
+
+
+
+
+
+
+
+echo '-------- section --------'
 
 code alma-233c\nef8.sh
 
@@ -83,6 +91,19 @@ code alma-233c\create_backup.sh
 
 
 
+
+
+
+
+echo '-------- section --------'
+
+ubuntu22 #wsl
+
+cat bcloudREADONLY/alma.txt
+echo   $(cat bcloudREADONLY/alma.txt)
+which ssh
+
+/usr/bin/ssh   $(cat bcloudREADONLY/alma.txt)
 
 
 echo '-------- section --------'
@@ -96,6 +117,9 @@ where.exe ssh
 #$Env:Path   -split ';'
 
 
+
+
+Unable to negotiate with 195.113.34.132 port 22: no matching host key type found. Their offer: ssh-rsa,ssh-dss
 
 C:\Windows\System32\OpenSSH\ssh.exe   $(cat ~/bcloudREADONLY/alma.txt)
 
@@ -346,9 +370,28 @@ su.mff.cuni.cz
 
 google-forms
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 echo '-------- section --------'
-
-
 
 # todo split to a separate file
 alma---24bL.f8.txt.md

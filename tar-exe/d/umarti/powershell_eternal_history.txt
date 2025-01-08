@@ -12222,3 +12222,11 @@ git add -vv         '*WIKI/.gitignore'  #'*s/install.sh'
 git add -vv --dry-run  '*WIKI/*.md'
 git add -vv --dry-run  '*-WIKI/*.md'
 git add -vv --dry-run  '*00-WIKI/*.md'
+ping fu.mff.cuni.cz
+ping alma.karlov.mff.cuni.cz
+dir C:\Users\marti\OneDrive\alma-222\alma.f8.sh
+code alma-233c\nef8.sh
+cat ~/bcloudREADONLY/alma.txt
+echo   $(cat ~/bcloudREADONLY/alma.txt)
+where.exe ssh
+C:\Windows\System32\OpenSSH\ssh.exe   $(cat ~/bcloudREADONLY/alma.txt)

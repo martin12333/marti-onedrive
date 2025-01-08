@@ -846,3 +846,7 @@ done
 : 1696975963:0;pwd
 : 1696975974:0;wget --verbose https://omfbrfhmu.foto-show.pl
 : 1723228359:0;dmesg
+: 1736358799:0;cat bcloudREADONLY/alma.txt
+: 1736358816:0;echo   $(cat bcloudREADONLY/alma.txt)
+: 1736358824:0;which ssh
+: 1736358894:0;/usr/bin/ssh   $(cat bcloudREADONLY/alma.txt)
