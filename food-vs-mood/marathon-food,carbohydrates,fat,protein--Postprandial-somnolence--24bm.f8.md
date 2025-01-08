@@ -113,6 +113,13 @@ the need to sleep or 'crash'
 
 
 
+Z mé relativně dlouhé zkušenosti s manou je to super doplněk jídla. Asi rok jsme s kolegou manu obědvali. Pozitivní je, že nemáš ten poobědový útlum. Nevýhoda je absolutní absence sociální složky jídla, kdybych to provozoval sám. Momentálně manu používám hlavně na cestách/túrách/sportu a případně k zahuštění proteiňáku.
+
+
+https://michal.skrabalek.cz/nazory/3-mesice-bez-jidla-zkusenosti-s-praskem-budoucnosti
+
+Nebaví mě vařit ani nakupovat. Fakt ne. Zároveň ale musím jíst hodně a často, holt ektomorf. Navíc vegan. Vždy pro mě bylo těžké dostat do sebe aspoň 1500 kcal denně, což je samo o sobě málo. Navíc vyváženě a zdravě. Dostat se na doporučovaných 2000 kcal už chtělo fakt hodně úsilí - nejen to poskládat dohromady, ale hlavně to sníst. Přechodem na veganství se to sice o dost zlepšilo, ale pořád nic moc.
+
 
 
 https://en.wikipedia.org/wiki/Physiology_of_marathons#Fuel

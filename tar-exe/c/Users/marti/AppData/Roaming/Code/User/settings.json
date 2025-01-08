@@ -354,7 +354,7 @@
 
 	},
 
-	//"foam.edit.linkReferenceDefinitions": "withoutExtensions", //(default)  ... GH wiki?
+	//"foam.edit.linkReferenceDefinitions": "withoutExtensions", //(default)  ... GH wiki? no
 	//"foam.edit.linkReferenceDefinitions": "withExtensions",  // 241227-01
 	"foam.edit.linkReferenceDefinitions": "off", // 241229-17
 
