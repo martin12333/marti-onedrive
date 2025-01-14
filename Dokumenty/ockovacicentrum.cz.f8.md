@@ -42,6 +42,9 @@ o.kov.n
 
 # links
 
+
+## osobní udaje do keepu https://keep.google.com/#NOTE/1m7CUCVkRIo3rt6NCb9m_92M_usVU7yldSmNNKqbr21agSoiDl_J38Scq_frWVFs
+
 ## poslu Ive odkaz na https://keep.google.com/#NOTE/1m7CUCVkRIo3rt6NCb9m_92M_usVU7yldSmNNKqbr21agSoiDl_J38Scq_frWVFs
 očkování proti chřipce
 ### https://www.ockovacicentrum.cz/cz/praha-ordinacni-hodiny
@@ -285,10 +288,9 @@ https://www.ockovani-zahranici.cz/objednat-se
 
 ## 250106 Mail.google.com
 todo
-
+ osobní udaje do keepu https://keep.google.com/#NOTE/1m7CUCVkRIo3rt6NCb9m_92M_usVU7yldSmNNKqbr21agSoiDl_J38Scq_frWVFs
 
 at ockovacicentrum.cz>
-
 
 komu:	milan.bok.7
 datum:	6. 1. 2025 2:05
