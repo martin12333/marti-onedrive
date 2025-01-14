@@ -26,6 +26,7 @@
 - [Dne 24.9. 2020 jsme na Zákaznické lince spustili avizovanou rezervaci klientů na očkování proti sezónní chřipce v našich centrech. Během krátké doby jsme vyčerpali celou alokaci vakcín určenou pro tyto rezervace.](#dne-249-2020-jsme-na-zákaznické-lince-spustili-avizovanou-rezervaci-klientů-na-očkování-proti-sezónní-chřipce-v-našich-centrech-během-krátké-doby-jsme-vyčerpali-celou-alokaci-vakcín-určenou-pro-tyto-rezervace)
 - [COMIRNATY OMICRON XBB.1.5 30MCG/DÁV INJ DIS 10X2,25ML](#comirnaty-omicron-xbb15-30mcgdáv-inj-dis-10x225ml)
 - ["C:\\Users\\marti\\OneDrive\\ockova\\Všechna očkován  mb-s.html"](#cusersmartionedriveockovavšechna-očkován--mb-shtml)
+- [Klíšťová encefalitida](#klíšťová-encefalitida)
 
 
 
@@ -36,6 +37,8 @@
 # other files
 o.kov.n
 [[proti ch]]
+[[ockovani-zahranici.cz.f8]]
+
 
 # links
 
@@ -247,6 +250,9 @@ https://www.zpmvcr.cz/o-nas/aktuality/z-tecky-se-stala-ezkarta-k-cemu-bude-slouz
 
      
 # Klíšťová encefalitida
+
+[[ockovani-zahranici.cz.f8]]
+https://www.ockovani-zahranici.cz/objednat-se
 
 https://www.ockovacicentrum.cz/cz/user/eop
 
