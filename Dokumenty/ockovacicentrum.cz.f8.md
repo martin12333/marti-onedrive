@@ -251,10 +251,7 @@ https://www.zpmvcr.cz/o-nas/aktuality/z-tecky-se-stala-ezkarta-k-cemu-bude-slouz
      
 # Klíšťová encefalitida
 
-[[ockovani-zahranici.cz.f8]]
-https://www.ockovani-zahranici.cz/objednat-se
-
-https://www.ockovacicentrum.cz/cz/user/eop
+## https://www.ockovacicentrum.cz/cz/user/eop
 
        06.02.2020   5 let  
 přeočkování   FSME-IMMUN 1x0,5ML INJ   06.02.2020     
@@ -272,3 +269,14 @@ přeočkování FSME-IMMUN 1x0,5ML INJ 31.03.2015
 
 
 [[20250114_151032.jpg]]
+
+## [[ockovani-zahranici.cz.f8]]
+ 
+[[ockovani-zahranici.cz.f8]]
+
+https://www.ockovani-zahranici.cz/objednat-se
+
+## 250106 Mail.google.com
+todo
+
+
