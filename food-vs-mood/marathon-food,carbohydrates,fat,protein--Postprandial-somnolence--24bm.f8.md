@@ -131,6 +131,7 @@ Some suggest that ingesting monosaccharides at low concentrations during the rac
 
 
 https://en.wikipedia.org/wiki/Ultramarathon#Nutritional_Demands_of_Ultra-Marathons
+https://en.wikipedia.org/w/index.php?title=Ultramarathon&oldid=1257544903#Nutritional_Demands_of_Ultra-Marathons
 
 Ultra-marathon running requires meticulous attention to nutrition for both training and racing. In training, daily caloric needs are influenced by factors like body weight, training duration, and terrain, with
  carbohydrates comprising around 60% of the macronutrient distribution.
@@ -138,7 +139,8 @@ Ultra-marathon running requires meticulous attention to nutrition for both train
 
  Attard, Manuel (2023). "Nutrition for Ultra-Marathons: Fueling Ultra Runners". Manuel Attard, Nutritionist & Dietitian. Retrieved 30 October 2023.
 
-
+glasp 
+https://manuelattard.com/2023/09/06/nutrition-for-ultra-marathons-fueling-ultra-runners/
 
 # Reddit subreddits
 

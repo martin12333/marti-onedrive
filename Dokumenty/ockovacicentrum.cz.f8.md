@@ -1,6 +1,41 @@
 
+
+- [CTRL+Z je UNDO EDIT](#ctrlz-je-undo-edit)
+- [other files](#other-files)
+- [links](#links)
+	- [poslu Ive odkaz na https://keep.google.com/#NOTE/1m7CUCVkRIo3rt6NCb9m\_92M\_usVU7yldSmNNKqbr21agSoiDl\_J38Scq\_frWVFs](#poslu-ive-odkaz-na-httpskeepgooglecomnote1m7cucvkrio3rt6ncb9m_92m_usvu7yldsmnnkqbr21agsoidl_j38scq_frwvfs)
+		- [https://www.ockovacicentrum.cz/cz/praha-ordinacni-hodiny](#httpswwwockovacicentrumczczpraha-ordinacni-hodiny)
+		- [pro Milana ... existuje version history, existuji kopie ... D:\\000doc24\\Dokumenty\\ockovacicentrum.cz.f8.md  je novejsi , ma vic info, ale mnoho otravnych info ...  https://onedrive.live.com/?cid=4B12298D932A2860\&id=4B12298D932A2860%2142357\&parId=4B12298D932A2860%2142264\&o=OneUp](#pro-milana--existuje-version-history-existuji-kopie--d000doc24dokumentyockovacicentrumczf8md--je-novejsi--ma-vic-info-ale-mnoho-otravnych-info---httpsonedrivelivecomcid4b12298d932a2860id4b12298d932a28602142357parid4b12298d932a28602142264ooneup)
+- [covid](#covid)
+- [Nezapomeňte si vzít očkovací průkaz, pokud ho vlastníte.](#nezapomeňte-si-vzít-očkovací-průkaz-pokud-ho-vlastníte)
+- [V době očkování není vhodné užívat antibiotika](#v-době-očkování-není-vhodné-užívat-antibiotika)
+- [Vakcínu proti chřipce je možné aplikovat v jeden den, do odlišných míst, spolu s vakcínou proti onemocnění covid-19.](#vakcínu-proti-chřipce-je-možné-aplikovat-v-jeden-den-do-odlišných-míst-spolu-s-vakcínou-proti-onemocnění-covid-19)
+- [(R) https://www.calculator.net/anorexic-bmi-calculator.html?cage=48\&csex=f\&cheightfeet=5\&cheightinch=10\&cpound=160\&cheightmeter=180\&ckg=48\&ctype=metric\&x=Calculate](#r-httpswwwcalculatornetanorexic-bmi-calculatorhtmlcage48csexfcheightfeet5cheightinch10cpound160cheightmeter180ckg48ctypemetricxcalculate)
+- [Autistic Fatigue and Burnout: Coping Strategies](#autistic-fatigue-and-burnout-coping-strategies)
+- [2024](#2024)
+- [pro zdravotniky! ...     https://vakciny.avenier.cz/cz/aktualne ... já tam lezu jen kvůli informaci, zda už je chřipková vakcína](#pro-zdravotniky------httpsvakcinyavenierczczaktualne--já-tam-lezu-jen-kvůli-informaci-zda-už-je-chřipková-vakcína)
+- [https://www.ockovacicentrum.cz/cz/oc-praha6](#httpswwwockovacicentrumczczoc-praha6)
+- [call .... předem příště na webu napůl  objednat na p6 na jinou nemoc, ať mi ukážou termíny](#call--předem-příště-na-webu-napůl--objednat-na-p6-na-jinou-nemoc-ať-mi-ukážou-termíny)
+- [prý už několik dní se lze objednávat na chřipku](#prý-už-několik-dní-se-lze-objednávat-na-chřipku)
+- [todo](#todo)
+- [https://www.ockovacicentrum.cz/cz/user/eop#doporucena](#httpswwwockovacicentrumczczusereopdoporucena)
+- [Tetanus		11.06.2024	10 let	Více o nemoci](#tetanus1106202410-letvíce-o-nemoci)
+- [2023](#2023)
+- [pozn. 2022](#pozn-2022)
+- [pozn. 2021 ... jsi v google-hangouts psala toto:](#pozn-2021--jsi-v-google-hangouts-psala-toto)
+- [Dne 24.9. 2020 jsme na Zákaznické lince spustili avizovanou rezervaci klientů na očkování proti sezónní chřipce v našich centrech. Během krátké doby jsme vyčerpali celou alokaci vakcín určenou pro tyto rezervace.](#dne-249-2020-jsme-na-zákaznické-lince-spustili-avizovanou-rezervaci-klientů-na-očkování-proti-sezónní-chřipce-v-našich-centrech-během-krátké-doby-jsme-vyčerpali-celou-alokaci-vakcín-určenou-pro-tyto-rezervace)
+- [COMIRNATY OMICRON XBB.1.5 30MCG/DÁV INJ DIS 10X2,25ML](#comirnaty-omicron-xbb15-30mcgdáv-inj-dis-10x225ml)
+- ["C:\\Users\\marti\\OneDrive\\ockova\\Všechna očkován  mb-s.html"](#cusersmartionedriveockovavšechna-očkován--mb-shtml)
+
+
+
 # CTRL+Z je UNDO EDIT 
 // pro sdilene keep.google.com
+
+
+# other files
+o.kov.n
+[[proti ch]]
 
 # links
 
@@ -210,3 +245,24 @@ https://www.zpmvcr.cz/o-nas/aktuality/z-tecky-se-stala-ezkarta-k-cemu-bude-slouz
 "C:\Users\marti\OneDrive\ockova\2OckovaciCertifikat.pdf"
 
 
+     
+# Klíšťová encefalitida
+
+https://www.ockovacicentrum.cz/cz/user/eop
+
+       06.02.2020   5 let  
+přeočkování   FSME-IMMUN 1x0,5ML INJ   06.02.2020     
+přeočkování   FSME-IMMUN 0.5ML BAXTER INJ SU   28.03.2010    
+
+windows settings add keyboard
+
+na foto očkovacího průkazu
+[[20250114_151022 (1).jpg]]
+https://photos.google.com/photo/AF1QipMHC4du64pQ4AEoDOs6UJoZXkMuVrQQ0QL1rL_c
+
+je NAVÍC 
+přeočkování FSME-IMMUN 1x0,5ML INJ 31.03.2015
+
+
+
+[[20250114_151032.jpg]]
