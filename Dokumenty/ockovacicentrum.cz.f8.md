@@ -72,7 +72,7 @@ https://ourworldindata.org/explorers/covid?zoomToSelection=true&time=2020-09-18.
 
 
 # V době očkování není vhodné užívat antibiotika
- . Pokud právě antibiotika užíváte a máte zájem o očkování, kontaktujte nás na e-mailu info@ockovacicentrum.cz. Konečné rozhodnutí o vhodnosti očkování je na lékaři. 
+ . Pokud právě antibiotika užíváte a máte zájem o očkování, kontaktujte nás na e-mailu info
 
 
 # Vakcínu proti chřipce je možné aplikovat v jeden den, do odlišných míst, spolu s vakcínou proti onemocnění covid-19. 
@@ -125,7 +125,7 @@ na ~~ 13:45
 dne:249j+ 
 username:  mb75aaag 
 
-////////v minulosti drive @seznam.cz
+////////v minulosti drive seznam.cz
 
 
 # Tetanus		11.06.2024	10 let	Více o nemoci
@@ -265,8 +265,15 @@ https://photos.google.com/photo/AF1QipMHC4du64pQ4AEoDOs6UJoZXkMuVrQQ0QL1rL_c
 
 je NAVÍC 
 přeočkování FSME-IMMUN 1x0,5ML INJ 31.03.2015
+ale 
+jinde
 
 
+
+
+Typ očkování:	 	Očkování proti klíšťové encefalitidě - přeočkování
+Nejbližší možný termín očkování:	 	08.03.15
+Doporučujeme absolvovat očkování nejpozději do:	 	05.04.15
 
 [[20250114_151032.jpg]]
 
@@ -278,5 +285,26 @@ https://www.ockovani-zahranici.cz/objednat-se
 
 ## 250106 Mail.google.com
 todo
+
+
+at ockovacicentrum.cz>
+
+
+komu:	milan.bok.7
+datum:	6. 1. 2025 2:05
+předmět:	AVENIER | Očkování a cestovní medicína - Připomínka očkování Očkování proti klíšťové encefalitidě - přeočkování
+
+Typ očkování:	 	Očkování proti klíšťové encefalitidě - přeočkování
+Nejbližší možný termín:	 	06.01.25
+Doporučený termín do:	 	06.02.25
+
+
+Nezapomeňte si vzít očkovací průkaz, pokud ho vlastníte.
+
+----
+
+Dobrý den,
+
+
 
 
