@@ -45,6 +45,10 @@ o.kov.n
 
 ## osobní udaje do keepu https://keep.google.com/#NOTE/1m7CUCVkRIo3rt6NCb9m_92M_usVU7yldSmNNKqbr21agSoiDl_J38Scq_frWVFs
 
+
+https://photos.google.com/album/AF1QipPUm3u-RsgD3CQ0ZczXA-dMdvnuz4ANXIZwRbIG
+
+
 ## poslu Ive odkaz na https://keep.google.com/#NOTE/1m7CUCVkRIo3rt6NCb9m_92M_usVU7yldSmNNKqbr21agSoiDl_J38Scq_frWVFs
 očkování proti chřipce
 ### https://www.ockovacicentrum.cz/cz/praha-ordinacni-hodiny
@@ -60,8 +64,8 @@ mb75
 dne:  26. srp 2025
 obvykle po 10.9. https://keep.google.com/u/0/#NOTE/1m7CUCVkRIo3rt6NCb9m_92M_usVU7yldSmNNKqbr21agSoiDl_J38Scq_frWVFs   
 
-* existuje list v a5 karis bloku "ockovacicentrum.cz" 
-* existuje list v *a6* karis bloku "ockovacicentrum.cz" 
+##  existuje list v a5 karis bloku "ockovacicentrum.cz" 
+##  existuje list v *a6* karis bloku "ockovacicentrum.cz" 
 * this doc https://onedrive.live.com/?cid=4B12298D932A2860&q=ockovacicentrum%2Ecz&scope=drive&id=4B12298D932A2860%2142357&parId=root&parQt=search&o=OneUp
 * this doc https://onedrive.live.com/?cid=4B12298D932A2860&id=4B12298D932A2860%2142357&parId=4B12298D932A2860%2142264&o=OneUp
 * 
@@ -304,8 +308,42 @@ Doporučený termín do:	 	06.02.25
 Nezapomeňte si vzít očkovací průkaz, pokud ho vlastníte.
 
 ----
+https://www.ockovacicentrum.cz/cz/objednavka/nemoc
+Očkování *hrazené*
+	 ze zdravotního pojištění (pro klienty od 50 let věku) je možné pouze v lokalitách Praha, Brno, Ostrava-Hornická a Ostrava-Hrabůvka pro vybrané zdravotní pojišťovny. Do lokality Praha je nutné se objednat přes zákaznickou linku 545 123 321.
+
+
+
+FSME-Immun pro dospělé
+1 202 Kč / za dávku
+K dispozici
+
+---------
 
 Dobrý den,
+
+píšete mi:
+
+...
+
+
+> Typ očkování:	 	Očkování proti klíšťové encefalitidě - přeočkování
+> Nejbližší možný termín:	 	06.01.25
+> Doporučený termín do:	 	06.02.25
+
+// Pozn.: 4. revakcinace byla 06.02.2020
+
+Chtěl bych se zeptat, zda by nevadilo, kdybych se nechal očkovat až na konci února? nebo až v první polovině března??
+Chtěl bych se zeptat, zda by vadilo, kdybych se chtěl nechat očkovat až na konci února? Nebo až v první polovině března??
+
+Děkuji za odpověď.
+
+S pozdravem
+
+Milan Bok
+
+----------------
+
 
 
 
