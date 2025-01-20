@@ -142,6 +142,23 @@ Ultra-marathon running requires meticulous attention to nutrition for both train
 glasp 
 https://manuelattard.com/2023/09/06/nutrition-for-ultra-marathons-fueling-ultra-runners/
 
+
+
+
+
+# Look for foods that are rich in easily digestible carbohydrates and that contain little fat or fiber, since these slow digestion and can cause stomach upset.
+
+https://run.outsideonline.com/nutrition-and-health/training-nutrition/how-to-fuel-long-runs-with-real-food/?scope=anon
+
+
+What I Ate Before, During, and After the Boston Marathon
+How Outside’s endurance brand director fueled for the most important running day of the year
+
+
+Maurten Gels (specifically called Gel100) contain 25g of carbs, 25g of sugars, and 34 mg sodium. They’re a flavorless blend of glucose and fructose containing zero added colorants or preservatives. Mitchell consumed one of them every three miles, ingesting eight by the end of the race.
+
+
+
 # Reddit subreddits
 
 
