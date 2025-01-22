@@ -12,8 +12,14 @@ Kdyby něco z nákupu nebylo skladem, pošleme vám místo toho co nejpodobněj�
 
 # Dýško pro naše usměvavé kurýry
 
+gi/
+kosik.cz dodo mapa s polohou kurýra
 
-Pokud DODO pro kosik.cz 
+# https://www.kosik.cz/stranky/doprava
+
+Kdy nákup dovezeme,
+víte úplně přesně
+V appce i na webu můžete sledovat kurýra online na mapě –⁠⁠⁠⁠⁠⁠ kudy jede, kolik vám veze tašek a kdy k vám přijede. Takže vás nepřekvapí na procházce nebo třeba ve sprše.
 
 
 
