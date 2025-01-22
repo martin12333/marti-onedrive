@@ -1,4 +1,3 @@
-kosik.cz.f8.md
 
 # https://www.kosik.cz/muj-profil/profile/shopping-lists?locale=cs
 
