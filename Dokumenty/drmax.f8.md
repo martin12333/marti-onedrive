@@ -1,30 +1,15 @@
 
-
-
-
 # links
-
 [[pilulka.f8]]
-
 [[kosik.cz.f8]]
-
-
-
 
 # +420 516 770 100
 Dr. Max
 
-
-# //// Nevím, zda DODO pro kosik.cz poskytuje mapu s polohou kurýra. Pokud zatím ještě ne, měl bych prosbu: 
+# edit: poskytuje //// Nevím, zda DODO pro kosik.cz poskytuje mapu s polohou kurýra. Pokud zatím ještě ne, měl bych prosbu: 
 (Zadal jsem dýško.) Jsem částečně invalidní. Pomohlo by mi, kdyby mi kurýr mohl zavolat třeba 10 minut před příjezdem (abych nebyl na WC, když přijede). Děkuji.
-
-//// Pokud DODO pro kosik.cz zatím ještě neposkytuje žádnou mapu s polohou kurýra ... v takovém případě měl bych /prosbu: 
-
 / ... 
 //// [[2025-01-23]]
-
-
-
 
 # Ověření adresy se nepodařilo
 
@@ -33,12 +18,7 @@ Poskytnutá adresa
 15300 Praha 16
 Tuto adresu jsem v naší databázi nenašli. V případě nesprávné adresy může dojít ke zpoždění doručení.
 
-
-
-
 153 00
-
-
 
 # Ověření adresy
 
