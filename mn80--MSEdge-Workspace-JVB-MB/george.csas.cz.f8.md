@@ -1,0 +1,69 @@
+george.csas.cz.f8.md
+
+
+
+# links  
+
+
+stare george.csas.cz--inval.duchod\george.csas.cz--inval.duchod.f8.md
+
+C:\Users\marti\OneDrive\dr4\MYNOTES-MYNOTES\george.csas.cz
+prastare 
+
+# clipboard
+
+
+přihlášení do internetového bankovnictví na pc pomoci mobilní aplikace site:csas.cz filetype:pdf
+
+seniori nerozumi jak george přihlášení do internetového bankovnictví na pc pomoci mobilní aplikace
+
+
+digicert
+
+https://www.csas.cz/cs/caste-dotazy/aktivace-george-novy-telefon
+
+
+
+# https://www.penize.cz/diskuze/441452-sporitelna-zrusi-samostatny-george-klic-je-cas-na-zmenu-rika
+Celý George má problém. Na webu visí zastaralé informace o Gerge klíči, nikde se pořádně nedovíte, co bude platit po novu po sloučení. Podpora je mizerně dostupná, informace taháte z různých částí podpory. Od bankéřky se dovíte, že za ní chodí klienti, kterým pomáhá s apkou na mobilu. Je hodná, ale apka je na ... 
+
+
+# https://www.mesec.cz/clanky/ceska-sporitelna-konci-s-george-klicem-jak-budete-nove-potvrzovat-transakce/nazory/#newIndex1
+Přesně tak. Na telefonování a přijímání SMS mám normální telefon. Kvůli některým bankám mi na stole leží "starý" smrtfoun bez SIM, který už nikdo nechtěl a jinak by šel do elektroodpadu, a ten zapínám jen kvůli přihlašování a potvrzování.
+
+
+# https://www.csas.cz/static_internet/cs/Redakce/Ostatni/Ostatni_IE/Prilohy/up-george.pdf  
+
+
+š Profil. 
+Bezpečnostní metoda George 
+Mobilní aplikace George je novou bezpečnostní metodou, kterou potvrzujete vaši totožnost při přihlášení do našich 
+aplikací nebo provádění transakcí. Před prvním použitím musíte aplikaci aktivovat a v jejím průběhu si nastavit 4-8místný 
+PIN, kterým budete potvrzovat přihlášení a transakce. Pro snadnější potvrzování si můžete také nastavit otisk prstu nebo 
+sken obličeje, pokud ho vaše zařízení podporuje. 
+
+
+
+2.6.1 Přihlášení do internetového bankovnictví George 
+Pro přihlášení do internetového bankovnictví George zadejte své uživatelské jméno. Pokud nemáte aktivní žádnou 
+bezpečnostní metodu pro přihlášení, přesměruje vás přihlašovací obrazovka přímo na stránku Správa IDentity, kde si 
+vyberete bezpečnostní metodu, kterou chcete pro přihlašování používat. 
+Pro aktivaci bezpečnostní metody Heslo a SMS postupujete podle pokynů ve Správě IDentity. Aktivace bezpečnostní 
+metody George probíhá přímo v aplikaci na vašem mobilním zařízení. Při aktivaci postupujete podle pokynů v mobilní 
+aplikaci. 
+Přihlášení s použitím bezpečnostní metody George. 
+Zadejte uživatelské jméno. Na svém mobilu nebo tabletu s nainstalovanou a aktivovanou aplikací George potvrďte 
+přihlášení 4-8místným PINem (otiskem prstu/skenem obličeje).
+
+
+## 4 Vymezení vybraných pojmů 
+
+
+
+#   George Business     https://www.csas.cz/static_internet/cs/Redakce/EMIL/EMIL/Prilohy/uzivatelska_prirucka_elektronickeho_bankovnictvi.pdf  George Business 
+
+George Business 
+
+VS 39  17/1/2025 
+
+same as non-Business
