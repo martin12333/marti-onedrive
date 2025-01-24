@@ -5,6 +5,9 @@ george.csas.cz.f8.md
 # links  
 
 
+https://www.youtube.com/watch?v=JAj-65Z2Zf8&list=PLY5wBCOleg-RKrHxUWJMVPK_QzZeIxIL8
+
+
 stare george.csas.cz--inval.duchod\george.csas.cz--inval.duchod.f8.md
 
 C:\Users\marti\OneDrive\dr4\MYNOTES-MYNOTES\george.csas.cz
@@ -12,6 +15,7 @@ prastare
 
 # clipboard
 
+## 250123
 
 přihlášení do internetového bankovnictví na pc pomoci mobilní aplikace site:csas.cz filetype:pdf
 
