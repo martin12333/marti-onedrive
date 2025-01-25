@@ -60,11 +60,52 @@ https://foambubble.github.io/foam/#getting-started
 https://github.com/foambubble/foam-template
 
 
-"C:\Users\marti\OneDrive\2400-WIKI-oooold"
+# 250125
+
+"C:\Users\marti\OneDrive\2400-WIKI\.gitignore"
+
+"C:\Users\marti\OneDrive\2400-WIKI\OLD--2400-WIKI-oooold"
+///"C:\Users\marti\OneDrive\2400-WIKI-oooold"
+
+
+"C:\Users\marti\OneDrive\Dokumenty"
+
+"C:\Users\marti\OneDrive\Dokumenty\MOVED-TEMPOR"
+
+"C:\Users\marti\OneDrive\Dokumenty\MOVED-TEMPOR\.Rhistory"
+"C:\Users\marti\OneDrive\Dokumenty\MOVED-TEMPOR\AutoHotkey.ahk"
+"C:\Users\marti\OneDrive\Dokumenty\MOVED-TEMPOR\Martin's Notebook.url"
+"C:\Users\marti\OneDrive\Dokumenty\MOVED-TEMPOR\RCommander.R"
+
+desktop.ini
+
+"C:\Users\marti\OneDrive\Dokumenty\PINNED--copies"
+
+
+
+"C:\Users\marti\OneDrive\2400-WIKI"
+
+
+ 2 files changed, 1 insertion(+), 376 deletions(-)
+ 
+ delete mode 100644 Dokumenty/AutoHotkey.ahk
+
+
+
+
+
+# earlier
+
+C:\Users\marti\OneDrive\robocopy-24\2400-WIKI--doc24--robocopy-reform---24c3.f8.md
+
+
+
 
 2400-WIKI
 
 cd c:\Users\marti\OneDrive
+
+
 git clone https://github.com/martin12333/2400-WIKI
 
 totalcmd64
@@ -81,6 +122,8 @@ gitdir: C:/Users/marti/OneDrive/mylen-mar.git
 work
 -1:10
 2:30-
+
+
 
 C:\Users\marti\OneDrive\wiki-f8\github-wiki.f8.sh
 
