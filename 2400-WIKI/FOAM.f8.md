@@ -94,12 +94,23 @@ desktop.ini
 git add --dry-run   -vvv   "C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk"
 git add    -vvv   "C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk"
 
+
+
+file:///C:\Users\marti\OneDrive\Dokumenty
+file:///c:\Users\marti\OneDrive\2400-WIKI
+open folder
+reveal folder
+
+
+
 touch 2400-WIKI/test-250125.md
 code  2400-WIKI/test-250125.md
 
+file:///C:\Users\marti\OneDrive\robocopy-24\2400-WIKI--doc24--robocopy-reform---24c3.f8.md
+
 # earlier
 
-C:\Users\marti\OneDrive\robocopy-24\2400-WIKI--doc24--robocopy-reform---24c3.f8.md
+file:///C:\Users\marti\OneDrive\robocopy-24\2400-WIKI--doc24--robocopy-reform---24c3.f8.md
 
 
 

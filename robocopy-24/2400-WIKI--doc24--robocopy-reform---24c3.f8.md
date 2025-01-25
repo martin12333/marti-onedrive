@@ -58,12 +58,16 @@ D:\000doc24\
 # 250125
 
 
-C:\Users\marti\OneDrive\Dokumenty\FOAM.f8.md
+file:///C:\Users\marti\OneDrive\2400-WIKI\FOAM.f8.md
+
+file:///c:\Users\marti\OneDrive\2400-WIKI
+open folder
+reveal folder
 
 
-c:\Users\marti\OneDrive\2400-WIKI
 was "2400---000-slight-abandoned"
 
+done
 POSTPONED FUTURE PLAN 24C3+++ MAKE THIS DIR 2400 THE SUCCESSOR TO DOKUME
 POSTPONED FUTURE PLAN 24C3+++ MAKE  2400 THE SUCCESSOR TO DOKUME
 
