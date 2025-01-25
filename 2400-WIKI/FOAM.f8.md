@@ -106,24 +106,19 @@ reveal folder
 touch 2400-WIKI/test-250125.md
 code  2400-WIKI/test-250125.md
 
-file:///C:\Users\marti\OneDrive\robocopy-24\2400-WIKI--doc24--robocopy-reform---24c3.f8.md
 
 # earlier
 
 file:///C:\Users\marti\OneDrive\robocopy-24\2400-WIKI--doc24--robocopy-reform---24c3.f8.md
 
-
-
-
-2400-WIKI
-
 cd c:\Users\marti\OneDrive
-
 
 git clone https://github.com/martin12333/2400-WIKI
 
 totalcmd64
 
+
+# export GIT_DIR=D:/GIT-bk04/2400-WIKI.git
 
 "C:\Users\marti\OneDrive\2400-WIKI"
 "D:\GIT-bk04\2400-WIKI.git"
