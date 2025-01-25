@@ -91,7 +91,8 @@ desktop.ini
  delete mode 100644 Dokumenty/AutoHotkey.ahk
 
 
-
+git add --dry-run   -vvv   "C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk"
+git add    -vvv   "C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk"
 
 
 # earlier
