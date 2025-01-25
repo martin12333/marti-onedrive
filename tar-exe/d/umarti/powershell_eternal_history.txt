@@ -12233,3 +12233,5 @@ C:\Windows\System32\OpenSSH\ssh.exe   $(cat ~/bcloudREADONLY/alma.txt)
 wsl --list --all --verbose
 wsl --shutdown
 wsl --list --all --verbose
+git add --dry-run   -vvv   "C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk"
+git add    -vvv   "C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk"

@@ -94,6 +94,8 @@ desktop.ini
 git add --dry-run   -vvv   "C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk"
 git add    -vvv   "C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk"
 
+touch 2400-WIKI/test-250125.md
+code  2400-WIKI/test-250125.md
 
 # earlier
 
