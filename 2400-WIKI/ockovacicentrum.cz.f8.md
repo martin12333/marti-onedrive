@@ -80,6 +80,9 @@ https://ourworldindata.org/explorers/covid?zoomToSelection=true&time=2020-09-18.
 
 # V době očkování není vhodné užívat antibiotika
  . Pokud právě antibiotika užíváte a máte zájem o očkování, kontaktujte nás na e-mailu info
+## 8. V době očkování nesmíte brát antibiotika.
+
+# 4. Větší fyzickou zátěž je nutné omezit na dobu 3 až 7 dní po očkování
 
 
 # Vakcínu proti chřipce je možné aplikovat v jeden den, do odlišných míst, spolu s vakcínou proti onemocnění covid-19. 
@@ -119,13 +122,13 @@ na P6
 na ~~ 13:45
 
 
-# todo
-
-* podivat na mail
-* zapsat do kalendářů
 
 
-
+# Tetanus		11.06.2024	10 let	Více o nemoci
+🦠🦠🦠
+ADACEL INJ SUS ISP 1X0,5ML	11.06.2024	
+## pouhych 80 pripadu rocne?
+🦠🦠🦠
 
 # https://www.ockovacicentrum.cz/cz/user/eop#doporucena
 
@@ -135,13 +138,25 @@ username:  mb75aaag
 ////////v minulosti drive seznam.cz
 
 
-# Tetanus		11.06.2024	10 let	Více o nemoci
-ADACEL INJ SUS ISP 1X0,5ML	11.06.2024	
+## FSME-IMMUN
+       06.02.2020   5 let  
+přeočkování   FSME-IMMUN 1x0,5ML INJ   06.02.2020     
+přeočkování   FSME-IMMUN 0.5ML BAXTER INJ SU   28.03.2010    
 
-pouhych 80 pripadu rocne?
 
 
 
+
+# todo
+
+* podivat na mail
+* zapsat do kalendářů
+
+Objednávka/Order:	Klíšťová encefalitida
+Zvolené místo/Place:	OCM Praha 5 (Ženské domovy),
+Ostrovského 253/3, 150 00 Praha 5 Smíchov, Ženské domovy, 5. patro č.d.5091
+Datum a čas/Date and time:	25.02.2025 14:00
+Titul/Degree:	
 
 
 
@@ -201,7 +216,8 @@ Díky!
 
 
 https://www.zpmvcr.cz/pojistenci/prevence/ockovani/ockovani-proti-chripce
-Vakcínu proti chřipce je možné simultánně aplikovat také s živou, atenuovanou vakcínou proti spalničkám, příušnicím, zarděnkám, planým neštovicím.
+Vakcínu proti chřipce je možné simultánně aplikovat také s
+ živou, atenuovanou vakcínou proti spalničkám, příušnicím, zarděnkám, planým neštovicím.
 
 
 
@@ -344,7 +360,15 @@ Milan Bok
 
 ----------------
 
+Dobrý den, pane Boku,
 
+
+
+děkujeme za Váš dotaz, u Vás se již jedná o přeočkování, které má časovou rezervu, je tak možné očkování aplikovat později, například na konci února, avšak zbytečně bych jej neodkládala, postupně se Vám budou snižovat protilátky v těle. 
+
+
+
+S pozdravem a přáním hezkého dne,
 
 
 
