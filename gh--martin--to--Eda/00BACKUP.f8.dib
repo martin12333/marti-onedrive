@@ -46,8 +46,8 @@ falsealarm some filenames contain "older"
 cd ~/OneDrive
 git add -vv  '*.f8.*'  #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
 git add -vv   '2400-WIKI/*.md'
-git commit -v -a -m    VSCODE-MOVE   #
-#git commit -v -a -m    backup-before   #
+#git commit -v -a -m    VSCODE-MOVE   #
+git commit -v -a -m    backup-before   #
 git push
 	git show --name-only
 

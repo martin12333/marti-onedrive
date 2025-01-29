@@ -1,5 +1,7 @@
 
+# git clone wiki
 
+```sh
 cd
 git clone https://github.com/martin12333/browserPOSIX-discussion.wiki.git
 
@@ -10,3 +12,6 @@ git pull
 
 
 cat --help
+
+```
+
