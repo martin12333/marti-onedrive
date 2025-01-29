@@ -1,6 +1,9 @@
 
 
 
+# git clone wiki
+
+[[git-clone----wiki.f8]]
 
 
 ```sh

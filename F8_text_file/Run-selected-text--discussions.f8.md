@@ -33,6 +33,9 @@ https://blog.jpalardy.com/posts/stop-typing-into-repls/
 
 # git clone wiki
 
+[[git-clone----wiki.f8]]
+
+
 ```bash
 
 # once

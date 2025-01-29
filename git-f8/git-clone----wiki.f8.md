@@ -1,19 +1,12 @@
 
 # git clone wiki
 
-```sh
-cd
-git clone https://github.com/martin12333/browserPOSIX-discussion.wiki.git
 
-ls browserPOSIX*
-cd browserPOSIX*
+[[Run-selected-text--discussions.f8]]
 
-git pull
+[[git-init--separate-git-dir.f8]]
 
-
-cat --help
-
-```
+[[github-wiki.f8]]
 
 
 ```sh
@@ -21,6 +14,8 @@ cat --help
 40,1: git clone https://github.com/martin12333/Run-selected-text--discussions.wiki.git
 40,4: #$ git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.wiki.git
 31,4: #$ git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.wiki.git
+
+
 
 F8_text_file\Run-selected-text--discussions.f8.md:
   39  cd
@@ -40,3 +35,16 @@ wiki-f8\github-wiki.f8.sh:
 
 ```
 
+```sh
+cd
+git clone https://github.com/martin12333/browserPOSIX-discussion.wiki.git
+
+ls browserPOSIX*
+cd browserPOSIX*
+
+git pull
+
+
+cat --help
+
+```

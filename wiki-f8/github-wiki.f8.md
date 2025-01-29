@@ -1,3 +1,10 @@
+
+
+# git clone wiki
+
+[[git-clone----wiki.f8]]
+
+
 ```sh
 
 
@@ -27,7 +34,7 @@ totalcmd64
 
 cat .git
 
-# file:///C:\Users\marti\OneDrive\git-f8\git-init--separate-git-dir.f8.sh
+# file:///C:\Users\marti\OneDrive\git-f8\git-init--separate-git-dir.f8.md
 
 #$ git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.wiki.git
 git remote -vvv add   origin https://github.com/martin12333/marti-onedrive.wiki.git
