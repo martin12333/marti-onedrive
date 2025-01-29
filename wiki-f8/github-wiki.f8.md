@@ -55,7 +55,13 @@ q
 	#cd -
 
 
+	# repeatedly
 
+	export GIT_DIR=/d/GIT-bk04/marti-onedrive.wiki33.git
+	export GIT_WORK_TREE=/c/Users/marti/OneDrive/2400-WIKI
+
+	git commit -a -m backup
+	git push -vv  origin master
 
 
 exit
