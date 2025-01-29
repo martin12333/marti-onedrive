@@ -23,9 +23,8 @@ bash
 	git remote -vvv 
 	git show --name-only
 
+
 	# once
-
-
 
 	export GIT_DIR=/d/GIT-bk04/marti-onedrive.wiki33.git
 	ls -al $GIT_DIR
@@ -36,7 +35,16 @@ bash
 	git  status  
 	git  status  -vv
 q
-	
+
+
+	git add -vv        .gitignore    #'install.sh*'
+	git add -vv --dry-run  '*.md'
+	git add -vv --dry-run  '*.f8.*'
+	git add -vv  '*.f8.*'
+	git add -vv  '*.md'
+	goes into subdirs
+
+
 	git ls-files
 	ls
 
