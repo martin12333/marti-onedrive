@@ -1,5 +1,7 @@
 
 
+# todo a cell in a dib ?
+
 # export GIT_DIR=D:/GIT-bk04/2400-WIKI.git
 
 "C:\Users\marti\OneDrive\2400-WIKI"
