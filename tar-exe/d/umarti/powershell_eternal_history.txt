@@ -12253,3 +12253,6 @@ explorer.exec:\pf\totalcmd\totalcmd64.exe
 explorer c:\pf\totalcmd\totalcmd64.exe
 explorer c:\pf\totalcmd\
 bash
+cd ~/OneDrive/foo
+git remote -vvv
+bash
