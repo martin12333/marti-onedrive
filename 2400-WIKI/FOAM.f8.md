@@ -107,9 +107,8 @@ touch 2400-WIKI/test-250125.md
 code  2400-WIKI/test-250125.md
 
 # 250129
+[[github-wiki.f8]]
 
-# git clone wiki
-[[git-clone----wiki.f8]]
 
 # earlier
 

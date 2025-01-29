@@ -1,8 +1,59 @@
+- [git clone wiki](#git-clone-wiki)
+- [old](#old)
 
 
-# git clone wiki
+# links
 
-250129
+ https://github.com/martin12333/marti-onedrive/wiki
+
+
+# 250129 final
+
+
+```sh
+
+	
+bash
+
+
+	cd ~/OneDrive/2400-WIKI
+
+	ls -al
+
+	git remote -vvv 
+	git show --name-only
+
+	# once
+
+
+
+	export GIT_DIR=/d/GIT-bk04/marti-onedrive.wiki33.git
+	ls -al $GIT_DIR
+	git show --name-only
+
+	export GIT_WORK_TREE=/c/Users/marti/OneDrive/2400-WIKI
+
+	git  status  
+	git  status  -vv
+q
+	
+	git ls-files
+	ls
+
+	git commit -a -m move-zzz-away
+	git commit -a -m 250129
+	git push -vv  origin master
+
+	#cd -
+
+
+
+
+
+exit
+```
+
+# desperate debugging of 250129 
 
 /// other [[git-clone----wiki.f8]]
 
@@ -44,10 +95,14 @@ bash
 	mkdir ~/OneDrive/foo
 	cd ~/OneDrive/foo
 
-git checkout master
+##git checkout master
 
 history | grep -i git
 
+	git remote -vvv 
+
+
+# blind-alley
 	export GIT_DIR=D:/GIT-bk04/2400-WIKI.git
 	git show --name-only
 	git  status  -vv
@@ -57,7 +112,7 @@ q
 
 	git remote -vvv 
 
-	git init
+	#git init
 	git init   -b master
 cat .git
 	git remote -vvv add   origin https://github.com/martin12333/marti-onedrive.wiki.git
@@ -74,6 +129,24 @@ export GIT_WORK_TREE=/c/Users/marti/OneDrive/2400-WIKI
 	git pull -vv wiki2 
 	git pull -vv wiki2 master
 
+
+
+
+
+	git ls-files
+	ls
+
+	git commit -a -m move-zzz-away
+	git commit -a -m 250129
+	git push -vv  origin master
+
+	cd -
+
+
+	history -a
+	##history  >history.md
+	##cat ~/.bash_history
+	cat ~/.bash_eternal_history >history.txt
 
 
 # https://github.com/martin12333/marti-onedrive/wiki
