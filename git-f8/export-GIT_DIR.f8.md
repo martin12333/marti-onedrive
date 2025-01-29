@@ -1,6 +1,9 @@
 
 
-# todo a cell in a dib ?
+# todo a cell in a dib ??
+
+[[github-wiki.f8]]
+
 
 # export GIT_DIR=D:/GIT-bk04/2400-WIKI.git
 

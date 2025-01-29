@@ -132,6 +132,11 @@ git push -vv  origin master
 cd -
 
 
+history -a
+##history  >history.md
+##cat ~/.bash_history
+cat ~/.bash_eternal_history >history.txt
+
 ```
 
 
