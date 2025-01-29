@@ -49,7 +49,7 @@ bash
 
 	ls /d/GIT-bk04/
 	ls /d/GIT-bk04/marti-onedrive.wiki.git
-	
+
 	cd 2400-WIKI
 
 	export GIT_DIR=D:/GIT-bk04/2400-WIKI.git
@@ -77,6 +77,7 @@ git push
 
 	git add -vv --dry-run  './*.md'
 	git add -vv --dry-run  '*.md'
+	git add -vv  '*.md'
 	goes into subdirs
 
 
