@@ -2,8 +2,57 @@
 
 # git clone wiki
 
-[[git-clone----wiki.f8]]
+250129
 
+/// other [[git-clone----wiki.f8]]
+
+```sh
+
+	cd d:/GIT-bk04
+
+	# failed
+	explorer c:\pf\totalcmd\
+	explorer c:\pf\totalcmd\totalcmd64.exe
+	icacls .
+	icacls  *
+	icacls marti-onedrive.wiki.git
+
+bash
+
+	# once
+
+	cd /d/GIT-bk04
+	###mv -iv marti-onedrive.wiki.git OLD-marti-onedrive.wiki.git
+	mkdir marti-onedrive.wiki2.git
+
+	# once
+	cd /c/Users/marti/
+	ls *wiki*
+	# "C:\Users\marti\OneDrive\AAAA_GITHUB_WIKI\.git"
+	#cd /c/Users/marti/marti-onedrive.wiki
+
+	export GIT_DIR=/d/GIT-bk04/marti-onedrive.wiki2.git
+	ls -al $GIT_DIR
+	####git clone https://github.com/martin12333/marti-onedrive.wiki.git
+
+	# ls -al marti-onedrive.wiki
+
+	cd ~/OneDrive/2400-WIKI
+	ls ~/OneDrive/2400-WIKI/.git
+
+	git init
+	git remote -vvv add   origin https://github.com/martin12333/marti-onedrive.wiki.git
+	git pull -vv origin
+	git pull -vv origin master
+	
+
+# https://github.com/martin12333/marti-onedrive/wiki
+
+exit
+
+```
+
+# old 
 
 ```sh
 

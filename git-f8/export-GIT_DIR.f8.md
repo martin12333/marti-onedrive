@@ -18,19 +18,16 @@ work
 
 
 
-C:\Users\marti\OneDrive\wiki-f8\github-wiki.f8.sh
+C:\Users\marti\OneDrive\wiki-f8\github-wiki.f8.md 
 
-C:\Users\marti\OneDrive\git-f8\git-init--separate-git-dir.f8.sh
+C:\Users\marti\OneDrive\git-f8\git-init--separate-git-dir.f8.md
 
-git init --separate-git-dir=/d/GIT-bk04/marti-onedrive.wiki.git
+# old
 
-
+///git init --separate-git-dir=/d/GIT-bk04/marti-onedrive.wiki.git
 gitdir: D:/GIT-bk04/marti-onedrive.wiki.git
 
-
 i want to use the git-dir in a script,
-
-
 
 i need to call `git push` with the full path to the git-dir in an env variable or in a command line argument
 is it possible to set the git-dir in an env variable or in a command line argument?
@@ -42,11 +39,17 @@ GIT_DIR=/path/to/git-dir GIT_WORK_TREE=/path/to/working-tree git push
 
 #bash -c 'GIT_DIR=/path/to/git-dir GIT_WORK_TREE=/path/to/working-tree git push'
 
+
+# bash
+
 ```bash
 
 
 bash
 
+	ls /d/GIT-bk04/
+	ls /d/GIT-bk04/marti-onedrive.wiki.git
+	
 	cd 2400-WIKI
 
 	export GIT_DIR=D:/GIT-bk04/2400-WIKI.git

@@ -12237,3 +12237,19 @@ git add --dry-run   -vvv   "C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk"
 git add    -vvv   "C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk"
 touch 2400-WIKI/test-250125.md
 code  2400-WIKI/test-250125.md
+bash
+icacls
+icacls *
+icacls .
+icacls marti-onedrive.wiki.git
+cd d:/GIT-bk04
+icacls  *
+icacls marti-onedrive.wiki.git
+icacls .
+icacls marti-onedrive.wiki.git
+totalcmd64.exe
+c:\pf\totalcmd\totalcmd64.exe
+explorer.exec:\pf\totalcmd\totalcmd64.exe
+explorer c:\pf\totalcmd\totalcmd64.exe
+explorer c:\pf\totalcmd\
+bash
