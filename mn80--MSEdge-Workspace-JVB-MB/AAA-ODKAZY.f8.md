@@ -1,23 +1,23 @@
 
 Ja take mam problemy ... ty dnesni jsou na papircich s cervenou sponkou 
 
+todo vsc rename mn80 1804
 
 
 
 
 
-# mn80--MSEdge-Workspace-JVB-MB - OneDrive
-## People you specify can edit
-
-
-
+- [this file](#this-file)
 - [existuje nový Google Chat space](#existuje-nový-google-chat-space)
-- [Milan: there are two related folders in OneDrive ... i will sync them manually?](#milan-there-are-two-related-folders-in-onedrive--i-will-sync-them-manually)
+- [Edge workspace](#edge-workspace)
+- [oneDrive](#onedrive)
+	- [Milan: there are two related folders in OneDrive ... i will sync them manually?](#milan-there-are-two-related-folders-in-onedrive--i-will-sync-them-manually)
 	- [MB PC  c:\\Users\\marti\\OneDrive\\mn80--MSEdge-Workspace-JVB-MB\\](#mb-pc--cusersmartionedrivemn80--msedge-workspace-jvb-mb)
 	- [JB PC D:\\onedrive\\JB--MSEdge-Workspace-JVB-MB](#jb-pc-donedrivejb--msedge-workspace-jvb-mb)
 - [https://photos.google.com](#httpsphotosgooglecom)
 	- [Lenovo(2017) microsoft windows, internet,034 , network, UEFI BIOS howtogeek boot;; disk errors album jinde, Jiří - Google Photos](#lenovo2017-microsoft-windows-internet034--network-uefi-bios-howtogeek-boot-disk-errors-album-jinde-jiří---google-photos)
 	- [Alma.karlov,su.mff.cuni.cz, web zdarma. cz](#almakarlovsumffcunicz-web-zdarma-cz)
+		- [new https://github.com/martin12333/marti-onedrive/blob/main2/alma-233c/alma---24bL.f8.txt.md](#new-httpsgithubcommartin12333marti-onedriveblobmain2alma-233calma---24blf8txtmd)
 
 
 # this file 
@@ -51,8 +51,21 @@ jvb @ gm
 
 * details > manage access
   * mn80 is the owner of this folder
-  * SHARED WITH JB, **DIRECT** ACCESS, CAN EDIT // Direct Access grants access permissions **without the use of a link** //// Milan: the text is copied from the webpage using rclick and inspect
-  * A sharing **link** hasn't been created for this folder yet. Create a new link to start sharing with others. // OK 249s
+
+
+  * OOOOLD:  SHARED WITH JB, **DIRECT** ACCESS, CAN EDIT // Direct Access grants access permissions **without the use of a link** //// Milan: the text is copied from the webpage using rclick and inspect
+
+  * OOOLD: A sharing **link** hasn't been created for this folder yet. Create a new link to start sharing with others. // OK 249s
+  * 
+  * 250131:  i see: a link. i changed: now JB can view;   added 2nd link to 0005-CAN-EDIT-subdir
+
+
+https://1drv.ms/f/c/4b12298d932a2860/EmAoKpONKRIggEtBSQAAAAABTChreRebjtsV9NUO5RXBgA
+
+https://1drv.ms/f/c/4b12298d932a2860/Ep2M7bBuNT9MjF4H-zot51UBvh71DhP2u69rheHNo8rYKg
+
+
+
 * many subdirectories, e.g.: samsung--chytre-hodinky
 
 

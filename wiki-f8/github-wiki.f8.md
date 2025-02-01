@@ -144,6 +144,9 @@ cat .git
 	git pull -vv origin master
 fatal: this operation must be run in a work tree
 
+
+"fatal: this operation must be run in a work tree"  "git_dir" site:stackoverflow.com
+
 export GIT_WORK_TREE=/c/Users/marti/OneDrive/2400-WIKI
 
 	git pull -vv wiki2 

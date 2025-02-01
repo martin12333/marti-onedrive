@@ -12257,3 +12257,4 @@ cd ~/OneDrive/foo
 git remote -vvv
 bash
 dir
+bash
