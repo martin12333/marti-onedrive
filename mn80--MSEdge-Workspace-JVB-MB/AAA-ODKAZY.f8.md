@@ -14,7 +14,8 @@ todo vsc rename mn80 1804
 	- [Milan: there are two related folders in OneDrive ... i will sync them manually?](#milan-there-are-two-related-folders-in-onedrive--i-will-sync-them-manually)
 	- [MB PC  c:\\Users\\marti\\OneDrive\\mn80--MSEdge-Workspace-JVB-MB\\](#mb-pc--cusersmartionedrivemn80--msedge-workspace-jvb-mb)
 	- [JB PC D:\\onedrive\\JB--MSEdge-Workspace-JVB-MB](#jb-pc-donedrivejb--msedge-workspace-jvb-mb)
-- [https://photos.google.com](#httpsphotosgooglecom)
+- [https://photos.google.com EDIT: NOVEJSI JE V KEEP](#httpsphotosgooglecom-edit-novejsi-je-v-keep)
+	- [https://photos.google.com EDIT: NOVEJSI JE V KEEP](#httpsphotosgooglecom-edit-novejsi-je-v-keep-1)
 	- [Lenovo(2017) microsoft windows, internet,034 , network, UEFI BIOS howtogeek boot;; disk errors album jinde, Jiří - Google Photos](#lenovo2017-microsoft-windows-internet034--network-uefi-bios-howtogeek-boot-disk-errors-album-jinde-jiří---google-photos)
 	- [Alma.karlov,su.mff.cuni.cz, web zdarma. cz](#almakarlovsumffcunicz-web-zdarma-cz)
 		- [new https://github.com/martin12333/marti-onedrive/blob/main2/alma-233c/alma---24bL.f8.txt.md](#new-httpsgithubcommartin12333marti-onedriveblobmain2alma-233calma---24blf8txtmd)
@@ -87,7 +88,12 @@ samsung--chytre-hodinky
 
 
 
-# https://photos.google.com
+# https://photos.google.com EDIT: NOVEJSI JE V KEEP
+## https://photos.google.com EDIT: NOVEJSI JE V KEEP
+
+Jiri, Milan sdileni - Fotky Google - nekolik alb
+https://keep.google.com/#NOTE/1CpbuRCfHbM8bChPM8NIY_WXi3ASPteFCQychIHProbKohcwpapZjqU9cbmY6eg
+
 
 ## Lenovo(2017) microsoft windows, internet,034 , network, UEFI BIOS howtogeek boot;; disk errors album jinde, Jiří - Google Photos
 

@@ -3681,3 +3681,15 @@ chkdsk d:
 chkdsk c:
 chkdsk g:
 chkdsk f:
+d:
+cd .\umarti\
+cd .\dowNLOADS--SYMLINKED\
+& '.\Reader_en_install (1).exe' /?
+d:
+cd .\umarti\
+cd .\dowNLOADS--SYMLINKED\
+& '.\Reader_en_install (1).exe' /?
+DIR
+dir *.exe
+& '.\Reader_en_install.exe' /?
+cmd
