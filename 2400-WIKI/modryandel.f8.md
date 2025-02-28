@@ -1,3 +1,21 @@
+- [incident 2148 asi neprislo postou skoro zadne varovani](#incident-2148-asi-neprislo-postou-skoro-zadne-varovani)
+	- [](#)
+
+
+
+# ebooker
+
+https://eb3.autocab.net/#/32324
+
+V čem je webový ebooker jedinečný?
+
+✅  Rezervace pro sebe i pro druhé: Snadno objednejte jízdy pro své známé, přátele či rodinu a případně je za ně i uhraďte.
+
+
+✅  Rezervační šablony: Ušetřete čas díky šablonám pro opakované jízdy, které lze použít během pár vteřin.
+
+ Platební karty (nově v ebookeru): Přidejte svou kartu a využívejte ji při rezervacích nejen ve webové aplikaci, ale i v mobilní aplikaci.
+
 
 # incident 2148 asi neprislo postou skoro zadne varovani
 
@@ -64,4 +82,21 @@ Chcete fotky obrazovky? Jako přílohu e-mailu, nebo jako webový odkaz do googl
 ====
 
 (776 255 129)
+
+# incidenty 43
+
+error
+
+modryandel
+
+Vaše jízda
+	Kütahyanská provincie, Egejský region, Turecko
+	Na Bojišti 1950/2, Praha 2 - Nové Město, Česko
+
+Děkujeme za Vaši předrezervaci na zítra na 13:30. Mohu jen poprosit o upřesnění adresy nástupu? Jedná se o ulici Topasová?
+
+
++420737986241
+email
+E-mail na podporu
 

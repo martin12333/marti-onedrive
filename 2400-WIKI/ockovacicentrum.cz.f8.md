@@ -139,6 +139,8 @@ username:  mb75aaag
 
 
 ## FSME-IMMUN
+
+250225
        06.02.2020   5 let  
 přeočkování   FSME-IMMUN 1x0,5ML INJ   06.02.2020     
 přeočkování   FSME-IMMUN 0.5ML BAXTER INJ SU   28.03.2010    

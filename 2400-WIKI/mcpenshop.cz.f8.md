@@ -266,6 +266,10 @@ https://www.mcpenshop.cz/napln-do-kulickoveho-pera-easy-ink-0-5-mm-modra
 
 Univerzální kancelářské etikety pro inkoustové a laserové tiskárny a kopírky. V balení 100 listů formátu A4. Rozměr: 105 x 74 mm. Etiket na stránce 8 ks. Samolepicí etikety jsou ideálním pomocníkem při každodenní práci v kancelářích, ve skladech při tvorbě adresních štítků nebo etiket na balíky, ve velkoobchodech či jakýchkoliv prodejnách a pro další provozy. Vhodné i pro použití ve školách a pro označení školních pomůcek.
 
+https://www.mcpenshop.cz/klipy-binder-pastelove-deli-25-mm-48-ks
+
+
+
 # https://www.mcpenshop.cz/otazky-a-odpovedi
 "8595004372410"  mcpenshop
 # Spony aktové 473, 50 mm / 25 ks barevné Zebra
