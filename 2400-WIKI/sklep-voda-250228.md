@@ -1,5 +1,5 @@
 ---
-tags: sklep, voda, zahrada, mrznout, potrubí, dům, příčiny, následky, mrazivý, zima
+tags: sklep voda zahrada mrznout potrubí dům příčiny následky mrazivý zima # space-separated
 ---
 
 

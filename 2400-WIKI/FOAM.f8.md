@@ -1,7 +1,20 @@
 ---
-tags: hashtags, wiki-links, foam, github, 
+tags: hashtags wiki-links foam github space-separated # space-separated
+featuredLinks:  # not sure Whether i am going to use this
+  0004/0003-up: https://docs.github.com/en/contributing/writing-for-github-docs/using-yaml-frontmatter#featuredlinks
+  gettingStarted:
+    - /path/to/page
+  startHere:
+    - /guides/example
+  popular:
+    - /path/to/popular/article1
+    - /path/to/popular/article2
+  popularHeading: An alternate heading to Popular
 ---
 
+---
+tags:  # space-separated
+---
 
 
 - [Discussion: Fixing \[\[wiki-links\]\] in GitHub Web UI · Issue #16 · foambubble/foam](#discussion-fixing-wiki-links-in-github-web-ui--issue-16--foambubblefoam)
@@ -15,6 +28,22 @@ tags: hashtags, wiki-links, foam, github,
 - [[250125-id-uri]]
 - 
 
+
+# yaml frontmatter tags are space-separated
+
+## https://jekyllrb.com/docs/front-matter/
+
+tags
+
+Similar to categories, one or multiple tags can be added to a post. Also like categories, tags can be specified as a YAML list or a `space-separated` string.
+
+### https://github.com/foambubble/foam/pull/311
+by having a tags property in YAML
+syntax for this property will be lose, so all of the following will yield the same result:
+tags: tag1, tag2
+tags: tag1 tag2
+tags: [tag1, tag2]
+by having #tag anywhere in the file
 
 # older
 
