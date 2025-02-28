@@ -850,3 +850,45 @@ done
 : 1736358816:0;echo   $(cat bcloudREADONLY/alma.txt)
 : 1736358824:0;which ssh
 : 1736358894:0;/usr/bin/ssh   $(cat bcloudREADONLY/alma.txt)
+: 1740766806:0;dpkg -l
+: 1740766819:0;dpkg -l | grep -i '[.]bsd'
+: 1740766835:0;dpkg -l | grep -i '[.].{0,5}bsd'
+: 1740766848:0;dpkg -l | grep -i '[.].{0,5}bs'
+: 1740766851:0;dpkg -l | grep -i '[.].{0,5}b'
+: 1740766880:0;dpkg -l | grep -i '.{0,5}b'
+: 1740766908:0;dpkg -l | grep -i '[-]{0,5}b'
+: 1740766917:0;dpkg -l | cat
+: 1740766959:0;dpkg -l | grep zsh
+: 1740766972:0;dpkg -l | grep 'zsh'
+: 1740766977:0;dpkg -l | grep 'zsh-'
+: 1740766995:0;dpkg -l | grep '[.]'
+: 1740767009:0;dpkg -l | grep '[:]'
+: 1740767039:0;dpkg -l | grep '^ii' | awk '{print $2}'
+: 1740767051:0;dpkg -l | grep '^ii' | awk '{print $2}'|grep '[.]'
+: 1740767060:0;dpkg -l | grep '^ii' | awk '{print $2}'|grep '[.]'  | wc
+: 1740767131:0;dpkg -l | grep '^ii' | awk '{print $2}'|grep -i '[.][a-z]'  | wc
+: 1740767136:0;dpkg -l | grep '^ii' | awk '{print $2}'|grep -i '[.][a-z]'
+: 1740767215:0;apt-cache search  pci
+: 1740767230:0;apt-cache search
+: 1740767252:0;apt-cache search  '.*' | awk '{print $1}' | grep -i '[.][a-z]'
+: 1740767267:0;apt-cache search  '.*' | awk '{print $1}' | grep -i '[.][a-z]'  |wc
+: 1740767278:0;apt-cache search  '.*' | awk '{print $1}' | grep -i '[.][a-z]'  | grep bsd
+: 1740767312:0;apt-cache search  '.*' | awk '{print $1}' | grep -i '[.][a-z]'  | cut -f 2  -d '.'
+: 1740767325:0;apt-cache search  '.*' | awk '{print $1}' | grep -i '[.][a-z]'  | cut -f 2  -d '.' | sort| uniq -c | sort -n
+: 1740767432:0;apt-cache search  '.*' | awk '{print $1}' | grep -i '[.][a-z]'  | c
+: 1740767438:0;apt-cache search  '.*' | awk '{print $1}' | grep -i '[.][a-z]'
+: 1740767476:0;apt-cache search  '.*' | awk '{print $1}' | grep -i '[.][a-z]'  |  clip.exe
+: 1740767696:0;dpkg -l | grep '^ii' | awk '{print $2}'|grep -i '[.][a-z]'
+: 1740767988:0;apt-cache search  '.*' | awk '{print $1}' | grep -i 'bsd'
+: 1740768171:0;echo $PATH | tr ':' '\n' | xargs -I {} ls -1 {} | grep -i '[.]'
+: 1740768232:0;echo $PATH | tr ':' '\n' | xargs -I {} ls -1 {} | grep -i '[.]' | cut -f 2 -d '.' | sort | uniq | wc
+: 1740768239:0;echo $PATH | tr ':' '\n' | xargs -I {} ls -1 {} | grep -i '[.]' | cut -f 2 -d '.' | sort | uniq
+: 1740768252:0;echo $PATH | tr ':' '\n' | xargs -I {} ls -1 {} | grep -i '[.]' | cut -f 2 -d '.' | sort | uniq -c
+: 1740768260:0;echo $PATH | tr ':' '\n' | xargs -I {} ls -1 {} | grep -i '[.]' | cut -f 2 -d '.' | sort | uniq -c|sort -n
+: 1740768313:0;echo $PATH
+: 1740768324:0;echo $PATH  | clip.exe
+: 1740768399:0;echo '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'  | tr ':' '\n' | xargs -I {} ls -1 {} | grep -i '[.]' | cut -f 2 -d '.' | sort | uniq -c|sort -n |\
+echo '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'  | tr ':' '\n' | xargs -I {} ls -1 {} | grep -i '[.]' | cut -f 2 -d '.' | sort | uniq -c|sort -n |\
+echo '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'  | tr ':' '\n' | xargs -I {} ls -1 {} | grep -i '[.]' | cut -f 2 -d '.' | sort | uniq -c|sort -n
+: 1740768501:0;echo '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'  | tr ':' '\n' | xargs -I {} ls -1 {} | grep -i '[.]' | cut -f 2 -d '.' | sort | uniq -c|sort -n| clip.exe
+: 1740768519:0;echo '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'  | tr ':' '\n' | xargs -I {} ls -1 {} | grep -i '[.]' | clip.exe
