@@ -892,3 +892,5 @@ echo '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/u
 echo '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'  | tr ':' '\n' | xargs -I {} ls -1 {} | grep -i '[.]' | cut -f 2 -d '.' | sort | uniq -c|sort -n
 : 1740768501:0;echo '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'  | tr ':' '\n' | xargs -I {} ls -1 {} | grep -i '[.]' | cut -f 2 -d '.' | sort | uniq -c|sort -n| clip.exe
 : 1740768519:0;echo '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'  | tr ':' '\n' | xargs -I {} ls -1 {} | grep -i '[.]' | clip.exe
+: 1740768671:0;echo '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'  | tr ':' '\n' | xargs -I {} ls -1 {} | wc
+: 1740768684:0;echo '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'  | tr ':' '\n' | xargs -I {} ls -1 {} |grep -i '[.]' |wc

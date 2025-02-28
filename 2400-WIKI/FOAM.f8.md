@@ -1,6 +1,7 @@
 ---
-tags: 
+tags: hashtags, wiki-links, foam, github, 
 ---
+
 
 
 - [Discussion: Fixing \[\[wiki-links\]\] in GitHub Web UI · Issue #16 · foambubble/foam](#discussion-fixing-wiki-links-in-github-web-ui--issue-16--foambubblefoam)
@@ -8,7 +9,14 @@ tags:
 - [experiment ... #hashtags that are all numbers](#experiment--hashtags-that-are-all-numbers)
 - [experiment](#experiment)
 
+# links
 
+- [[24ck-naming-convention]]
+- [[250125-id-uri]]
+- 
+
+
+# older
 
 file:///C:\Users\marti\OneDrive\antidepresiva-slovnik-2021\
 

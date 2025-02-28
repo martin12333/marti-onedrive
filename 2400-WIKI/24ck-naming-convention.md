@@ -1,6 +1,19 @@
-24ck-naming-convention
 
-https://en.wikipedia.org/wiki/Naming_convention
+- [links](#links)
+- [250228.19](#25022819)
+- [250228.18 fail](#25022818-fail)
+- [24ck](#24ck)
+	- [unreserved  = ALPHA / DIGIT / "-" / "." / "\_" / "~"](#unreserved---alpha--digit-------_--)
+		- [cmd /c dir "*,*.f8.md" /b /s](#cmd-c-dir-f8md-b-s)
+		- [cmd /c dir "*\`,*.f8.md" /b /s](#cmd-c-dir-f8md-b-s-1)
+		- [dir *,*.f8.md /b /s](#dir-f8md-b-s)
+
+
+# links
+
+- [[24ck-naming-convention]]
+- [[250125-id-uri]]
+- https://en.wikipedia.org/wiki/Naming_convention
 
 # 250228.19
 
@@ -111,7 +124,7 @@ https://github.com/martin12333/marti-onedrive/blob/main2/mn80--MSEdge-Workspace-
       sub-delims  = "!" / "$" / "&" / "'" / "(" / ")"
                   / "*" / "+" / "," / ";" / "="
 
-#      unreserved  = ALPHA / DIGIT / "-" / "." / "_" / "~"
+##      unreserved  = ALPHA / DIGIT / "-" / "." / "_" / "~"
 
 cmd /c dir *.f8.md /b /s >a
 cmd /c dir   /ad   /b /s >d
@@ -124,12 +137,12 @@ cmd /c dir   /b /s    /ad   | findstr -i ','
 
 https://[-a-z0-9.%_//\\:@+~]*[,]
 
-### cmd /c dir "*,*.f8.md" /b /s 
-### cmd /c dir "*`,*.f8.md" /b /s 
+ ### cmd /c dir "*,*.f8.md" /b /s 
+ ### cmd /c dir "*`,*.f8.md" /b /s 
 code a
 code d
 cmd
-### dir *,*.f8.md /b /s 
+ ### dir *,*.f8.md /b /s 
 exit
 
 2600??
