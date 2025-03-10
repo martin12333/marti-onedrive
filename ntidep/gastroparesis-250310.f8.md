@@ -2,6 +2,25 @@
 
 
 
+
+https://www.diigo.com/user/martin12333?query=gastroparesis
+
+https://en.wikipedia.org/wiki/Gastroparesis
+
+
+ feeling full after consuming very little ("early satiety")
+
+
+
+ Malnutrition, fatigue, weight loss, vitamin deficiencies, intestinal obstruction due to bezoars, small intestinal bacterial overgrowth
+
+
+
+https://en.wikipedia.org/wiki/Indigestion
+
+
+
+
 Medication-Induced Tardive Dyskinesia.. A Review and Update---selected---gastroparesis-250310.f8.md
 
 
@@ -9,6 +28,15 @@ Medication-Induced Tardive Dyskinesia.. A Review and Update---selected---gastrop
 
 
 
+
+metoclopramidum site:cz  extrapyramidální
+
+
+https://en.wikipedia.org/wiki/Metoclopramide
+
+Common adverse drug reactions (ADRs) associated with metoclopramide therapy include restlessness (akathisia), and focal dystonia. Infrequent ADRs include hypertension, hypotension, hyperprolactinaemia leading to galactorrhea, headache, and extrapyramidal effects such as oculogyric crisis.[13][4]
+
+Metoclopramide may be the most common cause of drug-induced movement disorders.[27] The risk of extrapyramidal effects is increased in people under 20 years of age, and with high-dose or prolonged therapy.[12][13] Tardive dyskinesia may be persistent and irreversible in some people. The majority of reports of tardive dyskinesia occur in people who have used metoclopramide for more than three months.[27] Consequently, the US Food and Drug Administration (FDA) recommends that metoclopramide be used for short-term treatment, preferably less than 12 weeks. In 2009, the FDA required all manufacturers of metoclopramide to issue a black box warning regarding the risk of tardive dyskinesia with chronic or high-dose use of the drug.[27]
 
 
 
@@ -35,6 +63,10 @@ We conducted a PubMed search using keywords and combined word searches that invo
 
 
 
-Antiemetics are prescribed for severe nausea and acid reflux and include dopamine antagonists, serotonin (5-HT3) receptor antagonists, neurokinin-1 antagonists, antihistamines, cannabinoids, benzodiazepines, and anticholinergics. Metoclopramide, a dopamine antagonist, has a strong correlation with the occurrence of TD.56 Old age, female sex, history of diabetes mellitus, and taking metoclopramide for 12+ weeks are risk factors for developing metoclopramide-induced TD. Metoclopramide is associated with respiratory dyskinesia and can manifest in TD as gasping, abnormal breathing, and irregular esophageal movements.56 Tapering metoclopramide has not been shown to decrease the risk of respiratory dyskinesia, and individuals with alterations in the CYP2D6 gene have decreased ability to metabolize metoclopramide and are more at risk for developing TD symptoms.57 Metoclopramide is currently the only medication that is US Food and Drug Administration (FDA) approved to treat gastroparesis, so options for preventing the onset or worsening of metoclopramide-induced TD in a patient with gastroparesis are lacking.57
+Antiemetics are prescribed for severe nausea and acid reflux and include dopamine antagonists, serotonin (5-HT3) receptor antagonists, neurokinin-1 antagonists, antihistamines, cannabinoids, benzodiazepines, and anticholinergics. Metoclopramide, a dopamine antagonist, has a strong correlation with the occurrence of TD.56 Old age, female sex, history of diabetes mellitus, and
+
+ taking metoclopramide for 12+ weeks
+ 
+  are risk factors for developing metoclopramide-induced TD. Metoclopramide is associated with respiratory dyskinesia and can manifest in TD as gasping, abnormal breathing, and irregular esophageal movements.56 Tapering metoclopramide has not been shown to decrease the risk of respiratory dyskinesia, and individuals with alterations in the CYP2D6 gene have decreased ability to metabolize metoclopramide and are more at risk for developing TD symptoms.57 Metoclopramide is currently the only medication that is US Food and Drug Administration (FDA) approved to treat gastroparesis, so options for preventing the onset or worsening of metoclopramide-induced TD in a patient with gastroparesis are lacking.57
 
 
