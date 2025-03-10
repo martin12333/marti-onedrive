@@ -1,7 +1,8 @@
 
 
 
-
+but: nausea
+better: burnout, asperger's
 
 https://www.diigo.com/user/martin12333?query=gastroparesis
 
@@ -13,6 +14,8 @@ https://en.wikipedia.org/wiki/Gastroparesis
 
 
  Malnutrition, fatigue, weight loss, vitamin deficiencies, intestinal obstruction due to bezoars, small intestinal bacterial overgrowth
+
+The antidepressant mirtazapine has proven effective in the treatment of gastroparesis unresponsive to conventional treatment.[58] This may be due to its antiemetic and appetite stimulant properties. Mirtazapine acts on the same serotonin receptor (5-HT3) as the popular antiemetic ondansetron.[59]
 
 
 
