@@ -2,7 +2,27 @@
 
 
 but: nausea
+
+I have confirmed GP with no nausea or vomiting so yes. Idk about the other questions though.
+
+
+
+
+
+
 better: burnout, asperger's
+
+
+
+Antidepressant 
+
+
+
+
+lying down
+10 keywords
+searched r/Gastroparesis
+
 
 https://www.diigo.com/user/martin12333?query=gastroparesis
 
