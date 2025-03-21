@@ -470,16 +470,14 @@ Pros and Cons of Apps
 
 https://keep.google.com/#NOTE/153OnhiiUGBGkLkEDANyTgbK6W53NiR1OJansHMry_OrA5CFprOsczktoBC12Jqs
 
+
 gdr automatic
-250226.Mb.stt--2501-aaaa-config-stt-tracker-250321
+250226.Mb-aaaa-config-stt-tracker
+older ones in config
 
-250226.Mb.stt-------------------_______--------track aaaa-------------------_______--------2501-config-stt-tracker-250321
+1dr
+250226-aaaa-config-stt-tracker
 
-250321
-2501-aaaa-config-stt-tracker-250226
-
-250226.Mb.stt--2501-aaaa-config-stt-tracker-250321
- 1dr
 
 
 gph/Tt from pc
