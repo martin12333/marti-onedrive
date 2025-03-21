@@ -7,9 +7,11 @@
 
 
 # mcpenshop prodejna: Praha – Atrium Karlovo náměstí  
+prodejna: Praha – Atrium Karlovo náměstí
+
 jiri.vlastimil.bok
 
-# !!rucne preposlat na b@k
+# asi old ... rucne preposlat na b@k
 gmail Milan Bok
 
 # starsi
@@ -18,8 +20,8 @@ https://keep.google.com/u/0/#NOTE/1UawUjeW3-OaIbvaQ9dMMsYhnraj4OpXl6MjMrmDDCsKuD
 # https://www.mcpenshop.cz/prehled-objednavek
 
 
-
-D:\000doc24\Dokumenty\mcpenshop.cz.f8.md
+C:\Users\marti\OneDrive\2400-WIKI\mcpenshop.cz.f8.md
+old D:\000doc24\Dokumenty\mcpenshop.cz.f8.md
 
 prodejna: Praha – Atrium Karlovo náměstí
 
@@ -30,7 +32,7 @@ vratit do prodejny
 Prosíme nepřidávat zápalky ... máme už troje.
 
 
-Balíček pro Vás bude expedován do prodejny během 7 kalendářních dnů.
+# Balíček pro Vás bude expedován do prodejny během 7 kalendářních dnů.
 
 
 
@@ -59,7 +61,8 @@ https://www.mcpenshop.cz/sponky-kancelarske-26-mm-100-ks-mix-barev
 https://www.mcpenshop.cz/sponky-kancelarske-concorde-50-mm-100-ks
 
 https://www.mcpenshop.cz/karty-do-kartoteky-a7-100-listu-bile
-https://www.mcpenshop.cz/vlozka-nahradni-do-bloku-karis-a6-linka-100-listu     radeji   6*  at se neplete    5* a6   6* a5
+
+# https://www.mcpenshop.cz/vlozka-nahradni-do-bloku-karis-a6-linka-100-listu     radeji   6*  at se neplete    5* a6   6* a5
 https://www.mcpenshop.cz/vlozka-nahradni-do-bloku-karis-a5-ctverecek-100-listu-2
 
 Vložka náhradní do bloků karis A5 linka, 100 listů
@@ -229,7 +232,7 @@ Cena celkem bez DPH300,00 Kč
 
 
 
-https://www.mcpenshop.cz/kelimky-plastove-na-kavu-0-18-l-15-ks-hnede
+# https://www.mcpenshop.cz/kelimky-plastove-na-kavu-0-18-l-15-ks-hnede
 
 
 
@@ -237,7 +240,7 @@ https://www.mcpenshop.cz/kelimky-plastove-na-kavu-0-18-l-15-ks-hnede
 
 https://www.mcpenshop.cz/karty-do-kartoteky-a7-100-listu-bile
 
-https://www.mcpenshop.cz/zapisnik-spiralovy-telefonni-10-x-16-cm-cerny
+# https://www.mcpenshop.cz/zapisnik-spiralovy-telefonni-10-x-16-cm-cerny
 
 
 
@@ -270,6 +273,10 @@ https://www.mcpenshop.cz/klipy-binder-pastelove-deli-25-mm-48-ks
 
 
 
+
+# https://www.mcpenshop.cz/pero-gelove-pilot-g-2-0-7-mm-tmave-cervene
+
+
 # https://www.mcpenshop.cz/otazky-a-odpovedi
 "8595004372410"  mcpenshop
 # Spony aktové 473, 50 mm / 25 ks barevné Zebra
@@ -277,5 +284,6 @@ https://www.mcpenshop.cz/klipy-binder-pastelove-deli-25-mm-48-ks
 
 
 
+prodejna: Praha – Atrium Karlovo náměstí
 
 
