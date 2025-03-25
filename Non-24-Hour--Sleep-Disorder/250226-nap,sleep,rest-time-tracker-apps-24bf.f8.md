@@ -470,13 +470,20 @@ Pros and Cons of Apps
 
 https://keep.google.com/#NOTE/153OnhiiUGBGkLkEDANyTgbK6W53NiR1OJansHMry_OrA5CFprOsczktoBC12Jqs
 
+cmd /c dir 25* /a
+cmd /c dir 24* /a
+
 
 gdr automatic
-250226.Mb-aaaa-config-stt-tracker
+250226.Mb.stt - Google Drive
+https://drive.google.com/drive/folders/1ImBhVqhBSIjI5OhzaOa-p33R-6AHQUEb
+cannot mn80 rename to 250226.Mb-aaaa-config-stt-tracker
 older ones in config
 
 1dr
 250226-aaaa-config-stt-tracker
+https://onedrive.live.com/?id=4B12298D932A2860%21se2461652cf3a442389d2cc86ec33873b&cid=4B12298D932A2860&sb=name&sd=1
+
 
 
 

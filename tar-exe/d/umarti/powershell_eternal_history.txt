@@ -12259,3 +12259,7 @@ bash
 dir
 bash
 code sklep-voda-250228-----tags--zahrada-mraz-mrznout-potrubí-dům-příčiny-následky-mrazivý-zima.md
+dir 25*
+cmd /c dir 25*
+cmd /c dir 25* /a
+cmd /c dir 24* /a
