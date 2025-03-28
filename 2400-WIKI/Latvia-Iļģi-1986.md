@@ -1,6 +1,12 @@
 
 # Now i am trying to find fragments of melodies and lyrics from the album. 
 
+
+(all that I have found so far
+https://github.com/martin12333/marti-onedrive/blob/main2/2400-WIKI/Latvia-I%C4%BC%C4%A3i-1986.md
+)
+
+
 # posted 
 https://www.facebook.com/groups/1169860943547454/?multi_permalinks=1904641873402687&hoisted_section_header_type=recently_seen
 
@@ -69,13 +75,13 @@ Lēni, lēni Dieviņš brauca no kalniņa lejiņā, Lai vējiņis nenopūta sudr
 
 
 
-https://open.spotify.com/artist/71grfuynvWWWmQPBAlroD9
+## https://open.spotify.com/artist/71grfuynvWWWmQPBAlroD9
 
 
 
 
 
-https://www.last.fm/music/I%C4%BC%C4%A3i/+wiki
+# https://www.last.fm/music/I%C4%BC%C4%A3i/+wiki
 
 The most famous world folk music band from Latvia Iļģi celebrated their 31st anniversary on April 21, 2012. The group started at the Cultural Centre of Iļģuciems, Rīga, Latvia in 1981 where Ilga Reizniece, a professional violinist, founded an ensemble of Latvian folk music. She had just graduated from the Jāzeps Vītols Latvian Academy of Music and was an active member of two prominent folk music ensembles Bizīteri and Skandinieki of the time.
 
