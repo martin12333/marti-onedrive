@@ -22,7 +22,11 @@ a take v diari
 
 
 # 250327
+win+q oneDrive
+win+q totalcommander
+close the totalcommander
 done vsc rename mn80 1804-M
+push
 mkdir mn80--MSEdge-Workspace-JVB-MB #~~
 \# redirect to OneDrive/1804-M
 existuji links to OneDrive/mn80--MSEdge-Workspace-JVB-MB ~~
@@ -30,16 +34,20 @@ existuji links to OneDrive/mn80--MSEdge-Workspace-JVB-MB ~~
 
 # this file 
 
-??
-[master version of this file is in OneDrive](https://onedrive.live.com/?cid=4B12298D932A2860&id=4B12298D932A2860%2142441&parId=4B12298D932A2860%2118753&o=OneUp)
 
-file:///C:\Users\marti\OneDrive\mn80--MSEdge-Workspace-JVB-MB\AAA-ODKAZY.f8.md
+[master version of this file is in OneDrive](
+https://onedrive.live.com/?cid=4B12298D932A2860&id=4B12298D932A2860%2142441&sb=name&sd=1&parId=4B12298D932A2860%21s4caa418e4cb44941a74a0a9994012231&o=OneUp
+)
 
-https://github.com/martin12333/marti-onedrive/blob/main2/mn80--MSEdge-Workspace-JVB-MB/AAA-ODKAZY.f8.md
+file:///C:\Users\marti\OneDrive\1804-M\0004-LINKS\AAA-ODKAZY.f8.md
+old file:///C:\Users\marti\OneDrive\mn80--MSEdge-Workspace-JVB-MB\AAA-ODKAZY.f8.md
+
+https://github.com/martin12333/marti-onedrive/blob/main2/1804-M/0004-LINKS/AAA-ODKAZY.f8.md
+old https://github.com/martin12333/marti-onedrive/blob/main2/mn80--MSEdge-Workspace-JVB-MB/AAA-ODKAZY.f8.md
 
 
 
-# existuje nový Google Chat space
+# existuje Google Chat space / tasks = LINKS
 
 [chat ](https://mail.google.com/chat/u/0/#chat/space/AAAA2NU9Pu0)
 
