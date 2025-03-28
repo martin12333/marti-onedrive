@@ -6,8 +6,9 @@ a take v diari
 
 
 
+- [250327](#250327)
 - [this file](#this-file)
-- [existuje nový Google Chat space](#existuje-nový-google-chat-space)
+- [existuje Google Chat space / tasks = LINKS](#existuje-google-chat-space--tasks--links)
 - [Edge workspace](#edge-workspace)
 - [oneDrive](#onedrive)
 	- [Milan: there are two related folders in OneDrive ... i will sync them manually?](#milan-there-are-two-related-folders-in-onedrive--i-will-sync-them-manually)
@@ -35,15 +36,22 @@ existuji links to OneDrive/mn80--MSEdge-Workspace-JVB-MB ~~
 # this file 
 
 
-[master version of this file is in OneDrive](
+[master version of this file is in OneDrive]
+
+edit
+https://onedrive.live.com/?cid=4B12298D932A2860&id=4B12298D932A2860%2142441&sb=name&sd=1&viewer=TextFile&parId=4B12298D932A2860%21s4caa418e4cb44941a74a0a9994012231&o=OneUp
+
+takes forever to load the preview
+(
 https://onedrive.live.com/?cid=4B12298D932A2860&id=4B12298D932A2860%2142441&sb=name&sd=1&parId=4B12298D932A2860%21s4caa418e4cb44941a74a0a9994012231&o=OneUp
 )
 
+
 file:///C:\Users\marti\OneDrive\1804-M\0004-LINKS\AAA-ODKAZY.f8.md
-old file:///C:\Users\marti\OneDrive\mn80--MSEdge-Workspace-JVB-MB\AAA-ODKAZY.f8.md
+old -file:///C:\Users\marti\OneDrive\mn80--MSEdge-Workspace-JVB-MB\AAA-ODKAZY.f8.md
 
 https://github.com/martin12333/marti-onedrive/blob/main2/1804-M/0004-LINKS/AAA-ODKAZY.f8.md
-old https://github.com/martin12333/marti-onedrive/blob/main2/mn80--MSEdge-Workspace-JVB-MB/AAA-ODKAZY.f8.md
+old -https://github.com/martin12333/marti-onedrive/blob/main2/mn80--MSEdge-Workspace-JVB-MB/AAA-ODKAZY.f8.md
 
 
 
@@ -62,9 +70,10 @@ jvb @ gm
 
 ## Milan: there are two related folders in OneDrive ... i will sync them manually?
 
-## MB PC  c:\Users\marti\OneDrive\mn80--MSEdge-Workspace-JVB-MB\
+## MB PC  c:\Users\marti\OneDrive\1804-M
+old mn80--MSEdge-Workspace-JVB-MB\
 
-[mn80--MSEdge-Workspace-JVB-MB - OneDrive](https://onedrive.live.com/?id=4B12298D932A2860%2118753&cid=4B12298D932A2860)
+[1804-M - OneDrive](https://onedrive.live.com/?id=4B12298D932A2860%2118753&cid=4B12298D932A2860)
 
 * details > manage access
   * mn80 is the owner of this folder
@@ -86,11 +95,11 @@ https://1drv.ms/f/c/4b12298d932a2860/Ep2M7bBuNT9MjF4H-zot51UBvh71DhP2u69rheHNo8r
 * many subdirectories, e.g.: samsung--chytre-hodinky
 
 
-## JB PC D:\onedrive\JB--MSEdge-Workspace-JVB-MB 
+## JB PC D:\onedrive\1804-JB...
 
 // pozn.: D:\onedrive , nikoliv c:\Users\Jirka\OneDrive
 
-[JB--MSEdge-Workspace-JVB-MB - OneDrive](https://onedrive.live.com/?id=BD7EC0AC1B4D4A31%21s8ee90528df21466eb3465aa3c889f4d7&cid=BD7EC0AC1B4D4A31)
+[1804JB--MSEdge-Workspace-JVB-MB - OneDrive](https://onedrive.live.com/?id=BD7EC0AC1B4D4A31%21s8ee90528df21466eb3465aa3c889f4d7&cid=BD7EC0AC1B4D4A31)
 
 * details > manage access
   * JB is the owner of this folder
