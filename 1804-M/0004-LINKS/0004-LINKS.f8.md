@@ -77,7 +77,8 @@ blog ....... You CAN live well with dementia. In this blog, I document my journe
 - 
 
 
-# Edge workspace
+# Edge workspace 1804-JM
+
 
 https://aka.ms/edge/workspaceslaunch?code=dHlwZT0xJmlkPWFIUjBjSE02THk5b2IyMWxMbTFwWTNKdmMyOW1kSEJsY25OdmJtRnNZMjl1ZEdWdWRDNWpiMjB2T25VNkwyY3ZZMjl1ZEdWdWRITjBiM0poWjJVdk5rTjZibWxvVGpOMk1IVjVNWHBMTlVaeVVrTmlkelJpTVRJeU9UaGtPVE15WVRJNE5qQjNiM0pyYzNCaFkyVnpMMGxSVEVOME56UnZXSFZaVVZRMk9FVk9UV3hEZDBZd1UwRmxMV2R1YjNseE1WOU5PR2QwYkRORlowNXJMVXh6JnN0b3JlPTUmc291cmNlPVdvcmtzcGFjZXMmcmVkZWVtQ29kZT0mYXBwSWRHdWlkPWI2ZDgzM2NmLWI1NGUtNGNhYi04MTQzLTEzMThlMGJjNTBlMQ%3D%3D&source=Workspaces
 
