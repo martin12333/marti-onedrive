@@ -6,31 +6,22 @@ a take v diari
 
 
 
-- [250327](#250327)
 - [this file](#this-file)
 - [existuje Google Chat space / tasks = LINKS](#existuje-google-chat-space--tasks--links)
 - [Edge workspace](#edge-workspace)
 - [oneDrive](#onedrive)
 	- [Milan: there are two related folders in OneDrive ... i will sync them manually?](#milan-there-are-two-related-folders-in-onedrive--i-will-sync-them-manually)
-	- [MB PC  c:\\Users\\marti\\OneDrive\\mn80--MSEdge-Workspace-JVB-MB\\](#mb-pc--cusersmartionedrivemn80--msedge-workspace-jvb-mb)
-	- [JB PC D:\\onedrive\\JB--MSEdge-Workspace-JVB-MB](#jb-pc-donedrivejb--msedge-workspace-jvb-mb)
+	- [MB PC  c:\\Users\\marti\\OneDrive\\1804-M](#mb-pc--cusersmartionedrive1804-m)
+	- [JB PC D:\\onedrive\\1804-JB...](#jb-pc-donedrive1804-jb)
 - [https://photos.google.com EDIT: NOVEJSI JE V KEEP](#httpsphotosgooglecom-edit-novejsi-je-v-keep)
 	- [https://photos.google.com EDIT: NOVEJSI JE V KEEP](#httpsphotosgooglecom-edit-novejsi-je-v-keep-1)
 	- [Lenovo(2017) microsoft windows, internet,034 , network, UEFI BIOS howtogeek boot;; disk errors album jinde, Jiří - Google Photos](#lenovo2017-microsoft-windows-internet034--network-uefi-bios-howtogeek-boot-disk-errors-album-jinde-jiří---google-photos)
 	- [Alma.karlov,su.mff.cuni.cz, web zdarma. cz](#almakarlovsumffcunicz-web-zdarma-cz)
 		- [new https://github.com/martin12333/marti-onedrive/blob/main2/alma-233c/alma---24bL.f8.txt.md](#new-httpsgithubcommartin12333marti-onedriveblobmain2alma-233calma---24blf8txtmd)
+- [250327](#250327)
 
 
 
-# 250327
-win+q oneDrive
-win+q totalcommander
-close the totalcommander
-done vsc rename mn80 1804-M
-push
-mkdir mn80--MSEdge-Workspace-JVB-MB #~~
-\# redirect to OneDrive/1804-M
-existuji links to OneDrive/mn80--MSEdge-Workspace-JVB-MB ~~
 
 
 # this file 
@@ -46,11 +37,12 @@ takes forever to load the preview
 https://onedrive.live.com/?cid=4B12298D932A2860&id=4B12298D932A2860%2142441&sb=name&sd=1&parId=4B12298D932A2860%21s4caa418e4cb44941a74a0a9994012231&o=OneUp
 )
 
-
-file:///C:\Users\marti\OneDrive\1804-M\0004-LINKS\AAA-ODKAZY.f8.md
+file:///C:\Users\marti\OneDrive\1804-M\0004-LINKS\0004-LINKS.f8.md
+old -file:///C:\Users\marti\OneDrive\1804-M\0004-LINKS\AAA-ODKAZY.f8.md
 old -file:///C:\Users\marti\OneDrive\mn80--MSEdge-Workspace-JVB-MB\AAA-ODKAZY.f8.md
 
-https://github.com/martin12333/marti-onedrive/blob/main2/1804-M/0004-LINKS/AAA-ODKAZY.f8.md
+https://github.com/martin12333/marti-onedrive/blob/main2/1804-M/0004-LINKS/0004-LINKS.f8.md
+old -https://github.com/martin12333/marti-onedrive/blob/main2/1804-M/0004-LINKS/AAA-ODKAZY.f8.md
 old -https://github.com/martin12333/marti-onedrive/blob/main2/mn80--MSEdge-Workspace-JVB-MB/AAA-ODKAZY.f8.md
 
 
@@ -143,3 +135,20 @@ https://photos.google.com/share/AF1QipO8HSdDBUOau-xpbYUQcGIpzTIUFth23DT6At89ztS3
 
 * dir C:\Users\Milan_rx*\OneDrive\alma-222-mi75
 
+
+
+# 250327
+win+q oneDrive
+win+q totalcommander
+close the totalcommander
+done vsc rename mn80 1804-M
+push
+mkdir mn80--MSEdge-Workspace-JVB-MB #~~
+\# redirect to OneDrive/1804-M
+
+C:\Users\marti\OneDrive\1804-M\0004-LINKS\AAA-ODKAZY.f8.md
+0004-LINKS.f8.md
+C:\Users\marti\OneDrive\1804-M\0004-LINKS\0004-LINKS.f8.md
+
+existuji links to OneDrive/mn80--MSEdge-Workspace-JVB-MB ~~
+gchat
