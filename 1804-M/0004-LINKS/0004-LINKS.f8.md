@@ -1,6 +1,20 @@
 
-Ja take mam problemy ... ty dnesni jsou na papircich s cervenou sponkou ,
-a take v diari
+# Sbirka odkazu
+
+250309 dad songs colab. 1 🧓 - YouTube
+
+https://www.youtube.com/playlist?list=PLC789494F36B89775
+
+Healing music 💚🎵
+Ainars Mielavs - (Tumša nakte zaļa zāle)
+
+// Ja take mam problemy ... ty dnesni jsou na mych papircich s cervenou sponkou , a take v mem diari
+
+(12) HD - Es izjāju prūšu zemi - Latvian folk song - Ceiruleits - YouTube
+
+
+
+
 
 
 
@@ -47,9 +61,19 @@ old -https://github.com/martin12333/marti-onedrive/blob/main2/mn80--MSEdge-Works
 
 
 
-# existuje Google Chat space / tasks = LINKS
+# existuje Google Chat space + tasks = LINKS
 
 [chat ](https://mail.google.com/chat/u/0/#chat/space/AAAA2NU9Pu0)
+
+- copilot.microsoft.com
+
+- https://www.livingwithdementia.online/post/the-elephant-in-the-room
+blog ....... You CAN live well with dementia. In this blog, I document my journey into dementia and show how I cope day-to-day with the challenges of ...
+
+
+- chatGPT.com
+- 
+
 
 # Edge workspace
 
@@ -91,7 +115,7 @@ https://1drv.ms/f/c/4b12298d932a2860/Ep2M7bBuNT9MjF4H-zot51UBvh71DhP2u69rheHNo8r
 
 // pozn.: D:\onedrive , nikoliv c:\Users\Jirka\OneDrive
 
-[1804JB--MSEdge-Workspace-JVB-MB - OneDrive](https://onedrive.live.com/?id=BD7EC0AC1B4D4A31%21s8ee90528df21466eb3465aa3c889f4d7&cid=BD7EC0AC1B4D4A31)
+[1804JB-- - OneDrive](https://onedrive.live.com/?id=BD7EC0AC1B4D4A31%21s8ee90528df21466eb3465aa3c889f4d7&cid=BD7EC0AC1B4D4A31)
 
 * details > manage access
   * JB is the owner of this folder
@@ -109,7 +133,7 @@ samsung--chytre-hodinky
 ## https://photos.google.com EDIT: NOVEJSI JE V KEEP
 
 Jiri, Milan sdileni - Fotky Google - nekolik alb
-https://keep.google.com/#NOTE/1CpbuRCfHbM8bChPM8NIY_WXi3ASPteFCQychIHProbKohcwpapZjqU9cbmY6eg
+## https://keep.google.com/#NOTE/1CpbuRCfHbM8bChPM8NIY_WXi3ASPteFCQychIHProbKohcwpapZjqU9cbmY6eg
 
 
 ## Lenovo(2017) microsoft windows, internet,034 , network, UEFI BIOS howtogeek boot;; disk errors album jinde, Jiří - Google Photos
@@ -138,6 +162,7 @@ https://photos.google.com/share/AF1QipO8HSdDBUOau-xpbYUQcGIpzTIUFth23DT6At89ztS3
 
 
 # 250327
+done vsc rename mn80 1804-M
 win+q oneDrive
 win+q totalcommander
 close the totalcommander
