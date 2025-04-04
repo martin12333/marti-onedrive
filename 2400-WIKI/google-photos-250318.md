@@ -1,6 +1,15 @@
 
 
+
+
+# sensitive words 
+https://keep.google.com/#NOTE/1W2hJxcDoHexHMyIHkvZFCWzM73T0iR69E8zR6JoBD65pj-dLqexUTzbX4vjyFw
+
+
 # get the names of all albums in Google Photos
+
+
+
 
 https://takeout.google.com/settings/takeout/custom/photos?pli=1
 
@@ -156,13 +165,13 @@ L. B. a MUDr. ... Radmila Krausova 2023-03, ... nemocnice Motol 2017
 
 LB Dr. Praško
 
-LB OCD dary 250319 Laifr JB
+LB OCD dary 250319
 
 LB boot PC HP(2014) 500-201EC windows UEFI BIOS howtogeek
 
 LED žárovky Philips hue 10w 800lumen,, nova alza 1100 lm příkon 9 W, nedis night light dontkillmyapp
 
-Laifrovi, Jiří, Jiri - Wifi, Wi-Fi, usb, asus, wps,
+, Jiří, Jiri - Wifi, Wi-Fi, usb, asus, wps,
 
 Lamart džezvy nádobí kuchyně voda
 
@@ -592,7 +601,7 @@ tablet ... ... Eda ... ... alza - USB-klávesnice, usb-otg, Asus ZenPad 10 (Z301
 
 taxi 43 modrý anděl George problémy s placením pilulka 24a9
 
-tech--Laifrovi,Bokovi - Chat
+tech-
 
 test my-usb-md5sum flash drive no bitrot 5 years
 
