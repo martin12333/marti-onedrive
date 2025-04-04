@@ -1,8 +1,11 @@
 
+- [albums # sensitive words](#albums--sensitive-words)
+- [get the names of all albums in Google Photos](#get-the-names-of-all-albums-in-google-photos)
 
 
 
-# sensitive words 
+# albums # sensitive words 
+
 https://keep.google.com/#NOTE/1W2hJxcDoHexHMyIHkvZFCWzM73T0iR69E8zR6JoBD65pj-dLqexUTzbX4vjyFw
 
 
