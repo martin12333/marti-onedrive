@@ -38,6 +38,16 @@ Google Photos content options
 Choose specific Photos data for your export
 Google Photos content options
 
+
+
+
+# old
+
+https://www.google.com/search?q=google-drive+settings+connect+to+google-photos&oq=google-drive+settings+connect+to+google-photos+&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIKCAEQABiABBiiBDIHCAIQABjvBTIKCAMQABiABBiiBNIBCTIyMDEwajBqMagCALACAA&sourceid=chrome&ie=UTF-8
+
+
+# albums # sensitive words 
+
 kyslík . ale Problém větrání, otevřená okna, větrací mřížky, studený vzdkyslíkuch v noci, topení, vypínání elektřiny při nočním proudu, bojím Pokud jiný dodavatel elektřiny. kyslík.
 
 Generali Česká pojišťovna. asistence. Pojištění obytných budov. pojištění domácnosti. pojištění odpovědnosti.
