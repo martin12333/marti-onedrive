@@ -15,9 +15,11 @@ https://keep.google.com/#NOTE/1W2hJxcDoHexHMyIHkvZFCWzM73T0iR69E8zR6JoBD65pj-dLq
 
 
 https://takeout.google.com/settings/takeout/custom/photos?pli=1
+click: all photo albums included
 
-all photo albums included
+^a ^c
 
+--------------------------
 Google Takeout
 Your account, your data.
 Export a copy of content in your Google Account to back it up or use it with a service outside of Google.
@@ -46,7 +48,7 @@ Google Photos content options
 https://www.google.com/search?q=google-drive+settings+connect+to+google-photos&oq=google-drive+settings+connect+to+google-photos+&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIKCAEQABiABBiiBDIHCAIQABjvBTIKCAMQABiABBiiBNIBCTIyMDEwajBqMagCALACAA&sourceid=chrome&ie=UTF-8
 
 
-# albums # sensitive words 
+# albums # sensitive words removed
 
 kyslík . ale Problém větrání, otevřená okna, větrací mřížky, studený vzdkyslíkuch v noci, topení, vypínání elektřiny při nočním proudu, bojím Pokud jiný dodavatel elektřiny. kyslík.
 
