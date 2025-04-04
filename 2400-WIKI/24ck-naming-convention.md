@@ -156,3 +156,23 @@ exit
  cmd /c dir  /b /s >1
 code 1
 
+# 250404
+photos
+
+# rename vsc, propagate to cloud
+
+0006
+[text](../1804-M/00046-SHARING)
+0005
+00045-CAN-EDIT-subdir
+C:\Users\marti\OneDrive\1804-M\0005-CAN-EDIT-subdir\
+https://onedrive.live.com/?id=root&cid=4B12298D932A2860&qt=sharedbyme
+f5
+
+earlier had to /re/start the onedrive daemon somehow
+
+edge://sync-internals/
+
+Data Type	Total Entries	Live Entries	Message	State
+Bookmarks	35272	35272	Throttled	Running
+
