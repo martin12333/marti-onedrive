@@ -84,6 +84,8 @@ https://aka.ms/edge/workspaceslaunch?code=dHlwZT0xJmlkPWFIUjBjSE02THk5b2IyMWxMbT
 
 jvb @ gm
 
+https://www.google.com/search?newwindow=1&sca_esv=5a94a9a0ff087db0&sxsrf=AHTn8zoPso0T3p1UlKJT8xKSxxBrxpe8tA:1743240956847&q=samsung+tab+jak+povolit&udm=2&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpA-dk4wpBWOGsoR7DG5zJBkzPWUS0OtApxR2914vrjk7XZXfnfKsaRZouQANLhmphXtkuAPjXaTFep1ypWY-idRvgMvh7xk3DMoMmaMqG3e_6vl0Wcy6OyuUoIF_x_pXRa8NhVEZTZn-XWJ-Mpu_PajA90CQ&sa=X&ved=2ahUKEwjdmPbP_q6MAxUrzgIHHc2sMzsQtKgLegQIERAB&biw=1389&bih=640&dpr=1.38
+
 
 # oneDrive
 

@@ -152,3 +152,7 @@ exit
 1811
 	FAMILY6
 
+# 250329 0000 
+ cmd /c dir  /b /s >1
+code 1
+
