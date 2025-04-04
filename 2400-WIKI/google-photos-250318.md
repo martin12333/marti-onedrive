@@ -9,6 +9,16 @@
 https://keep.google.com/#NOTE/1W2hJxcDoHexHMyIHkvZFCWzM73T0iR69E8zR6JoBD65pj-dLqexUTzbX4vjyFw
 
 
+
+
+
+
+# Google photos 250313 Android bug, cannot rename shared album? 250318 or maybe it updates in minutes? pc f5 stable?
+250313 Android Google photos bug, cannot rename shared album
+
+
+
+
 # get the names of all albums in Google Photos
 
 
