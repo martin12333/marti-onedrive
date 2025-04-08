@@ -1,6 +1,9 @@
 
 - [albums # sensitive words](#albums--sensitive-words)
+- [Google photos 250313 Android bug, cannot rename shared album? 250318 or maybe it updates in minutes? pc f5 stable?](#google-photos-250313-android-bug-cannot-rename-shared-album-250318-or-maybe-it-updates-in-minutes-pc-f5-stable)
 - [get the names of all albums in Google Photos](#get-the-names-of-all-albums-in-google-photos)
+- [old](#old)
+- [albums # sensitive words removed](#albums--sensitive-words-removed)
 
 
 
@@ -15,6 +18,13 @@ https://keep.google.com/#NOTE/1W2hJxcDoHexHMyIHkvZFCWzM73T0iR69E8zR6JoBD65pj-dLq
 
 # Google photos 250313 Android bug, cannot rename shared album? 250318 or maybe it updates in minutes? pc f5 stable?
 250313 Android Google photos bug, cannot rename shared album
+
+
+
+
+
+
+# 250407
 
 
 

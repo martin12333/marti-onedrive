@@ -12267,3 +12267,7 @@ cmd /c dir  /b /s
 cmd /c dir  /b /s >1
 code 1
 cmd /c dir  /b /s >1
+cmd /c dir .. /al
+cmd /c dir ..\.. /al
+cmd /c dir ..\.. /al   | clip
+cmd /c dir c:\   /al   | clip
