@@ -58,3 +58,9 @@ Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--deldest    /s   /XJ 
 
 /xf .gitignore       /xf .git  /XO
 
+Obrázky/Screenpresso/2025-04-09_04h08_55.png
+
+# robocopy with delete on  destination but not on source
+
+# robocopy what do the /mir and /purge do
+
