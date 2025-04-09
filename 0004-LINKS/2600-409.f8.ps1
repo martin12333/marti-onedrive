@@ -96,12 +96,18 @@ echo a >D:\umarti\OneDrive--deldest\be-deleted-by-robocopy.txt
 f8
 C:\Users\marti\OneDrive\0004-LINKS\Robocopy---c-onedrive---e.f5.cmd
 #cmd
+
 f8
 C:\Users\marti\OneDrive\0004-LINKS\pokus-Robocopy---c-onedrive---e.f5.cmd
+C:\Users\marti\OneDrive\0004-LINKS\pokus-Robocopy---c-onedrive---d-mir.f5.cmd
 
 exit
 
-cmd /
+
+
+
+cmd
+
 <#
 .SYNOPSIS
 	A short one-line action-based description, e.g. 'Tests if a function is valid'
