@@ -25,6 +25,7 @@ git push
 ##  findstr.exe  -i   older
 #Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive   /e    /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*    /xd .vscode   /xf .git  /xf .gitignore         /XO  /njh   /LOG+:C:\Users\marti\log\doc24.log   /tee    /V   |  findstr.exe  -i   older
 ## /L
+
 ##  /nfl  /ndl
 ###  \BACKUP-DONTEDIT-000doc24
 	git show --name-only
@@ -44,9 +45,17 @@ falsealarm some filenames contain "older"
 
 #!pwsh
 
+cd ~/OneDrive
+git add -vv --dry-run   '*.f8.*'     '*.f5.*'
+#git add -vv --dry-run  '*00-WIKI/*.md'
+#git add -vv   '*00-WIKI/*.md'
+#git add -vv   '2400-WIKI/*.md'
+
+#!pwsh
+
 #a
 cd ~/OneDrive
-git add -vv  '*.f8.*'  #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
+git add -vv  '*.f8.*'       '*.f5.*'   #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
 git add -vv   '2400-WIKI/*.md'
 #git commit -v -a -m    VSCODE-MOVE   #
 git commit -v -a -m    backup   #-before   #
@@ -77,7 +86,8 @@ git ls-files   --deleted
 #!pwsh
 
 cd ~/OneDrive
-git add -vv --dry-run  '*00-WIKI/*.md'
+git add -vv --dry-run   '*.f8.*'     '*.f5.*'
+#git add -vv --dry-run  '*00-WIKI/*.md'
 #git add -vv   '*00-WIKI/*.md'
 #git add -vv   '2400-WIKI/*.md'
 

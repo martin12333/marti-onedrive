@@ -12274,3 +12274,5 @@ cmd /c dir c:\   /al   | clip
 powershell -command Get-Process   -Name Robocopy
 kill -Name  Robocopy
 Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--deldest    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git
+Robocopy---c-onedrive---e.f5.cmd
+C:\Users\marti\OneDrive\0004-LINKS\Robocopy---c-onedrive---e.f5.cmd

@@ -44,6 +44,7 @@ rem 24?? older  start  "000doc24"  /min  /low  Robocopy.exe    d:\000doc24   C:\
 timeout.exe 5
 
 
+rem file:///C:\Users\marti\OneDrive\0004-LINKS\2600-409.f8.ps1
 
 rem 250409 start  "OneDrive" /min  /low   Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--robo    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git                    /mot:5    /ndl    /nfl   /LOG+:C:\Users\marti\log\onedr.log
 

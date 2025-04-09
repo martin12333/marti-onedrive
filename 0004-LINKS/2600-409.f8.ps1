@@ -1,13 +1,17 @@
 
 exit
+# i mistakenly used f5 instead of f8
 
 respnt ?
 
-# a5 papiry nahore se 2 sponkami
+
+
+# robocopy a5 papiry nad stolem se 2 sponkami
 # v karis bloku mel dat pod R robocopy
 
 
-### ////C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
+
+### quotes ////C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
 pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1 >>~/log/mymyrsync.ps1.log   2>>~/log/mymyrsync.ps1.err.log
 
 cmd /c dir c:\     | findstr.exe -i free
@@ -15,7 +19,8 @@ cmd /c dir c:\     | findstr.exe -i free
 
 
 
-# C:\Users\marti\OneDrive\ps-mylen-mar\start-robocopy.cmd
+rem file:///C:\Users\marti\OneDrive\0004-LINKS\2600-409.f8.ps1
+# file:///C:\Users\marti\OneDrive\ps-mylen-mar\start-robocopy.cmd
 
 timeout.exe 60
 
@@ -61,7 +66,8 @@ Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--deldest    /s   /XJ 
 /LOG+:C:\Users\marti\log\onedr.log
 
 
-/xf .gitignore       /xf .git  /XO
+/xf .gitignore
+  /XO
 
 Obrázky/Screenpresso/2025-04-09_04h08_55.png
 
@@ -74,4 +80,18 @@ Robocopy.exe
 
 # If you can't copy a file you can also put it in a exclusion list with /xf MyProblemFile.exe. I always had problems with a hidden file in onedrive that looks like this: ".349C9593-D756-4E56-1D6E-42412F2A3075" I think it is blocked or something, and I had to put it in the exclusion list when I backup onedrive with robocopy
 
+
+
+#Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive   /e    /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*    /xd .vscode   /xf .git  /xf .gitignore         /XO  /njh   /LOG+:C:\Users\marti\log\doc24.log   /tee    /V   |  findstr.exe  -i   older
+## /L
+
+
+
+
+#   TESTS #########################################
+
+echo a >C:\Users\marti\OneDrive\0004-LINKS\not-be-deleted-by-robocopy.txt
+echo a >D:\umarti\OneDrive--deldest\be-deleted-by-robocopy.txt
+
+C:\Users\marti\OneDrive\0004-LINKS\Robocopy---c-onedrive---e.f5.cmd
 
