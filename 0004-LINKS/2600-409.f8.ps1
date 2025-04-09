@@ -3,7 +3,7 @@ exit
 # i mistakenly used f5 instead of f8
 
 respnt ?
-post edit .cmd
+"post edit .cmd"
  btw, does reverting a respnt revert .cmd files ?? lnk files  ??? in onedrive ???? in Startup ??
 
 # robocopy a5 papiry nad stolem se 2 sponkami
@@ -80,7 +80,8 @@ Robocopy.exe
 
 # robocopy what do the /mir and /purge do
 
-# If you can't copy a file you can also put it in a exclusion list with /xf MyProblemFile.exe. I always had problems with a hidden file in onedrive that looks like this: ".349C9593-D756-4E56-1D6E-42412F2A3075" I think it is blocked or something, and I had to put it in the exclusion list when I backup onedrive with robocopy
+# If you can't copy a file you can also put it in a exclusion list with /xf MyProblemFile.exe. I always had problems with a hidden file in onedrive that looks like this: ".349C9593-D756..."
+-4E56-1D6 I think it is blocked or something, and I had to put it in the exclusion list when I backup onedrive with robocopy
 
 
 
@@ -128,4 +129,3 @@ du  E:\onedrive--cmd--409.1247
 	Explanation of the function or its result. You can include multiple examples with additional .EXAMPLE lines
 #>
 
-{0}

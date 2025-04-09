@@ -5,6 +5,9 @@
 #!pwsh
 
 # GIT LOCK AFTER "STOP CELL EXEC": POMOHLO F1 DEVEL RELOAD
+
+#!pwsh
+
 #powershell -command
 
 wsl --list --all --verbose

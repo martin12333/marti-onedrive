@@ -1,6 +1,18 @@
+
 exit
+# i mistakenly used f5 instead of f8
 
 rem file:///C:\Users\marti\OneDrive\0004-LINKS\2600-409.f8.ps1
+
+
+
+
+
+#   TESTS #########################################
+
+echo a >C:\Users\marti\OneDrive\0004-LINKS\not-be-deleted-by-robocopy.txt
+echo a >D:\umarti\OneDrive--deldest\be-deleted-by-robocopy.txt
+
 
 cmd
 
@@ -8,7 +20,7 @@ cmd
 
 
 
-copilot | findstr -vi "newer" | findstr -vi "skipped" | findstr -vi "skipping" | findstr -vi "deleting" | findstr -vi "deleted
+rem copilot | findstr -vi "newer" | findstr -vi "skipped" | findstr -vi "skipping" | findstr -vi "deleting" | findstr -vi "deleted
 
 	  *EXTRA File 		       3	be-deleted-by-robocopy.txt
 

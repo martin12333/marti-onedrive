@@ -2623,6 +2623,9 @@
  2622  grep -v '.git'  1 | grep -o -E '[0-9]{4,}'  | sort -u |   grep -E  '^[23]...$'
  2623  Get-Process   -Name Robocopy
  2624  exit
+ 
+ 
+ 
  2625  ls /d/GIT-bk04/
  2626  cd /d/GIT-bk04
  2627  mv -iv marti-onedrive.wiki.git OLD-marti-onedrive.wiki.git
@@ -2633,6 +2636,9 @@
  2632  cd /c/Users/marti/marti-onedrive.wiki
  2633  cd /c/Users/marti/
  2634  ls *wiki*
+ 
+ 
+ 
  2635  export GIT_DIR=/d/GIT-bk04/marti-onedrive.wiki2.git
  2636  ls -l $GIT_DIR
  2637  ls -al $GIT_DIR
@@ -2655,7 +2661,9 @@
  2654  ls -al
  2655  mkdir ~/OneDrive/foo
  2656  cd ~/OneDrive/foo
+ 
  2657  git checkout master
+ 
  2658  history | grep -i git
  2659  export GIT_DIR=D:/GIT-bk04/2400-WIKI.git
  2660  git show --name-only
@@ -2683,6 +2691,9 @@
  2682  mkdir marti-onedrive.wiki33.git
  2683  export GIT_DIR=/d/GIT-bk04/marti-onedrive.wiki33.git
  2684  ls -al $GIT_DIR
+
+
+
  2685  cd ~/OneDrive/2400-WIKI
  2686  ls ~/OneDrive/2400-WIKI/.git
  2687  git show --name-only
