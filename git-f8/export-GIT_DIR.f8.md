@@ -3,6 +3,8 @@
 # todo a cell in a dib ?? or an .f5 file ?
 
 [[github-wiki.f8]]
+2504 really: see 
+ file:///C:\Users\marti\OneDrive\wiki-f8\github-wiki.f8.md
 
 
 # export GIT_DIR=D:/GIT-bk04/2400-WIKI.git

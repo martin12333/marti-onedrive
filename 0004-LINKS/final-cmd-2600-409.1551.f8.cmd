@@ -49,15 +49,15 @@ cd umarti\onedrive--deldest
 C:\pf\Git\cmd\git.exe status
 cd ..
 dir *ma*
+dir *oned*
+
 rem cd d:\umarti\onedrive--deldest
 rem cd d:\
 
 c:
 
 set GIT_DIR=/d/GIT-bk04/marti-onedrive-2600.git
-
-C:\pf\Git\cmd\git.exe
-
+set GIT_WORK_TREE=/d/umarti/onedrive--deldest
 
 C:\pf\Git\bin\bash.exe
 
@@ -69,15 +69,54 @@ C:\pf\Git\bin\bash.exe
 	ls -la $GIT_DIR
 	echo .$GIT_DIR.
 
-   git clone https://github.com/martin12333/marti-onedrive.git
+   #####git clone https://github.com/martin12333/marti-onedrive.git
+
+
+	# once
+
+	##cd ~/OneDrive/2400-WIKI
+	cd onedrive--deldest
+
+	#export GIT_DIR=/d/GIT-bk04/marti-onedrive.wiki33.git
+	ls -al $GIT_DIR
+	git show --name-only
+
+	echo $GIT_DIR
+	echo $GIT_WORK_TREE
+	#export GIT_WORK_TREE=/c/Users/marti/OneDrive/2400-WIKI
+	export GIT_WORK_TREE=/d/umarti/onedrive--deldest
+pwd|clip
+
+	git  status
+	git  status  -vv
+q
+
+
+	git add -vv        .gitignore    #'install.sh*'
+	git add -vv --dry-run  '*.md'
+	git add -vv --dry-run  '*.f8.*'
+	git add -vv  '*.f8.*'
+	git add -vv  '*.md'
+	goes into subdirs
+
+
+	git ls-files
+	ls
+
+	git commit -a -m move-zzz-away
+	git commit -a -m 250129
+	git push -vv  origin master
+
+
 
 exit
 exit
 cmd
 
 
+todo file:///C:\Users\marti\OneDrive\wiki-f8\github-wiki.f8.md
 
-file:///C:\Users\marti\OneDrive\2400-WIKI\history.md
+rem file:///C:\Users\marti\OneDrive\2400-WIKI\history.md
 
 dir  D:\umarti\OneDrive--deldest
 
