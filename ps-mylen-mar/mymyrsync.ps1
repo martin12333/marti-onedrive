@@ -41,7 +41,7 @@ $x='..\sbase.wasm'
 # 233 i cannot remember, and cannot understand from experiments, why i used the '..' in $x a month ago 232
 # 235 maybe as a guard  against undef variable  f8\powershell-undefined-variable.f8.ps1
 
-Robocopy.exe    P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\robocopy\$x     C:\Users\marti\OneDrive\$x--robocopy      /s   /XJ   /XD .git    /XD node_modules   /XD OLD*     /xf *.wasm   /xf *.o  /xf *.js    /NJH    /NJS
+# 250409  Robocopy.exe    P:\home\user\.local\share\containers\storage\volumes\nslash_home\_data\vscode\robocopy\$x     C:\Users\marti\OneDrive\$x--robocopy      /s   /XJ   /XD .git    /XD node_modules   /XD OLD*     /xf *.wasm   /xf *.o  /xf *.js    /NJH    /NJS
 
 
 
