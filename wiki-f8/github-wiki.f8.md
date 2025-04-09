@@ -168,12 +168,15 @@ export GIT_WORK_TREE=/c/Users/marti/OneDrive/2400-WIKI
 
 	cd -
 
-
+	set | grep -i history
 	history -a
 	##history  >history.md
 	##cat ~/.bash_history
-	cat ~/.bash_eternal_history >history.txt
-
+	#cat ~/.bash_eternal_history >history.txt
+	cp -iv ~/.bash_eternal_history history.f8.sh
+	cp -iv $HISTFILE bash_eternal_history.f8.sh
+	ls -l $HISTFILE
+	code bash_eternal_history.f8.sh
 
 # https://github.com/martin12333/marti-onedrive/wiki
 

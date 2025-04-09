@@ -56,20 +56,29 @@ rem cd d:\
 
 c:
 
-set GIT_DIR=/d/GIT-bk04/marti-onedrive-2600.git
+set GIT_DIR=/d/GIT-bk04/marti-onedrive-2600-409.21.git
 set GIT_WORK_TREE=/d/umarti/onedrive--deldest
 
 C:\pf\Git\bin\bash.exe
+exit
+
+	# once
 
 	ls /d/GIT-bk04/
 	#export GIT_DIR=D:/GIT-bk04/2400-WIKI.git
-	export GIT_DIR=/d/GIT-bk04/marti-onedrive-2600.git
-	mkdir $GIT_DIR
+	#export GIT_DIR=/d/GIT-bk04/marti-onedrive-2600.git
+	#mkdir $GIT_DIR
 
 	ls -la $GIT_DIR
 	echo .$GIT_DIR.
 
-   #####git clone https://github.com/martin12333/marti-onedrive.git
+
+export GIT_WORK_TREE=/d/umarti/old2-marti-onedrive
+
+	ls -la $GIT_WORK_TREE/.g*
+	echo .$GIT_WORK_TREE.
+
+   git clone     --separate-git-dir=$GIT_DIR      https://github.com/martin12333/marti-onedrive.git
 
 
 	# once
@@ -81,16 +90,22 @@ C:\pf\Git\bin\bash.exe
 	ls -al $GIT_DIR
 	git show --name-only
 
+
+fatal: your current branch 'main' does not have any commits yet
+
 	echo $GIT_DIR
 	echo $GIT_WORK_TREE
 	#export GIT_WORK_TREE=/c/Users/marti/OneDrive/2400-WIKI
 	export GIT_WORK_TREE=/d/umarti/onedrive--deldest
 pwd|clip
 
+
+	git  status
+
+	git init
 	git  status
 	git  status  -vv
 q
-
 
 	git add -vv        .gitignore    #'install.sh*'
 	git add -vv --dry-run  '*.md'
@@ -108,6 +123,16 @@ q
 	git push -vv  origin master
 
 
+
+	set | grep -i history
+	history -a
+	##history  >history.md
+	##cat ~/.bash_history
+	#cat ~/.bash_eternal_history >history.txt
+	cp -iv ~/.bash_eternal_history history.f8.sh
+	cp -iv $HISTFILE bash_eternal_history.f8.sh
+	ls -l $HISTFILE
+	code bash_eternal_history.f8.sh
 
 exit
 exit

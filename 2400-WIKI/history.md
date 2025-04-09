@@ -2643,7 +2643,7 @@
  2635  export GIT_DIR=/d/GIT-bk04/marti-onedrive.wiki2.git
  2636  ls -l $GIT_DIR
  2637  ls -al $GIT_DIR
- 
+
  2638  git clone https://github.com/martin12333/marti-onedrive.wiki.git
  2639  ls -al $GIT_DIR
  2640  ls marti-onedrive.wiki
@@ -2700,31 +2700,39 @@
  2686  ls ~/OneDrive/2400-WIKI/.git
  2687  git show --name-only
  2688  git  status  -vv
+ 
  2689  git init   -b master
+ 
  2690  git remote -vvv add   origin https://github.com/martin12333/marti-onedrive.wiki.git
  2691  cat .git
  2692  ls -al
  2693  git pull -vv
  2694  git pull -vv origin
  2695  git pull -vv origin master
+ 
  2696  export GIT_WORK_TREE=/c/Users/marti/OneDrive/2400-WIKI
  2697  git pull -vv
  2698  git pull -vv origin
  2699  git pull -vv origin master
  2700  git pull -vv origin master
+ 
  2701  ls -la
  2702  pwd
  2703  cat .git
+ 
  2704  git push -vv
  2705  git ls-files
  2706  ls
+ 
  2707  git add -vv --dry-run  '*.md'
  2708  git add -vv  '*.md'
  2709  git ls-files
  2710  du -a |sort -n
+ 
  2711  git push -vv
  2712  git commit -a -m 250129
  2713  git push -vv  origin master
+ 
  2714  history -a
  2715  history
  2716  history  >history.txt

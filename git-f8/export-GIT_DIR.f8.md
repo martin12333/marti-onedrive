@@ -25,7 +25,7 @@ work
 
 C:\Users\marti\OneDrive\wiki-f8\github-wiki.f8.md 
 
-C:\Users\marti\OneDrive\git-f8\git-init--separate-git-dir.f8.md
+file:///C:\Users\marti\OneDrive\git-f8\git-init--separate-git-dir.f8.md
 
 # old
 

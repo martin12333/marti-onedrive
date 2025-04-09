@@ -2776,13 +2776,3 @@ ls -al $GIT_DIR
 set | grep -i history
 [200~history -a~
 history -a
-echo .$GIT_DIR.
-exit
-mkdir $GIT_DIR
-ls -la $GIT_DIR
-echo .$GIT_DIR.
-git clone     --separate-git-dir=$GIT_DIR      https://github.com/martin12333/marti-onedrive.git old2-marti-onedrive
-git clone     --separate-git-dir=$GIT_DIR      https://github.com/martin12333/marti-onedrive.git
-export GIT_WORK_TREE=/d/umarti/old2-marti-onedrive
-git clone     --separate-git-dir=$GIT_DIR      https://github.com/martin12333/marti-onedrive.git
-exit
