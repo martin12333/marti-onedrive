@@ -12271,3 +12271,4 @@ cmd /c dir .. /al
 cmd /c dir ..\.. /al
 cmd /c dir ..\.. /al   | clip
 cmd /c dir c:\   /al   | clip
+powershell -command Get-Process   -Name Robocopy

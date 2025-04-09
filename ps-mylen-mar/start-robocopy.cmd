@@ -10,6 +10,8 @@ rem backlink "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Progra
 rem the obsolete predecessor of this .cmd was file:///C:\Users\marti\OneDrive\ps-mylen-mar\myrobocopy-onedrive.ps1
 
 
+
+
 timeout.exe 60
 
 powershell -command Get-Process   -Name Robocopy
@@ -20,6 +22,7 @@ echo  use CTRL-break  ?    ###otherwise CTRL-C 5 processes ?
 echo seems to be not needed here ... any closin of window kills the robocopy
 
 rem #no-stat-for-onedr-without-net??
+
 
 
 timeout.exe 12
