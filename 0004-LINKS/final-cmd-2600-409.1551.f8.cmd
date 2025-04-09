@@ -15,13 +15,43 @@ rem rem rem rem file:///C:\Users\marti\OneDrive\2400-WIKI\dee-000-00BACKUP-git.f
 file:///C:\Users\marti\OneDrive\git-f8\export-GIT_DIR.f8.md
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 rem ------------------------------------
 
 cmd
 
 Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--deldest    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git   /log+:C:\Users\marti\log\OneDrive--deldest-5.log     /tee    /ndl       /nfl      /MIR
 
-rem /v   |  findstr.exe  -i   be-deleted
+exit
+rem /v red pipe char |  findstr.exe  -i   be-deleted
+
+
+
+
+          *EXTRA File                 51        D:\umarti\OneDrive--deldest\marti-onedrive
+          *EXTRA File              84625        D:\umarti\OneDrive--deldest\tatus?less?[201~
+
+
+
 
 rem 250409 start  "OneDrive" /min  /low   Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--robo    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git                    /mot:5    /ndl    /nfl   /LOG+:C:\Users\marti\log\onedr.log
 
@@ -194,6 +224,13 @@ wiki-f8/github-wiki.f8.md
 
 
 
+
+
+
+
+
+
+
 [main2 99473ee7] 2600-409
  3 files changed, 36 insertions(+), 4 deletions(-)
 
@@ -207,7 +244,6 @@ echo aaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 	#git push -vv  origin master
 	git push -vv
 
-	 origin master
 
 
 	git show --name-only
