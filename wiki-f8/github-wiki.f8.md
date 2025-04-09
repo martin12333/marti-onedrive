@@ -1,4 +1,7 @@
-- [git clone wiki](#git-clone-wiki)
+
+- [links](#links)
+- [250129 final](#250129-final)
+- [desperate debugging of 250129](#desperate-debugging-of-250129)
 - [old](#old)
 
 

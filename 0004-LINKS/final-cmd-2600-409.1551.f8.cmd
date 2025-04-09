@@ -10,6 +10,7 @@ file:///C:\Users\marti\OneDrive\0004-LINKS\cmd-2600-409.f8.cmd
 
 rem rem rem rem file:///C:\Users\marti\OneDrive\2400-WIKI\dee-000-00BACKUP-git.f8.dib
 
+file:///C:\Users\marti\OneDrive\git-f8\export-GIT_DIR.f8.md
 
 
 rem ------------------------------------
@@ -39,12 +40,44 @@ Set-Alias -Name git   -Value C:\pf\Git\cmd\git.exe
 Set-Alias -Name  bash   -Value C:\pf\Git\bin\bash.exe
 
 
+echo .%GIT_DIR%.  |clip
+.%GIT_DIR%.
+
+d:
+cd umarti\onedrive--deldest
+
+C:\pf\Git\cmd\git.exe status
+cd ..
+dir *ma*
+rem cd d:\umarti\onedrive--deldest
+rem cd d:\
+
+c:
+
+set GIT_DIR=/d/GIT-bk04/marti-onedrive-2600.git
+
+C:\pf\Git\cmd\git.exe
 
 
-file:///C:\Users\marti\OneDrive\git-f8\export-GIT_DIR.f8.md
+C:\pf\Git\bin\bash.exe
+
+	ls /d/GIT-bk04/
+	#export GIT_DIR=D:/GIT-bk04/2400-WIKI.git
+	export GIT_DIR=/d/GIT-bk04/marti-onedrive-2600.git
+	mkdir $GIT_DIR
+
+	ls -la $GIT_DIR
+	echo .$GIT_DIR.
+
+   git clone https://github.com/martin12333/marti-onedrive.git
+
+exit
+exit
+cmd
 
 
-rem rem file:///C:\Users\marti\OneDrive\2400-WIKI\history.md
+
+file:///C:\Users\marti\OneDrive\2400-WIKI\history.md
 
 dir  D:\umarti\OneDrive--deldest
 

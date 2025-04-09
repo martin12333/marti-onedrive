@@ -101,7 +101,10 @@ f8
 #cmd
 
 next time i WILL PROBABLY TRY
+
 cmd /c start '"'nospaces'"'   ....
+cmd.exe /c   C:\Pf\Git\usr\bin\echo.exe    '"'hello'"'
+
 instead of pokus*.f5.cmd
 f8
 C:\Users\marti\OneDrive\0004-LINKS\pokus-Robocopy---c-onedrive---e.f5.cmd

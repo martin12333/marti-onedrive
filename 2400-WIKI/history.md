@@ -2632,6 +2632,7 @@
  2628  icacls
  2629  icacls .
  2630  exit
+ 
  2631  mkdir marti-onedrive.wiki2.git
  2632  cd /c/Users/marti/marti-onedrive.wiki
  2633  cd /c/Users/marti/
@@ -2642,6 +2643,7 @@
  2635  export GIT_DIR=/d/GIT-bk04/marti-onedrive.wiki2.git
  2636  ls -l $GIT_DIR
  2637  ls -al $GIT_DIR
+ 
  2638  git clone https://github.com/martin12333/marti-onedrive.wiki.git
  2639  ls -al $GIT_DIR
  2640  ls marti-onedrive.wiki
