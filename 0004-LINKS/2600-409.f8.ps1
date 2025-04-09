@@ -3,8 +3,8 @@ exit
 # i mistakenly used f5 instead of f8
 
 respnt ?
-
-
+post edit .cmd
+ btw, does reverting a respnt revert .cmd files ?? lnk files  ??? in onedrive ???? in Startup ??
 
 # robocopy a5 papiry nad stolem se 2 sponkami
 # v karis bloku mel dat pod R robocopy
@@ -100,7 +100,7 @@ f8
 #cmd
 
 next time i WILL PROBABLY TRY
-cmd /c start '"'nospaces'"'   .... 
+cmd /c start '"'nospaces'"'   ....
 instead of pokus*.f5.cmd
 f8
 C:\Users\marti\OneDrive\0004-LINKS\pokus-Robocopy---c-onedrive---e.f5.cmd
