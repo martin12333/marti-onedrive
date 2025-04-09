@@ -3,10 +3,13 @@ exit
 
 respnt ?
 
+# a5 papiry nahore se 2 sponkami
+# v karis bloku mel dat pod R robocopy
 
 
 ### ////C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
 pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1 >>~/log/mymyrsync.ps1.log   2>>~/log/mymyrsync.ps1.err.log
+
 cmd /c dir c:\     | findstr.exe -i free
 
 
@@ -45,7 +48,7 @@ rem 250409 start  "OneDrive" /min  /low   Robocopy.exe   C:\Users\marti\OneDrive
 
 #rem 250409 start  "OneDrive" /min  /low
 
-Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--robo    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git
+#Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--robo    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git
 				   /ndl    /nfl
 				     /LOG+:C:\Users\marti\log\onedr.log
 					 /mot:5
@@ -53,14 +56,22 @@ Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--robo    /s   /XJ    
 					 "E:\OneDrive--robo"
 
 # 20000 files
-Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--deldest    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git  /ndl    /nfl    /LOG+:C:\Users\marti\log\onedr.log
+Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--deldest    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git  /ndl    /nfl    /LOG+:C:\Users\marti\log\OneDrive--deldest.log
+/ndl    /nfl
+/LOG+:C:\Users\marti\log\onedr.log
 
 
 /xf .gitignore       /xf .git  /XO
 
 Obrázky/Screenpresso/2025-04-09_04h08_55.png
 
-# robocopy with delete on  destination but not on source
+# google
+# robocopy OneDrive with delete on  destination but not on source
+# ok, not /mov
+Robocopy.exe
 
 # robocopy what do the /mir and /purge do
+
+# If you can't copy a file you can also put it in a exclusion list with /xf MyProblemFile.exe. I always had problems with a hidden file in onedrive that looks like this: ".349C9593-D756-4E56-1D6E-42412F2A3075" I think it is blocked or something, and I had to put it in the exclusion list when I backup onedrive with robocopy
+
 
