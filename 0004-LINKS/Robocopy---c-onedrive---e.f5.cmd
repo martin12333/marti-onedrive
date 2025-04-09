@@ -15,7 +15,7 @@ rem  /L
 
 
 rem  /LOG:C:\Users\marti\log\OneDrive--cmd--409.log /tee /v  /L
-rem roura cervena red pipe char
+rem roura cervena red pipe char   in rem
 rem rem  findstr.exe  -i   be-deleted
 
 rem     /nfl

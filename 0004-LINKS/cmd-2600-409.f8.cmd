@@ -22,9 +22,14 @@ findstr -vi " modified "   "C:\Users\marti\log\OneDrive--deldest-once--Copy.log"
 
 code "C:\Users\marti\log\OneDrive--deldest-once.log"
 
-Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--deldest    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git    /log:C:\Users\marti\log\OneDrive--deldest-once.log  /tee /v   /ndl   /MIR   |  findstr.exe  -i   be-deleted
+
+rem  file:///C:\Users\marti\OneDrive\0004-LINKS\final-cmd-2600-409.1551.f8.cmd
+
+Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--deldest    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git   /log+:C:\Users\marti\log\OneDrive--deldest-3.log     /tee /v   /ndl   /MIR   |  findstr.exe  -i   be-deleted
 
 rem  /L
+
+
 
                Total    Copied   Skipped  Mismatch    FAILED    Extras
     Dirs :      2590       306      2284         0         0         0
@@ -75,7 +80,8 @@ code "C:\Users\marti\log\OneDrive--deldest-once.log"
   |  clip
 
 
-
+  /log:C:\Users\marti\log\OneDrive--deldest-once.log
+  /log+:C:\Users\marti\log\OneDrive--deldest-3.log
 
  Log File : C:\Users\marti\log\OneDrive--deldest-once.log
 
