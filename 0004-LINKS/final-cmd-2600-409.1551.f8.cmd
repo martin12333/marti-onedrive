@@ -78,8 +78,18 @@ export GIT_WORK_TREE=/d/umarti/old2-marti-onedrive
 	ls -la $GIT_WORK_TREE/.g*
 	echo .$GIT_WORK_TREE.
 
+
+# here should have done the last git push from the old .dib
+
+# here should have done
+mv -iv ~/OneDrive/.git ~/OneDrive/mv-iv-2600.git
+ls ~/OneDrive/*.gi*
+ls ~/OneDrive/.git
+ls ~/OneDrive/Copy.git
+
    git clone     --separate-git-dir=$GIT_DIR      https://github.com/martin12333/marti-onedrive.git
 
+	exit
 
 	# once
 
@@ -91,7 +101,6 @@ export GIT_WORK_TREE=/d/umarti/old2-marti-onedrive
 	git show --name-only
 
 
-fatal: your current branch 'main' does not have any commits yet
 
 	echo $GIT_DIR
 	echo $GIT_WORK_TREE
@@ -100,12 +109,11 @@ fatal: your current branch 'main' does not have any commits yet
 pwd|clip
 
 
-	git  status
-
-	git init
+#	git init
 	git  status
 	git  status  -vv
 q
+
 
 	git add -vv        .gitignore    #'install.sh*'
 	git add -vv --dry-run  '*.md'

@@ -25,6 +25,7 @@ git push
 
 #!pwsh
 
+cd ~/OneDrive
 ##  findstr.exe  -i   older
 #Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive   /e    /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*    /xd .vscode   /xf .git  /xf .gitignore         /XO  /njh   /LOG+:C:\Users\marti\log\doc24.log   /tee    /V   |  findstr.exe  -i   older
 ## /L
@@ -58,6 +59,7 @@ git add -vv --dry-run   '*.f8.*'     '*.f5.*'
 
 #!pwsh
 
+fatal: not a git repository (or any of the parent directories): .git
 #a
 cd ~/OneDrive
 git add -vv  '*.f8.*'       '*.f5.*'   #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
@@ -69,6 +71,7 @@ git push
 
 #!pwsh
 
+fatal: not a git repository (or any of the parent directories): .git
 #b
 cd ~/OneDrive
 git add -vv  '*.f8.*'       '*.f5.*'   #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
