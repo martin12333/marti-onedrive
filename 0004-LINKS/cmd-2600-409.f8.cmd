@@ -6,18 +6,11 @@ cmd
 
 
 
-   |  findstr.exe  -i   be-deleted
 
 
 copilot | findstr -vi "newer" | findstr -vi "skipped" | findstr -vi "skipping" | findstr -vi "deleting" | findstr -vi "deleted
 
-
 	  *EXTRA File 		       3	be-deleted-by-robocopy.txt
-
-
-code "C:\Users\marti\log\OneDrive--deldest-once--Copy.log"
-
-
 
 findstr -vi " modified "   "C:\Users\marti\log\OneDrive--deldest-once--Copy.log"
 
@@ -25,10 +18,60 @@ findstr -vi " modified "   "C:\Users\marti\log\OneDrive--deldest-once--Copy.log"
 
 
 
+   |  findstr.exe  -i   be-deleted
+
+code "C:\Users\marti\log\OneDrive--deldest-once.log"
+
+Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--deldest    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git    /log:C:\Users\marti\log\OneDrive--deldest-once.log  /tee /v   /ndl   /MIR   |  findstr.exe  -i   be-deleted
+
+rem  /L
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :      2590       306      2284         0         0         0
+   Files :     12838        13     12824         0         1         1
+   Bytes :   1.983 g   473.7 k   1.983 g         0        63         3
+
+where.exe   du
+du  D:\umarti\OneDrive--deldest  | clip
+
+Files:        12833
+Directories:  2462
+Size:         2,130,288,936 bytes
+Size on disk: 2,204,343,480 bytes
+
+du  C:\Users\marti\OneDrive | clip
+
+Files:        26983
+Directories:  3561
+Size:         10,136,990,174 bytes
+Size on disk: 2,741,258,360 bytes
+
+du  E:\onedrive--cmd--409.1247 | clip
 
 
-Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--deldest    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git    /log:C:\Users\marti\log\OneDrive--deldest-once.log  /tee /v   /ndl  /L | findstr -vi " modified " | findstr -vi " same "
+DU v1.62 - Directory disk usage reporter
+Copyright (C) 2005-2018 Mark Russinovich
+Sysinternals - www.sysinternals.com
 
+Files:        12831
+Directories:  2156
+Size:         2,130,283,013 bytes
+Size on disk: 2,203,073,720 bytes
+
+
+
+rem rem du  e:\OneDrive--cmd*
+| clip
+
+
+diskusage  D:\umarti\OneDrive--deldest
+dir  D:\umarti\OneDrive--deldest
+dir  C:\Users\marti\OneDrive
+dir  D:\umarti\OneDrive--deldest\be-deleted-by-robocopy.txt  C:\Users\marti\OneDrive\0004-LINKS\not-be-deleted-by-robocopy.txt
+
+ | findstr -vi " modified " | findstr -vi " same "
+
+code "C:\Users\marti\log\OneDrive--deldest-once.log"
   |  clip
 
 

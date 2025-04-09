@@ -96,9 +96,12 @@ echo a >C:\Users\marti\OneDrive\0004-LINKS\not-be-deleted-by-robocopy.txt
 echo a >D:\umarti\OneDrive--deldest\be-deleted-by-robocopy.txt
 
 f8
-C:\Users\marti\OneDrive\0004-LINKS\Robocopy---c-onedrive---e.f5.cmd
+##C:\Users\marti\OneDrive\0004-LINKS\Robocopy---c-onedrive---e.f5.cmd
 #cmd
 
+next time i WILL PROBABLY TRY
+cmd /c start '"'nospaces'"'   .... 
+instead of pokus*.f5.cmd
 f8
 C:\Users\marti\OneDrive\0004-LINKS\pokus-Robocopy---c-onedrive---e.f5.cmd
 C:\Users\marti\OneDrive\0004-LINKS\pokus-Robocopy---c-onedrive---d-mir.f5.cmd
@@ -110,6 +113,7 @@ cmd
 
 exit
 
+du  E:\onedrive--cmd--409.1247
 <#
 .SYNOPSIS
 	A short one-line action-based description, e.g. 'Tests if a function is valid'
