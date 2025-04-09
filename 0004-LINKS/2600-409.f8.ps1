@@ -93,5 +93,27 @@ Robocopy.exe
 echo a >C:\Users\marti\OneDrive\0004-LINKS\not-be-deleted-by-robocopy.txt
 echo a >D:\umarti\OneDrive--deldest\be-deleted-by-robocopy.txt
 
+f8
 C:\Users\marti\OneDrive\0004-LINKS\Robocopy---c-onedrive---e.f5.cmd
+#cmd
+f8
+C:\Users\marti\OneDrive\0004-LINKS\pokus-Robocopy---c-onedrive---e.f5.cmd
 
+exit
+
+cmd /
+<#
+.SYNOPSIS
+	A short one-line action-based description, e.g. 'Tests if a function is valid'
+.DESCRIPTION
+	A longer description of the function, its purpose, common use cases, etc.
+.NOTES
+	Information or caveats about the function e.g. 'This function is not supported in Linux'
+.LINK
+	Specify a URI to a help page, this will show when Get-Help -Online is used.
+.EXAMPLE
+	Test-MyTestFunction -Verbose
+	Explanation of the function or its result. You can include multiple examples with additional .EXAMPLE lines
+#>
+
+{0}
