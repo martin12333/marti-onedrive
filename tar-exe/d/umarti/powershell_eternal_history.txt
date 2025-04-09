@@ -12272,3 +12272,5 @@ cmd /c dir ..\.. /al
 cmd /c dir ..\.. /al   | clip
 cmd /c dir c:\   /al   | clip
 powershell -command Get-Process   -Name Robocopy
+kill -Name  Robocopy
+Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--deldest    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git

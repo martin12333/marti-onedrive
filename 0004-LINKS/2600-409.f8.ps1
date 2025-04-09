@@ -22,7 +22,7 @@ echo echo  kill -Name  Robocopy
   kill -Name  Robocopy
 
 
-  
+
 echo  use CTRL-shift-C  ?    ###otherwise CTRL-C 5 processes ?
 echo  use CTRL-break  ?    ###otherwise CTRL-C 5 processes ?
 echo seems to be not needed here ... any closin of window kills the robocopy
@@ -36,8 +36,25 @@ rem 24?? older  start  "000doc24"  /min  /low  Robocopy.exe    d:\000doc24   C:\
 
 
 
-
+# edit
 
 start  "OneDrive" /min  /low   Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--robo    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git                    /mot:5    /ndl    /nfl   /LOG+:C:\Users\marti\log\onedr.log
 
 rem 250409 start  "OneDrive" /min  /low   Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--robo    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git                    /mot:5    /ndl    /nfl   /LOG+:C:\Users\marti\log\onedr.log
+
+
+#rem 250409 start  "OneDrive" /min  /low
+
+Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--robo    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git
+				   /ndl    /nfl
+				     /LOG+:C:\Users\marti\log\onedr.log
+					 /mot:5
+
+					 "E:\OneDrive--robo"
+
+# 20000 files
+Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--deldest    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git  /ndl    /nfl    /LOG+:C:\Users\marti\log\onedr.log
+
+
+/xf .gitignore       /xf .git  /XO
+
