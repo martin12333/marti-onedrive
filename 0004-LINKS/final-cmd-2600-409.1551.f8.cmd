@@ -30,6 +30,17 @@ rem ------------------------------------
 
 todo
 
+type .git
+gitdir: D:/GIT-bk04/marti-onedrive.git
+
+C:\pf\Git\cmd\git.exe add C:\Users\marti\OneDrive\Dokumenty\PowerShell\profile.ps1
+
+Set-Alias -Name git   -Value C:\pf\Git\cmd\git.exe
+Set-Alias -Name  bash   -Value C:\pf\Git\bin\bash.exe
+
+
+
+
 file:///C:\Users\marti\OneDrive\git-f8\export-GIT_DIR.f8.md
 
 
