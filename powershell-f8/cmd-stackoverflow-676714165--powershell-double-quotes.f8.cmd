@@ -17,8 +17,11 @@ https://ss64.com/nt/start.html
 
 
 
+findstr -vi " modified "   "C:\Users\marti\log\OneDrive--deldest-once--Copy.log"  |findstr -vi "new dir" | findstr -vi " named " | findstr -vi " same "  |clip
 
+	  *EXTRA File 		       3	be-deleted-by-robocopy.txt
 
+copilot | findstr -vi "newer" | findstr -vi "skipped" | findstr -vi "skipping" | findstr -vi "deleting" | findstr -vi "deleted
 
 code "C:\Users\marti\log\OneDrive--deldest-once--Copy.log"
 
