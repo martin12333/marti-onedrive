@@ -12283,3 +12283,6 @@ start  "OneDrive"   /low  Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneD
 C:\Users\marti\OneDrive\0004-LINKS\Robocopy---c-onedrive---e.f5.cmd
 cmd C:\Users\marti\OneDrive\0004-LINKS\pokus-Robocopy---c-onedrive---e.f5.cmd
 C:\Users\marti\OneDrive\0004-LINKS\pokus-Robocopy---c-onedrive---e.f5.cmd
+C:\Users\marti\OneDrive\0004-LINKS\pokus-Robocopy---c-onedrive---d-mir.f5.cmd
+C:\Users\marti\OneDrive\0004-LINKS\pokus-Robocopy---c-onedrive---e.f5.cmd
+cmd.exe

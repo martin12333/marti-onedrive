@@ -9,9 +9,11 @@ respnt ?
 # robocopy a5 papiry nad stolem se 2 sponkami
 # v karis bloku mel dat pod R robocopy
 
+file:///C:\Users\marti\OneDrive\powershell-f8\stackoverflow-676714165--powershell-stripping-double-quotes-from-command-line-arguments.f8.ps1
 
 
-### quotes ////C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
+
+### quotes from file:///C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1
 pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\mymyrsync.ps1 >>~/log/mymyrsync.ps1.log   2>>~/log/mymyrsync.ps1.err.log
 
 cmd /c dir c:\     | findstr.exe -i free

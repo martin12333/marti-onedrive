@@ -1,4 +1,10 @@
 
+exit
+
+see file:///C:\Users\marti\OneDrive\powershell-f8\cmd-stackoverflow-676714165--powershell-double-quotes.f8.cmd
+
+
+
 https://stackoverflow.com/questions/6714165/powershell-stripping-double-quotes-from-command-line-arguments
 
 HORROR
