@@ -3,6 +3,13 @@ exit
 
 250411
 
+
+
+explorer.exe  ms-settings://
+##start ms-settings://
+
+
+
 C:\Users\marti\AppData\Roaming\Code\User\keybindings.json
 
 {
@@ -120,6 +127,8 @@ start   'vscode://file/c:/myProject/package.json'
 ## start command:workbench.action.toggleKeybindingsLog
 
 start ms-quick-assist:
+
+explorer.exe  ms-quick-assist:
 
 
 
@@ -342,7 +351,7 @@ ms-retaildemo-launchstart      (default)    : URL:ms-retaildemo-launchstart
 
 
 
-
+explorer.exe  ms-settings://
 ##start ms-settings://
 							   ms-settings                    (default)    : URL:ms-settings
 
