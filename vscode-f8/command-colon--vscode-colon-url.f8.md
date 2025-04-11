@@ -1,4 +1,18 @@
 
+
+
+exit
+
+
+[aaaaaaaa](command:workbench.action.toggleKeybindingsLog)
+
+
+
+#250411
+related   file:///C:\Users\marti\OneDrive\vscode-f8\command-colon--vscode-colon-url.f8.md
+
+
+
 f1
 {
   "key": "f1",
@@ -8,7 +22,7 @@ keyb
 
 
 
-# DOES WORK [AAA](COMMAND:SDKJFHKJFDSH)... BUT ONLY by ctrl in EDITOR NOT IN PREVIEW
+# DOES WORK [AAA](COMMAND:SDKJFHKJFDSH)... BUT ONLY by ctrl in  .md EDITOR NOT INmd  PREVIEW
 
 
 
@@ -18,7 +32,7 @@ keyb
 [aaaaaaaa](command:workbench.action.toggleKeybindingsLog)
 
 
-[FAIL aaaaaaaa](command:workbench.action.openGlobalKeybindings)
+[aaaaaaaa](command:workbench.action.openGlobalKeybindings)
 
 [aaaaaaaa](command:markdown.showPreview)
 [aaaaaaaa](command:markdown.showPreviewToSide)
@@ -44,6 +58,9 @@ command:vscode.open?["https://aka.ms/codetour"]
 
 ####[fdgd](command:workbench.  type?["hgjgjhgjhgjhgjgjhgz"])
 
+
+
+
 [Open URL](command:vscode.open?["https://aka.ms/codetour"])
 
 
@@ -52,6 +69,9 @@ command:vscode.open?["https://aka.ms/codetour"]
 
 
 [DOES Open URL BUT ONLY IN EDITOR NOT IN PREVIEW](command:vscode.open?["file:///c:/users"])
+
+
+
 
 ####[Open URL](command:vscode.open)
 ####[Open URL](command:vscode.open?{"uri":"file:///c:/users"})
@@ -141,6 +161,9 @@ run line
   "command": "workbench.action.terminal.sendSequence",
   "when": "terminalFocus && terminalShellIntegrationEnabled && !accessibilityModeEnabled && terminalShellType == 'pwsh'"
 }
+
+
+
 {
   "key": "shift+enter",
   "command": "jupyter.execSelectionInteractive",

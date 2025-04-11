@@ -39,7 +39,7 @@ rem ------------------------------------
 
 
 
-
+rem # file:///C:\Users\marti\OneDrive\gh--martin--to--Eda\00BACKUP.f8.dib
 
 cmd
 Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--deldest    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git   /log+:C:\Users\marti\log\OneDrive--deldest-5.log     /tee    /ndl       /nfl      /MIR
@@ -60,7 +60,7 @@ history -a
 history
 exit
 
-#start "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\jako-zaremovane\Git Bash.lnk"
+##start "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\jako-zaremovane\Git Bash.lnk"
 explorer "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\jako-zaremovane\Git Bash.lnk"
 
 "C:\Program Files\Git\git-cmd.exe" --cd-to-home

@@ -18,6 +18,7 @@ wsl --list --all --verbose
 
 #!pwsh
 
+fatal: not a git repository (or any of the parent directories): .git
 # git add -vv 'C:\Users\marti\OneDrive\ps-mylen-mar\start-robocopy.cmd'
 
 # git show
@@ -25,6 +26,7 @@ git push
 
 #!pwsh
 
+fatal: not a git repository (or any of the parent directories): .git
 cd ~/OneDrive
 ##  findstr.exe  -i   older
 #Robocopy.exe    d:\000doc24   C:\Users\marti\OneDrive   /e    /XJ     /XD Obr*    /XD .git    /XD node_modules   /XD OLD*    /xd .vscode   /xf .git  /xf .gitignore         /XO  /njh   /LOG+:C:\Users\marti\log\doc24.log   /tee    /V   |  findstr.exe  -i   older
@@ -51,11 +53,27 @@ falsealarm some filenames contain "older"
 
 #!pwsh
 
+fatal: not a git repository (or any of the parent directories): .git
 cd ~/OneDrive
 git add -vv --dry-run   '*.f8.*'     '*.f5.*'
 #git add -vv --dry-run  '*00-WIKI/*.md'
 #git add -vv   '*00-WIKI/*.md'
 #git add -vv   '2400-WIKI/*.md'
+
+#!pwsh
+
+# file:///C:\Users\marti\OneDrive\0004-LINKS\final-cmd-2600-409.1551.f8.cmd
+
+# file:///C:\Users\marti\OneDrive\0004-LINKS\2600-409-411.f7.sh
+
+$Env:GIT_DIR='/d/GIT-bk04/marti-onedrive-2600-409.21.git'
+$Env:GIT_WORK_TREE='/d/umarti/onedrive--deldest'
+
+Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--deldest    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git   /log+:C:\Users\marti\log\OneDrive--deldest-5.log     /tee    /ndl       /nfl      /MIR
+
+fail
+git commit -vv   -a -m  backup
+git push
 
 #!pwsh
 
@@ -84,6 +102,7 @@ git push
 
 #!pwsh
 
+fatal: not a git repository (or any of the parent directories): .git
 cd c:\Users\marti\OneDrive
 git add -vv  '*.f8.*'  #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
 git commit -v -a -m backup    #-before
@@ -94,6 +113,7 @@ git ls-files   --deleted
 
 #!pwsh
 
+fatal: not a git repository (or any of the parent directories): .git
 cd ~/OneDrive
 git add -vv --dry-run   '*.f8.*'     '*.f5.*'
 #git add -vv --dry-run  '*00-WIKI/*.md'
@@ -102,6 +122,7 @@ git add -vv --dry-run   '*.f8.*'     '*.f5.*'
 
 #!pwsh
 
+fatal: not a git repository (or any of the parent directories): .git
 cd ~/OneDrive
 $x=cmd /c dir  /b   /s      '*-add-all'    #### add  '**/*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
 echo $x
@@ -126,6 +147,7 @@ cmd /c dir  C:\Users\marti\OneDrive   /b  /s    >C:\Users\marti\82
 
 #!pwsh
 
+fatal: not a git repository (or any of the parent directories): .git
 git ls-files  |   findstr.exe -i autohot
 
 #!pwsh

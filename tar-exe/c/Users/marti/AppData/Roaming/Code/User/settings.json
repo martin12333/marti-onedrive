@@ -130,9 +130,9 @@
 		"**/.git": true,
 		"**/.svn": true,
 		"**/.hg": true,
-		"**/CVS": true,
 		"**/.DS_Store": true,
 		"**/Thumbs.db": true,
+		"**/CVS": true,
 		"**/*.olean": true,
 		"**/node_modules": true,
 		"out": false
@@ -363,7 +363,7 @@
 	"code-runner.customCommand": "echo Hello Set the custom command to run.",
 	"code-runner.runInTerminal": true,
 	"code-runner.executorMapByFileExtension": {
-		
+
 		".vb": "cd $dir && vbc /nologo $fileName && $dir$fileNameWithoutExt",
 		".vbs": "cscript //Nologo",
 		".scala": "scala",
