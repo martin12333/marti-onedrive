@@ -47,15 +47,23 @@ Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--deldest    /s   /XJ 
 exit
 rem /v red pipe char |  findstr.exe  -i   be-deleted
 
-
-
 set GIT_DIR=/d/GIT-bk04/marti-onedrive-2600-409.21.git
 set GIT_WORK_TREE=/d/umarti/onedrive--deldest
 
 git commit -vv   -a -m  backup
 	git push
 
+export
+export GIT_DIR=/d/GIT-bk04/marti-onedrive-2600-409.21.git
+export GIT_WORK_TREE=/d/umarti/onedrive--deldest
+history -a
+history
+exit
 
+#start "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\jako-zaremovane\Git Bash.lnk"
+explorer "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\jako-zaremovane\Git Bash.lnk"
+
+"C:\Program Files\Git\git-cmd.exe" --cd-to-home
 
 $Env:GIT_DIR='/d/GIT-bk04/marti-onedrive-2600-409.21.git'
 $Env:GIT_WORK_TREE='/d/umarti/onedrive--deldest'
