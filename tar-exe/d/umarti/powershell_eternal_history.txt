@@ -12319,3 +12319,9 @@ start ms-photos:
 start xboxmusic:
 start vscode://settings/powershell.helpCompletion
 start vscode://settings/powershell
+cmd
+git commit -vv   -a -m  backup
+$Env:GIT_DIR=/d/GIT-bk04/marti-onedrive-2600-409.21.git
+$Env:GIT_DIR='/d/GIT-bk04/marti-onedrive-2600-409.21.git'
+$Env:GIT_WORK_TREE='/d/umarti/onedrive--deldest'
+bash

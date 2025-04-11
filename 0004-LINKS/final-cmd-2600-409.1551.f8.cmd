@@ -37,11 +37,22 @@ file:///C:\Users\marti\OneDrive\git-f8\export-GIT_DIR.f8.md
 
 rem ------------------------------------
 
+
+
+
+
 cmd
 Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--deldest    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git   /log+:C:\Users\marti\log\OneDrive--deldest-5.log     /tee    /ndl       /nfl      /MIR
 
 exit
 rem /v red pipe char |  findstr.exe  -i   be-deleted
+
+$Env:GIT_DIR='/d/GIT-bk04/marti-onedrive-2600-409.21.git'
+$Env:GIT_WORK_TREE='/d/umarti/onedrive--deldest'
+bash
+git commit -vv   -a -m  backup
+	git push
+
 
 
 
@@ -252,18 +263,16 @@ wiki-f8/github-wiki.f8.md
 
 
 
-
-
-
-
+$Env:GIT_DIR='/d/GIT-bk04/marti-onedrive-2600-409.21.git'
+$Env:GIT_WORK_TREE='/d/umarti/onedrive--deldest'
+bash
+git commit -vv   -a -m  backup
+	git push
 
 
 [main2 99473ee7] 2600-409
  3 files changed, 36 insertions(+), 4 deletions(-)
-
-
-	git commit -vv   -a -m  2600-409.2358
-
+git commit -vv   -a -m  2600-409.2358
 	git commit -a -m move-zzz-away
 	git commit -a -m 250129
 
