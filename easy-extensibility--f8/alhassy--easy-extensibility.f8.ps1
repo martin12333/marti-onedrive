@@ -4,11 +4,12 @@ exit
 
 2504
 facil
+https://github.com/inter1965/easy-extensibility
 
 related   file:///C:\Users\marti\OneDrive\vscode-f8\command-colon--vscode-colon-url.f8.md
 
 
-
+[aaaaaaaa](command:workbench.action.toggleKeybindingsLog)
 [aaaaaaaa](command:workbench.action.keybindingsReference)
 
 ^c
@@ -28,6 +29,9 @@ VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=alhassy
 alhassy.easy-extensibility
 
 @ext:alhassy.easy-extensibility
+
+
+# old
 
 "easy-extensibility.dateCommand.windows": "cmd /c date /T"
 date /T
@@ -114,8 +118,107 @@ C:\Users\marti\OneDrive\easy-extensibility--f8\inter1965--JUNCT-TARGET\easy-exte
 
 // No longer valid, in latest version.
 // ? Do we want users to access editor ?
-// // editor.options.cursorStyle = 2 // 1 default; 2 filled; 3 underline
 
+
+
+
+
+
+
+
+
+
+"commands": [
+	{
+		"command": "easy-extensibility.evaluateSelection",
+		"title": "Evaluate Selected Region"
+	},
+	{
+		"command": "easy-extensibility.executeRegisteredCommand",
+		"title": "Execute Registered Command"
+	}
+],
+
+// //
+
+Name: easy-extensibility
+Id: alhassy.easy-extensibility
+Description: Extend VSCode without the ceremony of making a full extension! Just write your code anywhere and it'll be part of VSCode!
+Version: 1.2.11
+Publisher: Musa Al-hassy
+VS Marketplace Link: https://marketplace.visualstudio.com/items/?itemName=alhassy.easy-extensibility
+
+m1self.facil-extensibility
+'
+https://marketplace.visualstudio.com/items/?itemName=M1self.facil-extensibility
+
+editor.options.cursorStyle = 2 // 1 default; 2 filled; 3 underline
+
+marti init.js
+date +%H:%M:%S
+
+
+patched by myself
+
+C:\Users\marti\.vscode\extensions\m1self.facil-extensibility-1.2.14\out\vscodets.js
+
+/** How is a selected piece of text to be evaluated with `cmd+e`?
+1015
+
+
+* ### Output Channel
+*
+* For convenience, such as top-level `await`'s, easy-extensibility performs some rewrites on your code before actually
+* evaluating.
+*
+* To see the exact expression that easy-extensibility "sees" when it evaluates your code with CMD+E, open
+* the `Output` pane in the bottom part of VSCode, then select `easy-extensibility` from the dropdown menu in the
+* right-most side of the pane.
+*
+* This output channel shows you what Easy-Extensibility is evaluating when you press CMD+E;
+* it also provides hints/comments on when things don't go as you expect!
+*
+* (E.g., why your local `let`'s cannot be used globally; or why a side-effectful statement does not show any value notification.)
+*
+
+
+
+
+
+
+
+E.internal.evaluateSelection = (commands) => {
+	return (currentPrefixArgument) => {
+		var _a, _b;
+		// To evaluate the current selection, we need an active editor.
+		// For the exact dependency, see the implementation of `E.selection`.
+		const editor = vscode.window.activeTextEditor;
+		if (!editor)
+			return;
+		const globalEval = eval;
+		let text = E.selectionOrEntireLine();
+		text = E.internal.eval.anaphora(text);
+		// I'd like to be able to select a JS doc example usage and quickly run that;'
+		// as such, we ignore all leading '*' on new lines.
+		text = text.replace(/(\n|^)\s*\*/g, '$1');
+		E.internal.require = { NODE_PATH: E.shell('npm root -g') };
+
+
+
+		//const now = E.shell('date +%H:%M:%S');
+		const now = E.shell('cmd /c date /T');
+
+
+		E.internal.log.append(`\n\n[${now}]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n`);
+
+
+
+
+
+E.internal.require = { NODE_PATH: E.shell('npm root -g') };
+            const now = E.shell('date +%H:%M:%S');
+            const now = E.shell('cmd /c date /T');
+			cmd /c date /T
 
 
 // Using the default low-level vscode API

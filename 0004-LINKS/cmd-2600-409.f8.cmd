@@ -6,6 +6,9 @@ rem file:///C:\Users\marti\OneDrive\0004-LINKS\2600-409.f8.ps1
 
 
 250411
+
+edit: obsol ... f7 may be more safe
+
 @command:code-runner.runCustomCommand
 {
   "key": "",
