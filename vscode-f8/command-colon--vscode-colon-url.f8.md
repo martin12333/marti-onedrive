@@ -10,6 +10,7 @@ exit
 
 #250411
 related   file:///C:\Users\marti\OneDrive\vscode-f8\command-colon--vscode-colon-url.f8.md
+*.f8.*,*.md,*.f7.*,*.f5.*,*.ps1,*.cmd,*.sh
 
 
 

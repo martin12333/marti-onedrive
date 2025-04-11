@@ -2,9 +2,10 @@
 exit
 
 #250411
+*.f8.*,*.md,*.f7.*,*.f5.*,*.ps1,*.cmd,*.sh
 
 related   file:///C:\Users\marti\OneDrive\vscode-f8\command-colon--vscode-colon-url.f8.md
-
+C:\Users\marti\OneDrive\easy-extensibility--f8\alhassy--easy-extensibility.f8.ps1
 
 250411
 
@@ -14,88 +15,11 @@ explorer.exe  ms-settings://
 ##start ms-settings://
 
 
-
-C:\Users\marti\AppData\Roaming\Code\User\keybindings.json
-
-{
-	"key": "ctrl+e e",
-	"command": "easy-extensibility.evaluateSelection",
-	"when": "editorTextFocus"
-},
-{
-	"key": "ctrl+c e",
-	"command": "-easy-extensibility.evaluateSelection",
-	"when": "editorTextFocus"
-},
-{
-	"key": "ctrl+c ctrl+e",
-	"command": "-easy-extensibility.evaluateSelection",
-	"when": "editorTextFocus"
-},
-{
-	"key": "ctrl+e g",
-	"command": "easy-extensibility.executeRegisteredCommand"
-},
-{
-	"key": "ctrl+c g",
-	"command": "-easy-extensibility.executeRegisteredCommand"
-},
-
-C:\Users\marti\AppData\Roaming\Code\User\keybindings.json
-zablok ^c
-
-quickfix
-
-^e?
-
-}
-}
-@ext:m1self.facil-extensibility
-ctrl-ins
-shift-ins
-@ext:m1self.facil-extensibility
-
-
-
-Name: facil-extensibility
-Id: m1self.facil-extensibility
-Description: Extend VSCode without the ceremony of making a full extension! Just write your code anywhere and it'll be part of VSCode!
-Version: 1.2.14
-Publisher: Mismo
-VS Marketplace Link: https://marketplace.visualstudio.com/items/?itemName=M1self.facil-extensibility'
-
-{
-	"key": "ctrl+c e",
-	"command": "easy-extensibility.evaluateSelection",
-	"when": "editorTextFocus"
-  }
-
-  {
-	"key": "ctrl+c g",
-	"command": "easy-extensibility.executeRegisteredCommand"
-  }
-  {
-	"key": "ctrl+c ctrl+e",
-	"command": "easy-extensibility.evaluateSelection",
-	"when": "editorTextFocus"
-  }
-#f1 URI
-f1 url
-
 start vscode://settings/powershell.helpCompletion
 start vscode://settings/powershell
 #edge vscode://settings/powershell.helpCompletion
 
-vscode://settings/code-runner.respectShebang
 
-vscode://settings/code-runner.runInTerminal
-vscode://settings/code-runner.showExecutionMessage
-
-"code-runner.terminalRoot": ""
-
-
-vscode://settings/code-runner.terminalRoot
-vscode://settings/powershell.integratedConsole.focusConsoleOnExecute
 
 powershell.helpCompletion
 "powershell.helpCompletion": "BlockComment"
@@ -132,7 +56,6 @@ start   'vscode://file/c:/myProject/package.json'
 ## start command:workbench.action.toggleKeybindingsLog
 
 start ms-quick-assist:
-
 explorer.exe  ms-quick-assist:
 
 

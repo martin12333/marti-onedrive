@@ -1,6 +1,7 @@
 exit
 
 #250411
+*.f8.*,*.md,*.f7.*,*.f5.*,*.ps1,*.cmd,*.sh
 
 2504
 facil
@@ -16,6 +17,79 @@ related   file:///C:\Users\marti\OneDrive\vscode-f8\command-colon--vscode-colon-
 ^ins
 
 
+#250411
+
+
+
+C:\Users\marti\AppData\Roaming\Code\User\keybindings.json
+
+{
+	"key": "ctrl+e e",
+	"command": "easy-extensibility.evaluateSelection",
+	"when": "editorTextFocus"
+},
+{
+	"key": "ctrl+c e",
+	"command": "-easy-extensibility.evaluateSelection",
+	"when": "editorTextFocus"
+},
+{
+	"key": "ctrl+c ctrl+e",
+	"command": "-easy-extensibility.evaluateSelection",
+	"when": "editorTextFocus"
+},
+{
+	"key": "ctrl+e g",
+	"command": "easy-extensibility.executeRegisteredCommand"
+},
+{
+	"key": "ctrl+c g",
+	"command": "-easy-extensibility.executeRegisteredCommand"
+},
+
+C:\Users\marti\AppData\Roaming\Code\User\keybindings.json
+zablok ^c
+
+quickfix
+
+^e?
+
+}
+}
+@ext:m1self.facil-extensibility
+ctrl-ins
+shift-ins
+@ext:m1self.facil-extensibility
+
+
+
+Name: facil-extensibility
+Id: m1self.facil-extensibility
+Description: Extend VSCode without the ceremony of making a full extension! Just write your code anywhere and it'll be part of VSCode!
+Version: 1.2.14
+Publisher: Mismo
+VS Marketplace Link: https://marketplace.visualstudio.com/items/?itemName=M1self.facil-extensibility'
+
+{
+	"key": "ctrl+c e",
+	"command": "easy-extensibility.evaluateSelection",
+	"when": "editorTextFocus"
+  }
+
+  {
+	"key": "ctrl+c g",
+	"command": "easy-extensibility.executeRegisteredCommand"
+  }
+  {
+	"key": "ctrl+c ctrl+e",
+	"command": "easy-extensibility.evaluateSelection",
+	"when": "editorTextFocus"
+  }
+#f1 URI
+f1 url
+
+
+#250411
 
 
 Name: easy-extensibility
@@ -158,6 +232,10 @@ marti init.js
 date +%H:%M:%S
 
 
+
+
+#250411
+
 patched by myself
 
 C:\Users\marti\.vscode\extensions\m1self.facil-extensibility-1.2.14\out\vscodets.js
@@ -221,14 +299,18 @@ E.internal.require = { NODE_PATH: E.shell('npm root -g') };
 			cmd /c date /T
 
 
+
+ok when selecting a single line
 // Using the default low-level vscode API
 // ( This will show the dinosaur ASCII image nicely! )
 vscode.commands.executeCommand('editor.action.toggleMinimap')
 
+ok when selecting a single line
 
 // Using the new user-friendly “E API”
 E.toggle.lineNumbers()
 
+ok when selecting a single line
 
 let [uncle, ben] = 'With great power, comes great responsibility'.split(',')
 E.overlay(uncle); E.warning(ben.toUpperCase())
@@ -275,6 +357,8 @@ f1 output: show chan:    extension host
 
 
 
+OLD
+
     // I'd like to be able to select a JS doc example usage and quickly run that;'
     // as such, we ignore all leading '*' on new lines.
     text = text.replace(/(\n|^)\s*\*/g, '$1')
@@ -286,13 +370,22 @@ f1 output: show chan:    extension host
     let now = E.shell('date /T')
 
 
+
+
+
     E.internal.log.append(`\n\n[${now}]
 
 
 
+#250411
 
 f1 eval
 E.toggle.lineNumbers()
+
+
+
+f1
+E.toggle.screencast() // Show's every key I press, for onlookers! So neato!'
 
 WORKS
 takes 10 SECONDS
@@ -309,6 +402,11 @@ f1 eval
 	at c:\Users\marti\.vscode\extensions\alhassy.easy-extensibility-1.2.11\node_modules\vscodejs\index.js:1351:27
 
 
+
+
+	newCommands["Insert date"] = { "cmd+i d": async E => E.insert((await E.shell("date +%Y-%m-%d")).stdout) }
+	newCommands["Insert time"] = { "cmd+i t": async E => E.insert((await E.shell("date +%H:%M:%S")).stdout) }
+	console.log("Look,", "ma!", "I'm a coder!") // this too!
 
 
 

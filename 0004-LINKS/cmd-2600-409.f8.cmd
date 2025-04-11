@@ -5,33 +5,6 @@ exit
 rem file:///C:\Users\marti\OneDrive\0004-LINKS\2600-409.f8.ps1
 
 
-250411
-
-edit: obsol ... f7 may be more safe
-
-@command:code-runner.runCustomCommand
-{
-  "key": "",
-  "command": "workbench.action.terminal.runActiveFile",
-  "when": "terminalHasBeenCreated || terminalProcessSupported"
-}
-I tried to map F5 to "workbench.action.terminal.runActiveFile: Run the active file in the terminal instance." and that works except it can only run code from files, not code just entered in the editor and not yet saved.
-
-The solution then is to have F5 mapped to workbench.action.debug.run and CTRL+F5 mapped to workbench.action.terminal.runActiveFile.
-
-
-breakpoints
-{
-  "key": "ctrl+f5",
-  "command": "workbench.action.debug.run",
-  "when": "debuggersAvailable && debugState != 'initializing'"
-}
-
-{
-  "key": "",
-  "command": "PowerShell.ShowLogs"
-}
-
 
 #   TESTS #########################################
 
