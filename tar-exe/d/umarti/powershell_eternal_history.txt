@@ -12289,3 +12289,33 @@ cmd.exe
 cmd
 bash
 cmd
+. "c:\Users\marti\OneDrive\0004-LINKS\hello.f5.ps1"
+echo $x
+. "c:\Users\marti\OneDrive\0004-LINKS\hello.f5.ps1"
+echo $x
+. "c:\Users\marti\OneDrive\0004-LINKS\hello.f5.ps1"
+echo $x
+$x=$x+'q'
+echo $x
+c:\Users\marti\OneDrive\0004-LINKS\hello.f5.ps1
+start microsoft-edge://open-in-new-tab
+start microsoft-edge://
+start ms-settings:
+start ms-settings://
+start ms-settings-bluetooth
+start ms-settings-bluetooth:
+start ms-settings-bluetooth://
+start vscode:
+start vscode://file/c:/users/
+start vscode://settings/powershell.helpCompletion
+edge vscode://settings/powershell.helpCompletion
+Get-ChildItem -Path 'Registry::HKEY_CLASSES_ROOT/*'  |  findstr -i  'uri:'
+start microsoftmusic
+start microsoftmusic:
+Start-Dtc   ms-crossdevice-settings:
+Start-Dtc   ms-photos:
+start ms-crossdevice-settings:
+start ms-photos:
+start xboxmusic:
+start vscode://settings/powershell.helpCompletion
+start vscode://settings/powershell

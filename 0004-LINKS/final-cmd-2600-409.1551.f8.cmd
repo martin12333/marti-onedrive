@@ -38,7 +38,6 @@ file:///C:\Users\marti\OneDrive\git-f8\export-GIT_DIR.f8.md
 rem ------------------------------------
 
 cmd
-
 Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--deldest    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git   /log+:C:\Users\marti\log\OneDrive--deldest-5.log     /tee    /ndl       /nfl      /MIR
 
 exit
@@ -89,6 +88,17 @@ rem cd d:\umarti\onedrive--deldest
 rem cd d:\
 
 c:
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -231,26 +241,51 @@ wiki-f8/github-wiki.f8.md
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [main2 99473ee7] 2600-409
  3 files changed, 36 insertions(+), 4 deletions(-)
 
 
-	git commit -vv   -a -m  2600-409.2349
+	git commit -vv   -a -m  2600-409.2358
 
 	git commit -a -m move-zzz-away
 	git commit -a -m 250129
 
 echo aaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 	#git push -vv  origin master
-	git push -vv
+	git push -v
+	git push
 
 
 
 	git show --name-only
 
 
-	set | grep -i history
+
+
+
+
+
+
+
 	history -a
+	set | grep -i history
 	##history  >history.md
 	##cat ~/.bash_history
 	#cat ~/.bash_eternal_history >history.txt

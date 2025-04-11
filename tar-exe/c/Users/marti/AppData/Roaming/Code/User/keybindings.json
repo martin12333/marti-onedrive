@@ -39,6 +39,29 @@
 	"command": "editor.action.inlineSuggest.acceptNextLine",
 	"when": "inlineSuggestionVisible && !editorReadonly"
 },
+{
+	"key": "ctrl+e e",
+	"command": "easy-extensibility.evaluateSelection",
+	"when": "editorTextFocus"
+},
+{
+	"key": "ctrl+c e",
+	"command": "-easy-extensibility.evaluateSelection",
+	"when": "editorTextFocus"
+},
+{
+	"key": "ctrl+c ctrl+e",
+	"command": "-easy-extensibility.evaluateSelection",
+	"when": "editorTextFocus"
+},
+{
+	"key": "ctrl+e g",
+	"command": "easy-extensibility.executeRegisteredCommand"
+},
+{
+	"key": "ctrl+c g",
+	"command": "-easy-extensibility.executeRegisteredCommand"
+},
 
     // EDIT bugfix: the part "when": "editorTextFocus" is really needed, otherwise awful behavior in ctrl-f
 

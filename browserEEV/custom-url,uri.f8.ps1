@@ -1,6 +1,113 @@
 
 exit
 
+250411
+
+C:\Users\marti\AppData\Roaming\Code\User\keybindings.json
+
+{
+	"key": "ctrl+e e",
+	"command": "easy-extensibility.evaluateSelection",
+	"when": "editorTextFocus"
+},
+{
+	"key": "ctrl+c e",
+	"command": "-easy-extensibility.evaluateSelection",
+	"when": "editorTextFocus"
+},
+{
+	"key": "ctrl+c ctrl+e",
+	"command": "-easy-extensibility.evaluateSelection",
+	"when": "editorTextFocus"
+},
+{
+	"key": "ctrl+e g",
+	"command": "easy-extensibility.executeRegisteredCommand"
+},
+{
+	"key": "ctrl+c g",
+	"command": "-easy-extensibility.executeRegisteredCommand"
+},
+
+C:\Users\marti\AppData\Roaming\Code\User\keybindings.json
+zablok ^c
+
+quickfix
+
+^e?
+
+}
+}
+@ext:m1self.facil-extensibility
+ctrl-ins
+shift-ins
+@ext:m1self.facil-extensibility
+
+
+
+Name: facil-extensibility
+Id: m1self.facil-extensibility
+Description: Extend VSCode without the ceremony of making a full extension! Just write your code anywhere and it'll be part of VSCode!
+Version: 1.2.14
+Publisher: Mismo
+VS Marketplace Link: https://marketplace.visualstudio.com/items/?itemName=M1self.facil-extensibility'
+
+{
+	"key": "ctrl+c e",
+	"command": "easy-extensibility.evaluateSelection",
+	"when": "editorTextFocus"
+  }
+
+  {
+	"key": "ctrl+c g",
+	"command": "easy-extensibility.executeRegisteredCommand"
+  }
+  {
+	"key": "ctrl+c ctrl+e",
+	"command": "easy-extensibility.evaluateSelection",
+	"when": "editorTextFocus"
+  }
+#f1 URI
+f1 url
+
+start vscode://settings/powershell.helpCompletion
+start vscode://settings/powershell
+#edge vscode://settings/powershell.helpCompletion
+
+vscode://settings/code-runner.respectShebang
+
+vscode://settings/code-runner.runInTerminal
+vscode://settings/code-runner.showExecutionMessage
+
+"code-runner.terminalRoot": ""
+
+
+vscode://settings/code-runner.terminalRoot
+vscode://settings/powershell.integratedConsole.focusConsoleOnExecute
+
+powershell.helpCompletion
+"powershell.helpCompletion": "BlockComment"
+
+
+##
+
+## comment-help  helpCompletion
+
+## <#
+.SYNOPSIS
+	A short one-line action-based description, e.g. 'Tests if a function is valid'
+.DESCRIPTION
+	A longer description of the function, its purpose, common use cases, etc.
+.NOTES
+	Information or caveats about the function e.g. 'This function is not supported in Linux'
+.LINK
+	Specify a URI to a help page, this will show when Get-Help -Online is used.
+.EXAMPLE
+	Test-MyTestFunction -Verbose
+	Explanation of the function or its result. You can include multiple examples with additional .EXAMPLE lines
+#>
+
+{0}
 
 start vscode://file/c:/users/
 
@@ -15,7 +122,16 @@ start   'vscode://file/c:/myProject/package.json'
 start ms-quick-assist:
 
 
-Get-ChildItem -Path 'Registry::HKEY_CLASSES_ROOT/*'  |  findstr -i  'url:'   | clip
+
+
+
+##00   Get-ChildItem -Path 'Registry::HKEY_CLASSES_ROOT/*'  |  findstr -i  'uri:'
+  | clip
+
+  Get-ChildItem -Path 'Registry::HKEY_CLASSES_ROOT/*'  |  findstr -i  'url:'   | clip
+
+
+
 
 
                                (default)    : URL:appinstaller.oauth2
@@ -53,7 +169,12 @@ ftp                            (default)        : URL:ftp
                                (default)    : URL:ftps
 
 
+
+
+
 *							   (default)    : URL:github-windows
+
+
 
 
 							   grvopen                        (default)              : URL: OneDrive Client Protocol
@@ -68,7 +189,10 @@ IE.FTP                         (default)        : URL:File Transfer Protocol
 IE.HTTP                        (default)        : URL:HyperText Transfer Protocol
 IE.HTTPS                       (default)        : URL:HyperText Transfer Protocol with
 IM                             (default)    : URL:IM Protocol
-                               (default)    : URL:intel.gfxcontrolpanel
+
+
+
+(default)    : URL:intel.gfxcontrolpanel
 kindle                         (default)    : URL:Amazon Kindle
 LDAP                           (default)    : URL:LDAP Protocol
                                (default)    : URL:lenovo-companion
@@ -78,6 +202,13 @@ LDAP                           (default)    : URL:LDAP Protocol
                                (default)    : URL:lenovo-vantage3
 mailto                         (default)        : URL:mailto
 microsoft-edge                 (default)    : URL:microsoft-edge
+
+
+
+
+start microsoft-edge://open-in-new-tab
+start microsoft-edge://
+
                                (default)    : URL:microsoft.windows.camera
 picker                         (default)    : URL:microsoft.windows.camera.multipicker
 r                              (default)    : URL:microsoft.windows.camera.picker
@@ -87,7 +218,15 @@ r                              (default)    : URL:microsoft.windows.photos.picke
 edit                           (default)    : URL:microsoft.windows.photos.videoedit
 
 (default)    : URL:microsoftdefender
-                               (default)    : URL:microsoftmusic
+
+
+
+
+
+(default)    : URL:
+
+
+#start microsoftmusic:
                                (default)    : URL:microsoftsolitairecollection
                                (default)    : URL:microsoftvideo
 mk                             (default)    : URL:MK Protocol
@@ -99,14 +238,31 @@ ms-access                      (default)              : Url:Access Protocol
                                (default)    : URL:ms-apprep
 ms-availablenetworks           (default)    : URL:Available Networks Protocol
 
+
+
+
 (default)    : URL:ms-calculator
                                (default)    : URL:ms-clipchamp
                                (default)    : URL:ms-clock
                                (default)    : URL:ms-contact-support
                                (default)    : URL:ms-cortana2
 
+
+
+
+
+
 							   (default)    : URL:ms-crossdevice-files
-                               (default)    : URL:ms-crossdevice-settings
+                               (default)    : URL:
+start ms-crossdevice-settings:
+
+
+
+
+###start-Dtc
+start\t
+
+
                                (default)    : URL:ms-crossdevice-share
                                (default)    : URL:ms-crossdevice-test
 
@@ -144,13 +300,23 @@ ms-olk-oauth                   (default)        : URL:Outlook OAuth Callback
 
 (default)    : URL:ms-oobenetwork
 
+
+
+
+
 (default)    : URL:ms-outlook
                                (default)    : URL:ms-paint
                                (default)    : URL:ms-penworkspace
                                (default)    : URL:ms-people
 ms-perception-simulation       (default)              : Url:Perception Simulation
                                (default)    : URL:ms-phone
-                               (default)    : URL:ms-photos
+
+
+
+							   (default)    : URL:
+start ms-photos:
+
+
                                (default)    : URL:ms-playto-audio
                                (default)    : URL:ms-powerautomate
                                (default)    : URL:ms-powerautomatedesigner
@@ -159,6 +325,7 @@ ms-powerpoint                  (default)              : Url:PowerPoint Protocol
                                (default)    : URL:ms-print-printjobs
                                (default)    : URL:ms-print-queue
 ms-publisher                   (default)              : Url:Publisher Protocol
+
 
 
 *                               (default)    : URL:ms-quick-assist
@@ -172,10 +339,17 @@ ms-retaildemo-launchstart      (default)    : URL:ms-retaildemo-launchstart
 (default)    : URL:ms-screensketch
                                (default)    : URL:ms-search
 
+
+
+
+
+##start ms-settings://
 							   ms-settings                    (default)    : URL:ms-settings
 
 ms-settings-airplanemode       (default)    : URL:ms-settings-airplanemode
-ms-settings-bluetooth          (default)    : URL:ms-settings-bluetooth
+##start ms-settings-bluetooth://
+
+(default)    : URL:ms-settings-bluetooth
 ms-settings-cellular           (default)    : URL:ms-settings-cellular
 ms-settings-connectabledevices (default)    : URL:Devices Flow Connectable Devices
 ms-settings-displays-topology  (default)    : URL:Devices Flow Display Topology Protocol
@@ -205,7 +379,11 @@ ms-taskswitcher                (default)    : URL:ms-taskswitcher
                                (default)    : URL:ms-unistore-email
 ms-virtualtouchpad             (default)    : URL:Virtual Touchpad
 
+
+
 (default)    : URL:ms-walk-to
+
+
 
 (default)    : URL:ms-wcrv
                                (default)    : URL:ms-widgets
@@ -224,6 +402,10 @@ ms-word                        (default)              : Url:Word Protocol
 mssharepointclient             (default)              : URL: mssharepointclient
 
 odopen                         (default)              : URL: OneDrive Client Protocol
+
+
+
+
 
 (default)    : URL:onenote
 
@@ -246,15 +428,26 @@ Outlook.URL.webcal.15          (default)    : URL:Outlook Add Internet Calendar
 
 							   (default)    : URL:read
 res                            (default)    : URL:RES Protocol
+
+
+
 rhythmdr                       (default)    : URL:rhythmdr Protocol
 rlogin                         (default)        : URL:RLogin Protocol
                                (default)    : URL:rtkuwp
                                (default)    : URL:s3
 
+
+
+
+
 							   (default)    : URL:scp
                                (default)    : URL:sftp
                                (default)    : URL:skype
                                (default)    : URL:skype-meetnow
+
+
+
+
 
 							   (default)    : URL:ssh
 steam                          (default)    : URL:steam protocol
@@ -266,6 +459,13 @@ telnet                         (default)        : URL:Telnet Protocol
 tn3270                         (default)        : URL:TN3270 Protocol
 
 
+
+
+
+
+start vscode://file/c:/users/
+
+							   (default)    : URL:URI
 ** (default)    : URL:vscode
 
 
@@ -283,7 +483,11 @@ windows.tbauth                 (default)        : URL:windows.tbauth
 windowsdefender                (default)    : URL:windowsdefender
 
 (default)    : URL:winscp-dav
-                               (default)    : URL:winscp-davs
+
+
+
+
+(default)    : URL:winscp-davs
                                (default)    : URL:winscp-ftp
                                (default)    : URL:winscp-ftpes
                                (default)    : URL:winscp-ftps
@@ -298,6 +502,8 @@ windowsdefender                (default)    : URL:windowsdefender
 							   WMP11.AssocProtocol.DLNA-PLAYS (default)        : URL:dlna-playsingle Protocol
 WMP11.AssocProtocol.MMS        (default)        : URL:mms Protocol
                                (default)    : URL:wp-autoplay
+
+
 
 
 							   (default)    : URL:x-github-client
@@ -315,7 +521,8 @@ WMP11.AssocProtocol.MMS        (default)        : URL:mms Protocol
                                (default)    : URL:xbox-tcui
                                (default)    : URL:xboxgames
                                (default)    : URL:xboxliveapp-1297287741
-                               (default)    : URL:xboxmusic
+                               (default)    : URL:
+start xboxmusic:
 zoommtg                        (default)              : URL:Zoom Launcher
 ZoomPbx.zoomphonecall          (default)    : URL:ZoomPhoneCall Protocol
 ZoomPhoneCall                  (default)    : URL:ZoomPhoneCall Protocol
