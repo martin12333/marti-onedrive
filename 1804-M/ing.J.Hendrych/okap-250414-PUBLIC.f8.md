@@ -1,5 +1,8 @@
 
 
+# priste pouzit onedrive nikoli icacls
+## nastestii nepresejvil jsem si to
+## onedrive maybe has edit history
 pwsh
 icacls.exe 1804-M     /grant 'milan_rxtipwr:(oi)(ci)(f)'
 exit
@@ -54,6 +57,18 @@ Děkuji, doporučím.
 ctrl a ctrl c vscode alt tab ctr v
 
 
+# milan editoval, vsc nepresejvil
+
+Okapy
+Oprava okapů
+Výměna okapů
+Montáž okapů
+Čištění okapu
+Vyčištění okapů
+Výměna okapů a svodů
+
+
+
 
 ## edit 417
 
@@ -72,4 +87,85 @@ kdyby vyměnili za něco, co se dá  snáze pročistit, tak bych byl spokojený.
 Poptáváme pročištění, či případně výměnu, dvou okapových svodů, na rodinném domě. Svody jsou 30 let staré, nevím, jaká může být jejich životnost. V jednom ze svodů je tolik jehličí, že voda tam teče velmi pomalu. // Druhý svod může být plný listí ... strom byl prostříhán teprve nedávno. Zaplatíme také za instalaci mřížek proti listí a jehličí.
 
 Poptáváme pročištění, či případně výměnu, dvou okapových svodů, na rodinném domě. Svody jsou 30 let staré, nevíme, jaká může být jejich životnost. V jednom ze svodů je tolik jehličí, že voda tam teče velmi pomalu.  Druhý svod může být plný listí ... strom byl prostříhán teprve nedávno. // Nevíme, zda existují svody, u kterých by bylo snadnější čištění. // Zaplatíme také za instalaci mřížek proti listí a jehličí. 
+
+
+
+
+
+Poptáváme pročištění, či případně výměnu, dvou okapových svodů, na rodinném domě. Svody jsou 30 let staré, nevíme, jaká může být jejich životnost. V jednom ze svodů je tolik jehličí, že voda tam teče velmi pomalu.  Druhý svod může být plný listí ... strom byl prostříhán teprve nedávno.
+    // Nevíme, zda existují svody, u kterých by bylo snadnější čištění. // Zaplatíme také za instalaci mřížek proti listí a jehličí. 
+
+
+Nabídky obvykle přijdou do 48 hodin.
+
+
+todo spell check
+chrome://settings/languages
+
+
+
+
+-vymena-okapu-a-svodu?step_id=34
+
+po vytv uzivateůe
+
+#Error 404
+ NejŘemeslníci logo
+Požadovaná stránka
+se asi vypařila.
+Možná máte špatnou adresu, nebo jsme museli stránku přesunout na nějaké lepší místo.
+
+Co teď?
+Nejlepší bude, když se vrátíte na domácí stránku:
+www.nejremeslnici.cz
+
+
+-vymena-okapu-a-svodu?step_id=35
+
+Jak vás firmy osloví?
+Řemeslníky si chci vybírat
+
+Tato volba je ideální na větší poptávky. Řemeslník váš email a telefon získá teprve, když o propojení projevíte zájem.
+
+Chci propojit co nejdříve
+
+Volba je ideální na menší a spěchající zakázky. Propojení s řemeslníky není třeba odsouhlasit. Díky tomu vás mohou rovnou kontaktovat.
+C:\Users\marti\OneDrive\1804-M\ing.J.Hendrych
+
+
+
+
+
+# Získejte víc nabídek a lepší ceny!
+Zvýhodněte svou poptávku a získejte rychleji více nabídek.
+🚀 Oslovíme více řemeslníků
+📌 Označíme poptávku jako „TOP“ aby byla dobře vidět
+🎯 Zvýšíme šanci na lepší cenu díky většímu počtu nabídek
+Zvýhodnit nabídku za 99 Kč
+
+
+https://napoveda.nejremeslnici.cz/cs/article/doruceni-mailu-spam-filtry-1ffxc2a/
+Zní to možná složitě, ale tímto nastavením jednou provždy zařídíte spoustu věcí: naše maily nikdy nebudou označeny jako Spam a vždy budou doručeny do hlavní složky v Doručené poště. Navíc se tam přesunou i všechny dřívější maily, které jste už od nás dostali.
+
+
+
+
+
+Kam dál?
+Přečtěte si užitečné články v našem Magazínu
+
+https://www.nejremeslnici.cz/blog/jak-spravne-vybrat-remeslniky-nebo-firmu/
+
+
+Potřebujete ověřit, kolik která práce může stát? Prohlédněte si ceníky.
+https://www.nejremeslnici.cz/ceniky-remesel
+
+Stáhněte si vzor smlouvy o dílo apředávací protokol. Budete mít jistotu, že na nic nezapomenete.
+Smlouva_o_dilo.pdf
+
+Predavaci-protokol.pdf
+
+
+Po propojení s účty na Facebooku nebo Googlu se budete moci přihlásit bez hesla. Účet na našem portálu můžete propojit s několika dalšími účty.
+
 

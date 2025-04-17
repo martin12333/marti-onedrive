@@ -12333,3 +12333,4 @@ Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--deldest    /s   /XJ 
 git commit -vv   -a -m  backup
 ###exit
 icacls.exe 1804-M     /grant 'milan_rxtipwr:(oi)(ci)(f)'
+exit
