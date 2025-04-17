@@ -1,13 +1,15 @@
-C:\Users\marti\OneDrive\1804-M\ing.J.Hendrych\okap-250414.md
 
 
 
+okap-250414.f8.md
 not f8 
 nesdilena alba apod
+emaily
 
 # links
+C:\Users\marti\OneDrive\1804-M\ing.J.Hendrych\okap-250414.md
 
-okap-250414-PUBLIC.f8.md
+okap-250414.f8.md
 
 
 chtěl jsem Ti dát možnost pár dní si odpočinout. Ten pokrok s těmi větvemi je obrovský. 🙏
@@ -61,3 +63,4 @@ Kliknutím nahrajte nebo sem přetáhněte soubory
 kdyby vyměnili za něco, co se dá  snáze pročistit, tak bych byl spokojený. Ale nevím, jestli to je možné.
 
 
+Poptáváme pročištění, či případně výměnu, dvou okapových svodů, na rodinném domě. Svody jsou 30 let staré, nevím, jaká může být jejich životnost. V jednom ze svodů je tolik jehličí, že voda tam teče velmi pomalu. // Druhý svod může být plný listí ... strom byl prostříhán teprve nedávno. Zaplatíme také za instalaci mřížek proti listí a jehličí.
