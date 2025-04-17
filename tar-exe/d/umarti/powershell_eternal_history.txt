@@ -12332,3 +12332,4 @@ $Env:GIT_WORK_TREE='/d/umarti/onedrive--deldest'
 Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--deldest    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git   /log+:C:\Users\marti\log\OneDrive--deldest-5.log     /tee    /ndl       /nfl      /MIR
 git commit -vv   -a -m  backup
 ###exit
+icacls.exe 1804-M     /grant 'milan_rxtipwr:(oi)(ci)(f)'

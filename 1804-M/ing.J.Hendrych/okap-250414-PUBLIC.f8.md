@@ -1,5 +1,11 @@
 
 
+pwsh
+icacls.exe 1804-M     /grant 'milan_rxtipwr:(oi)(ci)(f)'
+exit
+
+/ing.J.Hendrych/okap-2504
+
 
 okap-250414.f8.md
 not f8 

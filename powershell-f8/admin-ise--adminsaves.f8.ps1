@@ -16,6 +16,8 @@ echo '-------- section --------'
 #  ^a  ^c  @tab  ^a ^V
 
 
+win+q ise admin
+master
 the MAIN COPY		C:\Users\marti\admin-ise--adminsaves.f8.ps1
 the SUBORDINATE COPY jiny dir C:\Users\marti\OneDrive\powershell-f8\admin-ise--adminsaves.f8.ps1
 
