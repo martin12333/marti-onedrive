@@ -15,3 +15,5 @@ git add -vv   '2400-WIKI/*.md'
 git commit  -a -m    backup   #-before   # -v
 git push
 git show --name-only
+# $ [200~#dslkjfdskf bash: [200~#: command not found
+# $ ~ bash: /c/Users/marti: Is a directory
