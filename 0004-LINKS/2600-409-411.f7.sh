@@ -12,6 +12,6 @@ C:/Users/marti/OneDrive/0004-LINKS/Robocopy---c-onedrive---d-mir.f5.cmd
 ###exit
 git add -vv  '*.f8.*'   '*.f7.*'       '*.f5.*'   #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
 git add -vv   '2400-WIKI/*.md'
-git commit -v -a -m    backup   #-before   #
+git commit  -a -m    backup   #-before   # -v
 git push
 git show --name-only

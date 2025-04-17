@@ -64,3 +64,6 @@ kdyby vyměnili za něco, co se dá  snáze pročistit, tak bych byl spokojený.
 
 
 Poptáváme pročištění, či případně výměnu, dvou okapových svodů, na rodinném domě. Svody jsou 30 let staré, nevím, jaká může být jejich životnost. V jednom ze svodů je tolik jehličí, že voda tam teče velmi pomalu. // Druhý svod může být plný listí ... strom byl prostříhán teprve nedávno. Zaplatíme také za instalaci mřížek proti listí a jehličí.
+
+Poptáváme pročištění, či případně výměnu, dvou okapových svodů, na rodinném domě. Svody jsou 30 let staré, nevíme, jaká může být jejich životnost. V jednom ze svodů je tolik jehličí, že voda tam teče velmi pomalu.  Druhý svod může být plný listí ... strom byl prostříhán teprve nedávno. // Nevíme, zda existují svody, u kterých by bylo snadnější čištění. // Zaplatíme také za instalaci mřížek proti listí a jehličí. 
+
