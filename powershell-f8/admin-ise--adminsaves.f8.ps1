@@ -16,7 +16,8 @@ echo '-------- section --------'
 #  ^a  ^c  @tab  ^a ^V
 
 
-win+q ise admin
+win+q ise rclick admin
+File/recent
 master
 the MAIN COPY		C:\Users\marti\admin-ise--adminsaves.f8.ps1
 the SUBORDINATE COPY jiny dir C:\Users\marti\OneDrive\powershell-f8\admin-ise--adminsaves.f8.ps1
@@ -44,9 +45,11 @@ icacls.exe   d:\000doc24   /grant 'techl:(oi)(ci)(f)'
 icacls.exe   D:\umarti\OneDrive--robo   /grant 'techl:(oi)(ci)(rx)'
 
 
-###icacls.exe   d:\000doc24   /grant 'milan:(oi)(ci)(f)'
+#icacls.exe   d:\000doc24   /grant
+######'milan
+#:(oi)(ci)(f)'
 icacls.exe   d:\000doc24   /grant 'milan_rxtipwr:(oi)(ci)(f)'
-
+# alterna: onedrive.live.com
 
 
 
