@@ -8,7 +8,7 @@
 ; win + e / martin personal / documents ---> location ->
 	; C:\Users\marti\OneDrive\Dokumenty234
 	; C:\Users\marti\OneDrive\Dokumenty
-; this file:  THE  MAIN COPY is  at C:\Users\marti\OneDrive\Dokumenty234\AutoHotkey.ahk
+; old this file:  THE  MAIN COPY is  at C:\Users\marti\OneDrive\Dokumenty234\AutoHotkey.ahk
 ; this file:  THE  MAIN COPY is  at C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
 
 
@@ -53,6 +53,7 @@
 
 ; https://www.autohotkey.com/docs/v1/lib/Send.htm
 	; https://github.com/martin12333/PUBLIC-group-of-gists/blob/main/www.autohotkey.com/docs/v1/lib/Send.htm.md
+
 
 ; As with other commands, the comma in front of the first parameter is optional.
 
@@ -101,7 +102,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
 
-; //// my, unnecessary: mk win restore point ... could just rename  C:\Users\marti\OneDrive\Dokumenty234\AutoHotkey.ahk
+; //// my, unnecessary: mk win restore point ... could just rename  C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
 
 
 
