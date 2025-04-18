@@ -7,13 +7,11 @@ pwsh
 icacls.exe 1804-M     /grant 'milan_rxtipwr:(oi)(ci)(f)'
 exit
 
-/ing.J.Hendrych/okap-2504
 
-
-okap-250414.f8.md
+# okap-250414.f8.md
 not f8 
 nesdilena alba apod
-emaily
+emaily@
 
 # links
 C:\Users\marti\OneDrive\1804-M\ing.J.Hendrych\okap-250414.md
@@ -79,7 +77,7 @@ Poptávky s fotkou u nás dostávají víc nabídek. Přiložit můžete i dokum
 Kliknutím nahrajte nebo sem přetáhněte soubory
 
 ## kategorie  výměna okapů a svodů
- https://www.nejremeslnici.cz/demand_workflows/884744-vymena-okapu-a-svodu
+ https://www.nejremeslnici.cz/demand_workflows/
 
 kdyby vyměnili za něco, co se dá  snáze pročistit, tak bych byl spokojený. Ale nevím, jestli to je možné.
 
@@ -167,5 +165,41 @@ Predavaci-protokol.pdf
 
 
 Po propojení s účty na Facebooku nebo Googlu se budete moci přihlásit bez hesla. Účet na našem portálu můžete propojit s několika dalšími účty.
+
+
+
+
+
+
+# jiri.bok .cuni.cz
+
+
+
+## Script name: .forward
+1. February 2023
+    26: if address :all :comparator "i;ascii-casemap" :contains "From"
+"servis"  
+    10: if address :all :comparator "i;ascii-casemap" :contains "From"
+"generali"  
+    15: if address :all :comparator "i;ascii-casemap" :contains "From"
+"soluti"  
+
+## https://outlook.office.com/mail/options/mail/rules
+work  office.com
+pers live.com https://outlook.live.com/mail/0/options/mail/rules
+
+inspect
+
+mnd
+
+
+
+
+## Fw: Diagnostics report -
+C:\Users\marti\OneDrive\1804-M\InboxRules.txt  xml necitelne
+
+## outlook block "never block sender"
+nejremeslnici  rclick mail
+<div class="fui-DialogBody r1h3qql9"><h2 id="dialog-title-r22" 
 
 
