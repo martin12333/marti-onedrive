@@ -193,12 +193,8 @@ ms-availablenetworks           (default)    : URL:Available Networks Protocol
                                (default)    : URL:
 start ms-crossdevice-settings:
 
-
-
-
 ###start-Dtc
 start\t
-
 
                                (default)    : URL:ms-crossdevice-share
                                (default)    : URL:ms-crossdevice-test

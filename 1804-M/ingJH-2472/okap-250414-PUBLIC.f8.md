@@ -203,3 +203,96 @@ nejremeslnici  rclick mail
 <div class="fui-DialogBody r1h3qql9"><h2 id="dialog-title-r22" 
 
 
+# 418
+
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --profile-directory=Default
+
+explorer "C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default"
+
+C:\Users\marti\AppData\Roaming\Microsoft\Windows\Recent\mn80--MSEdge-Workspace-JVB-MB (2).lnk
+C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\mn80--MSEdge-Workspace-JVB-MB.lnk
+C:\Users\marti\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\Microsoft Edge.lnk
+C:\Users\marti\AppData\Roaming\Microsoft\Windows\Recent\mn80--MSEdge-Workspace-JVB-MB.lnk
+C:\Users\marti\AppData\Roaming\Microsoft\Windows\Recent\ms-actioncentercontrolcenter-&suppressAnimations=false&showFooter=true&allowPageNavigation=true&edgeGestureOffset=0&inputAnimationSourceId=0&inputAnimationProviderId=0 (2).lnk
+C:\Users\marti\AppData\Roaming\Microsoft\Windows\Recent\edge-f12-devtools-override.lnk
+C:\Users\marti\AppData\Roaming\Microsoft\Windows\Recent\MSEdge-Workspace-JVB-MB.lnk
+C:\Users\marti\AppData\Roaming\Microsoft\Windows\Recent\ms-actioncentercontrolcenter-&suppressAnimations=false&showFooter=true&allowPageNavigation=true&edgeGestureOffset=0&inputAnimationSourceId=0&inputAnimationProviderId=0.lnk
+C:\Users\marti\AppData\Roaming\Code\User\workspaceStorage\b8ab3ec65aab689f0d29ebc915e1b50d\ms-vscode.js-debug\.profile\Default\Microsoft Edge.lnk
+C:\Users\marti\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Microsoft Edge (2).lnk
+C:\Users\marti\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\ImplicitAppShortcuts\188f5ec9d11ded56\Profile 2 - Edge.lnk
+C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Microsoft Edge.lnk
+
+
+
+
+
+
+
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --profile-directory="Profile 1"
+
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --profile-directory=Default
+
+C:\pf86\Google\Chrome\Application\chrome_proxy.exe  --profile-directory=Default --app-id=ikpfglehgbgemlkiheabelildoinpjkh
+
+C:\pf86\Google\Chrome\Application\chrome_proxy.exe  --profile-directory=Default --app-id=ikpfglehgbgemlkiheabelildoinpjkh
+
+"C:\Users\marti\AppData\Local\Google\Chrome\User Data\Default\Web Applications\_crx_ikpfglehgbgemlkiheabelildoinpjkh"
+
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe"  --profile-directory=Default --app-id=jonffppiiihbgicafldadgfbmnnhmjpi --app-url=https://stackblitz.com/ --app-launch-source=4
+
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe"  --profile-directory=Default --app-id=nlbgegkihjbekddajjcbalhjifapacdf --app-url=https://jupyterlite.github.io/demo/ --app-launch-source=4
+
+& "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe"  --help
+& "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"  --help
+
+msedge command line options
+edge command line options url
+edge Workspace startup
+////  edge://workspaces-internals/
+
+edge.*workspace
+https://aka.ms/edge/workspaceslaunch?.....
+maybe not pub?
+edge://fluid-join/?type=1&......
+https://aka.ms/edgeworkspaces/join?type=1&
+
+start microsoft-edge://
+
+explorer.exe  ms-settings://
+
+
+C:\Users\marti\AppData\Roaming\Microsoft\Windows\Recent
+
+
+*settings*
+
+
+[
+	
+](<../../../AppData/Roaming/Microsoft/Windows/Recent/Medication-Induced Tardive Dyskinesia.. A Review and Update---selected---gastroparesis-250310.f8.md.lnk>)
+
+
+
+
+ms-settings:taskbar
+keyboard
+
+
+	174 B	2/13/25, 7:17:11 PM
+ms-settingskeyboard (2).lnk	156 B	4/16/25, 3:01:04 AM
+ms-settingskeyboard.lnk	156 B	1/14/25, 6:10:17 PM
+ms-settingsnetwork-ethernet.lnk	172 B	6/21/21, 8:34:01 PM
+ms-settingssearch-permissions.lnk	176 B	2/19/25, 12:40:52 AM
+ms-settingstaskbar (2).lnk	154 B	5/28/23, 3:46:06 PM
+ms-settingstaskbar (3).lnk	154 B	4/18/25, 11:47:36 AM
+ms-settingstaskbar.lnk	154 B	3/31/22, 9:14:40 PM
+ms-settingsthemes.lnk	152 B	4/12/23, 12:31:27 PM
+ms-settingswindowsupdate (2).lnk	166 B	2/17/23, 10:10:35 AM
+ms-settingswindowsupdate (3).lnk	166 B	2/21/23, 12:09:28 PM
+ms-settingswindowsupdate (4).lnk	166 B	2/13/25, 1:39:50 PM
+ms-settingswindowsupdate-anotheruser.lnk	190 B	1/15/25, 1:18:11 AM
+ms-settingswindowsupdate.lnk	166 B	8/11/22, 12:26:22 AM
+ms-settingswindowsupdatewinsettingshome.lnk
+
+
+

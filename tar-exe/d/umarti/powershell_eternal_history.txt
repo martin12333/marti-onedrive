@@ -12334,3 +12334,7 @@ git commit -vv   -a -m  backup
 ###exit
 icacls.exe 1804-M     /grant 'milan_rxtipwr:(oi)(ci)(f)'
 exit
+explorer "C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default"
+& "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe"
+& "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe"  --help
+& "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"  --help
