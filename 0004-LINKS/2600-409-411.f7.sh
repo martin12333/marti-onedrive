@@ -3,6 +3,7 @@
 
 export GIT_DIR=/d/GIT-bk04/marti-onedrive-2600-409.21.git
 export GIT_WORK_TREE=/d/umarti/onedrive--deldest
+#export GIT_WORK_TREE=/d/umarti/onedrive--deldest
 
 ##C:\Users\marti\OneDrive\0004-LINKS\Robocopy---c-onedrive---d-mir.f5.cmd
 C:/Users/marti/OneDrive/0004-LINKS/Robocopy---c-onedrive---d-mir.f5.cmd
