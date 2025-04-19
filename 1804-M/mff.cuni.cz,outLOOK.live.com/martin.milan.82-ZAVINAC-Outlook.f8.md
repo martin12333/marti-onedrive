@@ -50,6 +50,14 @@ https://outlook.live.com/mail/0/
 # How to create an Outlook alias:
 
 
+## 250419 
+winmilan for jvb ... see gkeep
+**ZAVINAC DAVEJ INTO** https://keep.google.com/#NOTE/1L9oOkFMlillVxgbbBgXo4FmQn0oWzdjXFboiYFOo6zyib8w6-HKW8E_h7yy11Gw
+a backup is in mail
+
+
+## older
+
 https://www.microsoft.com/en-us/microsoft-365-life-hacks/organization/how-to-change-your-email-address-the-easy-way#create-outlook-alias
 
 
