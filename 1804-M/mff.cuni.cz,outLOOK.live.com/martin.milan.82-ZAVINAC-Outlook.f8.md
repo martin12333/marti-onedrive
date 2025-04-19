@@ -3,7 +3,16 @@
 // Milan: "...@" edited, repeatedly
 **ZAVINAC DAVEJ INTO** https://keep.google.com/#NOTE/1L9oOkFMlillVxgbbBgXo4FmQn0oWzdjXFboiYFOo6zyib8w6-HKW8E_h7yy11Gw
 
-**debug view info**	- [Click “Your info” on the top navigation bar.](#click-your-info-on-the-top-navigation-bar)
+
+
+C:\Users\marti\OneDrive\1804-M\mff.cuni.cz,outLOOK.live.com\00043-tags-b@k...outlook.office.com.f8.md
+
+*outlook* mi nezabralo Outlook  O O O
+
+
+#debug  #view #info	- [Click “Your info” on the top navigation bar.](#click-your-info-on-the-top-navigation-bar)
+radka 59 zde
+
 
 outlook.com
 **martin.milan.82**
@@ -34,6 +43,10 @@ https://outlook.live.com/mail/0/
 [[outlook-mail-forwarding.f8]]
 
 
+
+
+
+
 # How to create an Outlook alias:
 
 
@@ -53,11 +66,64 @@ Scroll down to the “Account info” section
 ## // zbytecna obava  JAK SE BUDU HLASIT PRIMARY
 
 
-and click “Edit account info” on the right side of the screen.
+Account info
+Edit account info
+Email address
+Martin.novy.80
+The email address you use to sign in to your Microsoft account
+Communication preferences
+martin.milan.82
+Communication preferences
+Phone number
+None
+Your phone number is used to sign in to your Microsoft account
+Sign-in preferences
+Link your phone to your PC
+Product safety notifications
+Close account
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## and click “Edit account info” on the right side of the screen.
 
 https://account.live.com/names/manage?mkt=en-US&refd=account.microsoft.com&refp=profile&uaid=80f18e567ba243b0806050f9b1b0ae17
 
 https://account.live.com/names/manage?mkt=en-US&refd=account.microsoft.com&refp=profile&uaid=4ec7a165d4f74237a5511f1c8cf03706
+
+
+
+
+
+
+
+
+
+ount aliases
+Martin.novy.80ail.com (primary alias)Remove
+martin.milan.82ook.comRemoveMake primary
+Add email
+Add phone number
+
+
+
+
+
+
+
+
+
 
 Manage how you sign in to Microsoft.
 ## An account alias is an email address or phone number that you use to sign in to your Microsoft account. You can have multiple aliases, and use any of them with Microsoft services such as Outlook.com, Skype, OneDrive, Office, Xbox, Windows and more.
@@ -69,7 +135,7 @@ The section labeled “Account alias” will have a link to click labeled “Add
 
 You have the option to create a new Outlook email address or add an existing email address as your Microsoft account alias
 
-## /// asi neni pravda. Whichever you choose will be your new primary email address.
+## /// asi neni pravda: Whichever you choose will be your new primary email address.
 
 ## // zbytecna obava  JAK SE BUDU HLASIT PRIMARY
 
@@ -176,6 +242,11 @@ funguje to  martin
 241229?
 all works except the forwarding .. maybe because i replied to the mail from the same account ... hairpinning?
 
+
+kde url
+Account aliases
+milan.bok.75 (primary alias)Remove
+milan.m.bok .comRemoveMake primary
 
 
 

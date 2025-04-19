@@ -5,6 +5,13 @@
 outlook.com
 martin.milan.82@zavinac.com
 
+**ZAVINAC DAVEJ INTO** https://keep.google.com
+https://keep.google.com/#NOTE/1L9oOkFMlillVxgbbBgXo4FmQn0oWzdjXFboiYFOo6zyib8w6-HKW8E_h7yy11Gw
+
+C:\Users\marti\OneDrive\1804-M\mff.cuni.cz,outLOOK.live.com\00043-tags-b@k...outlook.office.com.f8.md
+
+*outlook* mi nezabralo Outlook  O O O
+
 frinicky
 
 https://www.reddit.com/r/Windows_diaries/comments/1ch6zl3/comment/l5hbpj7/

@@ -6,9 +6,12 @@ martin.milan.82@zavinac.com
 
 ZAVINAC DAVEJ INTO https://keep.google.com/#NOTE/1L9oOkFMlillVxgbbBgXo4FmQn0oWzdjXFboiYFOo6zyib8w6-HKW8E_h7yy11Gw
 
+*outlook* mi nezabralo Outlook  O O O
 
 
 # links
+
+C:\Users\marti\OneDrive\1804-M\mff.cuni.cz,outLOOK.live.com\00043-tags-b@k...outlook.office.com.f8.md
 
 [[martin.milan.82-ZAVINAC-Outlook.f8]]
 
