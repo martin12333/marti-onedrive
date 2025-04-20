@@ -12338,3 +12338,6 @@ explorer "C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default"
 & "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe"
 & "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe"  --help
 & "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"  --help
+icacls D:\000doc24
+exit
+icacls D:\000doc24
