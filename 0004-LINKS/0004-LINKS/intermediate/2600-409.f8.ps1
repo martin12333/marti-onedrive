@@ -63,7 +63,7 @@ rem 250409 start  "OneDrive" /min  /low   Robocopy.exe   C:\Users\marti\OneDrive
 					 "E:\OneDrive--robo"
 
 # 20000 files
-Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--deldest    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git  /ndl    /nfl    /LOG+:C:\Users\marti\log\OneDrive--deldest.log
+Robocopy.exe   C:\Users\marti\OneDrive  D:\0004-LINKS\OneDrive    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git  /ndl    /nfl    /LOG+:C:\Users\marti\log\OneDrive--deldest.log
 /ndl    /nfl
 /LOG+:C:\Users\marti\log\onedr.log
 
@@ -94,7 +94,7 @@ Robocopy.exe
 #   TESTS #########################################
 
 echo a >C:\Users\marti\OneDrive\0004-LINKS\not-be-deleted-by-robocopy.txt
-echo a >D:\umarti\OneDrive--deldest\be-deleted-by-robocopy.txt
+echo a >D:\0004-LINKS\OneDrive\be-deleted-by-robocopy.txt
 
 f8
 ##C:\Users\marti\OneDrive\0004-LINKS\Robocopy---c-onedrive---e.f5.cmd

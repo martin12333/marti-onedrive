@@ -9,7 +9,7 @@ rem file:///C:\Users\marti\OneDrive\0004-LINKS\2600-409.f8.ps1
 #   TESTS #########################################
 
 echo a >C:\Users\marti\OneDrive\0004-LINKS\not-be-deleted-by-robocopy.txt
-echo a >D:\umarti\OneDrive--deldest\be-deleted-by-robocopy.txt
+echo a >D:\0004-LINKS\OneDrive\be-deleted-by-robocopy.txt
 
 
 cmd
@@ -35,7 +35,7 @@ code "C:\Users\marti\log\OneDrive--deldest-once.log"
 
 rem  file:///C:\Users\marti\OneDrive\0004-LINKS\final-cmd-2600-409.1551.f8.cmd
 
-Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--deldest    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git   /log+:C:\Users\marti\log\OneDrive--deldest-3.log     /tee /v   /ndl   /MIR   |  findstr.exe  -i   be-deleted
+Robocopy.exe   C:\Users\marti\OneDrive  D:\0004-LINKS\OneDrive    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git   /log+:C:\Users\marti\log\OneDrive--deldest-3.log     /tee /v   /ndl   /MIR   |  findstr.exe  -i   be-deleted
 
 rem  /L
 
@@ -47,7 +47,7 @@ rem  /L
    Bytes :   1.983 g   473.7 k   1.983 g         0        63         3
 
 where.exe   du
-du  D:\umarti\OneDrive--deldest  | clip
+du  D:\0004-LINKS\OneDrive  | clip
 
 Files:        12833
 Directories:  2462
@@ -79,10 +79,10 @@ rem rem du  e:\OneDrive--cmd*
 | clip
 
 
-diskusage  D:\umarti\OneDrive--deldest
-dir  D:\umarti\OneDrive--deldest
+diskusage  D:\0004-LINKS\OneDrive
+dir  D:\0004-LINKS\OneDrive
 dir  C:\Users\marti\OneDrive
-dir  D:\umarti\OneDrive--deldest\be-deleted-by-robocopy.txt  C:\Users\marti\OneDrive\0004-LINKS\not-be-deleted-by-robocopy.txt
+dir  D:\0004-LINKS\OneDrive\be-deleted-by-robocopy.txt  C:\Users\marti\OneDrive\0004-LINKS\not-be-deleted-by-robocopy.txt
 
  | findstr -vi " modified " | findstr -vi " same "
 
@@ -101,7 +101,7 @@ code "C:\Users\marti\log\OneDrive--deldest-once.log"
 
   Started : 9 April, 2025 14:36:41
    Source : C:\Users\marti\OneDrive\
-     Dest : D:\umarti\OneDrive--deldest\
+     Dest : D:\0004-LINKS\OneDrive\
 
     Files : *.*
 
@@ -117,7 +117,7 @@ Exc Files : .git
 
 ------------------------------------------------------------------------------
 
-	  *EXTRA File 		       3	D:\umarti\OneDrive--deldest\be-deleted-by-robocopy.txt
+	  *EXTRA File 		       3	D:\0004-LINKS\OneDrive\be-deleted-by-robocopy.txt
 	         named		      39	C:\Users\marti\OneDrive\.git
 	    New File  		      63	C:\Users\marti\OneDrive\.849C9593-D756-4E56-8D6E-42412F2A707B
 	    Newer     		     824	C:\Users\marti\OneDrive\.vscode\launch.json

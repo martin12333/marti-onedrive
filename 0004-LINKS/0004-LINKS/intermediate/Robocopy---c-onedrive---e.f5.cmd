@@ -7,7 +7,7 @@ rem /min
 
 rem start  "OneDrive"   /low
 
-rem rem D:\umarti\OneDrive--deldest
+rem rem D:\0004-LINKS\OneDrive
 
 Robocopy.exe   C:\Users\marti\OneDrive  e:\onedrive--cmd--409.1247     /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git  /ndl
 

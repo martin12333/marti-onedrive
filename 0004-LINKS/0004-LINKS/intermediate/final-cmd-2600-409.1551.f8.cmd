@@ -42,20 +42,20 @@ rem ------------------------------------
 rem # file:///C:\Users\marti\OneDrive\gh--martin--to--Eda\00BACKUP.f8.dib
 
 cmd
-Robocopy.exe   C:\Users\marti\OneDrive  D:\umarti\OneDrive--deldest    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git   /log+:C:\Users\marti\log\OneDrive--deldest-5.log     /tee    /ndl       /nfl      /MIR
+Robocopy.exe   C:\Users\marti\OneDrive  D:\0004-LINKS\OneDrive    /s   /XJ     /XD Obr*    /XD Vide*     /XD .git    /XD node_modules   /XD OLD*       /xf .git   /log+:C:\Users\marti\log\OneDrive--deldest-5.log     /tee    /ndl       /nfl      /MIR
 
 exit
 rem /v red pipe char |  findstr.exe  -i   be-deleted
 
 set GIT_DIR=/d/GIT-bk04/marti-onedrive-2600-409.21.git
-set GIT_WORK_TREE=/d/umarti/onedrive--deldest
+set GIT_WORK_TREE=/d/0004-LINKS/OneDrive
 
 git commit -vv   -a -m  backup
 	git push
 
 export
 export GIT_DIR=/d/GIT-bk04/marti-onedrive-2600-409.21.git
-export GIT_WORK_TREE=/d/umarti/onedrive--deldest
+export GIT_WORK_TREE=/d/0004-LINKS/OneDrive
 history -a
 history
 exit
@@ -66,11 +66,11 @@ explorer "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\S
 "C:\Program Files\Git\git-cmd.exe" --cd-to-home
 
 $Env:GIT_DIR='/d/GIT-bk04/marti-onedrive-2600-409.21.git'
-$Env:GIT_WORK_TREE='/d/umarti/onedrive--deldest'
+$Env:GIT_WORK_TREE='/d/0004-LINKS/OneDrive'
 
 
-          *EXTRA File                 51        D:\umarti\OneDrive--deldest\marti-onedrive
-          *EXTRA File              84625        D:\umarti\OneDrive--deldest\tatus?less?[201~
+          *EXTRA File                 51        D:\0004-LINKS\OneDrive\marti-onedrive
+          *EXTRA File              84625        D:\0004-LINKS\OneDrive\tatus?less?[201~
 
 
 
@@ -100,14 +100,14 @@ echo .%GIT_DIR%.  |clip
 .%GIT_DIR%.
 
 d:
-cd umarti\onedrive--deldest
+cd 0004-LINKS\OneDrive
 
 C:\pf\Git\cmd\git.exe status
 cd ..
 dir *ma*
 dir *oned*
 
-rem cd d:\umarti\onedrive--deldest
+rem cd d:\0004-LINKS\OneDrive
 rem cd d:\
 
 c:
@@ -140,7 +140,7 @@ run Robocopy above
 
 
 set GIT_DIR=/d/GIT-bk04/marti-onedrive-2600-409.21.git
-set GIT_WORK_TREE=/d/umarti/onedrive--deldest
+set GIT_WORK_TREE=/d/0004-LINKS/OneDrive
 
 C:\pf\Git\bin\bash.exe
 exit
@@ -198,7 +198,7 @@ ls ~/OneDrive/Copy.git
 	echo $GIT_DIR
 	echo $GIT_WORK_TREE
 	#export GIT_WORK_TREE=/c/Users/marti/OneDrive/2400-WIKI
-	export GIT_WORK_TREE=/d/umarti/onedrive--deldest
+	export GIT_WORK_TREE=/d/0004-LINKS/OneDrive
 pwd|clip
 
 
@@ -276,7 +276,7 @@ wiki-f8/github-wiki.f8.md
 
 
 $Env:GIT_DIR='/d/GIT-bk04/marti-onedrive-2600-409.21.git'
-$Env:GIT_WORK_TREE='/d/umarti/onedrive--deldest'
+$Env:GIT_WORK_TREE='/d/0004-LINKS/OneDrive'
 bash
 git commit -vv   -a -m  backup
 	git push
@@ -324,7 +324,7 @@ todo file:///C:\Users\marti\OneDrive\wiki-f8\github-wiki.f8.md
 
 rem file:///C:\Users\marti\OneDrive\2400-WIKI\history.md
 
-dir  D:\umarti\OneDrive--deldest
+dir  D:\0004-LINKS\OneDrive
 
 rem ------------------------------------
 
@@ -338,7 +338,7 @@ exit
 
 
 
-marti@len20 MINGW64 /d/umarti/onedrive--deldest (main2)
+marti@len20 MINGW64 /d/0004-LINKS/OneDrive (main2)
 $ git reset -- mynotes.f.py
 Unstaged changes after reset:
 M       .emacs.d/custom.el
@@ -383,4 +383,4 @@ M       tar-exe/d/umarti/powershell_eternal_history.txt
 M       vscode-f8/dot.vscode---add-all/code.cmd
 M       vscode-f8/dot.vscode---add-all/extensions.json
 
-marti@len20 MINGW64 /d/umarti/onedrive--deldest (main2)
+marti@len20 MINGW64 /d/0004-LINKS/OneDrive (main2)
