@@ -2,6 +2,9 @@ exit
 
 explorer '\\LEN20'
 
+
+C:\Users\marti\OneDrive\F8_text_file\vscode-find-and-replace-all.f8.sh
+
 D:\2222
 renamed
 D:\0004-LINKS
@@ -9,7 +12,12 @@ D:\0004-LINKS
 push
 replace in files
 uqqqqmarti/onedrive--deldest
+
+uqqqqmarti/onedrive--deldest
 0004-LINKS/OneDrive
+
+uqqqqmarti\onedrive--deldest
+0004-LINKS\OneDrive
 
 D:\0004-LINKS\OneDrive
 

@@ -10,8 +10,25 @@ exit
 
 echo '-------- section --------'
 
+D:\2222
+renamed
+D:\0004-LINKS
 
-newer
+push
+replace in files
+uqqqqmarti/onedrive--deldest
+
+uqqqqmarti/onedrive--deldest
+0004-LINKS/OneDrive
+
+uqqqqmarti\onedrive--deldest
+0004-LINKS\OneDrive
+
+
+
+
+
+ failed
 code    vscode-f8\vscode-find-and-replace-all---onedrive-000.f8.ps1
 code vscode-f8\vscode-find-and-replace--or--grep--or--findstr.f8.ps1
 
