@@ -12341,3 +12341,5 @@ explorer "C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default"
 icacls D:\000doc24
 exit
 icacls D:\000doc24
+icacls D:\0004-LINKS | clip
+exit
