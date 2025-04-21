@@ -274,23 +274,34 @@ $SC02B::Send {"}
 ;$NumpadMult::
 
 
-;	Send, {^c} failed ... security issue ???
+;	Send, {^c} failed ... security issue ??? probably not?
+;, ABOVE, THERE IS $NumpadMult::Send ^c
+; SOMETIMES WORKS, SOMETIMES FAILS
+;
 ;	Sleep, 1200 did not help
 ;	Sleep, 1600
 ;	Sleep, 60 not enough
 
+; AAAAa INTERFERENCE WITH ACCESSIBILITY STICKY KEYS ?? win+L did not help
 ; AAAAA switching off vimium did not help  ^c
 
 $Insert::
 {
 	Send, {Click 3}
-	Sleep, 200
+	Sleep, 400
 
 	; 250421
 	;;;Send, {^c}
 	;;Send, {!a}
 	Send, {AppsKey}
+	Sleep, 460
+
+	Send, {Enter}
+	Sleep, 460
+
+	Send, {AppsKey}
 	Sleep, 260
+
 	Send, h
 	Sleep, 260
 	Send, {Enter}
@@ -304,7 +315,8 @@ $Insert::
 #p::
 {
 	Send, {Click 3}
-	Sleep, 200
+	Sleep, 2200
+	Send ^c
 
 	return
 }
