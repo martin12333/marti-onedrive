@@ -273,21 +273,45 @@ $SC02B::Send {"}
 ;overload  Send {>}  >>>>>>
 ;$NumpadMult::
 
-; #p::
-;$Insert::
+
+;	Send, {^c} failed ... security issue ???
+;	Sleep, 1200 did not help
+;	Sleep, 1600
+;	Sleep, 60 not enough
+
+; AAAAA switching off vimium did not help  ^c
+
+$Insert::
+{
+	Send, {Click 3}
+	Sleep, 200
+
+	; 250421
+	;;;Send, {^c}
+	;;Send, {!a}
+	Send, {AppsKey}
+	Sleep, 260
+	Send, h
+	Sleep, 260
+	Send, {Enter}
+	Sleep, 20
+
+	return
+}
+;TEST  test :   win+q a  AutoHotkey run the app ... it asks to reload this ahk file
+
+
 #p::
 {
 	Send, {Click 3}
 	Sleep, 200
+
 	return
 }
+;TEST  test :   win+q a  AutoHotkey run the app ... it asks to reload this ahk file
 
-;TEST  test :   win+q AutoHotkey run the app ... it asks to reload this ahk file
 
-
-; $Insert::
-; #p::
-$Insert::
+#o::
 {
 	Send, {Click 3}
 	Sleep, 200
@@ -308,7 +332,9 @@ $Insert::
 
 	return
 }
-
+; extension://blillmbchncajnhkjfdnincfndboieik/options/options.html
+; temporarily: doesnt work even manually Highlight text: Shift + G  + G
+; temporarily; later : failed to save highlight
 ;TEST  test :   win+q AutoHotkey run the app ... it asks to reload this ahk file
 
 
