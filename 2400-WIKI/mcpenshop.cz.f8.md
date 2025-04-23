@@ -1,4 +1,30 @@
 
+- [mcpenshop prodejna: Praha – Atrium Karlovo náměstí](#mcpenshop-prodejna-praha--atrium-karlovo-náměstí)
+- [asi old ... rucne preposlat na b@k](#asi-old--rucne-preposlat-na-bk)
+- [starsi](#starsi)
+- [https://www.mcpenshop.cz/prehled-objednavek](#httpswwwmcpenshopczprehled-objednavek)
+- [// Prosíme nepřidávat zápalky ... máme už dvoje](#-prosíme-nepřidávat-zápalky--máme-už-dvoje)
+- [Balíček pro Vás bude expedován do prodejny během 7 kalendářních dnů.](#balíček-pro-vás-bude-expedován-do-prodejny-během-7-kalendářních-dnů)
+- [chrome://bookmarks/?q=mcpen](#chromebookmarksqmcpen)
+- [https://www.mcpenshop.cz/prehled-objednavek](#httpswwwmcpenshopczprehled-objednavek-1)
+	- [24b proskenil od zacatku casu a prelil sem do f8.md](#24b-proskenil-od-zacatku-casu-a-prelil-sem-do-f8md)
+- [https://www.mcpenshop.cz/vlozka-nahradni-do-bloku-karis-a6-linka-100-listu     radeji   6\*  at se neplete    5\* a6   6\* a5](#httpswwwmcpenshopczvlozka-nahradni-do-bloku-karis-a6-linka-100-listu-----radeji---6--at-se-neplete----5-a6---6-a5)
+- [Blok karis A6: prosím nejlépe zelený; případně červený (případně modrý);](#blok-karis-a6-prosím-nejlépe-zelený-případně-červený-případně-modrý)
+- [blok karis a5](#blok-karis-a5)
+- [Versatilka plastová: nejlépe zelenou; případně žlutou; červenou (případně modrou; fialovou);](#versatilka-plastová-nejlépe-zelenou-případně-žlutou-červenou-případně-modrou-fialovou)
+- [Liner Elite 4721, 0,3 mm, Zelený](#liner-elite-4721-03-mm-zelený)
+- [https://www.mcpenshop.cz/sacky-do-kose-zatahovaci-63-x-73-cm-60-l-10-ks-zelene](#httpswwwmcpenshopczsacky-do-kose-zatahovaci-63-x-73-cm-60-l-10-ks-zelene)
+- [dump objednavek  str nejstarsi](#dump-objednavek--str-nejstarsi)
+- [dump objednavek  str Detail](#dump-objednavek--str-detail)
+- [https://www.mcpenshop.cz/kelimky-plastove-na-kavu-0-18-l-15-ks-hnede](#httpswwwmcpenshopczkelimky-plastove-na-kavu-0-18-l-15-ks-hnede)
+- [dump objednavek  str 1](#dump-objednavek--str-1)
+- [https://www.mcpenshop.cz/zapisnik-spiralovy-telefonni-10-x-16-cm-cerny](#httpswwwmcpenshopczzapisnik-spiralovy-telefonni-10-x-16-cm-cerny)
+- ["C:\\Users\\marti\\OneDrive\\Dokumenty\\bookmarks\_11\_28\_24.html"](#cusersmartionedrivedokumentybookmarks_11_28_24html)
+- [todo](#todo)
+- [https://www.mcpenshop.cz/pero-gelove-pilot-g-2-0-7-mm-tmave-cervene](#httpswwwmcpenshopczpero-gelove-pilot-g-2-0-7-mm-tmave-cervene)
+- [https://www.mcpenshop.cz/otazky-a-odpovedi](#httpswwwmcpenshopczotazky-a-odpovedi)
+- [Spony aktové 473, 50 mm / 25 ks barevné Zebra](#spony-aktové-473-50-mm--25-ks-barevné-zebra)
+
 
 - [Blok karis A6: prosím nejlépe zelený; případně červený (případně modrý);](#blok-karis-a6-prosím-nejlépe-zelený-případně-červený-případně-modrý)
 - [Versatilka plastová: nejlépe zelenou; případně žlutou; červenou (případně modrou; fialovou);](#versatilka-plastová-nejlépe-zelenou-případně-žlutou-červenou-případně-modrou-fialovou)
@@ -11,7 +37,7 @@ prodejna: Praha – Atrium Karlovo náměstí
 
 jiri.vlastimil.bok
 
-# asi old ... rucne preposlat na b@k
+# asi old ... kdysi musel rucne preposlat na b@k
 gmail Milan Bok
 
 # starsi
@@ -37,6 +63,7 @@ Prosíme nepřidávat zápalky ... máme už troje.
 
 
 # chrome://bookmarks/?q=mcpen
+chrome://bookmarks/?q=mcpen
 
 exportovat do html
 
@@ -269,9 +296,6 @@ https://www.mcpenshop.cz/napln-do-kulickoveho-pera-easy-ink-0-5-mm-modra
 
 Univerzální kancelářské etikety pro inkoustové a laserové tiskárny a kopírky. V balení 100 listů formátu A4. Rozměr: 105 x 74 mm. Etiket na stránce 8 ks. Samolepicí etikety jsou ideálním pomocníkem při každodenní práci v kancelářích, ve skladech při tvorbě adresních štítků nebo etiket na balíky, ve velkoobchodech či jakýchkoliv prodejnách a pro další provozy. Vhodné i pro použití ve školách a pro označení školních pomůcek.
 
-https://www.mcpenshop.cz/klipy-binder-pastelove-deli-25-mm-48-ks
-
-
 
 
 # https://www.mcpenshop.cz/pero-gelove-pilot-g-2-0-7-mm-tmave-cervene
@@ -279,7 +303,7 @@ https://www.mcpenshop.cz/klipy-binder-pastelove-deli-25-mm-48-ks
 
 # https://www.mcpenshop.cz/otazky-a-odpovedi
 "8595004372410"  mcpenshop
-# Spony aktové 473, 50 mm / 25 ks barevné Zebra
+# todo Spony aktové 473, 50 mm / 25 ks barevné Zebra
 
 
 
@@ -287,3 +311,18 @@ https://www.mcpenshop.cz/klipy-binder-pastelove-deli-25-mm-48-ks
 prodejna: Praha – Atrium Karlovo náměstí
 
 
+
+# todo done
+https://www.mcpenshop.cz/klipy-binder-pastelove-deli-25-mm-48-ks
+
+https://www.mcpenshop.cz/klipy-binder-pastelove-deli-19-mm-40-ks
+
+https://www.mcpenshop.cz/klipy-kancelarske-vazaci-maped-19-mm-10-ks-barevne
+
+https://www.mcpenshop.cz/zvyraznovac-8552-4-6-mm-zeleny
+centropen highlighter
+
+
+
+# mcpenshop prodejna: Praha – Atrium Karlovo náměstí  
+prodejna: Praha – Atrium Karlovo náměstí
