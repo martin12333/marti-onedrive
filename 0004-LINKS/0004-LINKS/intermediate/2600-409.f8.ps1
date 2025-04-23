@@ -132,3 +132,10 @@ du  E:\onedrive--cmd--409.1247
 	Explanation of the function or its result. You can include multiple examples with additional .EXAMPLE lines
 #>
 
+
+
+
+# 423
+code \\Jirka\D\onedrive\Documents\Jirka--milan--icacls.f8.ps1
+#\\Jirka\D\onedrive\Documents\Jirka--milan--icacls.f8.ps1
+
