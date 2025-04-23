@@ -4,6 +4,12 @@ pwsh
 
 # \\Jirka\D\onedrive\Documents\Jirka--milan--icacls.f8.ps1
 
+# 423
+code \\Jirka\D\onedrive\Documents\Jirka--milan--icacls.f8.ps1
+#\\Jirka\D\onedrive\Documents\Jirka--milan--icacls.f8.ps1
+
+
+
 icacls.exe  .\.ssh
 
 

@@ -12343,3 +12343,14 @@ exit
 icacls D:\000doc24
 icacls D:\0004-LINKS | clip
 exit
+icacls.exe  c:\ |clip
+icacls.exe  d:\ |clip
+exit
+node --version
+$Env:Path
+$Env:Path -split ';' | findstr.exe -i node
+$Env:Path -split ';' | findstr.exe -i npm
+$Env:Path.Length
+$Env:Path -split ';' | clip
+dir C:\Program Files\Git\cmd
+dir "C:\Program Files\Git\cmd"
