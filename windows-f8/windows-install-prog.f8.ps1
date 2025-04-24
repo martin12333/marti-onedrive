@@ -9,32 +9,55 @@
 
 # echo '-------- section --------'
 
+restore point
+pre inst
+
 
 seealso
 	code windows-f8\windows-security-weakness--folder-permissions--icacls.f8.ps1
+
+	a5 karis  / installations
+	paper notebook a5  > beginning > 5comp > inst
+
+	C:\Users\marti\OneDrive\node-f8\10-windows-install-node.f8.ps1
 
 
 todo diigo
 
 
+
+
 $env:Path.Length
 $env:Path -split ';'
  | findstr.exe -i git
+ $Env:Path
+ $Env:Path.Length
+ 2999
+ in vsc
+
+ win+x
+ C:\Users\marti\OneDrive\Dokumenty\PowerShell\profile.ps1
+ PS C:\Users\marti> $Env:Path.Length
+ 873
+ PS C:\Users\marti>
+
+
 
 cmd /c dir c:\ | findstr.exe -i free
+cmd /c dir d:\ | findstr.exe -i free
 
 
-# see also
-	paper notebook a5  > beginning > 5comp > inst
 
-#	Switch off acronis active prot?  (for a few hours ... remember my conda uninstall failure)
+#	Switch off acronis active prot?  (remember my conda uninstall failure)
 
 
 # https://photos.google.com/share/AF1QipNNl6K1O6u44TD_llRU4fePuYU5YpgyOaMk_zsxb4AnE4eKjw8tACli48bLA8gNbA?key=Y3k4NDNaWk83Z0I2dThyUmJkZkU1c2FPT1J5eUx3
 	install Milan Windows 2020 Lenovo ThinkCentre M720q acronis uefi efi linux ubuntu. Microsoft account to Windows - Google Photos
 https://photos.google.com/album/AF1QipMGbTbwFisJtwzNxVruozV94cfbu6-ecSZ7BKZ-
-	https://photos.google.com/share/AF1QipO6ynuYXve9zKOMLBsFxJOc9lrPDpdZK_BJZNuP7xvQgYKE6XyU_bb3X6eDy0D3uA?key=VFJfLXlfekRpNlJYUmdlYVMtSlJpUEx5NWRFNDJn
+prtscr ; ^v - Google Photos
 
+https://photos.google.com/share/AF1QipO6ynuYXve9zKOMLBsFxJOc9lrPDpdZK_BJZNuP7xvQgYKE6XyU_bb3X6eDy0D3uA?key=VFJfLXlfekRpNlJYUmdlYVMtSlJpUEx5NWRFNDJn
+tech--Laifrovi,Bokovi - Chat - Google Photos
 
 
 # I recommend to create a windows restore point before and after an installation
@@ -58,4 +81,11 @@ https://photos.google.com/album/AF1QipMGbTbwFisJtwzNxVruozV94cfbu6-ecSZ7BKZ-
 
 
 
+
+
+		relogin?
+		reboot?
+
+		restore point
+		post node
 

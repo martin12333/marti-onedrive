@@ -64,3 +64,6 @@ localhostforwarding=true
 
 
 #nestedVirtualization
+
+guiApplications=false
+nestedVirtualization=false

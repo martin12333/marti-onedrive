@@ -12354,3 +12354,6 @@ $Env:Path.Length
 $Env:Path -split ';' | clip
 dir C:\Program Files\Git\cmd
 dir "C:\Program Files\Git\cmd"
+shutdown.exe /l
+$Env:Path.Length
+shutdown.exe /l

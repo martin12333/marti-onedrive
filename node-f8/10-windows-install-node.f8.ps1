@@ -10,6 +10,22 @@ C:\Users\marti\OneDrive\windows-f8\windows-install-prog.f8.ps1
 
 echo '-------- section --------'
 
+
+
+
+
+restore point
+pre node
+
+
+#	Switch off acronis active prot?  (remember my conda uninstall failure)
+
+
+
+
+
+
+
 node --version
 
 
@@ -22,14 +38,37 @@ Or get a prebuilt Node.js® for
 Windows Installer (.msi)
 
 C:\Program Files\nodejs\
+C:\Program Files\nodejs\
 
 ?
 add modules that are installed globally by npm to your PATH environment variable
+
 $Env:Path
 $Env:Path.Length
 2999
+in vsc
+
+win+x
+C:\Users\marti\OneDrive\Dokumenty\PowerShell\profile.ps1
+PS C:\Users\marti> $Env:Path.Length
+873
+PS C:\Users\marti>
+
+
+
+https://github.com/nodejs/node-gyp#on-windows
+
+
+
+
+C:\Users\marti\OneDrive\0004-LINKS\2600-409-411.f7.sh
 
 shutdown.exe /l
+
+$Env:Path
+$Env:Path.Length
+2999
+in vsc
 
 $Env:Path -split ';' | findstr.exe -i node
 $Env:Path -split ';' | findstr.exe -i npm
@@ -141,20 +180,15 @@ C:\Users\marti\AppData\Local\Microsoft\WindowsApps
 
 
 
-//Standalone Binary (.zip)
+######/////////Standalone Binary (.zip)
 
 
 
-
-
-
-restore point
-pre node
-
-
-turn-off acro protect
-
+# corepack.cmd
 C:\Program Files\nodejs\
+C:\Program Files\nodejs\corepack.cmd
+
+
 
 relogin?
 reboot?
