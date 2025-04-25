@@ -20,10 +20,17 @@ pre node
    Switch off acronis active prot?  (remember my conda uninstall failure)
 
 adm
-
+defau
 c:\progr
 
+  
+  
 
+# afraid of reinstalling to a different location
+
+my 4 installs of anaconda ... story ... url
+
+dir  'C:\Program Files\Obsidian'
   
 
 # ok (obsidian warning conflicting file sync service detected) (**obsidian sync** service) ok
@@ -68,17 +75,12 @@ highlights_manager_awaiter @ settings.js:1
 exportHighlights @ settings.js:1
 [NEW] Explain Console errors by using Copilot in Edge: click
          
-         to explain an error. 
-        Learn more
-        Don't show again
 
 
 
 
 
-
-
-
+a
 
 
 

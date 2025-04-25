@@ -2,7 +2,7 @@
 # f8_text_file
 	# (an f8_text_file is-not meant to be run as a whole)
 	)
-	exit
+exit
 
 	(selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
@@ -14,7 +14,12 @@ pre inst
 
 
 seealso
-	code windows-f8\windows-security-weakness--folder-permissions--icacls.f8.ps1
+
+my 4 installs of anaconda ... story ... url
+
+
+
+code windows-f8\windows-security-weakness--folder-permissions--icacls.f8.ps1
 
 	a5 karis  / installations
 	paper notebook a5  > beginning > 5comp > inst
@@ -90,4 +95,9 @@ tech--Laifrovi,Bokovi - Chat - Google Photos
 		post node
 
 
+# afraid of reinstalling to a different location
+
+my 4 installs of anaconda ... story ... url
+
+dir  'C:\Program Files\Obsidian'
 
