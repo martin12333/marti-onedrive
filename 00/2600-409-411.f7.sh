@@ -10,7 +10,10 @@ C:/Users/marti/OneDrive/00/Robocopy---c-onedrive---d-mir.f5.cmd
 ##cmd /c echo dkj
 ###exit
 git add -vv  '*.f8.*'   '*.f7.*'       '*.f5.*'   #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
+
+# todo 00/2400-WIKI/*.md
 git add -vv   '2400-WIKI/*.md'
+
 git commit  -a -m    backup   #-before   # -v
 git push
 git show --name-only

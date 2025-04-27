@@ -1,5 +1,16 @@
 exit
 
+
+# asi nejde export, backup settings unless i pay subscription ?
+
+
+
+# jen dokumentace
+[configurationsettings](ConfigurationSettings.xlsx)
+"C:\Users\marti\OneDrive\RSIGuard\ConfigurationSettings.xlsx"
+
+
+
 # totalcmd.exe  backup
 c:\Users\marti\AppData\Roaming\RSIGuard\marti-HiRes.txt
 c:\Users\marti\AppData\Roaming\RSIGuard\
@@ -27,6 +38,8 @@ Click on "Tools", "DataLogger Usage Statistics", "Import DataLogger Data from Fl
 
 
 # Enabling extended data recording
+
+control
 
 To enable the recording of extended data, one must access the administrative page of
 the user settings. To do so, while holding of the Ctrl key on your keyboard, click the
