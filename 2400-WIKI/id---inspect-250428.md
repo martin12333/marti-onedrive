@@ -7,8 +7,23 @@ edge://settings/accessibility#settings-select-50
 
 no scroll
 
+![alt text](image.png)
 
    " id="settings-select-49">Make sites easier to read by modifying the colors you see on pages</p></div></div></div><hr 
+
+
+
+
+Microsoft Logo
+Help from Microsoft
+https://support.microsoft.com/en-us/article/99c201e7-fa7a-9b0b-f947-dee965c1375b
+Start or stop Narrator
+
+There are three ways to turn Narrator on or off:
+
+In Windows 10, press Windows logo key + Ctrl + Enter on your keyboard. In earlier versions of Windows, you may need to press Windows logo key + Enter.
+
+On the sign-in screen, select the Ease of access button in the lower-right corner, and turn on the toggle under Narrator.
 
 
 

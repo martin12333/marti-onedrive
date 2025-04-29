@@ -23,10 +23,17 @@ Allows Microsoft Edge to be controlled via native accessibility APIs specific to
 
 
 or without screenshots
-edge://settings/?search=ie%20mode
+
+or with screenshots
+done edge://settings/?search=ie%20mode
+then press the button on the toolbar
+but difficult to switch back to off
+had to diasble it in the settings completely
 ## Internet Explorer compatibility - 1 result
 Search result match: Allow sites to be reloaded in Internet Explorer mode (IE mode)
 Allow sites to be reloaded in Internet Explorer mode (IE mode)
+edge://settings/?search=explor
+no help
 
 
 
@@ -71,3 +78,10 @@ User left click on "Highlight selected text (menu item)"
 No screenshots were saved for this step.
 
 https://www.reddit.com/r/sysadmin/comments/17wofse/problem_steps_recorder_psrexe_will_be_deprecated/
+
+
+ on "Narrator (toggle switch)" in "Settings"
+
+In Windows 10, press Windows logo key + Ctrl + Enter on your keyboard. In earlier versions of Windows, you may need to press Windows logo key + Enter.
+
+

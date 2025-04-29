@@ -1,3 +1,4 @@
+
 ====edge://accessibility/
 
 edge://accessibility/
@@ -169,3 +170,27 @@ Label images: falseAnnotate main node: false | Show accessibility treeCopy acc
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAEJJREFUOI1j/O4n958BB+Dc9IixfhcDTvlGNwZGJlySxIJRA6hgAMWAkWHJe5zxzBAjyPh/J+50wOg+mg4GhwEUAwCoEQ0bC4h1OgAAAABJRU5ErkJggg==)### Accessibility tools - AccEvent (Accessible Event Watcher) - Win32 apps | Microsoft Learn https://learn.microsoft.com/en-us/windows/win32/winauto/accessible-event-watcher
 
 Label images: falseAnnotate main node: false |
+
+
+
+[
+
+![Microsoft Logo](https://r.bing.com/rp/-cxlfEUImtRXZH94G33doggE41k.svg)
+
+Help from Microsoft
+
+https://support.microsoft.com/en-us/article/99c201e7-fa7a-9b0b-f947-dee965c1375b
+
+## Start or stop Narrator
+
+
+
+
+
+](https://www.bing.com/ck/a?!&&p=8ba818a8f9ccb8a2ca3e7fac35ea4b12721942929743b540d92a5f15cc7dd468JmltdHM9MTc0NTg4NDgwMA&ptn=3&ver=2&hsh=4&fclid=3ce4edf1-3263-6115-2ce7-e24d3321603e&psq=Turn+on+or+off+Narrator+easily+windows&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZW4tdXMvYXJ0aWNsZS85OWMyMDFlNy1mYTdhLTliMGItZjk0Ny1kZWU5NjVjMTM3NWI&ntb=1)
+
+There are three ways to turn Narrator on or off:
+
+- In Windows 10, press **Windows logo key** + **Ctrl** + **Enter** on your keyboard. In earlier versions of Windows, you may need to press **Windows logo key** + **Enter**.
+    
+- On the sign-in screen, select the **Ease of access** button in the lower-right corner, and turn on the toggle under **Narrator**.
