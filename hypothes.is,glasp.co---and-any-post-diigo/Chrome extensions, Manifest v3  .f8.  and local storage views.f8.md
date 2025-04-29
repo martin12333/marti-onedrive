@@ -3,6 +3,15 @@
 Get unlimited access to the best of Medium for less than $1/week.
 
 
+
+
+devtools-recorder---edge,chrome-accessibility---250428
+edge://accessibility/
+
+edge://history/all?q=indexed
+
+
+
 # Chrome extensions, Manifest v3 and local storage views
 Latz
 ==Latz== 
@@ -149,7 +158,7 @@ javascript: Promise.all([import('https://unpkg.com/turndown@6.0.0?module'), impo
   ==const==  neumi hilite md vsc
   
 
-  
+
    vault = "";
 
 
