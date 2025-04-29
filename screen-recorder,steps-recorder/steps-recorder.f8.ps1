@@ -54,7 +54,7 @@ Previous Next
 Step 11: (‎04/‎29/‎2025 08:13:39) User mouse drag start on "Additional Details The following section contains the additional details that were recorded. These details help accurately identify the programs and UI you used in this recording. This section may contain text that is internal to programs that only very advanced users or programmers may understand. Please review these details to ensure that they do not contain any information that you would not like others to see. Recording Session: ‎04/‎29/‎2025 08:02:09 - 08:04:54 Recorded Steps: 21, Missed Steps: 1, Other Errors: 0 Operating System: 26100.1.amd64fre.ge_release.240331-1435 10.0.0.0.2.48 Step 1: User left click on 'Accessibility Internals - Microsoft Edge - Personal (region)' in 'Accessibility Internals and 12 more pages - Personal - Microsoft​ Edge' Program: Microsoft Edge, 135.0.3179.98, Microsoft Corporation, MSEDGE.EXE --PROFILE-DIRECTORY=DEFAULT --RESTART --RESTORE-LAST-SESSION --FLAG-SWITCHES-BEGIN --FLAG-SWITCHES-END, MSEDGE.EXE UI Elements: View, SplitWindowContainerView, SidebarContentsSplitView, SidebarContentsSplitView, SidebarContentsSplitView, SidebarContentsSplitView, BrowserView,
 
 fdgdg
-
+"
  User left click on "Repair extension (button)"
 
 
@@ -77,11 +77,17 @@ User left click on "Highlight selected text (menu item)"
 
 No screenshots were saved for this step.
 
-https://www.reddit.com/r/sysadmin/comments/17wofse/problem_steps_recorder_psrexe_will_be_deprecated/
 
 
- on "Narrator (toggle switch)" in "Settings"
+# on "Narrator (toggle switch)" in "Settings"
 
 In Windows 10, press Windows logo key + Ctrl + Enter on your keyboard. In earlier versions of Windows, you may need to press Windows logo key + Enter.
+
+
+# https://www.reddit.com/r/sysadmin/comments/17wofse/problem_steps_recorder_psrexe_will_be_deprecated/
+
+Other important factors to consider when researching alternatives to ShareX include files and features. The best overall ShareX alternative is Snagit. Other similar apps like ShareX are Camtasia, Greenshot, Lightshot, and screenpresso. ShareX alternatives can be found in.
+
+https://www.screenpresso.com/pricing/
 
 
