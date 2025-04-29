@@ -1,10 +1,18 @@
 
 
-#aaa opens #vscode file:///C:\Users\marti\OneDrive\2400-WIKI\id---inspect-250428.md
+#obsidian-trick  #aaa opens #vscode file:///C:\Users\marti\OneDrive\2400-WIKI\id---inspect-250428.md
+
+   edge://settings/search#settings-select-700
+
+edge://settings/accessibility#settings-select-50
+
+no scroll
+
 
 #settings-select-705
 
-#html #obsidian
+#html #obsidian-trick  #aa                   " id="settings-select-700">Search engine used in the address bar
+
 <div class="c012981 c01221" role="group"><div class="c012982 c012996 c013004"><div class="c012990"><div class="c012988"><div class="c012987"><div class="c012992
                     
                     

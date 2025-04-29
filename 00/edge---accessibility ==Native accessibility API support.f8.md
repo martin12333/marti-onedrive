@@ -1,5 +1,8 @@
 ====edge://accessibility/
-![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAEJJREFUOI1j/O4n958BB+Dc9IixfhcDTvlGNwZGJlySxIJRA6hgAMWAkWHJe5zxzBAjyPh/J+50wOg+mg4GhwEUAwCoEQ0bC4h1OgAAAABJRU5ErkJggg==)
+
+edge://accessibility/
+
+#html #obsidian-trick trick #aa ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAEJJREFUOI1j/O4n958BB+Dc9IixfhcDTvlGNwZGJlySxIJRA6hgAMWAkWHJe5zxzBAjyPh/J+50wOg+mg4GhwEUAwCoEQ0bC4h1OgAAAABJRU5ErkJggg==)
 
 Use this page to inspect the internal representation of accessibility in Microsoft Edge. You can see and modify the various accessibility modes Microsoft Edge has. You can also view the accessibility tree for a specific page, or for the Microsoft Edge app natively.
 
@@ -61,7 +64,7 @@ To force the accessibility AXMode to one of the three predefined bundles (basic,
 
 --force-renderer-accessibility=[basic|form-controls|complete]
 
-If the optional parameter is absent, the AXMode bundle will default to complete.
+==If the optional parameter is absent, the AXMode bundle will default to complete.
 
 To disable accessibility, run Microsoft Edge with this flag:
 
@@ -82,7 +85,7 @@ Set a delay, in milliseconds, before getting the native accessibility tree:
 
 
 
-## #obsidian  #trick Pages:
+## #obsidian-trick trick Pages:
 
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAATtJREFUOI2Nk91Nw0AQhL+18k6oAFMBoYIkHaQEqIASSAcOFTglQAWGCuJUYFOBTQXDy4RcTo7ESifvnWfudvYHMpO0klRJ6nS2g6RaUpnjU+LcxMGETlLp1SVnVcorEr8BboF7YA6sI6KPiB54BkpgDYQvm6evV5J29jeSPicibCSt7O9PkYR1dcAbMAJLc76yO5aO7MPfF2BdAK/A3mSABdBPpOloGRj7DmywnkUS6nCh7zLJQ7IvJXVIUgZUTr72T5KKa+D/WgH0WYOM1yQkecKy25mzWkk6JvitpDG7487EbbJvZ85mA3z7hR54mChjCbT2b4AnNx1I2kmqOc9CMyGhkbQha7w/fS5n5fIMp64jKZlxtaRDmkQiYoyIRyAspwfq0zD5bHTH/ngmps2kvaQ2GefeMlc5/hemVzcjH3i3rQAAAABJRU5ErkJggg==)### learn.microsoft.com https://learn.microsoft.com/en-us/windows/win32/winauto/uiauto-glossary
 
