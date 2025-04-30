@@ -85,22 +85,118 @@ kdyby vyměnili za něco, co se dá  snáze pročistit, tak bych byl spokojený.
 Poptáváme pročištění, či případně výměnu, dvou okapových svodů, na rodinném domě. Svody jsou 30 let staré, nevím, jaká může být jejich životnost. V jednom ze svodů je tolik jehličí, že voda tam teče velmi pomalu. // Druhý svod může být plný listí ... strom byl prostříhán teprve nedávno. Zaplatíme také za instalaci mřížek proti listí a jehličí.
 Poptáváme pročištění, či případně výměnu, dvou okapových svodů, na rodinném domě. Svody jsou 30 let staré, nevíme, jaká může být jejich životnost. V jednom ze svodů je tolik jehličí, že voda tam teče velmi pomalu.  Druhý svod může být plný listí ... strom byl prostříhán teprve nedávno. // Nevíme, zda existují svody, u kterých by bylo snadnější čištění. // Zaplatíme také za instalaci mřížek proti listí a jehličí. 
 
-
-
 Poptáváme pročištění, či případně výměnu, dvou okapových svodů, na rodinném domě. Svody jsou 30 let staré, nevíme, jaká může být jejich životnost. V jednom ze svodů je tolik jehličí, že voda tam teče velmi pomalu.  Druhý svod může být plný listí ... strom byl prostříhán teprve nedávno.
     // Nevíme, zda existují svody, u kterých by bylo snadnější čištění. // Zaplatíme také za instalaci mřížek proti listí a jehličí. 
 
+Poptáváme pročištění, či případně výměnu, dvou okapových svodů, na rodinném domě. Svody jsou 30 let staré, nevíme, jaká může být jejich životnost. V jednom ze svodů je tolik jehličí, že voda tam teče velmi pomalu. Druhý svod může být plný listí ... strom byl prostříhán teprve nedávno.
+	// Nevíme, zda existují svody, u kterých by bylo snadnější čištění. // Zaplatíme také za instalaci mřížek proti listí a jehličí.
 
 Nabídky obvykle přijdou do 48 hodin.
 
 
-todo spell check
+# Server psal mail.Nabídka platí do 02.05.2025 - zareagujte rychle (Sent: Friday, April 18, 2025 6:02:26 AM ) Psali jsme SMS. 
+FW: Máte nového zájemce o zakázku "Výměna okapů a svodů"
+
+
+
+
+# https://www.nejremeslnici.cz/vyber-dodavatele/...../select
+
+=== Zadání
+V kategorii "výměna okapů a svodů" poptáváme: pročištění, či případně výměnu, dvou okapových * svodů *, na rodinném domě. Okapy byly vyměněny nedávno, ale svody okapů byly ponechány původní. Svody jsou 30 let staré, nevíme, jaká může být jejich životnost. V jednom ze svodů je tolik jehličí, že voda tam teče velmi pomalu.  Druhý svod může být plný listí ... strom byl prostříhán teprve nedávno.
+    // Nevíme, zda existují svody, u kterých by bylo snadnější čištění. // Meli bychom také zájem o instalaci mřížek proti listí a jehličí.
+
+=== Nabídka
+Dobrý den, 
+reaguji na Vaší poptávku - vymena okapu a svodů
+Bylo by možné sejít se na místě, abych si zaměřil detaily poptávky, zjistil jaké jsou Vaše konkrétní požadavky a na základě toho bych vypracoval relevantní cenovou nabídku? 
+
+Děkuji 
+S pozdravem
+
+Trojan Pavel
+
+
+V kategorii "výměna okapů a svodů" poptáváme: pročištění, či případně výměnu, dvou okapových *svodů*, na rodinném domě. Okapy byly vyměněny nedávno, ale svody okapů byly ponechány původní. Svody jsou 30 let staré, nevíme, jaká může být jejich životnost. V jednom ze svodů je tolik jehličí, že voda tam teče velmi pomalu.  Druhý svod může být plný listí ... strom byl prostříhán teprve nedávno. 
+
+    // Nevíme, zda existují svody, u kterých by bylo snadnější čištění. // Měli bychom také zájem o instalaci mřížek proti listí a jehličí. 
+
+ 
+
+
+
+# https://onedrive.live.com/personal/bd7ec0ac1b4d4a31/_layouts/15/Doc.aspx?resid=BD7EC0AC1B4D4A31!s7d0152692edc4193a83ece61cf1d0e7c&cid=bd7ec0ac1b4d4a31&migratedtospo=true&app=Word
+
+todo spell check  word
 chrome://settings/languages
 
 
 
 
--vymena-okapu-a-svodu?step_id=34
+
+# https://www.nejremeslnici.cz/poptavka/.......-vymena-okapu-a-svodu/dodavatel/397857-pavel-trojan?overlay=bid_selected&tab=work
+
+
+=== Zadání
+V kategorii "výměna okapů a svodů" poptáváme: pročištění, či případně výměnu, dvou okapových *svodů*, na rodinném domě. Okapy byly vyměněny nedávno, ale svody okapů byly ponechány původní. Svody jsou 30 let staré, nevíme, jaká může být jejich životnost. V jednom ze svodů je tolik jehličí, že voda tam teče velmi pomalu.  Druhý svod může být plný listí ... strom byl prostříhán teprve nedávno. 
+    // Nevíme, zda existují svody, u kterých by bylo snadnější čištění. // Měli bychom také zájem o instalaci mřížek proti listí a jehličí. 
+ 
+=== Nabídka
+Dobrý den, 
+reaguji na Vaší poptávku - vymena okapu a svodů
+Bylo by možné sejít se na místě, abych si zaměřil detaily poptávky, zjistil jaké jsou Vaše konkrétní požadavky a na základě toho bych vypracoval relevantní cenovou nabídku? 
+
+Děkuji 
+S pozdravem
+
+Trojan Pavel
+
+
+
+
+
+
+# Dohodli jste se na spolupráci, to je skvělá zpráva pro všechny strany!
+
+Můj účet
+Zadat poptávku
+Zpět na poptávku
+Pavel Trojan
+Ověřený dodavatel
+Tohoto dodavatele jsme verifikovali před 24 dny.
+
+Platné IČO
+
+Reálné telefonní číslo
+
+Není v rejstříku dlužníků
+
+Vybraný dodavatel
+Ověřený telefon
+
+Ověřili jsme, že se dodavateli dovoláte.
+
+Profil jsme verifikovali před 24 dny.
+
+Platné IČO
+
+Nabízí práci v oborech, pro které splňuje právní požadavky. Pokud obor vyžaduje vzdělání, dodavatel ho má.
+
+Profil jsme verifikovali před 24 dny.
+
+Není v insolvenci
+
+
+Profil jsme verifikovali před 24 dny.
+
+Nabídka / vizitka
+V kontaktu
+Vybraný dodavatel
+Děkujeme za zprávu. Ostatní dodavatele upozorníme, že se mohou věnovat dalším poptávkám.
+Až bude práce hotová, nezapomeňte dodavatele ohodnotit.
+OK
+
+# -vymena-okapu-a-svodu?step_id=34
 
 po vytv uzivateůe
 
@@ -115,16 +211,17 @@ Nejlepší bude, když se vrátíte na domácí stránku:
 www.nejremeslnici.cz
 
 
--vymena-okapu-a-svodu?step_id=35
 
-Jak vás firmy osloví?
-Řemeslníky si chci vybírat
-
-Tato volba je ideální na větší poptávky. Řemeslník váš email a telefon získá teprve, když o propojení projevíte zájem.
-
-Chci propojit co nejdříve
-
+# to jsem mel radeji zvolit ... JB nemuze cist oznameni na mobilu: Chci propojit co nejdříve
 Volba je ideální na menší a spěchající zakázky. Propojení s řemeslníky není třeba odsouhlasit. Díky tomu vás mohou rovnou kontaktovat.
+
+to jsem nemel
+////Řemeslníky si chci vybírat
+/////Tato volba je ideální na větší poptávky. Řemeslník váš email a telefon získá teprve, když o propojení projevíte zájem.
+
+-vymena-okapu-a-svodu?step_id=35
+Jak vás firmy osloví?
+
 C:\Users\marti\OneDrive\1804-M\ing.J.Hendrych
 
 
