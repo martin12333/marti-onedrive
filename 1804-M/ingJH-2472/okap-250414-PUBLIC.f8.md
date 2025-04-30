@@ -1,22 +1,21 @@
 
 
-# priste pouzit onedrive nikoli icacls
+# priste pouzit onedrive nikoli icacls pro win milana
 ## nastestii nepresejvil jsem si to
 ## onedrive maybe has edit history
+## vsc has edit history
 pwsh
 icacls.exe 1804-M     /grant 'milan_rxtipwr:(oi)(ci)(f)'
 exit
 
 
-# okap-250414.f8.md
+# links
+C:\Users\marti\OneDrive\1804-M\ing.J.Hendrych\okap-250414.md
 not f8 
 nesdilena alba apod
 emaily@
 
-# links
-C:\Users\marti\OneDrive\1804-M\ing.J.Hendrych\okap-250414.md
 
-okap-250414.f8.md
 
 
 chtěl jsem Ti dát možnost pár dní si odpočinout. Ten pokrok s těmi větvemi je obrovský. 🙏
@@ -82,11 +81,9 @@ Kliknutím nahrajte nebo sem přetáhněte soubory
 kdyby vyměnili za něco, co se dá  snáze pročistit, tak bych byl spokojený. Ale nevím, jestli to je možné.
 
 
+
 Poptáváme pročištění, či případně výměnu, dvou okapových svodů, na rodinném domě. Svody jsou 30 let staré, nevím, jaká může být jejich životnost. V jednom ze svodů je tolik jehličí, že voda tam teče velmi pomalu. // Druhý svod může být plný listí ... strom byl prostříhán teprve nedávno. Zaplatíme také za instalaci mřížek proti listí a jehličí.
-
 Poptáváme pročištění, či případně výměnu, dvou okapových svodů, na rodinném domě. Svody jsou 30 let staré, nevíme, jaká může být jejich životnost. V jednom ze svodů je tolik jehličí, že voda tam teče velmi pomalu.  Druhý svod může být plný listí ... strom byl prostříhán teprve nedávno. // Nevíme, zda existují svody, u kterých by bylo snadnější čištění. // Zaplatíme také za instalaci mřížek proti listí a jehličí. 
-
-
 
 
 

@@ -39,3 +39,11 @@ Label images: falseAnnotate main node: false | Show accessibility treeCopy acc
 
 Label images: falseAnnotate main node: false | Show accessibility treeCopy accessibility treeStart recording
 
+
+
+
+![[On branch main2.log]]
+
+
+
+

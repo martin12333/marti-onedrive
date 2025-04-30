@@ -13,9 +13,12 @@ restore point
 pre inst
 
 
+steps recorder? C:\Users\marti\OneDrive\screen-recorder,steps-recorder\steps-recorder.f8.ps1
+
 seealso
 
-my 4 installs of anaconda ... story ... url
+my 4 installs of anaconda ... story ... url  facebook reddit
+
 
 
 

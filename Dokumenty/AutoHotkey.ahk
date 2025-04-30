@@ -256,11 +256,28 @@ $SC02B::Send {"}
 
 ;============================== chrome ==============================
 
+#IfWinActive ahk_exe msedge.exe
+
+
+; in AutoHotkey.ahk  v1.1
+
+; i have a keyboard with a failing key "Esc"
+
+$F1::Send {Esc}
+
+; why is the "return" not needed here ?
+; BECAUSE it is on a single line ?
+
+; is this correct ?  https://chatgpt.com/c/68125f40-7d34-8004-a9e7-c57ae82bff72
+
+;   f1  esc  ?  vimium help
+
+;
+
 ; 2023-10-22 =~= 23a.m
 ; experiments unrelated to layout ...
 ; ... paragraphs, and diigo
 
-#IfWinActive ahk_exe msedge.exe
 
 ;v1: return-is-needed
 
@@ -371,12 +388,13 @@ $Insert::
 
 
 
-; The second #IfWinActive is to indicate anything past this
-; point will work in any program.
 
-
+;============================== not chrome ==============================
 
 #IfWinActive
+
+; The second #IfWinActive is to indicate anything past this
+; point will work in any program.
 
 
 
