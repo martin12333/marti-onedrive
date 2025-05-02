@@ -5,6 +5,7 @@
 dir ../*/.vscode
 
 
+
 # c:\Users\marti\appdata\Local\Microsoft\Edge\User Data\Default\IndexedDB\chrome-extension_ghdpaajjhmlfkogblgeibaabcpjfgldn_0.indexeddb.leveldb\
 Marius
 
