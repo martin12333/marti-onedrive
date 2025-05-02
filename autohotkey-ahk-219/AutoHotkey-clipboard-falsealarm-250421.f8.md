@@ -2,6 +2,7 @@
 #falsealarm
 
 ai
+https://chatgpt.com/g/g-p-68149965b6d88191aaefd5bbad5f2144-p1/c/68149973-dc9c-8004-a42c-908519421755
 AutoHotkey v1
 which ones of the following are correct ?
 
@@ -135,5 +136,10 @@ not so much interes
 
 
 
+
+
+https://www.autohotkey.com/board/topic/83864-send-c-vs-send-ctrl-downcctrl-up/?utm_source=chatgpt.com
+
+Each program will react a bit different to AutoHotkey "input" so it may indeed be the case where one works and the other doesn't for the same program, you'll have to experiment a bit and can "set" various methods using #IfWinActive or IfWinActive commands to see which window is active before pasting. There is no one solution.
 
 
