@@ -22,17 +22,22 @@ Install both.
 
 
 how to name the file
-AutoHotkey Ctrl down 250421.f8.md
+AutoHotkey-clipboard-250421.f8.md
 
 autohotkey copy to clipboard
 autohotkey paste from clipboard
 autohotkey ctrl
+ Ctrl down
 
 
 
 https://www.autohotkey.com/docs/v1/lib/Send.htm#AZ
 
-https://www.autohotkey.com/boards/viewtopic.php?t=89615
+
+
+
+https://www.autohotkey.com/docs/v1/misc/Clipboard.htm
+
 
 
 https://www.reddit.com/r/AutoHotkey/comments/aok10s/how_to_put_ctrlc_as_a_send_command/
@@ -46,6 +51,7 @@ Send, {c up}{Ctrl up}
 
 Return
 Then it really is doing the keystrokes you want.
+
 
 
 
@@ -72,9 +78,10 @@ https://www.autohotkey.com/docs/v1/lib/SetBatchLines.htm
 250421 502
 autoho f8
 Note: Pressing a hotkey which includes Win may result in extra simulated keystrokes (Ctrl by default). See #MenuMaskKey.
-Note: Pressing a hotkey which includes Alt may result in extra simulated keystrokes (Ctrl by default). See #MenuMaskKey.
 
 
+https://www.autohotkey.com/boards/viewtopic.php?t=89615
+not so much interes
 
 
 

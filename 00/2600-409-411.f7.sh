@@ -1,21 +1,21 @@
-	# file:///C:\Users\marti\OneDrive\gh--martin--to--Eda\00BACKUP.f8.dib
-	# https://dev.to/krisplatis/how-i-restored-my-deleted-file-in-vscode-a-cool-trick-you-should-know-3k95 🔮 file:///C:\Users\marti\AppData\Roaming\Code\User\History 🔮
-	export GIT_DIR=/d/GIT-bk04/marti-onedrive-2600-409.21.git
-	export GIT_WORK_TREE=/d/0004-LINKS/OneDrive
-	##uqqqqqqmarti/onedrive--deldest
-	##C:\Users\marti\OneDrive\0004-LINKS\Robocopy---c-onedrive---d-mir.f5.cmd
-	C:/Users/marti/OneDrive/00/Robocopy---c-onedrive---d-mir.f5.cmd
-	#echo '/'c echo dkj
-	##cmd '/'c echo dkjkkjkjkjkj
-	##cmd /c echo dkj
-	###exit
-	git add -vv  '*.f8.*'   '*.f7.*'       '*.f5.*'   #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
+# file:///C:\Users\marti\OneDrive\gh--martin--to--Eda\00BACKUP.f8.dib
+# https://dev.to/krisplatis/how-i-restored-my-deleted-file-in-vscode-a-cool-trick-you-should-know-3k95 🔮 file:///C:\Users\marti\AppData\Roaming\Code\User\History 🔮
+export GIT_DIR=/d/GIT-bk04/marti-onedrive-2600-409.21.git
+export GIT_WORK_TREE=/d/0004-LINKS/OneDrive
+##uqqqqqqmarti/onedrive--deldest
+##C:\Users\marti\OneDrive\0004-LINKS\Robocopy---c-onedrive---d-mir.f5.cmd
+C:/Users/marti/OneDrive/00/Robocopy---c-onedrive---d-mir.f5.cmd
+#echo '/'c echo dkj
+##cmd '/'c echo dkjkkjkjkjkj
+##cmd /c echo dkj
+###exit
+git add -vv  '*.f8.*'   '*.f7.*'       '*.f5.*'   #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
 
-	# todo 00/2400-WIKI/*.md
-	git add -vv   '2400-WIKI/*.md'
+# todo 00/2400-WIKI/*.md
+git add -vv   '2400-WIKI/*.md'
 
-	git commit  -a -m    backup   #-before   # -v
-	git push
-	git show --name-only
-	# $ [200~#dslkjfdskf bash: [200~#: command not found
-	# $ ~ bash: /c/Users/marti: Is a directory
+git commit  -a -m    backup   #-before   # -v
+git push
+git show --name-only
+# $ [200~#dslkjfdskf bash: [200~#: command not found
+# $ ~ bash: /c/Users/marti: Is a directory
