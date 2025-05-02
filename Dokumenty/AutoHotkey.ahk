@@ -46,13 +46,6 @@
 
 
 
-; https://www.autohotkey.com/docs/v1/lib/SendMode.htm
-	; EDIT: NOT NOW
-	; I am using SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-; EDIT: NOT NOW
-
-; https://www.autohotkey.com/docs/v1/lib/Send.htm
-	; https://github.com/martin12333/PUBLIC-group-of-gists/blob/main/www.autohotkey.com/docs/v1/lib/Send.htm.md
 
 
 ; As with other commands, the comma in front of the first parameter is optional.
@@ -87,8 +80,26 @@
 ; Enable warnings to assist with detecting common errors.
 
 
+
+
+
+
 ;EDIT SendMode changed to default BECAUSE OF https://www.autohotkey.com/board/topic/55491-windows-key-still-pressed-after-script-execution/
+
 ;;;;SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+
+; https://www.autohotkey.com/docs/v1/lib/SendMode.htm
+	; EDIT: NOT NOW
+	; I am using SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+; EDIT: NOT NOW
+; https://www.autohotkey.com/docs/v1/lib/Send.htm
+	; https://github.com/martin12333/PUBLIC-group-of-gists/blob/main/www.autohotkey.com/docs/v1/lib/Send.htm.md
+
+
+
+
+
+
 
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; Makes a script unconditionally use its own folder as its working directory.

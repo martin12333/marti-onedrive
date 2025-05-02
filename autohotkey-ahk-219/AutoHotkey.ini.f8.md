@@ -24,6 +24,13 @@ Install both.
 how to name the file
 AutoHotkey-clipboard-250421.f8.md
 
+
+
+
+
+
+
+
 autohotkey copy to clipboard
 autohotkey paste from clipboard
 autohotkey ctrl
@@ -33,6 +40,30 @@ autohotkey ctrl
 
 https://www.autohotkey.com/docs/v1/lib/Send.htm#AZ
 
+C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
+
+
+
+;EDIT SendMode changed to default BECAUSE OF https://www.autohotkey.com/board/topic/55491-windows-key-still-pressed-after-script-execution/
+
+;;;;SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+
+; https://www.autohotkey.com/docs/v1/lib/SendMode.htm
+	; EDIT: NOT NOW
+	; I am using SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+; EDIT: NOT NOW
+; https://www.autohotkey.com/docs/v1/lib/Send.htm
+	; https://github.com/martin12333/PUBLIC-group-of-gists/blob/main/www.autohotkey.com/docs/v1/lib/Send.htm.md
+
+
+
+;2024-06 =~~= 246    CUT COPY PASTE ^x  ^c  ^v
+
+$NumpadDiv::Send ^x
+$NumpadMult::Send ^c
+$NumpadSub::Send ^v
+
+$SC02B::Send {"}
 
 
 
@@ -93,3 +124,13 @@ not so much interes
 
 
 C:\Users\marti\OneDrive\autohotkey-ahk-219\feiyue\Mouse And Keyboard Macro Recorder - Page 8 - AutoHotkey Community.html
+
+
+
+
+
+$F1::Send {Esc}
+
+
+
+
