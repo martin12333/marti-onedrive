@@ -331,8 +331,8 @@ $Insert::
 
 	; 250502
 	;;;;;;;;;;Send, {^c}
-	Send, ^{c}
-	;Send, ^c
+	;Send, ^{c}
+	Send, ^c
 
 	; 250421
 	;Send, {AppsKey}
@@ -343,7 +343,7 @@ $Insert::
 	;Sleep, 1460
 
 	; 250502
-	;;;;;;Send, {!a}
+	;;;;;;;;;;;;Send, {!a}
 	;Send, !a
 
 	; 250421

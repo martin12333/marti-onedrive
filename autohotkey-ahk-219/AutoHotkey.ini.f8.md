@@ -6,9 +6,9 @@ ai
 AutoHotkey v1
 which ones of the following are correct ?
 
-	Send, {^c}
+	;;;;;;;;Send, {^c}
 
-	Send, ^{c}
+	;;Send, ^{c}
 
 	Send, ^c
 

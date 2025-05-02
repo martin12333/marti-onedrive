@@ -6,9 +6,9 @@ https://chatgpt.com/g/g-p-68149965b6d88191aaefd5bbad5f2144-p1/c/68149973-dc9c-80
 AutoHotkey v1
 which ones of the following are correct ?
 
-	Send, {^c}
+	;;;;;;;;Send, {^c}
 
-	Send, ^{c}
+	;;Send, ^{c}
 
 	Send, ^c
 
