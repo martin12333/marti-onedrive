@@ -19,6 +19,7 @@ file:///C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
 
 
 
+#falsealarm
 
 A4  038	 	u	0.05	LAlt           	
 2D  152	h	d	3.06	Insert         	autohotkey paste from clipboard to edge browser - Google Search and 24 more pages - Personal - Micr
@@ -48,6 +49,7 @@ Press [F5] to refresh.
 
 
 
+#falsealarm
 
 autohotkey copy to clipboard
 autohotkey paste from clipboard
@@ -55,7 +57,7 @@ autohotkey ctrl
  Ctrl down
 
 
-
+#falsealarm
 https://www.autohotkey.com/docs/v1/lib/Send.htm#AZ
 
 
@@ -89,6 +91,7 @@ https://www.autohotkey.com/docs/v1/misc/Clipboard.htm
 
 
 
+#falsealarm
 https://www.reddit.com/r/AutoHotkey/comments/aok10s/how_to_put_ctrlc_as_a_send_command/
 
 One of the ways that I get around this issue by doing the following:
@@ -105,22 +108,19 @@ Then it really is doing the keystrokes you want.
 
 
 
-autoho f8
-
-250421
-
-
-502
 https://www.autohotkey.com/boards/viewtopic.php?t=86897
 Some programs need more key delay/press duration than others, but it would be news to me that there is a general difference between Win7 and Win10 for the same program, or that win10 doesn't generally support sends on a single line (there is also SetKeyDelay for the timing, although not for Sendinput mode). But perhaps different program versions and/or system speeds come somehow into play... finding the right send settings is a science of its own anyway.
 it is also to note that the sleep times will most likely be longer than 1 millisecond (which would be very - or perhaps even too - short). Please compare https://www.autohotkey.com/docs/commands/Sleep.htm#Remarks
 
+#falsealarm
 autohotkey send key combination ignored by chrome 
 
+#falsealarm
 experiment timing key combos 250502 Ctrl+c alt+tab ctrl+v alt+tab
 
 
 
+#falsealarm
 https://www.autohotkey.com/docs/v1/lib/SetBatchLines.htm
 
 
