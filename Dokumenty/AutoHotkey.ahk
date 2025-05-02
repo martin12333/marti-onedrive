@@ -300,26 +300,29 @@ $F1::Send {Esc}
 ;^p::
 ;#p::
 ;overload  Send {>}  >>>>>>
-;$NumpadMult::
 
 
-;	Send, {^c} failed ... security issue ??? probably not?
+
+
+
+
+
+
+
+;	Send, {^c} failed ... security issue ??? probably not  ..., #falsealarm
+; AAAAA {^c} is pROBABLY WRONG SYNTAX
+
 ;, ABOVE, THERE IS $NumpadMult::Send ^c
-; SOMETIMES WORKS, SOMETIMES FAILS
-;
+; SOMETIMES WORKS, SOMETIMES FAILS?
+
+; #falsealarm
 ;	Sleep, 1200 did not help
 ;	Sleep, 1600
 ;	Sleep, 60 not enough
 
+; #falsealarm
 ; AAAAa INTERFERENCE WITH ACCESSIBILITY STICKY KEYS ?? win+L did not help
 ; AAAAA switching off vimium did not help  ^c
-
-
-
-
-
-
-;$NumpadMult::Send ^c
 
 $Insert::
 {
