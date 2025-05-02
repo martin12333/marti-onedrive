@@ -23,8 +23,33 @@ Install both.
 
 how to name the file
 AutoHotkey-clipboard-250421.f8.md
+250502
 
 
+
+A4  038	 	u	0.05	LAlt           	
+2D  152	h	d	3.06	Insert         	autohotkey paste from clipboard to edge browser - Google Search and 24 more pages - Personal - Micr
+2D  152	s	u	0.13	Insert         	
+A2  01D	i	d	0.39	LControl       	
+43  02E	i	d	0.13	c              	
+43  02E	i	u	0.13	c              	
+A2  01D	i	u	0.11	LControl       	
+5D  15D	i	d	0.59	AppsKey        	
+5D  15D	i	u	0.13	AppsKey        	
+48  023	i	d	0.38	h              	
+48  023	i	u	0.13	h              	
+0D  01C	i	d	0.39	Enter          	
+0D  01C	i	u	0.13	Enter          	
+A4  038	 	d	2.28	LAlt           	
+09  00F	 	d	0.11	Tab            	
+09  00F	 	u	0.11	Tab            	Task Switching
+A4  038	 	u	0.03	LAlt           	
+A4  038	 	d	1.16	LAlt           	automate microsoft edge browser without selnium, without debug mode - as done before with chrome - 
+09  00F	 	d	0.08	Tab            	
+09  00F	 	u	0.14	Tab            	Task Switching
+A4  038	 	u	1.28	LAlt           	
+74  03F	 	d	6.55	F5             	C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk - AutoHotkey v1.1.33.09
+Press [F5] to refresh.
 
 
 

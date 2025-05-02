@@ -82,9 +82,10 @@
 
 
 
+SetKeyDelay , 111, 122
+;https://www.autohotkey.com/docs/v1/lib/SetKeyDelay.htm
 
-
-;EDIT SendMode changed to default BECAUSE OF https://www.autohotkey.com/board/topic/55491-windows-key-still-pressed-after-script-execution/
+;   AAAAA    EDIT   :warning: [!!!]  SendMode changed to default BECAUSE OF https://www.autohotkey.com/board/topic/55491-windows-key-still-pressed-after-script-execution/
 
 ;;;;SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 
@@ -313,26 +314,42 @@ $F1::Send {Esc}
 ; AAAAa INTERFERENCE WITH ACCESSIBILITY STICKY KEYS ?? win+L did not help
 ; AAAAA switching off vimium did not help  ^c
 
+
+
+
+
+
+;$NumpadMult::Send ^c
+
 $Insert::
 {
 	Send, {Click 3}
 	Sleep, 400
 
+	; 250502
+	;;;;;;;;;;Send, {^c}
+	Send, ^{c}
+	;Send, ^c
+
 	; 250421
-	;;;Send, {^c}
-	;;Send, {!a}
-	Send, {AppsKey}
-	Sleep, 460
+	;Send, {AppsKey}
+	;Sleep, 460
+	;Send, {Enter}
 
-	Send, {Enter}
 	Sleep, 460
+	;Sleep, 1460
 
+	; 250502
+	;;;;;;Send, {!a}
+	;Send, !a
+
+	; 250421
 	Send, {AppsKey}
 	Sleep, 260
-
 	Send, h
 	Sleep, 260
 	Send, {Enter}
+
 	Sleep, 20
 
 	return
