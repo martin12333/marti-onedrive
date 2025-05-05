@@ -25,7 +25,9 @@ In other words, it sets navigator.userActivation.isActive to true upon evaluatio
 Persistence
 This section lists options that control how DevTools saves the changes you make.
 
- Checkbox. Enable local overrides makes DevTools persist changes you make to sources across page loads.
+ Checkbox.
+# Enable local overrides
+  makes DevTools persist changes you make to sources across page loads.
 For more information, see Local Overrides.
 Local overrides is another DevTools feature that is similar to workspace. Use local overrides to mock web content or request headers without waiting for backend changes or when you want to experiment with changes to a page, and you need to see those changes across page loads, but you don't care about mapping your changes to the page's source code.
 
