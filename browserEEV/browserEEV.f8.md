@@ -626,3 +626,13 @@ w=  window.open( "chrome://chrome-urls"  , '_blank');
 
 
 
+
+
+
+
+# browserEEV
+
+[text](custom-url,uri.f8.ps1)
+
+
+

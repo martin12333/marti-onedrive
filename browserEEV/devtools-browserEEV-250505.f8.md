@@ -23,3 +23,13 @@ getelementsbyid
 getelementsbytagname
 getelementsby
 
+
+
+
+
+[text](../devtools-recorder---edge,chrome-accessibility---250428/settings-of-edge-devtools--devtools_app.f8.md) 
+
+[text](../devtools-recorder---edge,chrome-accessibility---250428/chrome-settings--by-devtools.f8.md)
+
+explorer "C:\Users\marti\OneDrive\edge-f12-devtools-override\snippet%3A"
+
