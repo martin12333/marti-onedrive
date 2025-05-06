@@ -29,8 +29,8 @@ The scope of queryObjects() is the currently-selected execution context in the c
 
 
 
+# windows gui automation animations 
 gui animations
-windows gui automation animations 
 
 
 
@@ -40,8 +40,7 @@ windows gui automation animations
 
 
 
-Type the following statement in the javascript console: debugger. Now you can inspect the global scope using the normal debug tools. To be ...
-
+# Type the following statement in the javascript console: debugger. Now you can inspect the global scope using the normal debug tools. To be ...
 
 
 
@@ -52,20 +51,23 @@ Type the following statement in the javascript console: debugger. Now you can in
 
 
 
-
-
-
-
-https://www.autohotkey.com/docs/v1/Program.htm#run
-
-
+# https://www.autohotkey.com/docs/v1/Program.htm#run
 
 C:\Users\marti\OneDrive\autohotkey-ahk-219\experim-250505.f5.ahk
 
+& "C:\Program Files\AutoHotkey\AutoHotkey.exe"  
 
 
 
 common pitfalls using the call operator?  
+⚠️ 3. Using single quotes when variable expansion is needed
+
+
+⚠️ 4. Forgetting to escape special characters in arguments
+
+& "cmd.exe" "/c echo hello & dir"
+& "C:\App\tool.exe" "--input" "C:\Files With Spaces\input.txt"
+
 
 find in files
 [&] ["].*exe
@@ -82,7 +84,10 @@ AutoHotkey /?
 C:\PF\AutoHotkey\AutoHotkey.exe /?
 C:\PF\AutoHotkey\AutoHotkey.exe  --help
 
-Autohotkey discord server
+
+
+
+# Autohotkey discord server
 https://discord.com/channels/115993023636176902/304708649748660224
 
 
