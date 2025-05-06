@@ -12359,3 +12359,21 @@ $Env:Path.Length
 shutdown.exe /l
 devtools-recorder---edge,chrome-accessibility---250428/exit---chrome-settings--by-devtools.f8.md
 exit
+bash
+where.exe bash
+Get-Alias
+Get-Alias bash
+Get-Alias -Verbose bash
+Get-Alias -Definition bash
+Get-Alias -Definition -name bash
+Get-Alias -Name bash
+bash
+exit
+AutoHotkey /?
+C:\PF\AutoHotkey\AutoHotkey.exe /?
+C:\PF\AutoHotkey\AutoHotkey.exe  --help
+"C:\Program Files\AutoHotkey\"
+"C:\Program Files\AutoHotkey\AutoHotkey.exe"
+& "C:\Program Files\AutoHotkey\"
+& "C:\Program Files\AutoHotkey\AutoHotkey.exe"
+C:\Users\marti\OneDrive\autohotkey-ahk-219\experim-250505.f5.ahk

@@ -1,5 +1,6 @@
-
+echo aaa
 echo C:\Users\marti\OneDrive\Dokumenty\PowerShell\profile.ps1
+echo aaa
 
 
 #export HISTFILESIZE=27120
