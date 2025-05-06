@@ -51,7 +51,16 @@ gui animations
 
 
 
+
 # https://www.autohotkey.com/docs/v1/Program.htm#run
+
+# https://www.autohotkey.com/docs/v1/Scripts.htm#debug
+
+# https://www.autohotkey.com/docs/v1/Scripts.htm#cmd
+
+AutoHotkey.exe [Switches] [Script Filename] [Script Parameters]
+
+
 
 C:\Users\marti\OneDrive\autohotkey-ahk-219\experim-250505.f5.ahk
 
