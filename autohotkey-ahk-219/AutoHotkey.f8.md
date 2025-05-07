@@ -34,6 +34,11 @@ The scope of queryObjects() is the currently-selected execution context in the c
 
 C:\Users\marti\OneDrive\autohotkey-ahk-219\experim-250505.f5.ahk
 
+file:///C:/Users/marti/OneDrive/edge-f12-devtools-override/snippet%253A/myScript-snippet1.js
+
+	C:\Users\marti\OneDrive\edge-f12-devtools-override
+
+
 # https://www.autohotkey.com/docs/v1/Program.htm#run
 
 # https://www.autohotkey.com/docs/v1/Scripts.htm#cmd
