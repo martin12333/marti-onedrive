@@ -12395,3 +12395,5 @@ C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 git ls-files
 bash
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+explorer vscode-f8/dot.vscode---add-all/
+code snippets-227/hs/haskell.hs
