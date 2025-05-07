@@ -29,6 +29,17 @@ The scope of queryObjects() is the currently-selected execution context in the c
 
 
 
+
+2400-WIKI/docs/features/custom-snippets.md
+2400-WIKI/docs/recipes/predefined-user-snippets.md
+F8_text_file/snippets-from--vscode-find-and-replace-all.f8.sh.ps1
+dr4/MYNOTES-MYNOTES/JS/myjs2011/bb-F12-snippets.f8.js
+snippets-227/hs/haskell.hs
+vscode-f8/dot.vscode---add-all/dr1snip1.code-snippets
+exit
+
+
+
 C:\Users\marti\OneDrive\autohotkey-ahk-219\experim-250505.f5.ahk
 
 file:///C:/Users/marti/OneDrive/edge-f12-devtools-override/snippet%253A/myScript-snippet1.js
