@@ -64,9 +64,28 @@ AutoHotkey.exe [Switches] [Script Filename] [Script Parameters]
 
 C:\Users\marti\OneDrive\autohotkey-ahk-219\experim-250505.f5.ahk
 
-& "C:\Program Files\AutoHotkey\AutoHotkey.exe"  
 
 
+# https://www.autohotkey.com/docs/v1/Scripts.htm#debug
+Commands such as ListVars and Pause can help you debug a script. For example, the following two lines, when temporarily inserted at carefully chosen positions, create "break points" in the script:
+
+The following commands are also useful for debugging: ListLines, KeyHistory, and OutputDebug.
+
+Some common errors, such as typos and missing "global" declarations, can be detected by enabling warnings.
+
+#Warn 
+file:///C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
+
+
+
+& "C:\Program Files\AutoHotkey\AutoHotkey.exe"   
+
+fail stdin
+& "C:\Program Files\AutoHotkey\AutoHotkey.exe"      "*"   
+cmd
+C:\pf\AutoHotkey\AutoHotkey.exe  *
+"C:\Program Files\AutoHotkey\AutoHotkey.exe"  /ErrorStdOut  *
+exit
 
 common pitfalls using the call operator?  
 ⚠️ 3. Using single quotes when variable expansion is needed

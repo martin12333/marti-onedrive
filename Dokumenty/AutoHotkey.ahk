@@ -1,52 +1,22 @@
-﻿;==================
-
-; my keyb layout ver 0.7
-
-; ahk 1.1
-
-
-; win + e / martin personal / documents ---> location ->
-	; C:\Users\marti\OneDrive\Dokumenty234
-	; C:\Users\marti\OneDrive\Dokumenty
-; old this file:  THE  MAIN COPY is  at C:\Users\marti\OneDrive\Dokumenty234\AutoHotkey.ahk
-; this file:  THE  MAIN COPY is  at C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+﻿; my keyb layout ver 0.7
 
 
 ; AT THE END OF THIS FILE IS A MANUAL TEST
-;============================== DO TEST, BECAUSE IT IS AUTORUN  ==============================
+;============================== DO the  TEST, BECAUSE IT IS AUTORUN  ==============================
 ;test :   win+q AutoHotkey run the app ... it asks to reload this ahk file
 
+
+; win + e / martin personal / documents ---> location ->
+	;;;; old C:\Users\marti\OneDrive\Dokumenty234
+	; C:\Users\marti\OneDrive\Dokumenty
+; this file:  THE  MAIN COPY is  at C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
+
+; //// my, unnecessary: mk win restore point ... could just rename  C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
 
 
 ; https://www.autohotkey.com/docs/v1/Hotkeys.htm
 	;https://github.com/martin12333/PUBLIC-group-of-gists/blob/main/www.autohotkey.com/docs/v1/Hotkeys.htm.md
-;  $   This is usually only necessary if the script uses the Send command to send the keys that comprise the hotkey itself, which might otherwise cause it to trigger itself. The $ prefix forces the keyboard hook to be used to implement this hotkey, which as a side-effect prevents the Send command from triggering it. The $ prefix is equivalent to having specified [#UseHook](lib/_UseHook.htm) somewhere above the definition of this hotkey.
-
-
-
-
-
+;  $ ...  This is usually only necessary if the script uses the Send command to send the keys that comprise the hotkey itself, which might otherwise cause it to trigger itself. The $ prefix forces the keyboard hook to be used to implement this hotkey, which as a side-effect prevents the Send command from triggering it. The $ prefix is equivalent to having specified [#UseHook](lib/_UseHook.htm) somewhere above the definition of this hotkey.
 
 ; As with other commands, the comma in front of the first parameter is optional.
 
@@ -54,40 +24,32 @@
 
 
 
+;==================
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+; ahk 1.1
+; file:///C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
+; see also ;Blank Template written by GroggyOtter
 
 ;============================== Start Auto-Execution Section ==============================
+
 
 #NoEnv
 
  	; Recommended for performance and compatibility with future AutoHotkey releases.
 ; Avoids checking empty variables to see if they are environment variables.
 
+
 #Warn
 ; Enable warnings to assist with detecting common errors.
-
-
 
 
 SetKeyDelay , 111, 122
 ;https://www.autohotkey.com/docs/v1/lib/SetKeyDelay.htm
 
-;   AAAAA    EDIT   :warning: [!!!]  SendMode changed to default BECAUSE OF https://www.autohotkey.com/board/topic/55491-windows-key-still-pressed-after-script-execution/
 
-;;;;SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+;   AAAAA    EDIT   :warning: [!!!] i have changed here   SendMode to default BECAUSE OF https://www.autohotkey.com/board/topic/55491-windows-key-still-pressed-after-script-execution/
+
+;;;;;;;;;;;;;;;;;;;;SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 
 ; https://www.autohotkey.com/docs/v1/lib/SendMode.htm
 	; EDIT: NOT NOW
@@ -97,29 +59,15 @@ SetKeyDelay , 111, 122
 	; https://github.com/martin12333/PUBLIC-group-of-gists/blob/main/www.autohotkey.com/docs/v1/lib/Send.htm.md
 
 
-
-
-
-
-
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; Makes a script unconditionally use its own folder as its working directory.
-
-
-; see also ;Blank Template written by GroggyOtter
 
 
 ;;; sets title matching to search for "containing" instead of "exact"
 ;;SetTitleMatchMode, 2
 
 
-
-; //// my, unnecessary: mk win restore point ... could just rename  C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
-
-
-
-
-
+;============================== Main Script ==============================
 
 
 
