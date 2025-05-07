@@ -21,7 +21,7 @@
 ; Enable warnings to assist with detecting common errors.
 
 
-SetKeyDelay , 1110, 122
+SetKeyDelay , 510, 122
 ;https://www.autohotkey.com/docs/v1/lib/SetKeyDelay.htm
 
 
@@ -63,11 +63,11 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 $F8::
 {
-	Send this is a test{Enter}
+	Send this is a test {Enter} , aaaa ; bbbb
 	Sleep, 400
 	;	Send, ^c
 	Sleep, 460
-	Send, {AppsKey}
+	;Send, {AppsKey}
 	return
 
 }
