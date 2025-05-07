@@ -71,6 +71,10 @@ $F8::
 	;Sleep, 460
 	Send, {AppsKey}
 	Send, {Down 5}
+
+	Send, {Enter}
+	Send, {Down}
+
 	return
 
 }
@@ -79,6 +83,36 @@ $F8::
 
 
 ;============================== not chrome ==============================
+
+#IfWinActive
+
+#IfWinActive ahk_exe code.exe
+
+
+;$F9
+
+$F9::
+{
+	;Send {Home}+{End}
+	;Send this is a test {Enter} , aaaa ; bbbb
+	;Sleep, 200
+	Send, ^c
+	Sleep, 200
+	;Sleep, 460
+	;Send, {AppsKey}
+	;Send, {Down 5}
+
+	;Send, {Enter}
+	;Send, {Down}
+	Send, !{Tab}
+	Sleep, 460
+	Send, ^v
+	Send, {Enter}
+
+	return
+
+}
+
 
 #IfWinActive
 
