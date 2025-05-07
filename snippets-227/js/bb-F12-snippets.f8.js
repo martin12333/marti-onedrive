@@ -12,7 +12,7 @@ not js demner3
 
 
 
-var x=$('img'); x.attr('width','50'); x.attr('height','39')
+var x=$('img'); x.attr('width','50'); x.attr('height','39')   // aaaa
 var x=$('img'); x.attr('width','100'); x.attr('height','78')
 
 
@@ -25,10 +25,10 @@ var x=$('img'); x.attr('width','100'); x.attr('height','78')
 
 v2 = `\\\t63720\t\t
 \`\t63720\t\t
-`
 
-"\	63720		
-`	63720		
+
+"\	63720	
+`	63720	
 "
 
 
@@ -53,7 +53,8 @@ VM74:1 Uncaught SyntaxError: Identifier 'x6' has already been declared
 
 
 
-   * You point to my InlineJavascriptPlugin as an acceptable way to "roll your own solution" (for TWClassic only).  However, this means that you are already able to write your own javascript code.  In which case, there's VERY little difference between using something like InlineJavascriptPlugin, and writing a TW5 javascript macro.  There's just a little bit of a different 'framework' that surrounds your custom code.
+   * You point to my InlineJavascriptPlugin as an acceptable way to "roll your own solution" (for TWClassic only).  However, this means that you are already able to write your own javascript code.  In which case, there's VERY little difference between 'using something like InlineJavascriptPlugin, and writing a TW5 javascript macro.  There's just a little '
+bit of a different 'framework' that surrounds your custom code.
 
 
 
@@ -121,7 +122,7 @@ b.children[0].children[1].children[0].children[0].children[0].children[0].childr
 </th></tr>
 <tr>
 <td> 27 </td>
-<td> Jonah 
+<td> Jonah
 
 
 
@@ -134,22 +135,26 @@ b.children[0].children[1].children[0].children[0].children[0].children[0].childr
         </a>
 
 
-o embed the following script in a tiddler: 
+o embed the following script in a tiddler:
 
-<script> 
-   var out=[]; 
-   var row='|%0|%1|%2|'; 
-   out.push('|English|French|Description|h'); // headings 
-   var tids=store.getTaggedTiddlers('entry'); 
-   for (var i=0; i<tids.length; i++) { 
-      var en=store.getTiddlerSlice(tids[i].title,'English'); 
-      var fr=store.getTiddlerSlice(tids[i].title,'French'); 
-      var d='<<tiddler [['+tids[i].title+'##Description]]>>'; 
-      out.push(row.format([en,fr,d])); 
-   } 
-   out.push('|sortable|k'); // table class 
-   return out.join('\n'); 
-</script> 
+<script>
+   var out=[];
+   var row='|%0|%1|%2|';
+   out.push('|English|French|Description|h'); // headings
+   var tids=store.getTaggedTiddlers('entry');
+   for (var i=0; i<tids.length; i++) {
+      var en=store.getTiddlerSlice(tids[i].title,'English');
+      var fr=store.getTiddlerSlice(tids[i].title,'French');
+      var d='<<tiddler [['+tids[i].title+'##Description]]>>';
+      out.push(row.format([en,fr,d]));
+   }
+   out.push('|sortable|k'); // table class
+   return out.join('\n');
+</script>
+
+
+
+
 
 
 
@@ -169,7 +174,9 @@ var    tds = x.split('\t');
 ==========================================================
 typeof  1
 
-u1 mycmdlinehist.js
+
+//u1 mycmdlinehist.js
+
 jQuery("body").append('<textarea id="svnlabs" cols="70" rows="20"></textarea>');
 
 jQuery("#svnlabs").val(jQuery("body").html());
@@ -188,6 +195,7 @@ y=document.evaluate("//text()[not(contains(.,'highlig'))]", document.body, null,
 
 asi zalezl do skriptu
 
+
 t1=$x('//text()');
 for (var i = 0; i < t1.length; i++) {
   x=t1[i];
@@ -202,6 +210,8 @@ for (var i = 0; i < t1.length; i++) {
   s2=s2.replace(y[0],y[1]);
   x.textContent=s2;
 }
+
+
 ==========================================================
 //*[@id="dummybodyid"]/script[1]/text()
 x=t1[0]

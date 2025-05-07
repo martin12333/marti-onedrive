@@ -28,23 +28,40 @@ The scope of queryObjects() is the currently-selected execution context in the c
 
 
 
-
+# old
 
 2400-WIKI/docs/features/custom-snippets.md
 2400-WIKI/docs/recipes/predefined-user-snippets.md
 F8_text_file/snippets-from--vscode-find-and-replace-all.f8.sh.ps1
-
-file:///dr4/MYNOTES-MYNOTES/JS/myjs2011/bb-F12-snippets.f8.js
+code dr4/MYNOTES-MYNOTES/JS/myjs2011/bb-F12-snippets.f8.js
 code snippets-227/hs/haskell.hs
 exit
+file:///C:\Users\marti\OneDrive\snippets-227\js\bb-F12-snippets.f8.js
 
 
 
+
+# 250505 - 507
+
+k at Method #2 https://autohotkey.com/docs/Scripts.htm#continuation
+Code: Select all - Download - Line numbers - Word wrap - V1
+exampleString1=
+(
+    multiple 
+    lines 
+    of 
+    string
+)
+  MsgBox % ">" exampleString1 "<" 
+and also look at the various options join, ltrim etc.
+
+
+aaaaA   f8
 C:\Users\marti\OneDrive\autohotkey-ahk-219\experim-250505.f5.ahk
 
-file:///C:/Users/marti/OneDrive/edge-f12-devtools-override/snippet%253A/myScript-snippet1.js
+file:///C:\Users\marti\OneDrive\edge-f12-devtools-override\snippet%3A\myScript-snippet1.f5.f8.js
 
-	C:\Users\marti\OneDrive\edge-f12-devtools-override
+
 
 
 # https://www.autohotkey.com/docs/v1/Program.htm#run
