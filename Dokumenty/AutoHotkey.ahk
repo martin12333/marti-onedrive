@@ -217,7 +217,7 @@ $SC02B::Send {"}
 ;============================== chrome ==============================
 
 #IfWinActive ahk_exe msedge.exe
-
+;	#IfWinActive ahk_exe chrome.exe
 
 ; in AutoHotkey.ahk  v1.1
 
@@ -230,12 +230,14 @@ $F1::Send {Esc}
 
 ; is this correct ?  https://chatgpt.com/c/68125f40-7d34-8004-a9e7-c57ae82bff72
 
-;   f1  esc  ?  vimium help
+;   f1 =  esc    ?   ...  vimium help
 
-;
+
+
+
 
 ; 2023-10-22 =~= 23a.m
-; experiments unrelated to layout ...
+; experiments unrelated to keyboard layout ...
 ; ... paragraphs, and diigo
 
 
@@ -261,7 +263,7 @@ $F1::Send {Esc}
 ; AAAAA {^c} is pROBABLY WRONG SYNTAX
 
 ;, ABOVE, THERE IS $NumpadMult::Send ^c
-; SOMETIMES WORKS, SOMETIMES FAILS?
+; edit: mostly works, maybe always works ... old SOMETIMES WORKS, SOMETIMES FAILS?
 
 ; #falsealarm
 ;	Sleep, 1200 did not help
@@ -311,7 +313,8 @@ $Insert::
 #p::
 {
 	Send, {Click 3}
-	Sleep, 2200
+	Sleep, 400
+	;Sleep, 2200
 	Send ^c
 
 	return

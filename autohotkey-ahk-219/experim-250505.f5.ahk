@@ -52,16 +52,40 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
 
+;============================== chrome ==============================
+
+#IfWinActive ahk_exe msedge.exe
+;	#IfWinActive ahk_exe chrome.exe
+
+; in AutoHotkey.ahk  v1.1
 
 
+$F8::
+{
+	Send this is a test{Enter}
+	Sleep, 400
+	;	Send, ^c
+	Sleep, 460
+	Send, {AppsKey}
+	return
+
+}
+
+;{Esc}
 
 
-Run Notepad
+;============================== not chrome ==============================
+
+#IfWinActive
+
+; The second #IfWinActive is to indicate anything past this
+; point will work in any program.
 
 
-Send, This is a test{Enter}
-; 	;Send, {Enter}
-; 	;Sleep, 600
+;Run Notepad
+
+
+;Send, This is a test{Enter}
 ; 	;Send, {Enter}
 ; 	;Sleep, 600
 
