@@ -62,6 +62,8 @@ typeof SpeechSynthesisUtterance
   var query = "emacs eev"
 //  window.open(searchEngine + "?q=" + query, '_blank');
 
+
+
 console.log(
         this
         ,
