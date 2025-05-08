@@ -373,6 +373,48 @@ $Insert::
 
 
 
+
+
+
+;============================== not chrome ==============================
+
+#IfWinActive
+
+#IfWinActive ahk_exe code.exe
+
+
+$F10::
+{
+	;Send {Home}+{End}
+	;Send this is a test {Enter} , aaaa ; bbbb
+	;Sleep, 200
+	Send, ^c
+	Sleep, 200
+	;Sleep, 460
+	;Send, {AppsKey}
+	;Send, {Down 5}
+
+	;Send, {Enter}
+	;Send, {Down}
+	Send, !{Tab}
+	Sleep, 460
+
+	;Send, ^v
+contents := SubStr(A_Clipboard, 1, 255)  ;   100
+Send % contents
+
+	Send, {Enter}
+
+	return
+
+}
+
+
+
+
+
+
+
 ;============================== not chrome ==============================
 
 #IfWinActive
