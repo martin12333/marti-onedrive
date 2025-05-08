@@ -11,7 +11,7 @@ C:/Users/marti/OneDrive/00/Robocopy---c-onedrive---d-mir.f5.cmd
 ###exit
 
 #git add -vv    --dry-run     '*.f[0-9].*'   '*.f1[0-9].*'     #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
-echo _____________ _______________
+echo _____________ 30 _______________
 git add -vv       '*.f[0-9].*'   '*.f1[0-9].*'  #   --dry-run    --dry-run    #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
 #git add -vv  '*.f8.*'   '*.f7.*'       '*.f5.*'   #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
 
@@ -19,6 +19,9 @@ git add -vv       '*.f[0-9].*'   '*.f1[0-9].*'  #   --dry-run    --dry-run    ##
 git add -vv   '2400-WIKI/*.md'
 
 git commit  -a -m    backup   #-before   # -v
+
+echo _____________ 60 _______________
+
 git push
 git show --name-only
 # $ [200~#dslkjfdskf bash: [200~#: command not found
