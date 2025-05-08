@@ -62,6 +62,9 @@ exampleString1=
 and also look at the various options join, ltrim etc.
 
 
+#{q}    AutoHotkey
+#{q}    RSIguard
+
 aaaaA   f8
 C:\Users\marti\OneDrive\autohotkey-ahk-219\experim-250505.f5.ahk
 

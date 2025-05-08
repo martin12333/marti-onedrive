@@ -417,6 +417,20 @@ Send {Text}%contents%
 
 
 
+$F12::
+{
+	Send, ^c
+	Send, {Left}
+	Sleep, 200
+contents := SubStr( Clipboard, 1, 255)  ;   100
+Send %contents%
+
+	return
+
+}
+
+
+
 
 
 ;============================== not chrome ==============================
