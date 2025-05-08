@@ -65,8 +65,11 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
 
-MsgBox % A_Clipboard
-MsgBox % A_ClipboardAll
+;;MsgBox % A_Clipboard
+MsgBox % StrLen( ClipboardAll  )
+MsgBox % ClipboardAll
+MsgBox % StrLen( Clipboard  )
+MsgBox % ( Clipboard  )
 MsgBox % "ADdasdsd"
 MsgBox  "ADdasdsd"
 
@@ -81,7 +84,9 @@ MsgBox  "ADdasdsd"
 
 ;$F9
 
-$F8::
+
+
+^!+#$F8::
 {
 	Send {Home}+{End}
 	;Send this is a test {Enter} , aaaa ; bbbb
@@ -103,9 +108,10 @@ $F8::
 
 ;============================== not chrome ==============================
 
+
 #IfWinActive ahk_exe code.exe
 
-$F9::
+^!+#$F9::
 {
 	;Send {Home}+{End}
 	;Send this is a test {Enter} , aaaa ; bbbb
@@ -120,7 +126,9 @@ $F9::
 	;Send, {Down}
 	Send, !{Tab}
 	Sleep, 460
-	Send, ^v
+
+	;Send, ^v
+
 	Send, {Enter}
 
 	return

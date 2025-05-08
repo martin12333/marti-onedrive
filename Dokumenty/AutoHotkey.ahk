@@ -46,6 +46,7 @@
 
 
 SetKeyDelay , 111, 122
+SetKeyDelay , 53, 37
 ;https://www.autohotkey.com/docs/v1/lib/SetKeyDelay.htm
 
 
@@ -400,7 +401,7 @@ $F10::
 	Sleep, 460
 
 	;Send, ^v
-contents := SubStr(A_Clipboard, 1, 255)  ;   100
+contents := SubStr( Clipboard, 1, 255)  ;   100
 Send % contents
 
 	Send, {Enter}

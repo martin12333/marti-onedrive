@@ -11,6 +11,12 @@ which ones of the following are correct ?
 
 file:///C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
 
+Window: C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk - AutoHotkey 
+v1.1.33.09
+[v1.1.35+]: A_Clipboard is an alias of Clipboard.
+https://www.autohotkey.com/docs/v1/AHKL_ChangeLog.htm
+
+
 
 
 # todo move to js queryObjects

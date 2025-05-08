@@ -12399,3 +12399,5 @@ explorer vscode-f8/dot.vscode---add-all/
 code snippets-227/hs/haskell.hs
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 C:\Users\marti\OneDrive\autohotkey-ahk-219\experim-250505.f5.ahk
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+C:\Users\marti\OneDrive\autohotkey-ahk-219\experim-250505.f5.ahk
