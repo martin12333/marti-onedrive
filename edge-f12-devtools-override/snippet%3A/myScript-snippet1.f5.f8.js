@@ -38,19 +38,21 @@
 88*888*88
 5
 
+
+
+
 typeof WebAssembly // obj
+typeof JSON // obj
+
 typeof WebAssembly.CompileError // func
 typeof WebAssembly.Exception
 typeof WebAssembly.Global
-
 typeof BigInt
 typeof Clipboard
 typeof Document
 typeof FileSystemHandle
-
 typeof SpeechSynthesisUtterance
 
-typeof JSON // obj
 
 
 
@@ -60,7 +62,7 @@ typeof JSON // obj
   var query = "emacs eev"
 //  window.open(searchEngine + "?q=" + query, '_blank');
 
-  console.log(
+console.log(
         this
         ,
         globalThis

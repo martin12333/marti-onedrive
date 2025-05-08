@@ -62,8 +62,17 @@ exampleString1=
 and also look at the various options join, ltrim etc.
 
 
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+
+# f12
+
 #{q}    AutoHotkey
 #{q}    RSIguard
+#q    edge
+
++^p    toggle terminal
+^{`}
+
 
 aaaaA   f8
 C:\Users\marti\OneDrive\autohotkey-ahk-219\experim-250505.f5.ahk

@@ -414,13 +414,33 @@ Send {Text}%contents%
 }
 
 
++^$F10::
+{
+	Send, ^c
+	Sleep, 200
+
+	Send, !{Tab}
+	Sleep, 460
+
+contents := Clipboard
+	;SubStr( Clipboard, 1, 255)  ;   100
+
+Send {Text}%contents%
+
+	Send, {Enter}
+
+	return
+
+}
+
 
 
 
 $F12::
 {
 	Send, ^c
-	Send, {Left}
+	;Send, {Left}
+	Send, {End}
 	Sleep, 200
 contents := SubStr( Clipboard, 1, 255)  ;   100
 Send %contents%
