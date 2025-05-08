@@ -9,7 +9,7 @@ C:/Users/marti/OneDrive/00/Robocopy---c-onedrive---d-mir.f5.cmd
 ##cmd '/'c echo dkjkkjkjkjkj
 ##cmd /c echo dkj
 ###exit
-git add -vv    --dry-run     '*.f[0-9].*'   '*.f7.*'       '*.f5.*'   #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
+git add -vv    --dry-run     '*.f[0-9].*'   '*.f1[0-9].*'     #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
 echo _____________ _______________
 git add -vv  '*.f8.*'   '*.f7.*'       '*.f5.*'   #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
 
