@@ -1,5 +1,6 @@
-// vsc ahk f9
+// vsc ahk    f10
 
+// {Space}
 // f8  ... ahk
 
 // ctrl-enter  in workspace : 0

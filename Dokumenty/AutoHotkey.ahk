@@ -402,7 +402,10 @@ $F10::
 
 	;Send, ^v
 contents := SubStr( Clipboard, 1, 255)  ;   100
-Send % contents
+
+;;;;;Send % contents
+;;SendText % contents
+Send {Text}%contents%
 
 	Send, {Enter}
 
