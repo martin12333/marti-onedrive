@@ -313,7 +313,7 @@ $Insert::
 ;TEST  test :   win+q a  AutoHotkey run the app ... it asks to reload this ahk file
 
 
-#p::
+#$p::
 {
 	Send, {Click 3}
 	Sleep, 400
@@ -325,7 +325,7 @@ $Insert::
 ;TEST  test :   win+q a  AutoHotkey run the app ... it asks to reload this ahk file
 
 
-#o::
+#$o::
 {
 	Send, {Click 3}
 	Sleep, 200
