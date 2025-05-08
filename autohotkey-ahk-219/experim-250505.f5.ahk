@@ -51,6 +51,25 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
 
+;Run Notepad
+
+
+;Send, This is a test{Enter}
+; 	;Send, {Enter}
+; 	;Sleep, 600
+
+
+
+
+
+
+
+
+MsgBox % A_Clipboard
+MsgBox % A_ClipboardAll
+MsgBox % "ADdasdsd"
+MsgBox  "ADdasdsd"
+
 
 
 ;============================== chrome ==============================
@@ -84,12 +103,7 @@ $F8::
 
 ;============================== not chrome ==============================
 
-#IfWinActive
-
 #IfWinActive ahk_exe code.exe
-
-
-;$F9
 
 $F9::
 {
@@ -114,16 +128,9 @@ $F9::
 }
 
 
+
 #IfWinActive
+;, subsequently-created hotkeys and hotstrings are not context-sensitive.
 
-; The second #IfWinActive is to indicate anything past this
-; point will work in any program.
-
-
-;Run Notepad
-
-
-;Send, This is a test{Enter}
-; 	;Send, {Enter}
-; 	;Sleep, 600
+MsgBox NOTHING
 

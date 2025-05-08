@@ -417,23 +417,17 @@ Send % contents
 
 ;============================== not chrome ==============================
 
+
+
+
 #IfWinActive
+;, subsequently-created hotkeys and hotstrings are not context-sensitive.
 
-; The second #IfWinActive is to indicate anything past this
-; point will work in any program.
-
-
-
+MsgBox NOTHING
 
 
 ; OLD
 ;	git add -vv  --dry-run  'Dokumenty234/Au*.ahk'
-
-
-
-
-
-
 
 
 
