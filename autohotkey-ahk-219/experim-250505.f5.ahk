@@ -64,6 +64,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
 
+; see also the AutoHotkey. window
 
 ;;MsgBox % A_Clipboard
 MsgBox % StrLen( ClipboardAll  )
@@ -96,7 +97,9 @@ MsgBox  "ADdasdsd"
 	Send, {AppsKey}
 	Send, {Down 5}
 
-	Send, {Enter}
+
+	;Send, {Enter}
+
 	Send, {Down}
 
 	return
@@ -127,9 +130,10 @@ MsgBox  "ADdasdsd"
 	Send, !{Tab}
 	Sleep, 460
 
+
 	;Send, ^v
 
-	Send, {Enter}
+	;Send, {Enter}
 
 	return
 
