@@ -128,16 +128,24 @@ C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 
 # f9  old.was.f12.old
 
-#{q}    AutoHotkey
-#{q}    RSIguard
+#{q}    AutoHotkey{Enter}
+;;#{q}    AutoHotkey
+;;;;;;;#{q}    AutoHotkey{Enter}{Enter}
+#{q}    RSIguard{Enter}
 #q    edge
 
-+^p    toggle terminal
+
+; secu?  after the macro,  i have to additionally press f1 and enter to get it working
++^p    toggle terminal{Enter}
+
+^{`}
+; old failed attempts
 +^p    toggle terminal{
 +^p    toggle terminal`
+
 +^p    toggle terminal#
 +^p    toggle terminal{aaaa
-^{`}
+
 
 
 
