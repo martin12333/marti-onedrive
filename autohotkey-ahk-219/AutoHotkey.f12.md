@@ -1,4 +1,29 @@
 
+
+
+
+- [Send, ^c](#send-c)
+- [file:///C:\\Users\\marti\\OneDrive\\Dokumenty\\AutoHotkey.ahk](#filecusersmartionedrivedokumentyautohotkeyahk)
+- [version](#version)
+- [todo move to js queryObjects](#todo-move-to-js-queryobjects)
+- [Type the following statement in the javascript console: debugger. Now you can inspect the global scope using the normal debug tools. To be ...](#type-the-following-statement-in-the-javascript-console-debugger-now-you-can-inspect-the-global-scope-using-the-normal-debug-tools-to-be-)
+- [windows gui automation animations](#windows-gui-automation-animations)
+- [old](#old)
+- [250505 - 507](#250505---507)
+- [f12](#f12)
+- [https://www.autohotkey.com/docs/v1/Program.htm#run](#httpswwwautohotkeycomdocsv1programhtmrun)
+- [https://www.autohotkey.com/docs/v1/Scripts.htm#cmd](#httpswwwautohotkeycomdocsv1scriptshtmcmd)
+- [https://www.autohotkey.com/docs/v1/Scripts.htm#debug](#httpswwwautohotkeycomdocsv1scriptshtmdebug)
+- [fail stdin](#fail-stdin)
+- [todo move to ps1 common pitfalls using the call operator?](#todo-move-to-ps1-common-pitfalls-using-the-call-operator)
+	- [find in files](#find-in-files)
+- [Autohotkey discord server](#autohotkey-discord-server)
+- [#falsealarm](#falsealarm)
+- [C:\\Users\\marti\\OneDrive\\autohotkey-ahk-219\\feiyue\\Mouse And Keyboard Macro Recorder - Page 8 - AutoHotkey Community.html](#cusersmartionedriveautohotkey-ahk-219feiyuemouse-and-keyboard-macro-recorder---page-8---autohotkey-communityhtml)
+
+
+#	Send, ^c
+
 ai
 AutoHotkey v1
 which ones of the following are correct ?
@@ -9,12 +34,49 @@ which ones of the following are correct ?
 
 	Send, ^c
 
-file:///C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
+# file:///C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
 
+# version
 Window: C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk - AutoHotkey 
 v1.1.33.09
 [v1.1.35+]: A_Clipboard is an alias of Clipboard.
 https://www.autohotkey.com/docs/v1/AHKL_ChangeLog.htm
+
+# update
+respnt
+pre upd ahk
+
+https://www.autohotkey.com/download/1.1/
+
+will have to check sha225 256 maybe vtotal just ttio see if known 
+e
+edge://downloads if https
+https://www.autohotkey.com/download/1.1/AutoHotkey_1.1.37.02_setup.exe.sha256
+
+https://www.autohotkey.com/download/1.1/AutoHotkey_1.1.37.02_setup.exe.sha256
+
+https://www.autohotkey.com/download/ahk-install.exe
+
+blob:chrome-extension://edppabbacdeekokfoaaggbjbefklcgek/f81440f1-1236-4261-84d3-aa9bde473b9b
+
+data:text/json;charset=utf-8,%7B%22marks%22%3A%5B%7B%22_id%22%3A%2268107a62c8fb1e8c1214c217%22%2C%22createdAt%22%3A1745910370471%2C%22updatedAt%22%3A0%2C%22_objectStore%22%3A%22marks%22%2C%22url%22%3A%22https%3A%2F%2Fwww.bing.com%2Fsearch%3Fq%3DTurn%2520on%2520or%2520off%2520Narrator%2520easily%2520windows%26form%3DB00032%26ocid%3DSettingsHAQ-BingIA%26mkt%3Den-US%22%2C%22tags%22%3A%5B%5D%2C%22text%22%3A%22In%20Windows%2010%2C%20press%20Windows%20logo%20key%20%2B%20Ctrl%20%2B%20Enter%20on%20your%20keyboard.%2
+
+
+
+## how to update autohotkey
+maybe close all instances of autohotkey
+
+
+restore point
+post upd ahk
+
+# autohotkey versions
+https://www.reddit.com/r/AutoHotkey/comments/1ak57lv/why_i_wont_migrate_from_v1_to_v2/
+> I use an extension of .ahk2 for v2 scripts. I then associate the extension with the autohotkey 2.0, so the correct version is called.
+
+https://www.reddit.com/r/AutoHotkey/comments/1h1nxxy/request_vscode_setup_for_users_running_v1_and_v2/
+
+https://www.autohotkey.com/docs/v2/Program.htm#launcher
 
 
 
@@ -107,6 +169,9 @@ file:///C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
 & "C:\Program Files\AutoHotkey\AutoHotkey.exe"      "*"   
 cmd
 C:\pf\AutoHotkey\AutoHotkey.exe  *
+C:\pf\AutoHotkey\AutoHotkey.exe  /script  *
+"C:\Program Files\AutoHotkey\AutoHotkey.exe" 
+"C:\Program Files\AutoHotkey\AutoHotkey.exe"  /ErrorStdOut  
 "C:\Program Files\AutoHotkey\AutoHotkey.exe"  /ErrorStdOut  *
 exit
 
@@ -142,14 +207,6 @@ https://discord.com/channels/115993023636176902/304708649748660224
 
 
 
-
-
-https://autohotkey.wiki/versions
-Should I choose v1 or v2?
-Original article by Lexikos
-
-Which version should I install?
-Install both.
 
 
 
