@@ -384,13 +384,15 @@ $Insert::
 #IfWinActive ahk_exe code.exe
 
 
-$F10::
+;$F10::
+$F12::
 {
-	;Send {Home}+{End}
+	Send {Home}+{End}
 	;Send this is a test {Enter} , aaaa ; bbbb
-	;Sleep, 200
+	Sleep, 200
 	Send, ^c
 	Sleep, 200
+	Send, {Down}
 	;Sleep, 460
 	;Send, {AppsKey}
 	;Send, {Down 5}
@@ -401,7 +403,7 @@ $F10::
 	Sleep, 460
 
 	;Send, ^v
-contents := SubStr( Clipboard, 1, 255)  ;   100
+contents := SubStr( Clipboard, 1, 255)  ;
 
 ;;;;;Send % contents
 ;;SendText % contents
@@ -410,11 +412,11 @@ Send {Text}%contents%
 	Send, {Enter}
 
 	return
-
 }
 
 
-+^$F10::
+;+^$F10::
++^$F12::
 {
 	Send, ^c
 	Sleep, 200
@@ -430,23 +432,23 @@ Send {Text}%contents%
 	Send, {Enter}
 
 	return
-
 }
 
 
 
 
-$F12::
+;$F12::
+$F9::
 {
 	Send, ^c
-	;Send, {Left}
-	Send, {End}
+	;;Send, {Left}
+	;Send, {End}
+	Send, {Down}
 	Sleep, 200
 contents := SubStr( Clipboard, 1, 255)  ;   100
 Send %contents%
 
 	return
-
 }
 
 
