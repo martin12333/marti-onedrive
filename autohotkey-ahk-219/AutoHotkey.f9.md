@@ -126,14 +126,20 @@ and also look at the various options join, ltrim etc.
 
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 
-# f9  old.was.f12
+# f9  old.was.f12.old
 
 #{q}    AutoHotkey
 #{q}    RSIguard
 #q    edge
 
 +^p    toggle terminal
++^p    toggle terminal{
++^p    toggle terminal`
++^p    toggle terminal#
++^p    toggle terminal{aaaa
 ^{`}
+
+
 
 
 aaaaA   f8

@@ -440,7 +440,12 @@ Send {Text}%contents%
 ;$F12::
 $F9::
 {
+	Send {Home}+{End}
+	Sleep, 200
+
 	Send, ^c
+	Sleep, 200
+
 	;;Send, {Left}
 	;Send, {End}
 	Send, {Down}

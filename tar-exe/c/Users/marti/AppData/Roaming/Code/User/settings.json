@@ -61,8 +61,7 @@
     // uz jsem to pridal do git
 
     "files.eol": "\n",
-    "files.trimTrailingWhitespace": true,
-    "files.autoSave": "afterDelay",
+	"files.trimTrailingWhitespace": true,
     "git.path": "C:/Program Files/Git/cmd/git.exe",
     "files.associations": {
 		"*.w": "scheme",
