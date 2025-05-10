@@ -451,8 +451,8 @@ $F9::
 	Send, {Down}
 	Sleep, 200
 contents := SubStr( Clipboard, 1, 255)  ;   100
-Send %contents%
-
+;Send %contents%
+Send %contents%{Enter}
 	return
 }
 

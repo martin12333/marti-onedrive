@@ -128,23 +128,30 @@ C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 
 # f9  old.was.f12.old
 
-#{q}    AutoHotkey{Enter}
-;;#{q}    AutoHotkey
+#{q}    AutoHotkey
+;;;;#{q}    AutoHotkey{Enter}
 ;;;;;;;#{q}    AutoHotkey{Enter}{Enter}
 #{q}    RSIguard{Enter}
+;;;#{q}    RSIguard{Enter}
 #q    edge
 
 
 ; secu?  after the macro,  i have to additionally press f1 and enter to get it working
-+^p    toggle terminal{Enter}
 
++^p    open url
++^p    toggle terminal
 ^{`}
-; old failed attempts
-+^p    toggle terminal{
-+^p    toggle terminal`
 
++^p    toggle terminal{
 +^p    toggle terminal#
 +^p    toggle terminal{aaaa
+
+; old failed attempts
+
++^p    toggle terminal`
++^p    toggle terminal%
+
++^p    toggle terminal{Enter}
 
 
 
