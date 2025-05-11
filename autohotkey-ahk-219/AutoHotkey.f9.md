@@ -164,7 +164,8 @@ Publisher: Yu Zhang
 VS Marketplace Link: https://marketplace.visualstudio.com/items/?itemName=yzhang.markdown-all-in-one
 
 
-
+open keyboard shortcuts
+ctrl v
 NOT LISTED BUILTIN extensions
 ## Name: Markdown Language Features
 Id: vscode.markdown-language-features
