@@ -137,7 +137,7 @@ C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 
 
 
-250511
+# 250511
 keybo
 markdown.extension.onBackspaceKey
 `markdown.extension.onBackspaceKey`
@@ -155,12 +155,29 @@ https://github.com/microsoft/vscode/issues/75627
 ![alt text](image-14.png)
 ![alt text](image-15.png)
 ![alt text](image-13.png)
-Name: Markdown Language Features
+
+## Name: Markdown All in One
+Id: yzhang.markdown-all-in-one
+Description: All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more)
+Version: 3.6.2
+Publisher: Yu Zhang
+VS Marketplace Link: https://marketplace.visualstudio.com/items/?itemName=yzhang.markdown-all-in-one
+
+
+
+NOT LISTED BUILTIN extensions
+## Name: Markdown Language Features
 Id: vscode.markdown-language-features
 Description: Provides rich language support for Markdown.
 Version: 1.0.0
 Publisher: vscode
 
+## Name: Foam
+Id: foam.foam-vscode
+Description: VS Code + Markdown + Wikilinks for your note taking and knowledge base
+Version: 0.25.12
+Publisher: Foam
+VS Marketplace Link: https://marketplace.visualstudio.com/items/?itemName=foam.foam-vscode
 
 
 
