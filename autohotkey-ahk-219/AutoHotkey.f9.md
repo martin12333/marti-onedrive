@@ -136,8 +136,37 @@ C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 #q    edge
 
 
+
+250511
+keybo
+markdown.extension.onBackspaceKey
+`markdown.extension.onBackspaceKey`
+https://github.com/yzhang-gh/vscode-markdown/issues/200
+Workaround Delete key bindings for the markdown.extension.onBackspaceKey command. This effectively removes some of our list editing features. This issue cannot be resolved in foreseeable future due to how input is handled. https://markdo...
+[https://markdown-all-in-one.github.io/docs/guide/compatibility.html](https://markdown-all-in-one.github.io/docs/guide/compatibility.html)
+
+https://github.com/microsoft/vscode/issues/75627
+[text](https://github.com/microsoft/vscode/issues/75627)
+![alt text](image-1.png)
+// To improve performance
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  }
+![alt text](image-14.png)
+![alt text](image-15.png)
+![alt text](image-13.png)
+Name: Markdown Language Features
+Id: vscode.markdown-language-features
+Description: Provides rich language support for Markdown.
+Version: 1.0.0
+Publisher: vscode
+
+
+
+
 ; secu?  after the macro,  i have to additionally press f1 and enter to get it working
 
++^p    open keyboard
 +^p    open url
 +^p    toggle terminal
 ^{`}

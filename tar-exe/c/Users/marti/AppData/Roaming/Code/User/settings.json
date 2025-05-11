@@ -405,6 +405,10 @@
 		"Jirka"
 	],
 	"files.autoSave": "afterDelay",
+	"editor.pasteAs.preferences": ["text.plain"
+
+	],
+	"markdown.extension.math.enabled": false,
 
 	// DONT FORGET THE COMMA AFTER EACH SETTING
 // related file:///C:\Users\marti\OneDrive\tar-exe\c\Users\marti\AppData\Roaming\Code\User\settings.json
