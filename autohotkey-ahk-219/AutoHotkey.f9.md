@@ -327,29 +327,43 @@ C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 ** file:///C:\Users\marti\OneDrive\hello-executecommand--robocopy
 
 
-* file:///C:\Users\marti\OneDrive\00\2504\Commands - Advanced URI Documentation - Obsidian Publish.md
+ file:///C:\Users\marti\OneDrive\00\2504\Commands - Advanced URI Documentation - Obsidian Publish.md
 
-* file:///C:\Users\marti\OneDrive\00\Clippings\jeff-hykinmacro-commander ?? ?? ? Automate everything in VS code.md
+ file:///C:\Users\marti\OneDrive\00\Clippings\jeff-hykinmacro-commander  Automate everything in VS code.md
 
 file:///C:\Users\marti\OneDrive\00\Clippings\The Command Line API for Fun and Profit.md
+ file:///C:\Users\marti\OneDrive\00\Clippings\The Command Line API for Fun and Profit - Obsidian Publish.md
+
+ file:///C:\Users\marti\OneDrive\powershell-f8\stackoverflow-676714165--powershell-stripping-double-quotes-from-command-line-arguments.f8.ps1
 
 
-* file:///C:\Users\marti\OneDrive\00\Clippings\The Command Line API for Fun and Profit - Obsidian Publish.md
-
-* file:///C:\Users\marti\OneDrive\powershell-f8\stackoverflow-676714165--powershell-stripping-double-quotes-from-command-line-arguments.f8.ps1
-
-
-* file:///C:\Users\marti\OneDrive\snippets-227\f1-command-palette.mmon1
+ file:///C:\Users\marti\OneDrive\snippets-227\f1-command-palette.mmon1
 
 * file:///C:\Users\marti\OneDrive\vscode-f8\command-colon--vscode-colon-url.f8.md
 
-* file:///C:\Users\marti\OneDrive\vscode-f8\ps1--fail--command-colon-url.f8.ps1
+ file:///C:\Users\marti\OneDrive\vscode-f8\ps1--fail--command-colon-url.f8.ps1
 
 
 
 
 
-; secu?  after the macro,  i have to additionally press f1 and enter to get it working
+
+# adda
+
+[text](../textutils.node-218/myselect/_mapping.js)
+c:\Users\marti\OneDrive\textutils.node-218\myselect\_mapping.js
+
+paste as
+
+
+# keyb shortcuts   disabled extenstions
+or paste to non md
+
+javascript.js.f8.md.md1
+
+
+
+# ; secu?  after the macro,  i have to additionally press f1 and enter to get it working
 
 +^p    open keyboard
 +^p    open url

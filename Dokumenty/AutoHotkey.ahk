@@ -456,11 +456,35 @@ Send %contents%{Enter}
 	return
 }
 
-
-
-
-
 ;============================== not chrome ==============================
+
+
+
+
+
+#IfWinActive ahk_exe totalcmd64.exe
+
+$F10::
+{
+
+	Send, ^c
+	Sleep, 200
+
+	Send !{Tab}
+	;Send {Alt}{Tab}
+	Sleep, 500
+
+	Send, ^v
+	Sleep, 200
+
+	;Send, {Enter}
+	;;Send, {Left}
+	;Send, {End}
+	Send, {Down}
+	Sleep, 200
+
+	return
+}
 
 
 
@@ -469,6 +493,10 @@ Send %contents%{Enter}
 ;, subsequently-created hotkeys and hotstrings are not context-sensitive.
 
 MsgBox NOTHING
+
+
+
+
 
 
 ; OLD
