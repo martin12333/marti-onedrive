@@ -1,6 +1,9 @@
 
 
+code  hello-debugger-onedr\
 
+
+# other
 ts
 c:\Users\marti\OneDrive\scriptbox-master-1dr-also-nemaster\src\extension.ts
 
@@ -8,24 +11,34 @@ c:\Users\marti\OneDrive\scriptbox-master-1dr-also-nemaster\src\extension.ts
 rename to .txt for pasting
 
 
-# https://readwithai.substack.com/p/exploring-obsidians-app-object-from
+# other  https://readwithai.substack.com/p/exploring-obsidians-app-object-from
 
 fail
 g exploring vscode app object from devtools
 g exploring vscode app object from extension-host devtools
 
 
-# obsidian://open?vault=00&file=Clippings%2Fjeff-hykinmacro-commander%20%F0%9F%92%BE%20%F0%9F%93%A6%20%E2%9C%85%20Automate%20everything%20in%20VS%20code
+# 250512  # obsidian://open?vault=00&file=Clippings%2Fjeff-hykinmacro-commander%20%F0%9F%92%BE%20%F0%9F%93%A6%20%E2%9C%85%20Automate%20everything%20in%20VS%20code
 
+
+code  hello-debugger-onedr\
 
 
 - the ==`vscode` object: (`
 vscode.commands
 
 `, `
-vscode.env
 `, `
 vscode.workspace
+
+vscode.env
+
+  1087:    * Note that there is `vscode.workspace.findFiles` which finds all files matching a given pattern
+   546:     let document = await vscode.workspace.openTextDocument(options)
+
+
+
+
 
 `, `vscode.tasks`, etc.) is documented here: [https://code.visualstudio.com/api/](https://code.visualstudio.com/api/)
 
@@ -34,10 +47,21 @@ vscode.workspace
 
 
 
-| $selectionText              | ==window.activeTextEditor.document.getText(window.activeTextEditor.selection)          |
+| $selectionText              | ==
+/////window.activeTextEditor.document
+vscode.window.activeTextEditor.document
+vscode.window.activeTextEditor
+
+
+
+.getText(window.activeTextEditor.selection)          |
 | --------------------------- | -------------------------------------------------------------------------------------- |
 | $clipboardText              |
- vscode.env.clipboard.readText()                                                        |
+vscode.env.clipboard.readText() 
+                                                       |
+vscode.env.clipboard.readText() vscode.env.clipboard.readText() 
+| $editorText                | ==window.activeTextEditor.document.getText()                                         |
+| $editorTextLine            | ==window.activeTextEditor.document.lineAt(window.activeTextEditor.selection.start.line).text |
 
 
 
@@ -45,16 +69,80 @@ vscode.workspace
 
 ## e Useful JavaScript (assuming: const doc = ==window.activeTextEditor.document)
 
+
+
+activeTextEditor
+
+code  hello-debugger-onedr\
+
+  21: 	console.log(vscode.window.activeTextEditor);
+
+scriptbox-master-1dr-also-nemaster\src\extension.ts:
+
+scriptbox-scripts--selected\attempt1.js:
+
+
+
+
+
+
+
+
 | ==Document text | The entire text                    | ==doc.getText()                                                                   |
 | --------------- | ---------------------------------- | --------------------------------------------------------------------------------- |
 
 doc.lineCount
-
-
-
                 "var oldClip = await vscode.env.clipboard.readText(); ",    
+
+
+
+
+# executeCommand
+
+
+#code C:\Users\marti\OneDrive\hello-executecommand--robocopy\extension.js
+#file:///C:\Users\marti\OneDrive\hello-executecommand--robocopy\extension.js
+copied to hello-debugger
+
+
                 "await vscode.commands.executeCommand('editor.action.clipboardCopyAction'); ",
+code  hello-debugger-onedr
+\extension.js:
+hello-executecommand--robocopy\extension.js:
   
+  17: vscode.commands.executeCommand('breadcrumbs.toggle')
+  15: vscode.commands.executeCommand('editor.action.toggleMinimap')
+   563:     await E.executeCommand('cursorWordStartRightSelect')
+   579:     E.executeCommand('lineBreakInsert')
+   724:   E.startOfLineSelect = () => E.executeCommand('cursorLineStartSelect')
+
+   783     */
+   784:   E.copy = () => Promise.resolve(E.executeCommand('execCopy')).then(E.clipboardRead)
+   785  
+
+   794     */
+   795:   E.cut = () => Promise.resolve(E.executeCommand('execCut')).then(E.clipboardRead)
+   796  
+
+   805     */
+   806:   E.paste = () => Promise.resolve(E.executeCommand('execPaste')).then(E.clipboardRead)
+   807  
+
+
+   
+   973     * // Show every key stroke I press in a nice large pane near the middle-bottom of my screen!
+   974:    * E.executeCommand('workbench.action.toggleScreencastMode')
+   975     *
+   976     * // We can pass-in arguments as well:
+   977:    * E.executeCommand('workbench.action.findInFiles', {
+   978     * query: "Hello!",
+
+  1033:     activityBar: () => E.executeCommand('workbench.action.toggleActivityBarVisibility'),
+
+
+  1020:     panel: () => E.executeCommand('workbench.action.togglePanel'),
+
+
   "editor.action.clipboardCopyAction"
   
                 "var testoSelezionato = await vscode.env.clipboard.readText(); ",   
@@ -79,9 +167,16 @@ doc.lineCount
             ]
 
 
+
+
+
+
+
+
+
 # totalcmd64	    
 
-
+oldest
 
 c:\Users\marti\OneDrive\textutils.node-218\myselect\_mapping.js
 
