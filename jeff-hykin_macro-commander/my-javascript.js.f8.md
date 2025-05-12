@@ -1,19 +1,85 @@
 
 
+
+ts
+c:\Users\marti\OneDrive\scriptbox-master-1dr-also-nemaster\src\extension.ts
+
+
 rename to .txt for pasting
 
 
-https://readwithai.substack.com/p/exploring-obsidians-app-object-from
+# https://readwithai.substack.com/p/exploring-obsidians-app-object-from
 
 fail
 g exploring vscode app object from devtools
 g exploring vscode app object from extension-host devtools
 
 
+# obsidian://open?vault=00&file=Clippings%2Fjeff-hykinmacro-commander%20%F0%9F%92%BE%20%F0%9F%93%A6%20%E2%9C%85%20Automate%20everything%20in%20VS%20code
 
-- the ==`vscode` object: (`vscode.commands`, `vscode.env`, `vscode.workspace`, `vscode.tasks`, etc.) is documented here: [https://code.visualstudio.com/api/](https://code.visualstudio.com/api/)
 
 
+- the ==`vscode` object: (`
+vscode.commands
+
+`, `
+vscode.env
+`, `
+vscode.workspace
+
+`, `vscode.tasks`, etc.) is documented here: [https://code.visualstudio.com/api/](https://code.visualstudio.com/api/)
+
+
+{f1}  search find in files
+
+
+
+| $selectionText              | ==window.activeTextEditor.document.getText(window.activeTextEditor.selection)          |
+| --------------------------- | -------------------------------------------------------------------------------------- |
+| $clipboardText              |
+ vscode.env.clipboard.readText()                                                        |
+
+
+
+
+
+## e Useful JavaScript (assuming: const doc = ==window.activeTextEditor.document)
+
+| ==Document text | The entire text                    | ==doc.getText()                                                                   |
+| --------------- | ---------------------------------- | --------------------------------------------------------------------------------- |
+
+doc.lineCount
+
+
+
+                "var oldClip = await vscode.env.clipboard.readText(); ",    
+                "await vscode.commands.executeCommand('editor.action.clipboardCopyAction'); ",
+  
+  "editor.action.clipboardCopyAction"
+  
+                "var testoSelezionato = await vscode.env.clipboard.readText(); ",   
+
+                "var nuovoTesto = testoSelezionato.replace(/gatta/g, '##########'); ",   
+
+
+
+                "const myOutput = window.createOutputChannel('MyLog'); ",   
+
+
+		"const editor = window.activeTextEditor;",
+                "const newSelections = editor.selections.slice(0, editor.selections.length - 1);",
+                "editor.selections = newSelections;"
+
+
+
+		                    "myEditor.edit(myEditBuilder => { ",
+
+
+{"command": "type", "args": {"text": "mySnippetPrefixHere"}}, "insertSnippet" \]				    
+            ]
+
+
+# totalcmd64	    
 
 
 
@@ -174,4 +240,6 @@ easy-extensibility--f8/inter1965--JUNCT-TARGET/easy-extensibility/init.js
 
 
 lock rsi
+
+
 
