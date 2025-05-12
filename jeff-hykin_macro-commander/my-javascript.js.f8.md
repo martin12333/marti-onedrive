@@ -1,5 +1,21 @@
 
 
+rename to .txt for pasting
+
+
+https://readwithai.substack.com/p/exploring-obsidians-app-object-from
+
+fail
+g exploring vscode app object from devtools
+g exploring vscode app object from extension-host devtools
+
+
+
+- the ==`vscode` object: (`vscode.commands`, `vscode.env`, `vscode.workspace`, `vscode.tasks`, etc.) is documented here: [https://code.visualstudio.com/api/](https://code.visualstudio.com/api/)
+
+
+
+
 
 c:\Users\marti\OneDrive\textutils.node-218\myselect\_mapping.js
 
