@@ -123,7 +123,7 @@ exampleString1=
   MsgBox % ">" exampleString1 "<" 
 and also look at the various options join, ltrim etc.
 
-
+# backup
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 
 # f9  old.was.f12.old
@@ -298,6 +298,113 @@ Description: VS Code + Markdown + Wikilinks for your note taking and knowledge b
 Version: 0.25.12
 Publisher: Foam
 VS Marketplace Link: https://marketplace.visualstudio.com/items/?itemName=foam.foam-vscode
+
+
+
+
+
+
+{
+  "key": "f1",
+  "command": "workbench.action.showCommands"
+}
+
+@command:editor.action.pasteAs
+
+{
+  "key": "",
+  "command": "editor.action.pasteAs"
+}
+
+
+# cmd /c dir /b *command*  /s |clip
+
+** C:\Users\marti\OneDrive\hello-executecommand--robocopy
+
+
+* C:\Users\marti\OneDrive\00\2504\Commands - Advanced URI Documentation - Obsidian Publish.md
+
+* C:\Users\marti\OneDrive\00\Clippings\jeff-hykinmacro-commander ?? ?? ? Automate everything in VS code.md
+
+C:\Users\marti\OneDrive\00\Clippings\The Command Line API for Fun and Profit.md
+C:\Users\marti\OneDrive\2400-WIKI\docs\features\commands.md
+
+C:\Users\marti\OneDrive\a,complangs-215-hyperpoly\Command Line Interpreters_ POSIX Shell, Cmd.exe, PowerShell - Hyperpolyglot.html
+C:\Users\marti\OneDrive\AAAdesk20-tibx-vhdx-boot-onedr\boot\grub\x86_64-efi\command.lst
+C:\Users\marti\OneDrive\cowasm\661-issue--after-cat-FILENAME--following-commands-fail.f8.py
+
+C:\Users\marti\OneDrive\cowasm\for a list of commands, including python.sql
+C:\Users\marti\OneDrive\cowasm\in npx dash-wasm_ after the cat command, subsequent commands have problems with stdout ┬╖ Issue #49 ┬╖ sagemathinc_cowasm.html
+C:\Users\marti\OneDrive\cowasm\in npx dash-wasm_ after the cat command, subsequent commands have problems with stdout ┬╖ Issue #49 ┬╖ sagemathinc_cowasm22.html
+
+C:\Users\marti\OneDrive\cowasm\output--661-issue--after-cat-FILENAME--following-commands-fail.f8.py
+
+C:\Users\marti\OneDrive\Desktop\Total Commander 64 bit - Copy.lnk
+C:\Users\marti\OneDrive\Desktop\Total Commander 64 bit.lnk
+C:\Users\marti\OneDrive\Desktop\x64 Native Tools Command Prompt for VS 2022.lnk
+C:\Users\marti\OneDrive\Desktop\0004-LINKS\00linkDIRS\Quick Launch\User Pinned\TaskBar\Total Commander 64 bit.lnk
+C:\Users\marti\OneDrive\Desktop\ALINKS\Total Commander 64 bit - Copy.lnk
+C:\Users\marti\OneDrive\doku-docu-234-bkup\Dokumenty\RCommander.R
+C:\Users\marti\OneDrive\Dokumenty\RCommander.R
+C:\Users\marti\OneDrive\Dokumenty\KOREN\RCommander - Copy.R
+C:\Users\marti\OneDrive\Dokumenty\PINNED--copies\RCommander.R
+C:\Users\marti\OneDrive\emacs-init\emacs-keybinding-command-tooltip-mode.el
+
+C:\Users\marti\OneDrive\git-bash-dotfiles\RCommander.R
+C:\Users\marti\OneDrive\git-bash-dotfiles\RCommanderMarkdown.Rmd
+C:\Users\marti\OneDrive\hyperpolyglot----PANDAS\Command Line Interpreters_ POSIX Shell, Cmd.exe, PowerShell - Hyperpolyglot.html.csv
+C:\Users\marti\OneDrive\hyperpolyglot--html-backup\Command Line Interpreters_ POSIX Shell, Cmd.exe, PowerShell - Hyperpolyglot.html
+C:\Users\marti\OneDrive\js-shell-22a\browserPOSIX number of commands - Sheet1 (1).tsv
+C:\Users\marti\OneDrive\jupyter-polyglot-notebooks-dotnet-interactive-csi-js\x64 Native Tools Command Prompt for VS 2022 - pwsh.txt
+C:\Users\marti\OneDrive\jupyter-polyglot-notebooks-dotnet-interactive-csi-js\synt\magic-commands.language-configuration.json
+C:\Users\marti\OneDrive\jupyter-polyglot-notebooks-dotnet-interactive-csi-js\synt\source.dotnet-interactive.magic-commands.tmGrammar.json
+
+C:\Users\marti\OneDrive\ohayo-22a\commandLineApp
+C:\Users\marti\OneDrive\ohayo-22a\commandLineApp\commandLineApp.node.ts
+C:\Users\marti\OneDrive\ohayo-22a\commandLineApp\commandLineApp.test.ts
+C:\Users\marti\OneDrive\ohayo-22a\products\commandLineApp.node.js
+
+C:\Users\marti\OneDrive\OLDgit-bash-dotfiles - Copyl\RCommander.R
+C:\Users\marti\OneDrive\OLDgit-bash-dotfiles - Copyl\RCommanderMarkdown.Rmd
+C:\Users\marti\OneDrive\overwrite\hyperpolyglot--html-backup\Command Line Interpreters_ POSIX Shell, Cmd.exe, PowerShell - Hyperpolyglot.html.csv
+C:\Users\marti\OneDrive\podman-contai-minimal\browserPOSIX number of commands - Sheet1 (1).tsv
+
+* C:\Users\marti\OneDrive\powershell-f8\stackoverflow-676714165--powershell-stripping-double-quotes-from-command-line-arguments.f8.ps1
+
+
+C:\Users\marti\OneDrive\R-MRAN-218\RCommander.R
+C:\Users\marti\OneDrive\R-MRAN-218\RCommanderMarkdown.Rmd
+C:\Users\marti\OneDrive\r-project\RCommander.R
+C:\Users\marti\OneDrive\redhat.vscode-didact\vscode-didact.wiki\Available-Commands-in-Didact-and-Elsewhere.md
+C:\Users\marti\OneDrive\redhat.vscode-didact\vscode-didact.wiki\Images\didact-view-command-palette-example.png
+C:\Users\marti\OneDrive\redhat.vscode-didact\vscode-didact.wiki\Images\didact-view-command-palette-example2.png
+C:\Users\marti\OneDrive\roam-ms-wi-sta-p-startup\2\Total Commander 64 bit.lnk
+C:\Users\marti\OneDrive\roam-ms-wi-sta-p-startup\3\Total Commander 64 bit.lnk
+C:\Users\marti\OneDrive\roam-ms-wi-sta-p-startup\non-minimized\Total Commander 64 bit.lnk
+C:\Users\marti\OneDrive\roam-ms-wi-sta-p-startup\startup-244h-11\jako-zarem\Total Commander 64 bit.lnk
+C:\Users\marti\OneDrive\roam-ms-wi-sta-p-startup - Copy\Total Commander 64 bit.lnk
+C:\Users\marti\OneDrive\roam-ms-wi-sta-p-startup - Copy\2\Total Commander 64 bit.lnk
+C:\Users\marti\OneDrive\roam-ms-wi-sta-p-startup - Copy\3\Total Commander 64 bit.lnk
+C:\Users\marti\OneDrive\roam-ms-wi-sta-p-startup - Copy (2)\Total Commander 64 bit.lnk
+C:\Users\marti\OneDrive\roam-ms-wi-sta-p-startup - Copy (2)\2\Total Commander 64 bit.lnk
+C:\Users\marti\OneDrive\roam-ms-wi-sta-p-startup - Copy (2)\3\Total Commander 64 bit.lnk
+C:\Users\marti\OneDrive\rosettaCode\Simple Unix commandline tools written in.txt
+
+* C:\Users\marti\OneDrive\snippets-227\f1-command-palette.mmon1
+C:\Users\marti\OneDrive\stackblitz-WebContainer\browserPOSIX number of commands - Sheet1 (1).tsv
+C:\Users\marti\OneDrive\stackblitz-WebContainer\browserPOSIX number of commands - Sheet1.tsv
+
+* C:\Users\marti\OneDrive\vscode-f8\command-colon--vscode-colon-url.f8.md
+
+* C:\Users\marti\OneDrive\vscode-f8\ps1--fail--command-colon-url.f8.ps1
+
+
+C:\Users\marti\OneDrive\vscode-zsh-bash-gitbash-pwsh\subcommands-Untitled-1.json
+C:\Users\marti\OneDrive\wasm,wasi-vdr20\AAwasm,wasi\emscri\Level up command-line playgrounds with WebAssembly _ Opensource.com.html
+
+C:\Users\marti\OneDrive\wisp-path\examples\commandline-handling.scm
+C:\Users\marti\OneDrive\wisp-path\examples\commandline-handling.w
+
 
 
 
