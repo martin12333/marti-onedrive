@@ -144,9 +144,40 @@ C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 #{q}    AutoHotkey
 ;;;;#{q}    AutoHotkey{Enter}
 ;;;;;;;#{q}    AutoHotkey{Enter}{Enter}
-#{q}    RSIguard{Enter}
+#{q}    RSIguard
+{Enter}
 ;;;#{q}    RSIguard{Enter}
 #q    edge
+
+;;;;;;;;{win}q     AutoHotkey
+q     AutoHotkey
+;;;;;;;;;;;;;{winl}q     AutoHotkey
+q     AutoHotkey
+;;;;{lwin}q         AutoHotkey
+#{q}    AutoHotkey
+
+Add-Type -AssemblyName System.Windows.Forms
+[System.Windows.Forms.SendKeys]::SendWait('%{TAB}')
+###[System.Windows.Forms.SendKeys]::SendWait('{ALT}{TAB}')
+
+
+
+
+
+# But now you are wondering "How can I make my really long Send commands readable?". Easy. Use what is known as a continuation section. Simply specify an opening parenthesis on a new line, then your content, finally a closing parenthesis on its own line. For more information, read about Continuation Sections.
+
+Send,
+(
+Line 1
+Line 2
+Apples are a fruit.
+)
+
+
+The default behavior of a continuation section can be overridden by including one or more of the following options to the right of the section's opening parenthesis. If more than one option is present, separate each one from the previous with a space. For example: ( LTrim Join| %.
+
+Comments (or Comment or Com or C) [v1.0.45.03+]: Allows semicolon comments inside the continuation section (but not /*..*/). Such comments (along with any spaces and tabs to their left) are entirely omitted from the joined result rather than being treated as literal text. Each comment can appear to the right of a line or on a new line by itself.
+
 
 
 

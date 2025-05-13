@@ -12420,3 +12420,9 @@ D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe
 D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe *
 D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe /script *
 D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe /ErrorStdOut *
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+Add-Type -AssemblyName System.Windows.Forms
+[System.Windows.Forms.SendKeys]::SendWait('%{TAB}')
+[System.Windows.Forms.SendKeys]::SendWait('{alt}{TAB}')
+[System.Windows.Forms.SendKeys]::SendWait('{ALT}{TAB}')
+{lwin}q     AutoHotkey
