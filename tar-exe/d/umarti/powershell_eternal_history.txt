@@ -12414,3 +12414,9 @@ C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 code  hello-debugger-onedr\
 code  hello-debugger-onedr
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+cd d:\instu
+bash
+D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe
+D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe *
+D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe /script *
+D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe /ErrorStdOut *

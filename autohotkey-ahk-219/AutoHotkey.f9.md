@@ -42,13 +42,26 @@ v1.1.33.09
 [v1.1.35+]: A_Clipboard is an alias of Clipboard.
 https://www.autohotkey.com/docs/v1/AHKL_ChangeLog.htm
 
+
+# trying zip without update
+respnt
+pre run ahk zip
+
+cd d:\instu
+bash
+sha256sum  AutoHotkey_1*
+6F3663F7CDD25063C8C8728F5D9B07813CED8780522FD1F124BA539E2854215F
+^c^f
+exit
+
+
 # update
 respnt
 pre upd ahk
 
 https://www.autohotkey.com/download/1.1/
 
-will have to check sha225 256 maybe vtotal just ttio see if known 
+will have to check sha256 maybe vtotal just ttio see if known 
 e
 edge://downloads if https
 https://www.autohotkey.com/download/1.1/AutoHotkey_1.1.37.02_setup.exe.sha256
@@ -424,6 +437,12 @@ C:\pf\AutoHotkey\AutoHotkey.exe  /script  *
 "C:\Program Files\AutoHotkey\AutoHotkey.exe"  /ErrorStdOut  *
 exit
 
+D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe
+D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe *
+D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe /script *
+D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe /ErrorStdOut *
+
+
 # todo move to ps1 common pitfalls using the call operator?  
 ⚠️ 3. Using single quotes when variable expansion is needed
 
@@ -448,7 +467,7 @@ C:\PF\AutoHotkey\AutoHotkey.exe /?
 C:\PF\AutoHotkey\AutoHotkey.exe  --help
 
 
-
+D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe
 
 
 # Autohotkey discord server
