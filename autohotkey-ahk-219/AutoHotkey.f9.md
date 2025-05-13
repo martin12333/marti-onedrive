@@ -352,7 +352,7 @@ file:///C:\Users\marti\OneDrive\00\Clippings\The Command Line API for Fun and Pr
 
 [text](../textutils.node-218/myselect/_mapping.js)
 c:\Users\marti\OneDrive\textutils.node-218\myselect\_mapping.js
-
+{q}
 paste as
 
 

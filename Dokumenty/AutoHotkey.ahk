@@ -464,7 +464,7 @@ Send %contents%{Enter}
 
 #IfWinActive ahk_exe totalcmd64.exe
 
-$F10::
+^!+#$F10::
 {
 
 	Send, ^c
@@ -524,3 +524,4 @@ MsgBox NOTHING
 
 ; ^`    f1 togg terminal
 ; git commit
+
