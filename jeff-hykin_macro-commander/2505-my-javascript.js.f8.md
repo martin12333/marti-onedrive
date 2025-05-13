@@ -100,9 +100,14 @@ doc.lineCount
 # executeCommand
 
 
-#code C:\Users\marti\OneDrive\hello-executecommand--robocopy\extension.js
-#file:///C:\Users\marti\OneDrive\hello-executecommand--robocopy\extension.js
+old #code C:\Users\marti\OneDrive\hello-executecommand--robocopy\extension.js
+copied
+		//// zivy 10s blbne ? debugger;      ?????
+old #file:///C:\Users\marti\OneDrive\hello-executecommand--robocopy\extension.js
 copied to hello-debugger
+file:///C:\Users\marti\OneDrive\hello-debugger-onedr\executecommand--extension.js
+
+
 
 
                 "await vscode.commands.executeCommand('editor.action.clipboardCopyAction'); ",
