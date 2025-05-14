@@ -1,5 +1,24 @@
 
 
+
+
+# 250514
+dim vscode f1 file  {backspace}
+_
+0-9
+a-z
+
+""
+"0004"
+"aaa"
+
+
+?
+
+
+
+
+
 code  hello-debugger-onedr\
 
 

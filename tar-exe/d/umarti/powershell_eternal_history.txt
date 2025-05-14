@@ -12426,3 +12426,5 @@ Add-Type -AssemblyName System.Windows.Forms
 [System.Windows.Forms.SendKeys]::SendWait('{alt}{TAB}')
 [System.Windows.Forms.SendKeys]::SendWait('{ALT}{TAB}')
 {lwin}q     AutoHotkey
+[System.Windows.Forms.SendKeys]::SendWait('%{TAB}')
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
