@@ -149,12 +149,46 @@ C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 ;;;#{q}    RSIguard{Enter}
 #q    edge
 
-;;;;;;;;{win}q     AutoHotkey
+
+# bug 250513
+
+#{q}    AutoHotkey
+
+;;;;{lwin}q         AutoHotkey
+;;;;;;;;;;;;;;;{win}q     AutoHotkey
 q     AutoHotkey
 ;;;;;;;;;;;;;{winl}q     AutoHotkey
 q     AutoHotkey
-;;;;{lwin}q         AutoHotkey
-#{q}    AutoHotkey
+
+;;;;;;{alt}{tab}aaaaaaaaaaaaa{enter}
+;;;;;;{lalt}{tab}aaaaaaaaaaaaa{enter}
+;;;;;;{Alt}{Tab}aaaaaaaaaaaaa{enter}
+	aaaaaaaaaaaaa
+!{tab}aaaaaaaaaaaaa{enter}
+
+Control Panel\Hardware and Sound\Power Options\Edit Plan Settings
+
+zamackly shift ... press shift once more
+aaaaaaaaaaaaa
+
+
+;;;;;;;;;;;;^{shift}p
+p
++^p
++^p{
+
+
+
+
+# 
+
+#q         Settings
+set 
+night light
+
+
+
+#q              Edit power plan
 
 Add-Type -AssemblyName System.Windows.Forms
 [System.Windows.Forms.SendKeys]::SendWait('%{TAB}')

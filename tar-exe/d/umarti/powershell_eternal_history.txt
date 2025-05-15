@@ -12428,3 +12428,4 @@ Add-Type -AssemblyName System.Windows.Forms
 {lwin}q     AutoHotkey
 [System.Windows.Forms.SendKeys]::SendWait('%{TAB}')
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+{lalt}{tab}aaaaaaaaaaaaa{enter}
