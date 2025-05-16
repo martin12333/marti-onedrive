@@ -3694,3 +3694,6 @@ dir *.exe
 & '.\Reader_en_install.exe' /?
 cmd
 pwsh
+cmd
+bash
+exit

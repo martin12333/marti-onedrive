@@ -12437,3 +12437,9 @@ echo MsgBox test successful | C:\pf\AutoHotkey\AutoHotkey.exe  /ErrorStdOut  *
 echo MsgBox test successful |  D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe  *
 (echo MsgBox a & echo MsgBox b) | C:\pf\AutoHotkey\AutoHotkey.exe  *
 cmd
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+C:\Users\marti\OneDrive\autohotkey-ahk-219\namedpipe.f5.ahk
+C:\Users\marti\OneDrive\autohotkey-ahk-219\namedpipe.f5.ahk
+exit
+powershell
+bash

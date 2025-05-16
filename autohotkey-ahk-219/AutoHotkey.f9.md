@@ -543,6 +543,8 @@ D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe /ErrorStdOut *
 
 
 # better error in ps, works in cmd
+
+powershell
 exit
 cmd
 echo MsgBox test successful | C:\pf\AutoHotkey\AutoHotkey.exe  *
@@ -551,10 +553,30 @@ echo MsgBox test successful | C:\pf\AutoHotkey\AutoHotkey.exe  /ErrorStdOut  *
 
 echo MsgBox test successful |  D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe /ErrorStdOut *
 echo MsgBox test successful |  D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe  *
+echo MsgBox test successful |  D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyA32.exe  *
+
+# BOM???
+{echo MsgBox a ; echo MsgBox b} | C:\pf\AutoHotkey\AutoHotkey.exe  *
+
+cmd
+
+(echo MsgBox a & pause & echo MsgBox b) | C:\pf\AutoHotkey\AutoHotkey.exe  *
+(echo MsgBox a & pause & echo MsgBox b) | C:\pf\AutoHotkey\AutoHotkey.exe  *
+exit
+exit
+
+bash
+echo MsgBox test successful |  'D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyA32.exe' '*'
+echo MsgBox test successful |  'D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe' '*'
+{ echo MsgBox a ; echo MsgBox b}  |  'D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe' '*'
+( echo MsgBox a ; echo MsgBox b   )  |  'D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe' '*'
+( echo MsgBox a ;   echo MsgBox b ; echo aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;  read x;   )  |  'D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe' '*'
 
 
 
-(echo MsgBox a & echo MsgBox b) | C:\pf\AutoHotkey\AutoHotkey.exe  *
+
+
+exit
 
 # not better
 
@@ -572,6 +594,72 @@ Named pipes have "instances". When a client process opens \\.\pipe\a, it receive
 
 
 exit
+
+
+
+
+# https://www.autohotkey.com/board/topic/23575-how-to-run-dynamic-script-through-a-pipe/
+
+
+
+C:\Users\marti\OneDrive\autohotkey-ahk-219\namedpipe.f5.ahk
+
+cute" it. (The InputBox is the only reason it is limited to one line.)
+
+#NoEnv
+ptr := A_PtrSize ? "Ptr" : "UInt"
+char_size := A_IsUnicode ? 2 : 1
+
+InputBox, Script, Script, Enter a line of script to execute.,,, 120,,,,, MsgBox :D
+
+; To prevent "collision", pipe_name could be something mostly "unique", like:
+;   pipe_name := A_TickCount
+pipe_name := "testpipe"
+
+; Before reading the file, AutoHotkey calls GetFileAttributes(). This causes
+; the pipe to close, so we must create a second pipe for the actual file contents.
+; Open them both before starting AutoHotkey, or the second attempt to open the
+; "file" will be very likely to fail. The first created instance of the pipe
+; seems to reliably be "opened" first. Otherwise, WriteFile would fail.
+pipe_ga := CreateNamedPipe(pipe_name, 2)
+pipe    := CreateNamedPipe(pipe_name, 2)
+if (pipe=-1 or pipe_ga=-1) {
+    MsgBox CreateNamedPipe failed.
+    ExitApp
+}
+
+Run, %A_AhkPath% "\\.\pipe\%pipe_name%"
+
+; Wait for AutoHotkey to connect to pipe_ga via GetFileAttributes().
+DllCall("ConnectNamedPipe", ptr, pipe_ga, ptr, 0)
+; This pipe is not needed, so close it now. (The pipe instance will not be fully
+; destroyed until AutoHotkey also closes its handle.)
+DllCall("CloseHandle", ptr, pipe_ga)
+; Wait for AutoHotkey to connect to open the "file".
+DllCall("ConnectNamedPipe", ptr, pipe, ptr, 0)
+
+; Standard AHK needs a UTF-8 BOM to work via pipe.  If we're running on
+; Unicode AHK_L, 'Script' contains a UTF-16 string so add that BOM instead:
+Script := (A_IsUnicode ? chr(0xfeff) : chr(239) chr(187) chr(191)) . Script
+
+char_size := (A_IsUnicode ? 2:1)
+if !DllCall("WriteFile", ptr, pipe, "str", Script, "uint", (StrLen(Script)+1)*char_size, "uint*", 0, ptr, 0)
+    MsgBox WriteFile failed: %ErrorLevel%/%A_LastError%
+
+DllCall("CloseHandle", ptr, pipe)
+
+
+CreateNamedPipe(Name, OpenMode=3, PipeMode=0, MaxInstances=255) {
+    global ptr
+    return DllCall("CreateNamedPipe","str","\\.\pipe" Name,"uint",OpenMode
+        ,"uint",PipeMode,"uint",MaxInstances,"uint",0,"uint",0,"uint",0,ptr,0,ptr)
+}
+Covered by Lexikos' default copyright license.
+
+
+
+
+
 
 # todo move to ps1 common pitfalls using the call operator?  
 ⚠️ 3. Using single quotes when variable expansion is needed
