@@ -10,6 +10,10 @@ InputBox, Script, Script, Enter a line of script to execute.,,, 120,,,,, MsgBox 
 ; To prevent "collision", pipe_name could be something mostly "unique", like:
 ;   pipe_name := A_TickCount
 pipe_name := "testpipe"
+;;;;;pipe_name := "testpipe\"
+
+pipe_name := "\\.\pipe\testpipe\"
+
 
 ; Before reading the file, AutoHotkey calls GetFileAttributes(). This causes
 ; the pipe to close, so we must create a second pipe for the actual file contents.
@@ -23,7 +27,8 @@ if (pipe=-1 or pipe_ga=-1) {
     ExitApp
 }
 
-Run, %A_AhkPath% "\\.\pipe\%pipe_name%"
+;;Run, %A_AhkPath% "\\.\pipe\%pipe_name%"
+Run, %A_AhkPath% "%pipe_name%"
 
 ; Wait for AutoHotkey to connect to pipe_ga via GetFileAttributes().
 DllCall("ConnectNamedPipe", ptr, pipe_ga, ptr, 0)

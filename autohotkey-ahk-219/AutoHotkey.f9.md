@@ -600,8 +600,15 @@ exit
 
 # https://www.autohotkey.com/board/topic/23575-how-to-run-dynamic-script-through-a-pipe/
 
+	; Command = {ahk_exe} /ErrorStdOut /CP{codepage} {file}
 
 
+$pipe_name = "\\.\pipe\testpipe\"
+
+ls $pipe_name
+echo kdj >$pipe_name
+
+cd d:\instu
 C:\Users\marti\OneDrive\autohotkey-ahk-219\namedpipe.f5.ahk
 
 cute" it. (The InputBox is the only reason it is limited to one line.)
