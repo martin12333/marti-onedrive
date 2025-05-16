@@ -11,9 +11,13 @@ NONSHADOW vs. SHADOW JE JAKO /etc/passwd vs. /etc/shadow
 
 KEEP MA VERSION HISTORY
 existuje listek "SHADOW part of EMAILY.txt"
+
 r.c. /482
-// Sčítání 2021  74m2
 47.../087  ne037  ne038
+// Sčítání 2021  74m2
+pro placení daně z nemovitých věcí na zdaňovací období roku 2025 
+výměra zastav. zdan. stavbami celkem (m2) 97.00
+
 ...============ end of pro Milana
 
 #email #mobil #connect

@@ -178,9 +178,30 @@ p
 +^p{
 
 
+# 515
+
+po-powtoy
+
+Flow Launcher is a free and open-source software
+
+Save all Flow Launcher settings
+
+Type flow user data to open your saved user settings folder. They are located at:
+
+Typing ? in the search bar will show you the keywords currently active. This can be refined by typing the first letter or two of the keywords you are after.
+
+pm install DeepFlow by Davide Gena
+
 
 
 # 
+
+
+set czech keyboard layout
+autohotkey
+suspend hotkeys
+
+
 
 #q         Settings
 set 
@@ -491,8 +512,19 @@ file:///C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
 
 & "C:\Program Files\AutoHotkey\AutoHotkey.exe"   
 
+# https://www.autohotkey.com/docs/v1/Scripts.htm#cmd   stdin partial fail
 
-# fail stdin
+[v1.1.17+]: Specify an asterisk (*) for the filename to read the script text from standard input (stdin). For an example, see ExecScript().
+
+https://www.autohotkey.com/docs/v2/Scripts.htm#cmd
+
+Specify an asterisk (*) for the filename to read the script text from standard input (stdin). This also puts the following into effect:
+
+
+
+
+
+## total fail stdin from ~~~ conpty 
 & "C:\Program Files\AutoHotkey\AutoHotkey.exe"      "*"   
 cmd
 C:\pf\AutoHotkey\AutoHotkey.exe  *
@@ -507,6 +539,39 @@ D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe *
 D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe /script *
 D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe /ErrorStdOut *
 
+
+
+
+# better error in ps, works in cmd
+exit
+cmd
+echo MsgBox test successful | C:\pf\AutoHotkey\AutoHotkey.exe  *
+echo MsgBox test successful | C:\pf\AutoHotkey\AutoHotkey.exe  /ErrorStdOut  *
+# ErrorStdOut in ps .... silently fails
+
+echo MsgBox test successful |  D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe /ErrorStdOut *
+echo MsgBox test successful |  D:\instu\AutoHotkey_1.1.37.02\AutoHotkeyU64.exe  *
+
+
+
+(echo MsgBox a & echo MsgBox b) | C:\pf\AutoHotkey\AutoHotkey.exe  *
+
+# not better
+
+
+#q conhost
+dsksdlf
+f12
+
+
+
+https://www.autohotkey.com/boards/viewtopic.php?t=66512
+
+Named pipes have "instances". When a client process opens \\.\pipe\a, it receives a new instance of the pipe. The client or server may write data into the pipe, and the server or client may read that data. If some other client opens the pipe, it can only read the data written into its own instance of the pipe, if the server even allows it to be opened in the first place, and writes data into it.
+
+
+
+exit
 
 # todo move to ps1 common pitfalls using the call operator?  
 ⚠️ 3. Using single quotes when variable expansion is needed
