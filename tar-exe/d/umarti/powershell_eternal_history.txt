@@ -12446,3 +12446,7 @@ bash
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 cd d:\instu
 C:\Users\marti\OneDrive\autohotkey-ahk-219\namedpipe.f5.ahk
+$pipe_name = "\\.\pipe\testpipe\"
+ls $pipe_name
+echo kdj >$pipe_name
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh

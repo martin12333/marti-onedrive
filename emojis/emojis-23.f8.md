@@ -1,6 +1,22 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Emoji ZWJ Sequences
 
 
