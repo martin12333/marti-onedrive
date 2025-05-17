@@ -7,7 +7,9 @@ Adding a dependency ➕ :heavy_plus_sign:
 
 
 Commit type	Emoji
+
 Initial commit	🎉 :tada:
+
 Version tag	🔖 :bookmark:
 New feature	✨ :sparkles:
 Bugfix	🐛 :bug:
