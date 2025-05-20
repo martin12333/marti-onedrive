@@ -47,6 +47,11 @@ v1.1.33.09
 https://www.autohotkey.com/docs/v1/AHKL_ChangeLog.htm
 
 
+
+# Add 2, 3  ; Parentheses can be omitted if used at the start of a line.  # ahkv2
+https://www.autohotkey.com/docs/v2/Functions.htm
+
+
 # trying zip without update
 respnt
 pre run ahk zip
@@ -65,7 +70,7 @@ pre upd ahk
 
 https://www.autohotkey.com/download/1.1/
 
-will have to check sha256 maybe vtotal just ttio see if known 
+will have to check sha256 maybe vtotal just to see if known 
 e
 edge://downloads if https
 https://www.autohotkey.com/download/1.1/AutoHotkey_1.1.37.02_setup.exe.sha256
