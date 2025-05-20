@@ -34,7 +34,11 @@ which ones of the following are correct ?
 
 	Send, ^c
 
-# file:///C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
+# links  
+
+file:///C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
+
+file:///c:\users\marti\OneDrive\autohotkey-ahk-219\experim-250505.f5.ahk
 
 # version
 Window: C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk - AutoHotkey 
