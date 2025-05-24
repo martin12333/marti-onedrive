@@ -18,7 +18,7 @@ restore point
 pre inst post copy
 
 
-C:\Users\marti\OneDrive\autohotkey-ahk-219\AutoHotkey.f9.md
+code C:\Users\marti\OneDrive\autohotkey-ahk-219\AutoHotkey.f9.md
 
 https://keep.google.com/#NOTE/1SEekLsXsfY_FCdjI5W0FNE8_FAv67ZbS1WbvbG7akGPXin2j6OuoI-FLC9kh
 
@@ -30,6 +30,9 @@ seealso
 my 4 installs of anaconda ... story ... url  facebook reddit
 STORY
 
+
+a5 karis  / installations
+paper notebook a5  > beginning > 5comp > inst
 
 
 

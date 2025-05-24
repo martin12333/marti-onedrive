@@ -1,6 +1,14 @@
 exit
 
 win+q steps recorder
+
+
+# see also
+code C:\Users\marti\OneDrive\devtools-recorder---edge,chrome-accessibility---250428
+\Recording 4_28_2025 at 10_25_04 PM.json
+
+
+
 # Steps Recorder
 
 https://learn.microsoft.com/en-us/windows/win32/winauto/steps-recorder
