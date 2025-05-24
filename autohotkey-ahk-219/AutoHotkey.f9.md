@@ -90,6 +90,10 @@ d:\Users\milanlocal\downloads-d\
 
 C:\Users\marti\OneDrive\autohotkey-ahk-219\AutoHotkey.f9.md
 
+
+edge://downloads/all?q=https:// 
+NEMUSEL sha256
+
 sha256sum.exe *
 sha256sum.exe * >rclick-bash--sha256.txt
 pwd

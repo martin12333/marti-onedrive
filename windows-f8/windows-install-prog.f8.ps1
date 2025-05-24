@@ -10,26 +10,24 @@ exit
 # echo '-------- section --------'
 
 
-sometimes
+# sometimes
 tc copy c:\pf
 not move!!!
 
-restore point
+# restore point
 pre inst post copy
 
 
-code C:\Users\marti\OneDrive\autohotkey-ahk-219\AutoHotkey.f9.md
+# file:///C:\Users\marti\OneDrive\autohotkey-ahk-219\AutoHotkey.f9.md
+## https://keep.google.com/#NOTE/1SEekLsXsfY_FCdjI5W0FNE8_FAv67ZbS1WbvbG7akGPXin2j6OuoI-FLC9kh
 
-https://keep.google.com/#NOTE/1SEekLsXsfY_FCdjI5W0FNE8_FAv67ZbS1WbvbG7akGPXin2j6OuoI-FLC9kh
-
-steps recorder?
+# steps recorder?
 code C:\Users\marti\OneDrive\screen-recorder,steps-recorder\steps-recorder.f8.ps1
 
-seealso
+# seealso
 
 my 4 installs of anaconda ... story ... url  facebook reddit
 STORY
-
 
 a5 karis  / installations
 paper notebook a5  > beginning > 5comp > inst
@@ -39,6 +37,7 @@ paper notebook a5  > beginning > 5comp > inst
 
 
 
+# windows-f8\windows-security-weakness--folder-permissions--icacls.f8.ps1
 code windows-f8\windows-security-weakness--folder-permissions--icacls.f8.ps1
 
 	a5 karis  / installations
@@ -47,11 +46,14 @@ code windows-f8\windows-security-weakness--folder-permissions--icacls.f8.ps1
 	C:\Users\marti\OneDrive\node-f8\10-windows-install-node.f8.ps1
 
 
-todo diigo
+#
+
+# todo diigo
 
 
 
 
+# $env:Path.Length
 $env:Path.Length
 $env:Path -split ';'
  | findstr.exe -i git
@@ -68,12 +70,16 @@ $env:Path -split ';'
 
 
 
-cmd /c dir c:\ | findstr.exe -i free
+# cmd /c dir c:\ | findstr.exe -i free
 cmd /c dir d:\ | findstr.exe -i free
 
 
 
 #	Switch off acronis active prot?  (remember my conda uninstall failure)
+
+
+
+
 
 
 # https://photos.google.com/share/AF1QipNNl6K1O6u44TD_llRU4fePuYU5YpgyOaMk_zsxb4AnE4eKjw8tACli48bLA8gNbA?key=Y3k4NDNaWk83Z0I2dThyUmJkZkU1c2FPT1J5eUx3
@@ -85,17 +91,16 @@ https://photos.google.com/share/AF1QipO6ynuYXve9zKOMLBsFxJOc9lrPDpdZK_BJZNuP7xvQ
 tech--Laifrovi,Bokovi - Chat - Google Photos
 
 
+
+
+
+
 # I recommend to create a windows restore point before and after an installation
 
 	pseudo
 	new restore_point
 		windows, again, deleted all restore_point/s
 
-		https://www.bing.com/search?q=Bing+AI
-		&
-
-		That's a great recommendation! Creating a **Windows Restore Point** before and after an installation can help protect your system. If the installation causes any issues, you can use the restore point to return your system to the state it was in before the installation. This can be a lifesaver when dealing with problematic software or updates. Here's a brief guide on how to
-		...
 
 
 
@@ -103,16 +108,16 @@ tech--Laifrovi,Bokovi - Chat - Google Photos
 
 
 
+#		relogin?
+#		reboot?
+
+
+# restore point
+post node
 
 
 
 
-
-		relogin?
-		reboot?
-
-		restore point
-		post node
 
 
 # afraid of reinstalling to a different location
