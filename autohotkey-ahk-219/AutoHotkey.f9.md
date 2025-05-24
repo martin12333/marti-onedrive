@@ -52,10 +52,14 @@ https://www.autohotkey.com/docs/v1/AHKL_ChangeLog.htm
 https://www.autohotkey.com/docs/v2/Functions.htm
 
 
+
+
+
 # trying zip user inst without update
 respnt
 pre run ahk zip
 
+## NOT NEEDED sha256  because edge://downloads/all?q=https:// 
 cd d:\instu
 bash
 sha256sum  AutoHotkey_1*
@@ -63,13 +67,13 @@ sha256sum  AutoHotkey_1*
 ^c^f
 exit
 
-# before su inst
-
-C:\Users\marti\OneDrive\windows-f8\windows-install-prog.f8.ps1
 
 
-steps recorder?
-code C:\Users\marti\OneDrive\screen-recorder,steps-recorder\steps-recorder.f8.ps1
+# su inst ...  update  v1
+
+file:///C:\Users\marti\OneDrive\windows-f8\windows-install-prog.f8.ps1
+
+
 
 win milan
 
@@ -85,15 +89,13 @@ pocopy
 https 
 edge://downloads/all?q=https:// 
 
-d:\Users\milanlocal\downloads-d\
+## d:\Users\milanlocal\downloads-d\
 
 
-C:\Users\marti\OneDrive\autohotkey-ahk-219\AutoHotkey.f9.md
 
 
-edge://downloads/all?q=https:// 
-NEMUSEL sha256
-
+## edge://downloads/all?q=https:// 
+## NOT NEEDED sha256  because edge://downloads/all?q=https:// 
 sha256sum.exe *
 sha256sum.exe * >rclick-bash--sha256.txt
 pwd
@@ -105,10 +107,6 @@ echo $USERPROFILE/
 sha256sum.exe * >/c/tmp/rclick-bash--sha256.txt
 history -a;  cp -v ~/.bash_history /c/Users/milan_rxtipwr/OneDrive/AABKUP-git-bash-dotfiles/.bash_history; history 
 history -a;  cp -v ~/.bash_history /c/Users/milan_rxtipwr/OneDrive/AABKUP-git-bash-dotfiles/.bash_history; history 
-
-
-
-
 d31085e5d52463f7af16ed5667f88231388f18ee799d627fb57008228311b050 *20250328_152348.jpg
 3f1f6be172499c97fd95c1539a57048e49f2241e01bc66a0db20d925d144f486 *20250416_161954.jpg
 d297850ef832d413351fe5faf53725c2bebe92bd02ba04f6af836e13362d68d0 *20250416_170036.jpg
@@ -129,22 +127,50 @@ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 *rclick-bash--s
 
 
 
+# file:///C:\Users\marti\OneDrive\screen-recorder,steps-recorder\steps-recorder.f8.ps1
 
 
-# update
-respnt
-pre upd ahk
+## how to update autohotkey
+// it itself does close all instances of autohotkey
 
-https://www.autohotkey.com/download/1.1/
 
-will have to check sha256 maybe vtotal just to see if known 
+kept the default options
+
+file:///C:/Users/marti/AppData/Local/Temp/_tc/Recording_20250524_2125.mht
+
+
+Step 13: (‎05/‎24/‎2025 21:14:06) User left click on "/CP65001 (text)" in "AutoHotkey Setup"
+Step 13: (‎05/‎24/‎2025 21:14:06) User left click on "/CP65001 (text)" in "AutoHotkey Setup"
+
+Step 40: (‎05/‎24/‎2025 21:23:03) User left click on "Setup needs to close the following script(s): - C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk Click Reload to automatically reload the scripts later. Click Close All to just close the scripts and continue. (text)" in "AutoHotkey Setup"
+
+
+Step 13: User left click on "/CP65001 (text)" in "AutoHotkey Setup"
+Program: SETUP.EXE, SETUP.EXE
+UI Elements: /CP65001, /CP65001, Default to UTF-8 Adds /CP65001 to the command line used when scripts are launched by Explorer., about:<!DOCTYPE HTML><meta http-equiv='x-ua-compatible' content='IE=Edge'>, Internet Explorer_Server, Shell DocObject View, Shell Embedding, AtlAxWin, AutoHotkey Setup, AutoHotkeyGUI
+
+
+Step 38: User mouse wheel down on "To silently install AutoHotkey into the default directory (which is the same directory displayed by non-silent mode), pass the parameter /S to the installer. For example: - Google Search (document)" in "To silently install AutoHotkey into the default directory (which is the same directory displayed by non-silent mode), pass the parameter /S to the installer. For example: - Google Search and 13 more pages - Personal - Microsoft​ Edge"
+Program: Microsoft Edge, 136.0.3240.76, Microsoft Corporation, MSEDGE.EXE --NO-STARTUP-WINDOW, MSEDGE.EXE
+UI Elements: YNk70c NbTBrb GyAeWb, e9EfHf, main, srp, To silently install AutoHotkey into the default directory (which is the same directory displayed by non-silent mode), pass the parameter /S to the installer. For example: - Google Search, Chrome Legacy Window, Chrome_RenderWidgetHostHWND, View, SplitWindowContainerView, SidebarContentsSplitView, SidebarContentsSplitView, SidebarContentsSplitView, SidebarContentsSplitView, BrowserView, BrowserFrameViewWin, NonClientView, To silently install AutoHotkey into the default directory (which is the same directory displayed by non-silent mode), pass the parameter /S to the installer. For example: - Google Search - Microsoft Edge - Personal, BrowserRootView, To silently install AutoHotkey into the default directory (which is the same directory displayed by non-silent mode), pass the parameter /S to the installer. For example: - Google Search and 13 more pages - Personal - Microsoft​ Edge, Chrome_WidgetWin_1
+
+
+
+
+
+# respnt po-inst pocopy
+
+
+
+
+
+
+
+## NOT NEEDED sha256  because edge://downloads/all?q=https:// 
+OLD will have to check sha256 maybe vtotal just to see if known 
 e
 edge://downloads if https
 https://www.autohotkey.com/download/1.1/AutoHotkey_1.1.37.02_setup.exe.sha256
-
-https://www.autohotkey.com/download/1.1/AutoHotkey_1.1.37.02_setup.exe.sha256
-
-https://www.autohotkey.com/download/ahk-install.exe
 
 blob:chrome-extension://edppabbacdeekokfoaaggbjbefklcgek/f81440f1-1236-4261-84d3-aa9bde473b9b
 
@@ -152,20 +178,23 @@ data:text/json;charset=utf-8,%7B%22marks%22%3A%5B%7B%22_id%22%3A%2268107a62c8fb1
 
 
 
-## how to update autohotkey
-maybe close all instances of autohotkey
 
 
-restore point
-post upd ahk
+
+# migration guide to v2 ?
 
 # autohotkey versions
 https://www.reddit.com/r/AutoHotkey/comments/1ak57lv/why_i_wont_migrate_from_v1_to_v2/
 > I use an extension of .ahk2 for v2 scripts. I then associate the extension with the autohotkey 2.0, so the correct version is called.
 
+
 https://www.reddit.com/r/AutoHotkey/comments/1h1nxxy/request_vscode_setup_for_users_running_v1_and_v2/
 
+
 https://www.autohotkey.com/docs/v2/Program.htm#launcher
+
+
+
 
 
 

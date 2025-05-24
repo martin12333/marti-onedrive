@@ -22,7 +22,7 @@ pre inst post copy
 ## https://keep.google.com/#NOTE/1SEekLsXsfY_FCdjI5W0FNE8_FAv67ZbS1WbvbG7akGPXin2j6OuoI-FLC9kh
 
 # steps recorder?
-code C:\Users\marti\OneDrive\screen-recorder,steps-recorder\steps-recorder.f8.ps1
+file:///C:\Users\marti\OneDrive\screen-recorder,steps-recorder\steps-recorder.f8.ps1
 
 # seealso
 
@@ -113,6 +113,7 @@ tech--Laifrovi,Bokovi - Chat - Google Photos
 
 
 # restore point
+# respnt po-inst pocopy
 post node
 
 

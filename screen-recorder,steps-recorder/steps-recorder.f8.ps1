@@ -1,7 +1,10 @@
 exit
 
 win+q steps recorder
-
+f9
+#{tab}
+D:\umarti\dowNLOADS--SYMLINKED\a.zip
+99
 
 # see also
 code C:\Users\marti\OneDrive\devtools-recorder---edge,chrome-accessibility---250428
@@ -59,7 +62,15 @@ Step 1: (‎04/‎29/‎2025 08:09:46) User left click on "Date modified (button
 
 Previous Next
 
-Step 11: (‎04/‎29/‎2025 08:13:39) User mouse drag start on "Additional Details The following section contains the additional details that were recorded. These details help accurately identify the programs and UI you used in this recording. This section may contain text that is internal to programs that only very advanced users or programmers may understand. Please review these details to ensure that they do not contain any information that you would not like others to see. Recording Session: ‎04/‎29/‎2025 08:02:09 - 08:04:54 Recorded Steps: 21, Missed Steps: 1, Other Errors: 0 Operating System: 26100.1.amd64fre.ge_release.240331-1435 10.0.0.0.2.48 Step 1: User left click on 'Accessibility Internals - Microsoft Edge - Personal (region)' in 'Accessibility Internals and 12 more pages - Personal - Microsoft​ Edge' Program: Microsoft Edge, 135.0.3179.98, Microsoft Corporation, MSEDGE.EXE --PROFILE-DIRECTORY=DEFAULT --RESTART --RESTORE-LAST-SESSION --FLAG-SWITCHES-BEGIN --FLAG-SWITCHES-END, MSEDGE.EXE UI Elements: View, SplitWindowContainerView, SidebarContentsSplitView, SidebarContentsSplitView, SidebarContentsSplitView, SidebarContentsSplitView, BrowserView,
+Step 11: (‎04/‎29/‎2025 08:13:39) User mouse drag start on
+
+"Additional Details The following section contains the additional details that were recorded. These details help accurately identify the programs and UI you used in this recording.
+
+
+This section may contain text that is internal to programs that only very advanced users or programmers may understand. Please review
+
+
+these details to ensure that they do not contain any information that you would not like others to see. Recording Session: ‎04/‎29/‎2025 08:02:09 - 08:04:54 Recorded Steps: 21, Missed Steps: 1, Other Errors: 0 Operating System: 26100.1.amd64fre.ge_release.240331-1435 10.0.0.0.2.48 Step 1: User left click on 'Accessibility Internals - Microsoft Edge - Personal (region)' in 'Accessibility Internals and 12 more pages - Personal - Microsoft​ Edge' Program: Microsoft Edge, 135.0.3179.98, Microsoft Corporation, MSEDGE.EXE --PROFILE-DIRECTORY=DEFAULT --RESTART --RESTORE-LAST-SESSION --FLAG-SWITCHES-BEGIN --FLAG-SWITCHES-END, MSEDGE.EXE UI Elements: View, SplitWindowContainerView, SidebarContentsSplitView, SidebarContentsSplitView, SidebarContentsSplitView, SidebarContentsSplitView, BrowserView,
 
 fdgdg
 "
