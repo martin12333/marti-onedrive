@@ -158,23 +158,13 @@ UI Elements: YNk70c NbTBrb GyAeWb, e9EfHf, main, srp, To silently install AutoHo
 
 
 
+
 # respnt po-inst pocopy
 
 
 
 
 
-
-
-## NOT NEEDED sha256  because edge://downloads/all?q=https:// 
-OLD will have to check sha256 maybe vtotal just to see if known 
-e
-edge://downloads if https
-https://www.autohotkey.com/download/1.1/AutoHotkey_1.1.37.02_setup.exe.sha256
-
-blob:chrome-extension://edppabbacdeekokfoaaggbjbefklcgek/f81440f1-1236-4261-84d3-aa9bde473b9b
-
-data:text/json;charset=utf-8,%7B%22marks%22%3A%5B%7B%22_id%22%3A%2268107a62c8fb1e8c1214c217%22%2C%22createdAt%22%3A1745910370471%2C%22updatedAt%22%3A0%2C%22_objectStore%22%3A%22marks%22%2C%22url%22%3A%22https%3A%2F%2Fwww.bing.com%2Fsearch%3Fq%3DTurn%2520on%2520or%2520off%2520Narrator%2520easily%2520windows%26form%3DB00032%26ocid%3DSettingsHAQ-BingIA%26mkt%3Den-US%22%2C%22tags%22%3A%5B%5D%2C%22text%22%3A%22In%20Windows%2010%2C%20press%20Windows%20logo%20key%20%2B%20Ctrl%20%2B%20Enter%20on%20your%20keyboard.%2
 
 
 
