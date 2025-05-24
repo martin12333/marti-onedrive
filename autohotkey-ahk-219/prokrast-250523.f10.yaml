@@ -3,7 +3,11 @@ replace
 :
 :
 
+replace
+\n
+,
 
+https://onlineyamltools.com/convert-yaml-to-json
 
 [a: b , a: d]
 
@@ -16,6 +20,14 @@ replace
   }
 ]
 
+
+
+a: SendIntent,     Action: android.intent.action.VIEW,     Cat: None,     Data: obsidian://new?vault=My\%20Vault&file=aFolder\%2FNote.md&append=true&silent=true&content=%url,     Target: Activity,
+[
+a: SendIntent,     Action: android.intent.action.VIEW,     Cat: None,     Data: obsidian://new?vault=My\%20Vault&file=aFolder\%2FNote.md&append=true&silent=true&content=%url,     Target: Activity,
+]
+
+{a: SendIntent,     Action: android.intent.action.VIEW,     Cat: None,     Data: obsidian://new?vault=My\%20Vault&file=aFolder\%2FNote.md&append=true&silent=true&content=%url,     Target: Activity,   }
 
 
 -

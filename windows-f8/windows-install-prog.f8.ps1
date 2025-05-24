@@ -9,15 +9,29 @@ exit
 
 # echo '-------- section --------'
 
+
+sometimes
+tc copy c:\pf
+not move!!!
+
 restore point
-pre inst
+pre inst post copy
 
 
-steps recorder? C:\Users\marti\OneDrive\screen-recorder,steps-recorder\steps-recorder.f8.ps1
+C:\Users\marti\OneDrive\autohotkey-ahk-219\AutoHotkey.f9.md
+
+https://keep.google.com/#NOTE/1SEekLsXsfY_FCdjI5W0FNE8_FAv67ZbS1WbvbG7akGPXin2j6OuoI-FLC9kh
+
+steps recorder?
+code C:\Users\marti\OneDrive\screen-recorder,steps-recorder\steps-recorder.f8.ps1
 
 seealso
 
 my 4 installs of anaconda ... story ... url  facebook reddit
+STORY
+
+
+
 
 
 
