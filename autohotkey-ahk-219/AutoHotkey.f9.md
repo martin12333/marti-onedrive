@@ -113,23 +113,36 @@ Explorer C:\Users\marti\OneDrive\autohotkey-ahk-219\experim-250505.f5.ahk
 
 
 
+& "C:\Program Files\AutoHotkey\AutoHotkey.exe" "C:\Program Files\AutoHotkey\Installer.ahk"
 
 
 ## file:///C:\Users\marti\OneDrive\screen-recorder,steps-recorder\steps-recorder.f8.ps1
 
 
 pf gone
-
-
+ok
 
 #q     registry
 
 autohotkey
 
-"C:\Program Files\AutoHotkey\AutoHotkey.exe"
+C:\Pf\AutoHotkey\AutoHotkey.exe
 
 # fix the lnk 
+old C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
+
 D:\Users\milanlocal\downloads-d\AutoHotkey_1.1\AutoHotkeyU64.exe     C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.f5.v1.ahk
+
+
+
+
+
+!@#$%
+aaa
+aaa
+aaa
+
+
 ok
 
 [text](<../../AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/jako-zaremovane/onedr-junctio/AutoHotkey.f5.lnk>)
@@ -140,16 +153,8 @@ explorer "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\S
 
 
 
-old C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
-
-!@#$%
-aaa
-aaa
-aaa
-
-
-respnt
-respnt
+#q       create restore point
+po uninst
 respnt
 
 
