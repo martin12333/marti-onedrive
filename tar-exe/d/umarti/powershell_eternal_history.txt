@@ -12454,3 +12454,5 @@ code C:\Users\marti\OneDrive\screen-recorder,steps-recorder\steps-recorder.f8.ps
 code C:\Users\marti\OneDrive\devtools-recorder---edge,chrome-accessibility---250428\Recording 4_28_2025 at 10_25_04 PM.json
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 Explorer C:\Users\marti\OneDrive\autohotkey-ahk-219\experim-250505.f5.ahk
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+D:\Users\milanlocal\downloads-d\AutoHotkey_1.1\AutoHotkeyU64.exe     C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.f5.v1.ahk

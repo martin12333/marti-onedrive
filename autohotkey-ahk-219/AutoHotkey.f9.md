@@ -89,6 +89,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\AutoHotke
 AutoHotkey-11-2
 
 "C:\Program Files\AutoHotkey\AutoHotkey.exe" "C:\Program Files\AutoHotkey\Installer.ahk"
+
+
+
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\AutoHotkey]
 "DisplayName"="AutoHotkey 1.1.37.02"
 "UninstallString"="\"C:\\Program Files\\AutoHotkey\\AutoHotkey.exe\" \"C:\\Program Files\\AutoHotkey\\Installer.ahk\""
@@ -109,12 +112,50 @@ Windows Registry Editor Version 5.00
 Explorer C:\Users\marti\OneDrive\autohotkey-ahk-219\experim-250505.f5.ahk
 
 
-C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
-C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.f5.v1.ahk
 
 
 
 ## file:///C:\Users\marti\OneDrive\screen-recorder,steps-recorder\steps-recorder.f8.ps1
+
+
+pf gone
+
+
+
+#q     registry
+
+autohotkey
+
+"C:\Program Files\AutoHotkey\AutoHotkey.exe"
+
+# fix the lnk 
+D:\Users\milanlocal\downloads-d\AutoHotkey_1.1\AutoHotkeyU64.exe     C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.f5.v1.ahk
+ok
+
+[text](<../../AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/jako-zaremovane/onedr-junctio/AutoHotkey.f5.lnk>)
+
+copy as path ctrl+shift c
+
+explorer "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\AutoHotkey.f5.lnk"
+
+
+
+old C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
+
+!@#$%
+aaa
+aaa
+aaa
+
+
+respnt
+respnt
+respnt
+
+
+
+
+
 
 
 # C:\Users\marti\OneDrive\autohotkey-ahk-219\Iconic.ahk
