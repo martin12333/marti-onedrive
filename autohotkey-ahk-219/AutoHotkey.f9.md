@@ -89,8 +89,27 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\AutoHotke
 AutoHotkey-11-2
 
 "C:\Program Files\AutoHotkey\AutoHotkey.exe" "C:\Program Files\AutoHotkey\Installer.ahk"
-C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\AutoHotkey]
+"DisplayName"="AutoHotkey 1.1.37.02"
+"UninstallString"="\"C:\\Program Files\\AutoHotkey\\AutoHotkey.exe\" \"C:\\Program Files\\AutoHotkey\\Installer.ahk\""
 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\AutoHotkey.exe]
+@="C:\\Program Files\\AutoHotkey\\AutoHotkey.exe"
+
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\AutoHotkey]
+"InstallDir"="C:\\Program Files\\AutoHotkey"
+"Version"="1.1.37.02"
+"StartMenuFolder"="AutoHotkey"
+
+
+
+Explorer C:\Users\marti\OneDrive\autohotkey-ahk-219\experim-250505.f5.ahk
+
+
+C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
 C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.f5.v1.ahk
 
 
@@ -98,10 +117,24 @@ C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.f5.v1.ahk
 ## file:///C:\Users\marti\OneDrive\screen-recorder,steps-recorder\steps-recorder.f8.ps1
 
 
+# C:\Users\marti\OneDrive\autohotkey-ahk-219\Iconic.ahk
+
+; 1 Script Management
+; ===================
+
+; Exit the script with Escape
+Esc::exitapp
+; Press Ctrl+Alt+R to reload the script
+^!r::Reload
 
 
+; Press Ctrl+Alt+A to toggle the script on and off
+^!a::Suspend
 
 
+:o:home::🏠❤️
+❤️:o:emotion::❤️⭐
+:o:philosophy::🧙🏻🤲⭐❤️
 
 # su inst ...  update  v1
 
@@ -169,6 +202,11 @@ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 *rclick-bash--s
 
 
 kept the default options
+
+
+can be changed later by running the installer again or by running the script in the installation directory.
+
+
 
 file:///C:/Users/marti/AppData/Local/Temp/_tc/Recording_20250524_2125.mht
 
