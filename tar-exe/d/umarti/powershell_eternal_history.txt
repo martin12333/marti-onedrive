@@ -12462,3 +12462,4 @@ Explorer C:\Users\marti\OneDrive\autohotkey-ahk-219\experim-250505.f5.ahk
 "C:\Program Files\AutoHotkey\AutoHotkey.exe" "C:\Program Files\AutoHotkey\Installer.ahk"
 & "C:\Program Files\AutoHotkey\AutoHotkey.exe" "C:\Program Files\AutoHotkey\Installer.ahk"
 C:\Pf\AutoHotkey\AutoHotkey.exe
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh

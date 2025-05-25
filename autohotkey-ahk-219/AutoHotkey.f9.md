@@ -182,7 +182,7 @@ Esc::exitapp
 ❤️:o:emotion::❤️⭐
 :o:philosophy::🧙🏻🤲⭐❤️
 
-# su inst ...  update  v1
+# OLD su inst ...  update  v1
 
 file:///C:\Users\marti\OneDrive\windows-f8\windows-install-prog.f8.ps1
 
@@ -289,7 +289,7 @@ UI Elements: YNk70c NbTBrb GyAeWb, e9EfHf, main, srp, To silently install AutoHo
 
 
 
-# migration guide to v2 ... not needed for me probably
+# migration guide to v2 ... not needed so quickly for me probably ... migrated .lnk already
 
 
 # autohotkey versions
