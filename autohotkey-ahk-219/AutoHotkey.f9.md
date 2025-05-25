@@ -68,6 +68,40 @@ sha256sum  AutoHotkey_1*
 exit
 
 
+# change. decided to uninstall the adm v1 version
+respnt
+
+po inst ahk po copy pred uninst adm 
+## d:\Users\milanlocal\downloads-d\
+
+#q      registry editor
+
+autohotkey
+
+HKEY_CLASSES_ROOT\AutoHotkeyScript
+
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\CloudStore\Store\DefaultAccount\Cloud\{5762b56a-97d3-4a73-8380-f14f6f457c97}$windows.data.apps.appleveltileinfo$appleveltilelist\windows.data.apps.appleveltileinfo$w~{6d809377-6af0-444b-8957-a3773f02200e}autohotkeyautohotkey website.url
+
+\AutoHotkey
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\AutoHotkey.exe
+
+AutoHotkey-11-2
+
+"C:\Program Files\AutoHotkey\AutoHotkey.exe" "C:\Program Files\AutoHotkey\Installer.ahk"
+C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
+
+C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.f5.v1.ahk
+
+
+
+## file:///C:\Users\marti\OneDrive\screen-recorder,steps-recorder\steps-recorder.f8.ps1
+
+
+
+
+
+
 
 # su inst ...  update  v1
 
@@ -127,7 +161,7 @@ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 *rclick-bash--s
 
 
 
-# file:///C:\Users\marti\OneDrive\screen-recorder,steps-recorder\steps-recorder.f8.ps1
+## file:///C:\Users\marti\OneDrive\screen-recorder,steps-recorder\steps-recorder.f8.ps1
 
 
 ## how to update autohotkey
@@ -159,7 +193,7 @@ UI Elements: YNk70c NbTBrb GyAeWb, e9EfHf, main, srp, To silently install AutoHo
 
 
 
-# respnt po-inst pocopy
+## respnt po-inst pocopy
 
 
 
@@ -171,7 +205,8 @@ UI Elements: YNk70c NbTBrb GyAeWb, e9EfHf, main, srp, To silently install AutoHo
 
 
 
-# migration guide to v2 ?
+# migration guide to v2 ... not needed for me probably
+
 
 # autohotkey versions
 https://www.reddit.com/r/AutoHotkey/comments/1ak57lv/why_i_wont_migrate_from_v1_to_v2/
