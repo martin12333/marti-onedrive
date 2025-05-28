@@ -12,6 +12,8 @@ echo '-------- section --------'
 
 
 
+# links
+
 C:\Users\marti\OneDrive\Eda-f8\powershell\24-4-explain-f8_text_file.f8.ps1
 
 
@@ -21,11 +23,10 @@ C:\Users\marti\OneDrive\Eda-f8\powershell\24-4-explain-f8_text_file.f8.ps1
 
 
 
-
+# > If you find compelling non-vim alternatives, email me and I’ll include them on this page for others to find.
 
 https://blog.jpalardy.com/posts/stop-typing-into-repls/
 
-> If you find compelling non-vim alternatives, email me and I’ll include them on this page for others to find.
 
 
 
@@ -34,6 +35,9 @@ https://blog.jpalardy.com/posts/stop-typing-into-repls/
 # git clone wiki
 
 [[git-clone----wiki.f8]]
+
+
+
 
 
 ```bash
@@ -92,6 +96,9 @@ git pull   -vv
 code ~/Run-selected-text--discussions.wiki
 
 ```
+
+
+
 
 
 
@@ -170,11 +177,16 @@ I have made some e-scripts, and i notice i  copied only the line
 
 
 
+
+
+
 (I have started a wiki, where 1 page about eepitch)
 
 https://github.com/martin12333/Run-selected-text--discussions/wiki/eev-eepitch
 
 (i have added there some comments from the mailing list)
+
+
 
 
 
@@ -187,7 +199,11 @@ ok, i am going to learn how to use irc now
 ```
 
 
-Manifesto
+
+
+
+
+# Manifesto
 
 I would like to comment on some parts of the eev manifesto:
 
@@ -196,6 +212,8 @@ I would like to comment on some parts of the eev manifesto:
 I use a text file form (format), that is similar to e-scripts for eepitch. I call the format: f8_text_file . My collection of these files is at
 
 https://github.com/martin12333/marti-onedrive
+
+
 
 > They contain almost everything I know about Unix.
 
@@ -244,11 +262,14 @@ https://lists.gnu.org/archive/html/help-gnu-emacs/2021-10/msg00037.html
 
 
 
+
+
 i will write more later
 
 ((btw, the filenames ... "Eda" is my nephew, he is 10))
 
 (Eda is my nephew)
+
 
 
 
@@ -271,11 +292,14 @@ https://en.wikipedia.org/wiki/SDF_Public_Access_Unix_System
 
 
 
+
+
 http://nyx.net/cgi-bin/webhost.cgi
 
 // I am sure, that you know about github.io, having multiple Facebook accounts, etc.
 
 // i have 3 facebook account, and a simple web tool at github.io
+
 
 
 
@@ -294,3 +318,59 @@ Conversely, to see what F8 is currently bound to, execute
 "Preferences: Open Keyboard Shortcuts" from the command palette (Ctrl-K, Ctrl-S), click on the keyboard icon icon to the right of the search field and press F8, and see what command(s) show up with the word "editorTextFocus" in the "When" column.
 
 If a different extension has indeed remapped F8, either uninstall that extension or remap the key as desired.
+
+
+
+# 2505
+
+C:\Users\marti\OneDrive\eev-f8\The eev Manifesto.html
+
+obsidian://open?vault=00&file=Clippings%2F%3D%3DAngel's%20Egg%20-%20the%20home%20page%20of%20Eduardo%20Ochs%20(a.k.a.%20Edrx)
+
+
+https://github.com/edrx/eev/discussions
+
+http://anggtwu.net/index.html
+
+
+Angel's Egg - the home page of Eduardo Ochs (a.k.a. Edrx)
+==Welcome! I'm a mathematician, logician, categorist and type-theorist who used to do computer programming and Free Software activism in his spare time... I have a Free Software project that I consider extremely important, and I have decided that I have to spend a few years outside of the academic world working on day jobs related to Free Software in order to concentrate better on it and make it as usable and well-known as possible.
+
+==The world does need simpler ways to understand Type Theories and categorical models, true, but it desperately needs to reduce computer illiteracy and other illiteracies and to realize the importance of Free Software and Free Information. The Eev Project is an effort against illiteracies, and it has stayed underground for far too long; type theory will have to wait.
+
+macros
+
+in text editors (and IDEs)
+
+to send
+
+a line of text (or, perhaps, a block of text)
+
+to a shell or an interpreter
+
+(or to the internal interpreter of the text editor)
+
+( I am trying to connect with people, who like similar tools.
+
+There is also a related subreddit: https://www.reddit.com/r/semi_programming/ )
+
+more of related keywords: automation, sendkeys
+
+Some info is in the wiki
+
+https://www.reddit.com/r/semi_programming/
+
+
+
+contributions are welcome, of course ---------------------->  
+
+todo: add more of distantly related tools: autohotkey, tmux, ...  at least add them to the subreddit
+
+
+runSelectedText, CLI (command-line), REPL (Read–eval–print loop), regular expressions, one-line programs, spreadsheets, macros (AutoHotkey, ...), tools like Emacs "eev", Jupyter-like tools, ObservableHQ-like websites, automation tools ... free and low-cost 
+
+
+jupyter
+
+
+https://lists.nongnu.org/archive/html/eev/2022-12/msg00030.html
