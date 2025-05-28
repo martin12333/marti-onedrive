@@ -12,6 +12,7 @@ explorer.exe mshtml:@MSITStore:C:\Program%20Files\totalcmd\TOTALCMD.CHM::/dlg_se
 
 
 
+
 *.f* *.md
 
 
