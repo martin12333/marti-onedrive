@@ -44,3 +44,94 @@ exit
 
 
 
+cmd /c dir /ad /s /b 0* 1* 2*
+cmd /c dir /ad  /b 0* 1* 2* |clip
+
+00
+1804-M
+21
+22
+2312 JT KNIHA 241225
+2312 JT KNIHA mb kopie
+2400-WIKI
+247--not7592-----------------------------------add-all
+25
+250321
+2600
+
+bash
+	ls -1 [0-2]* | wc -l
+	echo [0-2]*  | tr ' ' '\n' |clip
+	echo [0-2]*/  | tr ' ' '\n' |clip
+
+	00/
+	1804-M/
+	21/
+	22/
+	2312
+	JT
+	KNIHA
+	241225/
+	2312
+	JT
+	KNIHA
+	mb
+	kopie/
+	2400-WIKI/
+	247--not7592-----------------------------------add-all/
+	25/
+	250321/
+	2600/
+
+
+
+	echo [0-2]*/[0-2]*/ | tr ' ' '\n' |clip
+	| wc -l
+		| wc
+
+		00/00/
+		00/1111/
+		00/2400/
+		00/2504/
+		1804-M/00045-CAN-EDIT-subdir/
+		1804-M/00046-SHARING/
+		1804-M/0004-LINKS/
+		1804-M/2023-12/
+		1804-M/2024-01/
+		1804-M/2024-01-20-other-selected/
+		1804-M/2024-01-23-VYBRANE/
+		1804-M/2024-01-24-milan-scree/
+		1804-M/2024-01-25-VYBRANE-todo/
+		1804-M/248/
+		1804-M/250129/
+		1804-M/250228/
+		2312
+		JT
+		KNIHA
+		241225/0004-LINKS/
+		2312
+		JT
+		KNIHA
+		241225/29/
+		2312
+		JT
+		KNIHA
+		mb
+		kopie/2312
+		JT
+		KNIHA/
+		2400-WIKI/0004-LINKS/
+		2400-WIKI/1111/
+		250321/2501-config-stt-tracker-250321/
+
+
+
+
+exit
+
+
+
+
+ | findstr.exe /i ghisler | measure-object -line -word -character
+
+

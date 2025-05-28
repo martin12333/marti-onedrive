@@ -12480,3 +12480,6 @@ explorer.exe mk:@MSITStore:C:\Program%20Files\totalcmd\TOTALCMD.CHM::/dlg_search
 explorer.exe hh:@MSITStore:C:\Program%20Files\totalcmd\TOTALCMD.CHM::/dlg_search.htm
 explorer.exe mshtml:@MSITStore:C:\Program%20Files\totalcmd\TOTALCMD.CHM::/dlg_search.htm
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+cmd /c dir /ad /s /b 0* 1* 2*
+cmd /c dir /ad  /b 0* 1* 2*
+cmd /c dir /ad  /b 0* 1* 2* |clip
