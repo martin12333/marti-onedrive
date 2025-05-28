@@ -12463,3 +12463,15 @@ Explorer C:\Users\marti\OneDrive\autohotkey-ahk-219\experim-250505.f5.ahk
 & "C:\Program Files\AutoHotkey\AutoHotkey.exe" "C:\Program Files\AutoHotkey\Installer.ahk"
 C:\Pf\AutoHotkey\AutoHotkey.exe
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+mkdir Total-Commander--ghisler.com
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+dir /a /s /b >dir-a-s-b.txt
+cmd /c dir /a /s /b >dir-a-s-b.txt
+findstr.exe /i ghisler dir-a-s-b.txt
+findstr.exe /i ghisler dir-a-s-b.txt | measure-object -line -word -character
+findstr.exe /i '[.](md|f.*)$' dir-a-s-b.txt | measure-object -line -word -character
+findstr.exe -i -E '[.](md|f.*)$' dir-a-s-b.txt | measure-object -line -word -character
+bash -c ls -l
+bash -c grep -i -E '[.](md|f.*)$' dir-a-s-b.txt | wc -l
+bash -c grep -i -E '[.](md|f.*)$' dir-a-s-b.txt | measure-object -line -word -character
+bash
