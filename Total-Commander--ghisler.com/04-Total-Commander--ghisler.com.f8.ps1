@@ -97,6 +97,7 @@ bash
 		00/1111/
 		00/2400/
 		00/2504/
+
 		1804-M/00045-CAN-EDIT-subdir/
 		1804-M/00046-SHARING/
 		1804-M/0004-LINKS/
@@ -137,5 +138,21 @@ exit
 
 
  | findstr.exe /i ghisler | measure-object -line -word -character
+
+
+# failure
+>\00\ *
+C:\Users\marti\OneDrive\0*
+\0*\
+
+
+# works
+\00\ *
+00\ *mnd*
+
+C:\Users\marti\OneDrive;C:\Users\marti\OneDrive\00
+
+dirs,2levels
+
 
 
