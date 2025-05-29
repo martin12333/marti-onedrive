@@ -160,9 +160,15 @@ respnt
 
 # moving
 autohotkey.com
+C:\Users\marti\OneDrive\00\autohotkey.com\AutoHotkey.f9.md
 
 # rsibreak
-D:\Users\milanlocal\downloads-d\AutoHotkey_1.1\AutoHotkeyU64.exe     C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.f5.v1.ahk
+f8
+D:\Users\milanlocal\downloads-d\AutoHotkey_1.1\AutoHotkeyU64.exe  c:\Users\marti\OneDrive\00\autohotkey.com\rsibreak-2505.f5.ahk
+
+win f9
+in code.exe
+
 
 
 
