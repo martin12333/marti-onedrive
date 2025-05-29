@@ -158,8 +158,11 @@ po uninst
 respnt
 
 
+# moving
+autohotkey.com
 
-
+# rsibreak
+D:\Users\milanlocal\downloads-d\AutoHotkey_1.1\AutoHotkeyU64.exe     C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.f5.v1.ahk
 
 
 
