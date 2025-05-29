@@ -12487,3 +12487,6 @@ C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 echo [0-2]*/[0-2]*/[0-2]*/ | tr ' ' '\n' |wc -l
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 D:\Users\milanlocal\downloads-d\AutoHotkey_1.1\AutoHotkeyU64.exe  c:\Users\marti\OneDrive\00\autohotkey.com\rsibreak-2505.f5.ahk
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+D:\Users\milanlocal\downloads-d\AutoHotkey_1.1\AutoHotkeyU64.exe  c:\Users\marti\OneDrive\00\autohotkey.com\rsibreak-2505.f5.ahk
+mkdir 0104-random-quote-generator

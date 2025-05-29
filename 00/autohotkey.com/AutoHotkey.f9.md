@@ -162,12 +162,18 @@ respnt
 autohotkey.com
 C:\Users\marti\OneDrive\00\autohotkey.com\AutoHotkey.f9.md
 
-# rsibreak
+# rsibreak 250529
 f8
 D:\Users\milanlocal\downloads-d\AutoHotkey_1.1\AutoHotkeyU64.exe  c:\Users\marti\OneDrive\00\autohotkey.com\rsibreak-2505.f5.ahk
 
 win f9
-in code.exe
+in gsheets
+
+alt-tab to rsi
+
+02
+03
+07
 
 
 

@@ -21,6 +21,7 @@
 
 
 ;SetKeyDelay , 510, 122
+SetKeyDelay , 310, 322
 SetKeyDelay , 110, 122
 ;https://www.autohotkey.com/docs/v1/lib/SetKeyDelay.htm
 
@@ -64,17 +65,19 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; see also the AutoHotkey. window
 
 ;;MsgBox % A_Clipboard
-MsgBox % StrLen( ClipboardAll  )
-MsgBox % ClipboardAll
-MsgBox % StrLen( Clipboard  )
-MsgBox % ( Clipboard  )
-MsgBox % "ADdasdsd"
-MsgBox  "ADdasdsd"
+;;MsgBox % StrLen( ClipboardAll  )
+;;MsgBox % ClipboardAll
+
+;MsgBox % StrLen( Clipboard  )
+;MsgBox % ( Clipboard  )
+
+;;MsgBox % "ADdasdsd"
+;;MsgBox  "ADdasdsd"
 
 
-; code.exe is further down in this file
+; f9 is further down in this file
 
-;============================== browser ==============================
+;============================== ==============================
 
 #IfWinActive ahk_exe msedge.exe
 ;	#IfWinActive ahk_exe chrome.exe
@@ -103,18 +106,20 @@ MsgBox  "ADdasdsd"
 ;{Esc}
 
 
-;============================== not chrome ==============================
+;============================== ==============================
 
 
 #IfWinActive ahk_exe code.exe
+#IfWinActive ahk_exe msedge.exe
 
 ;^!+#$F9::
+;$F10::
 
 #$F9::
 {
 	;Send {Home}+{End}
 	;Send this is a test {Enter} , aaaa ; bbbb
-	;Sleep, 200
+	Sleep, 200
 	Send, ^c
 	Sleep, 200
 	;Sleep, 460
@@ -122,14 +127,18 @@ MsgBox  "ADdasdsd"
 	;Send, {Down 5}
 
 	;Send, {Enter}
-	;Send, {Down}
+	Send, {Down}
+
 	Send, !{Tab}
 	Sleep, 460
 
+;msgbox % "Clipboard: " Clipboard
 
-	;Send, ^v
+	Send, ^v
 
-	;Send, {Enter}
+	Send, {tab}{Enter}{tab 10}
+
+	Send, !{Tab}
 
 	return
 
