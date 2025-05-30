@@ -12490,3 +12490,4 @@ D:\Users\milanlocal\downloads-d\AutoHotkey_1.1\AutoHotkeyU64.exe  c:\Users\marti
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 D:\Users\milanlocal\downloads-d\AutoHotkey_1.1\AutoHotkeyU64.exe  c:\Users\marti\OneDrive\00\autohotkey.com\rsibreak-2505.f5.ahk
 mkdir 0104-random-quote-generator
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
