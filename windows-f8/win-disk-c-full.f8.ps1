@@ -923,3 +923,35 @@ tail -n 100 ~/dir-b-ad-count.txt | code -
 13072 c:\ProgramData\Microsoft\Windows\Containers\Layers\741e9d6e-7948-465f-b426-84f2eff25112\Files\Windows\WinSxS\
 13072 c:\Users\All Users\Microsoft\Windows\Containers\Layers\741e9d6e-7948-465f-b426-84f2eff25112\Files\Windows\WinSxS\
 21370 c:\Windows\WinSxS\
+
+dir >~/1
+
+
+cd ~/OneDrive
+$x=Get-ChildItem  -Recurse    '*-add-all'    #### add  '**/*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
+Get-ChildItem  -Recurse    '*-add-all'    #### add  '**/*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
+Get-ChildItem  -Recurse   ./    #### add  '**/*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
+#git add -vv   $x.FullName
+
+cd ~/OneDrive
+$x=Get-ChildItem  -Recurse    '*-add-all'    #### add  '**/*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
+#git add -vv   $x.FullName
+
+###    44 seconds !!
+# later: 0
+$x
+$x
+
+
+
+(Get-ChildItem  -Recurse C:\Users\marti\OneDrive  ).FullName   >C:\Users\marti\93
+### unstoppable 20000 cat C:\Users\marti\93
+###   7 seconds  12 seconds
+
+
+fatal: not a git repository (or any of the parent directories): .git
+cd ~/OneDrive
+$x=cmd /c dir  /b   /s      '*-add-all'    #### add  '**/*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
+echo $x
+git add -vv   $x
+

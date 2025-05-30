@@ -130,15 +130,19 @@ git add -vv   $x
 
 #!pwsh
 
-(Get-ChildItem  -Recurse C:\Users\marti\OneDrive          ).FullName   >C:\Users\marti\93
-###   7 seconds
+(Get-ChildItem  -Recurse C:\Users\marti\OneDrive  ).FullName   >C:\Users\marti\93
+### unstoppable 20000 cat C:\Users\marti\93
+###   7 seconds  12 seconds
 
 #!pwsh
 
 cd ~/OneDrive
 $x=Get-ChildItem  -Recurse    '*-add-all'    #### add  '**/*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
 #git add -vv   $x.FullName
+
 ###    44 seconds !!
+# later: 0
+$x
 
 #!pwsh
 
