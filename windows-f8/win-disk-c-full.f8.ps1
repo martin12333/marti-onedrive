@@ -9,6 +9,9 @@ exit
 ###
 links
 
+2505 new way of navigation in vscode,  click on the file name in the 3rd top line of the editor,  files with the same folder and similar name prefix are grouped together
+C:\Users\marti\OneDrive\windows-f8\win-disk*
+
 code .\windows-f8\win-disk-C-full.f8.md
 
 # older f8

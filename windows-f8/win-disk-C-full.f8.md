@@ -1,17 +1,15 @@
-
-
 # make a restore point after deleting the old files
 post-uninstall
 po-del-user
 
-
 # dirs
-
 cmd /c dir d:\umarti\*du64*
 cmd /c dir d:\umarti\*dir*
 
-
 # links
+2505 new way of navigation in vscode,  click on the file name in the 3rd top line of the editor,  files with the same folder and similar name prefix are grouped together
+C:\Users\marti\OneDrive\windows-f8\win-disk*
+
 
 cmd /c dir C:\Users\marti\OneDrive\windows-f8\win-disk*
 
