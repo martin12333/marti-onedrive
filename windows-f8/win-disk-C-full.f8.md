@@ -13,6 +13,10 @@ cmd /c dir d:\umarti\*dir*
 
 # links
 
+cmd /c dir C:\Users\marti\OneDrive\windows-f8\win-disk*
+
+.txt
+
 C:\Users\marti\OneDrive\windows-f8\win-disk-c-full.f8.ps1
 C:\Users\marti\OneDrive\windows-f8\win-disk---full.f8.ps1.ipynb
 C:\Users\marti\OneDrive\windows-f8\win-disk-C-full.f8.md

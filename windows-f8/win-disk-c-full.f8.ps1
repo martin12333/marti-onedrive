@@ -881,8 +881,45 @@ dir ~/*dir*
 
 bash
 
-ls ~/dir-b-ad*
+ls -l ~/dir-b-ad*
+head ~/dir-b-ad*
+
+sed 's/[^\\]*$//' ~/dir-b-ad* | sort | uniq -c | sort -n > ~/dir-b-ad-count.txt
+tail -n 100 ~/dir-b-ad-count.txt | code -
+
+402 c:\u\OneDrive\
+402 c:\Users\marti\OneDrive\
+
+1362 c:\u\AppData\Roaming\Code\User\History\
+1362 c:\Users\marti\AppData\Roaming\Code\User\History\
+
+359 d:\conda\envs\pip310ecco\Lib\site-packages\
+266 d:\conda\envs\pip310\Lib\site-packages\
+
+315 c:\Users\marti\.vscode\extensions\ms-vscode.powershell-2022.6.3\logs\
 
 
+279 d:\msys64\var\lib\pacman\local\
 
 
+1661 c:\ProgramData\Microsoft\Windows\Containers\Layers\f79b7b19-301f-4fc6-95d9-5560f1e259f9\Files\Windows\WinSxS\Temp\InFlight\71f11f43ac83db0145000000a8776486\
+1661 c:\Users\All Users\Microsoft\Windows\Containers\Layers\f79b7b19-301f-4fc6-95d9-5560f1e259f9\Files\Windows\WinSxS\Temp\InFlight\71f11f43ac83db0145000000a8776486\
+1661 c:\Windows\WinSxS\Temp\InFlight\71f11f43ac83db0145000000a8776486\
+1863 c:\Windows\SoftwareDistribution\Download\b91cedd4cabfe5b9c05a4dccd7d16324\Package_for_RollupFix~~amd64~~26100.4061.1.18\
+2035 c:\ProgramData\Microsoft\Windows\Containers\Layers\f79b7b19-301f-4fc6-95d9-5560f1e259f9\Files\Windows\WinSxS\Temp\InFlight\d630c07011b0db018104000074614867\
+2035 c:\Users\All Users\Microsoft\Windows\Containers\Layers\f79b7b19-301f-4fc6-95d9-5560f1e259f9\Files\Windows\WinSxS\Temp\InFlight\d630c07011b0db018104000074614867\
+2035 c:\Windows\WinSxS\Temp\InFlight\d630c07011b0db018104000074614867\
+2108 c:\ProgramData\Microsoft\Windows\Containers\Layers\f79b7b19-301f-4fc6-95d9-5560f1e259f9\Files\Windows\WinSxS\Temp\InFlight\476bbdd96394db01a40400007899a490\
+2108 c:\Users\All Users\Microsoft\Windows\Containers\Layers\f79b7b19-301f-4fc6-95d9-5560f1e259f9\Files\Windows\WinSxS\Temp\InFlight\476bbdd96394db01a40400007899a490\
+2108 c:\Windows\WinSxS\Temp\InFlight\476bbdd96394db01a40400007899a490\
+2580 c:\ProgramData\Microsoft\Windows\Containers\Layers\f79b7b19-301f-4fc6-95d9-5560f1e259f9\Files\Windows\WinSxS\Temp\InFlight\8236be9b5fc4db017e0500008c64884f\
+2580 c:\Users\All Users\Microsoft\Windows\Containers\Layers\f79b7b19-301f-4fc6-95d9-5560f1e259f9\Files\Windows\WinSxS\Temp\InFlight\8236be9b5fc4db017e0500008c64884f\
+2580 c:\Windows\WinSxS\Temp\InFlight\8236be9b5fc4db017e0500008c64884f\
+3411 c:\ProgramData\Microsoft\Windows\Containers\Layers\f79b7b19-301f-4fc6-95d9-5560f1e259f9\Files\Windows\WinSxS\Temp\InFlight\3f35e958ad83db0101000000a46f645d\
+3411 c:\Users\All Users\Microsoft\Windows\Containers\Layers\f79b7b19-301f-4fc6-95d9-5560f1e259f9\Files\Windows\WinSxS\Temp\InFlight\3f35e958ad83db0101000000a46f645d\
+3411 c:\Windows\WinSxS\Temp\InFlight\3f35e958ad83db0101000000a46f645d\
+13070 c:\ProgramData\Microsoft\Windows\Containers\Layers\f79b7b19-301f-4fc6-95d9-5560f1e259f9\Files\Windows\WinSxS\
+13070 c:\Users\All Users\Microsoft\Windows\Containers\Layers\f79b7b19-301f-4fc6-95d9-5560f1e259f9\Files\Windows\WinSxS\
+13072 c:\ProgramData\Microsoft\Windows\Containers\Layers\741e9d6e-7948-465f-b426-84f2eff25112\Files\Windows\WinSxS\
+13072 c:\Users\All Users\Microsoft\Windows\Containers\Layers\741e9d6e-7948-465f-b426-84f2eff25112\Files\Windows\WinSxS\
+21370 c:\Windows\WinSxS\
