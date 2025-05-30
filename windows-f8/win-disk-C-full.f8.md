@@ -10,6 +10,13 @@ cmd /c dir d:\umarti\*dir*
 2505 new way of navigation in vscode,  click on the file name in the 3rd top line of the editor,  files with the same folder and similar name prefix are grouped together
 C:\Users\marti\OneDrive\windows-f8\win-disk*
 
++^.{
+To interact with breadcrumbs, use the Focus Breadcrumbs command or press Ctrl+Shift+.. It will select that last element and open a dropdown that allows you to navigate to a sibling file or symbol. Use the Left and Right keyboard shortcuts to go to elements before or after the current element. When the dropdown appears, start typing - all matching elements will be highlighted and the best match will be selected for quick navigation.
+
+You can also interact with breadcrumbs without the dropdown. Press Ctrl+Shift+; to focus the last element, use Left and Right to navigate, and use Space to reveal the element in 
+the editor.
+
+
 
 cmd /c dir C:\Users\marti\OneDrive\windows-f8\win-disk*
 
