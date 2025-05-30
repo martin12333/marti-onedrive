@@ -955,3 +955,4 @@ $x=cmd /c dir  /b   /s      '*-add-all'    #### add  '**/*-add-all'   ##   "C:\U
 echo $x
 git add -vv   $x
 
+
