@@ -5,10 +5,23 @@ post-uninstall
 po-del-user
 
 
-# older f8
+# dirs
+
+cmd /c dir d:\umarti\*du64*
+cmd /c dir d:\umarti\*dir*
+
+
+# links
+
+C:\Users\marti\OneDrive\windows-f8\win-disk-c-full.f8.ps1
+C:\Users\marti\OneDrive\windows-f8\win-disk---full.f8.ps1.ipynb
+C:\Users\marti\OneDrive\windows-f8\win-disk-C-full.f8.md
+C:\Users\marti\OneDrive\windows-f8\win-disk-dee-full.f8.ps1
+C:\Users\marti\OneDrive\windows-f8\Windows-Update--20-BEFORE--disk-c-full.f8.ps1
+
+
 
 code windows-f8\win-disk---full.f8.ps1.ipynb
-
 
 code .\windows-f8\win-disk-c-full.f8.ps1
 

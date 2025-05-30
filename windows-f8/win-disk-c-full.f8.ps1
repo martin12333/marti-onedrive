@@ -7,15 +7,14 @@ exit
 (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
 
 ###
-
+links
 
 code .\windows-f8\win-disk-C-full.f8.md
 
+# older f8
 
 code windows-f8\win-disk---full.f8.ps1.ipynb
 
-
-code .\windows-f8\win-disk-c-full.f8.ps1
 
 
 
@@ -864,3 +863,26 @@ U:                           1 -1024335    971891 1954% /u
 cmd /c dir c:\| findstr.exe -i free | clip
               16 Dir(s)  36,459,503,616 bytes free
               18 Dir(s)  18,713,489,408 bytes free
+
+
+# 250530
+			  cmd /c tree >~/1
+			  cmd /c dir c:\ /ad /s >~/1
+			  cmd /c dir d:\ /ad /s >~/1
+			  cmd /c dir c:\ d:\  /s >~/1
+
+			 cmd /c dir c:\ d:\ /ad /b  /s >~/dir-b-ad
+			 cmd /c dir c:\ d:\ /ad /b  /s >~/dir-b-ad
+dir ~/*dir*
+
+			  cmd /c dir c:\ d:\  /b  /s >~/dir-b
+			  cat  C:\Users\marti\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | tee   C:\Users\marti\OneDrive\ps-mylen-mar\ConsoleHost_history.txt   | tail
+			  cat  C:\Users\marti\AppData\Roaming\Micros
+
+bash
+
+ls ~/dir-b-ad*
+
+
+
+
