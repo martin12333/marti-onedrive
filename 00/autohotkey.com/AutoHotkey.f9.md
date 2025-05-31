@@ -175,7 +175,9 @@ alt-tab to rsi
 03
 07
 
-# search windows, indexing OneDrive
+# settings searching windows, indexing OneDrive
+
+settings, searching windows, enhanced, Advanced indexing options,  OneDrive
 
 to the script mkdir d:... 00000000--D--OneDrive-IN-DEE-IS-ROBOCOPY-MIR
 
