@@ -177,6 +177,8 @@ alt-tab to rsi
 
 # search windows
 
+to the script mkdir d:... 00000000--D--OneDrive-IN-DEE-IS-ROBOCOPY-MIR
+
 "C:\Users\marti\OneDrive\000000-LINKS-SPEC-SUBDIRS\settings-searching-windows-2025-05-31_21h26_49.png"
 
 
