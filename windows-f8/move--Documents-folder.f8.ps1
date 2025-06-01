@@ -37,19 +37,26 @@ acronis
 git commit -v -a -m  partial-refactor
 git push   -vv
 
-cd dokumenty
-git ls-files
 
-PowerShell/profile.ps1
-WindowsPowerShell/profile.ps1
-a-msklc/polprog1.klc
-a-msklc/us1.klc
 
-cd ..
-git add ".\doku--PowerShell-bkup\profile.ps1"
-git add ".\doku--windowsPowerShell-bkup\profile.ps1"
-git add a-msklc/polprog1.klc  a-msklc/us1.klc
 # AT LEAST SOMETHING IS BACKED UP
+[main2 03fd99e4] backup
+ 4 files changed, 47 insertions(+)
+ create mode 100644 Dokumenty/PowerShell/priv-escal--powershell.config.f8.json
+ create mode 100644 Dokumenty/PowerShell/profile---Copy.f5.ps1
+ create mode 100644 Dokumenty/WindowsPowerShell/profile-Copy.f5.ps1
+ cd ..
+ git add ".\doku--PowerShell-bkup\profile.ps1"
+ git add ".\doku--windowsPowerShell-bkup\profile.ps1"
+ git add a-msklc/polprog1.klc  a-msklc/us1.klc
+ cd dokumenty
+ git ls-files
+  PowerShell/profile.ps1
+ WindowsPowerShell/profile.ps1
+ a-msklc/polprog1.klc
+ a-msklc/us1.klc
+
+
 
 "C:\Users\marti\OneDrive\doku--WindowsPowerShell-bkup\profile.ps1"
 "C:\Users\marti\OneDrive\a-msklc\polprog1.klc"
