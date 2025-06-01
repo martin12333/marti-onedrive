@@ -3698,3 +3698,7 @@ cmd
 bash
 exit
 pwsh
+echo $PROFILE
+exit
+$PSScriptRoot
+exit

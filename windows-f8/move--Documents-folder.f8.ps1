@@ -3,14 +3,31 @@ exit
 
 respnt
 
-# prob failed moving Documents folder away from OneDrive
-https://superuser.com/questions/1725456/wha-cant-i-move-my-documents-folder
-
-https://superuser.com/questions/1728621/onedrive-wont-let-me-stop-syncing-desktop-and-documents
-
-https://superuser.com/questions/1734525/windows-11-keeps-changing-documents-pictures-folders-to-onedrive-folder
 
 
+
+# better part
+
+
+
+#test
+powershell.exe
+echo $PROFILE
+exit
+
+pwsh.exe
+echo $PROFILE
+exit
+
+$a = ""
+dir  ($prase ?? "sffdsfsdf")
+$a ?? "sffdsfsdf"
+
+#test
+ahk 8787676
+AutoHotkey.lnk
+win-q
+#$^$%^$^$^$^$^^%%&^%
 
 
 
@@ -19,12 +36,6 @@ acronis
 
 git commit -v -a -m  partial-refactor
 git push   -vv
-
-
-
-
-
-
 
 cd dokumenty
 git ls-files
@@ -39,11 +50,8 @@ git add ".\doku--PowerShell-bkup\profile.ps1"
 git add ".\doku--windowsPowerShell-bkup\profile.ps1"
 git add a-msklc/polprog1.klc  a-msklc/us1.klc
 
-
 "C:\Users\marti\OneDrive\doku--WindowsPowerShell-bkup\profile.ps1"
 "C:\Users\marti\OneDrive\a-msklc\polprog1.klc"
-
-
 
 "C:\Users\marti\OneDrive\Dokumenty\a-msklc"
 "C:\Users\marti\OneDrive\Dokumenty\PowerShell"
@@ -53,7 +61,22 @@ git add a-msklc/polprog1.klc  a-msklc/us1.klc
 
 
 
+
+
+
+
+
+
+
+# THE REST OF THIS FILE IS NOT USED, IT IS JUST
 # prob failed moving Documents folder away from OneDrive
+
+# prob failed moving Documents folder away from OneDrive
+https://superuser.com/questions/1725456/wha-cant-i-move-my-documents-folder
+
+https://superuser.com/questions/1728621/onedrive-wont-let-me-stop-syncing-desktop-and-documents
+
+https://superuser.com/questions/1734525/windows-11-keeps-changing-documents-pictures-folders-to-onedrive-folder
 
 
 cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"
@@ -173,36 +196,6 @@ code D:\Dokumenty
 
 
 
-
-
-
-
-powershell.exe
-echo $PROFILE
-exit
-
-pwsh.exe
-echo $PROFILE
-exit
-
-$a = ""
-dir  ($prase ?? "sffdsfsdf")
-$a ?? "sffdsfsdf"
-
-
-
-
-
-
-
-
-
-
-
-ahk 8787676
-AutoHotkey.lnk
-win-q
-#$^$%^$^$^$^$^^%%&^%
 
 
 
