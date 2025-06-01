@@ -44,7 +44,31 @@ git commit -v -a -m  partial-refactor
 git push   -vv
 
 
-# todo put into the backup script probably
+
+
+[/\\]00[/\\]00[/\\]
+bash
+^r
+export
+
+marti@MB-PC MINGW64 ~/OneDrive
+$ export GIT_DIR=/d/GIT-bk04/marti-onedrive-2600-409.21.git  ;   exp
+ort GIT_WORK_TREE=/d/0004-LINKS/On
+eDrive
+
+marti@MB-PC MINGW64 ~/OneDrive (main2)
+
+git ls-files >./git---ls-files-250531.txt
+code git---ls-files-250531.txt
+grep -vE  --no-filename  [.]f[0-9]{1,2}[.]  git---ls-files-250531.txt
+grep -vE  --no-filename  [.]f[0-9][.]  git---ls-files-250531.txt  | grep -vE  --no-filename  [.]f1[0-9][.]  | grep -vE  --no-filename  [.]f2[0-9][.] | grep -v hist | grep -v 'add-all' > git---ls-files-250531--filtered.txt
+
+code git---ls-files-250531--filtered.txt
+git add -vv       '*.f[0-9].*'   '*.f1[0-9].*'  #   --dry-run    --dry-run    #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
+
+
+
+# todo put into the backup script probably???
 bash
 echo add */PowerShell/profile.ps1
 git add -vv   --dry-run  */PowerShell/profile.ps1
