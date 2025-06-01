@@ -12512,3 +12512,10 @@ Get-ChildItem  -Recurse   ./    #### add  '**/*-add-all'   ##   "C:\Users\marti\
 $x=cmd /c dir  /b   /s      '*-add-all'    #### add  '**/*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
 echo $x
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+powershell.exe
+$PSScriptRoot
+echo $PROFILE
+dir  ($prase ?? "sffdsfsdf")
+$a ?? "sffdsfsdf"
+$a = ""
+$a ?? "sffdsfsdf"

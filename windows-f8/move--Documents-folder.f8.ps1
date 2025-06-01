@@ -1,7 +1,9 @@
 
 exit
 
+respnt
 
+# prob failed moving Documents folder away from OneDrive
 https://superuser.com/questions/1725456/wha-cant-i-move-my-documents-folder
 
 https://superuser.com/questions/1728621/onedrive-wont-let-me-stop-syncing-desktop-and-documents
@@ -47,6 +49,11 @@ git add a-msklc/polprog1.klc  a-msklc/us1.klc
 "C:\Users\marti\OneDrive\Dokumenty\PowerShell"
 "C:\Users\marti\OneDrive\Dokumenty\KOREN"
 "C:\Users\marti\OneDrive\Dokumenty\WindowsPowerShell"
+
+
+
+
+# prob failed moving Documents folder away from OneDrive
 
 
 cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"
@@ -118,6 +125,7 @@ cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty234"
 
 
 
+# prob failed moving Documents folder away from OneDrive
 
  (eepitch-eshell)
  (eepitch-kill)
@@ -127,6 +135,7 @@ powershell
  ls d:/Do*
 
 # will do in admin
+powershell.exe
 mkdir D:\Dokumenty
 icacls.exe    d:\Dokumenty    /grant 'marti:(oi)(ci)(f)'
    ##/grant 'users:(oi)(ci)(f)'
@@ -157,17 +166,23 @@ cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"   "C:\Users\marti\OneDrive\Doc
 cmd /c dir /a "C:\Users\marti\OneDrive\Dokumenty"    "d:\Dokumenty"  "C:\Users\marti\OneDrive\Documents"
 
 
+$PSScriptRoot
+
+# win-x admin
+code D:\Dokumenty
+
+
+
+
 
 
 
 powershell.exe
+echo $PROFILE
 exit
-# win-x admin
-
 
 pwsh.exe
 echo $PROFILE
-$PSScriptRoot
 exit
 
 $a = ""
@@ -176,7 +191,9 @@ $a ?? "sffdsfsdf"
 
 
 
-code D:\Dokumenty
+
+
+
 
 
 
@@ -186,6 +203,7 @@ ahk 8787676
 AutoHotkey.lnk
 win-q
 #$^$%^$^$^$^$^^%%&^%
+
 
 
 
@@ -219,3 +237,6 @@ ls D:\Users\marti
 ls D:\Umarti\a
 ls D:\Umarti\bb
 ls D:\Umarti\a
+
+
+respnt

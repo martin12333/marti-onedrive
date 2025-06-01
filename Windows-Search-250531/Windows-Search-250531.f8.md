@@ -2,11 +2,26 @@
 # links
 nektere obrazky jsou slepe ulicky
 
+
 # Windows-Search-250531
  settings searching windows, indexing OneDrive
 respnt
 po-search
 po-Windows-Search-250531-601-0355
+
+# todo set docu location in #e to 00 ?
+git commit
+respnt
+
+C:\Users\marti\OneDrive\windows-f8\move--Documents-folder.f8.ps1
+
+respnt
+windows set documents folder location to 
+## tests
+"C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.f5.v1.ahk"
+pwsh
+powershell
+
 
 
 # https://en.wikipedia.org/wiki/Windows_Search
