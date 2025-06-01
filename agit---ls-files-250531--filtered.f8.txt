@@ -100,7 +100,10 @@
 2400-WIKI/sort4.md
 2400-WIKI/test-250125.md
 2400-WIKI/todo.md
+
+
 808-diigo-pinned/rss2lines-x00-latin-1.py
+
 AI/1models.json
 AI/AutoTokenizer-1.ipynb
 AI/BERT_blog.ipynb
@@ -189,24 +192,36 @@ AI/torch.linalg.eig.ipynb
 AI/ucitel/gpt-2_interpretability_sol.ipynb
 AI/w2v-EDIT-MNovy-1.ipynb
 AI/w2v.ipynb
+
+
+
 Blissymbolics,conlangs/fontforge-extras/ASEMTOG_F700.ttf
 Blissymbolics,conlangs/fontforge-extras/CcfSymbolFont_ASEMTOG_F700.ttf
+
+
+
 Desktop/desktop.ini
 Dokumenty/PowerShell/profile.ps1
+
+
 LICENSE
 README.md
 acro-sett/acro-sett-FOR-GIT-ADD-BKUP.zip
 backup-f8/backups.code-workspace
+
 bcloudREADONLY/mn.bashrc
 browserEEV/dist/index.html
 browserEEV/dist/script.js
+
 codewars,haskell,math/f5.hs
 codewars,haskell,math/f5.js
 codewars,haskell,math/f5.py
 codewars,haskell,math/fx.js
 codewars,haskell,math/fx.lua
 codewars,haskell,math/package-lock.json
+
 conn/writing22.md
+
 devcontainers/Dockerfile
 devcontainers/base.Dockerfile
 devcontainers/node/Dockerfile
@@ -223,11 +238,13 @@ doku-docu-234-bkup/2desktop.ini
 doku-docu-234-bkup/Dokumenty/1desktop.ini
 doku-docu-234-bkup/Dokumenty/desktop.ini
 doku-docu-234-bkup/experim/desktop.ini
+
 dotfiles/.gitignore
 dotfiles/install.sh
 dotfiles/no-clobber/.zshrc
 dotfiles/zzzabandon/copy-paste.sh
 dotfiles22B/.gitpod.Dockerfile
+
 eev-f8/find-kla-intro.e.el
 eev-f8/find-psne-intro.e.el
 eev-f8/find-wconfig-browser-links.e.el
@@ -236,12 +253,14 @@ eev-f8/find-wconfig-wget-links.e.el
 eev-f8/w32.e.el
 experim-new-langu-supp/language-configuration - Copy.json
 experim-new-langu-supp/language-configuration.json
+
 git-bash-dotfiles/c-PF-git/etc/gitconfig
 git-bash-dotfiles/c-PF-git/etc/install-options.txt
 git-bash-dotfiles/git-ls-files---cpio.sh
 git-bash-dotfiles/mymycron.sh
 git-bash-dotfiles/mymyrsync.sh
 git-bash-dotfiles/mystartup.sh
+
 hello-executecommand--robocopy/extension.js
 hello-replace---web-onedr/.vscode/tasks.json
 hyperpolyglot----CSSSS/hyperpolyglot.css
@@ -250,6 +269,7 @@ hyperpolyglot-f8/contrib. Math, Lean, Sage, Haskell - meta.csv
 hyperpolyglot-f8/contrib. Math, Lean, Sage, Haskell - variables .csv
 hyperpolyglot-f8/hyperpolyglot-csv-to-f8-by-pandas.ipynb
 hyperpolyglot-f8/hyperpolyglot-html-to-csv-by-pandas.ipynb
+
 hyperv-ubu-serv-20/.bashrc
 hyperv-ubu-serv-20/.config/mc/ini
 hyperv-ubu-serv-20/.inputrc
@@ -257,6 +277,7 @@ hyperv-ubu-serv-20/casper-new.zip
 hyperv-ubu-serv-20/casper-new1.tibx
 hyperv-ubu-serv-20/grub.cfg
 hyperv-ubu-serv-20/wincmd.ini
+
 jupyter-notebooks/NEHYPER-pandas-1.ipynb
 jupyter-notebooks/bytes-ctypes.ipynb
 jupyter-notebooks/csharp-1.ipynb
@@ -267,8 +288,10 @@ jupyter-notebooks/wsl-bashShell0.ipynb
 mmilanutil/__init__.py
 mmilanutil/mmilanutil.pth
 mmilanutil/mmilanutil.py
+
 mmon1/language-configuration.json
 mmon1/package.json
+
 mylen-ila-git-mirmir/.bash_profile
 mylen-ila-git-mirmir/.bashrc
 mylen-ila-git-mirmir/.gitconfig
@@ -405,15 +428,19 @@ mylen-ila-git-mirmir/OneDrive/AABKUP-git-bash-dotfiles/.bashrc
 mylen-ila-git-mirmir/OneDrive/AABKUP-git-bash-dotfiles/.inputrc
 mylen-ila-git-mirmir/OneDrive/find-one-ls
 mylen-ila-git-mirmir/install-options.txt
+
 nodeos/1old/12-docker-create-nodeos.sh
 nodeos/master/resources/Dockerfile
 nodeos/master/resources/Dockerfile-initramfs
+
 nslash_home/bkup-home/.zshrc
 nslash_home/nslash_home.code-workspace
 nslash_home/vscode.code-workspace
 package.json
+
 podman-contai-minimal/busybox-static.dockerfile
 podman-container/12-docker-create-cmy22b.sh
+
 ps-mylen-mar/myconda-code.ps1
 ps-mylen-mar/mymycron.ps1
 ps-mylen-mar/mymyrsync.ps1
@@ -422,6 +449,7 @@ ps-mylen-mar/mystartup.ps1
 ps-mylen-mar/psISEUntitled1.ps1
 ps-mylen-mar/start-robocopy.cmd
 rucne--justusadam.language-haskell-3.6.0/syntax-examples/haskell.hs
+
 sbase.wasm/Makefile
 sbase.wasm/Makefile - Copy
 "sbase.wasm/Search \302\267 sbase emcc filename--config.mk"
@@ -436,7 +464,11 @@ sbase.wasm/wasienv/Makefile
 sbase.wasm/wasienv/Makefile.orig
 sbase.wasm/wasienv/config.mk
 sbase.wasm/wasienv/config.mk.orig
+
+
 screen-recorder,steps-recorder/gitpinned-presso-settings.xml
+
+
 scriptbox-master-1dr-also-nemaster/.vscode/tasks.json
 scriptbox-master-1dr-also-nemaster/src/extension.ts
 scriptbox-scripts--selected/this-DIR-IS-TARGET-OF-mklink
