@@ -201,6 +201,8 @@ Blissymbolics,conlangs/fontforge-extras/CcfSymbolFont_ASEMTOG_F700.ttf
 
 
 Desktop/desktop.ini
+
+
 Dokumenty/PowerShell/profile.ps1
 
 
@@ -466,6 +468,8 @@ sbase.wasm/wasienv/config.mk
 sbase.wasm/wasienv/config.mk.orig
 
 
+explorer screen-recorder,steps-recorder
+explorer 'screen-recorder,steps-recorder'
 screen-recorder,steps-recorder/gitpinned-presso-settings.xml
 
 
