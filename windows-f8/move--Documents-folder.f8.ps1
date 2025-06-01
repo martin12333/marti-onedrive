@@ -11,23 +11,29 @@ respnt
 
 
 #test
+
+#pwsh.exe
+#exit
+echo $PROFILE
+
 powershell.exe
 echo $PROFILE
 exit
 
-pwsh.exe
-echo $PROFILE
-exit
-
-$a = ""
-dir  ($prase ?? "sffdsfsdf")
-$a ?? "sffdsfsdf"
-
 #test
 ahk 8787676
+"C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.f5.v1.ahk"
+startup
 AutoHotkey.lnk
 win-q
 #$^$%^$^$^$^$^^%%&^%
+
+
+
+# put this elsewhere
+$a = ""
+dir  ($prase ?? "sffdsfsdf")
+$a ?? "sffdsfsdf"
 
 
 
@@ -38,13 +44,13 @@ git commit -v -a -m  partial-refactor
 git push   -vv
 
 
-# todo
+# todo put into the backup script probably
 bash
 echo add */PowerShell/profile.ps1
-git add */PowerShell/profile.ps1
+git add -vv   --dry-run  */PowerShell/profile.ps1
 echo add */WindowsPowerShell/profile.ps1
-git add */WindowsPowerShell/profile.ps1
-
+git add -vv   --dry-run */WindowsPowerShell/profile.ps1
+exit
 
 # AT LEAST SOMETHING IS BACKED UP     .copy.f5   250531
 [main2 03fd99e4] backup
@@ -77,6 +83,7 @@ done anyway
 
 
 
+respnt
 
 
 
