@@ -175,28 +175,6 @@ alt-tab to rsi
 03
 07
 
-# settings searching windows, indexing OneDrive
-
-settings, searching windows, enhanced, Advanced indexing options,  OneDrive
-
-to the script mkdir d:... 00000000--D--OneDrive-IN-DEE-IS-ROBOCOPY-MIR
-
-"C:\Users\marti\OneDrive\000000-LINKS-SPEC-SUBDIRS\settings-searching-windows-2025-05-31_21h26_49.png"
-
-
-Image	PID	File	Read (B/sec)	Write (B/sec)	Total (B/sec)	I/O Priority	Response Time (ms)
-SearchProtocolHost.exe	5960	C:\Users\marti\OneDrive\Obrázky\Snímky obrazovky\Snímek obrazovky (4).png:${3D0CE612-FDEE-43f7-8ACA-957BEC0CCBA0}.Metadata	256	0	256	Background	0
-
-folders: 0004-LINKS
-Folders: aaa
-Folders: 0004-LINKS
-0000
-mnd
-
-
-Snímky
-c:\ProgramData\Microsoft\Search\Data\Applications\Windows\
-
 # key history
 
 sticky keys
