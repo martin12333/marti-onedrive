@@ -49,6 +49,7 @@ cd ..
 git add ".\doku--PowerShell-bkup\profile.ps1"
 git add ".\doku--windowsPowerShell-bkup\profile.ps1"
 git add a-msklc/polprog1.klc  a-msklc/us1.klc
+# AT LEAST SOMETHING IS BACKED UP
 
 "C:\Users\marti\OneDrive\doku--WindowsPowerShell-bkup\profile.ps1"
 "C:\Users\marti\OneDrive\a-msklc\polprog1.klc"
