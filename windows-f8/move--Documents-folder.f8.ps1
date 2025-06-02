@@ -56,6 +56,7 @@ Q: how is it called when a filename, the *name*, or the full path, is "pinned", 
 
 
 
+
 This practice is typically referred to as "hardcoding" or "locking" the filename or path in a script or program. When a filename or path is hardcoded, it means the program or script refers to that specific path directly, and it cannot be easily altered by the user without modifying the script itself. This is often done to ensure that the program always references a specific file or location regardless of the environment or user preferences.
 
 In some cases, it might also be described as "pinning" the path or "binding" the file, especially if the path is fixed in the configuration to prevent user changes. However, "hardcoding" is the most common term used for this practice.
