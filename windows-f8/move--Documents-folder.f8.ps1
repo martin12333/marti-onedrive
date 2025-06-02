@@ -46,15 +46,40 @@ git push   -vv
 
 
 
+
+119: "C:\Users\marti\OneDrive\Dokumenty\PINNED--copies"
+
+Q: how is it called when a filename, the *name*, or the full path, is "pinned", "fixed", "linked" externally by a program or a script, so it cannot be changed by a user? Examples:
+
+-"C:\Users\*\OneDrive\Documents\PowerShell\profile.ps1"
+-"C:\Users\*\OneDrive\Documents\AutoHotkey.ahk"
+
+
+
+This practice is typically referred to as "hardcoding" or "locking" the filename or path in a script or program. When a filename or path is hardcoded, it means the program or script refers to that specific path directly, and it cannot be easily altered by the user without modifying the script itself. This is often done to ensure that the program always references a specific file or location regardless of the environment or user preferences.
+
+In some cases, it might also be described as "pinning" the path or "binding" the file, especially if the path is fixed in the configuration to prevent user changes. However, "hardcoding" is the most common term used for this practice.
+
+
+A: When a filename is "pinned" or "fixed" externally by a program or script, it is often referred to as being "immutable" or "protected." This means that the file cannot be modified, renamed, or deleted by the user without specific permissions or actions. In some contexts, it may also be described as a "system file" or a "managed file," indicating that it is under the control of a specific application or service, such as OneDrive.
+
+A: It is often referred to as a "pinned" file or a "fixed" file. In the context of OneDrive, it may also be described as a "protected" file or a "synchronized" file, meaning that it is managed by OneDrive and cannot be easily renamed or moved without affecting synchronization.
+
+
+
+
+# experimental
+C:\Users\marti\OneDrive\agit---ls-files-250531--filtered.f8.txt
 [/\\]00[/\\]00[/\\]
 bash
 ^r
 export
 
 marti@MB-PC MINGW64 ~/OneDrive
-$ export GIT_DIR=/d/GIT-bk04/marti-onedrive-2600-409.21.git  ;   exp
-ort GIT_WORK_TREE=/d/0004-LINKS/On
-eDrive
+
+export GIT_DIR=/d/GIT-bk04/marti-onedrive-2600-409.21.git  ;   export GIT_WORK_TREE=/d/0004-LINKS/OneDrive ;  cd $GIT_WORK_TREE;
+
+history -a
 
 marti@MB-PC MINGW64 ~/OneDrive (main2)
 
