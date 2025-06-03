@@ -286,7 +286,6 @@ $Insert::
 	;;;;;;;;;;Send, {^c}
 	;Send, ^{c}
 	Send, ^c
-
 	; 250421
 	;Send, {AppsKey}
 	;Sleep, 460
@@ -305,6 +304,7 @@ $Insert::
 	Send, h
 	Sleep, 260
 	Send, {Enter}
+	; h ... webh or GLASP
 
 	Sleep, 20
 
@@ -510,6 +510,10 @@ MsgBox NOTHING
 
 
 
+; ^`    f1 togg terminal
+; git commit
+
+
 
 
 ; @@@@@@@@@@@@@@@
@@ -521,7 +525,14 @@ MsgBox NOTHING
 ;test :   win+q AutoHotkey run the app ... it asks to reload this ahk file
 ; and then try in the browser the last command \ """"""  #p  ""
 
+; f9
 
-; ^`    f1 togg terminal
-; git commit
+; #q        startup
+; ; 
+; ; ctrl   z    ctrl -
+
+;   undebugged
+; ^c
+;  #r
+;     "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\AutoHotkey.f5.lnk"
 
