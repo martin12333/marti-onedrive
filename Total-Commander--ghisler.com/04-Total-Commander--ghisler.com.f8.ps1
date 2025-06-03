@@ -1,5 +1,12 @@
 exit
 
+
+
+
+
++^.{
+f9
+
 !{c}p
 
 C:\Users\marti\OneDrive\00\total-commander-Find-files.f8.md
