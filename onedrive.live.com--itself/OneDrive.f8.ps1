@@ -4,24 +4,33 @@ exit
 
 
 
++^.{
+f9
+code OneDrive---250531-602.f8.ps1
+
+code onedrive.live.com--itself\onedr2474z--migr-plan-changed.f8.ps1
 
 
+
+
+
+
+
+#
 # mn80--MSEdge-Workspace-JVB-MB - OneDrive
 ## People you specify can edit
 
 
 
 
-
-
-code onedrive.live.com--itself\onedr2474z--migr-plan-changed.f8.ps1
-
-
-
 domain--mff.cuni.cz
 mff.cuni.cz,outLOOK.live.com
 
+
+
 f1 fuzz
+
+
 
 dir     *onedri*| select Name
 dir  -recurse   *@*| select Name
@@ -62,3 +71,5 @@ Volume in drive C is Windows
 Volume Serial Number is 2480-D21D
 
 Directory of C:\Users\marti\OneDrive
+
+
