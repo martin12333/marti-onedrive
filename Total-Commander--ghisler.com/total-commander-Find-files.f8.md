@@ -1,6 +1,10 @@
 **Find files: General**
 
+==
+
+
  **![](SCHHEAD3.gif) (click on a page)**
+
 
 **General**
 
@@ -136,13 +140,14 @@ Use the Windows charset with the default language encoding
 
 If checked, the next search will be performed only within the displayed search results.
 
-<**Result list>** Shows a list of all files found in the current search operation. The details (date, time, size) are shown in the footer because of the limited space. Double click on a file to go to the directory where it is located. To copy the whole file list to the clipboard, click in this window and press **Ctrl+C**.
+<**Result list>** Shows a list of all files found in the current search operation. The details (date, time, size) are shown in the footer because of the limited space. 
+==enter Double click on a file to go to the directory where it is located. To copy the whole file list to the clipboard, click in this window and press **Ctrl+C**.
 
 <**Status line>** The status line (footer) shows the directory currently being searched, and the file details after the search has finished. With a click on a part of the directory it is possible to skip that directory (after confirmation).
 
 ![](HR.gif)
 
-**Feed to listbox** Transfers the files you found to the source file window, where they can be listed, copied or even deleted. The result list will be opened on a new tab if you hold down the Shift key. With F2 or Ctrl+R, you can go back to normal file display mode.
+**Feed to listbox** Transfers the files you found to the source file window, where they can be listed, copied or even deleted. ==The result list will be opened on a new tab if you hold down the Shift key. With F2 or Ctrl+R, you can go back to normal file display mode.
 
 There are two possible cases when searching in archives: If all files were found in a single archive, the files will be shown in the source file window. Otherwise the archives themselves will be shown.
 
