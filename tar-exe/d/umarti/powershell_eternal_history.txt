@@ -12533,3 +12533,10 @@ explorer screen-recorder,steps-recorder/
 explorer screen-recorder,steps-recorder
 explorer 'screen-recorder,steps-recorder'
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+dir .\.config | select Name
+cmd /c dir .\.config
+cmd /c dir .\.config   /s
+& 'C:\Program Files\totalcmd\TOTALCMD64.EXE'  .config\
+& 'C:\Program Files\totalcmd\TOTALCMD64.EXE'  ~\.config\
+& 'C:\Program Files\totalcmd\TOTALCMD64.EXE' C:\Users\marti\.OneDrive\.config\
+& 'C:\Program Files\totalcmd\TOTALCMD64.EXE' C:\Users\marti\OneDrive\.config\

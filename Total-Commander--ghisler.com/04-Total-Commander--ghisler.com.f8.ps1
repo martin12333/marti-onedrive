@@ -5,6 +5,13 @@ exit
 C:\Users\marti\OneDrive\00\total-commander-Find-files.f8.md
 
 
+
+rclick save tabs to file
+rclick lock this tab
+
+
+
+
 explorer.exe mk:@MSITStore:C:\Program%20Files\totalcmd\TOTALCMD.CHM::/dlg_search.htm
 explorer.exe hh:@MSITStore:C:\Program%20Files\totalcmd\TOTALCMD.CHM::/dlg_search.htm
 explorer.exe mshtml:@MSITStore:C:\Program%20Files\totalcmd\TOTALCMD.CHM::/dlg_search.htm
