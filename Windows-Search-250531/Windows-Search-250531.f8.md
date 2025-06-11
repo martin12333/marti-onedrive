@@ -1,7 +1,9 @@
 
 # links
 nektere obrazky jsou slepe ulicky
-
+"C:\Users\marti\Searches"
+"C:\Users\marti\OneDrive\Dokumenty\0000000004\Searches - Shortcut.lnk"
+#q       searches
 
 # Windows-Search-250531
  settings searching windows, indexing OneDrive
