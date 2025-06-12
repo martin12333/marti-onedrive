@@ -1,4 +1,3 @@
-Copilot-Pro Text-Prediction.f8.md
 
 
 # I need text prediction ... in markdown files (especially English, maybe  also Czech).
