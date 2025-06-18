@@ -299,6 +299,10 @@ Univerzální kancelářské etikety pro inkoustové a laserové tiskárny a kop
 
 
 
+
+
+
+
 # https://www.mcpenshop.cz/pero-gelove-pilot-g-2-0-7-mm-tmave-cervene
 
 
