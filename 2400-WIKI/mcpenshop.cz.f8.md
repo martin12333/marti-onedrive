@@ -46,6 +46,9 @@ chrome://bookmarks/?q=mcpen
 
 
 
+
+
+
 exportovat do html
 
 "C:\Users\marti\OneDrive\Dokumenty\bookmarks_11_28_24.html"
@@ -120,6 +123,10 @@ Vložka náhradní do bloků karis A5 linka, 100 listů
 Kód produktu: 15300044
 EAN: 8595096753142
 
+https://www.mcpenshop.cz/vlozka-nahradni-do-bloku-karis-a4-ctverecek-100-listu-2
+
+
+
 
 
 
@@ -142,6 +149,8 @@ Versatilka plastová 5211 2,0 mm, Mix barev
 Kód produktu: 32600199
 EAN: 8593539818045
 https://www.mcpenshop.cz/psaci-potreby/tuzky/versatilky
+
+
 
 
 
@@ -169,7 +178,7 @@ Versatilka plastová: nejlépe žlutou; případně červenou (případně modro
 
 
 
-# dump objednavek  str nejstarsi
+# OLD dump objednavek  str nejstarsi
 
 dnávky	Datum	Doprava	položek	Stav	Celkem bez DPH	Celkem s DPH			
 2022005926	13. 10. 2022	CZ - Osobní odběr - Prodejna McPen	8	vyřízená	284,22 Kč	343,90 Kč	
@@ -205,7 +214,7 @@ Stavy objednávek
 
 
 
-# dump objednavek  str Detail
+# OLD dump objednavek  str Detail
 
 – Atrium Karlovo náměstí
 Vybrat vše
@@ -281,7 +290,7 @@ Cena celkem bez DPH300,00 Kč
 
 
 
-# dump objednavek  str 1
+# OLD dump objednavek  str 1
 
 https://www.mcpenshop.cz/kelimky-plastove-na-kavu-0-18-l-15-ks-hnede
 
@@ -289,7 +298,7 @@ https://www.mcpenshop.cz/karty-do-kartoteky-a7-100-listu-bile
 
 https://www.mcpenshop.cz/paska-samolepici-reflexni-compass-2-x-90-cm-zluta
 
-# "C:\Users\marti\OneDrive\Dokumenty\bookmarks_11_28_24.html"
+ "C:\Users\marti\OneDrive\Dokumenty\bookmarks_11_28_24.html"
 
 https://www.mcpenshop.cz/desky-spisove-s-gumou-a4-prespanove-modre
 
@@ -297,14 +306,46 @@ https://www.mcpenshop.cz/paska-lepici-penova-oboustranna-19-mm-x-1-m-bila
 
 Univerzální kancelářské etikety pro inkoustové a laserové tiskárny a kopírky. V balení 100 listů formátu A4. Rozměr: 105 x 74 mm. Etiket na stránce 8 ks. Samolepicí etikety jsou ideálním pomocníkem při každodenní práci v kancelářích, ve skladech při tvorbě adresních štítků nebo etiket na balíky, ve velkoobchodech či jakýchkoliv prodejnách a pro další provozy. Vhodné i pro použití ve školách a pro označení školních pomůcek.
 
+https://www.mcpenshop.cz/paska-stabilizacni-pevna-48-mm-x-10-m
+
+https://www.mcpenshop.cz/paska-kobercova-50-mm-x-10-m-modra
+
+
+https://www.mcpenshop.cz/zapisnik-spiralovy-telefonni-10-x-16-cm-cerny
+
+
+
+
+
+
+# RARELY 
+
 https://www.mcpenshop.cz/zvyraznovac-8552-4-6-mm-zeleny
 centropen highlighter
 
+https://www.mcpenshop.cz/popisovac-permanentni-8566-2-5-mm-cerveny
 
 
 
 
-# https://www.mcpenshop.cz/zapisnik-spiralovy-telefonni-10-x-16-cm-cerny
+
+
+# nejblizsi
+https://www.mcpenshop.cz/napln-pilot-do-super-grip-0-7-mm-cerna
+
+
+# https://www.mcpenshop.cz/pero-gelove-pilot-g-2-0-7-mm-tmave-cervene
+
+https://www.mcpenshop.cz/napln-do-rolleru-pilot-g-2-0-7-mm-cervena
+
+
+
+
+
+
+
+
+
 
 https://www.mcpenshop.cz/klipy-kovove-19-mm-10-ks-mix-barev
 
@@ -314,7 +355,6 @@ https://www.mcpenshop.cz/obalky-c6-samolepici-25-ks
 
 https://www.mcpenshop.cz/napln-do-kulickoveho-pera-easy-ink-0-5-mm-modra
 
-# https://www.mcpenshop.cz/pero-gelove-pilot-g-2-0-7-mm-tmave-cervene
 
 
 
