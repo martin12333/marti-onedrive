@@ -42,7 +42,40 @@ Kde bych takového kurýra našel?  SuperSoused.cz ? Messenger.cz ?  Existuje n�
 
 
 
+===
 
+Pokud chcete, mohu vám pomoci prochlast konkrétní ceník, registraci nebo navrhnout text pro objednávku. Stačí napsat! 😊
+
+
+
+Děkuji za podrobnosti. Abych pro vás našel nejlepší řešení, mohl byste prosím upřesnit:
+
+O jaké město nebo region v Česku se jedná (např. Praha, Brno, Ostrava)?
+
+Jak rychle potřebujete zásilku doručit (např. tentýž den, do 24 h, během týdne)?
+
+Je zásilka malá a lehká, nebo větší (např. balík s elektronikou, oblečením apod.)?
+
+S těmito informacemi vám najdu konkrétní a ověřené možnosti převozu zásilky spolehlivým člověkem, i bez osobního kontaktu s vámi.
+
+1. Praha 
+2. během týdne
+3. zásilka je malá a levná, do 1000 Kč, jedná se o např. několik sešitů, knih
+
+
+
+
+
+
+
+
+Sources
+
+===
+. Náš kurýr za vás zaplatí částku do tří tisíc, kterou mu při doručení vrátíte. Ušetříte tak jednu přepravu. Pro objednání potřebujeme znát pouze výši částky, kterou kurýr zaplatí. Službu platba za zboží u vyzvednutí poskytujeme v případě, že vyzvednutí i doručení zásilky 
+
+
+===
 
 
 
