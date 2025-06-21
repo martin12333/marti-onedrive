@@ -88,4 +88,6 @@ Může zásilku z AlzaBoxu pro mne vyzvednout někdo jiný, když mu sdělím k�
 https://chatgpt.com/c/68542a72-879c-8004-94e2-341cbbd026bf
 
 
+Liftago
+Uber
 
