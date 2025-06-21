@@ -1,3 +1,30 @@
+
+
+
+C:\Users\marti\OneDrive\00\250618-621-internetový-obchod,doprava,doručení,vyzvednutí-zásilky,AlzaBox,Zásilkovna.f8.md
+
+internetový-obchod,doprava,doručení,vyzvednutí-zásilky,AlzaBox,Zásilkovna,
+
+expresní-doprava,rychlé-doručení,osobní-odběr,vyzvednutí-zásilky,AlzaBox,Zásilkovna,DODO,WE|DO,Expresní-dodání,Doprava-zdarma,Doprava-na-adresu,Doručení-do-60-minut,Doručení-do-24-hodin
+
+
+C:\Users\marti\OneDrive\conn\mynotes-doprav.f8.md
+
+
+
+
+Může zásilku z AlzaBoxu pro mne vyzvednout někdo jiný, když mu sdělím kód pro vyzvednutí?
+
+
+- Ano, zásilku z AlzaBoxu může vyzvednout i jiná osoba, pokud zná kód pro vyzvednutí zásilky. Tento kód je zaslán na e-mailovou adresu uvedenou při objednávce.
+
+
+https://chatgpt.com/c/68542a72-879c-8004-94e2-341cbbd026bf
+
+
+
+
+
 [Vyhledávání "kalhotky" | Košík.cz](https://www.kosik.cz/vyhledavani?search=kalhotky+)
 
 [https://www.kosik.cz/vyhledavani?search=kalhotky+](https://www.kosik.cz/vyhledavani?search=kalhotky+)

@@ -1,5 +1,22 @@
 
+
+
+
+
+
+
+
+kosik depend natahova
+kosik tena pants
+
+
+
+
+
 # https://www.kosik.cz/muj-profil/profile/shopping-lists?locale=cs
+
+
+
 
 # https://www.kosik.cz/kosik/doprava-a-platba
 
