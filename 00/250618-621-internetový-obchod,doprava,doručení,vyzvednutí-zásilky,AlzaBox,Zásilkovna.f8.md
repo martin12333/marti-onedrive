@@ -29,6 +29,42 @@ Trvejte na videohovoru: Pokud si chcete být kupujícím jistější, domluvte s
 
 ----
 
+
+# ai 3
+
+zda vůbec existují inzeráty, nabídky typu:
+
+- pomoc, např. pro handicapované, při doručování zásilky z AlzaBoxu nebo Zásilkovny, když si nemohu zásilku vyzvednout osobně, 
+
+- společné objednávky na Alza.cz, kdy se domluví dva lidé, a objednávka se pak vyzvedne na jednom místě, např. v AlzaBoxu nebo Zásilkovně
+
+Abych to mohl prověřit co nejpřesněji, mohl byste prosím upřesnit:
+
+1. O jaké lokalitě nebo městě uvažujete? Např. Praha, Brno, celá ČR?
+2. Máte na mysli inzeráty v konkrétní platformě (např. Facebook Marketplace, Bazoš, Letgo, skupiny na Facebooku)?
+3. Zajímá vás spíše jednorázová výpomoc nebo i pravidelná spolupráce?
+
+Děkuji za upřesnění, a hned se do toho pustím.
+
+1. Praha
+2. kterákoliv platforma, kde by se takové inzeráty mohly objevit
+3. obojí
+
+
+
+
+=========
+
+Alternativní způsoby a diskuse: Pokud nikdo z blízkých nemůže pomoci, někteří lidé volí profesionální kurýrní služby. Například služba DoDo nebo jiné městské kurýry lze pověřit vyzvednutím zásilky a doručením až domů (za úplatu). Ve facebookových skupinách (např. sousedských pro Prahu) se občas objeví žádosti o jednorázovou výpomoc – typicky „Nestíhám na Zásilkovnu, mohl by mi někdo vyzvednout balík?“. Tyto příspěvky však nejsou systematické ani veřejně dohledatelné mimo danou skupinu. Spíše jde o individuální domluvy než o veřejné inzeráty. Celkově tedy lze říci, že takové nabídky nejsou běžné; potřeba je řešena interně pomocí sdílení kódů nebo za pomoci přátel či placených kurýrů. (Například Zásilkovna sama uvádí, že v případě nutnosti lze požádat blízkého a nasdílet mu balík k vyzvednutí za vás
+zasilkovna.cz
+
+
+===============
+
+
+
+
+# ai 1
 Potřeboval bych, aby mi někdo vyzvedl zásilku ze Zásilkovny nebo AlzaBoxu, a přivezl mi tu zásilku, nemohu tam jít osobně. 
 
 Může to udělat někdo jiný, když mu dám kód pro vyzvednutí? Z předchozího dotazu jsem pochopil, že ano.
@@ -47,6 +83,7 @@ Kde bych takového kurýra našel?  SuperSoused.cz ? Messenger.cz ?  Existuje n�
 Pokud chcete, mohu vám pomoci prochlast konkrétní ceník, registraci nebo navrhnout text pro objednávku. Stačí napsat! 😊
 
 
+===
 
 Děkuji za podrobnosti. Abych pro vás našel nejlepší řešení, mohl byste prosím upřesnit:
 

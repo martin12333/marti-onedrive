@@ -1,9 +1,10 @@
-george.csas.cz.f8.md
 
 
 
 # links  
 
+modry sanon a5
+https://keep.google.com/#NOTE/1R0ummVwDXKNwI1nIhGMEFFlsiU8sWsSY6KbH0bPklKXY4ZWJuTTxp2M6wsDnGw
 
 https://www.youtube.com/watch?v=JAj-65Z2Zf8&list=PLY5wBCOleg-RKrHxUWJMVPK_QzZeIxIL8
 
@@ -15,7 +16,11 @@ prastare
 
 # clipboard
 
-## 250123
+
+
+
+
+# 250123
 
 přihlášení do internetového bankovnictví na pc pomoci mobilní aplikace site:csas.cz filetype:pdf
 
