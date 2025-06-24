@@ -4,18 +4,24 @@
 # links  
 https://george.csas.cz 
 modry sanon a5
+
+older
 https://keep.google.com/#NOTE/1R0ummVwDXKNwI1nIhGMEFFlsiU8sWsSY6KbH0bPklKXY4ZWJuTTxp2M6wsDnGw
 
 
 https://account.microsoft.com/billing/payments/?refd=account.microsoft.com
+edge://wallet/settings
+edge://wallet/paymentMethods
 
 
 https://payments.google.com/gp/w/u/0/home/subscriptionsandservices
 
-edge://wallet/settings
-edge://wallet/paymentMethods
 
 https://payments.google.com/gp/w/u/0/home/paymentmethods
+Uložená karta
+Obchodníci, u kterých máte uložené údaje své karty nebo sjednané předplatné.
+https://cdn.csas.cz/subscriptions/merchants-overview
+
 Some payment method settings (like virtual card management) aren’t available on this website. Check for them on the Google Wallet website
 https://wallet.google.com/wallet/paymentmethods?utm_source=paymentscenter&utm_medium=website&utm_campaign=x-link
 https://wallet.google/
