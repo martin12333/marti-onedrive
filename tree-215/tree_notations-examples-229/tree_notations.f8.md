@@ -1,10 +1,32 @@
-various tree_notations
+				various tree_notations
 "training set" of examples
 
 was .edn
 
 
 git ls-files | findstr -i tree
+
+
+250630
+https://www.reddit.com/r/learnprogramming/comments/1ihj7i8/am_i_the_only_one_who_uses_yaml_for_note_taking/
+can you give some examples?  I will reshare to r/tree_notations . I will try to find my examples, they are/ will be colorized at github, but they are several years old
+
+
+250630
+
+ai deep research
+
+examples of pieces of YAML Flow or YAML-LD or JSON structured data inlined (embedded) in their markdown files or tweets
+
+
+does anybody use pieces of YAML Flow or YAML-LD or JSON structured data inlined (embedded) in their markdown files or tweets? 
+
+(anything related ... it is hard to find) ...  looking for examples of this practice
+
+does anybody use pieces of YAML Flow or YAML-LD or JSON micronotation inlined (embedded) in their markdown files or tweets?
+
+foam_template: # this is a YAML "Block" mapping ("Flow" mappings aren't supported)
+
 
 
 

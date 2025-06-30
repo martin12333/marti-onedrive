@@ -7,6 +7,8 @@ https://one.google.com/home?g1_landing_page=0
 https://one.google.com/about/plans?g1_landing_page=0
 https://one.google.com/storage?g1_landing_page=1
 
+https://guidebooks.google.com/google-one-families/manage-google-one-for-your-family/view-storage-shared-family
+
 https://keep.google.com/#NOTE/12aY2QADGHcwMdTdhp49CPwBqXzcDAIfL_w_VM0-uor_4DWCst-vgHBRHGnP4vg
 
 
