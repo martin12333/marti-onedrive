@@ -2,11 +2,18 @@
 Programs Failing with Spaces in file paths
 
 
+
+https://news.ycombinator.com/item?id=29186222
+
+
+https://superuser.com/questions/1420212/im-getting-an-error-indicating-that-the-file-path-has-a-space-in-the-name-when#:~:text=When%20installing%20Anaconda3%202018.12%20%2864,with%20this%20if%20I%20continue
+
 mkdir 250628-special-characters
 mkdir 250628-special-characters/OLD-proklete-znaky
 
 Skip to content
 Chat history
+https://chatgpt.com/c/68628b5f-3470-8004-a47a-238ec5c34645
 
 You said:
 (computing) space characters in file paths ... I am looking for a list of programs, that fail, or used to fail, e.g. npx, virtualenv, gnu make, nvm-windows, ndk-build

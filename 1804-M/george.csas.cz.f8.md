@@ -10,8 +10,13 @@ https://keep.google.com/#NOTE/1R0ummVwDXKNwI1nIhGMEFFlsiU8sWsSY6KbH0bPklKXY4ZWJu
 
 
 https://account.microsoft.com/billing/payments/?refd=account.microsoft.com
+wallet is changing
+older
 edge://wallet/settings
 edge://wallet/paymentMethods
+willbe
+https://support.microsoft.com/en-us/microsoft-edge/changes-to-wallet-in-microsoft-edge-bc52418a-4d35-444e-845c-e09df6033b81
+edge://settings/profiles
 
 
 https://payments.google.com/gp/w/u/0/home/subscriptionsandservices
