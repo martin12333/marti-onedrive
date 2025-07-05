@@ -1,4 +1,4 @@
-				various tree_notations
+various tree_notations
 "training set" of examples
 
 was .edn
@@ -7,7 +7,34 @@ was .edn
 git ls-files | findstr -i tree
 
 
-250630
+
+
+
+# file:///C:\Users\marti\OneDrive\tree-215\250705-dream-project.f8.md
+
+Are there already some computer languages (knowledge representation languages) with features, that are in between ...
+
+- constrained (controlled) natural language, and
+
+- RDF 
+
+... languages, that are closer to computing than e.g. the Attempto Controlled English (ACE) language, but, at the same time, less precise (less formal, less constrained) than the RDF (or Prolog) languages?
+
+An example from such a language might be:
+
+```
+the following action helped me (how often: several times)
+    to take the medication M. (at time: before bed)
+```
+
+where the symbols `()`, `: `, and the indent could be used to indicate the structure of the sentence.
+
+
+
+
+
+
+# 250630# 
 https://www.reddit.com/r/learnprogramming/comments/1ihj7i8/am_i_the_only_one_who_uses_yaml_for_note_taking/
 can you give some examples?  I will reshare to r/tree_notations . I will try to find my examples, they are/ will be colorized at github, but they are several years old
 
