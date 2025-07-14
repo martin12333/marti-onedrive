@@ -5,6 +5,7 @@ Programs Failing with Spaces in file paths
 
 https://news.ycombinator.com/item?id=29186222
 
+https://x.com/TheIdOfAlan/status/1458117496087748618			
 
 https://superuser.com/questions/1420212/im-getting-an-error-indicating-that-the-file-path-has-a-space-in-the-name-when#:~:text=When%20installing%20Anaconda3%202018.12%20%2864,with%20this%20if%20I%20continue
 

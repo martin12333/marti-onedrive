@@ -128,3 +128,8 @@ https://chatgpt.com/c/68542a72-879c-8004-94e2-341cbbd026bf
 Liftago
 Uber
 
+---
+https://chatgpt.com/c/68587939-3700-8004-a7f6-3c040349b7c1
+
+, nestiham si vyzvednout balicek v alzaboxu v ulici , neni tady nekdo, kdo to ma pobliz a  by mohl vyzvednout PROSIM? 
+
