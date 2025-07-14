@@ -74,14 +74,14 @@ History is on
 
 Песни. .Окуджавы? .Матвееvоy? .Визбора? .Группы Aбба? .Какие песни от Joe Dassina?
 
-
+ai
 Я люблю песни, которые вызывают воспоминания о прошлом, о детстве, о семье. Например, песни Булата Окуджавы, 
 
 
 💛Песни. .Окуджавы? .Матвееvоy? .Визбора? .Группы Aбба? .Какие песни от Joe Dassina?
 
 
-
-
-
+nejraději mám ty písně, které si mohu pak sám zpívat/broukat, protože je už trochu znám
+I like best the songs, that I can sing/hum myself, because I already know them at least a little bit.
+Мне больше всего нравятся песни, которые я могу петь/напевать сам, потому что я их уже знаю, хотя бы немного.
 
