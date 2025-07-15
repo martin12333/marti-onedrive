@@ -1,5 +1,8 @@
 
 
+
+# PRISTE MEL JIM DAT ROVNOU TELEFON NA NAS ... FATALNI CHYBA ZE TO NEUDELAL PROTOZE .....
+
 # priste pouzit onedrive nikoli icacls pro win milana
 ## nastestii nepresejvil jsem si to
 ## onedrive maybe has edit history
@@ -390,3 +393,45 @@ ms-settingswindowsupdatewinsettingshome.lnk
 
 
 
+
+
+
+
+
+NejRemeslnici pavel-trojan
++420 739 855 660
+
+
+
+
+[18:52, 6. 6. 2025] Jiří Bok: [18:50, 6/6/2025] Jirka: Dobrý den,
+doufám, že jste dostal zprávu, kterou jsem Vám psal v SMS.
+
+Psal jsem, že když se předem domluvíme, mohu být doma kdykoli.
+
+S pozdravem. Jiří Bok
+
+Jde o poptávku číslo 885307 ... odkaz Vám pošlu v další
+zprávě.
+[18:51, 6/6/2025] Jirka: Dobrý den,
+
+https://www.nejremeslnici.cz/poptavka/885307-vymena-okapu-a-svodu/dodavatel/397857-pavel-trojan?tab=comments
+[19:17, 6. 6. 2025] Jiří Bok: To je rozhodně možné. Řemeslníci často spravují více zakázek najednou a někdy čekají na potvrzení nebo zrušení od jiných klientů. Jestli se domníváš, že to by mohl být ten případ, možná by stálo za to se s ním přímo spojit a zjistit, jak to vypadá. Tak se vyhneš nejistotě. Co myslíš, zkusíte to?
+[19:18, 6. 6. 2025] Jiří Bok: https://copilot.microsoft.com/shares/L7vmLM8VofTJNE6YvXjnz
+
+
+(
+Dobrý den,
+jen bych chtěl napsat drobnost ohledně poptávky číslo 885307, kterou jsem zadal na NejŘemeslníci.cz. ...
+v době od 19.7. do 9.8. jsem mimo Prahu.	
+)
+
+
+
+
+
+
+možná na dl
+
+
+# PRISTE MEL JIM DAT ROVNOU TELEFON NA NAS ... FATALNI CHYBA ZE TO NEUDELAL PROTOZE .....

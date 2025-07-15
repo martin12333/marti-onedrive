@@ -81,7 +81,42 @@ ai
 💛Песни. .Окуджавы? .Матвееvоy? .Визбора? .Группы Aбба? .Какие песни от Joe Dassina?
 
 
+
+Просто жить! Каждое утро радоваться новому дню! Делать то, что доставляет удовольствие тебе и по мере сил помогать маме и папе. Читай, слушай свои любимые мелодии, придумывай новые программы .
+
+ Мне тоже нравятся песни Окуджавы, Визбора и АББА.
+ 
+
+ 
 nejraději mám ty písně, které si mohu pak sám zpívat/broukat, protože je už trochu znám
 I like best the songs, that I can sing/hum myself, because I already know them at least a little bit.
-Мне больше всего нравятся песни, которые я могу петь/напевать сам, потому что я их уже знаю, хотя бы немного.
 
+Мне больше всего нравятся песни, которые я могу петь/напевать сам, потому что я их уже знаю - хотя бы немного.
+https://vkvideo.ru/video133947245_456239161
+
+
+ ( nevím přesně o čem se tam zpívá, francouzsky umím jen možná 50 slov)   
+https://youtu.be/9TTg4fzVN7o?si=Nqzzlqe5WoUBHW27
+
+(Я не знаю точно, о чём они поют, я знаю всего слов 50 по-французски)
+https://youtu.be/9TTg4fzVN7o?si=Nqzzlqe5WoUBHW27
+
+bylo poledne, byl jsem velmi vyčerpaný, tak jsem si lehl na postel, ale nespal jsem, jen jsem si odpočinul na chvíli.
+
+
+
+
+
+
+
+///  Если хочешь, я поищу их на дисках и пришлю.
+Хотя сейчас все можно слушать в интернете.  --- Da, my vsyo slushaem v internete. (i u nas uzhe pochti net nikakich ustrojstv dlja kompaktnyx diskov ) 
+   
+
+https://vkvideo.ru/video216198183_456239751
+
+adiemus
+
+
+u vas naverno spotify ne rabotaet?
+https://open.spotify.com/playlist/0fjIOFmXWI9PGanElhM40A
