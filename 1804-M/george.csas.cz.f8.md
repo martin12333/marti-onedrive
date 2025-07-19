@@ -10,6 +10,8 @@ https://keep.google.com/#NOTE/1R0ummVwDXKNwI1nIhGMEFFlsiU8sWsSY6KbH0bPklKXY4ZWJu
 
 
 250719 nekolik chyb ... popletl virt a nevirt kartu, popletl cvc k virt a nevirt karte
+VIRT-oneK-MARTIN •••• 4373
+
 
 https://account.microsoft.com/billing/payments/?refd=account.microsoft.com
 wallet is changing
