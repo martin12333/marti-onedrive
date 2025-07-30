@@ -1,6 +1,13 @@
 EMAILY.txt, nejnovější verze 241.8, KONTAKTY, nova telefonní čísla, NONSHADOW, NEKOPIE 
 
+
+
+#AAAAa Aaaa EMAILY.txt, e-maily nejnovější verze 241.8, KONTAKTY, nová telefonní čísla, NONSHADOW, NEKOPIE 
+
 https://keep.google.com/u/0/#NOTE/1Ast_a0ulo7BX3vXWSbgnXlHWnuCXqykLdikkF7aC2yYDNx5ENfcHP3_RKttayw
+
+
+
 
 NEKOPIE = tento listek je master verze // existuji kopie, nesdilene
 CTRL+Z JE UNDO EDIT

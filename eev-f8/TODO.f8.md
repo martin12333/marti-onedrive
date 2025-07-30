@@ -1,8 +1,21 @@
 
 
+vscode
+f1  backspace
+f8 f9 f10 f11 f12
+	autohotkey	ahk
+
+
+
+
+
+
+
+
+https://support.microsoft.com/en-us/topic/organize-your-ideas-with-collections-in-microsoft-edge-eb2b8582-7043-4b64-a145-e8970ddbb065
+
 
 # https://www.diigo.com/user/martin12333?query=%23CORE
-
 
 
 
