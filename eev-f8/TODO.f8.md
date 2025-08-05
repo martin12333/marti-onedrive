@@ -16,7 +16,7 @@ edge://favorites/?id=122440
 
 
 collecti
-THEY PROBABLY DONT SYNC TO CLOUD
+but THEY PROBABLY DONT SYNC TO CLOUD, probably no uri
 	https://support.microsoft.com/en-us/topic/organize-your-ideas-with-collections-in-microsoft-edge-eb2b8582-7043-4b64-a145-e8970ddbb065
 
 
