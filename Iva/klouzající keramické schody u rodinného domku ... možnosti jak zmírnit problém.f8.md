@@ -1,5 +1,11 @@
 klouzající keramické schody u rodinného domku ... možnosti jak zmírnit problém
 
+
+
+250805
+250730
+
+
 ai
 
 
@@ -28,3 +34,14 @@ Děkuji za upřesnění. Zjistím dostupné a účinné krátkodobé možnosti, 
 
 
 
+
+
+# // v blissymbolech podtržené srdce znamená odpočinek, zkouším to napodobit pomocí emoji  __💚__
+🙏(diky)
+
+odpočívat  003  030   300
+
+# non-wc příčina nechutenství
+
+
+# pozor toto je f8
