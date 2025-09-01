@@ -1,4 +1,6 @@
 
+ ℹ️ℹ️ℹ️ℹ️ (P.P.S. termíny už jsou z poloviny nebo i víc rozebrané!) 
+
 
 - [CTRL+Z je UNDO EDIT](#ctrlz-je-undo-edit)
 - [other files](#other-files)
@@ -59,16 +61,45 @@ očkování proti chřipce
 
 
 
-* https://calendar.google.com/calendar/u/0/r/day/2025/8/26
+# afera 250901
+
+OCM Praha 6 - ordinace 1,
+
+Funguje to! 😃 Sakra funguje to!
+Právě jsem se objednala na očkování proti chřipce do Avenieru PŘES WEB  //// tím způsobem, který jsem popsala tady v diskusi  1.10.2024
+
+(P.S. zvažovala jsem na Tvoji radu zkusit kombinované očkování chřipka+covid, ale neměli tam tuhle variantu v menu, tak jsem se přihlásila na samotnou chřipku)
+
+(P.P.S. termíny už jsou z poloviny nebo i víc rozebrané!)
+
+(P.P.P.S. neobjednávají na dřív než na 1.10.)
+
+ℹ️ℹ️ℹ
+# ℹ️ℹ️ℹ️ℹ️ (P.P.S. termíny už jsou z poloviny nebo i víc rozebrané!) 
+
+
+.... diky ...tato veta ... to  by stalo za whatsapp ... // sms jsou ztratovy protokol// ... nebo aspon mela oddelena zprava do google chat zacinat temito slovy... je velmi stastna nahoda, ze jsem to precetl cele , i  tu cast, co neni videt v androidich oznamenich ... chtel jsem to zase odkladat tyden
+
+objednal jsem se do **OCM Praha 6 - ordinace 1**, kdyby to , ciste fantazijne, slo pozdeji sloucit s ockovanim proti covidu
+
+
+
+
+
+
+
+# * https://calendar.google.com/calendar/u/0/r/day/2025/8/26
 mb75
 dne:  26. srp 2025
 obvykle po 10.9. https://keep.google.com/u/0/#NOTE/1m7CUCVkRIo3rt6NCb9m_92M_usVU7yldSmNNKqbr21agSoiDl_J38Scq_frWVFs   
 
-##  existuje list v a5 karis bloku "ockovacicentrum.cz" 
+##  existuje list v a5 karis bloku 9 / "ockovacicentrum.cz" 
 ##  existuje list v *a6* karis bloku "ockovacicentrum.cz" 
 * this doc https://onedrive.live.com/?cid=4B12298D932A2860&q=ockovacicentrum%2Ecz&scope=drive&id=4B12298D932A2860%2142357&parId=root&parQt=search&o=OneUp
 * this doc https://onedrive.live.com/?cid=4B12298D932A2860&id=4B12298D932A2860%2142357&parId=4B12298D932A2860%2142264&o=OneUp
 * 
+
+
 
 # covid
 
@@ -105,7 +136,11 @@ If you are experiencing symptoms of fatigue and/or burnout, it’s important to 
 
 # https://www.ockovacicentrum.cz/cz/oc-praha6
 V této ordinaci poskytujeme očkování proti COVID 19. Objednávejte se telefonicky na zákaznické lince +420 545 123 321
-Očkovací centrum Praha 6 | Ordinace *1* jedina proti covid
+
+
+# Očkovací centrum Praha 6 | Ordinace *1* jedina proti covid
+
+
 Očkovací centrum Praha 6 | Ordinace *2* neni proti covid
 P2    P4 P5  neni proti covid
 

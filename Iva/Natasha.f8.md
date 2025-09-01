@@ -1,3 +1,7 @@
+250714
+
+https://keep.google.com/#NOTE/1gA4ubA9nGYoMPqugM5j07psSoQc840CMLY3Xf_nimw4aY9czO-31vVLbwr2xeZVj2XDO
+
 
 
 chtěl jsem Ti dát možnost pár dní si odpočinout. Ten pokrok s těmi větvemi je obrovský. 🙏
@@ -84,7 +88,11 @@ ai
 
 Просто жить! Каждое утро радоваться новому дню! Делать то, что доставляет удовольствие тебе и по мере сил помогать маме и папе. Читай, слушай свои любимые мелодии, придумывай новые программы .
 
- Мне тоже нравятся песни Окуджавы, Визбора и АББА.
+
+
+# Мне тоже нравятся песни Окуджавы, Визбора и АББА.  
+Джо Дассен - 
+
  
 
  
@@ -113,10 +121,22 @@ bylo poledne, byl jsem velmi vyčerpaný, tak jsem si lehl na postel, ale nespal
 Хотя сейчас все можно слушать в интернете.  --- Da, my vsyo slushaem v internete. (i u nas uzhe pochti net nikakich ustrojstv dlja kompaktnyx diskov ) 
    
 
-https://vkvideo.ru/video216198183_456239751
+# https://vkvideo.ru/video216198183_456239751
 
 adiemus
 
 
 u vas naverno spotify ne rabotaet?
 https://open.spotify.com/playlist/0fjIOFmXWI9PGanElhM40A
+
+
+
+
+
+
+
+
+
+
+
+

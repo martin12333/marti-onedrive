@@ -349,12 +349,88 @@ Dependency grammar with 7 productions
 >>> trees = pdp.parse(sent)
 >>> for tree in trees:
 ...     print(tree)
+
+
 (shot I (elephant an (in (pajamas my))))
 (shot I (elephant an) (in (pajamas my)))
 
 
 
-"D:\umarti\dowNLOADS--SYMLINKED\{λ way}_files"
+
+
+# 250828.0
+
+is it possible
+in category theory
+a category
+where
+objects are wikidata entities // or dbpedia entities
+and
+morphisms are wikidata properties // or dbpedia properties
+
+any discussion forum posts  about this
+
+any webpages about this category // a webpage, not  a scientific article
+any webpages about such category // a webpage, not  a scientific article
+
+
+is it possible
+a different category
+where
+objects are entities like  wikidata entities  or dbpedia entities
+and basic edges are labeled by short English words and phrases like:
+Adams -had-> education -at-> University of Cambridge -that-has-> location -in-> Cambridge, England
+
+then composed edges could be like:
+Adams -had-an-entity-at-> University of Cambridge
+
+
+
+
+
+Step 4. The category (summary)
+
+Objects = { Adams, Education, UniversityOfCambridge, Location, CambridgeEngland }
+
+Generating morphisms = { had, at, that-has, in }
+
+All morphisms = identities + all path-compositions like had-an-entity-at, had-an-entity-at-that-has, etc.
+
+That’s a perfectly valid free category on a labeled graph, decorated with natural-language-like edge names.
+
+✅ So now you have a category of entities and English-labeled relations that mirrors RDF/Wikidata, but with human-friendly composition.
+
+👉 Do you want me to show this in a diagram (arrows between nodes), so you can visually see the objects and morphisms?
+
+
+
+
+for example
+object1 --[property1]--> object2
+concrete example
+# https://www.wikidata.org/wiki/Q42 --[P31]--> Q5
+# https://www.wikidata.org/wiki/Q42 --[instance of (P31)]--> Q5 (human)
+# https://www.wikidata.org/wiki/Q42 --[P19]--> Q64
+# https://www.wikidata.org/wiki/Q42 --[place of birth (P19)]--> Q64 (Londen)
+# https://www.wikidata.org/wiki/Q42 --[P27]--> Q145
+# https://www.wikidata.org/wiki/Q42 --[country of citizenship (P27)]--> Q145 (United Kingdom)
+# https://www.wikidata.org/wiki/Q42 --[P106]--> Q36180
+# https://www.wikidata.org/wiki/Q42 --[occupation (P106)]--> Q36180 (writer)
+# https://www.wikidata.org/wiki/Q42 --[P69]--> Q35794
+# https://www.wikidata.org/wiki/Q42 --[educated at (P69)]--> Q35794 (University of Cambridge)
+# https://www.wikidata.org/wiki/Q42 --[P735]--> Q42
+# https://www.wikidata.org/wiki/Q42 --[given name (P735)]--> Q42 (Douglas)
+# https://www.wikidata.org/wiki/Q42 --[P734]--> Q42
+# https://www.wikidata.org/wiki/Q42 --[family name (P734)]--> Q42 (Adams)
+# https://www.wikidata.org/wiki/Q42 --[P21]--> Q6581097
+
+dbpedia Example
+# http://dbpedia.org/resource/Douglas_Adams --[http://dbpedia.org/ontology/birthPlace]--> http://dbpedia.org/resource/United_Kingdom
+
+
+
+
+# "D:\umarti\dowNLOADS--SYMLINKED\{λ way}_files"
 200 "D:\umarti\dowNLOADS--SYMLINKED\ALMA246g"
 
 "D:\umarti\dowNLOADS--SYMLINKED\AutoHotkey104805"
