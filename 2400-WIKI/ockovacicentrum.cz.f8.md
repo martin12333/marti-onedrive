@@ -1,6 +1,7 @@
 
  ℹ️ℹ️ℹ️ℹ️ (P.P.S. termíny už jsou z poloviny nebo i víc rozebrané!) 
 
+kazdopadne, velike diky za info 💛
 
 - [CTRL+Z je UNDO EDIT](#ctrlz-je-undo-edit)
 - [other files](#other-files)
@@ -87,7 +88,7 @@ objednal jsem se do **OCM Praha 6 - ordinace 1**, kdyby to , ciste fantazijne, s
 
 
 
-
+ℹ️ℹ️ℹ️ℹ️edit todo
 # * https://calendar.google.com/calendar/u/0/r/day/2025/8/26
 mb75
 dne:  26. srp 2025
