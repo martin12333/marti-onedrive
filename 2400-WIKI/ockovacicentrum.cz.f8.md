@@ -85,6 +85,10 @@ objednal jsem se do **OCM Praha 6 - ordinace 1**, kdyby to , ciste fantazijne, s
 
 
 
+https://www.ockovacicentrum.cz/cz/alergici-a-ockovani-strach-je-zbytecny-ukazala-vedecka-studie-pod-vedenim-doc-madara
+
+Na očkování proti COVID-19 se objednávejte na naší zákaznické lince 545 123 321.
+
 
 
 
