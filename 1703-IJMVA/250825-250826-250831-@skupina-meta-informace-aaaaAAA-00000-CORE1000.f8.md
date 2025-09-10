@@ -8,6 +8,11 @@ https://keep.google.com/#NOTE/1d6ErXkNYGwnEauqAlzA3dTfoJBqN42TJxR1KCjikrxbaJXwAM
 # Milan Bok, Martin Milan, vlastní webové stránky, hlavně facebook, google, reddit, whatsapp #250831 #aaaaAAA #00000 #CORE1000
 https://keep.google.com/#NOTE/1f20fE1eA8TYuKbrFtZXx8F0-TjAzM7k6048qXh2HKE4P3v-YS8mzR-uCObftdA
 
+
+// SDILENY listek
+// ctrl+z je undo = vratit zpet editovani
+
+
 # ℹ️ℹ️ℹ️ℹ️ důležitější vlastní webové stránky
 
 https://www.facebook.com/profile.php?id=100004424177472
