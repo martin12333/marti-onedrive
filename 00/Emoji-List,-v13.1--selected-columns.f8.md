@@ -1697,6 +1697,8 @@ currency
 №	Sample	CLDR Short Name
 1439	💱	currency exchange
 1440	💲	heavy dollar sign
+
+
 other-symbol		
 №	Sample	CLDR Short Name
 1441	⚕	medical symbol
@@ -1704,7 +1706,7 @@ other-symbol
 1443	⚜	fleur-de-lis
 1444	🔱	trident emblem
 1445	📛	name badge
-1446	🔰	Japanese symbol for beginner
+#️⃣a 1446	🔰	Japanese symbol for beginner
 1447	⭕	hollow red circle
 1448	✅	check mark button
 1449	☑	check box with check
@@ -1714,16 +1716,20 @@ other-symbol
 1453	➰	curly loop
 1454	➿	double curly loop
 1455	〽	part alternation mark
-1456	✳	eight-spoked asterisk
+
+#️⃣a 1456	✳	eight-spoked asterisk
 1457	✴	eight-pointed star
 1458	❇	sparkle
+
 1459	©	copyright
 1460	®	registered
 №	Sample	CLDR Short Name
 1461	™	trade mark
+
+
 keycap		
 №	Sample	CLDR Short Name
-1462	#️⃣	keycap: #
+#️⃣aaa  1462	#️⃣	keycap: #
 
 1464	0️⃣	keycap: 0
 1465	1️⃣	keycap: 1
@@ -1749,18 +1755,19 @@ alphanum
 1483	🆑	CL button
 1484	🆒	COOL button
 1485	🆓	FREE button
-1486	ℹ	information
+#️⃣aaa  1486	ℹ	information
 1487	🆔	ID button
-1488	Ⓜ	circled M
+#️⃣a 1488	Ⓜ	circled M
 1489	🆕	NEW button
 1490	🆖	NG button
 1491	🅾	O button (blood type)
 1492	🆗	OK button
 1493	🅿	P button
-1494	🆘	SOS button
+#️⃣a 1494	🆘	SOS button
 №	Sample	CLDR Short Name
-1495	🆙	UP! button
-1496	🆚	VS button
+#️⃣a 1495	🆙	UP! button
+#️⃣a 1496	🆚	VS button
+
 1497	🈁	Japanese “here” button
 1498	🈂	Japanese “service charge” button
 1499	🈷	Japanese “monthly amount” button
@@ -1812,12 +1819,9 @@ geometric
 1542	🔺	red triangle pointed up
 1543	🔻	red triangle pointed down
 1544	💠	diamond with a dot
-1545	🔘	radio button
-a  #️⃣a 1546	🔳	white square button
-1546 #️⃣a	🔳	white square button#️⃣a
-
+#️⃣a 1545	🔘	radio button
 #️⃣a 1546	🔳	white square button
-1547	🔲	black square button
+#️⃣a 1547	🔲	black square button
 Flags		
 flag		
 №	Sample	CLDR Short Name
@@ -1832,16 +1836,8 @@ flag
 
 #️⃣a a 
 
+markdown problems
 1463	*2asterisk*️⃣	keycap: 
-prokleta radka 2 asterisk1463	**️⃣	keycap: 
- triangle pointed down
-1544	💠	diamond with a dot
-1545	🔘	radio button
-a  #️⃣a 1546	🔳	white square button
-1546 #️⃣a	🔳	white square button#️⃣a
+edit prokleta radka 2 asterisk1463	*eeeeeeeeeedit*️⃣	keycap: 
 
-#️⃣a 1546	🔳	white square button
-1547	🔲	black square button
-Flags		
-flag		
-№	Sample	
+

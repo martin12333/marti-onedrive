@@ -17,7 +17,7 @@ C:\Users\marti\OneDrive\gh--martin--to--Eda\24-3-tech_La_Bo.f8.md
 https://en.wikipedia.org/wiki/List_of_emojis
 continue 1f200
 https://unicode-org.github.io/emoji/emoji/charts-13.1/emoji-list.html
-
+obsidian://open?vault=00&file=Emoji-List%2C-v13.1--selected-columns.f8
 
 
 
