@@ -1,4 +1,14 @@
+a  #️⃣a 1546	🔳	white square button
+a  #️⃣a 1546	🔳	white square button
+1545	🔘	radio button
+a  #️⃣a 1546	🔳	white square button
+
+a  #️⃣a 1546	🔳	white square button
 1462	#️⃣a 	keycap: #
+
+#️⃣a a 
+
+
 💟💟
 
 💢💥💤💦💫🕳️🛐♾️
@@ -1714,7 +1724,7 @@ other-symbol
 keycap		
 №	Sample	CLDR Short Name
 1462	#️⃣	keycap: #
-1463	**️⃣	keycap: 
+
 1464	0️⃣	keycap: 0
 1465	1️⃣	keycap: 1
 1466	2️⃣	keycap: 2
@@ -1804,6 +1814,9 @@ geometric
 1544	💠	diamond with a dot
 1545	🔘	radio button
 a  #️⃣a 1546	🔳	white square button
+1546 #️⃣a	🔳	white square button#️⃣a
+
+#️⃣a 1546	🔳	white square button
 1547	🔲	black square button
 Flags		
 flag		
@@ -1818,3 +1831,17 @@ flag
 1555	🏴‍☠️	pirate flag
 
 #️⃣a a 
+
+1463	*2asterisk*️⃣	keycap: 
+prokleta radka 2 asterisk1463	**️⃣	keycap: 
+ triangle pointed down
+1544	💠	diamond with a dot
+1545	🔘	radio button
+a  #️⃣a 1546	🔳	white square button
+1546 #️⃣a	🔳	white square button#️⃣a
+
+#️⃣a 1546	🔳	white square button
+1547	🔲	black square button
+Flags		
+flag		
+№	Sample	
