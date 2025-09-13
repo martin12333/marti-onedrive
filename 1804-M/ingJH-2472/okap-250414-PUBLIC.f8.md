@@ -428,9 +428,18 @@ v době od 19.7. do 9.8. jsem mimo Prahu.
 
 
 
+250911
+
+
+Moje poptávka
+
+Poptáváme pročištění, či případně výměnu, jednoho až dvou okapových svodů ... na rodinném domě. Svody jsou 30 let staré, nevíme, jaká může být jejich životnost. V jednom ze svodů je tolik jehličí, že voda tam teče velmi pomalu. Druhý svod může být plný listí ... strom byl prostříhán teprve nedávno.
+// Nevíme, zda existují svody, u kterých by bylo snadnější čištění. // Měli bychom také zájem o  instalaci mřížek proti listí a jehličí.
 
 
 
+
+-- koleno
 možná na dl
 
 

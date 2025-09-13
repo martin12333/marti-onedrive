@@ -1,23 +1,14 @@
 
-
-
 but: nausea
-
 I have confirmed GP with no nausea or vomiting so yes. Idk about the other questions though.
 
-
-
-
-
-
-better: burnout, asperger's
-
-
-
+better: burnout, asperger's, 
 Antidepressant 
-
-
-
+vagus nerve
+	humming
+	singing
+	dysautonomia
+	C:\Users\marti\OneDrive\00\Clippings\Did anybody tried vagus nerve exercises Does it help.md
 
 lying down
 10 keywords
