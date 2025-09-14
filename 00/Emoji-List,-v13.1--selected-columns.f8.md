@@ -140,10 +140,10 @@ face-concerned
 91	🥱	yawning face
 face-negative		
 №	Sample	CLDR Short Name
-92	😤	face with steam from nose
-93	😡	pouting face
+#️⃣a 92	😤	face with steam from nose
+#️⃣a 93	😡	pouting face
 94	😠	angry face
-95	🤬	face with symbols on mouth
+#️⃣a 95	🤬	face with symbols on mouth
 96	😈	smiling face with horns
 97	👿	angry face with horns
 98	💀	skull
