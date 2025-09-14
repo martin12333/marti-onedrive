@@ -1,12 +1,5 @@
-a  #️⃣a 1546	🔳	white square button
-a  #️⃣a 1546	🔳	white square button
-1545	🔘	radio button
-a  #️⃣a 1546	🔳	white square button
 
-a  #️⃣a 1546	🔳	white square button
-1462	#️⃣a 	keycap: #
-
-#️⃣a a 
+#️⃣aaaa  
 
 
 💟💟
@@ -154,7 +147,7 @@ face-negative
 96	😈	smiling face with horns
 97	👿	angry face with horns
 98	💀	skull
-99	☠	skull and crossbones
+#️⃣a 99	☠	skull and crossbones
 face-costume		
 №	Sample	CLDR Short Name
 100	💩	pile of poo
@@ -200,7 +193,7 @@ emotion
 134	❤	red heart
 135	🧡	orange heart
 136	💛	yellow heart
-137	💚	green heart
+#️⃣a 137	💚	green heart
 138	💙	blue heart
 139	💜	purple heart
 №	Sample	CLDR Short Name
@@ -231,12 +224,12 @@ hand-fingers-open
 161	🖖	vulcan salute
 hand-fingers-partial		
 №	Sample	CLDR Short Name
-162	👌	OK hand
-163	🤌	pinched fingers
+#️⃣a 162	👌	OK hand
+#️⃣a 163	🤌	pinched fingers
 164	🤏	pinching hand
 165	✌	victory hand
-166	🤞	crossed fingers
-167	🤟	love-you gesture
+#️⃣a 166	🤞	crossed fingers
+#️⃣a 167	🤟	love-you gesture
 168	🤘	sign of the horns
 169	🤙	call me hand
 hand-single-finger		
@@ -384,7 +377,7 @@ person-role
 293	🧑‍🔬	scientist
 294	👨‍🔬	man scientist
 295	👩‍🔬	woman scientist
-296	🧑‍💻	technologist
+#️⃣a 296	🧑‍💻	technologist
 297	👨‍💻	man technologist
 298	👩‍💻	woman technologist
 299	🧑‍🎤	singer
@@ -397,7 +390,7 @@ person-role
 №	Sample	CLDR Short Name
 306	👨‍✈️	man pilot
 307	👩‍✈️	woman pilot
-308	🧑‍🚀	astronaut
+#️⃣a 308	🧑‍🚀	astronaut
 309	👨‍🚀	man astronaut
 310	👩‍🚀	woman astronaut
 311	🧑‍🚒	firefighter
@@ -447,9 +440,9 @@ person-fantasy
 352	🦹	supervillain
 353	🦹‍♂️	man supervillain
 354	🦹‍♀️	woman supervillain
-355	🧙	mage
+#️⃣a 355	🧙	mage
 356	🧙‍♂️	man mage
-357	🧙‍♀️	woman mage
+#️⃣a 357	🧙‍♀️	woman mage
 358	🧚	fairy
 359	🧚‍♂️	man fairy
 360	🧚‍♀️	woman fairy
@@ -472,7 +465,7 @@ person-fantasy
 person-activity		
 №	Sample	CLDR Short Name
 376	💆	person getting massage
-377	💆‍♂️	man getting massage
+#️⃣a 377	💆‍♂️	man getting massage
 378	💆‍♀️	woman getting massage
 379	💇	person getting haircut
 380	💇‍♂️	man getting haircut
@@ -564,7 +557,7 @@ person-resting
 459	🧘‍♂️	man in lotus position
 460	🧘‍♀️	woman in lotus position
 461	🛀	person taking bath
-462	🛌	person in bed
+#️⃣a 462	🛌	person in bed
 family		
 №	Sample	CLDR Short Name
 463	🧑‍🤝‍🧑	people holding hands
@@ -606,10 +599,11 @@ family
 498	👩‍👧	family: woman, girl
 499	👩‍👧‍👦	family: woman, girl, boy
 500	👩‍👧‍👧	family: woman, girl, girl
+
 person-symbol		
 №	Sample	CLDR Short Name
 501	🗣	speaking head
-502	👤	bust in silhouette
+#️⃣a 502	👤	bust in silhouette
 503	👥	busts in silhouette
 504	🫂	people hugging
 505	👣	footprints
@@ -1241,7 +1235,7 @@ game
 1050	🪁	kite
 1051	🎱	pool 8 ball
 1052	🔮	crystal ball
-1053	🪄	magic wand
+#️⃣a 1053	🪄	magic wand
 1054	🧿	nazar amulet
 1055	🎮	video game
 1056	🕹	joystick
@@ -1332,10 +1326,10 @@ sound
 1131	🔕	bell with slash
 music		
 №	Sample	CLDR Short Name
-1132	🎼	musical score
-1133	🎵	musical note
+#️⃣a 1132	🎼	musical score
+#️⃣a 1133	🎵	musical note
 1134	🎶	musical notes
-1135	🎙	studio microphone
+#️⃣a 1135	🎙	studio microphone
 1136	🎚	level slider
 1137	🎛	control knobs
 1138	🎤	microphone
@@ -1503,6 +1497,8 @@ tool
 1277	🗜	clamp
 1278	⚖	balance scale
 1279	🦯	white cane
+
+
 1280	🔗	link
 №	Sample	CLDR Short Name
 1281	⛓	chains
@@ -1510,6 +1506,8 @@ tool
 1283	🧰	toolbox
 1284	🧲	magnet
 1285	🪜	ladder
+
+
 science		
 №	Sample	CLDR Short Name
 1286	⚗	alembic
@@ -1561,6 +1559,9 @@ other-object
 1325	⚱	funeral urn
 1326	🗿	moai
 1327	🪧	placard
+
+
+
 Symbols		
 transport-sign		
 №	Sample	CLDR Short Name
@@ -1577,6 +1578,9 @@ transport-sign
 1338	🛃	customs
 1339	🛄	baggage claim
 1340	🛅	left luggage
+
+
+
 warning		
 №	Sample	CLDR Short Name
 1341	⚠	warning
@@ -1592,7 +1596,9 @@ warning
 1351	🔞	no one under eighteen
 1352	☢	radioactive
 1353	☣	biohazard
-arrow		
+
+
+#️⃣a arrow		
 №	Sample	CLDR Short Name
 1354	⬆	up arrow
 1355	↗	up-right arrow
@@ -1645,7 +1651,9 @@ zodiac
 1397	♒	Aquarius
 1398	♓	Pisces
 1399	⛎	Ophiuchus
-av-symbol		
+
+
+#️⃣a av-symbol		
 №	Sample	CLDR Short Name
 1400	🔀	shuffle tracks button
 1401	🔁	repeat button
