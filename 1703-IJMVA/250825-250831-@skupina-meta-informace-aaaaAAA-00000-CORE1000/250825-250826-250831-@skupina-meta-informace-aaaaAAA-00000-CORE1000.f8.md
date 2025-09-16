@@ -4,7 +4,7 @@ https://mail.google.com/chat/u/0/#chat/space/AAQAiugwWm0
 : kde najít jiné informace: webové odkazy ℹ️ℹ️ℹ️ℹ️ℹ️ #
 https://keep.google.com/#NOTE/1d6ErXkNYGwnEauqAlzA3dTfoJBqN42TJxR1KCjikrxbaJXwAMYrAVx_jY6R45UrxJCNT
 
-# Milan Bok, Martin Milan, vlastní webové stránky, hlavně facebook, google, reddit, whatsapp #250831 #aaaaAAA #00000 #CORE1000
+# Milan B., Martin Milan, vlastní webové stránky, hlavně facebook, google, reddit, whatsapp #250831 #aaaaAAA #00000 #CORE1000
 https://keep.google.com/#NOTE/1f20fE1eA8TYuKbrFtZXx8F0-TjAzM7k6048qXh2HKE4P3v-YS8mzR-uCObftdA
 
 related local
