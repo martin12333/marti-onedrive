@@ -1,7 +1,13 @@
-
 ℹ️ℹ️ℹ️ℹ️ℹ️ #250831 #aaaaAAA #00000 #CORE1000 pro případ např. zranění #mozku... potřeboval bych, aby tento kousek textu přežil....
 
-Martin Milan: [ an uncle, a transhuman, a victim of antidepressants, worried about antidepressant-induced akathisia ] ## 250831 
+Martin Milan: [ an uncle, a transhumanist, a victim of antidepressants, worried about antidepressant-induced akathisia ] ## 250831 
+
+
+
+
+related local
+C:\Users\marti\OneDrive\1703-IJMVA\250825-250831-@skupina-meta-informace-aaaaAAA-00000-CORE1000\250825-250826-250831-@skupina-meta-informace-aaaaAAA-00000-CORE1000.f8.md
+
 
 200
 https://www.reddit.com/user/martin_m_n_novy/
