@@ -1,5 +1,8 @@
 ℹ️ℹ️ℹ️ℹ️ℹ️ #250831 #aaaaAAA #00000 #CORE1000 pro případ např. zranění #mozku... potřeboval bych, aby tento kousek textu přežil....
 
+
+# //// ℹ️ Milan .. devel of my life tweet
+
 Martin Milan: [ an uncle, a transhumanist, a victim of antidepressants, worried about antidepressant-induced akathisia ] ## 250831 
 
 
