@@ -1,5 +1,7 @@
 
-Martin Milan: [ an uncle, a transhumanist, a victim of antidepressants, worried about akathisia ] ## 250918 250825 250831
+
+Martin Milan: [ an uncle, a transhumanist, a victim of antidepressants, worried about akathisia ] ## 250918 start fixing this tweet (add dr. Shipko) 
+
 
 
 # // f8_text_file--clouddrive--monorepo
