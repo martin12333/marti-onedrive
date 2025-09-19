@@ -17,3 +17,8 @@ Martin Milan: [ an uncle, a transhumanist, a victim of antidepressants, worried 
 
 
 
+## search for 250825 
+https://github.com/search?q=owner%3Amartin12333%20250825&type=code
+https://onedrive.live.com/?id=root&cid=4B12298D932A2860&q=250825%20&ft=31&searchsessionid=4d39e10a%2D30a4%2D4e08%2D914f%2D32b55225e891&view=7
+## search for 250918
+
