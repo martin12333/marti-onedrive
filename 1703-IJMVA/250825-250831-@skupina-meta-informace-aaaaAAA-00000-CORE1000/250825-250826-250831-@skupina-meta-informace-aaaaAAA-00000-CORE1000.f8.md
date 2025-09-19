@@ -1,8 +1,9 @@
 
+backlink
 https://mail.google.com/chat/u/0/#chat/space/AAQAiugwWm0
+TODO: tento task predelat na prispevek
 
-devel nonshared
-https://keep.google.com/#NOTE/1d6ErXkNYGwnEauqAlzA3dTfoJBqN42TJxR1KCjikrxbaJXwAMYrAVx_jY6R45UrxJCNT
+toto je pracovni verze of 
 
 # Milan B., Martin Milan, vlastní webové stránky, hlavně facebook, google, reddit, whatsapp #250831 #aaaaAAA #00000 #CORE1000
 https://keep.google.com/#NOTE/1f20fE1eA8TYuKbrFtZXx8F0-TjAzM7k6048qXh2HKE4P3v-YS8mzR-uCObftdA
@@ -55,3 +56,8 @@ https://keep.google.com/#NOTE/15NT_oV2s3DmYlAMidJKTMJF1MgMj-3M7_Q9UTHyUZI1BMgCH0
 ## related local
 ## planned to be moved
 C:\Users\marti\OneDrive\ntidep\250831-aaaaAAA-00000-CORE1000-antidepressant-akathisia.f8.md
+
+
+
+devel nonshared
+https://keep.google.com/#NOTE/1d6ErXkNYGwnEauqAlzA3dTfoJBqN42TJxR1KCjikrxbaJXwAMYrAVx_jY6R45UrxJCNT
