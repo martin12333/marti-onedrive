@@ -12551,3 +12551,18 @@ C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 cd dokumenty
 bash
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+cd dokumenty
+cd obsidian.md.dir
+cmd /c dir /b
+cmd /c dir /b /s
+cmd /c dir /b /s *.md
+cmd /c dir /b /s *.f?.md
+cmd /c dir /b /s *.f8.md
+cmd /c dir /b /s *.f?.md
+cd ..
+cmd /c dir /b /s *.f?.md
+cmd /c dir /b /s *.f?.md > md3.txt
+cd dokumenty
+cd obsidian.md.dir
+bash
+cmd /c dir  /s *.f?.md
