@@ -12566,3 +12566,12 @@ cd dokumenty
 cd obsidian.md.dir
 bash
 cmd /c dir  /s *.f?.md
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+cmd /c dir /b /s >dir.txt
+cmd /c dir  /s node_modules
+cmd /c dir /ad  /s node_modules
+cmd /c dir /ad /b  /s node_modules
+cmd /c dir /ad /b  /s node_modules | clip
+code dir.txt
+cmd /c dir /ad /b  /s node_modules* | clip
+cmd /c dir /ad /b  /s node?modules*

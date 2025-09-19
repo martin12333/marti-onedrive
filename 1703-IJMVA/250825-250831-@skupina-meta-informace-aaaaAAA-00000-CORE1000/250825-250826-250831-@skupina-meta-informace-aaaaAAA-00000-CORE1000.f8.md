@@ -20,7 +20,6 @@ an uncle, a transhuman, a victim of antidepressants, worried about antidepressan
 
 https://github.com/martin12333
 
-https://github.com/search?q=owner%3Amartin12333%20250831&type=code
 
 https://www.reddit.com/user/martin_m_n_novy/
 
@@ -35,11 +34,24 @@ https://www.reddit.com/user/martin_m_n_novy/
 
 
 # //// ℹ️ Milan .. devel of this text #grow
- 
+
+
+## search for 250825 
+https://github.com/search?q=owner%3Amartin12333%20250825&type=code
+https://onedrive.live.com/?id=root&cid=4B12298D932A2860&q=250825%20&ft=31&searchsessionid=4d39e10a%2D30a4%2D4e08%2D914f%2D32b55225e891&view=7
+
+## planned to be moved
+
 C:\Users\marti\OneDrive\1703-IJMVA\250825-250831-@skupina-meta-informace-aaaaAAA-00000-CORE1000\250825-250826-250831-@skupina-meta-informace-aaaaAAA-00000-CORE1000.f8.md
 
 https://github.com/martin12333/marti-onedrive/tree/main2/1703-IJMVA/250825-250831-%40skupina-meta-informace-aaaaAAA-00000-CORE1000
 
-# //// ℹ️ Milan .. devel of my life tweet #grow
-related local
+
+# //// ℹ️ Milan .. devel of my life tweet  #250918
+
+https://keep.google.com/#NOTE/15NT_oV2s3DmYlAMidJKTMJF1MgMj-3M7_Q9UTHyUZI1BMgCH0iRBZIdqk-NX
+
+## search for 250918
+## related local
+## planned to be moved
 C:\Users\marti\OneDrive\ntidep\250831-aaaaAAA-00000-CORE1000-antidepressant-akathisia.f8.md
