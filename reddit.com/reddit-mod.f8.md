@@ -2,8 +2,9 @@
 
 
 
-
-
+https://old.reddit.com/subreddits/create
+https://www.reddit.com/subreddits/create
+see 250920
 
 
 # 2509  250831  
@@ -175,8 +176,45 @@ EDIT: and I have added you as a moderator, so you can approve your posts
 
 
 
+# 250920
+
+https://www.diigo.com/user/martin12333?query=.reddit.com%2Fsubreddits%2Fcreate
+
+reddit.com create a subreddit
+no spaces, e.g., "books" or "bookclub". avoid using solely trademarked names, e.g. use "FansOfAcme" instead of "Acme". once chosen, this name cannot be changed.
+anyone can view and submitrestrictedanyone can view, but only some are approved to submit linksprivateonly approved members can view and submitpremium only[?]
+BETA: Subreddits can be created as "premium only" during creation by a user that has premium. You can find more info about this feature here
+
+only reddit premium members can view and submit
+ay edi
+ne who can submit to the subred
+'high' is the standard filter, 'low' disables most filtering, 'all' will filter every post initially and they will need to be approved manually to be visible.
+
+self posts:
+in high-traffic feeds: Allow yo
+t recommended to individual r
+crowd control level fo
+xclude posts by site-wide banned users from modqueue/unmodera
+Show less 
+May 12, 2024
+subreddit settings4
+old.reddit.com+ tag
+your subreddit has been created
+
+Your content tag is based on a moderator survey about community posts and discussions. Take the survey on new.reddit.com.
+More control over how your community is discovered and grows. Add relevant topical information to improve when to show your community across Reddit. Click here to open the new.reddit.com Community Settings page in a new tab.
+llow poll posts
+Show less 
+Mar 1, 2024
+reddit.com: create a subreddit1
+www.reddit.com+ tag
+spam filter strength
+'high' is the standard filter, 'low' disables most filtering, 'all' will filter every post initially and they will need to be approved manually to be visible
+
+Show less 
+Dec 19, 2023
+
+https://old.reddit.com/r/transhuman_identity/about/edit/?created=true
 
 
-
-
-můžete mi občas něco z těch programů poslat ... slibuju, že nebudu kritizovat
+# můžete mi občas něco z těch programů poslat ... slibuju, že nebudu kritizovat
