@@ -1,7 +1,10 @@
 
 exit
 
-230322  windows bug
+# 250923 230322  windows bug??
+1; pomoc s emoji v nazve souboru
+avoid emoji in folder names
+use 00043
 
 C:\Users\marti\OneDrive\vscode-f8\Emojis-in-Integrated-Terminal.f8.ps1
 
@@ -106,6 +109,11 @@ dir D:\umarti\dowNLOADS--SYMLINKED\pokus ℹ️\pokus ℹ️
 dir D:\umarti\dowNLOADS--SYMLINKED\poku*  /s
 z dropbox.com
 "C:\Users\marti\OneDrive\unicode-in-windows-in-git-repo\250923 pokus ℹ️.zip"
+https://www.dropbox.com/home/doc/doc.e8/U005--U005--u005/250923%20pokus%20%E2%84%B9%EF%B8%8F
+
+barevne emoji nevadi
+vadi nonbmp
+
 
 
 zeby z webu
@@ -123,6 +131,7 @@ e 0065
 @ 0040
 
 # 250923
+230322  windows bug ...
 # is it possible??? ???
 
 https://chatgpt.com/c/68d30721-4a20-8332-9571-6d2c40838b07
