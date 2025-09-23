@@ -1,16 +1,17 @@
 
 exit
 
+230322  windows bug
+
+C:\Users\marti\OneDrive\vscode-f8\Emojis-in-Integrated-Terminal.f8.ps1
+
+
+
 
 
 https://maryrosecook.com/blog/post/git-from-the-inside-out
 
-
-
 git cat-file -p   a1c672f12ee4403b2af792d01c207ed24c2ae373
-
-
-
 
 git clone https://github.com/martin12333/unicode-in-windows-in-git-repo.git
 
@@ -20,13 +21,17 @@ git add C:\Users\marti\OneDrive\unicode-in-windows-in-git-repo\unicode-in-window
 
 
 
-
+# f8
 chcp
 chcp 65001
 where xxd
 where bash
 dir C:\pf\git\usr\bin\xxd.exe
 C:\pf\git\usr\bin\xxd.exe
+
+
+
+
 
 C:\pf\git\bin\git.exe   commit -v -a -m "emoji-in-commit-msg💛 via cmd.exe 437"
 
@@ -39,6 +44,8 @@ echo git commit -v -a -m "emoji-in-commit-msg💛"
 	git commit -v -a -m "☀ add"
 git push
 
+
+asi okoppcil odjinud
   0020
 ☀ 2600
   0020
@@ -66,6 +73,10 @@ code "C:\Users\marti\OneDrive\unicode-in-windows-in-git-repo\.git\logs\refs\head
 
 
 
+
+
+
+
 mkdir data
 echo  'a' > data/letter.txt
 git add data/letter.txt
@@ -74,6 +85,32 @@ echo  'a' >"smile-in-fname@☺@"
 
 
 ##########echo  'a' >"emoji-in-fname@💛@"
+
+
+######od -c 1 -x
+#od -c 1
+### 1 is a filename
+#echo skj | od -c
+ls -latr
+
+cd unicode-in-windows-in-git-repo
+
+cim jsem toto ziskal
+
+
+cmd
+chcp 65001
+
+250923  umarti
+dir D:\umarti\dowNLOADS--SYMLINKED\pokus ℹ️\pokus ℹ️
+dir D:\umarti\dowNLOADS--SYMLINKED\poku*  /s
+z dropbox.com
+"C:\Users\marti\OneDrive\unicode-in-windows-in-git-repo\250923 pokus ℹ️.zip"
+
+
+zeby z webu
+https://onlinetools.com/unicode/convert-unicode-to-code-points
+
 
 f 0066
 n 006e
@@ -84,8 +121,19 @@ e 0065
   d83d
   dc9b
 @ 0040
-# windows bug emoji in filename cause explorer.exe restart loop
-########## windows desktop taskbar explorer restart loop [!!!] ‼️  ‼️⁉️❗🚫💥🆘⛔🛑❌🚫‼️⁉️🔴🟥
+
+# 250923
+# is it possible??? ???
+
+https://chatgpt.com/c/68d30721-4a20-8332-9571-6d2c40838b07
+ℹ️
+
+OneDrive sync problem with emoji in filename ???
+
+230322  windows bug ...
+#  emoji in filename causes an explorer.exe restart loop
+########## or, more specifically, windows desktop taskbar ... restart loop
+ [!!!] ‼️  ‼️⁉️❗🚫💥🆘⛔🛑❌🚫‼️⁉️🔴🟥
 
 git add "smile-in-fname@☺@"
 

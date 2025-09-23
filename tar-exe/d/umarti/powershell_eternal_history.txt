@@ -12576,3 +12576,36 @@ code dir.txt
 cmd /c dir /ad /b  /s node_modules* | clip
 cmd /c dir /ad /b  /s node?modules*
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+# f8
+chcp
+chcp 65001
+where xxd
+where bash
+dir C:\pf\git\usr\bin\xxd.exe
+C:\pf\git\usr\bin\xxd.exe
+$x="ěščřřžáýů"
+$x.EnumerateRunes()
+$x.ToCharArray()
+: 1651088089:0;while read -k 1 x ;do echo -n "$x"|od -x ; done
+bash
+xxd
+bash
+echo "" |c:\pf\git\usr\bin\od -A x -t x1z -v
+echo "" | od -x
+bash
+Write-Host $Heart -ForegroundColor DarkYellow
+Write-Host $Heart -ForegroundColor Yellow
+$Heart = [char]0x2665
+Write-Host $Heart -ForegroundColor DarkYellow
+Write-Host $Heart -ForegroundColor Yellow
+$enc = [System.Text.Encoding]::UTF8.GetBytes("â")
+$enc
+[int][char]''
+[int][char]'č'
+$p=(Get-Clipboard); for($i=0;$i -lt $p.Length; $i++) { '{0} {1:x4}' -f $p[$i], [int][char]$p[$i] }
+echo skj | od -c 1
+dir D:\umarti\dowNLOADS--SYMLINKED\poku*
+cmd /c
+chcp 65001
+dir D:\umarti\dowNLOADS--SYMLINKED\poku*
+cmd

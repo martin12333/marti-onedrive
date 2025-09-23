@@ -2,6 +2,12 @@
 exit
 
 
+
+
+C:\Users\marti\OneDrive\unicode-in-windows-in-git-repo\unicode-in-windows-in-git-repo.f8.sh
+
+
+
 code D:\umarti\dowNLOADS--SYMLINKED\vscode-main\vscode-main\src\vs\workbench\contrib\terminal
 code D:\umarti\dowNLOADS--SYMLINKED\vscode-main\vscode-main\src\
 
@@ -151,6 +157,19 @@ Value               : 9728
 ♣♠•00◘○♣♣☻☺
 
 todo
+bash fail
+: 1651088089:0;while read -k 1 x ;do echo -n "$x"|od -x ; done
+exit
+bash
+: 1651088089:0;while read -k 1 x ;do echo -n "$x"|od -x ; done
+: 1651088089:0;while read -n 1 x ;do echo -n "$x"|od -x ; done
+
+
+xxd
+bash
+xxd
+
+terminal ubuntu
 : 1651088089:0;while read -k 1 x ;do echo -n "$x"|od -x ; done
 
 chcp /?
@@ -184,7 +203,7 @@ System.Text.EncoderFallbackException: Unable to translate Unicode character \\uD
 
 
 
-
+bash
 
 echo "☀" |c:\pf\git\usr\bin\od -A x -t x1z -v
  "☀" |c:\pf\git\usr\bin\od -A x -t x1z -v
