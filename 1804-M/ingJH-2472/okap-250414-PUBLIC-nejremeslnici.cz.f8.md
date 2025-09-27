@@ -3,6 +3,9 @@
 
 # PRISTE MEL JIM DAT ROVNOU TELEFON NA NAS ... FATALNI CHYBA ZE TO NEUDELAL PROTOZE .....
 
+kolik stoji vyjezd
+pul dne prace
+
 # priste pouzit onedrive nikoli icacls pro win milana
 ## nastestii nepresejvil jsem si to
 ## onedrive maybe has edit history
@@ -527,3 +530,7 @@ super kvalita odvedené práce a prozákaznícký přístup za to ROZHODNĚ stá
 
 
 # PRISTE MEL JIM DAT ROVNOU TELEFON NA NAS ... FATALNI CHYBA ZE TO NEUDELAL PROTOZE .....
+
+kolik stoji vyjezd
+pul dne prace
+
