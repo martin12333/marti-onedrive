@@ -436,11 +436,94 @@ Moje poptávka
 Poptáváme pročištění, či případně výměnu, jednoho až dvou okapových svodů ... na rodinném domě. Svody jsou 30 let staré, nevíme, jaká může být jejich životnost. V jednom ze svodů je tolik jehličí, že voda tam teče velmi pomalu. Druhý svod může být plný listí ... strom byl prostříhán teprve nedávno.
 // Nevíme, zda existují svody, u kterých by bylo snadnější čištění. // Měli bychom také zájem o  instalaci mřížek proti listí a jehličí.
 
-
-
-
 -- koleno
 možná na dl
+
+
+
+# 250926.12
+
+Administrátor Vám k poptávce Výměna okapů a svodů posílá tuto zprávu
+Dobrý den,
+
+reaguji na Vaši zprávu o tom, že jste asi udělali nějakou chybu.
+
+Není nutné zadávat novou poptávku, napište nám, co se stalo a jaký je stav poptávky a my to tady opravíme.
+
+S přátelským pozdravem,
+
+NejŘemeslníci.cz
+
+227 072 050
+
+
+
+navrhuji odepsat na predchozi mail 
+
+ From: NejŘemeslníci <info@nejremeslnici.cz>
+Sent: Friday, September 19, 2025 8:34:58 AM (UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague
+To: Jiří Bok <jiri.bok@matfyz.cuni.cz>
+Subject: Zpráva k poptávce "Výměna okapů a svodů" (PID 885307)
+===
+
+Jelikož jsme dnes dostali ještě další mail na toto téma, reaguji:
+
+už  jsme zadali novou poptávku, 
+
+947809
+
+a ta už je dokončena, 
+dokonce 
+" reference je v éteru."
+
+
+, takže  prosím  o zrušení původní poptávky 885307.
+
+Děkuji a omlouvám se za komplikace.
+
+
+
+
+
+
+
+ říkáme znovu
+
+
+# 250926.13
+
+https://www.nejremeslnici.cz/reference/
+
+
+
+jen pro uplnost, uz jsem odeslal na webu
+okap-250414-PUBLIC f8 md
+
+reference
+polovina nema uvedenu cenu ....
+
+
+naše poptávka byla spíše drobná ve srovnání s jinými. 
+vše v pořádku, a cena byla nakonec nižší, než se původně předpokládalo, děkujeme
+
+
+Děkujeme za Váš čas!
+Vaše reference je v éteru.
+Všechny údaje Vaší reference jsme v pořádku uložili a nalevo vidíte její náhled.
+
+co psali jini lide
+okap-250414-PUBLIC f8 md
+
+Rychlost, příjemné jednání, dobře odvedená práce.Veliká spokojenost.
+
+Příjemné vystupování, profesionálně odvedená práce k plné spokojenosti.
+
+vysoce profesionální práce
+
+super kvalita odvedené práce a prozákaznícký přístup za to ROZHODNĚ stál. Takže vřele doporučuji! Moc děkuji!
+
+, perfektně odvedena práce za rozumnou cenu. Doporučuji.
+
 
 
 # PRISTE MEL JIM DAT ROVNOU TELEFON NA NAS ... FATALNI CHYBA ZE TO NEUDELAL PROTOZE .....

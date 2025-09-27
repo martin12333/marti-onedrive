@@ -30,3 +30,23 @@ Precision _balances_ Medium ÷ extra _slow_. <Very _fast_>. The _balance re
 
 
 
+7.3 Funkce HOLD (podržení) (funkce ustálení) Váha je vybavena zabudovanou funkcí ustálení (určování průměrné hodnoty). Umožňuje přesné vážení osob, i když nestojí na vážící ploše v klidu. Pozn.: Určování průměrné hodnoty není možné, když se pacient na váze pohybuje příliš. ⇒ Zapněte váhu tlačítkem [ON/OFF]. Váha provede automatickou kontrolu. Váha bude připravena k vážení, když se na displeji hmotnosti zobrazí hodnota „0,0 kg”. ⇒ Postavte osobu do středu vážící plochy. ⇒ Stiskněte tlačítko [HOLD]. Když bude na displeji blikat trojúhelník, váha naměří několik hodnot hmotnosti. Z nich vypočítá průměrnou hodnotu, která se zobrazí na displeji. ⇒ Když stisknete tlačítko [HOLD] znovu, váha se vrátí do režimu normálního vážení. ⇒ Tuto funkci můžete znovu aktivovat kdyk
+
+
+
+
+
+
+Aplikace k váze je placená. Naštěstí ukazuje váha základní informace na displeji.
+
+- cenanepouzitelnost bez appky alebo jednoduche vazenie
+
+
+
+
+
+
+
+
+
+
