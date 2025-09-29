@@ -154,6 +154,10 @@ Jan Nedvěd texty
 # https://help.openai.com/en/articles/4936828-how-do-i-change-my-account-password
 done
 
+2509 not possible mn80 ....if defined by google identity
+
+
+
 # https://chatgpt.com/#pricing
 todo
 Use custom GPTs
@@ -274,4 +278,35 @@ remove from clipboard manager
 ###ljuba.bokova tel cislo
 
 # https://openai.com/policies
+
+250914
+250927
+
+https://platform.openai.com/settings/organization/data-controls/sharing
+
+Pay as you go
+Credit balance
+$0.00
+Auto recharge is off
+When your credit balance reaches $0, your API requests will stop working. Enable automatic recharge to automatically keep your credit balance topped up.
+
+
+
+
+By continuing you agree to our service credit terms. Paid credits are non-refundable and 
+# expire one year from purchase date.
+
+Pay as you go
+Credit balance
+$10.00
+Auto recharge is off
+
+because i am harmed by antidepressants..a quote from yc .. Nothing worked better than exercise, sleep, nicotine, staying hydrated, and coffee. Strategic fasting can also be effective, but you have to be careful with that (like intermittent fasting).”
+
+
+
+
+Changing or switching the authentication method you use to sign in to ChatGPT is not supported, even if you delete your account.
+
+
 

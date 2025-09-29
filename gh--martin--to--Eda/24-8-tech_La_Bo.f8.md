@@ -645,7 +645,8 @@ History is on
 
 
 
-
+edit 
+ahoj Charri
 ahoj Cheri, nevím zda píšu jméno správně, 
 https://en.wikipedia.org/wiki/Cheri_(given_name)
 přeju vše nejlepší k narozeninám a hodně muziky! Posílám ještě jednu písničku ( nevím přesně o čem se tam zpívá, francouzsky umím jen možná 50 slov)   
@@ -653,3 +654,14 @@ https://youtu.be/9TTg4fzVN7o?si=Nqzzlqe5WoUBHW27
 
 
 EDIT: prekvapuje mne , ze jsi to mel tak rychle ...
+
+
+250927
+
+@ed ahoj Charri, chtěl bych Tě pozvat do mojí skupiny ... about Blissymbolics  
+https://www.reddit.com/r/visual_conlangs/
+
+
+-- mimochodem, databáze mám docela rád .. .myslel jsem, že z nich budu dělat diplomku
+
+
