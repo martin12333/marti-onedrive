@@ -1,22 +1,29 @@
 
+draft version
 
-related ids
+## related ids
 "C:\Users\marti\OneDrive\Dokumenty\00043-tags-250918-929---250825-250831--aaaaAAA-00000-CORE1000-antidepressant-akathisia.f8.md"
 
 
-distantly related
+## distantly related
 
 C:\Users\marti\OneDrive\Dokumenty\0000000004\00042-BUGS\250918-antidepressant-akathisia-edit.f8.md
 
-to ai
+## to ai
 
-for 10 years, i have a dream - project - to write about 
+for 10 years, i have a dream - project - to write about antidepressant surprises ... shocks in my life
+
+How can i write about it, so that it is useful for other people?
+
+How can 
+ai tools
+help me?
 
 
 
 
 
-
+# dr. Shipko informed consent
 
 
 
