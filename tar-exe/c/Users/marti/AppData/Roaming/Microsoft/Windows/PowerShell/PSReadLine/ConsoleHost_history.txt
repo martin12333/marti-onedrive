@@ -3702,3 +3702,4 @@ echo $PROFILE
 exit
 $PSScriptRoot
 exit
+pwsh

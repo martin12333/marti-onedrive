@@ -1,5 +1,4 @@
 
-backlink
 https://mail.google.com/chat/u/0/#chat/space/AAQAiugwWm0
 TODO: tento task predelat na prispevek
 
@@ -41,7 +40,7 @@ https://www.reddit.com/user/martin_m_n_novy/
 https://github.com/search?q=owner%3Amartin12333%20250825&type=code
 https://onedrive.live.com/?id=root&cid=4B12298D932A2860&q=250825%20&ft=31&searchsessionid=4d39e10a%2D30a4%2D4e08%2D914f%2D32b55225e891&view=7
 
-## planned to be moved
+## moved
 
 C:\Users\marti\OneDrive\1703-IJMVA\250825-250831-@skupina-meta-informace-aaaaAAA-00000-CORE1000\250825-250826-250831-@skupina-meta-informace-aaaaAAA-00000-CORE1000.f8.md
 
@@ -59,5 +58,5 @@ C:\Users\marti\OneDrive\ntidep\250831-aaaaAAA-00000-CORE1000-antidepressant-akat
 
 
 
-devel nonshared
+devel nonshared mobil
 https://keep.google.com/#NOTE/1d6ErXkNYGwnEauqAlzA3dTfoJBqN42TJxR1KCjikrxbaJXwAMYrAVx_jY6R45UrxJCNT
