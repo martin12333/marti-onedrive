@@ -40,3 +40,5 @@ Question: is it possible that some people are more prone to akathisia (caused by
 Variability in Drug Metabolism: Genetic variations in enzymes that metabolize drugs, particularly those in the cytochrome P450 family (e.g., CYP2D6 and CYP3A4), can affect how an individual processes medications. Poor or ultra-rapid metabolizers may experience higher or lower drug concentrations, increasing the likelihood of side effects like akathisia.
 
 # 75 mg photo  https://chatgpt.com/c/671944b4-6c14-800e-be7e-f9ccc0bf1976   nonshared
+
+# dle filosofie dr. Praška a antifragility ... ℹ️ℹ️ℹ️ℹ️možná se rodina pro příštích 50 let posílila ...
