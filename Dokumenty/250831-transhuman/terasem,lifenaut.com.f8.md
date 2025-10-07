@@ -1,8 +1,37 @@
 
 file:///C:\Users\marti\OneDrive\Dokumenty\250831-transhuman\251007-annot-2024_Truths_of_Terasem.f8.md
 
+
+https://old.reddit.com/r/terasem/about/edit/?created=true
+
+
+Terasem Movement, 
+
+Terasem Faith
+https://terasemfaith.net › terasemfaith-gallery › daily-con...
+
+Wikipedia
+https://en.wikipedia.org › wiki › Terasem_Movement
+The movement was founded by Martine Rothblatt and Bina Aspen Rothblatt, and is guided by principles called the
+
+ "Truths of Terasem".
+
+FAQ - LifeNaut
+
+(1) Turing Church | Giulio Prisco | Substack
+
+
+mindfiles
+mindware
+mindclones
+
+
+
+
+title , home
 https://transreligion.org/beliefs/
 IV. LOVE IS ESSENTIAL. Love means that the happiness of others is essential to your own happiness. Love must connect everyone to achieve life’s purpose and to make God complete.   
+
 
 …All the rest is commentary.
 
@@ -13,14 +42,8 @@ IV. LOVE IS ESSENTIAL. Love means that the happiness of others is essential to y
 
 
 
-
+discord
 long ago, maybe by google search or wikipedia
-
-
-
-https://www.diigo.com/user/martin12333?query=terasem
-
-
 
 First, just for reading.
 
@@ -37,7 +60,6 @@ but it is completely public ... at github
 it could survive me by 10 years
 i didnt know about lifenaut.com
 I will try to make a bigger one at lifenaut.com
-
 
 EDIT
 1.    Undeniable:  Most people in the world are compiling mindfiles, knowingly or not, through their unavoidable interface with digital communications systems. (Eg, Facebook timeline, Google glass, cloud auto-backups)
@@ -59,7 +81,7 @@ https://transreligion.org/beliefs/
 
 
 https://transreligion.org/
-apply
+apply?   zoom?  second life?
 g forms
 
 
@@ -89,3 +111,10 @@ No
 Never submit passwords through Google Forms.
 This content is neither created nor endorsed by Google. - Contact form owner - Terms of Service - Privacy Policy
 Does this form look suspicious? Report
+
+
+
+https://discord.com/channels/@me
+
+
+https://www.diigo.com/user/martin12333?query=terasem
