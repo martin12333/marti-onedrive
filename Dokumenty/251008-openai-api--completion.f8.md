@@ -15,3 +15,9 @@ Thank you! For now, it sends the whole file up to your cursor. I do plan to make
 Thank you for this info 💚
 
 
+
+Codex is OpenAI’s coding agent that helps you write, review, and ship code faster. Use it side-by-side in your IDE or delegate larger tasks to the cloud.
+
+https://www.obsidiancopilot.com/en/pricing
+
+
