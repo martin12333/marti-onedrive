@@ -3,6 +3,9 @@ bug
 paste spins for many seconds
 
 
+copilot innocent?
+
+
 copilot with foam Disabled
 seems ok
 
@@ -21,6 +24,26 @@ exists
 
 
 
+exists
+https://chatgpt.com/c/68e65484-a60c-8328-9918-b9ee6e7379f3
+You may also want to try setting
+
+"editor.pasteAs.enabled": false
+in settings.json. I found when running over SSH with X forwarding, that it would spend several seconds of back-and-forth negotiating which formats were available to paste. I don't run in WSL myself, but my understanding is that this environment will have some of the same performance characteristics.
+
+
+
+....  ... how can i see, how much traffic 
+49 seconds to move this 1 line in 1 file by cut and paste
+file had 20 lines
+
+6 second to paste to another file
+
+
+
+
+
+
 copilot innocent?
 probably false alarm
 copilot
@@ -34,6 +57,10 @@ fail to change anything
 bottom right
 copilot
 snooze hide completions for 5 minutes
+
+
+
+
 
 
 
@@ -72,11 +99,6 @@ nothing
 
 
 
-....  ... how can i see, how much traffic 
-49 seconds to move this 1 line in 1 file by cut and paste
-file had 20 lines
-
-6 second to paste to another file
 
 
 

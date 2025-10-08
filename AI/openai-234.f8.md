@@ -290,23 +290,23 @@ $0.00
 Auto recharge is off
 When your credit balance reaches $0, your API requests will stop working. Enable automatic recharge to automatically keep your credit balance topped up.
 
+https://www.obsidiancopilot.com/en/pricing
+
+https://platform.openai.com/usage
 
 
 
-By continuing you agree to our service credit terms. Paid credits are non-refundable and 
+
 # expire one year from purchase date.
+By continuing you agree to our service credit terms. Paid credits are non-refundable and 
 
 Pay as you go
 Credit balance
 $10.00
 Auto recharge is off
 
-because i am harmed by antidepressants..a quote from yc .. Nothing worked better than exercise, sleep, nicotine, staying hydrated, and coffee. Strategic fasting can also be effective, but you have to be careful with that (like intermittent fasting).”
+# because i am harmed by antidepressants..a quote from yc .. Nothing worked better than exercise, sleep, nicotine, staying hydrated, and coffee. Strategic fasting can also be effective, but you have to be careful with that (like intermittent fasting).”
 
 
-
-
-Changing or switching the authentication method you use to sign in to ChatGPT is not supported, even if you delete your account.
-
-
+# Changing or switching the authentication method you use to sign in to ChatGPT is not supported, even if you delete your account.
 
