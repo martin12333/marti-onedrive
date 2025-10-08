@@ -1,13 +1,47 @@
 
 
+
+
+
+Type → Developer: Reload With Extensions Disabled
+
+
+
+19 seconds
+
+f1 reload 
+4 seconds
+
+disable extension
+disable extension
+
+
+11 seconds even when snoozed
+fail 
 bottom right
 copilot
 snooze hide completions for 5 minutes
 
 
+
+
+
+
 bug 
 
 paste spins for many seconds
+
+
+
+....  ... how can i see, how much traffic 
+49 seconds to move this 1 line in 1 file by cut and paste
+file had 20 lines
+
+6 second to paste to another file
+
+
+
+
 
 chatgpt
 github copilot problem ... when i paste, it freezes for many seconds

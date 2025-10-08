@@ -1,8 +1,27 @@
 
 
+
+19 seconds
+
+f1 reload 
+4 seconds
+
+
+disable extension
+disable extension
+
+
+
+11 seconds even when snoozed
+fail 
+vscode
 bottom right
-copilot
+github-copilot
 snooze hide completions for 5 minutes
+
+
+
+openai-api  ... how can i see, how much traffic 
 
 
 
@@ -10,5 +29,11 @@ Thank you! For now, it sends the whole file up to your cursor. I do plan to make
 
 
 Thank you for this info 💚
+
+
+49 seconds to move this 1 line in 1 file by cut and paste
+file had 20 lines
+
+6 second to paste to another file
 
 
