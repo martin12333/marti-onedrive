@@ -130,10 +130,18 @@ https://github.com/settings/apps/authorizations
 
     Tip: You are entering sudo mode. After you've performed a sudo-protected action, you'll only be asked to re-authenticate again after a few hours of inactivity.
 
+
+
+
+
+
+
 ## ///i decided to entering sudo mode only from another windows account
 
 [Link to github.com-24\github.com-sudo-mode,protected-branches.f8.md](../github.com-24/github.com-sudo-mode,protected-branches.f8.md)
         fix
+
+
 
 
 
@@ -147,21 +155,39 @@ https://code.visualstudio.com/docs/copilot/ai-powered-suggestions
 
 but for me, the tab merely inserts the tab character, and the suggestions are not accepted
 
+
+
+
+
 ## EDIT: SEE BELOW disabled the docsmsft.docs-markdown extension
 now tab works as expected
 another possibility: i did not update the extension
 
 
+
+
+
 ## EDIT:  https://github.com/orgs/community/discussions/7146
 Copilot Markdown file · community · Discussion #7146
 
+
+
+
+
+
+
 ### EDIT: https://github.com/yzhang-gh/vscode-markdown/issues/1011#issue-996151712
+Respect Inline Suggestion to improve compatibility with GitHub Copilot · Issue #1011 · yzhang-gh/vscode-markdown
 We can add the !inlineSuggestionVisible 
 			{
 				"command": "markdown.extension.onTabKey",
 				"key": "tab",
 				"when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/ && !suggestWidgetVisible && !inlineSuggestionVisible && !editorHasMultipleSelections && !editorTabMovesFocus && !inSnippetMode && !hasSnippetCompletions && !hasOtherSuggestions && markdown.extension.editor.cursor.inList && !markdown.extension.editor.cursor.inFencedCodeBlock && !markdown.extension.editor.cursor.inMathEnv"
 			},
+
+
+
+
 
 f1
 >keyb
@@ -172,16 +198,27 @@ so what command is invoked    TAB
 
 2024-09-16 04:11:11.194 [info] [KeybindingService]: \ From 13 keybinding entries, matched insertNestedList, when: editorTextFocus && !inSnippetMode && !suggestWidgetVisible && !vim.active && editorLangId == 'markdown', source: user extension docsmsft.docs-markdown.
 
+
+
+
 btw , 13 keybinding entries ... gui shows only 4
 EDIT: "tab" (recording keys) ... gui shows all 
+
+
 
 
 docsmsft.docs-markdown
 https://github.com/microsoft/vscode/issues/143062
 
+
+
+
 disabled the docsmsft.docs-markdown extension
 now tab works as expected
 another possibility: i did not update the extension
+
+
+
 
 
 ## keybindings.json
@@ -199,6 +236,9 @@ wrap it as a uri
 
 
 
+
+
+
 ## "Tab"
 
 ---
@@ -211,6 +251,9 @@ settings.json
     "editor.detectIndentation": false,   // true,
 
 ---
+
+
+
 
 
 ### keybindings
@@ -232,12 +275,20 @@ settings.json
 
 
 
+
+
 ## relatively free keys
 
 alt+x
 ctrl+\
 altgr?
 ctrl+alt+m
+
+
+
+
+
+
 
 ## quickfix?
 
@@ -269,6 +320,10 @@ it works but it is a bit pain
   "when": "inlineSuggestionVisible && !editorReadonly"
 }
 
+
+
+
+
 test it
 now just need to remember it, and it will be fine
 
@@ -284,6 +339,9 @@ test it
 now just need to remember it, and it will be fine
 
 
+
+
+
 ## quickfix?
 
 
@@ -295,6 +353,8 @@ now just need to remember it, and it will be fine
 }
 
 closed the file ???
+
+
 
 
 ## quickfix?? ... does nothing
@@ -328,6 +388,9 @@ github.copilot.activated
 }
 
 
+
+
+
 ## old
 could it be because of the settings in the settings.json file?
 probably not, because it behaves the same way regardless of the settings in the settings.json file
@@ -338,6 +401,9 @@ probably not, because it behaves the same way regardless of the settings in the 
 Personal account
 Praha, 15300
 Czech Republic
+
+
+
 
 
 
@@ -378,6 +444,11 @@ https://github.com/settings/billing/summary
 2024-08-19 03:48:41.405 [warning] Failed to update repository branch protection: No GitHub authentication session available.
 
 https://github.com/search?q=repo%3Acommunity%2Fcommunity+markdown++completion+keyboard++ctrl&type=discussions&s=&o=desc&p=1
+
+
+
+slow
+spinning
 
 
 # I'm noticing the following pattern while working with Jupyter notebooks: when things get slow, Copilot status icon is spinning.

@@ -2,7 +2,14 @@
 file:///C:\Users\marti\OneDrive\Dokumenty\250831-transhuman\251007-annot-2024_Truths_of_Terasem.f8.md
 
 
+
+That experience led to a realization: while knowledge is one of the most valuable things we accumulate in life, most of it disappears with us.
+trigger copilot compl
+
+
 https://old.reddit.com/r/terasem/about/edit/?created=true
+Terasem Movement, Terasem Faith, transreligion, LifeNaut
+Terasem Movement, Terasem Faith, transreligion, LifeNaut, Truths of Terasem, Turing Church, mindfiles, mindware, mindclones
 
 
 Terasem Movement, 
@@ -16,18 +23,19 @@ The movement was founded by Martine Rothblatt and Bina Aspen Rothblatt, and is g
 
  "Truths of Terasem".
 
-FAQ - LifeNaut
+FAQ - 
+LifeNaut
 
-(1) Turing Church | Giulio Prisco | Substack
-
-
-mindfiles
-mindware
-mindclones
+(1) 
+Turing Church
+ | Giulio Prisco | Substack
 
 
+mindfiles, mindware, mindclones
 
 
+
+transreligion
 title , home
 https://transreligion.org/beliefs/
 IV. LOVE IS ESSENTIAL. Love means that the happiness of others is essential to your own happiness. Love must connect everyone to achieve life’s purpose and to make God complete.   
