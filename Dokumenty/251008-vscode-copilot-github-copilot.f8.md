@@ -15,7 +15,13 @@ foam disable
 seems to help
 
 
+exists
+@command:extension.bisect.start +when:!isExtensionBisectActive
 
+
+
+
+copilot innocent?
 probably false alarm
 copilot
 disable extension
