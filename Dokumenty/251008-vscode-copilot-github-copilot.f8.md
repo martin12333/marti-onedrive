@@ -1,23 +1,30 @@
 
+bug 
+paste spins for many seconds
 
 
+copilot with foam Disabled
+seems ok
 
 
 Type → Developer: Reload With Extensions Disabled
+seems to help
+
+
+foam disable
+seems to help
 
 
 
+probably false alarm
+copilot
+disable extension
 19 seconds
-
 f1 reload 
 4 seconds
-
-disable extension
-disable extension
-
-
+copilot
 11 seconds even when snoozed
-fail 
+fail to change anything
 bottom right
 copilot
 snooze hide completions for 5 minutes
@@ -25,11 +32,37 @@ snooze hide completions for 5 minutes
 
 
 
+{
+  "key": "",
+  "command": "workbench.action.toggleKeybindingsLog"
+}
+f1
+>keyb
+{
+  "key": "",
+  "command": "workbench.action.toggleKeybindingsLog"
+}
+@command:workbench.action.toggleKeybindingsLog
+
+command:workbench.action.toggleKeybindingsLog
+not today  THIS HELPED ME TO FIND OUT WHAT COMMAND IS INVOKED
+
+so what command is invoked    TAB
+event - modifiers: [ctrl], code: KeyV, keyCode: 52 ('V')
+2025-10-08 13:40:11.105 [info] [Window] [KeybindingService]: | Resolving ctrl+V
+2025-10-08 13:40:11.105 [info] [Window] [KeybindingService]: \ From 4 keybinding entries, matched editor.action.clipboardPasteAction, when: no when condition, source: built-in.
+2025-10-08 13:40:11.106 [info] [Window] [KeybindingService]: + Invoking command editor.action.clipboardPasteAction.
+2025-10-08 13:40:11.519 [info] [Window] [KeybindingService]: + Ignoring single modifier ctrl due to it being pressed together with other keys.
+
+dsf
+
+nothing
 
 
-bug 
 
-paste spins for many seconds
+
+
+
 
 
 
@@ -53,6 +86,7 @@ trying to trigger
 
 
 C:\Users\marti\OneDrive\2400-WIKI\github-copilot.f8.md
+# GitHub Copilot in VS Code is very slow (spinning icon) when editing Jupyter notebooks (.ipynb files)
 only keywords
 
 slow
@@ -85,5 +119,4 @@ Thank you! For now, it sends the whole file up to your cursor. I do plan to make
 
 Thank you for this info 💚
 
-# GitHub Copilot in VS Code is very slow (spinning icon) when editing Jupyter notebooks (.ipynb files)
 
