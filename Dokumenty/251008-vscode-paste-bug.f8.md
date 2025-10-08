@@ -10,16 +10,16 @@ copilot with foam Disabled
 seems ok
 
 
-Type → Developer: Reload With Extensions Disabled
+# Type → Developer: Reload With Extensions Disabled
 seems to help
 
 
 foam disable
 seems to help
-
+# ENTIRE OneDrive IS MAYBE TOO BIG FOR FOAM
 
 exists
-@command:extension.bisect.start +when:!isExtensionBisectActive
+# @command:extension.bisect.start +when:!isExtensionBisectActive
 
 
 
@@ -28,7 +28,7 @@ exists
 https://chatgpt.com/c/68e65484-a60c-8328-9918-b9ee6e7379f3
 You may also want to try setting
 
-"editor.pasteAs.enabled": false
+# "editor.pasteAs.enabled": false
 in settings.json. I found when running over SSH with X forwarding, that it would spend several seconds of back-and-forth negotiating which formats were available to paste. I don't run in WSL myself, but my understanding is that this environment will have some of the same performance characteristics.
 
 
