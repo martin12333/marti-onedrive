@@ -1,26 +1,21 @@
-00049-NEW-IDs-hashtags-keywords.f8.md
-
-
-
-
 650714-Nohavica-Kometa--information-immortality.f8.md
 
+"C:\Users\marti\OneDrive\Dokumenty\650714-Nohavica-Kometa--information-immortality\glasp-memories.md"
+C:\Users\marti\OneDrive\hypothes.is,glasp.co---and-any-post-diigo\glasp\glasp-memories.md
 
 
+a quote from glasp-memories.md
 
+---
 
+## Building your digital legacy with Kazuki Nakayashiki, co-founder of Glasp
 
+- **Date:** 7/26/2024
+- **URL:** https://nesslabs.com/glasp-featured-tool
 
-ai
-# NEW IDs, hashtags, keywords ... for all my f8.md files
+> Martin Milan discovered that confronting mortality at a young age reshaped his perspective on life, driving him to focus on creating a meaningful digital legacy that emphasizes community and shared knowledge.
 
-ai
-# for search engines, obsidian search, etc.
-
-ai
-# tags: #00049 #IDs #hashtags #keywords #f8md #f8.md #markdown #obsidian #search #SEO #optimization #organization #productivity #notes #knowledge-management #digital-notes #note-taking #file-organization #content-management #metadata #tagging #categorization #indexing #file-naming #file-structure #note-
-
-
+---
 
 
 Kometa
@@ -61,3 +56,10 @@ O vodě, o trávě, o lese,
 o smrti, se kterou smířit nejde se,
 o lásce, o zradě, o světě,
 bude to písnička o nás a kometě ...
+
+
+----
+
+
+
+
