@@ -14,6 +14,8 @@ edge://settings/profiles/sync
 edge://favorites/?id=122440
 
 
+google saved collections
+# https://www.google.com/interests/saved?authuser=0
 
 collecti
 but THEY PROBABLY DONT SYNC TO CLOUD, probably no uri
@@ -49,6 +51,10 @@ edge://workspaces-internals/
 # https://www.reddit.com/user/martin_m_n_novy/
 
 
+# https://unizdrav.cz/doprava-platba
+
+
+# https://www.livingwithdementia.online/?utm_campaign=292d7a6a-db9c-4c04-81d1-ca085123e96b&utm_source=so&utm_medium=mail&utm_content=2bae7709-2ffd-46d9-bb88-eaed4587aabc&configurationId=88f9965c-671d-44fc-85a9-5673c4b077ec&actionId=fd5013cc-4407-4c18-9299-1d1ac170b473&cid=54518c7b-9b9d-49fb-a2a6-4ad5f3f91281
 
 # (R) https://hypothes.is/search?q=tag%3APINNED
 

@@ -21,6 +21,13 @@ an uncle, a transhuman, a victim of antidepressants, worried about antidepressan
 https://github.com/martin12333
 
 
+
+
+todo udelat nejake google saved collections
+https://www.google.com/interests/saved?authuser=0
+
+
+
 https://www.reddit.com/user/martin_m_n_novy/
 
 
