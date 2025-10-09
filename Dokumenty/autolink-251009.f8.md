@@ -6,6 +6,7 @@ autolink-251009.f8.md
 , // any regex to match the text, required
 
 
+
 ```jsonc
 "commandAutolink.queries": [
     {
