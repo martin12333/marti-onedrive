@@ -1,5 +1,9 @@
 
 
+TODO
+04-KDE-MAS-HLAVNI-NAPOVEDU.f8.md
+
+
 vscode
 f1  backspace
 f8 f9 f10 f11 f12
@@ -12,13 +16,13 @@ edge://sync-internals/
 edge://settings/profiles/sync
 
 edge://favorites/?id=122440
-
+	pozor, asi zere procesor, kdyz otevreno porad
 
 google saved collections
 # https://www.google.com/interests/saved?authuser=0
 
-collecti
-but THEY PROBABLY DONT SYNC TO CLOUD, probably no uri
+edge collecti
+	but THEY PROBABLY DONT SYNC TO CLOUD, probably no uri
 	https://support.microsoft.com/en-us/topic/organize-your-ideas-with-collections-in-microsoft-edge-eb2b8582-7043-4b64-a145-e8970ddbb065
 
 
@@ -298,3 +302,4 @@ My reading workflow:
 go through various RSS feeds using Feedly and save articles I want to read for later
 on any given day, don't read items from the day but items that have been saved from previous days
 The rationale behind this is because my monkey brain goes for clickbaitey titles and wants immediate gratification. By giving things some time to settle, it gives System Two a chance to step in (and remove articles before I read them).
+

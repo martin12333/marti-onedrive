@@ -409,6 +409,25 @@
 
 	],
 	"markdown.extension.math.enabled": false,
+	"commandAutolink.schemes": [
+
+		"vscode-userdata",
+		"file",
+		"untitled"
+	],
+	"commandAutolink.queries": [
+	    {
+			"linkFilePattern": "**/*{.yml,pecl}",                      // defaults to "**/*"
+			"linkFileLanguage": ["php"],                               // similar to linkFilePattern but instead use language ids, defaults to []
+
+	        "linkPattern": "[\/]?([\\d]{8})[-]", // any regex to match the text, required
+			//"linkPattern": "[\/]?((dev-ops|opt)[^\\s]+\\.[^\\s]{2,})", // any regex to match the text, required
+
+			"linkCommand": "workbench.action.quickOpen",               // command id to execute when clicking the matched pattern link, required
+			"linkText": "Go To File"                                   // command text to show in the hover popup
+    	},
+
+	],
 
 	// DONT FORGET THE COMMA AFTER EACH SETTING
 // related file:///C:\Users\marti\OneDrive\tar-exe\c\Users\marti\AppData\Roaming\Code\User\settings.json
