@@ -11,9 +11,9 @@
 ; win + e / martin personal / documents ---> location ->
 	;;;; old C:\Users\marti\OneDrive\Dokumenty234
 	; C:\Users\marti\OneDrive\Dokumenty
-; this file:  THE  MAIN COPY is  at C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
+; this file:  THE  MAIN COPY is  at NOTC:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahkNOT    C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.f5.v1.ahk
 
-; //// my, unnecessary: mk win restore point ... could just rename  C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
+; //// my, unnecessary: mk win restore point ... could just rename  C:\Users\marti\OneDrive\Dokumenty\AutoHotkey*.ahk
 
 
 ; https://www.autohotkey.com/docs/v1/Hotkeys.htm
