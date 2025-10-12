@@ -70,6 +70,26 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;;SetTitleMatchMode, 2
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ;============================== Main Script ==============================
 
 ;gpt, me
@@ -97,6 +117,8 @@ FileAppend, % "aaa" "bbb reload   `n"   , %logFile%
 ; https://www.autohotkey.com/boards/viewtopic.php?t=51041
 ;return
 
+
+
 ;============ end of auto-execute section ============
 
 
@@ -109,13 +131,19 @@ logFile2 :=    "C:\Users\marti\OneDrive\OnClipboardChange-251012\clipboard_log.t
 	If (type = 1) {
 		; is (new) text in the clipboard?
 
+
+		;contents := Clipboard
+		contents := SubStr( Clipboard, 1, 1255)  ;   100
+
+		FileAppend, % Clipboard "`n"  , %logFile2%
+
+		; 
 		;FileAppend, % Clipboard "`n", C:\Users\g\Desktop\clip.txt		;then append it to text file
 
 		;FileAppend, % Clipboard "`n", C:\Users\g\Desktop\clip.txt		;then append it to text file
 		;FileAppend, % Clipboard "`n", %logFile%		;then append it to text file
 		;FileAppend, % Clipboard "`n", % logFile		;then append it to text file
 		;FileAppend(Clipboard "`n", logFile)
-		FileAppend, % Clipboard "`n"  , %logFile2%
 
 	}
 }
