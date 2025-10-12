@@ -10,6 +10,7 @@ f8 f9 f10 f11 f12
 	autohotkey	ahk
 
 
+C:\Users\marti\OneDrive\OnClipboardChange-251012\clipboard_log.txt
 
 
 edge://sync-internals/
