@@ -100,7 +100,7 @@ logFile :=    "C:\Users\marti\OneDrive\OnClipboardChange-251012\clipboard_log.tx
 ; https://www.autohotkey.com/boards/viewtopic.php?t=51041
 ;    #Persistent
 
-OnClipboardChange("ClipChanged")			; place in script's 'auto-execute section
+OnClipboardChange("ClipChanged")			; place in script's auto-execute section
 
 
 ;debug
@@ -150,7 +150,7 @@ ClipChanged(Type) {
 	return
 }
 
-; Note that if you copy a file in explorer, it's file path will also be saved to the text file, although it will paste the actual file (one of the quirks of the built-in clipboard variable) - if you don't want 'this, you will have to check the contents of clipboard each time before saving and throw strings out that look like file paths ... ;)'
+; Note that if you copy a file in explorer, it's file path will also be saved to the text file, although it will paste the actual file (one of the quirks of the built-in clipboard variable) - if you don't want this, you will have to check the contents of clipboard each time before saving and throw strings out that look like file paths ... ;)
 
 
 
@@ -235,7 +235,7 @@ $NumpadSub::Send ^v
 ;$NumpadMult::Send {>}
 ;$NumpadSub::Send {~}
 
-;test <>~  / *-  -->  --->  >==>  >>= ==> +++~~+++
+;test <>~  /*-  -->  --->  >==>  >>= ==> +++~~+++
 
 
 ;6F  135	 	d	8.31	NumpadDiv
@@ -446,7 +446,7 @@ $Insert::
 ;does the line "" #IfWinActive ahk_exe msedge.exe  ""
 ;apply to the following statements e.g.
 ;$SC02B::Send {"}
-;?   \\\\\YES!  \\""  """" """"   "
+;?   \\\\\YES!  \\""  """" """"
 
 
 
