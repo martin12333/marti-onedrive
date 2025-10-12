@@ -1,11 +1,13 @@
-﻿; my keyb layout ver 0.7
+﻿
+; explorer "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\AutoHotkey.f5.lnk"
+; f8 works ;
 
-; file:///C:\Users\marti\OneDrive\autohotkey-ahk-219\AutoHotkey.f8.md  file:///C:\Users\marti\OneDrive\Dokumenty\autohotkey.com\AutoHotkey.f9.md
+
+; file:///C:\Users\marti\OneDrive\Dokumenty\autohotkey.com\AutoHotkey.f9.md
 
 
-;  ctrl end ...  AT THE END OF THIS FILE IS A MANUAL TEST
+;  ctrl home or   ctrl end ...  AT THE END OF THIS FILE IS A MANUAL TEST
 ;============================== DO the  TEST, BECAUSE IT IS AUTORUN  ==============================
-;test :   win+q AutoHotkey run the app ... it asks to reload this ahk file
 
 
 ; win + e / martin personal / documents ---> location ->
@@ -126,6 +128,10 @@ ClipChanged(Type) {
 
 	;Warning:  This local variable has the same name as a global variable.
 	;Specifically: contents  (in function ClipChanged)
+	;  strange ... i dont have a global variable contents?
+	; i looked at highlighting {} in C lang mode ... seems ok
+	; back to ini mode ...
+
 
 	logFile2 :=    "C:\Users\marti\OneDrive\OnClipboardChange-251012\clipboard_log.txt"
 
@@ -135,16 +141,16 @@ ClipChanged(Type) {
 	If (type = 1) {
 		; is (new) text in the clipboard?
 
-		;contents := Clipboard
-		contents := SubStr( Clipboard, 1, 1255)  ;   100
+		;contents2 := Clipboard
+		contents2 := SubStr( Clipboard, 1, 1255)  ;   100
 
-		FileAppend, % contents "`n"  , %logFile2%
+		FileAppend, % contents2 "`n"  , %logFile2%
 
-		;FileAppend, % contents "`n", C:\Users\g\Desktop\clip.txt		;then append it to text file
-		;FileAppend, % contents "`n", C:\Users\g\Desktop\clip.txt		;then append it to text file
-		;FileAppend, % contents "`n", %logFile%		;then append it to text file
-		;FileAppend, % contents "`n", % logFile		;then append it to text file
-		;FileAppend(contents "`n", logFile)
+		;FileAppend, % contents2 "`n", C:\Users\g\Desktop\clip.txt		;then append it to text file
+		;FileAppend, % contents2 "`n", C:\Users\g\Desktop\clip.txt		;then append it to text file
+		;FileAppend, % contents2 "`n", %logFile%		;then append it to text file
+		;FileAppend, % contents2 "`n", % logFile		;then append it to text file
+		;FileAppend(contents2 "`n", logFile)
 
 	}
 	return
@@ -445,8 +451,8 @@ $Insert::
 
 ;does the line "" #IfWinActive ahk_exe msedge.exe  ""
 ;apply to the following statements e.g.
-;$SC02B::Send {"}
-;?   \\\\\YES!  \\""  """" """"   "
+;$SC02B::Send aaaaaaaa
+;?   \\\\\YES!  \\""  """" """"
 
 
 
@@ -581,17 +587,11 @@ MsgBox NOTHING
 ;	git add -vv  --dry-run  'Dokumenty234/Au*.ahk'
 
 
-
-
-
-
-
-
-
 ; ^`    f1 togg terminal
 ; git commit
 
-
+;  probably  old file:///C:\Users\marti\OneDrive\autohotkey-ahk-219\AutoHotkey.f8.md
+; my keyb layout ver 0.7
 
 
 ; @@@@@@@@@@@@@@@
@@ -615,6 +615,8 @@ MsgBox NOTHING
 ; ^c
 ;  #r
 ;
+
+;test :   win+q AutoHotkey run the app ... it asks to reload this ahk file
 
 ; f8 works ;
 ; explorer "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\AutoHotkey.f5.lnk"
