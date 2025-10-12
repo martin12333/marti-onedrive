@@ -74,13 +74,17 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ;gpt, me
 ; Path to log file
-logFile :=    C:\Users\marti\OneDrive\OnClipboardChange-251012\clipboard_log.txt
+;logFile :=    C:\Users\marti\OneDrive\OnClipboardChange-251012\clipboard_log.txt
+logFile :=    "C:\Users\marti\OneDrive\OnClipboardChange-251012\clipboard_log.txt"
 
 ; https://www.autohotkey.com/boards/viewtopic.php?t=51041
 OnClipboardChange("ClipChanged")			; place in script's auto-execute section
 
 ;debug
-FileAppend("Clipboard   `n", logFile)
+;FileAppend("Clipboard   `n", logFile)
+;FileAppend, %Clipboard%  , %logFile%
+FileAppend, "sfdsfsdf%Clipboard%"  , %logFile%
+ ;"`n", % logFile		;then append it to text file
 
 
 ;============ end of auto-execute section ============
