@@ -1,4 +1,9 @@
-﻿; explorer "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\AutoHotkey.f5.lnk"
+﻿; C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+
+; explorer "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\AutoHotkey.f5.lnk"
+
+; code C:/Users/marti/OneDrive/OnClipboardChange-251012/clipboard_log.txt
+
 ; f8 works ;
 
 
@@ -613,8 +618,11 @@ MsgBox NOTHING
 ; *********************************************
 ;============================== DO TEST, BECAUSE IT IS AUTORUN  ==============================
 
-; f8 works ;
+; C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+
 ; explorer "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\AutoHotkey.f5.lnk"
+
+; code C:/Users/marti/OneDrive/OnClipboardChange-251012/clipboard_log.txt
 
 
 ; notes about debugging !!!
@@ -642,6 +650,6 @@ MsgBox NOTHING
 
 ;test :   win+q AutoHotkey run the app ... it asks to reload this ahk file
 
-; f8 works ;
-; explorer "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\AutoHotkey.f5.lnk"
 ;  explorer     "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+
+; f8 works ;

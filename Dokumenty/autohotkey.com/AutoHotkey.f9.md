@@ -46,6 +46,17 @@ moved
 
 #  notes about debugging !!!
 
+
+
+; C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+
+; explorer "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\AutoHotkey.f5.lnk"
+
+; code C:/Users/marti/OneDrive/OnClipboardChange-251012/clipboard_log.txt
+
+
+
+
 systray icon
 right click
 open
@@ -55,13 +66,12 @@ open
 https://www.autohotkey.com/docs/v1/Scripts.htm#debug
 
 
+fail 
 google:  autohotkey debugging tips for a beginner
 
-https://www.the-automator.com/most-common-gotchas-when-starting-out-with-autohotkey/
 
 
-
-
+gh copilot
 https://www.autohotkey.com/docs/v1/Program.htm#run
 https://www.autohotkey.com/docs/v1/Scripts.htm#cmd
 https://www.autohotkey.com/docs/v1/Commands.htm#Run
