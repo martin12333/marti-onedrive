@@ -78,17 +78,24 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 logFile :=    "C:\Users\marti\OneDrive\OnClipboardChange-251012\clipboard_log.txt"
 
 ; https://www.autohotkey.com/boards/viewtopic.php?t=51041
+;    #Persistent
+
 OnClipboardChange("ClipChanged")			; place in script's auto-execute section
+
 
 ;debug
 ;FileAppend("Clipboard   `n", logFile)
 ;FileAppend, %Clipboard%  , %logFile%
 ;FileAppend, "sfdsfsdf%Clipboard%"  , %logFile%
-
 ;FileAppend, sfdsfsdfClipboard  , %logFile%
+
+FileAppend, % "aaa" "bbb reload   `n"   , %logFile%
 
 ;"`n", % logFile		;then append it to text file
 
+
+; https://www.autohotkey.com/boards/viewtopic.php?t=51041
+;return
 
 ;============ end of auto-execute section ============
 
@@ -101,12 +108,14 @@ logFile2 :=    "C:\Users\marti\OneDrive\OnClipboardChange-251012\clipboard_log.t
 
 	If (type = 1) {
 		; is (new) text in the clipboard?
+
+		;FileAppend, % Clipboard "`n", C:\Users\g\Desktop\clip.txt		;then append it to text file
+
 		;FileAppend, % Clipboard "`n", C:\Users\g\Desktop\clip.txt		;then append it to text file
 		;FileAppend, % Clipboard "`n", %logFile%		;then append it to text file
 		;FileAppend, % Clipboard "`n", % logFile		;then append it to text file
-		FileAppend, % Clipboard "`n"  , %logFile2%
-
 		;FileAppend(Clipboard "`n", logFile)
+		FileAppend, % Clipboard "`n"  , %logFile2%
 
 	}
 }

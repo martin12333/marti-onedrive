@@ -12616,3 +12616,4 @@ mkdir OnClipboardChange-251012
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 copy "C:\Users\marti\OneDrive\OnClipboardChange-251012\clipboard_log.txt"  "C:\Users\marti\OneDrive\OnClipboardChange-251012\251012clipboard_log--copy.txt"
 code   "C:\Users\marti\OneDrive\OnClipboardChange-251012\251012clipboard_log--copy.txt"
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
