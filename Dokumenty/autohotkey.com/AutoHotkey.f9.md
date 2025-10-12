@@ -52,10 +52,15 @@ open
 
 ; https://www.autohotkey.com/docs/v1/Commands/Menu.htm#Tray
 
-
-
-
 https://www.autohotkey.com/docs/v1/Scripts.htm#debug
+
+
+google:  autohotkey debugging tips for a beginner
+
+https://www.the-automator.com/most-common-gotchas-when-starting-out-with-autohotkey/
+
+
+
 
 https://www.autohotkey.com/docs/v1/Program.htm#run
 https://www.autohotkey.com/docs/v1/Scripts.htm#cmd
