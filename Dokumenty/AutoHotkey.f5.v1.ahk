@@ -5,7 +5,10 @@
 ; file:///C:\Users\marti\OneDrive\Dokumenty\autohotkey.com\AutoHotkey.f9.md
 
 
-;  ctrl home or   ctrl end ...  AT THE END OF THIS FILE IS A MANUAL TEST
+;  ctrl home or   ctrl end ...  AT THE END OF THIS FILE
+
+; notes about debugging !!!
+
 ;============================== DO the  TEST, BECAUSE IT IS AUTORUN  ==============================
 
 
@@ -594,9 +597,30 @@ MsgBox NOTHING
 ; my keyb layout ver 0.7
 
 
+
+
+
+
+
+
+
+
+
+;  ctrl home or   ctrl end ...  AT THE END OF THIS FILE
+
+; notes about debugging !!!
 ; @@@@@@@@@@@@@@@
 ; *********************************************
 ;============================== DO TEST, BECAUSE IT IS AUTORUN  ==============================
+
+; f8 works ;
+; explorer "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\AutoHotkey.f5.lnk"
+
+
+; notes about debugging !!!
+; file:///C:\Users\marti\OneDrive\Dokumenty\autohotkey.com\AutoHotkey.f9.md
+
+
 
 ;TEST
 ;test :   win+q AutoHotkey run the app ... it asks to reload this ahk file

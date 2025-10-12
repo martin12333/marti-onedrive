@@ -37,8 +37,24 @@ which ones of the following are correct ?
 # links  
 
 file:///C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
+C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.f5.v1.ahk
 
 file:///c:\users\marti\OneDrive\autohotkey-ahk-219\experim-250505.f5.ahk
+moved
+
+
+
+#  notes about debugging !!!
+
+https://www.autohotkey.com/docs/v1/Scripts.htm#debug
+
+https://www.autohotkey.com/docs/v1/Program.htm#run
+https://www.autohotkey.com/docs/v1/Scripts.htm#cmd
+https://www.autohotkey.com/docs/v1/Commands.htm#Run
+
+
+
+
 
 # version
 Window: C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk - AutoHotkey 
