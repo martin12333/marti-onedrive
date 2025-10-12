@@ -1,6 +1,6 @@
 ﻿; my keyb layout ver 0.7
 
-; file:///C:\Users\marti\OneDrive\autohotkey-ahk-219\AutoHotkey.f8.md
+; file:///C:\Users\marti\OneDrive\autohotkey-ahk-219\AutoHotkey.f8.md  file:///C:\Users\marti\OneDrive\Dokumenty\autohotkey.com\AutoHotkey.f9.md
 
 
 ; AT THE END OF THIS FILE IS A MANUAL TEST
@@ -528,7 +528,7 @@ MsgBox NOTHING
 ; f9
 
 ; #q        startup
-; ; 
+; ;
 ; ; ctrl   z    ctrl -
 
 ;   undebugged
