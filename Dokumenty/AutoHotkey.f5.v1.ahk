@@ -115,7 +115,7 @@ FileAppend, % "aaa" "bbb reload   `n"   , %logFile%
 
 
 ; https://www.autohotkey.com/boards/viewtopic.php?t=51041
-;return
+return
 
 
 
@@ -125,8 +125,12 @@ FileAppend, % "aaa" "bbb reload   `n"   , %logFile%
 ClipChanged(Type) {
 
 ;Warning:  This local variable has the same name as a global variable.
+;Specifically: contents  (in function ClipChanged)
+
 logFile2 :=    "C:\Users\marti\OneDrive\OnClipboardChange-251012\clipboard_log.txt"
 
+; Pen�zky ukryl jsem do hl�ny pod dubem,
+; Pen?zky ukryl jsem do hl?ny pod dubem,
 
 	If (type = 1) {
 		; is (new) text in the clipboard?
@@ -146,6 +150,7 @@ logFile2 :=    "C:\Users\marti\OneDrive\OnClipboardChange-251012\clipboard_log.t
 		;FileAppend(contents "`n", logFile)
 
 	}
+	return
 }
 
 ; Note that if you copy a file in explorer, it's file path will also be saved to the text file, although it will paste the actual file (one of the quirks of the built-in clipboard variable) - if you don't want this, you will have to check the contents of clipboard each time before saving and throw strings out that look like file paths ... ;)
