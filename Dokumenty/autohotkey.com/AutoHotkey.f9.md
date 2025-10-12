@@ -46,6 +46,15 @@ moved
 
 #  notes about debugging !!!
 
+systray icon
+right click
+open
+
+; https://www.autohotkey.com/docs/v1/Commands/Menu.htm#Tray
+
+
+
+
 https://www.autohotkey.com/docs/v1/Scripts.htm#debug
 
 https://www.autohotkey.com/docs/v1/Program.htm#run
