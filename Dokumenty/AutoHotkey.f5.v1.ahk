@@ -135,15 +135,15 @@ logFile2 :=    "C:\Users\marti\OneDrive\OnClipboardChange-251012\clipboard_log.t
 		;contents := Clipboard
 		contents := SubStr( Clipboard, 1, 1255)  ;   100
 
-		FileAppend, % Clipboard "`n"  , %logFile2%
+		FileAppend, % contents "`n"  , %logFile2%
 
-		; 
-		;FileAppend, % Clipboard "`n", C:\Users\g\Desktop\clip.txt		;then append it to text file
+		;
+		;FileAppend, % contents "`n", C:\Users\g\Desktop\clip.txt		;then append it to text file
 
-		;FileAppend, % Clipboard "`n", C:\Users\g\Desktop\clip.txt		;then append it to text file
-		;FileAppend, % Clipboard "`n", %logFile%		;then append it to text file
-		;FileAppend, % Clipboard "`n", % logFile		;then append it to text file
-		;FileAppend(Clipboard "`n", logFile)
+		;FileAppend, % contents "`n", C:\Users\g\Desktop\clip.txt		;then append it to text file
+		;FileAppend, % contents "`n", %logFile%		;then append it to text file
+		;FileAppend, % contents "`n", % logFile		;then append it to text file
+		;FileAppend(contents "`n", logFile)
 
 	}
 }
