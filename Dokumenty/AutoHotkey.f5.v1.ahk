@@ -83,19 +83,29 @@ OnClipboardChange("ClipChanged")			; place in script's auto-execute section
 ;debug
 ;FileAppend("Clipboard   `n", logFile)
 ;FileAppend, %Clipboard%  , %logFile%
-FileAppend, "sfdsfsdf%Clipboard%"  , %logFile%
- ;"`n", % logFile		;then append it to text file
+;FileAppend, "sfdsfsdf%Clipboard%"  , %logFile%
+
+;FileAppend, sfdsfsdfClipboard  , %logFile%
+
+;"`n", % logFile		;then append it to text file
 
 
 ;============ end of auto-execute section ============
 
 
 ClipChanged(Type) {
-    If (type = 1) {
+
+;Warning:  This local variable has the same name as a global variable.
+logFile2 :=    "C:\Users\marti\OneDrive\OnClipboardChange-251012\clipboard_log.txt"
+
+
+	If (type = 1) {
 		; is (new) text in the clipboard?
 		;FileAppend, % Clipboard "`n", C:\Users\g\Desktop\clip.txt		;then append it to text file
 		;FileAppend, % Clipboard "`n", %logFile%		;then append it to text file
 		;FileAppend, % Clipboard "`n", % logFile		;then append it to text file
+		FileAppend, % Clipboard "`n"  , %logFile2%
+
 		;FileAppend(Clipboard "`n", logFile)
 
 	}
