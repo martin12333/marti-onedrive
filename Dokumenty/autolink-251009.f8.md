@@ -1,5 +1,36 @@
 autolink-251009.f8.md
 
+file:///C:/Users/marti/OneDrive/OnClipboardChange-251012/clipboard_log.txt
+
+
+todo
+https://github.com/dlevs/vscode-regex-robin?tab=readme-ov-file
+https://github.com/dlevs/vscode-regex-robin?tab=readme-ov-file
+https://marketplace.visualstudio.com/items?itemName=mfujita47.uri-grep
+https://marketplace.visualstudio.com/items?itemName=mfujita47.uri-grep
+https://marketplace.visualstudio.com/items?itemName=eliostruyf.execcommand
+
+https://github.com/matthewhchan/linkify
+https://glasp.co/uhu6drb9cmm389j0/p/84837cf63e15e1b79393
+https://glasp.co/uhu6drb9cmm389j0/p/84837cf63e15e1b79393
+https://glasp.co/uhu6drb9cmm389j0/p/84837cf63e15e1b79393
+Skip to content
+ |   MarketplaceSign in
+ 
+Visual Studio Code>Other>Command ExecutorNew to Visual Studio Code? Get it now.
+Command Executor	
+Command ExecutorPreview
+Elio Struyf
+elio.codes
+ |  216 installs
+|
+
+
+
+
+
+
+
 25100923---
 ([\d]{8})[-]
 ([\\d]{8})[-]
