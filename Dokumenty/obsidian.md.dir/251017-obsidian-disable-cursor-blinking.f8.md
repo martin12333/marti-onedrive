@@ -18,10 +18,21 @@ i will continue look in
 forum . obsidian
 and discord
 
+(
+work in progress
+https://github.com/martin12333/marti-onedrive/blob/main2/Dokumenty/obsidian.md.dir/251017-obsidian-disable-cursor-blinking.f8.md
+)
 
 https://forum.obsidian.md/search?q=cursor%20blink%20order%3Alatest
 
+https://forum.obsidian.md/t/cursor-blink-cannot-be-disabled-via-plugin-or-css-on-macos-15-5/101628
+
+
+
 https://discord.com/channels/686053708261228577/768110674060509245
+
+
+https://github.com/martin12333/marti-onedrive/blob/main2/Dokumenty/obsidian.md.dir/251017-obsidian-disable-cursor-blinking.f8.md
 
 
 
@@ -30,6 +41,7 @@ https://discord.com/channels/686053708261228577/768110674060509245
 ctrl shift i
 --caret-color: red;
 works
+
 var(--text-normal)
 
 // codemirror
