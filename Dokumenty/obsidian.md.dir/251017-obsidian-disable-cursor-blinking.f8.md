@@ -32,14 +32,13 @@ https://forum.obsidian.md/t/cursor-blink-cannot-be-disabled-via-plugin-or-css-on
 https://discord.com/channels/686053708261228577/768110674060509245
 
 
-https://github.com/martin12333/marti-onedrive/blob/main2/Dokumenty/obsidian.md.dir/251017-obsidian-disable-cursor-blinking.f8.md
-
-
 
 
 # dev tools
 ctrl shift i
+
 --caret-color: red;
+
 works
 
 var(--text-normal)
@@ -50,6 +49,8 @@ codemirror
 https://codemirror.net/docs/ref/#view.drawSelection^config.cursorBlinkRate
 "cursorBlinkRate⁠"
 ??
+https://forum.obsidian.md/t/cursor-blink-cannot-be-disabled-via-plugin-or-css-on-macos-15-5/101628
+
 
 
 
