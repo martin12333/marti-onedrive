@@ -20,7 +20,7 @@
 #aaa ==Native accessibility API support
 
 
-## #obsidian-trick trick Pages:
+## #obsidian-trick  Pages:
 
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAATtJREFUOI2Nk91Nw0AQhL+18k6oAFMBoYIkHaQEqIASSAcOFTglQAWGCuJUYFOBTQXDy4RcTo7ESifvnWfudvYHMpO0klRJ6nS2g6RaUpnjU+LcxMGETlLp1SVnVcorEr8BboF7YA6sI6KPiB54BkpgDYQvm6evV5J29jeSPicibCSt7O9PkYR1dcAbMAJLc76yO5aO7MPfF2BdAK/A3mSABdBPpOloGRj7DmywnkUS6nCh7zLJQ7IvJXVIUgZUTr72T5KKa+D/WgH0WYOM1yQkecKy25mzWkk6JvitpDG7487EbbJvZ85mA3z7hR54mChjCbT2b4AnNx1I2kmqOc9CMyGhkbQha7w/fS5n5fIMp64jKZlxtaRDmkQiYoyIRyAspwfq0zD5bHTH/ngmps2kvaQ2GefeMlc5/hemVzcjH3i3rQAAAABJRU5ErkJggg==)### learn.microsoft.com https://learn.microsoft.com/en-us/windows/win32/winauto/uiauto-glossary
 

@@ -1,3 +1,8 @@
+
+# (in the future, maybe I should put \*.md in a flat folder, but this file is referenced from reddit)
+
+https://www.reddit.com/r/ObsidianMD/comments/1ilgi90/solution_how_to_disable_cursor_blinking_in/
+
 # https://www.reddit.com/r/ObsidianMD/comments/1ilgi90/solution_how_to_disable_cursor_blinking_in/
 
 // windows settings
@@ -12,6 +17,7 @@ i am  slightly scared , that it is so difficult to set this accessibility essent
 about this topic
 
 i am unable to find a more official thread at reddit
+
 i am  unable to find any  thread at github
 
 i will continue look in 
