@@ -1,18 +1,19 @@
 
 # (in the future, maybe I should put \*.md in a flat folder, but this file is referenced from reddit)
-
+(
 https://www.reddit.com/r/ObsidianMD/comments/1ilgi90/solution_how_to_disable_cursor_blinking_in/
+)
 
 # https://www.reddit.com/r/ObsidianMD/comments/1ilgi90/solution_how_to_disable_cursor_blinking_in/
 
 // windows settings
 
-> It doesn't work for me either. What worked for me was going into the windows settings and changing the Cursos Blinkrate to the lowest setting.
+>  What worked for me was going into the windows settings and changing the Cursos Blinkrate to the lowest setting.
 
 big thanks for the info ℹ️💚! a note: restart -- reload from palette is not enough ... i had to close the window, and later open it
 
 btw,
-i am  slightly scared , that it is so difficult to set this accessibility essential feature ... disable cursor blinking
+i am  slightly scared , that it is so difficult to set-up this accessibility essential feature ... disable cursor blinking
 
 about this topic
 
