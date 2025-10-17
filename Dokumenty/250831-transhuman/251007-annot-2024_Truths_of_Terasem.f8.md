@@ -1,3 +1,11 @@
+
+
+
+
+
+# file:///C:\Users\marti\OneDrive\Dokumenty\00-PLAN-TO-MOVE-FILES\00-PLAN-TO-MOVE-FILES-TO-Dokumenty.f8.md
+
+
 **The Truths of Terasem**
 
 **A Transreligion for Technological Times** 

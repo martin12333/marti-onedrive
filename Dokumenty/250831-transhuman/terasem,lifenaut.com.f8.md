@@ -2,6 +2,7 @@
 file:///C:\Users\marti\OneDrive\Dokumenty\250831-transhuman\251007-annot-2024_Truths_of_Terasem.f8.md
 
 
+# (in the future, maybe I should put \*.md in a flat folder, 
 
 That experience led to a realization: while knowledge is one of the most valuable things we accumulate in life, most of it disappears with us.
 trigger copilot compl
