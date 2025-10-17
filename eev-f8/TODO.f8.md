@@ -1,8 +1,11 @@
 
 
-TODO
+TODO ℹ️
 04-KDE-MAS-HLAVNI-NAPOVEDU.f8.md
 
+(★‿★)
+
+💚
 
 vscode
 f1  backspace
