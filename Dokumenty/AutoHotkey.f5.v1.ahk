@@ -180,6 +180,39 @@ ClipChanged(Type) {
 
 ;============================== Main Script ==============================
 
+
+
+
+; explorer "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\AutoHotkey.f5.lnk"
+
+;251019
+; Ctrl+Alt+M opens the tray menu
+;^!m::
+;   #^m::  ; Win+Ctrl+M       thanks to chatgpt
+; #^a::  ; Win+Ctrl+a
+
+;#^{space}::  ; Win+Ctrl+a
+
+#^space::  ; Win+Ctrl+a
+{
+	    ;MsgBox, Hotkey fired!
+
+	Menu, Tray, Show
+
+	return
+}
+
+
+
+
+
+
+
+
+
+
+
+
 ; Global hotkeys
 ; Global hotstrings
 

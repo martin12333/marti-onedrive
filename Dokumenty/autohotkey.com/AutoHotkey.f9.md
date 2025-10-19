@@ -95,6 +95,37 @@ https://www.autohotkey.com/docs/v2/Functions.htm
 
 
 
+
+Q: ahk hotkey to open the ahk window 
+
+ai
+A: ^!h::Run, C:\Users\marti\OneDrive\Dokumenty\00001-AHK-ALL-SCRIPTS\00001-AHK-ALL-SCRIPTS-MAIN.f8.
+
+explanation
+
+ai
+the ahk window is my main ahk scripts file located in my Dokumenty folder on OneDrive. The hotkey ^!h (Ctrl + Alt + H) will open this file for easy access to my ahk scripts.
+
+
+Would you like the hotkey to open the main AHK window (the one showing variables & threads), or the script file for editing? I can tailor the snippet accordingly.
+
+
+isnt there a way to keep the mailn ahk window always open
+
+A:
+
+
+
+
+
+
+
+
+
+
+
+
+
 # trying zip user inst without update
 respnt
 pre run ahk zip
