@@ -95,7 +95,7 @@ https://www.autohotkey.com/docs/v2/Functions.htm
 
 
 
-
+# 251019
 Q: ahk hotkey to open the ahk window 
 
 ai
@@ -126,7 +126,7 @@ A:
 
 
 
-# trying zip user inst without update
+# trying zip user inst  version1 without update
 respnt
 pre run ahk zip
 
@@ -140,7 +140,14 @@ exit
 
 
 # change. decided to uninstall the adm v1 version
-respnt
+
+
+251019 ok ... no ahk was in mb, mm
+next ahk su?... asi risknu ... bojim anomalii, todo in michael? jedno ktery user?
+
+
+
+# respnt
 
 po inst ahk po copy pred uninst adm 
 ## d:\Users\milanlocal\downloads-d\
@@ -199,10 +206,14 @@ autohotkey
 
 C:\Pf\AutoHotkey\AutoHotkey.exe
 
-# fix the lnk 
+# fix the lnk .... do you mean, windows patched the links too much?
 old C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
 
 D:\Users\milanlocal\downloads-d\AutoHotkey_1.1\AutoHotkeyU64.exe     C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.f5.v1.ahk
+
+explorer D:\Users\milanlocal\downloads-d\AutoHotkey_1.1\     
+
+C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.f5.v1.ahk
 
 
 
@@ -231,7 +242,7 @@ respnt
 
 # moving
 autohotkey.com
-C:\Users\marti\OneDrive\00\autohotkey.com\AutoHotkey.f9.md
+old dir C:\Users\marti\OneDrive\00\autohotkey.com\AutoHotkey.f9.md
 
 # rsibreak 250529
 f8
@@ -455,7 +466,7 @@ UI Elements: YNk70c NbTBrb GyAeWb, e9EfHf, main, srp, To silently install AutoHo
 
 # autohotkey versions
 https://www.reddit.com/r/AutoHotkey/comments/1ak57lv/why_i_wont_migrate_from_v1_to_v2/
-> I use an extension of .ahk2 for v2 scripts. I then associate the extension with the autohotkey 2.0, so the correct version is called.
+/// > I use an extension of .ahk2 for v2 scripts. I then associate the extension with the autohotkey 2.0, so the correct version is called.
 
 
 https://www.reddit.com/r/AutoHotkey/comments/1h1nxxy/request_vscode_setup_for_users_running_v1_and_v2/
@@ -514,7 +525,8 @@ and also look at the various options join, ltrim etc.
 # backup
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 
-# f9  old.was.f12.old
+# f9
+//  old.was.f12.old
 
 #{q}    AutoHotkey
 ;;;;#{q}    AutoHotkey{Enter}
