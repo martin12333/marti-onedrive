@@ -12,12 +12,6 @@
 
 
 
-
-
-
-
-
-
 ai
 # NEW IDs, hashtags, keywords ... for all my f8.md files
 

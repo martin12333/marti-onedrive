@@ -191,9 +191,9 @@ ClipChanged(Type) {
 ;   #^m::  ; Win+Ctrl+M       thanks to chatgpt
 ; #^a::  ; Win+Ctrl+a
 
-;#^{space}::  ; Win+Ctrl+a
+;#^{space}::  ; Win+Ctrl+
 
-#^space::  ; Win+Ctrl+a
+#^space::  ; Win+Ctrl+
 {
 	    ;MsgBox, Hotkey fired!
 
