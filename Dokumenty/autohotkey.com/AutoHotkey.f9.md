@@ -1,5 +1,13 @@
 
 
+2510
+PLAN CUT OUT FROM THIS FILE INTO AHK--INST
+PLAN FULL INST AHK2
+251019 ok ... no ahk was in mb, mm
+251019 DID RESPNT
+next ahk su?... asi risknu ... bojim anomalii, todo in michael? jedno ktery user?
+
+
 
 
 - [Send, ^c](#send-c)
@@ -140,10 +148,6 @@ exit
 
 
 # change. decided to uninstall the adm v1 version
-
-
-251019 ok ... no ahk was in mb, mm
-next ahk su?... asi risknu ... bojim anomalii, todo in michael? jedno ktery user?
 
 
 
@@ -354,6 +358,9 @@ Esc::exitapp
 ❤️:o:emotion::❤️⭐
 :o:philosophy::🧙🏻🤲⭐❤️
 
+
+
+
 # OLD su inst ...  update  v1
 
 file:///C:\Users\marti\OneDrive\windows-f8\windows-install-prog.f8.ps1
@@ -464,7 +471,7 @@ UI Elements: YNk70c NbTBrb GyAeWb, e9EfHf, main, srp, To silently install AutoHo
 # migration guide to v2 ... not needed so quickly for me probably ... migrated .lnk already
 
 
-# autohotkey versions
+#  -//// autohotkey versions
 https://www.reddit.com/r/AutoHotkey/comments/1ak57lv/why_i_wont_migrate_from_v1_to_v2/
 /// > I use an extension of .ahk2 for v2 scripts. I then associate the extension with the autohotkey 2.0, so the correct version is called.
 
@@ -521,6 +528,7 @@ exampleString1=
 )
   MsgBox % ">" exampleString1 "<" 
 and also look at the various options join, ltrim etc.
+
 
 # backup
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
@@ -849,7 +857,7 @@ javascript.js.f8.md.md1
 
 
 
-# ; secu?  after the macro,  i have to additionally press f1 and enter to get it working
+#  f9 ; secu?  after the macro,  i have to additionally press f1 and enter to get it working
 
 +^p    open keyboard
 +^p    open url
