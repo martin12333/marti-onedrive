@@ -13,6 +13,9 @@ exit
 # sometimes
 tc copy c:\pf
 not move!!!
+windows patches links lnk
+
+
 
 # restore point
 pre inst post copy
@@ -31,6 +34,24 @@ STORY
 
 a5 karis  / installations
 paper notebook a5  > beginning > 5comp > inst
+
+
+
+
+
+
+
+# 251019
+
+maybe consider going a few versions back?
+
+> Microsoft Defender SmartScreen may show a prompt like "Windows protected your PC". This is common for software from open source developers and Independent Software Vendors (ISV), especially soon
+
+**after the release of each new version**. The following blog article by Louis Kessler describes the problem well: That’s not very Smart of you, Microsoft
+
+
+
+
 
 
 
