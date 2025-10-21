@@ -1,19 +1,5 @@
 
 
-2510
-PLAN CUT OUT FROM THIS FILE INTO AHK--INST
-PLAN FULL INST AHK2
-251019 ok ... no ahk was in mb, mm
-251019 DID RESPNT
-next ahk su?... asi risknu ... bojim anomalii, todo in michael? jedno ktery user?
-
-ChatGPT
-////ahk v2 installation ... do users report problems with user vs system install version
-//// https://chatgpt.com/c/68f5eaf2-482c-832d-a1fd-82d47b82dd9a
-
-https://www.autohotkey.com/docs/v2/howto/Install.htm?utm_source=chatgpt.com
-
-
 - [Send, ^c](#send-c)
 - [file:///C:\\Users\\marti\\OneDrive\\Dokumenty\\AutoHotkey.ahk](#filecusersmartionedrivedokumentyautohotkeyahk)
 - [version](#version)
@@ -47,6 +33,9 @@ which ones of the following are correct ?
 	Send, ^c
 
 # links  
+
+C:\Users\marti\OneDrive\Dokumenty\autohotkey.com\autohotkey--install.f8.md
+
 
 file:///C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
 C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.f5.v1.ahk

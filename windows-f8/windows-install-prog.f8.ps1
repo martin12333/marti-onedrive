@@ -45,12 +45,14 @@ paper notebook a5  > beginning > 5comp > inst
 
 maybe consider going a few versions back?
 
+
 > Microsoft Defender SmartScreen may show a prompt like "Windows protected your PC". This is common for software from open source developers and Independent Software Vendors (ISV), especially soon
 
 **after the release of each new version**. The following blog article by Louis Kessler describes the problem well: That’s not very Smart of you, Microsoft
 
 
-
+'
+// https://www.autohotkey.com/docs/v2/howto/Install.htm?utm_source=chatgpt.com
 
 
 
