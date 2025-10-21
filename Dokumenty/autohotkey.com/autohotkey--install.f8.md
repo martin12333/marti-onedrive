@@ -6,7 +6,7 @@ C:\Users\marti\OneDrive\Dokumenty\autohotkey.com\AutoHotkey.f9.md
 
 
 2510
-PLAN FULL INST AHK2
+ FULL INST AHK2
 251019 ok ... no ahk was in mb, mm
 251019 DID RESPNT
 next ahk su?... asi risknu ... bojim anomalii, 
@@ -15,7 +15,7 @@ todo in michael
 because
 not digitally signed ... 
 
-virustotal todo
+virustotal ... how long they know the file ...
 
 defender ok marti   budiz
 
@@ -42,9 +42,30 @@ https://github.com/AutoHotkey/AutoHotkey/releases
 
 
 
+# respnt
 
 
 
 
 
 
+
+### [Run with UI Access](https://www.autohotkey.com/docs/v2/Program.htm#Installer_uiAccess)
+
+When installing under Program Files, the installer creates an additional set of AutoHotkey exe files that can be used to work around some [common UAC-related issues](https://www.autohotkey.com/docs/v2/FAQ.htm#uac). These files are given the "_UIA.exe" suffix. When one of these UIA.exe files is used by an administrator to run a script, the script is able to interact with windows of programs that run as admin, without the script itself running as admin.
+
+
+
+file:AutoHotkey
+
+251021
+
+==`!=` is now always case-insensitive, like `=`, while `!==` has been added as the counterpart of `==`.
+
+obsidian://open?vault=Dokumenty&file=%3D%3DFrequently%20Asked%20Questions%20(FAQ)%20-%20AutoHotkey%20v2
+
+
+obsidian://open?vault=Dokumenty&file=Clippings%2F%3D%3DChanges%20from%20v1.1%20to%20v2.0%20%20AutoHotkey%20v2
+
+
+https://www.autohotkey.com/docs/v2/index.htm
