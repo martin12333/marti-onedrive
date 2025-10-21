@@ -12644,3 +12644,4 @@ explorer.exe
 explorer.exe /?
 explorer.exe /help
 shutdown.exe /l
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh

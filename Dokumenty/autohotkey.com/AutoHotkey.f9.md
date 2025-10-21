@@ -1,5 +1,18 @@
 
 
+
+
+
+
+
+
+
+todo split to 
+C:\Users\marti\OneDrive\Dokumenty\autohotkey.com\autohotkey--install.f8.md
+
+
+
+
 - [Send, ^c](#send-c)
 - [file:///C:\\Users\\marti\\OneDrive\\Dokumenty\\AutoHotkey.ahk](#filecusersmartionedrivedokumentyautohotkeyahk)
 - [version](#version)

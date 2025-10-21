@@ -1,5 +1,10 @@
 
 
+
+todo move texts from 
+C:\Users\marti\OneDrive\Dokumenty\autohotkey.com\AutoHotkey.f9.md
+
+
 2510
 PLAN FULL INST AHK2
 251019 ok ... no ahk was in mb, mm
@@ -10,10 +15,13 @@ todo in michael
 because
 not digitally signed ... 
 
-virustotal
+virustotal todo
+
 defender ok marti   budiz
 
 
+d:\users\mich
+[text](d:/Users/milanlocal/downloads-d/AutoHotkey_2.0.19_setup.exe)
 "D:\umarti\dowNLOADS--SYMLINKED\AutoHotkey_2.0.19_setup.exe"
 
 
