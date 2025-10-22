@@ -69,3 +69,6 @@ obsidian://open?vault=Dokumenty&file=Clippings%2F%3D%3DChanges%20from%20v1.1%20t
 
 
 https://www.autohotkey.com/docs/v2/index.htm
+
+https://kbdlayout.info/
+

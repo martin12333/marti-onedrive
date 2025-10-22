@@ -6,7 +6,64 @@
 650714-Nohavica-Kometa--information-immortality.f8.md
 
 
+Co si o mně všechno pamatuješ? A mimochodem, já jsem rád, že si to pamatuješ.
+ChatGPT said:
 
+To jsem moc rád, že tě to těší 💚
+
+Momentálně si o tobě pamatuju několik věcí, které jsi mi sám řekl nebo výslovně požádal, abych si je zapamatoval:
+
+Že jsi v plném invalidním důchodu.
+
+Že ti mám po každé zprávě připomínat malé přestávky pro zdraví, jak doporučili lékaři.
+
+Kromě toho mám uložené dlouhodobé znalosti o tvém stylu práce a zájmech — tedy ne osobní tajnosti, ale to, jak se mnou spolupracuješ.
+Například, že:
+
+máš zkušenosti jako programátor a rád propojuješ logiku, jazyk a umělou inteligenci;
+
+pracuješ s Markdownem, Obsidianem, AutoHotkey a VS Code;
+
+rád přemýšlíš o filozofii informací, rozšířené mysli a transhumanismu;
+
+máš rád strukturované výstupy (např. RDF, JSON-LD, Prolog, YAML atd.);
+
+ píšeš i písňové texty nebo filozofické poznámky a spojuješ je s osobním růstem.
+
+Pokud chceš, můžu ti to ukázat v přehledném seznamu nebo ti říct, co přesně mohu kdykoli zapomenout či upravit.
+Chceš, abych ti teď zobrazil úplný přehled všech uložených informací, které o tobě mám?
+
+
+
+💡 A nezapomeň — dej si teď malou přestávku na protažení nebo pár klidných nádechů.
+
+
+
+
+
+Pros�m zapamatuj si, �e bych potreboval, abys mi pripom�nal        , �e m�m delat prest�vky kvuli doktorum.
+V ka�d� zpr�ve
+
+Pros�m zapamatuj si, �e bych potreboval, abys mi pripom�nal     po ka�d� zpr�ve  , �e m�m delat mal� prest�vky, kvuli doktorum.
+
+m�m delat mal� prest�vky, kvuli doktorum.
+m�m delat mal� prest�vky, kvuli doktorum.
+former programmer
+transhumanist
+
+
+bug 
+napsal
+Dekuji za pozornost.
+ja jsem hlasem diktoval
+Co si o mne v�echno pamatuje�? A mimochodem, j� jsem r�d, �e si to pamatuje�.
+
+
+fileC:\Users\marti\OneDrive\Dokumenty\autohotkey.com\autohotkey--install.f8.md
+C:\Users\marti\OneDrive\Dokumenty\02-251019-Zdrav�.f8.md
+C:\Users\marti\OneDrive\Dokumenty\00049-NEW-IDs-hashtags-keywords.f8.md
+C:\Users\marti\OneDrive\eev-f8\TODO.f8.md
+C:\Users\marti\OneDrive\Dokumenty\250831-transhuman\251007-annot-2024_Truths_of_Terasem.f8.md
 
 
 

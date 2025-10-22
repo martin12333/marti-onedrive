@@ -1,4 +1,6 @@
 
+dokážeš přečíst 20 slov
+
 
 TODO ℹ️
 04-KDE-MAS-HLAVNI-NAPOVEDU.f8.md
