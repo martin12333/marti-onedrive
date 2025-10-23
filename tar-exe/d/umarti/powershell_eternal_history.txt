@@ -12647,3 +12647,4 @@ shutdown.exe /l
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 cmd /c dir
 cmd /c dir c:\
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
