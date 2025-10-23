@@ -52,7 +52,9 @@ former programmer
 transhumanist
 
 
-bug 
+cmd /c dir c:\
+
+bug 251022
 napsal
 Dekuji za pozornost.
 ja jsem hlasem diktoval
