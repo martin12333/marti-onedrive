@@ -3,11 +3,11 @@
     "1": {
       "state": {
         "on": true,
-        "bri": 137,
-        "hue": 0,
+        "bri": 87,
+        "hue": 2950,
         "sat": 254,
         "effect": "none",
-        "xy": [0.6915, 0.3083],
+        "xy": [0.6314, 0.3534],
         "ct": 467,
         "alert": "select",
         "colormode": "xy",
@@ -61,11 +61,11 @@
       "class": "Bedroom",
       "action": {
         "on": true,
-        "bri": 137,
-        "hue": 0,
+        "bri": 87,
+        "hue": 2950,
         "sat": 254,
         "effect": "none",
-        "xy": [0.6915, 0.3083],
+        "xy": [0.6314, 0.3534],
         "ct": 467,
         "alert": "select",
         "colormode": "xy"
@@ -81,11 +81,11 @@
       "class": "Bedroom",
       "action": {
         "on": true,
-        "bri": 137,
-        "hue": 0,
+        "bri": 87,
+        "hue": 2950,
         "sat": 254,
         "effect": "none",
-        "xy": [0.6915, 0.3083],
+        "xy": [0.6314, 0.3534],
         "ct": 467,
         "alert": "select",
         "colormode": "xy"
@@ -103,8 +103,8 @@
     "gateway": "10.0.0.138",
     "proxyaddress": "none",
     "proxyport": 0,
-    "UTC": "2025-10-25T06:55:48",
-    "localtime": "2025-10-25T08:55:48",
+    "UTC": "2025-10-25T09:11:44",
+    "localtime": "2025-10-25T11:11:44",
     "timezone": "Europe/Prague",
     "modelid": "BSB002",
     "datastoreversion": "180",
@@ -259,7 +259,7 @@
         "name": "hue-smartthings-v1"
       },
       "5df89017-604f-4671-b6ef-922333a1053c": {
-        "last use date": "2025-10-25T06:21:04",
+        "last use date": "2025-10-25T08:06:00",
         "create date": "2019-10-01T09:14:45",
         "name": "HueProApp#SM-G960F"
       },
@@ -414,7 +414,7 @@
         "name": "hue-smartthings-v1"
       },
       "7ecfab9a-114f-400f-acd2-77f32521ff21": {
-        "last use date": "2025-10-25T06:55:30",
+        "last use date": "2025-10-25T09:01:25",
         "create date": "2025-10-24T15:21:10",
         "name": "Hue Essentials#Windows 11 10.0 amd64"
       },
@@ -439,7 +439,7 @@
         "name": "hue-smartthings-v1"
       },
       "0LLLeRbHFlFrprENP4HZ9KuSBwEVhzfZPnk68Xtq": {
-        "last use date": "2025-10-25T06:55:48",
+        "last use date": "2025-10-25T09:11:44",
         "create date": "2025-10-24T17:05:04",
         "name": "all 4 hue#Windows10"
       },
@@ -1547,7 +1547,7 @@
       "lights": ["1"],
       "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
       "recycle": true,
-      "locked": true,
+      "locked": false,
       "appdata": { "version": 1, "data": "HE_uPjHm_r81_h01" },
       "picture": "",
       "lastupdated": "2025-10-24T14:36:24",
@@ -1577,6 +1577,58 @@
       "appdata": { "version": 1, "data": "HE_ORWih_r81_h01" },
       "picture": "",
       "lastupdated": "2025-10-24T14:37:19",
+      "version": 2
+    },
+    "MF97j5ZRr67tBdL": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": ["1"],
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "recycle": true,
+      "locked": false,
+      "appdata": { "version": 1, "data": "HE_89Amv_r81_h01" },
+      "picture": "",
+      "lastupdated": "2025-10-25T07:01:43",
+      "version": 2
+    },
+    "u0wbirOrLjNlURF": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": ["1"],
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "recycle": true,
+      "locked": false,
+      "appdata": { "version": 1, "data": "HE_LXFCf_r81_h01" },
+      "picture": "",
+      "lastupdated": "2025-10-25T07:01:58",
+      "version": 2
+    },
+    "fAzO-oaC6eQ0fxo": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": ["1"],
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "HE_AQaLO_r81_h01" },
+      "picture": "",
+      "lastupdated": "2025-10-25T07:47:57",
+      "version": 2
+    },
+    "dlK8V-neG6GX2Vo": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": ["1"],
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "recycle": true,
+      "locked": false,
+      "appdata": { "version": 1, "data": "HE_OUnqU_r81_h01" },
+      "picture": "",
+      "lastupdated": "2025-10-25T07:49:29",
       "version": 2
     }
   },
@@ -3051,8 +3103,8 @@
     },
     "53": {
       "name": "HueEssentialsEffect",
-      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
-      "created": "2025-10-24T14:36:24",
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "created": "2025-10-25T07:47:57",
       "lasttriggered": "none",
       "timestriggered": 0,
       "status": "enabled",
@@ -3073,14 +3125,14 @@
         {
           "address": "/groups/81/action",
           "method": "PUT",
-          "body": { "xy": [0.6912581423365123, 0.2983264562463785] }
+          "body": { "xy": [0.6917807124166135, 0.29833779853248715] }
         }
       ]
     },
     "54": {
       "name": "HueEssentialsEffect",
-      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
-      "created": "2025-10-24T14:36:24",
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "created": "2025-10-25T07:47:57",
       "lasttriggered": "none",
       "timestriggered": 0,
       "status": "enabled",
@@ -3101,14 +3153,14 @@
         {
           "address": "/groups/81/action",
           "method": "PUT",
-          "body": { "xy": [0.6510183699029586, 0.29086449927760993] }
+          "body": { "xy": [0.652050738666602, 0.2908945135348952] }
         }
       ]
     },
     "55": {
       "name": "HueEssentialsEffect",
-      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
-      "created": "2025-10-24T14:36:24",
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "created": "2025-10-25T07:47:57",
       "lasttriggered": "none",
       "timestriggered": 0,
       "status": "enabled",
@@ -3135,8 +3187,8 @@
     },
     "56": {
       "name": "HueEssentialsEffect",
-      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
-      "created": "2025-10-24T14:36:24",
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "created": "2025-10-25T07:47:58",
       "lasttriggered": "none",
       "timestriggered": 0,
       "status": "enabled",
@@ -3151,7 +3203,7 @@
       ],
       "actions": [
         {
-          "address": "/scenes/iSQgPVpAJXbHFYw",
+          "address": "/scenes/fAzO-oaC6eQ0fxo",
           "method": "PUT",
           "body": { "storelightstate": true }
         },
@@ -3174,8 +3226,8 @@
     },
     "57": {
       "name": "HueEssentialsEffect",
-      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
-      "created": "2025-10-24T14:36:24",
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "created": "2025-10-25T07:47:58",
       "lasttriggered": "none",
       "timestriggered": 0,
       "status": "enabled",
@@ -3197,14 +3249,14 @@
         {
           "address": "/groups/81/action",
           "method": "PUT",
-          "body": { "scene": "iSQgPVpAJXbHFYw" }
+          "body": { "scene": "fAzO-oaC6eQ0fxo" }
         }
       ]
     },
     "58": {
       "name": "HueEssentialsEffect",
-      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
-      "created": "2025-10-24T14:36:25",
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "created": "2025-10-25T07:47:58",
       "lasttriggered": "none",
       "timestriggered": 0,
       "status": "enabled",
@@ -3237,8 +3289,8 @@
     },
     "59": {
       "name": "HueEssentialsEffect",
-      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
-      "created": "2025-10-24T14:36:25",
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "created": "2025-10-25T07:47:58",
       "lasttriggered": "none",
       "timestriggered": 0,
       "status": "enabled",
@@ -3682,9 +3734,9 @@
     "74": {
       "name": "HueEssentialsEffect",
       "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
-      "created": "2025-10-25T06:44:41",
-      "lasttriggered": "2025-10-25T06:51:35",
-      "timestriggered": 15,
+      "created": "2025-10-25T06:59:36",
+      "lasttriggered": "2025-10-25T07:47:59",
+      "timestriggered": 7,
       "status": "enabled",
       "recycle": true,
       "conditions": [
@@ -3713,9 +3765,9 @@
     "75": {
       "name": "HueEssentialsEffect",
       "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
-      "created": "2025-10-25T06:44:42",
-      "lasttriggered": "2025-10-25T06:51:50",
-      "timestriggered": 15,
+      "created": "2025-10-25T06:59:36",
+      "lasttriggered": "2025-10-25T07:47:45",
+      "timestriggered": 5,
       "status": "enabled",
       "recycle": true,
       "conditions": [
@@ -3727,7 +3779,7 @@
         {
           "address": "/sensors/148/state/lastupdated",
           "operator": "ddx",
-          "value": "PT00:00:16"
+          "value": "PT00:09:01"
         }
       ],
       "actions": [
@@ -3744,9 +3796,9 @@
     "76": {
       "name": "HueEssentialsEffect",
       "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
-      "created": "2025-10-25T06:44:42",
-      "lasttriggered": "2025-10-25T06:51:26",
-      "timestriggered": 14,
+      "created": "2025-10-25T06:59:36",
+      "lasttriggered": "2025-10-25T07:47:50",
+      "timestriggered": 5,
       "status": "enabled",
       "recycle": true,
       "conditions": [
@@ -3758,23 +3810,23 @@
         {
           "address": "/sensors/148/state/lastupdated",
           "operator": "ddx",
-          "value": "PT00:00:21"
+          "value": "PT00:09:06"
         }
       ],
       "actions": [
         {
           "address": "/groups/81/action",
           "method": "PUT",
-          "body": { "bri": 1, "xy": [0.6976083325751002, 0.3018408818503593] }
+          "body": { "bri": 1, "xy": [0.6978021336234633, 0.3016766888405615] }
         }
       ]
     },
     "77": {
       "name": "HueEssentialsEffect",
       "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
-      "created": "2025-10-25T06:44:42",
-      "lasttriggered": "2025-10-25T06:51:34",
-      "timestriggered": 14,
+      "created": "2025-10-25T06:59:36",
+      "lasttriggered": "2025-10-25T07:47:58",
+      "timestriggered": 5,
       "status": "enabled",
       "recycle": true,
       "conditions": [
@@ -3786,7 +3838,7 @@
         {
           "address": "/sensors/148/state/lastupdated",
           "operator": "ddx",
-          "value": "PT00:00:29"
+          "value": "PT00:09:14"
         }
       ],
       "actions": [
@@ -3800,9 +3852,9 @@
     "78": {
       "name": "HueEssentialsEffect",
       "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
-      "created": "2025-10-25T06:44:42",
-      "lasttriggered": "2025-10-25T06:44:48",
-      "timestriggered": 1,
+      "created": "2025-10-25T06:59:37",
+      "lasttriggered": "2025-10-25T07:01:48",
+      "timestriggered": 2,
       "status": "enabled",
       "recycle": true,
       "conditions": [
@@ -3829,7 +3881,7 @@
     "79": {
       "name": "HueEssentialsEffect",
       "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
-      "created": "2025-10-25T06:44:42",
+      "created": "2025-10-25T06:59:37",
       "lasttriggered": "none",
       "timestriggered": 0,
       "status": "enabled",
@@ -3863,9 +3915,9 @@
     "80": {
       "name": "HueEssentialsEffect",
       "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
-      "created": "2025-10-25T06:44:42",
-      "lasttriggered": "none",
-      "timestriggered": 0,
+      "created": "2025-10-25T06:59:37",
+      "lasttriggered": "2025-10-25T07:01:43",
+      "timestriggered": 1,
       "status": "enabled",
       "recycle": true,
       "conditions": [
@@ -3888,8 +3940,8 @@
       "name": "essen..251023",
       "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
       "created": "2025-10-25T06:55:19",
-      "lasttriggered": "none",
-      "timestriggered": 0,
+      "lasttriggered": "2025-10-25T06:57:00",
+      "timestriggered": 1,
       "status": "enabled",
       "recycle": false,
       "conditions": [
@@ -3900,6 +3952,276 @@
           "address": "/sensors/148/state",
           "method": "PUT",
           "body": { "status": 1 }
+        }
+      ]
+    },
+    "82": {
+      "name": "HueEssentialsEffect",
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "created": "2025-10-25T08:22:56",
+      "lasttriggered": "2025-10-25T09:01:13",
+      "timestriggered": 32,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/151/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/151/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:01"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/81/action",
+          "method": "PUT",
+          "body": { "bri": 247, "xy": [0.6334719670116573, 0.3561787865639656] }
+        }
+      ]
+    },
+    "83": {
+      "name": "HueEssentialsEffect",
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "created": "2025-10-25T08:22:56",
+      "lasttriggered": "2025-10-25T09:00:58",
+      "timestriggered": 31,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/151/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/151/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:01:00"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/81/action",
+          "method": "PUT",
+          "body": { "bri": 87, "xy": [0.6198701809524498, 0.3677025539044924] }
+        }
+      ]
+    },
+    "84": {
+      "name": "HueEssentialsEffect",
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "created": "2025-10-25T08:22:56",
+      "lasttriggered": "2025-10-25T09:01:12",
+      "timestriggered": 31,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/151/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/151/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:01:14"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/151/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        }
+      ]
+    },
+    "85": {
+      "name": "HueEssentialsEffect",
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "created": "2025-10-25T08:22:56",
+      "lasttriggered": "2025-10-25T08:22:58",
+      "timestriggered": 1,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/151/state/status",
+          "operator": "eq",
+          "value": "1"
+        },
+        { "address": "/sensors/151/state/status", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/144/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        },
+        {
+          "address": "/sensors/151/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        }
+      ]
+    },
+    "86": {
+      "name": "HueEssentialsEffect",
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "created": "2025-10-25T08:22:56",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/groups/81/state/any_on",
+          "operator": "eq",
+          "value": "false"
+        },
+        { "address": "/groups/81/state/any_on", "operator": "dx" },
+        {
+          "address": "/sensors/151/state/status",
+          "operator": "gt",
+          "value": "0"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/151/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        },
+        {
+          "address": "/sensors/144/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        }
+      ]
+    },
+    "87": {
+      "name": "HueEssentialsEffect",
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "created": "2025-10-25T08:22:56",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/151/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        { "address": "/sensors/144/state/lastupdated", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/151/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        }
+      ]
+    },
+    "88": {
+      "name": "1025-1",
+      "owner": "0LLLeRbHFlFrprENP4HZ9KuSBwEVhzfZPnk68Xtq",
+      "created": "2025-10-25T08:39:41",
+      "lasttriggered": "2025-10-25T08:43:55",
+      "timestriggered": 7,
+      "status": "disabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/154/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:16"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/154/state",
+          "method": "PUT",
+          "body": { "status": 3 }
+        }
+      ]
+    },
+    "89": {
+      "name": "1025-55",
+      "owner": "0LLLeRbHFlFrprENP4HZ9KuSBwEVhzfZPnk68Xtq",
+      "created": "2025-10-25T08:54:00",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/154/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:05"
+        },
+        {
+          "address": "/sensors/154/state/status",
+          "operator": "lt",
+          "value": "60"
+        },
+        {
+          "address": "/sensors/155/state/flag",
+          "operator": "eq",
+          "value": "true"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/81/action",
+          "method": "PUT",
+          "body": { "bri": 63 }
+        },
+        {
+          "address": "/sensors/154/state",
+          "method": "PUT",
+          "body": { "status": 78 }
+        }
+      ]
+    },
+    "90": {
+      "name": "1024-60",
+      "owner": "0LLLeRbHFlFrprENP4HZ9KuSBwEVhzfZPnk68Xtq",
+      "created": "2025-10-25T08:58:16",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/154/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:04"
+        },
+        {
+          "address": "/sensors/154/state/status",
+          "operator": "gt",
+          "value": "60"
+        },
+        {
+          "address": "/sensors/155/state/flag",
+          "operator": "eq",
+          "value": "true"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/81/action",
+          "method": "PUT",
+          "body": { "bri": 192 }
+        },
+        {
+          "address": "/sensors/154/state",
+          "method": "PUT",
+          "body": { "status": 50 }
         }
       ]
     }
@@ -4085,7 +4407,7 @@
       "recycle": false
     },
     "144": {
-      "state": { "status": 2, "lastupdated": "2025-10-25T06:44:48" },
+      "state": { "status": 2, "lastupdated": "2025-10-25T08:22:58" },
       "config": { "on": true, "reachable": true },
       "name": "HueEssentialsEffect",
       "type": "CLIPGenericStatus",
@@ -4096,7 +4418,7 @@
       "recycle": true
     },
     "145": {
-      "state": { "status": 0, "lastupdated": "none" },
+      "state": { "status": 0, "lastupdated": "2025-10-25T07:47:57" },
       "config": { "on": true, "reachable": true },
       "name": "HueEssentialsEffect",
       "type": "CLIPGenericStatus",
@@ -4129,7 +4451,7 @@
       "recycle": true
     },
     "148": {
-      "state": { "status": 0, "lastupdated": "2025-10-25T06:51:52" },
+      "state": { "status": 0, "lastupdated": "2025-10-25T07:49:52" },
       "config": { "on": true, "reachable": true },
       "name": "HueEssentialsEffect",
       "type": "CLIPGenericStatus",
@@ -4140,7 +4462,7 @@
       "recycle": true
     },
     "150": {
-      "state": { "status": 0, "lastupdated": "none" },
+      "state": { "status": 1, "lastupdated": "2025-10-25T06:57:00" },
       "config": { "on": true, "reachable": true },
       "name": "essen..251023",
       "type": "CLIPGenericStatus",
@@ -4148,6 +4470,39 @@
       "manufacturername": "Hue Essentials",
       "swversion": "1.0",
       "uniqueid": "XONiVnV4NWgMvpGldzdbpnTRIUx4mrYY",
+      "recycle": false
+    },
+    "151": {
+      "state": { "status": 0, "lastupdated": "2025-10-25T09:01:25" },
+      "config": { "on": true, "reachable": true },
+      "name": "HueEssentialsEffect",
+      "type": "CLIPGenericStatus",
+      "modelid": "HueEssentialsEffect_State",
+      "manufacturername": "Hue Essentials",
+      "swversion": "1.0",
+      "uniqueid": "1Da0shIHwoEN2ndstNYIB24uOvnNrYhg",
+      "recycle": true
+    },
+    "154": {
+      "state": { "status": 80, "lastupdated": "2025-10-25T08:59:20" },
+      "config": { "on": true, "reachable": true },
+      "name": "s1025",
+      "type": "CLIPGenericStatus",
+      "modelid": "Model 2021",
+      "manufacturername": "all 4 hue",
+      "swversion": "1.0",
+      "uniqueid": "PFHS-MEMORY-STATE",
+      "recycle": false
+    },
+    "155": {
+      "state": { "flag": true, "lastupdated": "2025-10-25T09:11:08" },
+      "config": { "on": true, "reachable": true },
+      "name": "myrun",
+      "type": "CLIPGenericFlag",
+      "modelid": "Model 2021",
+      "manufacturername": "all 4 hue",
+      "swversion": "1.0",
+      "uniqueid": "PFHS-MEMORY-STATE",
       "recycle": false
     }
   },
@@ -4340,11 +4695,11 @@
       "links": []
     },
     "28741": {
-      "name": "Effect 1",
+      "name": "zzzEffect 1",
       "description": "HueEssentialsEffect_81_",
       "type": "Link",
       "classid": 18,
-      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
       "recycle": false,
       "links": [
         "/groups/81",
@@ -4353,7 +4708,7 @@
         "/rules/53",
         "/rules/54",
         "/rules/55",
-        "/scenes/iSQgPVpAJXbHFYw",
+        "/scenes/fAzO-oaC6eQ0fxo",
         "/rules/56",
         "/rules/57",
         "/rules/58",
@@ -4420,6 +4775,25 @@
         "/rules/78",
         "/rules/79",
         "/rules/80"
+      ]
+    },
+    "2499": {
+      "name": "early evening 251024\n",
+      "description": "HueEssentialsEffect_81__bri",
+      "type": "Link",
+      "classid": 18,
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "recycle": false,
+      "links": [
+        "/groups/81",
+        "/sensors/144",
+        "/sensors/151",
+        "/rules/82",
+        "/rules/83",
+        "/rules/84",
+        "/rules/85",
+        "/rules/86",
+        "/rules/87"
       ]
     }
   }
