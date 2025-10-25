@@ -1,0 +1,4168 @@
+{
+  "lights": {
+    "1": {
+      "state": {
+        "on": true,
+        "bri": 254,
+        "hue": 5269,
+        "sat": 254,
+        "effect": "none",
+        "xy": [0.5842, 0.3889],
+        "ct": 467,
+        "alert": "select",
+        "colormode": "hs",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2025-07-23T18:59:40"
+      },
+      "type": "Extended color light",
+      "name": "Hue color lamp 1",
+      "modelid": "LCT010",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue color lamp",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 1000,
+          "maxlumen": 806,
+          "colorgamuttype": "C",
+          "colorgamut": [
+            [0.6915, 0.3083],
+            [0.17, 0.7],
+            [0.1532, 0.0475]
+          ],
+          "ct": { "min": 153, "max": 500 }
+        },
+        "streaming": { "renderer": true, "proxy": true }
+      },
+      "config": {
+        "archetype": "sultanbulb",
+        "function": "mixed",
+        "direction": "omnidirectional",
+        "startup": { "mode": "safety", "configured": true }
+      },
+      "uniqueid": "00:17:88:01:02:dc:35:3d-0b",
+      "swversion": "1.116.8",
+      "swconfigid": "DDE4D5E9",
+      "productid": "Philips-LCT010-1-A19ECLv4"
+    }
+  },
+  "groups": {
+    "1": {
+      "name": "Ložnice",
+      "lights": ["1"],
+      "sensors": [],
+      "type": "Room",
+      "state": { "all_on": true, "any_on": true },
+      "recycle": false,
+      "class": "Bedroom",
+      "action": {
+        "on": true,
+        "bri": 254,
+        "hue": 5269,
+        "sat": 254,
+        "effect": "none",
+        "xy": [0.5842, 0.3889],
+        "ct": 467,
+        "alert": "select",
+        "colormode": "hs"
+      }
+    },
+    "81": {
+      "name": "Bedroom. zone",
+      "lights": ["1"],
+      "sensors": [],
+      "type": "Zone",
+      "state": { "all_on": true, "any_on": true },
+      "recycle": false,
+      "class": "Bedroom",
+      "action": {
+        "on": true,
+        "bri": 254,
+        "hue": 5269,
+        "sat": 254,
+        "effect": "none",
+        "xy": [0.5842, 0.3889],
+        "ct": 467,
+        "alert": "select",
+        "colormode": "hs"
+      }
+    }
+  },
+  "config": {
+    "name": "Hue Bridge",
+    "zigbeechannel": 20,
+    "bridgeid": "001788FFFE611B8E",
+    "mac": "00:17:88:61:1b:8e",
+    "dhcp": true,
+    "ipaddress": "10.0.0.1",
+    "netmask": "255.255.255.0",
+    "gateway": "10.0.0.138",
+    "proxyaddress": "none",
+    "proxyport": 0,
+    "UTC": "2025-10-25T06:11:13",
+    "localtime": "2025-10-25T08:11:13",
+    "timezone": "Europe/Prague",
+    "modelid": "BSB002",
+    "datastoreversion": "180",
+    "swversion": "1973146020",
+    "apiversion": "1.73.0",
+    "swupdate2": {
+      "checkforupdate": false,
+      "lastchange": "2025-10-17T18:07:35",
+      "bridge": { "state": "noupdates", "lastinstall": "2025-10-17T18:07:35" },
+      "state": "noupdates",
+      "autoinstall": { "updatetime": "T20:00:00", "on": true }
+    },
+    "linkbutton": false,
+    "portalservices": true,
+    "analyticsconsent": true,
+    "portalconnection": "disconnected",
+    "portalstate": {
+      "signedon": false,
+      "incoming": false,
+      "outgoing": false,
+      "communication": "disconnected"
+    },
+    "internetservices": {
+      "internet": "connected",
+      "remoteaccess": "connected",
+      "time": "connected",
+      "swupdate": "connected"
+    },
+    "factorynew": false,
+    "replacesbridgeid": null,
+    "starterkitid": "",
+    "backup": { "status": "idle", "errorcode": 0 },
+    "whitelist": {
+      "9a74cb99-0cad-4870-96ca-c98bb5207656": {
+        "last use date": "2024-05-08T07:21:45",
+        "create date": "2024-01-31T00:34:40",
+        "name": "hue-smartthings-v1"
+      },
+      "c6abdefb-c81e-47bb-8f94-402a351e62ea": {
+        "last use date": "2024-06-03T18:11:19",
+        "create date": "2024-01-29T00:34:40",
+        "name": "hue-smartthings-v1"
+      },
+      "07b0537a-d48d-40e4-8a42-6e5870c38fb6": {
+        "last use date": "2024-04-03T00:34:41",
+        "create date": "2023-09-18T00:35:25",
+        "name": "hue-smartthings-v1"
+      },
+      "d9d82538-3024-4b5f-a913-2ecb2799ccb8": {
+        "last use date": "2024-03-02T00:34:41",
+        "create date": "2023-09-26T00:35:20",
+        "name": "hue-smartthings-v1"
+      },
+      "17690dd3-fdca-471e-8ec8-12942bea4221": {
+        "last use date": "2024-04-25T11:15:48",
+        "create date": "2023-10-04T00:34:38",
+        "name": "hue-smartthings-v1"
+      },
+      "1b9072cc-8830-450a-b04d-00b7f3109705": {
+        "last use date": "2024-05-27T00:34:40",
+        "create date": "2023-10-12T00:34:42",
+        "name": "hue-smartthings-v1"
+      },
+      "f1920859-351c-47b8-b99a-79bc3bfa4418": {
+        "last use date": "2024-04-17T00:34:40",
+        "create date": "2023-10-20T00:34:41",
+        "name": "hue-smartthings-v1"
+      },
+      "830f2aac-cafa-4899-8b58-5cd99897f196": {
+        "last use date": "2024-05-05T12:27:26",
+        "create date": "2023-10-28T00:34:41",
+        "name": "hue-smartthings-v1"
+      },
+      "2ff112c3-0f3b-4907-91ab-a468c3515149": {
+        "last use date": "2024-05-25T19:28:30",
+        "create date": "2023-11-05T00:34:39",
+        "name": "hue-smartthings-v1"
+      },
+      "d0b61a6d-8b32-4de7-ab88-cc10b0a10f4e": {
+        "last use date": "2023-11-18T06:58:57",
+        "create date": "2023-11-12T00:34:38",
+        "name": "hue-smartthings-v1"
+      },
+      "d506a3bb-59c7-4e5b-8144-170d44b9172f": {
+        "last use date": "2024-02-23T08:55:35",
+        "create date": "2023-12-11T00:34:43",
+        "name": "hue-smartthings-v1"
+      },
+      "590c5073-1a53-453b-a674-3daa1806ace0": {
+        "last use date": "2024-03-10T00:34:45",
+        "create date": "2023-11-19T00:34:50",
+        "name": "hue-smartthings-v1"
+      },
+      "1b25674e-a8c6-4107-bd54-8ea855bacb2d": {
+        "last use date": "2023-12-03T18:27:52",
+        "create date": "2023-11-27T00:34:38",
+        "name": "hue-smartthings-v1"
+      },
+      "eec21b29-e148-4489-bea0-c91ce8233214": {
+        "last use date": "2024-02-29T16:39:50",
+        "create date": "2023-12-04T00:34:41",
+        "name": "hue-smartthings-v1"
+      },
+      "1a21e8b2-4bd1-4da9-8464-c0448906d5fa": {
+        "last use date": "2024-05-14T06:38:09",
+        "create date": "2023-12-27T00:34:37",
+        "name": "hue-smartthings-v1"
+      },
+      "2a5dc27a-43a2-4b9d-ade3-a994398267ea": {
+        "last use date": "2024-05-09T17:24:33",
+        "create date": "2023-12-19T00:34:42",
+        "name": "hue-smartthings-v1"
+      },
+      "54036d7e-5c66-4ee3-9a0e-9d4618ff15e7": {
+        "last use date": "2024-04-27T00:34:41",
+        "create date": "2023-09-03T00:35:26",
+        "name": "hue-smartthings-v1"
+      },
+      "84bf33e4-aaaf-496e-8cbe-d97d389edc87": {
+        "last use date": "2023-03-20T08:45:53",
+        "create date": "2018-08-11T16:36:44",
+        "name": "hue-hca-actions-on-google"
+      },
+      "111497c6-e858-4957-b103-f4953234229e": {
+        "last use date": "2025-10-23T20:56:02",
+        "create date": "2018-08-20T15:23:22",
+        "name": "hue-alexa-smarthome-skill-v1"
+      },
+      "de800c84-b5a8-482a-8e32-64afc56364a7": {
+        "last use date": "2025-10-24T17:42:18",
+        "create date": "2023-12-31T20:56:21",
+        "name": "Hue Essentials#SM-G960F"
+      },
+      "f987cd97-2f7c-460a-bcd0-d11b5d055616": {
+        "last use date": "2024-04-26T18:08:13",
+        "create date": "2024-01-03T00:34:41",
+        "name": "hue-smartthings-v1"
+      },
+      "2fd5ddcc-e85e-44e8-9859-255b4276c0ad": {
+        "last use date": "2024-05-10T00:34:46",
+        "create date": "2023-09-11T00:35:05",
+        "name": "hue-smartthings-v1"
+      },
+      "4a5cb262-dfa8-42fd-be70-586e3c8ba415": {
+        "last use date": "2024-01-24T00:34:40",
+        "create date": "2024-01-18T00:34:39",
+        "name": "hue-smartthings-v1"
+      },
+      "4dfdf7c0-e062-4338-8736-3b36a8b7468d": {
+        "last use date": "2024-01-17T00:34:39",
+        "create date": "2024-01-10T00:34:43",
+        "name": "hue-smartthings-v1"
+      },
+      "5df89017-604f-4671-b6ef-922333a1053c": {
+        "last use date": "2025-10-25T05:40:52",
+        "create date": "2019-10-01T09:14:45",
+        "name": "HueProApp#SM-G960F"
+      },
+      "8a0687bf-a480-4eb6-b1ab-f6172c6846d4": {
+        "last use date": "2024-03-20T18:07:05",
+        "create date": "2024-01-25T00:34:40",
+        "name": "hue-smartthings-v1"
+      },
+      "b0f07042-d65d-4045-8824-20f141fb3d21": {
+        "last use date": "2024-01-26T05:51:44",
+        "create date": "2024-01-26T00:34:39",
+        "name": "hue-smartthings-v1"
+      },
+      "31ba6c5d-f3ff-4346-a8f0-33d633b53c90": {
+        "last use date": "2024-01-27T00:34:40",
+        "create date": "2024-01-27T00:34:40",
+        "name": "hue-smartthings-v1"
+      },
+      "082b42ea-f954-4471-b06a-62371116173c": {
+        "last use date": "2024-01-30T17:15:11",
+        "create date": "2024-01-30T00:34:41",
+        "name": "hue-smartthings-v1"
+      },
+      "8a4d5452-5db7-405c-aa57-90016456e879": {
+        "last use date": "2024-01-28T00:34:42",
+        "create date": "2024-01-28T00:34:41",
+        "name": "hue-smartthings-v1"
+      },
+      "0a1dc31a-b8c5-4816-bbcf-4a1980813f0a": {
+        "last use date": "2024-03-28T15:18:28",
+        "create date": "2024-02-01T00:34:41",
+        "name": "hue-smartthings-v1"
+      },
+      "e507e2f1-12a8-4e7c-b900-048413eaeb12": {
+        "last use date": "2024-06-02T00:34:39",
+        "create date": "2024-02-02T00:34:40",
+        "name": "hue-smartthings-v1"
+      },
+      "a90a8df3-e660-480e-8ec6-9558f1b0082b": {
+        "last use date": "2024-05-13T10:52:21",
+        "create date": "2024-02-03T00:34:41",
+        "name": "hue-smartthings-v1"
+      },
+      "6f086bcb-19ed-4d8e-aa8b-c61bf25b3b32": {
+        "last use date": "2024-02-17T00:34:45",
+        "create date": "2024-02-11T00:34:39",
+        "name": "hue-smartthings-v1"
+      },
+      "bc15fd74-2aa4-44a9-90b8-58fc96b8b3df": {
+        "last use date": "2024-03-18T13:05:48",
+        "create date": "2024-02-18T00:34:44",
+        "name": "hue-smartthings-v1"
+      },
+      "3eeac9ae-6bb2-4249-bbdd-eabf5abd8c3c": {
+        "last use date": "2024-06-08T00:34:41",
+        "create date": "2022-04-26T00:35:09",
+        "name": "hue-smartthings-v1"
+      },
+      "00c202ad-95ec-4c4f-bb69-98ec8c914ada": {
+        "last use date": "2024-05-18T17:44:13",
+        "create date": "2022-05-04T00:35:16",
+        "name": "hue-smartthings-v1"
+      },
+      "7929d59a-4aaf-439d-bb0d-058dd8ba15f2": {
+        "last use date": "2024-03-15T00:34:40",
+        "create date": "2022-05-12T00:35:15",
+        "name": "hue-smartthings-v1"
+      },
+      "b6064a42-8371-4be5-9b88-ce38721fa3f6": {
+        "last use date": "2024-05-16T00:34:41",
+        "create date": "2022-05-20T00:35:08",
+        "name": "hue-smartthings-v1"
+      },
+      "8f5941b2-9909-480d-a047-181bdfe09f8e": {
+        "last use date": "2024-04-24T00:34:45",
+        "create date": "2022-05-27T00:35:19",
+        "name": "hue-smartthings-v1"
+      },
+      "1a52ff04-2876-48aa-aa04-c529f1bae04d": {
+        "last use date": "2024-05-22T13:38:28",
+        "create date": "2022-06-04T00:35:22",
+        "name": "hue-smartthings-v1"
+      },
+      "eca64374-13bd-4457-a3b2-ab7aac49c8eb": {
+        "last use date": "2025-10-24T12:02:45",
+        "create date": "2024-05-30T17:50:59",
+        "name": "Hue#SM-G960F"
+      },
+      "4b9a5df8-7b32-427c-867e-54812df908f9": {
+        "last use date": "2024-06-10T09:50:04",
+        "create date": "2022-06-19T00:35:10",
+        "name": "hue-smartthings-v1"
+      },
+      "ccc202e1-0ca1-489d-81a9-ae7642b197ba": {
+        "last use date": "2024-05-26T00:34:39",
+        "create date": "2022-06-27T00:35:07",
+        "name": "hue-smartthings-v1"
+      },
+      "41c4f26f-0ec7-4162-8a1a-3a329ad6d27c": {
+        "last use date": "2024-09-04T00:34:45",
+        "create date": "2024-06-11T00:34:39",
+        "name": "hue-smartthings-v1"
+      },
+      "5a42e039-1a65-4783-bc74-756488a057c9": {
+        "last use date": "2024-03-26T12:29:54",
+        "create date": "2022-07-12T00:35:07",
+        "name": "hue-smartthings-v1"
+      },
+      "a2b1dad6-a82c-45dd-a335-dff0b391fcb1": {
+        "last use date": "2024-03-31T07:39:56",
+        "create date": "2022-07-19T00:35:16",
+        "name": "hue-smartthings-v1"
+      },
+      "b0648d9e-bc0d-4c89-9cc4-570b3f074579": {
+        "last use date": "2024-06-04T08:30:11",
+        "create date": "2022-07-26T00:35:20",
+        "name": "hue-smartthings-v1"
+      },
+      "1ffeb365-cb44-4648-925c-dad4fbd499ef": {
+        "last use date": "2024-04-23T00:34:39",
+        "create date": "2022-08-03T00:35:32",
+        "name": "hue-smartthings-v1"
+      },
+      "d49ff05c-b65e-4fc8-a831-fedc92e4159b": {
+        "last use date": "2024-04-30T00:34:40",
+        "create date": "2022-08-11T00:35:20",
+        "name": "hue-smartthings-v1"
+      },
+      "b39ac117-2281-43d7-b16e-c4e57d898e9b": {
+        "last use date": "2024-05-03T00:34:40",
+        "create date": "2022-08-19T00:35:20",
+        "name": "hue-smartthings-v1"
+      },
+      "c4e72044-5acc-40f4-98f5-17185d708774": {
+        "last use date": "2024-05-21T00:34:40",
+        "create date": "2022-08-26T00:35:21",
+        "name": "hue-smartthings-v1"
+      },
+      "6434c015-a63f-44ad-82f9-0d706743a1d6": {
+        "last use date": "2024-03-13T16:55:24",
+        "create date": "2022-09-03T00:35:24",
+        "name": "hue-smartthings-v1"
+      },
+      "fc276e29-af21-4ebc-8fe6-b6fd513ba733": {
+        "last use date": "2024-04-21T13:16:48",
+        "create date": "2022-09-10T00:35:26",
+        "name": "hue-smartthings-v1"
+      },
+      "2d29c8b9-4cd6-458e-90a8-b3b71210b99e": {
+        "last use date": "2025-10-25T00:34:59",
+        "create date": "2024-09-04T00:34:46",
+        "name": "hue-smartthings-v1"
+      },
+      "7ecfab9a-114f-400f-acd2-77f32521ff21": {
+        "last use date": "2025-10-25T06:11:05",
+        "create date": "2025-10-24T15:21:10",
+        "name": "Hue Essentials#Windows 11 10.0 amd64"
+      },
+      "8a5c5ca3-9c82-4b6d-9b55-c1016bbc5045": {
+        "last use date": "2024-05-23T17:33:11",
+        "create date": "2022-10-03T00:35:21",
+        "name": "hue-smartthings-v1"
+      },
+      "b93a3594-9345-44d0-ba14-868248931ee2": {
+        "last use date": "2024-04-20T18:11:34",
+        "create date": "2022-10-10T00:35:29",
+        "name": "hue-smartthings-v1"
+      },
+      "7ed36f70-f96a-4ba0-8530-16e9b83473c1": {
+        "last use date": "2024-03-14T17:38:26",
+        "create date": "2022-10-18T00:35:26",
+        "name": "hue-smartthings-v1"
+      },
+      "5b13a1e9-5ce2-4796-b553-3115d1aa9ffa": {
+        "last use date": "2024-05-11T12:45:41",
+        "create date": "2022-10-26T00:35:19",
+        "name": "hue-smartthings-v1"
+      },
+      "0LLLeRbHFlFrprENP4HZ9KuSBwEVhzfZPnk68Xtq": {
+        "last use date": "2025-10-25T06:11:13",
+        "create date": "2025-10-24T17:05:04",
+        "name": "all 4 hue#Windows10"
+      },
+      "1c547115-0ef8-4c67-9411-ea2c9cfc10f0": {
+        "last use date": "2024-04-02T11:52:42",
+        "create date": "2022-11-10T00:35:11",
+        "name": "hue-smartthings-v1"
+      },
+      "409d0315-12ea-4c50-a886-c54e33e1287c": {
+        "last use date": "2025-10-24T17:07:14",
+        "create date": "2025-10-24T17:07:14",
+        "name": "HueConfigViewer#samsung SM-G960F"
+      },
+      "a86b8123-9e3f-455f-a495-88f386a4497e": {
+        "last use date": "2024-03-22T19:20:12",
+        "create date": "2022-11-25T00:35:21",
+        "name": "hue-smartthings-v1"
+      },
+      "c81e11cc-cc4c-44a6-8a2c-010634ae851b": {
+        "last use date": "2024-04-14T00:34:40",
+        "create date": "2022-12-03T00:35:24",
+        "name": "hue-smartthings-v1"
+      },
+      "596191df-91f7-4bde-b99b-99c6365e8519": {
+        "last use date": "2024-05-29T06:55:28",
+        "create date": "2022-12-11T00:35:16",
+        "name": "hue-smartthings-v1"
+      },
+      "57d8f20a-6593-48d5-a4d9-a647fe72ba19": {
+        "last use date": "2025-10-24T17:10:46",
+        "create date": "2025-10-24T17:10:46",
+        "name": "all 4 hue#SM-G960F"
+      },
+      "329b94dd-0505-41fc-945b-a96c9facca8e": {
+        "last use date": "2024-05-17T09:06:36",
+        "create date": "2022-12-27T00:35:13",
+        "name": "hue-smartthings-v1"
+      },
+      "3faf6fab-a3be-4850-996f-1ccb67c8686a": {
+        "last use date": "2025-10-24T19:37:01",
+        "create date": "2025-10-24T19:31:37",
+        "name": "AutomationManager"
+      },
+      "03ec602a-22f1-4b0b-9790-edc3d66a8cba": {
+        "last use date": "2023-01-18T00:35:28",
+        "create date": "2023-01-12T00:35:16",
+        "name": "hue-smartthings-v1"
+      },
+      "2c05938b-c5d1-483b-ad31-a4341b46e6c7": {
+        "last use date": "2023-01-26T19:06:04",
+        "create date": "2023-01-19T00:35:35",
+        "name": "hue-smartthings-v1"
+      },
+      "d3d8b094-c4bd-4d5a-9d17-ee3459a480a6": {
+        "last use date": "2024-05-19T14:39:48",
+        "create date": "2023-01-27T00:35:42",
+        "name": "hue-smartthings-v1"
+      },
+      "60918f7d-aaef-4330-ac78-5456c3637bc7": {
+        "last use date": "2024-04-22T11:18:16",
+        "create date": "2023-02-04T00:35:29",
+        "name": "hue-smartthings-v1"
+      },
+      "44a46eae-682f-4b8e-8767-79e2b02dbd09": {
+        "last use date": "2023-02-18T12:28:51",
+        "create date": "2023-02-12T00:35:21",
+        "name": "hue-smartthings-v1"
+      },
+      "abdb1639-5371-4bf3-a1a6-b9d78fa5d446": {
+        "last use date": "2023-02-26T18:23:25",
+        "create date": "2023-02-19T00:35:22",
+        "name": "hue-smartthings-v1"
+      },
+      "eb778345-35ae-42b1-91be-4d22e2486c28": {
+        "last use date": "2024-05-04T00:34:41",
+        "create date": "2023-02-27T00:35:12",
+        "name": "hue-smartthings-v1"
+      },
+      "e95f18a8-945a-4a57-b434-01ae4d1b6ba0": {
+        "last use date": "2023-03-12T17:35:54",
+        "create date": "2023-03-06T00:35:22",
+        "name": "hue-smartthings-v1"
+      },
+      "8957d266-e8a3-484a-b441-eb4c2554fd7e": {
+        "last use date": "2024-03-08T07:27:04",
+        "create date": "2023-03-13T00:35:31",
+        "name": "hue-smartthings-v1"
+      },
+      "93039a26-88b2-466e-8f70-b703e7d62e73": {
+        "last use date": "2023-03-28T16:34:28",
+        "create date": "2023-03-21T00:35:17",
+        "name": "hue-smartthings-v1"
+      },
+      "28044705-64c4-4e82-84de-012af83e01f7": {
+        "last use date": "2023-04-05T06:42:35",
+        "create date": "2023-03-29T00:35:15",
+        "name": "hue-smartthings-v1"
+      },
+      "0617e7ab-e2eb-4ecc-990e-0fd765814955": {
+        "last use date": "2023-04-12T00:35:16",
+        "create date": "2023-04-06T00:35:14",
+        "name": "hue-smartthings-v1"
+      },
+      "e9757c66-d960-4058-b69a-a0688c707509": {
+        "last use date": "2024-03-01T15:10:25",
+        "create date": "2023-04-13T00:35:26",
+        "name": "hue-smartthings-v1"
+      },
+      "be75f00f-d79a-4bcb-9e37-afb94301ecb0": {
+        "last use date": "2024-03-24T15:58:25",
+        "create date": "2023-04-21T00:35:27",
+        "name": "hue-smartthings-v1"
+      },
+      "a8c2a22c-aa56-4c0b-a437-e27da940573e": {
+        "last use date": "2023-05-05T00:35:14",
+        "create date": "2023-04-28T00:35:31",
+        "name": "hue-smartthings-v1"
+      },
+      "2ee7f7bb-5645-4c13-b978-f161b722a8b3": {
+        "last use date": "2024-05-30T09:45:25",
+        "create date": "2023-05-06T00:35:26",
+        "name": "hue-smartthings-v1"
+      },
+      "b12ea5c9-3d61-49ab-8198-342db4c8416c": {
+        "last use date": "2024-06-06T10:30:12",
+        "create date": "2023-05-13T00:35:27",
+        "name": "hue-smartthings-v1"
+      },
+      "8288fdd0-c392-42a3-949c-62a3c87d9711": {
+        "last use date": "2023-05-28T00:35:14",
+        "create date": "2023-05-21T00:35:23",
+        "name": "hue-smartthings-v1"
+      },
+      "d3f684ff-613b-4f8d-bf68-d33d445b5393": {
+        "last use date": "2024-06-07T00:34:41",
+        "create date": "2023-05-29T00:35:09",
+        "name": "hue-smartthings-v1"
+      },
+      "410fbd15-0c2b-4ebb-ac29-03151fc0834e": {
+        "last use date": "2024-03-19T00:34:39",
+        "create date": "2023-06-05T00:35:17",
+        "name": "hue-smartthings-v1"
+      },
+      "5e100c28-cada-4555-8f29-60993e5e9f55": {
+        "last use date": "2024-06-05T06:30:11",
+        "create date": "2023-06-12T00:35:16",
+        "name": "hue-smartthings-v1"
+      },
+      "0220e887-a4be-4326-86f8-589ea7ead19a": {
+        "last use date": "2024-03-27T14:32:44",
+        "create date": "2023-06-19T00:35:17",
+        "name": "hue-smartthings-v1"
+      },
+      "576ad5fa-747b-4c26-91a8-ca03f039cbc7": {
+        "last use date": "2023-07-03T09:59:23",
+        "create date": "2023-06-26T00:35:24",
+        "name": "hue-smartthings-v1"
+      },
+      "4a96c36a-8362-4e3b-9e84-2da1b78809c4": {
+        "last use date": "2023-07-10T13:06:03",
+        "create date": "2023-07-04T00:35:25",
+        "name": "hue-smartthings-v1"
+      },
+      "785c6e9f-cc71-4cca-9786-fd4a5a912694": {
+        "last use date": "2023-07-18T00:35:21",
+        "create date": "2023-07-11T00:35:26",
+        "name": "hue-smartthings-v1"
+      },
+      "53ec2df7-030c-4467-bd42-661cc0c85d94": {
+        "last use date": "2024-05-31T17:36:46",
+        "create date": "2023-07-19T00:35:20",
+        "name": "hue-smartthings-v1"
+      },
+      "1a757c7a-20c9-43c9-b909-5c0fe7f2cf2e": {
+        "last use date": "2024-04-13T06:47:18",
+        "create date": "2023-07-27T00:35:18",
+        "name": "hue-smartthings-v1"
+      },
+      "8cd6e325-7162-4578-83df-7d304a05c884": {
+        "last use date": "2024-06-09T07:32:15",
+        "create date": "2023-08-03T00:35:26",
+        "name": "hue-smartthings-v1"
+      },
+      "381b080e-461a-4a27-a4df-c5cc84489c21": {
+        "last use date": "2023-08-18T14:10:38",
+        "create date": "2023-08-11T00:35:39",
+        "name": "hue-smartthings-v1"
+      },
+      "f3861c69-99d6-45d8-9ca6-bbdff5adbc0a": {
+        "last use date": "2024-04-29T18:28:28",
+        "create date": "2023-08-19T00:35:18",
+        "name": "hue-smartthings-v1"
+      },
+      "0ee9bc11-a072-4e01-b88f-b5fc6d9145e1": {
+        "last use date": "2023-09-02T00:35:15",
+        "create date": "2023-08-26T00:35:19",
+        "name": "hue-smartthings-v1"
+      }
+    }
+  },
+  "schedules": {
+    "1": {
+      "name": "hue.Essentials.Redeff",
+      "description": "WEEKLY_ALARM",
+      "command": {
+        "address": "/api/de800c84-b5a8-482a-8e32-64afc56364a7/sensors/136/state",
+        "body": { "status": 1 },
+        "method": "PUT"
+      },
+      "localtime": "W127/T00:00:00",
+      "time": "W127/T22:00:00",
+      "created": "2025-10-24T22:18:50",
+      "status": "disabled",
+      "recycle": false
+    },
+    "3": {
+      "name": "Essentials.RedPiluAZsort",
+      "description": "WEEKLY_ALARM",
+      "command": {
+        "address": "/api/de800c84-b5a8-482a-8e32-64afc56364a7/sensors/129/state",
+        "body": { "status": 1 },
+        "method": "PUT"
+      },
+      "localtime": "W127/T04:10:00",
+      "time": "W127/T02:10:00",
+      "created": "2025-10-14T18:20:09",
+      "status": "disabled",
+      "recycle": false
+    },
+    "4": {
+      "name": "Timer 1",
+      "description": "Timer",
+      "command": {
+        "address": "/api/QCGVTaiNMpTozBdifk9ZjUjcd9J3MjOno2fWk-lI/sensors/6/state",
+        "body": { "flag": true },
+        "method": "PUT"
+      },
+      "localtime": "PT00:03:00",
+      "time": "PT00:03:00",
+      "created": "2018-05-11T21:58:53",
+      "status": "disabled",
+      "autodelete": false,
+      "starttime": "2018-05-11T22:05:26",
+      "recycle": true
+    },
+    "5": {
+      "name": "Essentials.aWhiteEffect ",
+      "description": "WEEKLY_ALARM",
+      "command": {
+        "address": "/api/de800c84-b5a8-482a-8e32-64afc56364a7/sensors/31/state",
+        "body": { "status": 1 },
+        "method": "PUT"
+      },
+      "localtime": "W127/T11:10:00",
+      "time": "W127/T09:10:00",
+      "created": "2025-10-15T05:28:12",
+      "status": "disabled",
+      "recycle": false
+    }
+  },
+  "scenes": {
+    "b0lxCajF3TAiHbv": {
+      "name": "Západ slunce na savaně",
+      "type": "GroupScene",
+      "group": "1",
+      "lights": ["1"],
+      "owner": "915563ea-0bfc-4da8-ab41-7a6eeb7da674",
+      "recycle": false,
+      "locked": false,
+      "appdata": { "version": 0, "data": "sNSzG_r01_d15" },
+      "picture": "",
+      "image": "4f2ed241-5aea-4c9d-8028-55d2b111e06f",
+      "lastupdated": "2023-09-22T12:04:17",
+      "version": 2
+    },
+    "1TWddZ8Lvwsgduo": {
+      "name": "Polární záře",
+      "type": "GroupScene",
+      "group": "1",
+      "lights": ["1"],
+      "owner": "915563ea-0bfc-4da8-ab41-7a6eeb7da674",
+      "recycle": false,
+      "locked": false,
+      "appdata": { "version": 0, "data": "NnYZL_r01_d17" },
+      "picture": "",
+      "image": "1e42b2e8-d02e-40d2-9c8d-b1fd8216c686",
+      "lastupdated": "2023-09-22T12:04:17",
+      "version": 2
+    },
+    "04dgYDHzd7MF3U6": {
+      "name": "Jarní květ",
+      "type": "GroupScene",
+      "group": "1",
+      "lights": ["1"],
+      "owner": "915563ea-0bfc-4da8-ab41-7a6eeb7da674",
+      "recycle": false,
+      "locked": false,
+      "appdata": { "version": 0, "data": "9u2lZ_r01_d18" },
+      "picture": "",
+      "image": "adfa9c3e-e9aa-4b65-b9d3-c5b2c0576715",
+      "lastupdated": "2023-09-22T12:04:17",
+      "version": 2
+    },
+    "bugZsct8ofrTlV-": {
+      "name": "Tropický soumrak",
+      "type": "GroupScene",
+      "group": "1",
+      "lights": ["1"],
+      "owner": "915563ea-0bfc-4da8-ab41-7a6eeb7da674",
+      "recycle": false,
+      "locked": false,
+      "appdata": { "version": 0, "data": "CMapj_r01_d16" },
+      "picture": "",
+      "image": "a6a03e6a-fe6e-45bc-b686-878137f3ba91",
+      "lastupdated": "2023-09-22T12:04:17",
+      "version": 2
+    },
+    "Wf628ZOesz4fQUZ": {
+      "name": "Relaxační",
+      "type": "GroupScene",
+      "group": "1",
+      "lights": ["1"],
+      "owner": "915563ea-0bfc-4da8-ab41-7a6eeb7da674",
+      "recycle": false,
+      "locked": false,
+      "appdata": { "version": 0, "data": "Osb5U_r01_d01" },
+      "picture": "",
+      "image": "a1f7da49-d181-4328-abea-68c9dc4b5416",
+      "lastupdated": "2023-09-22T12:04:17",
+      "version": 2
+    },
+    "pnA6fGEVoGdSlfA": {
+      "name": "Čtení",
+      "type": "GroupScene",
+      "group": "1",
+      "lights": ["1"],
+      "owner": "915563ea-0bfc-4da8-ab41-7a6eeb7da674",
+      "recycle": false,
+      "locked": false,
+      "appdata": { "version": 0, "data": "Z3mK7_r01_d02" },
+      "picture": "",
+      "image": "e101a77f-9984-4f61-aac8-15741983c656",
+      "lastupdated": "2023-09-22T12:04:17",
+      "version": 2
+    },
+    "ns6LnR82S2u0Avc": {
+      "name": "Soustředění",
+      "type": "GroupScene",
+      "group": "1",
+      "lights": ["1"],
+      "owner": "915563ea-0bfc-4da8-ab41-7a6eeb7da674",
+      "recycle": false,
+      "locked": false,
+      "appdata": { "version": 0, "data": "rFtp3_r01_d03" },
+      "picture": "",
+      "image": "b90c8900-a6b7-422c-a5d3-e170187dbf8c",
+      "lastupdated": "2023-09-22T12:04:16",
+      "version": 2
+    },
+    "aXuX4VLddXFTs-f": {
+      "name": "Povzbuzující",
+      "type": "GroupScene",
+      "group": "1",
+      "lights": ["1"],
+      "owner": "915563ea-0bfc-4da8-ab41-7a6eeb7da674",
+      "recycle": false,
+      "locked": false,
+      "appdata": { "version": 0, "data": "yMPXI_r01_d04" },
+      "picture": "",
+      "image": "7fd2ccc5-5749-4142-b7a5-66405a676f03",
+      "lastupdated": "2023-09-22T12:04:17",
+      "version": 2
+    },
+    "3W6hjkhLz17XLHZ": {
+      "name": "Světlé",
+      "type": "GroupScene",
+      "group": "1",
+      "lights": ["1"],
+      "owner": "915563ea-0bfc-4da8-ab41-7a6eeb7da674",
+      "recycle": false,
+      "locked": false,
+      "appdata": { "version": 0, "data": "pTnxh_r01_d05" },
+      "picture": "",
+      "image": "732ff1d9-76a7-4630-aad0-c8acc499bb0b",
+      "lastupdated": "2023-09-22T12:04:16",
+      "version": 2
+    },
+    "H3I3z8FMRELRidB": {
+      "name": "Ztlumené",
+      "type": "GroupScene",
+      "group": "1",
+      "lights": ["1"],
+      "owner": "915563ea-0bfc-4da8-ab41-7a6eeb7da674",
+      "recycle": false,
+      "locked": false,
+      "appdata": { "version": 0, "data": "9tLrI_r01_d06" },
+      "picture": "",
+      "image": "8c74b9ba-6e89-4083-a2a7-b10a1e566fed",
+      "lastupdated": "2023-09-22T12:04:17",
+      "version": 2
+    },
+    "LJK07Dc9QLlJqgH": {
+      "name": "Noční světlo",
+      "type": "GroupScene",
+      "group": "1",
+      "lights": ["1"],
+      "owner": "915563ea-0bfc-4da8-ab41-7a6eeb7da674",
+      "recycle": false,
+      "locked": false,
+      "appdata": { "version": 0, "data": "hAQdV_r01_d07" },
+      "picture": "",
+      "image": "28bbfeff-1a0c-444e-bb4b-0b74b88e0c95",
+      "lastupdated": "2023-09-22T12:04:17",
+      "version": 2
+    },
+    "pD4HxFyBAYDuCGa": {
+      "name": "red",
+      "type": "GroupScene",
+      "group": "1",
+      "lights": ["1"],
+      "owner": "5df89017-604f-4671-b6ef-922333a1053c",
+      "recycle": false,
+      "locked": false,
+      "appdata": { "version": 0, "data": "PiCxb_r01_d99" },
+      "picture": "",
+      "lastupdated": "2023-12-30T22:49:36",
+      "version": 2
+    },
+    "ZeX3qFmlCwmvq0R": {
+      "name": "orang",
+      "type": "GroupScene",
+      "group": "1",
+      "lights": ["1"],
+      "owner": "915563ea-0bfc-4da8-ab41-7a6eeb7da674",
+      "recycle": false,
+      "locked": false,
+      "appdata": { "version": 0, "data": "Tc2pO_r01_d99" },
+      "picture": "",
+      "lastupdated": "2023-09-22T12:04:17",
+      "version": 2
+    },
+    "tZ0Y5NByJuwbkkc": {
+      "name": "Nightlight",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": ["1"],
+      "owner": "915563ea-0bfc-4da8-ab41-7a6eeb7da674",
+      "recycle": true,
+      "locked": false,
+      "appdata": { "version": 1, "data": "h4x2T_r00_d07" },
+      "picture": "",
+      "image": "28bbfeff-1a0c-444e-bb4b-0b74b88e0c95",
+      "lastupdated": "2018-05-11T21:54:53",
+      "version": 2
+    },
+    "D-MDmDI6wgrjMUM": {
+      "name": "Nightlight",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": ["1"],
+      "owner": "915563ea-0bfc-4da8-ab41-7a6eeb7da674",
+      "recycle": true,
+      "locked": false,
+      "appdata": { "version": 1, "data": "h4x2T_r00_d07" },
+      "picture": "",
+      "image": "28bbfeff-1a0c-444e-bb4b-0b74b88e0c95",
+      "lastupdated": "2018-05-07T20:30:20",
+      "version": 2
+    },
+    "y9JdQgsDszSjyt2": {
+      "name": "Nightlight",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": ["1"],
+      "owner": "915563ea-0bfc-4da8-ab41-7a6eeb7da674",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "h4x2T_r00_d07" },
+      "picture": "",
+      "image": "28bbfeff-1a0c-444e-bb4b-0b74b88e0c95",
+      "lastupdated": "2018-05-11T21:56:08",
+      "version": 2
+    },
+    "fmILE3OlhWojIvh": {
+      "name": "Ztlumené",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": ["1"],
+      "owner": "915563ea-0bfc-4da8-ab41-7a6eeb7da674",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "XGgUw_r00_d06" },
+      "picture": "",
+      "image": "8c74b9ba-6e89-4083-a2a7-b10a1e566fed",
+      "lastupdated": "2018-05-30T18:51:23",
+      "version": 2
+    },
+    "MkaQhWaVbvpZSUk": {
+      "name": "Energize from Hue Pro",
+      "type": "LightScene",
+      "lights": ["1"],
+      "owner": "5df89017-604f-4671-b6ef-922333a1053c",
+      "recycle": false,
+      "locked": false,
+      "appdata": {},
+      "picture": "",
+      "lastupdated": "2021-11-09T16:05:43",
+      "version": 2
+    },
+    "jfSAU55DaSgNQ4A": {
+      "name": "New Preset 50 2 from Hue Pro",
+      "type": "LightScene",
+      "lights": ["1"],
+      "owner": "5df89017-604f-4671-b6ef-922333a1053c",
+      "recycle": false,
+      "locked": false,
+      "appdata": {},
+      "picture": "",
+      "lastupdated": "2021-12-03T00:04:40",
+      "version": 2
+    },
+    "dsh3XQd8nyoOsNa": {
+      "name": "Energize 2 from Hue Pro",
+      "type": "LightScene",
+      "lights": ["1"],
+      "owner": "5df89017-604f-4671-b6ef-922333a1053c",
+      "recycle": false,
+      "locked": false,
+      "appdata": {},
+      "picture": "",
+      "lastupdated": "2021-11-11T17:48:09",
+      "version": 2
+    },
+    "nnf0Upe1rJQViAr": {
+      "name": "Concentrate from Hue Pro",
+      "type": "LightScene",
+      "lights": ["1"],
+      "owner": "5df89017-604f-4671-b6ef-922333a1053c",
+      "recycle": false,
+      "locked": false,
+      "appdata": {},
+      "picture": "",
+      "lastupdated": "2023-06-06T14:42:13",
+      "version": 2
+    },
+    "sdGCvsNOWwnjzUp": {
+      "name": "21 from Hue Pro",
+      "type": "LightScene",
+      "lights": ["1"],
+      "owner": "5df89017-604f-4671-b6ef-922333a1053c",
+      "recycle": false,
+      "locked": false,
+      "appdata": {},
+      "picture": "",
+      "lastupdated": "2023-12-03T15:29:03",
+      "version": 2
+    },
+    "qUdxhuYas1vXfRq": {
+      "name": "Random Hues from Hue Pro",
+      "type": "LightScene",
+      "lights": ["1"],
+      "owner": "5df89017-604f-4671-b6ef-922333a1053c",
+      "recycle": false,
+      "locked": false,
+      "appdata": {},
+      "picture": "",
+      "lastupdated": "2023-01-22T16:06:17",
+      "version": 2
+    },
+    "z0XDxGXRDWlP6h5": {
+      "name": "Love shack from Hue Pro",
+      "type": "LightScene",
+      "lights": ["1"],
+      "owner": "5df89017-604f-4671-b6ef-922333a1053c",
+      "recycle": false,
+      "locked": false,
+      "appdata": {},
+      "picture": "",
+      "lastupdated": "2023-01-23T12:39:31",
+      "version": 2
+    },
+    "bqX5n5MHryac0uI": {
+      "name": "All Off from Hue Pro",
+      "type": "LightScene",
+      "lights": ["1"],
+      "owner": "5df89017-604f-4671-b6ef-922333a1053c",
+      "recycle": false,
+      "locked": false,
+      "appdata": {},
+      "picture": "",
+      "lastupdated": "2023-12-31T23:57:47",
+      "version": 2
+    },
+    "KGJWC4ea70HqbBR": {
+      "name": "New Preset 2 from Hue Pro",
+      "type": "LightScene",
+      "lights": ["1"],
+      "owner": "5df89017-604f-4671-b6ef-922333a1053c",
+      "recycle": false,
+      "locked": false,
+      "appdata": {},
+      "picture": "",
+      "lastupdated": "2023-08-18T01:29:32",
+      "version": 2
+    },
+    "ccdKrLOXF0CCy8g": {
+      "name": "23 2 from Hue Pro",
+      "type": "LightScene",
+      "lights": ["1"],
+      "owner": "5df89017-604f-4671-b6ef-922333a1053c",
+      "recycle": false,
+      "locked": false,
+      "appdata": {},
+      "picture": "",
+      "lastupdated": "2023-11-27T08:33:26",
+      "version": 2
+    },
+    "zJq3BQ9niHVWxQo": {
+      "name": "10 from Hue Pro",
+      "type": "LightScene",
+      "lights": ["1"],
+      "owner": "5df89017-604f-4671-b6ef-922333a1053c",
+      "recycle": false,
+      "locked": false,
+      "appdata": {},
+      "picture": "",
+      "lastupdated": "2024-01-01T22:44:04",
+      "version": 2
+    },
+    "LCkZqgMMfTsaA7J": {
+      "name": "Red.4 from Hue Pro",
+      "type": "LightScene",
+      "lights": ["1"],
+      "owner": "5df89017-604f-4671-b6ef-922333a1053c",
+      "recycle": false,
+      "locked": false,
+      "appdata": {},
+      "picture": "",
+      "lastupdated": "2023-10-14T02:45:53",
+      "version": 2
+    },
+    "9zQ6CxU2ZJF6noH": {
+      "name": "Red2 from Hue Pro",
+      "type": "LightScene",
+      "lights": ["1"],
+      "owner": "5df89017-604f-4671-b6ef-922333a1053c",
+      "recycle": false,
+      "locked": false,
+      "appdata": {},
+      "picture": "",
+      "lastupdated": "2023-12-30T19:54:54",
+      "version": 2
+    },
+    "Eocu7YUugipHGkv": {
+      "name": "Red3 from Hue Pro",
+      "type": "LightScene",
+      "lights": ["1"],
+      "owner": "5df89017-604f-4671-b6ef-922333a1053c",
+      "recycle": false,
+      "locked": true,
+      "appdata": {},
+      "picture": "",
+      "lastupdated": "2024-05-15T16:11:14",
+      "version": 2
+    },
+    "o20m7mTW2U86zRj": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "HE_tKuLQ_r00_h01" },
+      "picture": "pal-savannasun",
+      "lastupdated": "2023-12-31T21:39:11",
+      "version": 2
+    },
+    "ObRVcO5oEl0PwJs": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "HE_kTWv5_r00_h01" },
+      "picture": "pal-savannasun",
+      "lastupdated": "2023-12-31T21:39:11",
+      "version": 2
+    },
+    "LsWFTMqskYQ9zZ7": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "HE_7iJgz_r00_h01" },
+      "picture": "pal-savannasun",
+      "lastupdated": "2023-12-31T21:39:11",
+      "version": 2
+    },
+    "Ko6iwtt3qvs8txQ": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "HE_hj1hM_r00_h01" },
+      "picture": "pal-savannasun",
+      "lastupdated": "2023-12-31T21:39:11",
+      "version": 2
+    },
+    "UNOOczvjTgE1mcf": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "HE_4doXQ_r00_h01" },
+      "picture": "",
+      "lastupdated": "2023-12-31T21:39:12",
+      "version": 2
+    },
+    "Ojc47a5-XuoyXlh": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "HE_2DMYY_r00_h01" },
+      "picture": "pal-solarflares",
+      "lastupdated": "2023-12-31T21:40:28",
+      "version": 2
+    },
+    "f4VlVPkbQ2aU7qg": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "HE_NifsI_r00_h01" },
+      "picture": "pal-solarflares",
+      "lastupdated": "2023-12-31T21:40:29",
+      "version": 2
+    },
+    "k7uvkvGC16wIvEM": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "HE_jVKmv_r00_h01" },
+      "picture": "pal-solarflares",
+      "lastupdated": "2023-12-31T21:40:29",
+      "version": 2
+    },
+    "JxboWb-SRwDUstP": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "HE_ITnQz_r00_h01" },
+      "picture": "pal-solarflares",
+      "lastupdated": "2023-12-31T21:40:29",
+      "version": 2
+    },
+    "m2jnYzQBdcWksDk": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "HE_Wkgge_r00_h01" },
+      "picture": "pal-solarflares",
+      "lastupdated": "2023-12-31T21:40:29",
+      "version": 2
+    },
+    "eFCTAKRzDfleuxM": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "HE_D1j5O_r00_h01" },
+      "picture": "pal-solarflares",
+      "lastupdated": "2023-12-31T21:40:30",
+      "version": 2
+    },
+    "RzKzFnMu9PnJPQ7": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "HE_qQGyW_r00_h01" },
+      "picture": "pal-solarflares",
+      "lastupdated": "2023-12-31T21:40:30",
+      "version": 2
+    },
+    "4Phgh6mbrm2FFxO": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "HE_I9nCj_r00_h01" },
+      "picture": "pal-solarflares",
+      "lastupdated": "2023-12-31T21:40:30",
+      "version": 2
+    },
+    "cQtUMgIuluPchCF": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "HE_UKjCx_r00_h01" },
+      "picture": "",
+      "lastupdated": "2023-12-31T21:40:31",
+      "version": 2
+    },
+    "76EGzU0YoYbJFd4": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "HE_tL6Rb_r00_h01" },
+      "picture": "pal-bloodmoon",
+      "lastupdated": "2023-12-31T21:42:17",
+      "version": 2
+    },
+    "PzIfKIy5gOE15c8": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "HE_N9cdT_r00_h01" },
+      "picture": "pal-bloodmoon",
+      "lastupdated": "2023-12-31T21:42:17",
+      "version": 2
+    },
+    "c2-26Axz6-BRv8s": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "HE_DELZk_r00_h01" },
+      "picture": "pal-bloodmoon",
+      "lastupdated": "2023-12-31T21:42:17",
+      "version": 2
+    },
+    "QrrwWub2EQSdNOv": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "HE_HzfDg_r00_h01" },
+      "picture": "pal-bloodmoon",
+      "lastupdated": "2023-12-31T21:42:17",
+      "version": 2
+    },
+    "WwjYkoFZnCGtHpc": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "HE_n0Rmk_r00_h01" },
+      "picture": "",
+      "lastupdated": "2023-12-31T21:42:18",
+      "version": 2
+    },
+    "wyGUL3f8K8gkkdF": {
+      "name": "Huepro.red from Hue Pro",
+      "type": "LightScene",
+      "lights": ["1"],
+      "owner": "5df89017-604f-4671-b6ef-922333a1053c",
+      "recycle": false,
+      "locked": true,
+      "appdata": {},
+      "picture": "",
+      "lastupdated": "2024-05-15T16:15:14",
+      "version": 2
+    },
+    "8EeqyOREQZbkrhPC": {
+      "name": "Relax",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": ["1"],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": { "version": 1, "data": "cY7kV_r81" },
+      "picture": "",
+      "image": "a1f7da49-d181-4328-abea-68c9dc4b5416",
+      "lastupdated": "2025-10-24T11:45:54",
+      "version": 2
+    },
+    "EScZDl3aGSFQxcIv": {
+      "name": "Read",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": ["1"],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": { "version": 1, "data": "TgnjK_r81" },
+      "picture": "",
+      "image": "e101a77f-9984-4f61-aac8-15741983c656",
+      "lastupdated": "2025-10-23T20:56:00",
+      "version": 2
+    },
+    "LwuZ4AXg2PLhtrD8": {
+      "name": "Concentrate",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": ["1"],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": { "version": 1, "data": "FqYzh_r81" },
+      "picture": "",
+      "image": "b90c8900-a6b7-422c-a5d3-e170187dbf8c",
+      "lastupdated": "2025-10-23T20:56:00",
+      "version": 2
+    },
+    "942IlZDdaZQukelz": {
+      "name": "Energize",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": ["1"],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": { "version": 1, "data": "hGDgW_r81" },
+      "picture": "",
+      "image": "7fd2ccc5-5749-4142-b7a5-66405a676f03",
+      "lastupdated": "2025-10-23T20:56:00",
+      "version": 2
+    },
+    "GC9NMfF2gfjCA-wg": {
+      "name": "Bright",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": ["1"],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": { "version": 1, "data": "eoSyP_r81" },
+      "picture": "",
+      "image": "732ff1d9-76a7-4630-aad0-c8acc499bb0b",
+      "lastupdated": "2025-10-23T20:56:00",
+      "version": 2
+    },
+    "DfoEaKDYcjS7D473": {
+      "name": "Dimmed",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": ["1"],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": { "version": 1, "data": "tzWuz_r81" },
+      "picture": "",
+      "image": "8c74b9ba-6e89-4083-a2a7-b10a1e566fed",
+      "lastupdated": "2025-10-23T20:56:00",
+      "version": 2
+    },
+    "hxipRiO5TsYViFsq": {
+      "name": "Nightlight",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": ["1"],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": { "version": 1, "data": "zj-Js_r81" },
+      "picture": "",
+      "image": "28bbfeff-1a0c-444e-bb4b-0b74b88e0c95",
+      "lastupdated": "2025-10-23T20:56:00",
+      "version": 2
+    },
+    "WJIemPfuUuJdmmE": {
+      "name": "HueEssentialsEffect",
+      "type": "LightScene",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": false,
+      "appdata": { "version": 1, "data": "HE_bEjOC_r81_h01" },
+      "picture": "",
+      "lastupdated": "2025-10-23T21:01:24",
+      "version": 2
+    },
+    "eVR8FRjKxi1yKYc": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": false,
+      "appdata": { "version": 1, "data": "HE_K58I5_r81_h01" },
+      "picture": "",
+      "lastupdated": "2025-10-23T21:03:17",
+      "version": 2
+    },
+    "6304BlRjZBj761u": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": false,
+      "appdata": { "version": 1, "data": "HE_DHbKi_r81_h01" },
+      "picture": "",
+      "lastupdated": "2025-10-23T21:07:46",
+      "version": 2
+    },
+    "-VG5-hX6qPHLhRP": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": false,
+      "appdata": { "version": 1, "data": "HE_DVMwk_r81_h01" },
+      "picture": "",
+      "lastupdated": "2025-10-23T21:09:10",
+      "version": 2
+    },
+    "fsW8g6lwSa5yr5S": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": false,
+      "appdata": { "version": 1, "data": "HE_xlzQj_r81_h01" },
+      "picture": "",
+      "lastupdated": "2025-10-24T07:53:53",
+      "version": 2
+    },
+    "iSQgPVpAJXbHFYw": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "HE_uPjHm_r81_h01" },
+      "picture": "",
+      "lastupdated": "2025-10-24T14:36:24",
+      "version": 2
+    },
+    "5gbSItZ0-ufO0SZ": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "HE_y4n4a_r81_h01" },
+      "picture": "",
+      "lastupdated": "2025-10-24T14:36:51",
+      "version": 2
+    },
+    "5THwGAsUMB-vjxY": {
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": ["1"],
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": true,
+      "locked": true,
+      "appdata": { "version": 1, "data": "HE_ORWih_r81_h01" },
+      "picture": "",
+      "lastupdated": "2025-10-24T14:37:19",
+      "version": 2
+    }
+  },
+  "rules": {
+    "1": {
+      "name": "Routine 1.start",
+      "owner": "915563ea-0bfc-4da8-ab41-7a6eeb7da674",
+      "created": "2018-05-30T18:51:23",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/3/state/flag",
+          "operator": "eq",
+          "value": "true"
+        },
+        { "address": "/sensors/3/state/flag", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/3/state",
+          "method": "PUT",
+          "body": { "flag": false }
+        },
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "scene": "fmILE3OlhWojIvh" }
+        }
+      ]
+    },
+    "2": {
+      "name": "Routine 2.start",
+      "owner": "915563ea-0bfc-4da8-ab41-7a6eeb7da674",
+      "created": "2018-05-11T21:55:49",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/4/state/flag",
+          "operator": "eq",
+          "value": "true"
+        },
+        { "address": "/sensors/4/state/flag", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/4/state",
+          "method": "PUT",
+          "body": { "flag": false }
+        },
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "scene": "y9JdQgsDszSjyt2" }
+        }
+      ]
+    },
+    "3": {
+      "name": "Routine 3.start",
+      "owner": "915563ea-0bfc-4da8-ab41-7a6eeb7da674",
+      "created": "2018-05-11T21:56:08",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/5/state/flag",
+          "operator": "eq",
+          "value": "true"
+        },
+        { "address": "/sensors/5/state/flag", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/5/state",
+          "method": "PUT",
+          "body": { "flag": false }
+        },
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "scene": "y9JdQgsDszSjyt2" }
+        }
+      ]
+    },
+    "4": {
+      "name": "Timer 4.action",
+      "owner": "915563ea-0bfc-4da8-ab41-7a6eeb7da674",
+      "created": "2018-05-11T21:58:53",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/6/state/flag",
+          "operator": "eq",
+          "value": "true"
+        },
+        { "address": "/sensors/6/state/flag", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/6/state",
+          "method": "PUT",
+          "body": { "flag": false }
+        },
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "on": false }
+        }
+      ]
+    },
+    "5": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:39:11",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/8/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/8/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:01"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "transitiontime": 50, "scene": "o20m7mTW2U86zRj" }
+        }
+      ]
+    },
+    "6": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:39:11",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/8/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/8/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:06"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "transitiontime": 50, "scene": "ObRVcO5oEl0PwJs" }
+        }
+      ]
+    },
+    "7": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:39:11",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/8/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/8/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:11"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "transitiontime": 50, "scene": "LsWFTMqskYQ9zZ7" }
+        }
+      ]
+    },
+    "8": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:39:12",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/8/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/8/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:16"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "transitiontime": 50, "scene": "Ko6iwtt3qvs8txQ" }
+        }
+      ]
+    },
+    "9": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:39:12",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/8/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/8/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:20"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/8/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        }
+      ]
+    },
+    "10": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:39:12",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/8/state/status",
+          "operator": "eq",
+          "value": "1"
+        },
+        { "address": "/sensors/8/state/status", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/scenes/UNOOczvjTgE1mcf",
+          "method": "PUT",
+          "body": { "storelightstate": true }
+        },
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "on": true }
+        },
+        {
+          "address": "/sensors/7/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        },
+        {
+          "address": "/sensors/8/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        }
+      ]
+    },
+    "11": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:39:12",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/8/state/status",
+          "operator": "eq",
+          "value": "0"
+        },
+        { "address": "/sensors/8/state/lastupdated", "operator": "dx" },
+        {
+          "address": "/groups/0/state/any_on",
+          "operator": "eq",
+          "value": "true"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "scene": "UNOOczvjTgE1mcf" }
+        }
+      ]
+    },
+    "12": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:39:12",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/groups/0/state/any_on",
+          "operator": "eq",
+          "value": "false"
+        },
+        { "address": "/groups/0/state/any_on", "operator": "dx" },
+        { "address": "/sensors/8/state/status", "operator": "gt", "value": "0" }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/8/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        },
+        {
+          "address": "/sensors/7/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        }
+      ]
+    },
+    "13": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:39:12",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/8/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        { "address": "/sensors/7/state/lastupdated", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/8/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        }
+      ]
+    },
+    "14": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:40:29",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/9/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/9/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:01"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "transitiontime": 10, "scene": "Ojc47a5-XuoyXlh" }
+        }
+      ]
+    },
+    "15": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:40:29",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/9/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/9/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:02"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "transitiontime": 10, "scene": "f4VlVPkbQ2aU7qg" }
+        }
+      ]
+    },
+    "16": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:40:29",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/9/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/9/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:03"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "transitiontime": 10, "scene": "k7uvkvGC16wIvEM" }
+        }
+      ]
+    },
+    "17": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:40:29",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/9/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/9/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:04"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "transitiontime": 10, "scene": "JxboWb-SRwDUstP" }
+        }
+      ]
+    },
+    "18": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:40:29",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/9/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/9/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:05"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "transitiontime": 10, "scene": "m2jnYzQBdcWksDk" }
+        }
+      ]
+    },
+    "19": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:40:30",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/9/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/9/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:06"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "transitiontime": 10, "scene": "eFCTAKRzDfleuxM" }
+        }
+      ]
+    },
+    "20": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:40:30",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/9/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/9/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:07"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "transitiontime": 10, "scene": "RzKzFnMu9PnJPQ7" }
+        }
+      ]
+    },
+    "21": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:40:30",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/9/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/9/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:08"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "transitiontime": 10, "scene": "4Phgh6mbrm2FFxO" }
+        }
+      ]
+    },
+    "22": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:40:30",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/9/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/9/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:08"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/9/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        }
+      ]
+    },
+    "23": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:40:30",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/9/state/status",
+          "operator": "eq",
+          "value": "1"
+        },
+        { "address": "/sensors/9/state/status", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/scenes/cQtUMgIuluPchCF",
+          "method": "PUT",
+          "body": { "storelightstate": true }
+        },
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "on": true }
+        },
+        {
+          "address": "/sensors/7/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        },
+        {
+          "address": "/sensors/9/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        }
+      ]
+    },
+    "24": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:40:30",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/9/state/status",
+          "operator": "eq",
+          "value": "0"
+        },
+        { "address": "/sensors/9/state/lastupdated", "operator": "dx" },
+        {
+          "address": "/groups/0/state/any_on",
+          "operator": "eq",
+          "value": "true"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "scene": "cQtUMgIuluPchCF" }
+        }
+      ]
+    },
+    "25": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:40:30",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/groups/0/state/any_on",
+          "operator": "eq",
+          "value": "false"
+        },
+        { "address": "/groups/0/state/any_on", "operator": "dx" },
+        { "address": "/sensors/9/state/status", "operator": "gt", "value": "0" }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/9/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        },
+        {
+          "address": "/sensors/7/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        }
+      ]
+    },
+    "26": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:40:31",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/9/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        { "address": "/sensors/7/state/lastupdated", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/9/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        }
+      ]
+    },
+    "27": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:42:17",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/10/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/10/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:01"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "transitiontime": 10, "scene": "76EGzU0YoYbJFd4" }
+        }
+      ]
+    },
+    "28": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:42:17",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/10/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/10/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:02"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "transitiontime": 10, "scene": "PzIfKIy5gOE15c8" }
+        }
+      ]
+    },
+    "29": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:42:17",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/10/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/10/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:03"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "transitiontime": 10, "scene": "c2-26Axz6-BRv8s" }
+        }
+      ]
+    },
+    "30": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:42:17",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/10/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/10/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:04"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "transitiontime": 10, "scene": "QrrwWub2EQSdNOv" }
+        }
+      ]
+    },
+    "31": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:42:17",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/10/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/10/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:04"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/10/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        }
+      ]
+    },
+    "32": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:42:18",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/10/state/status",
+          "operator": "eq",
+          "value": "1"
+        },
+        { "address": "/sensors/10/state/status", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/scenes/WwjYkoFZnCGtHpc",
+          "method": "PUT",
+          "body": { "storelightstate": true }
+        },
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "on": true }
+        },
+        {
+          "address": "/sensors/7/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        },
+        {
+          "address": "/sensors/10/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        }
+      ]
+    },
+    "33": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:42:18",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/10/state/status",
+          "operator": "eq",
+          "value": "0"
+        },
+        { "address": "/sensors/10/state/lastupdated", "operator": "dx" },
+        {
+          "address": "/groups/0/state/any_on",
+          "operator": "eq",
+          "value": "true"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "scene": "WwjYkoFZnCGtHpc" }
+        }
+      ]
+    },
+    "34": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:42:18",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/groups/0/state/any_on",
+          "operator": "eq",
+          "value": "false"
+        },
+        { "address": "/groups/0/state/any_on", "operator": "dx" },
+        {
+          "address": "/sensors/10/state/status",
+          "operator": "gt",
+          "value": "0"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/10/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        },
+        {
+          "address": "/sensors/7/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        }
+      ]
+    },
+    "35": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2023-12-31T21:42:18",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/10/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        { "address": "/sensors/7/state/lastupdated", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/10/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        }
+      ]
+    },
+    "36": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-03-23T15:17:56",
+      "lasttriggered": "2025-10-24T17:42:15",
+      "timestriggered": 7,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/11/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/11/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:01"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": {
+            "bri": 139,
+            "xy": [0.7006062331309041, 0.29930098684210527]
+          }
+        }
+      ]
+    },
+    "37": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-03-23T15:17:57",
+      "lasttriggered": "2025-10-24T17:42:16",
+      "timestriggered": 7,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/11/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/11/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:02"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "bri": 1, "xy": [0.7006062331309041, 0.29930098684210527] }
+        }
+      ]
+    },
+    "38": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-03-23T15:17:57",
+      "lasttriggered": "2025-10-24T17:42:18",
+      "timestriggered": 7,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/11/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/11/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:04"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/11/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        }
+      ]
+    },
+    "39": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-03-23T15:17:57",
+      "lasttriggered": "2025-10-24T17:41:50",
+      "timestriggered": 1,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/11/state/status",
+          "operator": "eq",
+          "value": "1"
+        },
+        { "address": "/sensors/11/state/status", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "on": true, "bri": 53 }
+        },
+        {
+          "address": "/sensors/7/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        },
+        {
+          "address": "/sensors/11/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        }
+      ]
+    },
+    "40": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-03-23T15:17:57",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/groups/0/state/any_on",
+          "operator": "eq",
+          "value": "false"
+        },
+        { "address": "/groups/0/state/any_on", "operator": "dx" },
+        {
+          "address": "/sensors/11/state/status",
+          "operator": "gt",
+          "value": "0"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/11/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        },
+        {
+          "address": "/sensors/7/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        }
+      ]
+    },
+    "41": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-03-23T15:17:57",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/11/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        { "address": "/sensors/7/state/lastupdated", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/11/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        }
+      ]
+    },
+    "42": {
+      "name": "hue.Essentials.Redeff",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-10-22T20:34:36",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "disabled",
+      "recycle": false,
+      "conditions": [
+        { "address": "/sensors/136/state/lastupdated", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/11/state",
+          "method": "PUT",
+          "body": { "status": 1 }
+        }
+      ]
+    },
+    "43": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2024-02-12T18:54:41",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/25/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/25/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:01"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "bri": 254, "xy": [0.551538627625027, 0.39501688105081795] }
+        }
+      ]
+    },
+    "44": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2024-02-12T18:54:41",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/25/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/25/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:04"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "bri": 1, "xy": [0.7001486801336658, 0.29968863698328413] }
+        }
+      ]
+    },
+    "45": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2024-02-12T18:54:41",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/25/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/25/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:06"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/25/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        }
+      ]
+    },
+    "46": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2024-02-12T18:54:41",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/25/state/status",
+          "operator": "eq",
+          "value": "1"
+        },
+        { "address": "/sensors/25/state/status", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "on": true }
+        },
+        {
+          "address": "/sensors/7/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        },
+        {
+          "address": "/sensors/25/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        }
+      ]
+    },
+    "47": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2024-02-12T18:54:41",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/groups/0/state/any_on",
+          "operator": "eq",
+          "value": "false"
+        },
+        { "address": "/groups/0/state/any_on", "operator": "dx" },
+        {
+          "address": "/sensors/25/state/status",
+          "operator": "gt",
+          "value": "0"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/25/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        },
+        {
+          "address": "/sensors/7/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        }
+      ]
+    },
+    "48": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2024-02-12T18:54:41",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/25/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        { "address": "/sensors/7/state/lastupdated", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/25/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        }
+      ]
+    },
+    "49": {
+      "name": "Essentials.aWhiteEffect ",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2024-11-06T11:21:34",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "disabled",
+      "recycle": false,
+      "conditions": [
+        { "address": "/sensors/31/state/lastupdated", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/25/state",
+          "method": "PUT",
+          "body": { "status": 1 }
+        }
+      ]
+    },
+    "50": {
+      "name": "Essentials.RedPiluAZsort",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2024-12-03T07:39:53",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "disabled",
+      "recycle": false,
+      "conditions": [
+        { "address": "/sensors/129/state/lastupdated", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/11/state",
+          "method": "PUT",
+          "body": { "status": 1 }
+        }
+      ]
+    },
+    "51": {
+      "name": "Huepro.schedule 2",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2024-05-15T16:12:51",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        { "address": "/sensors/92/state/lastupdated", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "scene": "Eocu7YUugipHGkv" }
+        }
+      ]
+    },
+    "52": {
+      "name": "Huepro.red",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2024-05-15T16:16:48",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "disabled",
+      "recycle": false,
+      "conditions": [
+        { "address": "/sensors/94/state/lastupdated", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": { "scene": "wyGUL3f8K8gkkdF" }
+        }
+      ]
+    },
+    "53": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-10-24T14:36:24",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/145/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/145/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:01"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/81/action",
+          "method": "PUT",
+          "body": { "xy": [0.6912581423365123, 0.2983264562463785] }
+        }
+      ]
+    },
+    "54": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-10-24T14:36:24",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/145/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/145/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:06"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/81/action",
+          "method": "PUT",
+          "body": { "xy": [0.6510183699029586, 0.29086449927760993] }
+        }
+      ]
+    },
+    "55": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-10-24T14:36:24",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/145/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/145/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:10"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/145/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        }
+      ]
+    },
+    "56": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-10-24T14:36:24",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/145/state/status",
+          "operator": "eq",
+          "value": "1"
+        },
+        { "address": "/sensors/145/state/status", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/scenes/iSQgPVpAJXbHFYw",
+          "method": "PUT",
+          "body": { "storelightstate": true }
+        },
+        {
+          "address": "/groups/81/action",
+          "method": "PUT",
+          "body": { "on": true }
+        },
+        {
+          "address": "/sensors/144/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        },
+        {
+          "address": "/sensors/145/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        }
+      ]
+    },
+    "57": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-10-24T14:36:24",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/145/state/status",
+          "operator": "eq",
+          "value": "0"
+        },
+        { "address": "/sensors/145/state/lastupdated", "operator": "dx" },
+        {
+          "address": "/groups/81/state/any_on",
+          "operator": "eq",
+          "value": "true"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/81/action",
+          "method": "PUT",
+          "body": { "scene": "iSQgPVpAJXbHFYw" }
+        }
+      ]
+    },
+    "58": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-10-24T14:36:25",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/groups/81/state/any_on",
+          "operator": "eq",
+          "value": "false"
+        },
+        { "address": "/groups/81/state/any_on", "operator": "dx" },
+        {
+          "address": "/sensors/145/state/status",
+          "operator": "gt",
+          "value": "0"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/145/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        },
+        {
+          "address": "/sensors/144/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        }
+      ]
+    },
+    "59": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-10-24T14:36:25",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/145/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        { "address": "/sensors/144/state/lastupdated", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/145/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        }
+      ]
+    },
+    "60": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-10-24T14:36:51",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/146/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/146/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:01"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/81/action",
+          "method": "PUT",
+          "body": { "xy": [0.5667409403463824, 0.2726566343735534] }
+        }
+      ]
+    },
+    "61": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-10-24T14:36:51",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/146/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/146/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:06"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/81/action",
+          "method": "PUT",
+          "body": { "xy": [0.6767184059503503, 0.2900379951530871] }
+        }
+      ]
+    },
+    "62": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-10-24T14:36:51",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/146/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/146/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:10"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/146/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        }
+      ]
+    },
+    "63": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-10-24T14:36:51",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/146/state/status",
+          "operator": "eq",
+          "value": "1"
+        },
+        { "address": "/sensors/146/state/status", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/scenes/5gbSItZ0-ufO0SZ",
+          "method": "PUT",
+          "body": { "storelightstate": true }
+        },
+        {
+          "address": "/groups/81/action",
+          "method": "PUT",
+          "body": { "on": true }
+        },
+        {
+          "address": "/sensors/144/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        },
+        {
+          "address": "/sensors/146/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        }
+      ]
+    },
+    "64": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-10-24T14:36:51",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/146/state/status",
+          "operator": "eq",
+          "value": "0"
+        },
+        { "address": "/sensors/146/state/lastupdated", "operator": "dx" },
+        {
+          "address": "/groups/81/state/any_on",
+          "operator": "eq",
+          "value": "true"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/81/action",
+          "method": "PUT",
+          "body": { "scene": "5gbSItZ0-ufO0SZ" }
+        }
+      ]
+    },
+    "65": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-10-24T14:36:51",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/groups/81/state/any_on",
+          "operator": "eq",
+          "value": "false"
+        },
+        { "address": "/groups/81/state/any_on", "operator": "dx" },
+        {
+          "address": "/sensors/146/state/status",
+          "operator": "gt",
+          "value": "0"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/146/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        },
+        {
+          "address": "/sensors/144/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        }
+      ]
+    },
+    "66": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-10-24T14:36:51",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/146/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        { "address": "/sensors/144/state/lastupdated", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/146/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        }
+      ]
+    },
+    "67": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-10-24T14:37:18",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/147/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/147/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:01"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/81/action",
+          "method": "PUT",
+          "body": { "xy": [0.6909636461764066, 0.30411029017972524] }
+        }
+      ]
+    },
+    "68": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-10-24T14:37:19",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/147/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/147/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:06"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/81/action",
+          "method": "PUT",
+          "body": { "xy": [0.6430499432930316, 0.3452882238952644] }
+        }
+      ]
+    },
+    "69": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-10-24T14:37:19",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/147/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/147/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:10"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/147/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        }
+      ]
+    },
+    "70": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-10-24T14:37:19",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/147/state/status",
+          "operator": "eq",
+          "value": "1"
+        },
+        { "address": "/sensors/147/state/status", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/scenes/5THwGAsUMB-vjxY",
+          "method": "PUT",
+          "body": { "storelightstate": true }
+        },
+        {
+          "address": "/groups/81/action",
+          "method": "PUT",
+          "body": { "on": true }
+        },
+        {
+          "address": "/sensors/144/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        },
+        {
+          "address": "/sensors/147/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        }
+      ]
+    },
+    "71": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-10-24T14:37:19",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/147/state/status",
+          "operator": "eq",
+          "value": "0"
+        },
+        { "address": "/sensors/147/state/lastupdated", "operator": "dx" },
+        {
+          "address": "/groups/81/state/any_on",
+          "operator": "eq",
+          "value": "true"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/81/action",
+          "method": "PUT",
+          "body": { "scene": "5THwGAsUMB-vjxY" }
+        }
+      ]
+    },
+    "72": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-10-24T14:37:19",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/groups/81/state/any_on",
+          "operator": "eq",
+          "value": "false"
+        },
+        { "address": "/groups/81/state/any_on", "operator": "dx" },
+        {
+          "address": "/sensors/147/state/status",
+          "operator": "gt",
+          "value": "0"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/147/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        },
+        {
+          "address": "/sensors/144/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        }
+      ]
+    },
+    "73": {
+      "name": "HueEssentialsEffect",
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "created": "2025-10-24T14:37:19",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/147/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        { "address": "/sensors/144/state/lastupdated", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/147/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        }
+      ]
+    }
+  },
+  "sensors": {
+    "1": {
+      "state": { "daylight": true, "lastupdated": "2025-10-25T06:11:00" },
+      "config": {
+        "on": true,
+        "configured": true,
+        "sunriseoffset": 30,
+        "sunsetoffset": -30
+      },
+      "name": "Daylight",
+      "type": "Daylight",
+      "modelid": "PHDL00",
+      "manufacturername": "Signify Netherlands B.V.",
+      "swversion": "1.0"
+    },
+    "3": {
+      "state": { "flag": false, "lastupdated": "none" },
+      "config": { "on": true, "reachable": true },
+      "name": "Routine.companion",
+      "type": "CLIPGenericFlag",
+      "modelid": "PHA_CTRL_START",
+      "manufacturername": "Philips",
+      "swversion": "1.0",
+      "uniqueid": "afcdGhxucMHW",
+      "recycle": true
+    },
+    "4": {
+      "state": { "flag": false, "lastupdated": "none" },
+      "config": { "on": true, "reachable": true },
+      "name": "Routine.companion",
+      "type": "CLIPGenericFlag",
+      "modelid": "PHA_CTRL_START",
+      "manufacturername": "Philips",
+      "swversion": "1.0",
+      "uniqueid": "f6ih6H2KCRBK",
+      "recycle": true
+    },
+    "5": {
+      "state": { "flag": false, "lastupdated": "none" },
+      "config": { "on": true, "reachable": true },
+      "name": "Routine.companion",
+      "type": "CLIPGenericFlag",
+      "modelid": "PHA_CTRL_START",
+      "manufacturername": "Philips",
+      "swversion": "1.0",
+      "uniqueid": "Gjxk1xlf7dLQ",
+      "recycle": true
+    },
+    "6": {
+      "state": { "flag": false, "lastupdated": "none" },
+      "config": { "on": true, "reachable": true },
+      "name": "Timer.companion",
+      "type": "CLIPGenericFlag",
+      "modelid": "PHA_TIMER",
+      "manufacturername": "Philips",
+      "swversion": "1.0",
+      "uniqueid": "Y6ALUYsUI8Od",
+      "recycle": true
+    },
+    "7": {
+      "state": { "status": 2, "lastupdated": "2025-10-24T17:41:50" },
+      "config": { "on": true, "reachable": true },
+      "name": "HueEssentialsEffect",
+      "type": "CLIPGenericStatus",
+      "modelid": "HueEssentialsEffect_Group_0",
+      "manufacturername": "Hue Essentials",
+      "swversion": "1.0",
+      "uniqueid": "cH0bddEyReGDBg03BJPtx9vIuktvnCjB",
+      "recycle": true
+    },
+    "8": {
+      "state": { "status": 0, "lastupdated": "2023-12-31T21:40:31" },
+      "config": { "on": true, "reachable": true },
+      "name": "HueEssentialsEffect",
+      "type": "CLIPGenericStatus",
+      "modelid": "HueEssentialsEffect_State",
+      "manufacturername": "Hue Essentials",
+      "swversion": "1.0",
+      "uniqueid": "uHUUBLGDUh58G5TPnJ66v9RdzWX78bzF",
+      "recycle": true
+    },
+    "9": {
+      "state": { "status": 0, "lastupdated": "2023-12-31T21:40:52" },
+      "config": { "on": true, "reachable": true },
+      "name": "HueEssentialsEffect",
+      "type": "CLIPGenericStatus",
+      "modelid": "HueEssentialsEffect_State",
+      "manufacturername": "Hue Essentials",
+      "swversion": "1.0",
+      "uniqueid": "KgErLIWKbCXvo8NxOej6FrckxcAqC7aF",
+      "recycle": true
+    },
+    "10": {
+      "state": { "status": 0, "lastupdated": "2023-12-31T21:42:30" },
+      "config": { "on": true, "reachable": true },
+      "name": "HueEssentialsEffect",
+      "type": "CLIPGenericStatus",
+      "modelid": "HueEssentialsEffect_State",
+      "manufacturername": "Hue Essentials",
+      "swversion": "1.0",
+      "uniqueid": "z20zDH3xb4IXJLY0jCozdVZ72dCdBSLn",
+      "recycle": true
+    },
+    "11": {
+      "state": { "status": 0, "lastupdated": "2025-10-24T17:42:18" },
+      "config": { "on": true, "reachable": true },
+      "name": "HueEssentialsEffect",
+      "type": "CLIPGenericStatus",
+      "modelid": "HueEssentialsEffect_State",
+      "manufacturername": "Hue Essentials",
+      "swversion": "1.0",
+      "uniqueid": "e1vLsNse0GLhp95lnjhnBfkWrFo6EmwB",
+      "recycle": true
+    },
+    "25": {
+      "state": { "status": 0, "lastupdated": "2024-11-06T11:45:26" },
+      "config": { "on": true, "reachable": true },
+      "name": "HueEssentialsEffect",
+      "type": "CLIPGenericStatus",
+      "modelid": "HueEssentialsEffect_State",
+      "manufacturername": "Hue Essentials",
+      "swversion": "1.0",
+      "uniqueid": "c7QLmoljGbKYjYhKHtK4aWAfJCgn8L47",
+      "recycle": true
+    },
+    "31": {
+      "state": { "status": 1, "lastupdated": "2025-10-15T09:10:00" },
+      "config": { "on": true, "reachable": true },
+      "name": "Essentials.aWhiteEffect ",
+      "type": "CLIPGenericStatus",
+      "modelid": "Automation Time Event",
+      "manufacturername": "Hue Essentials",
+      "swversion": "1.0",
+      "uniqueid": "j0dI92mssrCIu4ehkmup8MZCAV87mZB0",
+      "recycle": false
+    },
+    "92": {
+      "state": { "status": 0, "lastupdated": "none" },
+      "config": { "on": true, "reachable": true },
+      "name": "Huepro.schedule 2",
+      "type": "CLIPGenericStatus",
+      "modelid": "Automation Time Event",
+      "manufacturername": "Hue Essentials",
+      "swversion": "1.0",
+      "uniqueid": "B0kkwged2Kgcs3h9I4kCv7dmaHlVCglc",
+      "recycle": false
+    },
+    "94": {
+      "state": { "status": 0, "lastupdated": "none" },
+      "config": { "on": true, "reachable": true },
+      "name": "Huepro.red",
+      "type": "CLIPGenericStatus",
+      "modelid": "Automation Time Event",
+      "manufacturername": "Hue Essentials",
+      "swversion": "1.0",
+      "uniqueid": "1ltQRCUYnLhGYk7EQ0Tz1QrcdMHNpdYO",
+      "recycle": false
+    },
+    "129": {
+      "state": { "status": 1, "lastupdated": "2025-10-15T02:10:00" },
+      "config": { "on": true, "reachable": true },
+      "name": "Essentials.RedPiluAZsort",
+      "type": "CLIPGenericStatus",
+      "modelid": "Automation Time Event",
+      "manufacturername": "Hue Essentials",
+      "swversion": "1.0",
+      "uniqueid": "6uGHVbdYwyXQXRwptSsUF8BZfIyd9Fup",
+      "recycle": false
+    },
+    "136": {
+      "state": { "status": 0, "lastupdated": "none" },
+      "config": { "on": true, "reachable": true },
+      "name": "hue.Essentials.Redeff",
+      "type": "CLIPGenericStatus",
+      "modelid": "Automation Time Event",
+      "manufacturername": "Hue Essentials",
+      "swversion": "1.0",
+      "uniqueid": "M7W7HMBtBuUzxfU73aCvLv7VkNx4swWw",
+      "recycle": false
+    },
+    "138": {
+      "state": { "status": 0, "lastupdated": "2025-10-24T14:10:05" },
+      "config": { "on": true, "reachable": true },
+      "name": "HueEssentialsEffect",
+      "type": "CLIPGenericStatus",
+      "modelid": "HueEssentialsEffect_State",
+      "manufacturername": "Hue Essentials",
+      "swversion": "1.0",
+      "uniqueid": "Hl9hXFDibPnBd2iwpdMzkSSn0Xc9W3qr",
+      "recycle": true
+    },
+    "142": {
+      "state": { "status": 0, "lastupdated": "2025-10-24T08:43:33" },
+      "config": { "on": true, "reachable": true },
+      "name": "HueEssentialsEffect",
+      "type": "CLIPGenericStatus",
+      "modelid": "HueEssentialsEffect_Group",
+      "manufacturername": "Hue Essentials",
+      "swversion": "1.0",
+      "uniqueid": "3qbdFqKZMfi8g8Lf8nJ58bwH5Rx7yr7I",
+      "recycle": true
+    },
+    "144": {
+      "state": { "status": 0, "lastupdated": "none" },
+      "config": { "on": true, "reachable": true },
+      "name": "HueEssentialsEffect",
+      "type": "CLIPGenericStatus",
+      "modelid": "HueEssentialsEffect_Group",
+      "manufacturername": "Hue Essentials",
+      "swversion": "1.0",
+      "uniqueid": "ZncFQnFpISAS6ciUQvTMUpxLyNrZ1r4I",
+      "recycle": true
+    },
+    "145": {
+      "state": { "status": 0, "lastupdated": "none" },
+      "config": { "on": true, "reachable": true },
+      "name": "HueEssentialsEffect",
+      "type": "CLIPGenericStatus",
+      "modelid": "HueEssentialsEffect_State",
+      "manufacturername": "Hue Essentials",
+      "swversion": "1.0",
+      "uniqueid": "CJC6xpxHQ5u8rZ9rCluupAKSbKcyanHC",
+      "recycle": true
+    },
+    "146": {
+      "state": { "status": 0, "lastupdated": "none" },
+      "config": { "on": true, "reachable": true },
+      "name": "HueEssentialsEffect",
+      "type": "CLIPGenericStatus",
+      "modelid": "HueEssentialsEffect_State",
+      "manufacturername": "Hue Essentials",
+      "swversion": "1.0",
+      "uniqueid": "G4zpqggjUnzHkbQWmL9xHvKFo1xuZHDn",
+      "recycle": true
+    },
+    "147": {
+      "state": { "status": 0, "lastupdated": "none" },
+      "config": { "on": true, "reachable": true },
+      "name": "HueEssentialsEffect",
+      "type": "CLIPGenericStatus",
+      "modelid": "HueEssentialsEffect_State",
+      "manufacturername": "Hue Essentials",
+      "swversion": "1.0",
+      "uniqueid": "UMdtGu2SFPRm999Ur0TWzZkMMpjrHL8g",
+      "recycle": true
+    }
+  },
+  "resourcelinks": {
+    "53391": {
+      "name": "Routine 1",
+      "description": "Routine 1 behavior",
+      "type": "Link",
+      "classid": 20130,
+      "owner": "915563ea-0bfc-4da8-ab41-7a6eeb7da674",
+      "recycle": false,
+      "links": [
+        "/sensors/3",
+        "/groups/0",
+        "/rules/1",
+        "/scenes/fmILE3OlhWojIvh"
+      ]
+    },
+    "30450": {
+      "name": "Routine 2",
+      "description": "Routine 2 behavior",
+      "type": "Link",
+      "classid": 20130,
+      "owner": "915563ea-0bfc-4da8-ab41-7a6eeb7da674",
+      "recycle": false,
+      "links": [
+        "/sensors/4",
+        "/groups/0",
+        "/rules/2",
+        "/scenes/y9JdQgsDszSjyt2"
+      ]
+    },
+    "44698": {
+      "name": "Routine 3",
+      "description": "Routine 3 behavior",
+      "type": "Link",
+      "classid": 20130,
+      "owner": "915563ea-0bfc-4da8-ab41-7a6eeb7da674",
+      "recycle": false,
+      "links": [
+        "/sensors/5",
+        "/groups/0",
+        "/rules/3",
+        "/scenes/y9JdQgsDszSjyt2"
+      ]
+    },
+    "7985": {
+      "name": "Timer 4",
+      "description": "Timer 4 behavior",
+      "type": "Link",
+      "classid": 20120,
+      "owner": "915563ea-0bfc-4da8-ab41-7a6eeb7da674",
+      "recycle": false,
+      "links": ["/sensors/6", "/schedules/4", "/groups/0", "/rules/4"]
+    },
+    "41787": {
+      "name": "Savanna sunset",
+      "description": "HueEssentialsEffect_0_Savanna sunset",
+      "type": "Link",
+      "classid": 18,
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": false,
+      "links": [
+        "/groups/0",
+        "/sensors/7",
+        "/sensors/8",
+        "/scenes/o20m7mTW2U86zRj",
+        "/rules/5",
+        "/scenes/ObRVcO5oEl0PwJs",
+        "/rules/6",
+        "/scenes/LsWFTMqskYQ9zZ7",
+        "/rules/7",
+        "/scenes/Ko6iwtt3qvs8txQ",
+        "/rules/8",
+        "/rules/9",
+        "/scenes/UNOOczvjTgE1mcf",
+        "/rules/10",
+        "/rules/11",
+        "/rules/12",
+        "/rules/13"
+      ]
+    },
+    "4125": {
+      "name": "Solar flares",
+      "description": "HueEssentialsEffect_0_Solar flares_bri",
+      "type": "Link",
+      "classid": 18,
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": false,
+      "links": [
+        "/groups/0",
+        "/sensors/7",
+        "/sensors/9",
+        "/scenes/Ojc47a5-XuoyXlh",
+        "/rules/14",
+        "/scenes/f4VlVPkbQ2aU7qg",
+        "/rules/15",
+        "/scenes/k7uvkvGC16wIvEM",
+        "/rules/16",
+        "/scenes/JxboWb-SRwDUstP",
+        "/rules/17",
+        "/scenes/m2jnYzQBdcWksDk",
+        "/rules/18",
+        "/scenes/eFCTAKRzDfleuxM",
+        "/rules/19",
+        "/scenes/RzKzFnMu9PnJPQ7",
+        "/rules/20",
+        "/scenes/4Phgh6mbrm2FFxO",
+        "/rules/21",
+        "/rules/22",
+        "/scenes/cQtUMgIuluPchCF",
+        "/rules/23",
+        "/rules/24",
+        "/rules/25",
+        "/rules/26"
+      ]
+    },
+    "27794": {
+      "name": "Blood moon",
+      "description": "HueEssentialsEffect_0_Blood moon",
+      "type": "Link",
+      "classid": 18,
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": false,
+      "links": [
+        "/groups/0",
+        "/sensors/7",
+        "/sensors/10",
+        "/scenes/76EGzU0YoYbJFd4",
+        "/rules/27",
+        "/scenes/PzIfKIy5gOE15c8",
+        "/rules/28",
+        "/scenes/c2-26Axz6-BRv8s",
+        "/rules/29",
+        "/scenes/QrrwWub2EQSdNOv",
+        "/rules/30",
+        "/rules/31",
+        "/scenes/WwjYkoFZnCGtHpc",
+        "/rules/32",
+        "/rules/33",
+        "/rules/34",
+        "/rules/35"
+      ]
+    },
+    "10638": {
+      "name": "Effecred",
+      "description": "HueEssentialsEffect_0__bri",
+      "type": "Link",
+      "classid": 18,
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": false,
+      "links": [
+        "/groups/0",
+        "/sensors/7",
+        "/sensors/11",
+        "/rules/36",
+        "/rules/37",
+        "/rules/38",
+        "/rules/39",
+        "/rules/40",
+        "/rules/41"
+      ]
+    },
+    "8940": {
+      "name": "WhiteEffect",
+      "description": "HueEssentialsEffect_0__bri",
+      "type": "Link",
+      "classid": 18,
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": false,
+      "links": [
+        "/groups/0",
+        "/sensors/7",
+        "/sensors/25",
+        "/rules/43",
+        "/rules/44",
+        "/rules/45",
+        "/rules/46",
+        "/rules/47",
+        "/rules/48"
+      ]
+    },
+    "27686": {
+      "name": "Effectrest breaks 2",
+      "description": "HueEssentialsEffect_81__bri",
+      "type": "Link",
+      "classid": 18,
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": false,
+      "links": ["/sensors/142", "/sensors/138"]
+    },
+    "28741": {
+      "name": "Effect 1",
+      "description": "HueEssentialsEffect_81_",
+      "type": "Link",
+      "classid": 18,
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": false,
+      "links": [
+        "/groups/81",
+        "/sensors/144",
+        "/sensors/145",
+        "/rules/53",
+        "/rules/54",
+        "/rules/55",
+        "/scenes/iSQgPVpAJXbHFYw",
+        "/rules/56",
+        "/rules/57",
+        "/rules/58",
+        "/rules/59"
+      ]
+    },
+    "47334": {
+      "name": "Effect 2",
+      "description": "HueEssentialsEffect_81_",
+      "type": "Link",
+      "classid": 18,
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": false,
+      "links": [
+        "/groups/81",
+        "/sensors/144",
+        "/sensors/146",
+        "/rules/60",
+        "/rules/61",
+        "/rules/62",
+        "/scenes/5gbSItZ0-ufO0SZ",
+        "/rules/63",
+        "/rules/64",
+        "/rules/65",
+        "/rules/66"
+      ]
+    },
+    "45717": {
+      "name": "Effect 3",
+      "description": "HueEssentialsEffect_81_",
+      "type": "Link",
+      "classid": 18,
+      "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
+      "recycle": false,
+      "links": [
+        "/groups/81",
+        "/sensors/144",
+        "/sensors/147",
+        "/rules/67",
+        "/rules/68",
+        "/rules/69",
+        "/scenes/5THwGAsUMB-vjxY",
+        "/rules/70",
+        "/rules/71",
+        "/rules/72",
+        "/rules/73"
+      ]
+    }
+  }
+}
