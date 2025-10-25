@@ -7,7 +7,7 @@
         "hue": 0,
         "sat": 254,
         "effect": "none",
-        "xy": [0.6961, 0.3032],
+        "xy": [0.6915, 0.3083],
         "ct": 467,
         "alert": "select",
         "colormode": "xy",
@@ -65,7 +65,7 @@
         "hue": 0,
         "sat": 254,
         "effect": "none",
-        "xy": [0.6961, 0.3032],
+        "xy": [0.6915, 0.3083],
         "ct": 467,
         "alert": "select",
         "colormode": "xy"
@@ -85,7 +85,7 @@
         "hue": 0,
         "sat": 254,
         "effect": "none",
-        "xy": [0.6961, 0.3032],
+        "xy": [0.6915, 0.3083],
         "ct": 467,
         "alert": "select",
         "colormode": "xy"
@@ -103,8 +103,8 @@
     "gateway": "10.0.0.138",
     "proxyaddress": "none",
     "proxyport": 0,
-    "UTC": "2025-10-25T06:45:37",
-    "localtime": "2025-10-25T08:45:37",
+    "UTC": "2025-10-25T06:55:48",
+    "localtime": "2025-10-25T08:55:48",
     "timezone": "Europe/Prague",
     "modelid": "BSB002",
     "datastoreversion": "180",
@@ -414,7 +414,7 @@
         "name": "hue-smartthings-v1"
       },
       "7ecfab9a-114f-400f-acd2-77f32521ff21": {
-        "last use date": "2025-10-25T06:45:15",
+        "last use date": "2025-10-25T06:55:30",
         "create date": "2025-10-24T15:21:10",
         "name": "Hue Essentials#Windows 11 10.0 amd64"
       },
@@ -439,7 +439,7 @@
         "name": "hue-smartthings-v1"
       },
       "0LLLeRbHFlFrprENP4HZ9KuSBwEVhzfZPnk68Xtq": {
-        "last use date": "2025-10-25T06:45:37",
+        "last use date": "2025-10-25T06:55:48",
         "create date": "2025-10-24T17:05:04",
         "name": "all 4 hue#Windows10"
       },
@@ -653,6 +653,20 @@
       "time": "W127/T22:00:00",
       "created": "2025-10-24T22:18:50",
       "status": "disabled",
+      "recycle": false
+    },
+    "2": {
+      "name": "essen..251023",
+      "description": "",
+      "command": {
+        "address": "/api/7ecfab9a-114f-400f-acd2-77f32521ff21/sensors/150/state",
+        "body": { "status": 1 },
+        "method": "PUT"
+      },
+      "localtime": "W127/T08:57:00",
+      "time": "W127/T06:57:00",
+      "created": "2025-10-25T06:55:19",
+      "status": "enabled",
       "recycle": false
     },
     "3": {
@@ -3669,8 +3683,8 @@
       "name": "HueEssentialsEffect",
       "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
       "created": "2025-10-25T06:44:41",
-      "lasttriggered": "2025-10-25T06:45:18",
-      "timestriggered": 2,
+      "lasttriggered": "2025-10-25T06:51:35",
+      "timestriggered": 15,
       "status": "enabled",
       "recycle": true,
       "conditions": [
@@ -3700,8 +3714,8 @@
       "name": "HueEssentialsEffect",
       "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
       "created": "2025-10-25T06:44:42",
-      "lasttriggered": "2025-10-25T06:45:33",
-      "timestriggered": 2,
+      "lasttriggered": "2025-10-25T06:51:50",
+      "timestriggered": 15,
       "status": "enabled",
       "recycle": true,
       "conditions": [
@@ -3731,8 +3745,8 @@
       "name": "HueEssentialsEffect",
       "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
       "created": "2025-10-25T06:44:42",
-      "lasttriggered": "2025-10-25T06:45:09",
-      "timestriggered": 1,
+      "lasttriggered": "2025-10-25T06:51:26",
+      "timestriggered": 14,
       "status": "enabled",
       "recycle": true,
       "conditions": [
@@ -3759,8 +3773,8 @@
       "name": "HueEssentialsEffect",
       "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
       "created": "2025-10-25T06:44:42",
-      "lasttriggered": "2025-10-25T06:45:17",
-      "timestriggered": 1,
+      "lasttriggered": "2025-10-25T06:51:34",
+      "timestriggered": 14,
       "status": "enabled",
       "recycle": true,
       "conditions": [
@@ -3867,6 +3881,25 @@
           "address": "/sensors/148/state",
           "method": "PUT",
           "body": { "status": 0 }
+        }
+      ]
+    },
+    "81": {
+      "name": "essen..251023",
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "created": "2025-10-25T06:55:19",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        { "address": "/sensors/150/state/lastupdated", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/148/state",
+          "method": "PUT",
+          "body": { "status": 1 }
         }
       ]
     }
@@ -4051,28 +4084,6 @@
       "uniqueid": "M7W7HMBtBuUzxfU73aCvLv7VkNx4swWw",
       "recycle": false
     },
-    "138": {
-      "state": { "status": 0, "lastupdated": "2025-10-24T14:10:05" },
-      "config": { "on": true, "reachable": true },
-      "name": "HueEssentialsEffect",
-      "type": "CLIPGenericStatus",
-      "modelid": "HueEssentialsEffect_State",
-      "manufacturername": "Hue Essentials",
-      "swversion": "1.0",
-      "uniqueid": "Hl9hXFDibPnBd2iwpdMzkSSn0Xc9W3qr",
-      "recycle": true
-    },
-    "142": {
-      "state": { "status": 0, "lastupdated": "2025-10-24T08:43:33" },
-      "config": { "on": true, "reachable": true },
-      "name": "HueEssentialsEffect",
-      "type": "CLIPGenericStatus",
-      "modelid": "HueEssentialsEffect_Group",
-      "manufacturername": "Hue Essentials",
-      "swversion": "1.0",
-      "uniqueid": "3qbdFqKZMfi8g8Lf8nJ58bwH5Rx7yr7I",
-      "recycle": true
-    },
     "144": {
       "state": { "status": 2, "lastupdated": "2025-10-25T06:44:48" },
       "config": { "on": true, "reachable": true },
@@ -4118,7 +4129,7 @@
       "recycle": true
     },
     "148": {
-      "state": { "status": 2, "lastupdated": "2025-10-25T06:45:17" },
+      "state": { "status": 0, "lastupdated": "2025-10-25T06:51:52" },
       "config": { "on": true, "reachable": true },
       "name": "HueEssentialsEffect",
       "type": "CLIPGenericStatus",
@@ -4127,6 +4138,17 @@
       "swversion": "1.0",
       "uniqueid": "enpx4yiYhesnVepfHAaBGUKRU0hl7EMT",
       "recycle": true
+    },
+    "150": {
+      "state": { "status": 0, "lastupdated": "none" },
+      "config": { "on": true, "reachable": true },
+      "name": "essen..251023",
+      "type": "CLIPGenericStatus",
+      "modelid": "Automation Time Event",
+      "manufacturername": "Hue Essentials",
+      "swversion": "1.0",
+      "uniqueid": "XONiVnV4NWgMvpGldzdbpnTRIUx4mrYY",
+      "recycle": false
     }
   },
   "resourcelinks": {
@@ -4315,7 +4337,7 @@
       "classid": 18,
       "owner": "de800c84-b5a8-482a-8e32-64afc56364a7",
       "recycle": false,
-      "links": ["/sensors/142", "/sensors/138"]
+      "links": []
     },
     "28741": {
       "name": "Effect 1",
