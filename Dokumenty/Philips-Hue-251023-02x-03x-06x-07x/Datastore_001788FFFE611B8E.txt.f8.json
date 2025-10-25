@@ -3,14 +3,14 @@
     "1": {
       "state": {
         "on": true,
-        "bri": 254,
-        "hue": 5269,
+        "bri": 111,
+        "hue": 0,
         "sat": 254,
         "effect": "none",
-        "xy": [0.5842, 0.3889],
+        "xy": [0.6915, 0.3083],
         "ct": 467,
         "alert": "select",
-        "colormode": "hs",
+        "colormode": "xy",
         "mode": "homeautomation",
         "reachable": true
       },
@@ -61,14 +61,14 @@
       "class": "Bedroom",
       "action": {
         "on": true,
-        "bri": 254,
-        "hue": 5269,
+        "bri": 111,
+        "hue": 0,
         "sat": 254,
         "effect": "none",
-        "xy": [0.5842, 0.3889],
+        "xy": [0.6915, 0.3083],
         "ct": 467,
         "alert": "select",
-        "colormode": "hs"
+        "colormode": "xy"
       }
     },
     "81": {
@@ -81,14 +81,14 @@
       "class": "Bedroom",
       "action": {
         "on": true,
-        "bri": 254,
-        "hue": 5269,
+        "bri": 111,
+        "hue": 0,
         "sat": 254,
         "effect": "none",
-        "xy": [0.5842, 0.3889],
+        "xy": [0.6915, 0.3083],
         "ct": 467,
         "alert": "select",
-        "colormode": "hs"
+        "colormode": "xy"
       }
     }
   },
@@ -103,8 +103,8 @@
     "gateway": "10.0.0.138",
     "proxyaddress": "none",
     "proxyport": 0,
-    "UTC": "2025-10-25T06:11:13",
-    "localtime": "2025-10-25T08:11:13",
+    "UTC": "2025-10-25T06:33:58",
+    "localtime": "2025-10-25T08:33:58",
     "timezone": "Europe/Prague",
     "modelid": "BSB002",
     "datastoreversion": "180",
@@ -259,7 +259,7 @@
         "name": "hue-smartthings-v1"
       },
       "5df89017-604f-4671-b6ef-922333a1053c": {
-        "last use date": "2025-10-25T05:40:52",
+        "last use date": "2025-10-25T06:21:04",
         "create date": "2019-10-01T09:14:45",
         "name": "HueProApp#SM-G960F"
       },
@@ -414,7 +414,7 @@
         "name": "hue-smartthings-v1"
       },
       "7ecfab9a-114f-400f-acd2-77f32521ff21": {
-        "last use date": "2025-10-25T06:11:05",
+        "last use date": "2025-10-25T06:33:46",
         "create date": "2025-10-24T15:21:10",
         "name": "Hue Essentials#Windows 11 10.0 amd64"
       },
@@ -439,7 +439,7 @@
         "name": "hue-smartthings-v1"
       },
       "0LLLeRbHFlFrprENP4HZ9KuSBwEVhzfZPnk68Xtq": {
-        "last use date": "2025-10-25T06:11:13",
+        "last use date": "2025-10-25T06:33:58",
         "create date": "2025-10-24T17:05:04",
         "name": "all 4 hue#Windows10"
       },
@@ -3664,6 +3664,183 @@
           "body": { "status": 0 }
         }
       ]
+    },
+    "74": {
+      "name": "HueEssentialsEffect",
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "created": "2025-10-25T06:33:41",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/148/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/148/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:01"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/81/action",
+          "method": "PUT",
+          "body": {
+            "bri": 254,
+            "xy": [0.6958047842114403, 0.30336889233660974]
+          }
+        }
+      ]
+    },
+    "75": {
+      "name": "HueEssentialsEffect",
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "created": "2025-10-25T06:33:41",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/148/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/148/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:16"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/81/action",
+          "method": "PUT",
+          "body": {
+            "bri": 137,
+            "xy": [0.6958047842114403, 0.30336889233660974]
+          }
+        }
+      ]
+    },
+    "76": {
+      "name": "HueEssentialsEffect",
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "created": "2025-10-25T06:33:41",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/148/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/148/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:20"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/148/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        }
+      ]
+    },
+    "77": {
+      "name": "HueEssentialsEffect",
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "created": "2025-10-25T06:33:41",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/148/state/status",
+          "operator": "eq",
+          "value": "1"
+        },
+        { "address": "/sensors/148/state/status", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/144/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        },
+        {
+          "address": "/sensors/148/state",
+          "method": "PUT",
+          "body": { "status": 2 }
+        }
+      ]
+    },
+    "78": {
+      "name": "HueEssentialsEffect",
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "created": "2025-10-25T06:33:41",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/groups/81/state/any_on",
+          "operator": "eq",
+          "value": "false"
+        },
+        { "address": "/groups/81/state/any_on", "operator": "dx" },
+        {
+          "address": "/sensors/148/state/status",
+          "operator": "gt",
+          "value": "0"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/148/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        },
+        {
+          "address": "/sensors/144/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        }
+      ]
+    },
+    "79": {
+      "name": "HueEssentialsEffect",
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "created": "2025-10-25T06:33:41",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/148/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        { "address": "/sensors/144/state/lastupdated", "operator": "dx" }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/148/state",
+          "method": "PUT",
+          "body": { "status": 0 }
+        }
+      ]
     }
   },
   "sensors": {
@@ -3910,6 +4087,17 @@
       "manufacturername": "Hue Essentials",
       "swversion": "1.0",
       "uniqueid": "UMdtGu2SFPRm999Ur0TWzZkMMpjrHL8g",
+      "recycle": true
+    },
+    "148": {
+      "state": { "status": 0, "lastupdated": "none" },
+      "config": { "on": true, "reachable": true },
+      "name": "HueEssentialsEffect",
+      "type": "CLIPGenericStatus",
+      "modelid": "HueEssentialsEffect_State",
+      "manufacturername": "Hue Essentials",
+      "swversion": "1.0",
+      "uniqueid": "enpx4yiYhesnVepfHAaBGUKRU0hl7EMT",
       "recycle": true
     }
   },
@@ -4162,6 +4350,25 @@
         "/rules/71",
         "/rules/72",
         "/rules/73"
+      ]
+    },
+    "24941": {
+      "name": "Late evening 251023\n",
+      "description": "HueEssentialsEffect_81__bri",
+      "type": "Link",
+      "classid": 18,
+      "owner": "7ecfab9a-114f-400f-acd2-77f32521ff21",
+      "recycle": false,
+      "links": [
+        "/groups/81",
+        "/sensors/144",
+        "/sensors/148",
+        "/rules/74",
+        "/rules/75",
+        "/rules/76",
+        "/rules/77",
+        "/rules/78",
+        "/rules/79"
       ]
     }
   }
