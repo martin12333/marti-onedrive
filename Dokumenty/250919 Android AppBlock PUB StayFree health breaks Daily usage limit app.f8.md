@@ -3,6 +3,11 @@
 250919 Android AppBlock PUB StayFree health breaks Daily usage limit app.f8.md
 
 
+### EDIT 4. NOOOOOO USERS REPORT THEY CANNOT DISABLE IT Enable Strict Mode (
+
+# links
+
+nonpub in obsidian
 
 
 # keywords
@@ -71,4 +76,54 @@ Much less setup than Freedom if you want that exact hourly rhythm.
 
 
 
+
+# emoji error
+
+the timer and pick a higher value. citeturn0search0
+
+
+
+
+
+ChatGPT
+I checked: StayFree *can* block apps on a schedule (“Focus Mode”, “Block on a schedule”) which means you could make times during the day when distracting apps (including browsers) are blocked. citeturn0search1turn0search0turn0search11turn0search10
+
+However, StayFree **doesn’t seem to support** a built-in “every hour for exactly 10 minutes” cycling schedule (block for 10 minutes each hour) at least as clearly as some other apps do. Users report that it supports schedules in blocks of hours or specific periods. citeturn0search4turn0search1turn0search0
+
+
+
+
+
+
+# 251023.20
+
+
+## Option 2: **AppBlock** (simpler for hourly cycles)
+- Lets you define rules like: *“Block these apps every hour for 10 minutes.”*  
+- You can set recurring schedules (e.g. blocklist active from **:00 to :10 of every hour**).  
+
+
+
+
+
+
+
+---
+
+If you want, I can check whether StayFree *recently* added hourly cyclic blocking in your region, or suggest a workaround.
+
+#### Information as life
+
+user
+
+information as a form of life by Floridi
+
+
+
+===
+
+stayfree ... block the internet ... 10 minutes in every hour 
+ChatGPT said:
+
+Luciano Floridi’s concept of “information as a form of life” comes from his broader theory of the infosphere and inforgs (informational organisms). Here’s a concise but deep explanation:
 

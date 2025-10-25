@@ -1,0 +1,39 @@
+Philips-Hue-02x-03x-06x-07x.f8.md
+
+
+kabel USB to DC pro Philips Hue Bridge 
+
+
+
+
+Radka, Su�ice
+flag
+Hodnoceno 29.01.2023, varianta Vention USB to DC 5.5mm Power Cord 0.5M White Tuning Fork Type
+Overen� n�kup
+Vhodn� pro Philips Hue Bridge
+3 �
+
+
+
+https://www.alza.cz/vention-usb-to-dc-5-5mm-power-cord-0-5m-white-tuning-fork-type-d6677420.htm#discussionPosts
+https://chatgpt.com/share/68fbc50e-1a88-800e-b146-9a714345af4f
+---
+
+
+
+Mu�e� mi pros�m potvrdit, �e je na tom adapt�ru skutecne naps�no Output: 5V ? 1A?
+
+Polarita: plus uprostred (center positive)
+konkr�tn� doporucen� USB-A ? DC kabel (napr. z Alzy
+ USB to DC 5.5mm Power Cord
+ USB to DC 5.5mm Power Cord
+
+////////////// ???Silne ru�� v rozmez� 2470 - 2480 MHz (pribli�ne 12-13 Wi-Fi kan�l na 2,4 GHz), pokud si jej um�st�te tesne vedle Wi-Fi access point.???
+
+
+
+#FFA757
+
+
+HSL stands for hue, saturation, and lightness, and is often also called HLS. HSV stands for hue, saturation, and value, and is also often called HSB (B for brightness). A third model, common in computer vision applications, is HSI, for hue, saturation, and intensity. However, while typically consistent, these definitions are not standardized, and any of these abbreviations might be used for any of these three or several other related cylindrical models. (For technical definitions of these terms, see below.)
+
