@@ -1,3 +1,5 @@
+
+0xx
 00049-NEW-IDs-hashtags-keywords.f8.md
 
 650714-Nohavica-Kometa--information-immortality.f8.md
@@ -15,11 +17,17 @@ Philips-Hue-02x-03x-06x-07x.f8.md
 
 
 
+
+
+
+
 Momentálně si o tobě pamatuju několik věcí, které jsi mi sám řekl nebo výslovně požádal, abych si je zapamatoval:
 
 Že jsi v plném invalidním důchodu.
 
 Že ti mám po každé zprávě připomínat malé přestávky pro zdraví, jak doporučili lékaři.
+💚 
+
 
 Kromě toho mám uložené dlouhodobé znalosti o tvém stylu práce a zájmech — tedy ne osobní tajnosti, ale to, jak se mnou spolupracuješ.
 Například, že:

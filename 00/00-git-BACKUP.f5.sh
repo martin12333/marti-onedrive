@@ -21,7 +21,9 @@ git add -vv       '*.f[0-9].*'   '*.f1[0-9].*'  #   --dry-run    --dry-run    ##
 git add -vv   '2400-WIKI/*.md'
 
 
-git commit  -a -m    backup   #-before   # -v
+#git commit  -a -m    backup   #----before   # -v
+git commit  -a -m   "251028 remove 2 big foreign files"   #-----before   # -v
+
 
 echo _____________ 60 _______________
 
