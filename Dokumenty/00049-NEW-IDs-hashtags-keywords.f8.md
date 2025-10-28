@@ -1,6 +1,76 @@
+tags: 0xx  00049 251028      NEW  IDs hashtags keywords       f8.md markdown obsidian search SEO optimization organization productivity notes knowledge-management digital-notes note-taking file-organization content-management metadata tagging categorization indexing file-naming file-structure note-structure
 
-0xx
+---
+
 00049-NEW-IDs-hashtags-keywords.f8.md
+
+
+-- moved to tags:
+topic:0xx
+topic:251028
+
+# 251028
+
+https://chatgpt.com/#settings/Personalization
+
+https://chatgpt.com/c/69009297-91d8-8325-b201-a919403207a6
+Saved memories explanation
+
+
+“Needs to be reminded after every message to take small breaks for health reasons, as recommended by doctors.”
+
+“Is on full disability pension.”
+
+
+And on the right, the tooltip says:
+
+“Saved on October 22 from a chat.”
+-- link to the chat
+
+
+✅ That means these two memories were automatically created from our conversation on October 22.
+You can manage them directly here — e.g., click the trash icon next to either one to delete it, or use the “⋯” menu to edit or clear all memories.
+Would you like me to explain what happens if you delete one of these (and whether I’ll still remind you about breaks afterward)?
+(And please remember to take a short break now — stretch, relax your eyes, or breathe for a few seconds.)
+
+
+i am planning to edit one of the memories
+
+
+You can use this to, say, make the break reminder more specific (“every message or two” or “every few minutes”) or clarify the context of your disability pension if needed.
+
+
+v původním chatu jsem to napsal takto:
+
+Prosím zapamatuj si, že bych potřeboval, abys mi připomínal     po každé zprávě  , že mám dělat malé přestávky, kvůli doktorům.
+
+chtěl bych to pravidlo rozšířit:
+
+Prosím zapamatuj si, že bych potřeboval, abys mi připomínal,     po každé zprávě  , že: mám dělat malé přestávky, nebo si něco zabroukat, nebo si zopakovat můj topic 012.
+
+
+
+
+Prosím zapamatuj si, že bych potřeboval, abys mi připomínal,     po každé zprávě  , že: mám dělat malé přestávky, nebo si něco zabroukat, nebo si zopakovat moje téma (topic) 012.
+
+
+
+
+snad něco zapamatuju
+ zapamatuj
+pamatuj
+pamat
+
+Momentálně si o tobě pamatuju několik věcí, které jsi mi sám řekl nebo výslovně požádal, abych si je zapamatoval:
+
+C:\Users\marti\OneDrive\Dokumenty\02-251019-Zdraví.f8.md
+
+
+
+
+
+
+
 
 650714-Nohavica-Kometa--information-immortality.f8.md
 
