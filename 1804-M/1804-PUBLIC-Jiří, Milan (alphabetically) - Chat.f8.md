@@ -14,13 +14,24 @@ C:\Users\marti\OneDrive\1804-M\
 .849C9593-D756-4E56-8D6E-42412*
 
 # samsung-oprava-250922
-
+tags: samsung, oprava, pračka, 250922
 "C:\Users\marti\OneDrive\1804-JB\samsung-oprava-250922"
 
  samsung-oprava-
  	////251001
 20250922_145012.jpg
 250922 _145012.
+
+gpt
+„250922“ vypadá jako datum – 22. 9. 2025 nebo 2022 podle konvence — chceš, abych ho bral jako datum opravy?)
+
+
+250922 je datum a název souboru první fotky, tedy 22.9.2025
+zároveň to je identifikační číslo mého tématu
+
+Uses numerical codes like '250922' to represent both the date (22 September 2025) and the identifier of a topic.
+
+
 
 
 https://mail.google.com/chat/u/0/#chat/space/AAAA2NU9Pu0/qartGwv8DOo/qartGwv8DOo
@@ -98,8 +109,45 @@ Backed up (1.2 MB)
 Original quality. Learn more
 
 
+https://chatgpt.com/share/690260db-cedc-800e-b9b8-4f93b69641b9
+
+
+https://www.samsung.com/cz/support/your-service/direct-payment/select-symptom-IH na té stránce je jen textový box ... poraď mi prosím, co mám napsat
+
+Pračka  hlásí chybu HC2 při sušení, prádlo zůstává studené
+
+Samsung WD80J6A10AW/LE 
+
+ i při běžném praní. Podezření na vadné topné těleso nebo čidlo teploty. Prosím o diagnostiku a opravu.
 
 
 
 
+Díky za screenshot — potvrzuje, že pračka Samsung 
 
+při testu přes Smart Check hlásí: „Check the drying heater“
+
+
+tedy problém s topným tělesem sušení, což odpovídá chybovému kódu HC2 / HE2.
+
+📋 Shrnutí stavu:
+
+Fáze: Drying, Stir (během sušení)
+
+Diagnóza: Zkontrolujte topné těleso sušení
+
+Doporučený postup:
+
+Vypnout pračku na 2–3 minuty.
+
+Zapnout a zopakovat cyklus.
+
+Pokud se chyba opakuje → nechat zkontrolovat topné těleso nebo snímač teploty servisem.
+
+
+
+
+chci napsat
+
+Pračka  hlásí chybu HC2 při sušení, prádlo zůstává studené. Při testu přes Smart Check hlásí: „Check the drying heater“
+608935899
