@@ -151,3 +151,49 @@ chci napsat
 
 Pračka  hlásí chybu HC2 při sušení, prádlo zůstává studené. Při testu přes Smart Check hlásí: „Check the drying heater“
 608935899
+608 935 899
+
+776 255 129
+
+https://www.samsung.com/cz/support/your-service/direct-payment/repair-request
+![alt text](image.png)
+
+
+https://www.samsung.com/cz/support/your-service/direct-payment/repair-request
+Domovská stránka > Potvrďte opravu
+Chytrá oprava
+
+bookanappointment
+Moje zařízeníMoje zařízení
+Zarezervovat opravu telefonuZarezervovat opravu telefonu
+Stav mého požadavkuStav mého požadavku
+checkicon
+
+
+Děkujeme vám za registraci žádosti o servisní podporu.
+Kontaktní centrum zákaznické péče vás bude brzy kontaktovat.
+
+Stav: Probíhá Číslo lístku: 2340946721
+productimage	8/5 kg pračka se sušičkou WD80J6A10AW Série WD6000
+Sériové číslo: 0SVC5ABM400016N
+Modelový kód: WD80J6A10AW/LE
+
+Kontaktní informace
+
+...
+
+Historie dotazů
+
+29/10/2025
+Pračka hlásí chybu HC2 při sušení, prádlo zůstává studené. Při testu
+přes Smart Check hlásí: „Check the drying heater“
+
+Zkontrolovat moji aktuální opravu
+E-shop
+Aktuální nabídky
+
+
+https://www.samsung.com/cz/support/your-service/track-repair
+
+
+
