@@ -11,6 +11,11 @@ topic:251028
 
 # 251028
 
+0xx ℹ️ 💚 Připomenutí přestávky 251028 Saved memories explanation
+ℹ️ 💚 Připomenutí přestávky
+
+
+
 https://chatgpt.com/#settings/Personalization
 
 https://chatgpt.com/c/69009297-91d8-8325-b201-a919403207a6
@@ -52,6 +57,14 @@ Prosím zapamatuj si, že bych potřeboval, abys mi připomínal,     po každé
 
 
 Prosím zapamatuj si, že bych potřeboval, abys mi připomínal,     po každé zprávě  , že: mám dělat malé přestávky, nebo si něco zabroukat, nebo si zopakovat moje téma (topic) 012.
+
+
+
+zatim tam jeste neni v seznamu ulozenych vzpominek
+
+
+
+
 
 
 

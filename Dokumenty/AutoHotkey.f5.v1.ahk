@@ -401,7 +401,11 @@ $F1::Send {Esc}
 ; AAAAa INTERFERENCE WITH ACCESSIBILITY STICKY KEYS ?? win+L did not help
 ; AAAAA switching off vimium did not help  ^c
 
-$Insert::
+
+;;
+;;$Insert::
+
+#$p::
 {
 	Send, {Click 3}
 	Sleep, 400
@@ -434,10 +438,14 @@ $Insert::
 
 	return
 }
+
 ;TEST  test :   win+q a  AutoHotkey run the app ... it asks to reload this ahk file
 
 
-#$p::
+;;
+;;#$p::
+
+$Insert::
 {
 	Send, {Click 3}
 	Sleep, 400
@@ -446,7 +454,12 @@ $Insert::
 
 	return
 }
-;TEST  test :   win+q a  AutoHotkey run the app ... it asks to reload this ahk file
+
+
+;TEST  test :   win+q auto  AutoHotkey run the app ... it asks to reload this ahk file
+
+;;
+;;
 
 
 #$o::
