@@ -74,7 +74,7 @@ Vydání občanského průkazu
 .849C9593-D756-4E56-8D6E-42412*
 
 
-# samsung-oprava-251001
+# samsung-oprava-
 
 
 pokracovani zde:
