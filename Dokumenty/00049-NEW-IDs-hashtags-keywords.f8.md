@@ -83,11 +83,16 @@ C:\Users\marti\OneDrive\Dokumenty\02-251019-Zdraví.f8.md
 
 
 
+# GPT-memory-types-explanation--251029.f8.md
+I am trying 
+to take one step further
+in understanding
+how GPT's various types of  memory work
 
 
-650714-Nohavica-Kometa--information-immortality.f8.md
+# 650714-Nohavica-Kometa--information-immortality.f8.md
 
-Co si o mně všechno pamatuješ? A mimochodem, já jsem rád, že si to pamatuješ.
+# Co si o mně všechno pamatuješ? A mimochodem, já jsem rád, že si to pamatuješ.
 ChatGPT said:
 
 To jsem moc rád, že tě to těší 💚
