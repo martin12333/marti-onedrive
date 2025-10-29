@@ -14,6 +14,9 @@ C:\Users\marti\OneDrive\1804-M\
 .849C9593-D756-4E56-8D6E-42412*
 
 # samsung-oprava-250922
+
+"C:\Users\marti\OneDrive\1804-JB\samsung-oprava-250922"
+
  samsung-oprava-
  	////251001
 20250922_145012.jpg
