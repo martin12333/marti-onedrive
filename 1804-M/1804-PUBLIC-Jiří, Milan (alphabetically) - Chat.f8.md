@@ -60,7 +60,6 @@ Kód Popis Ks Cena ks bez DPH DPH Cena Záruka DPH%
  SAPR001: SN: 0SVC5ABM400016,
 
 
-https://www.praha16.eu/kontakty/mobilni-aplikace/
 
 
 

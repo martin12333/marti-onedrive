@@ -65,12 +65,21 @@ Vydání občanského průkazu
 
 
 
+
+
+
+
 # disk full 251029
 
 .849C9593-D756-4E56-8D6E-42412*
 
 
 # samsung-oprava-251001
+
+
+pokracovani zde:
+C:\Users\marti\OneDrive\1804-M\1804-PUBLIC-Jiří, Milan (alphabetically) - Chat.f8.md
+
 
 https://mail.google.com/chat/u/0/#chat/space/AAAA2NU9Pu0/qartGwv8DOo/qartGwv8DOo
 
@@ -116,8 +125,8 @@ Kód Popis Ks Cena ks bez DPH DPH Cena Záruka DPH%
  SAPR001: SN: 0SVC5ABM400016,
 
 
-https://www.praha16.eu/kontakty/mobilni-aplikace/
-
+# /// https://www.praha16.eu/kontakty/mobilni-aplikace/
+zda pro mne opravdu ted nalehave vsechna temata zprav ?
 
 
 
