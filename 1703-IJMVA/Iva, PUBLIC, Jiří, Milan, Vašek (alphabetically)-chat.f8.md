@@ -64,6 +64,41 @@ Pojmenování (název) životní situace:
 Vydání občanského průkazu
 
 
+pokud platnost OP již skončila, je potřeba dodat ještě jeden doklad (platný cestovní doklad, rodný list, popř. řidičský průkaz).
+
+
+
+
+
+
+
+
+
+
+
+
+
+kdyby cekali tady?
+
+Obyvatelům správního obvodu Prahy 16 doporučujeme využít služeb on-line rezervace na pracoviště Oddělení evidence obyvatel a osobních dokladů Úřadu městské části Praha 16.
+
+Doporučujeme využít možnosti on-line rezervace na: https://webcall.praha16.eu/obj/?id=1213
+
+
+nebo aspoň monitoring pobocek zde:
+
+https://webcall.praha16.eu/mon/index.html?id=1213
+
+fronty k cinnostem:
+
+o pulnoci
+
+Občanské průkazy žádost
+ 0 otevřených přepážek
+ Činnost je v tuto chvíli mimo provozní dobu.
+Občanské průkazy výdej
+ 0 otevřených přepážek
+ Činnost je v tuto chvíli mimo provozní dobu.
 
 
 

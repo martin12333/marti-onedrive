@@ -12652,3 +12652,5 @@ cmd
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 explorer "C:\Users\marti\OneDrive\1804-JB\ALZA\2195779527.pdf"
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+explorer "C:\Users\marti\OneDrive\1804-JB\ALZA\2195779527.pdf"
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
