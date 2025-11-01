@@ -77,6 +77,9 @@ Vydání občanského průkazu
 # samsung-oprava-
 
 
+?pokracovani zde:
+C:\Users\marti\OneDrive\1804-M\1804-PUBLIC-Jiří, Milan (alphabetically) - Chat.f8.md
+
 
 https://mail.google.com/chat/u/0/#chat/space/AAAA2NU9Pu0/qartGwv8DOo/qartGwv8DOo
 
