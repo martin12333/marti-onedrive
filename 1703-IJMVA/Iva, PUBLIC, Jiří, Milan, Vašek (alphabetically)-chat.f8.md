@@ -18,7 +18,7 @@ C:\\Users\\marti\\OneDrive\\1703-IJMVA\\
 
 
 
-# 456211    251028   2512     obcanka
+# 456211    251028   2512     obcanka   456211482
 
 https://chatgpt.com/c/68ff65a3-2f64-8329-8a3d-f882242db4e6
 
@@ -74,7 +74,7 @@ Pojmenování (název) životní situace:
 Vydání občanského průkazu
 
 # K vydání občanského průkazu náhradou za ztracený, odcizený nebo zničený (nemůžete předložit dosavadní občanský průkaz) předložte:
- doklad o rodném čísle, jestliže není rodné číslo uvedeno na jiném předkládaném dokladu.
+ doklad o rodném čísle, jestliže není rodné číslo uvedeno na jiném předkládaném dokladu. .... 
 
 
 # pokud platnost OP již skončila, je potřeba dodat ještě jeden doklad (platný cestovní doklad, rodný list, popř. řidičský průkaz).
