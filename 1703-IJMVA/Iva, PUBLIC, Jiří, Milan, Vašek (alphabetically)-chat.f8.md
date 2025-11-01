@@ -18,7 +18,13 @@ C:\\Users\\marti\\OneDrive\\1703-IJMVA\\
 
 
 
-# 456211    251028   2512     obcanka   456211482  master main copy
+# 456211    251028   251222     obcanka   456211482 vscode  master main copy
+
+https://keep.google.com/#NOTE/1nct8F8wZXu9iB3HebWexA5Fopvnxg4HQsB0ptY4ttgVzKeGu7-wVA3L1VUkkryl3SBnq
+https://goo.gl/photos/MYtc.....
+
+
+
 
 https://chatgpt.com/c/68ff65a3-2f64-8329-8a3d-f882242db4e6
 
