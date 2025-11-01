@@ -73,7 +73,9 @@ Identifikační číslo:
 Pojmenování (název) životní situace:
 Vydání občanského průkazu
 
-# doklad o rodném čísle, jestliže není rodné číslo uvedeno na jiném předkládaném dokladu.
+# K vydání občanského průkazu náhradou za ztracený, odcizený nebo zničený (nemůžete předložit dosavadní občanský průkaz) předložte:
+ doklad o rodném čísle, jestliže není rodné číslo uvedeno na jiném předkládaném dokladu.
+
 
 # pokud platnost OP již skončila, je potřeba dodat ještě jeden doklad (platný cestovní doklad, rodný list, popř. řidičský průkaz).
 
