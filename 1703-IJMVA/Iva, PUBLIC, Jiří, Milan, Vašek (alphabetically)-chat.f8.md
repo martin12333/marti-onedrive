@@ -11,7 +11,8 @@ C:\\Users\\marti\\OneDrive\\1703-IJMVA\\Iva, Jiří, Milan, Vašek (alphabetical
 
 C:\\Users\\marti\\OneDrive\\1703-IJMVA\\
 
-Iva, PUBLIC, Jiří, Milan, Vašek (alphabetically)-chat.f8.md
+
+1703           Iva, PUBLIC, Jiří, Milan, Vašek (alphabetically)-chat.f8.md
 
 
 
@@ -26,7 +27,9 @@ Končící platnost občanského průkazu. U mojí máti.
 https://mv.gov.cz/clanek/osobni-doklady-642319.aspx?q=Y2hudW09Mg%3D%3D
 
 
-Občan může požádat o vydání občanského průkazu u kteréhokoliv obecního úřadu obce s rozšířenou působností, v hlavním městě Praze u kteréhokoliv úřadu městské části Prahy 1 až 22 (bez ohledu na místo trvalého pobytu). Vydávajícím úřadem bude ten obecní úřad obce s rozšířenou působností, u něhož občan podá žádost o vydání občanského průkazu.
+Občan může požádat o vydání občanského průkazu u kteréhokoliv obecního úřadu obce s rozšířenou působností, v hlavním městě Praze u kteréhokoliv úřadu městské části Prahy 1 až 22 (bez ohledu na místo trvalého pobytu). 
+
+Vydávajícím úřadem bude ten obecní úřad obce s rozšířenou působností, u něhož občan podá žádost o vydání občanského průkazu.
 
 
 
@@ -42,8 +45,6 @@ Vyhotovený občanský průkaz občan převezme osobně nebo prostřednictvím z
 5️⃣ Doba vyřízení
 Běžná doba: do 30 dnů.
 
-6️⃣ K vyzvednutí
-Na stejném úřadě, kde se o něj žádalo.
 
 
 
@@ -72,17 +73,9 @@ Identifikační číslo:
 Pojmenování (název) životní situace:
 Vydání občanského průkazu
 
+# doklad o rodném čísle, jestliže není rodné číslo uvedeno na jiném předkládaném dokladu.
 
-pokud platnost OP již skončila, je potřeba dodat ještě jeden doklad (platný cestovní doklad, rodný list, popř. řidičský průkaz).
-
-
-
-
-
-
-
-
-
+# pokud platnost OP již skončila, je potřeba dodat ještě jeden doklad (platný cestovní doklad, rodný list, popř. řidičský průkaz).
 
 
 
@@ -108,6 +101,9 @@ Občanské průkazy žádost
 Občanské průkazy výdej
  0 otevřených přepážek
  Činnost je v tuto chvíli mimo provozní dobu.
+
+
+
 
 
 
