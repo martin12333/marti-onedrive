@@ -104,6 +104,18 @@ Občanské průkazy výdej
 
 
 
+
+# uz odebiram maily a mam dokonce pravidlo
+
+	Shody: přerušení
+Akce: Označit hvězdičkou, Označit štítkem "přerušení", Nikdy neposílat do složky Spam, Označit jako důležité, Zařadit do kategorie Primární	upravit     smazat
+
+https://www.praha16.eu/kontakty/mobilni-aplikace/
+Dobrý deň, ďakujeme za hodnotenie a otázku. V rámci aplikácie si môžete nastaviť v sekcii Upozornenia oznámenia, ktoré chcete prijímať. Tu si môžete vybrať len komunálne služby.
+Dobrý deň, v záložke Neprečítané sa zobrazujú iba záznamy, ktoré sú nové a neboli zatiaľ zobrazené. Všetky, i skôr zobrazené záznamy môžete vidieť na hlavnej obrazovke vždy v danom odbere.
+
+
+
 # disk full 251029
 
 .849C9593-D756-4E56-8D6E-42412*
