@@ -23,17 +23,27 @@ https://chatgpt.com/c/68ff65a3-2f64-8329-8a3d-f882242db4e6
 
 Končící platnost občanského průkazu. U mojí máti.
 
-O nový občanský průkaz je možné požádat už 6 měsíců před koncem platnosti.
+https://mv.gov.cz/clanek/osobni-doklady-642319.aspx?q=Y2hudW09Mg%3D%3D
 
-Na libovolném obecním úřadě obce s rozšířenou působností (ORP) — nemusí to být trvalé bydliště.
+
+Občan může požádat o vydání občanského průkazu u kteréhokoliv obecního úřadu obce s rozšířenou působností, v hlavním městě Praze u kteréhokoliv úřadu městské části Prahy 1 až 22 (bez ohledu na místo trvalého pobytu). Vydávajícím úřadem bude ten obecní úřad obce s rozšířenou působností, u něhož občan podá žádost o vydání občanského průkazu.
+
+
+
+https://www.praha9.cz/vydani-obcanskeho-prukazu
+
+O vydání občanského průkazu lze požádat až 6 měsíců před koncem platnosti stávajícího. Žadatel je povinen podat žádost osobně, nelze zmocnit jinou osobu. 
+
+Vyhotovený občanský průkaz občan převezme osobně nebo prostřednictvím zmocněnce na základě plné moci s úředně ověřeným podpisem zmocnitele (za občana mladšího 15 let přebírá občanský průkaz jeho zákonný zástupce).
+
+
+
 
 5️⃣ Doba vyřízení
 Běžná doba: do 30 dnů.
 
 6️⃣ K vyzvednutí
 Na stejném úřadě, kde se o něj žádalo.
-Osobně (žadatel nebo s plnou mocí).
-ai?
 
 
 
@@ -58,8 +68,7 @@ Vydání občanského průkazu
 Úplné znění
 Identifikační číslo:
 0410-002
-Kód:
-neuvedeno
+
 Pojmenování (název) životní situace:
 Vydání občanského průkazu
 
@@ -78,7 +87,7 @@ pokud platnost OP již skončila, je potřeba dodat ještě jeden doklad (platn�
 
 
 
-kdyby cekali tady?
+# kdyby cekali tady?
 
 Obyvatelům správního obvodu Prahy 16 doporučujeme využít služeb on-line rezervace na pracoviště Oddělení evidence obyvatel a osobních dokladů Úřadu městské části Praha 16.
 
