@@ -95,6 +95,20 @@ https://webcall.praha16.eu/mon/index.html?id=1213
 
 # budu muset řešit, protože babička ujde 30 metrů
 
+
+EDIT
+https://www.praha16.eu/radnice/urad/kontaktni-informace-1/
+náměstí Osvoboditelů 44/15
+153 00 Praha-Radotín
+Adresa na mapách Google: https://www.google.com/maps
+Odbor občansko správní - Oddělení evidence obyvatel a osobních dokladů
+//fotka vstupni budova
+
+https://www.praha16.eu/e_download.php?file=data/editor/858cs_1.pdf&original=2024-08-06-mapa.pdf
+
+
+
+
 @Iva
 @Jiri
 @Vašek 
