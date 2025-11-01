@@ -102,6 +102,14 @@ Občanské průkazy výdej
 
 
 
+# mudr Praško, antifragility, to je dulezitejsi  nez zalohovani dat
+
+C:\Users\marti\OneDrive\1703-IJMVA\Iva, Jiří, Milan, Vašek (alphabetically)-chat.md
+
+## rules v Gmailu pro JVB
+
+## rules v outlooku pro JB
+
 
 
 
