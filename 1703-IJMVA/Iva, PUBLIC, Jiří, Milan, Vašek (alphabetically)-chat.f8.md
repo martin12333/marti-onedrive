@@ -23,61 +23,7 @@ C:\\Users\\marti\\OneDrive\\1703-IJMVA\\
 https://chatgpt.com/c/68ff65a3-2f64-8329-8a3d-f882242db4e6
 
 
-# to chat
-
-přiložit fotku z 
-https://keep.google.com/#NOTE/1nct8F8wZXu9iB3HebWexA5Fopvnxg4HQsB0ptY4ttgVzKeGu7-wVA3L1VUkkryl3SBnq
-
-https://goo.gl/photos/MYtc.....
-
-
-
-# [termín 251222 Končící platnost občanského průkazu]
-
-Doba vyřízení ... Běžná doba: do 30 dnů.
-
-https://mv.gov.cz/clanek/osobni-doklady-642319.aspx?q=Y2hudW09Mg%3D%3D
-
-u kteréhokoliv úřadu městské části
-
-
 Vydávajícím úřadem bude ten obecní úřad obce s rozšířenou působností, u něhož občan podá žádost o vydání občanského průkazu.
-
-
-
-https://www.praha9.cz/vydani-obcanskeho-prukazu
-
-O vydání občanského průkazu lze požádat až 6 měsíců před koncem platnosti stávajícího. Žadatel je povinen podat žádost osobně, nelze zmocnit jinou osobu. 
-
-Vyhotovený občanský průkaz občan převezme osobně nebo prostřednictvím zmocněnce na základě plné moci s úředně ověřeným podpisem zmocnitele 
-
-
-
-# ... občanského průkazu babičky 456211482 
-
-
-
-
-
-
-
-
-https://www.praha16.eu/radnice/urad/odbory/odbor-obcansko-spravni/oddeleni-evidence-obyvatel-a-osobnich-dokladu/
-
-Rozšířené úřední hodiny Oddělení evidence obyvatel a osobních dokladů Úřadu městské části Praha 16
-Pondělí: 8.00–12.00 / 13.00–18.00
-Úterý: 8.00–12.00 / 12.30–14.00
-Středa: 8.00–12.00 / 13.00–18.00
-Čtvrtek: 8.00–12.00 / 12.30–14.00
-Pátek: 8.00–12.00
-
-
-
-
-
-
-
-https://www.praha16.eu/prakticke-info/potrebuji-si-vyridit-1/doklady-osobni-udaje-matrika/vydani-obcanskeho-prukazu/
 
 Vydání občanského průkazu
 Úplné znění
@@ -97,16 +43,65 @@ staci vzp?
 
 
 
+# to chat
+
+přiložit fotku z 
+https://keep.google.com/#NOTE/1nct8F8wZXu9iB3HebWexA5Fopvnxg4HQsB0ptY4ttgVzKeGu7-wVA3L1VUkkryl3SBnq
+
+https://goo.gl/photos/MYtc.....
+
+
+# [termín 251222 Končící platnost občanského průkazu]
+
+Doba vyřízení ... Běžná doba: do 30 dnů.
+
+https://mv.gov.cz/clanek/osobni-doklady-642319.aspx?q=Y2hudW09Mg%3D%3D
+
+u kteréhokoliv úřadu městské části
+
+https://www.praha9.cz/vydani-obcanskeho-prukazu
+
+O vydání občanského průkazu lze požádat až 6 měsíců před koncem platnosti stávajícího. Žadatel je povinen podat žádost osobně, nelze zmocnit jinou osobu. 
+
+Vyhotovený občanský průkaz občan převezme osobně nebo prostřednictvím zmocněnce na základě plné moci s úředně ověřeným podpisem zmocnitele 
+
+
+# ... občanského průkazu babičky 456211482 
+
+https://www.praha16.eu/radnice/urad/odbory/odbor-obcansko-spravni/oddeleni-evidence-obyvatel-a-osobnich-dokladu/
+
+Rozšířené úřední hodiny Oddělení evidence obyvatel a osobních dokladů Úřadu městské části Praha 16
+Pondělí: 8.00–12.00 / 13.00–18.00
+Úterý: 8.00–12.00 / 12.30–14.00
+Středa: 8.00–12.00 / 13.00–18.00
+Čtvrtek: 8.00–12.00 / 12.30–14.00
+Pátek: 8.00–12.00
+
+https://www.praha16.eu/prakticke-info/potrebuji-si-vyridit-1/doklady-osobni-udaje-matrika/vydani-obcanskeho-prukazu/
+
+// Milan přečetl
+
+// existuje  monitoring pobocek 
+
+https://webcall.praha16.eu/mon/index.html?id=1213
+
+// existuje  rezervační systém
+
+ https://webcall.praha16.eu/obj/?id=1213
+
+
+
+
+
+
+# tohle už zatím neposílat, jen si to sem uložím jako připomínku, až budu chtít sledovat
+
 # kdyby cekali tady?
 
 Obyvatelům správního obvodu Prahy 16 doporučujeme využít služeb on-line rezervace na pracoviště Oddělení evidence obyvatel a osobních dokladů Úřadu městské části Praha 16.
 
 Doporučujeme využít možnosti on-line rezervace na: https://webcall.praha16.eu/obj/?id=1213
 
-
-nebo aspoň monitoring pobocek zde:
-
-https://webcall.praha16.eu/mon/index.html?id=1213
 
 fronty k cinnostem:
 
