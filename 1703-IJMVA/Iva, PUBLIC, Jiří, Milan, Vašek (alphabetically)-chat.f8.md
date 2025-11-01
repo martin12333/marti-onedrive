@@ -50,8 +50,14 @@ https://keep.google.com/#NOTE/1nct8F8wZXu9iB3HebWexA5Fopvnxg4HQsB0ptY4ttgVzKeGu7
 
 https://goo.gl/photos/MYtc.....
 
-
 # [termín 251222 Končící platnost občanského průkazu]
+
+paste to chat
+edit ty neaktivni
+@Iva
+@Jiri
+@Vasek
+# [termín 251222 RRMMDD  Končící platnost občanského průkazu]
 
 Doba vyřízení ... Běžná doba: do 30 dnů.
 
@@ -61,9 +67,9 @@ u kteréhokoliv úřadu městské části
 
 https://www.praha9.cz/vydani-obcanskeho-prukazu
 
-O vydání občanského průkazu lze požádat až 6 měsíců před koncem platnosti stávajícího. Žadatel je povinen podat žádost osobně, nelze zmocnit jinou osobu. 
+O vydání občanského průkazu lze požádat až 6 měsíců před koncem platnosti stávajícího.
 
-Vyhotovený občanský průkaz občan převezme osobně nebo prostřednictvím zmocněnce na základě plné moci s úředně ověřeným podpisem zmocnitele 
+Vyhotovený občanský průkaz občan převezme osobně ... nebo prostřednictvím zmocněnce na základě plné moci s úředně ověřeným podpisem zmocnitele 
 
 
 # ... občanského průkazu babičky 456211482 
@@ -79,7 +85,7 @@ Pátek: 8.00–12.00
 
 https://www.praha16.eu/prakticke-info/potrebuji-si-vyridit-1/doklady-osobni-udaje-matrika/vydani-obcanskeho-prukazu/
 
-// Milan přečetl
+// přečetl jsem
 
 // existuje  monitoring pobocek 
 
@@ -94,6 +100,11 @@ https://webcall.praha16.eu/mon/index.html?id=1213
 @Vašek 
 --abecedně
 
+paste to chat
+edit ty neaktivni
+@Iva
+@Jiri
+@Vasek
 
 
 # tohle už zatím neposílat, jen si to sem uložím jako připomínku, až budu chtít sledovat
