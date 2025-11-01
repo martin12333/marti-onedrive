@@ -85,12 +85,14 @@ https://www.praha16.eu/prakticke-info/potrebuji-si-vyridit-1/doklady-osobni-udaj
 
 https://webcall.praha16.eu/mon/index.html?id=1213
 
-// existuje  rezervační systém
+//// existuje  rezervační systém    https://webcall.praha16.eu/obj/?id=1213
 
- https://webcall.praha16.eu/obj/?id=1213
+# budu muset řešit, protože babička ujde 30 metrů
 
-
-
+@Iva
+@Jiri
+@Vašek 
+--abecedně
 
 
 
