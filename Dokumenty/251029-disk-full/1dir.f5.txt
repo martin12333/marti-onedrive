@@ -1,0 +1,46 @@
+ Volume in drive C is Windows
+ Volume Serial Number is 2480-D21D
+
+ Directory of c:\251029-disk-full
+
+11/02/2025  20:43    <DIR>          .
+11/02/2025  20:06    <DIR>          0CMD FILES moved because DONT AUTOCLICK
+11/02/2025  20:14    <DIR>          0dee---A,SMAZAT-V-NOUZI
+11/02/2025  20:06    <DIR>          0mkdir in  c root DONE copy DONE
+11/02/2025  20:43    <DIR>          1111BIGmar1dr~tib
+12/26/2020  03:25       423,214,592 1111BIGMilan1dr_full_b1_s1_v1.tib
+10/18/2020  19:39        66,190,789 8089759_xml_2020_10_18_bb424.xml
+11/02/2025  20:30    <DIR>          AABKUP-MMBEveryDrive
+11/02/2025  20:18    <DIR>          GIT-bk04
+10/29/2025  14:10             7,764 Iva, Jir¡, Milan, Vasek (alphabetically)-chat-MB-PC.md
+10/29/2025  14:10             7,764 Iva, Jir¡, Milan, Vasek (alphabetically)-chat.md
+10/29/2025  14:13             1,787 Iva, PUBLIC, Jir¡, Milan, Vasek (alphabetically)-chat.f8.md
+11/02/2025  20:15    <DIR>          mar1dr~tib
+12/26/2020  03:25       423,214,592 Milan1dr_full_b1_s1_v1.tib
+11/02/2025  20:13    <DIR>          no-Videos---dow
+11/02/2025  18:35    <DIR>          OLD
+11/02/2025  20:13    <DIR>          onedr cely
+10/30/2021  18:19       262,641,866 Picture-Parts.zip
+04/05/2022  19:51        71,303,168 vdee.vhdx
+11/02/2025  20:11    <DIR>          Videos
+04/05/2021  16:48        50,642,390 zbl.zip
+               9 File(s)  1,297,224,712 bytes
+              12 Dir(s)  10,981,408,768 bytes free
+
+ Volume in drive D is dee
+ Volume Serial Number is A226-771A
+
+ Directory of d:\251029-disk-full
+
+11/02/2025  20:42    <DIR>          .
+11/02/2025  20:35    <DIR>          0CMD FILES moved because DONT AUTOCLICK
+11/02/2025  20:35    <DIR>          0dee---A,SMAZAT-V-NOUZI
+11/02/2025  20:35    <DIR>          0mkdir in  c root DONE copy DONE
+06/30/2024  18:44    <DIR>          1111BIGmar1dr~tib
+12/26/2020  03:25       423,214,592 1111BIGMilan1dr_full_b1_s1_v1.tib
+10/29/2025  14:10             7,764 Iva, Jir¡, Milan, Vasek (alphabetically)-chat-MB-PC.md
+10/29/2025  14:10             7,764 Iva, Jir¡, Milan, Vasek (alphabetically)-chat.md
+10/29/2025  14:13             1,787 Iva, PUBLIC, Jir¡, Milan, Vasek (alphabetically)-chat.f8.md
+11/02/2025  20:35    <DIR>          OLD
+               4 File(s)    423,231,907 bytes
+               6 Dir(s)     535,506,944 bytes free
