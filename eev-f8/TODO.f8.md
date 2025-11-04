@@ -1,11 +1,16 @@
 
 dokážeš přečíst 20 slov
 
-
 TODO ℹ️
 04-KDE-MAS-HLAVNI-NAPOVEDU.f8.md
 
-(★‿★)
+
+edge://restart/
+4G  ->  12G
+
+edge://edge-urls
+edge://history/recentlyClosed
+edge://extensions/shortcuts
 
 💚
 
@@ -30,6 +35,8 @@ google saved collections
 edge collecti
 	but THEY PROBABLY DONT SYNC TO CLOUD, probably no uri
 	https://support.microsoft.com/en-us/topic/organize-your-ideas-with-collections-in-microsoft-edge-eb2b8582-7043-4b64-a145-e8970ddbb065
+
+(★‿★)
 
 
 # https://www.diigo.com/user/martin12333?query=%23CORE
