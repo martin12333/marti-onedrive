@@ -4,6 +4,7 @@ dokážeš přečíst 20 slov
 TODO ℹ️
 04-KDE-MAS-HLAVNI-NAPOVEDU.f8.md
 
+ C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 
 edge://restart/
 4G  ->  12G
@@ -18,7 +19,7 @@ d:\251029-disk-full
 explorer "C:\251029-disk-full"
 explorer "D:\251029-disk-full"
 
-EDGE-RESTART-1111BIGMilan1dr_full_b1_s1_v1.tib
+dir EDGE-RESTART-1111BIGMilan1dr_full_b1_s1_v1.tib
 
 edge://edge-urls
 edge://history/recentlyClosed
