@@ -4,10 +4,17 @@ dokážeš přečíst 20 slov
 TODO ℹ️
 04-KDE-MAS-HLAVNI-NAPOVEDU.f8.md
 
- C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 
+cmd /c dir c:\251029-disk-full
+^c
 edge://restart/
-4G  ->  12G
+
+todo mmaybe f9? fragile?
+edge://restart/
+###explorer ms-edge://restart/
+echo 4G  ->  12G
+
 cmd /c dir c:\ 
 cmd /c dir c:\251029-disk-full
 cmd /c dir d:\251029-disk-full
