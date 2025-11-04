@@ -7,6 +7,18 @@ TODO ℹ️
 
 edge://restart/
 4G  ->  12G
+cmd /c dir c:\ 
+cmd /c dir c:\251029-disk-full
+cmd /c dir d:\251029-disk-full
+
+startup
+lnk
+c:\251029-disk-full
+d:\251029-disk-full
+explorer "C:\251029-disk-full"
+explorer "D:\251029-disk-full"
+
+EDGE-RESTART-1111BIGMilan1dr_full_b1_s1_v1.tib
 
 edge://edge-urls
 edge://history/recentlyClosed
