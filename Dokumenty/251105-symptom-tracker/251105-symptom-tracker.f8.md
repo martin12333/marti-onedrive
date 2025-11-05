@@ -37,7 +37,12 @@ Choose a consistent timestamp format that works across your logs (e.g., ISO YYYY
 
 - 2025-11-04 15:38 - #M-antidepressant 
 - 2025-11-05 05:09 - #anger , unusual 
-- 2025-11-05 10:42 - #V-antidepressant , #feli
+- 2025-11-05 10:42 - #V-antidepressant , #felix-felicis ?
+- 2025-11-06 00:19 - developing these logs to track symptoms #251105
+- 
+
+
+
 
 # existing recommended vscode extenstions to insert timestamp ... to track symptoms in markdown files
 
