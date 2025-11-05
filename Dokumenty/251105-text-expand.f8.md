@@ -3,6 +3,11 @@
 
 
 
+mkdir Dokumenty\251105-symptom-tracker
+code Dokumenty\251105-symptom-tracker\251105-symptom-tracker.f8.md
+
+
+
 https://www.quickaccesspopup.com/what-are-hotstrings/#:~:text=An%20hotstring%20is%20a%20shortcode,a%20keyboard%20shortcut%20would%20do).
 
 
