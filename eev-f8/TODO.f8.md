@@ -6,9 +6,14 @@ TODO ℹ️
 
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 
-cmd /c dir c:\251029-disk-full
+
+du
+du .
+
 ^c
+edgere
 edge://restart/
+cmd /c dir c:\ 
 
 todo mmaybe f9? fragile?
 edge://restart/
@@ -20,9 +25,6 @@ cmd /c dir c:\251029-disk-full
 cmd /c dir d:\251029-disk-full
 
 startup
-lnk
-c:\251029-disk-full
-d:\251029-disk-full
 explorer "C:\251029-disk-full"
 explorer "D:\251029-disk-full"
 
