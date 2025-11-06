@@ -35,7 +35,7 @@ Choose a consistent timestamp format that works across your logs (e.g., ISO YYYY
 
 # 2025-11-04
 
-- 2025-11-04 15:38 - #M-antidepressant 
+- 2025-11-04 15:38 - [[M-antidepressant]]
 - 2025-11-05 05:09 - #anger , unusual 
   - AI suggestion: Practice deep breathing exercises to manage anger.
 - 2025-11-05 10:42 - #V-antidepressant , #felix-felicis ?

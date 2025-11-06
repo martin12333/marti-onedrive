@@ -5,6 +5,7 @@
 
 mkdir Dokumenty\251105-symptom-tracker
 code Dokumenty\251105-symptom-tracker\251105-symptom-tracker.f8.md
+code Dokumenty\2511-symptom-tracker.publ.dir
 
 
 
