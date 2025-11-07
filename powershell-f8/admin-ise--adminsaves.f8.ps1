@@ -417,17 +417,6 @@ cmd /c dir /a   C:\Users\milan_rxtipwr\.git
 cmd /c dir /a   C:\Users\milan_rxtipwr\OneDrive\.git
 
 
-cd C:\Users\marti\OneDrive
-cd C:\Users\marti\OneDrive
-cd C:\Users\marti\OneDrive\Dokumenty
-diskusage.exe /a   /h   /t:10
-diskusage.exe  /f:911999888 C:\ProgramData\Microsoft\Windows\Containers
-diskusage.exe  /f:911999888 C:\Users\marti\AppData
-diskusage.exe  /f:1911999888 C:\
-diskusage.exe   /h   /t:10
-diskusage.exe /?
-
-
 PS C:\Users\marti> diskusage.exe /?
 DiskUsage - Disk Usage
 
@@ -484,6 +473,18 @@ PS C:\Users\marti>
 '
 
 
+cd C:\Users\marti\OneDrive
+cd C:\Users\marti\OneDrive
+cd C:\Users\marti\OneDrive\Dokumenty
+diskusage.exe /a   /h   /t:10
+diskusage.exe  /f:911999888 C:\ProgramData\Microsoft\Windows\Containers
+diskusage.exe  /f:911999888 C:\Users\marti\AppData
+diskusage.exe  /f:1911999888 C:\
+diskusage.exe   /h   /t:10
+diskusage.exe /?
+
+
+
 
       4,110,569,472       37,868  C:\Users\marti\OneDrive
 
@@ -534,7 +535,79 @@ PS C:\Users\marti\OneDrive> diskusage.exe  /f:911999888 C:\Users\marti\AppData
 
 PS C:\Users\marti\OneDrive>
 
+File C:\Users\marti\OneDrive\Dokumenty\WindowsPowerShell\profile.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see
+ about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:0 char:0
+PS C:\WINDOWS\system32> diskusage.exe  /f:1911999888 C:\
+         SizeOnDisk        Files  Directory path
+      2,024,153,088        5,106  C:\Program Files\Adobe\Acrobat DC\Acrobat
+      2,045,964,288        5,167  C:\Program Files\Adobe\Acrobat DC
+      2,045,968,384        5,167  C:\Program Files\Adobe
+      2,108,948,480        6,809  C:\Program Files\Microsoft Office\root\Office16
+      4,071,403,520       11,970  C:\Program Files\Microsoft Office\root
+      4,153,077,760       12,008  C:\Program Files\Microsoft Office
+      8,006,799,360       54,369  C:\Program Files\WindowsApps
+     20,769,734,656       97,667  C:\Program Files
+      4,483,186,688        8,447  C:\Program Files (x86)
+      1,938,886,656        7,381  C:\ProgramData\Lenovo
+      3,438,665,728      265,030  C:\ProgramData\Microsoft\Windows\Containers\La
+yers
+      4,617,347,072      265,042  C:\ProgramData\Microsoft\Windows\Containers
+      4,814,917,632      270,087  C:\ProgramData\Microsoft\Windows
+      6,125,744,128      274,473  C:\ProgramData\Microsoft
+     11,098,755,072      289,869  C:\ProgramData
+      2,582,478,848       25,814  C:\Users\marti\AppData\Local\Google\Chrome\Use
+r Data
+      2,582,507,520       25,814  C:\Users\marti\AppData\Local\Google\Chrome
+      2,584,842,240       26,266  C:\Users\marti\AppData\Local\Google
+      2,079,719,424       16,342  C:\Users\marti\AppData\Local\Microsoft\Edge\Us
+er Data\Default
+      4,467,392,512       30,439  C:\Users\marti\AppData\Local\Microsoft\Edge\Us
+er Data
+      4,467,433,472       30,439  C:\Users\marti\AppData\Local\Microsoft\Edge
+      6,038,155,264       56,933  C:\Users\marti\AppData\Local\Microsoft
+      7,881,097,216            1  C:\Users\marti\AppData\Local\Packages\Canonica
+lGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc\LocalState
+      7,881,175,040           11  C:\Users\marti\AppData\Local\Packages\Canonica
+lGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc
+      9,814,663,168       17,198  C:\Users\marti\AppData\Local\Packages
+     22,118,117,376      113,988  C:\Users\marti\AppData\Local
+      1,973,616,640        7,154  C:\Users\marti\AppData\Roaming\.minecraft
+      5,248,626,688       86,864  C:\Users\marti\AppData\Roaming
+     27,424,256,000      201,379  C:\Users\marti\AppData
+      2,362,658,816           12  C:\Users\marti\gensim-data
+      4,113,485,824       37,880  C:\Users\marti\OneDrive
+     40,148,791,296      340,973  C:\Users\marti
+      2,511,880,192       16,905  C:\Users\micha\AppData\Local
+      3,056,197,632       25,201  C:\Users\micha\AppData
+      3,466,928,128       25,619  C:\Users\micha
+      2,172,665,856       21,371  C:\Users\milan_rxtipwr\AppData\Local\Microsoft
+\Edge\User Data
+      2,172,698,624       21,371  C:\Users\milan_rxtipwr\AppData\Local\Microsoft
+\Edge
+      3,347,333,120       37,017  C:\Users\milan_rxtipwr\AppData\Local\Microsoft
+      4,593,684,480       50,794  C:\Users\milan_rxtipwr\AppData\Local
+      4,947,144,704       54,638  C:\Users\milan_rxtipwr\AppData
+      2,351,755,264        6,481  C:\Users\milan_rxtipwr\OneDrive
+      7,349,080,064       61,526  C:\Users\milan_rxtipwr
+     53,095,559,168      438,942  C:\Users
+     12,302,917,632          657  C:\Windows\Installer
+      7,861,260,288            3  C:\Windows\ServiceProfiles\LocalService\AppDat
+a\Local\Temp
+      7,913,975,808           83  C:\Windows\ServiceProfiles\LocalService\AppDat
+a\Local
+      7,914,270,720          145  C:\Windows\ServiceProfiles\LocalService\AppDat
+a
+      7,923,068,928          158  C:\Windows\ServiceProfiles\LocalService
+      7,963,148,288          753  C:\Windows\ServiceProfiles
+      4,016,394,240       11,494  C:\Windows\System32
+      4,215,287,808       74,461  C:\Windows\WinSxS
+     31,222,853,632      106,443  C:\Windows
+    137,904,435,200      942,660  C:\
 
+150,749,855,744/158,678,904,832  95.0% of disk in use
+
+PS C:\WINDOWS\system32>
 
 ##########
 #  sync by hand ?!
