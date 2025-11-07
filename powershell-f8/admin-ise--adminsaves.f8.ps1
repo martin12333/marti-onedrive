@@ -23,6 +23,15 @@ the MAIN COPY		C:\Users\marti\admin-ise--adminsaves.f8.ps1
 the SUBORDINATE COPY jiny dir C:\Users\marti\OneDrive\powershell-f8\admin-ise--adminsaves.f8.ps1
 
 
+ise ok
+File C:\Users\marti\OneDrive\Dokumenty\WindowsPowerShell\profile.ps1 cannot be loaded because running scripts is disabled on this system. For mor
+e information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:0 char:0
+PS C:\WINDOWS\system32> diskusage.exe /a   /h   /t:10
+
+
+
+
 echo '-------- section --------'
 
 
@@ -413,7 +422,7 @@ cd C:\Users\marti\OneDrive
 cd C:\Users\marti\OneDrive\Dokumenty
 diskusage.exe /a   /h   /t:10
 diskusage.exe  /f:911999888 C:\ProgramData\Microsoft\Windows\Containers
-diskusage.exe  /f:911999888
+diskusage.exe  /f:911999888 C:\Users\marti\AppData
 diskusage.exe   /h   /t:10
 diskusage.exe /?
 
@@ -470,10 +479,15 @@ Options    :
     /v, /verbose             displays verbose error information
     /x, /clearDefault        do not display the default selected columns
 PS C:\Users\marti>
+
 '
 
 
+
       4,110,569,472       37,868  C:\Users\marti\OneDrive
+
+149,744,443,392/158,678,904,832  94.3% of disk in use
+
 
 149,744,443,392/158,678,904,832  94.3% of disk in use
 
@@ -481,10 +495,16 @@ PS C:\Users\marti\OneDrive> diskusage.exe  /f:911999888 C:\ProgramData\Microsoft
          SizeOnDisk        Files  Directory path
         918,855,680       51,693  C:\ProgramData\Microsoft\Windows\Containers\Layers\679b4583-b7cc-4290-9ffe-bcef7f407576\Files
         997,617,664       51,716  C:\ProgramData\Microsoft\Windows\Containers\Layers\679b4583-b7cc-4290-9ffe-bcef7f407576
+        941,379,584       54,847  C:\ProgramData\Microsoft\Windows\Containers\Layers\e1ffdd3a-f068-45ce-8a21-d049eaa7273d\Files\Windows
+        985,227,264       55,552  C:\ProgramData\Microsoft\Windows\Containers\Layers\e1ffdd3a-f068-45ce-8a21-d049eaa7273d\Files
+      1,064,505,344       55,575  C:\ProgramData\Microsoft\Windows\Containers\Layers\e1ffdd3a-f068-45ce-8a21-d049eaa7273d
+      3,348,529,152      265,095  C:\ProgramData\Microsoft\Windows\Containers\Layers
+      4,527,210,496      265,107  C:\ProgramData\Microsoft\Windows\Containers
+
+149,750,800,384/158,678,904,832  94.3% of disk in use
 
 
 
-		
 ##########
 #  sync by hand ?!
 #  ^a  ^c  @tab ^V
