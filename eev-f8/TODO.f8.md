@@ -16,7 +16,6 @@ edge://restart/
 cmd /c dir c:\ 
 file:///C:/Users/marti/OneDrive/eev-f8/TODO.f8.md#edge://restart/
 
-C:\Users\marti\OneDrive\windows-f8\win-disk-C-full.f8.md
 file:///D:/umarti/dowNLOADS--SYMLINKED/9000favorites_11_7_25.html
 C:\Users\marti\OneDrive\windows-f8\NETSCAPE-Bookmark-file-1.f8.html
 
@@ -24,6 +23,9 @@ todo mmaybe f9? fragile?
 edge://restart/
 ###explorer ms-edge://restart/
 echo 4G  ->  12G
+
+C:\Users\marti\OneDrive\eev-f8\TODO.f8.md
+C:\Users\marti\OneDrive\windows-f8\win-disk-C-full.f8.md
 
 cmd /c dir c:\ 
 cmd /c dir c:\251029-disk-full

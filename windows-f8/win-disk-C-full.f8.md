@@ -182,8 +182,15 @@ Visual Studio Code uses the versions of .NET already installed on your system. I
 '
 
 
-
+# 251029
 # 2511
+
+C:\Users\marti\OneDrive\eev-f8\TODO.f8.md
+C:\Users\marti\OneDrive\windows-f8\win-disk-C-full.f8.md
+
+cmd /c dir c:\ 
+cmd /c dir c:\251029-disk-full
+cmd /c dir d:\251029-disk-full
 
 
 C:\Users\marti\OneDrive\windows-f8\NETSCAPE-Bookmark-file-1.f8.html
