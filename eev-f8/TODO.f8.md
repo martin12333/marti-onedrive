@@ -24,6 +24,15 @@ echo 4G  ->  12G
 
 while ($true) { Start-Sleep -Seconds 4; cmd /c dir c:\p*.sys /as  |findstr bytes  }
 
+
+wsl --list-all
+wsl --help
+wsl --list --verbose --all
+wsl --debug-shell
+wsl
+
+
+
 cmd /c dir /?
 
 cmd /c dir c:\251029-disk-full
