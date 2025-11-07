@@ -12742,3 +12742,5 @@ du -l 1  Default  | sort
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 bash
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+disku
+diskusage.exe /a   /h   /t:10

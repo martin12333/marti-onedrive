@@ -38,7 +38,7 @@ mkdir D:\umarti\246-du64
 
 
 
-diskusage.exe /a   /h   /t:10
+diskusage.exe /?
 diskusage.exe   /h   /t:10   C:\Users\marti\OneDrive
 
 
