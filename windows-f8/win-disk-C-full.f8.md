@@ -183,7 +183,7 @@ Visual Studio Code uses the versions of .NET already installed on your system. I
 
 
 # 251029
-# 2511
+# 251106
 
 C:\Users\marti\OneDrive\eev-f8\TODO.f8.md
 C:\Users\marti\OneDrive\windows-f8\win-disk-C-full.f8.md
@@ -270,13 +270,34 @@ C:/Program Files/Git    151328 143260      8069  95% /
 
 
 
+edge://favorites
+
+# https://chatgpt.com/c/690d5ef2-b820-8325-a044-39d611333f95
+how to delete all bookmarks from msedge
+how to delete all bookmarks from msedge
+how to delete all bookmarks from msedge
+Here are several ways to **delete all bookmarks (favorites)** from **Microsoft Edge**, depending on what you prefer — manually, via settings, or automatically:
+
+---
+
+### 🧭 Option 1: Delete All Bookmarks from Edge Settings
 
 
 
 
+1. Open **Microsoft Edge**.
+2. Press **Ctrl + Shift + O** → opens the **Favorites manager**.
+3. Click the **“…” (three dots)** in the upper-right corner of the favorites panel.
+4. Choose **“Remove all favorites.”**
 
+   * If you don’t see that option, continue below.
+5. Alternatively, press **Ctrl + A** to select all favorites, then **press Delete** on your keyboard.
 
+> ⚠️ This removes everything from the visible list — including folders.
 
+---
+
+💚 (And take a small break, hum something, or review your topic 012 before continuing.)
 
 
 # 2511

@@ -1,14 +1,12 @@
 
-dokážeš přečíst 20 slov
+# dokážeš přečíst 20 slov
 
 TODO ℹ️
-04-KDE-MAS-HLAVNI-NAPOVEDU.f8.md
+# 04-KDE-MAS-HLAVNI-NAPOVEDU.f8.md
 
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 
-
-du
-du .
+# 251029-disk-full
 
 ^c
 edgere
@@ -24,8 +22,6 @@ edge://restart/
 ###explorer ms-edge://restart/
 echo 4G  ->  12G
 
-C:\Users\marti\OneDrive\eev-f8\TODO.f8.md
-C:\Users\marti\OneDrive\windows-f8\win-disk-C-full.f8.md
 
 cmd /c dir c:\ 
 cmd /c dir c:\251029-disk-full
@@ -36,6 +32,11 @@ explorer "C:\251029-disk-full"
 explorer "D:\251029-disk-full"
 
 dir EDGE-RESTART-1111BIGMilan1dr_full_b1_s1_v1.tib
+
+C:\Users\marti\OneDrive\eev-f8\TODO.f8.md
+C:\Users\marti\OneDrive\windows-f8\win-disk-C-full.f8.md
+251106
+
 
 edge://edge-urls
 edge://history/recentlyClosed
