@@ -19,6 +19,7 @@ C:\Users\marti\OneDrive\windows-f8\NETSCAPE-Bookmark-file-1.f8.html
 
 todo mmaybe f9? fragile?
 edge://restart/
+edge://restart0
 ###explorer ms-edge://restart/
 echo 4G  ->  12G
 

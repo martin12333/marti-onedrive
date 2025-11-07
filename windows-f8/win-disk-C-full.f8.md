@@ -376,7 +376,121 @@ Here are several ways to **delete all bookmarks (favorites)** from **Microsoft E
 
 
 
+# 251107.1819
 
+es
+               0 Dir(s)   7,281,352,704 bytes free
+               1 File(s) 18,391,158,784 bytes
+               0 Dir(s)   1,315,577,856 bytes free
+               1 File(s) 18,391,158,784 bytes
+               0 Dir(s)   1,325,301,760 bytes free
+
+
+   Id ProcessName WorkingSet PrivateMemorySize VirtualMemorySize       
+   -- ----------- ---------- ----------------- -----------------       
+ 4224 msedge        10223616           2445312         209788928       
+20920 msedge       160743424         133382144         997507072       
+21456 msedge        54906880          28356608        1933185024       
+21756 msedge        23011328          11210752         532668416       
+23848 msedge        40574976          21938176        1933185024       
+24776 msedge        50118656          22102016         217718784       
+27196 msedge        18751488           8421376         532000768       
+28132 msedge        57757696          24768512         227704832       
+32020 msedge        63344640          34443264        1957568512       
+32180 msedge        86315008          49872896         206192640       
+32196 msedge        38191104          18530304         181792768       
+32844 msedge        15597568           8052736         494673920       
+33264 msedge        35414016          18137088         171728896       
+34664 m
+
+
+   Id ProcessName PeakWorkingSet PrivateMemorySize VirtualMemorySize
+   -- ----------- -------------- ----------------- -----------------   
+32524 msedge           738762752         563781632         275795968   
+13180 msedge           533159936         313319424       -2119651328   
+35408 msedge           349036544         130068480        1971200000   
+16596 msedge           262533120         133541888        1962811392   
+19844 msedge           257622016         198176768         303656960   
+34068 msedge           218542080         137601024         255889408   
+15916 msedge           200507392         125394944        2036363264   
+20920 msedge           186187776         199561216        1221644288   
+ 9100 msedge        
+
+
+get-process msedge | select-object Id,ProcessName,WorkingSet,PrivateMemorySize,VirtualMemorySize | sort-object -property WorkingSet -descending | format-table -auto
+get-process msedge | select-object Id,ProcessName,peakworkingset,PrivateMemorySize,VirtualMemorySize | sort-object -property id  -descending | format-table -auto
+
+
+get-process msedge | select-object Id,VirtualMemorySize  | sort-object -property VirtualMemorySize  -descending | format-table -auto  
+  Id VirtualMemorySize
+   -- -----------------
+29984        2002886656
+30868        1996124160
+10668        1971200000
+16180        1962811392
+24808        1962549248
+31060        1951735808
+27392        1042960384
+ 2828         674222080
+
+   Id VirtualMemorySize
+   -- -----------------
+30868        1987735552
+31060        1980035072
+10668        1979588608
+24808        1971986432
+ 2968        1962811392
+17452        1945903104
+29984        1226362880
+27392        1226235904
+24296         822939648
+
+
+
+  Id VirtualMemorySize
+   -- -----------------
+31060        2072252416
+30868        1979346944
+24988        1974345728
+19560        1972248576
+ 2968        1971200000
+10668        1971200000
+16180        1971200000
+15648        1971134464
+ 1432        1970020352
+24808        1962549248
+ 5704        1954291712
+17452        1953243136
+19268        1945903104
+ 5032        1941573632
+13800        1941573632
+17392        1941573632
+27392        1230422016
+
+
+
+,peakworkingset,PrivateMemorySize,VirtualMemorySize | sort-object -property id  -descending | format-table -auto
+
+$y=get-process -id 35408
+$y
+
+
+VirtualMemorySize          : 1962811392
+
+PeakVirtualMemorySize64    : 3764373037056
+
+
+get-process msedge | select-object Id,ProcessName,WorkingSet,PrivateMemorySize,VirtualMemorySize, peakVirtualMemorySize, peakworkingset
+$x=get-process msedge
+$y=$x[0]
+
+ $y | select *
+   |  findstr peak
+
+| select-object Id,ProcessName,WorkingSet,PrivateMemorySize,VirtualMemorySize, peakVirtualMemorySize, peakworkingset
+
+
+| sort-object -property VirtualMemorySize -descending | format-table -auto
 
 
 # 251107
@@ -388,7 +502,9 @@ explorer  "C:\Users\marti\AppData\Local\Microsoft\Edge"
 du  "C:\Users\marti\AppData\Local\Microsoft\Edge"
 
 
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --profile-directory=Default --restart --restart
 
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=renderer --pdf-upsell-enabled --dma-cps-flags=2291 --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=en-US --js-flags=--ms-user-locale= --device-scale-factor=1.25 --num-raster-threads=3 --enable-main-frame-before-activation --renderer-client-id=141 --time-ticks-at-unix-epoch=-1762194494786164 --launch-time-ticks=340051130725 --skip-read-main-dll --metrics-shmem-handle=5692,i,7214962461772985556,16555140949668074208,2097152 --field-trial-handle=2140,i,10366383729909580062,17653755075335972918,262144 --variations-seed-version --trace-process-track-uuid=3190709118434772203 --mojo-platform-channel-handle=12104 /prefetch:1
 
 
 cd ~/AppData

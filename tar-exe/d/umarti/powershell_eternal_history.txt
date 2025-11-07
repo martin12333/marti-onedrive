@@ -12779,3 +12779,24 @@ cd  "C:\Users\marti\AppData\Local\Microsoft\Edge"
 explorer  "C:\Users\marti\AppData\Local\Microsoft\Edge"
 du  "C:\Users\marti\AppData\Local\Microsoft\Edge"
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+get-process msedge | select-object Id,ProcessName,WorkingSet,PrivateMemorySize,VirtualMemorySize | sort-object -property PrivateMemorySize -descending | format-table -auto
+get-process msedge | select-object Id,ProcessName,WorkingSet,PrivateMemorySize,VirtualMemorySize | sort-object -property VirtualMemorySize -descending | format-table -auto
+get-process msedge | select-object Id,ProcessName,WorkingSet,PrivateMemorySize,VirtualMemorySize, peakVirtualMemorySize
+get-process msedge | select-object Id,ProcessName,WorkingSet,PrivateMemorySize,VirtualMemorySize, peakVirtualMemorySize, peakworkingsetsize
+get-process msedge | select-object Id,ProcessName,WorkingSet,PrivateMemorySize,VirtualMemorySize, peakVirtualMemorySize, peakworkingset
+$x=get-process msedge
+$y=$x[0]
+$y | select *
+$y | select *  |  findstr peak
+get-process msedge | select-object Id,ProcessName,WorkingSet,PrivateMemorySize,VirtualMemorySize, peakVirtualMemorySize, peakworkingset
+get-process msedge | select-object Id,ProcessName,WorkingSet,PrivateMemorySize,VirtualMemorySize | sort-object -property VirtualMemorySize -descending | format-table -auto
+get-process msedge | select-object Id,ProcessName,WorkingSet,PrivateMemorySize,VirtualMemorySize | sort-object -property peakworkingset -descending | format-table -auto
+get-process msedge | select-object Id,ProcessName,peakworkingset,PrivateMemorySize,VirtualMemorySize | sort-object -property peakworkingset -descending | format-table -auto
+get-process msedge | select-object Id,ProcessName,WorkingSet,PrivateMemorySize,VirtualMemorySize | sort-object -property WorkingSet -descending | format-table -auto
+get-process msedge | select-object Id,ProcessName,peakworkingset,PrivateMemorySize,VirtualMemorySize | sort-object -property id  -descending | format-table -auto
+get-process -id 35408
+$y=get-process -id 35408
+$y
+$y | select *
+get-process msedge | select-object Id,VirtualMemorySize
+get-process msedge | select-object Id,VirtualMemorySize  | sort-object -property VirtualMemorySize  -descending | format-table -auto
