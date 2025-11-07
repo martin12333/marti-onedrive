@@ -12774,3 +12774,8 @@ wsl --shutdown
 wsl --list --verbose --all
 wsl --shutdown
 wsl --list --verbose --all
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+cd  "C:\Users\marti\AppData\Local\Microsoft\Edge"
+explorer  "C:\Users\marti\AppData\Local\Microsoft\Edge"
+du  "C:\Users\marti\AppData\Local\Microsoft\Edge"
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh

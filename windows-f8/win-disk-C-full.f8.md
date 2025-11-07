@@ -288,7 +288,63 @@ C:/Program Files/Git    151328 147920      3409  98% /
 Filesystem           1M-blocks   Used Available Use% Mounted on
 
 
-edge://favorites
+
+
+
+
+
+
+
+
+while ($true) { Start-Sleep -Seconds 4; cmd /c dir c:\p*.sys /as  |findstr bytes  }
+
+
+
+               0 Dir(s)   3,698,012,160 bytes free
+               1 File(s) 17,126,270,976 bytes
+               0 Dir(s)   3,690,971,136 bytes free
+               1 File(s) 17,126,270,976 bytes
+               0 Dir(s)   3,689,996,288 bytes free
+               1 File(s) 17,126,270,976 bytes
+               0 Dir(s)   3,689,668,608 bytes free
+               1 File(s) 17,126,270,976 bytes
+               0 Dir(s)   3,689,598,976 bytes free
+               1 File(s) 17,126,270,976 bytes
+               0 Dir(s)   3,689,443,328 bytes free
+               1 File(s) 17,126,270,976 bytes
+               0 Dir(s)   3,689,410,560 bytes free
+
+               1 File(s) 13,373,526,016 bytes
+               0 Dir(s)   3,689,312,256 bytes free
+               1 File(s) 13,373,526,016 bytes
+               0 Dir(s)   3,689,082,880 bytes free
+               1 File(s) 13,373,526,016 bytes
+               0 Dir(s)   3,688,923,136 bytes free
+               1 File(s) 13,373,526,016 bytes
+               0 Dir(s)   3,688,828,928 bytes free
+               1 File(s) 13,373,526,016 bytes
+               0 Dir(s)   3,692,589,056 bytes free
+               1 File(s) 13,373,526,016 bytes
+               0 Dir(s)   3,691,520,000 bytes free
+               1 File(s) 13,373,526,016 bytes
+               0 Dir(s)   3,690,958,848 bytes free
+               1 File(s) 13,373,526,016 bytes
+               0 Dir(s)   3,690,831,872 bytes free
+               1 File(s) 13,373,526,016 bytes
+               0 Dir(s)   3,715,006,464 bytes free
+
+               1 File(s) 12,262,223,872 bytes
+               0 Dir(s)   8,612,585,472 bytes free
+               1 File(s) 12,262,223,872 bytes
+               0 Dir(s)   8,613,384,192 bytes free
+               1 File(s) 12,262,223,872 bytes
+               0 Dir(s)   8,612,810,752 bytes free
+               1 File(s) 12,262,223,872 bytes
+               0 Dir(s)   8,610,279,424 bytes free
+
+
+
+# edge://favorites
 
 # https://chatgpt.com/c/690d5ef2-b820-8325-a044-39d611333f95
 how to delete all bookmarks from msedge
@@ -324,6 +380,15 @@ Here are several ways to **delete all bookmarks (favorites)** from **Microsoft E
 
 
 # 251107
+
+
+
+cd  "C:\Users\marti\AppData\Local\Microsoft\Edge"
+explorer  "C:\Users\marti\AppData\Local\Microsoft\Edge"
+du  "C:\Users\marti\AppData\Local\Microsoft\Edge"
+
+
+
 
 
 cd ~/AppData
@@ -400,6 +465,9 @@ PS C:\Users\marti\AppData\Local\Microsoft\Edge\User Data> cmd /c dir C:\Users\ma
    7,696,448  C:\Users\marti\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc
    9,622,535  C:\Users\marti\AppData\Local\Packages
   21,618,471  C:\Users\marti\AppData\Local
+
+
+
 
 
 
