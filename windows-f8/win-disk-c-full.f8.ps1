@@ -347,6 +347,13 @@ du64
 
 
 
+# 2511
+C:\Users\marti\OneDrive\windows-f8\win-disk-C-full.f8.md
+bash
+ while true; do df -m / ; sleep 4;  done
+
+
+
 
 ## check browser caches
 

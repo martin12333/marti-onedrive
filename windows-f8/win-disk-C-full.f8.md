@@ -185,7 +185,17 @@ Visual Studio Code uses the versions of .NET already installed on your system. I
 
 # 2511
 
+C:\Users\marti\OneDrive\windows-f8\win-disk-c-full.f8.ps1
+cd "C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\"
+https://vscode.dev/github/clarkgrubb/wikidot-to-html/blob/master#L358-L359
+
+
+
+
+
+bash
  while true; do df -m / ; sleep 4;  done
+
 
 Filesystem           1M-blocks   Used Available Use% Mounted on
 C:/Program Files/Git    151328 139122     12207  92% /
