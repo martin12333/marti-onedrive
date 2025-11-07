@@ -360,6 +360,53 @@ PS C:\Users\marti\AppData\Local\Microsoft\Edge\User Data> cmd /c dir C:\Users\ma
 
 
 
+
+     538,144  C:\Users\marti\AppData\Roaming\Code\Service Worker\CacheStorage
+     544,372  C:\Users\marti\AppData\Roaming\Code\Service Worker
+     571,462  C:\Users\marti\AppData\Local\pip\cache\http
+     571,709  C:\Users\marti\AppData\Local\pip
+     571,709  C:\Users\marti\AppData\Local\pip\cache
+     595,553  C:\Users\marti\AppData\Local\Microsoft\Office
+
+
+     607,169  C:\Users\marti\AppData\Local\ms-playwright
+
+
+
+     647,612  C:\Users\marti\AppData\Roaming\Code\User
+     649,235  C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Profile 3\Extensions\cfhdojbkjhnklbpkdaibdccddilifddb
+     655,527  C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Extensions
+     660,374  C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Profile 3\Extensions
+     789,128  C:\Users\marti\AppData\Roaming\.minecraft\saves\Witchcraft and Wizardry - Light\region
+     810,111  C:\Users\marti\AppData\Local\Amazon\Kindle\application
+     867,154  C:\Users\marti\AppData\Local\Amazon
+     867,154  C:\Users\marti\AppData\Local\Amazon\Kindle
+     888,877  C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Profile 3
+     897,183  C:\Users\marti\AppData\Local\Google\Chrome\User Data\Default
+     934,672  C:\Users\marti\AppData\Roaming\.minecraft\saves\Witchcraft and Wizardry - Light
+     963,972  C:\Users\marti\AppData\Local\Google\Chrome\User Data\Profile 1
+   1,337,861  C:\Users\marti\AppData\Roaming\.minecraft\saves
+   1,579,547  C:\Users\marti\AppData\Roaming\Code
+   1,912,489  C:\Users\marti\AppData\Roaming\.minecraft
+   2,025,355  C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default
+   2,462,281  C:\Users\marti\AppData\Local\Google\Chrome
+   2,462,281  C:\Users\marti\AppData\Local\Google\Chrome\User Data
+   2,464,148  C:\Users\marti\AppData\Local\Google
+   4,500,347  C:\Users\marti\AppData\Local\Microsoft\Edge
+   4,500,347  C:\Users\marti\AppData\Local\Microsoft\Edge\User Data
+   4,958,466  C:\Users\marti\AppData\Roaming
+   6,007,728  C:\Users\marti\AppData\Local\Microsoft
+   7,696,384  C:\Users\marti\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc\LocalState
+   7,696,448  C:\Users\marti\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc
+   9,622,535  C:\Users\marti\AppData\Local\Packages
+  21,618,471  C:\Users\marti\AppData\Local
+
+
+
+
+
+
+
 # 2511
 
 perf monitor

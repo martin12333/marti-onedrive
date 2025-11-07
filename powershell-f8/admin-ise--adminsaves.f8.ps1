@@ -423,6 +423,7 @@ cd C:\Users\marti\OneDrive\Dokumenty
 diskusage.exe /a   /h   /t:10
 diskusage.exe  /f:911999888 C:\ProgramData\Microsoft\Windows\Containers
 diskusage.exe  /f:911999888 C:\Users\marti\AppData
+diskusage.exe  /f:1911999888 C:\
 diskusage.exe   /h   /t:10
 diskusage.exe /?
 
