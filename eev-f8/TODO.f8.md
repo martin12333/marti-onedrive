@@ -22,8 +22,10 @@ edge://restart/
 ###explorer ms-edge://restart/
 echo 4G  ->  12G
 
+while ($true) { Start-Sleep -Seconds 4; cmd /c dir c:\p*.sys /as  |findstr bytes  }
 
-cmd /c dir c:\ 
+cmd /c dir /?
+
 cmd /c dir c:\251029-disk-full
 cmd /c dir d:\251029-disk-full
 
