@@ -318,6 +318,30 @@ Here are several ways to **delete all bookmarks (favorites)** from **Microsoft E
 💚 (And take a small break, hum something, or review your topic 012 before continuing.)
 
 
+
+
+
+
+
+# 251107
+
+
+cd ~/AppData
+
+du -v    >c:\users\marti\1
+
+sort.exe /?
+du -ct -nobanner -v  ## |  sort.exe  /+20
+du  -nobanner -v  ## |  sort.exe  /+20
+du  -nobanner -v   |  sort.exe
+du  -v   |  sort.exe   >~/1
+code $HOME/1
+edge.du-v
+
+
+
+
+
 # 2511
 
 perf monitor

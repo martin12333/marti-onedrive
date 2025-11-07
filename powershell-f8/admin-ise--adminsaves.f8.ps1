@@ -505,6 +505,36 @@ PS C:\Users\marti\OneDrive> diskusage.exe  /f:911999888 C:\ProgramData\Microsoft
 
 
 
+
+
+PS C:\Users\marti\OneDrive> diskusage.exe  /f:911999888 C:\Users\marti\AppData
+         SizeOnDisk        Files  Directory path
+        941,576,192        8,646  C:\Users\marti\AppData\Local\Google\Chrome\User Data\Default
+      1,018,167,296       13,285  C:\Users\marti\AppData\Local\Google\Chrome\User Data\Profile 1
+      2,582,478,848       25,814  C:\Users\marti\AppData\Local\Google\Chrome\User Data
+      2,582,507,520       25,814  C:\Users\marti\AppData\Local\Google\Chrome
+      2,584,842,240       26,266  C:\Users\marti\AppData\Local\Google
+      1,901,682,688       16,300  C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default
+      4,289,355,776       30,397  C:\Users\marti\AppData\Local\Microsoft\Edge\User Data
+      4,289,396,736       30,397  C:\Users\marti\AppData\Local\Microsoft\Edge
+      5,844,811,776       56,856  C:\Users\marti\AppData\Local\Microsoft
+      7,881,097,216            1  C:\Users\marti\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc\LocalState
+      7,881,175,040           11  C:\Users\marti\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc
+      9,814,204,416       17,197  C:\Users\marti\AppData\Local\Packages
+     21,924,212,736      113,909  C:\Users\marti\AppData\Local
+        964,046,848        3,700  C:\Users\marti\AppData\Roaming\.minecraft\saves\Witchcraft and Wizardry - Light
+      1,376,993,280        3,775  C:\Users\marti\AppData\Roaming\.minecraft\saves
+      1,973,616,640        7,154  C:\Users\marti\AppData\Roaming\.minecraft
+      1,699,561,472       44,462  C:\Users\marti\AppData\Roaming\Code
+      5,248,233,472       86,863  C:\Users\marti\AppData\Roaming
+     27,229,958,144      201,299  C:\Users\marti\AppData
+
+150,474,067,968/158,678,904,832  94.8% of disk in use
+
+PS C:\Users\marti\OneDrive>
+
+
+
 ##########
 #  sync by hand ?!
 #  ^a  ^c  @tab ^V
