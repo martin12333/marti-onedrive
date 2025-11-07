@@ -186,14 +186,82 @@ Visual Studio Code uses the versions of .NET already installed on your system. I
 # 2511
 
  while true; do df -m / ; sleep 4;  done
- 
+
 Filesystem           1M-blocks   Used Available Use% Mounted on
 C:/Program Files/Git    151328 139122     12207  92% /
 Filesystem           1M-blocks   Used Available Use% Mounted 
 
+
+328 139224     12105  93% /
+Filesystem           1M-blocks   Used Available Use% Mounted on
+C:/Program Files/Git    151328 139225     12104  93% /
+Filesystem           1M-blocks   Used Available Use% Mounted on
+C:/Program Files/Git    151328 139225     12104  93% /
+Filesystem           1M-blocks   Used Available Use% Mounted on
+C:/Program Files/Git    151328 139225     12104  93% /
+Filesystem           1M-blocks   Used Available Use% Mounted on
+C:/Program Files/Git    151328 139225     12104  93% /
+Filesystem           1M-blocks   Used Available Use% Mounted on
+C:/Program Files/Git    151328 144867      6462  96% /
+Filesystem           1M-blocks   Used Available Use% Mounted on
+C:/Program Files/Git    151328 144867      6462  96% /
+Filesystem           1M-blocks   Used Available Use% Mounted on
+C:/Program Files/Git    151328 144867      6462  96% /
+Filesystem           1M-blocks   Used Available Use% Mounted on
+C:/Program Files/Git    151328 144868      6461  96% /
+Filesystem           1M-blocks   Used Available Use% Mounted on
+C:/Program Files/Git    151328 144868      6461  96% /
+Filesystem           1M-blocks   Used Available Use% Mounted on
+C:/Program Files/Git    151328 144876      6453  96% /
+Filesystem           1M-blocks   Use
+
+
+C:/Program Files/Git    151328 145001      6328  96% /
+Filesystem           1M-blocks   Used Available Use% Mounted on
+C:/Program Files/Git    151328 145001      6328  96% /
+Filesystem           1M-blocks   Used Available Use% Mounted on
+C:/Program Files/Git    151328 145002      6327  96% /
+Filesystem           1M-blocks   Used Available Use% Mounted on
+C:/Program Files/Git    151328 145539      5790  97% /
+Filesystem           1M-blocks   Used Available Use% Mounted on
+C:/Program Files/Git    151328 148095      3234  98% /
+Filesystem           1M-blocks   Used Available Use% Mounted on
+C:/Program Files/Git    151328 148095      3234  98% /
+Filesystem           1M-blocks   Used Available Use% Mounted on
+C:/Program Files/Git    151328 148095      3234  98% /
+Filesystem           1M-blocks   Used Available Use% Mounted on
+C:/Program Files/Git    151328 148096      3233  98% /
+Filesystem           1M-blocks   Used Available Use% Mounted on
+C:/Program Files/Git    151328 148090      3239  98% /
+Filesystem           1M-blocks   Used Available Use% Mounted on
+C:/Program Files/Git    151328 143256      8073  95% /
+Filesystem           1M-blocks   Used Available Use% Mounted on
+C:/Program Files/Git    151328 143256      8073  95% /
+Filesystem           1M-blocks   Used Available Use% Mounted on
+C:/Program Files/Git    151328 143256      8073  95% /
+Filesystem           1M-blocks   Used Available Use% Mounted on
+C:/Program Files/Git    151328 143259      8070  95% /
+Filesystem           1M-blocks   Used Available Use% Mounted on
+C:/Program Files/Git    151328 143260      8069  95% /
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 2511
 
+perf monitor
 zaboha neurdzi nastaveni ... restart perfmojnitoru
+lz^e  mlz^i   minuty?
 
 <OBJECT ID="DISystemMonitor1" WIDTH="100%" HEIGHT="100%"
 CLASSID="CLSID:C4D2D8E0-D1DD-11CE-940F-008029004347">

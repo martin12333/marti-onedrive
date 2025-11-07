@@ -348,16 +348,28 @@ du64
 
 
 
+## check browser caches
 
+#
+bash
+strasne pomaly
+exit
 
+## cd "C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Profile 1"
 
-cd "C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Profile 1"
+cd "C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\"
 
 cd "C:\Users\marti\AppData\Local\Google\Chrome\User Data\Profile 4"
 
+cd ..
+
+Get-ChildItem -Recurse -File -Filter '*istory*' | Select-Object FullName, @{Name='SizeMB';Expression={[math]::Round($_.Length/1MB,2)}} | Sort-Object SizeMB -Descending
+
+Get-ChildItem -Recurse -File -Filter '*ookmar*' | Select-Object FullName, @{Name='SizeMB';Expression={[math]::Round($_.Length/1MB,2)}} | Sort-Object SizeMB -Descending
 
 
 
+du
 du --help
 
 du -m
