@@ -6,8 +6,10 @@
 mkdir Dokumenty\251105-symptom-tracker
 code Dokumenty\251105-symptom-tracker\251105-symptom-tracker.f8.md
 code Dokumenty\2511-symptom-tracker.publ.dir
-
-
+where.exe code
+"C:\Program Files\Microsoft VS Code\Code.exe" c:\Users\marti\OneDrive\Dokumenty\2511-symptom-tracker.publ.dir
+251105-symptom-tracker\251105-symptom-tracker.f8.md
+cmd
 
 https://www.quickaccesspopup.com/what-are-hotstrings/#:~:text=An%20hotstring%20is%20a%20shortcode,a%20keyboard%20shortcut%20would%20do).
 

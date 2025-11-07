@@ -14,6 +14,9 @@ du .
 edgere
 edge://restart/
 cmd /c dir c:\ 
+file:///C:/Users/marti/OneDrive/eev-f8/TODO.f8.md#edge://restart/
+
+
 
 todo mmaybe f9? fragile?
 edge://restart/
