@@ -336,9 +336,27 @@ du  -nobanner -v  ## |  sort.exe  /+20
 du  -nobanner -v   |  sort.exe
 du  -v   |  sort.exe   >~/1
 code $HOME/1
+sort.exe $HOME/1
 edge.du-v
 
 
+tmp male 
+     133,820  C:\Users\marti\AppData\Local\Temp
+cmd
+set
+
+TEMP=C:\Users\marti\AppData\Local\Temp
+TMP=C:\Users\marti\AppData\Local\Temp
+USERDOMAIN=MB-PC
+
+
+
+11/07/2025  09:47         2,715,791 1
+               1 File(s)      2,715,791 bytes
+               0 Dir(s)   7,923,630,080 bytes free
+PS C:\Users\marti\AppData\Local\Microsoft\Edge\User Data> cmd /c dir C:\Users\marti\1
+ Volume in drive C is Windows
+ Volume Serial Number is 2480-D21D
 
 
 
