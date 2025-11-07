@@ -369,6 +369,48 @@ Get-ChildItem -Recurse -File -Filter '*ookmar*' | Select-Object FullName, @{Name
 
 
 
+cd ~/OneDrive/Dokumenty
+
+
+sort.exe /?
+du -ct -nobanner -v  ## |  sort.exe  /+20
+du  -nobanner -v  ## |  sort.exe  /+20
+du  -nobanner -v   |  sort.exe
+du  -v   |  sort.exe   >~/1
+code $HOME/1
+edge.du-v
+
+crosoft\Edge\User Data\Default\Code Cache
+     257,553  C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Profile 1\Cache
+     257,553  C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Profile 1\Cache\Cache_Data
+     262,341  C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data
+     262,431  C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default\Cache
+     268,530  C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Profile 4
+     287,359  C:\Users\marti\AppData\Local\Mic
+
+du .
+du -l 1  | sort
+
+
+     268,530  C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Profile 4
+     343,753  C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\ProvenanceData
+     534,135  C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Profile 1
+     888,877  C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Profile 3
+   2,048,798  C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\Default
+Copyright (C) 2005-2018 Mark Russinovich
+Directories:  4486
+
+
+du -l 1  Default  | sort
+
+
+     253,794  C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\default\Code Cache
+     262,431  C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\default\Cache
+     655,527  C:\Users\marti\AppData\Local\Microsoft\Edge\User Data\default\Extensions
+Copyright (C) 2005-2018 Mark Russinovich
+
+
+
 du
 du --help
 
