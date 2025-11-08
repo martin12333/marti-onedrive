@@ -12800,3 +12800,34 @@ $y
 $y | select *
 get-process msedge | select-object Id,VirtualMemorySize
 get-process msedge | select-object Id,VirtualMemorySize  | sort-object -property VirtualMemorySize  -descending | format-table -auto
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+get-process msedge | select-object Id,VirtualMemorySize  | sort-object -property VirtualMemorySize  -descending | format-table -auto  | clip
+$y=Get-Item c:\pagefile.sys
+$y=Get-Item -force c:\pagefile.sys
+$y| select-object *
+cmd /c dir /?}
+cmd /c dir /?
+(Get-Item 'C:\pagefile.sys').Attributes -band [IO.FileAttributes]::SparseFile
+(Get-Item    -force 'C:\pagefile.sys').Attributes -band [IO.FileAttributes]::SparseFile
+Get-CimInstance Win32_PageFileSetting | Select *
+Get-CimInstance Win32_PageFileUsage | Select *
+Add-Type @"`
+using System;`
+using System.Runtime.InteropServices;`
+public class FileUtil {`
+    [DllImport("kernel32.dll", SetLastError = true, CharSet = CharSet.Auto)]`
+    public static extern uint GetCompressedFileSize(string lpFileName, out uint lpFileSizeHigh);`
+    public static ulong GetSizeOnDisk(string filename) {`
+        uint high; uint low = GetCompressedFileSize(filename, out high);`
+        return ((ulong)high << 32) + low;`
+    }`
+}`
+"@
+$file = Get-Item 'C:\pagefile.sys'  -force
+Path = $file.FullName
+$Path = $file.FullName
+$PhysicalMB = [math]::Round([FileUtil]::GetSizeOnDisk($file.FullName) / 1MB, 2)
+$physicalMB
+Get-CimInstance Win32_OperatingSystem | Select *
+Get-CimInstance Win32_OperatingSystem | Select *|set-clipboard
+Get-CimInstance Win32_OperatingSystem | Select *|clip

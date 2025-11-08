@@ -421,7 +421,189 @@ get-process msedge | select-object Id,ProcessName,WorkingSet,PrivateMemorySize,V
 get-process msedge | select-object Id,ProcessName,peakworkingset,PrivateMemorySize,VirtualMemorySize | sort-object -property id  -descending | format-table -auto
 
 
-get-process msedge | select-object Id,VirtualMemorySize  | sort-object -property VirtualMemorySize  -descending | format-table -auto  
+   Id VirtualMemorySize
+   -- -----------------
+36364        2076655616
+22980        1981685760
+24412        1981444096
+32308        1975263232
+12616        1972248576
+35132        1971134464
+30760        1971134464
+21720        1970151424
+ 7832        1962811392
+25152        1962811392
+14704        1954291712
+13476        1953243136
+26884        1949761536
+30164        1945772032
+32152        1941573632
+15420        1941573632
+24424        1074495488
+11856         692404224
+ 2512         541712384
+22764         535638016
+35300         494661632
+20328         297713664
+ 3656         295886848
+32516         255799296
+21756         252719104
+36808         247939072
+10924         223801344
+15196         220872704
+15400         220364800
+  324         220233728
+26876         217292800
+30436         209330176
+20952         193011712
+
+
+
+
+C:\Users\marti\OneDrive\ps-mylen-mar\start-robocopy.cmd
+
+```powershell
+
+# echo the sizeondisk of c:\pagefile.sys every 4 seconds
+
+while ($true) { Start-Sleep -Seconds 4; 
+# cmd /c dir c:\pagefile.sys /as  |findstr bytes  
+# powershell
+## no, the file may be sparse Get-Item c:\pagefile.sys | Select-Object Name, @{Name="SizeOnDisk";Expression={($_.Length + 4095) -band -4096}
+
+## no, the file Get-Item c:\pagefile.sys | Select-Object Name, @{Name="SizeOnDisk";Expression={(Get-PSDrive C).Used}}
+
+Get-Item c:\pagefile.sys | Select-Object Name, @{Name="SizeOnDisk";Expression={(Get-Item c:\pagefile.sys).Length }
+
+$y=Get-Item -force c:\pagefile.sys
+$y| select-object *
+
+
+
+cmd /c dir /?
+}
+
+(Get-Item    -force 'C:\pagefile.sys').Attributes -band [IO.FileAttributes]::SparseFile
+Get-CimInstance Win32_PageFileUsage | Select *
+ Name, AllocatedBaseSize, CurrentUsage, PeakUsage
+
+Get-CimInstance Win32_PageFileSetting | Select *
+Name, InitialSize, MaximumSize
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Add-Type @"
+using System;
+using System.Runtime.InteropServices;
+public class FileUtil {
+    [DllImport("kernel32.dll", SetLastError = true, CharSet = CharSet.Auto)]
+    public static extern uint GetCompressedFileSize(string lpFileName, out uint lpFileSizeHigh);
+    public static ulong GetSizeOnDisk(string filename) {
+        uint high; uint low = GetCompressedFileSize(filename, out high);
+        return ((ulong)high << 32) + low;
+    }
+}
+"@
+
+
+$file = Get-Item 'C:\pagefile.sys'  -force
+
+[pscustomobject]@{
+    Path = $file.FullName
+    LogicalMB = [math]::Round($file.Length / 1MB, 2)
+    PhysicalMB = [math]::Round([FileUtil]::GetSizeOnDisk($file.FullName) / 1MB, 2)
+    Sparse = [bool]($file.Attributes -band [IO.FileAttributes]::SparseFile)
+}
+
+    $Path = $file.FullName
+    LogicalMB = [math]::Round($file.Length / 1MB, 2)
+    $PhysicalMB = [math]::Round([FileUtil]::GetSizeOnDisk($file.FullName) / 1MB, 2)
+    Sparse = [bool]($file.Attributes -band [IO.FileAttributes]::SparseFile)
+
+$physicalMB
+4096
+
+
+Get-CimInstance Win32_OperatingSystem | Select TotalVirtualMemorySize, TotalVisibleMemorySize, FreeVirtualMemory, FreePhysicalMemory
+
+
+
+Get-CimInstance Win32_OperatingSystem | Select *|clip
+set-clipboard
+
+
+Status                                    : OK
+Name                                      : Microsoft Windows 11 Pro|C:\WINDOWS|\Device\Harddisk0\Partition3
+FreePhysicalMemory                        : 1007832
+FreeSpaceInPagingFiles                    : 9808548
+FreeVirtualMemory                         : 956016
+Caption                                   : Microsoft Windows 11 Pro
+Description                               : mylenovo20
+InstallDate                               : 02/06/2025 03:35:41
+CreationClassName                         : Win32_OperatingSystem
+CSCreationClassName                       : Win32_ComputerSystem
+CSName                                    : MB-PC
+CurrentTimeZone                           : 60
+Distributed                               : False
+LastBootUpTime                            : 11/03/2025 19:28:15
+LocalDateTime                             : 11/08/2025 05:25:32
+MaxNumberOfProcesses                      : 4294967295
+MaxProcessMemorySize                      : 137438953344
+NumberOfLicensedUsers                     : 
+NumberOfProcesses                         : 411
+NumberOfUsers                             : 7
+OSType                                    : 18
+OtherTypeDescription                      : 
+
+SizeStoredInPagingFiles                   : 13286116
+TotalSwapSpaceSize                        : 
+
+TotalVirtualMemorySize                    : 21542624
+TotalVisibleMemorySize                    : 8256508
+
+
+
+
+ForegroundApplicationBoost                : 2
+
+
+@{Status=OK; Name=Microsoft Windows 11 Pro|C:\WINDOWS|\Device\Harddisk0\Partition3; FreePhysicalMemory=940660; FreeSpaceInPagingFiles=9843128; FreeVirtualMemory=975480; Caption=Microsoft Windows 11 Pro; Description=mylenovo20; InstallDate=02/06/2025 03:35:41; CreationClassName=Win32_OperatingSystem; CSCreationClassName=Win32_ComputerSystem; CSName=MB-PC; CurrentTimeZone=60; Distributed=False; LastBootUpTime=11/03/2025 19:28:15; LocalDateTime=11/08/2025 05:23:06; MaxNumberOfProcesses=4294967295; MaxProcessMemorySize=137438953344; NumberOfLicensedUsers=; NumberOfProcesses=409; NumberOfUsers=7; OSType=18; OtherTypeDescription=; SizeStoredInPagingFiles=13286116; TotalSwapSpaceSize=; TotalVirtualMemorySize=21542624; TotalVisibleMemorySize=8256508; Version=10.0.26100; BootDevice=\Device\HarddiskVolume1; BuildNumber=26100; BuildType=Multiprocessor Free; CodeSet=1252; CountryCode=1; CSDVersion=; DataExecutionPrevention_32BitApplications=True; DataExecutionPrevention_Available=True; DataExecutionPrevention_Drivers=True; DataExecutionPrevention_SupportPolicy=2; Debug=False; EncryptionLevel=256; ForegroundApplicationBoost=2; LargeSystemCache=; Locale=0409; Manufacturer=Microsoft Corporation; MUILanguages=System.String[]; OperatingSystemSKU=48; Organization=; OSArchitecture=64-bit; OSLanguage=1033; OSProductSuite=256; PAEEnabled=; PlusProductID=; PlusVersionNumber=; PortableOperatingSystem=False; Primary=True; ProductType=1; RegisteredUser=milanlocal; SerialNumber=00330-52621-99365-AAOEM; ServicePackMajorVersion=0; ServicePackMinorVersion=0; SuiteMask=272; SystemDevice=\Device\HarddiskVolume3; SystemDirectory=C:\WINDOWS\system32; SystemDrive=C:; WindowsDirectory=C:\WINDOWS; PSComputerName=; CimClass=root/cimv2:Win32_OperatingSystem; CimInstanceProperties=Microsoft.Management.Infrastructure.Internal.Data.CimPropertiesCollection; CimSystemProperties=Microsoft.Management.Infrastructure.CimSystemProperties}
+
+
+
+```powershell
+TotalVirtualMemorySize, TotalVisibleMemorySize, FreeVirtualMemory, FreePhysicalMemory
+
+
+                                       0\Partition3
+FreePhysicalMemory                        : 1021392
+FreeSpaceInPagingFiles                    : 9770668
+FreeVirtualMemory                         : 892068
+
+
+```
+
+
+
+get-process msedge | select-object Id,VirtualMemorySize  | sort-object -property VirtualMemorySize  -descending | format-table -auto  | clip
   Id VirtualMemorySize
    -- -----------------
 29984        2002886656
