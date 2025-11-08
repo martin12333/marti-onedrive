@@ -12880,3 +12880,8 @@ $owner.Show()
 $owner.WindowState = 'Minimized'
 [System.Windows.MessageBox]::Show($owner, "Always on top (WPF style)", "Topmost Message")
 $owner.ShowActivated = $true
+$owner.Show()
+$owner.Activate()
+[System.Windows.Forms.Application]::DoEvents()  # process focus messages
+[System.Windows.MessageBox]::Show($owner, "This box should have focus!", "Focused Topmost Message")
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
