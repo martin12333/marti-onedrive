@@ -12831,3 +12831,7 @@ $physicalMB
 Get-CimInstance Win32_OperatingSystem | Select *
 Get-CimInstance Win32_OperatingSystem | Select *|set-clipboard
 Get-CimInstance Win32_OperatingSystem | Select *|clip
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+(Get-PSDrive C)| select-object *
+Get-CimInstance Win32_PageFileUsage | Select *
+Get-CimInstance Win32_PageFileSetting | Select *
