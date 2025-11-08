@@ -701,6 +701,19 @@ file:///C:\Users\marti\OneDrive\git-bash-dotfiles\mystartup.sh
 
 
 
+# pwsh commands to get the number of gigabytes of free disk space on the drive C
+```powershell
+(Get-PSDrive C).Free / 1GB
+[math]::Round((Get-PSDrive C).Free / 1GB   , 2)
+[math]::Round((Get-PSDrive C).Free / 1GB   , 1)
+
+
+"{0:N2} GB free on C:" -f ((Get-PSDrive C).Free / 1GB)
+"`n{0:N1} GB free on C:`n" -f ((Get-PSDrive C).Free / 1GB)
+
+
+```
+
 ???
 # windows problem .. output to console takes window focus or window activation?
 
