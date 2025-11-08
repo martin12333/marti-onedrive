@@ -711,8 +711,126 @@ file:///C:\Users\marti\OneDrive\git-bash-dotfiles\mystartup.sh
 "{0:N2} GB free on C:" -f ((Get-PSDrive C).Free / 1GB)
 "`n{0:N1} GB free on C:`n" -f ((Get-PSDrive C).Free / 1GB)
 
+# pwsh show a messagebox
+
+---------------------------
+My Modal WPF Message
+---------------------------
+Hello world!
+---------------------------
+OK   
+---------------------------
+
+
+Add-Type -AssemblyName PresentationFramework
+[System.Windows.MessageBox]::Show("Hello world!", "My Modal WPF Message")
+
+
+
+
+
+
+
+
+
+Add-Type -AssemblyName PresentationFramework
+
+# Create a topmost WPF window to own the message box
+$owner = New-Object System.Windows.Window
+$owner.Topmost = $true
+$owner.WindowState = 'Minimized'
+$owner.Show()
+
+
+# possible to get focus on the message box? (wpf style)
+
+
+
+[System.Windows.MessageBox]::Show($owner, "Always on top (WPF style)", "Topmost Message")
+
+
+
+
+$owner.Close()
+
+
+
+
+
+
+
+
+
+
+
+Add-Type -AssemblyName PresentationFramework
+
+# Create a tiny invisible topmost window
+$owner = New-Object System.Windows.Window
+$owner.Topmost = $true
+
+$owner.WindowStyle = 'None'
+$owner.ShowInTaskbar = $false
+
+$owner.ShowActivated = $true
+
+$owner.Width = 0
+$owner.Height = 0
+$owner.Left = 0
+$owner.Top = 0
+
+# Show it and bring it to front (ensures MessageBox gets focus)
+$owner.Show()
+$owner.Activate()
+[System.Windows.Forms.Application]::DoEvents()  # process focus messages
+
+# Show the modal MessageBox owned by that window
+[System.Windows.MessageBox]::Show($owner, "This box should have focus!", "Focused Topmost Message")	
+
+# Close the invisible window after the message box is dismissed
+$owner.Close()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Add-Type -AssemblyName System.Windows.Forms
+
+# Create a hidden owner form to make the MessageBox topmost
+$form = New-Object System.Windows.Forms.Form
+$form.TopMost = $true
+$form.ShowInTaskbar = $false
+$form.WindowState = 'Minimized'
+
+[System.Windows.Forms.MessageBox]::Show($form, "This is always on top!", "Topmost Message")
+
+
+
+
+
+
+
+# pwsh if($z is less than 1.00) { show a messagebox "Low disk space on C: drive" }
+$z = (Get-PSDrive C).Free / 1GB
+if ($z -lt 1.00) {
+    [System.Windows.MessageBox]::Show("Low disk space on C: drive", "Disk Space Warning", 'OK', 'Warning')
+}
+
 
 ```
+
+
+
 
 ???
 # windows problem .. output to console takes window focus or window activation?

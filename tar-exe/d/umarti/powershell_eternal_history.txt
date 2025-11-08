@@ -12862,3 +12862,21 @@ while ($true) {`
 "{0:N1} GB free on C:" -f ((Get-PSDrive C).Free / 1GB)`
 `
 }
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+[System.Windows.MessageBox]::Show("Hello world!", "My Modal WPF Message")
+Add-Type -AssemblyName PresentationFramework
+[System.Windows.MessageBox]::Show("Hello world!", "My Modal WPF Message")
+$owner = New-Object System.Windows.Window
+$owner.Topmost = $true
+$owner.Show()
+Add-Type -AssemblyName System.Windows.Forms
+$form = New-Object System.Windows.Forms.Form
+$form.TopMost = $true
+[System.Windows.Forms.MessageBox]::Show($form, "This is always on top!", "Topmost Message")
+Add-Type -AssemblyName PresentationFramework
+$owner = New-Object System.Windows.Window
+$owner.Topmost = $true
+$owner.Show()
+$owner.WindowState = 'Minimized'
+[System.Windows.MessageBox]::Show($owner, "Always on top (WPF style)", "Topmost Message")
+$owner.ShowActivated = $true
