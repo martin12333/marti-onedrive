@@ -12885,3 +12885,9 @@ $owner.Activate()
 [System.Windows.Forms.Application]::DoEvents()  # process focus messages
 [System.Windows.MessageBox]::Show($owner, "This box should have focus!", "Focused Topmost Message")
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+Add-Type -AssemblyName PresentationFramework
+$owner = New-Object System.Windows.Window
+$owner.Topmost = $true
+$owner.ShowActivated = $true
+$owner.Show()
+$owner.Close()

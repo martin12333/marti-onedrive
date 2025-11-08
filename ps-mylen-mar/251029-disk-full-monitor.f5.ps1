@@ -4,22 +4,24 @@ Add-Type -AssemblyName PresentationFramework
 
 # Create a tiny invisible topmost window
 $owner = New-Object System.Windows.Window
-$owner.Topmost = $true
 
-#$owner.WindowStyle = 'None'
+$owner.WindowStyle = 'None'
 #$owner.ShowInTaskbar = $false
 
 $owner.ShowActivated = $true
 
-#$owner.Width = 0
-#$owner.Height = 0
-#$owner.Left = 0
-#$owner.Top = 0
+$owner.Width = 30 # 0
+$owner.Height = 30
+$owner.Left = 30
+$owner.Top = 30
 
 # Show it and bring it to front (ensures MessageBox gets focus)
 $owner.Show()
 $owner.Activate()
 [System.Windows.Forms.Application]::DoEvents()  # process focus messages
+
+$owner.Topmost = $true
+
 
 while ($true) {
 	 Start-Sleep -Seconds 4;
@@ -35,13 +37,14 @@ while ($true) {
 
 	if ($z -lt 2.00) {
     	#[System.Windows.MessageBox]::Show("Low disk space on C: drive", "Disk Space Warning", 'OK', 'Warning')
-		
+
     	[System.Windows.MessageBox]::Show( $owner, "Low disk space on C: drive", "Disk Space Warning", 'OK', 'Warning')
 
 		# Show the modal MessageBox owned by that window
 		#[System.Windows.MessageBox]::Show($owner, "This box should have focus!", "Focused Topmost Message")
 
 	}
+	
 }
 
 # Close the invisible window after the message box is dismissed
