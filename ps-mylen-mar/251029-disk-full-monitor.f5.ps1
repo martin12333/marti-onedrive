@@ -8,19 +8,13 @@ $owner = New-Object System.Windows.Window
 $owner.WindowStyle = 'None'
 #$owner.ShowInTaskbar = $false
 
-$owner.ShowActivated = $true
 
-$owner.Width = 30 # 0
-$owner.Height = 30
-$owner.Left = 30
-$owner.Top = 30
+$owner.Width = 0 # 30  # 0
+$owner.Height = 0
+$owner.Left = 0
+$owner.Top = 0
 
-# Show it and bring it to front (ensures MessageBox gets focus)
-$owner.Show()
-$owner.Activate()
-[System.Windows.Forms.Application]::DoEvents()  # process focus messages
 
-$owner.Topmost = $true
 
 
 while ($true) {
@@ -36,15 +30,26 @@ while ($true) {
 	"{0:N1} GB free on C:" -f ($z)
 
 	if ($z -lt 2.00) {
-    	#[System.Windows.MessageBox]::Show("Low disk space on C: drive", "Disk Space Warning", 'OK', 'Warning')
+
+
+		$owner.Topmost = $true
+		$owner.ShowActivated = $true
+		# Show it and bring it to front (ensures MessageBox gets focus)
+		$owner.Show()
+		$owner.Activate()
+
+		### [System.Windows.Threading.Dispatcher]::Frame() | Out-Null  # ensures message loop runs once
+		### [System.Windows.Forms.Application]::DoEvents()  # process focus messages
+
+
 
     	[System.Windows.MessageBox]::Show( $owner, "Low disk space on C: drive", "Disk Space Warning", 'OK', 'Warning')
-
+		#[System.Windows.MessageBox]::Show("Low disk space on C: drive", "Disk Space Warning", 'OK', 'Warning')
 		# Show the modal MessageBox owned by that window
 		#[System.Windows.MessageBox]::Show($owner, "This box should have focus!", "Focused Topmost Message")
 
 	}
-	
+
 }
 
 # Close the invisible window after the message box is dismissed

@@ -12891,3 +12891,29 @@ $owner.Topmost = $true
 $owner.ShowActivated = $true
 $owner.Show()
 $owner.Close()
+$owner.WindowStyle = 'None'
+$owner.ShowActivated = $true
+$owner = New-Object System.Windows.Window
+$owner.WindowStyle = 'None'
+$owner.ShowActivated = $true
+$owner.Width = 30 # 0
+$owner.Height = 30
+$owner.Left = 30
+$owner.Top = 30
+$owner.Show()
+$owner.Activate()
+[System.Windows.Forms.Application]::DoEvents()  # process focus messages
+$owner.Topmost = $true
+cmd /c dir c:\p*.sys /as  |findstr bytes
+$z = (Get-PSDrive C).Free / 1GB
+"{0:N1} GB free on C:" -f ($z)
+if ($z -lt 2.00) {`
+[System.Windows.MessageBox]::Show( $owner, "Low disk space on C: drive", "Disk Space Warning", 'OK', 'Warning')`
+}
+$owner.Close()
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\251029-disk-full-monitor.f5.ps1
+Add-Type -AssemblyName PresentationFramework
+$owner = New-Object System.Windows.Window
+[System.Windows.Forms.Application]::DoEvents()  # process focus messages
+[System.Windows.Threading.Dispatcher]::Frame() | Out-Null  # ensures message loop runs once
