@@ -460,7 +460,6 @@ get-process msedge | select-object Id,ProcessName,peakworkingset,PrivateMemorySi
 
 # 251108
 
-C:\Users\marti\OneDrive\ps-mylen-mar\start-robocopy.cmd
 
 ```powershell
 
@@ -616,6 +615,27 @@ FreeVirtualMemory                         : 892068
 ```
 
 
+#  startup
+
+C:\Users\marti\OneDrive\Desktop\251029-disk-full - Shortcut.lnk
+
+
+
+file:///C:\Users\marti\OneDrive\ps-mylen-mar\start-robocopy.cmd
+
+C:\pf\PowerShell\7\pwsh.exe -ExecutionPolicy Bypass -File     
+file:///C:\Users\marti\OneDrive\ps-mylen-mar\mystartup.ps1
+
+"C:\Program Files\Git\bin\bash.exe" 
+file:///C:\Users\marti\OneDrive\git-bash-dotfiles\mystartup.sh
+
+
+
+
+???
+# windows problem .. output to console takes window focus or window activation?
+cmd.exe echo to console takes window focus or window activation site:stackoverflow.com
+https://www.google.com/search?q=windows+problem+..+output+to+console+takes+window+focus+or+window+activation&oq=windows+problem+..+output+to+console+takes+window+focus+or+window+activation&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQ6wcYQNIBCTQyODg4ajBqNKgCALACAA&sourceid=chrome&ie=UTF-8
 
 
 
