@@ -617,6 +617,75 @@ FreeVirtualMemory                         : 892068
 
 #  startup
 
+
+```powershell
+while ($true) { Start-Sleep -Seconds 4; cmd /c dir c:\p*.sys /as  |findstr bytes  }
+```
+ps-mylen-mar\251029-disk-full-monitor.f5.ps1
+
+// how to name a startup script with this command line
+
+// ai suggestions: 
+disk-full-startup-script.cmd
+disk-full-startup-script.ps1
+disk-full-monitor.cmd
+
+
+disk-space-checker.cmd
+disk-space-checker.ps1
+disk-space-monitor.cmd
+disk-space-monitor.ps1
+disk-space-watcher.cmd
+disk-space-watcher.ps1
+disk-space-alert.cmd
+disk-space-alert.ps1
+disk-space-notifier.cmd
+disk-space-notifier.ps1
+disk-space-tracker.cmd
+disk-space-tracker.ps1
+disk-space-logger.cmd
+disk-space-logger.ps1
+disk-space-reporter.cmd
+disk-space-reporter.ps1
+disk-space-analyzer.cmd
+disk-space-analyzer.ps1
+disk-space-auditor.cmd
+disk-space-auditor.ps1
+disk-space-inspector.cmd
+disk-space-inspector.ps1
+disk-space-surveyor.cmd
+disk-space-surveyor.ps1
+disk-space-observer.cmd
+disk-space-observer.ps1
+disk-space-sentinel.cmd
+disk-space-sentinel.ps1
+disk-space-guardian.cmd
+disk-space-guardian.ps1
+disk-space-warden.cmd
+disk-space-warden.ps1
+disk-space-ranger.cmd
+disk-space-ranger.ps1
+disk-space-patrol.cmd
+disk-space-patrol.ps1
+disk-space-keeper.cmd
+disk-space-keeper.ps1
+disk-space-defender.cmd
+disk-space-defender.ps1
+disk-space-protector.cmd
+disk-space-protector.ps1
+disk-space-safeguard.cmd
+disk-space-safeguard.ps1
+disk-space-watchdog.cmd
+disk-space-watchdog.ps1
+disk-space-monitoring-tool.cmd
+disk-space-monitoring-tool.ps1
+disk-space-management-tool.cmd
+disk-space-management-tool.ps1
+
+
+
+
+# how to run a cmd or powershell script at startup in windows 10
 C:\Users\marti\OneDrive\Desktop\251029-disk-full - Shortcut.lnk
 
 
