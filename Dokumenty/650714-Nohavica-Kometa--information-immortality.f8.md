@@ -24,6 +24,44 @@ Overview
 Lyrics
 Lyrics
 Spatřil jsem kometu, oblohou letěla,
+
+---
+
+Survival of Information 
+not Flows 
+
+survival of information systems.
+but informal
+personal, family, hobby, home
+not formal
+professional, work, enterprise, business
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Kometa
+Song by Jaromír Nohavica ‧ 1995
+Overview
+Lyrics
+Lyrics
+Spatřil jsem kometu, oblohou letěla,
 chtěl jsem jí zazpívat, ona mi zmizela,
 zmizela jako laň u lesa v remízku,
 v očích mi zbylo jen pár žlutých penízků.
