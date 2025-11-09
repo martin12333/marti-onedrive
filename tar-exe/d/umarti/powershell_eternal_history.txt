@@ -12919,3 +12919,4 @@ $owner = New-Object System.Windows.Window
 [System.Windows.Threading.Dispatcher]::Frame() | Out-Null  # ensures message loop runs once
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 pwsh.exe -ExecutionPolicy Bypass -File  C:\Users\marti\OneDrive\ps-mylen-mar\251029-disk-full-monitor.f5.ps1
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh

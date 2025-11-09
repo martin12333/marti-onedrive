@@ -11,7 +11,30 @@ https://keep.google.com/#NOTE/1R0ummVwDXKNwI1nIhGMEFFlsiU8sWsSY6KbH0bPklKXY4ZWJu
 
 250719 nekolik chyb ... popletl virt a nevirt kartu, popletl cvc k virt a nevirt karte
 VIRT-oneK-MARTIN •••• 4373
-virtgeo
+virtgeorg
+
+
+
+
+
+
+
+# jestli clipboard, asi po kouskach, prostredek asi jen na papirek
+# na chvili vypnu edge clipbo manager, muj ahk clipb hisotrry pak zase zapnu
+# a vymazu z win+v
+
+#  radeji podivatse, zda se tam pravidelne mesicne neco neplati 
+# ///george virtualni karta PRI ZMENE ZTRATIM CELOU HISTORII BYVALE GEORGE KARTY, ALE JESTE EXISTUJE HISTORIE UCTU
+
+
+
+
+
+
+251109 zkusit  mb   zda ms snese 1 kartu    4373 v 2 uctech
+
+zkusit  mb   zda ms snese 1 kartu    4373 v 2 uctech
+
 
 https://account.microsoft.com/billing/payments/?refd=account.microsoft.com
 wallet is changing
