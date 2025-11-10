@@ -35,6 +35,16 @@ virtgeorg
 
 zkusit  mb   zda ms snese 1 kartu    4373 v 2 uctech
 
+251109 zkusit  mb   zda ms snese 1 kartu    4373 v 2 uctech
+can i use 1 credit card in 3 microsoft accounts?
+Microsoft Copilot: Your AI companion 
+If you want to subscribe to Microsoft 365 on three different accounts, you can use the same card.
+so ... I want to subscribe to microsoft copilot pro on three different accounts, i can use the same card?
+asi ano
+jen aby se nesjely 2 *500 v 1 den
+29.*.  openai
+
+
 
 https://account.microsoft.com/billing/payments/?refd=account.microsoft.com
 wallet is changing
