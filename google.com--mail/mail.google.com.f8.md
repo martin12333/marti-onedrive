@@ -26,7 +26,17 @@ https://outlook.office.com/mail/options/mail/forwarding nebo radeji jen rules ne
 
 C:\Users\marti\OneDrive\google.com--mail\mail.google.com.f8.md
 
+# 251111
 
+in:spam 
+
+from
+
+from:praha.eu 
+from:praha16
+
+
+ockovacicentrum.cz OR ockovani-zahranici.cz OR  fnmotol.cz OR ryder OR microsoft OR googleone  OR sem.psat.dalsi12345.ADRESY
 
 
 # 24At

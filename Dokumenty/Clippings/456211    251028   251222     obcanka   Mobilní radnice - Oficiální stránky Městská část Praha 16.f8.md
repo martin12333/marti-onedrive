@@ -106,32 +106,44 @@ maiůl rules
 AI
 Edited
 Žádost o službu Mobilní radnice – 
+ a má omezené možnosti pohybu.
+
+(po letošním úrazu sama ujde asi 100 metrů.)
 
 ----------------------------------------------------
 
-Předmět: 
+mobilniradnice@praha16.eu
 výměna občanského průkazu
 
 Dobrý den,
 
-obracím se na Vás s prosbou o využití služby Mobilní radnice pro moji maminku, která žije v Praze 16 (Radotín) a má omezené možnosti pohybu.
+obracím se na Vás s prosbou o využití služby Mobilní radnice pro moji maminku 
 
 Boková Ljubov
-456211482
-Topasová 43
+456211/482
+Topasová 43, Praha 16 - Radotín
 
-Končí jí platnost občanského průkazu a rádi bychom požádali o zajištění výměny občanského průkazu u nás doma.
+Končí jí platnost občanského průkazu ....  rádi bychom požádali o zajištění výměny občanského průkazu u nás doma... je to možné?
 
-Děkuji Vám za pomoc 
+(pozn.: já sám jsem v plném invalidním důchodu, a navíc nemáme auto)
+
+Děkuji Vám za odpověď 
 
 S přáním hezkého dne,
 
 Milan Bok
-milan.bok....@...
-776 255 129
+e-mail
+tel. 776 255 129
 
+
+
+bojim vypsat email podtrhlo aby ne spam
+
+mozna prepnu do prosty text  ... ok
+------------------
 
 mail rules
+https://mail.google.com/mail/u/0/#settings/filters
 
 
 
