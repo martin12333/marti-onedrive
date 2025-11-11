@@ -98,6 +98,11 @@ telefon: 234 128 201
 ==e-mail: [mobilniradnice@praha16.eu](https://www.praha16.eu/prakticke-info/mobilni-radnice/ "Odkaz na jiné stránky - nové okno")
 
 
+https://www.praha16.eu/kontakty/smart-info-1/
+maiůl rules
+
+
+
 AI
 Edited
 Žádost o službu Mobilní radnice – 
