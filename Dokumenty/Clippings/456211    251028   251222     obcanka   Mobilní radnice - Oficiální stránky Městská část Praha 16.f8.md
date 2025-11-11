@@ -48,6 +48,8 @@ https://www.praha16.eu/prakticke-info/mobilni-radnice/
 
 Dobrý den, jsem chatbot a jsem tu pro vás! Klikněte na ikonu a napište mi dotaz.
 
+
+
 ## Mobilní radnice
 
 **Služba radotínské radnice pro místní občany, kteří se obtížněji dostávají na pracoviště úřadu při vyřizování svých záležitostí, funguje již 11 let.**  
@@ -61,7 +63,9 @@ Projekt tzv. Mobilní radnice, jehož hlavním smyslem je pomoci těm občanům,
 
 . Její zřízení nepřineslo radnici žádné vstupní vícenáklady, neboť nedošlo k pořízení žádných speciálních mobilních pracovišť, využívána je stávající technika a vozový park.
 
-Podobnou službu již některé radnice v republice mají, ale většinou v ní zajišťují pouze nejzákladnější informační a poradenské služby. Městská část Praha 16 se vydala jinou, složitější cestou: Do terénu za lidmi vždy vyráží plně kvalifikovaný pracovník příslušného pracoviště znalý odborné problematiky, který na místě občanovi poradí, jak si konkrétní záležitost vyřídit, jaké doklady či dokumenty jsou potřeba. V případě některých vybraných agend je dokonce možné celou agendu obstarat na místě hned při první návštěvě, případně se úředník vrací po vyřízení věci na úřadě.
+Podobnou službu již některé radnice v republice mají, ale většinou v ní zajišťují pouze nejzákladnější informační a poradenské služby. Městská část Praha 16 se vydala jinou, složitější cestou: Do terénu za lidmi vždy vyráží plně kvalifikovaný pracovník příslušného pracoviště znalý odborné problematiky, který na místě občanovi poradí, jak si konkrétní záležitost vyřídit, jaké doklady či dokumenty jsou potřeba. V případě 
+
+==některých vybraných agend je dokonce možné celou agendu obstarat na místě hned při první návštěvě, případně se úředník vrací po vyřízení věci na úřadě.
 
 Od radikálních úsporných opatření včetně reorganizace realizované v roce 2007 a zásadního rozšíření úředních hodin ÚMČ Praha 16 od května 2011 to byl třetí významný krok, kterým se radnice snažila být na jednu stranu maximálně úspornou, na druhou však neustále rozšiřovat své služby a vycházet vstříc potřebám občanů.
 
@@ -95,13 +99,45 @@ telefon: 234 128 201
 
 
 AI
-Předmět: Žádost o službu Mobilní radnice – výměna občanského průkazu
+Edited
+Žádost o službu Mobilní radnice – 
+
+----------------------------------------------------
+
+Předmět: 
+výměna občanského průkazu
 
 Dobrý den,
 
 obracím se na Vás s prosbou o využití služby Mobilní radnice pro moji maminku, která žije v Praze 16 (Radotín) a má omezené možnosti pohybu.
 
-Končí jí platnost občanského průkazu a rádi bychom požádali o zajištění výměny občanského průkazu u ní doma.
+Boková Ljubov
+456211482
+Topasová 43
+
+Končí jí platnost občanského průkazu a rádi bychom požádali o zajištění výměny občanského průkazu u nás doma.
+
+Děkuji Vám za pomoc 
+
+S přáním hezkého dne,
+
+Milan Bok
+milan.bok....@...
+776 255 129
+
+
+mail rules
+
+
+
+
+C:\Users\marti\OneDrive\Dokumenty\Clippings\251222 Vydání občanského průkazu - Oficiální stránky Městská část Praha 16.f8.md
+
+### Pojmenování (název) životní situace:
+
+- Vydání občanského průkazu
+
+#### K vydání občanského průkazu při skončení jeho platnosti předložte:
 
 
 
@@ -114,13 +150,11 @@ Prosím o informaci, jaký je další postup, jaké doklady má mít připraven�
 – Adresa bydliště: [doplníš]
 – Telefonický kontakt (pokud máte preferovaný): [doplníš]
 
-Děkuji Vám za pomoc a vstřícnost.
+
 
 S pozdravem
-
 [Tvé jméno]
 [telefon nebo e-mail, pokud chceš být kontaktní osoba]
-
 
 
 
