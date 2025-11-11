@@ -11,7 +11,35 @@ tags:
 ---
 
 
-edit
+see also
+C:\Users\marti\OneDrive\1703-IJMVA\Iva, PUBLIC, Jiří, Milan, Vašek (alphabetically)-chat.f8.md
+IJMVA
+ 456211    251028   251222     obcanka 
+
+
+
+todo
+chatgpt
+napsat mail 
+
+nemuzu vstat ze zidle 
+39 hodin od predchazejiciho leku "V"
+
+
+
+
+https://www.praha16.eu/prakticke-info/mobilni-radnice/
+
+ℹ️mobilni-radnice/
+
+==Tato nadstandardní služba je určena **handicapovaným občanům (ZTP) a osobám 75letým a starším** a je zajišťována na území Radotína
+
+==agendy evidence obyvatel a osobních dokladů ℹ️ℹ️ℹ️ℹ️💚(občanské průkazy)
+==agenda ověřování
+==poradenství a pomoc při stěhování do domů s pečovatelskou službou
+
+
+
 @I @J @V abecední řazení
 
 https://www.praha16.eu/prakticke-info/mobilni-radnice/
@@ -41,11 +69,11 @@ Mobilní radnice zahrnuje **13 konkrétních činností (agend) zajišťovaných
 
 **Služby (agendy) zahrnuté do projektu Mobilní radnice**
 
-- agenda ověřování
+- ==agendy evidence obyvatel a osobních dokladů (občanské průkazy)
+- ==agenda ověřování
+- ==poradenství a pomoc při stěhování do domů s pečovatelskou službou
 - místní poplatky ze psů
 - zábory veřejného prostranství
-- poradenství a pomoc při stěhování do domů s pečovatelskou službou
-- agendy evidence obyvatel a osobních dokladů (občanské průkazy)
 - sociální poradenství (dávky, pěstounská péče, sociálně právní ochrana dětí, veřejný opatrovník)
 - pomoc při žádání o sociální dávky na Úřad práce ČR
 - poradenství pro stavebníky
@@ -62,7 +90,40 @@ Kancelář úřadu ÚMČ Praha 16
 pracoviště U Starého stadionu 1379/13, 153 00 Praha-Radotín  
 kontaktní osoby: Bc. Lenka Hájková, Ing. Pavel Jirásek, LL.M., Bc. Petra Mrázková  
 telefon: 234 128 201  
-e-mail: [mobilniradnice@praha16.eu](https://www.praha16.eu/prakticke-info/mobilni-radnice/ "Odkaz na jiné stránky - nové okno")
+
+==e-mail: [mobilniradnice@praha16.eu](https://www.praha16.eu/prakticke-info/mobilni-radnice/ "Odkaz na jiné stránky - nové okno")
+
+
+AI
+Předmět: Žádost o službu Mobilní radnice – výměna občanského průkazu
+
+Dobrý den,
+
+obracím se na Vás s prosbou o využití služby Mobilní radnice pro moji maminku, která žije v Praze 16 (Radotín) a má omezené možnosti pohybu.
+
+Končí jí platnost občanského průkazu a rádi bychom požádali o zajištění výměny občanského průkazu u ní doma.
+
+
+
+
+Prosím o informaci, jaký je další postup, jaké doklady má mít připravené a kdy by bylo možné domluvit návštěvu.
+
+Údaje o mamince:
+– Jméno a příjmení: [doplníš]
+– Rok narození: [doplníš]
+– Adresa bydliště: [doplníš]
+– Telefonický kontakt (pokud máte preferovaný): [doplníš]
+
+Děkuji Vám za pomoc a vstřícnost.
+
+S pozdravem
+
+[Tvé jméno]
+[telefon nebo e-mail, pokud chceš být kontaktní osoba]
+
+
+
+
 
 ## Kalendář
 

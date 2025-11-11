@@ -20,8 +20,28 @@ C:\\Users\\marti\\OneDrive\\1703-IJMVA\\
 
 # 456211    251028   251222     obcanka   456211482 vscode  master main copy
 
-https://chatgpt.com/c/68ff65a3-2f64-8329-8a3d-f882242db4e6
 
+see also
+C:\Users\marti\OneDrive\Dokumenty\Clippings\456211    251028   251222     obcanka   Mobilní radnice - Oficiální stránky Městská část Praha 16.f8.md
+ℹ️ Mobilní radnice 456211    251028   251222     
+
+https://www.praha16.eu/prakticke-info/mobilni-radnice/
+
+ℹ️ mobilni-radnice
+
+==Tato nadstandardní služba je určena **handicapovaným občanům (ZTP) a osobám 75letým a starším** a je zajišťována na území Radotína
+
+==agendy evidence obyvatel a osobních dokladů ℹ️ℹ️ℹ️ℹ️💚(občanské průkazy)
+
+
+==agenda ověřování
+==poradenství a pomoc při stěhování do domů s pečovatelskou slu
+
+
+
+https://chatgpt.com/c/68ff65a3-2f64-8329-8a3d-f882242db4e6
+Končící platnost občanského průkazu. U mojí máti.
+maminky
 
 Vydávajícím úřadem bude ten obecní úřad obce s rozšířenou působností, u něhož občan podá žádost o vydání občanského průkazu.
 
