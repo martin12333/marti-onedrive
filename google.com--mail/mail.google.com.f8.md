@@ -1,12 +1,13 @@
 
+https://mail.google.com/mail/u/0/#settings/filters   forward
+https://mail.google.com/mail/u/0/#settings/fwdandpop
+
+
 
 .....@..
-(EDIT)
-[EDIT]
 
 
-
-
+https://keep.google.com/#NOTE/1FS5MHHqil38tbSmmdmrtE25orZ9YYhv_Ap2gmJhpK77-l1YcVtcI8xLXh7ryVQ
 take paste do keepu ty @
 sem nemuzu paste @
 
@@ -14,25 +15,18 @@ take si poslat kopii mailem
 bkup pomoci mailu
 
 C:\Users\marti\OneDrive\google.com--mail\mail.google.com.f8.md
-https://mail.google.com/mail/u/0/#settings/filters
 
-
-
-https://keep.google.com/#NOTE/1FS5MHHqil38tbSmmdmrtE25orZ9YYhv_Ap2gmJhpK77-l1YcVtcI8xLXh7ryVQ
 
 see also
 see alsi
 C:\Users\marti\OneDrive\seznam.cz\email.seznam.cz.f8.md
 https://outlook.office.com/mail/options/mail/forwarding nebo radeji jen rules nez forw, pozor na zamenu s outlook.live.com   LIVE vs OFFICE #00000 #AAAAiii #AAAA 
 
-/// https://mail.google.com/mail/u/0/#settings/filters   forward
-https://mail.google.com/mail/u/0/#settings/fwdandpop
+
 
 C:\Users\marti\OneDrive\google.com--mail\mail.google.com.f8.md
 
 
-https://mail.google.com/mail/u/0/#settings/filters   forward
-https://mail.google.com/mail/u/0/#settings/fwdandpop
 
 
 # 24At
