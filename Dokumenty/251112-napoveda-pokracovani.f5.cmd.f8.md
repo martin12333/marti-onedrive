@@ -12,6 +12,10 @@ ctrl+win+space	ahk
 win alt space   napoveda
   najde .lnk
 
+win alt space   file search
+  najde 
+  
+
 echo 000004-napoveda.f5.cmd
 
 rem rem rem C:\Users\marti\OneDrive\Dokumenty\251112-napoveda-pokracovani.f5.cmd
