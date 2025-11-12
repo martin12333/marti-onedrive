@@ -99,8 +99,10 @@ telefon: 234 128 201
 
 
 https://www.praha16.eu/kontakty/smart-info-1/
-maiůl rules
+https://smart-info.cz/odberatel/odbery/
 
+
+maiůl rules
 
 
 AI

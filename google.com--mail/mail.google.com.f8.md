@@ -35,6 +35,11 @@ from
 from:praha.eu 
 from:praha16
 
+Shody: from:(cmss OR csob OR csobpoj OR csobstavebni OR daniel.kral OR bok OR karlov OR jiri.vlastimil.bok OR jiri.bok OR sem.psat.dalsi12345.ADRESY)
+
+Shody: from:(420608935899 OR praha16 OR praha.eu OR sem.psat.dalsi12345.ADRESY)
+
+
 
 ockovacicentrum.cz OR ockovani-zahranici.cz OR  fnmotol.cz OR ryder OR microsoft OR googleone  OR sem.psat.dalsi12345.ADRESY
 
