@@ -3,6 +3,7 @@ echo 000004-napoveda.f5.cmd
 
 rem rem rem C:\Users\marti\OneDrive\Dokumenty\251112-napoveda-pokracovani.f5.cmd
 
+code C:\Users\marti\OneDrive\Dokumenty\251112-napoveda-pokracovani.f5.cmd
 
 pause
 
