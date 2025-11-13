@@ -79,6 +79,18 @@ Choose a consistent timestamp format that works across your logs (e.g., ISO YYYY
 - 
 
 
+# 2025-11-13
+
+Registrace občana do aplikace eDoklady
+
+eDoklady
+https://edoklady.gov.cz › registrac...
+·
+Translate this page
+jako výchozí prohlížeč v mobilu musí být MS Edge, Google Chrome nebo Safari; platný český občanský průkaz (aplikaci eDoklady prozatím nemohou používat ...
+
+
+
 
 
 # existing recommended vscode extenstions to insert timestamp ... to track symptoms in markdown files
