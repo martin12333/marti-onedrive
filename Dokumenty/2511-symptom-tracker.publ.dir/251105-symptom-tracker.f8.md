@@ -5,9 +5,10 @@ foam enabled
 
 insert timestamp here
 /da
-Choose a consistent timestamp format that works across your logs (e.g., ISO YYYY-MM-DD hh:mm:ss or with timezone if you like).
+Choose a consistent timestamp format that works across your logs (e.g., ISO YYYY-MM-DD hh:mm or with timezone if you like).
 
-
+#tag
+#
 
 
 

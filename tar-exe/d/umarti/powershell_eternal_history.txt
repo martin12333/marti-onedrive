@@ -12924,3 +12924,10 @@ kill -name RSIGuard
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 where.exe code
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+kill -name cmdpal
+kill -name PowerToys
+MicrosoftEdgeBCHost.exe /?
+MicrosoftEdgeCP.exe  /?
+MicrosoftEdgeDevTools.exe  /?
+MicrosoftEdgeSH.exe /?
+Get-Process -name Microsoft.CmdPal.UI
