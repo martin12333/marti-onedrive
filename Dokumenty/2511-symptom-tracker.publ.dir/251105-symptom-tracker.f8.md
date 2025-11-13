@@ -3,6 +3,7 @@
 markdown aio enabled 
 foam enabled
 markdown-hashtags   installed ... issues of the other two probably nothing to do with this 
+	disable, enable in 1 workspace 
 
 insert timestamp here
 /da
