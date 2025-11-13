@@ -1,7 +1,8 @@
 
 # vscode extension
-markdown enabled 
+markdown aio enabled 
 foam enabled
+markdown-hashtags   installed ... issues of the other two probably nothing to do with this 
 
 insert timestamp here
 /da
