@@ -93,6 +93,7 @@ jako výchozí prohlížeč v mobilu musí být MS Edge, Google Chrome nebo Safa
 
 
 
+
 # existing recommended vscode extenstions to insert timestamp ... to track symptoms in markdown files
 
 - **Insert Date String**: This extension allows you to quickly insert the current date and time in various formats. You can customize the format to suit your needs.
