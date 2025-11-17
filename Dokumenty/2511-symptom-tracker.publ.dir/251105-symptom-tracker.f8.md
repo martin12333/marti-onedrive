@@ -116,6 +116,10 @@ jako výchozí prohlížeč v mobilu musí být MS Edge, Google Chrome nebo Safa
 
 
 
+# 
+
+see also Google chat, but it is not searched by ai
+
 
 
 
@@ -132,6 +136,29 @@ voda z okapu by mohla dělat problémy
 placený Gemini spočítal integrál
 
 
+
+250825
+
+Let's assume some similarities between LLMs and human brains 
+... my brain
+
+Human short-term memory capacity is estimated to be around 7±2 syllables ... LLM analogy could be 7 tokens in a vector in the layers, that are ...
+
+Human working memory capacity is estimated to be around 4 chunks ... LLM analogy could be 4 attention heads focusing on different parts of the input ...
+
+Humans have mid-term memory that can store information for days to months ... LLM analogy could be the model's ability to retain context over multiple interactions or sessions ...
+
+Long-term memory in humans can store vast amounts of information for years ... LLM analogy could be the pre-trained knowledge base that the model draws from during inference ...
+
+#
+
+Let's assume some similarities between computers and human brains ... my brain
+
+
+
+
+
+
 ## disk full
 todo ps1 "viz zeleny sesit"
 
@@ -139,7 +166,15 @@ f1
 view / toggle primary sidedbar 
 
 
+
+
+
+
 # Z hlediska roku 2026, 2030, 2040 
+
+
+
+
 
 bych si přál
 
