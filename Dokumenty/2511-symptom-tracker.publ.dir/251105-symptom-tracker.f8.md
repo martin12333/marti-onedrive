@@ -92,18 +92,32 @@ jako výchozí prohlížeč v mobilu musí být MS Edge, Google Chrome nebo Safa
 
 
 
+
+
+
+
 # 2025-11-17
 
-disk full
+
+
+249s
+slíbila, že posune květináč
+voda z okapu by mohla dělat problémy
+
+
+
+## disk full
 todo ps1 "viz zeleny sesit"
 
 f1
 view / toggle primary sidedbar 
 
 
-# Z hlediska roku 2026, 2030, 2040 bych si přál
+# Z hlediska roku 2026, 2030, 2040 
 
-nebýt často v nemocnici
+bych si přál
+
+nebýt často v nemocnici na psychiatrickém oddělení
 
 ...
 
@@ -115,7 +129,8 @@ s větší pravděpodobností
 
 * udržet tělesnou váhu (mám značnou podváhu a podvýživu)
 
-* raději víc riskovat v jiných oblastech
+* raději víc riskovat v jiných oblastech ... antifragilita ... souvisí s kognitivně-behaviorální terapií ... vystavovat se nepohodlí, stresu, zátěži, bolesti, nejistotě, neznámému, novému, změně, výzvám, rizikům, neúspěchům, selháním ... abych byl silnější, odolnější, adaptabilnější, pružnější, houževnatější ... a méně křehký
+
 
 # udržet tělesnou váhu (mám značnou podváhu a podvýživu)
 
