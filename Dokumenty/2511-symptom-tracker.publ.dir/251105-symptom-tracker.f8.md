@@ -158,9 +158,18 @@ voda z okapu by mohla dělat problémy
 251117
 placený Gemini spočítal integrál
 
-## 
+# I am a human with anxiety disorder, autism spectrum disorder, underweight, malnutrition
 
-Let's assume some similarities between computers and human brains 
+##
+
+Let's assume some distant similarities  between computers and human brains 
+
+Let's assume some close similarities between LLMs and human brains 
+
+Let's assume that human brains have something like the attention heads in LLMs
+
+##
+
 
 Human short-term memory capacity is estimated to be around 7±2 syllables ... computer analogy could be 1 SIMD register in the CPU that holds data temporarily ...
 
@@ -170,12 +179,31 @@ Humans have mid-term memory that can store information for days to months ... co
 
 Long-term memory in humans can store vast amounts of information for years ... computer analogy could be the hard drive or SSD that stores data persistently ...
 
+Interrupt handling in computers could be analogous to how the human brain processes sudden stimuli or distractions, temporarily halting ongoing tasks to address urgent matters before resuming.
+
+CPU Interrupt Handling
+- CPU receives an interrupt signal from a hardware device (e.g., keyboard, mouse, timer).
+- **The CPU saves the current state of execution (program counter, registers) onto the stack.**
+- The CPU jumps to a predefined interrupt handler routine to address the interrupt.
+- After handling the interrupt, the CPU restores the saved state from the stack.
+
+my ... human patient, interrupt handling
+- The brain receives a sudden stimulus (e.g., a request for attention from the family)
+- the brain is afraid of losing short-term memory of the current task, and of losing working memory context, and of losing mid-term memory 
+- the brain can get overwhelmed by trying to hold too much in short-term and working memory at once
+- the brain could repeat the current short-term memory content to itself to try to retain it until getting to a safe place to write it down
+- the brain could use external tools to offload memory (e.g., writing things down, using reminders, notes, apps)
+- the brain could try to note something from mid-term memory to avoid losing it ... positions?? of some attention heads??
+- 
+- so, **the brain saves the context of the current task to a piece of paper or a note-taking mobile app**
+- The brain addresses the interrupt (e.g., responds to the family request)
+- After addressing the interrupt, the brain retrieves the saved context from the note and resumes the original task.
+
 
 
 ## 
 250825
 
-Let's assume some similarities between LLMs and human brains 
 
 Human short-term memory capacity is estimated to be around 7±2 syllables ... LLM analogy could be 7 tokens in a vector in the layers, that are ...
 
