@@ -123,34 +123,20 @@ dlouhodobě
 
 nestačí víc jíst
 
+-- ai píše
+
+* jíst více tuků
+* jíst více kalorií
+* jíst více bílkovin
+* jíst více sacharidů
+
+
 je potřeba také
 
 víc trávit
 
 * dělat víc přestávek při práci 
 * jíst pomaleji
-* jíst více tuků
-* jíst více kalorií
-* jíst více bílkovin
-* jíst více sacharidů
-* jíst více zeleniny a ovoce
-* jíst více ořechů a semínek
-* jíst více luštěnin
-* jíst více celozrnných produktů
-* jíst více ryb a masa
-* jíst více mléčných výrobků
-* jíst více vajec
-* jíst více potravin bohatých na vitamíny a minerály
-* jíst více potravin bohatých na vlákninu
-* jíst více potravin bohatých na antioxidanty
-* jíst více potravin bohatých na omega-3 mastné kyseliny
-* jíst více potravin bohatých na probiotika
-* jíst více potravin bohatých na prebiotika
-* jíst více potravin bohatých na enzymy
-* jíst více potravin bohatých na fytonutrienty
-* jíst více potravin bohatých na flavonoidy
-
-
 
 
 
