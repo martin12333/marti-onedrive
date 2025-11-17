@@ -572,7 +572,10 @@ lGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc\LocalState
 lGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc
       9,814,663,168       17,198  C:\Users\marti\AppData\Local\Packages
      22,118,117,376      113,988  C:\Users\marti\AppData\Local
+
       1,973,616,640        7,154  C:\Users\marti\AppData\Roaming\.minecraft
+tc del
+
       5,248,626,688       86,864  C:\Users\marti\AppData\Roaming
      27,424,256,000      201,379  C:\Users\marti\AppData
       2,362,658,816           12  C:\Users\marti\gensim-data
