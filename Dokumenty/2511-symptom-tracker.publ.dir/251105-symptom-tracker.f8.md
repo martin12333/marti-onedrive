@@ -187,7 +187,15 @@ CPU Interrupt Handling
 - The CPU jumps to a predefined interrupt handler routine to address the interrupt.
 - After handling the interrupt, the CPU restores the saved state from the stack.
 
-my ... human patient, interrupt handling
+
+# https://mail.google.com/chat/u/0/#chat/space/AAAAkg0JJJc
+
+C:\Users\marti\OneDrive\Dokumenty\2511-symptom-tracker.publ.dir\251105-symptom-tracker.f8.md
+
+# I am a human with anxiety disorder, autism spectrum disorder, underweight, malnutrition
+
+## my ... human patient, interrupt handling
+
 - The brain receives a sudden stimulus (e.g., a request for attention from the family)
 - the brain is afraid of losing short-term memory of the current task, and of losing working memory context, and of losing mid-term memory 
 - the brain can get overwhelmed by trying to hold too much in short-term and working memory at once
