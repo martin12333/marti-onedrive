@@ -92,6 +92,68 @@ jako výchozí prohlížeč v mobilu musí být MS Edge, Google Chrome nebo Safa
 
 
 
+# 2025-11-17
+
+disk full
+todo ps1 "viz zeleny sesit"
+
+f1
+view / toggle primary sidedbar 
+
+
+# Z hlediska roku 2026, 2030, 2040 bych si přál
+
+nebýt často v nemocnici
+
+...
+
+je důležitější
+
+naučit se
+
+s větší pravděpodobností
+
+* udržet tělesnou váhu (mám značnou podváhu a podvýživu)
+
+* raději víc riskovat v jiných oblastech
+
+# udržet tělesnou váhu (mám značnou podváhu a podvýživu)
+
+dlouhodobě
+
+nestačí víc jíst
+
+je potřeba také
+
+víc trávit
+
+* dělat víc přestávek při práci 
+* jíst pomaleji
+* jíst více tuků
+* jíst více kalorií
+* jíst více bílkovin
+* jíst více sacharidů
+* jíst více zeleniny a ovoce
+* jíst více ořechů a semínek
+* jíst více luštěnin
+* jíst více celozrnných produktů
+* jíst více ryb a masa
+* jíst více mléčných výrobků
+* jíst více vajec
+* jíst více potravin bohatých na vitamíny a minerály
+* jíst více potravin bohatých na vlákninu
+* jíst více potravin bohatých na antioxidanty
+* jíst více potravin bohatých na omega-3 mastné kyseliny
+* jíst více potravin bohatých na probiotika
+* jíst více potravin bohatých na prebiotika
+* jíst více potravin bohatých na enzymy
+* jíst více potravin bohatých na fytonutrienty
+* jíst více potravin bohatých na flavonoidy
+
+
+
+
+
 
 
 # existing recommended vscode extenstions to insert timestamp ... to track symptoms in markdown files
