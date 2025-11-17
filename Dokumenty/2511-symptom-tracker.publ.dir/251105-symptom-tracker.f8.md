@@ -20,6 +20,30 @@ Choose a consistent timestamp format that works across your logs (e.g., ISO YYYY
 
 
 
+
+
+
+
+# todo ...  existing recommended vscode extenstions to insert timestamp ... to track symptoms in markdown files
+
+- **Insert Date String**: This extension allows you to quickly insert the current date and time in various formats. You can customize the format to suit your needs.
+- **Date Time Stamper**: This extension provides a simple way to insert timestamps into your files. It supports multiple formats and can be triggered with a keyboard shortcut.
+- **Markdown Timestamp**: Specifically designed for Markdown files, this extension helps you insert timestamps in a format suitable for note-taking and journaling.
+- **Auto Timestamp**: This extension automatically inserts a timestamp whenever you save a file. It can be configured to use different date and time formats.
+
+
+
+- **Time Tracker**:a This extension is useful for tracking time spent on tasks. It allows you to insert timestamps and log your activities directly in your code or notes.
+- **Timestamped Notes**: This extension is great for taking notes with timestamps. It allows you to insert the current date and time easily while writing notes in Markdown or plain text files.
+
+
+
+
+- **Quick Date Inserter**: A lightweight extension that provides quick access to insert the current date and time with customizable formats, ideal for developers who frequently need timestamps in their code or documentation.
+- 
+
+
+
 # ai generated symptom tracking log
 - 2025-11-06 00:19:45 - Started tracking symptoms
 - 2025-11-06 08:30:00 - Noticed headache
@@ -104,6 +128,8 @@ jako výchozí prohlížeč v mobilu musí být MS Edge, Google Chrome nebo Safa
 slíbila, že posune květináč
 voda z okapu by mohla dělat problémy
 
+251117
+placený Gemini spočítal integrál
 
 
 ## disk full
@@ -127,16 +153,18 @@ naučit se
 
 s větší pravděpodobností
 
+
+-- dlouhé seznamy doplňuje ai
+
 * udržet tělesnou váhu (mám značnou podváhu a podvýživu)
+
+* slušněji se bránit požadavkům okolí na můj čas, energii, pozornost, péči, pomoc, služby, zdroje ... a mít víc času, energie, pozornosti, péče, pomoci, služeb, zdrojů pro sebe
 
 * raději víc riskovat v jiných oblastech ... antifragilita ... souvisí s kognitivně-behaviorální terapií ... vystavovat se nepohodlí, stresu, zátěži, bolesti, nejistotě, neznámému, novému, změně, výzvám, rizikům, neúspěchům, selháním ... abych byl silnější, odolnější, adaptabilnější, pružnější, houževnatější ... a méně křehký
 
 
 # udržet tělesnou váhu (mám značnou podváhu a podvýživu)
 
-dlouhodobě
-
-nestačí víc jíst
 
 -- ai píše
 
@@ -144,6 +172,10 @@ nestačí víc jíst
 * jíst více kalorií
 * jíst více bílkovin
 * jíst více sacharidů
+
+... dlouhodobě
+
+nestačí víc jíst
 
 
 je potřeba také
@@ -155,25 +187,6 @@ víc trávit
 
 
 
-
-
-# existing recommended vscode extenstions to insert timestamp ... to track symptoms in markdown files
-
-- **Insert Date String**: This extension allows you to quickly insert the current date and time in various formats. You can customize the format to suit your needs.
-- **Date Time Stamper**: This extension provides a simple way to insert timestamps into your files. It supports multiple formats and can be triggered with a keyboard shortcut.
-- **Markdown Timestamp**: Specifically designed for Markdown files, this extension helps you insert timestamps in a format suitable for note-taking and journaling.
-- **Auto Timestamp**: This extension automatically inserts a timestamp whenever you save a file. It can be configured to use different date and time formats.
-
-
-
-- **Time Tracker**:a This extension is useful for tracking time spent on tasks. It allows you to insert timestamps and log your activities directly in your code or notes.
-- **Timestamped Notes**: This extension is great for taking notes with timestamps. It allows you to insert the current date and time easily while writing notes in Markdown or plain text files.
-
-
-
-
-- **Quick Date Inserter**: A lightweight extension that provides quick access to insert the current date and time with customizable formats, ideal for developers who frequently need timestamps in their code or documentation.
-- 
 
 
 
