@@ -1,6 +1,24 @@
 
+
+ℹ️ℹ️ℹ️ℹ️ projekt 250825 ... personal, family digital emergency plan  ... Milan B., Martin Milan, #250825  251122
+
+
+"C:\Users\marti\OneDrive\Dokumenty\250825-@skupina-meta-informace\00043-tags-250825-emergency-250918-250831-ℹ️ℹ️ℹ️ℹ️ℹ️-aaaaAAA-00000-CORE1000-antidepressant-akathisia.f8.md"
+
+
+https://chat.google.com/room/AAQAiugwWm0?cls=5  funguje
+
+ /// https://chat.google.com/room/AAQAIugwWm0?cls=5
+nefunguje nevím proč.. na mobilu vypadá stejně až na ten lom... jako výše
+
+
+
 https://mail.google.com/chat/u/0/#chat/space/AAQAiugwWm0
 TODO: tento task predelat na prispevek
+
+
+
+
 
 toto je pracovni verze of 
 
@@ -9,6 +27,27 @@ https://keep.google.com/#NOTE/1f20fE1eA8TYuKbrFtZXx8F0-TjAzM7k6048qXh2HKE4P3v-YS
 
 
 kopie z keep
+
+
+
+odkaz na ten lístek s kontakty emaily
+https://keep.google.com/u/0/#NOTE/1Ast_a0ulo7BX3vXWSbgnXlHWnuCXqykLdikkF7aC2yYDNx5ENfcHP3_RKttayw
+#AAAAa Aaaa EMAILY.txt, e-maily nejnovější verze 241.8, KONTAKTY, nová telefonní čísla, telefony, rodná čísla, NONSHADOW, NEKOPIE #emergency 
+
+
+
+
+
+Todo Reddit survival_of_our_info
+
+případně také...
+
+vlastní webové stránky, hlavně facebook, google, reddit, whatsapp ℹ️  #250831 #aaaaAAA #00000 #CORE1000 251122
+
+
+
+
+
 // SDILENY listek
 // ctrl+z je undo = vratit zpet editovani
 
