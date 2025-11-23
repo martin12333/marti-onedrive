@@ -1,7 +1,6 @@
 
 # ℹ️ℹ️ℹ️ℹ️ téma 250825 ... family digital emergency plan 
 // AI, prosím přeložit do češtiny   // Rodinný Digitální Krizový Plán
- https://github.com/martin12333/marti-onedrive/blob/main2/Dokumenty/250825-%40skupina-meta-informace/250825-%40skupina-meta-informace%2Cemergency.f8.md 
 
 
 edit. odteď lístek v Google keep bude jen pro výjimečné přídavky z mobilu... oficiální verze dokumentu bude
@@ -16,20 +15,11 @@ https://keep.google.com/#NOTE/1f20fE1eA8TYuKbrFtZXx8F0-TjAzM7k6048qXh2HKE4P3v-YS
 
 
 
-// SHARED note #250825 
-// ℹ️ ctrl+z is undo = revert editing
-// ℹ️ backup copies are in Google docs
-
-
-
-back link
-// C:\Users\marti\OneDrive\Dokumenty\250825-@skupina-meta-informace\250825-@skupina-meta-informace,emergency.f8.md
 
 back link
 @skupina meta-informace: kde najít jiné informace: webové odkazy - Chat
 https://chat.google.com/room/AAQAiugwWm0?cls=5  funguje i na mobilu 
 https://mail.google.com/chat/u/0/#chat/space/AAQAiugwWm0
-TODO: tento task predelat na prispevek
 
 
 
@@ -49,7 +39,6 @@ TODO: tento task predelat na prispevek
 [Jméno] ZACHRANKA Konzultační Centrum
 [Mobil] 800 888 155
 Jen info ...Málokdo o něm ví. Číslo na konzultační centrum záchranky je těžké dohledat https://www.idnes.cz/praha/zpravy/tisnova-linka-pomoc-zdravotnik-pohotovost-zachranna-sluzba.A250115_091555_praha-zpravy_idh
-
 
 
 
@@ -75,7 +64,8 @@ people you choose can view
 
 
 
-# emergency
+# emergency   ... todo
+
 https://www.reddit.com/r/LifeProTips/comments/1ng2g1l/lpt_give_a_trusted_person_emergency_access_to/
 
 
@@ -94,7 +84,8 @@ Amazon.com: Organize Your Parent’s Digital Life: A Step-by-Step Guide for Adul
 
 
 
-ai
+ai generovaný obsah pro tento dokument
+
 - personal digital emergency plan
 - family digital emergency plan
 - household emergency plan
@@ -108,6 +99,7 @@ ai
 - meeting points
 - special needs
 - medications
+
 Venlafaxinum 
 Venlafaxin 75 mg 1-0-0
 Mirtazapin 15 mg 0-0-(1/4)
@@ -319,3 +311,16 @@ vlastní webové stránky, hlavně facebook, google, reddit, whatsapp ℹ️  #2
 // ctrl+z je undo = vratit zpet editovani
 
 https://chatgpt.com/share/69236270-2264-800e-95a1-526f15e39139
+
+
+// SHARED note #250825 
+// ℹ️ ctrl+z is undo = revert editing
+// ℹ️ backup copies are in Google docs
+
+
+
+
+back link
+// C:\Users\marti\OneDrive\Dokumenty\250825-@skupina-meta-informace\250825-@skupina-meta-informace,emergency.f8.md
+
+// jina zachranka
