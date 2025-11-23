@@ -13,7 +13,18 @@ a quote from glasp-memories.md
 - **Date:** 7/26/2024
 - **URL:** https://nesslabs.com/glasp-featured-tool
 
-> Martin Milan discovered that confronting mortality at a young age reshaped his perspective on life, driving him to focus on creating a meaningful digital legacy that emphasizes community and shared knowledge.
+
+
+> Martin Milan discovered that confronting mortality at a young age reshaped
+## Building your digital legacy with Kazuki Nakayashiki, co-founder of Glasp
+ his perspective on life, driving him to focus on creating a meaningful digital legacy that emphasizes community and shared knowledge.
+
+
+
+
+
+
+
 
 ---
 
@@ -24,34 +35,59 @@ Overview
 Lyrics
 Lyrics
 Spatřil jsem kometu, oblohou letěla,
+chtěl jsem jí zazpívat, ona mi zmizela,
+zmizela jako laň u lesa v remízku,
+v očích mi zbylo jen pár žlutých penízků.
 
 ---
+
+
 
 Survival of Information 
 not Flows 
 
 survival of information systems.
 but informal
+
 personal, family, hobby, home
 not formal
 professional, work, enterprise, business
 
 
 "survival of information" site:github.com
+
 my
 our
 survival of my information as a human desire
 survival of our information as a human desire
+
 I am going to start a subreddit about this
+
+
+
+# https://www.reddit.com/r/survival_of_our_info/
+survival of our information as a human desire
+survival_of_our_info
+rmation as a human desire
+
+also a distantly related topic: digital emergency plans
+
+
+
 
 https://en.wikipedia.org/wiki/Digital_immortality
 
 
+ChatGPT
+C:\Users\marti\OneDrive\Dokumenty\Clippings\Survival of information desire.md
+
+
+
+
 https://www.reddit.com/search/?q=%22Digital+Immortality%22&type=communities&cId=8932f110-0c8b-4ef9-8bab-a45d436a2f2f&iId=c98c6083-bd04-480c-a15e-ae755adeea13
 
-2 zbyly
 
-
+https://www.reddit.com/r/Digital_Immortality/
 
 
 

@@ -2,14 +2,9 @@
 
 
 
-https://old.reddit.com/subreddits/create
-https://www.reddit.com/subreddits/create
-see 250920
 
 
 # 2509  250831  
-
-
 # reddit flagged banned
 
 https://www.reddit.com/premium
@@ -145,6 +140,9 @@ I rescheduled two things, closed the rest. Took a walk.
 
 
 
+
+
+
 # Spam filter strength in this sub was too high
 
 in recent months, reddit is targetted by tons of crypto spam
@@ -177,7 +175,29 @@ EDIT: and I have added you as a moderator, so you can approve your posts
 
 
 
+
+
+
 # 250920
+
+
+dr. Jan Praško
+
+bojim preklepu v názvu subredditu
+Obsidian has a spell checker 
+
+read by syllables
+
+https://www.reddit.com/r/survival_of_our_info/
+survival of our information as a human desire
+survival_of_our_info
+rmation as a human desire
+
+also a distantly related topic: digital emergency plans
+
+https://old.reddit.com/subreddits/create
+https://www.reddit.com/subreddits/create
+
 
 https://www.diigo.com/user/martin12333?query=.reddit.com%2Fsubreddits%2Fcreate
 
@@ -201,6 +221,8 @@ May 12, 2024
 subreddit settings4
 old.reddit.com+ tag
 your subreddit has been created
+
+
 
 Your content tag is based on a moderator survey about community posts and discussions. Take the survey on new.reddit.com.
 More control over how your community is discovered and grows. Add relevant topical information to improve when to show your community across Reddit. Click here to open the new.reddit.com Community Settings page in a new tab.
