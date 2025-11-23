@@ -1,9 +1,8 @@
 
 # ℹ️ℹ️ℹ️ℹ️ téma 250825 ... family digital emergency plan 
+// AI, prosím přeložit do češtiny   // Rodinný Digitální Krizový Plán
+ https://github.com/martin12333/marti-onedrive/blob/main2/Dokumenty/250825-%40skupina-meta-informace/250825-%40skupina-meta-informace%2Cemergency.f8.md 
 
-// prosím přeložit do češtiny   
-
-Rodinný Digitální Krizový Plán
 
 edit. odteď lístek v Google keep bude jen pro výjimečné přídavky z mobilu... oficiální verze dokumentu bude
 toto ... 
@@ -51,6 +50,10 @@ TODO: tento task predelat na prispevek
 [Mobil] 800 888 155
 Jen info ...Málokdo o něm ví. Číslo na konzultační centrum záchranky je těžké dohledat https://www.idnes.cz/praha/zpravy/tisnova-linka-pomoc-zdravotnik-pohotovost-zachranna-sluzba.A250115_091555_praha-zpravy_idh
 
+
+
+
+https://www.zachrankaapp.cz/cs/projekt-72-hodin-nove-najdete-i-v-aplikaci-zachranka
 
 
 
@@ -106,6 +109,9 @@ ai
 - special needs
 - medications
 Venlafaxinum 
+Venlafaxin 75 mg 1-0-0
+Mirtazapin 15 mg 0-0-(1/4)
+
 
 - pets
 - important digital information
