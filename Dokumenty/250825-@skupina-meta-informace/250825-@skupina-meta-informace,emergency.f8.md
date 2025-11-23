@@ -36,10 +36,15 @@ https://mail.google.com/chat/u/0/#chat/space/AAQAiugwWm0
 
 
 
+# todo možná udelat nejake google saved collections of links
+https://www.google.com/interests/saved?authuser=0
 
 
 
-# family digital emergency plan
+
+
+
+# zachranka apod
 
 
 [Jméno] ZACHRANKA Konzultační Centrum
@@ -51,6 +56,12 @@ Jen info ...Málokdo o něm ví. Číslo na konzultační centrum záchranky je 
 https://www.zachrankaapp.cz/cs/projekt-72-hodin-nove-najdete-i-v-aplikaci-zachranka
 
 
+
+
+
+# odkaz na ten lístek s kontakty emaily
+https://keep.google.com/u/0/#NOTE/1Ast_a0ulo7BX3vXWSbgnXlHWnuCXqykLdikkF7aC2yYDNx5ENfcHP3_RKttayw
+#AAAAa Aaaa EMAILY.txt, e-maily nejnovější verze 241.8, KONTAKTY, nová telefonní čísla, telefony, rodná čísla, NONSHADOW, NEKOPIE #emergency 
 
 
 
@@ -73,14 +84,13 @@ https://account.microsoft.com/family/home
 
 
 
-# emergency   ... todo
+# emergency ... texts  ... Milan todo
 
 https://www.reddit.com/r/LifeProTips/comments/1ng2g1l/lpt_give_a_trusted_person_emergency_access_to/
 
 
 
 
-In Case You Get Hit by a Bus: How to Organize Your Life Now for When You're Not Around Later - Kindle edition by Schneiderman, Abby, Seifer, Adam, Newman, Gene. Crafts, Hobbies & Home Kindle eBooks @ Amazon.com.
 
 
 https://github.com/potatoqualitee/eol-dr?tab=readme-ov-file
@@ -90,16 +100,18 @@ https://github.com/potatoqualitee/eol-dr?tab=readme-ov-file
 https://www.amazon.com/dp/B0FQ3DFVXV?ref=cm_sw_r_ffobk_cp_ud_dp_NVQTASRQWXR7NJBBG22N_1&ref_=cm_sw_r_ffobk_cp_ud_dp_NVQTASRQWXR7NJBBG22N_1&social_share=cm_sw_r_ffobk_cp_ud_dp_NVQTASRQWXR7NJBBG22N_1&bestFormat=true
 Amazon.com: Organize Your Parent’s Digital Life: A Step-by-Step Guide for Adult Children to Organize Aging Parents’ Accounts, Passwords, and Memories eBook : Kit, Digital Legacy: Kindle Store
 
+In Case You Get Hit by a Bus: How to Organize Your Life Now for When You're Not Around Later - Kindle edition by Schneiderman, Abby, Seifer, Adam, Newman, Gene. Crafts, Hobbies & Home Kindle eBooks @ Amazon.com.
 
 
 
-ai generovaný obsah pro tento dokument
+# ai generovaný obsah pro tento dokument
 
 - personal digital emergency plan
 - family digital emergency plan
 - household emergency plan
 - grab-and-go bag, Bug Out Bag
 - important documents copy
+
 - emergency contacts
 800 888 155
 
@@ -122,11 +134,12 @@ Mirtazapin 15 mg 0-0-(1/4)
 - backups
 - devices
 - apps
-eDoklady
 
+eDoklady
+ZACHRANKA
 
 - offline access
-- training and drills
+- training and practice...
 christmas gift
 
 - review and update
@@ -149,12 +162,6 @@ christmas gift
 
 
 
-
-
-
-# odkaz na ten lístek s kontakty emaily
-https://keep.google.com/u/0/#NOTE/1Ast_a0ulo7BX3vXWSbgnXlHWnuCXqykLdikkF7aC2yYDNx5ENfcHP3_RKttayw
-#AAAAa Aaaa EMAILY.txt, e-maily nejnovější verze 241.8, KONTAKTY, nová telefonní čísla, telefony, rodná čísla, NONSHADOW, NEKOPIE #emergency 
 
 
 
@@ -194,11 +201,6 @@ also a distantly related topic: digital emergency plans
 
 
 
-
-
-
-todo možná udelat nejake google saved collections of links
-https://www.google.com/interests/saved?authuser=0
 
 
 
