@@ -2,7 +2,13 @@
 # ℹ️ℹ️ℹ️ℹ️ téma 250825 ... meta info, family digital emergency plan 
 // AI, prosím přeložit do češtiny   // Rodinný Digitální Krizový Plán
 
-// darek k Vanocum ... zkouset, zda [dokument 250825 ... meta informace, emergency plan] ... doufam jediny odkaz z google chat / skupina 250825 meta informace ... zda odkaz funguje, zda i na mobilu 
+// darek k Vanocum ... zkouset, zda [dokument 250825 ... meta informace, emergency plan] ... doufam jediny odkaz z google chat / skupina 250825 meta informace ... zda odkaz funguje ... i na mobilu 
+
+( kdyby selhal github, odkaz na stary listek v Google keep ...
+https://keep.google.com/#NOTE/1f20fE1eA8TYuKbrFtZXx8F0-TjAzM7k6048qXh2HKE4P3v-YS8mzR-uCObftdA
+)
+
+// ten listek v keep ma navic fotku receptu na venlafaxinum
 
 
 edit. odteď lístek v Google keep bude jen pro výjimečné přídavky z mobilu... oficiální verze dokumentu bude
@@ -10,8 +16,6 @@ toto, co ted ctete ...
  https://github.com/martin12333/marti-onedrive/blob/main2/Dokumenty/250825-%40skupina-meta-informace/250825-%40skupina-meta-informace%2Cemergency.f8.md 
 
 
-// ten listek v keep ma navic fotku receptu na venlafaxinum
-https://keep.google.com/#NOTE/1f20fE1eA8TYuKbrFtZXx8F0-TjAzM7k6048qXh2HKE4P3v-YS8mzR-uCObftdA
 
 
 
