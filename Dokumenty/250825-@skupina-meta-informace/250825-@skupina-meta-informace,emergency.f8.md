@@ -2,7 +2,7 @@
 # ℹ️ℹ️ℹ️ℹ️ téma 250825 ... family digital emergency plan 
 // AI, prosím přeložit do češtiny   // Rodinný Digitální Krizový Plán
 
-// darek k Vanocum ... zkouset, zda tento dokument najdou i jini lide
+// darek k Vanocum ... zkouset, zda tento dokument 250825 najdou i jini lide
 
 
 
