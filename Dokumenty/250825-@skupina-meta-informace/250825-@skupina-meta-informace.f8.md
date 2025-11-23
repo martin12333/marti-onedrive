@@ -1,5 +1,18 @@
 
 
+toto je pracovni verze of 
+
+# Milan B., Martin Milan, vlastní webové stránky, hlavně facebook, google, reddit, whatsapp #250831 #aaaaAAA #00000 #CORE1000
+https://keep.google.com/#NOTE/1f20fE1eA8TYuKbrFtZXx8F0-TjAzM7k6048qXh2HKE4P3v-YS8mzR-uCObftdA
+
+
+kopie z keep
+
+
+
+
+
+
 ℹ️ℹ️ℹ️ℹ️ projekt 250825 ... personal, family digital emergency plan  ... Milan B., Martin Milan, #250825  251122
 
 
@@ -17,15 +30,12 @@ In Case You Get Hit by a Bus: How to Organize Your Life Now for When You're Not 
 
 https://github.com/potatoqualitee/eol-dr?tab=readme-ov-file
 
-
-Purpose
-Preserve member’s personal websites for decades after their death.
+https://legacytrust.nz/
 
 This is for those few people who have put significant expression of their thoughts, creations, and personality into their personal website, hosted at their own domain, who want it to continue as a public legacy after their death.
 
 Everything on their website will continue as it was. Their domain name will be renewed, and website will be working, for a hundred years.
 
-M
 
 
 
@@ -96,13 +106,6 @@ TODO: tento task predelat na prispevek
 
 
 
-toto je pracovni verze of 
-
-# Milan B., Martin Milan, vlastní webové stránky, hlavně facebook, google, reddit, whatsapp #250831 #aaaaAAA #00000 #CORE1000
-https://keep.google.com/#NOTE/1f20fE1eA8TYuKbrFtZXx8F0-TjAzM7k6048qXh2HKE4P3v-YS8mzR-uCObftdA
-
-
-kopie z keep
 
 
 
