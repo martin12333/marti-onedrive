@@ -1,12 +1,20 @@
 
+# ℹ️ℹ️ℹ️ℹ️ téma 250825 ... family digital emergency plan 
 
-toto je markdown verze of
+// prosím přeložit do češtiny   
+
+Rodinný Digitální Krizový Plán
+
+edit. odteď lístek v Google keep bude jen pro výjimečné přídavky z mobilu... oficiální verze dokumentu bude
+toto ... 
+ https://github.com/martin12333/marti-onedrive/blob/main2/Dokumenty/250825-%40skupina-meta-informace/250825-%40skupina-meta-informace%2Cemergency.f8.md 
+
+
+// ten listek v keep ma navic fotku receptu na venlafaxinum
 https://keep.google.com/#NOTE/1f20fE1eA8TYuKbrFtZXx8F0-TjAzM7k6048qXh2HKE4P3v-YS8mzR-uCObftdA
 
-// listek v keep ma navic fotku receptu na venlafaxinum
 
 
-ℹ️ℹ️ℹ️ℹ️ téma 250825 ... personal, family digital emergency plan 
 
 
 // SHARED note #250825 
@@ -304,3 +312,4 @@ vlastní webové stránky, hlavně facebook, google, reddit, whatsapp ℹ️  #2
 // SDILENY listek
 // ctrl+z je undo = vratit zpet editovani
 
+https://chatgpt.com/share/69236270-2264-800e-95a1-526f15e39139
