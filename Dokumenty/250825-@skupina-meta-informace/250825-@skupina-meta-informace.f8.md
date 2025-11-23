@@ -20,6 +20,27 @@ kopie z keep
 
 
 
+
+
+
+
+https://onedrive.live.com/?id=%2Fpersonal%2F4b12298d932a2860%2FDocuments%2FDokumenty
+
+link shared with your family 
+people you choose can view
+"C:\Users\marti\OneDrive\Dokumenty\0000000004\2025-11-23_05h27_39.png"
+
+test whether they can open it
+
+
+
+
+
+
+
+
+
+
 https://www.reddit.com/r/LifeProTips/comments/1ng2g1l/lpt_give_a_trusted_person_emergency_access_to/
 
 
