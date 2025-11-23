@@ -303,3 +303,4 @@ vlastní webové stránky, hlavně facebook, google, reddit, whatsapp ℹ️  #2
 
 // SDILENY listek
 // ctrl+z je undo = vratit zpet editovani
+
