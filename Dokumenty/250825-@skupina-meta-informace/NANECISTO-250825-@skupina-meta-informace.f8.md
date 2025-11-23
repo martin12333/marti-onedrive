@@ -13,6 +13,16 @@ kopie z keep
 
 
 
+[Jméno] ZACHRANKA Konzultační Centrum
+[Mobil] 800 888 155
+Jen info ...Málokdo o něm ví. Číslo na konzultační centrum záchranky je těžké dohledat https://www.idnes.cz/praha/zpravy/tisnova-linka-pomoc-zdravotnik-pohotovost-zachranna-sluzba.A250115_091555_praha-zpravy_idh
+
+
+
+
+
+
+
 ℹ️ℹ️ℹ️ℹ️ projekt 250825 ... personal, family digital emergency plan  ... Milan B., Martin Milan, #250825  251122
 
 

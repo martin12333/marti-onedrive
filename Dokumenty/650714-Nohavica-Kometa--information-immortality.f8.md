@@ -93,6 +93,14 @@ https://www.reddit.com/r/Digital_Immortality/
 
 
 
+https://legacytrust.nz/
+
+This is for those few people who have put significant expression of their thoughts, creations, and personality into their personal website, hosted at their own domain, who want it to continue as a public legacy after their death.
+
+Everything on their website will continue as it was. Their domain name will be renewed, and website will be working, for a hundred years.
+
+
+
 
 
 
