@@ -2,9 +2,13 @@
 # ℹ️ℹ️ℹ️ℹ️ téma 250825 ... family digital emergency plan 
 // AI, prosím přeložit do češtiny   // Rodinný Digitální Krizový Plán
 
+// darek k Vanocum ... zkouset, zda tento dokument najdou i jini lide
+
+
+
 
 edit. odteď lístek v Google keep bude jen pro výjimečné přídavky z mobilu... oficiální verze dokumentu bude
-toto ... 
+toto, co ted ctete ... 
  https://github.com/martin12333/marti-onedrive/blob/main2/Dokumenty/250825-%40skupina-meta-informace/250825-%40skupina-meta-informace%2Cemergency.f8.md 
 
 
@@ -51,10 +55,13 @@ https://www.zachrankaapp.cz/cs/projekt-72-hodin-nove-najdete-i-v-aplikaci-zachra
 # test whether they can open it
 https://onedrive.live.com/?id=%2Fpersonal%2F4b12298d932a2860%2FDocuments%2FDokumenty
 
-link shared with the group : your family 
-people you choose can view
+link shared with the group : your family ..
+people you choose can view ..
 "C:\Users\marti\OneDrive\Dokumenty\0000000004\2025-11-23_05h27_39.png"
 
+https://keep.google.com/u/0/#NOTE/1Ast_a0ulo7BX3vXWSbgnXlHWnuCXqykLdikkF7aC2yYDNx5ENfcHP3_RKttayw
+251122
+https://account.microsoft.com/family/home
 
 
 
