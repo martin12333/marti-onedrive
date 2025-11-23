@@ -1,10 +1,8 @@
 
-# ℹ️ℹ️ℹ️ℹ️ téma 250825 ... family digital emergency plan 
+# ℹ️ℹ️ℹ️ℹ️ téma 250825 ... meta info, family digital emergency plan 
 // AI, prosím přeložit do češtiny   // Rodinný Digitální Krizový Plán
 
-// darek k Vanocum ... zkouset, zda tento dokument 250825 najdou i jini lide
-
-
+// darek k Vanocum ... zkouset, zda [dokument 250825 ... meta informace, emergency plan] ... doufam jediny odkaz z google chat / skupina 250825 meta informace ... zda odkaz funguje, zda i na mobilu 
 
 
 edit. odteď lístek v Google keep bude jen pro výjimečné přídavky z mobilu... oficiální verze dokumentu bude
