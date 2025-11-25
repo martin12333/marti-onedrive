@@ -303,12 +303,10 @@ https://github.com/martin12333/marti-onedrive/tree/main2/1703-IJMVA/250825-25083
 
 https://keep.google.com/#NOTE/15NT_oV2s3DmYlAMidJKTMJF1MgMj-3M7_Q9UTHyUZI1BMgCH0iRBZIdqk-NX
 
-## search for 250918
 
 
-## C:\Users\marti\OneDrive\Dokumenty\250918-929-antidepressant-shocks--akathisia.f8.md
 
-https://github.com/martin12333/marti-onedrive/blob/main2/Dokumenty/250918-929-antidepressant-shocks--akathisia.f8.md
+## https://github.com/martin12333/marti-onedrive/blob/main2/Dokumenty/250918-929-antidepressant-shocks--akathisia.f8.md
 
 
 
@@ -331,9 +329,6 @@ a quote from ycombinator .. "Nothing worked better than exercise, sleep, nicotin
 kdyby se rodina z mých havárií poučila ...
 
  kdyby se někdo zajímal o to, co jsem vykopal z internetu a ověřil 
-
-
-## C:\Users\marti\OneDrive\Dokumenty\0000000004\00042-BUGS\250918-antidepressant-akathisia-edit.f8.md
 
 
 
@@ -385,5 +380,7 @@ back link
 // jina zachranka
 
 https://github.com/martin12333/marti-onedrive/blob/main2/Dokumenty/250825-%40skupina-meta-informace/250825-%40skupina-meta-informace%2Cemergency.f8.md 
+
+C:\Users\marti\OneDrive\Dokumenty\250918-929-antidepressant-shocks--akathisia.f8.md
 
 ## dle filosofie dr. Praška a antifragility ... ℹ️ℹ️ℹ️ℹ️možná se rodina pro příštích 50 let trochu posílila ...
