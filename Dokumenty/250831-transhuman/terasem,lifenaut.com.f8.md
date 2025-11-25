@@ -27,6 +27,10 @@ The movement was founded by Martine Rothblatt and Bina Aspen Rothblatt, and is g
 FAQ - 
 LifeNaut
 
+_?
+C:\Users\marti\OneDrive\Dokumenty\Clippings\terasem--mindfile-FAQ.md
+
+
 (1) 
 Turing Church
  | Giulio Prisco | Substack
@@ -43,6 +47,101 @@ IV. LOVE IS ESSENTIAL. Love means that the happiness of others is essential to y
 
 
 …All the rest is commentary.
+
+
+
+
+
+
+# 251122 
+https://gemini.google.com/app/58b07656aba2fbe2
+
+
+
+uture of Shell Scripting
+Programming Languages in 2030
+Future Programming Language Trends
+OS Evolution: Security, Cloud & AI
+Software Architecture Trends
+Future of Computer Architecture
+Create Docker Container (Python)
+Unix: Beauty in Simplicity
+Software Architecture Beauty
+Control Docker with JavaScript
+Výměna děravých okapů na rodinném domě
+Docker Container Resource Limits
+Learn Node.js from Python
+du64.exe Command Options
+Check Directory Permissions
+Reviving r/[Subreddit name]: Let's discuss!
+Python Struggles Lead to JavaScript Journey
+Python Setup for VS Code Beginner **[r/learnpython]**
+Webpage Opening Local App
+Windows Recall Positivity
+Node.js to Browser Console Logging
+JavaScript vs. S-Expressions
+AST Alternatives
+Abstract Syntax Tree Examples
+Přístup odepřen
+5-Line Programming Concept
+Single-line code in Jupyter
+One-Line Programming
+One-Line Programming Styles
+Conversation with Gemini
+please transcribe
+
+Based on the image provided, here is the transcription of the main content displayed on the screen, which appears to be an onboarding questionnaire for a Discord server.
+
+Main Interface Window
+Header:
+
+Terasem Transreligion
+
+Question Block: Question 1 of 3 : Required
+
+Have you begun a Mind File, a digital backup of your thoughts, memories and other information?
+
+Selection Options:
+
+Yes
+
+[Icon: Nerd face with glasses]
+
+I have a digital backup of my personal source code.
+
+No
+
+[Icon: Flushed/Embarrassed face]
+
+I've just barely discovered this strange and bizarre idea.
+
+Footer:
+
+Choose all that apply.
+
+Skip ->
+
+Browser & Context Details
+URL: https://discord.com/channels/816012901219434508/onboarding
+
+Window Title: (960) Discord
+
+Browser: Microsoft Edge (based on the sidebar icons)
+
+System Time: 05:27 | 11/25/2025
+
+Would you like me to explain what a "Mind File" usually refers to in the context of the Terasem movement?
+
+
+
+
+
+You are now a member of Terasem Transreligion! Hooray! It's time to talk and meet your new community.
+
+
+
+Swami ritual 
+
 
 
 
@@ -78,6 +177,7 @@ https://mindclones.blogspot.com/
 
 
 https://lifenaut.com/mindfile/faqs/
+C:\Users\marti\OneDrive\Dokumenty\Clippings\terasem--mindfile-FAQ.md
 
 
 https://lifenaut.com/learn-more/
