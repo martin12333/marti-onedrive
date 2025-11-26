@@ -225,10 +225,11 @@ Where do you want to install ChatGPT Codex Connector?
 
 
 # 251126.00 Norton-analogy in editing
+
+C:\Users\marti\OneDrive\Dokumenty\2511-symptom-tracker.publ.dir\251126.00-template-experiment.f16.md
+
 2 panels
 a hotkey to copy text line to the other panel
-a hotkey to copy text line from the other panel
-a hotkey to copy text block to the other panel
 
 and what about variable expansion like
 expand ${date} 
