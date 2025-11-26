@@ -15,7 +15,32 @@ mindfile
 github
 lifenaut
 
+# 251126.14
 
+**GLOSSARY** 
+"truths of terasem"
+https://discord.com/channels/816012901219434508/816012901219434511
+
+"Yugenspace "  "terasem"
+"Yugenspace "  "terasem"
+
+google
+reddit
+gist
+github
+discord
+facebook
+
+diigo
+hypothes.is
+glasp
+
+lesswrong
+medium
+
+stackexchange
+twitter
+ycombinator
 
 
 
