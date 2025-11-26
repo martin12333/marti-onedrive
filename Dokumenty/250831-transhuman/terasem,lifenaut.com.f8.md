@@ -2,12 +2,29 @@
 file:///C:\Users\marti\OneDrive\Dokumenty\250831-transhuman\251007-annot-2024_Truths_of_Terasem.f8.md
 
 
+# 251125 You are now a member of Terasem Transreligion! Hooray! It's time to talk and meet your new community.
+
+
+
 # (in the future, maybe I should put \*.md in a flat folder, 
 
+
+# 251125 discord
+
+mindfile
+github
+lifenaut
+
+
+
+
+
+# 2510 
 That experience led to a realization: while knowledge is one of the most valuable things we accumulate in life, most of it disappears with us.
 trigger copilot compl
 
 
+https://reddit.com/r/terasem/about/edit/?created=true
 https://old.reddit.com/r/terasem/about/edit/?created=true
 Terasem Movement, Terasem Faith, transreligion, LifeNaut
 Terasem Movement, Terasem Faith, transreligion, LifeNaut, Truths of Terasem, Turing Church, mindfiles, mindware, mindclones
@@ -26,7 +43,6 @@ The movement was founded by Martine Rothblatt and Bina Aspen Rothblatt, and is g
 
 FAQ - 
 LifeNaut
-
 _?
 C:\Users\marti\OneDrive\Dokumenty\Clippings\terasem--mindfile-FAQ.md
 
@@ -53,7 +69,7 @@ IV. LOVE IS ESSENTIAL. Love means that the happiness of others is essential to y
 
 
 
-# 251122 
+# 251122 discord
 https://gemini.google.com/app/58b07656aba2fbe2
 
 
@@ -136,7 +152,7 @@ Would you like me to explain what a "Mind File" usually refers to in the context
 
 
 
-You are now a member of Terasem Transreligion! Hooray! It's time to talk and meet your new community.
+# You are now a member of Terasem Transreligion! Hooray! It's time to talk and meet your new community.
 
 
 
@@ -150,7 +166,7 @@ Swami ritual
 
 
 
-discord
+# discord 2510
 long ago, maybe by google search or wikipedia
 
 First, just for reading.

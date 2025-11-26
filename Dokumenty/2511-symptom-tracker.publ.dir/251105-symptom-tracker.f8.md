@@ -31,6 +31,7 @@ insert timestamp here
 Choose a consistent timestamp format that works across your logs (e.g., ISO YYYY-MM-DD hh:mm or with timezone if you like).
 
 #tag
+#
 #251112   tags numbered by date yymmdd
 #251112 works
 #91.1
@@ -38,7 +39,6 @@ Choose a consistent timestamp format that works across your logs (e.g., ISO YYYY
 #91
 #91-1
 #91_1
-
 
 
 

@@ -168,7 +168,85 @@ C:\Users\marti\OneDrive\eev-f8\TODO.f8.md
 C:\Users\marti\OneDrive\Dokumenty\250831-transhuman\251007-annot-2024_Truths_of_Terasem.f8.md
 
 
+# 251126-relaxation-vibration-loop-web-app
+ 251126 vibration Android Vibration Loop Web App
+canvas?
+https://gemini.google.com/app/654bc61f5ffb318e
 
+
+// 251126-vibration
+could be made at codepen.io ...
+a simple web page,  for android, with 1 second vibration, and 7 second no vibration ... in a loop
+
+can you add a README.md file with 20 words description?
+
+please add a slider  for vibration duration, 0.1 to 2.0 seconds
+please add a slider  for total duration, 4 to 16 seconds
+ 
+ 
+ 
+  and total duration
+
+maybe with a button to start/stop
+
+pause duration
+maybe with a setting for total duration
+
+
+
+maybe with a counter of vibrations
+
+
+maybe with a sound on vibration
+
+
+
+
+# 251126.20 ChatGPT-Codex-Connector-experiment
+
+https://chatgpt.com/codex
+
+// 251126
+could be made at codepen.io ...
+a simple web page,  for android, with 1 second vibration, and 7 second no vibration ... in a loop
+it generated a pull request to my github repository
+more heavy than gemini .... container 30 seconds 
+
+2511-symptom-tracker.publ.dir
+2511-symptom-tracker
+https://github.com/martin12333/2511-symptom-tracker
+ codex experiment
+https://github.com/settings/installations/91897701
+
+relaxation-vibration-timer-webpage
+.f8.md
+https://github.com/apps/chatgpt-codex-connector/installations/select_target
+Where do you want to install ChatGPT Codex Connector?
+
+
+# 251126.00 Norton-analogy in editing
+2 panels
+a hotkey to copy text line to the other panel
+a hotkey to copy text line from the other panel
+a hotkey to copy text block to the other panel
+
+and what about variable expansion like
+expand ${date} 
+expand ${time} 
+
+are there tools for that already?
+
+are there tools for copy or paste with expansion
+
+can AutoHotkey do that?
+
+are there vscode macro extensions, that offer variable expansion?
+e.g. ${date}  ${time}  ${clipboard}  ${filename}  ${filepath}  etc.
+
+Answer:
+
+not Windows clipboard managers, but
+autohotkey ... because i have ${TIME} inside the clipboard text
 
 
 ai
@@ -221,3 +299,4 @@ O vodě, o trávě, o lese,
 o smrti, se kterou smířit nejde se,
 o lásce, o zradě, o světě,
 bude to písnička o nás a kometě ...
+ 
