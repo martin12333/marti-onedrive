@@ -33,6 +33,11 @@ mv  -iv  OneDrive-409.21  OneDrive
 
 mv -iv marti-onedrive/.git OneDrive/.git
 
+delete by hand marti-onedrive because of 2gb size
+
+```
+
+
 #   409.21.git
    
 ###set GIT_DIR=/d/GIT-bk04/marti-onedrive-2600-409.21.git
