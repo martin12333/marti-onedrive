@@ -10,40 +10,12 @@ ls "C:\Users\marti\OneDrive\.git"
 because not recommended to have .git in onedrive root
 
 
-
-C:\Users\marti\OneDrive\Dokumenty\obsidian.md.dir\intermediate\final-cmd-2600-409.1551.f8.cmd
-
-```sh
-
-cd /d/0004-LINKS/
-   git clone     --separate-git-dir=/d/GIT-bk04/marti-onedrive-2600-251127.git      https://github.com/martin12333/marti-onedrive.git
-
-
-
-todo 21:48
-mv -iv  OneDrive  OneDrive-409.21
-mv -iv marti-onedrive OneDrive
-   
-
-
-   409.21.git
-   GIT-bk04/
-   
-###set GIT_DIR=/d/GIT-bk04/marti-onedrive-2600-409.21.git
-   
-###   $GIT_DIR 
-```
-
 # C:\Users\marti\OneDrive\backup-f8\backup--startup,cp,onedrive,cpio,acronis,github,diigo.f8.sh
 
 q
 	git show  -v
 
 # mystery 251127.20
-
-
-
-grep worktree /d/GIT-bk04/*.git/config
 
 code ../1
 
@@ -77,13 +49,8 @@ gh desktop
 
 ls D:/0004-LINKS/OneDrive/renamed.f5.git
 cp -iv D:/0004-LINKS/OneDrive/renamed.f5.git  D:/0004-LINKS/OneDrive/.git
+mv -iv D:/0004-LINKS/OneDrive/.git  D:/0004-LINKS/OneDrive/1.git
 
-
-
-mv -iv D:/0004-LINKS/OneDrive/.git  D:/0004-LINKS/OneDrive/251127-bug.git
-
-
-cd -
 cd  D:/0004-LINKS/OneDrive
 git status
 git status
