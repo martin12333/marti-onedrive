@@ -3,6 +3,11 @@
 todo mk
 251127--marti-onedrive-2600-409.21.git.f8.md
 
+invariant
+
+nofile
+ls "C:\Users\marti\OneDrive\.git"
+because not recommended to have .git in onedrive root
 
 
 # C:\Users\marti\OneDrive\backup-f8\backup--startup,cp,onedrive,cpio,acronis,github,diigo.f8.sh
