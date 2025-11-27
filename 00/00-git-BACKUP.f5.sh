@@ -18,7 +18,7 @@ C:/Users/marti/OneDrive/00/Robocopy---c-onedrive---d-mir.f5.cmd
 echo _____________ 30 _______________
 #  *.md,*.ps1,*.cmd,*.sh,*.py,*.js,*.ahk,*.au3,*.f[0-9].*,*.f1[0-9].*
 # *.f8.*,*.md,*.f7.*,*.f5.*,*.ps1,*.cmd,*.sh,*.py,*.js,*.ahk,*.au3
-git add -vv       '*.f[0-9].*'   '*.f1[0-9].*'   '*.publ.*'    'README.*'    .gitignore
+git add -vv       '*.f[0-9].*'   '*.f1[0-9].*'   '*.publ.*'    'README.*'    .gitignore   LICENSE
 
  #   --dry-run    --dry-run    #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
 #git add -vv  '*.f8.*'   '*.f7.*'       '*.f5.*'   #### '*-add-all'   ##   "C:\Users\marti\OneDrive\xxxxxxxxx"
