@@ -1,5 +1,11 @@
 
 
+
+https://github.com/martin12333/Dokumenty
+
+
+todo
+put into
 readme.md
 
 ```sh
@@ -7,12 +13,13 @@ bash
 git init --separate-git-dir=/d/GIT-bk04/Dokumenty.git
 
 
-cd "C:\Users\marti\OneDrive\Dokumenty"
+#cd "C:\Users\marti\OneDrive\Dokumenty"
 
 git add -vv       '*.f[0-9].*'   '*.f1[0-9].*'   '*.publ.*'    'README.*'    .gitignore   LICENSE
-git add -vv       '*.f[0-9].*'   '*.f1[0-9].*'   '*.publ.*'    
 
-# git add .
+#git add -vv       '*.f[0-9].*'   '*.f1[0-9].*'   '*.publ.*'    
+### git add .
+
 git commit  -vv   -m "Initial commit"
 
 git remote add origin https://github.com/martin12333/Dokumenty.git
@@ -25,6 +32,16 @@ git push -u origin main
 
 
 ```
+
+
+
+
+
+GPT
+are there any problems reported when using
+"git init"  in  "onedrive\documents"
+already have years of experience with git in onedrive
+
 
 ```sh
 old searches
