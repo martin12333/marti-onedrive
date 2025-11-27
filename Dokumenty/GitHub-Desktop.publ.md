@@ -1,5 +1,19 @@
 
 
+# C:\Users\marti\OneDrive\backup-f8\backup--startup,cp,onedrive,cpio,acronis,github,diigo.f8.sh
+
+q
+	git show
+	git status | head -n 15
+	git log
+git whatchanged -p --abbrev-commit --pretty=medium
+
+	git gui &
+	# menu Visualize
+	git gui
+
+
+
 
 # next phase after pokus251127_19
 
@@ -9,8 +23,11 @@
 
 ls D:/0004-LINKS/OneDrive/renamed.f5.git
 cp -iv D:/0004-LINKS/OneDrive/renamed.f5.git  D:/0004-LINKS/OneDrive/.git
+mv -iv D:/0004-LINKS/OneDrive/.git  D:/0004-LINKS/OneDrive/1.git
 
-
+cd  D:/0004-LINKS/OneDrive
+git status
+git status
 ```
 # pokus251127_19
 
