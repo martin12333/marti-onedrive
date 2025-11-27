@@ -1,18 +1,20 @@
 
 
-todo mk
+# todo mk
 251127--marti-onedrive-2600-409.21.git.f8.md
 
 
-invariant
+# invariant
 
 nofile is ok:
 ls "C:\Users\marti\OneDrive\.git"
 ...because not recommended to have .git in onedrive root
 
 
-from
+# 251127.22  fixed
+# a few lines copied from 
 C:\Users\marti\OneDrive\Dokumenty\obsidian.md.dir\intermediate\final-cmd-2600-409.1551.f8.cmd
+and heavily modified
 
 ```sh
 
@@ -20,9 +22,9 @@ cd /d/0004-LINKS/
    git clone     --separate-git-dir=/d/GIT-bk04/marti-onedrive-2600-251127.git      https://github.com/martin12333/marti-onedrive.git
 
 
-
+now  i
 was foolish ...2gb
-	done todo 21:48
+	with done todo 21:48
 	mv -iv  OneDrive  OneDrive-409.21
 	mv -iv marti-onedrive OneDrive
    
@@ -35,7 +37,6 @@ mv -iv marti-onedrive/.git OneDrive/.git
 
 delete by hand marti-onedrive because of 2gb size
 
-```
 
 
 #   409.21.git
@@ -43,9 +44,11 @@ delete by hand marti-onedrive because of 2gb size
 ###set GIT_DIR=/d/GIT-bk04/marti-onedrive-2600-409.21.git
    
 ###   $GIT_DIR 
+
 ```
 
 
+# a few lines copied from 
 # from C:\Users\marti\OneDrive\backup-f8\backup--startup,cp,onedrive,cpio,acronis,github,diigo.f8.sh
 
 cd D:/0004-LINKS/OneDrive
@@ -53,8 +56,11 @@ q
 	git show  -v
 
 # mystery 251127.20  maybe obsolete now
-
+```sh
 grep worktree /d/GIT-bk04/*.git/config
+set | grep GIT_| head -n 10
+
+
 
 code ../1
 
@@ -80,7 +86,9 @@ gitk &
 #q gh desktop
 10000 changed files
 
-# next phase after pokus251127_19
+```
+
+# next phase after pokus251127_19  maybe obsolete now
 
 #Robocopy.exe   C:\Users\marti\OneDrive  D:\0004-LINKS\OneDrive      /s   /XJ    
 
@@ -99,7 +107,9 @@ cd  D:/0004-LINKS/OneDrive
 git status
 git status
 ```
-# pokus251127_19
+
+
+# pokus251127_19  maybe obsolete now
 
 
 
@@ -127,6 +137,8 @@ git ls-files -vv | wc -l
 cd "D:\GIT-bk04\251127"
 "
 ```
+
+
 
 # i have fixed bug 251127.13  nested .gitignore files in OneDrive Dokumenty folder 
 
