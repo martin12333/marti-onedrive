@@ -1,19 +1,16 @@
 
 
+todo mk
+251127--marti-onedrive-2600-409.21.git.f8.md
 
-# fixed
-_____________ 30 _______________
-fatal: pathspec 'LICENSgit' did not match any files
-[main2 9c094327] backup
- 2 files changed, 19 insertions(+), 2 deletions(-)
-_____________ 60 _______________
+
 
 # C:\Users\marti\OneDrive\backup-f8\backup--startup,cp,onedrive,cpio,acronis,github,diigo.f8.sh
 
 q
-	git show
+	git show  -v
 
-mystery 251127.20
+# mystery 251127.20
 
 code ../1
 
@@ -21,17 +18,22 @@ ls ~/OneDrive/Dokumenty
 
 cp  -iv   ../1  ~/OneDrive/Dokumenty/git-status-251127.20-1.f8.txt
    ../git-status-251127.20-1.f8.txt
-	git status >../1
+	
+	git status -vv
+	git status -v
+	
+	 >../1
 	git status | head -n 450
 	git status | tail -n 29 | head -n 20
 	git log
+q	
 git whatchanged -p --abbrev-commit --pretty=medium
 
 	git gui &
 	# menu Visualize
 	git gui
-
-
+gitk &
+gh desktop
 
 
 # next phase after pokus251127_19
@@ -191,8 +193,20 @@ git push -u origin main
 
 
 
+# fixed
+_____________ 30 _______________
+fatal: pathspec 'LICENSgit' did not match any files
+[main2 9c094327] backup
+ 2 files changed, 19 insertions(+), 2 deletions(-)
+_____________ 60 _______________
+
+
+
+
+
+
 GPT
-are there any problems reported when using
+# are there any problems reported when using
 "git init"  in  "onedrive\documents"
 already have years of experience with git in onedrive
 

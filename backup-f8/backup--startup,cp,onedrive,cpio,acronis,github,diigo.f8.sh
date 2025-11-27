@@ -430,6 +430,7 @@ git whatchanged -p --abbrev-commit --pretty=medium
 	# menu Visualize
 	git gui
 
+gitk &
 
 
 	# https://github.com/martin12333/marti-onedrive
