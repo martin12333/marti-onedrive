@@ -1,5 +1,12 @@
 
 
+
+_____________ 30 _______________
+fatal: pathspec 'LICENSgit' did not match any files
+[main2 9c094327] backup
+ 2 files changed, 19 insertions(+), 2 deletions(-)
+_____________ 60 _______________
+
 # C:\Users\marti\OneDrive\backup-f8\backup--startup,cp,onedrive,cpio,acronis,github,diigo.f8.sh
 
 q
