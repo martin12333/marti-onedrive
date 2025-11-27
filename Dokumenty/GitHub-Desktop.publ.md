@@ -9,14 +9,18 @@ git init --separate-git-dir=/d/GIT-bk04/Dokumenty.git
 
 cd "C:\Users\marti\OneDrive\Dokumenty"
 
-git add .
-git commit -m "Initial commit"
+git add -vv       '*.f[0-9].*'   '*.f1[0-9].*'   '*.publ.*'    'README.*'    .gitignore   LICENSE
+git add -vv       '*.f[0-9].*'   '*.f1[0-9].*'   '*.publ.*'    
+
+# git add .
+git commit  -vv   -m "Initial commit"
 
 git remote add origin https://github.com/martin12333/Dokumenty.git
 
 git pull origin main --allow-unrelated-histories
 
 git push -u origin main
+
 
 
 
