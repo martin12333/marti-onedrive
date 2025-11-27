@@ -1,7 +1,9 @@
 
 
 # todo mk
-251127--marti-onedrive-2600-409.21.git.f8.md
+marti-onedrive-2600-251127
+.git.f8.md
+#409.21
 
 
 # invariant
@@ -9,6 +11,54 @@
 nofile is ok:
 ls "C:\Users\marti\OneDrive\.git"
 ...because not recommended to have .git in onedrive root
+
+# 251127.23 problem 
+
+the backup script in 
+C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+still uses
+export GIT_DIR=/d/GIT-bk04/marti-onedrive-2600-409.21.git  ;   export GIT_WORK_TREE=/d/0004-LINKS/OneDrive
+
+but now the correct git-dir is now
+pointed by .git file in OneDrive root folder
+/d/GIT-bk04/marti-onedrive-2600-251127.git  
+so this needs to be fixed in the backup script
+and the 251127.git is slightly older than 409.21.git
+so some commits may be missing
+
+maybe 
+git pull  -vv
+git pull  -v
+git pull  
+
+
+error: Your local changes to the following files would be overwritten by merge:
+        Dokumenty/GitHub-Desktop.publ.md
+Please commit your changes or stash them before you merge.       
+error: The following untracked working tree files would be overwritten by merge:
+        2600-251127.renamed.f5.git
+        Dokumenty/0000000004/251127-_19---.git---files/2600-251127.renamed.f5.git
+        Dokumenty/0000000004/251127-_19---.git---files/bad---renamed.f5.git
+        bad---renamed.f5.git
+Please move or remove them before you merge.
+Aborting
+Updating c2e89272..eae5c99b
+
+
+C:\Users\marti\OneDrive\00\Robocopy---c-onedrive---d-mir.f5.cmd
+
+
+
+
+git add -vv       '*.f[0-9].*'   '*.f1[0-9].*'   '*.publ.*'    'README.*'    .gitignore   LICENSE
+
+error: Your local changes to the following files would be overwritten by merge:
+        Dokumenty/GitHub-Desktop.publ.md
+Please commit your changes or stash them before you merge.       
+Aborting
+
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+
 
 
 # 251127.22  fixed
