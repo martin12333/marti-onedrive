@@ -1,9 +1,9 @@
 
 
+from a link from https://transreligion.org/beliefs/
 
 
 
-# file:///C:\Users\marti\OneDrive\Dokumenty\00-PLAN-TO-MOVE-FILES\00-PLAN-TO-MOVE-FILES-TO-Dokumenty.f8.md
 
 
 The Truths of Terasem
@@ -41,6 +41,9 @@ Lincoln, Vermont, USA
 Copyright 2002   
 Terasem Movement, Inc.  
 Melbourne Beach, Florida
+
+
+The Truths of Terasem
 
 LIFE IS PURPOSEFUL
 

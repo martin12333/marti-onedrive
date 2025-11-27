@@ -1,8 +1,4 @@
 
-
-
-moving to C:\Users\marti\OneDrive\Dokumenty\wiki-f8---github-wiki.f8.md
-
 - [links](#links)
 - [250129 final](#250129-final)
 - [desperate debugging of 250129](#desperate-debugging-of-250129)
