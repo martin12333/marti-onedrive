@@ -1,6 +1,58 @@
 
 
 
+# i have fixed bug 251127.13  nested .gitignore files in OneDrive Dokumenty folder ... more comments in other files
+
+
+rem fix 251127.13  /xf  .gitignore  because of Dokumenty\
+rem todo del "D:\0004-LINKS\OneDrive\Dokumenty\.gitignore"
+rem dir "D:\0004-LINKS\OneDrive\Dokumenty\.gitignore"
+a"
+
+cmd
+cd "D:\0004-LINKS\OneDrive"
+ dir .gitignore /s /b | clip
+ dir "D:\0004-LINKS\OneDrive\Dokumenty\.gitignore"
+exit
+
+
+
+
+
+
+
+D:\0004-LINKS\OneDrive\.gitignore
+D:\0004-LINKS\OneDrive\1GITHUB.COM\us-qwerty-programmer-shiftless\.gitignore
+D:\0004-LINKS\OneDrive\2400-WIKI\.gitignore
+D:\0004-LINKS\OneDrive\Acronis-SystemReport\.gitignore
+D:\0004-LINKS\OneDrive\AI\.gitignore
+D:\0004-LINKS\OneDrive\CODEPEN.io--Eda\textAdventure-main\.gitignore
+D:\0004-LINKS\OneDrive\cowasm\pack\build\build\.gitignore
+D:\0004-LINKS\OneDrive\dee----2222----EL-programming-repo\.gitignore
+D:\0004-LINKS\OneDrive\dendron.so\kevin-public-main\.gitignore
+D:\0004-LINKS\OneDrive\docker-214\homedockw\BIG\helmhurts-master\.gitignore
+D:\0004-LINKS\OneDrive\docker-214\homedockw\BIG\posts-master\.gitignore
+D:\0004-LINKS\OneDrive\dotfiles\.gitignore
+D:\0004-LINKS\OneDrive\easy-extensibility--f8\alhassy.easy-extensibility-1.2.11\.gitignore
+D:\0004-LINKS\OneDrive\easy-extensibility--f8\inter1965--JUNCT-TARGET\easy-extensibility\.gitignore
+D:\0004-LINKS\OneDrive\easy-extensibilityOLDOLD\easy-extensibility-mac\.gitignore
+D:\0004-LINKS\OneDrive\EdL-pstuff-MMilan\CODEPEN.io\textAdventure-main\.gitignore
+D:\0004-LINKS\OneDrive\experim-new-langu-supp\.gitignore
+D:\0004-LINKS\OneDrive\hello-debugger--atom\.gitignore
+D:\0004-LINKS\OneDrive\hello-debugger-onedr\.gitignore
+D:\0004-LINKS\OneDrive\hello-executecommand--robocopy\.gitignore
+D:\0004-LINKS\OneDrive\hyperpolyglot--VZOR--\.gitignore
+D:\0004-LINKS\OneDrive\hyperpolyglot--VZOR--\wikidot-to-html\.gitignore
+D:\0004-LINKS\OneDrive\jeff-hykin_macro-commander\macro-commander-master\.gitignore
+D:\0004-LINKS\OneDrive\mmon1\.gitignore
+D:\0004-LINKS\OneDrive\redhat.vscode-didact\vscode-didact.wiki\.gitignore
+D:\0004-LINKS\OneDrive\sbase.wasm--robocopy\.gitignore
+D:\0004-LINKS\OneDrive\scriptbox-master-1dr-also-nemaster\.gitignore
+D:\0004-LINKS\OneDrive\textutils.node-218\vsc-ext\.gitignore
+
+
+
+
 https://github.com/martin12333/Dokumenty
 
 

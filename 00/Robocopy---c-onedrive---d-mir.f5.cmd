@@ -7,7 +7,7 @@ rem uqqqqmarti\OneDrive--deldest
 rem f6 cmd  f6 f6 f6
 rem  f8  test
 
-rem 251127  /xf  .gitignore  because of Dokumenty\
+rem fix 251127.13  /xf  .gitignore  because of Dokumenty\
 rem todo del "D:\0004-LINKS\OneDrive\Dokumenty\.gitignore"
 
 
