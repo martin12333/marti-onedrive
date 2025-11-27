@@ -1,6 +1,31 @@
 
 
 
+# pokus251127_19
+
+"D:\GIT-bk04\pokus251127_19.git"
+# export GIT_DIR=/d/GIT-bk04/marti-onedrive-2600-409.21.git  ;   export GIT_WORK_TREE=/d/0004-LINKS/OneDrive
+
+ok, git can handle one LF char at the end of the file "D:\GIT-bk04\251127\.git"
+
+LF--marti-onedrive-2600-409.21.git
+
+
+cd ..
+mkdir pokus251127_19
+cd pokus251127_19
+
+init
+```sh
+bash
+git init --separate-git-dir=/d/GIT-bk04/pokus251127_19.git
+
+git ls-files -vv | wc -l
+
+cd "D:\GIT-bk04\251127"
+"
+```
+
 # i have fixed bug 251127.13  nested .gitignore files in OneDrive Dokumenty folder 
 
 ###... more comments in other files
@@ -81,6 +106,9 @@ git add -vv       '*.f[0-9].*'   '*.f1[0-9].*'   '*.publ.*'    'README.*'    .gi
 git commit  -vv   -m "backup"
 git push -u origin main
 ```
+
+
+
 
 init
 ```sh
