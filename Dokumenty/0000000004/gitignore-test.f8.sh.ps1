@@ -5,6 +5,7 @@ exit
 
 
 
+# i have fixed bug 251127.13  nested .gitignore files in OneDrive Dokumenty folder
 
 
 
