@@ -186,6 +186,30 @@ You still have a merge conflict in the file `Dokumenty/GitHub-Desktop.publ.md` a
 
 git push
 
+git 
+
+
+
+
+```sh
+bash
+git add -vv       '*.f[0-9].*'   '*.f1[0-9].*'   '*.publ.*'    'README.*'    .gitignore   LICENSE
+
+git commit  -vv   -m "backup"
+git push 
+```
+
+git commit  -vv   -m "desperate backup "
+
+
+now try edit the .f5.sh files to use the default git-dir
+251127.2355
+```
+# 251127.2355 ## comment out ... export GIT_DIR=/d/GIT-bk04/marti-onedrive-2600-409.21.git  ;   export GIT_WORK_TREE=/d/0004-LINKS/OneDrive
+
+cd /d/0004-LINKS/OneDrive
+
+```
 
 
 
@@ -396,8 +420,10 @@ bash
 git add -vv       '*.f[0-9].*'   '*.f1[0-9].*'   '*.publ.*'    'README.*'    .gitignore   LICENSE
 
 git commit  -vv   -m "backup"
-git push -u origin main
+git push 
 ```
+
+git commit  -vv   -m "desperate backup "
 
 
 
