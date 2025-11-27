@@ -213,6 +213,7 @@ cd /d/0004-LINKS/OneDrive
 
 
 
+
 # 251127.22  fixed
 # a few lines copied from 
 C:\Users\marti\OneDrive\Dokumenty\obsidian.md.dir\intermediate\final-cmd-2600-409.1551.f8.cmd
