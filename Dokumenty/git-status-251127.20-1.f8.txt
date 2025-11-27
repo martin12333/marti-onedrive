@@ -1,0 +1,407 @@
+
+
+On branch main2
+Your branch is up to date with 'origin/main2'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .emacs.d/INFO--SOME-FILES-SYMLINEKd-FROM-HOME-EMACSD.f8.txt
+	modified:   .emacs.d/custom.el
+	modified:   .emacs.d/init.el
+	deleted:    .gitignore.251127.f5.txt
+	deleted:    .gitignore.f5.txt
+	deleted:    00/00-PLANNED-TO-MOVE/BUT THERE ARE ITEMS PINNED FROM ELSEWHERE .f8.md
+	deleted:    00/00-PLANNED-TO-MOVE/PLACEHOLDER.f8.md
+	deleted:    00/00-git-BACKUP-f8.f8.ps1
+	deleted:    00/00-git-BACKUP.f5.sh
+	deleted:    "00/00PLAN-DOKU-is-THE-SUCCESSOR/00043-tags-250825-250831-\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217-aaaaAAA-00000-CORE1000-antidepressant-akathisia.f8.md"
+	deleted:    00/00PLAN-DOKU-is-THE-SUCCESSOR/0COUNTEREXAMPLES.f8.md
+	deleted:    00/00PLAN-DOKU-is-THE-SUCCESSOR/doku-MASTER-COPY-url-file.f5.url
+	deleted:    00/00PLAN-DOKU-is-THE-SUCCESSOR/todo-see-650714.f5.url
+	deleted:    00/2504/2504.f8.md
+	deleted:    00/Robocopy---c-onedrive---d-mir.f5.cmd
+	deleted:    00/doku-251127.f8.gitignore
+	deleted:    000000-LINKS-SPEC-SUBDIRS/00020-PLANNED-SUCCESSOR/00020-PLANNED-SUCCESSOR--0000000004 - Shortcut.f5.lnk
+	deleted:    "000000-LINKS-SPEC-SUBDIRS/00043-tags-250825-250831-\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217-aaaaAAA-00000-CORE1000-antidepressant-akathisia.f8.md"
+	deleted:    000000-LINKS-SPEC-SUBDIRS/00044-SCRIPTS/00044-SCRIPTS - Shortcut.f5.lnk
+	deleted:    000000-LINKS-SPEC-SUBDIRS/0COUNTEREXAMPLES.f8.md
+	deleted:    000000-LINKS-SPEC-SUBDIRS/Clippings - Shortcut.f5.lnk
+	deleted:    000000-LINKS-SPEC-SUBDIRS/more-links/000000-LINKS-SPEC-SUBDIRS - Shortcut.f5.lnk
+	deleted:    000000-LINKS-SPEC-SUBDIRS/more-links/250825-250831--.f5.--@skupina-meta-informace-aaaaAAA-00000-CORE1000 - Shortcut.f5.lnk
+	deleted:    "00044-SCRIPTS/00043-tags-250825-250831-\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217-aaaaAAA-00000-CORE1000-antidepressant-akathisia.f8.md"
+	deleted:    "00044-SCRIPTS/00043-\342\204\271\357\270\217-you-can-run--00044-f5.sh--from-a-file-manager.f8.md"
+	deleted:    00044-SCRIPTS/copies/00-git-BACKUP.f5.sh
+	deleted:    00044-SCRIPTS/copies/00BACKUP.f8.dib
+	deleted:    01-music-oh-freedom-random-lyrics/oh-freedom-random-lyrics.f8.md
+	deleted:    0104-random-quote-generator/0104-random-quote-generator.f8.md
+	deleted:    0ROOT/0ROOT-----JPG--0ROOT--is-name-of-dir-with-jpg-75mg-download.f8.jpg
+	deleted:    0ROOT/ROOT-----JPG--ROOT--is-name-of-dir-with-jpg-75mg-download.f8.jpg
+	deleted:    1703-IJMVA/00-PLANNED-TO-MOVE/PLACEHOLDER.f8.md
+	deleted:    1703-IJMVA/00-PLANNED-TO-MOVE/doku-MASTER-COPY-url-file.f5.url
+	deleted:    1703-IJMVA/0004-LINKS/000000-LINKS-SPEC-SUBDIRS - Shortcut.f5.lnk
+	deleted:    1703-IJMVA/0004-LINKS/0004-LINKS.f8.md
+	deleted:    "1703-IJMVA/0004-LINKS/00043-tags-250825-250831-\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217-aaaaAAA-00000-CORE1000-antidepressant-akathisia.f8.md"
+	deleted:    "1703-IJMVA/04meta ... vybran\303\251 uk\303\241zky m\303\275ch dotaz\305\257 do r\305\257zn\303\275ch Ai.f8.md"
+	deleted:    1703-IJMVA/250707-155-sanitka.f8.md
+	deleted:    1703-IJMVA/250825-250831-@skupina-meta-informace-aaaaAAA-00000-CORE1000/00-MOVED-to-Doku/PLACEHOLDER.f8.md
+	deleted:    "1703-IJMVA/Iva, PUBLIC, Ji\305\231\303\255, Milan, Va\305\241ek (alphabetically)-chat.f8.md"
+	deleted:    1703-IJMVA/Natasha.f8.md
+	deleted:    "1703-IJMVA/klouzaj\303\255c\303\255 keramick\303\251 schody u rodinn\303\251ho domku ... mo\305\276nosti jak zm\303\255rnit probl\303\251m.f8.md"
+	deleted:    1804-M/00-PLANNED-TO-MOVE/PLACEHOLDER.f8.md
+	deleted:    1804-M/00-PLANNED-TO-MOVE/doku-MASTER-COPY-url-file.f5.url
+	deleted:    "1804-M/0004-LINKS/00043-tags-250825-250831-\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217-aaaaAAA-00000-CORE1000-antidepressant-akathisia.f8.md"
+	deleted:    "1804-M/1804-PUBLIC-Ji\305\231\303\255, Milan (alphabetically) - Chat.f8.md"
+	modified:   1804-M/248/Jirka--milan--dir.f8.ps1
+	modified:   1804-M/248/Jirka--milan--icacls.f8.ps1
+	modified:   1804-M/AAAAps-JIRKA-jilen/ConsoleHost_history.f8.ps1
+	modified:   1804-M/george.csas.cz.f8.md
+	deleted:    1804-M/ingJH-2472/okap-250414-PUBLIC-nejremeslnici.cz.f8.md
+	modified:   1804-M/jirka-jilen-234/jilen-234.f8.ps1
+	deleted:    1804-M/mff.cuni.cz,outLOOK.live.com/00043-tags-b@k...outlook.office.com.f8.md
+	modified:   1804-M/mff.cuni.cz,outLOOK.live.com/martin.milan.82-ZAVINAC-Outlook.f8.md
+	modified:   1804-M/mff.cuni.cz,outLOOK.live.com/outlook-mail-forwarding.f8.md
+	modified:   1804-M/mff.cuni.cz,outLOOK.live.com/smtp-mail.outlook.com.f8.md
+	deleted:    1804-M/one.google.com.f8.md
+	deleted:    1GITHUB.COM/vscode-autolink-251009/READ.f8.yml
+	deleted:    2400-WIKI/00-PLANNED-TO-MOVE/BUT  PINNED FROM ELSEWHERE .f8.md
+	deleted:    2400-WIKI/00-PLANNED-TO-MOVE/PLACEHOLDER.f8.md
+	modified:   2400-WIKI/250303.22.md
+	modified:   2400-WIKI/Copilot-Pro Text-Prediction.f8.md
+	modified:   2400-WIKI/EMAILY.txt.f8.md
+	deleted:    2400-WIKI/copilot.microsoft.com.f8.md
+	modified:   2400-WIKI/docs/features/built-in-note-embedding-types.md
+	modified:   2400-WIKI/github-copilot.f8.md
+	modified:   2400-WIKI/google-chat.f8.md
+	deleted:    2400-WIKI/id---inspect-250428.md
+	deleted:    2400-WIKI/itesco.cz.f8.md
+	deleted:    2400-WIKI/jitbit.com--macro-recorder---install.md
+	modified:   2400-WIKI/kosik.cz.f8.md
+	modified:   2400-WIKI/light-250306.md
+	modified:   2400-WIKI/mcpenshop.cz.f8.md
+	modified:   2400-WIKI/ockovacicentrum.cz.f8.md
+	deleted:    250628-special-characters/250628-space-characters-in-file-paths.f8.md
+	deleted:    251010-891010-2D-writing/251010-891010-2D-writing----.f8.md
+	deleted:    80RENAME MOVE DIRS USING VSCODE/00-PLANNED-TO-MOVE/PLACEHOLDER.f8.md
+	modified:   AI/myenv.ps1
+	modified:   AI/openai-234.f8.md
+	modified:   Blissymbolics,conlangs/Beatles-ABBA-Potters-Computer-songs-Lyrics-sample-1-CRLF.f8.zbl.tsv
+	modified:   DATOVKA-gdrive-mojedatovaschranka.cz/www.mojedatovaschranka.cz.f8.md
+	deleted:    "Desktop/000000ALINKS/00043-tags-250825-250831-\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217-aaaaAAA-00000-CORE1000-antidepressant-akathisia.f8.md"
+	deleted:    Desktop/000000ALINKS/00044-SCRIPTS/00044-SCRIPTS - Shortcut.f5.lnk
+	deleted:    "Desktop/0004-LINKS/00043-tags-250825-250831-\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217-aaaaAAA-00000-CORE1000-antidepressant-akathisia.f8.md"
+	deleted:    Desktop/0004-LINKS/00044-SCRIPTS/00044-SCRIPTS - Shortcut.f5.lnk
+	deleted:    Desktop/0004-LINKS/doku-MASTER-COPY-url-file.f5.url
+	deleted:    Desktop/251112-napoveda-pokracovani.f5.cmd - Shortcut.lnk
+	modified:   Desktop/desktop.ini
+	deleted:    "Dokumenty/(75) Ce\304\274aties(i) b\304\201leli\305\206i (tautas dziesma Valta P\305\253ces apdar\304\223) - YouTube.f8.md"
+	deleted:    Dokumenty/0000000004/00-PLAN-TO-MOVE-FILES/00-PLAN-TO-MOVE-FILES-TO-Dokumenty.f8.md
+	deleted:    Dokumenty/0000000004/00030-PLANNED-PREDECESSOR/000000-LINKS-SPEC-SUBDIRS - Shortcut.f5.lnk
+	deleted:    Dokumenty/0000000004/00042-BUGS/00043-tags-250918-250825-250831--aaaaAAA-00000-CORE1000-antidepressant-akathisia.f8.md
+	deleted:    Dokumenty/0000000004/00042-BUGS/250918-antidepressant-akathisia-edit.f8.md
+	deleted:    "Dokumenty/0000000004/00043-tags-250825-250831-\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217-aaaaAAA-00000-CORE1000-antidepressant-akathisia.f8.md"
+	deleted:    Dokumenty/0000000004/00PLAN DOKU is THE SUCCESSOR TO 00/00u.f5.url
+	deleted:    Dokumenty/0000000004/00PLAN DOKU is THE SUCCESSOR TO 00/0COUNTEREXAMPLES.f8.md
+	deleted:    Dokumenty/0000000004/00PLAN DOKU is THE SUCCESSOR TO 00/doku-MASTER-COPY-url-file.f5.url
+	deleted:    Dokumenty/0000000004/251127_19---.git---files/Doku - Copy.f5.git
+	deleted:    Dokumenty/0000000004/251127_19---.git---files/LF--marti-onedrive-2600-409.21.f5.git
+	deleted:    Dokumenty/0000000004/251127_19---.git---files/pokus - Copy (2).f5.git
+	deleted:    Dokumenty/0000000004/251127_19---.git---files/renamed.f5.git
+	deleted:    Dokumenty/0000000004/AutoHotkey.f5.lnk
+	deleted:    Dokumenty/0000000004/a.f8.txt
+	deleted:    Dokumenty/0000000004/doku-MASTER-COPY-url-file.f5.url
+	deleted:    Dokumenty/0000000004/gitignore-test.f8.sh.ps1
+	deleted:    Dokumenty/0000000004/gitignore/213a.11.f8.gitignore
+	deleted:    Dokumenty/0000000004/gitignore/2245.f8.gitignore
+	deleted:    Dokumenty/0000000004/gitignore/2246.f8.gitignore
+	deleted:    Dokumenty/0000000004/gitignore/2284.f8.15.gitignore
+	deleted:    Dokumenty/0000000004/gitignore/doku-251127.f8.gitignore
+	deleted:    Dokumenty/00043-tags-250918-929---250825-250831--aaaaAAA-00000-CORE1000-antidepressant-akathisia.f8.md
+	deleted:    Dokumenty/00049-NEW-IDs-hashtags-keywords.f8.md
+	deleted:    Dokumenty/00keep all metal objects at least 5 feet away, or everything metal goes flying towards them. Also if I get both magnets a foot or so away from one another they can crush .f8.txt
+	deleted:    Dokumenty/01 napoveda.f5.cmd
+	deleted:    "Dokumenty/02-251019-Zdrav\303\255.f8.md"
+	deleted:    Dokumenty/02x-REST-BREAKS--00049-NEW-IDs-hashtags-keywords.f8.md
+	deleted:    Dokumenty/0COUNTEREXAMPLES.f8.md
+	deleted:    Dokumenty/11DIRS,FILES/650714-Nohavica-Kometa--information-immortality/seealso-Doku-650714.f5.url
+	deleted:    Dokumenty/11DIRS,FILES/99-experim-git-add.publ.dir/M-antidepressant.md
+	deleted:    Dokumenty/11DIRS,FILES/99-experim-git-add.publ.dir/git-add-test.publ.md
+	deleted:    Dokumenty/1703-IJMVA-SKUPINA/00-PLAN-TO-MOVE-FILES/00-PLAN-TO-MOVE-FILES-TO-Dokumenty.f8.md
+	deleted:    Dokumenty/1703-IJMVA-SKUPINA/doku-MASTER-COPY-url-file.f5.url
+	deleted:    Dokumenty/1703-IJMVA-SKUPINA/dtest.cz.PUB.f8.md
+	deleted:    Dokumenty/2025-05-15.f8.md
+	deleted:    Dokumenty/222wiki/00-PLAN-TO-MOVE-FILES/00-PLAN-TO-MOVE-FILES-TO-Dokumenty.f8.md
+	deleted:    Dokumenty/222wiki/0COUNTEREXAMPLES.f8.md
+	deleted:    Dokumenty/222wiki/android.f8.md
+	deleted:    "Dokumenty/250618-621-internetov\303\275-obchod,doprava,doru\304\215en\303\255,vyzvednut\303\255-z\303\241silky,AlzaBox,Z\303\241silkovna.f8.md"
+	deleted:    Dokumenty/250821-nanobreaks.f8.md
+	deleted:    "Dokumenty/250825-@skupina-meta-informace/00043-tags-250825-emergency-250918-250831-\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217\342\204\271\357\270\217-aaaaAAA-00000-CORE1000-antidepressant-akathisia.f8.md"
+	deleted:    Dokumenty/250825-@skupina-meta-informace/250825-@skupina-meta-informace,emergency.f8.md
+	deleted:    Dokumenty/250825-@skupina-meta-informace/NANECISTO-250825-@skupina-meta-informace.f8.md
+	deleted:    "Dokumenty/250831-transhuman/250831-i.f8.917-translation-of-Copy of iii Ich bin transhumanoid \342\200\223 und ich will, dass ihr mich h\303\266rt.f8.md"
+	deleted:    "Dokumenty/250831-transhuman/250831-\342\204\271\357\270\217.f8.translation-of-Copy of \342\204\271\357\270\217 Ich bin transhumanoid \342\200\223 und ich will, dass ihr mich h\303\266rt.f8.md"
+	deleted:    "Dokumenty/250831-transhuman/250831.f8.Copy of Ich bin transhumanoid \342\200\223 und ich will, dass ihr mich h\303\266rt.f8.md"
+	deleted:    Dokumenty/250918-929-antidepressant-shocks--akathisia.f8.md
+	deleted:    Dokumenty/250919 Android AppBlock PUB StayFree health breaks Daily usage limit app.f8.md
+	deleted:    Dokumenty/251000LeechBlock/LeechBlockOptions.f8.txt
+	deleted:    Dokumenty/251007-annot--Russian TOT--Truths Of Terasem.publ.md
+	deleted:    Dokumenty/251007-annot-2024_Truths_of_Terasem.f8.md
+	deleted:    Dokumenty/251008-openai-api--completion--sends-whole-file.f8.md
+	deleted:    Dokumenty/251008-vscode-paste-bug.f8.md
+	deleted:    Dokumenty/251029-disk-full/0CMD FILES moved because DONT AUTOCLICK/Robocopy---c-onedrive---d-mir.f5.cmd
+	deleted:    Dokumenty/251029-disk-full/1dir.f5.txt
+	deleted:    Dokumenty/2511-symptom-tracker.publ.dir/251105-symptom-tracker.f8.md
+	deleted:    Dokumenty/2511-symptom-tracker.publ.dir/251126.00-template-experiment.f16.md
+	deleted:    Dokumenty/2511-symptom-tracker.publ.dir/M-antidepressant.md
+	deleted:    Dokumenty/2511-symptom-tracker.publ.dir/anger.md
+	deleted:    Dokumenty/2511-symptom-tracker.publ.dir/git-add-test.publ.md
+	deleted:    Dokumenty/251105-text-expand.f8.md
+	deleted:    Dokumenty/251119Philips-Hue-251023-02x-03x-06x-07x/Datastore_001788FFFE611B8E.txt.f8.json
+	deleted:    Dokumenty/650714-Nohavica-Kometa--information-immortality.f8.md
+	deleted:    Dokumenty/AutoHotkey.f5.v1.ahk
+	deleted:    "Dokumenty/Clippings/251222 Vyd\303\241n\303\255 ob\304\215ansk\303\251ho pr\305\257kazu - Ofici\303\241ln\303\255 str\303\241nky M\304\233stsk\303\241 \304\215\303\241st Praha 16.f8.md"
+	deleted:    "Dokumenty/Clippings/456211    251028   251222     obcanka   Mobiln\303\255 radnice - Ofici\303\241ln\303\255 str\303\241nky M\304\233stsk\303\241 \304\215\303\241st Praha 16.f8.md"
+	deleted:    Dokumenty/Clippings/Enable text suggestions in Windows - Microsoft Support.f8.md
+	deleted:    Dokumenty/Clippings/LeechBlock ==Documentation.f8.md
+	deleted:    Dokumenty/Doprava.f8.md
+	deleted:    Dokumenty/Emoji-List,-v13.1--selected-columns.f8.md
+	deleted:    Dokumenty/GPT-memory-types-explanation--251029.f8.md
+	deleted:    Dokumenty/GitHub-Desktop.publ.md
+	deleted:    Dokumenty/Philips-Hue-251023-02x-03x-06x-07x.f8.md
+	deleted:    Dokumenty/PowerShell/priv-escal--powershell.config.f8.json
+	deleted:    Dokumenty/PowerShell/profile---Copy.f5.ps1
+	modified:   Dokumenty/PowerShell/profile.ps1
+	deleted:    Dokumenty/We all live in a world of binary.f8.md
+	deleted:    Dokumenty/WindowsPowerShell/profile-Copy.f5.ps1
+	deleted:    Dokumenty/autohotkey.com/AutoHotkey-clipboard-falsealarm-250421.f8.md
+	deleted:    Dokumenty/autohotkey.com/AutoHotkey.f9.md
+	deleted:    Dokumenty/autohotkey.com/Windows Key Still _Pressed_ After Script Execution - Ask for Help - AutoHotkey Community.f8.html
+	deleted:    Dokumenty/autohotkey.com/autohotkey--install.f8.md
+	deleted:    Dokumenty/autohotkey.com/autohotkey-launch-command-palette.f9.md
+	deleted:    Dokumenty/autohotkey.com/day-508--250505.f8.md
+	deleted:    Dokumenty/autohotkey.com/experim-250505.f5.ahk
+	deleted:    Dokumenty/autohotkey.com/key-history-2505.f5.ahk
+	deleted:    Dokumenty/autohotkey.com/namedpipe.f5.ahk
+	deleted:    Dokumenty/autohotkey.com/prokrast-250523.f10.yaml
+	deleted:    Dokumenty/autohotkey.com/rsibreak-2505.f5.ahk
+	deleted:    Dokumenty/autolink-251009.f8.md
+	deleted:    Dokumenty/edge---accessibility ==Native accessibility API support.f8.md
+	deleted:    Dokumenty/edge---settings-accessibility.f8.md
+	deleted:    Dokumenty/filk-250929.f8.md
+	deleted:    Dokumenty/git-f8---export-GIT_DIR.f8.md
+	deleted:    Dokumenty/git-f8---git-init--separate-git-dir.f8.md
+	deleted:    Dokumenty/obsi-html-----id---inspect-250428.f8.md.md
+	deleted:    Dokumenty/obsidian-markdown-asterisk--emoji---hash---viewing-bug-250914.f8.md
+	deleted:    Dokumenty/obsidian.md.dir/0004-418-reform.f8.md
+	deleted:    Dokumenty/obsidian.md.dir/0004-obsidian-Install.f8.md
+	deleted:    Dokumenty/obsidian.md.dir/0COUNTEREXAMPLES.f8.md
+	deleted:    Dokumenty/obsidian.md.dir/251017-obsidian-disable-cursor-blinking.f8.md
+	deleted:    Dokumenty/obsidian.md.dir/Jirka--milan--icacls.f8.ps1
+	deleted:    Dokumenty/obsidian.md.dir/Len20--icacls.f8.ps1
+	deleted:    Dokumenty/obsidian.md.dir/appdata-roaming-obsidian/obsidian.f8.json
+	deleted:    Dokumenty/obsidian.md.dir/autohotkey.com board topic 55491-Windows Key Still Pressed After Script Execution.f8.md
+	deleted:    Dokumenty/obsidian.md.dir/bash_eternal_history.f8.lnk.lnk
+	deleted:    Dokumenty/obsidian.md.dir/intermediate/2600-409-411.f7.ps1
+	deleted:    Dokumenty/obsidian.md.dir/intermediate/2600-409.f8.ps1
+	deleted:    Dokumenty/obsidian.md.dir/intermediate/Robocopy---c-onedrive---e.f5.cmd
+	deleted:    Dokumenty/obsidian.md.dir/intermediate/cmd-2600-409.f8.cmd
+	deleted:    Dokumenty/obsidian.md.dir/intermediate/final-cmd-2600-409.1551.f8.cmd
+	deleted:    Dokumenty/obsidian.md.dir/intermediate/hello.f5.ps1
+	deleted:    Dokumenty/obsidian.md.dir/intermediate/pokus-Robocopy---c-onedrive---d-mir.f5.cmd
+	deleted:    Dokumenty/obsidian.md.dir/intermediate/pokus-Robocopy---c-onedrive---e.f5.cmd
+	deleted:    Dokumenty/obsidian.md.dir/intermediate/toggleKeybindingsLog-250410.f8.ps1
+	deleted:    Dokumenty/tag obsidian trick aaa 2025-04-27.f8.md
+	deleted:    Dokumenty/terasem,lifenaut.com--251007.f8.md
+	deleted:    Dokumenty/wiki-f8---github-wiki.f8.md
+	modified:   EdL-pstuff-MMilan/convert-cpp-to-js/icecream.f8.cpp
+	modified:   F8_text_file/Run-selected-text--discussions.f8.md
+	deleted:    F8_text_file/exit---windows--md--is---executable----bug-250505.f8.md
+	modified:   F8_text_file/snippets-from--vscode-find-and-replace-all.f8.sh.ps1
+	modified:   F8_text_file/vscode-find-and-replace-all.f8.sh
+	modified:   LICENSE
+	deleted:    OnClipboardChange-251012/OnClipboardChange-251012.f8.md
+	modified:   README.md
+	modified:   RSIGuard/rsiguard.f8.md
+	deleted:    Total-Commander--ghisler.com/04-Total-Commander--ghisler.com.f8.ps1
+	deleted:    Total-Commander--ghisler.com/rclick save tabs to file---left.f8.tab
+	deleted:    Total-Commander--ghisler.com/rclick save tabs to file.f8.tab
+	deleted:    Total-Commander--ghisler.com/total-commander-Find-files.f8.md
+	deleted:    Total-Commander--ghisler.com/tree.f8.md
+	deleted:    Windows-Search-250531/Windows-Search-250531.f8.md
+	deleted:    _sort-order-experim/2025-05-15.f8.md
+	deleted:    a-msklc/cz-prog.f5.klc
+	deleted:    a-msklc/cz.f5.klc
+	deleted:    a-msklc/czy.f5.klc
+	deleted:    a-msklc/polprog1.f5.klc
+	deleted:    a-msklc/romprog1.f5.klc
+	deleted:    a-msklc/us1.f5.klc
+	deleted:    a-msklc/us3.f5.klc
+	deleted:    agit---ls-files-250531--filtered.f8.txt
+	deleted:    alma-233c/00-PLANNED-TO-MOVE/PLACEHOLDER.f8.md
+	modified:   backup-f8/backup--startup,cp,onedrive,cpio,acronis,github,diigo.f8.sh
+	deleted:    browserEEV/browserEEV.f8.md
+	modified:   browserEEV/browserEEV.f8.md.js
+	modified:   browserEEV/custom-url,uri.f8.ps1
+	deleted:    browserEEV/devtools-browserEEV-250505.f8.md
+	deleted:    browserEEV/export-attempts.f8.md - Shortcut.lnk
+	modified:   "clothes/py\305\276am2475.f8.md"
+	modified:   conn/mynotes-doprav.f8.md
+	deleted:    daily-life---mitigate/00-PLANNED-TO-MOVE/PLACEHOLDER.f8.md
+	deleted:    devtools-recorder---edge,chrome-accessibility---250428/chrome-settings--by-devtools.f8.md
+	deleted:    devtools-recorder---edge,chrome-accessibility---250428/exit---windows--md--is---executable----bug-250505.f8.md
+	deleted:    devtools-recorder---edge,chrome-accessibility---250428/settings-of-edge-devtools--devtools_app.f8.md
+	modified:   doku--PowerShell-bkup/profile.ps1
+	modified:   doku--windowsPowerShell-bkup/profile.ps1
+	modified:   easy-extensibility--f8/alhassy--easy-extensibility.f8.ps1
+	deleted:    edge-f12-devtools-override/snippet%3A/myScript-snippet1.ctrl.shift.f12.js
+	modified:   eev-f8/TODO.f8.md
+	modified:   eev-f8/find-kla-intro.e.el
+	modified:   eev-f8/find-psne-intro.e.el
+	modified:   eev-f8/find-wconfig-browser-links.e.el
+	modified:   eev-f8/find-wconfig-mpv-links.e.el
+	modified:   eev-f8/find-wconfig-wget-links.e.el
+	modified:   eev-f8/myTODO.f8.el
+	modified:   emacs/copy-paste-experim.f8.el
+	modified:   emacs/emacs--borrowed.f8.el
+	modified:   emacs/emacs.f8.el
+	modified:   emacs/eshell---describe-current-coding-system.f8.el
+	modified:   emacs/find-rcirc-intro.f8.el
+	deleted:    emojis/08-emojis.f8.md
+	deleted:    emojis/emojis-23.f8.md
+	deleted:    emojis/github-emojis.f8.md
+	deleted:    gh--martin--to--Eda/00-PLANNED-TO-MOVE/PLACEHOLDER.f8.md
+	modified:   gh--martin--to--Eda/00BACKUP.f8.dib
+	modified:   gh--martin--to--Eda/24-8-tech_La_Bo.f8.md
+	modified:   gh--martin--to--Eda/convert-cpp-to-js/icecream.f8.cpp
+	modified:   gh--martin--to--Eda/root244-folder/Eda-is-my-nephew--publ.f8.md
+	modified:   git-bash-dotfiles/.bash_eternal_history
+	deleted:    git-bash-dotfiles/bash_eternal_history.f8.sh
+	modified:   git-bash-dotfiles/c-PF-git/etc/install-options.txt
+	modified:   git-f8/export-GIT_DIR.f8.md
+	modified:   git-f8/git-init--separate-git-dir.f8.md
+	modified:   gitignore-test.f8.sh.ps1
+	modified:   google.com--mail/mail.google.com.f8.md
+	deleted:    google.com--mail/myaccount.google.com--two-step-verification--backup-codes.f8.md
+	modified:   haskell/hyperpolyglot.f8.hs
+	modified:   hyperpolyglot-CSV-229/spreadsheet-issue-1-apos-equ-plus-minus--active characters at the start of a cell.xhtml.f8.csv
+	modified:   hyperpolyglot-f8/contrib. Math, Lean, Sage, Haskell - attempt1.csv
+	modified:   hyperpolyglot-f8/contrib. Math, Lean, Sage, Haskell - meta.csv
+	modified:   hyperpolyglot-f8/contrib. Math, Lean, Sage, Haskell - variables .csv
+	modified:   hyperpolyglot-f8/hyperpolyglot.f8.js
+	modified:   hyperpolyglot-f8/hyperpolyglot.f8.tcl
+	modified:   hyperv-ubu-serv-20/wincmd.ini
+	deleted:    hypothes.is,glasp.co---and-any-post-diigo/Chrome extensions, Manifest v3  .f8.  and local storage views.f8.md
+	deleted:    hypothes.is,glasp.co---and-any-post-diigo/export-attempts.f8.md
+	deleted:    hypothes.is,glasp.co---and-any-post-diigo/glasp/00-meta/seealso-Doku-650714.f5.url
+	deleted:    hypothes.is,glasp.co---and-any-post-diigo/glasp/00-meta/todo-see-650714.f5.url
+	deleted:    hypothes.is,glasp.co---and-any-post-diigo/stars-250421.f8.md
+	deleted:    hypothes.is,glasp.co---and-any-post-diigo/web-highlights.com--post-diigo.f8.md
+	modified:   invite246--onedrive--mitigated/out246s.f8.txt
+	deleted:    jeff-hykin_macro-commander/2505-my-javascript.js.f8.md
+	deleted:    jitbit.com--macro-recorder/250421-win-p-numpad--2.f8.mcr
+	deleted:    jitbit.com--macro-recorder/250421-win-p-numpad--3.f8.mcr
+	deleted:    jitbit.com--macro-recorder/250421-win-p-numpad--4.f8.mcr
+	deleted:    jitbit.com--macro-recorder/250421-win-p-numpad.f8.mcr
+	deleted:    jitbit.com--macro-recorder/250421.f8.mcr
+	deleted:    jitbit.com--macro-recorder/autohotkey-ahk-219---day-508--250505.f8.md
+	deleted:    jitbit.com--macro-recorder/bliss.f8.mcr
+	deleted:    jitbit.com--macro-recorder/experiment timing key combos 250502 --2-- Ctrl+c alt+tab ctrl+v alt+tab.f8.mcr
+	deleted:    jitbit.com--macro-recorder/experiment timing key combos 250502 Ctrl+c alt+tab ctrl+v alt+tab.f8.mcr
+	modified:   mylen-ila-git-mirmir/OneDrive/223c09/system_report/system_report.0.log
+	modified:   mylen-ila-git-mirmir/OneDrive/223c09/ti_demon_3AC086B1-7D95-488F-AB6D-A8E98799D87A_F6950287-5AD6-4601-BD6B-4EF38D3EE820_2022-03-11-21-19-41.log
+	modified:   mylen-ila-git-mirmir/OneDrive/223c09/ti_demon_7A25B121-2779-4DCA-A8B9-86BEA561DE51_E60A4C3B-2EA8-46FC-B2FA-9C2663C4264F_2022-03-11-21-37-24.log
+	modified:   mylen-ila-git-mirmir/OneDrive/223c09/ti_demon_8DF92793-7FCE-491B-8A55-555B53EE6DF9_ED30DE72-91A9-4DF4-A8BD-A299CA1AB114_2022-03-11-21-27-54.log
+	modified:   mylen-ila-git-mirmir/OneDrive/223c4/223q1620/disks.txt
+	modified:   mylen-ila-git-mirmir/OneDrive/223c4/223q1620/uefi_vars.txt
+	modified:   mylen-ila-git-mirmir/OneDrive/223c4/223q1620/version.txt
+	modified:   node-f8/10-windows-install-node.f8.ps1
+	deleted:    ntidep/00-PLANNED-TO-MOVE/PLACEHOLDER.f8.md
+	deleted:    ntidep/00043-tags-250825-250831-iiiii-aaaaAAA-00000-CORE1000-antidepressant-akathisia.f8.md
+	deleted:    ntidep/250831-aaaaAAA-00000-CORE1000-antidepressant-akathisia.f8.md
+	modified:   ntidep/gastroparesis-250310.f8.md
+	modified:   ntidep/nefoam-antidepresiva-slovnik-2021.f8.md
+	deleted:    onedrive.live.com--itself/OneDrive---250531-602.f8.ps1
+	modified:   onedrive.live.com--itself/OneDrive.f8.ps1
+	modified:   podvody/muzutozvednout.cz.f8.md
+	modified:   powershell-f8/admin-ise--adminsaves.f8.ps1
+	modified:   powershell-f8/env..path.length.f8.ps1
+	modified:   powershell-f8/ise.f8.ps1
+	modified:   powershell-f8/ol-d--admin-ise--adminsaves.f8.ps1
+	deleted:    ps-mylen-mar/251029-disk-full-monitor.f5.cmd
+	deleted:    ps-mylen-mar/251029-disk-full-monitor.f5.cmd - Shortcut.lnk
+	deleted:    ps-mylen-mar/251029-disk-full-monitor.f5.ps1
+	modified:   ps-mylen-mar/myconda-code.ps1
+	modified:   ps-mylen-mar/mymycron.ps1
+	modified:   ps-mylen-mar/mymyrsync.ps1
+	modified:   ps-mylen-mar/mystartup.ps1
+	modified:   ps-mylen-mar/psISEUntitled1.ps1
+	modified:   ps-mylen-mar/vscode-Host_history.txt
+	modified:   publ-doc/icacls-mil.f8.ps1
+	modified:   publ-doc/zoom.us.f8.ps1
+	modified:   python-spyder-f9/spyder--temp.f8.py
+	deleted:    reddit.com/reddit-mod.f8.md
+	deleted:    renamed.f5.git
+	deleted:    roam-ms-wi-sta-p-startup/251006/AutoHotkey.f5.lnk
+	deleted:    roam-ms-wi-sta-p-startup/251006/jako_zaremov/AutoHotkey.f5.lnk
+	deleted:    roam-ms-wi-sta-p-startup/251029-disk-full-monitor.f5.cmd - Shortcut.lnk
+	deleted:    roam-ms-wi-sta-p-startup/251112-napoveda-pokracovani.f5.cmd - Shortcut.lnk
+	modified:   robocopy-24/reform248q.f8.ps1
+	modified:   robocopy-24/robocopy-doc24.f8.ps1
+	modified:   robocopy-24/robocopy-dont-overwrite-newer.f8.ps1
+	modified:   sagemath-21a/hyperpolyglot.f8.num.py
+	modified:   sagemath-21a/hyperpolyglot.f8.py
+	modified:   sagemath-21a/hyperpolyglot.f8.sage
+	modified:   sagemath-21a/hyperpolyglot.f8.sympy.py
+	deleted:    screen-recorder,steps-recorder/FOLDERNAME-IS-GITPINNED-gitpinned-presso-settings/gitpinned-presso-settings----copy.f5.xml
+	deleted:    screen-recorder,steps-recorder/gitpinned-presso-settings----copy.f5.xml
+	modified:   screen-recorder,steps-recorder/gitpinned-presso-settings.xml
+	modified:   screen-recorder,steps-recorder/steps-recorder.f8.ps1
+	deleted:    snippets-227/js/bb-F12-snippets.f8.js
+	deleted:    surfingkeys,vimium/Vimium-Options.f8.md
+	modified:   tar-exe/c/Users/marti/.wslconfig
+	modified:   tar-exe/c/Users/marti/AppData/Roaming/Code/User/keybindings.json
+	modified:   tar-exe/c/Users/marti/AppData/Roaming/Code/User/settings.json
+	modified:   tar-exe/c/Users/marti/AppData/Roaming/GHISLER/wincmd.ini
+	modified:   tar-exe/c/Users/marti/AppData/Roaming/Microsoft/Windows/PowerShell/PSReadLine/ConsoleHost_history.txt
+	modified:   tar-exe/d/umarti/powershell_eternal_history.txt
+	modified:   tar-exe/d/umarti/powershell_eternal_history.txt--copy.f8.ps1
+	modified:   techl/User/History/3b41b649/5YjV-2.f8.ps1
+	deleted:    tree-215/250705-dream-project.f8.md
+	modified:   tree-215/tree_notations-examples-229/tree_notations.f8.md
+	deleted:    unicode-in-windows-in-git-repo/00043-tags-unicode-emoji-akathis.f8.md
+	deleted:    unicode-in-windows-in-git-repo/DOUFAM ZE NEVADI unicode emoji v filename/00043-tags-250923 230322  ---250825-250831-iiiii-aaaaAAA-00000-CORE1000-antidepressant-akathisia.f8.md
+	deleted:    unicode-in-windows-in-git-repo/DOUFAM ZE NEVADI unicode emoji v filename/00043-tags-250923-230322-radeji-ne--v-foldername---unicode--  ---250825-.f8.md
+	deleted:    unicode-in-windows-in-git-repo/unicode-in-windows-in-git-repo.f8.sh
+	deleted:    vscode-f8/00043-tags-unicode-emoji-akathis.f8.md
+	modified:   vscode-f8/Emojis-in-Integrated-Terminal.f8.ps1
+	modified:   vscode-f8/command-colon--vscode-colon-url.f8.md
+	modified:   vscode-f8/dot.vscode---add-all/code.cmd
+	modified:   vscode-f8/dot.vscode---add-all/extensions.json
+	modified:   wiki-f8/github-wiki.f8.md
+	deleted:    windows-f8/NETSCAPE-Bookmark-file-1.f8.html
+	modified:   windows-f8/Power-Options.f8.ps1
+	modified:   windows-f8/move--Documents-folder.f8.ps1
+	modified:   windows-f8/win-disk---full.f8.ps1.ipynb
+	modified:   windows-f8/win-disk-C-full.f8.md
+	modified:   windows-f8/win-disk-c-full.f8.ps1
+	modified:   windows-f8/windows-install-prog.f8.ps1
+	modified:   windows-hist-n-evolut/windows-Named-Pipelist.not.f8.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	0004-LINKS/
+	1804-M/mff.cuni.cz,outLOOK.live.com/outlook.f8.ps1
+	AI/Nostalgebraist/logit_lens_on_non_gpt2_models_+_extensions.ipynb
+	AI/Nostalgebraist/the_logit_lens_on_gpt2_activations.ipynb
+	Dokumenty/AutoHotkey.ahk
+	a-msklc/polprog1.klc
+	a-msklc/us1.klc
+	bash_eternal_history.f8.sh
+	doku-docu-234-bkup/Dokumenty/
+	emojis/emojis.f8.md
+	f8-notebooks--older/github-emojis.f8.md
+	hypothes.is,glasp.co---and-any-post-diigo/export-atempts.f8.md
+	oh-freedom-random-lyrics/
+	reddit.com/mod.f8.md
+
+no changes added to commit (use "git add" and/or "git commit -a")

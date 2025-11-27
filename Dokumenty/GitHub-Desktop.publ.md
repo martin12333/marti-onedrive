@@ -1,6 +1,7 @@
 
 
 
+# fixed
 _____________ 30 _______________
 fatal: pathspec 'LICENSgit' did not match any files
 [main2 9c094327] backup
@@ -11,7 +12,18 @@ _____________ 60 _______________
 
 q
 	git show
-	git status | head -n 15
+
+mystery 251127.20
+
+code ../1
+
+ls ~/OneDrive/Dokumenty
+
+cp  -iv   ../1  ~/OneDrive/Dokumenty/git-status-251127.20-1.f8.txt
+   ../git-status-251127.20-1.f8.txt
+	git status >../1
+	git status | head -n 450
+	git status | tail -n 29 | head -n 20
 	git log
 git whatchanged -p --abbrev-commit --pretty=medium
 
