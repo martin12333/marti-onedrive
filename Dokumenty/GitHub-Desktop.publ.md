@@ -1,7 +1,22 @@
 
 
 
+# next phase after pokus251127_19
+
+#Robocopy.exe   C:\Users\marti\OneDrive  D:\0004-LINKS\OneDrive      /s   /XJ    
+
+```sh
+
+ls D:/0004-LINKS/OneDrive/renamed.f5.git
+cp -iv D:/0004-LINKS/OneDrive/renamed.f5.git  D:/0004-LINKS/OneDrive/.git
+
+
+```
 # pokus251127_19
+
+
+
+
 
 "D:\GIT-bk04\pokus251127_19.git"
 # export GIT_DIR=/d/GIT-bk04/marti-onedrive-2600-409.21.git  ;   export GIT_WORK_TREE=/d/0004-LINKS/OneDrive
