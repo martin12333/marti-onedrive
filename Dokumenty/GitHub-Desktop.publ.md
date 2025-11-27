@@ -3,14 +3,15 @@
 todo mk
 251127--marti-onedrive-2600-409.21.git.f8.md
 
+
 invariant
 
-nofile
+nofile is ok:
 ls "C:\Users\marti\OneDrive\.git"
-because not recommended to have .git in onedrive root
+...because not recommended to have .git in onedrive root
 
 
-
+from
 C:\Users\marti\OneDrive\Dokumenty\obsidian.md.dir\intermediate\final-cmd-2600-409.1551.f8.cmd
 
 ```sh
@@ -19,33 +20,34 @@ cd /d/0004-LINKS/
    git clone     --separate-git-dir=/d/GIT-bk04/marti-onedrive-2600-251127.git      https://github.com/martin12333/marti-onedrive.git
 
 
-was foolish 2gb
-done todo 21:48
-mv -iv  OneDrive  OneDrive-409.21
-mv -iv marti-onedrive OneDrive
+
+was foolish ...2gb
+	done todo 21:48
+	mv -iv  OneDrive  OneDrive-409.21
+	mv -iv marti-onedrive OneDrive
    
    revert
 mv -iv  OneDrive marti-onedrive   
 mv  -iv  OneDrive-409.21  OneDrive
 
+
 mv -iv marti-onedrive/.git OneDrive/.git
 
-   409.21.git
-   GIT-bk04/
+#   409.21.git
    
 ###set GIT_DIR=/d/GIT-bk04/marti-onedrive-2600-409.21.git
    
 ###   $GIT_DIR 
 ```
 
-# C:\Users\marti\OneDrive\backup-f8\backup--startup,cp,onedrive,cpio,acronis,github,diigo.f8.sh
 
+# from C:\Users\marti\OneDrive\backup-f8\backup--startup,cp,onedrive,cpio,acronis,github,diigo.f8.sh
+
+cd D:/0004-LINKS/OneDrive
 q
 	git show  -v
 
-# mystery 251127.20
-
-
+# mystery 251127.20  maybe obsolete now
 
 grep worktree /d/GIT-bk04/*.git/config
 
@@ -56,7 +58,8 @@ ls ~/OneDrive/Dokumenty
 cp  -iv   ../1  ~/OneDrive/Dokumenty/git-status-251127.20-1.f8.txt
    ../git-status-251127.20-1.f8.txt
 	
-	git status -vv
+#	git status -vv
+
 	git status -v
 	
 	 >../1
@@ -68,10 +71,9 @@ git whatchanged -p --abbrev-commit --pretty=medium
 
 	git gui &
 	# menu Visualize
-	git gui
 gitk &
-gh desktop
-
+#q gh desktop
+10000 changed files
 
 # next phase after pokus251127_19
 
