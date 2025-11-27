@@ -1,21 +1,103 @@
 
 
-todo mk
-251127--marti-onedrive-2600-409.21.git.f8.md
+# todo mk
+marti-onedrive-2600-251127
+.git.f8.md
+#409.21
 
-invariant
 
-nofile
+# invariant
+
+nofile is ok:
 ls "C:\Users\marti\OneDrive\.git"
-because not recommended to have .git in onedrive root
+...because not recommended to have .git in onedrive root
+
+# 251127.23 problem 
+
+the backup script in 
+C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+still uses
+export GIT_DIR=/d/GIT-bk04/marti-onedrive-2600-409.21.git  ;   export GIT_WORK_TREE=/d/0004-LINKS/OneDrive
+
+but now the correct git-dir is now
+pointed by .git file in OneDrive root folder
+/d/GIT-bk04/marti-onedrive-2600-251127.git  
+so this needs to be fixed in the backup script
+and the 251127.git is slightly older than 409.21.git
+so some commits may be missing
+
+maybe 
+git pull  -vv
+git pull  -v
+git pull  
 
 
-# C:\Users\marti\OneDrive\backup-f8\backup--startup,cp,onedrive,cpio,acronis,github,diigo.f8.sh
+error: Your local changes to the following files would be overwritten by merge:
+        Dokumenty/GitHub-Desktop.publ.md
+Please commit your changes or stash them before you merge.       
+error: The following untracked working tree files would be overwritten by merge:
+        2600-251127.renamed.f5.git
+        Dokumenty/0000000004/251127-_19---.git---files/2600-251127.renamed.f5.git
+        Dokumenty/0000000004/251127-_19---.git---files/bad---renamed.f5.git
+        bad---renamed.f5.git
+Please move or remove them before you merge.
+Aborting
+Updating c2e89272..eae5c99b
 
+
+C:\Users\marti\OneDrive\00\Robocopy---c-onedrive---d-mir.f5.cmd
+
+
+# 251127.22  fixed
+# a few lines copied from 
+C:\Users\marti\OneDrive\Dokumenty\obsidian.md.dir\intermediate\final-cmd-2600-409.1551.f8.cmd
+and heavily modified
+
+```sh
+
+cd /d/0004-LINKS/
+   git clone     --separate-git-dir=/d/GIT-bk04/marti-onedrive-2600-251127.git      https://github.com/martin12333/marti-onedrive.git
+
+
+now  i
+was foolish ...2gb
+	with done todo 21:48
+	mv -iv  OneDrive  OneDrive-409.21
+	mv -iv marti-onedrive OneDrive
+   
+   revert
+mv -iv  OneDrive marti-onedrive   
+mv  -iv  OneDrive-409.21  OneDrive
+
+
+mv -iv marti-onedrive/.git OneDrive/.git
+
+delete by hand marti-onedrive because of 2gb size
+
+
+
+#   409.21.git
+   
+###set GIT_DIR=/d/GIT-bk04/marti-onedrive-2600-409.21.git
+   
+###   $GIT_DIR 
+
+```
+
+
+# a few lines copied from 
+# from C:\Users\marti\OneDrive\backup-f8\backup--startup,cp,onedrive,cpio,acronis,github,diigo.f8.sh
+
+cd D:/0004-LINKS/OneDrive
 q
 	git show  -v
 
-# mystery 251127.20
+# mystery 251127.20  maybe obsolete now
+```sh
+grep worktree /d/GIT-bk04/*.git/config
+set | grep GIT_| head -n 10
+
+
 
 code ../1
 
@@ -24,7 +106,8 @@ ls ~/OneDrive/Dokumenty
 cp  -iv   ../1  ~/OneDrive/Dokumenty/git-status-251127.20-1.f8.txt
    ../git-status-251127.20-1.f8.txt
 	
-	git status -vv
+#	git status -vv
+
 	git status -v
 	
 	 >../1
@@ -36,12 +119,13 @@ git whatchanged -p --abbrev-commit --pretty=medium
 
 	git gui &
 	# menu Visualize
-	git gui
 gitk &
-gh desktop
+#q gh desktop
+10000 changed files
 
+```
 
-# next phase after pokus251127_19
+# next phase after pokus251127_19  maybe obsolete now
 
 #Robocopy.exe   C:\Users\marti\OneDrive  D:\0004-LINKS\OneDrive      /s   /XJ    
 
@@ -49,13 +133,20 @@ gh desktop
 
 ls D:/0004-LINKS/OneDrive/renamed.f5.git
 cp -iv D:/0004-LINKS/OneDrive/renamed.f5.git  D:/0004-LINKS/OneDrive/.git
-mv -iv D:/0004-LINKS/OneDrive/.git  D:/0004-LINKS/OneDrive/1.git
 
+
+
+mv -iv D:/0004-LINKS/OneDrive/.git  D:/0004-LINKS/OneDrive/251127-bug.git
+
+
+cd -
 cd  D:/0004-LINKS/OneDrive
 git status
 git status
 ```
-# pokus251127_19
+
+
+# pokus251127_19  maybe obsolete now
 
 
 
@@ -83,6 +174,8 @@ git ls-files -vv | wc -l
 cd "D:\GIT-bk04\251127"
 "
 ```
+
+
 
 # i have fixed bug 251127.13  nested .gitignore files in OneDrive Dokumenty folder 
 
