@@ -60,6 +60,42 @@ Aborting
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 
 
+mv -iv Dokumenty/GitHub-Desktop.publ.md  Dokumenty/GitHub-Desktop.publ.md.bak
+
+
+git pull  -vv
+git pull  -v
+git pull  
+
+git pull  -v
+POST git-upload-pack (197 bytes)
+From https://github.com/martin12333/marti-onedrive
+ = [up to date]        main2      -> origin/main2
+ = [up to date]        main       -> origin/main
+ = [up to date]        main1      -> origin/main1
+error: Your local changes to the following files would be overwritten by merge:
+        Dokumenty/GitHub-Desktop.publ.md
+Please commit your changes or stash them before you merge.       
+error: Your local changes to the following files would be overwritten by merge:
+        tar-exe/d/umarti/powershell_eternal_history.txt
+Please commit your changes or stash them before you merge.       
+Aborting
+Updating c2e89272..b56caf19
+
+what is the correct way to fix this?
+
+# ai
+
+To resolve the issue where local changes would be overwritten by a merge during a `git pull`, you have a few options:
+1. Commit Your Changes:
+If the changes you've made to `Dokumenty/GitHub-Desktop.publ.md` are important and you want to keep them, you should commit them before pulling:
+```bash
+git add Dokumenty/GitHub-Desktop.publ.md
+git commit -m "Your commit message"
+
+```
+
+
 
 # 251127.22  fixed
 # a few lines copied from 

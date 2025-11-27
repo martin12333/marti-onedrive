@@ -12952,3 +12952,5 @@ echo 251127.13   >0000000004/a.f8.txt
 exit
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 C:\Users\marti\OneDrive\00\Robocopy---c-onedrive---d-mir.f5.cmd
+code C:\Users\marti\OneDrive\00\00-git-BACKUP-f8.f8.ps1
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
