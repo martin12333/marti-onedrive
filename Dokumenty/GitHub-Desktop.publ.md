@@ -10,6 +10,15 @@ readme.md
 
 ```sh
 bash
+git add -vv       '*.f[0-9].*'   '*.f1[0-9].*'   '*.publ.*'    'README.*'    .gitignore   LICENSE
+
+git commit  -vv   -m "backup"
+git push -u origin main
+```
+
+init
+```sh
+bash
 git init --separate-git-dir=/d/GIT-bk04/Dokumenty.git
 
 
