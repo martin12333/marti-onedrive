@@ -20,7 +20,7 @@
 !*.f1[0-9].*
 !*.publ.*
 
-#!README.*
+!README.*
 !.gitignore
 
 #Obr*/
