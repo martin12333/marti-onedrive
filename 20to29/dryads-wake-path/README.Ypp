@@ -1,0 +1,16 @@
+Your parents parentheses --- wield weapons of a more elegant age
+=================================
+
+Your parents parentheses is the beginning of a draft for a commandline beat-em-up.
+
+Requirements
+------------
+
+- Guile: https://www.gnu.org/s/guile (2.2 or later, tested: 3.0)
+- stty from GNU coreutils: https://www.gnu.org/s/coreutils/
+- Bash: https://www.gnu.org/s/bash/
+
+Run the game
+------------
+
+    ./ypp.w
