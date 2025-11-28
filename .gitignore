@@ -12,7 +12,7 @@
 # Ignore all files
 *
 # but not directories
-#!*/
+!*/
 
 ## But not my publ  files
 #!*.md
@@ -20,11 +20,7 @@
 !*.f1[0-9].*
 !*.publ.*
 !README.*
-
-# But not this gitignore file itself
 !.gitignore
-
-
 
 #Obr*/
 /Obr*/
@@ -32,9 +28,9 @@
 /Dokumenty/PowerShell/Help
 /alma-233c/var
 
-#.git/
 *.git/
 ##*.git/
+#.git/
 
 *.png
 *.mp4
