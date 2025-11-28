@@ -1,13 +1,36 @@
 
 # file:///C:\Users\marti\OneDrive\gitignore-test.f8.sh.ps1
 
+# i have ROUGHLY fixed bug 251127.13  nested .gitignore files in OneDrive Dokumenty folder ... more comments in other files
+
 # counterexamples
 # gitign--visual_conlangs.f8.md - OneDrive - Visual Studio Code 2024-03-14 20-18-29.mp4
+
+
+
+
+# Ignore all files
+*
+# but not directories
+#!*/
+
+## But not my publ  files
+#!*.md
+!*.f[0-9].*
+!*.f1[0-9].*
+!*.publ.*
+!README.*
+
+# But not this gitignore file itself
+!.gitignore
+
 
 
 #Obr*/
 /Obr*/
 /Vide*/
+/Dokumenty/PowerShell/Help
+/alma-233c/var
 
 #.git/
 *.git/
@@ -21,8 +44,6 @@
 #*.xml
 #*.xsd
 
-/Dokumenty/PowerShell/Help
-/alma-233c/var
 
 *#
 *~
