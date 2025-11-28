@@ -1,5 +1,8 @@
 
-
+failed
+	cd ..
+		find.exe downloading alma/var
+		Obrazky
 
 exit
 pwsh
@@ -9,6 +12,9 @@ bash
 cd ~/OneDrive/Dokumenty
 find . >a
 find . -name '*.f[0-9].*'  
+
+find . -name '*.f[0-9].*'  | wc -l
+
 find . -name '*.f[0-9].*'  -maxdepth 1 | wc -l
 find . -name '*.f[0-9].*'  -depth
 find . -name '*.f[0-9].*' | grep [/].*[/] 
@@ -17,8 +23,10 @@ find . -name '*.f[0-9].*' | grep [/].*[/].*[/].*[/]
  | wc -l
  >b
   |  wc -l
+
 find . -name '*.f1[0-9].*'    
 find . -name '*.publ.*'     
+
 |  wc -l
 ">b
 code a

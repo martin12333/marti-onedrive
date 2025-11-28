@@ -12956,3 +12956,4 @@ code C:\Users\marti\OneDrive\00\00-git-BACKUP-f8.f8.ps1
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 cd Dokumenty
 bash
+C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
