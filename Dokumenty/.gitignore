@@ -1,0 +1,57 @@
+# gh desktop
+# vsc f1 source control
+
+# file:///C:\Users\marti\OneDrive\Dokumenty\0000000004\gitignore-test.f8.sh.ps1
+
+# i have ROUGHLY fixed bug 251127.13  nested .gitignore files in OneDrive Dokumenty folder ... more comments in other files
+
+# Ignore all files
+*
+# but not directories
+!*/
+# except .git directories
+*.git/
+
+
+
+## not ignore my publ  files
+#!*.md
+!*.f[0-9].*
+!*.f1[0-9].*
+!*.publ.*
+!README.*
+!.gitignore
+
+
+#OLD*/
+OLD*
+BIG
+
+1111/
+
+
+# ai
+
+# Windows thumbnail cache files
+Thumbs.db
+#Desktop.ini
+
+# Temporary files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Recycle Bin used on file shares
+#$RECYCLE.BIN/
+# Windows Installer files
+
+*.tmp
+
+### *.lnk
+# desktop.ini
+
+# If you want, I can give you:
+# ✔ ready-made
+# .gitignore
+#  for markdown files
+
