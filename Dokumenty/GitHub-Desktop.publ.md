@@ -1,5 +1,41 @@
 
 
+
+exit
+pwsh
+cd Dokumenty
+exit
+bash
+cd ~/OneDrive/Dokumenty
+find . >a
+find . -name '*.f[0-9].*'  
+find . -name '*.f[0-9].*'  -maxdepth 1 | wc -l
+find . -name '*.f[0-9].*'  -depth
+find . -name '*.f[0-9].*' | grep [/].*[/] 
+find . -name '*.f[0-9].*' | grep [/].*[/].*[/] 
+find . -name '*.f[0-9].*' | grep [/].*[/].*[/].*[/] 
+ | wc -l
+ >b
+  |  wc -l
+find . -name '*.f1[0-9].*'    
+find . -name '*.publ.*'     
+|  wc -l
+">b
+code a
+code b
+
+ find . -sort-dirs-first  ?
+#ai
+To sort the output of the `find` command by directories first, you can use the `-type` option in combination with `sort`. Here's how you can do it:
+
+#human
+i mean something else
+what are sorting options of find command
+
+#ai
+
+
+
 # todo mk
 marti-onedrive-2600-251127
 .git.f8.md
