@@ -19,8 +19,9 @@
 !*.f[0-9].*
 !*.f1[0-9].*
 !*.publ.*
-!README.*
-!.gitignore
+
+#!README.*
+#!.gitignore
 
 #Obr*/
 /Obr*/
