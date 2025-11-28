@@ -21,7 +21,7 @@
 !*.publ.*
 
 #!README.*
-#!.gitignore
+!.gitignore
 
 #Obr*/
 /Obr*/
