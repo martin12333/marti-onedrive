@@ -12963,3 +12963,4 @@ exit
 start-process code -ArgumentList "c:/Users/marti/OneDrive/" -WindowStyle Maximized
 start-process taskmgr -WindowStyle Maximized
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+C:\Users\marti\OneDrive\00\Robocopy---c-onedrive---d-mir.f5.cmd
