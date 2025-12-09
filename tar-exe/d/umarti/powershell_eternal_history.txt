@@ -12964,3 +12964,24 @@ start-process code -ArgumentList "c:/Users/marti/OneDrive/" -WindowStyle Maximiz
 start-process taskmgr -WindowStyle Maximized
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 C:\Users\marti\OneDrive\00\Robocopy---c-onedrive---d-mir.f5.cmd
+chkdsk /?
+wsl --list --verbose --all
+Get-WindowsUpdateLog
+where.exe autohotkey
+cmd /c dir /al  d:\deeUsersMilan------------Milan-link
+cmd /c dir /al  d:\*.link  d:\deeUsersMilan------------Milan-link
+cmd /c dir /al  d:\*.link
+cmd /c dir /al  d:\*link*
+d:\deeUsersMilan------------Milan-link d:\umarti\downloads----------------DOW-link
+cmd /c dir /al  d:\*link*   d:\umarti\*link*
+explorer d:\
+explorer d:\umarti
+cmd /c dir /al  d:\*link*      d:\umarti\*link*
+cmd /c dir /al  d:\
+cmd /c dir /a  d:\
+cmd /c dir d:\
+cmd /c dir "D:\Users\milanlocal\alma-222-mb75-dee"     /s
+powershell
+explorer "C:\Users\marti\OneDrive\Dokumenty\1804-NEW\ALZA"
+kill -name explorer
+C:\Users\marti\OneDrive\00\Robocopy---c-onedrive---d-mir.f5.cmd

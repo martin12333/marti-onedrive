@@ -3703,3 +3703,10 @@ exit
 $PSScriptRoot
 exit
 pwsh
+cmd /c echo %ProgramData%
+cmd /c echo %ProgramData%\Microsoft\Search\Data\Applications\Windows\Windows.db
+cmd /c dir %ProgramData%\Microsoft\Search\Data\Applications\Windows\
+s
+cmd /c dir %ProgramData%\Microsoft\Search\Data\Applications\Windows\  /s /a
+powershell.exe
+cmd /c dir %ProgramData%\Microsoft\Search\Data\Applications\Windows\  /s /a

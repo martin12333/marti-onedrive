@@ -1,4 +1,9 @@
 
+# edit..probably a false alarm..  WARNING: this OneDrive/.gitignore is probably an exception in robocopy ... see the end of this file ...
+
+
+
+
 # file:///C:\Users\marti\OneDrive\gitignore-test.f8.sh.ps1
 
 # i have ROUGHLY fixed bug 251127.13  nested .gitignore files in OneDrive Dokumenty folder ... more comments in other files
@@ -59,4 +64,13 @@ overwrite/
 node_modules
 
 1111/
+
+
+
+# last line wins?
+
+*.r8.*
+*.n8.*
+
+# # edit..probably a false alarm..WARNING: this c:OneDrive/.gitignore is probably an exception in robocopy ... i will have to copy it manually after edititing to d:\0004\OneDrive
 

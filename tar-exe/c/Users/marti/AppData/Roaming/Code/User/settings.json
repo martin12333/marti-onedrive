@@ -428,6 +428,7 @@
     	},
 
 	],
+	"chat.agent.thinkingStyle": "expanded",
 
 	// DONT FORGET THE COMMA AFTER EACH SETTING
 // related file:///C:\Users\marti\OneDrive\tar-exe\c\Users\marti\AppData\Roaming\Code\User\settings.json

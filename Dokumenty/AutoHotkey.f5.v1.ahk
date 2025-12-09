@@ -102,6 +102,15 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ;============================== Main Script ==============================
 
+; WARNING
+; WARNING
+
+; ========= dont put defs here ... put them below the auto-execute section
+; because the auto-execute section runs first
+; so defs should be after it
+
+;============================== clipboard logging ==============================
+
 ;gpt, me
 ; Path to log file
 ;logFile :=    C:\Users\marti\OneDrive\OnClipboardChange-251012\clipboard_log.txt
@@ -130,6 +139,33 @@ return
 
 
 ;============ end of auto-execute section ============
+
+
+
+;============================== remap capslock to escape ==============================
+; i have a keyboard with a strangely failing key "Esc"  251203  ....
+; gemini, me
+; https://gemini.google.com/app/a3eefd359c0f0a0c
+
+; 1. Block the physical Escape key entirely
+; The $ symbol is crucial—it ensures we only block the PHYSICAL key,
+; not the "fake" Escape signal we are about to create below.
+$Esc::return
+
+; 2. Remap CapsLock to act as Escape
+; When you press CapsLock, the computer thinks you pressed Escape.
+CapsLock::Esc
+
+; 3. (Optional) Keep CapsLock functionality via Shift+CapsLock
+; Since CapsLock is now Escape, you can use Shift + CapsLock
+; if you actually need to turn on typing in ALL CAPS.
++CapsLock::CapsLock
+;============================== end of remap capslock to escape ==============================
+
+;============================== clipboard logging ==============================
+
+
+
 
 
 ClipChanged(Type) {
@@ -350,7 +386,8 @@ $SC02B::Send {"}
 
 ; i have a keyboard with a failing key "Esc"
 
-$F1::Send {Esc}
+; edit 251203 commented out the line below
+; $F1::Send {Esc}
 
 ; why is the "return" not needed here ?
 ; BECAUSE it is on a single line ?
