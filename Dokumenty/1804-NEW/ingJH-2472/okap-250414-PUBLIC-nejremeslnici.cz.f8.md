@@ -1,21 +1,64 @@
 
 
 
-# PRISTE MEL JIM DAT ROVNOU TELEFON NA NAS ... FATALNI CHYBA ZE TO NEUDELAL PROTOZE .....
+# ℹ️ℹ️ℹ️  nejremeslnici.cz PRISTE MEL JIM DAT ROVNOU TELEFON NA NAS ... FATALNI CHYBA ZE TO NEUDELAL ... 2504 se nikdo neprihlasil, PROTOZE asi me.....
+# PRISTE MEL JIM DAT ROVNOU TELEFON NA NAS ... FATALNI CHYBA ZE TO NEUDELAL PROTOZE asi me.....
 
 kolik stoji vyjezd
 pul dne prace
 
 # priste pouzit onedrive nikoli icacls pro win milana
 ## nastestii nepresejvil jsem si to
-## onedrive maybe has edit history
+## paid onedrive ... has edit history
 ## vsc has edit history
 pwsh
 icacls.exe 1804-M     /grant 'milan_rxtipwr:(oi)(ci)(f)'
 exit
 
 
+
+
+
+- [PRISTE MEL JIM DAT ROVNOU TELEFON NA NAS ... FATALNI CHYBA ZE TO NEUDELAL PROTOZE asi me.....](#priste-mel-jim-dat-rovnou-telefon-na-nas--fatalni-chyba-ze-to-neudelal-protoze-asi-me)
+- [priste pouzit onedrive nikoli icacls pro win milana](#priste-pouzit-onedrive-nikoli-icacls-pro-win-milana)
+	- [nastestii nepresejvil jsem si to](#nastestii-nepresejvil-jsem-si-to)
+	- [onedrive maybe has edit history](#onedrive-maybe-has-edit-history)
+	- [vsc has edit history](#vsc-has-edit-history)
+- [links](#links)
+- [pozn. 0./3: některá slova  mi doplňuje ai ...  github-copilot  v editoru Visual Studio Code](#pozn-03-některá-slova--mi-doplňuje-ai---github-copilot--v-editoru-visual-studio-code)
+- [**?? MB kontrolovat jednou denně oznámení na  JB/android** ??](#-mb-kontrolovat-jednou-denně-oznámení-na--jbandroid-)
+- [Zadání poptávky zákazníkem](#zadání-poptávky-zákazníkem)
+- [https://copilot.microsoft.com/shares/W9JG7hBrQWcYpW9LV3UUX](#httpscopilotmicrosoftcomsharesw9jg7hbrqwcypw9lv3uux)
+- [milan editoval, vsc nepresejvil](#milan-editoval-vsc-nepresejvil)
+	- [edit 417](#edit-417)
+	- [kategorie  výměna okapů a svodů](#kategorie--výměna-okapů-a-svodů)
+- [Server psal mail.Nabídka platí do 02.05.2025 - zareagujte rychle (Sent: Friday, April 18, 2025 6:02:26 AM ) Psali jsme SMS.](#server-psal-mailnabídka-platí-do-02052025---zareagujte-rychle-sent-friday-april-18-2025-60226-am--psali-jsme-sms)
+- [https://www.nejremeslnici.cz/vyber-dodavatele/...../select](#httpswwwnejremeslniciczvyber-dodavateleselect)
+- [https://onedrive.live.com/personal/bd7ec0ac1b4d4a31/\_layouts/15/Doc.aspx?resid=BD7EC0AC1B4D4A31!s7d0152692edc4193a83ece61cf1d0e7c\&cid=bd7ec0ac1b4d4a31\&migratedtospo=true\&app=Word](#httpsonedrivelivecompersonalbd7ec0ac1b4d4a31_layouts15docaspxresidbd7ec0ac1b4d4a31s7d0152692edc4193a83ece61cf1d0e7ccidbd7ec0ac1b4d4a31migratedtospotrueappword)
+- [https://www.nejremeslnici.cz/poptavka/.......-vymena-okapu-a-svodu/dodavatel/397857-pavel-trojan?overlay=bid\_selected\&tab=work](#httpswwwnejremeslniciczpoptavka-vymena-okapu-a-svodudodavatel397857-pavel-trojanoverlaybid_selectedtabwork)
+- [Dohodli jste se na spolupráci, to je skvělá zpráva pro všechny strany!](#dohodli-jste-se-na-spolupráci-to-je-skvělá-zpráva-pro-všechny-strany)
+- [-vymena-okapu-a-svodu?step\_id=34](#-vymena-okapu-a-svodustep_id34)
+- [to jsem mel radeji zvolit ... JB nemuze cist oznameni na mobilu: Chci propojit co nejdříve](#to-jsem-mel-radeji-zvolit--jb-nemuze-cist-oznameni-na-mobilu-chci-propojit-co-nejdříve)
+- [Získejte víc nabídek a lepší ceny!](#získejte-víc-nabídek-a-lepší-ceny)
+- [jiri.bok .cuni.cz](#jiribok-cunicz)
+	- [Script name: .forward](#script-name-forward)
+	- [https://outlook.office.com/mail/options/mail/rules](#httpsoutlookofficecommailoptionsmailrules)
+	- [Fw: Diagnostics report -](#fw-diagnostics-report--)
+	- [outlook block "never block sender"](#outlook-block-never-block-sender)
+- [418](#418)
+- [250926.12](#25092612)
+- [Subject: Zpráva k poptávce "Výměna okapů a svodů" (PID 885307)](#subject-zpráva-k-poptávce-výměna-okapů-a-svodů-pid-885307)
+- [250926.13](#25092613)
+- [PRISTE MEL JIM DAT ROVNOU TELEFON NA NAS ... FATALNI CHYBA ZE TO NEUDELAL PROTOZE ..... viz zacatek](#priste-mel-jim-dat-rovnou-telefon-na-nas--fatalni-chyba-ze-to-neudelal-protoze--viz-zacatek)
+
+
+
+
 # links
+
+google chat 
+
+todo Update
 C:\Users\marti\OneDrive\1804-M\ing.J.Hendrych\okap-250414.md
 not f8 
 nesdilena alba apod
@@ -37,8 +80,8 @@ chtěl jsem Ti dát možnost pár dní si odpočinout. Ten pokrok s těmi větve
 
 
 
+# Zadání poptávky zákazníkem https://www.nejremeslnici.cz/autor/75...  https://www.nejremeslnici.cz/autor/487...  file:///C:\Users\marti\OneDrive\Dokumenty\1804-NEW\ingJH-2472\okap-250414.md
 
-# Zadání poptávky zákazníkem
 Stykač u jističů k přímotopům často silně bzučí. Asi bude potřeba ho opět vyměnit. Šlo by to kterýkoliv den, ale raději odpoledne.
 
 Hodnocení práce zákazníkem:
@@ -215,6 +258,17 @@ Možná máte špatnou adresu, nebo jsme museli stránku přesunout na nějaké 
 Co teď?
 Nejlepší bude, když se vrátíte na domácí stránku:
 www.nejremeslnici.cz
+
+
+
+
+
+# 2512  https://mail.google.com/chat/u/0/#search/nejremeslnici/cmembership=1
+
+https://mail.google.com/chat/u/0/#chat/space/AAAA2NU9Pu0/ybgvEg_jHUo/ybgvEg_jHUo
+https://www.nejremeslnici.cz/blog/srovnani-poptavkovych-portalu/
+
+
 
 
 
@@ -529,8 +583,6 @@ super kvalita odvedené práce a prozákaznícký přístup za to ROZHODNĚ stá
 
 
 
-# PRISTE MEL JIM DAT ROVNOU TELEFON NA NAS ... FATALNI CHYBA ZE TO NEUDELAL PROTOZE .....
+# PRISTE MEL JIM DAT ROVNOU TELEFON NA NAS ... FATALNI CHYBA ZE TO NEUDELAL PROTOZE ..... viz zacatek
 
-kolik stoji vyjezd
-pul dne prace
 

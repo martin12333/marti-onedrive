@@ -5,6 +5,8 @@ chtěl jsem Ti dát možnost pár dní si odpočinout. Ten pokrok s těmi větve
 
 
 
+
+
 IJMVA chatová skupina...Iva, Jiří, Milan, Vašek (abecedně)
 
 C:\\Users\\marti\\OneDrive\\1703-IJMVA\\Iva, Jiří, Milan, Vašek (alphabetically)-chat.md
@@ -20,9 +22,9 @@ C:\\Users\\marti\\OneDrive\\1703-IJMVA\\
 
 # 456211    251028   251222     obcanka   456211482 vscode  master main copy
 
+# to už jsem asi hodil to chat
+old? see_?   C:\Users\marti\OneDrive\Dokumenty\Clippings\456211    251028   251222     obcanka   Mobilní radnice - Oficiální stránky Městská část Praha 16.f8.md
 
-see also
-C:\Users\marti\OneDrive\Dokumenty\Clippings\456211    251028   251222     obcanka   Mobilní radnice - Oficiální stránky Městská část Praha 16.f8.md
 ℹ️ Mobilní radnice 456211    251028   251222     
 
 https://www.praha16.eu/prakticke-info/mobilni-radnice/
@@ -56,7 +58,12 @@ Vydání občanského průkazu
 # K vydání občanského průkazu náhradou za ztracený, odcizený nebo zničený (nemůžete předložit dosavadní občanský průkaz) předložte:
  doklad o rodném čísle, jestliže není rodné číslo uvedeno na jiném předkládaném dokladu. .... 
 
-staci vzp?
+staci vzp??
+
+
+
+
+
 
 # pokud platnost OP již skončila, je potřeba dodat ještě jeden doklad (platný cestovní doklad, rodný list, popř. řidičský průkaz).
 
@@ -134,11 +141,53 @@ https://www.praha16.eu/e_download.php?file=data/editor/858cs_1.pdf&original=2024
 @Vašek 
 --abecedně
 
-paste to chat
-edit ty neaktivni
+
+
+# novinky 251213
+
+
+url skupina chat IJMVA 
+https://mail.google.com/chat/u/0/#chat/space/AAAAgQfY7nw
+
+
+
+[pokračování tématu  251222  občanského průkazu LB, novinky 251213]
+
+Omlouvám se, že Vás obtěžuji, ale po dnešních hádkách mezi mými rodiči,
+
+dnes, během několika hodin, budu muset napsat  několik zpráv
+
+
+[pro Milana , rozdělané texty jsou ve vscode 
+C:\Users\marti\OneDrive\Dokumenty\1703-IJMVA-SKUPINA\Iva, PUBLIC, Jiří, Milan, Vašek (alphabetically)-chat.f8.md]
+
+---
+
+zároveň bych chtěl pomalu, na měsíce, otevřít vzdáleně související
+
+[téma 251213 LB internetové bankovnictví, ČSOB poštovní spořitelna, bankovní identita občana ]
+
+důvod: po zranění nohy, před alzheimerem
+
+ale filosofové by se měli zdravit slovy.. take your time.. což snad znamená.. nespěchám na Tebe 💚
+
+@
+
+
+
+[pro Milana , rozdělané texty jsou ve vscode  file:///C:\Users\marti\OneDrive\Dokumenty\1703-IJMVA-SKUPINA\LB-internetove-bankovnictvi-251213.publ.md]
+
+
+
+# @ @ @ OPAKOVANE paste to chat, edit tiy neaktivni   @ @
+
+@
 @Iva
 @Jiri
 @Vasek
+ @Iva Laifrová   @Jiri Bok   @Vaclav Laifr  abecedne
+
+
 
 
 # tohle už zatím neposílat, jen si to sem uložím jako připomínku, až budu chtít sledovat
@@ -166,6 +215,12 @@ Občanské průkazy výdej
 
 
 
+
+
+
+
+
+
 # mudr Praško, antifragility, to je dulezitejsi  nez zalohovani dat
 
 C:\Users\marti\OneDrive\1703-IJMVA\Iva, Jiří, Milan, Vašek (alphabetically)-chat.md
@@ -177,7 +232,13 @@ C:\Users\marti\OneDrive\1703-IJMVA\Iva, Jiří, Milan, Vašek (alphabetically)-c
 
 
 
+
+
+
 # uz odebiram maily a mam dokonce pravidlo
+
+
+2511  bug maily nechodi_?
 
 	Shody: přerušení
 Akce: Označit hvězdičkou, Označit štítkem "přerušení", Nikdy neposílat do složky Spam, Označit jako důležité, Zařadit do kategorie Primární	upravit     smazat
@@ -188,9 +249,31 @@ Dobrý deň, v záložke Neprečítané sa zobrazujú iba záznamy, ktoré sú n
 
 
 
+
+
+
+
+
+
+
+
 # disk full 251029
 
 .849C9593-D756-4E56-8D6E-42412*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # samsung-oprava-25 # !!! pokracovani zde:
@@ -244,6 +327,11 @@ Kód Popis Ks Cena ks bez DPH DPH Cena Záruka DPH%
  SAPR001: SN: 0SVC5ABM400016,
 
 
+
+
+
+
+
 # /// https://www.praha16.eu/kontakty/mobilni-aplikace/
 zda pro mne opravdu ted nalehave vsechna temata zprav ?
 
@@ -256,3 +344,4 @@ zda pro mne opravdu ted nalehave vsechna temata zprav ?
 
 
 
+# mudr Praško, antifragility, to je dulezitejsi  nez zalohovani dat

@@ -12985,3 +12985,15 @@ powershell
 explorer "C:\Users\marti\OneDrive\Dokumenty\1804-NEW\ALZA"
 kill -name explorer
 C:\Users\marti\OneDrive\00\Robocopy---c-onedrive---d-mir.f5.cmd
+code --help
+code --list-extensions --show-versions > extensions-list1.txt
+code --list-extensions --show-versions > ~/extensions-list1.txt
+code --list-extensions --show-versions
+code --list-extensions
+code --list-extensions > ~/extensions-list2.txt
+code --list-extensions | findstr -i foam
+cmd /c explorer %APPDATA%\Code\User\profiles
+cmd /c explorer $env:APPDATA\Code\User\profiles
+explorer $env:APPDATA
+mkdir ../251225-tagged-text-lines.publ.dir
+mkdir ~/251225-tagged-text-lines.publ.dir

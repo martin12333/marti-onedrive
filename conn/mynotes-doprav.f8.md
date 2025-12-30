@@ -2,10 +2,10 @@
 
 https://www.diigo.com/user/martin12333?query=%23CORE
 
-C:\Users\marti\OneDrive\00\Doprava.f8.md
+file:///C:\Users\marti\OneDrive\Dokumenty\250618-621-internetový-obchod,doprava,doručení,vyzvednutí-zásilky,AlzaBox,Zásilkovna.f8.md
 
 
-# doprav
+# doprava
 
 
 alza,03r.txt

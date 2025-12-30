@@ -1,7 +1,21 @@
 
 
 
-C:\Users\marti\OneDrive\00\250618-621-internetový-obchod,doprava,doručení,vyzvednutí-zásilky,AlzaBox,Zásilkovna.f8.md
+EDIT      trnout hodinu a pul ?
+EDIT      cena tomu asi nasvedcuje?
+
+file:///C:\Users\marti\OneDrive\Dokumenty\250618-621-internetový-obchod,doprava,doručení,vyzvednutí-zásilky,AlzaBox,Zásilkovna.f8.md
+https://gemini.google.com/app/d6212a1f2fec0b8d
+
+https://www.zasilkovna.cz/blog/zasilkovna-muze-mi-vyzvednout-balik-nekdo-jiny
+K vyzvednutí zásilky vám stačí **5místné heslo**, které sdělíte obsluze pobočky. Heslo byste měli mít k dispozici v **e-mailu**, **aplikaci Zásilkovna**  a v **SMS** (pokud do hodiny od doručení nerozkliknete notifikaci v appce).
+https://www.zasilkovna.cz/pobocky
+na bojisti
+
+
+
+
+
 
 internetový-obchod,doprava,doručení,vyzvednutí-zásilky,AlzaBox,Zásilkovna,
 
@@ -10,10 +24,18 @@ expresní-doprava,rychlé-doručení,osobní-odběr,vyzvednutí-zásilky,AlzaBox
 
 C:\Users\marti\OneDrive\conn\mynotes-doprav.f8.md
 
+sluzby/moznosti-doruceni
+
+
+# Může zásilku z AlzaBoxu pro mne vyzvednout někdo jiný, když mu sdělím kód pro vyzvednutí?
+
+file:///C:/Users/marti/OneDrive/Dokumenty/ai-prompts.ai.md.dir/efe9dd4c1a5a6a90b2ff8e7e56952dc03ec4b6ff73e4e18041da8fe05fcbdbe0-2025-09-27-10-43-38-ff3d3ce70b8b43a8aae6b9cc21f1eef3/ChatGPT%20Data%20Export.r8.html
 
 
 
-Může zásilku z AlzaBoxu pro mne vyzvednout někdo jiný, když mu sdělím kód pro vyzvednutí?
+
+https://www.youtube.com/watch?v=Ie5VrKMr524  dem
+
 
 
 - Ano, zásilku z AlzaBoxu může vyzvednout i jiná osoba, pokud zná kód pro vyzvednutí zásilky. Tento kód je zaslán na e-mailovou adresu uvedenou při objednávce.
@@ -90,7 +112,13 @@ https://chatgpt.com/c/68542a72-879c-8004-94e2-341cbbd026bf
 
 - Tento způsob dopravy nabízíme pouze pro zboží do 20 kg, s nejdelší stranou do 60 cm a součtem všech stran do 240 cm.
     
-       
+
+
+
+251213    Pro tento způsob doručení využíváme společnost Liftago, která pro vás objednané zboží vozí z prodejen. Abychom mohli zboží doručit, je nutné, aby bylo skladem na některé z prodejen ve vašem okolí a zároveň dostupné na centrálním skladě. Pokud vaše objednávka tuto podmínku nesplňuje, nebude možné pro vaši adresu službu využít.
+
+
+   
     
 
 [Expresní doprava po Praze s DODO | Electroworld.cz](https://www.electroworld.cz/expresni-doprava-po-praze-s-dodo)
@@ -123,6 +151,9 @@ https://chatgpt.com/c/68542a72-879c-8004-94e2-341cbbd026bf
     
     Platí pro objednávky vytvořené do 14 hodin a zboží skladem. Rozvoz pouze v pracovní dny.
     
+
+-- nemůžu najít
+
 - WE|DO
     
     Balíček vám doveze kurýr až domů nebo třeba do práce
@@ -204,7 +235,12 @@ https://www.diigo.com/user/martin12333?query=%23todo
     
        
 
-[Zásilkovna domů | Naše vlastní doručování na adresu - Zasilkovna.cz](https://www.zasilkovna.cz/domu)
+# [Zásilkovna domů | Naše vlastní doručování na adresu - Zasilkovna.cz](https://www.zasilkovna.cz/domu)
+
+EDIT      trnout hodinu a pul ?
+EDIT      cena tomu asi nasvedcuje?
+
+## - Jakmile kurýr vaši zásilku naloží, pošleme vám notifikaci s informací o doručení s přesností na 90 minut.
 
 [https://www.zasilkovna.cz/domu](https://www.zasilkovna.cz/domu)
 
@@ -214,8 +250,9 @@ https://www.diigo.com/user/martin12333?query=%23todo
     
 - d vás kurýr nezastihne, uloží vám zásilku na nejbližším výdejním místě, kde si ji můžete vyzvednout ještě tentýž den
 - Do druhého dne
-- Jakmile kurýr vaši zásilku naloží, pošleme vám notifikaci s informací o doručení s přesností na 90 minut.
+
     
+
        
     
 - Máme skvělý notifikační systém a vy tak budete mít super přehled o každém pohybu vaší zásilky. Přímo v mobilu!
@@ -276,7 +313,44 @@ https://www.diigo.com/user/martin12333?query=%23todo
     
 - ři předání zásilky budete řidičem vyzváni ke sdělení hesla. Případně se můžete prokázat dokladem totožnosti. Podrobnosti najdete [zde](https://www.zasilkovna.cz/blog/vydej-pres-heslo-u-zasilek-dorucovanych-na-adresu).
 
-[MESSENGER - meziměstská přeprava](https://www.messenger.cz/sluzby/mezimestska-preprava.html)
+
+
+
+
+
+
+# [MESSENGER - meziměstská přeprava](https://www.messenger.cz/sluzby/mezimestska-preprava.html)
+
+
+
+
+
+---
+title: "(20+) Facebook"
+source: "https://www.facebook.com/photo.php?fbid=1156048258954174&id=100036470331515&set=a.777048470187490"
+author:
+published:
+created: 2025-12-14
+description: "SLEDOVÁNÍ ZÁSILEK 🔍Netrpělivě vyhlížíte kurýra z okna, kdy už vám přiveze objednaný balíček z e-shopu? Nemusíte! Na online trackingu najdete veškeré..."
+tags:
+  - "clippings"
+---
+MESSENGER CZ
+April 22, 2024
+ ·
+SLEDOVÁNÍ ZÁSILEK 🔍
+Netrpělivě vyhlížíte kurýra z okna, kdy už vám přiveze objednaný balíček z e-shopu? Nemusíte!
+Na online trackingu najdete veškeré informace o zásilce a v den doručení i mapu, kde se právě kurýr s vaší zásilkou nachází. 😎
+Odkaz na tracking najdete v klientské zóně nebo pokud jste příjemce, obdržíte odkaz v SMS zprávě či přímo od e-shopu, kde jste nakoupili.
+
+Tracking najdete na naší nové doméně www.msng.cz 🌐
+Comments
+No comments yet
+Be the first to comment.
+
+https://www.instagram.com/p/C6HTW71vagx/
+
+
 
 [https://www.messenger.cz/sluzby/mezimestska-preprava.html](https://www.messenger.cz/sluzby/mezimestska-preprava.html)
 
@@ -340,7 +414,17 @@ https://www.diigo.com/user/martin12333?query=%23todo
     Pro bližší informace ohledně stavu a termínu dodání je možné využít informační linku přepravce: **220 400 000**.
     
 
-[Liftago](https://www.alza.cz/liftago)
+# [Liftago](https://www.alza.cz/liftago)
+
+
+
+
+Jak se příjemce dozví o blížící se zásilce?
+
+Příjemce obdrží SMS s odhadovaným časem příjezdu kurýra a odkazem na sledování zásilky v reálném čase.
+
+Potřebuji něco expresně doručit, pomůže mi Liftago?
+
 
 [https://www.alza.cz/liftago](https://www.alza.cz/liftago)
 
@@ -370,9 +454,17 @@ https://www.diigo.com/user/martin12333?query=%23todo
 - Pozor - při přebíraní zásilky budete požádaní o osobní identifikaci: PIN kód nebo podpis.
     
        
-    
+
+
+    251213
 - V košíku zvolte při výběru dopravy Expresní doručení **Liftago - doručení do 60 min**. Pokud tuto možnost nevidíte, v objednávce máte zboží, které nesplňuje podmínky pro doručení Liftagem.
     
+
+
+
+
+
+
 - sponující PIN kódem k převzetí objednávky. Na telefonní číslo příjemce je před samotným doručením zaslána sms s PIN kódem, který je třeba sdělit řidiči. Prosíme tedy o upřesnění komu budeme zásilku předávat do poznámky k objednávce, abychom na to mohli dopředu upozornit řidiče
 - je skladem na showroomu a pobočkách, kde službu Liftago provozujeme. Hmotnost zboží do 25 kg a rozměry max. 55 x 45 x 25 cm. Pro větší zásilky je potřeba využit [alternativní způsoby přepravy](https://www.diigo.com/doprava-prehled-moznosti-art1456.htm). V případě vyzvednutí velké zásilky doporučujeme využít [Alza Point](https://www.diigo.com/alzapoint).
 
@@ -413,3 +505,78 @@ https://www.diigo.com/user/martin12333?query=%23todo
 [https://www.czc.cz/doprava-a-platba/clanek](https://www.czc.cz/doprava-a-platba/clanek)
 
 - Komfortní způsob dopravy po Praze. Zboží, které je skladem v Rudné, vám doručíme ještě ten samý den. Objednávky přijímáme do 14:30. Rozvoz probíhá v čase od 10:00 do 22:00. Uvádějte prosím vždy své telefonní číslo, řidič vás bude kontaktovat. Při dobírce není možné platit kartou. Službu pro CZC.cz zajišťuje společnost [www.premiumkuryr.cz](http://www.premiumkuryr.cz/).
+
+
+
+
+https://www.diigo.com/user/martin12333?query=billa
+https://shop.billa.cz/faq
+Čas doručení si vybíráte sami při vytváření objednávky. Dostupné časy uvidíte před dokončením objednávky ve svém košíku. Jakmile řidič vyrazí na vaši adresu, pošleme vám SMS s detailem objednávky a s možností sledovat pohyb vozidla. 
+https://shop.billa.cz/ukonceni-provozu
+https://www.zboziaprodej.cz/2025/09/11/billa-se-spojila-s-foodorou-do-60-minut-doruci-zakaznikum-objednavku-v-ceskych-budejovicich-usti-nad-labem-i-pardubicich/
+
+
+
+-----Služba ¨"Expresso", která podle dostupnosti lokality doručí jakýkoli sortiment, který je v daný den skladem do hodiny až devadesáti minut,
+
+
+
+https://cc.cz/tag/quick-commerce/
+
+https://www.shopsys.cz/hlavne-rychle-quick-commerce/
+
+https://www.kupi.cz/magazin/clanek/18466-co-je-to-q-commerce-a-proc-je-na-vzestupu
+
+https://www.hrot24.cz/clanek/byznys-briefing-vzestup-a-pad-quick-commerce-proc-samotna-rychlost-nestaci-HZ7s3
+
+https://www.lupa.cz/aktuality/billa-zavre-vlastni-online-shop-partneri-v-quick-commerce-to-zvladnou-efektivneji-naznacuje/nazory/
+
+# https://www.ispace.cz/stranky/zpusoby-dopravy/
+
+
+
+
+
+251213
+# https://www.mp.cz/doprava
+Termín doručení je do 1 hodiny od učinění objednávky, pokud je objednávka učiněna od 9:00 do 17:30.
+Jedná se o garantované, rychlé a kvalitní doručení v rámci Prahy a dalších vybraných měst.
+
+
+
+https://mobilni-telefony.heureka.cz/f:1666:2;26285:40701140,40730219;s:1/?o=4
+
+
+
+# gpt 
+messenger
+liftago
+Tvoje sources, citations.. webové odkazy ... nefungují ..musel jsem lezt do devtools a googlit snippety např. Jak se příjemce dozví o blížící se zásilce? Příjemce obdrží SMS s odhadovaným časem příjezdu kurýra a odkazem na sledování zásilky v reálném čase.
+
+https://www.samsung.com/cz/shop-faq/payment-and-delivery/?srsltid=AfmBOopiLjcLsBBXx6oesbFCAxTWZpT4ZKtRiHU_IFAJ4fSBIbNagtXv
+
+Jaké jsou podmínky expresního doručení službou DoDo po Praze?
+
+Cena dopravy: ZDARMA (k dispozici pouze v Praze)
+
+Expresní způsob doručení zboží pouze po Praze. Při objednání do 15:00 (PO-PÁ) doručení ještě dnes v době 17:00-21:00.
+
+Zboží, které objednáte v pracovní den do 15:00, vám DODO doručí stejný den mezi 17 - 21 hodinou.
+
+Doprava je určena pro přepravu zboží malých rozměrů, například mobilních telefonů, příslušenství, soundbarů, vysavačů atd.
+
+ 
+
+Jaké jsou podmínky expresního dourčení službou Messenger po Praze?
+
+Cena dopravy: ZDARMA (k dispozici pouze v Praze)
+
+Expresní způsob doručení zboží pouze po Praze. Při objednání do 13:00 (PO-PÁ) doručení ještě dnes
+
+Zboží, které objednáte v pracovní den do 13:00, vám Messenger doručí stejný den do 17:00.
+
+Doprava je určena pro přepravu zboží malých rozměrů, například mobilních telefonů, příslušenství, soundbarů, vysavačů atd..
+
+
+
+

@@ -1,30 +1,62 @@
 
+
+
+
+# další dny přidávat 20 řádek před koncem souboru
+
 ===a
-💚⏰!
+💚⏰
 
 
-
+- [další dny přidávat 20 řádek před koncem souboru](#další-dny-přidávat-20-řádek-před-koncem-souboru)
+- [links](#links)
 - [vscode extension](#vscode-extension)
+- [hashtags in markdown files](#hashtags-in-markdown-files)
 - [](#)
+- [](#-1)
 - [todo ...  existing recommended vscode extenstions to insert timestamp ... to track symptoms in markdown files](#todo---existing-recommended-vscode-extenstions-to-insert-timestamp--to-track-symptoms-in-markdown-files)
 - [ai generated symptom tracking log](#ai-generated-symptom-tracking-log)
 - [2025-11-04](#2025-11-04)
 - [2025-11-13](#2025-11-13)
-- [](#-1)
+- [](#-2)
 - [2025-11-17](#2025-11-17)
-	- [](#-2)
 	- [](#-3)
-- [2025-11-27](#2025-11-27)
-- [I am a human with anxiety disorder, autism spectrum disorder, underweight, malnutrition](#i-am-a-human-with-anxiety-disorder-autism-spectrum-disorder-underweight-malnutrition)
 	- [](#-4)
+- [2025-11-27](#2025-11-27)
+- [2025-11-29](#2025-11-29)
+	- [prompt pride 25090 251129 https://keep.google.com/#NOTE/1gQT7ckz6Kad\_TTKb94KwJnmysb9Hzhe2RwuHpUcF7e6vHuOypazxbXWchET5Og](#prompt-pride-25090-251129-httpskeepgooglecomnote1gqt7ckz6kad_ttkb94kwjnmysb9hzhe2rwuhpucf7e6vhuoypazxbxwchet5og)
+- [2025-11-30](#2025-11-30)
+- [2025-12-03](#2025-12-03)
+- [2025-12-06](#2025-12-06)
+- [2025-12-07](#2025-12-07)
+- [SEE ALSO \[\[251211-IDEAS.publ\]\]](#see-also-251211-ideaspubl)
+- [@jb chat jde zalezt . edit last  .   klavesnice up arrow](#jb-chat-jde-zalezt--edit-last-----klavesnice-up-arrow)
+- [žít svůj sen](#žít-svůj-sen)
+- [// nejtěžší mi připadají bugy v mojí životní rutině](#-nejtěžší-mi-připadají-bugy-v-mojí-životní-rutině)
+- [I am a human with anxiety disorder, autism spectrum disorder, underweight, malnutrition](#i-am-a-human-with-anxiety-disorder-autism-spectrum-disorder-underweight-malnutrition)
 	- [](#-5)
-- [https://mail.google.com/chat/u/0/#chat/space/AAAAkg0JJJc](#httpsmailgooglecomchatu0chatspaceaaaakg0jjjc)
 - [I am a human with anxiety disorder, autism spectrum disorder, underweight, malnutrition](#i-am-a-human-with-anxiety-disorder-autism-spectrum-disorder-underweight-malnutrition-1)
-	- [my ... human patient, interrupt handling](#my--human-patient-interrupt-handling)
-	- [](#-6)
+- [my ... human patient, interrupt handling](#my--human-patient-interrupt-handling)
+- [250825 Human short-term memory capacity is estimated to be around 7±2 syllables ... LLM analogy could be 7 tokens in a vector in the layers, that are ...](#250825-human-short-term-memory-capacity-is-estimated-to-be-around-72-syllables--llm-analogy-could-be-7-tokens-in-a-vector-in-the-layers-that-are-)
 	- [disk full](#disk-full)
+- [2025-12-17  251217](#2025-12-17--251217)
+- [2025-12-18  251218](#2025-12-18--251218)
+- [2025-12-19  251219](#2025-12-19--251219)
+- [2025-12-20  251220](#2025-12-20--251220)
 - [Z hlediska roku 2026, 2030, 2040 💚⏰!](#z-hlediska-roku-2026-2030-2040-)
 - [udržet tělesnou váhu (mám značnou podváhu a podvýživu) 💚⏰!](#udržet-tělesnou-váhu-mám-značnou-podváhu-a-podvýživu-)
+
+
+# links
+
+ SEE ALSO [[251211-IDEAS.publ]]
+
+
+
+
+
+
+
 
 
 
@@ -38,15 +70,52 @@ insert timestamp here
 /da
 Choose a consistent timestamp format that works across your logs (e.g., ISO YYYY-MM-DD hh:mm or with timezone if you like).
 
+
+
+
+
+
+# hashtags in markdown files
+
+#rrrr-rrr
+
+#iiii-i
+#iii
+
+
+2 extensions are active
+foam
+markdown-hashtags
+
+gemini
+deep Research
+vscode extensions that support hashtags ..
+what ascii characters are allowed in hashtags in markdown files ..
+i am curious about
+`[-_.\w]+`
+and 
+`\d+`
+ ... what about hashtags, that are only numbers ... #12345
+
+
 #tag
 #
 #251112   tags numbered by date yymmdd
-#251112 works
+#251112 fail
 #91.1
 #91,1
 #91
 #91-1
 #91_1
+#
+
+from [[251212-weighted-tree-md.FILETYPE.publ]]
+
+pokusy jak vyznacovat importance 
+
+fail  #️⃣#️⃣#️⃣
+
+- .aa \aa aaa ℹ️ℹ️ℹ️   #️⃣aa  #aaaaii #aaaaℹ️ℹ️  [Jméno] ZACHRANKA Konzultační Centrum [Mobil] 800 888 155
 
 
 
@@ -73,6 +142,14 @@ Choose a consistent timestamp format that works across your logs (e.g., ISO YYYY
 
 
 
+
+
+
+
+
+
+
+
 # ai generated symptom tracking log
 - 2025-11-06 00:19:45 - Started tracking symptoms
 - 2025-11-06 08:30:00 - Noticed headache
@@ -95,9 +172,26 @@ Choose a consistent timestamp format that works across your logs (e.g., ISO YYYY
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 2025-11-04
 
-- 2025-11-04 15:38 - [[M-antidepressant]]
+- 2025-11-04 15:38 - [[M-antidepressant]]  lék3
 - 2025-11-05 05:09 - #anger , unusual 
   - AI suggestion: Practice deep breathing exercises to manage anger.
 - 2025-11-05 10:42 - #V-antidepressant , #felix-felicis ?
@@ -511,15 +605,16 @@ Samsung pračka ... před několika týdny jsme žádali servis kvůli topnému 
 
 
 
+# SEE ALSO [[251211-IDEAS.publ]]
 
 
 
 # @jb chat jde zalezt . edit last  .   klavesnice up arrow 
 
-@ed 
 # žít svůj sen
 youtube 
 https://www.youtube.com/watch?v=vCMr76HuNzk
+@ 
 
 
 # // nejtěžší mi připadají bugy v mojí životní rutině
@@ -536,9 +631,32 @@ ai generated mostly
 //// jak si udržet naději, když 
 
 
-# I am a human with anxiety disorder, autism spectrum disorder, underweight, malnutrition
 
-##
+
+
+- [my ... human patient, interrupt handling](#my--human-patient-interrupt-handling)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# I am a human with anxiety disorder, autism spectrum disorder, underweight, malnutrition
 
 Let's assume some distant similarities  between computers and human brains 
 
@@ -566,13 +684,15 @@ CPU Interrupt Handling
 - After handling the interrupt, the CPU restores the saved state from the stack.
 
 
-# https://mail.google.com/chat/u/0/#chat/space/AAAAkg0JJJc
-
-C:\Users\marti\OneDrive\Dokumenty\2511-symptom-tracker.publ.dir\251105-symptom-tracker.f8.md
+// https://mail.google.com/chat/u/0/#chat/space/AAAAkg0JJJc
+///C:\Users\marti\OneDrive\Dokumenty\2511-symptom-tracker.publ.dir\251105-symptom-tracker.f8.md
 
 # I am a human with anxiety disorder, autism spectrum disorder, underweight, malnutrition
 
-## my ... human patient, interrupt handling
+
+
+
+# my ... human patient, interrupt handling
 
 - The brain receives a sudden stimulus (e.g., a request for attention from the family)
 - the brain is afraid of losing short-term memory of the current task, and of losing working memory context, and of losing mid-term memory 
@@ -586,12 +706,7 @@ C:\Users\marti\OneDrive\Dokumenty\2511-symptom-tracker.publ.dir\251105-symptom-t
 - After addressing the interrupt, the brain retrieves the saved context from the note and resumes the original task.
 
 
-
-## 
-250825
-
-
-Human short-term memory capacity is estimated to be around 7±2 syllables ... LLM analogy could be 7 tokens in a vector in the layers, that are ...
+#  250825 Human short-term memory capacity is estimated to be around 7±2 syllables ... LLM analogy could be 7 tokens in a vector in the layers, that are ...
 
 Human working memory capacity is estimated to be around 4 chunks ... LLM analogy could be 4 attention heads focusing on different parts of the input ...
 
@@ -599,12 +714,7 @@ Humans have mid-term memory that can store information for days to months ... LL
 
 Long-term memory in humans can store vast amounts of information for years ... LLM analogy could be the pre-trained knowledge base that the model draws from during inference ...
 
-
-
-
 //... my brain  💚⏰!
-
-
 
 
 ## disk full
@@ -618,62 +728,259 @@ view / toggle primary sidedbar
 
 
 
+
+
+
+
+
+
+
+# 2025-12-17  251217
+
+# 2025-12-18  251218
+
+19:30 lék3 + 5		probuzení		
+ℹ️ℹ️💚⏰, v uvozovkách.. OBNOVIL dýchání
+- r/dysautonomia breathing ?
+- exercises
+- ai poznámka: Dýchací cvičení mohou pomoci regulovat autonomní nervový systém, což je zvláště užitečné pro osoby s dysautonomií.
+- ai poznámka: Pravidelné praktikování dýchacích cvičení může zlepšit schopnost těla zvládat stres a úzkost, což jsou běžné problémy spojené s dysautonomií.
+- ai poznámka: Dýchací cvičení mohou také pomoci zlepšit okysličení krve a celkovou pohodu, což je důležité pro osoby s dysautonomií, které mohou mít problémy s krevním tlakem a srdeční frekvencí.
+
+ℹ️ pomohla hudba .. broukám si melodii z pink floyd. shine on you crazy diamond 
+semi-realtime takt nádech výdech
+
+svaly okolo očí , obočí
+
+daří se mi
+- ai poznámka:
+ dýchat pomalu a hluboce
+daří se mi dýchat nosem
+daří se mi dýchat břichem
+
+daří se mi peristaltika 
+- ai poznámka:
+daří se mi uvolnit ramena
+
+
+21:00 teď co toto píšu
+daří se mi psaní na pc,
+pořád ještě broukám si melodii z pink floyd. shine on you crazy diamond
+
+21:30 1968
+Bratříčku 
+broukám
+Můj bratře můj
+
+22:00 
+gemini
+emoji mix of ℹ️💚 
+
+
+# 2025-12-19  251219
+
+
+
+# 2025-12-20  251220
+
+
+
+
+# 2025-12-29
+
+Ahoj Charri
+
+- slyšel jsem, že vedeš kurzy ... HTML a Python 
+- to musí být spousta práce
+
+- edit. dá se říct, že jsi v učitelství dál, než já
+- 
+- to je obdivuhodné 💛
+- that's admirable 💛 
+
+@
+
+(já jsem kdysi doučoval, matiku a programování)
+@
+(škoda,že mi antidepresiva přinesla víc škody než užitku)
+
+
+
+# 2025-12-30 
+
+vscode
+f1
+folder
+workspace
+the root folder ?
+copilot chat
+f1 back '?'
+
+file . save workspace as ...
+file. duplicate workspace as ...
+
+f1 folder
+f1 workspace
+
+@command:workbench.extensions.action.configureWorkspaceFolderRecommendedExtensions
+
+
+"C:\Program Files\Microsoft VS Code\Code.exe" c:\Users\marti\OneDrive\Dokumenty\2511-symptom-tracker.publ.dir
+
+vscode
+how is the folder called when i use
+```
+code folder
+```
+
+## ai answer
+
+When you use the command `code folder` in Visual Studio Code (VSCode), it opens the specified folder as the root workspace folder. The folder is referred to as the "workspace folder" or "root folder" in VSCode terminology. This means that all files and subfolders within that folder will be accessible in the VSCode workspace, and any settings or extensions applied will be specific to that workspace.
+
+
+in vscode 
+i have opened the folder c:\X\tracker as the root workspace folder
+i would like to rename it to c:\X\lines 
+is it easy?
+i want to keep the  settings, installed extensions, etc.
+
+what about the extensions, that are installed for that  workspace  only ?
+
+## ai answer
+
+Enabled/Disabled Status: If you previously went to the Extensions tab and manually clicked "Disable (Workspace)" for a specific extension (e.g., disabling a Spell Checker just for this one project), that setting will be lost. The extension will revert to its global default (usually "Enabled").
+
+If you rely heavily on disabling specific extensions for this workspace, take a quick screenshot of your "Disabled (Workspace)" extensions list before you rename the folder, so you can quickly re-apply them if needed.
+
+##
+i rely heavily on *enabling* specific extensions for this workspace
+what happens to them if i rename the root workspace folder?
+
+## ai answer
+
+???
+VS Code Profiles capture your current set of enabled extensions. By saving your current setup as a profile, you can re-apply it instantly to the renamed folder.
+
+Type this command and hit Enter: 
+
+code --list-extensions --show-versions > ~/extensions-list1.txt
+code --list-extensions --show-versions 
+code --list-extensions | findstr -i foam
+code --list-extensions > ~/extensions-list2.txt
+
+On Windows, VS Code stores profile data here:
+cmd /c explorer %APPDATA%\Code\User\profiles
+ explorer $env:APPDATA
+
+\Code\User\profiles
+
+
+## aside
+how can i get the list of extensions that are enabled for the current workspace only?
+how can i get the list of extensions that are disabled for the current workspace only?
+
+#
+
+
+Name: learn-markdown
+Id: docsmsft.docs-markdown
+Description: Learn Markdown Extension
+Version: 1.0.17
+Publisher: Microsoft
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-markdown
+
+
+
+Name: Foam
+Id: foam.foam-vscode
+Description: VS Code + Markdown + Wikilinks for your note taking and knowledge base
+Version: 0.28.3
+Publisher: Foam
+
+
+Name: Markdown All in One
+Id: yzhang.markdown-all-in-one
+Description: All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more)
+Version: 3.6.3
+Publisher: Yu Zhang
+
+
+Name: markdown-hashtags
+Id: vanadium23.markdown-hashtags
+Description: Hashtags for markdown: autocomplete, tree view and references.
+Version: 2.0.1
+Publisher: vanadium23
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=vanadium23.markdown-hashtags
+
+
+This extension is enabled for this workspace by the user.
+
+
+## ai answer
+
+
+
+If you rely heavily on disabling specific extensions for this workspace, take a quick screenshot of your "Disabled (Workspace)" extensions list before you rename the folder, so you can quickly re-apply them if needed.
+
+can i rename the root workspace folder?
+
+can i rename the root workspace folder in vscode?
+
+## ai answer
+
+15.  
+   
+## 07:56 new name of the code workspace file
+..
+251225-tagged-text-lines.publ
+mkdir ../251225-tagged-text-lines.publ.dir
+mkdir ~/251225-tagged-text-lines.publ.dir
+
+close 251225-symptom-tracker.publ.code-workspace
+
+?mk file ... too late, too unnecessary doku   251225-vscode-workspace-rename-instructions.publ.md
+close this in doku
+
+tc
+
+
 # Z hlediska roku 2026, 2030, 2040 💚⏰!
 
-
-
-
-
 bych si přál
-
 nebýt často v nemocnici na psychiatrickém oddělení
-
 ...
-
 je důležitější
-
 naučit se
-
 s větší pravděpodobností
 
-
 -- dlouhé seznamy doplňuje ai
-
 * udržet tělesnou váhu (mám značnou podváhu a podvýživu)
-
 * slušněji se bránit požadavkům okolí na můj čas, energii, pozornost, péči, pomoc, služby, zdroje ... a mít víc času, energie, pozornosti, péče, pomoci, služeb, zdrojů pro sebe
-
 * raději víc riskovat v jiných oblastech ... antifragilita ... souvisí s kognitivně-behaviorální terapií ... vystavovat se nepohodlí, stresu, zátěži, bolesti, nejistotě, neznámému, novému, změně, výzvám, rizikům, neúspěchům, selháním ... abych byl silnější, odolnější, adaptabilnější, pružnější, houževnatější ... a méně křehký
-
 
 # udržet tělesnou váhu (mám značnou podváhu a podvýživu) 💚⏰!
 
-
 -- ai píše
-
 * jíst více tuků
 * jíst více kalorií
 * jíst více bílkovin
 * jíst více sacharidů
 
 ... dlouhodobě
-
 nestačí víc jíst
-
-
 je potřeba také
-
 víc trávit
 
 * dělat víc přestávek při práci 
 * jíst pomaleji
 
-
-
-
-
-
-
-
-
 💚⏰!
+
+
+- [žít svůj sen](#žít-svůj-sen)
+- [// nejtěžší mi připadají bugy v mojí životní rutině](#-nejtěžší-mi-připadají-bugy-v-mojí-životní-rutině)
+- [my ... human patient, interrupt handling](#my--human-patient-interrupt-handling)
+
+
+- [další dny přidávat 20 řádek před koncem souboru](#další-dny-přidávat-20-řádek-před-koncem-souboru)
+
