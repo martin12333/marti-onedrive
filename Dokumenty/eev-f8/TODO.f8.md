@@ -1,5 +1,11 @@
 
-# dokážeš přečíst 20 slov
+file:///C:\Users\marti\OneDrive\Dokumenty\251225.publ.dir\251225.tagged.lines.publ.md
+
+
+file:///C:/Users/marti/OneDrive/Dokumenty/BIGfavorites_11_7_25.html
+
+
+# ráno ... dokážeš přečíst 20 slov?
 
 TODO ℹ️
 # 04-KDE-MAS-HLAVNI-NAPOVEDU.f8.md
@@ -7,6 +13,10 @@ TODO ℹ️
 C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 
 # 251029-disk-full
+edge://restart0/
+
+
+
 
 ^c
 edgere

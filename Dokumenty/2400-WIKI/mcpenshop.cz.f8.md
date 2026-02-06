@@ -134,6 +134,15 @@ https://www.mcpenshop.cz/doklad-pokladni-univerzalni-a6-propisujici
 
 
 
+
+
+
+
+
+# krouzkove poradace   srv. karis bloky 
+
+https://www.mcpenshop.cz/kancelarske-potreby/poradace/krouzkove-poradace
+
 # RARELY Blok karis A6: prosím nejlépe zelený; případně červený (případně modrý);
 // https://www.mcpenshop.cz/blok-karis-a6-leskly-mix-barev
 Blok karis A6 lesklý, Mix barev
@@ -402,7 +411,24 @@ https://www.mcpenshop.cz/klipy-kancelarske-vazaci-maped-19-mm-10-ks-barevne
 https://www.mcpenshop.cz/tuhy-do-pastelek-scala-4042-12-ks
 
 
+
+# krouzkove poradace   srv. karis bloky 
+# 260118
+
+Děrovačka Maped Essentials 10/12, 4 otvory, Černá
+
+https://www.mcpenshop.cz/kancelarske-potreby/poradace/krouzkove-poradace
+
+
 # Balíček pro Vás bude expedován do prodejny během 7 kalendářních dnů.
 
 # mcpenshop prodejna: Praha – Atrium Karlovo náměstí  
 prodejna: Praha – Atrium Karlovo náměstí
+
+
+
+
+
+
+shiatsu https://www.mcpenshop.cz/pryz-umelecka-6423-18
+

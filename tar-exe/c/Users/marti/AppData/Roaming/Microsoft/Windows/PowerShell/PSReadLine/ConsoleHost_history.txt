@@ -3710,3 +3710,17 @@ s
 cmd /c dir %ProgramData%\Microsoft\Search\Data\Applications\Windows\  /s /a
 powershell.exe
 cmd /c dir %ProgramData%\Microsoft\Search\Data\Applications\Windows\  /s /a
+pwsh
+dir
+whoami
+pwsh.exe -ExecutionPolicy Bypass -File  D:\0004-LINKS\OneDrive\ps-mylen-mar\251029-disk-full-monitor.f5.ps1
+cd .\OneDrive
+diskusage.exe /a   /h   /t:10
+du
+cd ..
+diskusage.exe  /f:911999888 C:\Users\marti\
+kill -name code
+kill -Force -name code
+kill -Force -name code   -verbose
+robocopy
+pwsh

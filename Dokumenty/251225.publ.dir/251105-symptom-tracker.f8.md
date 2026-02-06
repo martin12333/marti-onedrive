@@ -1,14 +1,18 @@
 
+a file was forked from this ..
+[[03-topic-brainstorming-260129.publ]]
 
+# další dny přidávat 80 řádek před koncem souboru
+80
 
-
-# další dny přidávat 20 řádek před koncem souboru
+# the philosophy of antifragility is more important 
 
 ===a
 💚⏰
 
 
 - [další dny přidávat 20 řádek před koncem souboru](#další-dny-přidávat-20-řádek-před-koncem-souboru)
+- [the philosophy of antifragility is more important](#the-philosophy-of-antifragility-is-more-important)
 - [links](#links)
 - [vscode extension](#vscode-extension)
 - [hashtags in markdown files](#hashtags-in-markdown-files)
@@ -43,14 +47,29 @@
 - [2025-12-18  251218](#2025-12-18--251218)
 - [2025-12-19  251219](#2025-12-19--251219)
 - [2025-12-20  251220](#2025-12-20--251220)
+- [2025-12-29](#2025-12-29)
+- [2025-12-30](#2025-12-30)
+	- [ai answer](#ai-answer)
+	- [ai answer](#ai-answer-1)
+	- [](#-6)
+	- [ai answer](#ai-answer-2)
+	- [aside](#aside)
+- [](#-7)
+	- [ai answer](#ai-answer-3)
+	- [ai answer](#ai-answer-4)
+	- [07:56 new name of the code workspace file](#0756-new-name-of-the-code-workspace-file)
+- [edit. too late to change the big folder name to 2512.publ.dir](#edit-too-late-to-change-the-big-folder-name-to-2512publdir)
+- [the philosophy of antifragility is more important](#the-philosophy-of-antifragility-is-more-important-1)
+		- [10:17](#1017)
+	- [todo](#todo)
 - [Z hlediska roku 2026, 2030, 2040 💚⏰!](#z-hlediska-roku-2026-2030-2040-)
 - [udržet tělesnou váhu (mám značnou podváhu a podvýživu) 💚⏰!](#udržet-tělesnou-váhu-mám-značnou-podváhu-a-podvýživu-)
+- [the philosophy of antifragility is more important](#the-philosophy-of-antifragility-is-more-important-2)
 
 
 # links
 
- SEE ALSO [[251211-IDEAS.publ]]
-
+a file was forked from this .. [[03-topic-brainstorming-260129.publ]]
 
 
 
@@ -109,9 +128,8 @@ and
 #91_1
 #
 
-from [[251212-weighted-tree-md.FILETYPE.publ]]
 
-pokusy jak vyznacovat importance 
+# pokusy jak vyznacovat importance from [[251212-weighted-tree-md.FILETYPE.publ]] 
 
 fail  #️⃣#️⃣#️⃣
 
@@ -531,7 +549,7 @@ when gemini canvas makes a  single-page web application in JS for me ... can it
 
 # 2025-12-03
 
-recomp
+recomp  repasovaní
 C:\Users\marti\OneDrive\Dokumenty\Doprava.f8.md
 
 #q
@@ -605,7 +623,6 @@ Samsung pračka ... před několika týdny jsme žádali servis kvůli topnému 
 
 
 
-# SEE ALSO [[251211-IDEAS.publ]]
 
 
 
@@ -931,18 +948,144 @@ can i rename the root workspace folder in vscode?
 15.  
    
 ## 07:56 new name of the code workspace file
+save workspace as ...
 ..
-251225-tagged-text-lines.publ
-mkdir ../251225-tagged-text-lines.publ.dir
-mkdir ~/251225-tagged-text-lines.publ.dir
+olde 251225-tagged-text-lines.publ
+251225.publ
+pin 
 
-close 251225-symptom-tracker.publ.code-workspace
+old mkdir ~/251225-tagged-text-lines.publ.dir
+mkdir ~/251225.publ.dir
+
+
+# edit. too late to change the big folder name to 2512.publ.dir 
+
+# the philosophy of antifragility is more important 
+
+
+
+close 251225.publ.code-workspace
 
 ?mk file ... too late, too unnecessary doku   251225-vscode-workspace-rename-instructions.publ.md
 close this in doku
 
-tc
+gh desktop i can see these lines
 
+tc
+gemini advised editing the .code-workspace file in a text editor to change the folder paths directly.
+
+still had to click the extensions tab and re-enable the workspace-specific extensions manually after renaming the folder.
+
+
+
+
+"C:\Program Files\Microsoft VS Code\Code.exe" c:\Users\marti\OneDrive\Dokumenty\2511-symptom-tracker.publ.dir
+"C:\Program Files\Microsoft VS Code\Code.exe" c:\Users\marti\OneDrive\Dokumenty\251225.publ.code-workspace
+rename copy the lnk file   .publ.
+tested
+
+git push
+
+Renamed '2511-symptom-tracker.publ.dir' to '251225.publ.dir' and updated all related file paths and workspace settings. Deleted obsolete files M-antidepressant.md and anger.md. 
+
+
+### 10:17
+todo
+rename 251226 to 251225
+
+## todo
+fix broken links
+repo:digital-gardens/Martin-Milan 2511-symptom-tracker.publ
+
+
+* Z hlediska roku 2026, 2030, 2040 💚⏰!
+
+
+
+
+
+# 2026-01-06
+Vážený zákazníku,
+
+dobrý den,
+> "dnes v čase 10:20-12:20 hod. Vám budeme doručovat zásilku."  "Cenné psaní: VL4794171713C" "Topasová 958/43, Radotín, 15300"
+# adresát nebude doma. členové domácnosti jsou částečně invalidní. potřebovali bychom nějaký signál, aspoň prozvonit, asi tak 10 až 30 minut předem... Tel. na syna adresáta je 776 255 129
+
+
+
+
+
+
+Druh zásilky: Cenné psaní
+Číslo zásilky:
+
+Cenné psaní: VL4794171713C
+Odesílatel: Filatelie Česká pošta, s.p.
+Kontakt na řidiče: 705626267
+Adresa doručení: 
+"Topasová 958/43", Radotín, 15300
+
+Sledujte svoji zásilku
+
+Stáhněte si mobilní aplikaci České pošty
+
+
+
+EDIT mozna se p5ihlásit do aplikace České pošty pomocí zakaznické karty?!
+-- nedá se tam asi přihlasit?
+... nebo automatické odemykání zásilek v nastavení aplikace ?
+co znamená "automatické odemykání zásilek" v aplikaci České pošty?
+## ai answer
+Automatické odemykání zásilek v aplikaci České pošty je funkce, která umožňuje uživatelům automaticky odemykat své zásilky pomocí mobilní aplikace. Tato funkce je obvykle spojena s inteligentními schránkami nebo balíkovými boxy, které jsou vybaveny technologií pro bezkontaktní přístup.
+Když je zásilka doručena do takové schránky nebo boxu, uživatel obdrží oznámení v aplikaci České pošty. Poté může pomocí aplikace odemknout schránku nebo box, aby si mohl zásilku vyzvednout. Tato funkce zvyšuje pohodlí a bezpečnost při vyzvedávání zásilek, protože uživatelé nemusí čekat na doručovatele nebo používat fyzické klíče.
+
+
+S přáním příjemného dne
+
+Vaše Česká pošta
+
+
+
+# 2026-01-21
+
+asi uz neexistuje ...
+
+ si mohli bezpečně vyzkoušet různé operace, a hlavně:
+
+zda existuje demo mód či trenažér  internetového bankovnictví České spořitelny
+
+
+, ... potřeboval bych , aby důchodci, kterým pomáhám, mohli ...
+ukazovat snímky své obrazovky umělým asistentům, aniž by na těch snímcích byly vidět jejich skutečné velikosti zůstatků na jejich účtech
+
+
+ani v 1 z těch aplikací nic takového nevidím
+
+zda v placených aplikacích pro screenshoty, např. screenpresso, existuje funkce pro rozmazání nebo zakrytí citlivých informací na snímcích obrazovky před jejich sdílením s umělými asistenty či jinými osobami.
+
+
+
+
+# 2026-01-29
+moved to 03-topic-brainstorming-260129.publ.md
+
+# 2026-01-31
+260131
+moved to 03-topic-brainstorming-260129.publ.md
+
+# moving to a new file  
+
+03-topic-brainstorming-260129.publ.md
+[[03-topic-brainstorming-260129.publ]]
+
+//////////////////////////////////////////////
+
+# always on the bottom of this text
+
+# adresát nebude doma. členové domácnosti jsou částečně invalidní. potřebovali bychom nějaký signál, aspoň prozvonit, asi tak 10 až 30 minut předem... Tel. na syna adresáta je 776 255 129
+kopie
+dobrý den,
+> "dnes v čase 10:20-12:20 hod. Vám budeme doručovat zásilku."  "Cenné psaní: VL4794171713C" "Topasová 958/43, Radotín, 15300"
 
 # Z hlediska roku 2026, 2030, 2040 💚⏰!
 
@@ -973,9 +1116,20 @@ víc trávit
 
 * dělat víc přestávek při práci 
 * jíst pomaleji
+* cvičení ... masáže břicha
+* ai doporučuje
+* probiotika
+* enzymy na trávení tuků
+* jíst více vlákniny
+* pít více vody
+* méně stresu
+* víc spát
+* meditace
+* 
+
+# the philosophy of antifragility is more important 
 
 💚⏰!
-
 
 - [žít svůj sen](#žít-svůj-sen)
 - [// nejtěžší mi připadají bugy v mojí životní rutině](#-nejtěžší-mi-připadají-bugy-v-mojí-životní-rutině)
@@ -983,4 +1137,4 @@ víc trávit
 
 
 - [další dny přidávat 20 řádek před koncem souboru](#další-dny-přidávat-20-řádek-před-koncem-souboru)
-
+80

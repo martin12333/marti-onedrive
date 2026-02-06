@@ -12997,3 +12997,13 @@ cmd /c explorer $env:APPDATA\Code\User\profiles
 explorer $env:APPDATA
 mkdir ../251225-tagged-text-lines.publ.dir
 mkdir ~/251225-tagged-text-lines.publ.dir
+C:\Users\marti\OneDrive\00\Robocopy---c-onedrive---d-mir.f5.cmd
+kill -name explorer
+mkdir ~/251225.publ.dir
+code 0004-tags-251225,251212,250918,250825-life-tweet--week-tweets.weighted.publ.md
+echo now working on 251225.tagged.lines.publ.md  | code
+echo now working on 251225.tagged.lines.publ.md  | code -
+echo now working on 251225.tagged.lines.publ.md  | code README.md
+kill -name explorer
+Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+bash
