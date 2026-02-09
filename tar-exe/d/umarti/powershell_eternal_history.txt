@@ -13007,3 +13007,4 @@ echo now working on 251225.tagged.lines.publ.md  | code README.md
 kill -name explorer
 Get-Date -Format "yyyy-MM-dd HH:mm:ss"
 bash
+C:\Users\marti\OneDrive\00\Robocopy---c-onedrive---d-mir.f5.cmd
