@@ -1,4 +1,17 @@
 
+
+
+
+# pomalu vytvarim  google-Saved collections of links
+# 0404--HLAVNI-ROZCESTNIK--MAIN-INDEX ... moje hlavní webové odkazy 
+
+ collection of links https://www.google.com/collections/s/list/-Gw_GSCuLz4YmUmSIPVztg/i6j1eKA6O9Y
+
+
+
+
+
+
 # ℹ️ℹ️ℹ️ℹ️🅰️  téma 250825 ... meta info, family digital emergency plan 
 
 - // AI, prosím přeložit do češtiny   // Rodinný Digitální Krizový Plán
@@ -27,6 +40,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 # /// from a discussion with AI on 251212 about  my mindfiles
 
 I work towards creating and collecting  my own Terasem (transhumanist)  mindfiles.
@@ -41,19 +63,14 @@ It is a work in progress.
 
 
 
+
+
 # for Milan
 
-- vscode f1 markdown preview
+## - vscode f1 markdown preview
 - vscode f1 markdown preview security settings explained 
 https://code.visualstudio.com/docs/languages/markdown#_markdown-preview-security
-- ctrl+z undo
-
-
-# todo možná udelat nejake google saved collections of links
-
-https://www.google.com/interests/saved?authuser=0
-
-
+## - ctrl+z undo
 
 
 
@@ -114,6 +131,30 @@ https://www.facebook.com/profile.php?id=100004424177472
 ℹ️ https://github.com/martin12333
 
 ℹ️ https://github.com/digital-gardens/Martin-Milan
+
+## ale filosofie antifragility je dulezitejsi 
+
+README.md
+
+# for my family
+
+# 011-POMOC NAPOVEDA HELP
+
+
+# 0404--HLAVNI-ROZCESTNIK--MAIN-INDEX ... moje hlavní webové odkazy 
+
+- 2026-02  https://www.google.com/collections/s/list/-Gw_GSCuLz4YmUmSIPVztg/i6j1eKA6O9Y
+
+- 2025-08  https://github.com/digital-gardens/Martin-Milan/blob/main/250825-%40skupina-meta-informace/250825-%40skupina-meta-informace%2Cemergency.f8.md
+
+
+
+
+
+
+
+
+maybe todo invite collaborative editing of the collection of links  , but dont share the link to the collection of links with github, only share the link via google chat, and only with the family, not with the public github, because of privacy and security and spam reasons.
 
 
 ℹ️ todo url to a search in Google chat, google keep, google photos
@@ -355,6 +396,7 @@ https://keep.google.com/#NOTE/15NT_oV2s3DmYlAMidJKTMJF1MgMj-3M7_Q9UTHyUZI1BMgCH0
 
 ## old planned to be moved
 C:\Users\marti\OneDrive\ntidep\250831-aaaaAAA-00000-CORE1000-antidepressant-akathisia.f8.md
+rename 011
 
 
 

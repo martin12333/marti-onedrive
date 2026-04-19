@@ -13008,3 +13008,55 @@ kill -name explorer
 Get-Date -Format "yyyy-MM-dd HH:mm:ss"
 bash
 C:\Users\marti\OneDrive\00\Robocopy---c-onedrive---d-mir.f5.cmd
+dir
+node
+explorer "C:\Users\marti\OneDrive\OnClipboardChange-251012"
+dir s*
+dir di*
+cmd
+bash
+shutdown.exe /?
+shutdown.exe /i
+npm list -g chrome-remote-interface
+npm list  chrome-remote-interface
+npm install chrome-remote-interface
+cp C:\Users\marti\OneDrive\Dokumenty\users-marti.publ.package.json   C:\Users\marti\package.json
+dir C:\Users\marti\package*
+dir C:\Users\marti\node*
+npm list -g chrome-remote-interface
+npm list  chrome-remote-interface
+npm install chrome-remote-interface
+npm list  chrome-remote-interface
+Copy-Item -Destination C:\Users\marti\OneDrive\Dokumenty\2users-marti.publ.package.json -Path C:\Users\marti\package.json -Confirm -Verbose
+Copy-Item -Destination C:\Users\marti\OneDrive\Dokumenty\2users-marti.publ.package.json -Path C:\Users\marti\package.json -Verbose
+Add-Type -AssemblyName System.Windows.Forms
+$clipboardObj = [System.Windows.Forms.Clipboard]::GetDataObject()
+$formats = $clipboardObj.GetFormats()
+$formats | ForEach-Object { Write-Host " - $_" }
+$clipboardObj.GetFormats()
+$clipboardObj = [System.Windows.Forms.Clipboard]::GetDataObject()   ;   $clipboardObj
+$clipboardObj = [System.Windows.Forms.Clipboard]::GetDataObject()   ;   $clipboardObj.GetFormats()
+$clipboardObj = [System.Windows.Forms.Clipboard]::GetDataObject()   ;    $formats = $clipboardObj.GetFormats() ; $formats
+$clipboardObj = [System.Windows.Forms.Clipboard]::GetDataObject()   ;    $formats = $clipboardObj.GetFormats() ; $formats[3]
+$data = [System.Windows.Forms.Clipboard]::GetDataObject()   ;   $data.GetFormats() | ForEach-Object { Write-Host "`n--- $_ ---" -ForegroundColor Cyan; $data.GetData($_) }
+cp "C:\Users\marti\OneDrive\Dokumenty\0000000004\00043-tags-250825-250831-ℹℹℹℹℹ-aaaaAAA-00000-CORE1000-antidepressant-akathisia.f8.md"  "C:\Users\marti\OneDrive\Dokumenty\011-POMOC.publ.dir\00043-tags-011-subsumed-0404---ℹℹℹℹℹ-aaaaAAA-00000-CORE1000-.f8.md"
+cp "C:\Users\marti\OneDrive\Dokumenty\0000000004\00043-tags-250825-250831*"  "C:\Users\marti\OneDrive\Dokumenty\011-POMOC.publ.dir\00043-tags-011-subsumed-0404---ℹℹℹℹℹ-aaaaAAA-00000-CORE1000-.f8.md"
+cp "C:\Users\marti\OneDrive\Dokumenty\0000000004\00043-tags-250825-250831*"  "C:\Users\marti\OneDrive\Dokumenty\0404-HLAVNI-ROZCESTNIK-MAIN-INDEX.publ.dir\00043-tags-0404-shouldbe-04plan---ℹℹℹℹℹ-aaaaAAA-00000-CORE1000-.f8.md"
+cp "C:\Users\marti\OneDrive\Dokumenty\0000000004\00043-tags-250825-250831*"  "C:\Users\marti\OneDrive\Dokumenty\0404-HLAVNI-ROZCESTNIK-MAIN-INDEX.publ.dir\00043-tags-0404-shouldbe-04plan--aaaaAAA-00000-CORE1000-.f8.md"
+cp "C:\Users\marti\OneDrive\Dokumenty\0000000004\00043-tags-250825-250831*"  "C:\Users\marti\OneDrive\Dokumenty\0404-HLAVNI-ROZCESTNIK-MAIN-INDEX\00043-tags-0404-shouldbe-04plan-ℹℹℹℹℹ-aaaaAAA-00000-CORE1000-.f8.md"
+cp "C:\Users\marti\OneDrive\Dokumenty\0000000004\00043-tags-250825-250831*"  "C:\Users\marti\OneDrive\Dokumenty\0404*\00043-tags-0404-shouldbe-04plan-ℹℹℹℹℹ-aaaaAAA-00000-CORE1000-.f8.md"
+cp "C:\Users\marti\OneDrive\Dokumenty\0000000004\00043-tags-250825-250831*"  "C:\Users\marti\OneDrive\Dokumenty\0404--HLAVNI-ROZCESTNIK--MAIN-INDEX\00043-tags-0404-shouldbe-04plan-ℹℹℹℹℹ-aaaaAAA-00000-CORE1000-.f8.md"
+cp "C:\Users\marti\OneDrive\Dokumenty\0000000004\00043-tags-250825-250831*"  "C:\Users\marti\OneDrive\Dokumenty\0000000004\00043-tags-0000-is--0-SYSTEM---ℹℹℹℹℹ-aaaaAAA-00000-CORE1000-.f8.md"
+cp "C:\Users\marti\OneDrive\Dokumenty\0000000004\00043-tags-250825-250831*"  "C:\Users\marti\OneDrive\Dokumenty\011-POMOC.publ.dir\02-topic-brainstorming-260129.publ.md"
+code   "C:\Users\marti\OneDrive\Dokumenty\011-POMOC.publ.dir\02-topic-brainstorming-260129.publ.md"
+mkdir 2603-28newtab
+mkdir 250228-sklep-voda
+mkdir OLD-publ
+kill -name RSIGuard
+sshssh.exe --help
+ssh.exe --help
+where.exe scp
+bash
+cd..
+dir
+C:\Users\marti\OneDrive\00\Robocopy---c-onedrive---d-mir.f5.cmd

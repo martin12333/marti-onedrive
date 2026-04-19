@@ -3,11 +3,22 @@
 // DONT  EDIT setting.json  IN AN EXPERIMENTAL WORKSPACE
 
 // file:///C:\Users\marti\OneDrive\Dokumenty\251225.publ.dir\03-260207-editing-settings-json.publ.md
+//if settings.json has to be changed
+  //write the planned edits   [[03-260207-editing-settings-json.publ.md]]
+  //push this file to git
 
-    // the most important settings are put first here
+	  // ctrl`
+	  //  #WARNING FROM vscode / problems.. Value is not accepted. Valid values: "auto", "always", "never".
+		// rclick fix, explain,
+
+
+
 
 // related file:///C:\Users\marti\OneDrive\tar-exe\c\Users\marti\AppData\Roaming\Code\User\settings.json
 // related https://github.com/martin12333/marti-onedrive/blob/main2/tar-exe/c/Users/marti/AppData/Roaming/Code/User/settings.json
+
+
+// the most important settings are put first here
 
 
 //24Ad  comment-out  because # i need github copilot updates
@@ -31,13 +42,14 @@
 	//  - selectWord: Select the word under the cursor and show the context menu.
 	//  - nothing: Do nothing and pass event to terminal.
 
-	"terminal.integrated.enableMultiLinePasteWarning": true,
+	"terminal.integrated.enableMultiLinePasteWarning": "always",
+
 	//"terminal.integrated.enableMultiLinePasteWarning": true,
+	  // ctrl`
+	  //  #WARNING FROM vscode / problems.. Value is not accepted. Valid values: "auto", "always", "never".
+		// rclick fix, explain,
 
     "markdown.extension.toc.updateOnSave": false,   // to be lightweight? // to prevent various bugs and data loss when the extension tries to update the file without user explicitly asking for it  ..    file:///C:\Users\marti\OneDrive\Dokumenty\260207-vscode-markdown-toc-bug-hell.publ.md
-
-
-
 
 
 
@@ -191,6 +203,7 @@
 //  ok  C:\Users\marti\OneDrive\vscode-f8\vscode-quickSuggestions-completi.f8.md
 
     "[markdown]": {
+
 
 		// 2491 disabled because .hash.tsv in markdown needs tabs
 		//// 248L added

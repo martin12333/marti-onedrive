@@ -7,17 +7,43 @@ if settings.json has to be changed
 // DONT  EDIT setting.json  IN AN EXPERIMENTAL WORKSPACE 
  the   file:///c:/Users/marti/AppData/Roaming/Code/User/settings.json
 
+
+
+
+	  // ctrl`
+	  //  #WARNING FROM vscode / problems.. Value is not accepted. Valid values: "auto", "always", "never".
+		// rclick fix, explain,
+
+
+
 wait minutes 
+or run the script, that copies settings.json to onedrive
+
 
 f8
+exit
 C:\Users\marti\OneDrive\00\Robocopy---c-onedrive---d-mir.f5.cmd
 
 or
 pwsh
 ^r
 robocopy 
+
 ghd
+onedrive of dee
+
+once more maybe
+C:\Users\marti\OneDrive\00\Robocopy---c-onedrive---d-mir.f5.cmd
+
+
+
 git push 
+
+check if the file is updated 
+// related https://github.com/martin12333/marti-onedrive/blob/main2/tar-exe/c/Users/marti/AppData/Roaming/Code/User/settings.json
+
+debug
+// related file:///C:\Users\marti\OneDrive\tar-exe\c\Users\marti\AppData\Roaming\Code\User\settings.json
 
 
 
@@ -47,9 +73,16 @@ line 1
 
 
 
-
+260207
 line 167
     "markdown.extension.toc.updateOnSave": false,   // to be lightweight
     "markdown.extension.toc.updateOnSave": false,   // to be lightweight? // to prevent various bugs and data loss when the extension tries to update the file without user explicitly asking for it  ..    file:///C:\Users\marti\OneDrive\Dokumenty\260207-vscode-markdown-toc-bug-hell.publ.md
 	// todo move  up to line 40
 
+
+	"terminal.integrated.enableMultiLinePasteWarning": "always",
+
+	//"terminal.integrated.enableMultiLinePasteWarning": true,
+	  // ctrl`
+	  //  #WARNING FROM vscode / problems.. Value is not accepted. Valid values: "auto", "always", "never".
+		// rclick fix, explain,

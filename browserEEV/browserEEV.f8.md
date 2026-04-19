@@ -101,6 +101,8 @@ file:///C:\Users\marti\OneDrive\browserEEV\devtools-browserEEV-250505.f8.md
 > If you find yourself running the same code in the Console repeatedly, consider saving the code as a snippet instead. Snippets have access to the page's JavaScript context. They are an alternative to bookmarklets.
 ** chrome devtools snippets site:stackoverflow.com
 *** https://stackoverflow.com/a/16425844/3796855
+
+
 **** https://github.com/paulirish/devtools-addons/wiki/Snippets#grepjs
 
 

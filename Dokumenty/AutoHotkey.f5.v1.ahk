@@ -14,7 +14,7 @@
 ; explorer "C:\Users\marti\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\AutoHotkey.f5.lnk"
 
 ; # git push
-; # C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
+; ## C:\pf\Git\bin\bash.exe C:\Users\marti\OneDrive\00\00-git-BACKUP.f5.sh
 
 ; code C:/Users/marti/OneDrive/OnClipboardChange-251012/clipboard_log.txt
 
@@ -40,6 +40,7 @@
 
 ; https://www.autohotkey.com/docs/v1/Hotkeys.htm
 	;https://github.com/martin12333/PUBLIC-group-of-gists/blob/main/www.autohotkey.com/docs/v1/Hotkeys.htm.md
+
 ;  $ ...  This is usually only necessary if the script uses the Send command to send the keys that comprise the hotkey itself, which might otherwise cause it to trigger itself. The $ prefix forces the keyboard hook to be used to implement this hotkey, which as a side-effect prevents the Send command from triggering it. The $ prefix is equivalent to having specified [#UseHook](lib/_UseHook.htm) somewhere above the definition of this hotkey.
 
 ; As with other commands, the comma in front of the first parameter is optional.
@@ -52,11 +53,9 @@
 ;==================
 
 ; ahk 1.1
-; file:///C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
 ; see also ;Blank Template written by GroggyOtter
 
 ;============================== Start Auto-Execution Section ==============================
-
 
 #NoEnv
 
@@ -75,15 +74,15 @@
 
 
 ;251213
-
-SetKeyDelay , 111, 122
 SetKeyDelay , 53, 37
+
+;SetKeyDelay , 111, 122
 ;https://www.autohotkey.com/docs/v1/lib/SetKeyDelay.htm
 
 
-;   AAAAA    EDIT   :warning: [!!!] i have changed here   SendMode to default BECAUSE OF https://www.autohotkey.com/board/topic/55491-windows-key-still-pressed-after-script-execution/
-
+;   AAAAA    EDIT   :warning: [!!!] i have changed here   the SendMode to default, BECAUSE OF https://www.autohotkey.com/board/topic/55491-windows-key-still-pressed-after-script-execution/
 ;;;;;;;;;;;;;;;;;;;;SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+
 
 ; https://www.autohotkey.com/docs/v1/lib/SendMode.htm
 	; EDIT: NOT NOW
@@ -95,6 +94,8 @@ SetKeyDelay , 53, 37
 
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; Makes a script unconditionally use its own folder as its working directory.
+
+
 
 
 ;;; sets title matching to search for "containing" instead of "exact"
@@ -139,8 +140,12 @@ logFile :=    "C:\Users\marti\OneDrive\OnClipboardChange-251012\clipboard_log.tx
 
 ; https://www.autohotkey.com/boards/viewtopic.php?t=51041
 ;    #Persistent
+; i dont remember what is the purpose of #Persistent
 
-OnClipboardChange("ClipChanged")			; place in script's 'auto-execute section
+
+
+; 260210 disable in v1 OnClipboardChange ClipChanged
+;OnClipboardChange("ClipChanged")			; place in script's 'auto-execute section
 
 
 ;debug
@@ -149,7 +154,7 @@ OnClipboardChange("ClipChanged")			; place in script's 'auto-execute section
 ;FileAppend, "sfdsfsdf%Clipboard%"  , %logFile%
 ;FileAppend, sfdsfsdfClipboard  , %logFile%
 
-FileAppend, % "aaa" "bbb reload   `n"   , %logFile%
+FileAppend, % "aaa" "bbb v1 reload   `n"   , %logFile%
 
 ;"`n", % logFile		;then append it to text file
 
@@ -220,6 +225,7 @@ ClipChanged(Type) {
 	; i looked at highlighting {} in C lang mode ... seems ok
 	; back to ini mode ...
 
+; gemini explains that in v1, variables are ....
 
 	logFile2 :=    "C:\Users\marti\OneDrive\OnClipboardChange-251012\clipboard_log.txt"
 
@@ -230,7 +236,7 @@ ClipChanged(Type) {
 		; is (new) text in the clipboard?
 
 		;contents2 := Clipboard
-		contents2 := SubStr( Clipboard, 1, 1255)  ;   100
+		contents2 := SubStr( Clipboard, 1, 200)  ;   100  1255
 
 		FileAppend, % contents2 "`n"  , %logFile2%
 
@@ -386,9 +392,30 @@ $NumpadDot::Send {;}
 
 ;2024-06 =~~= 246    CUT COPY PASTE ^x  ^c  ^v
 
-$NumpadDiv::Send ^x
-$NumpadMult::Send ^c
-$NumpadSub::Send ^v
+; 260313
+;;;# 260313 testing ^x ^c ^v ins  file:///C:\Users\marti\OneDrive\Dokumenty\autohotkey.com\AutoHotkey.f9.md
+
+
+Browser_Favorites::Send ^x
+; ins isnt yet at C:\Users\marti\OneDrive\Dokumenty\AutoHotkey.ahk
+
+Launch_Mail::Send ^c
+;Launch_Mail::Send ^x
+;;;$NumpadDiv::Send ^x
+
+$Browser_Home::Send ^v
+;Launch_App2::Send ^c
+;;;$NumpadMult::Send ^c
+
+;see also
+; 260313
+;;;$Insert::
+;$Browser_Home::
+;Launch_App2::
+
+Launch_App1::Send ^a
+;Launch_App1::Send ^v
+;;;$NumpadSub::Send ^v
 
 
 ;;;old 2023-08 =~~= 238   ARROWS
@@ -547,7 +574,18 @@ $NumpadSub::Send ^v
 ;;
 ;;#$p::
 
-$Insert::
+
+
+
+; 260313
+;see also
+; 260313
+;Browser_Favorites
+
+;;;$Insert::
+;$Browser_Home::
+
+Launch_App2::
 {
 	Send, {Click 3}
 	Sleep, 400

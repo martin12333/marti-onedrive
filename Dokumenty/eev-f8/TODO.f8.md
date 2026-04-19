@@ -1,6 +1,35 @@
 
-file:///C:\Users\marti\OneDrive\Dokumenty\251225.publ.dir\251225.tagged.lines.publ.md
+# 2603-27phys
+musim.obnovit.rukou.traveni.leku/prosim.napiste.10.slov
 
+
+ [[2603-28new-newtab.publ.md]]
+zda namirit newtab na 
+file:///C:\Users\marti\OneDrive\Dokumenty\011-POMOC.publ.dir/011-POMOC-pro-Martina-Milana.publ.md
+nebo na
+file:///C:\Users\marti\OneDrive\Dokumenty\eev-f8\TODO.f8.md
+
+
+
+# privatni poznamky
+# téma 011-POMOC 💚 💚 
+#  filosofie antifragile je dulezitejsi 
+011-POMOC-pro-Martina-Milana.publ.md  scanned the file 03-brainstorming, transferred the content to this new file
+ 
+260306-co-person
+coMM 
+iMM
+
+new tab home page
+# extension://ahmddkokfhbdbmlioknpkipoikcckpah/options.html
+https://github.com/digital-gardens/Martin-Milan/blob/main/011-POMOC.publ.dir/011-POMOC-pro-Martina-Milana.publ.md
+https://www.google.com/interests/saved/list/fNvsFNjr6yDGlNWZGAow2Q
+
+# Z hlediska roku 2026, 2030, 2040 💚⏰!
+
+file:///C:\Users\marti\OneDrive\Dokumenty\eev-f8\TODO.f8.md
+
+file:///C:\Users\marti\OneDrive\Dokumenty\251225.publ.dir\251225.tagged.lines.publ.md
 
 file:///C:/Users/marti/OneDrive/Dokumenty/BIGfavorites_11_7_25.html
 
@@ -127,6 +156,8 @@ edge://workspaces-internals/
 
 # (R) https://hypothes.is/search?q=tag%3APINNED
 
+
+C:\Users\marti\OneDrive\Dokumenty\eev-f8\TODO.f8.md
 https://github.com/settings/appearance
 https://github.com/martin12333/marti-onedrive/blob/main2/eev-f8/TODO.f8.md
 file:///C:/Users/marti/OneDrive/eev-f8/TODO.f8.md
@@ -181,6 +212,8 @@ uz zalozim ctrl-t
 
 https://www.psas.cz/index.cfm/sluzby-firmam/odpady/svoz-bioodpadu/uzavreni-smlouvy-online/
 https://www.psas.cz/index.cfm/sluzby-firmam/odpady/svoz-bioodpadu/uzavreni-smlouvy-online/
+portal prazana?
+bankovni identita 
 
 
 
@@ -228,8 +261,36 @@ done https://www.idnes.cz/ekonomika/test-a-spotrebitel/test-toaletnich-papiru-kt
 
 
 
+https://drive.google.com/drive/recent
+# https://docs.google.com/spreadsheets/d/1qk_y0SToSfnF_5LjijxyYrjTxmQUMmYANT0oboZknkU/edit#gid=1726063795
+non24-Responses-510
 
-https://docs.google.com/spreadsheets/d/1qk_y0SToSfnF_5LjijxyYrjTxmQUMmYANT0oboZknkU/edit#gid=1726063795
+
+spreadsheets   slave buried in my grave and will go to my lord and be free   oh freedom   oh freedom   oh freedom over me   and before I'd be a slave I'll be buried in my grave and go to my lord and be free
+
+
+Chci sluncem být a ne planetou
+02 - 
+Caught in a bad romance Oh-oh-oh-oh-oh, oh-oh-oh-oh, oh-oh-oh
+hosty přijímám, jen se zajímám, copak ušít si dám.  
+otvira se jama
+i kulisák smí
+nic mě netíží, jen si prohlížím všechny šperky, co mám.  
+but i'm not the Obi-Wan
+DYNAMIT
+paranoid
+What a world of fun for everyone (holi-holiday)
+.zapomínám nevzpominam 
+Rumělku ve tvářích, ležím v polštářích, to mě právě baví,  
+dokud se zpívá, ještě se neumřelo
+server uptime he got
+Я вновь повстречался с Надеждой — приятная встреча.
+And before I'd be a slave I'd be buried in my grave And go home to my Lord and be free
+She's got a smile that it seems to me / Reminds me of childhood memories / Where everything was as fresh as the bright blue sky 
+
+
+
+
 
 
 https://neklid.net/

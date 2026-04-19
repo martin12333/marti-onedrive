@@ -7,11 +7,16 @@
 
 Martin Milan: [ an uncle, a transhumanist, a victim of antidepressants, worried about akathisia ] ## 250918 start fixing this tweet (add dr. Shipko)
 
-# 0404-MAIN-INDEX ... of my web links 
-# 0404-HLAVNÍ-ROZCESTNÍK ... moje hlavní webové odkazy 
 
-- https://github.com/digital-gardens/Martin-Milan/blob/main/250825-%40skupina-meta-informace/250825-%40skupina-meta-informace%2Cemergency.f8.md
+# for my family
 
-- https://github.com/digital-gardens/Martin-Milan/blob/main/251225.publ.dir/
+# POMOC HELP  https://github.com/digital-gardens/Martin-Milan/tree/main/011-POMOC.publ.dir
+
+# 0404--HLAVNI-ROZCESTNIK--MAIN-INDEX ... moje hlavní webové odkazy 
+
+- 2026-02  https://www.google.com/collections/s/list/-Gw_GSCuLz4YmUmSIPVztg/i6j1eKA6O9Y
+
+- 2025-08  https://github.com/digital-gardens/Martin-Milan/blob/main/250825-%40skupina-meta-informace/250825-%40skupina-meta-informace%2Cemergency.f8.md
+
 
 
