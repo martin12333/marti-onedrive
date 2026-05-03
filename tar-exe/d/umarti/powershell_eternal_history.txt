@@ -13060,3 +13060,184 @@ bash
 cd..
 dir
 C:\Users\marti\OneDrive\00\Robocopy---c-onedrive---d-mir.f5.cmd
+C:\Users\marti\OneDrive\00\Robocopy---c-onedrive---d-mir.f5.cmd
+chkdsk e:\
+cd c:\Users\milan_rxtipwr\OneDrive\0-MARTI-READONLY
+dir c:\Users\milan_rxtipwr\OneDrive\0-MARTI-READONLY
+cmd
+$shell = New-Object -ComObject Shell.Application
+$oneDrivePath = $env:OneDrive
+$rootFolder = $shell.Namespace($oneDrivePath)
+$statusCol = -1
+for ($i = 0; $i -lt 400; $i++) {`
+if ($rootFolder.GetDetailsOf($null, $i) -match 'status') {`
+$statusCol = $i`
+break`
+}`
+}
+Function Get-UnsyncedFiles {`
+    param($path)`
+    $folder = $shell.Namespace($path)`
+    if (-not $folder) { return }`
+    `
+    foreach ($item in $folder.Items()) {`
+        if ($item.IsFolder) {`
+            # Recursively go into subfolders`
+            Get-UnsyncedFiles $item.Path`
+        } else {`
+            $status = $folder.GetDetailsOf($item, $statusCol)`
+            # Filters for exact states indicating sync issues or exclusions`
+            if ($status -match 'Excluded|Error|Not synced|Pending') {`
+                [PSCustomObject]@{`
+                    Name   = $item.Name`
+                    Status = $status`
+                    Path   = $item.Path`
+                }`
+            }`
+        }`
+    }`
+}
+Get-UnsyncedFiles $oneDrivePath
+Get-UnsyncedFiles $oneDrivePath/Dokumenty
+Get-UnsyncedFiles $oneDrivePath/.*
+Get-UnsyncedFiles $oneDrivePath/02-STARTUP--roam-ms-wi-sta-p-startup
+Get-UnsyncedFiles "${oneDrivePath}\02-STARTUP--roam-ms-wi-sta-p-startup"
+echo Get-UnsyncedFiles "${oneDrivePath}\02-STARTUP--roam-ms-wi-sta-p-startup"
+$statusCol
+$path="${oneDrivePath}\02-STARTUP--roam-ms-wi-sta-p-startup"
+$folder = $shell.Namespace($path)
+if (-not $folder) { return }
+foreach ($item in $folder.Items()) {`
+if ($item.IsFolder) {`
+} else {`
+$status = $folder.GetDetailsOf($item, $statusCol)`
+echo $status`
+}`
+}
+$folder.Items()
+$folder
+$path
+get-childitem -path "${oneDrivePath}\02-STARTUP--roam-ms-wi-sta-p-startup"
+dir "${oneDrivePath}\02-STARTUP--roam-ms-wi-sta-p-startup"
+dir "${oneDrivePath}\Dokumenty\02-STARTUP--roam-ms-wi-sta-p-startup"
+$p= "${oneDrivePath}\Dokumenty\02-STARTUP--roam-ms-wi-sta-p-startup"
+Get-UnsyncedFiles  $p
+$path=$p
+$folder = $shell.Namespace($path)
+$folder.Items()
+$item= $folder.Items() | select -first 1
+$item
+$status = $folder.GetDetailsOf($item, $statusCol)
+echo $status
+$item|select -property *
+$statusCol = -1
+for ($i = 0; $i -lt 400; $i++) {`
+echo $rootFolder.GetDetailsOf($null, $i)`
+if ($rootFolder.GetDetailsOf($null, $i) -match 'status') {`
+$statusCol = $i`
+break`
+}`
+}
+$item|select  *
+$item.Verbs(`
+)
+$item.ExtendedProperty()
+explorer "C:\Users\marti\OneDrive\Dokumenty\0000000004\00044-SCRIPTS\Robocopy---c-onedrive---d-mir.f5.cmd - Shortcut.lnk"
+get-disk | select number, friendlyname, size, partitionstyle #?
+Get-PhysicalDisk | select FriendlyName, Size, MediaType
+Get-Volume | select DriveLetter, FileSystem, Size, FreeSpace, HealthStatus, DriveType
+Get-Partition | select DiskNumber, PartitionNumber, DriveLetter, Size, Type, GptType, IsBoot, IsSystem, IsActive
+Get-PartitionSupportedSize -DiskNumber 1 -PartitionNumber 1
+get-disk | select number, friendlyname, size, partitionstyle
+chkdsk e:\
+chkdsk e:
+get-disk | select number, friendlyname, size, partitionstyle
+get-disk | select -Property  number, friendlyname, size, partitionstyle
+explorer "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Acronis\True Image\Tools and Utilities\Acronis System Report.lnk"
+explorer "C:\Users\marti\OneDrive\Acronis-SystemReport\"
+explorer "C:\program files (x86)\Acronis\TrueImageHome\"
+explorer "C:\program files (x86)Acronis\TrueImageHome\"
+explorer "C:\program files (x86)\Acronis\TrueImageHome\"
+explorer "C:\Program Files (x86)\Acronis\TrueImageHome\"
+explorer "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Acronis\True Image\Tools and Utilities\Acronis System Report.lnk"
+explorer C:\Users\milan_rxtipwr\OneDrive\0-MARTI-READONLY
+D:/conda/Scripts/activate
+conda activate base
+Get-Alias bash
+Get-Alias bash -Verbose
+Get-Alias
+Set-Alias -Name  bash   -Value C:\pf\Git\bin\bash.exe
+Get-Alias bash -Verbose
+Get-Alias bash |select *
+Get-Alias bash |select *|Format-List -Property *
+C:\Pf\Git\usr\bin\echo.exe    '"hello"'
+C:\Pf\Git\usr\bin\echo.exe    '"""hello"""'
+C:\Pf\Git\usr\bin\echo.exe    "hello"
+C:\Pf\Git\usr\bin\echo.exe    '"hello"'|clip
+C:\Pf\Git\usr\bin\echo.exe    '"""hello"""'|clip
+C:\Pf\Git\usr\bin\echo.exe    "hello"|clip
+cmd.exe /c   echo    '"hello"'
+cmd.exe /c   echo    '"'hello'"'
+cmd.exe /c   echo.exe    '"hello"'
+cmd.exe /?
+cmd.exe "echo.exe"
+cd ../..
+bash --help > bash-help.txt
+code bash-help.txt
+C:\pf\Git\bin\bash.exe --verbose
+C:\pf\Git\bin\bash.exe --verbose -c help
+C:\pf\Git\bin\bash.exe --verbose -c "help set"
+C:\Pf\Git\usr\bin\echo.exe    '"hello"'
+C:\Pf\Git\usr\bin\echo.exe   --%   '"hello"'
+C:\pf\Git\bin\bash.exe   --verbose -c "help set"
+C:\pf\Git\bin\bash.exe  --% --verbose -c "help set"
+echo qqqqqqq | C:\Pf\Git\bin\bash.exe --%  -c '-'
+cmd
+kill -name explorer
+echo qqqqqqq | C:\Pf\Git\bin\bash.exe
+bash
+echo qqqqqqq | C:\Pf\Git\bin\bash.exe
+echo  *.txt
+echo ' echo  q.txt '  |dos2unix|bash
+echo qqqqqqq | bash.exe
+echo qqqqqqq | C:\Pf\Git\bin\bash.exe
+echo ' echo  q.txt '  |C:\Pf\Git\usr\bin\dos2unix.exe
+echo ' echo  q.txt '  |C:\Pf\Git\usr\bin\dos2unix.exe | C:\Pf\Git\bin\bash.exe
+echo ' echo`
+echo q.txt '  |C:\Pf\Git\usr\bin\dos2unix.exe | C:\Pf\Git\bin\bash.exe
+echo ' echo fgdfgf`
+echo q.txt '  |C:\Pf\Git\usr\bin\dos2unix.exe | C:\Pf\Git\bin\bash.exe
+mkdir dir1
+sha1sum dir1\*.*
+bash
+D:/conda/Scripts/activate
+conda activate base
+C:\Pf\Git\usr\bin\sha1sum.exe   dir1/*
+C:\Pf\Git\usr\bin\sha1sum.exe   ~/dir1/*
+C:\pf\Git\bin\bash.exe   --verbose -c "sha1sum.exe   ~/dir1/*"
+C:\pf\Git\bin\bash -c "sha1sum.exe   ~/dir1/*"
+C:\pf\Git\bin\bash -c "sha1sum   ~/dir1/*"
+C:\pf\Git\bin\bash.exe  --% --verbose -c "help set"
+C:\pf\Git\bin\bash -c "sha1sum   ~/dir1/*"
+C:\Users\marti\OneDrive\00\Robocopy---c-onedrive---d-mir.f5.cmd
+code conda-dotfiles\CWE-426--Untrusted-Search-Path---conda.f8.ps1
+cmd /c dir C:\Users\marti\OneDrive\Dokumenty   /l /n /s
+cmd /c dir C:\Users\marti\OneDrive\   /l /n /s   >  C:\Users\marti\OneDrive\Dokumenty\00\dir-onedrive-s.publ.txt
+cmd /c dir   /l /n /s   >  C:\Users\marti\OneDrive\Dokumenty\00\dir-milan-onedrive-l-n-s.publ.txt  "C:\Users\milan_rxtipwr\OneDrive\0-MARTI-READONLY\"
+mkdir protected-folders
+cmd /c mkdir protected-folders
+$(`
+icacls c:\`
+icacls.exe d:\`
+)
+$(`
+icacls c:\`
+icacls.exe d:\`
+) | clip
+$(`
+icacls.exe f:\`
+icacls g:\`
+) | clip
+cmd /c dir /n
+kill -name RSIGuard
+bash

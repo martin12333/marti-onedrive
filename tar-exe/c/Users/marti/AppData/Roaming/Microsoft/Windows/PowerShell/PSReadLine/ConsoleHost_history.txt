@@ -3724,3 +3724,4 @@ kill -Force -name code
 kill -Force -name code   -verbose
 robocopy
 pwsh
+kill -name explorer

@@ -1,4 +1,11 @@
 
+
+
+ebooks.com 
+Online Reader 20% every 30 days
+
+
+
 # .260314
 
 
@@ -179,8 +186,62 @@ existing implementations ... keywords
 - TAML - Tab Annotated Markup Language
 - antyakushev/tabdown: A tab-structured tree markup language. Inspired by Python, Markdown, and YAML
 
+- https://github.com/rand/topos/blob/main/README.md
+```
+when: user submits task creation form with valid title
+the system shall: create a new task with status "todo"
+
+acceptance:
+  given: user is authenticated
+  when: user creates task with title "Fix login bug"
+  then: task appears in task list with status "todo"
+```
+topos  2 spaces for indents
+
+# 260421
+indented structured prose
+indented structured English text
+
+# // 260314-260501-20260425-2-tree .. imagine  ... tree in markdown REFORM ..new files have 2 spaces, old files have tabs
+[[2sp.md.2sp-format--260501-260314-tree-markdown.publ.2sp.md]]
+*.2sp.md
+*.md.2sp
+
+
+
+
+# 260430 
+an example of ... tree prose? tree text? - how to call it? - in reddit markdown - emsp characters
+
+//
+I would love to find 
+several people
+who want
+to remake Markdown
+
+
+my dream 
+is better support for 
+
+- short lines 
+
+- tree structures in text
+
+https://www.reddit.com/r/tree_notations/comments/1szq58y/an_example_of_tree_prose_tree_text_how_to_call_it/
+
+
+
+example 
+
+
+
+
+
+tree structures in text
+
 
 # treenotations
+
 The things I have seen
 If you could only see the things I have seen.
 

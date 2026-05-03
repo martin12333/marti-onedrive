@@ -1,9 +1,19 @@
 ---
-tags:  pomoc help 011  0112 belly peristaltika trávení nemocnice 0119 prosím potreboval bych děkuji  meta  03 topic id identifier brainstorming 260129 260139 260203 gemini notebooklm data loss bugs features issues problems  ℹ️ℹ️ aaaa rrrr filosofie adaptability
+songs:  
+emojis:  💚 ⏰ 🎵 🎵
+blissymbols:   \_💚_ 
+tags:  ℹ️ℹ️ℹ️ℹ️ aaaa rrrrRR  resting  recovery  restore  music
+title: 0brain-   -topic-brainstorming-260129
+
 ---
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# LINKS 
+# links 
+[[0b-vyhýbat-se-nemocnici.publ.md]]
+[[011-POMOC-pro-Martina-Milana.publ.md]]
+[[0brain-topic-brainstorming-260129.publ.md]]
+[[0tra-26041-symptom-tracker.f8.md]]
+
 file:///C:\Users\marti\OneDrive\Dokumenty\0404--HLAVNI-ROZCESTNIK--MAIN-INDEX\04-topic-brainstorming-260129.publ.md
 file:///C:\Users\marti\OneDrive\Dokumenty\03.publ.dir\03-topic-brainstorming-260129.publ.md
 file:///C:\Users\marti\OneDrive\Dokumenty\011-POMOC.publ.dir\01-topic-brainstorming-260129.publ.md
@@ -26,9 +36,14 @@ píseň Tumša nakte 🎵
 
 # 260315--reddit-bug--losing   1-user subreddits
 
+
+
+
 # DONT PUBLISH EMAIL addresses 
 FIND
 @g
+
+
 
 # 2603-27phys
 # musim.obnovit.rukou.traveni.leku/prosim.napiste.10.slov
@@ -216,8 +231,165 @@ EDITING PLACE ... MANY BLANK LINES AFTER THE TEXT
 
 
 
+# [[20260425-Imagine-an-archive-of-family-texts-in-computer-form-searchable-for-centuries.publ.md]]
+
+// song: Imagine - John Lennon
+
+restore-window, reopen closed
+
+file:///C:/Users/marti/OneDrive/OnClipboardChange-251012/clipboard_log.txt
+
+### Top Comment
+
+, 3 hr. ago, Number of votes: 1. u/martinmn\_novy ~ I use "ventilated prose" in one of the largest sections of my own digital garden: > 
+todo https://bra.in/  url
+
+ Never knew it had a name. Thanks. I look forward to reviewing your new sub-reddit."](https://www.reddit.com/r/DigitalGardens/comments/1svfrtv/a_github_organization_for_future_100_years_of/oicues7/)
 
 
+(935) Want to be happy? Be grateful | David Steindl-Rast - YouTube
+
+#458: Gratitude
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Let gratitude be your goal.
+
+When you cannot be
+grateful and accepting,
+examine your resistances
+and objections.
+
+They will reveal
+the terms and conditions
+you are dictating for
+how Reality should appear.
+
+"Gratefulness is the heart of prayer."
+        Brother David Steindl-Rast
+
+
+
+1
+
+give reddit gold
+i look forward too 
+sipping tea 
+
+
+---
+
+todo Shares
+
+10
+
+---
+
+Crossposts
+
+0
+
+
+
+
+
+
+https://www.thebrain.com/docs/markdown-info
+Newline characters (when you press Enter/Return) are always respected whereas traditional Markdown would ignore single line breaks unless the line ended with space.
+
+
+
+
+
+
+
+
+
+
+
+https://www.reddit.com/poststats/1svfrtv/
+
+
+https://www.reddit.com/r/survival_of_our_info/about.json
+
+https://old.reddit.com/r/DigitalGardens/duplicates/1svfrtv/a_github_organization_for_future_100_years_of/
+
+https://github.com/notifications
+https://github.com/digital-gardens/
+
+Milan ...
+https://chat.google.com/room/AAAAKqmKeeY/Rqgaf08d-1s/Rqgaf08d-1s?cls=10 10. mám tam poslat dalších 10 nebo 20 dolarů?
+@Eduard Laifr     ale filosofové by se měli zdravit slovy.. take your time.. coz snad znamená.. nespěchám na Tebe 💚
+
+@
+Ahoj Charri,
+veliké díky za vstup do 
+https://github.com/digital-gardens/
+dnes právě zveřejňuji na redditu, jaký je smysl té GitHub organizace
+
+---  
+the reason  
+why the GitHub org  
+was created...  
+&emsp; to protect  
+&emsp; texts of members  
+&emsp; from deletion  
+&emsp; &emsp; by GitHub  
+&emsp; &emsp; when the members   
+&emsp; &emsp; become inactive  
+----  
+  
+
+Tvůj zájem o můj projekt a za Tvoji ochotu pomoci. Je to pro mě opravdu důležité, protože se snažím vytvořit něco, co by mohlo být užitečné nejen pro mě, ale i pro ostatní lidi, kteří se potýkají s podobnými problémy.
+
+
+
+
+## re the post about data loss in gemini..
+de-catastrophizing... seems to be related to huge pdfs, 
+> In the settings go to Gemini apps activity. That'll show every prompt you've done.
+
+
+macro commander?
+# vscode
+20260425 
+split right
+^h 
+
+\t
+&emsp; 
+
+$
+  
+
+
+
+
+
+
+
+
+
+
+As an AI agent operating within Google Docs, I am currently unable to perform a live search of the internet to find up-to-date and specific subreddits or external links. I can only use information already present in your documents, emails, or other selected Workspace files, and I cannot generate new external knowledge like current subreddit recommendations.
+
+If you can provide a list of subreddits or links yourself, I would be happy to help you format them and insert them into your post, ensuring I adhere to your request to keep the line breaks and indents.1
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+U+00A0   NO-BREAK SPACE (&nbsp;, &NonBreakingSpace;)
+
+Unicode has multiple non-breaking space characters:
+
+7   FIGURE SPACE (&numsp;)
+
+but I always type it as &emsp;, so that it is clear what is happening.
+
+ Imagine archives. Of family texts. In computer form. Searchable. For centuries.
+
+
+U+00A0   NO-BREAK SPACE (&nbsp;, &NonBreakingSpace;)
+U+2007   FIGURE SPACE (&numsp;)
+U+202F   NARROW NO-BREAK SPACE
+U+FEFF ZERO WIDTH NO-BREAK SPACE is a byte order mark, whose use in text is deemed an "unsupported character" in Unicode (U+2060 WORD JOINER should be used if the need arises).[20]
 
 # google drive 260323 docs 
 
@@ -344,7 +516,30 @@ https://freevoiceaac.app/app/
 
 
 
-# security incident xz-utils 
+# 260421 
+
+
+pikvm 
+
+wireless kvm 
+
+Extender umožňuje použití jednoho vysílače a více přijímačů vzájemně propojených pomocí LAN sítě, switchů a routerů (otestováno na FULL HD 1080p a 100m kabelu + swich + 2 přijímače) tato počítačová síť musí být 
+
+# vyhrazena pouze pro HDMI extendery, nesmí sdílet další počítače, tiskárny a jiná síťová zařízení.
+
+
+
+
+google image search
+# how does a neural network work with images?
+does it use a pyramid of images?
+does it split the image into parts?
+
+bird sky 
+
+
+
+# security incident xz-utils 2604
 ssh.exe --help
 
 windows 11..can ssh.exe be used to transfer files ? .. //i want it
