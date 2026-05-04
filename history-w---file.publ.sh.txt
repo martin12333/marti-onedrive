@@ -234,19 +234,13 @@ history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.ba
 multiline multiline
 multiline
 echo <<prase
-
 multiline
 multiline
-
 prase
-
 cat <<prase
-
 multiline
 multiline
-
 prase
-
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep .
 history -a;  cp -v ~/.bash_history /c/Users/marti/OneDrive/git-bash-dotfiles/.bash_history; history |grep clon
@@ -1829,7 +1823,6 @@ git show --minimal
 git show --minimal 
 git show --summary
 git show --name-only 
-
 git show --name-only git commit -v -a -m bk #chai  #sett #pandas # refactor  #bkup #zsh #missing cpio #before-refactor   #ivy #bkup #css #auto-save #nelpa  # f8
 git commit -v -a -m bk #chai  #sett #pandas # refactor  #bkup #zsh #missing cpio #before-refactor   #ivy #bkup #css #auto-save #nelpa  # f8
 git show --name-only
@@ -2265,7 +2258,6 @@ curl https://api.openai.com/v1/completions   -H "Content-Type: application/json"
     "temperature": 0.7,
     "prompt": "
 A Hello-world in the Lean Prover:
-
 "    }'
 echo https://api.openai.com/v1/completions   -H "Content-Type: application/json"   -H "Authorization: Bearer $OPENAI_API_KEY"   -d '{
     "model": "text-davinci-003",
@@ -2477,7 +2469,6 @@ exit
 find -type f "C:\Users\marti\AppData\Local\Packages\"
 find -type f 'C:\Users\marti\AppData\Local\Packages\'
 exit
-
 ""
 "
 find -type f 'C:\Users\marti\AppData\Local\Packages\'
@@ -3452,3 +3443,8 @@ git remote add origin https://github.com/digital-gardens/Martin-Milan
 git fetch origin main
 find . -name '260504*' -exec  cp -iv {} ~/0tmp/260504-git-reset--mixed-origin-main-safety-test/   \;
 history -a
+du -sk  /d/GIT-bk04/*Dokumenty.git*
+git fetch origin main
+git reset --mixed origin/main
+history -a
+history -w ../history-w---file.publ.sh.txt

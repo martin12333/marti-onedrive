@@ -13241,3 +13241,12 @@ icacls g:\`
 cmd /c dir /n
 kill -name RSIGuard
 bash
+C:\Users\marti\OneDrive\Dokumenty\00\Robocopy---c-onedrive---d-mir.f5.cmd
+chkdsk d:
+kill -name explorer
+explorer.exe
+bash
+.\Dokumenty-Robocopy---c-Dokumenty---d-mir.f5.cmd
+.\Robocopy---c-onedrive---d-mir.f5.cmd
+.\Dokumenty-Robocopy---c-Dokumenty---d-mir.f5.cmd
+.\Robocopy---c-onedrive---d-mir.f5.cmd

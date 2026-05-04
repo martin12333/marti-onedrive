@@ -3725,3 +3725,17 @@ kill -Force -name code   -verbose
 robocopy
 pwsh
 kill -name explorer
+pwsh
+net stop wsearch
+powershell.exe
+net stop wsearch
+get-process SearchIndexer
+taskkill /F /IM SearchIndexer.exe /T
+powershell.exe
+taskkill /F /IM SearchIndexer.exe /T
+get-process SearchIndexer
+sc config wsearch start= disabled
+bash
+exit
+bash
+pwsh
