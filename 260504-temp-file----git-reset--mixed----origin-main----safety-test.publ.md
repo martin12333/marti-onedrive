@@ -1,8 +1,9 @@
-
+temp copy   ... old  
 # C:\Users\marti\OneDrive\260504-temp-file----git-reset--mixed----origin-main----safety-test.publ.md
 
 # 260504.1819-my-gitignore--highly-unusual-setup.publ.md
-maybe todo mk file for the topic
+
+ todo mk file for the topic
 mk github issue
 edit readme.md
 

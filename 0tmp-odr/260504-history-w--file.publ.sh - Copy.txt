@@ -127,6 +127,9 @@ git branch -vv
 git branch -vv  --all
 git branch -vv  --all | clip
 
+
+
+
 find . -name '260504*' -exec  cp -iv {} ~/0tmp/260504-git-reset--mixed-origin-main-safety-test/   \;
 
 y
@@ -163,6 +166,8 @@ marti@MB-PC MINGW64 ~/OneDrive/Dokumenty (main)
 $
 
 
+    git push --set-upstream origin main
+git push
 
 history -a
 
