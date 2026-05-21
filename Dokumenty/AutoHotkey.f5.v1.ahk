@@ -291,6 +291,7 @@ ClipChanged(Type) {
 
 
 
+;#if ==============================  ==============================
 
 ;243324;'\-09,3443šěčýžýžščýžř'  čšřšřčů§¨¨ú)(,,)řčžřčž
 
@@ -383,6 +384,7 @@ $NumpadDot::Send {;}
 
 #If  ; turn context-sensitivity back off
 ; 251213    end of commented out------------------------------
+;#if ==============================  ==============================
 
 
 
@@ -467,14 +469,89 @@ Launch_App1::Send ^a
 
 
 
+; file:///C:/Users/marti/OneDrive/OnClipboardChange-251012/clipboard_log.txt
+; log contains the word.. reload
+;TEST  test :    ^#{space}  win+q auto  AutoHotkey run the app ... it asks to reload this ahk file
+
+;============================== Click_and_Copy  ==============================
+
+; claude
+
+; in AutoHotkey.ahk  v1
+; how can i write
+; code like #IfWinActive ahk_exe msedge.exe OR chrome.exe
+
+; answer:  you cant, but you can write ...
+; GroupAdd, MyBrowserGroup, ahk_exe msedge.exe
+; GroupAdd, MyBrowserGroup, ahk_exe chrome.exe
+; ......
+; and in version 2, you can write
+; GroupAdd("MyBrowserGroup", "ahk_exe msedge.exe")
+; GroupAdd("MyBrowserGroup", "ahk_exe chrome.exe")
 
 
-;============================== chrome ==============================
-
-#IfWinActive ahk_exe msedge.exe
+; 20260512
+; #IfWinActive ahk_exe msedge.exe
 ;	#IfWinActive ahk_exe chrome.exe
+;#if any winactive
+#IfWinActive
 
-; in AutoHotkey.ahk  v1.1
+;AutoHotkey
+; is it possible in v1 or v2 to write something like
+;;;simplified version
+
+Launch_App2::
+{
+
+	if(WinActive("ahk_exe code.exe") or WinActive("ahk_exe notepad.exe") ) {
+		Click_and_Copy(2)
+	}else {
+		Click_and_Copy(3)
+	}
+	return
+}
+
+
+
+; 260313
+;see also
+; 260313
+;Browser_Favorites
+
+;;;$Insert::
+;$Browser_Home::
+
+Click_and_Copy(clicks) {
+	Send, {Click %clicks%}
+	Sleep, 400
+	Send, ^c
+	return
+}
+
+
+;v2
+;Click_and_Copy(clicks) {
+;    Send "{Click " clicks "}"
+;    Sleep 400
+;    Send "^c"
+;}
+
+
+;;Launch_App2::
+;;{
+	;;Send, {Click 3}
+;;...
+;;}
+
+
+;TEST  test :   win+q auto  AutoHotkey run the app ... it asks to reload this ahk file
+
+
+
+
+
+
+
 
 ; i have a keyboard with a failing key "Esc"
 
@@ -576,28 +653,6 @@ Launch_App1::Send ^a
 
 
 
-
-; 260313
-;see also
-; 260313
-;Browser_Favorites
-
-;;;$Insert::
-;$Browser_Home::
-
-Launch_App2::
-{
-	Send, {Click 3}
-	Sleep, 400
-	;Sleep, 2200
-	Send ^c
-
-	return
-}
-
-
-;TEST  test :   win+q auto  AutoHotkey run the app ... it asks to reload this ahk file
-
 ;;
 ;;
 
@@ -655,7 +710,7 @@ Launch_App2::
 
 
 
-;============================== not chrome ==============================
+;#if ============================== not chrome ==============================
 
 #IfWinActive
 
@@ -769,6 +824,9 @@ Send %contents%{Enter}
 
 #IfWinActive
 ;, subsequently-created hotkeys and hotstrings are not context-sensitive.
+
+;#if ==============================  ==============================
+
 
 MsgBox NOTHING
 

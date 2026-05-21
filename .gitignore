@@ -32,6 +32,9 @@
 !README.*
 !.gitignore
 
+
+# 20260518
+/Pictures/
 #Obr*/
 /Obr*/
 /Vide*/

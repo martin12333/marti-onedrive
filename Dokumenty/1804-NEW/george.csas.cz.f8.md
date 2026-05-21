@@ -20,7 +20,11 @@ virtgeorg
 
 
 # jestli clipboard, asi po kouskach, prostredek asi jen na papirek
+
+
 # na chvili vypnu edge clipbo manager, muj ahk clipb hisotrry pak zase zapnu
+=================
+
 # a vymazu z win+v
 
 #  radeji podivatse, zda se tam pravidelne mesicne neco neplati 
@@ -140,3 +144,61 @@ George Business
 VS 39  17/1/2025 
 
 same as non-Business
+
+
+
+
+
+# https://bezpecnost.csas.cz/ssp_idm/linked-accounts  20260510  dr. Praško   dekatastrofizace 
+
+
+
+Nastavení jazyka / Language settings - Čeština
+
+Odh
+lášení
+Pokud na Vaší straně v příštích 04:59 minutách nezaznamenám žádnou aktivitu, z bezpečnostních důvodů Vás odhlásím.
+Moje Bankovní IDentita
+
+Přejít do George
+Přehled
+Propojené účty a multibanking
+Propojené účty a multibankingV přehledu jsou aplikace, kterým jste udělili přístup k informacím o Vašich účtech podle PSD2 směrnice. Jedná se například o aplikace pro správu financí, multibanking (Vaše účty propojené v bankovnictví jiné Vaší banky) atd.
+
+Účty propojené mnou
+Účty propojené disponentem
+Propojené karty
+Přehled aplikací s propojenými účty
+
+Smazat všechny aplikace
+kevin.
+Kevin EU, UAB
+
+Popis
+Kevin is a licensed payment institution focusing on solutions based on PSD2 directive with vision to become a connection between Banks, Customers and Fintechs.
+Povolené služby
+Přístup k informacím o Vašich účtech
+Možnost zadat platbu
+Přístupy aplikace k účtům
+Číslo účtu	Název účtu	Typ účtu	Přístup k účtu
+Účet
+
+Povolený
+
+Smazat aplikaci
+
+Potvrdit změny
+
+Zrušit změny
+
+Historie požadavků
+Logo
+Bezpečnost
+Bankovní IDentita
+Kontakty
+version: 1.134.7
+
+... chcete mi říct, že ten "kevin." je default pro každého uživatele_?
+
+
+zda jiní uživatelé se na toto ptají 

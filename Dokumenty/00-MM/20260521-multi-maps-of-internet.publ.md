@@ -1,0 +1,180 @@
+20260521-multi-maps-of-internet.publ.md
+?
+my interfaces to cyber space
+?
+web notebooks?
+
+
+01 
+
+02 
+
+03 
+
+04 
+
+
+
+pilot
+ lists of files
+ lists of links
+ lists of notes
+ lists of maps
+ lists of maps of maps
+ lists of maps of maps of maps
+
+tc fail fail 
+
+
+
+
+
+
+
+cd ..
+cmd /c  dir .git  /s /b /a
+
+cd OneDrive
+git ls-files
+
+
+
+
+cmd /c dir /s /b  | clip
+is it sorted by name ?
+no, it is sorted by path depth first?
+alt-z 
+
+help 
+cmd /c dir /?
+
+cmd /c dir /s /b  | measure-object
+cmd /c dir /s /b /a-h | measure-object
+cmd /c dir /s /b  /aa | measure-object
+cmd /c dir /s /b  /ai | measure-object
+
+cmd /c dir /s /b  /ad | measure-object
+
+cmd /c dir /s /b  /a-d | measure-object
+192
+
+cmd /c dir /s /b  /a-d | clip
+
+cmd /c dir /s >e
+
+cmd /c dir /s >e
+| clip
+   | measure-object
+cmd /c dir /s /n  >n
+|clip
+  | measure-object
+
+cmd /c fc e n >f
+code f
+code e
+code n
+
+cmd /c dir /s /w /o /p | measure-object
+cmd /c dir /s /w /o /p  /a:-d | measure-object
+cmd /c dir /s /w /o /p  /a:d | measure-object
+
+
+cd ..
+mkdir  dir
+cd dir
+tc move .git elsewhere
+or make it hidden 
+
+cmd  /c   move .git ..\elsewhere
+cmd  /c   move /?
+
+
+fail
+windows command to make a file hidden
+cmd /c attrib +h .git
+
+
+
+cd d:\0004-LINKS
+git clone c:\Users\marti\OneDrive\Dokumenty\00-MM
+cd 00-MM
+
+tc 
+
+git ls-files 
+git ls-files -v
+git ls-files -v --debug
+git ls-files -v --stage
+git ls-files -v --format='%(objecttype) %(stage)   %(path)' 
+ | findstr /i -v blob
+
+
+
+cd d:\0004-LINKS
+git clone c:\Users\marti\OneDrive\Dokumenty\00-MM
+cd 00-MM
+
+rather not 
+# MODIFIES GIT DIR 
+git read-tree --help
+git read-tree --dry-run
+###################### git read-tree 
+192 changed files
+git ls-files 
+0 
+
+
+git reset --soft    --dry-run  -vv
+git reset --soft  
+git reset --mixed 
+
+git ls-files |measure-object 
+192 
+
+
+
+ --format='%(objectname) %(path)'
+FIELD NAMES
+The way each path is shown can be customized by using the --format=<format> option, where the %(fieldname) in the <format> string for various aspects of the index entry are interpolated. The following "fieldname" are understood:
+
+objectmode
+The mode of the file which is recorded in the index.
+
+objecttype
+The object type of the file which is recorded in the index.
+
+git ls-files | clip
+git ls-files  --help
+
+ME
+git-ls-files - Show information about files in the index and the working tree
+
+SYNOPSIS
+git ls-files [-z] [-t] [-v] [-f]
+		[-c|--cached] [-d|--deleted] [-o|--others] [-i|--ignored]
+		[-s|--stage] [-u|--unmerged] [-k|--killed] [-m|--modified]
+		[--resolve-undo]
+		[--directory [--no-empty-directory]] [--eol]
+		[--deduplicate]
+		[-x <pattern>|--exclude=<pattern>]
+		[-X <file>|--exclude-from=<file>]
+		[--exclude-per-directory=<file>]
+		[--exclude-standard]
+		[--error-unmatch] [--with-tree=<tree-ish>]
+		[--full-name] [--recurse-submodules]
+		[--abbrev[=<n>]] [--format=<format>] [--] [<file>…​]
+
+
+
+
+
+
+compare to
+yesterday evening's experiment with 
+JB chrome and edge
+bookmarklets?
+bookmark folders
+011JB-POMOC 
+
+
+

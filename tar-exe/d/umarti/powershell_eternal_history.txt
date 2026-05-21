@@ -13251,3 +13251,89 @@ bash
 .\Dokumenty-Robocopy---c-Dokumenty---d-mir.f5.cmd
 .\Robocopy---c-onedrive---d-mir.f5.cmd
 .\Dokumenty-Robocopy---c-Dokumenty---d-mir.f5.cmd
+C:\Users\marti\OneDrive\Dokumenty\00\Robocopy---c-onedrive---d-mir.f5.cmd
+icacls i:
+$(`
+icacls i:`
+)
+icacls d:
+icacls i:\
+icacls d:\
+icacls i:\*
+icacls i:\*\
+icacls i:\*
+icacls /?
+icacls /?|clip
+icacls i:\*    |clip
+icacls i:\Users\*
+icacls i:\*
+icacls d:\*
+icacls d:\
+icacls i:\
+icacls i:\Users\*
+icacls d:\Users\*
+$(`
+icacls i:\`
+icacls d:\`
+icacls i:\*`
+icacls d:\*`
+icacls i:\Users\*`
+icacls d:\Users\*`
+) >i260503-icacls-before-delete-disk-dee.publ.icacls.txt
+chkdsk c:
+powershell
+cmd /c dir /?
+bash -c "df -h"
+cmd  /c dir  "C:\Users\milan_rxtipwr\OneDrive\Obrázky\Samsung Gallery"
+cmd  /c dir  /s "C:\Users\milan_rxtipwr\OneDrive\Obrázky\Samsung Gallery"
+cmd  /c dir  /s   /n  "C:\Users\milan_rxtipwr\OneDrive\Obrázky\Samsung Gallery"
+cmd  /c dir  /s   /n  "C:\Users\milan_rxtipwr\OneDrive\Obrázky\Samsung Gallery"   |   findstr 'bytes'
+cmd  /c dir  /s   /n  "C:\Users\marti\OneDrive\Obrázky\Camera Roll"   |  findstr 'bytes'
+cmd  /c dir  /s   /n  "C:\Users\milan_rxtipwr\OneDrive\Obrázky\Samsung Gallery"   |   findstr 'bytes'
+cmd  /c dir  /s   /n  "C:\Users\milan_rxtipwr\OneDrive\Obrázky"   |   findstr 'bytes'
+Tee-Object -cmd  /c dir  /s   /n  "C:\Users\marti\OneDrive\Obrázky\"   |  findstr 'bytes'  |   Tee-Object -Append -FilePath "C:\Users\marti\OneDrive\Dokumenty\dir--findstr--bytes--photos-Obrázky-20260508.publ.txt"
+cmd  /c dir  /s   /n  "C:\Users\marti\OneDrive\Obrázky\"   |  findstr 'bytes'  |   Tee-Object -Append -FilePath "C:\Users\marti\OneDrive\Dokumenty\dir--findstr--bytes--photos-Obrázky-20260508.publ.txt"
+cmd  /c dir  /s   /n  "C:\Users\milan_rxtipwr\OneDrive\Obrázky"   |   findstr 'bytes'   |   Tee-Object -Append -FilePath "C:\Users\marti\OneDrive\Dokumenty\dir--findstr--bytes--photos-Obrázky-20260508.publ.txt"
+code "C:\Users\marti\OneDrive\Dokumenty\dir--findstr--bytes--photos-Obrázky-20260508.publ.txt"
+cmd  /c dir  /s   /n  "C:\Users\milan_rxtipwr\OneDrive\Obrázky"   |   findstr 'bytes'   |   Tee-Object -Append -FilePath "C:\Users\marti\OneDrive\Dokumenty\dir--findstr--bytes--photos-Obrázky-20260508.publ.txt"
+wsl    --list   --all
+dir c:\Users\marti\AppData\Local\Packages\Claude_pzs8sxrjxfjjc\LocalCache\Roaming\Claude\vm_bundles\claudevm.bundle\
+kill -name RSIGuard
+dir */.git
+bash
+kill -name TOTALCMD64
+dir D:\0004-LINKS\OneDrive\Dokumenty\
+dir D:\0004-LINKS\OneDrive\
+dir D:\0004-LINKS\
+dir D:\0004-LINKS\Dokumenty
+bash
+C:\Users\marti\OneDrive\Dokumenty\00\Dokumenty-Robocopy---c-Dokumenty---d-mir.f5.cmd
+powershell
+exit
+C:\Users\marti\OneDrive\Dokumenty\00\Dokumenty-Robocopy---c-Dokumenty---d-mir.f5.cmd
+cmd
+exit
+$PSEdition
+code "C:\Users\marti\OneDrive\Dokumenty\03AiAGENT-RW\03-settings"
+code "C:\Users\marti\OneDrive\Dokumenty\20260511-claude.ai\03-settings"
+mkdir  "C:\Users\marti\OneDrive\Dokumenty\20260511-claude.ai\03AiAGENT-RW"
+cmd /c dir /a   "C:\Users\marti\AppData\Roaming\Code\User\snippets"
+cmd /c dir /a   "C:\Users\marti\AppData\Roaming\Code\User\"
+cmd /c dir /a   "C:\Users\marti\AppData\Roaming\Code\User\" | clip
+cmd /c dir /a   "C:\Users\marti\AppData\Roaming\Code\User\snippets"
+wt.exe
+C:\Users\marti\OneDrive\Dokumenty\00\Robocopy---c-onedrive---d-mir.f5.cmd
+cmd /c mklink /help
+cmd  mklink /help
+notepad C:\Users\marti\OneDrive\Dokumenty\AAAA-windows-JUNCTION-SYMLINK-warning\windows-JUNCTION-SYMLINK-warning.f8.ps1
+notepad C:\Users\marti\OneDrive\Dokumenty\AAAA-windows-JUNCTION-SYMLINK-warning\windows-JUNCTION-SYMLINK-warning.f8.ps1.md
+cmd /c dir /a   "C:\Users\marti\AppData\Roaming\Code\User\snippets"
+C:\Users\marti\OneDrive\Dokumenty\00\Dokumenty-Robocopy---c-Dokumenty---d-mir.f5.cmd
+cmd /c mklink /j "C:\Users\marti\OneDrive\roam-code-us-snipp" "C:\Users\marti\OneDrive\Dokumenty\roam-code-us-snipp"
+cmd /c dir "C:\Users\marti\OneDrive\roam-code-us-snipp" "C:\Users\marti\OneDrive\Dokumenty\roam-code-us-snipp"
+cmd /c dir /a   "C:\Users\marti\AppData\Roaming\Code\User\snippets"
+cmd /c  dir    "C:\Users\marti\OneDrive\roam-code-us-snipp" "C:\Users\marti\OneDrive\Dokumenty\roam-code-us-snipp"
+mkdir    "C:\Users\marti\AppData\Roaming\Code\User\snippets\20260518-junction-to-junction"
+mkdir    "C:\Users\marti\AppData\Roaming\Code\User\snippets\0004-info-20260518-junction-to-junction"
+cmd /c dir /a   "C:\Users\marti\AppData\Roaming\Code\User\snippets"
+C:\Users\marti\OneDrive\Dokumenty\00\Robocopy---c-onedrive---d-mir.f5.cmd

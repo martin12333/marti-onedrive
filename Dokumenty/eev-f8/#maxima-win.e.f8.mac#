@@ -1,0 +1,68 @@
+# f8_text_file
+# (an f8_text_file is-not meant to be run as a whole)
+)
+exit
+
+# (selected lines from this file can be run in a terminal ... e.g. by the F8 key, customly bound to runSelectedText  )
+
+echo '-------- section --------'
+
+
+
+OPENED IN EMACS
+
+
+
+
+code C:\Users\marti\OneDrive\emacs\emacs---runemacs.f8.ps1
+
+
+
+ (eepitch-eshell)
+ (eepitch-kill)
+ (eepitch-eshell)
+
+
+
+
+cmd.exe
+C:\Users\marti\maxima\bin\maxima.bat
+
+5*7 ;
+
+
+
+
+
+	file:///C:\Users\marti\OneDrive\eev-f8\maxima.e.mac
+	http://anggtwu.net/e/maxima.e.html
+	colv([entries]) := covect(entries);
+	w : covect([2, 3]); A . w; transpose(v) . w; dotproduct(v, w);
+
+
+
+
+
+
+
+
+opened in emacs
+C:\Users\marti\OneDrive\eev-f8\w32.e.el
+
+
+
+echo $PATH
+env
+set
+
+
+   node -i
+    .exit
+
+
+
+
+file:///C:\Users\marti\OneDrive\eev-f8\msys2-problem--msys2-cmd.f8.ps1
+where.exe cmd
+D:\msys64\usr\bin\cmd
+C:\Windows\System32\cmd.exe

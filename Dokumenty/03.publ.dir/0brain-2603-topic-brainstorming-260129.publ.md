@@ -214,11 +214,29 @@ zbývají 2 _? problémy
 
 
 
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  EDITING PLACE ... MANY BLANK LINES AFTER THE TEXT 
+
+
+
+# 20260515.jóga..mudry..vědecké.vysvětlení.publ.md
+[[20260515.jóga..mudry..vědecké.vysvětlení.publ.md]]  
+
+
+
+[[aaa youtube transcript Beseda na téma demence seniorů a jak ji rozpoznat.publ.md]]
+
+
+
+
+
+
+
 # voyager This means our previous listing — with 160,000+ users and 700–800 reviews — is gone, at least for now. It's a real loss, and we're genuinely sad about it. A huge thank-you to everyone who supported us there. We hope you'll follow us to the new home and continue the journey together.
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-EDITING PLACE ... MANY BLANK LINES AFTER THE TEXT 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  EDITING PLACE ... MANY BLANK LINES AFTER THE TEXT 
 
 
 # scan file:///C:\Users\marti\OneDrive\Dokumenty\0404--HLAVNI-ROZCESTNIK--MAIN-INDEX\04-topic-brainstorming-260129.publ.md
@@ -226,6 +244,14 @@ EDITING PLACE ... MANY BLANK LINES AFTER THE TEXT
 
 
 
+
+
+
+# topic 260406 beauty in computing, in math, in math philosophy
+## 20260512 related 
+google photos
+260406  20260512  wonder joy success dopamine opens possibilities happy fun pleasure good feelings útěcha úleva satisfaction  beauty
+https://photos.google.com/album/AF1QipNc7qT9tTaxhZeKumslGVKLvgps9R5uCLTJ4dfz
 
 
 
@@ -250,7 +276,7 @@ todo https://bra.in/  url
 (935) Want to be happy? Be grateful | David Steindl-Rast - YouTube
 
 #458: Gratitude
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Let gratitude be your goal.
 
 When you cannot be
@@ -298,14 +324,175 @@ Newline characters (when you press Enter/Return) are always respected whereas tr
 
 
 
+# https://www.reddit.com/answers/
+
+
+https://www.reddit.com/answers/16c32ef7-e5c3-4248-ba1b-17adf57836ea/?q=personal+notations&source=ANSWERS&tl=en
+
+personal notations
+personal symbols
+Essentials
+@@
+attendees
+!!
+tasks
+##
+agenda
+~~
+status
+::
+notes
+**
+critical
+&&
+dependency
+%%
+budget
+??
+queries
+>>
+decisions
+))
+blockers
+
+
+ ?^ where
+
+, ?~ when
+?^
+where
+?~
+when
+?!
+how
+?&
+why
+&+
+yes
+&-
+no
+!=
+confirm
+&(
+true
+~<
+past
+~*
+now
+~>
+future
+~$
+deadline
+@*
+vip
+@&
+partner
+@!
+staff
+
+?@ who, @$ client,  !< give, !> take ...
+
+# writing as immortality
+
+# a chrome setting or a devtools setting to 
+see the mobile version of a website on desktop
+e.g. reddit
+
+
+# screen sharing, Windows Home to Windows Home
+
+is it possible to share screen from one Windows Home computer to another Windows Home computer without using any third-party software, just using built-in Windows features? 
+
+
+2. Project to this PC (Best for the same Wi-Fi network)
+On the receiving computer:
+
+Go to Settings > System > Projecting to this PC.
+
+Note: You might need to click "Optional features" to install the "Wireless Display" feature first.
+
+Once installed, adjust the settings to allow connections.
+
+Click "Launch the Connect app to project to this PC".
+
+On the sharing computer:
+
+Press the Windows key + K on your keyboard.
+
+This will open the "Cast" menu on the right side of your screen.
+
+Select the receiving computer from the list to connect.
+
+what about 
+a chrome web app 
+e.g. google meet 
+could it have the rights to capture the screen and share it with another computer?
+
+Web apps like Google Meet use a technology called the Screen Capture API.
+It works perfectly on Chrome, Edge, and Firefox.
+
+what about windows 
+win+g game bar 
+can it share the screen to another computer?
+The Windows Game Bar (Win + G) is primarily designed for recording and streaming gameplay, and it does not have built-in functionality to share your screen directly with another computer. It is more focused on local recording and streaming to platforms like Twitch or YouTube rather than peer-to-peer screen sharing.
+
+
+
+#false-alarm
+```powershell
+
+bash -c "df -h"
+
+get-disk 
+get-partition
+get-volume
+# free space
+get-volume | select-object driveletter, freespace, size
+exit
+```
+C:\Users\marti\OneDrive\Videos\Captures
+
+what about ms teams?
+
+
+# https://claude.ai/onboarding
+[[202605-claude.ai.publ.md]]
+
+
+
+# Karpathy LLM wiki pattern ... LLM Agent (e.g. OpenAI Codex, Claude Code, OpenCode / Pi, or etc.). .... my question 1. 
+(read, write markdown files) 
+what are the etc ...
+- Gemini cli?
+- github copilot?
+- what else?
+- 
+
+
+
+# which ai can see my clipboard ... i want it ... gemini-cli?  gemini in vscode? windsurf? claude?
+
+
+# 20260509-ChatGPT.com-vs-openai.com
+
+https://platform.openai.com/
+
+[[openai-234.f8.md]]
+
+
+
+
+# 20260508  android-photos-backup-sync
+[[photos-250318.publ.md]]
+[[photos--Samsung-cloud--Samsung-gallery-250318-20260508.publ.md]]
+   photos  backup   photos sync
+#stress !!!!!!!!!
 
 
 
 
 
-
-
-https://www.reddit.com/poststats/1svfrtv/
+# https://www.reddit.com/poststats/1svfrtv/
 
 
 https://www.reddit.com/r/survival_of_our_info/about.json

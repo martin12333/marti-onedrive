@@ -4,18 +4,36 @@ https://keep.google.com/#NOTE/1yQRx5wMYT-cIAVNwFqXWqQIsnFhMnNHkVVuT9LesA5ZRHDAJc
 
 # #1r04 
 
-# https://www.mojedatovaschranka.cz/portal/ISDS/nastaveni/dudz/kredit/zmena/1  # #1r04 
-https://www.mojedatovaschranka.cz/portal/ISDS/nastaveni/dudz/kredit/zmena/1
-https://www.mojedatovaschranka.cz/portal/ISDS/nastaveni/dudz/kredit
+stav  
+//https://www.mojedatovaschranka.cz/portal/ISDS/nastaveni/dudz/kredit
 
+# https://www.mojedatovaschranka.cz/portal/ISDS/nastaveni/dudz/kredit/zmena/1  # #1r04 
+
+
+
+https://www.mojedatovaschranka.cz/portal/ISDS/nastaveni/dudz/kredit/zmena/1
+
+zvolit moznost
 ## Končí platnost trezoru, potřebuji prodloužit a navázat platnost na stávající trezor → kapacita zůstane stejná (pokud se stále nabízí), platnost naváže na současný trezor.
 
-### Tato inovativní funkcionalita umožňuje obnovu smazaných zpráv do dvou měsíců od jejich odstranění z Datového trezoru, což přináší novou úroveň zabezpečení a klidu pro uživatele, kteří omylem smažou důležité zprávy nebo jim vypršel Datový trezor. Služba je dostupná jak pro fyzické osoby, tak pro firmy. Platbu za službu je možné hradit pouze prostřednictvím kreditu.
 
-Cena je uvedena za období 1 roku.
+// Tato inovativní funkcionalita umožňuje obnovu smazaných zpráv do dvou měsíců od jejich odstranění z Datového trezoru, což přináší novou úroveň zabezpečení a klidu pro uživatele, kteří omylem smažou důležité zprávy nebo jim vypršel Datový trezor. Služba je dostupná jak pro fyzické osoby, tak pro firmy. Platbu za službu je možné hradit pouze prostřednictvím kreditu.
+
+vpravo 
+
+Navržené nastavení
+Kapacita:
+20 zpráv
+Platí od:
+16. 05. 2026
+Platí do:
+15. 05. 2027
 Cena:
 120 Kč
+
 Máte dostatečný kredit. Po aktivaci nového nastavení Vám bude cena odečtena z kreditu
+
+---
 
 Datový trezor byl úspěšně nastaven.
 
@@ -37,7 +55,7 @@ Smluvní Datový trezor
 vhodný pro **právnické** osoby se standardní nebo větší agendou
  U **smluvního** Datového trezoru se zbavíte starostí se sledováním doby platnosti služby. Smlouvu Vám vždy po jednom roce automaticky obnovíme. Díky tomu se už nemusíte bát, že si zapomenete službu prodloužit a přijdete tak o Vaše důležité zprávy. Po uplynutí jednoho roku Vám zašleme na Vaše kontaktní údaje proforma fakturu, kterou stačí uhradit, a už se nemusíte o nic víc starat.
 
-//ano
+//ano ... to uz mam 
 Můžete si také snadno a rychle aktivovat **kreditní** Datový trezor přímo v nastavení datové schránky. Kreditní Datový trezor je správná volba pro ty, kteří nemají rádi smlouvy a závazky. Platit lze pomocí online převodu přes e-banking, platební kartou nebo standardním bankovním převodem.
 
 

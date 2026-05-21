@@ -3739,3 +3739,13 @@ bash
 exit
 bash
 pwsh
+Get-WinEvent -FilterHashtable @{LogName='System'; ProviderName='disk'  }
+cmd
+diskpart.exe
+get-disk
+get-partition
+get-volume
+get-volume | select-object driveletter, freespace, size
+kill -name RSIGuard
+exit
+pwsh
